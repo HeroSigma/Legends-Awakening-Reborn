@@ -790,7 +790,8 @@ string generate_layout_headers_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald")
+        bool isLaFrlg = (version == "emerald" && layout_version == "la_frlg");
+        if ((version == "emerald" && layout_version != "emerald" && !isLaFrlg)
          || (version == "firered" && layout_version != "frlg"))
             continue;
         string layoutName = json_to_string(layout, "name");
@@ -808,12 +809,12 @@ string generate_layout_headers_text(Json layouts_data) {
              << "\t.4byte " << blockdata_label << "\n"
              << "\t.4byte " << json_to_string(layout, "primary_tileset") << "\n"
              << "\t.4byte " << json_to_string(layout, "secondary_tileset") << "\n";
-        if (layout_version == "frlg")
+        if (layout_version == "frlg" || isLaFrlg)
             text << "\t.byte TRUE\n";
         else
             text << "\t.byte FALSE\n";
 
-        if (layout_version == "frlg")
+        if (layout_version == "frlg" || isLaFrlg)
         {
             text << "\t.byte " << json_to_string(layout, "border_width") << "\n"
                  << "\t.byte " << json_to_string(layout, "border_height") << "\n"
@@ -848,7 +849,8 @@ string generate_layouts_table_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg")) {
+        bool isLaFrlg = (version == "emerald" && layout_version == "la_frlg");
+        if ((version == "emerald" && layout_version != "emerald" && !isLaFrlg) || (version == "firered" && layout_version != "frlg")) {
             text << "\t.4byte NULL\n";
         } else {
             string layout_name = json_to_string(layout, "name", true);
