@@ -61,4 +61,9 @@ extern const struct Tileset gTileset_SSAnne;
 extern const struct Tileset gTileset_SeaCottage;
 extern const struct Tileset gTileset_TrainerTower;
 
+
+// Legends Awakening imported tilesets
+extern const struct Tileset gTileset_LA_UnovaGeneral;
+extern const struct Tileset gTileset_LA_NuvemaTown;
+
 #endif //GUARD_tilesets_H

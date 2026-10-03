@@ -1,0 +1,23 @@
+{
+  "id": "MAP_LA_NUVEMA_TOWN",
+  "name": "LANuvemaTown",
+  "layout": "LAYOUT_LA_NUVEMA_TOWN",
+  "music": "MUS_LITTLEROOT",
+  "region": "REGION_UNOVA",
+  "la_imported": true,
+  "region_map_section": "MAPSEC_NONE",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -9323,6 +9323,19 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+          "id": "LAYOUT_LA_NUVEMA_TOWN",
+          "name": "LANuvemaTown_Layout",
+          "width": 40,
+          "height": 40,
+          "border_width": 2,
+          "border_height": 2,
+          "primary_tileset": "gTileset_LA_UnovaGeneral",
+          "secondary_tileset": "gTileset_LA_NuvemaTown",
+          "border_filepath": "data/layouts/LANuvemaTown/border.bin",
+          "blockdata_filepath": "data/layouts/LANuvemaTown/map.bin",
+          "layout_version": "la_frlg"
     }
   ]
 }
