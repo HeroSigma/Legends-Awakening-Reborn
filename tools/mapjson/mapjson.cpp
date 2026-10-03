@@ -749,8 +749,9 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
                 region = "REGION_KANTO";
         }
         string map_name = json_to_string(map_data, "name");
+        bool isLaImported = json_to_string(map_data, "la_imported", true) == "TRUE";
 
-        if ((version == "emerald" && region != "REGION_HOENN")
+        if ((version == "emerald" && region != "REGION_HOENN" && !isLaImported)
          || (version == "firered" && region != "REGION_KANTO")) {
             invalid_maps.push_back(map_name);
         }
