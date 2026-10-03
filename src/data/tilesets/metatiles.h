@@ -408,3 +408,19 @@ const u16 gMetatiles_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_
 const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_fame_frlg/metatile_attributes.bin");
 
 #endif // IS_FRLG
+
+// BEGIN LEGENDS AWAKENING IMPORTED TILESETS
+
+const u16 gMetatiles_LA_UnovaGeneral[] =
+    INCBIN_U16("data/tilesets/primary/la_unova_general/metatiles.bin");
+
+const u16 gMetatileAttributes_LA_UnovaGeneral[] =
+    INCBIN_U16("data/tilesets/primary/la_unova_general/metatile_attributes.bin");
+
+const u16 gMetatiles_LA_NuvemaTown[] =
+    INCBIN_U16("data/tilesets/secondary/la_nuvema_town/metatiles.bin");
+
+const u16 gMetatileAttributes_LA_NuvemaTown[] =
+    INCBIN_U16("data/tilesets/secondary/la_nuvema_town/metatile_attributes.bin");
+
+// END LEGENDS AWAKENING IMPORTED TILESETS

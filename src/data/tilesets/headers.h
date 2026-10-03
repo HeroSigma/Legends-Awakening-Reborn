@@ -1541,3 +1541,29 @@ const struct Tileset gTileset_HallOfFame =
 };
 
 #endif // IS_FRLG
+
+// BEGIN LEGENDS AWAKENING IMPORTED TILESETS
+
+const struct Tileset gTileset_LA_UnovaGeneral =
+{
+    .isCompressed = FALSE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_LA_UnovaGeneral,
+    .palettes = gTilesetPalettes_LA_UnovaGeneral,
+    .metatiles = gMetatiles_LA_UnovaGeneral,
+    .metatileAttributes = gMetatileAttributes_LA_UnovaGeneral,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_LA_NuvemaTown =
+{
+    .isCompressed = FALSE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_LA_NuvemaTown,
+    .palettes = gTilesetPalettes_LA_NuvemaTown,
+    .metatiles = gMetatiles_LA_NuvemaTown,
+    .metatileAttributes = gMetatileAttributes_LA_NuvemaTown,
+    .callback = NULL,
+};
+
+// END LEGENDS AWAKENING IMPORTED TILESETS
