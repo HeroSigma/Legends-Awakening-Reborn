@@ -75,7 +75,8 @@
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
     "gMapGroup_IndoorSevenIslandRoute_Frlg",
-    "gMapGroup_LA_Unova"
+    "gMapGroup_LA_Unova",
+    "gMapGroup_AMap_Bank3"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1164,5 +1165,9 @@
   ],
   "gMapGroup_LA_Unova": [
     "LANuvemaTown"
+  ],
+  "gMapGroup_AMap_Bank3": [
+    "AMap_3_0_Nuvema_Town",
+    "AMap_3_0_Postwick"
   ]
 }

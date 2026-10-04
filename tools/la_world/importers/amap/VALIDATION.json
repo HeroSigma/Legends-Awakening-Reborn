@@ -1,0 +1,56 @@
+{
+  "version": "A-Map Batch Bridge v1.1",
+  "validated_on": "2026-10-03",
+  "legacy_hyper_emerald": {
+    "rom_sha256": "73d6faeb29bcc15e1627a6f237e99e11ddea8429ed31ec30057560ee069a546f",
+    "group_count": 38,
+    "map_count": 922,
+    "legacy_self_test": "PASS"
+  },
+  "bwa_demo_v2": {
+    "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+    "profile_slot_count": 444,
+    "usable_map_count": 444,
+    "first_validation_map": {
+      "id": "3.0",
+      "name": "Nuvema Town",
+      "width": 40,
+      "height": 40,
+      "header": "0x08350618",
+      "primary_tileset": "0x082D4A94",
+      "secondary_tileset": "0x082D4AAC",
+      "preview_sha256": "03bc9193ba77989de041ae9731500a0086f91b13ff7952e65b5426d6b354f925",
+      "visual_validation": "matches AdvanceMap reference geometry/tiles/palettes in generated preview"
+    }
+  },
+  "swsh_ultimate_plus": {
+    "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+    "profile_slot_count": 761,
+    "usable_map_count": 701,
+    "blank_or_stale_slots": 60,
+    "first_validation_map": {
+      "id": "3.0",
+      "name": "Postwick",
+      "width": 90,
+      "height": 41,
+      "preview_sha256": "bf6b49a6c55b9de30a553a13dc7054633c57494513d4047896507d6d88d8c4a4",
+      "visual_validation": "matches AdvanceMap reference geometry/tiles/palettes in generated preview"
+    }
+  },
+  "package_contract": {
+    "primary_tiles": 512,
+    "secondary_tiles": 512,
+    "primary_metatiles": 512,
+    "secondary_metatiles": 512,
+    "primary_palette_slots": "0-5",
+    "secondary_palette_slots": "6-12",
+    "bvd_signature": "RSE ",
+    "global_tile_and_metatile_ids_preserved": true,
+    "raw_frlg_metatile_attributes_preserved": true
+  },
+  "deferred": [
+    "FireRed event-script bytecode decompilation",
+    "exact FireRed object sprite extraction",
+    "full semantic translation of FireRed metatile behaviors/terrain/encounter attributes"
+  ]
+}

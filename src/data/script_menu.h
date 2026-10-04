@@ -95,6 +95,13 @@ static const struct MenuAction MultichoiceList_YesNoInfo2[] =
     {gText_Info2},
 };
 
+static const struct MenuAction MultichoiceList_LATeleportDestinations[] =
+{
+    {COMPOUND_STRING("NUVEMA TOWN")},
+    {COMPOUND_STRING("POSTWICK")},
+    {gText_Cancel},
+};
+
 static const struct MenuAction MultichoiceList_ChallengeInfo[] =
 {
     {COMPOUND_STRING("CHALLENGE")},
@@ -1154,7 +1161,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_VIEWED_PAINTINGS]           = MULTICHOICE(MultichoiceList_ViewedPaintings),
     [MULTI_YESNOINFO]                  = MULTICHOICE(MultichoiceList_YesNoInfo),
     [MULTI_BATTLE_MODE]                = MULTICHOICE(MultichoiceList_BattleMode),
-    [MULTI_UNUSED_19]                  = MULTICHOICE(MultichoiceList_Exit),
+    [MULTI_UNUSED_19]                  = MULTICHOICE(MultichoiceList_LATeleportDestinations),
     [MULTI_YESNOINFO_2]                = MULTICHOICE(MultichoiceList_YesNoInfo2),
     [MULTI_UNUSED_21]                  = MULTICHOICE(MultichoiceList_Exit),
     [MULTI_UNUSED_22]                  = MULTICHOICE(MultichoiceList_Exit),
