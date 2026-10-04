@@ -426,3 +426,14 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "People tell me the new LEADER once\n"
 	.string "mentored WALLACE.$"
 
+
+@ Project construction notice; no donor gameplay.
+MossdeepCity_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox MossdeepCity_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MossdeepCity_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

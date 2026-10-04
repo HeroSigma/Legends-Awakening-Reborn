@@ -185,24 +185,24 @@ def apply():
 
 def validate():
  b=load(OUT/'baseline.json');receipt=load(OUT/'receipt.json');changes=receipt['changed_baseline_files'];assert set(changes)==set(CHANGED)
- for f,h in b.items():assert digest(ROOT/f)==(changes[f]['after'] if f in changes else h),f
+ for f,h in b.items():assert digest(ROOT/f)==C.third_canary_hash(f,changes[f]['after'] if f in changes else h),f
  for f,h in receipt['new_files'].items():assert digest(ROOT/f)==h
- oldls=load(OUT/'original/data/layouts/layouts.json');newls=load(ROOT/'data/layouts/layouts.json');assert len(oldls['layouts'])==len(newls['layouts']);changedids={load(OUT/'original'/f'data/maps/{n}/map.json')['layout'] for n in TARGETS}
+ oldls=load(OUT/'original/data/layouts/layouts.json');newls=load(ROOT/'data/layouts/layouts.json');assert len(oldls['layouts'])+(3 if C.third_receipt() else 0)+C.fourth_layout_delta()==len(newls['layouts']);changedids={load(OUT/'original'/f'data/maps/{n}/map.json')['layout'] for n in TARGETS}
  for a,z in zip(oldls['layouts'],newls['layouts']):
   assert a['id']==z['id']
-  if a['id'] not in changedids:assert a==z
+  if a['id'] not in changedids and a['id'] not in ([load(ROOT/f'data/maps/{n}/map.json')['layout'] for n in C.THIRD_TARGETS] if C.third_receipt() else []) and a['id'] not in C.fourth_layout_ids():assert a==z
   else:assert {k:v for k,v in a.items() if k not in ['primary_tileset','secondary_tileset','blockdata_filepath','border_filepath']}=={k:v for k,v in z.items() if k not in ['primary_tileset','secondary_tileset','blockdata_filepath','border_filepath']}
  for n in TARGETS:
   a=load(OUT/'original'/f'data/maps/{n}/map.json');z=load(ROOT/f'data/maps/{n}/map.json')
   for key in a:
    if key.endswith('_events'):
-    assert len(a[key])==len(z[key]);assert [{k:v for k,v in e.items() if k not in ['x','y']} for e in a[key]]==[{k:v for k,v in e.items() if k not in ['x','y']} for e in z[key]]
+    assert len(a[key])+len(C.third_gates(n) if key=='object_events' else [])==len(z[key]);assert [{k:v for k,v in e.items() if k not in ['x','y']} for e in a[key]]==[{k:v for k,v in e.items() if k not in ['x','y']} for e in z[key][:len(a[key])]]
    else:assert a[key]==z[key],(n,key)
  # Reconstruct the two reviewed movement-data edits; everything outside those
  # movement blocks, including story commands and text, must match original.
  ledger=load(OUT/'coordinate_remap_ledger.json')
  for f in ['data/maps/Route103/scripts.inc','data/maps/PetalburgCity/scripts.inc']:
-  s=(ROOT/f).read_text()
+  s=(ROOT/f).read_text().split('\n@ Project-owned reservation;')[0]
   for edit in reversed([x for x in ledger['movement_edits'] if x['file']==f]):
    match=re.search(r'^'+edit['label']+r':\n(.*?)(?=^\w+:|\Z)',s,re.M|re.S);assert match[1]==edit['after'];s=s[:match.start(1)]+edit['before']+s[match.end(1):]
   assert s==(OUT/'original'/f).read_text(),f

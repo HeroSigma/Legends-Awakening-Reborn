@@ -11,8 +11,8 @@ Route105_OnLoad:
 	end
 
 Route105_CloseRegiEntrance::
-	setmetatile 9, 19, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 9, 20, METATILE_General_RockWall_SandBase, TRUE
+	setmetatile 9, 20, 0x09F, TRUE
+	setmetatile 9, 21, 0x09F, TRUE
 	return
 
 Route105_OnTransition:
@@ -95,3 +95,16 @@ Route104_Text_DadPokenavCall:
 Route104_Text_RegisteredDadInPokenav:
 	.string "Registered DAD NORMAN\n"
 	.string "in the POKéNAV.$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route105_EventScript_HyperConstruction_Corridor1::
+	lock
+	faceplayer
+	msgbox Route105_Text_HyperConstruction_Corridor1, MSGBOX_DEFAULT
+	release
+	end
+
+Route105_Text_HyperConstruction_Corridor1:
+	.string "Champion Island is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

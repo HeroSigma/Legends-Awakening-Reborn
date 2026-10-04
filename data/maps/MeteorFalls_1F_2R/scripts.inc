@@ -181,3 +181,15 @@ MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
 	.string "If you'd care to battle with us, you'll\n"
 	.string "have to come back with more POKéMON.$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_1F_2R_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox MeteorFalls_1F_2R_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_1F_2R_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

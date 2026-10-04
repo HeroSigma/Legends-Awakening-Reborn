@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE119_HOUSE",
   "name": "Route119_House",
-  "layout": "LAYOUT_HOUSE1",
+  "layout": "LAYOUT_HYPER_CANARY7_ROUTE119_HOUSE",
   "music": "MUS_RUSTBORO",
   "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_119",
@@ -109,14 +109,14 @@
   ],
   "warp_events": [
     {
-      "x": 3,
+      "x": 2,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_ROUTE119",
       "dest_warp_id": "1"
     },
     {
-      "x": 4,
+      "x": 3,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_ROUTE119",

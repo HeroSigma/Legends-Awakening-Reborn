@@ -23,6 +23,11 @@
       "map": "MAP_ROUTE107",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_HYPERHOENN_34_68_ROUTE_106"
     }
   ],
   "object_events": [
@@ -82,8 +87,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 1,
-      "y": 6,
+      "x": 5,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -91,6 +96,90 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "DewfordTown_EventScript_TrendyPhraseBoy",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_CORRIDOR_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 0,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Corridor1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_CORRIDOR_CONSTRUCTION_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 0,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Corridor2",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_CORRIDOR_CONSTRUCTION_3",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 0,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Corridor3",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_CORRIDOR_CONSTRUCTION_4",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 0,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Corridor4",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_REGISTERED_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Registered1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_DEWFORD_TOWN_REGISTERED_CONSTRUCTION_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordTown_EventScript_HyperConstruction_Registered2",
       "flag": "0"
     }
   ],
@@ -135,16 +224,16 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 10,
-      "y": 10,
+      "x": 13,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "DewfordTown_EventScript_TownSign"
     },
     {
       "type": "sign",
-      "x": 11,
-      "y": 16,
+      "x": 1,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "DewfordTown_EventScript_GymSign"
@@ -167,7 +256,7 @@
     },
     {
       "type": "sign",
-      "x": 2,
+      "x": 1,
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

@@ -3,7 +3,6 @@
   "name": "Route106",
   "layout": "LAYOUT_ROUTE106",
   "music": "MUS_ROUTE104",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_106",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -22,6 +21,11 @@
     {
       "map": "MAP_DEWFORD_TOWN",
       "offset": 60,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_HYPERHOENN_34_68_ROUTE_106",
+      "offset": 0,
       "direction": "down"
     }
   ],
@@ -80,8 +84,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 29,
-      "y": 14,
+      "x": 31,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -90,6 +94,90 @@
       "trainer_sight_or_berry_tree_id": "ITEM_PROTEIN",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_106_PROTEIN"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_CORRIDOR_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 50,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Corridor1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_REGISTERED_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 62,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Registered1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_REGISTERED_CONSTRUCTION_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 65,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Registered2",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_REGISTERED_CONSTRUCTION_3",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 68,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Registered3",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_REGISTERED_CONSTRUCTION_4",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 47,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Registered4",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE106_REGISTERED_CONSTRUCTION_5",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 52,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_HyperConstruction_Registered5",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -105,8 +193,8 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 41,
-      "y": 11,
+      "x": 37,
+      "y": 12,
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL"
@@ -121,8 +209,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 68,
-      "y": 15,
+      "x": 65,
+      "y": 16,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE"
@@ -135,5 +223,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route106_EventScript_TrainerTipsSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

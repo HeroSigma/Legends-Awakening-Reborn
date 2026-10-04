@@ -153,3 +153,14 @@ AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
 	.string "The inserted KEY stuck fast,\n"
 	.string "but the door opened.$"
 
+
+@ Project construction notice; no donor gameplay.
+AbandonedShip_HiddenFloorCorridors_EventScript_HyperConstruction_Canary6_1::
+	lock
+	faceplayer
+	msgbox AbandonedShip_HiddenFloorCorridors_EventScript_HyperConstruction_Canary6_1_Text, MSGBOX_DEFAULT
+	release
+	end
+AbandonedShip_HiddenFloorCorridors_EventScript_HyperConstruction_Canary6_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

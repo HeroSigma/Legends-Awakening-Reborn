@@ -15,6 +15,7 @@
 #include "trainer_hill.h"
 #include "tv.h"
 #include "constants/rgb.h"
+#include "constants/event_objects.h"
 #include "constants/layouts.h"
 #include "constants/metatile_behaviors.h"
 #include "constants/metatile_behaviors_frlg.h"
@@ -658,8 +659,45 @@ static void MoveMapViewToBackup(enum Connection direction)
     ClearSavedMapView();
 }
 
+static bool32 HyperHoennConstructionConnectionBlocked(const struct MapConnection *connection)
+{
+    const struct MapHeader *parent;
+    const struct ObjectEventTemplate *objects;
+    u32 i;
+    bool32 isDewford;
+    if (connection == NULL)
+        return FALSE;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_DEWFORD_TOWN)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_DEWFORD_TOWN)
+     && connection->mapGroup == MAP_GROUP(MAP_HYPERHOENN_34_68_ROUTE_106)
+     && connection->mapNum == MAP_NUM(MAP_HYPERHOENN_34_68_ROUTE_106))
+    {
+        parent = &gMapHeader;
+        isDewford = TRUE;
+    }
+    else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE106)
+          && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE106)
+          && connection->mapGroup == MAP_GROUP(MAP_HYPERHOENN_34_68_ROUTE_106)
+          && connection->mapNum == MAP_NUM(MAP_HYPERHOENN_34_68_ROUTE_106))
+    {
+        parent = &gMapHeader;
+        isDewford = FALSE;
+    }
+    else
+        return FALSE;
+    objects = parent->events->objectEvents;
+    for (i = 0; i < parent->events->objectEventCount; i++)
+        if (objects[i].graphicsId == OBJ_EVENT_GFX_SCIENTIST_1
+         && ((isDewford && objects[i].x == 0)
+          || (!isDewford && objects[i].x == 50 && objects[i].y == 18)))
+            return TRUE;
+    return FALSE;
+}
+
 enum Connection GetMapBorderIdAt(s32 x, s32 y)
 {
+    if (HyperHoennConstructionConnectionBlocked(GetMapConnectionAtPos(x, y)))
+        return CONNECTION_INVALID;
     if (GetMapGridBlockAt(x, y) == MAPGRID_UNDEFINED)
         return CONNECTION_INVALID;
 

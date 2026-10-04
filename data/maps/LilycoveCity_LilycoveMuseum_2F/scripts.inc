@@ -330,3 +330,14 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
 	.string "Isn't that just the ultimate joy for\n"
 	.string "a TRAINER?$"
 
+
+@ Project construction notice; no donor gameplay.
+LilycoveCity_LilycoveMuseum_2F_EventScript_HyperConstruction_Canary8_1::
+	lock
+	faceplayer
+	msgbox LilycoveCity_LilycoveMuseum_2F_EventScript_HyperConstruction_Canary8_1_Text, MSGBOX_DEFAULT
+	release
+	end
+LilycoveCity_LilycoveMuseum_2F_EventScript_HyperConstruction_Canary8_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

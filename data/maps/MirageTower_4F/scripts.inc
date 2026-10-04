@@ -76,3 +76,15 @@ MirageTower_4F_Text_TakeClawFossil:
 MirageTower_4F_Text_LeaveClawFossilAlone:
 	.string "{PLAYER} left the CLAW FOSSIL alone.$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MirageTower_4F_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox MirageTower_4F_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+MirageTower_4F_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

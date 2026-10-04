@@ -1166,3 +1166,29 @@ Route104_Text_BrendanPostBattle:
 	.string "making POKéMON battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
 	.string "become friends with your POKéMON.$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route104_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox Route104_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+Route104_Text_HyperConstruction_1:
+	.string "Flower Paradise is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route104_EventScript_HyperConstruction_2::
+	lock
+	faceplayer
+	msgbox Route104_Text_HyperConstruction_2, MSGBOX_DEFAULT
+	release
+	end
+
+Route104_Text_HyperConstruction_2:
+	.string "Flower Paradise is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

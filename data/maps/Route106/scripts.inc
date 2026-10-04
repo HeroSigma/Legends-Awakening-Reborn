@@ -46,3 +46,76 @@ Route106_Text_TrainerTips:
 	.string "Advice on catching POKéMON with a ROD:\n"
 	.string "Press the A Button if you get a bite.$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route106_EventScript_HyperConstruction_Corridor1::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Corridor1, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Corridor1:
+	.string "Western Dewford extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route106_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route106_EventScript_HyperConstruction_Registered2::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Registered2, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Registered2:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route106_EventScript_HyperConstruction_Registered3::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Registered3, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Registered3:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route106_EventScript_HyperConstruction_Registered4::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Registered4, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Registered4:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route106_EventScript_HyperConstruction_Registered5::
+	lock
+	faceplayer
+	msgbox Route106_Text_HyperConstruction_Registered5, MSGBOX_DEFAULT
+	release
+	end
+
+Route106_Text_HyperConstruction_Registered5:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

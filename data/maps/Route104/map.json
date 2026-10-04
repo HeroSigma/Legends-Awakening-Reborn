@@ -3,7 +3,6 @@
   "name": "Route104",
   "layout": "LAYOUT_ROUTE104",
   "music": "MUS_ROUTE104",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_104",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -59,8 +58,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
-      "x": 31,
-      "y": 24,
+      "x": 34,
+      "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -72,8 +71,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 27,
-      "y": 63,
+      "x": 33,
+      "y": 61,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -139,8 +138,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 29,
-      "y": 8,
+      "x": 30,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -231,7 +230,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
       "x": 37,
-      "y": 8,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -244,7 +243,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 3,
-      "y": 22,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -256,8 +255,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
-      "y": 23,
+      "x": 4,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -269,8 +268,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
-      "y": 24,
+      "x": 8,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -282,8 +281,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
-      "y": 25,
+      "x": 9,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -295,7 +294,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 39,
+      "x": 38,
       "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -308,8 +307,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 8,
-      "y": 19,
+      "x": 4,
+      "y": 23,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,
@@ -321,8 +320,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 27,
-      "y": 15,
+      "x": 23,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -334,8 +333,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 28,
-      "y": 15,
+      "x": 24,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -347,8 +346,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 21,
-      "y": 25,
+      "x": 17,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_ROTATE_COUNTERCLOCKWISE",
       "movement_range_x": 0,
@@ -360,8 +359,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
-      "x": 11,
-      "y": 44,
+      "x": 9,
+      "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
       "movement_range_x": 0,
@@ -399,8 +398,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 37,
-      "y": 22,
+      "x": 36,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -425,8 +424,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 5,
-      "y": 8,
+      "x": 6,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -438,8 +437,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-      "x": 5,
-      "y": 26,
+      "x": 10,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -475,6 +474,34 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route104_EventScript_Rival",
       "flag": "FLAG_HIDE_ROUTE_104_RIVAL"
+    },
+    {
+      "local_id": "LOCALID_ROUTE104_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 30,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route104_EventScript_HyperConstruction_1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE104_CONSTRUCTION_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 29,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route104_EventScript_HyperConstruction_2",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -486,8 +513,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 5,
-      "y": 18,
+      "x": 6,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
       "dest_warp_id": "0"
@@ -533,6 +560,20 @@
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "5"
+    },
+    {
+      "x": 30,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_25_FLOWER_PARADISE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 29,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_25_FLOWER_PARADISE",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
@@ -565,23 +606,23 @@
     },
     {
       "type": "sign",
-      "x": 23,
-      "y": 5,
+      "x": 26,
+      "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route104_EventScript_RouteSignRustboro"
     },
     {
       "type": "sign",
-      "x": 7,
-      "y": 20,
+      "x": 8,
+      "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route104_EventScript_FlowerShopSign"
     },
     {
       "type": "sign",
-      "x": 17,
+      "x": 22,
       "y": 23,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -589,8 +630,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 7,
-      "y": 6,
+      "x": 5,
+      "y": 8,
       "elevation": 3,
       "item": "ITEM_SUPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION"
@@ -598,7 +639,7 @@
     {
       "type": "hidden_item",
       "x": 3,
-      "y": 9,
+      "y": 6,
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL"
@@ -627,5 +668,6 @@
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

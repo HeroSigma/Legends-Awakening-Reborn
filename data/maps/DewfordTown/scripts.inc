@@ -789,3 +789,79 @@ DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "Yeah, absolutely right!\p"
 	.string "“{STR_VAR_1}” is the\n"
 	.string "definition of “in” right now.$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+DewfordTown_EventScript_HyperConstruction_Corridor1::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Corridor1, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Corridor1:
+	.string "Western Dewford extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+DewfordTown_EventScript_HyperConstruction_Corridor2::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Corridor2, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Corridor2:
+	.string "Western Dewford extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+DewfordTown_EventScript_HyperConstruction_Corridor3::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Corridor3, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Corridor3:
+	.string "Western Dewford extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+DewfordTown_EventScript_HyperConstruction_Corridor4::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Corridor4, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Corridor4:
+	.string "Western Dewford extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+DewfordTown_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+DewfordTown_EventScript_HyperConstruction_Registered2::
+	lock
+	faceplayer
+	msgbox DewfordTown_Text_HyperConstruction_Registered2, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Text_HyperConstruction_Registered2:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

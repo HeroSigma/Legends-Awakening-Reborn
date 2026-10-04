@@ -80,7 +80,38 @@
     "gMapGroup_AMap_Bank1",
     "gMapGroup_AMap_Bank6",
     "gMapGroup_AMap_Bank7",
-    "gMapGroup_AMap_Bank8"
+    "gMapGroup_AMap_Bank8",
+    "gMapGroup_HyperHoenn_Dragonspiral_Tower",
+    "gMapGroup_HyperHoenn_Ultra_Space",
+    "gMapGroup_HyperHoenn_Meteor_Temple",
+    "gMapGroup_HyperHoenn_Flower_Paradise",
+    "gMapGroup_HyperHoenn_Allearth_Forest",
+    "gMapGroup_HyperHoenn_Allearth_Lake",
+    "gMapGroup_HyperHoenn_Mt_Silver",
+    "gMapGroup_HyperHoenn_Timeless_Woods",
+    "gMapGroup_HyperHoenn_Crescent_Isle",
+    "gMapGroup_HyperHoenn_Rainbow_Castle",
+    "gMapGroup_HyperHoenn_Champion_Island",
+    "gMapGroup_HyperHoenn_Ruins_of_Decision",
+    "gMapGroup_HyperHoenn_Unown_Ruins",
+    "gMapGroup_HyperHoenn_EV_Training_Cave",
+    "gMapGroup_HyperHoenn_Deep_Sea",
+    "gMapGroup_HyperHoenn_Remote_Island",
+    "gMapGroup_HyperHoenn_Training_Area",
+    "gMapGroup_HyperHoenn_Ultra_Space_Zero",
+    "gMapGroup_HyperHoenn_Couriway_Town",
+    "gMapGroup_HyperHoenn_Cave_of_Despair",
+    "gMapGroup_HyperHoenn_Mountain_Top",
+    "gMapGroup_HyperHoenn_Temple_of_the_End",
+    "gMapGroup_HyperHoenn_Outer_Space",
+    "gMapGroup_HyperHoenn_Sootopolis_City",
+    "gMapGroup_HyperHoenn_Victory_Road",
+    "gMapGroup_HyperHoenn_Test_of_Heart",
+    "gMapGroup_HyperHoenn_Distortion_World",
+    "gMapGroup_HyperHoenn_Basement",
+    "gMapGroup_HyperHoenn_Ultra_Alliance",
+    "gMapGroup_HyperHoenn_Ancient_Retreat",
+    "gMapGroup_HyperHoenn_Steven_s_Island"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -139,7 +170,8 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "HyperHoenn_34_68_Route_106"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -254,7 +286,8 @@
     "RustboroCity_Flat2_1F",
     "RustboroCity_Flat2_2F",
     "RustboroCity_Flat2_3F",
-    "RustboroCity_House3"
+    "RustboroCity_House3",
+    "HyperHoenn_34_10_Basement"
   ],
   "gMapGroup_IndoorFortree": [
     "FortreeCity_House1",
@@ -476,7 +509,13 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "HyperHoenn_34_45_Desert_Ruins",
+    "HyperHoenn_35_51_Desert_Underpass",
+    "HyperHoenn_34_69_Granite_Cave",
+    "HyperHoenn_34_73_Granite_Cave",
+    "HyperHoenn_34_71_Granite_Cave",
+    "HyperHoenn_34_14_Abandoned_Ship"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -1195,5 +1234,182 @@
     "AMap_8_6_Route_5",
     "AMap_8_7_Hulbury",
     "AMap_8_26_Hulbury"
+  ],
+  "gMapGroup_HyperHoenn_Dragonspiral_Tower": [
+    "HyperHoenn_34_1_Dragonspiral_Tower",
+    "HyperHoenn_35_26_Dragonspiral_Tower",
+    "HyperHoenn_34_2_Dragonspiral_Tower",
+    "HyperHoenn_34_3_Dragonspiral_Tower"
+  ],
+  "gMapGroup_HyperHoenn_Ultra_Space": [
+    "HyperHoenn_34_15_Ultra_Space",
+    "HyperHoenn_34_48_Ultra_Space",
+    "HyperHoenn_34_49_Ultra_Space",
+    "HyperHoenn_34_52_Ultra_Space",
+    "HyperHoenn_34_51_Ultra_Space",
+    "HyperHoenn_34_50_Ultra_Space",
+    "HyperHoenn_35_60_Ultra_Space",
+    "HyperHoenn_34_33_Ultra_Space",
+    "HyperHoenn_35_55_Ultra_Space",
+    "HyperHoenn_34_47_Ultra_Space"
+  ],
+  "gMapGroup_HyperHoenn_Meteor_Temple": [
+    "HyperHoenn_34_16_Meteor_Temple",
+    "HyperHoenn_34_17_Meteor_Temple",
+    "HyperHoenn_35_54_Meteor_Temple"
+  ],
+  "gMapGroup_HyperHoenn_Flower_Paradise": [
+    "HyperHoenn_34_25_Flower_Paradise"
+  ],
+  "gMapGroup_HyperHoenn_Allearth_Forest": [
+    "HyperHoenn_34_35_Allearth_Forest",
+    "HyperHoenn_34_39_Allearth_Forest",
+    "HyperHoenn_34_38_Allearth_Forest",
+    "HyperHoenn_34_41_Allearth_Forest"
+  ],
+  "gMapGroup_HyperHoenn_Allearth_Lake": [
+    "HyperHoenn_34_36_Allearth_Lake"
+  ],
+  "gMapGroup_HyperHoenn_Mt_Silver": [
+    "HyperHoenn_34_58_Mt_Silver",
+    "HyperHoenn_34_53_Mt_Silver",
+    "HyperHoenn_34_57_Mt_Silver",
+    "HyperHoenn_34_59_Mt_Silver",
+    "HyperHoenn_34_54_Mt_Silver",
+    "HyperHoenn_35_1_Mt_Silver",
+    "HyperHoenn_34_56_Mt_Silver",
+    "HyperHoenn_34_55_Mt_Silver",
+    "HyperHoenn_34_60_Mt_Silver"
+  ],
+  "gMapGroup_HyperHoenn_Timeless_Woods": [
+    "HyperHoenn_34_67_Timeless_Woods",
+    "HyperHoenn_34_0_Timeless_Woods",
+    "HyperHoenn_35_27_Timeless_Woods"
+  ],
+  "gMapGroup_HyperHoenn_Crescent_Isle": [
+    "HyperHoenn_35_30_Crescent_Isle",
+    "HyperHoenn_34_28_Crescent_Isle"
+  ],
+  "gMapGroup_HyperHoenn_Rainbow_Castle": [
+    "HyperHoenn_35_5_Rainbow_Castle",
+    "HyperHoenn_35_4_Rainbow_Castle",
+    "HyperHoenn_34_83_Rainbow_Castle",
+    "HyperHoenn_34_82_Rainbow_Castle",
+    "HyperHoenn_34_84_Rainbow_Castle",
+    "HyperHoenn_34_87_Rainbow_Castle",
+    "HyperHoenn_34_85_Rainbow_Castle",
+    "HyperHoenn_34_86_Rainbow_Castle",
+    "HyperHoenn_34_88_Rainbow_Castle",
+    "HyperHoenn_34_89_Rainbow_Castle",
+    "HyperHoenn_35_3_Rainbow_Castle"
+  ],
+  "gMapGroup_HyperHoenn_Champion_Island": [
+    "HyperHoenn_35_6_Champion_Island",
+    "HyperHoenn_35_24_Champion_Island",
+    "HyperHoenn_35_25_Champion_Island",
+    "HyperHoenn_34_77_Champion_Island",
+    "HyperHoenn_35_28_Champion_Island",
+    "HyperHoenn_34_78_Champion_Island",
+    "HyperHoenn_34_76_Champion_Island"
+  ],
+  "gMapGroup_HyperHoenn_Ruins_of_Decision": [
+    "HyperHoenn_35_83_Ruins_of_Decision",
+    "HyperHoenn_35_84_Ruins_of_Decision"
+  ],
+  "gMapGroup_HyperHoenn_Unown_Ruins": [
+    "HyperHoenn_34_46_Unown_Ruins",
+    "HyperHoenn_34_12_Unown_Ruins"
+  ],
+  "gMapGroup_HyperHoenn_EV_Training_Cave": [
+    "HyperHoenn_35_49_EV_Training_Cave",
+    "HyperHoenn_34_24_EV_Training_Cave",
+    "HyperHoenn_35_36_EV_Training_Cave"
+  ],
+  "gMapGroup_HyperHoenn_Deep_Sea": [
+    "HyperHoenn_34_7_Deep_Sea"
+  ],
+  "gMapGroup_HyperHoenn_Remote_Island": [
+    "HyperHoenn_35_56_Remote_Island",
+    "HyperHoenn_35_64_Remote_Island",
+    "HyperHoenn_35_57_Remote_Island",
+    "HyperHoenn_35_66_Remote_Island",
+    "HyperHoenn_35_70_Remote_Island",
+    "HyperHoenn_35_59_Remote_Island",
+    "HyperHoenn_35_65_Remote_Island",
+    "HyperHoenn_35_58_Remote_Island",
+    "HyperHoenn_35_62_Remote_Island",
+    "HyperHoenn_35_61_Remote_Island",
+    "HyperHoenn_35_63_Remote_Island"
+  ],
+  "gMapGroup_HyperHoenn_Training_Area": [
+    "HyperHoenn_34_18_Training_Area",
+    "HyperHoenn_34_19_Training_Area",
+    "HyperHoenn_34_20_Training_Area",
+    "HyperHoenn_34_21_Training_Area",
+    "HyperHoenn_34_22_Training_Area",
+    "HyperHoenn_34_23_Training_Area"
+  ],
+  "gMapGroup_HyperHoenn_Ultra_Space_Zero": [
+    "HyperHoenn_34_32_Ultra_Space_Zero"
+  ],
+  "gMapGroup_HyperHoenn_Couriway_Town": [
+    "HyperHoenn_34_40_Couriway_Town",
+    "HyperHoenn_34_61_Couriway_Town",
+    "HyperHoenn_35_21_Couriway_Town",
+    "HyperHoenn_37_102_Couriway_Town",
+    "HyperHoenn_35_52_Couriway_Town",
+    "HyperHoenn_34_63_Couriway_Town",
+    "HyperHoenn_34_64_Couriway_Town"
+  ],
+  "gMapGroup_HyperHoenn_Cave_of_Despair": [
+    "HyperHoenn_35_31_Cave_of_Despair",
+    "HyperHoenn_35_32_Cave_of_Despair"
+  ],
+  "gMapGroup_HyperHoenn_Mountain_Top": [
+    "HyperHoenn_35_33_Mountain_Top",
+    "HyperHoenn_34_66_Mountain_Top"
+  ],
+  "gMapGroup_HyperHoenn_Temple_of_the_End": [
+    "HyperHoenn_35_35_Temple_of_the_End"
+  ],
+  "gMapGroup_HyperHoenn_Outer_Space": [
+    "HyperHoenn_34_65_Outer_Space"
+  ],
+  "gMapGroup_HyperHoenn_Sootopolis_City": [
+    "HyperHoenn_37_121_Sootopolis_City",
+    "HyperHoenn_35_20_Sootopolis_City"
+  ],
+  "gMapGroup_HyperHoenn_Victory_Road": [
+    "HyperHoenn_35_7_Victory_Road",
+    "HyperHoenn_34_44_Victory_Road"
+  ],
+  "gMapGroup_HyperHoenn_Test_of_Heart": [
+    "HyperHoenn_34_30_Test_of_Heart",
+    "HyperHoenn_34_31_Test_of_Heart"
+  ],
+  "gMapGroup_HyperHoenn_Distortion_World": [
+    "HyperHoenn_34_13_Distortion_World",
+    "HyperHoenn_37_96_Distortion_World"
+  ],
+  "gMapGroup_HyperHoenn_Basement": [
+    "HyperHoenn_34_11_Basement"
+  ],
+  "gMapGroup_HyperHoenn_Ultra_Alliance": [
+    "HyperHoenn_34_29_Ultra_Alliance",
+    "HyperHoenn_34_26_Ultra_Alliance"
+  ],
+  "gMapGroup_HyperHoenn_Ancient_Retreat": [
+    "HyperHoenn_37_120_Ancient_Retreat"
+  ],
+  "gMapGroup_HyperHoenn_Steven_s_Island": [
+    "HyperHoenn_34_42_Steven_s_Island",
+    "HyperHoenn_35_37_Steven_s_Island",
+    "HyperHoenn_35_8_Steven_s_Island",
+    "HyperHoenn_35_2_Steven_s_Island",
+    "HyperHoenn_35_40_Steven_s_Island",
+    "HyperHoenn_35_41_Steven_s_Island",
+    "HyperHoenn_35_87_Steven_s_Island",
+    "HyperHoenn_35_42_Steven_s_Island",
+    "HyperHoenn_35_48_Steven_s_Island"
   ]
 }

@@ -67,3 +67,14 @@ MtPyre_6F_Text_CedricPostBattle:
 	.string "would be panicked and easy to beat.\p"
 	.string "It's dirty and I won't try it again…$"
 
+
+@ Project construction notice; no donor gameplay.
+MtPyre_6F_EventScript_HyperConstruction_Canary8_1::
+	lock
+	faceplayer
+	msgbox MtPyre_6F_EventScript_HyperConstruction_Canary8_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MtPyre_6F_EventScript_HyperConstruction_Canary8_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

@@ -307,3 +307,15 @@ MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "PROF. COZMO: But that TEAM MAGMA…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_1F_1R_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox MeteorFalls_1F_1R_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_1F_1R_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

@@ -872,6 +872,8 @@ bool8 SetDiveWarpDive(u16 x, u16 y)
 
 void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
 {
+    const struct Tileset *previousPrimaryTileset = gMapHeader.mapLayout->primaryTileset;
+
     SetWarpDestination(mapGroup, mapNum, WARP_ID_NONE, -1, -1);
 
     // Dont transition map music between BF Outside West/East
@@ -900,12 +902,23 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
-    CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
-    LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
+    // Connected canonical maps may use different primary asset banks.
+    if (previousPrimaryTileset != gMapHeader.mapLayout->primaryTileset)
+    {
+        CopyMapTilesetsToVram(gMapHeader.mapLayout);
+        LoadMapTilesetPalettes(gMapHeader.mapLayout);
+        ApplyWeatherColorMapToPals(0, NUM_PALS_TOTAL);
+        InitTilesetAnimations();
+    }
+    else
+    {
+        CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+        LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 
-    ApplyWeatherColorMapToPals(GetNumPalsInPrimary(gMapHeader.mapLayout), NUM_PALS_TOTAL - GetNumPalsInPrimary(gMapHeader.mapLayout)); // palettes [6,12]
+        ApplyWeatherColorMapToPals(GetNumPalsInPrimary(gMapHeader.mapLayout), NUM_PALS_TOTAL - GetNumPalsInPrimary(gMapHeader.mapLayout)); // palettes [6,12]
 
-    InitSecondaryTilesetAnimation();
+        InitSecondaryTilesetAnimation();
+    }
     UpdateLocationHistoryForRoamer();
     MoveAllRoamers();
     DoCurrentWeather();

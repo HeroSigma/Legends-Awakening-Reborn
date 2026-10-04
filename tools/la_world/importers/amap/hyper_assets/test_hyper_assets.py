@@ -19,7 +19,8 @@ def current_expected_hash(f,original):
             if change:
                 assert change['before']==expected,(f,'historical receipt-chain mismatch')
                 expected=change['after']
-    return expected
+    spec=importlib.util.spec_from_file_location('receipt_chain',Path(__file__).with_name('hoenn_canary1.py'));chain=importlib.util.module_from_spec(spec);spec.loader.exec_module(chain)
+    return chain.third_canary_hash(f,expected)
 
 def animation_host_test(plan):
     runtime=(ROOT/'src/hyper_tileset_anims.inc').read_text()
@@ -86,6 +87,15 @@ class HyperAssetPortTests(unittest.TestCase):
         if CANARY_REPORT.exists():
             expected_maps={'MAP_OLDALE_TOWN','MAP_ROUTE102','MAP_OLDALE_TOWN_MART'}
             if (ROOT/'.la_work/amap/hyper_hoenn_canary2/receipt.json').exists():expected_maps.update(['MAP_LITTLEROOT_TOWN','MAP_ROUTE101','MAP_ROUTE103','MAP_PETALBURG_CITY'])
+            third=ROOT/'.la_work/amap/hyper_hoenn_canary3/receipt.json'
+            if third.exists():
+                r=PORT.load(third);expected_maps.update(PORT.load(ROOT/f'data/maps/{n}/map.json')['id'] for n in r['canonical_maps_replaced'])
+            fourth=ROOT/'.la_work/amap/hyper_hoenn_canary4/receipt.json'
+            if fourth.exists():
+                r=PORT.load(fourth);expected_maps.update(PORT.load(ROOT/f'data/maps/{n}/map.json')['id'] for n in r['graphics_binding_maps'])
+            corridor=ROOT/'.la_work/amap/hyper_hoenn_corridor_correction/receipt.json'
+            if corridor.exists():
+                r=PORT.load(corridor);expected_maps.update(PORT.load(ROOT/f'data/maps/{n}/map.json')['id'] for n in r['graphics_binding_maps'])
             self.assertEqual(expected_maps,set(re.findall(r'\{(MAP_\w+),',bindings)))
             self.assertFalse(PORT.load(CANARY_REPORT)['hyper_gameplay_imported'])
         else:self.assertNotRegex(bindings,r'\{\s*MAP_')

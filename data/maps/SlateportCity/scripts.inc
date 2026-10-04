@@ -1350,3 +1350,16 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "After all, a tough TRAINER is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+SlateportCity_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Text_HyperConstruction_1:
+	.string "Harbor annex is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

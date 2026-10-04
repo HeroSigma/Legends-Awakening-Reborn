@@ -4491,6 +4491,22 @@ const struct ObjectEventGraphicsInfo *HyperAssets_GetSourceObjectGraphicsInfo(u1
 
 #include "hyper_canary2_graphics.inc"
 
+#include "hyper_canary3_graphics.inc"
+
+#include "hyper_canary4_graphics.inc"
+
+#include "hyper_corridor_graphics.inc"
+
+#include "hyper_canary5_graphics.inc"
+
+#include "hyper_canary6_graphics.inc"
+
+#include "hyper_canary7_graphics.inc"
+
+#include "hyper_canary8_graphics.inc"
+
+#include "hyper_canary9_graphics.inc"
+
 struct HyperAssetGraphicsBinding
 {
     u16 canonicalMap;

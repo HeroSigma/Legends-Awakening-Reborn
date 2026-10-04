@@ -107,3 +107,55 @@ Route102_Text_RouteSignOldale:
 Route102_Text_RouteSignPetalburg:
 	.string "ROUTE 102\n"
 	.string "{LEFT_ARROW} PETALBURG CITY$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route102_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox Route102_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+Route102_Text_HyperConstruction_1:
+	.string "Timeless Woods is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route102_EventScript_HyperConstruction_2::
+	lock
+	faceplayer
+	msgbox Route102_Text_HyperConstruction_2, MSGBOX_DEFAULT
+	release
+	end
+
+Route102_Text_HyperConstruction_2:
+	.string "Timeless Woods is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route102_EventScript_HyperConstruction_3::
+	lock
+	faceplayer
+	msgbox Route102_Text_HyperConstruction_3, MSGBOX_DEFAULT
+	release
+	end
+
+Route102_Text_HyperConstruction_3:
+	.string "Timeless Woods is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route102_EventScript_HyperConstruction_4::
+	lock
+	faceplayer
+	msgbox Route102_Text_HyperConstruction_4, MSGBOX_DEFAULT
+	release
+	end
+
+Route102_Text_HyperConstruction_4:
+	.string "Timeless Woods is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

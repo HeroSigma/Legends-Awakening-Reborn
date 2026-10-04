@@ -49,3 +49,25 @@ Route129_EventScript_Clarence::
 	msgbox Route129_Text_ClarencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+
+@ Project construction notice; no donor gameplay.
+Route129_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox Route129_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+Route129_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project construction notice; no donor gameplay.
+Route129_EventScript_HyperConstruction_Canary9_2::
+	lock
+	faceplayer
+	msgbox Route129_EventScript_HyperConstruction_Canary9_2_Text, MSGBOX_DEFAULT
+	release
+	end
+Route129_EventScript_HyperConstruction_Canary9_2_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

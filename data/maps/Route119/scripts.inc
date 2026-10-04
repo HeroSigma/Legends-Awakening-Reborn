@@ -608,3 +608,14 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Pick your favorite items and create\n"
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
+
+@ Project construction notice; no donor gameplay.
+Route119_EventScript_HyperConstruction_Canary7_1::
+	lock
+	faceplayer
+	msgbox Route119_EventScript_HyperConstruction_Canary7_1_Text, MSGBOX_DEFAULT
+	release
+	end
+Route119_EventScript_HyperConstruction_Canary7_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

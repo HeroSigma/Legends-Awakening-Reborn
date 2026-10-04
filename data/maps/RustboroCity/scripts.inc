@@ -12,12 +12,12 @@ RustboroCity_OnTransition:
 	end
 
 RustboroCity_EventScript_PositionScientistForExit::
-	goto_if_eq VAR_TEMP_0, 11, RustboroCity_EventScript_PositionScientistLeftExit
-	setobjectxyperm LOCALID_RUSTBORO_SCIENTIST, 12, 15
+	goto_if_eq VAR_TEMP_0, 12, RustboroCity_EventScript_PositionScientistLeftExit
+	setobjectxyperm LOCALID_RUSTBORO_SCIENTIST, 13, 17
 	end
 
 RustboroCity_EventScript_PositionScientistLeftExit::
-	setobjectxyperm LOCALID_RUSTBORO_SCIENTIST, 11, 15
+	setobjectxyperm LOCALID_RUSTBORO_SCIENTIST, 12, 17
 	end
 
 RustboroCity_EventScript_HideMapNamePopup::

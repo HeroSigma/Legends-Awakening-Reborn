@@ -525,3 +525,29 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "protect POKéMON, right?\l"
 	.string "There's a feel-good story!$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+RusturfTunnel_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox RusturfTunnel_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_HyperConstruction_1:
+	.string "Tunnel extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+RusturfTunnel_EventScript_HyperConstruction_2::
+	lock
+	faceplayer
+	msgbox RusturfTunnel_Text_HyperConstruction_2, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_HyperConstruction_2:
+	.string "Tunnel shortcut is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

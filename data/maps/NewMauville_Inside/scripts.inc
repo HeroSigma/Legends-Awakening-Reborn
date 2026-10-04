@@ -261,3 +261,36 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
 	.string "stopped…$"
+
+@ Project construction notice; no donor gameplay.
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_1::
+	lock
+	faceplayer
+	msgbox NewMauville_Inside_EventScript_HyperConstruction_Canary6_1_Text, MSGBOX_DEFAULT
+	release
+	end
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project construction notice; no donor gameplay.
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_2::
+	lock
+	faceplayer
+	msgbox NewMauville_Inside_EventScript_HyperConstruction_Canary6_2_Text, MSGBOX_DEFAULT
+	release
+	end
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_2_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project construction notice; no donor gameplay.
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_3::
+	lock
+	faceplayer
+	msgbox NewMauville_Inside_EventScript_HyperConstruction_Canary6_3_Text, MSGBOX_DEFAULT
+	release
+	end
+NewMauville_Inside_EventScript_HyperConstruction_Canary6_3_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

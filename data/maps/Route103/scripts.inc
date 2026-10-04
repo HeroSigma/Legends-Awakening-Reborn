@@ -350,3 +350,16 @@ Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route103_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox Route103_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+Route103_Text_HyperConstruction_1:
+	.string "Timeless Woods is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

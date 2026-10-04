@@ -11,8 +11,8 @@ Route111_OnLoad:
 	end
 
 Route111_EventScript_CloseDesertRuins::
-	setmetatile 29, 86, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 29, 87, METATILE_General_RockWall_SandBase, TRUE
+	setmetatile 29, 87, 0x09F, TRUE
+	setmetatile 29, 88, 0x09F, TRUE
 	return
 
 @ Show Mirage Tower just prior to disintegration. Mirage Tower is otherwise handled by the map layout
@@ -715,3 +715,27 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route111_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox Route111_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route111_EventScript_HyperConstruction_Registered2::
+	lock
+	faceplayer
+	msgbox Route111_Text_HyperConstruction_Registered2, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_Text_HyperConstruction_Registered2:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

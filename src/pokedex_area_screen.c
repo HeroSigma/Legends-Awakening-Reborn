@@ -391,7 +391,7 @@ static void SetSpecialMapHasMon(u16 mapGroup, u16 mapNum)
     if (sPokedexAreaScreen->numSpecialAreas < MAX_AREA_MARKERS)
     {
         mapsec_u16_t regionMapSectionId = GetRegionMapSectionId(mapGroup, mapNum);
-        if (regionMapSectionId < MAPSEC_NONE)
+        if (regionMapSectionId < MAPSEC_COUNT && regionMapSectionId != MAPSEC_NONE)
         {
             // Don't highlight the area if it's a moving area (Marine/Terra Cave)
             for (i = 0; i < ARRAY_COUNT(sMovingRegionMapSections); i++)

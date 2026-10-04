@@ -19,12 +19,12 @@ LavaridgeTown_EventScript_ClearLavaridgeWhiteOut::
 
 LavaridgeTown_EventScript_CheckSetRivalPos::
 	getplayerxy VAR_0x8004, VAR_0x8005
-	goto_if_eq VAR_0x8004, 9, LavaridgeTown_EventScript_SetRivalPos
+	goto_if_eq VAR_0x8004, 10, LavaridgeTown_EventScript_SetRivalPos
 	return
 
 LavaridgeTown_EventScript_SetRivalPos::
-	setobjectxyperm LOCALID_LAVARIDGE_RIVAL, 11, 9
-	setobjectxyperm LOCALID_LAVARIDGE_RIVAL_ON_BIKE, 9, 8
+	setobjectxyperm LOCALID_LAVARIDGE_RIVAL, 12, 9
+	setobjectxyperm LOCALID_LAVARIDGE_RIVAL_ON_BIKE, 10, 8
 	setobjectmovementtype LOCALID_LAVARIDGE_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_UP
 	clearflag FLAG_HIDE_LAVARIDGE_TOWN_RIVAL
 	return
@@ -44,14 +44,14 @@ LavaridgeTown_OnFrame:
 LavaridgeTown_EventScript_RivalGiveGoGoggles::
 	lockall
 	getplayerxy VAR_0x8008, VAR_0x8009
-	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalNoticePlayer
-	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExitHerbShop
+	call_if_eq VAR_0x8008, 10, LavaridgeTown_EventScript_RivalNoticePlayer
+	call_if_ne VAR_0x8008, 10, LavaridgeTown_EventScript_RivalExitHerbShop
 	delay 20
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LavaridgeTown_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_PlayBrendanMusic
-	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalApproachPlayer1
-	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalApproachPlayer2
+	call_if_eq VAR_0x8008, 10, LavaridgeTown_EventScript_RivalApproachPlayer1
+	call_if_ne VAR_0x8008, 10, LavaridgeTown_EventScript_RivalApproachPlayer2
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LavaridgeTown_EventScript_MayGiveGoGoggles
 	goto_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_BrendanGiveGoGoggles
@@ -78,8 +78,8 @@ LavaridgeTown_EventScript_RivalExit::
 	removeobject LOCALID_LAVARIDGE_RIVAL
 	addobject LOCALID_LAVARIDGE_RIVAL_ON_BIKE
 	delay 30
-	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExit1
-	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExit2
+	call_if_eq VAR_0x8008, 10, LavaridgeTown_EventScript_RivalExit1
+	call_if_ne VAR_0x8008, 10, LavaridgeTown_EventScript_RivalExit2
 	removeobject LOCALID_LAVARIDGE_RIVAL_ON_BIKE
 	setvar VAR_LAVARIDGE_TOWN_STATE, 2
 	clearflag FLAG_HIDE_MAP_NAME_POPUP

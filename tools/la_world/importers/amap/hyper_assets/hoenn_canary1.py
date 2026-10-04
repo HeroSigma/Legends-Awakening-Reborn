@@ -148,27 +148,66 @@ def later_canary_hash(f,expected):
   permitted={'data/layouts/layouts.json','data/maps/LittlerootTown/map.json','data/maps/Route101/map.json','data/maps/Route103/map.json','data/maps/PetalburgCity/map.json','data/maps/Route103/scripts.inc','data/maps/PetalburgCity/scripts.inc','src/hyper_asset_graphics_bindings.inc','src/data/object_events/hyper_assets.inc'}
   assert set(receipt['changed_baseline_files'])==permitted
   if f in receipt['changed_baseline_files']:
-   change=receipt['changed_baseline_files'][f];assert change['before']==expected,(f,'canary receipt chain mismatch');return change['after']
- return expected
+   change=receipt['changed_baseline_files'][f];assert change['before']==expected,(f,'canary receipt chain mismatch');expected=change['after']
+ return third_canary_hash(f,expected)
+
+THIRD_TARGETS=['Route104','PetalburgWoods','RustboroCity','Route116','RusturfTunnel','RustboroCity_DevonCorp_1F','RustboroCity_DevonCorp_2F','RustboroCity_DevonCorp_3F','RustboroCity_Gym','RustboroCity_CuttersHouse','RustboroCity_PokemonCenter_1F','RustboroCity_Mart','RustboroCity_PokemonSchool','Route104_MrBrineysHouse','Route104_PrettyPetalFlowerShop','Route116_TunnelersRestHouse']
+def third_receipt():
+ p=ROOT/'.la_work/amap/hyper_hoenn_canary3/receipt.json'
+ if not p.exists():return None
+ r=load(p);assert r['canonical_maps_replaced']==THIRD_TARGETS;assert r['construction_only_maps']==['Route102','Route103'];assert not r['hyper_gameplay_imported']
+ permitted={'data/layouts/layouts.json',*[f'data/maps/{n}/map.json' for n in THIRD_TARGETS+['Route102','Route103']],*[f'data/maps/{n}/scripts.inc' for n in ['RustboroCity_DevonCorp_1F','PetalburgWoods','RustboroCity','Route102','Route103','Route104','Route116','RusturfTunnel']],'src/hyper_asset_graphics_bindings.inc','src/data/object_events/hyper_assets.inc','src/data/heal_locations.json','src/data/heal_locations.h'}
+ assert set(r['changed_baseline_files'])==permitted
+ return r
+def third_canary_hash(f,expected):
+ r=third_receipt()
+ if r and f in r['changed_baseline_files']:
+  c=r['changed_baseline_files'][f];assert c['before']==expected,(f,'third canary chain mismatch');expected=c['after']
+ return fourth_canary_hash(f,expected)
+
+FOURTH_TARGETS=['DewfordTown', 'Route106', 'GraniteCave_1F', 'GraniteCave_B1F', 'GraniteCave_B2F', 'GraniteCave_StevensRoom', 'DewfordTown_Gym', 'DewfordTown_PokemonCenter_1F', 'Route109', 'Route109_SeashoreHouse', 'SlateportCity', 'SlateportCity_SternsShipyard_1F', 'SlateportCity_SternsShipyard_2F', 'SlateportCity_OceanicMuseum_1F', 'SlateportCity_OceanicMuseum_2F', 'SlateportCity_Harbor', 'SlateportCity_PokemonCenter_1F', 'SlateportCity_Mart', 'Route110', 'Route110_SeasideCyclingRoadSouthEntrance', 'Route110_SeasideCyclingRoadNorthEntrance', 'MauvilleCity', 'MauvilleCity_Gym', 'MauvilleCity_BikeShop', 'MauvilleCity_House1', 'MauvilleCity_House2', 'MauvilleCity_PokemonCenter_1F', 'MauvilleCity_Mart']
+FOURTH_CHANGED=['data/layouts/layouts.json', 'data/maps/DewfordTown/map.json', 'data/maps/Route106/map.json', 'data/maps/GraniteCave_1F/map.json', 'data/maps/GraniteCave_B1F/map.json', 'data/maps/GraniteCave_B2F/map.json', 'data/maps/GraniteCave_StevensRoom/map.json', 'data/maps/DewfordTown_Gym/map.json', 'data/maps/DewfordTown_PokemonCenter_1F/map.json', 'data/maps/Route109/map.json', 'data/maps/Route109_SeashoreHouse/map.json', 'data/maps/SlateportCity/map.json', 'data/maps/SlateportCity_SternsShipyard_1F/map.json', 'data/maps/SlateportCity_SternsShipyard_2F/map.json', 'data/maps/SlateportCity_OceanicMuseum_1F/map.json', 'data/maps/SlateportCity_OceanicMuseum_2F/map.json', 'data/maps/SlateportCity_Harbor/map.json', 'data/maps/SlateportCity_PokemonCenter_1F/map.json', 'data/maps/SlateportCity_Mart/map.json', 'data/maps/Route110/map.json', 'data/maps/Route110_SeasideCyclingRoadSouthEntrance/map.json', 'data/maps/Route110_SeasideCyclingRoadNorthEntrance/map.json', 'data/maps/MauvilleCity/map.json', 'data/maps/MauvilleCity_Gym/map.json', 'data/maps/MauvilleCity_BikeShop/map.json', 'data/maps/MauvilleCity_House1/map.json', 'data/maps/MauvilleCity_House2/map.json', 'data/maps/MauvilleCity_PokemonCenter_1F/map.json', 'data/maps/MauvilleCity_Mart/map.json', 'data/maps/GraniteCave_B2F/scripts.inc', 'data/maps/MauvilleCity_BikeShop/scripts.inc', 'data/maps/Route110/scripts.inc', 'data/maps/GraniteCave_StevensRoom/scripts.inc', 'data/maps/SlateportCity/scripts.inc', 'data/maps/MauvilleCity/scripts.inc', 'src/hyper_asset_graphics_bindings.inc', 'src/data/object_events/hyper_assets.inc']
+def fourth_receipt():
+ p=ROOT/'.la_work/amap/hyper_hoenn_canary4/receipt.json'
+ if not p.exists():return None
+ r=load(p);assert r['schema']=='hyper-hoenn-canary4-receipt-v1';assert r['canonical_maps_replaced']==FOURTH_TARGETS;assert not r['hyper_gameplay_imported'];assert set(r['changed_baseline_files'])==set(FOURTH_CHANGED)
+ return r
+def fourth_canary_hash(f,expected):
+ r=fourth_receipt()
+ if r and f in r['changed_baseline_files']:
+  c=r['changed_baseline_files'][f];assert c['before']==expected,(f,'fourth canary chain mismatch');expected=c['after']
+ if r and f in r.get('external_workspace_changes',{}):
+  assert f in ['src/data/wild_encounters.h', 'src/data/pokemon/teachable_learnsets.h', 'include/config/overworld.h', 'include/config/pokedex_plus_hgss.h', 'include/config/summary_screen.h', 'include/config/wild_encounter.h']
+  c=r['external_workspace_changes'][f];assert c['before']==expected,(f,'external workspace receipt mismatch');expected=c['after']
+ return editor_canary_hash(f,expected)
+def fourth_layout_delta():
+ r=fourth_receipt();return r['layout_count_before_after'][1]-r['layout_count_before_after'][0] if r else 0
+def fourth_layout_ids():
+ return ([load(ROOT/f'data/maps/{n}/map.json')['layout'] for n in FOURTH_TARGETS] if fourth_receipt() else [])+corridor_layout_ids()
+
+def third_gates(name):
+ if not third_receipt():return []
+ return [x['scientist'] for x in load(ROOT/'.la_work/amap/hyper_hoenn_canary3/coordinate_remap_ledger.json')['construction_gates'] if x['map']==name]
+def native_script_text(name):return (ROOT/f'data/maps/{name}/scripts.inc').read_text().split('\n@ Project-owned reservation;')[0]
 
 def validate():
  b=load(OUT/'baseline.json');receipt=load(OUT/'receipt.json');allowed=receipt['changed_baseline_files'];assert set(allowed)==set(CHANGED)
  for f,h in b.items():assert digest(ROOT/f)==later_canary_hash(f,allowed[f]['after'] if f in allowed else h),f
  for f,h in receipt['new_files'].items():assert digest(ROOT/f)==h,f
  assert digest(ROOT/'include/constants/map_groups.h')==receipt['map_ids_header_sha256'];assert digest(ROOT/'data/maps/map_groups.json')==receipt['map_groups_json_sha256']
- ls=load(ROOT/'data/layouts/layouts.json')['layouts'];orig=load(OUT/'original/data/layouts/layouts.json')['layouts'];assert len(ls)==len(orig)+1
+ ls=load(ROOT/'data/layouts/layouts.json')['layouts'];orig=load(OUT/'original/data/layouts/layouts.json')['layouts'];assert len(ls)==len(orig)+1+(3 if third_receipt() else 0)+fourth_layout_delta()
  for i,l in enumerate(orig):
-  if l['id'] not in ['LAYOUT_OLDALE_TOWN','LAYOUT_ROUTE102']+(['LAYOUT_LITTLEROOT_TOWN','LAYOUT_ROUTE101','LAYOUT_ROUTE103','LAYOUT_PETALBURG_CITY'] if (ROOT/'.la_work/amap/hyper_hoenn_canary2/receipt.json').exists() else []):assert ls[i]==l,l['id']
+  if l['id'] not in ['LAYOUT_OLDALE_TOWN','LAYOUT_ROUTE102']+(['LAYOUT_LITTLEROOT_TOWN','LAYOUT_ROUTE101','LAYOUT_ROUTE103','LAYOUT_PETALBURG_CITY'] if (ROOT/'.la_work/amap/hyper_hoenn_canary2/receipt.json').exists() else [])+([load(ROOT/f'data/maps/{n}/map.json')['layout'] for n in THIRD_TARGETS] if third_receipt() else [])+fourth_layout_ids():assert ls[i]==l,l['id']
   else:assert ls[i]['id']==l['id'] and ls[i]['name']==l['name']
  for name in TARGETS:
   old=load(OUT/'original'/f'data/maps/{name}/map.json');new=load(ROOT/f'data/maps/{name}/map.json');assert old.keys()==new.keys()
   for key in old:
    if key=='layout':continue
    if key.endswith('_events'):
-    assert len(old[key])==len(new[key])
+    assert len(old[key])+len(third_gates(name) if key=='object_events' else [])==len(new[key])
     for a,z in zip(old[key],new[key]):assert {k:v for k,v in a.items() if k not in ['x','y']}=={k:v for k,v in z.items() if k not in ['x','y']},(name,key)
    else:assert old[key]==new[key],(name,key)
-  assert digest(ROOT/f'data/maps/{name}/scripts.inc')==b[f'data/maps/{name}/scripts.inc']
+  assert hashlib.sha256(native_script_text(name).encode()).hexdigest()==b[f'data/maps/{name}/scripts.inc']
  validation={'passed':True,'protected_files_checked':len(b),'only_three_canonical_maps_replaced':True,'map_ids_unchanged':True,'all_gameplay_event_fields_unchanged_except_coordinates':True,'all_expansion_scripts_unchanged':True,'all_other_layouts_maps_bwa_swsh_save_flags_vars_unchanged_except_explicit_later_canary_receipt':True,'runtime_verified':False}
  dump(OUT/'validation.json',validation);print(json.dumps(validation,indent=2))
 if __name__=='__main__':
@@ -176,3 +215,30 @@ if __name__=='__main__':
  if a.apply:apply()
  elif a.validate:validate()
  else:prepare();print('Preflight ready; use --apply for this explicitly scoped batch.')
+
+def editor_canary_hash(f,expected):
+ p=ROOT/'.la_work/amap/porymap_hyper_compat/receipt.json'
+ if not p.exists():return expected
+ r=load(p);assert r['schema']=='porymap-hyper-exposure-v1';assert set(r['changes'])=={'src/data/tilesets/headers.h','src/data/tilesets/graphics.h','src/data/tilesets/metatiles.h'};assert not r['maps_events_assets_modified']
+ if f in r['changes']:
+  c=r['changes'][f];assert c['before']==expected,(f,'editor declaration chain mismatch');expected=c['after']
+ if f in r.get('external_workspace_changes',{}):
+  assert f=='include/config/item.h';c=r['external_workspace_changes'][f];assert c['before']==expected,(f,'separate project config mismatch');expected=c['after']
+ return corridor_hash(f,expected)
+
+def corridor_receipt():
+ p=ROOT/'.la_work/amap/hyper_hoenn_corridor_correction/receipt.json'
+ if not p.exists():return None
+ r=load(p);assert r['schema']=='hyper-hoenn-corridor-correction-v1';assert r['canonical_maps_replaced']==['Route105','Route107','Route108'];assert r['construction_only_maps']==['DewfordTown','Route106'];assert not r['hyper_gameplay_imported']
+ permitted={'data/layouts/layouts.json',*[f'data/maps/{n}/map.json' for n in ['Route105','Route107','Route108','DewfordTown','Route106']],*[f'data/maps/{n}/scripts.inc' for n in ['Route105','DewfordTown','Route106']],'src/overworld.c','src/data/tilesets/headers.h','src/data/tilesets/metatiles.h','src/data/object_events/hyper_assets.inc','src/hyper_asset_graphics_bindings.inc'}
+ assert set(r['changed_baseline_files'])==permitted
+ return r
+def corridor_hash(f,expected):
+ r=corridor_receipt()
+ if r and f in r['changed_baseline_files']:
+  c=r['changed_baseline_files'][f];assert c['before']==expected,(f,'corridor correction receipt chain mismatch');expected=c['after']
+ return expected
+def corridor_layout_ids():return ['LAYOUT_ROUTE105','LAYOUT_ROUTE107','LAYOUT_ROUTE108'] if corridor_receipt() else []
+def corridor_gates(n):
+ if not corridor_receipt():return []
+ return [g['scientist'] for g in load(ROOT/'.la_work/amap/hyper_hoenn_corridor_correction/coordinate_remap_ledger.json')['construction_gates'] if g['map']==n]

@@ -414,7 +414,7 @@
   ],
   "warp_events": [
     {
-      "x": 37,
+      "x": 38,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
@@ -477,7 +477,7 @@
     },
     {
       "type": "secret_base",
-      "x": 18,
+      "x": 19,
       "y": 13,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_RED_CAVE3_2"
@@ -498,7 +498,7 @@
     },
     {
       "type": "sign",
-      "x": 39,
+      "x": 40,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -515,7 +515,7 @@
     {
       "type": "hidden_item",
       "x": 58,
-      "y": 3,
+      "y": 2,
       "elevation": 3,
       "item": "ITEM_NUGGET",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_NUGGET"

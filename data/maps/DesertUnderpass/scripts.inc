@@ -36,3 +36,15 @@ DesertUnderpass_Text_FoundRootFossil::
 DesertUnderpass_Text_FoundClawFossil::
 	.string "{PLAYER} found the CLAW FOSSIL.$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+DesertUnderpass_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox DesertUnderpass_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+DesertUnderpass_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

@@ -1,0 +1,1962 @@
+{
+  "canonical_targets": {
+    "LavaridgeTown": "0.12",
+    "FallarborTown": "0.13",
+    "VerdanturfTown": "0.14",
+    "Route111": "0.26",
+    "Route112": "0.27",
+    "Route113": "0.28",
+    "Route114": "0.29",
+    "Route115": "0.30",
+    "Route117": "0.32",
+    "Route118": "0.33",
+    "LavaridgeTown_HerbShop": "4.0",
+    "LavaridgeTown_Gym_1F": "4.1",
+    "LavaridgeTown_Gym_B1F": "4.2",
+    "LavaridgeTown_House": "4.3",
+    "LavaridgeTown_Mart": "4.4",
+    "LavaridgeTown_PokemonCenter_1F": "4.5",
+    "LavaridgeTown_PokemonCenter_2F": "4.6",
+    "FallarborTown_Mart": "5.0",
+    "FallarborTown_BattleTentLobby": "5.1",
+    "FallarborTown_BattleTentCorridor": "5.2",
+    "FallarborTown_BattleTentBattleRoom": "5.3",
+    "FallarborTown_PokemonCenter_1F": "5.4",
+    "FallarborTown_PokemonCenter_2F": "5.5",
+    "FallarborTown_CozmosHouse": "5.6",
+    "FallarborTown_MoveRelearnersHouse": "5.7",
+    "VerdanturfTown_BattleTentLobby": "6.0",
+    "VerdanturfTown_BattleTentCorridor": "6.1",
+    "VerdanturfTown_BattleTentBattleRoom": "6.2",
+    "VerdanturfTown_Mart": "6.3",
+    "VerdanturfTown_PokemonCenter_1F": "6.4",
+    "VerdanturfTown_PokemonCenter_2F": "6.5",
+    "VerdanturfTown_WandasHouse": "6.6",
+    "VerdanturfTown_FriendshipRatersHouse": "6.7",
+    "VerdanturfTown_House": "6.8",
+    "Route111_WinstrateFamilysHouse": "18.0",
+    "Route111_OldLadysRestStop": "18.1",
+    "Route112_CableCarStation": "19.0",
+    "MtChimney_CableCarStation": "19.1",
+    "Route114_FossilManiacsHouse": "20.0",
+    "Route114_FossilManiacsTunnel": "20.1",
+    "Route114_LanettesHouse": "20.2",
+    "Route117_PokemonDayCare": "22.0",
+    "MeteorFalls_1F_1R": "24.0",
+    "MeteorFalls_1F_2R": "24.1",
+    "MeteorFalls_B1F_1R": "24.2",
+    "MeteorFalls_B1F_2R": "24.3",
+    "DesertRuins": "24.6",
+    "MtChimney": "24.12",
+    "JaggedPass": "24.13",
+    "FieryPath": "24.14",
+    "MagmaHideout_1F": "24.86",
+    "MagmaHideout_2F_1R": "24.87",
+    "MagmaHideout_2F_2R": "24.88",
+    "MagmaHideout_3F_1R": "24.89",
+    "MagmaHideout_3F_2R": "24.90",
+    "MagmaHideout_4F": "24.91",
+    "MagmaHideout_3F_3R": "24.92",
+    "MagmaHideout_2F_3R": "24.93",
+    "MirageTower_1F": "24.94",
+    "MirageTower_2F": "24.95",
+    "MirageTower_3F": "24.96",
+    "MirageTower_4F": "24.97",
+    "DesertUnderpass": "24.98",
+    "MeteorFalls_StevensCave": "24.107",
+    "TrainerHill_Entrance": "26.60",
+    "TrainerHill_1F": "26.61",
+    "TrainerHill_2F": "26.62",
+    "TrainerHill_3F": "26.63",
+    "TrainerHill_4F": "26.64",
+    "TrainerHill_Roof": "26.65",
+    "TrainerHill_Elevator": "26.88",
+    "Route113_GlassWorkshop": "30.0"
+  },
+  "extras": {
+    "34.1": {
+      "name": "Dragonspiral Tower",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.01_Dragonspiral_Tower/map.json",
+      "width": 21,
+      "height": 10,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD3C"
+      ]
+    },
+    "34.10": {
+      "name": "Basement",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.10_Basement/map.json",
+      "width": 12,
+      "height": 11,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF9BC"
+      ]
+    },
+    "34.15": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.15_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.16": {
+      "name": "Meteor Temple",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.16_Meteor_Temple/map.json",
+      "width": 31,
+      "height": 31,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF92C"
+      ]
+    },
+    "34.25": {
+      "name": "Flower Paradise",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.25_Flower_Paradise/map.json",
+      "width": 15,
+      "height": 15,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7C4"
+      ]
+    },
+    "34.35": {
+      "name": "Allearth Forest",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.35_Allearth_Forest/map.json",
+      "width": 20,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7C4"
+      ]
+    },
+    "34.36": {
+      "name": "Allearth Lake",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.36_Allearth_Lake/map.json",
+      "width": 21,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "34.45": {
+      "name": "Desert Ruins",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.45_Desert_Ruins/map.json",
+      "width": 60,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD3C"
+      ]
+    },
+    "34.48": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.48_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.49": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.49_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.52": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.52_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.58": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.58_Mt._Silver/map.json",
+      "width": 54,
+      "height": 65,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_08A5FEB4"
+      ]
+    },
+    "34.67": {
+      "name": "Timeless Woods",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "width": 50,
+      "height": 22,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.68": {
+      "name": "Route 106",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.68_Route_106/map.json",
+      "width": 60,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF74C"
+      ]
+    },
+    "35.30": {
+      "name": "Crescent Isle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.30_Crescent_Isle/map.json",
+      "width": 19,
+      "height": 22,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF734"
+      ]
+    },
+    "35.5": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.05_Rainbow_Castle/map.json",
+      "width": 14,
+      "height": 13,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFBCC"
+      ]
+    },
+    "35.51": {
+      "name": "Desert Underpass",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.51_Desert_Underpass/map.json",
+      "width": 139,
+      "height": 23,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "35.6": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.06_Champion_Island/map.json",
+      "width": 45,
+      "height": 55,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF854"
+      ]
+    },
+    "35.83": {
+      "name": "Ruins of Decision",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.83_Ruins_of_Decision/map.json",
+      "width": 17,
+      "height": 33,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD9C"
+      ]
+    },
+    "35.84": {
+      "name": "Ruins of Decision",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.84_Ruins_of_Decision/map.json",
+      "width": 17,
+      "height": 33,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF92C"
+      ]
+    },
+    "35.26": {
+      "name": "Dragonspiral Tower",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.26_Dragonspiral_Tower/map.json",
+      "width": 30,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7C4"
+      ]
+    },
+    "34.2": {
+      "name": "Dragonspiral Tower",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.02_Dragonspiral_Tower/map.json",
+      "width": 11,
+      "height": 11,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD3C"
+      ]
+    },
+    "34.3": {
+      "name": "Dragonspiral Tower",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.03_Dragonspiral_Tower/map.json",
+      "width": 11,
+      "height": 11,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD3C"
+      ]
+    },
+    "34.51": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.51_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.0": {
+      "name": "Timeless Woods",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.00_Timeless_Woods/map.json",
+      "width": 16,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7C4"
+      ]
+    },
+    "34.17": {
+      "name": "Meteor Temple",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.17_Meteor_Temple/map.json",
+      "width": 11,
+      "height": 11,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFB6C"
+      ]
+    },
+    "35.54": {
+      "name": "Meteor Temple",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.54_Meteor_Temple/map.json",
+      "width": 39,
+      "height": 38,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF92C"
+      ]
+    },
+    "34.39": {
+      "name": "Allearth Forest",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.39_Allearth_Forest/map.json",
+      "width": 30,
+      "height": 50,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF734"
+      ]
+    },
+    "34.38": {
+      "name": "Allearth Forest",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.38_Allearth_Forest/map.json",
+      "width": 17,
+      "height": 22,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF734"
+      ]
+    },
+    "34.50": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.50_Ultra_Space/map.json",
+      "width": 19,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.46": {
+      "name": "Unown Ruins",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.46_Unown_Ruins/map.json",
+      "width": 23,
+      "height": 25,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF74C"
+      ]
+    },
+    "34.53": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.53_Mt._Silver/map.json",
+      "width": 46,
+      "height": 35,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7AC"
+      ]
+    },
+    "34.57": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.57_Mt._Silver/map.json",
+      "width": 43,
+      "height": 33,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD9C"
+      ]
+    },
+    "34.59": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.59_Mt._Silver/map.json",
+      "width": 35,
+      "height": 35,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "35.60": {
+      "name": "Ultra Space",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.60_Ultra_Space/map.json",
+      "width": 34,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.69": {
+      "name": "Granite Cave",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.69_Granite_Cave/map.json",
+      "width": 21,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "34.28": {
+      "name": "Crescent Isle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.28_Crescent_Isle/map.json",
+      "width": 32,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF734"
+      ]
+    },
+    "35.4": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.04_Rainbow_Castle/map.json",
+      "width": 18,
+      "height": 16,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DF9BC"
+      ]
+    },
+    "35.24": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.24_Champion_Island/map.json",
+      "width": 14,
+      "height": 9,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DF8B4"
+      ]
+    },
+    "35.25": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.25_Champion_Island/map.json",
+      "width": 11,
+      "height": 8,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DF89C"
+      ]
+    },
+    "34.77": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.77_Champion_Island/map.json",
+      "width": 20,
+      "height": 17,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFCC4"
+      ]
+    },
+    "35.28": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.28_Champion_Island/map.json",
+      "width": 13,
+      "height": 50,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFC94"
+      ]
+    },
+    "34.41": {
+      "name": "Allearth Forest",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.41_Allearth_Forest/map.json",
+      "width": 30,
+      "height": 50,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF734"
+      ]
+    },
+    "35.27": {
+      "name": "Timeless Woods",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.27_Timeless_Woods/map.json",
+      "width": 20,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.12": {
+      "name": "Unown Ruins",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.12_Unown_Ruins/map.json",
+      "width": 15,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF7F4"
+      ]
+    },
+    "34.54": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.54_Mt._Silver/map.json",
+      "width": 22,
+      "height": 36,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD9C"
+      ]
+    },
+    "35.1": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.01_Mt._Silver/map.json",
+      "width": 14,
+      "height": 9,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DF8B4"
+      ]
+    },
+    "34.56": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.56_Mt._Silver/map.json",
+      "width": 26,
+      "height": 33,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD9C"
+      ]
+    },
+    "34.55": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.55_Mt._Silver/map.json",
+      "width": 37,
+      "height": 35,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DFD9C"
+      ]
+    },
+    "34.60": {
+      "name": "Mt. Silver",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.60_Mt._Silver/map.json",
+      "width": 17,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_08A5FEB4"
+      ]
+    },
+    "34.73": {
+      "name": "Granite Cave",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.73_Granite_Cave/map.json",
+      "width": 31,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "34.71": {
+      "name": "Granite Cave",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.71_Granite_Cave/map.json",
+      "width": 31,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "34.83": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.83_Rainbow_Castle/map.json",
+      "width": 11,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF9BC"
+      ]
+    },
+    "34.78": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.78_Champion_Island/map.json",
+      "width": 23,
+      "height": 18,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFCC4"
+      ]
+    },
+    "34.82": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.82_Rainbow_Castle/map.json",
+      "width": 27,
+      "height": 20,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF9BC"
+      ]
+    },
+    "34.84": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.84_Rainbow_Castle/map.json",
+      "width": 29,
+      "height": 27,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFBFC"
+      ]
+    },
+    "34.87": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.87_Rainbow_Castle/map.json",
+      "width": 30,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF9BC"
+      ]
+    },
+    "34.85": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.85_Rainbow_Castle/map.json",
+      "width": 29,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF824"
+      ]
+    },
+    "34.86": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.86_Rainbow_Castle/map.json",
+      "width": 29,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF794"
+      ]
+    },
+    "34.88": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.88_Rainbow_Castle/map.json",
+      "width": 33,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF8CC"
+      ]
+    },
+    "34.89": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.89_Rainbow_Castle/map.json",
+      "width": 22,
+      "height": 30,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DF9BC"
+      ]
+    },
+    "34.76": {
+      "name": "Champion Island",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.76_Champion_Island/map.json",
+      "width": 20,
+      "height": 15,
+      "tilesets": [
+        "primary_083DF884",
+        "secondary_083DFCC4"
+      ]
+    },
+    "35.3": {
+      "name": "Rainbow Castle",
+      "json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.03_Rainbow_Castle/map.json",
+      "width": 11,
+      "height": 18,
+      "tilesets": [
+        "primary_083DF704",
+        "secondary_083DF74C"
+      ]
+    }
+  },
+  "roots": [
+    {
+      "canonical_source": "SlateportCity",
+      "source_donor_id": "0.1",
+      "entrance_kind": "WARP",
+      "source_warp_index": 11,
+      "entrance_x": 29,
+      "entrance_y": 12,
+      "destination_donor_id": "9.9",
+      "destination_name": "Slateport City",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/09.09_Slateport_City/map.json",
+      "donor_warp": {
+        "index": 11,
+        "x": 29,
+        "y": 12,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 9,
+        "target_map": 9,
+        "target_id": "9.9",
+        "target_name": "Slateport City",
+        "dynamic_target": false,
+        "record_pointer": "0x089D3038"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 29,
+      "scientist_y": 12
+    },
+    {
+      "canonical_source": "DewfordTown",
+      "source_donor_id": "0.11",
+      "entrance_kind": "CONNECTION",
+      "entrance_x": null,
+      "entrance_y": null,
+      "destination_donor_id": "34.68",
+      "destination_name": "Route 106",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.68_Route_106/map.json",
+      "donor_connection": {
+        "direction_id": 3,
+        "direction": "left",
+        "offset": 0,
+        "target_group": 34,
+        "target_map": 68,
+        "target_id": "34.68",
+        "target_name": "Route 106",
+        "record_pointer": "0x089D0640"
+      },
+      "status": "CONNECTION_RESERVED_ABSENT_WITH_SCIENTISTS",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Inspect the full boundary; do not copy donor connection into canonical gameplay.",
+      "scientist_coordinates": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "boundary_policy": "Canonical connection remains absent, including water portion; scientists cover paired Dewford land mouths or reachable Route106 shore notice."
+    },
+    {
+      "canonical_source": "Route102",
+      "source_donor_id": "0.17",
+      "entrance_kind": "WARP",
+      "source_warp_index": 0,
+      "entrance_x": 24,
+      "entrance_y": 2,
+      "destination_donor_id": "34.67",
+      "destination_name": "Timeless Woods",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "donor_warp": {
+        "index": 0,
+        "x": 24,
+        "y": 2,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 67,
+        "target_id": "34.67",
+        "target_name": "Timeless Woods",
+        "dynamic_target": false,
+        "record_pointer": "0x08AF02B0"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 24,
+      "scientist_y": 2
+    },
+    {
+      "canonical_source": "Route102",
+      "source_donor_id": "0.17",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 25,
+      "entrance_y": 2,
+      "destination_donor_id": "34.67",
+      "destination_name": "Timeless Woods",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 25,
+        "y": 2,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 34,
+        "target_map": 67,
+        "target_id": "34.67",
+        "target_name": "Timeless Woods",
+        "dynamic_target": false,
+        "record_pointer": "0x08AF02B8"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 25,
+      "scientist_y": 2
+    },
+    {
+      "canonical_source": "Route102",
+      "source_donor_id": "0.17",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 6,
+      "entrance_y": 3,
+      "destination_donor_id": "34.67",
+      "destination_name": "Timeless Woods",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 6,
+        "y": 3,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 34,
+        "target_map": 67,
+        "target_id": "34.67",
+        "target_name": "Timeless Woods",
+        "dynamic_target": false,
+        "record_pointer": "0x08AF02C0"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 6,
+      "scientist_y": 3
+    },
+    {
+      "canonical_source": "Route102",
+      "source_donor_id": "0.17",
+      "entrance_kind": "WARP",
+      "source_warp_index": 3,
+      "entrance_x": 7,
+      "entrance_y": 3,
+      "destination_donor_id": "34.67",
+      "destination_name": "Timeless Woods",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "donor_warp": {
+        "index": 3,
+        "x": 7,
+        "y": 3,
+        "elevation": 0,
+        "dest_warp_id": 3,
+        "target_group": 34,
+        "target_map": 67,
+        "target_id": "34.67",
+        "target_name": "Timeless Woods",
+        "dynamic_target": false,
+        "record_pointer": "0x08AF02C8"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 7,
+      "scientist_y": 3
+    },
+    {
+      "canonical_source": "Route103",
+      "source_donor_id": "0.18",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 0,
+      "entrance_y": 8,
+      "destination_donor_id": "34.67",
+      "destination_name": "Timeless Woods",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.67_Timeless_Woods/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 0,
+        "y": 8,
+        "elevation": 0,
+        "dest_warp_id": 4,
+        "target_group": 34,
+        "target_map": 67,
+        "target_id": "34.67",
+        "target_name": "Timeless Woods",
+        "dynamic_target": false,
+        "record_pointer": "0x08ACCCE4"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 0,
+      "scientist_y": 8
+    },
+    {
+      "canonical_source": "Route104",
+      "source_donor_id": "0.19",
+      "entrance_kind": "WARP",
+      "source_warp_index": 8,
+      "entrance_x": 30,
+      "entrance_y": 34,
+      "destination_donor_id": "34.25",
+      "destination_name": "Flower Paradise",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.25_Flower_Paradise/map.json",
+      "donor_warp": {
+        "index": 8,
+        "x": 30,
+        "y": 34,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 34,
+        "target_map": 25,
+        "target_id": "34.25",
+        "target_name": "Flower Paradise",
+        "dynamic_target": false,
+        "record_pointer": "0x089DF8C0"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 30,
+      "scientist_y": 34
+    },
+    {
+      "canonical_source": "Route104",
+      "source_donor_id": "0.19",
+      "entrance_kind": "WARP",
+      "source_warp_index": 9,
+      "entrance_x": 29,
+      "entrance_y": 34,
+      "destination_donor_id": "34.25",
+      "destination_name": "Flower Paradise",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.25_Flower_Paradise/map.json",
+      "donor_warp": {
+        "index": 9,
+        "x": 29,
+        "y": 34,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 34,
+        "target_map": 25,
+        "target_id": "34.25",
+        "target_name": "Flower Paradise",
+        "dynamic_target": false,
+        "record_pointer": "0x089DF8C8"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 29,
+      "scientist_y": 34
+    },
+    {
+      "canonical_source": "Route105",
+      "source_donor_id": "0.20",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 32,
+      "entrance_y": 45,
+      "destination_donor_id": "35.6",
+      "destination_name": "Champion Island",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.06_Champion_Island/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 32,
+        "y": 45,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 6,
+        "target_id": "35.6",
+        "target_name": "Champion Island",
+        "dynamic_target": false,
+        "record_pointer": "0x089F45A0"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_coordinates": [
+        [
+          32,
+          45
+        ]
+      ],
+      "boundary_policy": "Scientist occupies source extra warp cell; donor warp not imported."
+    },
+    {
+      "canonical_source": "Route106",
+      "source_donor_id": "0.21",
+      "entrance_kind": "CONNECTION",
+      "entrance_x": null,
+      "entrance_y": null,
+      "destination_donor_id": "34.68",
+      "destination_name": "Route 106",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.68_Route_106/map.json",
+      "donor_connection": {
+        "direction_id": 1,
+        "direction": "down",
+        "offset": 0,
+        "target_group": 34,
+        "target_map": 68,
+        "target_id": "34.68",
+        "target_name": "Route 106",
+        "record_pointer": "0x089C0F0C"
+      },
+      "status": "CONNECTION_RESERVED_ABSENT_WITH_SCIENTISTS",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Inspect the full boundary; do not copy donor connection into canonical gameplay.",
+      "scientist_coordinates": [
+        [
+          50,
+          18
+        ]
+      ],
+      "boundary_policy": "Canonical connection remains absent, including water portion; scientists cover paired Dewford land mouths or reachable Route106 shore notice."
+    },
+    {
+      "canonical_source": "Route110",
+      "source_donor_id": "0.25",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 36,
+      "entrance_y": 9,
+      "destination_donor_id": "35.83",
+      "destination_name": "Ruins of Decision",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.83_Ruins_of_Decision/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 36,
+        "y": 9,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 35,
+        "target_map": 83,
+        "target_id": "35.83",
+        "target_name": "Ruins of Decision",
+        "dynamic_target": false,
+        "record_pointer": "0x08B08F84"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 36,
+      "scientist_y": 11
+    },
+    {
+      "canonical_source": "Route111",
+      "source_donor_id": "0.26",
+      "entrance_kind": "WARP",
+      "source_warp_index": 5,
+      "entrance_x": 35,
+      "entrance_y": 45,
+      "destination_donor_id": "34.45",
+      "destination_name": "Desert Ruins",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.45_Desert_Ruins/map.json",
+      "donor_warp": {
+        "index": 5,
+        "x": 35,
+        "y": 45,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 45,
+        "target_id": "34.45",
+        "target_name": "Desert Ruins",
+        "dynamic_target": false,
+        "record_pointer": "0x08B26374"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "Route111",
+      "source_donor_id": "0.26",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 33,
+      "entrance_y": 104,
+      "destination_donor_id": "34.1",
+      "destination_name": "Dragonspiral Tower",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.01_Dragonspiral_Tower/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 33,
+        "y": 104,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 1,
+        "target_id": "34.1",
+        "target_name": "Dragonspiral Tower",
+        "dynamic_target": false,
+        "record_pointer": "0x08B2637C"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "Route112",
+      "source_donor_id": "0.27",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 7,
+      "entrance_y": 26,
+      "destination_donor_id": "24.93",
+      "destination_name": "Magma Hideout",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.93_Magma_Hideout/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 7,
+        "y": 26,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 24,
+        "target_map": 93,
+        "target_id": "24.93",
+        "target_name": "Magma Hideout",
+        "dynamic_target": false,
+        "record_pointer": "0x08A4CF54"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "Route116",
+      "source_donor_id": "0.31",
+      "entrance_kind": "WARP",
+      "source_warp_index": 5,
+      "entrance_x": 60,
+      "entrance_y": 5,
+      "destination_donor_id": "24.4",
+      "destination_name": "Rusturf Tunnel",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.04_Rusturf_Tunnel/map.json",
+      "donor_warp": {
+        "index": 5,
+        "x": 60,
+        "y": 5,
+        "elevation": 0,
+        "dest_warp_id": 3,
+        "target_group": 24,
+        "target_map": 4,
+        "target_id": "24.4",
+        "target_name": "Rusturf Tunnel",
+        "dynamic_target": false,
+        "record_pointer": "0x089EAA10"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 60,
+      "scientist_y": 5
+    },
+    {
+      "canonical_source": "Route116",
+      "source_donor_id": "0.31",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 88,
+      "entrance_y": 10,
+      "destination_donor_id": "34.15",
+      "destination_name": "Ultra Space",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.15_Ultra_Space/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 88,
+        "y": 10,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 15,
+        "target_id": "34.15",
+        "target_name": "Ultra Space",
+        "dynamic_target": false,
+        "record_pointer": "0x089EAA18"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 88,
+      "scientist_y": 10
+    },
+    {
+      "canonical_source": "VerdanturfTown_WandasHouse",
+      "source_donor_id": "6.6",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 15,
+      "entrance_y": 2,
+      "destination_donor_id": "35.30",
+      "destination_name": "Crescent Isle",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.30_Crescent_Isle/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 15,
+        "y": 2,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 30,
+        "target_id": "35.30",
+        "target_name": "Crescent Isle",
+        "dynamic_target": false,
+        "record_pointer": "0x08A61A00"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MauvilleCity_BikeShop",
+      "source_donor_id": "10.1",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 11,
+      "entrance_y": 3,
+      "destination_donor_id": "34.58",
+      "destination_name": "Mt. Silver",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.58_Mt._Silver/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 11,
+        "y": 3,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 58,
+        "target_id": "34.58",
+        "target_name": "Mt. Silver",
+        "dynamic_target": false,
+        "record_pointer": "0x08A7DF70"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 11,
+      "scientist_y": 3
+    },
+    {
+      "canonical_source": "RustboroCity_DevonCorp_1F",
+      "source_donor_id": "11.0",
+      "entrance_kind": "WARP",
+      "source_warp_index": 3,
+      "entrance_x": 5,
+      "entrance_y": 1,
+      "destination_donor_id": "34.10",
+      "destination_name": "Basement",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.10_Basement/map.json",
+      "donor_warp": {
+        "index": 3,
+        "x": 5,
+        "y": 1,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 10,
+        "target_id": "34.10",
+        "target_name": "Basement",
+        "dynamic_target": false,
+        "record_pointer": "0x08A06EF0"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 5,
+      "scientist_y": 1
+    },
+    {
+      "canonical_source": "MeteorFalls_1F_1R",
+      "source_donor_id": "24.0",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 18,
+      "entrance_y": 11,
+      "destination_donor_id": "24.2",
+      "destination_name": "Meteor Falls",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.02_Meteor_Falls/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 18,
+        "y": 11,
+        "elevation": 0,
+        "dest_warp_id": 6,
+        "target_group": 24,
+        "target_map": 2,
+        "target_id": "24.2",
+        "target_name": "Meteor Falls",
+        "dynamic_target": false,
+        "record_pointer": "0x089D360C"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_1F_2R",
+      "source_donor_id": "24.1",
+      "entrance_kind": "WARP",
+      "source_warp_index": 4,
+      "entrance_x": 26,
+      "entrance_y": 5,
+      "destination_donor_id": "35.84",
+      "destination_name": "Ruins of Decision",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.84_Ruins_of_Decision/map.json",
+      "donor_warp": {
+        "index": 4,
+        "x": 26,
+        "y": 5,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 35,
+        "target_map": 84,
+        "target_id": "35.84",
+        "target_name": "Ruins of Decision",
+        "dynamic_target": false,
+        "record_pointer": "0x089DD508"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_B1F_1R",
+      "source_donor_id": "24.2",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 10,
+      "entrance_y": 26,
+      "destination_donor_id": "24.0",
+      "destination_name": "Meteor Falls",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.00_Meteor_Falls/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 10,
+        "y": 26,
+        "elevation": 0,
+        "dest_warp_id": 6,
+        "target_group": 24,
+        "target_map": 0,
+        "target_id": "24.0",
+        "target_name": "Meteor Falls",
+        "dynamic_target": false,
+        "record_pointer": "0x089CE700"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_B1F_2R",
+      "source_donor_id": "24.3",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 5,
+      "entrance_y": 2,
+      "destination_donor_id": "34.48",
+      "destination_name": "Ultra Space",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.48_Ultra_Space/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 48,
+        "target_id": "34.48",
+        "target_name": "Ultra Space",
+        "dynamic_target": false,
+        "record_pointer": "0x08A3ECC4"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "RusturfTunnel",
+      "source_donor_id": "24.4",
+      "entrance_kind": "WARP",
+      "source_warp_index": 3,
+      "entrance_x": 12,
+      "entrance_y": 12,
+      "destination_donor_id": "0.31",
+      "destination_name": "Route 116",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/00.31_Route_116/map.json",
+      "donor_warp": {
+        "index": 3,
+        "x": 12,
+        "y": 12,
+        "elevation": 0,
+        "dest_warp_id": 5,
+        "target_group": 0,
+        "target_map": 31,
+        "target_id": "0.31",
+        "target_name": "Route 116",
+        "dynamic_target": false,
+        "record_pointer": "0x089F672C"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 12,
+      "scientist_y": 12
+    },
+    {
+      "canonical_source": "RusturfTunnel",
+      "source_donor_id": "24.4",
+      "entrance_kind": "WARP",
+      "source_warp_index": 4,
+      "entrance_x": 4,
+      "entrance_y": 15,
+      "destination_donor_id": "0.0",
+      "destination_name": "Petalburg City",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/00.00_Petalburg_City/map.json",
+      "donor_warp": {
+        "index": 4,
+        "x": 4,
+        "y": 15,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 0,
+        "target_map": 0,
+        "target_id": "0.0",
+        "target_name": "Petalburg City",
+        "dynamic_target": false,
+        "record_pointer": "0x089F6734"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 4,
+      "scientist_y": 15
+    },
+    {
+      "canonical_source": "GraniteCave_B2F",
+      "source_donor_id": "24.9",
+      "entrance_kind": "WARP",
+      "source_warp_index": 5,
+      "entrance_x": 29,
+      "entrance_y": 0,
+      "destination_donor_id": "34.49",
+      "destination_name": "Ultra Space",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.49_Ultra_Space/map.json",
+      "donor_warp": {
+        "index": 5,
+        "x": 29,
+        "y": 0,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 49,
+        "target_id": "34.49",
+        "target_name": "Ultra Space",
+        "dynamic_target": false,
+        "record_pointer": "0x08AE70A8"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 29,
+      "scientist_y": 0
+    },
+    {
+      "canonical_source": "GraniteCave_StevensRoom",
+      "source_donor_id": "24.10",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 9,
+      "entrance_y": 10,
+      "destination_donor_id": "34.36",
+      "destination_name": "Allearth Lake",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.36_Allearth_Lake/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 9,
+        "y": 10,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 36,
+        "target_id": "34.36",
+        "target_name": "Allearth Lake",
+        "dynamic_target": false,
+        "record_pointer": "0x08A623DC"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 9,
+      "scientist_y": 10
+    },
+    {
+      "canonical_source": "PetalburgWoods",
+      "source_donor_id": "24.11",
+      "entrance_kind": "WARP",
+      "source_warp_index": 6,
+      "entrance_x": 28,
+      "entrance_y": 20,
+      "destination_donor_id": "34.25",
+      "destination_name": "Flower Paradise",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.25_Flower_Paradise/map.json",
+      "donor_warp": {
+        "index": 6,
+        "x": 28,
+        "y": 20,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 25,
+        "target_id": "34.25",
+        "target_name": "Flower Paradise",
+        "dynamic_target": false,
+        "record_pointer": "0x08B11DA4"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 28,
+      "scientist_y": 20
+    },
+    {
+      "canonical_source": "PetalburgWoods",
+      "source_donor_id": "24.11",
+      "entrance_kind": "WARP",
+      "source_warp_index": 7,
+      "entrance_x": 27,
+      "entrance_y": 20,
+      "destination_donor_id": "34.25",
+      "destination_name": "Flower Paradise",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.25_Flower_Paradise/map.json",
+      "donor_warp": {
+        "index": 7,
+        "x": 27,
+        "y": 20,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 25,
+        "target_id": "34.25",
+        "target_name": "Flower Paradise",
+        "dynamic_target": false,
+        "record_pointer": "0x08B11DAC"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 27,
+      "scientist_y": 20
+    },
+    {
+      "canonical_source": "PetalburgWoods",
+      "source_donor_id": "24.11",
+      "entrance_kind": "WARP",
+      "source_warp_index": 8,
+      "entrance_x": 41,
+      "entrance_y": 20,
+      "destination_donor_id": "34.35",
+      "destination_name": "Allearth Forest",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.35_Allearth_Forest/map.json",
+      "donor_warp": {
+        "index": 8,
+        "x": 41,
+        "y": 20,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 34,
+        "target_map": 35,
+        "target_id": "34.35",
+        "target_name": "Allearth Forest",
+        "dynamic_target": false,
+        "record_pointer": "0x08B11DB4"
+      },
+      "status": "ENTRANCE_RESERVED_BLOCKED_NO_WARP",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached.",
+      "scientist_x": 41,
+      "scientist_y": 20
+    },
+    {
+      "canonical_source": "MagmaHideout_2F_3R",
+      "source_donor_id": "24.93",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 47,
+      "entrance_y": 12,
+      "destination_donor_id": "0.27",
+      "destination_name": "Route 112",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/00.27_Route_112/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 47,
+        "y": 12,
+        "elevation": 0,
+        "dest_warp_id": 6,
+        "target_group": 0,
+        "target_map": 27,
+        "target_id": "0.27",
+        "target_name": "Route 112",
+        "dynamic_target": false,
+        "record_pointer": "0x089C1DC8"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MagmaHideout_2F_3R",
+      "source_donor_id": "24.93",
+      "entrance_kind": "WARP",
+      "source_warp_index": 3,
+      "entrance_x": 0,
+      "entrance_y": 0,
+      "destination_donor_id": "24.91",
+      "destination_name": "Magma Hideout",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.91_Magma_Hideout/map.json",
+      "donor_warp": {
+        "index": 3,
+        "x": 0,
+        "y": 0,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 24,
+        "target_map": 91,
+        "target_id": "24.91",
+        "target_name": "Magma Hideout",
+        "dynamic_target": false,
+        "record_pointer": "0x089C1DD0"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MirageTower_2F",
+      "source_donor_id": "24.95",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 16,
+      "entrance_y": 8,
+      "destination_donor_id": "0.0",
+      "destination_name": "Petalburg City",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/00.00_Petalburg_City/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 16,
+        "y": 8,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 0,
+        "target_map": 0,
+        "target_id": "0.0",
+        "target_name": "Petalburg City",
+        "dynamic_target": false,
+        "record_pointer": "0x089CD420"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MirageTower_4F",
+      "source_donor_id": "24.97",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 6,
+      "entrance_y": 3,
+      "destination_donor_id": "34.52",
+      "destination_name": "Ultra Space",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.52_Ultra_Space/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 6,
+        "y": 3,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 52,
+        "target_id": "34.52",
+        "target_name": "Ultra Space",
+        "dynamic_target": false,
+        "record_pointer": "0x08A66A10"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "DesertUnderpass",
+      "source_donor_id": "24.98",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 125,
+      "entrance_y": 1,
+      "destination_donor_id": "35.51",
+      "destination_name": "Desert Underpass",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.51_Desert_Underpass/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 125,
+        "y": 1,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 51,
+        "target_id": "35.51",
+        "target_name": "Desert Underpass",
+        "dynamic_target": false,
+        "record_pointer": "0x089CEC38"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_StevensCave",
+      "source_donor_id": "24.107",
+      "entrance_kind": "WARP",
+      "source_warp_index": 1,
+      "entrance_x": 3,
+      "entrance_y": 13,
+      "destination_donor_id": "34.16",
+      "destination_name": "Meteor Temple",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/34.16_Meteor_Temple/map.json",
+      "donor_warp": {
+        "index": 1,
+        "x": 3,
+        "y": 13,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 16,
+        "target_id": "34.16",
+        "target_name": "Meteor Temple",
+        "dynamic_target": false,
+        "record_pointer": "0x08B04480"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_StevensCave",
+      "source_donor_id": "24.107",
+      "entrance_kind": "WARP",
+      "source_warp_index": 2,
+      "entrance_x": 11,
+      "entrance_y": 7,
+      "destination_donor_id": "35.5",
+      "destination_name": "Rainbow Castle",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/35.05_Rainbow_Castle/map.json",
+      "donor_warp": {
+        "index": 2,
+        "x": 11,
+        "y": 7,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 5,
+        "target_id": "35.5",
+        "target_name": "Rainbow Castle",
+        "dynamic_target": false,
+        "record_pointer": "0x08B04488"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "HYPER_ONLY_DESTINATION_REFERENCE",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_StevensCave",
+      "source_donor_id": "24.107",
+      "entrance_kind": "WARP",
+      "source_warp_index": 3,
+      "entrance_x": 23,
+      "entrance_y": 12,
+      "destination_donor_id": "24.107",
+      "destination_name": "Meteor Falls",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.107_Meteor_Falls/map.json",
+      "donor_warp": {
+        "index": 3,
+        "x": 23,
+        "y": 12,
+        "elevation": 0,
+        "dest_warp_id": 4,
+        "target_group": 24,
+        "target_map": 107,
+        "target_id": "24.107",
+        "target_name": "Meteor Falls",
+        "dynamic_target": false,
+        "record_pointer": "0x08B04490"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    },
+    {
+      "canonical_source": "MeteorFalls_StevensCave",
+      "source_donor_id": "24.107",
+      "entrance_kind": "WARP",
+      "source_warp_index": 4,
+      "entrance_x": 23,
+      "entrance_y": 8,
+      "destination_donor_id": "24.107",
+      "destination_name": "Meteor Falls",
+      "destination_json": ".la_work/amap/HypEm_v5.7_EN_QoL_amap_export/maps/24.107_Meteor_Falls/map.json",
+      "donor_warp": {
+        "index": 4,
+        "x": 23,
+        "y": 8,
+        "elevation": 0,
+        "dest_warp_id": 3,
+        "target_group": 24,
+        "target_map": 107,
+        "target_id": "24.107",
+        "target_name": "Meteor Falls",
+        "dynamic_target": false,
+        "record_pointer": "0x08B04498"
+      },
+      "status": "ENTRANCE_REVIEW_PENDING",
+      "classification": "EXTRA_ENTRANCE_TO_CANONICAL_MAP",
+      "ownership_policy": "Do not import donor gameplay; inspect/stage construction gate as canonical area is reached."
+    }
+  ],
+  "blocked_external_links": [
+    {
+      "from": "34.15",
+      "to": "34.5",
+      "name": "Nebel Cave"
+    },
+    {
+      "from": "34.15",
+      "to": "34.40",
+      "name": "Couriway Town"
+    },
+    {
+      "from": "34.45",
+      "to": "35.14",
+      "name": "Solaceon Ruins"
+    },
+    {
+      "from": "34.45",
+      "to": "35.14",
+      "name": "Solaceon Ruins"
+    },
+    {
+      "from": "34.48",
+      "to": "35.19",
+      "name": "Icirrus Town"
+    },
+    {
+      "from": "34.49",
+      "to": "34.4",
+      "name": "Terminus Cave"
+    },
+    {
+      "from": "34.52",
+      "to": "35.19",
+      "name": "Icirrus Town"
+    },
+    {
+      "from": "34.52",
+      "to": "35.69",
+      "name": "Magic Woods"
+    },
+    {
+      "from": "35.5",
+      "to": "34.93",
+      "name": "Temple of the End"
+    },
+    {
+      "from": "35.83",
+      "to": "36.25",
+      "name": "Route 209"
+    },
+    {
+      "from": "35.84",
+      "to": "36.48",
+      "name": "Acuity Lakefront"
+    },
+    {
+      "from": "35.26",
+      "to": "35.18",
+      "name": "Icirrus Town"
+    },
+    {
+      "from": "34.51",
+      "to": "34.44",
+      "name": "Victory Road"
+    },
+    {
+      "from": "34.51",
+      "to": "34.79",
+      "name": "Giant Chasm"
+    },
+    {
+      "from": "35.54",
+      "to": "35.53",
+      "name": "Ice Maze"
+    },
+    {
+      "from": "34.39",
+      "to": "35.68",
+      "name": "Magic Woods"
+    },
+    {
+      "from": "34.39",
+      "to": "35.68",
+      "name": "Magic Woods"
+    },
+    {
+      "from": "34.50",
+      "to": "35.11",
+      "name": "Spear Pillar"
+    },
+    {
+      "from": "34.41",
+      "to": "35.31",
+      "name": "Cave of Despair"
+    },
+    {
+      "from": "34.12",
+      "to": "35.50",
+      "name": "Amity Square"
+    },
+    {
+      "from": "35.3",
+      "to": "35.49",
+      "name": "EV Training Cave"
+    }
+  ]
+}

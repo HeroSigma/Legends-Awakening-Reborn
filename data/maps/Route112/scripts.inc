@@ -140,3 +140,15 @@ Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+Route112_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox Route112_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+Route112_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

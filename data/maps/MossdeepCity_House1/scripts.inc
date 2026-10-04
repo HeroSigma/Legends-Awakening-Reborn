@@ -39,3 +39,14 @@ MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes:
 	.string "My husband can tell what kind of\n"
 	.string "{POKEBLOCK}S a POKéMON likes at a glance.$"
 
+
+@ Project construction notice; no donor gameplay.
+MossdeepCity_House1_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox MossdeepCity_House1_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MossdeepCity_House1_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

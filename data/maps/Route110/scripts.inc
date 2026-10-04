@@ -987,3 +987,16 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route110_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox Route110_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+Route110_Text_HyperConstruction_1:
+	.string "Ruins of Decision is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

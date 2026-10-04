@@ -387,6 +387,7 @@ MauvilleCity_Movement_ScottApproachPlayerEast:
 	step_end
 
 MauvilleCity_Movement_ScottExitNorth:
+	walk_down
 	walk_left
 	walk_left
 	walk_left

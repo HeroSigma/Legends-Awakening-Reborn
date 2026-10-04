@@ -1069,7 +1069,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION",
+      "name": "POK\u00e9MON MANSION",
       "x": 4,
       "y": 14,
       "width": 1,
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE",
+      "name": "POK\u00e9MON LEAGUE",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER",
+      "name": "POK\u00e9MON TOWER",
       "x": 18,
       "y": 6,
       "width": 1,
@@ -1662,6 +1662,234 @@
     {
       "id": "MAPSEC_AMAP_092_HULBURY",
       "name": "Hulbury"
+    },
+    {
+      "id": "MAPSEC_NONE",
+      "name": "NONE"
+    },
+    {
+      "id": "MAPSEC_HYPER_DRAGONSPIRAL_TOWER",
+      "name": "Dragonspiral Tower",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ULTRA_SPACE",
+      "name": "Ultra Space",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_METEOR_TEMPLE",
+      "name": "Meteor Temple",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_FLOWER_PARADISE",
+      "name": "Flower Paradise",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ALLEARTH_FOREST",
+      "name": "Allearth Forest",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ALLEARTH_LAKE",
+      "name": "Allearth Lake",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_MT_SILVER",
+      "name": "Mt. Silver",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_TIMELESS_WOODS",
+      "name": "Timeless Woods",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_CRESCENT_ISLE",
+      "name": "Crescent Isle",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_RAINBOW_CASTLE",
+      "name": "Rainbow Castle",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_CHAMPION_ISLAND",
+      "name": "Champion Island",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_RUINS_OF_DECISION",
+      "name": "Ruins of Decision",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_UNOWN_RUINS",
+      "name": "Unown Ruins",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_EV_TRAINING_CAVE",
+      "name": "EV Training Cave",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_DEEP_SEA",
+      "name": "Deep Sea",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_REMOTE_ISLAND",
+      "name": "Remote Island",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_TRAINING_AREA",
+      "name": "Training Area",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ULTRA_SPACE_ZERO",
+      "name": "Ultra Space Zero",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_COURIWAY_TOWN",
+      "name": "Couriway Town",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_CAVE_OF_DESPAIR",
+      "name": "Cave of Despair",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_MOUNTAIN_TOP",
+      "name": "Mountain Top",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_TEMPLE_OF_THE_END",
+      "name": "Temple of the End",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_OUTER_SPACE",
+      "name": "Outer Space",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_TEST_OF_HEART",
+      "name": "Test of Heart",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_DISTORTION_WORLD",
+      "name": "Distortion World",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ULTRA_ALLIANCE",
+      "name": "Ultra Alliance",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_ANCIENT_RETREAT",
+      "name": "Ancient Retreat",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HYPER_STEVEN_S_ISLAND",
+      "name": "Steven\u2019s Island",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
     }
   ]
 }

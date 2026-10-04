@@ -1,7 +1,7 @@
 {
   "id": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
   "name": "VerdanturfTown_FriendshipRatersHouse",
-  "layout": "LAYOUT_HOUSE2",
+  "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
   "music": "MUS_VERDANTURF",
   "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_VERDANTURF_TOWN",
@@ -44,14 +44,14 @@
   ],
   "warp_events": [
     {
-      "x": 3,
+      "x": 4,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN",
       "dest_warp_id": "5"
     },
     {
-      "x": 4,
+      "x": 5,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN",

@@ -38,7 +38,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_3",
-      "x": 29,
+      "x": 30,
       "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
@@ -51,8 +51,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 24,
-      "y": 10,
+      "x": 32,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,
@@ -64,8 +64,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
-      "x": 14,
-      "y": 11,
+      "x": 20,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -77,8 +77,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
-      "x": 18,
-      "y": 6,
+      "x": 20,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -90,8 +90,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
-      "x": 17,
-      "y": 14,
+      "x": 22,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -131,7 +131,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WATTSON",
-      "x": 29,
+      "x": 28,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -144,7 +144,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 28,
+      "x": 27,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -157,7 +157,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 13,
+      "x": 12,
       "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -199,14 +199,14 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 35,
+      "x": 37,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_BIKE_SHOP",
       "dest_warp_id": "0"
     },
     {
-      "x": 23,
+      "x": 19,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_MART",
@@ -221,13 +221,13 @@
     },
     {
       "x": 8,
-      "y": 13,
+      "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_GAME_CORNER",
       "dest_warp_id": "0"
     },
     {
-      "x": 19,
+      "x": 24,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_HOUSE2",
@@ -246,15 +246,15 @@
     },
     {
       "type": "sign",
-      "x": 11,
-      "y": 6,
+      "x": 21,
+      "y": 5,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MauvilleCity_EventScript_GymSign"
     },
     {
       "type": "sign",
-      "x": 24,
+      "x": 20,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -262,7 +262,7 @@
     },
     {
       "type": "sign",
-      "x": 25,
+      "x": 18,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",

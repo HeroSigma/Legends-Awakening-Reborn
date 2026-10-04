@@ -32,3 +32,14 @@ SootopolisCity_House2_Text_OughtToVisitAndSee:
 	.string "Is that so?\n"
 	.string "Perhaps you ought to visit and see…$"
 
+
+@ Project construction notice; no donor gameplay.
+SootopolisCity_House2_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox SootopolisCity_House2_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+SootopolisCity_House2_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

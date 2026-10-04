@@ -422,3 +422,14 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let there be more land!\n"
 	.string "                                          TEAM MAGMA”$"
+
+@ Project construction notice; no donor gameplay.
+MossdeepCity_SpaceCenter_1F_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox MossdeepCity_SpaceCenter_1F_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MossdeepCity_SpaceCenter_1F_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

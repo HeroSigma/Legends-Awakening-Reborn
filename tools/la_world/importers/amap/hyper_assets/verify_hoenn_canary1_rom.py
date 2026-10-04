@@ -14,10 +14,12 @@ def verify():
   for offset,path in [(8,layout['border_filepath']),(12,layout['blockdata_filepath'])]:
    data=(C.ROOT/path).read_bytes();assert blob(u32(lp+offset),len(data))==data,path
   for offset,role in [(16,'primary_tileset'),(20,'secondary_tileset')]:
-   ptr=u32(lp+offset);assert ptr==symbols[layout[role]];t=ts[layout[role]]
+   ptr=u32(lp+offset);assert ptr==symbols[layout[role]];t=ts.get(layout[role],ts['gTileset_Hyper_Primary_083DF704'] if layout[role]=='gTileset_Hyper_Primary_Route105' else None);assert t is not None,layout[role]
    assert u32(ptr+20)==(0 if t['callback']=='NULL' else symbols[t['callback']]|1),t['callback']
    for po,file in [(4,'tiles.4bpp.lz'),(12,'metatiles.bin'),(16,'metatile_attributes.bin')]:
-    data=(C.ROOT/t['path']/file).read_bytes();assert blob(u32(ptr+po),len(data))==data,(name,file)
+    asset=C.ROOT/t['path']/file
+    if layout[role]=='gTileset_Hyper_Primary_Route105' and file=='metatile_attributes.bin':asset=C.ROOT/'data/hyper_assets/corridor_correction/Route105/metatile_attributes.bin'
+    data=asset.read_bytes();assert blob(u32(ptr+po),len(data))==data,(name,file)
   assert u32(header+8)==symbols[name+'_MapScripts'];events=u32(header+4);assert list(blob(events,4))==[len(m[x]) for x in ['object_events','warp_events','coord_events','bg_events']]
   if m['connections']:
    assert u32(header+12)==symbols[name+'_MapConnections']

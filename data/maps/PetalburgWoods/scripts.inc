@@ -140,6 +140,12 @@ PetalburgWoods_Movement_DevonResearcherExitLeft:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft:
@@ -164,6 +170,11 @@ PetalburgWoods_Movement_DevonResearcherExitRight:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_left
+	walk_fast_left
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
@@ -213,6 +224,10 @@ PetalburgWoods_Movement_AquaBackOff:
 PetalburgWoods_Movement_AquaRunAway:
 	walk_fast_up
 	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_left
+	walk_fast_left
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
@@ -471,3 +486,42 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "If a POKéMON runs out of PP, it must be\n"
 	.string "taken to a POKéMON CENTER.$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+PetalburgWoods_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox PetalburgWoods_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgWoods_Text_HyperConstruction_1:
+	.string "Flower Paradise is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+PetalburgWoods_EventScript_HyperConstruction_2::
+	lock
+	faceplayer
+	msgbox PetalburgWoods_Text_HyperConstruction_2, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgWoods_Text_HyperConstruction_2:
+	.string "Flower Paradise is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+PetalburgWoods_EventScript_HyperConstruction_3::
+	lock
+	faceplayer
+	msgbox PetalburgWoods_Text_HyperConstruction_3, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgWoods_Text_HyperConstruction_3:
+	.string "Allearth Forest is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

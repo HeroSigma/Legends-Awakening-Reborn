@@ -320,3 +320,16 @@ MauvilleCity_BikeShop_Text_Jumps:
 	.string "change directions while jumping.\p"
 	.string "Want to read a different page?$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+MauvilleCity_BikeShop_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox MauvilleCity_BikeShop_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_BikeShop_Text_HyperConstruction_1:
+	.string "Mt. Silver is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

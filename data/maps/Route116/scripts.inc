@@ -468,3 +468,29 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "No TRAINER can afford to be without\n"
 	.string "a BAG of their own.$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route116_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox Route116_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+Route116_Text_HyperConstruction_1:
+	.string "Tunnel extension is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+Route116_EventScript_HyperConstruction_2::
+	lock
+	faceplayer
+	msgbox Route116_Text_HyperConstruction_2, MSGBOX_DEFAULT
+	release
+	end
+
+Route116_Text_HyperConstruction_2:
+	.string "Ultra Space is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

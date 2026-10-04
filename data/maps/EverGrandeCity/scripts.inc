@@ -35,3 +35,36 @@ EverGrandeCity_Text_CitySign:
 	.string "“The paradise of flowers, the sea,\n"
 	.string "and POKéMON.”$"
 
+
+@ Project construction notice; no donor gameplay.
+EverGrandeCity_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox EverGrandeCity_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+EverGrandeCity_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project construction notice; no donor gameplay.
+EverGrandeCity_EventScript_HyperConstruction_Canary9_2::
+	lock
+	faceplayer
+	msgbox EverGrandeCity_EventScript_HyperConstruction_Canary9_2_Text, MSGBOX_DEFAULT
+	release
+	end
+EverGrandeCity_EventScript_HyperConstruction_Canary9_2_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project construction notice; no donor gameplay.
+EverGrandeCity_EventScript_HyperConstruction_Canary9_3::
+	lock
+	faceplayer
+	msgbox EverGrandeCity_EventScript_HyperConstruction_Canary9_3_Text, MSGBOX_DEFAULT
+	release
+	end
+EverGrandeCity_EventScript_HyperConstruction_Canary9_3_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

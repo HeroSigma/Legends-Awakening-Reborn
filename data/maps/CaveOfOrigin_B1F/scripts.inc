@@ -116,3 +116,14 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
 	.string "We'll head to the SKY PILLAR right away!$"
 
+
+@ Project construction notice; no donor gameplay.
+CaveOfOrigin_B1F_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox CaveOfOrigin_B1F_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+CaveOfOrigin_B1F_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

@@ -211,8 +211,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 80,
-      "y": 8,
+      "x": 59,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -391,6 +391,34 @@
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Route116_EventScript_Devan",
       "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE116_CONSTRUCTION_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 60,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route116_EventScript_HyperConstruction_1",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ROUTE116_CONSTRUCTION_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 88,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route116_EventScript_HyperConstruction_2",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -427,6 +455,20 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 60,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_RUSTURF_TUNNEL",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 88,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_15_ULTRA_SPACE",
       "dest_warp_id": "0"
     }
   ],
@@ -468,7 +510,7 @@
     },
     {
       "type": "secret_base",
-      "x": 71,
+      "x": 67,
       "y": 4,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE1_1"
@@ -498,7 +540,7 @@
     },
     {
       "type": "secret_base",
-      "x": 56,
+      "x": 55,
       "y": 6,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE3_2"
@@ -520,8 +562,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 70,
-      "y": 13,
+      "x": 59,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_BLACK_GLASSES",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES"

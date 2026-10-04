@@ -142,3 +142,16 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "tools for POKéMON TRAINERS, including\l"
 	.string "POKé BALLS and POKéNAV systems.”$"
 
+
+@ Project-owned reservation; no donor gameplay, flags or warp destination.
+RustboroCity_DevonCorp_1F_EventScript_HyperConstruction_1::
+	lock
+	faceplayer
+	msgbox RustboroCity_DevonCorp_1F_Text_HyperConstruction_1, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_1F_Text_HyperConstruction_1:
+	.string "Basement is\n"
+	.string "under construction.\p"
+	.string "Please check back later!$"

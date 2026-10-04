@@ -1,0 +1,4394 @@
+{
+  "passed": true,
+  "protected_baseline_files": 31591,
+  "authorized_changed_files": 79,
+  "preserved_user_editor_changes": {},
+  "new_files": 291,
+  "native_owned_events_preserved": 897,
+  "native_maps_with_preserved_scripts": 116,
+  "canonical_maps_replaced": 116,
+  "alternate_layouts_checked": [
+    {
+      "blockdata_sha256": "5a019e3173fea0343080432fbc57ae5c129d2b9d02a3a09f52b54a2dd29d66be",
+      "canonical_layout": "LAYOUT_SOOTOPOLIS_CITY_LEGENDS_BATTLE",
+      "donor_layout_index": 357,
+      "donor_layout_pointer": "0x08469200",
+      "height": 60,
+      "native_owner": "SootopolisCity",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF83C",
+      "width": 60
+    },
+    {
+      "blockdata_sha256": "6008c2a9922b537f6c20a71cd2b9d012fae05f6259fc97fc5b1ffbe90fdcd642",
+      "canonical_layout": "LAYOUT_ROUTE131_SKY_PILLAR",
+      "donor_layout_index": 319,
+      "donor_layout_pointer": "0x0845D470",
+      "height": 40,
+      "native_owner": "Route131",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 60
+    },
+    {
+      "blockdata_sha256": "e2470217339148d900f269d9653c269992491be01b71627ebadcb54aa8f195da",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_1F_CLEAN",
+      "donor_layout_index": 433,
+      "donor_layout_pointer": "0x08480F54",
+      "height": 14,
+      "native_owner": "SkyPillar_1F",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 14
+    },
+    {
+      "blockdata_sha256": "e00bac50b2291eae6657e1d2e8e4febd1610456028e2e50181935623e871aaf0",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_2F_CLEAN",
+      "donor_layout_index": 434,
+      "donor_layout_pointer": "0x084810FC",
+      "height": 14,
+      "native_owner": "SkyPillar_2F",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 14
+    },
+    {
+      "blockdata_sha256": "33214b7b6d394257186b399f95332aca6c043184f13ccb282ea6fb3eb167f7fc",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_3F_CLEAN",
+      "donor_layout_index": 435,
+      "donor_layout_pointer": "0x084812A4",
+      "height": 14,
+      "native_owner": "SkyPillar_3F",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 14
+    },
+    {
+      "blockdata_sha256": "1e995cc66ec1b6e4524ecb8ade054416ca0530a56553b81443bce86a3906b289",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_4F_CLEAN",
+      "donor_layout_index": 436,
+      "donor_layout_pointer": "0x0848144C",
+      "height": 14,
+      "native_owner": "SkyPillar_4F",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 14
+    },
+    {
+      "blockdata_sha256": "ca1ef1b10e9121b8b298f8d86186c3515dc6ba6a8121c30d87d8304aa3e1af0d",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_5F_CLEAN",
+      "donor_layout_index": 437,
+      "donor_layout_pointer": "0x084815F4",
+      "height": 14,
+      "native_owner": "SkyPillar_5F",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 14
+    },
+    {
+      "blockdata_sha256": "59d583d1c0a457f0963c746b2aaa52dbb2fd35acb1ba959d7d9d93c37821ea80",
+      "canonical_layout": "LAYOUT_SKY_PILLAR_TOP_CLEAN",
+      "donor_layout_index": 438,
+      "donor_layout_pointer": "0x08481B24",
+      "height": 24,
+      "native_owner": "SkyPillar_Top",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "reason": "Native story callback keeps canonical layout identity and state; only referenced Hyper geometry/assets are copied.",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF824",
+      "width": 27
+    }
+  ],
+  "dive_reconciliations": {
+    "Route126": 1,
+    "Route127": 1,
+    "Route128": 4,
+    "Underwater_Route126": 838
+  },
+  "registered_special_maps": 22,
+  "editor_and_linked_hyper_maps_checked": 438,
+  "tilesets_checked": 102,
+  "linked_objects": 1962,
+  "linked_warps": 1462,
+  "linked_connections": 156,
+  "mapsec_none_preserved": 218,
+  "mapsec_count": 247,
+  "animation_host_test": {
+    "callbacks": 20,
+    "paired_hoenn_combinations": 18,
+    "ticks_per_case": 256,
+    "sanitizers": "address,undefined",
+    "result": "Validated 4168 DMA frame transfers."
+  },
+  "construction_guard_host_test": {
+    "unchanged_from_prior_verified_stack": true,
+    "source_hash_preserved": "92070304e36245843aeb9d53da57da85987b40d7dacd8f637c81f101b2d63ba6"
+  },
+  "special_graph_validation": {
+    "passed": true,
+    "registered_maps": 22,
+    "reachable_from_canonical_maps_ignoring_scientists": 20,
+    "registered_editor_maps_with_deferred_ingress": [
+      "HyperHoenn_37_120_Ancient_Retreat",
+      "HyperHoenn_37_121_Sootopolis_City"
+    ],
+    "maps_with_static_return_to_canonical_maps": 22,
+    "maps_without_static_path": [
+      "HyperHoenn_37_120_Ancient_Retreat",
+      "HyperHoenn_37_121_Sootopolis_City"
+    ],
+    "scope": "Static registered graph only; all-room collision/pathfinding and progression still require runtime testing."
+  },
+  "native_registeel_activation_cells_checked": 0,
+  "reciprocal_special_connections": {},
+  "dormant_native_doorways": [
+    {
+      "map": "Route131",
+      "index": 0,
+      "behavior": 18,
+      "native_behavior": 18,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_HallOfFame",
+      "index": 0,
+      "behavior": 32,
+      "native_behavior": 32,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_ChampionsRoom",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_ChampionsRoom",
+      "index": 1,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall3",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall3",
+      "index": 2,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall3",
+      "index": 3,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "SeafloorCavern_Entrance",
+      "index": 0,
+      "behavior": 18,
+      "native_behavior": 18,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_DrakesRoom",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_DrakesRoom",
+      "index": 1,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 2,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 3,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 4,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 5,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 6,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 7,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 8,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 9,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 10,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 11,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 12,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "index": 13,
+      "behavior": 14,
+      "native_behavior": 14,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "AquaHideout_1F",
+      "index": 1,
+      "behavior": 21,
+      "native_behavior": 21,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall4",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "SkyPillar_Outside",
+      "index": 1,
+      "behavior": 234,
+      "native_behavior": 234,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_GlaciasRoom",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_GlaciasRoom",
+      "index": 1,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_PhoebesRoom",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_PhoebesRoom",
+      "index": 1,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_SidneysRoom",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_SidneysRoom",
+      "index": 1,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "SlateportCity",
+      "index": 9,
+      "reason": "Previously validated native harbor scripted disembark border warp retained."
+    },
+    {
+      "map": "EverGrandeCity_Hall1",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall1",
+      "index": 2,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall1",
+      "index": 3,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall2",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall2",
+      "index": 2,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall2",
+      "index": 3,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "SlateportCity_Harbor",
+      "index": 2,
+      "reason": "Previously validated native harbor scripted disembark border warp retained."
+    },
+    {
+      "map": "SlateportCity_Harbor",
+      "index": 3,
+      "reason": "Previously validated native harbor scripted disembark border warp retained."
+    },
+    {
+      "map": "EverGrandeCity_Hall5",
+      "index": 0,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall5",
+      "index": 2,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    },
+    {
+      "map": "EverGrandeCity_Hall5",
+      "index": 3,
+      "behavior": 0,
+      "native_behavior": 0,
+      "reason": "Native arrival-only/script-used slot was already on a nonwarp cell."
+    }
+  ],
+  "rom_sha256": "1cf46c162fc335de6a1db9996b92bd5f6e15a353c7da3b620bd63438781d4800",
+  "rom_bytes": 33554432,
+  "maps": [
+    {
+      "map": "LavaridgeTown_Mart",
+      "id": "MAP_LAVARIDGE_TOWN_MART",
+      "group": 4,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_MART",
+      "script_owner": "LavaridgeTown_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_Gym",
+      "id": "MAP_FORTREE_CITY_GYM",
+      "group": 12,
+      "map_number": 1,
+      "layout": "LAYOUT_FORTREE_CITY_GYM",
+      "script_owner": "FortreeCity_Gym_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_12_Unown_Ruins",
+      "id": "MAP_HYPERHOENN_34_12_UNOWN_RUINS",
+      "group": 93,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_12_UNOWN_RUINS",
+      "script_owner": "HyperHoenn_34_12_Unown_Ruins_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_HiddenFloorCorridors",
+      "id": "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+      "group": 24,
+      "map_number": 65,
+      "layout": "LAYOUT_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+      "script_owner": "AbandonedShip_HiddenFloorCorridors_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route131",
+      "id": "MAP_ROUTE131",
+      "group": 0,
+      "map_number": 46,
+      "layout": "LAYOUT_ROUTE131",
+      "script_owner": "Route131_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route128",
+      "id": "MAP_UNDERWATER_ROUTE128",
+      "group": 0,
+      "map_number": 53,
+      "layout": "LAYOUT_UNDERWATER_ROUTE128",
+      "script_owner": "Underwater_Route128_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_HallOfFame",
+      "id": "MAP_EVER_GRANDE_CITY_HALL_OF_FAME",
+      "group": 16,
+      "map_number": 11,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
+      "script_owner": "EverGrandeCity_HallOfFame_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_BikeShop",
+      "id": "MAP_MAUVILLE_CITY_BIKE_SHOP",
+      "group": 10,
+      "map_number": 1,
+      "layout": "LAYOUT_MAUVILLE_CITY_BIKE_SHOP",
+      "script_owner": "MauvilleCity_BikeShop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_64_Couriway_Town",
+      "id": "MAP_HYPERHOENN_34_64_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_34_64_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_34_64_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_65_Outer_Space",
+      "id": "MAP_HYPERHOENN_34_65_OUTER_SPACE",
+      "group": 103,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_65_OUTER_SPACE",
+      "script_owner": "HyperHoenn_34_65_Outer_Space_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_34_13_Distortion_World",
+      "id": "MAP_HYPERHOENN_34_13_DISTORTION_WORLD",
+      "group": 107,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_13_DISTORTION_WORLD",
+      "script_owner": "HyperHoenn_34_13_Distortion_World_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route110_SeasideCyclingRoadSouthEntrance",
+      "id": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+      "group": 29,
+      "map_number": 11,
+      "layout": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+      "script_owner": "Route110_SeasideCyclingRoadSouthEntrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_CozmosHouse",
+      "id": "MAP_FALLARBOR_TOWN_COZMOS_HOUSE",
+      "group": 5,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_COZMOS_HOUSE",
+      "script_owner": "FallarborTown_CozmosHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_37_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_37_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_37_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_37_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "MossdeepCity_House1",
+      "id": "MAP_MOSSDEEP_CITY_HOUSE1",
+      "group": 14,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE1",
+      "script_owner": "MossdeepCity_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_7_Deep_Sea",
+      "id": "MAP_HYPERHOENN_34_7_DEEP_SEA",
+      "group": 95,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_7_DEEP_SEA",
+      "script_owner": "HyperHoenn_34_7_Deep_Sea_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_28_Champion_Island",
+      "id": "MAP_HYPERHOENN_35_28_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_35_28_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_35_28_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_2F",
+      "id": "MAP_SKY_PILLAR_2F",
+      "group": 24,
+      "map_number": 80,
+      "layout": "LAYOUT_SKY_PILLAR_2F",
+      "script_owner": "SkyPillar_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route111",
+      "id": "MAP_ROUTE111",
+      "group": 0,
+      "map_number": 26,
+      "layout": "LAYOUT_ROUTE111",
+      "script_owner": "Route111_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MeteorFalls_1F_1R",
+      "id": "MAP_METEOR_FALLS_1F_1R",
+      "group": 24,
+      "map_number": 0,
+      "layout": "LAYOUT_METEOR_FALLS_1F_1R",
+      "script_owner": "MeteorFalls_1F_1R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_SootopolisCity",
+      "id": "MAP_UNDERWATER_SOOTOPOLIS_CITY",
+      "group": 24,
+      "map_number": 5,
+      "layout": "LAYOUT_UNDERWATER_SOOTOPOLIS_CITY",
+      "script_owner": "Underwater_SootopolisCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_4F",
+      "id": "MAP_SKY_PILLAR_4F",
+      "group": 24,
+      "map_number": 82,
+      "layout": "LAYOUT_SKY_PILLAR_4F",
+      "script_owner": "SkyPillar_4F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route134",
+      "id": "MAP_ROUTE134",
+      "group": 0,
+      "map_number": 49,
+      "layout": "LAYOUT_ROUTE134",
+      "script_owner": "Route134_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_2F",
+      "id": "MAP_MT_PYRE_2F",
+      "group": 24,
+      "map_number": 16,
+      "layout": "LAYOUT_MT_PYRE_2F",
+      "script_owner": "MtPyre_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FieryPath",
+      "id": "MAP_FIERY_PATH",
+      "group": 24,
+      "map_number": 14,
+      "layout": "LAYOUT_FIERY_PATH",
+      "script_owner": "FieryPath_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route113",
+      "id": "MAP_ROUTE113",
+      "group": 0,
+      "map_number": 28,
+      "layout": "LAYOUT_ROUTE113",
+      "script_owner": "Route113_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_PokemonCenter_1F",
+      "id": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
+      "group": 6,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_POKEMON_CENTER_1_F",
+      "script_owner": "VerdanturfTown_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "DewfordTown_PokemonCenter_1F",
+      "id": "MAP_DEWFORD_TOWN_POKEMON_CENTER_1F",
+      "group": 3,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY4_DEWFORD_TOWN__POKEMON_CENTER_1_F",
+      "script_owner": "DewfordTown_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_ChampionsRoom",
+      "id": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "group": 16,
+      "map_number": 4,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "script_owner": "EverGrandeCity_ChampionsRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_85_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_85_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_34_85_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_85_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_83_Ruins_of_Decision",
+      "id": "MAP_HYPERHOENN_35_83_RUINS_OF_DECISION",
+      "group": 92,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_83_RUINS_OF_DECISION",
+      "script_owner": "HyperHoenn_35_83_Ruins_of_Decision_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_17_Meteor_Temple",
+      "id": "MAP_HYPERHOENN_34_17_METEOR_TEMPLE",
+      "group": 83,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_17_METEOR_TEMPLE",
+      "script_owner": "HyperHoenn_34_17_Meteor_Temple_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_PokemonCenter_1F",
+      "id": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
+      "group": 7,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_1_F",
+      "script_owner": "PacifidlogTown_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_3F_3R",
+      "id": "MAP_MAGMA_HIDEOUT_3F_3R",
+      "group": 24,
+      "map_number": 92,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_3F_3R",
+      "script_owner": "MagmaHideout_3F_3R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room7",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM7",
+      "group": 24,
+      "map_number": 34,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM7",
+      "script_owner": "SeafloorCavern_Room7_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_PokemonLeague_1F",
+      "id": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "group": 16,
+      "map_number": 10,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "script_owner": "EverGrandeCity_PokemonLeague_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_56_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_56_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_56_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_56_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_Hall3",
+      "id": "MAP_EVER_GRANDE_CITY_HALL3",
+      "group": 16,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL3",
+      "script_owner": "EverGrandeCity_Hall3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_House1",
+      "id": "MAP_PACIFIDLOG_TOWN_HOUSE1",
+      "group": 7,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE1",
+      "script_owner": "PacifidlogTown_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_2F_3R",
+      "id": "MAP_MAGMA_HIDEOUT_2F_3R",
+      "group": 24,
+      "map_number": 93,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_2F_3R",
+      "script_owner": "MagmaHideout_2F_3R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_3F_2R",
+      "id": "MAP_MAGMA_HIDEOUT_3F_2R",
+      "group": 24,
+      "map_number": 90,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_3F_2R",
+      "script_owner": "MagmaHideout_3F_2R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_South",
+      "id": "MAP_SAFARI_ZONE_SOUTH",
+      "group": 26,
+      "map_number": 3,
+      "layout": "LAYOUT_SAFARI_ZONE_SOUTH",
+      "script_owner": "SafariZone_South_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_49_EV_Training_Cave",
+      "id": "MAP_HYPERHOENN_35_49_EV_TRAINING_CAVE",
+      "group": 94,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_49_EV_TRAINING_CAVE",
+      "script_owner": "HyperHoenn_35_49_EV_Training_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_Mart",
+      "id": "MAP_FORTREE_CITY_MART",
+      "group": 12,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_MART",
+      "script_owner": "FortreeCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route117",
+      "id": "MAP_ROUTE117",
+      "group": 0,
+      "map_number": 32,
+      "layout": "LAYOUT_ROUTE117",
+      "script_owner": "Route117_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_89_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_89_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPERHOENN_34_89_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_89_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_Mart",
+      "id": "MAP_SOOTOPOLIS_CITY_MART",
+      "group": 15,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_MART",
+      "script_owner": "SootopolisCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_1F",
+      "id": "MAP_MAGMA_HIDEOUT_1F",
+      "group": 24,
+      "map_number": 86,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_1F",
+      "script_owner": "MagmaHideout_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "id": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+      "group": 15,
+      "map_number": 0,
+      "layout": "LAYOUT_SOOTOPOLIS_CITY_GYM_1F",
+      "script_owner": "SootopolisCity_Gym_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route114_LanettesHouse",
+      "id": "MAP_ROUTE114_LANETTES_HOUSE",
+      "group": 20,
+      "map_number": 2,
+      "layout": "LAYOUT_ROUTE114_LANETTES_HOUSE",
+      "script_owner": "Route114_LanettesHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route132",
+      "id": "MAP_ROUTE132",
+      "group": 0,
+      "map_number": 47,
+      "layout": "LAYOUT_ROUTE132",
+      "script_owner": "Route132_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_BattleTentBattleRoom",
+      "id": "MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM",
+      "group": 6,
+      "map_number": 2,
+      "layout": "LAYOUT_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM",
+      "script_owner": "VerdanturfTown_BattleTentBattleRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "TerraCave_Entrance",
+      "id": "MAP_TERRA_CAVE_ENTRANCE",
+      "group": 24,
+      "map_number": 104,
+      "layout": "LAYOUT_TERRA_CAVE_ENTRANCE",
+      "script_owner": "TerraCave_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PetalburgCity",
+      "id": "MAP_PETALBURG_CITY",
+      "group": 0,
+      "map_number": 0,
+      "layout": "LAYOUT_PETALBURG_CITY",
+      "script_owner": "PetalburgCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_44_Victory_Road",
+      "id": "MAP_HYPERHOENN_34_44_VICTORY_ROAD",
+      "group": 105,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_44_VICTORY_ROAD",
+      "script_owner": "HyperHoenn_34_44_Victory_Road_MapScripts",
+      "special": true
+    },
+    {
+      "map": "AbandonedShip_Deck",
+      "id": "MAP_ABANDONED_SHIP_DECK",
+      "group": 24,
+      "map_number": 54,
+      "layout": "LAYOUT_ABANDONED_SHIP_DECK",
+      "script_owner": "AbandonedShip_Deck_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Entrance",
+      "id": "MAP_SEAFLOOR_CAVERN_ENTRANCE",
+      "group": 24,
+      "map_number": 27,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ENTRANCE",
+      "script_owner": "SeafloorCavern_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route123_BerryMastersHouse",
+      "id": "MAP_ROUTE123_BERRY_MASTERS_HOUSE",
+      "group": 31,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY8_ROUTE123_BERRY_MASTERS_HOUSE",
+      "script_owner": "Route123_BerryMastersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStore_4F",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F",
+      "group": 13,
+      "map_number": 19,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_4F",
+      "script_owner": "LilycoveCity_DepartmentStore_4F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_HighTideInnerRoom",
+      "id": "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+      "group": 24,
+      "map_number": 51,
+      "layout": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+      "script_owner": "ShoalCave_HighTideInnerRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_OceanicMuseum_1F",
+      "id": "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
+      "group": 9,
+      "map_number": 7,
+      "layout": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
+      "script_owner": "SlateportCity_OceanicMuseum_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_Mart",
+      "id": "MAP_MOSSDEEP_CITY_MART",
+      "group": 14,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_MART",
+      "script_owner": "MossdeepCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_BattleTentLobby",
+      "id": "MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
+      "group": 5,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
+      "script_owner": "FallarborTown_BattleTentLobby_MapScripts",
+      "special": false
+    },
+    {
+      "map": "NewMauville_Inside",
+      "id": "MAP_NEW_MAUVILLE_INSIDE",
+      "group": 24,
+      "map_number": 53,
+      "layout": "LAYOUT_NEW_MAUVILLE_INSIDE",
+      "script_owner": "NewMauville_Inside_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_37_102_Couriway_Town",
+      "id": "MAP_HYPERHOENN_37_102_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_37_102_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_37_102_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Rooms2_B1F",
+      "id": "MAP_ABANDONED_SHIP_ROOMS2_B1F",
+      "group": 24,
+      "map_number": 59,
+      "layout": "LAYOUT_ABANDONED_SHIP_ROOMS2_B1F",
+      "script_owner": "AbandonedShip_Rooms2_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_CoveLilyMotel_2F",
+      "id": "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_2F",
+      "group": 13,
+      "map_number": 1,
+      "layout": "LAYOUT_LILYCOVE_CITY_COVE_LILY_MOTEL_2F",
+      "script_owner": "LilycoveCity_CoveLilyMotel_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_54_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_54_MT_SILVER",
+      "group": 87,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_34_54_MT_SILVER",
+      "script_owner": "HyperHoenn_34_54_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_45_Desert_Ruins",
+      "id": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "group": 24,
+      "map_number": 108,
+      "layout": "LAYOUT_HYPERHOENN_34_45_DESERT_RUINS",
+      "script_owner": "HyperHoenn_34_45_Desert_Ruins_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MirageTower_3F",
+      "id": "MAP_MIRAGE_TOWER_3F",
+      "group": 24,
+      "map_number": 96,
+      "layout": "LAYOUT_MIRAGE_TOWER_3F",
+      "script_owner": "MirageTower_3F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route115",
+      "id": "MAP_ROUTE115",
+      "group": 0,
+      "map_number": 30,
+      "layout": "LAYOUT_ROUTE115",
+      "script_owner": "Route115_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MeteorFalls_1F_2R",
+      "id": "MAP_METEOR_FALLS_1F_2R",
+      "group": 24,
+      "map_number": 1,
+      "layout": "LAYOUT_METEOR_FALLS_1F_2R",
+      "script_owner": "MeteorFalls_1F_2R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_DrakesRoom",
+      "id": "MAP_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "group": 16,
+      "map_number": 3,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "script_owner": "EverGrandeCity_DrakesRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_48_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_48_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPERHOENN_35_48_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_48_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "VerdanturfTown_Mart",
+      "id": "MAP_VERDANTURF_TOWN_MART",
+      "group": 6,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_MART",
+      "script_owner": "VerdanturfTown_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route133",
+      "id": "MAP_ROUTE133",
+      "group": 0,
+      "map_number": 48,
+      "layout": "LAYOUT_ROUTE133",
+      "script_owner": "Route133_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_5F",
+      "id": "MAP_MT_PYRE_5F",
+      "group": 24,
+      "map_number": 19,
+      "layout": "LAYOUT_MT_PYRE_5F",
+      "script_owner": "MtPyre_5F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_71_Granite_Cave",
+      "id": "MAP_HYPERHOENN_34_71_GRANITE_CAVE",
+      "group": 24,
+      "map_number": 112,
+      "layout": "LAYOUT_HYPERHOENN_34_71_GRANITE_CAVE",
+      "script_owner": "HyperHoenn_34_71_Granite_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStore_3F",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F",
+      "group": 13,
+      "map_number": 18,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_3F",
+      "script_owner": "LilycoveCity_DepartmentStore_3F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_Gym_B1F",
+      "id": "MAP_SOOTOPOLIS_CITY_GYM_B1F",
+      "group": 15,
+      "map_number": 1,
+      "layout": "LAYOUT_SOOTOPOLIS_CITY_GYM_B1F",
+      "script_owner": "SootopolisCity_Gym_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route121",
+      "id": "MAP_ROUTE121",
+      "group": 0,
+      "map_number": 36,
+      "layout": "LAYOUT_ROUTE121",
+      "script_owner": "Route121_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity",
+      "id": "MAP_LILYCOVE_CITY",
+      "group": 0,
+      "map_number": 5,
+      "layout": "LAYOUT_LILYCOVE_CITY",
+      "script_owner": "LilycoveCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_56_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_56_MT_SILVER",
+      "group": 87,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_34_56_MT_SILVER",
+      "script_owner": "HyperHoenn_34_56_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_7_Victory_Road",
+      "id": "MAP_HYPERHOENN_35_7_VICTORY_ROAD",
+      "group": 105,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_7_VICTORY_ROAD",
+      "script_owner": "HyperHoenn_35_7_Victory_Road_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_35_61_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_61_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPERHOENN_35_61_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_61_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_65_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_65_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_35_65_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_65_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_House3",
+      "id": "MAP_FORTREE_CITY_HOUSE3",
+      "group": 12,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_HOUSE3",
+      "script_owner": "FortreeCity_House3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStore_5F",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F",
+      "group": 13,
+      "map_number": 20,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_5F",
+      "script_owner": "LilycoveCity_DepartmentStore_5F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "IslandCave",
+      "id": "MAP_ISLAND_CAVE",
+      "group": 24,
+      "map_number": 67,
+      "layout": "LAYOUT_ISLAND_CAVE",
+      "script_owner": "IslandCave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route126",
+      "id": "MAP_ROUTE126",
+      "group": 0,
+      "map_number": 41,
+      "layout": "LAYOUT_ROUTE126",
+      "script_owner": "Route126_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_33_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_33_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPERHOENN_34_33_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_33_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House3",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE3",
+      "group": 15,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE3",
+      "script_owner": "SootopolisCity_House3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route104_MrBrineysHouse",
+      "id": "MAP_ROUTE104_MR_BRINEYS_HOUSE",
+      "group": 17,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
+      "script_owner": "Route104_MrBrineysHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Underwater1",
+      "id": "MAP_ABANDONED_SHIP_UNDERWATER1",
+      "group": 24,
+      "map_number": 60,
+      "layout": "LAYOUT_ABANDONED_SHIP_UNDERWATER1",
+      "script_owner": "AbandonedShip_Underwater1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_82_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_82_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_82_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_82_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MeteorFalls_B1F_1R",
+      "id": "MAP_METEOR_FALLS_B1F_1R",
+      "group": 24,
+      "map_number": 2,
+      "layout": "LAYOUT_METEOR_FALLS_B1F_1R",
+      "script_owner": "MeteorFalls_B1F_1R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_BattleTentCorridor",
+      "id": "MAP_VERDANTURF_TOWN_BATTLE_TENT_CORRIDOR",
+      "group": 6,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_BATTLE_TENT_CORRIDOR",
+      "script_owner": "VerdanturfTown_BattleTentCorridor_MapScripts",
+      "special": false
+    },
+    {
+      "map": "GraniteCave_StevensRoom",
+      "id": "MAP_GRANITE_CAVE_STEVENS_ROOM",
+      "group": 24,
+      "map_number": 10,
+      "layout": "LAYOUT_GRANITE_CAVE_STEVENS_ROOM",
+      "script_owner": "GraniteCave_StevensRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_35_Allearth_Forest",
+      "id": "MAP_HYPERHOENN_34_35_ALLEARTH_FOREST",
+      "group": 85,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_35_ALLEARTH_FOREST",
+      "script_owner": "HyperHoenn_34_35_Allearth_Forest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_House4",
+      "id": "MAP_LILYCOVE_CITY_HOUSE4",
+      "group": 13,
+      "map_number": 15,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_HOUSE4",
+      "script_owner": "LilycoveCity_House4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_PokemonCenter_2F",
+      "id": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_2F",
+      "group": 4,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_POKEMON_CENTER_2_F",
+      "script_owner": "LavaridgeTown_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_10_Basement",
+      "id": "MAP_HYPERHOENN_34_10_BASEMENT",
+      "group": 11,
+      "map_number": 17,
+      "layout": "LAYOUT_HYPERHOENN_34_10_BASEMENT",
+      "script_owner": "HyperHoenn_34_10_Basement_MapScripts",
+      "special": false
+    },
+    {
+      "map": "GraniteCave_B2F",
+      "id": "MAP_GRANITE_CAVE_B2F",
+      "group": 24,
+      "map_number": 9,
+      "layout": "LAYOUT_GRANITE_CAVE_B2F",
+      "script_owner": "GraniteCave_B2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_PokemonCenter_1F",
+      "id": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F",
+      "group": 5,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_POKEMON_CENTER_1_F",
+      "script_owner": "FallarborTown_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route124",
+      "id": "MAP_UNDERWATER_ROUTE124",
+      "group": 0,
+      "map_number": 50,
+      "layout": "LAYOUT_UNDERWATER_ROUTE124",
+      "script_owner": "Underwater_Route124_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route116",
+      "id": "MAP_ROUTE116",
+      "group": 0,
+      "map_number": 31,
+      "layout": "LAYOUT_ROUTE116",
+      "script_owner": "Route116_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_57_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_57_MT_SILVER",
+      "group": 87,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_57_MT_SILVER",
+      "script_owner": "HyperHoenn_34_57_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_48_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_48_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_48_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_48_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House1",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE1",
+      "group": 15,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE1",
+      "script_owner": "SootopolisCity_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route129",
+      "id": "MAP_UNDERWATER_ROUTE129",
+      "group": 0,
+      "map_number": 54,
+      "layout": "LAYOUT_UNDERWATER_ROUTE129",
+      "script_owner": "Underwater_Route129_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_54_Meteor_Temple",
+      "id": "MAP_HYPERHOENN_35_54_METEOR_TEMPLE",
+      "group": 83,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_54_METEOR_TEMPLE",
+      "script_owner": "HyperHoenn_35_54_Meteor_Temple_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_52_Couriway_Town",
+      "id": "MAP_HYPERHOENN_35_52_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_35_52_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_35_52_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_Mart",
+      "id": "MAP_FALLARBOR_TOWN_MART",
+      "group": 5,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_MART",
+      "script_owner": "FallarborTown_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MeteorFalls_B1F_2R",
+      "id": "MAP_METEOR_FALLS_B1F_2R",
+      "group": 24,
+      "map_number": 3,
+      "layout": "LAYOUT_METEOR_FALLS_B1F_2R",
+      "script_owner": "MeteorFalls_B1F_2R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_55_Ultra_Space",
+      "id": "MAP_HYPERHOENN_35_55_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPERHOENN_35_55_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_35_55_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_23_Training_Area",
+      "id": "MAP_HYPERHOENN_34_23_TRAINING_AREA",
+      "group": 97,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_34_23_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_23_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_4_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_35_4_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_4_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_35_4_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_LowTideInnerRoom",
+      "id": "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+      "group": 24,
+      "map_number": 47,
+      "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+      "script_owner": "ShoalCave_LowTideInnerRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_BattleTentLobby",
+      "id": "MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
+      "group": 6,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
+      "script_owner": "VerdanturfTown_BattleTentLobby_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_5_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_35_5_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_5_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_35_5_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room3",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM3",
+      "group": 24,
+      "map_number": 30,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM3",
+      "script_owner": "SeafloorCavern_Room3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_60_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_60_MT_SILVER",
+      "group": 87,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPERHOENN_34_60_MT_SILVER",
+      "script_owner": "HyperHoenn_34_60_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MarineCave_End",
+      "id": "MAP_MARINE_CAVE_END",
+      "group": 24,
+      "map_number": 103,
+      "layout": "LAYOUT_MARINE_CAVE_END",
+      "script_owner": "MarineCave_End_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_SternsShipyard_2F",
+      "id": "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
+      "group": 9,
+      "map_number": 1,
+      "layout": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
+      "script_owner": "SlateportCity_SternsShipyard_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_38_Allearth_Forest",
+      "id": "MAP_HYPERHOENN_34_38_ALLEARTH_FOREST",
+      "group": 85,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_38_ALLEARTH_FOREST",
+      "script_owner": "HyperHoenn_34_38_Allearth_Forest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route122",
+      "id": "MAP_ROUTE122",
+      "group": 0,
+      "map_number": 37,
+      "layout": "LAYOUT_ROUTE122",
+      "script_owner": "Route122_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_87_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_87_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_35_87_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_87_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_34_3_Dragonspiral_Tower",
+      "id": "MAP_HYPERHOENN_34_3_DRAGONSPIRAL_TOWER",
+      "group": 81,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_3_DRAGONSPIRAL_TOWER",
+      "script_owner": "HyperHoenn_34_3_Dragonspiral_Tower_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route104",
+      "id": "MAP_ROUTE104",
+      "group": 0,
+      "map_number": 19,
+      "layout": "LAYOUT_ROUTE104",
+      "script_owner": "Route104_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MirageTower_4F",
+      "id": "MAP_MIRAGE_TOWER_4F",
+      "group": 24,
+      "map_number": 97,
+      "layout": "LAYOUT_MIRAGE_TOWER_4F",
+      "script_owner": "MirageTower_4F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_66_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_66_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_35_66_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_66_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route114",
+      "id": "MAP_ROUTE114",
+      "group": 0,
+      "map_number": 29,
+      "layout": "LAYOUT_ROUTE114",
+      "script_owner": "Route114_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VictoryRoad_B1F",
+      "id": "MAP_VICTORY_ROAD_B1F",
+      "group": 24,
+      "map_number": 44,
+      "layout": "LAYOUT_VICTORY_ROAD_B1F",
+      "script_owner": "VictoryRoad_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_37_96_Distortion_World",
+      "id": "MAP_HYPERHOENN_37_96_DISTORTION_WORLD",
+      "group": 107,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_37_96_DISTORTION_WORLD",
+      "script_owner": "HyperHoenn_37_96_Distortion_World_MapScripts",
+      "special": true
+    },
+    {
+      "map": "VerdanturfTown_WandasHouse",
+      "id": "MAP_VERDANTURF_TOWN_WANDAS_HOUSE",
+      "group": 6,
+      "map_number": 6,
+      "layout": "LAYOUT_VERDANTURF_TOWN_WANDAS_HOUSE",
+      "script_owner": "VerdanturfTown_WandasHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity",
+      "id": "MAP_RUSTBORO_CITY",
+      "group": 0,
+      "map_number": 3,
+      "layout": "LAYOUT_RUSTBORO_CITY",
+      "script_owner": "RustboroCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_37_121_Sootopolis_City",
+      "id": "MAP_HYPERHOENN_37_121_SOOTOPOLIS_CITY",
+      "group": 104,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_37_121_SOOTOPOLIS_CITY",
+      "script_owner": "HyperHoenn_37_121_Sootopolis_City_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_34_25_Flower_Paradise",
+      "id": "MAP_HYPERHOENN_34_25_FLOWER_PARADISE",
+      "group": 84,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_25_FLOWER_PARADISE",
+      "script_owner": "HyperHoenn_34_25_Flower_Paradise_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AncientTomb",
+      "id": "MAP_ANCIENT_TOMB",
+      "group": 24,
+      "map_number": 68,
+      "layout": "LAYOUT_ANCIENT_TOMB",
+      "script_owner": "AncientTomb_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_PokemonCenter_2F",
+      "id": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_2F",
+      "group": 7,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_2_F",
+      "script_owner": "PacifidlogTown_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_3_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_35_3_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 10,
+      "layout": "LAYOUT_HYPERHOENN_35_3_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_35_3_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_House4",
+      "id": "MAP_FORTREE_CITY_HOUSE4",
+      "group": 12,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_HOUSE4",
+      "script_owner": "FortreeCity_House4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route129",
+      "id": "MAP_ROUTE129",
+      "group": 0,
+      "map_number": 44,
+      "layout": "LAYOUT_ROUTE129",
+      "script_owner": "Route129_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_ContestLobby",
+      "id": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
+      "group": 13,
+      "map_number": 4,
+      "layout": "LAYOUT_LILYCOVE_CITY_CONTEST_LOBBY",
+      "script_owner": "LilycoveCity_ContestLobby_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_1_Mt_Silver",
+      "id": "MAP_HYPERHOENN_35_1_MT_SILVER",
+      "group": 87,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_35_1_MT_SILVER",
+      "script_owner": "HyperHoenn_35_1_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_30_Crescent_Isle",
+      "id": "MAP_HYPERHOENN_35_30_CRESCENT_ISLE",
+      "group": 89,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_30_CRESCENT_ISLE",
+      "script_owner": "HyperHoenn_35_30_Crescent_Isle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House4",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE4",
+      "group": 15,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE4",
+      "script_owner": "SootopolisCity_House4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_Northwest",
+      "id": "MAP_SAFARI_ZONE_NORTHWEST",
+      "group": 26,
+      "map_number": 0,
+      "layout": "LAYOUT_SAFARI_ZONE_NORTHWEST",
+      "script_owner": "SafariZone_Northwest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "JaggedPass",
+      "id": "MAP_JAGGED_PASS",
+      "group": 24,
+      "map_number": 13,
+      "layout": "LAYOUT_JAGGED_PASS",
+      "script_owner": "JaggedPass_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "id": "MAP_MOSSDEEP_CITY_GYM",
+      "group": 14,
+      "map_number": 0,
+      "layout": "LAYOUT_MOSSDEEP_CITY_GYM",
+      "script_owner": "MossdeepCity_Gym_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route105",
+      "id": "MAP_ROUTE105",
+      "group": 0,
+      "map_number": 20,
+      "layout": "LAYOUT_ROUTE105",
+      "script_owner": "Route105_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_Gym",
+      "id": "MAP_RUSTBORO_CITY_GYM",
+      "group": 11,
+      "map_number": 3,
+      "layout": "LAYOUT_RUSTBORO_CITY_GYM",
+      "script_owner": "RustboroCity_Gym_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_6F",
+      "id": "MAP_MT_PYRE_6F",
+      "group": 24,
+      "map_number": 20,
+      "layout": "LAYOUT_MT_PYRE_6F",
+      "script_owner": "MtPyre_6F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route111_WinstrateFamilysHouse",
+      "id": "MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE",
+      "group": 18,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY5_ROUTE111_WINSTRATE_FAMILYS_HOUSE",
+      "script_owner": "Route111_WinstrateFamilysHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_31_Test_of_Heart",
+      "id": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "group": 106,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_31_TEST_OF_HEART",
+      "script_owner": "HyperHoenn_34_31_Test_of_Heart_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_34_16_Meteor_Temple",
+      "id": "MAP_HYPERHOENN_34_16_METEOR_TEMPLE",
+      "group": 83,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_16_METEOR_TEMPLE",
+      "script_owner": "HyperHoenn_34_16_Meteor_Temple_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_Mart",
+      "id": "MAP_MAUVILLE_CITY_MART",
+      "group": 10,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__MART",
+      "script_owner": "MauvilleCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_3F_1R",
+      "id": "MAP_MAGMA_HIDEOUT_3F_1R",
+      "group": 24,
+      "map_number": 89,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_3F_1R",
+      "script_owner": "MagmaHideout_3F_1R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_63_Couriway_Town",
+      "id": "MAP_HYPERHOENN_34_63_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_34_63_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_34_63_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_51_Desert_Underpass",
+      "id": "MAP_HYPERHOENN_35_51_DESERT_UNDERPASS",
+      "group": 24,
+      "map_number": 109,
+      "layout": "LAYOUT_HYPERHOENN_35_51_DESERT_UNDERPASS",
+      "script_owner": "HyperHoenn_35_51_Desert_Underpass_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_84_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_84_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_34_84_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_84_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_Southwest",
+      "id": "MAP_SAFARI_ZONE_SOUTHWEST",
+      "group": 26,
+      "map_number": 2,
+      "layout": "LAYOUT_SAFARI_ZONE_SOUTHWEST",
+      "script_owner": "SafariZone_Southwest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_24_Champion_Island",
+      "id": "MAP_HYPERHOENN_35_24_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_24_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_35_24_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PetalburgWoods",
+      "id": "MAP_PETALBURG_WOODS",
+      "group": 24,
+      "map_number": 11,
+      "layout": "LAYOUT_PETALBURG_WOODS",
+      "script_owner": "PetalburgWoods_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_3F",
+      "id": "MAP_SKY_PILLAR_3F",
+      "group": 24,
+      "map_number": 81,
+      "layout": "LAYOUT_SKY_PILLAR_3F",
+      "script_owner": "SkyPillar_3F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route116_TunnelersRestHouse",
+      "id": "MAP_ROUTE116_TUNNELERS_REST_HOUSE",
+      "group": 21,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE116_TUNNELERS_REST_HOUSE",
+      "script_owner": "Route116_TunnelersRestHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "DesertUnderpass",
+      "id": "MAP_DESERT_UNDERPASS",
+      "group": 24,
+      "map_number": 98,
+      "layout": "LAYOUT_DESERT_UNDERPASS",
+      "script_owner": "DesertUnderpass_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route121_SafariZoneEntrance",
+      "id": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
+      "group": 23,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE121_SAFARI_ZONE_ENTRANCE",
+      "script_owner": "Route121_SafariZoneEntrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_StevensHouse",
+      "id": "MAP_MOSSDEEP_CITY_STEVENS_HOUSE",
+      "group": 14,
+      "map_number": 7,
+      "layout": "LAYOUT_MOSSDEEP_CITY_STEVENS_HOUSE",
+      "script_owner": "MossdeepCity_StevensHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Underwater2",
+      "id": "MAP_ABANDONED_SHIP_UNDERWATER2",
+      "group": 24,
+      "map_number": 64,
+      "layout": "LAYOUT_ABANDONED_SHIP_UNDERWATER2",
+      "script_owner": "AbandonedShip_Underwater2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_77_Champion_Island",
+      "id": "MAP_HYPERHOENN_34_77_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_77_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_34_77_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AquaHideout_1F",
+      "id": "MAP_AQUA_HIDEOUT_1F",
+      "group": 24,
+      "map_number": 23,
+      "layout": "LAYOUT_AQUA_HIDEOUT_1F",
+      "script_owner": "AquaHideout_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_53_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_53_MT_SILVER",
+      "group": 87,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_53_MT_SILVER",
+      "script_owner": "HyperHoenn_34_53_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route126",
+      "id": "MAP_UNDERWATER_ROUTE126",
+      "group": 0,
+      "map_number": 51,
+      "layout": "LAYOUT_UNDERWATER_ROUTE126",
+      "script_owner": "Underwater_Route126_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_25_Champion_Island",
+      "id": "MAP_HYPERHOENN_35_25_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_25_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_35_25_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_32_Ultra_Space_Zero",
+      "id": "MAP_HYPERHOENN_34_32_ULTRA_SPACE_ZERO",
+      "group": 98,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_32_ULTRA_SPACE_ZERO",
+      "script_owner": "HyperHoenn_34_32_Ultra_Space_Zero_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_CoveLilyMotel_1F",
+      "id": "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
+      "group": 13,
+      "map_number": 0,
+      "layout": "LAYOUT_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
+      "script_owner": "LilycoveCity_CoveLilyMotel_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MarineCave_Entrance",
+      "id": "MAP_MARINE_CAVE_ENTRANCE",
+      "group": 24,
+      "map_number": 102,
+      "layout": "LAYOUT_MARINE_CAVE_ENTRANCE",
+      "script_owner": "MarineCave_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SealedChamber_OuterRoom",
+      "id": "MAP_SEALED_CHAMBER_OUTER_ROOM",
+      "group": 24,
+      "map_number": 71,
+      "layout": "LAYOUT_SEALED_CHAMBER_OUTER_ROOM",
+      "script_owner": "SealedChamber_OuterRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Rooms2_1F",
+      "id": "MAP_ABANDONED_SHIP_ROOMS2_1F",
+      "group": 24,
+      "map_number": 62,
+      "layout": "LAYOUT_ABANDONED_SHIP_ROOMS2_1F",
+      "script_owner": "AbandonedShip_Rooms2_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_House4",
+      "id": "MAP_MOSSDEEP_CITY_HOUSE4",
+      "group": 14,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE4",
+      "script_owner": "MossdeepCity_House4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_86_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_86_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPERHOENN_34_86_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_86_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_0_Timeless_Woods",
+      "id": "MAP_HYPERHOENN_34_0_TIMELESS_WOODS",
+      "group": 88,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_0_TIMELESS_WOODS",
+      "script_owner": "HyperHoenn_34_0_Timeless_Woods_MapScripts",
+      "special": false
+    },
+    {
+      "map": "CaveOfOrigin_1F",
+      "id": "MAP_CAVE_OF_ORIGIN_1F",
+      "group": 24,
+      "map_number": 38,
+      "layout": "LAYOUT_CAVE_OF_ORIGIN_1F",
+      "script_owner": "CaveOfOrigin_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Corridors_1F",
+      "id": "MAP_ABANDONED_SHIP_CORRIDORS_1F",
+      "group": 24,
+      "map_number": 55,
+      "layout": "LAYOUT_ABANDONED_SHIP_CORRIDORS_1F",
+      "script_owner": "AbandonedShip_Corridors_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route110",
+      "id": "MAP_ROUTE110",
+      "group": 0,
+      "map_number": 25,
+      "layout": "LAYOUT_ROUTE110",
+      "script_owner": "Route110_MapScripts",
+      "special": false
+    },
+    {
+      "map": "OldaleTown",
+      "id": "MAP_OLDALE_TOWN",
+      "group": 0,
+      "map_number": 10,
+      "layout": "LAYOUT_OLDALE_TOWN",
+      "script_owner": "OldaleTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room6",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM6",
+      "group": 24,
+      "map_number": 33,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM6",
+      "script_owner": "SeafloorCavern_Room6_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_69_Granite_Cave",
+      "id": "MAP_HYPERHOENN_34_69_GRANITE_CAVE",
+      "group": 24,
+      "map_number": 110,
+      "layout": "LAYOUT_HYPERHOENN_34_69_GRANITE_CAVE",
+      "script_owner": "HyperHoenn_34_69_Granite_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_26_Ultra_Alliance",
+      "id": "MAP_HYPERHOENN_34_26_ULTRA_ALLIANCE",
+      "group": 109,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_26_ULTRA_ALLIANCE",
+      "script_owner": "HyperHoenn_34_26_Ultra_Alliance_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route127",
+      "id": "MAP_ROUTE127",
+      "group": 0,
+      "map_number": 42,
+      "layout": "LAYOUT_ROUTE127",
+      "script_owner": "Route127_MapScripts",
+      "special": false
+    },
+    {
+      "map": "DewfordTown",
+      "id": "MAP_DEWFORD_TOWN",
+      "group": 0,
+      "map_number": 11,
+      "layout": "LAYOUT_DEWFORD_TOWN",
+      "script_owner": "DewfordTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_63_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_63_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 10,
+      "layout": "LAYOUT_HYPERHOENN_35_63_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_63_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_2_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_2_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_35_2_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_2_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "RustboroCity_CuttersHouse",
+      "id": "MAP_RUSTBORO_CITY_CUTTERS_HOUSE",
+      "group": 11,
+      "map_number": 11,
+      "layout": "LAYOUT_RUSTBORO_CITY_CUTTERS_HOUSE",
+      "script_owner": "RustboroCity_CuttersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "id": "MAP_MAGMA_HIDEOUT_2F_1R",
+      "group": 24,
+      "map_number": 87,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_2F_1R",
+      "script_owner": "MagmaHideout_2F_1R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route134",
+      "id": "MAP_UNDERWATER_ROUTE134",
+      "group": 24,
+      "map_number": 69,
+      "layout": "LAYOUT_UNDERWATER_ROUTE134",
+      "script_owner": "Underwater_Route134_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_PokemonCenter_1F",
+      "id": "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F",
+      "group": 13,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_POKEMON_CENTER_1_F",
+      "script_owner": "LilycoveCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_1_Dragonspiral_Tower",
+      "id": "MAP_HYPERHOENN_34_1_DRAGONSPIRAL_TOWER",
+      "group": 81,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_1_DRAGONSPIRAL_TOWER",
+      "script_owner": "HyperHoenn_34_1_Dragonspiral_Tower_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_18_Training_Area",
+      "id": "MAP_HYPERHOENN_34_18_TRAINING_AREA",
+      "group": 97,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_18_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_18_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RusturfTunnel",
+      "id": "MAP_RUSTURF_TUNNEL",
+      "group": 24,
+      "map_number": 4,
+      "layout": "LAYOUT_RUSTURF_TUNNEL",
+      "script_owner": "RusturfTunnel_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route123",
+      "id": "MAP_ROUTE123",
+      "group": 0,
+      "map_number": 38,
+      "layout": "LAYOUT_ROUTE123",
+      "script_owner": "Route123_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_PokemonCenter_1F",
+      "id": "MAP_SLATEPORT_CITY_POKEMON_CENTER_1F",
+      "group": 9,
+      "map_number": 11,
+      "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__POKEMON_CENTER_1_F",
+      "script_owner": "SlateportCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_28_Crescent_Isle",
+      "id": "MAP_HYPERHOENN_34_28_CRESCENT_ISLE",
+      "group": 89,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_28_CRESCENT_ISLE",
+      "script_owner": "HyperHoenn_34_28_Crescent_Isle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStore_2F",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
+      "group": 13,
+      "map_number": 17,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
+      "script_owner": "LilycoveCity_DepartmentStore_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route108",
+      "id": "MAP_ROUTE108",
+      "group": 0,
+      "map_number": 23,
+      "layout": "LAYOUT_ROUTE108",
+      "script_owner": "Route108_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_39_Allearth_Forest",
+      "id": "MAP_HYPERHOENN_34_39_ALLEARTH_FOREST",
+      "group": 85,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_39_ALLEARTH_FOREST",
+      "script_owner": "HyperHoenn_34_39_Allearth_Forest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity",
+      "id": "MAP_EVER_GRANDE_CITY",
+      "group": 0,
+      "map_number": 8,
+      "layout": "LAYOUT_EVER_GRANDE_CITY",
+      "script_owner": "EverGrandeCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_37_120_Ancient_Retreat",
+      "id": "MAP_HYPERHOENN_37_120_ANCIENT_RETREAT",
+      "group": 110,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_37_120_ANCIENT_RETREAT",
+      "script_owner": "HyperHoenn_37_120_Ancient_Retreat_MapScripts",
+      "special": true
+    },
+    {
+      "map": "LilycoveCity_ContestHall",
+      "id": "MAP_LILYCOVE_CITY_CONTEST_HALL",
+      "group": 13,
+      "map_number": 5,
+      "layout": "LAYOUT_LILYCOVE_CITY_CONTEST_HALL",
+      "script_owner": "LilycoveCity_ContestHall_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_Entrance",
+      "id": "MAP_SKY_PILLAR_ENTRANCE",
+      "group": 24,
+      "map_number": 77,
+      "layout": "LAYOUT_SKY_PILLAR_ENTRANCE",
+      "script_owner": "SkyPillar_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "CaveOfOrigin_Entrance",
+      "id": "MAP_CAVE_OF_ORIGIN_ENTRANCE",
+      "group": 24,
+      "map_number": 37,
+      "layout": "LAYOUT_CAVE_OF_ORIGIN_ENTRANCE",
+      "script_owner": "CaveOfOrigin_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route109",
+      "id": "MAP_ROUTE109",
+      "group": 0,
+      "map_number": 24,
+      "layout": "LAYOUT_ROUTE109",
+      "script_owner": "Route109_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_House2",
+      "id": "MAP_MOSSDEEP_CITY_HOUSE2",
+      "group": 14,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE2",
+      "script_owner": "MossdeepCity_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_PokemonCenter_1F",
+      "id": "MAP_FORTREE_CITY_POKEMON_CENTER_1F",
+      "group": 12,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_POKEMON_CENTER_1_F",
+      "script_owner": "FortreeCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route106",
+      "id": "MAP_ROUTE106",
+      "group": 0,
+      "map_number": 21,
+      "layout": "LAYOUT_ROUTE106",
+      "script_owner": "Route106_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room9",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM9",
+      "group": 24,
+      "map_number": 36,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM9",
+      "script_owner": "SeafloorCavern_Room9_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_House",
+      "id": "MAP_VERDANTURF_TOWN_HOUSE",
+      "group": 6,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_HOUSE",
+      "script_owner": "VerdanturfTown_House_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity",
+      "id": "MAP_FORTREE_CITY",
+      "group": 0,
+      "map_number": 4,
+      "layout": "LAYOUT_FORTREE_CITY",
+      "script_owner": "FortreeCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_36_Allearth_Lake",
+      "id": "MAP_HYPERHOENN_34_36_ALLEARTH_LAKE",
+      "group": 86,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_36_ALLEARTH_LAKE",
+      "script_owner": "HyperHoenn_34_36_Allearth_Lake_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_1F",
+      "id": "MAP_MT_PYRE_1F",
+      "group": 24,
+      "map_number": 15,
+      "layout": "LAYOUT_MT_PYRE_1F",
+      "script_owner": "MtPyre_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_73_Granite_Cave",
+      "id": "MAP_HYPERHOENN_34_73_GRANITE_CAVE",
+      "group": 24,
+      "map_number": 111,
+      "layout": "LAYOUT_HYPERHOENN_34_73_GRANITE_CAVE",
+      "script_owner": "HyperHoenn_34_73_Granite_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_PokemonSchool",
+      "id": "MAP_RUSTBORO_CITY_POKEMON_SCHOOL",
+      "group": 11,
+      "map_number": 4,
+      "layout": "LAYOUT_RUSTBORO_CITY_POKEMON_SCHOOL",
+      "script_owner": "RustboroCity_PokemonSchool_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_RestHouse",
+      "id": "MAP_SAFARI_ZONE_REST_HOUSE",
+      "group": 26,
+      "map_number": 11,
+      "layout": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
+      "script_owner": "SafariZone_RestHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "NewMauville_Entrance",
+      "id": "MAP_NEW_MAUVILLE_ENTRANCE",
+      "group": 24,
+      "map_number": 52,
+      "layout": "LAYOUT_NEW_MAUVILLE_ENTRANCE",
+      "script_owner": "NewMauville_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route112",
+      "id": "MAP_ROUTE112",
+      "group": 0,
+      "map_number": 27,
+      "layout": "LAYOUT_ROUTE112",
+      "script_owner": "Route112_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route120",
+      "id": "MAP_ROUTE120",
+      "group": 0,
+      "map_number": 35,
+      "layout": "LAYOUT_ROUTE120",
+      "script_owner": "Route120_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_PokemonTrainerFanClub",
+      "id": "MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
+      "group": 13,
+      "map_number": 9,
+      "layout": "LAYOUT_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
+      "script_owner": "LilycoveCity_PokemonTrainerFanClub_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_20_Training_Area",
+      "id": "MAP_HYPERHOENN_34_20_TRAINING_AREA",
+      "group": 97,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_20_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_20_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_Mart",
+      "id": "MAP_SLATEPORT_CITY_MART",
+      "group": 9,
+      "map_number": 13,
+      "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__MART",
+      "script_owner": "SlateportCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_House2",
+      "id": "MAP_PACIFIDLOG_TOWN_HOUSE2",
+      "group": 7,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE2",
+      "script_owner": "PacifidlogTown_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_29_Ultra_Alliance",
+      "id": "MAP_HYPERHOENN_34_29_ULTRA_ALLIANCE",
+      "group": 109,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_29_ULTRA_ALLIANCE",
+      "script_owner": "HyperHoenn_34_29_Ultra_Alliance_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route113_GlassWorkshop",
+      "id": "MAP_ROUTE113_GLASS_WORKSHOP",
+      "group": 30,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY5_ROUTE113_GLASS_WORKSHOP",
+      "script_owner": "Route113_GlassWorkshop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity",
+      "id": "MAP_MOSSDEEP_CITY",
+      "group": 0,
+      "map_number": 6,
+      "layout": "LAYOUT_MOSSDEEP_CITY",
+      "script_owner": "MossdeepCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_PokemonCenter_2F",
+      "id": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F",
+      "group": 14,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_2_F",
+      "script_owner": "MossdeepCity_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_2_Dragonspiral_Tower",
+      "id": "MAP_HYPERHOENN_34_2_DRAGONSPIRAL_TOWER",
+      "group": 81,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_2_DRAGONSPIRAL_TOWER",
+      "script_owner": "HyperHoenn_34_2_Dragonspiral_Tower_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route119_House",
+      "id": "MAP_ROUTE119_HOUSE",
+      "group": 32,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY7_ROUTE119_HOUSE",
+      "script_owner": "Route119_House_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_57_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_57_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_57_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_57_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown",
+      "id": "MAP_VERDANTURF_TOWN",
+      "group": 0,
+      "map_number": 14,
+      "layout": "LAYOUT_VERDANTURF_TOWN",
+      "script_owner": "VerdanturfTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_24_EV_Training_Cave",
+      "id": "MAP_HYPERHOENN_34_24_EV_TRAINING_CAVE",
+      "group": 94,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_24_EV_TRAINING_CAVE",
+      "script_owner": "HyperHoenn_34_24_EV_Training_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_47_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_47_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPERHOENN_34_47_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_47_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStore_1F",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
+      "group": 13,
+      "map_number": 16,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
+      "script_owner": "LilycoveCity_DepartmentStore_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MeteorFalls_StevensCave",
+      "id": "MAP_METEOR_FALLS_STEVENS_CAVE",
+      "group": 24,
+      "map_number": 107,
+      "layout": "LAYOUT_METEOR_FALLS_STEVENS_CAVE",
+      "script_owner": "MeteorFalls_StevensCave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_40_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_40_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_35_40_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_40_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "VerdanturfTown_FriendshipRatersHouse",
+      "id": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
+      "group": 6,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
+      "script_owner": "VerdanturfTown_FriendshipRatersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_60_Ultra_Space",
+      "id": "MAP_HYPERHOENN_35_60_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_35_60_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_35_60_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House6",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE6",
+      "group": 15,
+      "map_number": 10,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE6",
+      "script_owner": "SootopolisCity_House6_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown",
+      "id": "MAP_FALLARBOR_TOWN",
+      "group": 0,
+      "map_number": 13,
+      "layout": "LAYOUT_FALLARBOR_TOWN",
+      "script_owner": "FallarborTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "GraniteCave_1F",
+      "id": "MAP_GRANITE_CAVE_1F",
+      "group": 24,
+      "map_number": 7,
+      "layout": "LAYOUT_GRANITE_CAVE_1F",
+      "script_owner": "GraniteCave_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_Hall4",
+      "id": "MAP_EVER_GRANDE_CITY_HALL4",
+      "group": 16,
+      "map_number": 8,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_HALL4",
+      "script_owner": "EverGrandeCity_Hall4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_55_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_55_MT_SILVER",
+      "group": 87,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPERHOENN_34_55_MT_SILVER",
+      "script_owner": "HyperHoenn_34_55_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStoreElevator",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
+      "group": 13,
+      "map_number": 22,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
+      "script_owner": "LilycoveCity_DepartmentStoreElevator_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route124",
+      "id": "MAP_ROUTE124",
+      "group": 0,
+      "map_number": 39,
+      "layout": "LAYOUT_ROUTE124",
+      "script_owner": "Route124_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_DevonCorp_1F",
+      "id": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
+      "group": 11,
+      "map_number": 0,
+      "layout": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_1F",
+      "script_owner": "RustboroCity_DevonCorp_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_House5",
+      "id": "MAP_FORTREE_CITY_HOUSE5",
+      "group": 12,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_HOUSE5",
+      "script_owner": "FortreeCity_House5_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_59_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_59_MT_SILVER",
+      "group": 87,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_59_MT_SILVER",
+      "script_owner": "HyperHoenn_34_59_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_LowTideLowerRoom",
+      "id": "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+      "group": 24,
+      "map_number": 49,
+      "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+      "script_owner": "ShoalCave_LowTideLowerRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_PokemonCenter_1F",
+      "id": "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F",
+      "group": 11,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY3_RUSTBORO_CITY__POKEMON_CENTER_1_F",
+      "script_owner": "RustboroCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_5F",
+      "id": "MAP_SKY_PILLAR_5F",
+      "group": 24,
+      "map_number": 84,
+      "layout": "LAYOUT_SKY_PILLAR_5F",
+      "script_owner": "SkyPillar_5F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "TrainerHill_Elevator",
+      "id": "MAP_TRAINER_HILL_ELEVATOR",
+      "group": 26,
+      "map_number": 88,
+      "layout": "LAYOUT_HYPER_CANARY5_TRAINER_HILL_ELEVATOR",
+      "script_owner": "TrainerHill_Elevator_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_76_Champion_Island",
+      "id": "MAP_HYPERHOENN_34_76_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPERHOENN_34_76_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_34_76_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_OceanicMuseum_2F",
+      "id": "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+      "group": 9,
+      "map_number": 8,
+      "layout": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+      "script_owner": "SlateportCity_OceanicMuseum_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_15_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_15_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_15_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_15_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_LilycoveMuseum_1F",
+      "id": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
+      "group": 13,
+      "map_number": 2,
+      "layout": "LAYOUT_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
+      "script_owner": "LilycoveCity_LilycoveMuseum_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_House2",
+      "id": "MAP_FORTREE_CITY_HOUSE2",
+      "group": 12,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_HOUSE2",
+      "script_owner": "FortreeCity_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_Exterior",
+      "id": "MAP_MT_PYRE_EXTERIOR",
+      "group": 24,
+      "map_number": 21,
+      "layout": "LAYOUT_MT_PYRE_EXTERIOR",
+      "script_owner": "MtPyre_Exterior_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_House1",
+      "id": "MAP_LILYCOVE_CITY_HOUSE1",
+      "group": 13,
+      "map_number": 12,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_HOUSE1",
+      "script_owner": "LilycoveCity_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_2F_2R",
+      "id": "MAP_MAGMA_HIDEOUT_2F_2R",
+      "group": 24,
+      "map_number": 88,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_2F_2R",
+      "script_owner": "MagmaHideout_2F_2R_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route119_WeatherInstitute_1F",
+      "id": "MAP_ROUTE119_WEATHER_INSTITUTE_1F",
+      "group": 32,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_1F",
+      "script_owner": "Route119_WeatherInstitute_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_SternsShipyard_1F",
+      "id": "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F",
+      "group": 9,
+      "map_number": 0,
+      "layout": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_1F",
+      "script_owner": "SlateportCity_SternsShipyard_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room2",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM2",
+      "group": 24,
+      "map_number": 29,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM2",
+      "script_owner": "SeafloorCavern_Room2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House5",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE5",
+      "group": 15,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE5",
+      "script_owner": "SootopolisCity_House5_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_22_Training_Area",
+      "id": "MAP_HYPERHOENN_34_22_TRAINING_AREA",
+      "group": 97,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_34_22_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_22_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_DevonCorp_3F",
+      "id": "MAP_RUSTBORO_CITY_DEVON_CORP_3F",
+      "group": 11,
+      "map_number": 2,
+      "layout": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_3F",
+      "script_owner": "RustboroCity_DevonCorp_3F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_33_Mountain_Top",
+      "id": "MAP_HYPERHOENN_35_33_MOUNTAIN_TOP",
+      "group": 101,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_33_MOUNTAIN_TOP",
+      "script_owner": "HyperHoenn_35_33_Mountain_Top_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_46_Unown_Ruins",
+      "id": "MAP_HYPERHOENN_34_46_UNOWN_RUINS",
+      "group": 93,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_46_UNOWN_RUINS",
+      "script_owner": "HyperHoenn_34_46_Unown_Ruins_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_1F",
+      "id": "MAP_SKY_PILLAR_1F",
+      "group": 24,
+      "map_number": 79,
+      "layout": "LAYOUT_SKY_PILLAR_1F",
+      "script_owner": "SkyPillar_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtChimney_CableCarStation",
+      "id": "MAP_MT_CHIMNEY_CABLE_CAR_STATION",
+      "group": 19,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY5_MT_CHIMNEY_CABLE_CAR_STATION",
+      "script_owner": "MtChimney_CableCarStation_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route105",
+      "id": "MAP_UNDERWATER_ROUTE105",
+      "group": 0,
+      "map_number": 55,
+      "layout": "LAYOUT_UNDERWATER_ROUTE105",
+      "script_owner": "Underwater_Route105_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route117_PokemonDayCare",
+      "id": "MAP_ROUTE117_POKEMON_DAY_CARE",
+      "group": 22,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE117_POKEMON_DAY_CARE",
+      "script_owner": "Route117_PokemonDayCare_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_PokemonCenter_2F",
+      "id": "MAP_LILYCOVE_CITY_POKEMON_CENTER_2F",
+      "group": 13,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_POKEMON_CENTER_2_F",
+      "script_owner": "LilycoveCity_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_House3",
+      "id": "MAP_PACIFIDLOG_TOWN_HOUSE3",
+      "group": 7,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE3",
+      "script_owner": "PacifidlogTown_House3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "DesertRuins",
+      "id": "MAP_DESERT_RUINS",
+      "group": 24,
+      "map_number": 6,
+      "layout": "LAYOUT_DESERT_RUINS",
+      "script_owner": "DesertRuins_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_42_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_42_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPERHOENN_35_42_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_42_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route114_FossilManiacsHouse",
+      "id": "MAP_ROUTE114_FOSSIL_MANIACS_HOUSE",
+      "group": 20,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE114_FOSSIL_MANIACS_HOUSE",
+      "script_owner": "Route114_FossilManiacsHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "CaveOfOrigin_B1F",
+      "id": "MAP_CAVE_OF_ORIGIN_B1F",
+      "group": 24,
+      "map_number": 42,
+      "layout": "LAYOUT_CAVE_OF_ORIGIN_B1F",
+      "script_owner": "CaveOfOrigin_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_PokemonCenter_2F",
+      "id": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_2F",
+      "group": 16,
+      "map_number": 13,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_2_F",
+      "script_owner": "EverGrandeCity_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_DepartmentStoreRooftop",
+      "id": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP",
+      "group": 13,
+      "map_number": 21,
+      "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP",
+      "script_owner": "LilycoveCity_DepartmentStoreRooftop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_LilycoveMuseum_2F",
+      "id": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F",
+      "group": 13,
+      "map_number": 3,
+      "layout": "LAYOUT_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F",
+      "script_owner": "LilycoveCity_LilycoveMuseum_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_PokemonCenter_1F",
+      "id": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F",
+      "group": 15,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_1_F",
+      "script_owner": "SootopolisCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_SeafloorCavern",
+      "id": "MAP_UNDERWATER_SEAFLOOR_CAVERN",
+      "group": 24,
+      "map_number": 26,
+      "layout": "LAYOUT_UNDERWATER_SEAFLOOR_CAVERN",
+      "script_owner": "Underwater_SeafloorCavern_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_PokemonCenter_1F",
+      "id": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F",
+      "group": 16,
+      "map_number": 12,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_1_F",
+      "script_owner": "EverGrandeCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route101",
+      "id": "MAP_ROUTE101",
+      "group": 0,
+      "map_number": 16,
+      "layout": "LAYOUT_ROUTE101",
+      "script_owner": "Route101_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_HiddenFloorRooms",
+      "id": "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_ROOMS",
+      "group": 24,
+      "map_number": 66,
+      "layout": "LAYOUT_ABANDONED_SHIP_HIDDEN_FLOOR_ROOMS",
+      "script_owner": "AbandonedShip_HiddenFloorRooms_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Corridors_B1F",
+      "id": "MAP_ABANDONED_SHIP_CORRIDORS_B1F",
+      "group": 24,
+      "map_number": 57,
+      "layout": "LAYOUT_ABANDONED_SHIP_CORRIDORS_B1F",
+      "script_owner": "AbandonedShip_Corridors_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_GameCorner_1F",
+      "id": "MAP_MOSSDEEP_CITY_GAME_CORNER_1F",
+      "group": 14,
+      "map_number": 11,
+      "layout": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_1F",
+      "script_owner": "MossdeepCity_GameCorner_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_Outside",
+      "id": "MAP_SKY_PILLAR_OUTSIDE",
+      "group": 24,
+      "map_number": 78,
+      "layout": "LAYOUT_SKY_PILLAR_OUTSIDE",
+      "script_owner": "SkyPillar_Outside_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_CaptainsOffice",
+      "id": "MAP_ABANDONED_SHIP_CAPTAINS_OFFICE",
+      "group": 24,
+      "map_number": 63,
+      "layout": "LAYOUT_ABANDONED_SHIP_CAPTAINS_OFFICE",
+      "script_owner": "AbandonedShip_CaptainsOffice_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_49_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_49_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_49_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_49_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_21_Couriway_Town",
+      "id": "MAP_HYPERHOENN_35_21_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_21_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_35_21_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity",
+      "id": "MAP_SOOTOPOLIS_CITY",
+      "group": 0,
+      "map_number": 7,
+      "layout": "LAYOUT_SOOTOPOLIS_CITY",
+      "script_owner": "SootopolisCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_41_Allearth_Forest",
+      "id": "MAP_HYPERHOENN_34_41_ALLEARTH_FOREST",
+      "group": 85,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_41_ALLEARTH_FOREST",
+      "script_owner": "HyperHoenn_34_41_Allearth_Forest_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_Harbor",
+      "id": "MAP_LILYCOVE_CITY_HARBOR",
+      "group": 13,
+      "map_number": 10,
+      "layout": "LAYOUT_HARBOR",
+      "script_owner": "LilycoveCity_Harbor_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_83_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_83_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_34_83_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_83_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_Summit",
+      "id": "MAP_MT_PYRE_SUMMIT",
+      "group": 24,
+      "map_number": 22,
+      "layout": "LAYOUT_MT_PYRE_SUMMIT",
+      "script_owner": "MtPyre_Summit_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_36_EV_Training_Cave",
+      "id": "MAP_HYPERHOENN_35_36_EV_TRAINING_CAVE",
+      "group": 94,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_36_EV_TRAINING_CAVE",
+      "script_owner": "HyperHoenn_35_36_EV_Training_Cave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_26_Dragonspiral_Tower",
+      "id": "MAP_HYPERHOENN_35_26_DRAGONSPIRAL_TOWER",
+      "group": 81,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_26_DRAGONSPIRAL_TOWER",
+      "script_owner": "HyperHoenn_35_26_Dragonspiral_Tower_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_GlaciasRoom",
+      "id": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "group": 16,
+      "map_number": 2,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "script_owner": "EverGrandeCity_GlaciasRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_BattleTentCorridor",
+      "id": "MAP_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR",
+      "group": 5,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR",
+      "script_owner": "FallarborTown_BattleTentCorridor_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MirageTower_1F",
+      "id": "MAP_MIRAGE_TOWER_1F",
+      "group": 24,
+      "map_number": 94,
+      "layout": "LAYOUT_MIRAGE_TOWER_1F",
+      "script_owner": "MirageTower_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_PhoebesRoom",
+      "id": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "group": 16,
+      "map_number": 1,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "script_owner": "EverGrandeCity_PhoebesRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route128",
+      "id": "MAP_ROUTE128",
+      "group": 0,
+      "map_number": 43,
+      "layout": "LAYOUT_ROUTE128",
+      "script_owner": "Route128_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_58_Mt_Silver",
+      "id": "MAP_HYPERHOENN_34_58_MT_SILVER",
+      "group": 87,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_58_MT_SILVER",
+      "script_owner": "HyperHoenn_34_58_Mt_Silver_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route107",
+      "id": "MAP_ROUTE107",
+      "group": 0,
+      "map_number": 22,
+      "layout": "LAYOUT_ROUTE107",
+      "script_owner": "Route107_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route111_OldLadysRestStop",
+      "id": "MAP_ROUTE111_OLD_LADYS_REST_STOP",
+      "group": 18,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY5_ROUTE111_OLD_LADYS_REST_STOP",
+      "script_owner": "Route111_OldLadysRestStop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_78_Champion_Island",
+      "id": "MAP_HYPERHOENN_34_78_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_34_78_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_34_78_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_House2",
+      "id": "MAP_MAUVILLE_CITY_HOUSE2",
+      "group": 10,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__HOUSE2",
+      "script_owner": "MauvilleCity_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_SpaceCenter_1F",
+      "id": "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "group": 14,
+      "map_number": 9,
+      "layout": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "script_owner": "MossdeepCity_SpaceCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route124_DivingTreasureHuntersHouse",
+      "id": "MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
+      "group": 33,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
+      "script_owner": "Route124_DivingTreasureHuntersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MagmaHideout_4F",
+      "id": "MAP_MAGMA_HIDEOUT_4F",
+      "group": 24,
+      "map_number": 91,
+      "layout": "LAYOUT_MAGMA_HIDEOUT_4F",
+      "script_owner": "MagmaHideout_4F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_66_Mountain_Top",
+      "id": "MAP_HYPERHOENN_34_66_MOUNTAIN_TOP",
+      "group": 101,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_66_MOUNTAIN_TOP",
+      "script_owner": "HyperHoenn_34_66_Mountain_Top_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Rooms_B1F",
+      "id": "MAP_ABANDONED_SHIP_ROOMS_B1F",
+      "group": 24,
+      "map_number": 58,
+      "layout": "LAYOUT_ABANDONED_SHIP_ROOMS_B1F",
+      "script_owner": "AbandonedShip_Rooms_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_8_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_8_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_8_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_8_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route110_SeasideCyclingRoadNorthEntrance",
+      "id": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+      "group": 29,
+      "map_number": 12,
+      "layout": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+      "script_owner": "Route110_SeasideCyclingRoadNorthEntrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_House5",
+      "id": "MAP_PACIFIDLOG_TOWN_HOUSE5",
+      "group": 7,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE5",
+      "script_owner": "PacifidlogTown_House5_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_31_Cave_of_Despair",
+      "id": "MAP_HYPERHOENN_35_31_CAVE_OF_DESPAIR",
+      "group": 100,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_31_CAVE_OF_DESPAIR",
+      "script_owner": "HyperHoenn_35_31_Cave_of_Despair_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VerdanturfTown_PokemonCenter_2F",
+      "id": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_2F",
+      "group": 6,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_POKEMON_CENTER_2_F",
+      "script_owner": "VerdanturfTown_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_40_Couriway_Town",
+      "id": "MAP_HYPERHOENN_34_40_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_40_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_34_40_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_3F",
+      "id": "MAP_MT_PYRE_3F",
+      "group": 24,
+      "map_number": 17,
+      "layout": "LAYOUT_MT_PYRE_3F",
+      "script_owner": "MtPyre_3F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AquaHideout_B2F",
+      "id": "MAP_AQUA_HIDEOUT_B2F",
+      "group": 24,
+      "map_number": 25,
+      "layout": "LAYOUT_AQUA_HIDEOUT_B2F",
+      "script_owner": "AquaHideout_B2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route118",
+      "id": "MAP_ROUTE118",
+      "group": 0,
+      "map_number": 33,
+      "layout": "LAYOUT_ROUTE118",
+      "script_owner": "Route118_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_68_Route_106",
+      "id": "MAP_HYPERHOENN_34_68_ROUTE_106",
+      "group": 0,
+      "map_number": 57,
+      "layout": "LAYOUT_HYPERHOENN_34_68_ROUTE_106",
+      "script_owner": "HyperHoenn_34_68_Route_106_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_DevonCorp_2F",
+      "id": "MAP_RUSTBORO_CITY_DEVON_CORP_2F",
+      "group": 11,
+      "map_number": 1,
+      "layout": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_2F",
+      "script_owner": "RustboroCity_DevonCorp_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_MoveRelearnersHouse",
+      "id": "MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
+      "group": 5,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
+      "script_owner": "FallarborTown_MoveRelearnersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "TerraCave_End",
+      "id": "MAP_TERRA_CAVE_END",
+      "group": 24,
+      "map_number": 105,
+      "layout": "LAYOUT_TERRA_CAVE_END",
+      "script_owner": "TerraCave_End_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_52_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_52_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_52_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_52_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "RustboroCity_Mart",
+      "id": "MAP_RUSTBORO_CITY_MART",
+      "group": 11,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPER_CANARY3_RUSTBORO_CITY__MART",
+      "script_owner": "RustboroCity_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "DewfordTown_Gym",
+      "id": "MAP_DEWFORD_TOWN_GYM",
+      "group": 3,
+      "map_number": 3,
+      "layout": "LAYOUT_DEWFORD_TOWN_GYM",
+      "script_owner": "DewfordTown_Gym_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_20_Sootopolis_City",
+      "id": "MAP_HYPERHOENN_35_20_SOOTOPOLIS_CITY",
+      "group": 104,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_20_SOOTOPOLIS_CITY",
+      "script_owner": "HyperHoenn_35_20_Sootopolis_City_MapScripts",
+      "special": true
+    },
+    {
+      "map": "FallarborTown_PokemonCenter_2F",
+      "id": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_2F",
+      "group": 5,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_POKEMON_CENTER_2_F",
+      "script_owner": "FallarborTown_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity",
+      "id": "MAP_MAUVILLE_CITY",
+      "group": 0,
+      "map_number": 2,
+      "layout": "LAYOUT_MAUVILLE_CITY",
+      "script_owner": "MauvilleCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_27_Timeless_Woods",
+      "id": "MAP_HYPERHOENN_35_27_TIMELESS_WOODS",
+      "group": 88,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPERHOENN_35_27_TIMELESS_WOODS",
+      "script_owner": "HyperHoenn_35_27_Timeless_Woods_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ScorchedSlab",
+      "id": "MAP_SCORCHED_SLAB",
+      "group": 24,
+      "map_number": 73,
+      "layout": "LAYOUT_SCORCHED_SLAB",
+      "script_owner": "ScorchedSlab_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "id": "MAP_MAUVILLE_CITY_GYM",
+      "group": 10,
+      "map_number": 0,
+      "layout": "LAYOUT_MAUVILLE_CITY_GYM",
+      "script_owner": "MauvilleCity_Gym_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_Gym_1F",
+      "id": "MAP_LAVARIDGE_TOWN_GYM_1F",
+      "group": 4,
+      "map_number": 1,
+      "layout": "LAYOUT_LAVARIDGE_TOWN_GYM_1F",
+      "script_owner": "LavaridgeTown_Gym_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room4",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM4",
+      "group": 24,
+      "map_number": 31,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM4",
+      "script_owner": "SeafloorCavern_Room4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_PokemonCenter_1F",
+      "id": "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F",
+      "group": 10,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__POKEMON_CENTER_1_F",
+      "script_owner": "MauvilleCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_HerbShop",
+      "id": "MAP_LAVARIDGE_TOWN_HERB_SHOP",
+      "group": 4,
+      "map_number": 0,
+      "layout": "LAYOUT_LAVARIDGE_TOWN_HERB_SHOP",
+      "script_owner": "LavaridgeTown_HerbShop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room1",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM1",
+      "group": 24,
+      "map_number": 28,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM1",
+      "script_owner": "SeafloorCavern_Room1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtPyre_4F",
+      "id": "MAP_MT_PYRE_4F",
+      "group": 24,
+      "map_number": 18,
+      "layout": "LAYOUT_MT_PYRE_4F",
+      "script_owner": "MtPyre_4F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_PokemonCenter_2F",
+      "id": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_2F",
+      "group": 15,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_2_F",
+      "script_owner": "SootopolisCity_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route102",
+      "id": "MAP_ROUTE102",
+      "group": 0,
+      "map_number": 17,
+      "layout": "LAYOUT_ROUTE102",
+      "script_owner": "Route102_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_21_Training_Area",
+      "id": "MAP_HYPERHOENN_34_21_TRAINING_AREA",
+      "group": 97,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPERHOENN_34_21_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_21_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_30_Test_of_Heart",
+      "id": "MAP_HYPERHOENN_34_30_TEST_OF_HEART",
+      "group": 106,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_30_TEST_OF_HEART",
+      "script_owner": "HyperHoenn_34_30_Test_of_Heart_MapScripts",
+      "special": true
+    },
+    {
+      "map": "HyperHoenn_34_19_Training_Area",
+      "id": "MAP_HYPERHOENN_34_19_TRAINING_AREA",
+      "group": 97,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_19_TRAINING_AREA",
+      "script_owner": "HyperHoenn_34_19_Training_Area_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_House3",
+      "id": "MAP_LILYCOVE_CITY_HOUSE3",
+      "group": 13,
+      "map_number": 14,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_HOUSE3",
+      "script_owner": "LilycoveCity_House3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VictoryRoad_B2F",
+      "id": "MAP_VICTORY_ROAD_B2F",
+      "group": 24,
+      "map_number": 45,
+      "layout": "LAYOUT_VICTORY_ROAD_B2F",
+      "script_owner": "VictoryRoad_B2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route114_FossilManiacsTunnel",
+      "id": "MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL",
+      "group": 20,
+      "map_number": 1,
+      "layout": "LAYOUT_ROUTE114_FOSSIL_MANIACS_TUNNEL",
+      "script_owner": "Route114_FossilManiacsTunnel_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_PokemonCenter_1F",
+      "id": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
+      "group": 4,
+      "map_number": 5,
+      "layout": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
+      "script_owner": "LavaridgeTown_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_UnusedMart",
+      "id": "MAP_LILYCOVE_CITY_UNUSED_MART",
+      "group": 13,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_UNUSED_MART",
+      "script_owner": "LilycoveCity_UnusedMart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_PokemonCenter_1F",
+      "id": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F",
+      "group": 14,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_1_F",
+      "script_owner": "MossdeepCity_PokemonCenter_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_LowTideStairsRoom",
+      "id": "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "group": 24,
+      "map_number": 48,
+      "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "script_owner": "ShoalCave_LowTideStairsRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Room_B1F",
+      "id": "MAP_ABANDONED_SHIP_ROOM_B1F",
+      "group": 24,
+      "map_number": 61,
+      "layout": "LAYOUT_ABANDONED_SHIP_ROOM_B1F",
+      "script_owner": "AbandonedShip_Room_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_11_Basement",
+      "id": "MAP_HYPERHOENN_34_11_BASEMENT",
+      "group": 108,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_11_BASEMENT",
+      "script_owner": "HyperHoenn_34_11_Basement_MapScripts",
+      "special": true
+    },
+    {
+      "map": "Route119",
+      "id": "MAP_ROUTE119",
+      "group": 0,
+      "map_number": 34,
+      "layout": "LAYOUT_ROUTE119",
+      "script_owner": "Route119_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_MoveDeletersHouse",
+      "id": "MAP_LILYCOVE_CITY_MOVE_DELETERS_HOUSE",
+      "group": 13,
+      "map_number": 11,
+      "layout": "LAYOUT_HYPER_CANARY8_LILYCOVE_CITY_MOVE_DELETERS_HOUSE",
+      "script_owner": "LilycoveCity_MoveDeletersHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route112_CableCarStation",
+      "id": "MAP_ROUTE112_CABLE_CAR_STATION",
+      "group": 19,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY5_ROUTE112_CABLE_CAR_STATION",
+      "script_owner": "Route112_CableCarStation_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route125",
+      "id": "MAP_UNDERWATER_ROUTE125",
+      "group": 0,
+      "map_number": 56,
+      "layout": "LAYOUT_UNDERWATER_ROUTE125",
+      "script_owner": "Underwater_Route125_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House7",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE7",
+      "group": 15,
+      "map_number": 11,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE7",
+      "script_owner": "SootopolisCity_House7_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_House",
+      "id": "MAP_LAVARIDGE_TOWN_HOUSE",
+      "group": 4,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_HOUSE",
+      "script_owner": "LavaridgeTown_House_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_Route127",
+      "id": "MAP_UNDERWATER_ROUTE127",
+      "group": 0,
+      "map_number": 52,
+      "layout": "LAYOUT_UNDERWATER_ROUTE127",
+      "script_owner": "Underwater_Route127_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_42_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_34_42_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_42_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_34_42_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "EverGrandeCity_SidneysRoom",
+      "id": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "group": 16,
+      "map_number": 0,
+      "layout": "LAYOUT_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "script_owner": "EverGrandeCity_SidneysRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_51_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_51_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_34_51_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_51_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_PokemonCenter_2F",
+      "id": "MAP_FORTREE_CITY_POKEMON_CENTER_2F",
+      "group": 12,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_POKEMON_CENTER_2_F",
+      "script_owner": "FortreeCity_PokemonCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MirageTower_2F",
+      "id": "MAP_MIRAGE_TOWER_2F",
+      "group": 24,
+      "map_number": 95,
+      "layout": "LAYOUT_MIRAGE_TOWER_2F",
+      "script_owner": "MirageTower_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_87_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_87_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_34_87_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_87_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_House3",
+      "id": "MAP_MOSSDEEP_CITY_HOUSE3",
+      "group": 14,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE3",
+      "script_owner": "MossdeepCity_House3_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room8",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM8",
+      "group": 24,
+      "map_number": 35,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM8",
+      "script_owner": "SeafloorCavern_Room8_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_67_Timeless_Woods",
+      "id": "MAP_HYPERHOENN_34_67_TIMELESS_WOODS",
+      "group": 88,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_34_67_TIMELESS_WOODS",
+      "script_owner": "HyperHoenn_34_67_Timeless_Woods_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity",
+      "id": "MAP_SLATEPORT_CITY",
+      "group": 0,
+      "map_number": 1,
+      "layout": "LAYOUT_SLATEPORT_CITY",
+      "script_owner": "SlateportCity_MapScripts",
+      "special": false
+    },
+    {
+      "map": "TrainerHill_Entrance",
+      "id": "MAP_TRAINER_HILL_ENTRANCE",
+      "group": 26,
+      "map_number": 60,
+      "layout": "LAYOUT_TRAINER_HILL_ENTRANCE",
+      "script_owner": "TrainerHill_Entrance_MapScripts",
+      "special": false
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "id": "MAP_VICTORY_ROAD_1F",
+      "group": 24,
+      "map_number": 43,
+      "layout": "LAYOUT_VICTORY_ROAD_1F",
+      "script_owner": "VictoryRoad_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AquaHideout_B1F",
+      "id": "MAP_AQUA_HIDEOUT_B1F",
+      "group": 24,
+      "map_number": 24,
+      "layout": "LAYOUT_AQUA_HIDEOUT_B1F",
+      "script_owner": "AquaHideout_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_HighTideEntranceRoom",
+      "id": "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
+      "group": 24,
+      "map_number": 50,
+      "layout": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
+      "script_owner": "ShoalCave_HighTideEntranceRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown_House4",
+      "id": "MAP_PACIFIDLOG_TOWN_HOUSE4",
+      "group": 7,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE4",
+      "script_owner": "PacifidlogTown_House4_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_14_Abandoned_Ship",
+      "id": "MAP_HYPERHOENN_34_14_ABANDONED_SHIP",
+      "group": 24,
+      "map_number": 113,
+      "layout": "LAYOUT_HYPERHOENN_34_14_ABANDONED_SHIP",
+      "script_owner": "HyperHoenn_34_14_Abandoned_Ship_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_Hall1",
+      "id": "MAP_EVER_GRANDE_CITY_HALL1",
+      "group": 16,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL1",
+      "script_owner": "EverGrandeCity_Hall1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_North",
+      "id": "MAP_SAFARI_ZONE_NORTH",
+      "group": 26,
+      "map_number": 1,
+      "layout": "LAYOUT_SAFARI_ZONE_NORTH",
+      "script_owner": "SafariZone_North_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_SealedChamber",
+      "id": "MAP_UNDERWATER_SEALED_CHAMBER",
+      "group": 24,
+      "map_number": 70,
+      "layout": "LAYOUT_UNDERWATER_SEALED_CHAMBER",
+      "script_owner": "Underwater_SealedChamber_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_Hall2",
+      "id": "MAP_EVER_GRANDE_CITY_HALL2",
+      "group": 16,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL2",
+      "script_owner": "EverGrandeCity_Hall2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_50_Ultra_Space",
+      "id": "MAP_HYPERHOENN_34_50_ULTRA_SPACE",
+      "group": 82,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_34_50_ULTRA_SPACE",
+      "script_owner": "HyperHoenn_34_50_Ultra_Space_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MauvilleCity_House1",
+      "id": "MAP_MAUVILLE_CITY_HOUSE1",
+      "group": 10,
+      "map_number": 2,
+      "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__HOUSE1",
+      "script_owner": "MauvilleCity_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SeafloorCavern_Room5",
+      "id": "MAP_SEAFLOOR_CAVERN_ROOM5",
+      "group": 24,
+      "map_number": 32,
+      "layout": "LAYOUT_SEAFLOOR_CAVERN_ROOM5",
+      "script_owner": "SeafloorCavern_Room5_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route119_WeatherInstitute_2F",
+      "id": "MAP_ROUTE119_WEATHER_INSTITUTE_2F",
+      "group": 32,
+      "map_number": 1,
+      "layout": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_2F",
+      "script_owner": "Route119_WeatherInstitute_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_House1",
+      "id": "MAP_FORTREE_CITY_HOUSE1",
+      "group": 12,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPER_CANARY7_FORTREE_CITY_HOUSE1",
+      "script_owner": "FortreeCity_House1_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Underwater_MarineCave",
+      "id": "MAP_UNDERWATER_MARINE_CAVE",
+      "group": 24,
+      "map_number": 101,
+      "layout": "LAYOUT_UNDERWATER_MARINE_CAVE",
+      "script_owner": "Underwater_MarineCave_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FallarborTown_BattleTentBattleRoom",
+      "id": "MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM",
+      "group": 5,
+      "map_number": 3,
+      "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM",
+      "script_owner": "FallarborTown_BattleTentBattleRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SlateportCity_Harbor",
+      "id": "MAP_SLATEPORT_CITY_HARBOR",
+      "group": 9,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__HARBOR",
+      "script_owner": "SlateportCity_Harbor_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_House2",
+      "id": "MAP_SOOTOPOLIS_CITY_HOUSE2",
+      "group": 15,
+      "map_number": 6,
+      "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE2",
+      "script_owner": "SootopolisCity_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SootopolisCity_LotadAndSeedotHouse",
+      "id": "MAP_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
+      "group": 15,
+      "map_number": 12,
+      "layout": "LAYOUT_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
+      "script_owner": "SootopolisCity_LotadAndSeedotHouse_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_61_Couriway_Town",
+      "id": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "group": 99,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "script_owner": "HyperHoenn_34_61_Couriway_Town_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LittlerootTown",
+      "id": "MAP_LITTLEROOT_TOWN",
+      "group": 0,
+      "map_number": 9,
+      "layout": "LAYOUT_LITTLEROOT_TOWN",
+      "script_owner": "LittlerootTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MtChimney",
+      "id": "MAP_MT_CHIMNEY",
+      "group": 24,
+      "map_number": 12,
+      "layout": "LAYOUT_MT_CHIMNEY",
+      "script_owner": "MtChimney_MapScripts",
+      "special": false
+    },
+    {
+      "map": "OldaleTown_Mart",
+      "id": "MAP_OLDALE_TOWN_MART",
+      "group": 2,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPER_CANARY1_OLDALE_TOWN_MART",
+      "script_owner": "OldaleTown_Mart_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown_Gym_B1F",
+      "id": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+      "group": 4,
+      "map_number": 2,
+      "layout": "LAYOUT_LAVARIDGE_TOWN_GYM_B1F",
+      "script_owner": "LavaridgeTown_Gym_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_84_Ruins_of_Decision",
+      "id": "MAP_HYPERHOENN_35_84_RUINS_OF_DECISION",
+      "group": 92,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_84_RUINS_OF_DECISION",
+      "script_owner": "HyperHoenn_35_84_Ruins_of_Decision_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LavaridgeTown",
+      "id": "MAP_LAVARIDGE_TOWN",
+      "group": 0,
+      "map_number": 12,
+      "layout": "LAYOUT_LAVARIDGE_TOWN",
+      "script_owner": "LavaridgeTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "GraniteCave_B1F",
+      "id": "MAP_GRANITE_CAVE_B1F",
+      "group": 24,
+      "map_number": 8,
+      "layout": "LAYOUT_GRANITE_CAVE_B1F",
+      "script_owner": "GraniteCave_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "FortreeCity_DecorationShop",
+      "id": "MAP_FORTREE_CITY_DECORATION_SHOP",
+      "group": 12,
+      "map_number": 9,
+      "layout": "LAYOUT_FORTREE_CITY_DECORATION_SHOP",
+      "script_owner": "FortreeCity_DecorationShop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SkyPillar_Top",
+      "id": "MAP_SKY_PILLAR_TOP",
+      "group": 24,
+      "map_number": 85,
+      "layout": "LAYOUT_SKY_PILLAR_TOP",
+      "script_owner": "SkyPillar_Top_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_6_Champion_Island",
+      "id": "MAP_HYPERHOENN_35_6_CHAMPION_ISLAND",
+      "group": 91,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_6_CHAMPION_ISLAND",
+      "script_owner": "HyperHoenn_35_6_Champion_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_PokemonLeague_2F",
+      "id": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F",
+      "group": 16,
+      "map_number": 14,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_LEAGUE_2_F",
+      "script_owner": "EverGrandeCity_PokemonLeague_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "PacifidlogTown",
+      "id": "MAP_PACIFIDLOG_TOWN",
+      "group": 0,
+      "map_number": 15,
+      "layout": "LAYOUT_PACIFIDLOG_TOWN",
+      "script_owner": "PacifidlogTown_MapScripts",
+      "special": false
+    },
+    {
+      "map": "LilycoveCity_House2",
+      "id": "MAP_LILYCOVE_CITY_HOUSE2",
+      "group": 13,
+      "map_number": 13,
+      "layout": "LAYOUT_LILYCOVE_CITY_HOUSE2",
+      "script_owner": "LilycoveCity_House2_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_64_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_64_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_64_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_64_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_41_Steven_s_Island",
+      "id": "MAP_HYPERHOENN_35_41_STEVEN_S_ISLAND",
+      "group": 111,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_35_41_STEVEN_S_ISLAND",
+      "script_owner": "HyperHoenn_35_41_Steven_s_Island_MapScripts",
+      "special": true
+    },
+    {
+      "map": "SealedChamber_InnerRoom",
+      "id": "MAP_SEALED_CHAMBER_INNER_ROOM",
+      "group": 24,
+      "map_number": 72,
+      "layout": "LAYOUT_SEALED_CHAMBER_INNER_ROOM",
+      "script_owner": "SealedChamber_InnerRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_62_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_62_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPERHOENN_35_62_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_62_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_GameCorner_B1F",
+      "id": "MAP_MOSSDEEP_CITY_GAME_CORNER_B1F",
+      "group": 14,
+      "map_number": 12,
+      "layout": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_B1F",
+      "script_owner": "MossdeepCity_GameCorner_B1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_58_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_58_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 7,
+      "layout": "LAYOUT_HYPERHOENN_35_58_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_58_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_35_Temple_of_the_End",
+      "id": "MAP_HYPERHOENN_35_35_TEMPLE_OF_THE_END",
+      "group": 102,
+      "map_number": 0,
+      "layout": "LAYOUT_HYPERHOENN_35_35_TEMPLE_OF_THE_END",
+      "script_owner": "HyperHoenn_35_35_Temple_of_the_End_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_Northeast",
+      "id": "MAP_SAFARI_ZONE_NORTHEAST",
+      "group": 26,
+      "map_number": 12,
+      "layout": "LAYOUT_SAFARI_ZONE_NORTHEAST",
+      "script_owner": "SafariZone_Northeast_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_70_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_70_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 4,
+      "layout": "LAYOUT_HYPERHOENN_35_70_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_70_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_34_88_Rainbow_Castle",
+      "id": "MAP_HYPERHOENN_34_88_RAINBOW_CASTLE",
+      "group": 90,
+      "map_number": 8,
+      "layout": "LAYOUT_HYPERHOENN_34_88_RAINBOW_CASTLE",
+      "script_owner": "HyperHoenn_34_88_Rainbow_Castle_MapScripts",
+      "special": false
+    },
+    {
+      "map": "EverGrandeCity_Hall5",
+      "id": "MAP_EVER_GRANDE_CITY_HALL5",
+      "group": 16,
+      "map_number": 9,
+      "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL5",
+      "script_owner": "EverGrandeCity_Hall5_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route125",
+      "id": "MAP_ROUTE125",
+      "group": 0,
+      "map_number": 40,
+      "layout": "LAYOUT_ROUTE125",
+      "script_owner": "Route125_MapScripts",
+      "special": false
+    },
+    {
+      "map": "MossdeepCity_SpaceCenter_2F",
+      "id": "MAP_MOSSDEEP_CITY_SPACE_CENTER_2F",
+      "group": 14,
+      "map_number": 10,
+      "layout": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
+      "script_owner": "MossdeepCity_SpaceCenter_2F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_LowTideEntranceRoom",
+      "id": "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+      "group": 24,
+      "map_number": 46,
+      "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+      "script_owner": "ShoalCave_LowTideEntranceRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route130",
+      "id": "MAP_ROUTE130",
+      "group": 0,
+      "map_number": 45,
+      "layout": "LAYOUT_ROUTE130",
+      "script_owner": "Route130_MapScripts",
+      "special": false
+    },
+    {
+      "map": "AbandonedShip_Rooms_1F",
+      "id": "MAP_ABANDONED_SHIP_ROOMS_1F",
+      "group": 24,
+      "map_number": 56,
+      "layout": "LAYOUT_ABANDONED_SHIP_ROOMS_1F",
+      "script_owner": "AbandonedShip_Rooms_1F_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_32_Cave_of_Despair",
+      "id": "MAP_HYPERHOENN_35_32_CAVE_OF_DESPAIR",
+      "group": 100,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPERHOENN_35_32_CAVE_OF_DESPAIR",
+      "script_owner": "HyperHoenn_35_32_Cave_of_Despair_MapScripts",
+      "special": false
+    },
+    {
+      "map": "SafariZone_Southeast",
+      "id": "MAP_SAFARI_ZONE_SOUTHEAST",
+      "group": 26,
+      "map_number": 13,
+      "layout": "LAYOUT_SAFARI_ZONE_SOUTHEAST",
+      "script_owner": "SafariZone_Southeast_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route103",
+      "id": "MAP_ROUTE103",
+      "group": 0,
+      "map_number": 18,
+      "layout": "LAYOUT_ROUTE103",
+      "script_owner": "Route103_MapScripts",
+      "special": false
+    },
+    {
+      "map": "ShoalCave_LowTideIceRoom",
+      "id": "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+      "group": 24,
+      "map_number": 83,
+      "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+      "script_owner": "ShoalCave_LowTideIceRoom_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route104_PrettyPetalFlowerShop",
+      "id": "MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
+      "group": 17,
+      "map_number": 1,
+      "layout": "LAYOUT_HYPER_CANARY3_ROUTE104__PRETTY_PETAL_FLOWER_SHOP",
+      "script_owner": "Route104_PrettyPetalFlowerShop_MapScripts",
+      "special": false
+    },
+    {
+      "map": "HyperHoenn_35_59_Remote_Island",
+      "id": "MAP_HYPERHOENN_35_59_REMOTE_ISLAND",
+      "group": 96,
+      "map_number": 5,
+      "layout": "LAYOUT_HYPERHOENN_35_59_REMOTE_ISLAND",
+      "script_owner": "HyperHoenn_35_59_Remote_Island_MapScripts",
+      "special": false
+    },
+    {
+      "map": "Route109_SeashoreHouse",
+      "id": "MAP_ROUTE109_SEASHORE_HOUSE",
+      "group": 28,
+      "map_number": 0,
+      "layout": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
+      "script_owner": "Route109_SeashoreHouse_MapScripts",
+      "special": false
+    }
+  ],
+  "runtime_verified": false
+}

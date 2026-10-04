@@ -166,3 +166,15 @@ VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
 	.string "His parents in PETALBURG would be\n"
 	.string "astonished to hear that!$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+VerdanturfTown_WandasHouse_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox VerdanturfTown_WandasHouse_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

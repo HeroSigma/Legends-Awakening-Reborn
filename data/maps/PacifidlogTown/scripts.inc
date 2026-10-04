@@ -52,3 +52,14 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 
+
+@ Project construction notice; no donor gameplay.
+PacifidlogTown_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox PacifidlogTown_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+PacifidlogTown_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

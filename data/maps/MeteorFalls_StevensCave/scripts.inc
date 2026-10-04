@@ -55,3 +55,51 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "… … … … … …\p"
 	.string "Fufufu, even I couldn't tell you that.$"
 
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered1::
+	lock
+	faceplayer
+	msgbox MeteorFalls_StevensCave_Text_HyperConstruction_Registered1, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_StevensCave_Text_HyperConstruction_Registered1:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered2::
+	lock
+	faceplayer
+	msgbox MeteorFalls_StevensCave_Text_HyperConstruction_Registered2, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_StevensCave_Text_HyperConstruction_Registered2:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered3::
+	lock
+	faceplayer
+	msgbox MeteorFalls_StevensCave_Text_HyperConstruction_Registered3, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_StevensCave_Text_HyperConstruction_Registered3:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"
+
+@ Project-owned reservation; registered asset map, no donor gameplay.
+MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered4::
+	lock
+	faceplayer
+	msgbox MeteorFalls_StevensCave_Text_HyperConstruction_Registered4, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_StevensCave_Text_HyperConstruction_Registered4:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

@@ -11,7 +11,7 @@ class OpeningSpineTests(unittest.TestCase):
   self.assertEqual(94,len(self.ledger['events']))
   for n in C.TARGETS:
    m=C.load(C.ROOT/f'data/maps/{n}/map.json')
-   for k in ['object_events','warp_events','coord_events','bg_events']:self.assertEqual(m[k],[e['after'] for e in self.ledger['events'] if e['map']==n and e['kind']==k])
+   for k in ['object_events','warp_events','coord_events','bg_events']:self.assertEqual(m[k][:len([e for e in self.ledger['events'] if e['map']==n and e['kind']==k])],[e['after'] for e in self.ledger['events'] if e['map']==n and e['kind']==k])
  def test_native_story_scenes_and_entire_spine_connections(self):
   scripts={f'data/maps/{n}/scripts.inc':(C.ROOT/f'data/maps/{n}/scripts.inc').read_text() for n in ['PetalburgCity','Route103']}
   self.assertEqual(self.ledger['native_scene_paths'],C.scene_checks(self.grids,scripts));self.assertEqual(self.ledger['connection_checks'],C.seam_checks(self.grids))
@@ -39,7 +39,7 @@ class OpeningSpineTests(unittest.TestCase):
  def test_no_donor_extra_events_or_progression(self):
   for n in C.TARGETS:
    old=C.load(C.OUT/'original'/f'data/maps/{n}/map.json');now=C.load(C.ROOT/f'data/maps/{n}/map.json')
-   for k in ['object_events','warp_events','coord_events','bg_events']:self.assertEqual(len(old[k]),len(now[k]))
+   for k in ['object_events','warp_events','coord_events','bg_events']:self.assertEqual(len(old[k])+len(C.C.third_gates(n) if k=='object_events' else []),len(now[k]))
   self.assertFalse(self.ledger['hyper_gameplay_imported'])
  def test_postgame_cave_native_metatile_contract(self):
   g=self.grids['Route103'];self.assertEqual(0,g.attrs[0][0x09F]&255);self.assertEqual(0x60,g.attrs[0][0x0A7]&255)

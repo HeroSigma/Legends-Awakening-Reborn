@@ -263,7 +263,7 @@
       "flag": "FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1"
     },
     {
-       "local_id": "LOCALID_ROUTE120_GABBY_2",
+      "local_id": "LOCALID_ROUTE120_GABBY_2",
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
       "x": 36,
       "y": 5,
@@ -609,7 +609,7 @@
   "warp_events": [
     {
       "x": 7,
-      "y": 55,
+      "y": 56,
       "elevation": 0,
       "dest_map": "MAP_ANCIENT_TOMB",
       "dest_warp_id": "0"
@@ -777,14 +777,14 @@
     {
       "type": "secret_base",
       "x": 28,
-      "y": 62,
+      "y": 63,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE3_1"
     },
     {
       "type": "secret_base",
       "x": 30,
-      "y": 62,
+      "y": 63,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE4_1"
     },
@@ -842,7 +842,7 @@
     {
       "type": "hidden_item",
       "x": 0,
-      "y": 86,
+      "y": 87,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2"

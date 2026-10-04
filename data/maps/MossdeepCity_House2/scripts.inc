@@ -66,3 +66,14 @@ MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
 MossdeepCity_House2_Text_Wingull:
 	.string "WINGULL: Pihyoh!$"
 
+
+@ Project construction notice; no donor gameplay.
+MossdeepCity_House2_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox MossdeepCity_House2_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MossdeepCity_House2_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

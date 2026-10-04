@@ -49,3 +49,14 @@ MossdeepCity_House3_Text_GoAfterSeafloorPokemon:
 	.string "Go after the seafloor POKéMON with\n"
 	.string "your SUPER ROD.$"
 
+
+@ Project construction notice; no donor gameplay.
+MossdeepCity_House3_EventScript_HyperConstruction_Canary9_1::
+	lock
+	faceplayer
+	msgbox MossdeepCity_House3_EventScript_HyperConstruction_Canary9_1_Text, MSGBOX_DEFAULT
+	release
+	end
+MossdeepCity_House3_EventScript_HyperConstruction_Canary9_1_Text:
+	.string "This area is under construction.\p"
+	.string "Please check back later!$"

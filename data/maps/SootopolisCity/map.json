@@ -372,7 +372,7 @@
     },
     {
       "type": "sign",
-      "x": 19,
+      "x": 16,
       "y": 29,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -388,7 +388,7 @@
     },
     {
       "type": "sign",
-      "x": 45,
+      "x": 42,
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -405,7 +405,7 @@
     {
       "type": "sign",
       "x": 41,
-      "y": 37,
+      "y": 38,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SootopolisCity_EventScript_CitySign"
