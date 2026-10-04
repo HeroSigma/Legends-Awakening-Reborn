@@ -1614,3 +1614,47 @@ const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D504C =
     .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D504C,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D504C =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D504C,
+    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D504C,
+    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D504C,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D504C,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4AF4 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4AF4,
+    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4AF4,
+    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AF4,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AF4,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4DC4 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4DC4,
+    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4DC4,
+    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4DC4,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4DC4,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4B0C,
+    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4B0C,
+    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4B0C,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C,
+    .callback = NULL,
+};

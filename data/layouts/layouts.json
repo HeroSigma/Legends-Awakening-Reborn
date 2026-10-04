@@ -9382,6 +9382,144 @@
         "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D504C",
         "source": "A-Map Batch Bridge"
       }
+    },
+    {
+      "id": "LAYOUT_AMAP_1_95_PINHWEEL_FOREST_LAYOUT",
+      "name": "AMap_1_95_Pinhweel_Forest_Layout",
+      "width": 30,
+      "height": 70,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C",
+      "border_filepath": "data/layouts/AMap_1_95_Pinhweel_Forest_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_1_95_Pinhweel_Forest_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 1,
+        "display_name": "Pinhweel Forest",
+        "header_pointer": "0x0834FC78",
+        "layout_pointer": "0x08318EC0",
+        "map": 95,
+        "map_id": "1.95",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4B0C",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_1_114_PINHWEEL_FOREST_LAYOUT",
+      "name": "AMap_1_114_Pinhweel_Forest_Layout",
+      "width": 128,
+      "height": 56,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D4DC4",
+      "border_filepath": "data/layouts/AMap_1_114_Pinhweel_Forest_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_1_114_Pinhweel_Forest_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 1,
+        "display_name": "Pinhweel Forest",
+        "header_pointer": "0x0834FE8C",
+        "layout_pointer": "0x083405A4",
+        "map": 114,
+        "map_id": "1.114",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4DC4",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_3_2_STRIATON_CITY_LAYOUT",
+      "name": "AMap_3_2_Striaton_City_Layout",
+      "width": 72,
+      "height": 40,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D4AF4",
+      "border_filepath": "data/layouts/AMap_3_2_Striaton_City_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_3_2_Striaton_City_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 3,
+        "display_name": "Striaton City",
+        "header_pointer": "0x08350650",
+        "layout_pointer": "0x082DF308",
+        "map": 2,
+        "map_id": "3.2",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4AF4",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_3_3_NACRENE_CITY_LAYOUT",
+      "name": "AMap_3_3_Nacrene_City_Layout",
+      "width": 66,
+      "height": 40,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C",
+      "border_filepath": "data/layouts/AMap_3_3_Nacrene_City_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_3_3_Nacrene_City_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 3,
+        "display_name": "Nacrene City",
+        "header_pointer": "0x0835066C",
+        "layout_pointer": "0x082E022C",
+        "map": 3,
+        "map_id": "3.3",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4B0C",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_3_21_ROUTE_3_LAYOUT",
+      "name": "AMap_3_21_Route_3_Layout",
+      "width": 80,
+      "height": 30,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D504C",
+      "border_filepath": "data/layouts/AMap_3_21_Route_3_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_3_21_Route_3_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 3,
+        "display_name": "Route 3",
+        "header_pointer": "0x08350864",
+        "layout_pointer": "0x082E7234",
+        "map": 21,
+        "map_id": "3.21",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D504C",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_3_22_ROUTE_3_LAYOUT",
+      "name": "AMap_3_22_Route_3_Layout",
+      "width": 76,
+      "height": 40,
+      "primary_tileset": "gTileset_AMap_Primary_BWA_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C",
+      "border_filepath": "data/layouts/AMap_3_22_Route_3_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_3_22_Route_3_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 3,
+        "display_name": "Route 3",
+        "header_pointer": "0x08350880",
+        "layout_pointer": "0x082E8338",
+        "map": 22,
+        "map_id": "3.22",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_BWA_082D4A94",
+        "rom_sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+        "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4B0C",
+        "source": "A-Map Batch Bridge"
+      }
     }
   ]
 }

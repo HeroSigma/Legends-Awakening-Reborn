@@ -1743,3 +1743,15 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/wild_encounter.inc"
 
 	.include "data/maps/AMap_3_0_Postwick/scripts.inc"
+
+	.include "data/maps/AMap_1_95_Pinhweel_Forest/scripts.inc"
+
+	.include "data/maps/AMap_1_114_Pinhweel_Forest/scripts.inc"
+
+	.include "data/maps/AMap_3_2_Striaton_City/scripts.inc"
+
+	.include "data/maps/AMap_3_3_Nacrene_City/scripts.inc"
+
+	.include "data/maps/AMap_3_21_Route_3/scripts.inc"
+
+	.include "data/maps/AMap_3_22_Route_3/scripts.inc"

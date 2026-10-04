@@ -1,0 +1,5532 @@
+{
+  "repository": "https://github.com/pret/pokefirered",
+  "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+  "reference_only": true,
+  "maps": {
+    "0.0": {
+      "name": "BattleColosseum_2P",
+      "width": 14,
+      "height": 9,
+      "blockdata_sha256": "b9bfd9bd3ed381bdf85b29753afa5cdcd2cab9e3c0e81624d5a74ee46172a772",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 2,
+        "bg_events": 0
+      }
+    },
+    "0.1": {
+      "name": "TradeCenter",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "3c05ab28f5adc844d7aeb59af52c86eaf27ee4bb828086ac5852f2ec22145943",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 2,
+        "bg_events": 0
+      }
+    },
+    "0.2": {
+      "name": "RecordCorner",
+      "width": 20,
+      "height": 10,
+      "blockdata_sha256": "a6d1dd4e62f83e0cb55973d7be313403335a52a6629eb37860a3deb892e94da2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 4,
+        "bg_events": 0
+      }
+    },
+    "0.3": {
+      "name": "BattleColosseum_4P",
+      "width": 14,
+      "height": 9,
+      "blockdata_sha256": "2b22ed32b37e24ba710c0482afee6d60ef84a6e07b958ced178140a2841a9dc4",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 4,
+        "bg_events": 0
+      }
+    },
+    "0.4": {
+      "name": "UnionRoom",
+      "width": 15,
+      "height": 12,
+      "blockdata_sha256": "6123511cc845ce7f841e3e44630294f2403d511c5a9b8c215ce2a7fefcb9a6a3",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.0": {
+      "name": "ViridianForest",
+      "width": 54,
+      "height": 69,
+      "blockdata_sha256": "03e8e74fcca81b95b3004baf7eca229d1739440393c8cf490618d30ef099ff8a",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "1.1": {
+      "name": "MtMoon_1F",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "f6583e731bf30ff82462f6bb067968b182d552f6b68e5086c72048877ef8c552",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 14,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.2": {
+      "name": "MtMoon_B1F",
+      "width": 49,
+      "height": 40,
+      "blockdata_sha256": "0858396e292e6930d5ebe0cab6402cf91e40bfd3594b6d60e36ca82e6c900322",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 8,
+        "coord_events": 0,
+        "bg_events": 6
+      }
+    },
+    "1.3": {
+      "name": "MtMoon_B2F",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "399149cce6ac7542cef50fe38235938c281fcf3f79b2e255cdc2bf3c2e91b8e2",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 4,
+        "coord_events": 1,
+        "bg_events": 2
+      }
+    },
+    "1.4": {
+      "name": "SSAnne_Exterior",
+      "width": 70,
+      "height": 32,
+      "blockdata_sha256": "41affa56fb4673824704a7e31e8006ec73c6b44b28f50daa3bb6c487ee0d76bc",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.5": {
+      "name": "SSAnne_1F_Corridor",
+      "width": 31,
+      "height": 21,
+      "blockdata_sha256": "1b10c32a915ff80d3de3d64779d74d8caad857359ecc309df1abe866eeac5bd2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 13,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.6": {
+      "name": "SSAnne_2F_Corridor",
+      "width": 34,
+      "height": 16,
+      "blockdata_sha256": "bc1ce730d3629cadddc47fb4ba7847b211048d8de759d324dd9110b234c3abf7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 9,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "1.7": {
+      "name": "SSAnne_3F_Corridor",
+      "width": 22,
+      "height": 7,
+      "blockdata_sha256": "a643c212e037c52b71df9ae00618493380c830ba8eaba1a50d8fb12a29ff47a0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.8": {
+      "name": "SSAnne_B1F_Corridor",
+      "width": 23,
+      "height": 7,
+      "blockdata_sha256": "c5b677750e75814247248bceab48e71752072e236825e0b7579b85b60384e5ab",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.9": {
+      "name": "SSAnne_Deck",
+      "width": 24,
+      "height": 19,
+      "blockdata_sha256": "799bc520202f51c66a8cb1db9f237543dddb50bb0148053d1cd80d6972e7320b",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.10": {
+      "name": "SSAnne_Kitchen",
+      "width": 16,
+      "height": 14,
+      "blockdata_sha256": "9fb067e4b481b575d0abd69410c19fe8426d883318380a2952a044e9cbede62d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "1.11": {
+      "name": "SSAnne_CaptainsOffice",
+      "width": 9,
+      "height": 10,
+      "blockdata_sha256": "cdc38c5f9ddeb7e3dedb5dec9019dae15ef565c6349fc5a373025b8b2f9e0fbf",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "1.12": {
+      "name": "SSAnne_1F_Room1",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.13": {
+      "name": "SSAnne_1F_Room2",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.14": {
+      "name": "SSAnne_1F_Room3",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.15": {
+      "name": "SSAnne_1F_Room4",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.16": {
+      "name": "SSAnne_1F_Room5",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.17": {
+      "name": "SSAnne_1F_Room7",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.18": {
+      "name": "SSAnne_2F_Room1",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.19": {
+      "name": "SSAnne_2F_Room2",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.20": {
+      "name": "SSAnne_2F_Room3",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.21": {
+      "name": "SSAnne_2F_Room4",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.22": {
+      "name": "SSAnne_2F_Room5",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.23": {
+      "name": "SSAnne_2F_Room6",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.24": {
+      "name": "SSAnne_B1F_Room1",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.25": {
+      "name": "SSAnne_B1F_Room2",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.26": {
+      "name": "SSAnne_B1F_Room3",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.27": {
+      "name": "SSAnne_B1F_Room4",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.28": {
+      "name": "SSAnne_B1F_Room5",
+      "width": 6,
+      "height": 9,
+      "blockdata_sha256": "5ba0594e81a31f720275dc11ffd0087007e75ff036d25922ae943293a0d908ef",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.29": {
+      "name": "SSAnne_1F_Room6",
+      "width": 6,
+      "height": 8,
+      "blockdata_sha256": "98d95b97d308b03fc856b4856e559fd2c7baaa0cc121c78b6ad4760b7a49de07",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.30": {
+      "name": "UndergroundPath_NorthEntrance",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "59f17a787ce89eb43fce735fab4ddb3586cd01908ad26df45a7d2936808aeb3c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.31": {
+      "name": "UndergroundPath_NorthSouthTunnel",
+      "width": 8,
+      "height": 63,
+      "blockdata_sha256": "e3374577bb832aac4fa9c3239c5d28ebfbe31b5c9f3e1dd1888aed9bf142c268",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 7
+      }
+    },
+    "1.32": {
+      "name": "UndergroundPath_SouthEntrance",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "59f17a787ce89eb43fce735fab4ddb3586cd01908ad26df45a7d2936808aeb3c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.33": {
+      "name": "UndergroundPath_WestEntrance",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "59f17a787ce89eb43fce735fab4ddb3586cd01908ad26df45a7d2936808aeb3c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.34": {
+      "name": "UndergroundPath_EastWestTunnel",
+      "width": 80,
+      "height": 7,
+      "blockdata_sha256": "44b11662353e4593e29daa112c1f473525e5b8935a09200024cd70d1e66c72f6",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 7
+      }
+    },
+    "1.35": {
+      "name": "UndergroundPath_EastEntrance",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "59f17a787ce89eb43fce735fab4ddb3586cd01908ad26df45a7d2936808aeb3c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.36": {
+      "name": "DiglettsCave_NorthEntrance",
+      "width": 10,
+      "height": 8,
+      "blockdata_sha256": "d779290c2aa52648076386494ac8062261170b6e3504bab9a5ffbf4ea7ba3bf4",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.37": {
+      "name": "DiglettsCave_B1F",
+      "width": 85,
+      "height": 80,
+      "blockdata_sha256": "301e2ab5c26021101a755d6f98b5b948a24b4ba31611e1ff20f77a8f008d478f",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.38": {
+      "name": "DiglettsCave_SouthEntrance",
+      "width": 10,
+      "height": 8,
+      "blockdata_sha256": "c325e4db452c4c32dadde77cfb7db10ace3930aa33d1d26a167c8145b5391565",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.39": {
+      "name": "VictoryRoad_1F",
+      "width": 48,
+      "height": 22,
+      "blockdata_sha256": "79baa78c852bab39265cd53773c8607e0d78f81d81d04a15a1458fa14fb0e00e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 2,
+        "coord_events": 1,
+        "bg_events": 2
+      }
+    },
+    "1.40": {
+      "name": "VictoryRoad_2F",
+      "width": 51,
+      "height": 22,
+      "blockdata_sha256": "04326db6afd4aecfc4e520e50b40da0b0c52fcab39b25f37e325a38f730e98b8",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 13,
+        "warp_events": 9,
+        "coord_events": 2,
+        "bg_events": 0
+      }
+    },
+    "1.41": {
+      "name": "VictoryRoad_3F",
+      "width": 45,
+      "height": 22,
+      "blockdata_sha256": "e7c017aa37145599bead293292882862c40a7922f38667c433e61e20865bda60",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 5,
+        "coord_events": 1,
+        "bg_events": 0
+      }
+    },
+    "1.42": {
+      "name": "RocketHideout_B1F",
+      "width": 28,
+      "height": 34,
+      "blockdata_sha256": "0f178fada61e1e58f1e8c58ca72322feb4ff4293593158fc7b22ff1e4ad7f233",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.43": {
+      "name": "RocketHideout_B2F",
+      "width": 32,
+      "height": 22,
+      "blockdata_sha256": "76d589e8ca01f327c3bee02cdd57b22826dbd50277989e2deded03df47e164d2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.44": {
+      "name": "RocketHideout_B3F",
+      "width": 22,
+      "height": 27,
+      "blockdata_sha256": "b9989a7ec3c883c83b50101adb036fdb8a997e141efee972d487d707e9dec7df",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.45": {
+      "name": "RocketHideout_B4F",
+      "width": 24,
+      "height": 26,
+      "blockdata_sha256": "6d6ac7bcbe1b244904c656c77b209c35241d0d249991d40af815dfb860d2e2bb",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "1.46": {
+      "name": "RocketHideout_Elevator",
+      "width": 5,
+      "height": 7,
+      "blockdata_sha256": "84557c1c0d7fec4344fd62a18b9c32fcdaab83cc8f63416012089328dc5344cd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.47": {
+      "name": "SilphCo_1F",
+      "width": 36,
+      "height": 22,
+      "blockdata_sha256": "2ca9889ba636e4a86364b9069663e9c41aa77150f6c008f29caef4e7ef59df6b",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.48": {
+      "name": "SilphCo_2F",
+      "width": 36,
+      "height": 22,
+      "blockdata_sha256": "652233e3c23fa74e45a09eebf9b6c52c74e3c7ab1d072686abdc4938a7c6fb37",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 10
+      }
+    },
+    "1.49": {
+      "name": "SilphCo_3F",
+      "width": 36,
+      "height": 22,
+      "blockdata_sha256": "6333b7e8ab0dee8a4690c04f941ef771d84616b245cf5c00cba4311ec18d7bf8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 10,
+        "coord_events": 0,
+        "bg_events": 10
+      }
+    },
+    "1.50": {
+      "name": "SilphCo_4F",
+      "width": 36,
+      "height": 22,
+      "blockdata_sha256": "ce87635bbebcfdaa3251997be24f1f4ea649fb3ac01b84cfd97d7fe63406583f",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 10
+      }
+    },
+    "1.51": {
+      "name": "SilphCo_5F",
+      "width": 36,
+      "height": 22,
+      "blockdata_sha256": "c80d185f3c432dd9323d40b491bb1866c56bbd5b3f554e0f3fce0faa6c501939",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 18
+      }
+    },
+    "1.52": {
+      "name": "SilphCo_6F",
+      "width": 31,
+      "height": 19,
+      "blockdata_sha256": "5f40589bb71226816c1046176f4988b2435ccaab3e1f2f7537d01224a45d3763",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 6
+      }
+    },
+    "1.53": {
+      "name": "SilphCo_7F",
+      "width": 31,
+      "height": 19,
+      "blockdata_sha256": "f597b3db24f8f7a611ca8f750cbfaa17ea51fd839d587cbb90c9ef7ca02b72f6",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 6,
+        "coord_events": 2,
+        "bg_events": 14
+      }
+    },
+    "1.54": {
+      "name": "SilphCo_8F",
+      "width": 31,
+      "height": 19,
+      "blockdata_sha256": "5a2e82d8a8f0e70c6d99e110238066c1b1b39e7c33fac06a88d7b73ef7b81dfb",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 6
+      }
+    },
+    "1.55": {
+      "name": "SilphCo_9F",
+      "width": 31,
+      "height": 19,
+      "blockdata_sha256": "d12558d3563a58fd630f87914ecb58bcb2213e7515f42c7b354b2f439f16d040",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 19
+      }
+    },
+    "1.56": {
+      "name": "SilphCo_10F",
+      "width": 17,
+      "height": 19,
+      "blockdata_sha256": "bfe4521cb1b892d4383612c942b36ee6d61b842e41dcafde170719895702cd0c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 6
+      }
+    },
+    "1.57": {
+      "name": "SilphCo_11F",
+      "width": 17,
+      "height": 20,
+      "blockdata_sha256": "5f0783f5f2acc9e6a89a93681ab9c7d50d6708fae7e1931f51399d760e9876a1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 3,
+        "coord_events": 2,
+        "bg_events": 6
+      }
+    },
+    "1.58": {
+      "name": "SilphCo_Elevator",
+      "width": 5,
+      "height": 7,
+      "blockdata_sha256": "84557c1c0d7fec4344fd62a18b9c32fcdaab83cc8f63416012089328dc5344cd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.59": {
+      "name": "PokemonMansion_1F",
+      "width": 38,
+      "height": 35,
+      "blockdata_sha256": "234317c5764211a9d8235c8ecc49c0b8b64a77fef498b34597e96f7e625133c5",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 10,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "1.60": {
+      "name": "PokemonMansion_2F",
+      "width": 38,
+      "height": 38,
+      "blockdata_sha256": "7c00caec46c39b8247af2ffe933e8c94a96a259f25d403552dc13e31dbb86b4d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "1.61": {
+      "name": "PokemonMansion_3F",
+      "width": 38,
+      "height": 35,
+      "blockdata_sha256": "d147a368c05d269e2e45f478d4f0a8239ef9db2da3dc1659c573c426af8729e0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 8,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "1.62": {
+      "name": "PokemonMansion_B1F",
+      "width": 38,
+      "height": 35,
+      "blockdata_sha256": "a49d9a78ca03785b77b880cb25819aedc6b21dbd5d6f9e679c8158dec040d600",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "1.63": {
+      "name": "SafariZone_Center",
+      "width": 51,
+      "height": 36,
+      "blockdata_sha256": "795937791ff76ceda1a1cffb4bbfbc237c5dd15bcf940dad8cb3e635aa541632",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 13,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "1.64": {
+      "name": "SafariZone_East",
+      "width": 54,
+      "height": 35,
+      "blockdata_sha256": "6e4dd8104ea8306f72dadc91196e654a3120c6f043a4e36bbf3e794f72fb16d9",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "1.65": {
+      "name": "SafariZone_North",
+      "width": 57,
+      "height": 40,
+      "blockdata_sha256": "20263c6e6d411e8cd6b83f2e9b85ad5bd565e206754dfa5261c43dffbf3117e3",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 13,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "1.66": {
+      "name": "SafariZone_West",
+      "width": 48,
+      "height": 36,
+      "blockdata_sha256": "ab8a31181cbe302fdd6ba8e1764cce7fc241c096e4e57298e5516ea80d2ab900",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 11,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "1.67": {
+      "name": "SafariZone_Center_RestHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2366004449f9d95e6f6d122d4afd2393d41081c398d2838902341ee3dc584775",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.68": {
+      "name": "SafariZone_East_RestHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2366004449f9d95e6f6d122d4afd2393d41081c398d2838902341ee3dc584775",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.69": {
+      "name": "SafariZone_North_RestHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2366004449f9d95e6f6d122d4afd2393d41081c398d2838902341ee3dc584775",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.70": {
+      "name": "SafariZone_West_RestHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2366004449f9d95e6f6d122d4afd2393d41081c398d2838902341ee3dc584775",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.71": {
+      "name": "SafariZone_SecretHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "8fc503c3a846bece5bb0547f17db3e383bc3cf404847dcf0d12d74b17eb12fe8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.72": {
+      "name": "CeruleanCave_1F",
+      "width": 40,
+      "height": 23,
+      "blockdata_sha256": "3112b1de08a8ced107ad478b03fce9af7339f9934d54259aa1f0f6b058637629",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 8,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.73": {
+      "name": "CeruleanCave_2F",
+      "width": 40,
+      "height": 23,
+      "blockdata_sha256": "3d6ac3d48983ed93cc84d52a075333ce53ab6dddc69c8f4366b9c336a63011a3",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 13,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.74": {
+      "name": "CeruleanCave_B1F",
+      "width": 40,
+      "height": 23,
+      "blockdata_sha256": "211323100413f1390b64120f1587eb6c79f59d928ea1b363be23e416bc9da7b8",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.75": {
+      "name": "PokemonLeague_LoreleisRoom",
+      "width": 13,
+      "height": 13,
+      "blockdata_sha256": "a89b28354ed062164dca02a1ebfa3b154bac9bcfe2b320c64d507d81c3d661ed",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.76": {
+      "name": "PokemonLeague_BrunosRoom",
+      "width": 13,
+      "height": 13,
+      "blockdata_sha256": "737597d8629519033f42e489c0cdac2d796ee779d788d16ef993704b37e47da8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.77": {
+      "name": "PokemonLeague_AgathasRoom",
+      "width": 13,
+      "height": 13,
+      "blockdata_sha256": "57078455bd13f346724d36d1795d0bd605a9d468ade7059dfdfdc940f1fe25d8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.78": {
+      "name": "PokemonLeague_LancesRoom",
+      "width": 28,
+      "height": 24,
+      "blockdata_sha256": "394091147c200f000dd341477ad0ba59c59b35f451d6d95ecc0754c11d527ad2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.79": {
+      "name": "PokemonLeague_ChampionsRoom",
+      "width": 13,
+      "height": 20,
+      "blockdata_sha256": "750cf669dde310b2989d3f26f368e0b3df6134b12cd22bc594f906eed3988156",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.80": {
+      "name": "PokemonLeague_HallOfFame",
+      "width": 11,
+      "height": 13,
+      "blockdata_sha256": "8924f980b762c90615fd8b9eefc4c2e3b8550402da0f9a6e2b63696f85e07e7a",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.81": {
+      "name": "RockTunnel_1F",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "f67035528dc6b2c72375bcdf81651f93994b48faaa90825bf46e99aaf9f74c77",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.82": {
+      "name": "RockTunnel_B1F",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "5d2b8d2acc400d6212b9b909d4043ba5e07ff37e69d9e0fb4f01d1cb5df868d6",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 26,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.83": {
+      "name": "SeafoamIslands_1F",
+      "width": 38,
+      "height": 24,
+      "blockdata_sha256": "11064115edbb4cf301b839fcf0a21ede088009b79b492e5f1f3216c22b580d15",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.84": {
+      "name": "SeafoamIslands_B1F",
+      "width": 38,
+      "height": 23,
+      "blockdata_sha256": "6f88217e2426864c31caa0a4fe3bf08e1e74df07fbf3167b4f096e213489b3bf",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 11,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.85": {
+      "name": "SeafoamIslands_B2F",
+      "width": 38,
+      "height": 24,
+      "blockdata_sha256": "ae6b58c2f529911333a5703c7b272baf81086ca4e8cf658fc180a15047f292e4",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 11,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.86": {
+      "name": "SeafoamIslands_B3F",
+      "width": 38,
+      "height": 24,
+      "blockdata_sha256": "70f300607e0e46c661c62edaa2fb359eb387bcd297f43be25293d55a5f8787f7",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 9,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.87": {
+      "name": "SeafoamIslands_B4F",
+      "width": 38,
+      "height": 24,
+      "blockdata_sha256": "8449b44cce4cfd061ca4de9a061a72504dfef5b9277cffeef9a5763540c6aebd",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 3
+      }
+    },
+    "1.88": {
+      "name": "PokemonTower_1F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "989f1ce2c599087707617b303e5c0f1ef1da270b4e6b8e8dad4bb50235dc9b80",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.89": {
+      "name": "PokemonTower_2F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "f397c5f8dac0096767b867c0b95f6c6976c378a7c01631452409058a5bbf4954",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 2,
+        "coord_events": 2,
+        "bg_events": 0
+      }
+    },
+    "1.90": {
+      "name": "PokemonTower_3F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "a0e643a4c8779f99bbc1ac74ad476b773326e41601bffedfdf70e57aeeba3411",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.91": {
+      "name": "PokemonTower_4F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "9931259746947deb4aaa0946967a8f087d013d6e8fbd18dda1963a444d710ee4",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.92": {
+      "name": "PokemonTower_5F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "1800acfbda336a9a734703c4a9d85f7d31d94e8744697a2d663a35add56f43de",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 2,
+        "coord_events": 17,
+        "bg_events": 1
+      }
+    },
+    "1.93": {
+      "name": "PokemonTower_6F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "b1dd1b2b5d9d5f72cb46c35ccdd435b093b3d6d69c817951313b4a8fa14e1623",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 2,
+        "coord_events": 2,
+        "bg_events": 0
+      }
+    },
+    "1.94": {
+      "name": "PokemonTower_7F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "57471cfd3e6914620484fcc1b441125866bf001cb7dc948303abfc044fd6cb0e",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.95": {
+      "name": "PowerPlant",
+      "width": 49,
+      "height": 40,
+      "blockdata_sha256": "135354bc7340649e86181caee2578feec928328a7f99e5885bd492544aad5467",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "1.96": {
+      "name": "MtEmber_RubyPath_B4F",
+      "width": 18,
+      "height": 16,
+      "blockdata_sha256": "2fe87f543a2c590ecd8684f2502a117a7982c9d947c03be0e5c782da9f0cd158",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 26
+      }
+    },
+    "1.97": {
+      "name": "MtEmber_Exterior",
+      "width": 57,
+      "height": 54,
+      "blockdata_sha256": "4c5fe95ed02bc1ee28cb168831f08af4d294ba45b87df2939f755533218e30e7",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 20,
+        "warp_events": 6,
+        "coord_events": 3,
+        "bg_events": 2
+      }
+    },
+    "1.98": {
+      "name": "MtEmber_SummitPath_1F",
+      "width": 15,
+      "height": 18,
+      "blockdata_sha256": "c779cceabd90de8ad285169136d5ef1af8ca3a98d14c830b55057e93e6d67cdb",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.99": {
+      "name": "MtEmber_SummitPath_2F",
+      "width": 48,
+      "height": 46,
+      "blockdata_sha256": "9b150186de2929e28f7adbcf5360ac98dac22e161c910fc3f980aced7061424a",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.100": {
+      "name": "MtEmber_SummitPath_3F",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "d79c72dcb5c9127b9b49e5fd5c962096e2d00085e229d7ee090791314e48ff34",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.101": {
+      "name": "MtEmber_Summit",
+      "width": 19,
+      "height": 22,
+      "blockdata_sha256": "0efd4f245616c42d6afef63f885491271d8abf41879eb998ffa1c08263e8027c",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.102": {
+      "name": "MtEmber_RubyPath_B5F",
+      "width": 16,
+      "height": 15,
+      "blockdata_sha256": "db2a91245ebcb4503de8a2c1a129134ca2babc25a41b735655dbf27170cb7e4c",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.103": {
+      "name": "MtEmber_RubyPath_1F",
+      "width": 27,
+      "height": 19,
+      "blockdata_sha256": "c4881290befcbd3ba0e8d4d14ab5c0720dfe2d7b8ed508897df9fce8d885c8bf",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.104": {
+      "name": "MtEmber_RubyPath_B1F",
+      "width": 11,
+      "height": 23,
+      "blockdata_sha256": "1b296b0c69f042dcbdc3bbf6ff236c060cefa86fd1e4bef5902c86d478a348d4",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.105": {
+      "name": "MtEmber_RubyPath_B2F",
+      "width": 16,
+      "height": 11,
+      "blockdata_sha256": "68558d523d0a10abcbadbb45de39d4524f8e19873e93dada194756ca1756d571",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.106": {
+      "name": "MtEmber_RubyPath_B3F",
+      "width": 31,
+      "height": 23,
+      "blockdata_sha256": "d3c091a1f772a4f94e0616ac6942b4c72b32d7cabe5e6cc3f3e258b4ad9f5316",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.107": {
+      "name": "MtEmber_RubyPath_B1F_Stairs",
+      "width": 6,
+      "height": 7,
+      "blockdata_sha256": "bbd065e41bb821c3c4f4e2b4ebc19786889357f26680438104039cda57b2068b",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.108": {
+      "name": "MtEmber_RubyPath_B2F_Stairs",
+      "width": 8,
+      "height": 6,
+      "blockdata_sha256": "64c2069d8700d275a19709e5f81c5a630303eaaabce2a8405dddb926cefbf567",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.109": {
+      "name": "ThreeIsland_BerryForest",
+      "width": 57,
+      "height": 47,
+      "blockdata_sha256": "4b4aacbd692b2a54a9e88c5594e144a22cb0eb63cb4186490ea235551b6e9a09",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 14,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 15
+      }
+    },
+    "1.110": {
+      "name": "FourIsland_IcefallCave_Entrance",
+      "width": 30,
+      "height": 36,
+      "blockdata_sha256": "1432f79f9293bb437a35144567f16cbc3c3dc063fcdaebbb720f1c4e83d73b75",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.111": {
+      "name": "FourIsland_IcefallCave_1F",
+      "width": 20,
+      "height": 20,
+      "blockdata_sha256": "821ac75b6ad7a6991ac540d8462f61b81896b31426fc71e8893072e44e2a7f77",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.112": {
+      "name": "FourIsland_IcefallCave_B1F",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "cd43b29f7b200391f346a926be6625541def6ca362412e90bc229a1001b950b6",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.113": {
+      "name": "FourIsland_IcefallCave_Back",
+      "width": 25,
+      "height": 26,
+      "blockdata_sha256": "be4c429f3a8f974ec9d9a1b6e2fc10bab08e4c6a9102bf1c10c172a2ac8b8691",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "1.114": {
+      "name": "FiveIsland_RocketWarehouse",
+      "width": 29,
+      "height": 27,
+      "blockdata_sha256": "3709bd1556fa0a1fbefb0b3660da55dbe94efb927aa2cc9ec035f6f750b918fa",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 1,
+        "coord_events": 3,
+        "bg_events": 25
+      }
+    },
+    "1.115": {
+      "name": "SixIsland_DottedHole_1F",
+      "width": 16,
+      "height": 11,
+      "blockdata_sha256": "d6eec8245311f202898aa9e0ec858bfe9ba6007635b93fd30685b67dc0c8048f",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.116": {
+      "name": "SixIsland_DottedHole_B1F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "0398423f045299d48dd9caffd8b4435cfddcc2b5bdc2d43224c4b4947cc0a100",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.117": {
+      "name": "SixIsland_DottedHole_B2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2d95b5f8961a4e4477b926353c5f47b99bffc93c70b49a9ad59bd6600e78a857",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.118": {
+      "name": "SixIsland_DottedHole_B3F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "2215e558007b1ed9f7f6da3f8d6799849e5d49eaed6d04c2fa46a88c12d27e71",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.119": {
+      "name": "SixIsland_DottedHole_B4F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "6e7d11e18cfd3dc32bc0e608f5f8a56af9208075ba3d9bfd7d28fa1331e11865",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.120": {
+      "name": "SixIsland_DottedHole_SapphireRoom",
+      "width": 16,
+      "height": 15,
+      "blockdata_sha256": "30ba98cf398b9b2a588cc0eb7eb43c622eb7afce4afc92910f42bcba5e7b2af3",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "1.121": {
+      "name": "SixIsland_PatternBush",
+      "width": 60,
+      "height": 32,
+      "blockdata_sha256": "5a3356ad4bdba1fbd86267629ad6bd012e26c28964ef539e074e9878bdfb7797",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "1.122": {
+      "name": "SixIsland_AlteringCave",
+      "width": 32,
+      "height": 24,
+      "blockdata_sha256": "907078a38b89ca3feb34971c853a5dee1fb331b631bf96ad39179e17b4564726",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.0": {
+      "name": "NavelRock_Exterior",
+      "width": 20,
+      "height": 23,
+      "blockdata_sha256": "f32b35ceb85a506ec4d3bbc7e211054677719a435e823b05573099de2e103f14",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.1": {
+      "name": "TrainerTower_1F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "4538083ddc319f314b19ae42c470c8dcf675e9b684d19042bb241c6672fb08d3",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 2,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.2": {
+      "name": "TrainerTower_2F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "23d17ca7e78b5b158c948bfa358d6a06d71565e12d3bf58b896372cdd7aac3a8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.3": {
+      "name": "TrainerTower_3F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "8e0f978b5450a7e5fdd388cb895f0a7e42def960b57e87633c130a6f40918ffd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.4": {
+      "name": "TrainerTower_4F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "9b754241e3ec59de29f91e706cba5799b23d83d6ea19aacb20fe9d6f04f54efb",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.5": {
+      "name": "TrainerTower_5F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "51f596b8a80792796892bc0b7f60b7f491818640c8182dc7ca1c18e3539d63a0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.6": {
+      "name": "TrainerTower_6F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "2deaa81f0a604ce087676ffda507ad815ab793a7ca2a0ab61148d5db07773eaa",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.7": {
+      "name": "TrainerTower_7F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "970c45e58e30d90c54272c543c7ef5b90afc0736bf78c10861e6b5d2e09e90e0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.8": {
+      "name": "TrainerTower_8F",
+      "width": 18,
+      "height": 17,
+      "blockdata_sha256": "d08c5713323f54c2eb87ed0f6ea92e0f32ae0c1bae5bca76baa7eccd8ad2b2ad",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "2.9": {
+      "name": "TrainerTower_Roof",
+      "width": 18,
+      "height": 16,
+      "blockdata_sha256": "7ff2ec053169fd662b48501b2021adf89dd40e97bc78f0cded1141660f6ae96e",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.10": {
+      "name": "TrainerTower_Lobby",
+      "width": 19,
+      "height": 17,
+      "blockdata_sha256": "4da9097da01d45a31b0fd8642ba994e790efb78ae530baad7176e0f05b19f55c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 1,
+        "bg_events": 1
+      }
+    },
+    "2.11": {
+      "name": "TrainerTower_Elevator",
+      "width": 5,
+      "height": 7,
+      "blockdata_sha256": "84557c1c0d7fec4344fd62a18b9c32fcdaab83cc8f63416012089328dc5344cd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "2.12": {
+      "name": "FiveIsland_LostCave_Entrance",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "b3b46cf3f8bda66b2a1e6dc6c471e6e465b6f2d3289c4ccae88459a9473ea861",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.13": {
+      "name": "FiveIsland_LostCave_Room1",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "458ad3530c89644ef86b2ea5c7b073a3f39bbe96c7d22334ed4215926c0fa36e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.14": {
+      "name": "FiveIsland_LostCave_Room2",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "d568813c55b4ae79524cafb45fa4751ae33ea231e698e293fabb6d1e30d6a87b",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.15": {
+      "name": "FiveIsland_LostCave_Room3",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "169c21b677ada43aa60fb2f093e2c31894b879548527fea26cb65167c3490a4c",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.16": {
+      "name": "FiveIsland_LostCave_Room4",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "67f2d16fb036fa1a8c526c88f1142aea44d840e5375f792e8cb1b4e44e8eb159",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.17": {
+      "name": "FiveIsland_LostCave_Room5",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "d6be2a8b4c4586813b4024a03cf15d0f0d6885641440a523330ba90e21712394",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.18": {
+      "name": "FiveIsland_LostCave_Room6",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "87e55bf1e491d411bdc24f45a11b5c771f3b53dd1c86694239b8f248839588a1",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.19": {
+      "name": "FiveIsland_LostCave_Room7",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "b3f910139a1fadc7b707e0613b15671ab471b3aef8ba8036656df11f0669c631",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.20": {
+      "name": "FiveIsland_LostCave_Room8",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "9562675afe8eca45ef1d4adc74a1eaafcb81d2aa033f3f3645a9a5650181f01e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.21": {
+      "name": "FiveIsland_LostCave_Room9",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "34eea680e0ca1171d2098ca1d60308e80aa7a87e9f4f27318aebbf3d3d43c539",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.22": {
+      "name": "FiveIsland_LostCave_Room10",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "94f90a8b91d90ebd5284598f7b2aefa0dd5ea2d90b9b486e2d27c53fbd6f6bce",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.23": {
+      "name": "FiveIsland_LostCave_Room11",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "5ee06bae63d6fe41321e977a7e38d8e740474828bf77a37665dcdff91286b569",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.24": {
+      "name": "FiveIsland_LostCave_Room12",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "1bd6c2de75d961eb6f453faabbf2d621e422e8d43130322e4da95e86deca648c",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.25": {
+      "name": "FiveIsland_LostCave_Room13",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "334a3336a045116c20353579e6ac8428e1b5b82da12a0532f55d1f71da1e4591",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.26": {
+      "name": "FiveIsland_LostCave_Room14",
+      "width": 11,
+      "height": 11,
+      "blockdata_sha256": "96f788c6791e43a968d6fa6fa9d6ca20e83301a330e3019f4c524d3279f07a66",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.27": {
+      "name": "SevenIsland_TanobyRuins_MoneanChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "1aaf61e62e99ca899a3a657dc67a6b64708a93e62c0e1567ee03ba864e5ba31b",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.28": {
+      "name": "SevenIsland_TanobyRuins_LiptooChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "b463fc834cdc497e3e2d72aca285eb9d5c4507bd7ecf2b6174eebda776fb1113",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.29": {
+      "name": "SevenIsland_TanobyRuins_WeepthChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "e388182feefc74215079192fa8dd0e66c6999154d80e0698a7bfab5699bdfd56",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.30": {
+      "name": "SevenIsland_TanobyRuins_DilfordChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "a626b431f0f4d8810a8f947dc9743192f267687417e835e5e7bc3b7294b48b8f",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.31": {
+      "name": "SevenIsland_TanobyRuins_ScufibChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "6550b55b2d43c3c3c8957a141bde1025513ea49956eabd27aa59d18acf0a0b35",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.32": {
+      "name": "SevenIsland_TanobyRuins_RixyChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "7f1ccdfc59ac6eb823a1b69f4280e5b5a20a441505eb5022357f54110848884e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.33": {
+      "name": "SevenIsland_TanobyRuins_ViapoisChamber",
+      "width": 23,
+      "height": 17,
+      "blockdata_sha256": "fbc28738cd64754ecfeaf064edf46a8a6d7d628282863858b5c17e1eb974febd",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.34": {
+      "name": "ThreeIsland_DunsparceTunnel",
+      "width": 30,
+      "height": 7,
+      "blockdata_sha256": "3cb95cee7aa66b33fe98ab6b709649d90c8c1b76dae496c3a741b33bb530704b",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "2.35": {
+      "name": "SevenIsland_SevaultCanyon_TanobyKey",
+      "width": 15,
+      "height": 16,
+      "blockdata_sha256": "2cd13ca5046b3023faca6d36f505f8d46836fc35b51e7ca137d659864291951e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 1,
+        "coord_events": 7,
+        "bg_events": 0
+      }
+    },
+    "2.36": {
+      "name": "NavelRock_1F",
+      "width": 17,
+      "height": 26,
+      "blockdata_sha256": "3604bb6e6f619c7f94af5c46b22c9d63e5a7a5621ab9ec6226a9d4251e643978",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.37": {
+      "name": "NavelRock_Summit",
+      "width": 19,
+      "height": 25,
+      "blockdata_sha256": "ff4c02e6a542bfc226b93e766b86bfb17706f4c23548becf55c27c4061e86a70",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 1,
+        "bg_events": 1
+      }
+    },
+    "2.38": {
+      "name": "NavelRock_Base",
+      "width": 21,
+      "height": 23,
+      "blockdata_sha256": "32eae40c87f36cb10e7c78a8ccb1b73790af85a8f0a4e2e832560c42322411af",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.39": {
+      "name": "NavelRock_SummitPath_2F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.40": {
+      "name": "NavelRock_SummitPath_3F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.41": {
+      "name": "NavelRock_SummitPath_4F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.42": {
+      "name": "NavelRock_SummitPath_5F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.43": {
+      "name": "NavelRock_BasePath_B1F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.44": {
+      "name": "NavelRock_BasePath_B2F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.45": {
+      "name": "NavelRock_BasePath_B3F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.46": {
+      "name": "NavelRock_BasePath_B4F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.47": {
+      "name": "NavelRock_BasePath_B5F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.48": {
+      "name": "NavelRock_BasePath_B6F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.49": {
+      "name": "NavelRock_BasePath_B7F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.50": {
+      "name": "NavelRock_BasePath_B8F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.51": {
+      "name": "NavelRock_BasePath_B9F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.52": {
+      "name": "NavelRock_BasePath_B10F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "216edaab7c6fac0101929090514cf1ca490dfbde6c977ff0dca31e10fc7811cc",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.53": {
+      "name": "NavelRock_BasePath_B11F",
+      "width": 7,
+      "height": 7,
+      "blockdata_sha256": "108e98f6ecb4af91b7b1b802fb2e79ddd52fc3f75dc2cd1639dfa0c87be5cd0e",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.54": {
+      "name": "NavelRock_B1F",
+      "width": 17,
+      "height": 7,
+      "blockdata_sha256": "79f96023f600eac38b35e5197dad05be57bfe73e7c2e2eecd12961738a56d6e9",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.55": {
+      "name": "NavelRock_Fork",
+      "width": 30,
+      "height": 100,
+      "blockdata_sha256": "9d29b6f925f33645b8d42565bca1191e55684a85a5ce6202b04a592b9ddef564",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.56": {
+      "name": "BirthIsland_Exterior",
+      "width": 30,
+      "height": 30,
+      "blockdata_sha256": "73897427ffc744c601b42da54fc59f93c3bb6e4caee5425f4693387076f80ff7",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.57": {
+      "name": "OneIsland_KindleRoad_EmberSpa",
+      "width": 27,
+      "height": 39,
+      "blockdata_sha256": "932e65e0004ebacc34be700630c426eaa546bf309a2b33155a2b19d4f30b752b",
+      "map_type": "MAP_TYPE_UNDERGROUND",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 1,
+        "coord_events": 1,
+        "bg_events": 0
+      }
+    },
+    "2.58": {
+      "name": "BirthIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "2.59": {
+      "name": "NavelRock_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.0": {
+      "name": "PalletTown",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "b709c6d47d6006ff6402026496a9d0d9caab19a4515b02517eaf049c5f7bf2e0",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 3,
+        "bg_events": 5
+      }
+    },
+    "3.1": {
+      "name": "ViridianCity",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "6cce51b3d3f6c2f0ac21d1de49935515134946b24b4dddf52d3d5c0b6bc76888",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 5,
+        "coord_events": 4,
+        "bg_events": 5
+      }
+    },
+    "3.2": {
+      "name": "PewterCity",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "f3ae4e56220e6fac7a127124c8f46bf4b3056862711423c78107142736ad972a",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 7,
+        "coord_events": 7,
+        "bg_events": 6
+      }
+    },
+    "3.3": {
+      "name": "CeruleanCity",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "28f8502c01cc0e44abada9a0e055d454939af180e43f6c039560f8e1efaed2cd",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 14,
+        "coord_events": 5,
+        "bg_events": 8
+      }
+    },
+    "3.4": {
+      "name": "LavenderTown",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "a3443db62a2609856280bb6559971a28ab885e4bcab6240d8721e6973804037b",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "3.5": {
+      "name": "VermilionCity",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "2cfff972a1112b7b411063aae6d0032d308fd563d7c6aa82a0609f1aaef0a2ad",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 10,
+        "coord_events": 4,
+        "bg_events": 6
+      }
+    },
+    "3.6": {
+      "name": "CeladonCity",
+      "width": 60,
+      "height": 40,
+      "blockdata_sha256": "c2c42b4400c119c4c59c8002597b82763ee55b797ffde555c14d1da2cdc6ea56",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 15,
+        "warp_events": 13,
+        "coord_events": 0,
+        "bg_events": 9
+      }
+    },
+    "3.7": {
+      "name": "FuchsiaCity",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "0d55e6d587efaa8e42516dfef1c13ebc4b0236597fc3bcc234bdf00f3f608b86",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 16,
+        "warp_events": 11,
+        "coord_events": 0,
+        "bg_events": 12
+      }
+    },
+    "3.8": {
+      "name": "CinnabarIsland",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "1d1277951916f4db9c7e4f4f42390ead7537b538bebf787024b81f303a7db78a",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 5,
+        "coord_events": 1,
+        "bg_events": 4
+      }
+    },
+    "3.9": {
+      "name": "IndigoPlateau_Exterior",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "0d0cf51af3a904eabca862f9c43c04665d2388b858e06cd56372ec4339785153",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.10": {
+      "name": "SaffronCity",
+      "width": 66,
+      "height": 55,
+      "blockdata_sha256": "0e5c5e2778943f29a92121f54490fd815d768e7df92054f61ae330814bcc6628",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 15,
+        "warp_events": 15,
+        "coord_events": 0,
+        "bg_events": 9
+      }
+    },
+    "3.11": {
+      "name": "SaffronCity_Connection",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "3dfac35d28a9e6b153bd96cc8ae2aacc00cdbbeccc7037510181cb4ff7b04889",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.12": {
+      "name": "OneIsland",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "8464f4675d6049e54d55bc8fb7a13445a280b637bdbff3e541985871f4f6e3a0",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.13": {
+      "name": "TwoIsland",
+      "width": 48,
+      "height": 20,
+      "blockdata_sha256": "0c0bc7ac68719e088258efbaabbc3d6a57ba5009a9581731d6aa6b55ecff7b30",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.14": {
+      "name": "ThreeIsland",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "381268fff146f81298d7a7a706a9af0c2ad37faed7ab1d59fcf4242e468424c0",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 14,
+        "warp_events": 7,
+        "coord_events": 10,
+        "bg_events": 2
+      }
+    },
+    "3.15": {
+      "name": "FourIsland",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "afc338d34731aece79809d65d7c729c3030ca5974d24c704f60f2bf6f8236951",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 8,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "3.16": {
+      "name": "FiveIsland",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "5e37c55393c46609576239efef916f4358929afb77ded7efea24acde88d58dd0",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.17": {
+      "name": "SevenIsland",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "a0a75f0afb4aec2a35508a74ba23daf8ffcbefb9b48693c7b4f5d396335c5da5",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.18": {
+      "name": "SixIsland",
+      "width": 24,
+      "height": 30,
+      "blockdata_sha256": "cf683cc9e7731f5575a19424cdd533e462cb4ffccbe2f0abbf384332547027b9",
+      "map_type": "MAP_TYPE_TOWN",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.19": {
+      "name": "Route1",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "9463ad026e56bc9bbe4b533bf8284217c7b6da16ccc2126e055ffc6f1e3da65c",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.20": {
+      "name": "Route2",
+      "width": 24,
+      "height": 80,
+      "blockdata_sha256": "1c52f8da946a9a9546a30215181d83f81d144d2a0e989077a80b796fc44579a9",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 10,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.21": {
+      "name": "Route3",
+      "width": 84,
+      "height": 20,
+      "blockdata_sha256": "c8c631d4c6131bb2af4167445d4904afabcdac96319c6d6e19cafb6919cbc8f3",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.22": {
+      "name": "Route4",
+      "width": 108,
+      "height": 20,
+      "blockdata_sha256": "a7e4cc45bac2c77de409b513140c717acb1809c2f15d3cfd51d7eb4566705560",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.23": {
+      "name": "Route5",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "692bcd89c9e2d7c7947c5061136ebfc89838e3680336799ee0ac6321d4f78e11",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.24": {
+      "name": "Route6",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "41907b5184b359ac4b17256f79ad7afe3721511b3406c26f67f93f7f176398a0",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.25": {
+      "name": "Route7",
+      "width": 24,
+      "height": 20,
+      "blockdata_sha256": "013348a2313f409e2643992cc86dfe7fbcedbee24ff96071d2d60a3734bce7e2",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.26": {
+      "name": "Route8",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "1acf07865213db80f44eff1f1c7ff567142f27c838f42134e1b9aa3df262772b",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 15,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "3.27": {
+      "name": "Route9",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "940dfabe862d02115c79ec00505f047df11f13e5a4a838be24fe34d2c19ce47a",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "3.28": {
+      "name": "Route10",
+      "width": 24,
+      "height": 80,
+      "blockdata_sha256": "46cc01e174ffa8f3ddc5cf5bb1fc17b76846da00e8bc4eadff302e1bc5e023f4",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "3.29": {
+      "name": "Route11",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "4f6173fb666106311b368978dab0fd35b9c015797e211e480cb3b0be1a82f5b6",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 13,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.30": {
+      "name": "Route12",
+      "width": 24,
+      "height": 120,
+      "blockdata_sha256": "bdadbd52f07d75dccaf73651907e6143d809980f7f9f13ae593c97e6d23a1565",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 14,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.31": {
+      "name": "Route13",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "c3c3493ccaa8293ec62f0e0e77cb7acb3c3523f17e348a04460b326df369ddff",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "3.32": {
+      "name": "Route14",
+      "width": 24,
+      "height": 60,
+      "blockdata_sha256": "5d51b0fa8fafd5dd5b0255f5ece292dd5a6cc5b0ba9aab8f8b3c4cd30e2c7c04",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 15,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.33": {
+      "name": "Route15",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "2fc4469c839f55d855d996e426d10136625ffbfbdce221a2030258d829871590",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 14,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.34": {
+      "name": "Route16",
+      "width": 48,
+      "height": 20,
+      "blockdata_sha256": "a77649970d8582781385cb377d9900ab45df39da2b243c3642003cd27e694308",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.35": {
+      "name": "Route17",
+      "width": 24,
+      "height": 160,
+      "blockdata_sha256": "0a6cb49e8fab809b2a863603a40cb169d4c49715658ef9dadde79dd20f0a0ec5",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 11
+      }
+    },
+    "3.36": {
+      "name": "Route18",
+      "width": 60,
+      "height": 20,
+      "blockdata_sha256": "a6b73896d646b54bade6726e40fe35761450b175dd55e284045de9a9dade4ea7",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.37": {
+      "name": "Route19",
+      "width": 24,
+      "height": 60,
+      "blockdata_sha256": "c8cc770496fd135bfc4f6a45415aa34fc683478621f72b25ffa1e0e0955b9e9c",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 12,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.38": {
+      "name": "Route20",
+      "width": 120,
+      "height": 20,
+      "blockdata_sha256": "f25b58c6d2eabf0435e19fad1f365090d3b821c9435d1eea94b306203ac83ded",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.39": {
+      "name": "Route21_North",
+      "width": 24,
+      "height": 50,
+      "blockdata_sha256": "74d84cd7db7cc6f6747059af86f0e108c391215f21bff5cf760c333551647457",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.40": {
+      "name": "Route21_South",
+      "width": 24,
+      "height": 50,
+      "blockdata_sha256": "7ddb6eca59f0d04980233211b990caf41708b95015f05c007b5dcb521f699ff5",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.41": {
+      "name": "Route22",
+      "width": 48,
+      "height": 24,
+      "blockdata_sha256": "db6339fee271e6163e465f35098246c2aadd8f742851e9283103dde14aca9c0a",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 6,
+        "bg_events": 1
+      }
+    },
+    "3.42": {
+      "name": "Route23",
+      "width": 24,
+      "height": 160,
+      "blockdata_sha256": "935a3ce74624a9ea52f2d34edbe314955b97d52d1d134486c5851af61a1fd31a",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 4,
+        "coord_events": 42,
+        "bg_events": 9
+      }
+    },
+    "3.43": {
+      "name": "Route24",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "f188a41e965f2d1b53f4cc2ca72021d16a669883334aec375e7cfa31fab4fcc3",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 0,
+        "coord_events": 2,
+        "bg_events": 1
+      }
+    },
+    "3.44": {
+      "name": "Route25",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "ff838af8ccbe0df1d062419a0cda04710a03a5f7c67028fc63ade3f9e67e0a7e",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 13,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.45": {
+      "name": "OneIsland_KindleRoad",
+      "width": 24,
+      "height": 140,
+      "blockdata_sha256": "0c39b58ca418fcd29c894196a8bb3bb3e7de45b6f31bb5ba7f2285094f85e160",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 29,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.46": {
+      "name": "OneIsland_TreasureBeach",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "94557bcab422102acecd0e7adfb2b0b0d30610f9f61cad343eb71955443b4d3c",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "3.47": {
+      "name": "TwoIsland_CapeBrink",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "212c786812d95500e15c886cd4154a0864d8acba31779cfccaf5b96ca8a4d240",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.48": {
+      "name": "ThreeIsland_BondBridge",
+      "width": 96,
+      "height": 20,
+      "blockdata_sha256": "a9242e90886ccbf13ad2941c076050938c9a35dce7721f297354625596c30b4b",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.49": {
+      "name": "ThreeIsland_Port",
+      "width": 48,
+      "height": 20,
+      "blockdata_sha256": "3144442a21ea608f442bacffb1683fc617f07ff6e80cb87fe10e5fcb6a93df94",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.50": {
+      "name": "Prototype_SeviiIsle_6",
+      "width": 1,
+      "height": 1,
+      "blockdata_sha256": "c236b3f698fa93c1dd2e40c5c3a955f839e5c468c770bb4c9b3624268da09590",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.51": {
+      "name": "Prototype_SeviiIsle_7",
+      "width": 1,
+      "height": 1,
+      "blockdata_sha256": "be6554d953b60391e44550af171d537225a8072962f97f178fade3252fa8774f",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.52": {
+      "name": "Prototype_SeviiIsle_8",
+      "width": 84,
+      "height": 20,
+      "blockdata_sha256": "12b8a355faec7467b7c01d1f5f1fc4cb6e0e99bac74673d1320d3e3a84a3f7e1",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.53": {
+      "name": "Prototype_SeviiIsle_9",
+      "width": 24,
+      "height": 60,
+      "blockdata_sha256": "bd24bd8abc1429458510fef6cf00e7afbbebef81cdddede11d94b39ec28b8a50",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.54": {
+      "name": "FiveIsland_ResortGorgeous",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "4e4255f2bf5e05096bc38dd42457e68e8057192bdd6440742c699234a99c6e7c",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.55": {
+      "name": "FiveIsland_WaterLabyrinth",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "67141c089cb2a171110b861aec9961c706c73f31cd6284ff077288a6185309cf",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "3.56": {
+      "name": "FiveIsland_Meadow",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "0f6e0d0cd7f89f5cb12cbcf3523b3623230b5917aab0c95d1a852f5447c84543",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.57": {
+      "name": "FiveIsland_MemorialPillar",
+      "width": 24,
+      "height": 60,
+      "blockdata_sha256": "591fef42ec6d4051a992d598a78412b4d3c99f6c09e18e5bc31c3a0f3cf69b7d",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.58": {
+      "name": "SixIsland_OutcastIsland",
+      "width": 24,
+      "height": 80,
+      "blockdata_sha256": "ae9b10654825aba0a15807782e7f0642c3dcc279a75bb4e61c00b44047f5bfb1",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.59": {
+      "name": "SixIsland_GreenPath",
+      "width": 72,
+      "height": 20,
+      "blockdata_sha256": "e0201b0bc1de323964f9942ca03108d5672ecc8b010337c5f2bd7bad48e471d6",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "3.60": {
+      "name": "SixIsland_WaterPath",
+      "width": 24,
+      "height": 100,
+      "blockdata_sha256": "8ed8ffef5ab1553c901faabd0960c4c085b4c5db5a33944d6b46be4297138fc4",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.61": {
+      "name": "SixIsland_RuinValley",
+      "width": 48,
+      "height": 40,
+      "blockdata_sha256": "e6fb32cd9088501324d734d4de5cb6cab3898363a4ce3003d8c647c0677f3e05",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 17,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "3.62": {
+      "name": "SevenIsland_TrainerTower",
+      "width": 120,
+      "height": 40,
+      "blockdata_sha256": "71a7094c4be68769dded27d7bb7db0109294dcef53b72dfc3c362e387ca753d5",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "3.63": {
+      "name": "SevenIsland_SevaultCanyon_Entrance",
+      "width": 24,
+      "height": 40,
+      "blockdata_sha256": "d0850de8b198dfccf5a08d93c2a48a5d741725bf9dc5a506ad70f5f9524d073b",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.64": {
+      "name": "SevenIsland_SevaultCanyon",
+      "width": 24,
+      "height": 80,
+      "blockdata_sha256": "2f923dcaa6f34735b5d8edeac00c031531b97de7c784e1b41bd22aba215c4ed5",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 20,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "3.65": {
+      "name": "SevenIsland_TanobyRuins",
+      "width": 144,
+      "height": 20,
+      "blockdata_sha256": "4f342552895fb6b12aa7bdbdc5c2acaf655353cd688067deaa347c51861b0d77",
+      "map_type": "MAP_TYPE_ROUTE",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 7,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "4.0": {
+      "name": "PalletTown_PlayersHouse_1F",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "4.1": {
+      "name": "PalletTown_PlayersHouse_2F",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "4.2": {
+      "name": "PalletTown_RivalsHouse",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "d7622458849c723663b8240434f78881cf9a68705a5545ad31ccc2e264117a6d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "4.3": {
+      "name": "PalletTown_ProfessorOaksLab",
+      "width": 13,
+      "height": 14,
+      "blockdata_sha256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 3,
+        "coord_events": 6,
+        "bg_events": 4
+      }
+    },
+    "5.0": {
+      "name": "ViridianCity_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "28c2d981d606d22bb5b14366e6035a0271b9c9cfc7cc82b14d6e5f777495e349",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "5.1": {
+      "name": "ViridianCity_Gym",
+      "width": 20,
+      "height": 24,
+      "blockdata_sha256": "65964beff473668a3b4490be8905b9f8882243931b2abbaf210ed8d119451406",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "5.2": {
+      "name": "ViridianCity_School",
+      "width": 10,
+      "height": 9,
+      "blockdata_sha256": "76a813140f948b009d595096c292fd008010cc4379924cf62e93d1edfbe08864",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 5
+      }
+    },
+    "5.3": {
+      "name": "ViridianCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "5.4": {
+      "name": "ViridianCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "5.5": {
+      "name": "ViridianCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "6.0": {
+      "name": "PewterCity_Museum_1F",
+      "width": 28,
+      "height": 11,
+      "blockdata_sha256": "18c296e1cf4fa886cdf0b40717a7ae7b99187c9a59d4a4a1eca6b9880124e96e",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 6,
+        "coord_events": 3,
+        "bg_events": 4
+      }
+    },
+    "6.1": {
+      "name": "PewterCity_Museum_2F",
+      "width": 19,
+      "height": 10,
+      "blockdata_sha256": "7917bb436b3004849377d561b05ac6183be4e98a4daf43014e655fb2a00661b6",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "6.2": {
+      "name": "PewterCity_Gym",
+      "width": 13,
+      "height": 16,
+      "blockdata_sha256": "25b90a0b26d8eb64df48dc047d075cadde5dfab1e32c96e98236749fd6d90bd1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "6.3": {
+      "name": "PewterCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "6.4": {
+      "name": "PewterCity_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "6.5": {
+      "name": "PewterCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "6.6": {
+      "name": "PewterCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "6.7": {
+      "name": "PewterCity_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.0": {
+      "name": "CeruleanCity_House1",
+      "width": 10,
+      "height": 10,
+      "blockdata_sha256": "6e8d592787b607a482a094121e9135820b1429c8c8284c4ce8b4cca450f0685f",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.1": {
+      "name": "CeruleanCity_House2",
+      "width": 10,
+      "height": 9,
+      "blockdata_sha256": "333f67d83f0c5d7b3c693f6c677f49b65c2f6bc93e5c992ba8ce40b27e2082d8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "7.2": {
+      "name": "CeruleanCity_House3",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.3": {
+      "name": "CeruleanCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.4": {
+      "name": "CeruleanCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.5": {
+      "name": "CeruleanCity_Gym",
+      "width": 17,
+      "height": 20,
+      "blockdata_sha256": "798535cd49ca3db8ced17ec6fd47d1bd52da29b05df556725620b4924a080a09",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "7.6": {
+      "name": "CeruleanCity_BikeShop",
+      "width": 11,
+      "height": 10,
+      "blockdata_sha256": "41b2ec27ee97b5baefc71af76f4a5752509552117673bfc0f013bda27aa6d4fa",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "7.7": {
+      "name": "CeruleanCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.8": {
+      "name": "CeruleanCity_House4",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "7.9": {
+      "name": "CeruleanCity_House5",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "055464d4cecf2d41592691f9e95de0b1a42f8278780ccb5a67812f113f98c65e",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "8.0": {
+      "name": "LavenderTown_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "8.1": {
+      "name": "LavenderTown_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "8.2": {
+      "name": "LavenderTown_VolunteerPokemonHouse",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "e0ca239fc7c37aa4972ff0ef86f3ae76d18ee5dc5ddb31e39d894c9588b842e9",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "8.3": {
+      "name": "LavenderTown_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "9ce61da47afb457929dca2c6d403367c45607eb55a8fefa48e54388d4a4585d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "8.4": {
+      "name": "LavenderTown_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "9ce61da47afb457929dca2c6d403367c45607eb55a8fefa48e54388d4a4585d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "8.5": {
+      "name": "LavenderTown_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.0": {
+      "name": "VermilionCity_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.1": {
+      "name": "VermilionCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.2": {
+      "name": "VermilionCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.3": {
+      "name": "VermilionCity_PokemonFanClub",
+      "width": 12,
+      "height": 12,
+      "blockdata_sha256": "bdbdae8c03547032cfc4c328622da2962566c42f1de5b016e8d0201603b5c8fb",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "9.4": {
+      "name": "VermilionCity_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.5": {
+      "name": "VermilionCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "9.6": {
+      "name": "VermilionCity_Gym",
+      "width": 11,
+      "height": 21,
+      "blockdata_sha256": "e0a1c8f696a034cb6336cbe13a58a8d9a69072b94e7c9c2383e500a807364961",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 17
+      }
+    },
+    "9.7": {
+      "name": "VermilionCity_House3",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "10.0": {
+      "name": "CeladonCity_DepartmentStore_1F",
+      "width": 13,
+      "height": 16,
+      "blockdata_sha256": "dc163cbf551cb3abacb39b978592321a66ad3711db69d0d9a79ff42890c7e0ce",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 8,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.1": {
+      "name": "CeladonCity_DepartmentStore_2F",
+      "width": 13,
+      "height": 15,
+      "blockdata_sha256": "d226b8b0ff9950761342d3c1520d9720dfda33e29c3ebaf37ab49a324997c9f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "10.2": {
+      "name": "CeladonCity_DepartmentStore_3F",
+      "width": 13,
+      "height": 15,
+      "blockdata_sha256": "5bb701ff68959a244c8efe5bfdc316824bc8e3c8f5b58ebe8a5a23abca99d538",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 11
+      }
+    },
+    "10.3": {
+      "name": "CeladonCity_DepartmentStore_4F",
+      "width": 13,
+      "height": 15,
+      "blockdata_sha256": "2e03fc4a2d87e3115b98320bf81a604e9c4d51956afafc97670a8b56fb6f9212",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "10.4": {
+      "name": "CeladonCity_DepartmentStore_5F",
+      "width": 13,
+      "height": 15,
+      "blockdata_sha256": "4218613f9fecdb85a29f7d9b3f82814ea17461a851b7078e5c1182fbc34fa8c9",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "10.5": {
+      "name": "CeladonCity_DepartmentStore_Roof",
+      "width": 19,
+      "height": 14,
+      "blockdata_sha256": "b08b0f4d36b440f84963d00c43cd03f087502343a58b24a14a2950f3179ba700",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "10.6": {
+      "name": "CeladonCity_DepartmentStore_Elevator",
+      "width": 5,
+      "height": 7,
+      "blockdata_sha256": "84557c1c0d7fec4344fd62a18b9c32fcdaab83cc8f63416012089328dc5344cd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.7": {
+      "name": "CeladonCity_Condominiums_1F",
+      "width": 15,
+      "height": 20,
+      "blockdata_sha256": "b6513fa50cf0d75246afef0f66e18c94943d8cc3f7698ffe0c8708041d2fe8ad",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.8": {
+      "name": "CeladonCity_Condominiums_2F",
+      "width": 15,
+      "height": 20,
+      "blockdata_sha256": "f915739ac251c6f069a15790b2638d4fbdbdbf00cb5debfd4d8caa883a9e7d28",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.9": {
+      "name": "CeladonCity_Condominiums_3F",
+      "width": 15,
+      "height": 20,
+      "blockdata_sha256": "a73596459e8834102b7681d27a0480457a0453257bb8605a7a490d597669bde4",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 8
+      }
+    },
+    "10.10": {
+      "name": "CeladonCity_Condominiums_Roof",
+      "width": 14,
+      "height": 23,
+      "blockdata_sha256": "8b7f519a3043719cc3a541dd0874021ccb2764b74ce8cdb21f275f1892682e65",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.11": {
+      "name": "CeladonCity_Condominiums_RoofRoom",
+      "width": 10,
+      "height": 9,
+      "blockdata_sha256": "60a0bbad72967be956240b9816f7d230394f88e36ffb61f6a73fdcd34fe9a4ec",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "10.12": {
+      "name": "CeladonCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "10.13": {
+      "name": "CeladonCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "10.14": {
+      "name": "CeladonCity_GameCorner",
+      "width": 18,
+      "height": 15,
+      "blockdata_sha256": "d2d1d6c686f143083e126c53a87b7623a88dae58d8c504dfdbf20c4bd546bfe7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 36
+      }
+    },
+    "10.15": {
+      "name": "CeladonCity_GameCorner_PrizeRoom",
+      "width": 9,
+      "height": 10,
+      "blockdata_sha256": "374c51d7746aac0066a78c1eba966b9f5957a0dbe121e87e01979535672277c8",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "10.16": {
+      "name": "CeladonCity_Gym",
+      "width": 13,
+      "height": 20,
+      "blockdata_sha256": "1d3b02b585e6e7e88e06c18a6c94ecafde143ac19afa6e941527a5bb56a4b430",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 11,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "10.17": {
+      "name": "CeladonCity_Restaurant",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "612c02922fa065f8108b4404ab404b35e572f4f0064a22a6c5a9f416ca0c0f03",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "10.18": {
+      "name": "CeladonCity_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "9ce61da47afb457929dca2c6d403367c45607eb55a8fefa48e54388d4a4585d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "10.19": {
+      "name": "CeladonCity_Hotel",
+      "width": 17,
+      "height": 11,
+      "blockdata_sha256": "ab1c1285c3d8d08a76f454cdb941e14c5401a6138bd18d2ac6b9f25ce1fec2fd",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.0": {
+      "name": "FuchsiaCity_SafariZone_Entrance",
+      "width": 9,
+      "height": 9,
+      "blockdata_sha256": "76bd83820728132e4c1549af94869402dbe7986b104497c96a8d5116affb3cfc",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "11.1": {
+      "name": "FuchsiaCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.2": {
+      "name": "FuchsiaCity_SafariZone_Office",
+      "width": 20,
+      "height": 11,
+      "blockdata_sha256": "0f21d6e6d85c13e3b06b8c24c66071cf7ed4dec23fb47b8778436cc6c5ca9663",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.3": {
+      "name": "FuchsiaCity_Gym",
+      "width": 15,
+      "height": 23,
+      "blockdata_sha256": "8f465f6950e687f0e56954c55d4571202eee500e3c41b9014db7610a396893f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "11.4": {
+      "name": "FuchsiaCity_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.5": {
+      "name": "FuchsiaCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.6": {
+      "name": "FuchsiaCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.7": {
+      "name": "FuchsiaCity_WardensHouse",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "a9356e1d7f39fa730d18ae4d34c6f9255b7bf6952e90ed5062a2ee77a2686d15",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "11.8": {
+      "name": "FuchsiaCity_House2",
+      "width": 10,
+      "height": 10,
+      "blockdata_sha256": "6e8d592787b607a482a094121e9135820b1429c8c8284c4ce8b4cca450f0685f",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "11.9": {
+      "name": "FuchsiaCity_House3",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "12.0": {
+      "name": "CinnabarIsland_Gym",
+      "width": 30,
+      "height": 25,
+      "blockdata_sha256": "00a2581a4cef4631cd427ce4dcc58eea6c74656731f13a1748ac3a9fc0f76261",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 15
+      }
+    },
+    "12.1": {
+      "name": "CinnabarIsland_PokemonLab_Entrance",
+      "width": 28,
+      "height": 11,
+      "blockdata_sha256": "df74cf939b5afdc7d1e25d5b9bf6d468c4d5325a8d3cb4b520d0bc8e1bc20fb0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 6,
+        "coord_events": 0,
+        "bg_events": 4
+      }
+    },
+    "12.2": {
+      "name": "CinnabarIsland_PokemonLab_Lounge",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "efbeceff02f5480a65b6595de32e59ae74cfbabd4e2abf8c7ccf41b98eeda891",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "12.3": {
+      "name": "CinnabarIsland_PokemonLab_ResearchRoom",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "64d0b5dad38f1199b6e4db64000d9c090e60f6e0a82c073b44195d3b2c18e903",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "12.4": {
+      "name": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "0d29747a4cbf11b940d8504e05d8075052a8f0006c54d8db738f22de57d04052",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "12.5": {
+      "name": "CinnabarIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "12.6": {
+      "name": "CinnabarIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "12.7": {
+      "name": "CinnabarIsland_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "13.0": {
+      "name": "IndigoPlateau_PokemonCenter_1F",
+      "width": 25,
+      "height": 18,
+      "blockdata_sha256": "8ffce6558792739e7bc8452c193c8e45f8f4e91cc27f21d368ece20aebfc0f9e",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 8,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "13.1": {
+      "name": "IndigoPlateau_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.0": {
+      "name": "SaffronCity_CopycatsHouse_1F",
+      "width": 13,
+      "height": 10,
+      "blockdata_sha256": "d78100bcc769c5906034dee0f9ee8b57193ff1ff8c6584ebbc303e95e8a43434",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.1": {
+      "name": "SaffronCity_CopycatsHouse_2F",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "0af31ca8c3a511f7cf58c8fc39746c4989ea01060fcaf0bc9389cd628d633eb5",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 3
+      }
+    },
+    "14.2": {
+      "name": "SaffronCity_Dojo",
+      "width": 13,
+      "height": 16,
+      "blockdata_sha256": "8bfbf9db39e5ee311383924b2396013adedfb36a845d56789d2e5e23114b61eb",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 7,
+        "warp_events": 3,
+        "coord_events": 2,
+        "bg_events": 4
+      }
+    },
+    "14.3": {
+      "name": "SaffronCity_Gym",
+      "width": 29,
+      "height": 25,
+      "blockdata_sha256": "2050a71b0921f28316910f4b1197b3c89ee648589abe371249bbf815023934d0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 9,
+        "warp_events": 33,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "14.4": {
+      "name": "SaffronCity_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "9ce61da47afb457929dca2c6d403367c45607eb55a8fefa48e54388d4a4585d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "14.5": {
+      "name": "SaffronCity_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.6": {
+      "name": "SaffronCity_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.7": {
+      "name": "SaffronCity_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.8": {
+      "name": "SaffronCity_MrPsychicsHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "9ce61da47afb457929dca2c6d403367c45607eb55a8fefa48e54388d4a4585d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "14.9": {
+      "name": "SaffronCity_PokemonTrainerFanClub",
+      "width": 11,
+      "height": 17,
+      "blockdata_sha256": "4b8128ef3cccd3bd13a09fe1eaebb1233078044420b3453bca198916ca9aaa26",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 10,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "15.0": {
+      "name": "Route2_ViridianForest_SouthEntrance",
+      "width": 15,
+      "height": 12,
+      "blockdata_sha256": "7d70ccd81337746eaf2a9728f800998834e5227d144300b291d5154e54ce6c6d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "15.1": {
+      "name": "Route2_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "15.2": {
+      "name": "Route2_EastBuilding",
+      "width": 15,
+      "height": 12,
+      "blockdata_sha256": "7d70ccd81337746eaf2a9728f800998834e5227d144300b291d5154e54ce6c6d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "15.3": {
+      "name": "Route2_ViridianForest_NorthEntrance",
+      "width": 15,
+      "height": 12,
+      "blockdata_sha256": "7d70ccd81337746eaf2a9728f800998834e5227d144300b291d5154e54ce6c6d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "16.0": {
+      "name": "Route4_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "16.1": {
+      "name": "Route4_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "17.0": {
+      "name": "Route5_PokemonDayCare",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "58c941f75846e2a1e8e13ab9281ad3889169c38cdc2f8c31d269e92d21920c0c",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "17.1": {
+      "name": "Route5_SouthEntrance",
+      "width": 9,
+      "height": 11,
+      "blockdata_sha256": "1cf9fcab3c430edca2a62281687e59f36f5b475de744a9b5366317ff31b1eb48",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "18.0": {
+      "name": "Route6_NorthEntrance",
+      "width": 9,
+      "height": 11,
+      "blockdata_sha256": "1cf9fcab3c430edca2a62281687e59f36f5b475de744a9b5366317ff31b1eb48",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "18.1": {
+      "name": "Route6_UnusedHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "19.0": {
+      "name": "Route7_EastEntrance",
+      "width": 13,
+      "height": 9,
+      "blockdata_sha256": "5b65ab1afa32f762c2bcbc30b3b258b6954042540a6983a14ef16f576a9f46ed",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "20.0": {
+      "name": "Route8_WestEntrance",
+      "width": 13,
+      "height": 9,
+      "blockdata_sha256": "5b65ab1afa32f762c2bcbc30b3b258b6954042540a6983a14ef16f576a9f46ed",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 3,
+        "bg_events": 0
+      }
+    },
+    "21.0": {
+      "name": "Route10_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 4,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "21.1": {
+      "name": "Route10_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "22.0": {
+      "name": "Route11_EastEntrance_1F",
+      "width": 13,
+      "height": 12,
+      "blockdata_sha256": "5dfd76b1142c15df6937daa5280135b28f6f0429348be7d7a1ea38d786646986",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "22.1": {
+      "name": "Route11_EastEntrance_2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "08d953d4c90812981821917d25e98ea23ae2983efaf1a9e63857199ee35478f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "23.0": {
+      "name": "Route12_NorthEntrance_1F",
+      "width": 11,
+      "height": 13,
+      "blockdata_sha256": "ebd1dbbeca6e1fdfb3d9adbfcce840f14e4caf26026a17d276f8665ed093aec7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "23.1": {
+      "name": "Route12_NorthEntrance_2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "08d953d4c90812981821917d25e98ea23ae2983efaf1a9e63857199ee35478f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "23.2": {
+      "name": "Route12_FishingHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8d917e586fb7677abaca6b0661b2d05eeaa9e3025e1199ef69a5d5105ce41a80",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "24.0": {
+      "name": "Route15_WestEntrance_1F",
+      "width": 13,
+      "height": 12,
+      "blockdata_sha256": "5dfd76b1142c15df6937daa5280135b28f6f0429348be7d7a1ea38d786646986",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 5,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "24.1": {
+      "name": "Route15_WestEntrance_2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "08d953d4c90812981821917d25e98ea23ae2983efaf1a9e63857199ee35478f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "25.0": {
+      "name": "Route16_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "e6d350c5a60c8a27e510abc7a818c628225b0794959506b15d7c99e9dea8c090",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "25.1": {
+      "name": "Route16_NorthEntrance_1F",
+      "width": 13,
+      "height": 18,
+      "blockdata_sha256": "64ee0b0c056ef217cd3a9f3d30e7634d7f4f5f2c82e147a262059aac66efd8e7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 5,
+        "coord_events": 11,
+        "bg_events": 0
+      }
+    },
+    "25.2": {
+      "name": "Route16_NorthEntrance_2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "08d953d4c90812981821917d25e98ea23ae2983efaf1a9e63857199ee35478f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "26.0": {
+      "name": "Route18_EastEntrance_1F",
+      "width": 13,
+      "height": 12,
+      "blockdata_sha256": "5dfd76b1142c15df6937daa5280135b28f6f0429348be7d7a1ea38d786646986",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 3,
+        "coord_events": 11,
+        "bg_events": 0
+      }
+    },
+    "26.1": {
+      "name": "Route18_EastEntrance_2F",
+      "width": 13,
+      "height": 11,
+      "blockdata_sha256": "08d953d4c90812981821917d25e98ea23ae2983efaf1a9e63857199ee35478f0",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "27.0": {
+      "name": "Route19_UnusedHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "28.0": {
+      "name": "Route22_NorthEntrance",
+      "width": 15,
+      "height": 12,
+      "blockdata_sha256": "067a1b3d18f28ce99e405158a57fef143e1d433a6fb7e3d0a12edf4fb73f8443",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 4,
+        "coord_events": 1,
+        "bg_events": 0
+      }
+    },
+    "29.0": {
+      "name": "Route23_UnusedHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "215a2eecb5290bf461f31e112f4215cb01c73f3b25e4bf958e2931c65d416b9d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "30.0": {
+      "name": "Route25_SeaCottage",
+      "width": 15,
+      "height": 11,
+      "blockdata_sha256": "fb4c92dbd8796aa6182580a918263d7543d155e3eadc4a1d353f549bfe867889",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "31.0": {
+      "name": "SevenIsland_House_Room1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "810fa4510fef99b6265fb4c05acf17fd54f005dfaf058ef1f898ec37ec284801",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "31.1": {
+      "name": "SevenIsland_House_Room2",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "4b6ad72c97221a3fe8abdeb1d25ab8812100ac95f8dc81ad14d0332fdb1df7f7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "31.2": {
+      "name": "SevenIsland_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "31.3": {
+      "name": "SevenIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "31.4": {
+      "name": "SevenIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "31.5": {
+      "name": "SevenIsland_UnusedHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8d917e586fb7677abaca6b0661b2d05eeaa9e3025e1199ef69a5d5105ce41a80",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 0,
+        "warp_events": 0,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "31.6": {
+      "name": "SevenIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "32.0": {
+      "name": "OneIsland_PokemonCenter_1F",
+      "width": 19,
+      "height": 11,
+      "blockdata_sha256": "8d45566724f39d6108b085a36d30b2229818968874ed86d776898fcf2130f984",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 6,
+        "warp_events": 2,
+        "coord_events": 4,
+        "bg_events": 9
+      }
+    },
+    "32.1": {
+      "name": "OneIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "32.2": {
+      "name": "OneIsland_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "32.3": {
+      "name": "OneIsland_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "32.4": {
+      "name": "OneIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "33.0": {
+      "name": "TwoIsland_JoyfulGameCorner",
+      "width": 12,
+      "height": 10,
+      "blockdata_sha256": "ee4a466ec21e80812827f6da8222b85b0dfc8a5b768b4eaf5b2547dd63438ee2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "33.1": {
+      "name": "TwoIsland_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "33.2": {
+      "name": "TwoIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "33.3": {
+      "name": "TwoIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "33.4": {
+      "name": "TwoIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.0": {
+      "name": "ThreeIsland_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "7859c46b08772b269edb3e8c391d25dca284ea2c5cc8cdb1ba928531bd1305f4",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "34.1": {
+      "name": "ThreeIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.2": {
+      "name": "ThreeIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.3": {
+      "name": "ThreeIsland_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.4": {
+      "name": "ThreeIsland_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.5": {
+      "name": "ThreeIsland_House3",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.6": {
+      "name": "ThreeIsland_House4",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "34.7": {
+      "name": "ThreeIsland_House5",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.0": {
+      "name": "FourIsland_PokemonDayCare",
+      "width": 12,
+      "height": 9,
+      "blockdata_sha256": "186044e9a1fe53b95c6199b7892f6b267ce3ac4c8ef72ae635c5bf83173da97b",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.1": {
+      "name": "FourIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "35.2": {
+      "name": "FourIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.3": {
+      "name": "FourIsland_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.4": {
+      "name": "FourIsland_LoreleisHouse",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "39adba631adfc6667d7405670b0f6df4bcc0e51176bd856b06e9407d473da0d1",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 15,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.5": {
+      "name": "FourIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.6": {
+      "name": "FourIsland_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "35.7": {
+      "name": "FourIsland_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "36.0": {
+      "name": "FiveIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 5,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "36.1": {
+      "name": "FiveIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "36.2": {
+      "name": "FiveIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "36.3": {
+      "name": "FiveIsland_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "36.4": {
+      "name": "FiveIsland_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "37.0": {
+      "name": "SixIsland_PokemonCenter_1F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "32a6f854088ca261ed410ebff549e73d7e732aa1143223377e8f290e8df52e0d",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 2,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "37.1": {
+      "name": "SixIsland_PokemonCenter_2F",
+      "width": 15,
+      "height": 10,
+      "blockdata_sha256": "e7d363794382cbdb50e54b75b2da65ad1cddd5af4c69fc24f74a18bec227cfde",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 4,
+        "warp_events": 3,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "37.2": {
+      "name": "SixIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "37.3": {
+      "name": "SixIsland_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "37.4": {
+      "name": "SixIsland_Mart",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8f5493928d1f5f834f6ea39e055a23f49ae04a132d452ce7846607780a53d082",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "38.0": {
+      "name": "ThreeIsland_Harbor",
+      "width": 17,
+      "height": 13,
+      "blockdata_sha256": "5eea78c3f4e1718aa04e1fb4bc6c3b6f41162e678ee1d9d4c4715b10d1c1f8ba",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "39.0": {
+      "name": "FiveIsland_ResortGorgeous_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "66df962935d7aa4fd2c3d68d2af41ff929d699837f2e8375e9fb85be10e3c9e7",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 2,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 2
+      }
+    },
+    "40.0": {
+      "name": "TwoIsland_CapeBrink_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "41.0": {
+      "name": "SixIsland_WaterPath_House1",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "8d917e586fb7677abaca6b0661b2d05eeaa9e3025e1199ef69a5d5105ce41a80",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 1
+      }
+    },
+    "41.1": {
+      "name": "SixIsland_WaterPath_House2",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 1,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    },
+    "42.0": {
+      "name": "SevenIsland_SevaultCanyon_House",
+      "width": 11,
+      "height": 9,
+      "blockdata_sha256": "d66fbb3a7f090642156faebacb4d7dfaff31b8463d1f90be13705b4015c127b2",
+      "map_type": "MAP_TYPE_INDOOR",
+      "event_counts": {
+        "object_events": 3,
+        "warp_events": 1,
+        "coord_events": 0,
+        "bg_events": 0
+      }
+    }
+  }
+}

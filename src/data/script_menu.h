@@ -99,6 +99,7 @@ static const struct MenuAction MultichoiceList_LATeleportDestinations[] =
 {
     {COMPOUND_STRING("NUVEMA TOWN")},
     {COMPOUND_STRING("POSTWICK")},
+    {COMPOUND_STRING("STRIATON CITY")},
     {gText_Cancel},
 };
 

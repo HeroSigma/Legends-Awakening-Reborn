@@ -76,7 +76,8 @@
     "gMapGroup_IndoorSixIslandRoute_Frlg",
     "gMapGroup_IndoorSevenIslandRoute_Frlg",
     "gMapGroup_LA_Unova",
-    "gMapGroup_AMap_Bank3"
+    "gMapGroup_AMap_Bank3",
+    "gMapGroup_AMap_Bank1"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1168,6 +1169,14 @@
   ],
   "gMapGroup_AMap_Bank3": [
     "AMap_3_0_Nuvema_Town",
-    "AMap_3_0_Postwick"
+    "AMap_3_0_Postwick",
+    "AMap_3_2_Striaton_City",
+    "AMap_3_3_Nacrene_City",
+    "AMap_3_21_Route_3",
+    "AMap_3_22_Route_3"
+  ],
+  "gMapGroup_AMap_Bank1": [
+    "AMap_1_95_Pinhweel_Forest",
+    "AMap_1_114_Pinhweel_Forest"
   ]
 }

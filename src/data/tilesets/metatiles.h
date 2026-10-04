@@ -439,3 +439,15 @@ const u16 gMetatileAttributes_AMap_Primary_SWSH_082D4A94[] = INCBIN_U16("data/ti
 
 const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/metatiles.bin");
 const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d504c/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d504c/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4af4/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4af4/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4DC4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4dc4/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4DC4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4dc4/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatile_attributes.bin");
