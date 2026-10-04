@@ -9520,6 +9520,190 @@
         "secondary_tileset": "secondary_f2e_BWA_P082D4A94S082D4B0C",
         "source": "A-Map Batch Bridge"
       }
+    },
+    {
+      "id": "LAYOUT_AMAP_6_10_MOTOSTOKE_LAYOUT",
+      "name": "AMap_6_10_Motostoke_Layout",
+      "width": 70,
+      "height": 66,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4ADC",
+      "border_filepath": "data/layouts/AMap_6_10_Motostoke_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_6_10_Motostoke_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 6,
+        "display_name": "Motostoke",
+        "header_pointer": "0x087AD048",
+        "layout_pointer": "0x087AF484",
+        "map": 10,
+        "map_id": "6.10",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4ADC",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_6_17_ROUTE_3_LAYOUT",
+      "name": "AMap_6_17_Route_3_Layout",
+      "width": 106,
+      "height": 47,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4ADC",
+      "border_filepath": "data/layouts/AMap_6_17_Route_3_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_6_17_Route_3_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 6,
+        "display_name": "Route 3",
+        "header_pointer": "0x087AF880",
+        "layout_pointer": "0x089DE730",
+        "map": 17,
+        "map_id": "6.17",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4ADC",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_6_28_GALAR_MINE_LAYOUT",
+      "name": "AMap_6_28_Galar_Mine_Layout",
+      "width": 50,
+      "height": 74,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4DF4",
+      "border_filepath": "data/layouts/AMap_6_28_Galar_Mine_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_6_28_Galar_Mine_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 6,
+        "display_name": "Galar Mine",
+        "header_pointer": "0x087B3D24",
+        "layout_pointer": "0x089E07DC",
+        "map": 28,
+        "map_id": "6.28",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4DF4",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_7_11_TURFFIELD_LAYOUT",
+      "name": "AMap_7_11_Turffield_Layout",
+      "width": 82,
+      "height": 46,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AF4",
+      "border_filepath": "data/layouts/AMap_7_11_Turffield_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_7_11_Turffield_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 7,
+        "display_name": "Turffield",
+        "header_pointer": "0x087BF6AC",
+        "layout_pointer": "0x087C1448",
+        "map": 11,
+        "map_id": "7.11",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4AF4",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_7_17_ROUTE_4_LAYOUT",
+      "name": "AMap_7_17_Route_4_Layout",
+      "width": 36,
+      "height": 42,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AF4",
+      "border_filepath": "data/layouts/AMap_7_17_Route_4_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_7_17_Route_4_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 7,
+        "display_name": "Route 4",
+        "header_pointer": "0x087C34AC",
+        "layout_pointer": "0x087C40A0",
+        "map": 17,
+        "map_id": "7.17",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4AF4",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_8_6_ROUTE_5_LAYOUT",
+      "name": "AMap_8_6_Route_5_Layout",
+      "width": 62,
+      "height": 46,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AAC",
+      "border_filepath": "data/layouts/AMap_8_6_Route_5_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_8_6_Route_5_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 8,
+        "display_name": "Route 5",
+        "header_pointer": "0x087D8C00",
+        "layout_pointer": "0x087DA26C",
+        "map": 6,
+        "map_id": "8.6",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4AAC",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_8_7_HULBURY_LAYOUT",
+      "name": "AMap_8_7_Hulbury_Layout",
+      "width": 90,
+      "height": 80,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4B0C",
+      "border_filepath": "data/layouts/AMap_8_7_Hulbury_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_8_7_Hulbury_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 8,
+        "display_name": "Hulbury",
+        "header_pointer": "0x087DA574",
+        "layout_pointer": "0x08A6AC24",
+        "map": 7,
+        "map_id": "8.7",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4B0C",
+        "source": "A-Map Batch Bridge"
+      }
+    },
+    {
+      "id": "LAYOUT_AMAP_8_26_HULBURY_LAYOUT",
+      "name": "AMap_8_26_Hulbury_Layout",
+      "width": 58,
+      "height": 19,
+      "primary_tileset": "gTileset_AMap_Primary_SWSH_082D4A94",
+      "secondary_tileset": "gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AAC",
+      "border_filepath": "data/layouts/AMap_8_26_Hulbury_Layout/border.bin",
+      "blockdata_filepath": "data/layouts/AMap_8_26_Hulbury_Layout/map.bin",
+      "amap_batch_bridge": {
+        "bank": 8,
+        "display_name": "Hulbury",
+        "header_pointer": "0x087FC8AC",
+        "layout_pointer": "0x0877A334",
+        "map": 26,
+        "map_id": "8.26",
+        "package_format": "A-Map Batch Bridge v1.1",
+        "primary_tileset": "primary_f2e_SWSH_082D4A94",
+        "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+        "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4AAC",
+        "source": "A-Map Batch Bridge"
+      }
     }
   ]
 }

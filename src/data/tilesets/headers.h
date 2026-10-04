@@ -1658,3 +1658,58 @@ const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C =
     .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AAC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AAC,
+    .palettes = gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AAC,
+    .metatiles = gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4AAC,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4AAC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4B0C =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4B0C,
+    .palettes = gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4B0C,
+    .metatiles = gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4B0C,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4B0C,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4AF4 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AF4,
+    .palettes = gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AF4,
+    .metatiles = gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4AF4,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4AF4,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4ADC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4ADC,
+    .palettes = gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4ADC,
+    .metatiles = gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4ADC,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4ADC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4DF4 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4,
+    .palettes = gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4DF4,
+    .metatiles = gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4,
+    .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4DF4,
+    .callback = NULL,
+};

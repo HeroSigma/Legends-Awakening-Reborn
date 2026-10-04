@@ -1755,3 +1755,19 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/AMap_3_21_Route_3/scripts.inc"
 
 	.include "data/maps/AMap_3_22_Route_3/scripts.inc"
+
+	.include "data/maps/AMap_6_10_Motostoke/scripts.inc"
+
+	.include "data/maps/AMap_6_17_Route_3/scripts.inc"
+
+	.include "data/maps/AMap_6_28_Galar_Mine/scripts.inc"
+
+	.include "data/maps/AMap_7_11_Turffield/scripts.inc"
+
+	.include "data/maps/AMap_7_17_Route_4/scripts.inc"
+
+	.include "data/maps/AMap_8_6_Route_5/scripts.inc"
+
+	.include "data/maps/AMap_8_7_Hulbury/scripts.inc"
+
+	.include "data/maps/AMap_8_26_Hulbury/scripts.inc"

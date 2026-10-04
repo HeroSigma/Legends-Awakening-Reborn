@@ -77,7 +77,10 @@
     "gMapGroup_IndoorSevenIslandRoute_Frlg",
     "gMapGroup_LA_Unova",
     "gMapGroup_AMap_Bank3",
-    "gMapGroup_AMap_Bank1"
+    "gMapGroup_AMap_Bank1",
+    "gMapGroup_AMap_Bank6",
+    "gMapGroup_AMap_Bank7",
+    "gMapGroup_AMap_Bank8"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1178,5 +1181,19 @@
   "gMapGroup_AMap_Bank1": [
     "AMap_1_95_Pinhweel_Forest",
     "AMap_1_114_Pinhweel_Forest"
+  ],
+  "gMapGroup_AMap_Bank6": [
+    "AMap_6_10_Motostoke",
+    "AMap_6_17_Route_3",
+    "AMap_6_28_Galar_Mine"
+  ],
+  "gMapGroup_AMap_Bank7": [
+    "AMap_7_11_Turffield",
+    "AMap_7_17_Route_4"
+  ],
+  "gMapGroup_AMap_Bank8": [
+    "AMap_8_6_Route_5",
+    "AMap_8_7_Hulbury",
+    "AMap_8_26_Hulbury"
   ]
 }

@@ -9,16 +9,18 @@
 @   Nuvema Town   -> (16,22)
 @   Postwick      -> (15,24)
 @   Striaton City -> (52,25)
+@   Motostoke     -> (31,24)
 
 LA_TeleportScientist::
 	lock
 	faceplayer
 	msgbox LA_Text_TeleportScientistIntro, MSGBOX_DEFAULT
-	multichoice 3, 0, MULTI_UNUSED_19, FALSE
+	multichoice 4, 0, MULTI_UNUSED_19, FALSE
 	goto_if_eq VAR_RESULT, 0, LA_TeleportScientist_WarpNuvema
 	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpPostwick
 	goto_if_eq VAR_RESULT, 2, LA_TeleportScientist_WarpStriaton
-	@ 3 = CANCEL (or B button): just end the conversation.
+	goto_if_eq VAR_RESULT, 3, LA_TeleportScientist_WarpMotostoke
+	@ 4 = CANCEL (or B button): just end the conversation.
 	goto LA_TeleportScientist_Cancel
 
 LA_TeleportScientist_WarpNuvema::
@@ -38,6 +40,13 @@ LA_TeleportScientist_WarpPostwick::
 LA_TeleportScientist_WarpStriaton::
 	closemessage
 	warp MAP_AMAP_3_2_STRIATON_CITY, 52, 25
+	waitstate
+	release
+	end
+
+LA_TeleportScientist_WarpMotostoke::
+	closemessage
+	warp MAP_AMAP_6_10_MOTOSTOKE, 31, 24
 	waitstate
 	release
 	end

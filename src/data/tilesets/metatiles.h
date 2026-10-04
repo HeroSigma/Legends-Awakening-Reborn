@@ -451,3 +451,18 @@ const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4DC4[] = INCBIN_U
 
 const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatiles.bin");
 const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4ADC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4ADC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/metatile_attributes.bin");
+
+const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/metatiles.bin");
+const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/metatile_attributes.bin");

@@ -188,3 +188,43 @@ JSON, blockdata and layout-definition hashes produce
 that the classifier itself ran the game. The six-map Striaton/Route 3/Nacrene/
 Pinwheel stretch has user-reported game verification; its pending external links
 remain deferred.
+
+## SWSH / Galar canonical review
+
+```bash
+python3 tools/la_world/importers/amap/build_swsh_galar_manifest.py
+python3 -m unittest discover -s tools/la_world/importers/amap/tests -v
+```
+
+Uses all 701 usable SWSH v1.1 exports and the original donor metadata reports.
+Outputs are separate under `.la_work/amap/swsh_galar_review/`:
+
+- `swsh_galar_import_manifest.json`: all 701 decisions, pointers, identities,
+  counts, relationship/dependency records, family resolutions and regional spine.
+- `swsh_galar_review.md`: concise regional/family findings and migration gaps.
+- `swsh_galar_high_confidence_import.csv`: 55 future visual asset candidates.
+- `swsh_galar_exclusions.csv`: 197 legacy geometry exclusions and 20 superseded
+  revisions; `swsh_galar_excluded_legacy.csv` isolates the legacy subset.
+- `swsh_galar_manual_review.csv`: 428 unresolved maps, render problems, event
+  truncation, inherited-role ambiguity and unnamed expansion sectors.
+- `swsh_galar_postwick_duplicate_resolution.csv`: all 172 Postwick-labelled maps.
+- `swsh_donor_map_metadata_corrected.csv`: SWSH-only declared and exported counts.
+
+The spine has 52 nodes, including six provisional features. Main town revisions
+are selected from preview/graph/event evidence rather than trusting Postwick or
+route labels. Named Route 4/6/7/8/9 alternatives supersede inherited FireRed
+route slots. Unnamed expansion sectors do not receive guessed official names.
+
+`swsh_galar_rules.json` stores 119 JSON/preview-hash-guarded manual decisions.
+Changed decisions fall back to review; changed Postwick canary evidence fails
+without permitting replacement. Region-distance hints are weak supporting data
+and never select maps automatically. Shared rooms/sectors retain separate event
+and relationship identities. The Galar builder reuses the common v1.1 inventory
+and CSV helpers, and the pinned offline FireRed reference from the BWA phase.
+
+`import_flag` selects future **visual assets only**. Global execution, bulk import,
+runtime, script, event and relationship flags remain false. Alias-remapping hints
+are suggestions, not executed changes. Dependencies never recursively import
+excluded or ambiguous maps. This classifier performs no destination writes,
+leaves Postwick 3.0 protected, and does not regenerate BWA reports or alter the
+user-verified BWA map stretch.

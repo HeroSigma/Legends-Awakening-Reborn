@@ -3244,3 +3244,98 @@ const u16 gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4B0C[][16] =
 };
 
 const u32 gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AAC[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AAC[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4B0C[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4B0C[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AF4[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AF4[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4ADC[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4ADC[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4DF4[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/tiles.4bpp.lz");
