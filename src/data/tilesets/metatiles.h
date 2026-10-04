@@ -425,14 +425,8 @@ const u16 gMetatileAttributes_LA_NuvemaTown[] =
 
 // END LEGENDS AWAKENING IMPORTED TILESETS
 
-const u16 gMetatiles_AMap_Primary_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_082d4a94/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Primary_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_082d4a94/metatile_attributes.bin");
 
-const u16 gMetatiles_AMap_Secondary_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_p082d4a94s082d4aac/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_p082d4a94s082d4aac/metatile_attributes.bin");
 
-const u16 gMetatiles_AMap_Secondary_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_p082d4a94s082d504c/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_p082d4a94s082d504c/metatile_attributes.bin");
 
 const u16 gMetatiles_AMap_Primary_BWA_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_bwa_082d4a94/metatiles.bin");
 const u16 gMetatileAttributes_AMap_Primary_BWA_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_bwa_082d4a94/metatile_attributes.bin");
