@@ -102,6 +102,19 @@ class SwshGalarTests(unittest.TestCase):
         self.assertFalse(changed['canonical_flag'])
         self.assertFalse(changed['import_flag'])
 
+    def test_existing_game_verified_imports_are_skipped(self):
+        rules = json.loads(self.rules.read_text())
+        expected = set(rules.get('destination_verifications', {}))
+        observed = {item['donor_id']: item for item in self.manifest.get('observed_destination_imports', [])}
+        for identifier in expected:
+            item = observed[identifier]
+            self.assertEqual(item['status'], 'GAME_TESTED_VERIFIED_BY_USER')
+            self.assertTrue(item['user_gameplay_verification']['matches_current_import'])
+            self.assertFalse(item['gameplay_validated_by_this_audit'])
+            self.assertFalse(item['reimport_flag'])
+            self.assertEqual(self.maps[identifier]['import_action'], 'SKIP_EXISTING_IMPORT')
+            self.assertNotIn(identifier, self.manifest['remaining_asset_candidates'])
+
     def test_changed_canary_decision_fails_without_replacing_it(self):
         rules = json.loads(self.rules.read_text())
         rules['rules']['3.0']['source_json_sha256'] = '0' * 64

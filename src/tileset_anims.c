@@ -1432,3 +1432,4 @@ void InitTilesetAnim_CeladonGym(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_CeladonGym;
 }
 
+#include "hyper_tileset_anims.inc"

@@ -466,3 +466,5 @@ const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4ADC[] = INCBIN_
 
 const u16 gMetatiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/metatiles.bin");
 const u16 gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/metatile_attributes.bin");
+
+#include "hyper_metatiles.h"

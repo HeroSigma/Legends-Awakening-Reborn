@@ -1713,3 +1713,5 @@ const struct Tileset gTileset_AMap_Secondary_SWSH_P082D4A94S082D4DF4 =
     .metatileAttributes = gMetatileAttributes_AMap_Secondary_SWSH_P082D4A94S082D4DF4,
     .callback = NULL,
 };
+
+#include "hyper_headers.h"

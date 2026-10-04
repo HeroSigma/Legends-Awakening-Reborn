@@ -228,3 +228,10 @@ are suggestions, not executed changes. Dependencies never recursively import
 excluded or ambiguous maps. This classifier performs no destination writes,
 leaves Postwick 3.0 protected, and does not regenerate BWA reports or alter the
 user-verified BWA map stretch.
+
+Galar also records matching existing imports through the shared read-only audit.
+`swsh_galar_import_status.csv` distinguishes user game verification from file
+checks, and `remaining_asset_candidates` excludes imported maps. The eight-map
+Motostoke/Route 3/Galar Mine/Route 4/Turffield/Route 5/Hulbury causeway/Hulbury
+stretch is recorded as user game-tested on 2026-10-04, guarded by current map,
+blockdata and layout-definition hashes. No reimport is enabled.

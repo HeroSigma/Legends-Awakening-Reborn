@@ -1480,5 +1480,79 @@
       "preview_sha256": "c3efdf86e1b1af0141197124098d5b1c8f64232083518d028e168c3ec1b5b556"
     }
   },
-  "policy": "Hash-guarded JSON/preview decisions. Canonical roles are donor-local descriptions, not asserted official subarea names. import_flag selects future visual assets only; no execution/gameplay migration."
+  "policy": "Hash-guarded JSON/preview decisions. Canonical roles are donor-local descriptions, not asserted official subarea names. import_flag selects future visual assets only; no execution/gameplay migration.",
+  "destination_verifications": {
+    "8.26": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "ccb0d9d0f122fb3935facd83431ecb9fa15122c302512e9b5102bec7c60c9a7a",
+      "blockdata_sha256": "e2dcabed3ad0e07c6a274de20450f8f54b334edaefe5a07f7543a6d619ccd761",
+      "layout_definition_sha256": "e626ce7b232d4ccac2e8a783dfbdf9b2d3f5a1bdb96f3a3fd3f080d000d3f025"
+    },
+    "6.17": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "94b6516f0522dd650f1858d56773f02278541c367bf5625c61e1bfd893df4ab1",
+      "blockdata_sha256": "8c5493d1083d62a2b9288d4a68ed31b0e5820ca14a6b63eb5ea3db32baf0d797",
+      "layout_definition_sha256": "ed734673a924fc1773b01a079b91082591f0b962353fd131e67bd0b952ec41aa"
+    },
+    "7.17": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "13089889b35a5b43fceb3cad23c0e9e09ba52c21dc69d5ca7073b36039f3284a",
+      "blockdata_sha256": "74a751547db6f62d2b12abb85ff4e3615234adc938cc389943a407b679105156",
+      "layout_definition_sha256": "d6070dd2ef4c3fb44a7de3f7c994fd3c86981f1822743995c1463bcc7449b4b7"
+    },
+    "6.28": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "4504ec959155851c72e2fa84975ea80ef3205d90a7b1b23b1b1cd48b84789000",
+      "blockdata_sha256": "c8e6f0460ea2ff3f76bbc55908af42f4ee5ffb6102986c7936db15dc49d4489d",
+      "layout_definition_sha256": "a3b65d4e06f3212efe1225bd456802237c8f1b09ff31b1d4d34bde2ae7503527"
+    },
+    "7.11": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "8f6429754a6af038b8a5f33b51f58d5a1a3bc32c793b30b73d0140092876850b",
+      "blockdata_sha256": "663b815981a0a08f60056cbf4645ea6e7c599b50389a725b3c387a594bb39013",
+      "layout_definition_sha256": "da3804848e2a5f6982218378769f6148ef37b9e61594dac7433dfd9296092463"
+    },
+    "6.10": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "1efd30291af25cbd5d7b5b70824dee832dc83b671314571210b99b0fa3e2ce0f",
+      "blockdata_sha256": "0349f2d671afc4947f40bc74f7e41b7542a047b909c77667dba5e8c7ab1740d1",
+      "layout_definition_sha256": "ffa1bbff8df1bc5fd79aea2a8368f153a55a312fd5abc4498abc656aa83d703e"
+    },
+    "8.7": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "08c9e46b0a45e1d1c38bfadf6053cd2c231d69db6e4b0970f81a1225ace24815",
+      "blockdata_sha256": "2e4ba08d2ced0c9102729f7df6fd0ebf14c8d258fed5b0b5226956c6e3e08a5e",
+      "layout_definition_sha256": "ecd903d658bbdf8e1f1ec76b10891c0939916833e4092482210094ad1e4f17ff"
+    },
+    "8.6": {
+      "status": "GAME_TESTED_VERIFIED_BY_USER",
+      "verification_source": "User confirmation in this chat",
+      "reported_date": "2026-10-04",
+      "scope": "Current imported eight-map Motostoke-to-Hulbury stretch; pending external connections and interiors remain deferred.",
+      "destination_json_sha256": "db475099974006d2d79d5b732b80d3f01cf65e7e0bed1c70c09887fdc4b27f7d",
+      "blockdata_sha256": "2cfa109ea88f85d5934b95ba05bab2e76d81fa140671520d307cc36d5ecf654c",
+      "layout_definition_sha256": "84f37c9219372b7ad4e6da7e223d7a72932ae3be9ec24f29b85b214740efa63c"
+    }
+  }
 }

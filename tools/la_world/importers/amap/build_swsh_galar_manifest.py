@@ -12,7 +12,7 @@ import json
 from collections import Counter, defaultdict, deque
 from pathlib import Path
 from classify_donor_maps import inventory, compact, EVENTS
-from build_bwa_unova_manifest import csv_write, sort_id, sha
+from build_bwa_unova_manifest import csv_write, sort_id, sha, audit_destination_imports
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[3]
@@ -222,6 +222,8 @@ def build(root, metadata_csv, metadata_md, rules_path, reference_path):
                         'internal_relationships': [edge for edge in normalized_edges if edge['normalized_target_hint'] in spine_ids], 'boundary_relationships': [edge for edge in normalized_edges if edge['normalized_target_hint'] not in spine_ids],
                         'notes': ['The source is not a clean official-game progression. Missing static links are recorded, not fabricated.', 'Route 1 still points at Postwick revision 4.6; alias-remap hint points to preserved 3.0, with no write performed.', 'Core named route alternatives replace inherited FireRed slots; later route labels do not establish canonical Galar geography.', 'Unnamed groups 37/38 and mislabeled Postwick ocean/expansion sectors stay in review; no official DLC sector names are guessed.']},
                 'duplicate_name_families': family_records, 'maps': records}
+    manifest['observed_destination_imports'] = audit_destination_imports(records, rules_doc.get('destination_verifications', {}))
+    manifest['remaining_asset_candidates'] = [record['id'] for record in records if record['import_flag'] and not record.get('already_imported')]
     validate_manifest(manifest)
     return manifest, corrected
 
@@ -252,7 +254,7 @@ def write_outputs(manifest, corrected, out):
     out.mkdir(parents=True, exist_ok=True)
     (out/'swsh_galar_import_manifest.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     records = manifest['maps']
-    fields = ['donor', 'id', 'group', 'map', 'name', 'category', 'canonical_flag', 'canonical_selection_status', 'import_flag', 'confidence', 'disposition', 'role', 'canonical_replacement', 'reason', 'width', 'height', 'object_count', 'object_exported_count', 'warp_count', 'warp_exported_count', 'coord_count', 'coord_exported_count', 'bg_count', 'bg_exported_count', 'connection_count', 'primary_tileset', 'secondary_tileset', 'header_pointer', 'layout_pointer', 'exact_firered_blockdata', 'shared_layout_ids', 'same_visual_ids', 'nearby_region_hints', 'dependencies', 'wiring_blockers', 'source_json', 'source_json_sha256']
+    fields = ['already_imported', 'import_action', 'reimport_flag', 'donor', 'id', 'group', 'map', 'name', 'category', 'canonical_flag', 'canonical_selection_status', 'import_flag', 'confidence', 'disposition', 'role', 'canonical_replacement', 'reason', 'width', 'height', 'object_count', 'object_exported_count', 'warp_count', 'warp_exported_count', 'coord_count', 'coord_exported_count', 'bg_count', 'bg_exported_count', 'connection_count', 'primary_tileset', 'secondary_tileset', 'header_pointer', 'layout_pointer', 'exact_firered_blockdata', 'shared_layout_ids', 'same_visual_ids', 'nearby_region_hints', 'dependencies', 'wiring_blockers', 'source_json', 'source_json_sha256']
     subsets = {'inventory': records, 'high_confidence_import': [r for r in records if r['import_flag']], 'exclusions': [r for r in records if r['disposition'].startswith('EXCLUDED')],
                'excluded_legacy': [r for r in records if r['disposition'] == 'EXCLUDED_LEGACY'], 'manual_review': [r for r in records if r['disposition'] == 'MANUAL_REVIEW'], 'postwick_duplicate_resolution': [r for r in records if r['name'] == 'Postwick']}
     for filename, rows in subsets.items():
@@ -295,6 +297,13 @@ def write_outputs(manifest, corrected, out):
              '- swsh_galar_postwick_duplicate_resolution.csv: every one of the 172 Postwick-labelled maps.',
              '- swsh_donor_map_metadata_corrected.csv: SWSH-only corrected counts; original combined metadata reports are unchanged.', '',
              'Classification phase complete. Remaining uncertainties are recorded explicitly; no gameplay validation or import is claimed.']
+    observations = manifest.get('observed_destination_imports', [])
+    csv_write(out/'swsh_galar_import_status.csv', observations,
+              ['donor_id', 'destination_map', 'status', 'import_action', 'reimport_flag', 'registered', 'dimensions_match', 'blockdata_matches', 'duplicate_object_local_ids', 'active_connection_count', 'active_warp_count', 'pending_connection_count', 'pending_warp_count', 'user_gameplay_verification', 'issues'])
+    text += ['', '## Observed destination imports', '',
+             'Existing imports are skipped on future passes. User-reported game verification is tied to current destination JSON, blockdata and layout hashes; subsequent changes require rechecking. The file audit does not itself run the game.', '',
+             '| Donor ID | Destination | Status |', '|---|---|---|']
+    text += [f"| {item['donor_id']} | {item['destination_map']} | {item['status']} |" for item in observations]
     (out/'swsh_galar_review.md').write_text('\n'.join(text)+'\n', encoding='utf-8')
     print(compact(summary))
 

@@ -1,5 +1,6 @@
 #ifndef GUARD_TILESET_ANIMS_H
 #define GUARD_TILESET_ANIMS_H
+#include "hyper_tileset_anims.h"
 
 void InitTilesetAnimations(void);
 void InitSecondaryTilesetAnimation(void);

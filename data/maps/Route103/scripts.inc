@@ -159,7 +159,6 @@ Route103_Movement_RivalExitFacingNorth2:
 	walk_down
 	walk_down
 	walk_down
-	walk_down
 	step_end
 
 Route103_Movement_WatchRivalExitFacingNorth:

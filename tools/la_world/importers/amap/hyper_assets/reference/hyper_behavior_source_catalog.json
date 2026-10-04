@@ -1,0 +1,6261 @@
+{
+  "rom": "HypEm v5.7 EN+QoL.gba",
+  "maps_scanned": 922,
+  "source_behavior_ids_used": 128,
+  "safe_semantic_ids": 126,
+  "unresolved_custom_ids": [
+    "0x1F",
+    "0x2D"
+  ],
+  "weighted_safe_coverage_percent": 99.99863835164297,
+  "behaviors": [
+    {
+      "source_id": 0,
+      "hex": "0x00",
+      "baseline_name": "MB_NORMAL",
+      "status": "safe_semantic",
+      "block_occurrences": 412195,
+      "map_count": 922,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 0,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 470
+        },
+        {
+          "map_id": "0.0",
+          "x": 1,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 471
+        },
+        {
+          "map_id": "0.0",
+          "x": 2,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 470
+        },
+        {
+          "map_id": "0.0",
+          "x": 3,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 471
+        },
+        {
+          "map_id": "0.0",
+          "x": 4,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 470
+        }
+      ]
+    },
+    {
+      "source_id": 1,
+      "hex": "0x01",
+      "baseline_name": "MB_SECRET_BASE_WALL",
+      "status": "safe_semantic",
+      "block_occurrences": 1634,
+      "map_count": 47,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 8,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 19
+        },
+        {
+          "map_id": "0.25",
+          "x": 17,
+          "y": 88,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 20
+        },
+        {
+          "map_id": "0.25",
+          "x": 18,
+          "y": 88,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 20
+        },
+        {
+          "map_id": "0.38",
+          "x": 23,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 19
+        },
+        {
+          "map_id": "0.39",
+          "x": 71,
+          "y": 48,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 19
+        }
+      ]
+    },
+    {
+      "source_id": 2,
+      "hex": "0x02",
+      "baseline_name": "MB_TALL_GRASS",
+      "status": "safe_semantic",
+      "block_occurrences": 14718,
+      "map_count": 101,
+      "examples": [
+        {
+          "map_id": "0.8",
+          "x": 5,
+          "y": 45,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "0.8",
+          "x": 6,
+          "y": 49,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "0.8",
+          "x": 7,
+          "y": 51,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "0.8",
+          "x": 9,
+          "y": 56,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "0.9",
+          "x": 18,
+          "y": 14,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 13
+        }
+      ]
+    },
+    {
+      "source_id": 3,
+      "hex": "0x03",
+      "baseline_name": "MB_LONG_GRASS",
+      "status": "safe_semantic",
+      "block_occurrences": 2752,
+      "map_count": 12,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 11,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 12,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 13,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 14,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 21
+        }
+      ]
+    },
+    {
+      "source_id": 6,
+      "hex": "0x06",
+      "baseline_name": "MB_DEEP_SAND",
+      "status": "safe_semantic",
+      "block_occurrences": 2042,
+      "map_count": 16,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 28,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.26",
+          "x": 29,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.26",
+          "x": 30,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.26",
+          "x": 31,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.26",
+          "x": 32,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 57
+        }
+      ]
+    },
+    {
+      "source_id": 7,
+      "hex": "0x07",
+      "baseline_name": "MB_SHORT_GRASS",
+      "status": "safe_semantic",
+      "block_occurrences": 12821,
+      "map_count": 125,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 19,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "0.0",
+          "x": 20,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "0.0",
+          "x": 21,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "0.0",
+          "x": 6,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "0.0",
+          "x": 9,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 5
+        }
+      ]
+    },
+    {
+      "source_id": 8,
+      "hex": "0x08",
+      "baseline_name": "MB_CAVE",
+      "status": "safe_semantic",
+      "block_occurrences": 85674,
+      "map_count": 220,
+      "examples": [
+        {
+          "map_id": "0.2",
+          "x": 1,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.2",
+          "x": 2,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.2",
+          "x": 4,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.2",
+          "x": 5,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.2",
+          "x": 6,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 8
+        }
+      ]
+    },
+    {
+      "source_id": 9,
+      "hex": "0x09",
+      "baseline_name": "MB_LONG_GRASS_SOUTH_EDGE",
+      "status": "safe_semantic",
+      "block_occurrences": 542,
+      "map_count": 11,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 31,
+          "y": 25,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 28
+        },
+        {
+          "map_id": "0.34",
+          "x": 32,
+          "y": 25,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 28
+        },
+        {
+          "map_id": "0.34",
+          "x": 36,
+          "y": 26,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 7
+        },
+        {
+          "map_id": "0.34",
+          "x": 33,
+          "y": 27,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 7
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 27,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 7
+        }
+      ]
+    },
+    {
+      "source_id": 10,
+      "hex": "0x0A",
+      "baseline_name": "MB_NO_RUNNING",
+      "status": "safe_semantic",
+      "block_occurrences": 422,
+      "map_count": 9,
+      "examples": [
+        {
+          "map_id": "0.4",
+          "x": 8,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 43
+        },
+        {
+          "map_id": "0.4",
+          "x": 12,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "0.4",
+          "x": 15,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 43
+        },
+        {
+          "map_id": "0.4",
+          "x": 19,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "0.4",
+          "x": 23,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 43
+        }
+      ]
+    },
+    {
+      "source_id": 11,
+      "hex": "0x0B",
+      "baseline_name": "MB_INDOOR_ENCOUNTER",
+      "status": "safe_semantic",
+      "block_occurrences": 5031,
+      "map_count": 25,
+      "examples": [
+        {
+          "map_id": "10.1",
+          "x": 0,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "10.1",
+          "x": 1,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 3
+        },
+        {
+          "map_id": "10.1",
+          "x": 2,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 3
+        },
+        {
+          "map_id": "10.1",
+          "x": 3,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 4
+        },
+        {
+          "map_id": "10.1",
+          "x": 5,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 5
+        }
+      ]
+    },
+    {
+      "source_id": 12,
+      "hex": "0x0C",
+      "baseline_name": "MB_MOUNTAIN_TOP",
+      "status": "safe_semantic",
+      "block_occurrences": 52562,
+      "map_count": 146,
+      "examples": [
+        {
+          "map_id": "0.1",
+          "x": 25,
+          "y": 22,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 112
+        },
+        {
+          "map_id": "0.1",
+          "x": 36,
+          "y": 22,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 114
+        },
+        {
+          "map_id": "0.1",
+          "x": 37,
+          "y": 24,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 114
+        },
+        {
+          "map_id": "0.1",
+          "x": 37,
+          "y": 25,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 114
+        },
+        {
+          "map_id": "0.1",
+          "x": 37,
+          "y": 26,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 114
+        }
+      ]
+    },
+    {
+      "source_id": 13,
+      "hex": "0x0D",
+      "baseline_name": "MB_BATTLE_PYRAMID_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 16,
+      "map_count": 16,
+      "examples": [
+        {
+          "map_id": "25.44",
+          "x": 3,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFD24",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "25.45",
+          "x": 3,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFD24",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "25.46",
+          "x": 0,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFD24",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "25.47",
+          "x": 6,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFD24",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "25.48",
+          "x": 2,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFD24",
+          "metatile_id": 142
+        }
+      ]
+    },
+    {
+      "source_id": 14,
+      "hex": "0x0E",
+      "baseline_name": "MB_MOSSDEEP_GYM_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 25,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "14.0",
+          "x": 11,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFC2C",
+          "metatile_id": 18
+        },
+        {
+          "map_id": "14.0",
+          "x": 21,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFC2C",
+          "metatile_id": 18
+        },
+        {
+          "map_id": "14.0",
+          "x": 21,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFC2C",
+          "metatile_id": 17
+        },
+        {
+          "map_id": "14.0",
+          "x": 8,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFC2C",
+          "metatile_id": 16
+        },
+        {
+          "map_id": "14.0",
+          "x": 7,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DFC2C",
+          "metatile_id": 18
+        }
+      ]
+    },
+    {
+      "source_id": 15,
+      "hex": "0x0F",
+      "baseline_name": "MB_MT_PYRE_HOLE",
+      "status": "safe_semantic",
+      "block_occurrences": 12,
+      "map_count": 8,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 32,
+          "y": 108,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 502
+        },
+        {
+          "map_id": "24.16",
+          "x": 11,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 498
+        },
+        {
+          "map_id": "24.17",
+          "x": 6,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 498
+        },
+        {
+          "map_id": "24.17",
+          "x": 10,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 498
+        },
+        {
+          "map_id": "24.18",
+          "x": 9,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 498
+        }
+      ]
+    },
+    {
+      "source_id": 16,
+      "hex": "0x10",
+      "baseline_name": "MB_POND_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 8760,
+      "map_count": 56,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 22,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 176
+        },
+        {
+          "map_id": "0.0",
+          "x": 23,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 177
+        },
+        {
+          "map_id": "0.0",
+          "x": 24,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 177
+        },
+        {
+          "map_id": "0.0",
+          "x": 25,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 178
+        },
+        {
+          "map_id": "0.0",
+          "x": 19,
+          "y": 3,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 176
+        }
+      ]
+    },
+    {
+      "source_id": 17,
+      "hex": "0x11",
+      "baseline_name": "MB_INTERIOR_DEEP_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 587,
+      "map_count": 26,
+      "examples": [
+        {
+          "map_id": "0.25",
+          "x": 9,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 342
+        },
+        {
+          "map_id": "0.25",
+          "x": 31,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 335
+        },
+        {
+          "map_id": "0.25",
+          "x": 8,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 342
+        },
+        {
+          "map_id": "0.25",
+          "x": 13,
+          "y": 81,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 342
+        },
+        {
+          "map_id": "0.39",
+          "x": 10,
+          "y": 3,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 334
+        }
+      ]
+    },
+    {
+      "source_id": 18,
+      "hex": "0x12",
+      "baseline_name": "MB_DEEP_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 4847,
+      "map_count": 51,
+      "examples": [
+        {
+          "map_id": "0.25",
+          "x": 15,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 343
+        },
+        {
+          "map_id": "0.25",
+          "x": 16,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 343
+        },
+        {
+          "map_id": "0.25",
+          "x": 17,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 343
+        },
+        {
+          "map_id": "0.25",
+          "x": 19,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 343
+        },
+        {
+          "map_id": "0.25",
+          "x": 20,
+          "y": 34,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 343
+        }
+      ]
+    },
+    {
+      "source_id": 19,
+      "hex": "0x13",
+      "baseline_name": "MB_WATERFALL",
+      "status": "safe_semantic",
+      "block_occurrences": 1221,
+      "map_count": 21,
+      "examples": [
+        {
+          "map_id": "0.8",
+          "x": 15,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 187
+        },
+        {
+          "map_id": "0.8",
+          "x": 16,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 179
+        },
+        {
+          "map_id": "0.8",
+          "x": 17,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 179
+        },
+        {
+          "map_id": "0.8",
+          "x": 18,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 179
+        },
+        {
+          "map_id": "0.8",
+          "x": 19,
+          "y": 60,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 179
+        }
+      ]
+    },
+    {
+      "source_id": 20,
+      "hex": "0x14",
+      "baseline_name": "MB_SOOTOPOLIS_DEEP_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 25,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "0.7",
+          "x": 26,
+          "y": 53,
+          "role": "secondary",
+          "tileset": "0x083DF83C",
+          "metatile_id": 213
+        },
+        {
+          "map_id": "0.7",
+          "x": 27,
+          "y": 53,
+          "role": "secondary",
+          "tileset": "0x083DF83C",
+          "metatile_id": 245
+        },
+        {
+          "map_id": "0.7",
+          "x": 28,
+          "y": 53,
+          "role": "secondary",
+          "tileset": "0x083DF83C",
+          "metatile_id": 245
+        },
+        {
+          "map_id": "0.7",
+          "x": 29,
+          "y": 53,
+          "role": "secondary",
+          "tileset": "0x083DF83C",
+          "metatile_id": 245
+        },
+        {
+          "map_id": "0.7",
+          "x": 30,
+          "y": 53,
+          "role": "secondary",
+          "tileset": "0x083DF83C",
+          "metatile_id": 214
+        }
+      ]
+    },
+    {
+      "source_id": 21,
+      "hex": "0x15",
+      "baseline_name": "MB_OCEAN_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 78829,
+      "map_count": 169,
+      "examples": [
+        {
+          "map_id": "0.1",
+          "x": 37,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 368
+        },
+        {
+          "map_id": "0.1",
+          "x": 38,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 368
+        },
+        {
+          "map_id": "0.1",
+          "x": 39,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 368
+        },
+        {
+          "map_id": "0.1",
+          "x": 37,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 368
+        },
+        {
+          "map_id": "0.1",
+          "x": 38,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 368
+        }
+      ]
+    },
+    {
+      "source_id": 22,
+      "hex": "0x16",
+      "baseline_name": "MB_PUDDLE",
+      "status": "safe_semantic",
+      "block_occurrences": 1010,
+      "map_count": 25,
+      "examples": [
+        {
+          "map_id": "0.9",
+          "x": 16,
+          "y": 14,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 200
+        },
+        {
+          "map_id": "0.9",
+          "x": 17,
+          "y": 14,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 201
+        },
+        {
+          "map_id": "0.9",
+          "x": 16,
+          "y": 15,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 208
+        },
+        {
+          "map_id": "0.9",
+          "x": 17,
+          "y": 15,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 209
+        },
+        {
+          "map_id": "0.19",
+          "x": 20,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 200
+        }
+      ]
+    },
+    {
+      "source_id": 23,
+      "hex": "0x17",
+      "baseline_name": "MB_SHALLOW_WATER",
+      "status": "safe_semantic",
+      "block_occurrences": 11509,
+      "map_count": 49,
+      "examples": [
+        {
+          "map_id": "0.5",
+          "x": 65,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 411
+        },
+        {
+          "map_id": "0.5",
+          "x": 75,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 414
+        },
+        {
+          "map_id": "0.5",
+          "x": 76,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 414
+        },
+        {
+          "map_id": "0.5",
+          "x": 77,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 414
+        },
+        {
+          "map_id": "0.5",
+          "x": 78,
+          "y": 0,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 414
+        }
+      ]
+    },
+    {
+      "source_id": 25,
+      "hex": "0x19",
+      "baseline_name": "MB_NO_SURFACING",
+      "status": "safe_semantic",
+      "block_occurrences": 2257,
+      "map_count": 11,
+      "examples": [
+        {
+          "map_id": "0.50",
+          "x": 13,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 128
+        },
+        {
+          "map_id": "0.50",
+          "x": 14,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 131
+        },
+        {
+          "map_id": "0.50",
+          "x": 15,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 131
+        },
+        {
+          "map_id": "0.50",
+          "x": 17,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 131
+        },
+        {
+          "map_id": "0.50",
+          "x": 18,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 131
+        }
+      ]
+    },
+    {
+      "source_id": 28,
+      "hex": "0x1C",
+      "baseline_name": "MB_SHOAL_CAVE_ENTRANCE",
+      "status": "safe_semantic",
+      "block_occurrences": 47,
+      "map_count": 7,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 29,
+          "y": 110,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 507
+        },
+        {
+          "map_id": "24.46",
+          "x": 20,
+          "y": 30,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 0
+        },
+        {
+          "map_id": "24.50",
+          "x": 20,
+          "y": 30,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 0
+        },
+        {
+          "map_id": "34.27",
+          "x": 0,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFD9C",
+          "metatile_id": 117
+        },
+        {
+          "map_id": "34.27",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFD9C",
+          "metatile_id": 117
+        }
+      ]
+    },
+    {
+      "source_id": 31,
+      "hex": "0x1F",
+      "baseline_name": "MB_UNUSED_1F",
+      "status": "unresolved_custom",
+      "block_occurrences": 5,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 30,
+          "y": 110,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 509
+        },
+        {
+          "map_id": "34.40",
+          "x": 30,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 509
+        },
+        {
+          "map_id": "34.40",
+          "x": 30,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 509
+        },
+        {
+          "map_id": "34.40",
+          "x": 30,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 509
+        },
+        {
+          "map_id": "36.54",
+          "x": 19,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 509
+        }
+      ]
+    },
+    {
+      "source_id": 32,
+      "hex": "0x20",
+      "baseline_name": "MB_ICE",
+      "status": "safe_semantic",
+      "block_occurrences": 2389,
+      "map_count": 10,
+      "examples": [
+        {
+          "map_id": "16.11",
+          "x": 2,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF95C",
+          "metatile_id": 244
+        },
+        {
+          "map_id": "16.11",
+          "x": 3,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF95C",
+          "metatile_id": 245
+        },
+        {
+          "map_id": "16.11",
+          "x": 4,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF95C",
+          "metatile_id": 244
+        },
+        {
+          "map_id": "16.11",
+          "x": 10,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF95C",
+          "metatile_id": 244
+        },
+        {
+          "map_id": "16.11",
+          "x": 11,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DF95C",
+          "metatile_id": 245
+        }
+      ]
+    },
+    {
+      "source_id": 33,
+      "hex": "0x21",
+      "baseline_name": "MB_SAND",
+      "status": "safe_semantic",
+      "block_occurrences": 5869,
+      "map_count": 63,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 7,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.0",
+          "x": 8,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.0",
+          "x": 9,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.0",
+          "x": 10,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "0.0",
+          "x": 11,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 57
+        }
+      ]
+    },
+    {
+      "source_id": 34,
+      "hex": "0x22",
+      "baseline_name": "MB_SEAWEED",
+      "status": "safe_semantic",
+      "block_occurrences": 592,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.51",
+          "x": 36,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "0.51",
+          "x": 37,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "0.51",
+          "x": 39,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "0.51",
+          "x": 40,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "0.51",
+          "x": 41,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 1
+        }
+      ]
+    },
+    {
+      "source_id": 36,
+      "hex": "0x24",
+      "baseline_name": "MB_ASHGRASS",
+      "status": "safe_semantic",
+      "block_occurrences": 319,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.28",
+          "x": 43,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 10
+        },
+        {
+          "map_id": "0.28",
+          "x": 44,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 10
+        },
+        {
+          "map_id": "0.28",
+          "x": 45,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 10
+        },
+        {
+          "map_id": "0.28",
+          "x": 46,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 10
+        },
+        {
+          "map_id": "0.28",
+          "x": 47,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 10
+        }
+      ]
+    },
+    {
+      "source_id": 38,
+      "hex": "0x26",
+      "baseline_name": "MB_THIN_ICE",
+      "status": "safe_semantic",
+      "block_occurrences": 88,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "15.0",
+          "x": 3,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "15.0",
+          "x": 4,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "15.0",
+          "x": 6,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "15.0",
+          "x": 7,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 13
+        }
+      ]
+    },
+    {
+      "source_id": 39,
+      "hex": "0x27",
+      "baseline_name": "MB_CRACKED_ICE",
+      "status": "safe_semantic",
+      "block_occurrences": 6,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.82",
+          "x": 7,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "35.82",
+          "x": 9,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "35.82",
+          "x": 11,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "35.82",
+          "x": 6,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "35.82",
+          "x": 12,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 14
+        }
+      ]
+    },
+    {
+      "source_id": 40,
+      "hex": "0x28",
+      "baseline_name": "MB_HOT_SPRINGS",
+      "status": "safe_semantic",
+      "block_occurrences": 262,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "0.12",
+          "x": 3,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 154
+        },
+        {
+          "map_id": "0.12",
+          "x": 4,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 155
+        },
+        {
+          "map_id": "0.12",
+          "x": 5,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 155
+        },
+        {
+          "map_id": "0.12",
+          "x": 3,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 163
+        },
+        {
+          "map_id": "0.12",
+          "x": 4,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 187
+        }
+      ]
+    },
+    {
+      "source_id": 41,
+      "hex": "0x29",
+      "baseline_name": "MB_LAVARIDGE_GYM_B1F_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 15,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "4.2",
+          "x": 7,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 59
+        },
+        {
+          "map_id": "4.2",
+          "x": 2,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 56
+        },
+        {
+          "map_id": "4.2",
+          "x": 12,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 56
+        },
+        {
+          "map_id": "4.2",
+          "x": 0,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 60
+        },
+        {
+          "map_id": "4.2",
+          "x": 3,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 59
+        }
+      ]
+    },
+    {
+      "source_id": 42,
+      "hex": "0x2A",
+      "baseline_name": "MB_SEAWEED_NO_SURFACING",
+      "status": "safe_semantic",
+      "block_occurrences": 462,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "0.50",
+          "x": 16,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 129
+        },
+        {
+          "map_id": "0.50",
+          "x": 19,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 129
+        },
+        {
+          "map_id": "0.50",
+          "x": 20,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 129
+        },
+        {
+          "map_id": "0.50",
+          "x": 21,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 129
+        },
+        {
+          "map_id": "0.50",
+          "x": 22,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 129
+        }
+      ]
+    },
+    {
+      "source_id": 43,
+      "hex": "0x2B",
+      "baseline_name": "MB_REFLECTION_UNDER_BRIDGE",
+      "status": "safe_semantic",
+      "block_occurrences": 68,
+      "map_count": 5,
+      "examples": [
+        {
+          "map_id": "0.19",
+          "x": 24,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 326
+        },
+        {
+          "map_id": "0.19",
+          "x": 25,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 327
+        },
+        {
+          "map_id": "0.19",
+          "x": 24,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 326
+        },
+        {
+          "map_id": "0.19",
+          "x": 25,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 327
+        },
+        {
+          "map_id": "0.19",
+          "x": 29,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 326
+        }
+      ]
+    },
+    {
+      "source_id": 45,
+      "hex": "0x2D",
+      "baseline_name": "MB_UNUSED_2D",
+      "status": "unresolved_custom",
+      "block_occurrences": 5,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 33,
+          "y": 110,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 508
+        },
+        {
+          "map_id": "34.40",
+          "x": 33,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 508
+        },
+        {
+          "map_id": "34.40",
+          "x": 33,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 508
+        },
+        {
+          "map_id": "34.40",
+          "x": 33,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 508
+        },
+        {
+          "map_id": "36.54",
+          "x": 22,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 508
+        }
+      ]
+    },
+    {
+      "source_id": 48,
+      "hex": "0x30",
+      "baseline_name": "MB_IMPASSABLE_EAST",
+      "status": "safe_semantic",
+      "block_occurrences": 43,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "13.4",
+          "x": 30,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "13.4",
+          "x": 30,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 65
+        },
+        {
+          "map_id": "13.4",
+          "x": 30,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 57
+        },
+        {
+          "map_id": "13.4",
+          "x": 30,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 65
+        },
+        {
+          "map_id": "13.5",
+          "x": 36,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 73
+        }
+      ]
+    },
+    {
+      "source_id": 49,
+      "hex": "0x31",
+      "baseline_name": "MB_IMPASSABLE_WEST",
+      "status": "safe_semantic",
+      "block_occurrences": 40,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "13.4",
+          "x": 0,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 56
+        },
+        {
+          "map_id": "13.4",
+          "x": 0,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 64
+        },
+        {
+          "map_id": "13.4",
+          "x": 0,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 56
+        },
+        {
+          "map_id": "13.4",
+          "x": 0,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 64
+        },
+        {
+          "map_id": "13.5",
+          "x": 12,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFAC4",
+          "metatile_id": 72
+        }
+      ]
+    },
+    {
+      "source_id": 50,
+      "hex": "0x32",
+      "baseline_name": "MB_IMPASSABLE_NORTH",
+      "status": "safe_semantic",
+      "block_occurrences": 6711,
+      "map_count": 102,
+      "examples": [
+        {
+          "map_id": "24.6",
+          "x": 4,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 9
+        },
+        {
+          "map_id": "24.6",
+          "x": 5,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 9
+        },
+        {
+          "map_id": "24.6",
+          "x": 6,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 9
+        },
+        {
+          "map_id": "24.6",
+          "x": 10,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 9
+        },
+        {
+          "map_id": "24.6",
+          "x": 11,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 9
+        }
+      ]
+    },
+    {
+      "source_id": 51,
+      "hex": "0x33",
+      "baseline_name": "MB_IMPASSABLE_SOUTH",
+      "status": "safe_semantic",
+      "block_occurrences": 4,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "24.57",
+          "x": 1,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 159
+        },
+        {
+          "map_id": "24.57",
+          "x": 9,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 159
+        },
+        {
+          "map_id": "25.41",
+          "x": 0,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "25.42",
+          "x": 16,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 14
+        }
+      ]
+    },
+    {
+      "source_id": 56,
+      "hex": "0x38",
+      "baseline_name": "MB_JUMP_EAST",
+      "status": "safe_semantic",
+      "block_occurrences": 215,
+      "map_count": 33,
+      "examples": [
+        {
+          "map_id": "0.13",
+          "x": 16,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 316
+        },
+        {
+          "map_id": "0.17",
+          "x": 18,
+          "y": 7,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 134
+        },
+        {
+          "map_id": "0.17",
+          "x": 8,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 134
+        },
+        {
+          "map_id": "0.17",
+          "x": 8,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 134
+        },
+        {
+          "map_id": "0.17",
+          "x": 8,
+          "y": 11,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 134
+        }
+      ]
+    },
+    {
+      "source_id": 57,
+      "hex": "0x39",
+      "baseline_name": "MB_JUMP_WEST",
+      "status": "safe_semantic",
+      "block_occurrences": 271,
+      "map_count": 30,
+      "examples": [
+        {
+          "map_id": "0.16",
+          "x": 13,
+          "y": 16,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 254
+        },
+        {
+          "map_id": "0.16",
+          "x": 13,
+          "y": 17,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 133
+        },
+        {
+          "map_id": "0.19",
+          "x": 28,
+          "y": 49,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 254
+        },
+        {
+          "map_id": "0.19",
+          "x": 28,
+          "y": 50,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 133
+        },
+        {
+          "map_id": "0.19",
+          "x": 28,
+          "y": 51,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 133
+        }
+      ]
+    },
+    {
+      "source_id": 58,
+      "hex": "0x3A",
+      "baseline_name": "MB_JUMP_NORTH",
+      "status": "safe_semantic",
+      "block_occurrences": 10,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "24.44",
+          "x": 37,
+          "y": 19,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 103
+        },
+        {
+          "map_id": "24.44",
+          "x": 38,
+          "y": 19,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 103
+        },
+        {
+          "map_id": "34.34",
+          "x": 17,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 202
+        },
+        {
+          "map_id": "34.34",
+          "x": 13,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 202
+        },
+        {
+          "map_id": "34.34",
+          "x": 14,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 202
+        }
+      ]
+    },
+    {
+      "source_id": 59,
+      "hex": "0x3B",
+      "baseline_name": "MB_JUMP_SOUTH",
+      "status": "safe_semantic",
+      "block_occurrences": 1267,
+      "map_count": 92,
+      "examples": [
+        {
+          "map_id": "0.16",
+          "x": 2,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 213
+        },
+        {
+          "map_id": "0.16",
+          "x": 3,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 135
+        },
+        {
+          "map_id": "0.16",
+          "x": 4,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 135
+        },
+        {
+          "map_id": "0.16",
+          "x": 5,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 214
+        },
+        {
+          "map_id": "0.16",
+          "x": 14,
+          "y": 18,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 135
+        }
+      ]
+    },
+    {
+      "source_id": 61,
+      "hex": "0x3D",
+      "baseline_name": "MB_JUMP_NORTHWEST",
+      "status": "safe_semantic",
+      "block_occurrences": 5,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 32,
+          "y": 110,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 503
+        },
+        {
+          "map_id": "34.40",
+          "x": 32,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 503
+        },
+        {
+          "map_id": "34.40",
+          "x": 32,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 503
+        },
+        {
+          "map_id": "34.40",
+          "x": 32,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 503
+        },
+        {
+          "map_id": "36.54",
+          "x": 21,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 503
+        }
+      ]
+    },
+    {
+      "source_id": 62,
+      "hex": "0x3E",
+      "baseline_name": "MB_JUMP_SOUTHEAST",
+      "status": "safe_semantic",
+      "block_occurrences": 26,
+      "map_count": 17,
+      "examples": [
+        {
+          "map_id": "0.13",
+          "x": 12,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 318
+        },
+        {
+          "map_id": "0.17",
+          "x": 18,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "0.26",
+          "x": 20,
+          "y": 13,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 142
+        },
+        {
+          "map_id": "0.28",
+          "x": 80,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "0.28",
+          "x": 55,
+          "y": 8,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 39
+        }
+      ]
+    },
+    {
+      "source_id": 63,
+      "hex": "0x3F",
+      "baseline_name": "MB_JUMP_SOUTHWEST",
+      "status": "safe_semantic",
+      "block_occurrences": 38,
+      "map_count": 23,
+      "examples": [
+        {
+          "map_id": "0.13",
+          "x": 16,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 317
+        },
+        {
+          "map_id": "0.16",
+          "x": 13,
+          "y": 18,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 141
+        },
+        {
+          "map_id": "0.18",
+          "x": 15,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 141
+        },
+        {
+          "map_id": "0.19",
+          "x": 28,
+          "y": 55,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 141
+        },
+        {
+          "map_id": "0.19",
+          "x": 30,
+          "y": 57,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 141
+        }
+      ]
+    },
+    {
+      "source_id": 65,
+      "hex": "0x41",
+      "baseline_name": "MB_WALK_WEST",
+      "status": "safe_semantic",
+      "block_occurrences": 31,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "34.84",
+          "x": 13,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 97
+        },
+        {
+          "map_id": "34.84",
+          "x": 14,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 97
+        },
+        {
+          "map_id": "34.84",
+          "x": 12,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 97
+        },
+        {
+          "map_id": "34.84",
+          "x": 13,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 97
+        },
+        {
+          "map_id": "34.84",
+          "x": 10,
+          "y": 13,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 97
+        }
+      ]
+    },
+    {
+      "source_id": 66,
+      "hex": "0x42",
+      "baseline_name": "MB_WALK_NORTH",
+      "status": "safe_semantic",
+      "block_occurrences": 28,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "34.84",
+          "x": 2,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 98
+        },
+        {
+          "map_id": "34.84",
+          "x": 3,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 98
+        },
+        {
+          "map_id": "34.84",
+          "x": 2,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 98
+        },
+        {
+          "map_id": "34.84",
+          "x": 3,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 98
+        },
+        {
+          "map_id": "34.84",
+          "x": 2,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 98
+        }
+      ]
+    },
+    {
+      "source_id": 68,
+      "hex": "0x44",
+      "baseline_name": "MB_SLIDE_EAST",
+      "status": "safe_semantic",
+      "block_occurrences": 105,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "34.84",
+          "x": 18,
+          "y": 14,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 100
+        },
+        {
+          "map_id": "34.84",
+          "x": 4,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 100
+        },
+        {
+          "map_id": "34.84",
+          "x": 7,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 100
+        },
+        {
+          "map_id": "34.84",
+          "x": 10,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 100
+        },
+        {
+          "map_id": "34.84",
+          "x": 11,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 100
+        }
+      ]
+    },
+    {
+      "source_id": 69,
+      "hex": "0x45",
+      "baseline_name": "MB_SLIDE_WEST",
+      "status": "safe_semantic",
+      "block_occurrences": 87,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "37.52",
+          "x": 10,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 174
+        },
+        {
+          "map_id": "37.52",
+          "x": 11,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 174
+        },
+        {
+          "map_id": "37.52",
+          "x": 12,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 174
+        },
+        {
+          "map_id": "37.52",
+          "x": 13,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 174
+        },
+        {
+          "map_id": "37.52",
+          "x": 14,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 174
+        }
+      ]
+    },
+    {
+      "source_id": 70,
+      "hex": "0x46",
+      "baseline_name": "MB_SLIDE_NORTH",
+      "status": "safe_semantic",
+      "block_occurrences": 86,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "37.52",
+          "x": 3,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 205
+        },
+        {
+          "map_id": "37.52",
+          "x": 7,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 205
+        },
+        {
+          "map_id": "37.52",
+          "x": 2,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 205
+        },
+        {
+          "map_id": "37.52",
+          "x": 6,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 205
+        },
+        {
+          "map_id": "37.52",
+          "x": 4,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF9D4",
+          "metatile_id": 205
+        }
+      ]
+    },
+    {
+      "source_id": 71,
+      "hex": "0x47",
+      "baseline_name": "MB_SLIDE_SOUTH",
+      "status": "safe_semantic",
+      "block_occurrences": 142,
+      "map_count": 8,
+      "examples": [
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "15.0",
+          "x": 8,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 15
+        }
+      ]
+    },
+    {
+      "source_id": 72,
+      "hex": "0x48",
+      "baseline_name": "MB_TRICK_HOUSE_PUZZLE_8_FLOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 523,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "29.10",
+          "x": 0,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 107
+        },
+        {
+          "map_id": "29.10",
+          "x": 1,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 107
+        },
+        {
+          "map_id": "29.10",
+          "x": 5,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 107
+        },
+        {
+          "map_id": "29.10",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 107
+        },
+        {
+          "map_id": "29.10",
+          "x": 1,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 107
+        }
+      ]
+    },
+    {
+      "source_id": 80,
+      "hex": "0x50",
+      "baseline_name": "MB_EASTWARD_CURRENT",
+      "status": "safe_semantic",
+      "block_occurrences": 242,
+      "map_count": 8,
+      "examples": [
+        {
+          "map_id": "0.47",
+          "x": 8,
+          "y": 24,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 101
+        },
+        {
+          "map_id": "0.47",
+          "x": 7,
+          "y": 28,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 101
+        },
+        {
+          "map_id": "0.47",
+          "x": 6,
+          "y": 30,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 101
+        },
+        {
+          "map_id": "0.47",
+          "x": 4,
+          "y": 32,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 101
+        },
+        {
+          "map_id": "0.47",
+          "x": 5,
+          "y": 32,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 101
+        }
+      ]
+    },
+    {
+      "source_id": 81,
+      "hex": "0x51",
+      "baseline_name": "MB_WESTWARD_CURRENT",
+      "status": "safe_semantic",
+      "block_occurrences": 3618,
+      "map_count": 10,
+      "examples": [
+        {
+          "map_id": "0.47",
+          "x": 37,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 99
+        },
+        {
+          "map_id": "0.47",
+          "x": 38,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 99
+        },
+        {
+          "map_id": "0.47",
+          "x": 18,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 99
+        },
+        {
+          "map_id": "0.47",
+          "x": 19,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 99
+        },
+        {
+          "map_id": "0.47",
+          "x": 20,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 99
+        }
+      ]
+    },
+    {
+      "source_id": 82,
+      "hex": "0x52",
+      "baseline_name": "MB_NORTHWARD_CURRENT",
+      "status": "safe_semantic",
+      "block_occurrences": 485,
+      "map_count": 8,
+      "examples": [
+        {
+          "map_id": "0.47",
+          "x": 27,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 92
+        },
+        {
+          "map_id": "0.47",
+          "x": 28,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 92
+        },
+        {
+          "map_id": "0.47",
+          "x": 29,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 92
+        },
+        {
+          "map_id": "0.47",
+          "x": 30,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 92
+        },
+        {
+          "map_id": "0.47",
+          "x": 31,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 92
+        }
+      ]
+    },
+    {
+      "source_id": 83,
+      "hex": "0x53",
+      "baseline_name": "MB_SOUTHWARD_CURRENT",
+      "status": "safe_semantic",
+      "block_occurrences": 326,
+      "map_count": 10,
+      "examples": [
+        {
+          "map_id": "0.47",
+          "x": 55,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 108
+        },
+        {
+          "map_id": "0.47",
+          "x": 56,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 108
+        },
+        {
+          "map_id": "0.47",
+          "x": 57,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 108
+        },
+        {
+          "map_id": "0.47",
+          "x": 53,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 108
+        },
+        {
+          "map_id": "0.47",
+          "x": 54,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 108
+        }
+      ]
+    },
+    {
+      "source_id": 96,
+      "hex": "0x60",
+      "baseline_name": "MB_NON_ANIMATED_DOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 1492,
+      "map_count": 369,
+      "examples": [
+        {
+          "map_id": "0.1",
+          "x": 28,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 179
+        },
+        {
+          "map_id": "0.1",
+          "x": 29,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 180
+        },
+        {
+          "map_id": "0.1",
+          "x": 29,
+          "y": 25,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 298
+        },
+        {
+          "map_id": "0.1",
+          "x": 4,
+          "y": 26,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 90
+        },
+        {
+          "map_id": "0.1",
+          "x": 5,
+          "y": 26,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 89
+        }
+      ]
+    },
+    {
+      "source_id": 97,
+      "hex": "0x61",
+      "baseline_name": "MB_LADDER",
+      "status": "safe_semantic",
+      "block_occurrences": 371,
+      "map_count": 106,
+      "examples": [
+        {
+          "map_id": "15.0",
+          "x": 11,
+          "y": 22,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 28
+        },
+        {
+          "map_id": "15.1",
+          "x": 11,
+          "y": 22,
+          "role": "secondary",
+          "tileset": "0x083DFB54",
+          "metatile_id": 20
+        },
+        {
+          "map_id": "24.0",
+          "x": 5,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF92C",
+          "metatile_id": 13
+        },
+        {
+          "map_id": "24.1",
+          "x": 4,
+          "y": 14,
+          "role": "secondary",
+          "tileset": "0x083DF92C",
+          "metatile_id": 13
+        },
+        {
+          "map_id": "24.1",
+          "x": 7,
+          "y": 20,
+          "role": "secondary",
+          "tileset": "0x083DF92C",
+          "metatile_id": 13
+        }
+      ]
+    },
+    {
+      "source_id": 98,
+      "hex": "0x62",
+      "baseline_name": "MB_EAST_ARROW_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 51,
+      "map_count": 19,
+      "examples": [
+        {
+          "map_id": "24.55",
+          "x": 5,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 18
+        },
+        {
+          "map_id": "24.55",
+          "x": 16,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 10
+        },
+        {
+          "map_id": "24.57",
+          "x": 0,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 166
+        },
+        {
+          "map_id": "24.57",
+          "x": 8,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 166
+        },
+        {
+          "map_id": "25.40",
+          "x": 4,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFA94",
+          "metatile_id": 8
+        }
+      ]
+    },
+    {
+      "source_id": 99,
+      "hex": "0x63",
+      "baseline_name": "MB_WEST_ARROW_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 39,
+      "map_count": 14,
+      "examples": [
+        {
+          "map_id": "25.41",
+          "x": 1,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 181
+        },
+        {
+          "map_id": "34.58",
+          "x": 38,
+          "y": 23,
+          "role": "secondary",
+          "tileset": "0x08A5FEB4",
+          "metatile_id": 61
+        },
+        {
+          "map_id": "34.58",
+          "x": 38,
+          "y": 35,
+          "role": "secondary",
+          "tileset": "0x08A5FEB4",
+          "metatile_id": 61
+        },
+        {
+          "map_id": "34.58",
+          "x": 38,
+          "y": 45,
+          "role": "secondary",
+          "tileset": "0x08A5FEB4",
+          "metatile_id": 61
+        },
+        {
+          "map_id": "34.80",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 134
+        }
+      ]
+    },
+    {
+      "source_id": 100,
+      "hex": "0x64",
+      "baseline_name": "MB_NORTH_ARROW_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 8,
+      "map_count": 5,
+      "examples": [
+        {
+          "map_id": "0.23",
+          "x": 29,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 362
+        },
+        {
+          "map_id": "24.13",
+          "x": 13,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 438
+        },
+        {
+          "map_id": "24.13",
+          "x": 14,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 438
+        },
+        {
+          "map_id": "24.21",
+          "x": 19,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 174
+        },
+        {
+          "map_id": "24.21",
+          "x": 20,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 175
+        }
+      ]
+    },
+    {
+      "source_id": 101,
+      "hex": "0x65",
+      "baseline_name": "MB_SOUTH_ARROW_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 1082,
+      "map_count": 495,
+      "examples": [
+        {
+          "map_id": "0.12",
+          "x": 9,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 158
+        },
+        {
+          "map_id": "0.12",
+          "x": 11,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 102
+        },
+        {
+          "map_id": "0.12",
+          "x": 12,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF794",
+          "metatile_id": 103
+        },
+        {
+          "map_id": "0.46",
+          "x": 1,
+          "y": 33,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 429
+        },
+        {
+          "map_id": "1.0",
+          "x": 8,
+          "y": 8,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 2
+        }
+      ]
+    },
+    {
+      "source_id": 102,
+      "hex": "0x66",
+      "baseline_name": "MB_CRACKED_FLOOR_HOLE",
+      "status": "safe_semantic",
+      "block_occurrences": 83,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "24.85",
+          "x": 6,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 55
+        },
+        {
+          "map_id": "24.85",
+          "x": 16,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 55
+        },
+        {
+          "map_id": "24.85",
+          "x": 17,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 55
+        },
+        {
+          "map_id": "24.85",
+          "x": 20,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 55
+        },
+        {
+          "map_id": "24.85",
+          "x": 22,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 55
+        }
+      ]
+    },
+    {
+      "source_id": 103,
+      "hex": "0x67",
+      "baseline_name": "MB_AQUA_HIDEOUT_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 149,
+      "map_count": 19,
+      "examples": [
+        {
+          "map_id": "24.24",
+          "x": 45,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "24.24",
+          "x": 20,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "24.24",
+          "x": 27,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "24.24",
+          "x": 42,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "24.24",
+          "x": 45,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 223
+        }
+      ]
+    },
+    {
+      "source_id": 104,
+      "hex": "0x68",
+      "baseline_name": "MB_LAVARIDGE_GYM_1F_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 20,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "4.1",
+          "x": 5,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "4.1",
+          "x": 7,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 29
+        },
+        {
+          "map_id": "4.1",
+          "x": 2,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 18
+        },
+        {
+          "map_id": "4.1",
+          "x": 12,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 19
+        },
+        {
+          "map_id": "4.1",
+          "x": 0,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFBE4",
+          "metatile_id": 19
+        }
+      ]
+    },
+    {
+      "source_id": 105,
+      "hex": "0x69",
+      "baseline_name": "MB_ANIMATED_DOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 397,
+      "map_count": 131,
+      "examples": [
+        {
+          "map_id": "0.0",
+          "x": 7,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 33
+        },
+        {
+          "map_id": "0.0",
+          "x": 15,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 461
+        },
+        {
+          "map_id": "0.0",
+          "x": 25,
+          "y": 12,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 65
+        },
+        {
+          "map_id": "0.0",
+          "x": 19,
+          "y": 15,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 97
+        },
+        {
+          "map_id": "0.0",
+          "x": 10,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DF71C",
+          "metatile_id": 135
+        }
+      ]
+    },
+    {
+      "source_id": 106,
+      "hex": "0x6A",
+      "baseline_name": "MB_UP_ESCALATOR",
+      "status": "safe_semantic",
+      "block_occurrences": 18,
+      "map_count": 18,
+      "examples": [
+        {
+          "map_id": "2.2",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 137
+        },
+        {
+          "map_id": "3.1",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 137
+        },
+        {
+          "map_id": "4.5",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 137
+        },
+        {
+          "map_id": "5.4",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 137
+        },
+        {
+          "map_id": "6.4",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 137
+        }
+      ]
+    },
+    {
+      "source_id": 107,
+      "hex": "0x6B",
+      "baseline_name": "MB_DOWN_ESCALATOR",
+      "status": "safe_semantic",
+      "block_occurrences": 17,
+      "map_count": 17,
+      "examples": [
+        {
+          "map_id": "2.3",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "3.2",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "4.6",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "5.5",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "6.5",
+          "x": 1,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 161
+        }
+      ]
+    },
+    {
+      "source_id": 108,
+      "hex": "0x6C",
+      "baseline_name": "MB_WATER_DOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 18,
+      "map_count": 14,
+      "examples": [
+        {
+          "map_id": "0.5",
+          "x": 70,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 177
+        },
+        {
+          "map_id": "0.35",
+          "x": 19,
+          "y": 23,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 195
+        },
+        {
+          "map_id": "0.51",
+          "x": 45,
+          "y": 65,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 110
+        },
+        {
+          "map_id": "0.52",
+          "x": 57,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 110
+        },
+        {
+          "map_id": "0.52",
+          "x": 67,
+          "y": 38,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 110
+        }
+      ]
+    },
+    {
+      "source_id": 109,
+      "hex": "0x6D",
+      "baseline_name": "MB_WATER_SOUTH_ARROW_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 252,
+      "map_count": 13,
+      "examples": [
+        {
+          "map_id": "24.5",
+          "x": 9,
+          "y": 8,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 36
+        },
+        {
+          "map_id": "24.23",
+          "x": 13,
+          "y": 27,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 1
+        },
+        {
+          "map_id": "24.26",
+          "x": 6,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB24",
+          "metatile_id": 36
+        },
+        {
+          "map_id": "24.60",
+          "x": 3,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 202
+        },
+        {
+          "map_id": "24.60",
+          "x": 4,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFC44",
+          "metatile_id": 203
+        }
+      ]
+    },
+    {
+      "source_id": 110,
+      "hex": "0x6E",
+      "baseline_name": "MB_DEEP_SOUTH_WARP",
+      "status": "safe_semantic",
+      "block_occurrences": 340,
+      "map_count": 34,
+      "examples": [
+        {
+          "map_id": "0.3",
+          "x": 31,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 283
+        },
+        {
+          "map_id": "0.3",
+          "x": 32,
+          "y": 19,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 284
+        },
+        {
+          "map_id": "0.3",
+          "x": 34,
+          "y": 19,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 284
+        },
+        {
+          "map_id": "0.3",
+          "x": 31,
+          "y": 20,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 285
+        },
+        {
+          "map_id": "0.3",
+          "x": 32,
+          "y": 20,
+          "role": "secondary",
+          "tileset": "0x083DF734",
+          "metatile_id": 286
+        }
+      ]
+    },
+    {
+      "source_id": 112,
+      "hex": "0x70",
+      "baseline_name": "MB_BRIDGE_OVER_OCEAN",
+      "status": "safe_semantic",
+      "block_occurrences": 1850,
+      "map_count": 29,
+      "examples": [
+        {
+          "map_id": "0.2",
+          "x": 5,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 202
+        },
+        {
+          "map_id": "0.2",
+          "x": 6,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 203
+        },
+        {
+          "map_id": "0.2",
+          "x": 7,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 204
+        },
+        {
+          "map_id": "0.2",
+          "x": 8,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 203
+        },
+        {
+          "map_id": "0.2",
+          "x": 9,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF77C",
+          "metatile_id": 204
+        }
+      ]
+    },
+    {
+      "source_id": 114,
+      "hex": "0x72",
+      "baseline_name": "MB_BRIDGE_OVER_POND_MED",
+      "status": "safe_semantic",
+      "block_occurrences": 5,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 199
+        },
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 207
+        },
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 8,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 244
+        },
+        {
+          "map_id": "35.26",
+          "x": 16,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 255
+        },
+        {
+          "map_id": "35.26",
+          "x": 16,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 263
+        }
+      ]
+    },
+    {
+      "source_id": 115,
+      "hex": "0x73",
+      "baseline_name": "MB_BRIDGE_OVER_POND_HIGH",
+      "status": "safe_semantic",
+      "block_occurrences": 9,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 191
+        },
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 149
+        },
+        {
+          "map_id": "35.26",
+          "x": 14,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 150
+        },
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 157
+        },
+        {
+          "map_id": "35.26",
+          "x": 14,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 158
+        }
+      ]
+    },
+    {
+      "source_id": 116,
+      "hex": "0x74",
+      "baseline_name": "MB_PACIFIDLOG_VERTICAL_LOG_TOP",
+      "status": "safe_semantic",
+      "block_occurrences": 13,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.15",
+          "x": 3,
+          "y": 16,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 88
+        },
+        {
+          "map_id": "0.15",
+          "x": 17,
+          "y": 16,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 88
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 88
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 19,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 88
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 21,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 88
+        }
+      ]
+    },
+    {
+      "source_id": 117,
+      "hex": "0x75",
+      "baseline_name": "MB_PACIFIDLOG_VERTICAL_LOG_BOTTOM",
+      "status": "safe_semantic",
+      "block_occurrences": 13,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.15",
+          "x": 3,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 96
+        },
+        {
+          "map_id": "0.15",
+          "x": 17,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 96
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 96
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 20,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 96
+        },
+        {
+          "map_id": "0.15",
+          "x": 8,
+          "y": 22,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 96
+        }
+      ]
+    },
+    {
+      "source_id": 118,
+      "hex": "0x76",
+      "baseline_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_LEFT",
+      "status": "safe_semantic",
+      "block_occurrences": 26,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.15",
+          "x": 11,
+          "y": 16,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 82
+        },
+        {
+          "map_id": "0.15",
+          "x": 4,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 80
+        },
+        {
+          "map_id": "0.15",
+          "x": 6,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 80
+        },
+        {
+          "map_id": "0.15",
+          "x": 9,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 80
+        },
+        {
+          "map_id": "0.15",
+          "x": 11,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 80
+        }
+      ]
+    },
+    {
+      "source_id": 119,
+      "hex": "0x77",
+      "baseline_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_RIGHT",
+      "status": "safe_semantic",
+      "block_occurrences": 26,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.15",
+          "x": 12,
+          "y": 16,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 83
+        },
+        {
+          "map_id": "0.15",
+          "x": 5,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 81
+        },
+        {
+          "map_id": "0.15",
+          "x": 7,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 81
+        },
+        {
+          "map_id": "0.15",
+          "x": 10,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 81
+        },
+        {
+          "map_id": "0.15",
+          "x": 12,
+          "y": 17,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 81
+        }
+      ]
+    },
+    {
+      "source_id": 120,
+      "hex": "0x78",
+      "baseline_name": "MB_FORTREE_BRIDGE",
+      "status": "safe_semantic",
+      "block_occurrences": 27,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "0.4",
+          "x": 13,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 86
+        },
+        {
+          "map_id": "0.4",
+          "x": 14,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 86
+        },
+        {
+          "map_id": "0.4",
+          "x": 20,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 86
+        },
+        {
+          "map_id": "0.4",
+          "x": 21,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 86
+        },
+        {
+          "map_id": "0.4",
+          "x": 22,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 86
+        }
+      ]
+    },
+    {
+      "source_id": 122,
+      "hex": "0x7A",
+      "baseline_name": "MB_BRIDGE_OVER_POND_MED_EDGE_1",
+      "status": "safe_semantic",
+      "block_occurrences": 2,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 251
+        },
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 259
+        }
+      ]
+    },
+    {
+      "source_id": 123,
+      "hex": "0x7B",
+      "baseline_name": "MB_BRIDGE_OVER_POND_MED_EDGE_2",
+      "status": "safe_semantic",
+      "block_occurrences": 2,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 252
+        },
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 260
+        }
+      ]
+    },
+    {
+      "source_id": 124,
+      "hex": "0x7C",
+      "baseline_name": "MB_BRIDGE_OVER_POND_HIGH_EDGE_1",
+      "status": "safe_semantic",
+      "block_occurrences": 2,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 12,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 267
+        },
+        {
+          "map_id": "35.26",
+          "x": 13,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 268
+        }
+      ]
+    },
+    {
+      "source_id": 125,
+      "hex": "0x7D",
+      "baseline_name": "MB_BRIDGE_OVER_POND_HIGH_EDGE_2",
+      "status": "safe_semantic",
+      "block_occurrences": 2,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "35.26",
+          "x": 15,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 275
+        },
+        {
+          "map_id": "35.26",
+          "x": 16,
+          "y": 12,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 276
+        }
+      ]
+    },
+    {
+      "source_id": 128,
+      "hex": "0x80",
+      "baseline_name": "MB_COUNTER",
+      "status": "safe_semantic",
+      "block_occurrences": 928,
+      "map_count": 168,
+      "examples": [
+        {
+          "map_id": "2.2",
+          "x": 7,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "2.3",
+          "x": 0,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 214
+        },
+        {
+          "map_id": "2.3",
+          "x": 1,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 224
+        },
+        {
+          "map_id": "2.3",
+          "x": 2,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 224
+        },
+        {
+          "map_id": "2.3",
+          "x": 4,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 215
+        }
+      ]
+    },
+    {
+      "source_id": 131,
+      "hex": "0x83",
+      "baseline_name": "MB_PC",
+      "status": "safe_semantic",
+      "block_occurrences": 98,
+      "map_count": 97,
+      "examples": [
+        {
+          "map_id": "2.2",
+          "x": 10,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 4
+        },
+        {
+          "map_id": "2.3",
+          "x": 3,
+          "y": 3,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 4
+        },
+        {
+          "map_id": "3.0",
+          "x": 5,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 4
+        },
+        {
+          "map_id": "3.1",
+          "x": 10,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 4
+        },
+        {
+          "map_id": "3.2",
+          "x": 3,
+          "y": 3,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 4
+        }
+      ]
+    },
+    {
+      "source_id": 133,
+      "hex": "0x85",
+      "baseline_name": "MB_REGION_MAP",
+      "status": "safe_semantic",
+      "block_occurrences": 38,
+      "map_count": 20,
+      "examples": [
+        {
+          "map_id": "1.1",
+          "x": 2,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 85
+        },
+        {
+          "map_id": "2.2",
+          "x": 11,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "2.2",
+          "x": 12,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 22
+        },
+        {
+          "map_id": "3.1",
+          "x": 11,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "3.1",
+          "x": 12,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 22
+        }
+      ]
+    },
+    {
+      "source_id": 134,
+      "hex": "0x86",
+      "baseline_name": "MB_TELEVISION",
+      "status": "safe_semantic",
+      "block_occurrences": 51,
+      "map_count": 45,
+      "examples": [
+        {
+          "map_id": "1.0",
+          "x": 4,
+          "y": 4,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "1.1",
+          "x": 4,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "1.2",
+          "x": 6,
+          "y": 4,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "1.3",
+          "x": 4,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF884",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "2.1",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 30
+        }
+      ]
+    },
+    {
+      "source_id": 135,
+      "hex": "0x87",
+      "baseline_name": "MB_POKEBLOCK_FEEDER",
+      "status": "safe_semantic",
+      "block_occurrences": 19,
+      "map_count": 6,
+      "examples": [
+        {
+          "map_id": "26.0",
+          "x": 33,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 272
+        },
+        {
+          "map_id": "26.0",
+          "x": 31,
+          "y": 29,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 272
+        },
+        {
+          "map_id": "26.1",
+          "x": 32,
+          "y": 26,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 272
+        },
+        {
+          "map_id": "26.1",
+          "x": 5,
+          "y": 34,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 272
+        },
+        {
+          "map_id": "26.3",
+          "x": 24,
+          "y": 30,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 272
+        }
+      ]
+    },
+    {
+      "source_id": 137,
+      "hex": "0x89",
+      "baseline_name": "MB_SLOT_MACHINE",
+      "status": "safe_semantic",
+      "block_occurrences": 20,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "10.3",
+          "x": 2,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 36
+        },
+        {
+          "map_id": "10.3",
+          "x": 3,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "10.3",
+          "x": 7,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 36
+        },
+        {
+          "map_id": "10.3",
+          "x": 8,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 37
+        },
+        {
+          "map_id": "10.3",
+          "x": 2,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 44
+        }
+      ]
+    },
+    {
+      "source_id": 138,
+      "hex": "0x8A",
+      "baseline_name": "MB_ROULETTE",
+      "status": "safe_semantic",
+      "block_occurrences": 12,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "10.3",
+          "x": 14,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 34
+        },
+        {
+          "map_id": "10.3",
+          "x": 15,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 35
+        },
+        {
+          "map_id": "10.3",
+          "x": 18,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 34
+        },
+        {
+          "map_id": "10.3",
+          "x": 19,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 35
+        },
+        {
+          "map_id": "10.3",
+          "x": 14,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 42
+        }
+      ]
+    },
+    {
+      "source_id": 140,
+      "hex": "0x8C",
+      "baseline_name": "MB_TRICK_HOUSE_PUZZLE_DOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 8,
+      "map_count": 8,
+      "examples": [
+        {
+          "map_id": "29.3",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 119
+        },
+        {
+          "map_id": "29.4",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 119
+        },
+        {
+          "map_id": "29.5",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 119
+        },
+        {
+          "map_id": "29.6",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 119
+        },
+        {
+          "map_id": "29.7",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFBFC",
+          "metatile_id": 119
+        }
+      ]
+    },
+    {
+      "source_id": 143,
+      "hex": "0x8F",
+      "baseline_name": "MB_QUESTIONNAIRE",
+      "status": "safe_semantic",
+      "block_occurrences": 26,
+      "map_count": 26,
+      "examples": [
+        {
+          "map_id": "2.4",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 288
+        },
+        {
+          "map_id": "4.4",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 288
+        },
+        {
+          "map_id": "5.0",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 288
+        },
+        {
+          "map_id": "6.3",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 288
+        },
+        {
+          "map_id": "8.6",
+          "x": 0,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 288
+        }
+      ]
+    },
+    {
+      "source_id": 144,
+      "hex": "0x90",
+      "baseline_name": "MB_SECRET_BASE_SPOT_RED_CAVE",
+      "status": "safe_semantic",
+      "block_occurrences": 36,
+      "map_count": 11,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 35,
+          "y": 1,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 416
+        },
+        {
+          "map_id": "0.26",
+          "x": 27,
+          "y": 27,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 416
+        },
+        {
+          "map_id": "0.26",
+          "x": 35,
+          "y": 31,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 416
+        },
+        {
+          "map_id": "0.26",
+          "x": 33,
+          "y": 35,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 416
+        },
+        {
+          "map_id": "0.26",
+          "x": 24,
+          "y": 36,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 416
+        }
+      ]
+    },
+    {
+      "source_id": 146,
+      "hex": "0x92",
+      "baseline_name": "MB_SECRET_BASE_SPOT_BROWN_CAVE",
+      "status": "safe_semantic",
+      "block_occurrences": 12,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.29",
+          "x": 9,
+          "y": 47,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.29",
+          "x": 30,
+          "y": 51,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.29",
+          "x": 32,
+          "y": 57,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.29",
+          "x": 11,
+          "y": 62,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 8
+        },
+        {
+          "map_id": "0.29",
+          "x": 19,
+          "y": 70,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 8
+        }
+      ]
+    },
+    {
+      "source_id": 150,
+      "hex": "0x96",
+      "baseline_name": "MB_SECRET_BASE_SPOT_TREE_LEFT",
+      "status": "safe_semantic",
+      "block_occurrences": 29,
+      "map_count": 12,
+      "examples": [
+        {
+          "map_id": "0.25",
+          "x": 16,
+          "y": 25,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 38
+        },
+        {
+          "map_id": "0.26",
+          "x": 13,
+          "y": 19,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 38
+        },
+        {
+          "map_id": "0.29",
+          "x": 11,
+          "y": 27,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 38
+        },
+        {
+          "map_id": "0.30",
+          "x": 7,
+          "y": 20,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 38
+        },
+        {
+          "map_id": "0.33",
+          "x": 46,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 38
+        }
+      ]
+    },
+    {
+      "source_id": 152,
+      "hex": "0x98",
+      "baseline_name": "MB_SECRET_BASE_SPOT_SHRUB",
+      "status": "safe_semantic",
+      "block_occurrences": 13,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 5,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "0.34",
+          "x": 6,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "0.34",
+          "x": 4,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "0.34",
+          "x": 5,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "0.34",
+          "x": 34,
+          "y": 24,
+          "role": "secondary",
+          "tileset": "0x083DF7C4",
+          "metatile_id": 113
+        }
+      ]
+    },
+    {
+      "source_id": 156,
+      "hex": "0x9C",
+      "baseline_name": "MB_SECRET_BASE_SPOT_TREE_RIGHT",
+      "status": "safe_semantic",
+      "block_occurrences": 29,
+      "map_count": 12,
+      "examples": [
+        {
+          "map_id": "0.25",
+          "x": 17,
+          "y": 25,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "0.26",
+          "x": 14,
+          "y": 19,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "0.29",
+          "x": 12,
+          "y": 27,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "0.30",
+          "x": 8,
+          "y": 20,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 39
+        },
+        {
+          "map_id": "0.33",
+          "x": 47,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 39
+        }
+      ]
+    },
+    {
+      "source_id": 160,
+      "hex": "0xA0",
+      "baseline_name": "MB_BERRY_TREE_SOIL",
+      "status": "safe_semantic",
+      "block_occurrences": 131,
+      "map_count": 34,
+      "examples": [
+        {
+          "map_id": "0.5",
+          "x": 37,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF7DC",
+          "metatile_id": 221
+        },
+        {
+          "map_id": "0.17",
+          "x": 19,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 332
+        },
+        {
+          "map_id": "0.17",
+          "x": 20,
+          "y": 2,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 332
+        },
+        {
+          "map_id": "0.18",
+          "x": 51,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 332
+        },
+        {
+          "map_id": "0.18",
+          "x": 52,
+          "y": 5,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 332
+        }
+      ]
+    },
+    {
+      "source_id": 176,
+      "hex": "0xB0",
+      "baseline_name": "MB_SECRET_BASE_PC",
+      "status": "safe_semantic",
+      "block_occurrences": 24,
+      "map_count": 24,
+      "examples": [
+        {
+          "map_id": "25.0",
+          "x": 5,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 32
+        },
+        {
+          "map_id": "25.1",
+          "x": 2,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA04",
+          "metatile_id": 32
+        },
+        {
+          "map_id": "25.2",
+          "x": 1,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA4C",
+          "metatile_id": 32
+        },
+        {
+          "map_id": "25.3",
+          "x": 9,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA64",
+          "metatile_id": 32
+        },
+        {
+          "map_id": "25.4",
+          "x": 2,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA1C",
+          "metatile_id": 32
+        }
+      ]
+    },
+    {
+      "source_id": 179,
+      "hex": "0xB3",
+      "baseline_name": "MB_SECRET_BASE_TRAINER_SPOT",
+      "status": "safe_semantic",
+      "block_occurrences": 24,
+      "map_count": 24,
+      "examples": [
+        {
+          "map_id": "25.0",
+          "x": 9,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "25.1",
+          "x": 5,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA04",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "25.2",
+          "x": 4,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFA4C",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "25.3",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFA64",
+          "metatile_id": 14
+        },
+        {
+          "map_id": "25.4",
+          "x": 5,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFA1C",
+          "metatile_id": 14
+        }
+      ]
+    },
+    {
+      "source_id": 181,
+      "hex": "0xB5",
+      "baseline_name": "MB_HOLDS_SMALL_DECORATION",
+      "status": "safe_semantic",
+      "block_occurrences": 42,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "1.1",
+          "x": 4,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 152
+        },
+        {
+          "map_id": "1.1",
+          "x": 5,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 153
+        },
+        {
+          "map_id": "1.1",
+          "x": 6,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 153
+        },
+        {
+          "map_id": "1.1",
+          "x": 7,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 154
+        },
+        {
+          "map_id": "1.1",
+          "x": 4,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 160
+        }
+      ]
+    },
+    {
+      "source_id": 183,
+      "hex": "0xB7",
+      "baseline_name": "MB_SECRET_BASE_NORTH_WALL",
+      "status": "safe_semantic",
+      "block_occurrences": 261,
+      "map_count": 24,
+      "examples": [
+        {
+          "map_id": "25.0",
+          "x": 2,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "25.0",
+          "x": 3,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "25.0",
+          "x": 4,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "25.0",
+          "x": 5,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 2
+        },
+        {
+          "map_id": "25.0",
+          "x": 6,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 2
+        }
+      ]
+    },
+    {
+      "source_id": 186,
+      "hex": "0xBA",
+      "baseline_name": "MB_SECRET_BASE_GLITTER_MAT",
+      "status": "safe_semantic",
+      "block_occurrences": 132,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "34.13",
+          "x": 16,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x08305DE0",
+          "metatile_id": 283
+        },
+        {
+          "map_id": "34.13",
+          "x": 30,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x08305DE0",
+          "metatile_id": 283
+        },
+        {
+          "map_id": "34.13",
+          "x": 37,
+          "y": 0,
+          "role": "secondary",
+          "tileset": "0x08305DE0",
+          "metatile_id": 283
+        },
+        {
+          "map_id": "34.13",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x08305DE0",
+          "metatile_id": 283
+        },
+        {
+          "map_id": "34.13",
+          "x": 27,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x08305DE0",
+          "metatile_id": 283
+        }
+      ]
+    },
+    {
+      "source_id": 187,
+      "hex": "0xBB",
+      "baseline_name": "MB_SECRET_BASE_JUMP_MAT",
+      "status": "safe_semantic",
+      "block_occurrences": 14,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "37.93",
+          "x": 9,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 255
+        },
+        {
+          "map_id": "37.93",
+          "x": 10,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 255
+        },
+        {
+          "map_id": "37.93",
+          "x": 1,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "37.93",
+          "x": 3,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 223
+        },
+        {
+          "map_id": "37.93",
+          "x": 7,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 223
+        }
+      ]
+    },
+    {
+      "source_id": 188,
+      "hex": "0xBC",
+      "baseline_name": "MB_SECRET_BASE_SPIN_MAT",
+      "status": "safe_semantic",
+      "block_occurrences": 31,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "37.93",
+          "x": 7,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 222
+        },
+        {
+          "map_id": "37.93",
+          "x": 12,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 222
+        },
+        {
+          "map_id": "37.93",
+          "x": 2,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 222
+        },
+        {
+          "map_id": "37.93",
+          "x": 6,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 222
+        },
+        {
+          "map_id": "37.93",
+          "x": 18,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 222
+        }
+      ]
+    },
+    {
+      "source_id": 192,
+      "hex": "0xC0",
+      "baseline_name": "MB_IMPASSABLE_SOUTH_AND_NORTH",
+      "status": "safe_semantic",
+      "block_occurrences": 9,
+      "map_count": 9,
+      "examples": [
+        {
+          "map_id": "1.1",
+          "x": 1,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 132
+        },
+        {
+          "map_id": "6.6",
+          "x": 15,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 211
+        },
+        {
+          "map_id": "34.61",
+          "x": 10,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 211
+        },
+        {
+          "map_id": "34.63",
+          "x": 8,
+          "y": 15,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 211
+        },
+        {
+          "map_id": "34.64",
+          "x": 8,
+          "y": 18,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 211
+        }
+      ]
+    },
+    {
+      "source_id": 194,
+      "hex": "0xC2",
+      "baseline_name": "MB_SECRET_BASE_HOLE",
+      "status": "safe_semantic",
+      "block_occurrences": 14,
+      "map_count": 6,
+      "examples": [
+        {
+          "map_id": "25.18",
+          "x": 6,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 34
+        },
+        {
+          "map_id": "25.18",
+          "x": 6,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFA7C",
+          "metatile_id": 35
+        },
+        {
+          "map_id": "25.19",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFA04",
+          "metatile_id": 34
+        },
+        {
+          "map_id": "25.19",
+          "x": 12,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFA04",
+          "metatile_id": 35
+        },
+        {
+          "map_id": "25.20",
+          "x": 4,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DFA4C",
+          "metatile_id": 34
+        }
+      ]
+    },
+    {
+      "source_id": 195,
+      "hex": "0xC3",
+      "baseline_name": "MB_HOLDS_LARGE_DECORATION",
+      "status": "safe_semantic",
+      "block_occurrences": 9,
+      "map_count": 3,
+      "examples": [
+        {
+          "map_id": "1.1",
+          "x": 5,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "1.1",
+          "x": 6,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "1.1",
+          "x": 5,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "1.1",
+          "x": 6,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 161
+        },
+        {
+          "map_id": "1.3",
+          "x": 2,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFAF4",
+          "metatile_id": 164
+        }
+      ]
+    },
+    {
+      "source_id": 208,
+      "hex": "0xD0",
+      "baseline_name": "MB_MUDDY_SLOPE",
+      "status": "safe_semantic",
+      "block_occurrences": 38,
+      "map_count": 14,
+      "examples": [
+        {
+          "map_id": "0.26",
+          "x": 29,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 235
+        },
+        {
+          "map_id": "0.26",
+          "x": 29,
+          "y": 7,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 232
+        },
+        {
+          "map_id": "0.26",
+          "x": 15,
+          "y": 36,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 232
+        },
+        {
+          "map_id": "0.26",
+          "x": 15,
+          "y": 37,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 232
+        },
+        {
+          "map_id": "0.30",
+          "x": 28,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 234
+        }
+      ]
+    },
+    {
+      "source_id": 209,
+      "hex": "0xD1",
+      "baseline_name": "MB_BUMPY_SLOPE",
+      "status": "safe_semantic",
+      "block_occurrences": 114,
+      "map_count": 17,
+      "examples": [
+        {
+          "map_id": "0.29",
+          "x": 17,
+          "y": 8,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 323
+        },
+        {
+          "map_id": "0.29",
+          "x": 17,
+          "y": 9,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 323
+        },
+        {
+          "map_id": "0.29",
+          "x": 17,
+          "y": 10,
+          "role": "secondary",
+          "tileset": "0x083DF7AC",
+          "metatile_id": 323
+        },
+        {
+          "map_id": "0.40",
+          "x": 26,
+          "y": 21,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 358
+        },
+        {
+          "map_id": "0.40",
+          "x": 26,
+          "y": 22,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 358
+        }
+      ]
+    },
+    {
+      "source_id": 210,
+      "hex": "0xD2",
+      "baseline_name": "MB_CRACKED_FLOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 272,
+      "map_count": 9,
+      "examples": [
+        {
+          "map_id": "24.8",
+          "x": 2,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "24.8",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "24.8",
+          "x": 4,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "24.8",
+          "x": 5,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 47
+        },
+        {
+          "map_id": "24.8",
+          "x": 6,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8CC",
+          "metatile_id": 47
+        }
+      ]
+    },
+    {
+      "source_id": 211,
+      "hex": "0xD3",
+      "baseline_name": "MB_ISOLATED_VERTICAL_RAIL",
+      "status": "safe_semantic",
+      "block_occurrences": 3,
+      "map_count": 1,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 6,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 228
+        },
+        {
+          "map_id": "0.34",
+          "x": 7,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 228
+        },
+        {
+          "map_id": "0.34",
+          "x": 8,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 228
+        }
+      ]
+    },
+    {
+      "source_id": 212,
+      "hex": "0xD4",
+      "baseline_name": "MB_ISOLATED_HORIZONTAL_RAIL",
+      "status": "safe_semantic",
+      "block_occurrences": 5,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 17,
+          "y": 17,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 246
+        },
+        {
+          "map_id": "0.34",
+          "x": 21,
+          "y": 92,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 246
+        },
+        {
+          "map_id": "0.34",
+          "x": 21,
+          "y": 93,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 246
+        },
+        {
+          "map_id": "26.3",
+          "x": 22,
+          "y": 4,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 247
+        },
+        {
+          "map_id": "26.3",
+          "x": 20,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 247
+        }
+      ]
+    },
+    {
+      "source_id": 213,
+      "hex": "0xD5",
+      "baseline_name": "MB_VERTICAL_RAIL",
+      "status": "safe_semantic",
+      "block_occurrences": 25,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 5,
+          "y": 8,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 211
+        },
+        {
+          "map_id": "0.34",
+          "x": 5,
+          "y": 9,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 219
+        },
+        {
+          "map_id": "0.34",
+          "x": 5,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 212
+        },
+        {
+          "map_id": "0.34",
+          "x": 9,
+          "y": 10,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 220
+        },
+        {
+          "map_id": "0.34",
+          "x": 9,
+          "y": 11,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 219
+        }
+      ]
+    },
+    {
+      "source_id": 214,
+      "hex": "0xD6",
+      "baseline_name": "MB_HORIZONTAL_RAIL",
+      "status": "safe_semantic",
+      "block_occurrences": 83,
+      "map_count": 5,
+      "examples": [
+        {
+          "map_id": "0.34",
+          "x": 8,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 240
+        },
+        {
+          "map_id": "0.34",
+          "x": 9,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 241
+        },
+        {
+          "map_id": "0.34",
+          "x": 10,
+          "y": 6,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 189
+        },
+        {
+          "map_id": "0.34",
+          "x": 10,
+          "y": 7,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 215
+        },
+        {
+          "map_id": "0.34",
+          "x": 11,
+          "y": 7,
+          "role": "primary",
+          "tileset": "0x083DF704",
+          "metatile_id": 241
+        }
+      ]
+    },
+    {
+      "source_id": 224,
+      "hex": "0xE0",
+      "baseline_name": "MB_PICTURE_BOOK_SHELF",
+      "status": "safe_semantic",
+      "block_occurrences": 62,
+      "map_count": 45,
+      "examples": [
+        {
+          "map_id": "3.0",
+          "x": 8,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 105
+        },
+        {
+          "map_id": "3.4",
+          "x": 0,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 105
+        },
+        {
+          "map_id": "4.3",
+          "x": 8,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 105
+        },
+        {
+          "map_id": "6.6",
+          "x": 13,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 105
+        },
+        {
+          "map_id": "7.3",
+          "x": 8,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB6C",
+          "metatile_id": 425
+        }
+      ]
+    },
+    {
+      "source_id": 225,
+      "hex": "0xE1",
+      "baseline_name": "MB_BOOKSHELF",
+      "status": "safe_semantic",
+      "block_occurrences": 328,
+      "map_count": 58,
+      "examples": [
+        {
+          "map_id": "1.4",
+          "x": 0,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB0C",
+          "metatile_id": 24
+        },
+        {
+          "map_id": "1.4",
+          "x": 1,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFB0C",
+          "metatile_id": 25
+        },
+        {
+          "map_id": "1.4",
+          "x": 0,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB0C",
+          "metatile_id": 52
+        },
+        {
+          "map_id": "1.4",
+          "x": 1,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB0C",
+          "metatile_id": 53
+        },
+        {
+          "map_id": "1.4",
+          "x": 2,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DFB0C",
+          "metatile_id": 52
+        }
+      ]
+    },
+    {
+      "source_id": 226,
+      "hex": "0xE2",
+      "baseline_name": "MB_POKEMON_CENTER_BOOKSHELF",
+      "status": "safe_semantic",
+      "block_occurrences": 68,
+      "map_count": 33,
+      "examples": [
+        {
+          "map_id": "2.2",
+          "x": 2,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "2.2",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 114
+        },
+        {
+          "map_id": "3.1",
+          "x": 2,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 113
+        },
+        {
+          "map_id": "3.1",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 114
+        },
+        {
+          "map_id": "5.4",
+          "x": 2,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 113
+        }
+      ]
+    },
+    {
+      "source_id": 227,
+      "hex": "0xE3",
+      "baseline_name": "MB_VASE",
+      "status": "safe_semantic",
+      "block_occurrences": 95,
+      "map_count": 22,
+      "examples": [
+        {
+          "map_id": "0.1",
+          "x": 6,
+          "y": 34,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 12
+        },
+        {
+          "map_id": "0.1",
+          "x": 4,
+          "y": 35,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 12
+        },
+        {
+          "map_id": "0.1",
+          "x": 6,
+          "y": 35,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 12
+        },
+        {
+          "map_id": "0.1",
+          "x": 4,
+          "y": 36,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 12
+        },
+        {
+          "map_id": "0.1",
+          "x": 4,
+          "y": 39,
+          "role": "secondary",
+          "tileset": "0x083DF764",
+          "metatile_id": 12
+        }
+      ]
+    },
+    {
+      "source_id": 228,
+      "hex": "0xE4",
+      "baseline_name": "MB_TRASH_CAN",
+      "status": "safe_semantic",
+      "block_occurrences": 330,
+      "map_count": 36,
+      "examples": [
+        {
+          "map_id": "9.1",
+          "x": 7,
+          "y": 11,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 5
+        },
+        {
+          "map_id": "10.3",
+          "x": 4,
+          "y": 2,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 54
+        },
+        {
+          "map_id": "10.3",
+          "x": 21,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DFB84",
+          "metatile_id": 54
+        },
+        {
+          "map_id": "11.1",
+          "x": 1,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 413
+        },
+        {
+          "map_id": "11.1",
+          "x": 7,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 413
+        }
+      ]
+    },
+    {
+      "source_id": 229,
+      "hex": "0xE5",
+      "baseline_name": "MB_SHOP_SHELF",
+      "status": "safe_semantic",
+      "block_occurrences": 540,
+      "map_count": 36,
+      "examples": [
+        {
+          "map_id": "2.4",
+          "x": 3,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 27
+        },
+        {
+          "map_id": "2.4",
+          "x": 4,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 27
+        },
+        {
+          "map_id": "2.4",
+          "x": 5,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 27
+        },
+        {
+          "map_id": "2.4",
+          "x": 6,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 40
+        },
+        {
+          "map_id": "2.4",
+          "x": 7,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF89C",
+          "metatile_id": 41
+        }
+      ]
+    },
+    {
+      "source_id": 230,
+      "hex": "0xE6",
+      "baseline_name": "MB_BLUEPRINT",
+      "status": "safe_semantic",
+      "block_occurrences": 156,
+      "map_count": 16,
+      "examples": [
+        {
+          "map_id": "9.0",
+          "x": 4,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 12
+        },
+        {
+          "map_id": "9.0",
+          "x": 5,
+          "y": 6,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 13
+        },
+        {
+          "map_id": "9.0",
+          "x": 4,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 20
+        },
+        {
+          "map_id": "9.0",
+          "x": 5,
+          "y": 7,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 21
+        },
+        {
+          "map_id": "9.1",
+          "x": 9,
+          "y": 3,
+          "role": "secondary",
+          "tileset": "0x083DF9BC",
+          "metatile_id": 12
+        }
+      ]
+    },
+    {
+      "source_id": 231,
+      "hex": "0xE7",
+      "baseline_name": "MB_CABLE_BOX_RESULTS_2",
+      "status": "safe_semantic",
+      "block_occurrences": 17,
+      "map_count": 17,
+      "examples": [
+        {
+          "map_id": "2.3",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 226
+        },
+        {
+          "map_id": "3.2",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 226
+        },
+        {
+          "map_id": "4.6",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 226
+        },
+        {
+          "map_id": "5.5",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 226
+        },
+        {
+          "map_id": "6.5",
+          "x": 12,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 226
+        }
+      ]
+    },
+    {
+      "source_id": 232,
+      "hex": "0xE8",
+      "baseline_name": "MB_WIRELESS_BOX_RESULTS",
+      "status": "safe_semantic",
+      "block_occurrences": 17,
+      "map_count": 17,
+      "examples": [
+        {
+          "map_id": "2.3",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 227
+        },
+        {
+          "map_id": "3.2",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 227
+        },
+        {
+          "map_id": "4.6",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 227
+        },
+        {
+          "map_id": "5.5",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 227
+        },
+        {
+          "map_id": "6.5",
+          "x": 8,
+          "y": 4,
+          "role": "secondary",
+          "tileset": "0x083DF8B4",
+          "metatile_id": 227
+        }
+      ]
+    },
+    {
+      "source_id": 233,
+      "hex": "0xE9",
+      "baseline_name": "MB_TRAINER_HILL_TIMER",
+      "status": "safe_semantic",
+      "block_occurrences": 4,
+      "map_count": 4,
+      "examples": [
+        {
+          "map_id": "26.61",
+          "x": 14,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "26.62",
+          "x": 14,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "26.63",
+          "x": 14,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 15
+        },
+        {
+          "map_id": "26.64",
+          "x": 14,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DFD84",
+          "metatile_id": 15
+        }
+      ]
+    },
+    {
+      "source_id": 234,
+      "hex": "0xEA",
+      "baseline_name": "MB_SKY_PILLAR_CLOSED_DOOR",
+      "status": "safe_semantic",
+      "block_occurrences": 2,
+      "map_count": 2,
+      "examples": [
+        {
+          "map_id": "24.78",
+          "x": 14,
+          "y": 5,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 202
+        },
+        {
+          "map_id": "24.79",
+          "x": 10,
+          "y": 1,
+          "role": "secondary",
+          "tileset": "0x083DF824",
+          "metatile_id": 202
+        }
+      ]
+    }
+  ]
+}

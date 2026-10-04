@@ -3339,3 +3339,5 @@ const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4DF4[][16] =
 };
 
 const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/tiles.4bpp.lz");
+
+#include "hyper_graphics.h"

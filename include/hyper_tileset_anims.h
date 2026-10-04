@@ -1,0 +1,23 @@
+#ifndef GUARD_HYPER_TILESET_ANIMS_H
+#define GUARD_HYPER_TILESET_ANIMS_H
+void InitTilesetAnim_HyperAsset_Primary_083DF704(void);
+void InitTilesetAnim_HyperAsset_Primary_083DF884(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF734(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF74C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF764(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF77C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF794(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF80C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF824(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF83C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF854(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF86C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF8CC(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DF9D4(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DFB24(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DFB54(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DFBCC(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DFC7C(void);
+void InitTilesetAnim_HyperAsset_Secondary_083DFD24(void);
+void InitTilesetAnim_HyperAsset_Secondary_08A5FEB4(void);
+#endif

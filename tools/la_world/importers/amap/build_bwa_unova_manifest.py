@@ -310,7 +310,7 @@ def audit_destination_imports(records, user_verifications=None):
             'active_connections': destination.get('connections') or [],
             'active_warps': destination.get('warp_events', []),
             'gameplay_validated_by_this_audit': False, 'issues': issues,
-            'status': 'PRESERVE_VALIDATED_CANARY' if record['id'] == '3.0' else 'IMPORTED_PENDING_GAMEPLAY_VALIDATION',
+            'status': 'PRESERVE_VALIDATED_CANARY' if record.get('disposition') == 'PRESERVE_CANARY' else 'IMPORTED_PENDING_GAMEPLAY_VALIDATION',
             'import_action': 'SKIP_EXISTING_IMPORT', 'reimport_flag': False,
         }
         reported = user_verifications.get(record['id'])

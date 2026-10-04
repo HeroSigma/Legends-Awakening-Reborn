@@ -6,10 +6,10 @@
       "name": "PetalburgCity_Layout",
       "width": 30,
       "height": 30,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/PetalburgCity/border.bin",
-      "blockdata_filepath": "data/layouts/PetalburgCity/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/0.0/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -105,10 +105,10 @@
       "name": "LittlerootTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/LittlerootTown/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.9/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/0.9/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -116,10 +116,10 @@
       "name": "OldaleTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/OldaleTown/border.bin",
-      "blockdata_filepath": "data/layouts/OldaleTown/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/0.10/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -182,10 +182,10 @@
       "name": "Route101_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Route101/border.bin",
-      "blockdata_filepath": "data/layouts/Route101/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.16/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary2_layouts/Route101/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -193,10 +193,10 @@
       "name": "Route102_Layout",
       "width": 50,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Route102/border.bin",
-      "blockdata_filepath": "data/layouts/Route102/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.17/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/0.17/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -204,10 +204,10 @@
       "name": "Route103_Layout",
       "width": 80,
       "height": 22,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Route103/border.bin",
-      "blockdata_filepath": "data/layouts/Route103/map.bin",
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF71C",
+      "border_filepath": "data/hyper_assets/layouts/0.18/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/0.18/map.bin",
       "layout_version": "emerald"
     },
     {
@@ -9704,6 +9704,17 @@
         "secondary_tileset": "secondary_f2e_SWSH_P082D4A94S082D4AAC",
         "source": "A-Map Batch Bridge"
       }
+    },
+    {
+      "id": "LAYOUT_HYPER_CANARY1_OLDALE_TOWN_MART",
+      "name": "HyperCanary1OldaleTownMart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF89C",
+      "border_filepath": "data/hyper_assets/layouts/2.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/2.4/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
