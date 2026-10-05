@@ -1,0 +1,606 @@
+[
+  {
+    "map": "FarawayIsland_Entrance",
+    "status": "MANUAL_ART_REVIEW",
+    "reason": "Visible dark gaps/seams in reconciled geometry. Black-rendered cells are candidate locations, not proven collision defects; compare source art and inspect in Porymap/runtime before editing. Retain collision and encounter ownership while evaluating visual corrections.",
+    "candidate_black_cells": [
+      {
+        "x": 19,
+        "y": 16,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 23,
+        "y": 16,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 14,
+        "y": 17,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 23,
+        "y": 17,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 24,
+        "y": 17,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 24,
+        "y": 18,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 13,
+        "y": 19,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 24,
+        "y": 19,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 19,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 27,
+        "y": 19,
+        "metatile": 117,
+        "block": 5237,
+        "collision": 1,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 14,
+        "y": 20,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 24,
+        "y": 20,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 20,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 21,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 14,
+        "y": 21,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 21,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 21,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 28,
+        "y": 21,
+        "metatile": 117,
+        "block": 5237,
+        "collision": 1,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 22,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 22,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 22,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 22,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 23,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 13,
+        "y": 23,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 23,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 23,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 23,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 13,
+        "y": 24,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 24,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 24,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 25,
+        "y": 24,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 25,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 26,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 15,
+        "y": 26,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 26,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 27,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 15,
+        "y": 27,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 10,
+        "y": 29,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 14,
+        "y": 29,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 19,
+        "y": 29,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 18,
+        "y": 31,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 18,
+        "y": 32,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 18,
+        "y": 33,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "map": "NavelRock_Exterior",
+    "status": "MANUAL_ART_REVIEW",
+    "reason": "Visible dark gaps/seams in reconciled geometry. Black-rendered cells are candidate locations, not proven collision defects; compare source art and inspect in Porymap/runtime before editing. Retain collision and encounter ownership while evaluating visual corrections.",
+    "candidate_black_cells": [
+      {
+        "x": 16,
+        "y": 4,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 5,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 5,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 6,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 6,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 6,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 12,
+        "y": 7,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 7,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 7,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 8,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 8,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 9,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 9,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 10,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      {
+        "x": 17,
+        "y": 11,
+        "metatile": 117,
+        "block": 1141,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    ]
+  }
+]

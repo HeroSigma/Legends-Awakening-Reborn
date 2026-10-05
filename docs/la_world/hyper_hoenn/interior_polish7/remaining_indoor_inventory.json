@@ -1,0 +1,1102 @@
+[
+  {
+    "map": "AquaHideout_1F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_AQUA_HIDEOUT_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_AQUA_HIDEOUT_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary9_AquaHideout_B1F_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_AQUA_HIDEOUT_B2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattleColosseum_2P",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_COLOSSEUM_2P",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_CableClub"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattleColosseum_4P",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_COLOSSEUM_4P",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_CableClub"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare01",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE01",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare02",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE02",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare03",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE03",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare04",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE04",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare05",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE05",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare06",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE06",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare07",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE07",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare08",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE08",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare09",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE09",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare10",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE10",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare11",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE11",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare12",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE12",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare13",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE13",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare14",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE14",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare15",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE15",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BattlePyramidSquare16",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_BATTLE_PYRAMID_SQUARE16",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_BattlePyramid"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BirthIsland_Exterior",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_BIRTH_ISLAND_EXTERIOR",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Dewford"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "BirthIsland_Harbor",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_ISLAND_HARBOR",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_IslandHarbor"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHall",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHallBeauty",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL_BEAUTY",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHallCool",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL_COOL",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHallCute",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL_CUTE",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHallSmart",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL_SMART",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "ContestHallTough",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_CONTEST_HALL_TOUGH",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "FarawayIsland_Entrance",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_FARAWAY_ISLAND_ENTRANCE",
+    "tilesets": [
+      "gTileset_Hyper_Final_FarawayIsland_Entrance_0",
+      "gTileset_Hyper_Final_FarawayIsland_Entrance_1"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "FarawayIsland_Interior",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_FARAWAY_ISLAND_INTERIOR",
+    "tilesets": [
+      "gTileset_Hyper_Final_FarawayIsland_Interior_0",
+      "gTileset_Hyper_Final_FarawayIsland_Interior_1"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_26_59_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_26_59_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFD6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_0_Timeless_Woods",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_0_TIMELESS_WOODS",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF7C4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_10_Basement",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_10_BASEMENT",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_10_Basement_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_11_Basement",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_11_BASEMENT",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_12_Unown_Ruins",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_12_UNOWN_RUINS",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_12_Unown_Ruins_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_13_Distortion_World",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_13_DISTORTION_WORLD",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_16_Meteor_Temple",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_16_METEOR_TEMPLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF92C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_17_Meteor_Temple",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_17_METEOR_TEMPLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_1_Dragonspiral_Tower",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_1_DRAGONSPIRAL_TOWER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_1_Dragonspiral_Tower_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_26_Ultra_Alliance",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_26_ULTRA_ALLIANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary9_HyperHoenn_34_26_Ultra_Alliance_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_28_Crescent_Isle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_28_CRESCENT_ISLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF734"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_29_Ultra_Alliance",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_29_ULTRA_ALLIANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary9_HyperHoenn_34_29_Ultra_Alliance_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_35_Allearth_Forest",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_35_ALLEARTH_FOREST",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF7C4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_36_Allearth_Lake",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_36_ALLEARTH_LAKE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF8CC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_38_Allearth_Forest",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_38_ALLEARTH_FOREST",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_38_Allearth_Forest_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_39_Allearth_Forest",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_39_ALLEARTH_FOREST",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_39_Allearth_Forest_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_40_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_40_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary7_HyperHoenn_34_40_Couriway_Town_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_41_Allearth_Forest",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_41_ALLEARTH_FOREST",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF734"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_45_Desert_Ruins",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_45_DESERT_RUINS",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_45_Desert_Ruins_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_53_Mt_Silver",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_53_MT_SILVER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_53_Mt_Silver_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_58_Mt_Silver",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_58_MT_SILVER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_08A5FEB4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_60_Mt_Silver",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_60_MT_SILVER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_08A5FEB4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_61_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_61_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_63_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_63_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_64_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_64_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_65_Outer_Space",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_65_OUTER_SPACE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_66_Mountain_Top",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_66_MOUNTAIN_TOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary8_HyperHoenn_34_66_Mountain_Top_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_76_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_76_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_77_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_77_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_77_Champion_Island_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_78_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_78_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_82_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_82_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_82_Rainbow_Castle_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_83_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_83_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_83_Rainbow_Castle_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_84_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_84_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_84_Rainbow_Castle_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_87_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_87_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_88_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_88_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF8CC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_34_89_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_34_89_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Canary5_HyperHoenn_34_89_Rainbow_Castle_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_1_Mt_Silver",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_1_MT_SILVER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_21_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_21_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_24_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_24_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_25_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_25_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_26_Dragonspiral_Tower",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_26_DRAGONSPIRAL_TOWER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF7C4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_27_Timeless_Woods",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_27_TIMELESS_WOODS",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF7F4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_28_Champion_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_28_CHAMPION_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_2_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_2_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_36_EV_Training_Cave",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_36_EV_TRAINING_CAVE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFB24"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_37_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_37_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF944"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_3_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_3_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF74C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_40_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_40_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_41_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_41_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB0C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_48_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_48_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_49_EV_Training_Cave",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_49_EV_TRAINING_CAVE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFB24"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_4_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_4_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Canary5_HyperHoenn_35_4_Rainbow_Castle_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_52_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_52_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_5_Rainbow_Castle",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_5_RAINBOW_CASTLE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFBCC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_84_Ruins_of_Decision",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_84_RUINS_OF_DECISION",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF92C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_87_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_87_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_35_8_Steven_s_Island",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_35_8_STEVEN_S_ISLAND",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_37_102_Couriway_Town",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_37_102_COURIWAY_TOWN",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_37_120_Ancient_Retreat",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_37_120_ANCIENT_RETREAT",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_37_121_Sootopolis_City",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_37_121_SOOTOPOLIS_CITY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "HyperHoenn_37_96_Distortion_World",
+    "category": "GATED_HYPER_SPECIAL",
+    "layout": "LAYOUT_HYPERHOENN_37_96_DISTORTION_WORLD",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_1F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_2F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_3F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_3F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_4F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_4F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_5F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_5F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "MtPyre_6F",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_MT_PYRE_6F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "NavelRock_Exterior",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_NAVEL_ROCK_EXTERIOR",
+    "tilesets": [
+      "gTileset_Hyper_Final_NavelRock_Exterior_0",
+      "gTileset_Hyper_Final_NavelRock_Exterior_1"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "NavelRock_Harbor",
+    "category": "DUNGEON_OR_EVENT_ISLAND",
+    "layout": "LAYOUT_ISLAND_HARBOR",
+    "tilesets": [
+      "gTileset_General",
+      "gTileset_IslandHarbor"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "RecordCorner",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_RECORD_CORNER",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_CableClub"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "Route104_PrototypePrettyPetalFlowerShop",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_PrettyPetalFlowerShop"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "TradeCenter",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_TRADE_CENTER",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_CableClub"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnionRoom",
+    "category": "SHARED_OR_RUNTIME_TEMPLATE",
+    "layout": "LAYOUT_UNION_ROOM",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_UnionRoom"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall1",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL1",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall2",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL2",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall3",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL3",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall4",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL4",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall5",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL5",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  },
+  {
+    "map": "UnusedContestHall6",
+    "category": "LEGACY_UNUSED",
+    "layout": "LAYOUT_UNUSED_CONTEST_HALL6",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_Contest"
+    ],
+    "status": "NOT_REVIEWED_IN_INTERIOR_BATCHES"
+  }
+]

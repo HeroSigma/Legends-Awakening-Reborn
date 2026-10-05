@@ -1,0 +1,5333 @@
+[
+  {
+    "map": "EverGrandeCity_ChampionsRoom",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "name": "EverGrandeCity_ChampionsRoom_Layout",
+      "width": 13,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_ChampionsRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_CHAMPIONS_ROOM_WALLACE",
+          "graphics_id": "OBJ_EVENT_GFX_WALLACE",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 787,
+          "block": 13075,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_CHAMPIONS_ROOM_RIVAL",
+          "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+          "x": 6,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_CHAMPIONS_ROOM_RIVAL"
+        },
+        "cell": {
+          "x": 6,
+          "y": 12,
+          "metatile": 822,
+          "block": 13110,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_CHAMPIONS_ROOM_BIRCH",
+          "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+          "x": 6,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_CHAMPIONS_ROOM_BIRCH"
+        },
+        "cell": {
+          "x": 6,
+          "y": 12,
+          "metatile": 822,
+          "block": 13110,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL4",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL_OF_FAME",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_DrakesRoom",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "name": "EverGrandeCity_DrakesRoom_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.3/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_DrakesRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_DRAKE",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_DrakesRoom_EventScript_Drake",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 682,
+          "block": 12970,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 13,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL3",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL4",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_GlaciasRoom",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "name": "EverGrandeCity_GlaciasRoom_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.2/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_GlaciasRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GLACIA",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_GlaciasRoom_EventScript_Glacia",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 634,
+          "block": 12922,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 13,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL2",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL3",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_Hall1",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL1",
+      "name": "HyperCanary9EverGrandeCity_Hall1_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.5/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_Hall1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_Hall2",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL2",
+      "name": "HyperCanary9EverGrandeCity_Hall2_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.6/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_Hall2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_Hall3",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL3",
+      "name": "HyperCanary9EverGrandeCity_Hall3_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.7/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_Hall3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_DRAKES_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_Hall4",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_HALL4",
+      "name": "EverGrandeCity_Hall4_Layout",
+      "width": 11,
+      "height": 34,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.8/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_Hall4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 33,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_DRAKES_ROOM",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_Hall5",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL5",
+      "name": "HyperCanary9EverGrandeCity_Hall5_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.9/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_Hall5/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 6,
+        "y": 12,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_HallOfFame",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
+      "name": "EverGrandeCity_HallOfFame_Layout",
+      "width": 15,
+      "height": 17,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF95C",
+      "border_filepath": "data/hyper_assets/layouts/16.11/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_HallOfFame/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_HALL_OF_FAME_WALLACE",
+          "graphics_id": "OBJ_EVENT_GFX_WALLACE",
+          "x": 6,
+          "y": 16,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 16,
+          "metatile": 760,
+          "block": 13048,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 32,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 11,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_PhoebesRoom",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "name": "EverGrandeCity_PhoebesRoom_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_PhoebesRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PHOEBE",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PhoebesRoom_EventScript_Phoebe",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 586,
+          "block": 12874,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 13,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL1",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL2",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_PokemonCenter_1F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_1_F",
+      "name": "HyperCanary9EverGrandeCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/16.12/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_PokemonCenter_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_EVER_GRANDE_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonCenter_1F_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 519,
+          "block": 12807,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+          "x": 5,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonCenter_1F_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 5,
+          "metatile": 560,
+          "block": 12848,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+          "x": 10,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 7,
+          "metatile": 550,
+          "block": 12838,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_EVER_GRANDE_SCOTT",
+          "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+          "x": 9,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonCenter_1F_EventScript_Scott",
+          "flag": "FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT"
+        },
+        "cell": {
+          "x": 9,
+          "y": 4,
+          "metatile": 518,
+          "block": 12806,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_PokemonCenter_2F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_2_F",
+      "name": "HyperCanary9EverGrandeCity_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/16.13/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_PokemonCenter_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_UnionRoomAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_WirelessClubAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_DirectCornerAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
+          "x": 1,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "CableClub_EventScript_MysteryGiftMan",
+          "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_UNION_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRADE_CENTER",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_PokemonLeague_1F",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "name": "EverGrandeCity_PokemonLeague_1F_Layout",
+      "width": 19,
+      "height": 16,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/16.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_PokemonLeague_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_LEAGUE_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 3,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonLeague_1F_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 2,
+          "metatile": 519,
+          "block": 12807,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 16,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonLeague_1F_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 16,
+          "y": 6,
+          "metatile": 718,
+          "block": 13006,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_LEAGUE_GUARD_1",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 8,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 2,
+          "metatile": 518,
+          "block": 12806,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_LEAGUE_GUARD_2",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 11,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 2,
+          "metatile": 518,
+          "block": 12806,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 9,
+        "y": 15,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 10,
+        "y": 15,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL5",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 10,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL5",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "elevation": 4,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_PokemonLeague_2F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_LEAGUE_2_F",
+      "name": "HyperCanary9EverGrandeCity_PokemonLeague_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/16.14/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_PokemonLeague_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_UnionRoomAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 2,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_WirelessClubAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_DirectCornerAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
+          "x": 1,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "CableClub_EventScript_MysteryGiftMan",
+          "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_UNION_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRADE_CENTER",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "EverGrandeCity_SidneysRoom",
+    "layout": {
+      "id": "LAYOUT_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "name": "EverGrandeCity_SidneysRoom_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC7C",
+      "border_filepath": "data/hyper_assets/layouts/16.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/EverGrandeCity_SidneysRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SIDNEY",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EverGrandeCity_SidneysRoom_EventScript_Sidney",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 13,
+        "elevation": 3,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL5",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY_HALL1",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_GameCorner_1F",
+    "layout": {
+      "id": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_1F",
+      "name": "MossdeepCity_GameCorner_1F_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD54",
+      "border_filepath": "data/hyper_assets/layouts/14.11/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_GameCorner_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_GameCorner_1F_EventScript_OldMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 541,
+          "block": 1565,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+          "x": 4,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_GameCorner_1F_EventScript_InfoMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 2,
+          "metatile": 540,
+          "block": 1564,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 5,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "9"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "9"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_B1F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 2,
+        "y": 0,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "RS_MysteryEventsHouse_EventScript_Door"
+      },
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_GameCorner_1F_EventScript_DodrioBerryPickingRecords"
+      },
+      {
+        "type": "sign",
+        "x": 1,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_GameCorner_1F_EventScript_PokemonJumpRecords"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_GameCorner_B1F",
+    "layout": {
+      "id": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_B1F",
+      "name": "MossdeepCity_GameCorner_B1F_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.12/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_GameCorner_B1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 574,
+          "block": 12862,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_1F",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_House1",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE1",
+      "name": "HyperCanary9MossdeepCity_House1_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_House1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+          "x": 3,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House1_EventScript_BlackBelt",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 3,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 7,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House1_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 4,
+          "metatile": 556,
+          "block": 12844,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_CITY__HOUSE1_CANARY8_CONSTRUCTION_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 5,
+          "y": 7,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House1_EventScript_HyperConstruction_Canary9_1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 7,
+          "metatile": 521,
+          "block": 521,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 101,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_House2",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE2",
+      "name": "HyperCanary9MossdeepCity_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.2/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_House2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+          "x": 6,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House2_EventScript_Man",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 6,
+          "metatile": 582,
+          "block": 12870,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TWIN",
+          "x": 5,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House2_EventScript_Twin",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 4,
+          "metatile": 738,
+          "block": 738,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_HOUSE_WINGULL",
+          "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+          "x": 5,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House2_EventScript_Wingull",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL"
+        },
+        "cell": {
+          "x": 5,
+          "y": 5,
+          "metatile": 738,
+          "block": 738,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_CITY__HOUSE2_CANARY8_CONSTRUCTION_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 2,
+          "y": 8,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House2_EventScript_HyperConstruction_Canary9_1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 8,
+          "metatile": 520,
+          "block": 520,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 101,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "3"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_House3",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE3",
+      "name": "HyperCanary9MossdeepCity_House3_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.6/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_House3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+          "x": 4,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House3_EventScript_SuperRodFisherman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 4,
+          "metatile": 555,
+          "block": 12843,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_CITY__HOUSE3_CANARY8_CONSTRUCTION_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 5,
+          "y": 7,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House3_EventScript_HyperConstruction_Canary9_1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 7,
+          "metatile": 521,
+          "block": 521,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 101,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "5"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_House4",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE4",
+      "name": "HyperCanary9MossdeepCity_House4_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.8/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_House4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 3,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House4_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 4,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
+          "x": 6,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House4_EventScript_NinjaBoy",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 6,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SKITTY",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_House4_EventScript_Skitty",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "7"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "7"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_Mart",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_MART",
+      "name": "HyperCanary9MossdeepCity_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF89C",
+      "border_filepath": "data/hyper_assets/layouts/14.5/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_Mart/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_MART_CLERK",
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 1,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_Mart_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 3,
+          "metatile": 569,
+          "block": 12857,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+          "x": 1,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_Mart_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 5,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BOY_2",
+          "x": 8,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_Mart_EventScript_Boy",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 3,
+          "metatile": 513,
+          "block": 12801,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 5,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_Mart_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 3,
+          "metatile": 513,
+          "block": 12801,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "4"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_PokemonCenter_1F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_1_F",
+      "name": "HyperCanary9MossdeepCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/14.3/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_PokemonCenter_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_PokemonCenter_1F_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 519,
+          "block": 12807,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 8,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_PokemonCenter_1F_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 4,
+          "metatile": 623,
+          "block": 12911,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
+          "x": 3,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_PokemonCenter_1F_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 5,
+          "metatile": 514,
+          "block": 12802,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_PokemonCenter_2F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_2_F",
+      "name": "HyperCanary9MossdeepCity_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/14.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_PokemonCenter_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_UnionRoomAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_WirelessClubAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_DirectCornerAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
+          "x": 1,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "CableClub_EventScript_MysteryGiftMan",
+          "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+          "x": 11,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_PokemonCenter_2F_EventScript_Woman5",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 7,
+          "metatile": 514,
+          "block": 12802,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_UNION_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRADE_CENTER",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_SpaceCenter_1F",
+    "layout": {
+      "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "name": "MossdeepCity_SpaceCenter_1F_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF9BC",
+      "border_filepath": "data/hyper_assets/layouts/14.9/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_SpaceCenter_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_SCIENTIST_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_RocketLaunchCounter",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 870,
+          "block": 13158,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_SCIENTIST_2",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Scientist",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 886,
+          "block": 13174,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 6,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 6,
+          "metatile": 865,
+          "block": 13153,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_OLD_MAN",
+          "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+          "x": 10,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_OldMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 870,
+          "block": 13158,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_WOMAN",
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
+          "x": 14,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 7,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
+          "x": 12,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt3",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 12,
+          "y": 9,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 11,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt1",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 11,
+          "y": 6,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 10,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt4",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 870,
+          "block": 13158,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 8,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_1F_STAIR_GRUNT",
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 13,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt2",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 13,
+          "y": 2,
+          "metatile": 870,
+          "block": 13158,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 9,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
+          "x": 2,
+          "y": 5,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE"
+        },
+        "cell": {
+          "x": 2,
+          "y": 5,
+          "metatile": 872,
+          "block": 1896,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 230,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      },
+      {
+        "index": 10,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+          "x": 1,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_Steven",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 4,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 11,
+        "event": {
+          "local_id": "LOCALID_MOSSDEEP_CITY__SPACE_CENTER_1_F_CANARY8_CONSTRUCTION_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 4,
+          "y": 1,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_1F_EventScript_HyperConstruction_Canary9_1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 1,
+          "metatile": 716,
+          "block": 13004,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 96,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "8"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "8"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_2F",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_34_11_BASEMENT",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_SpaceCenter_2F",
+    "layout": {
+      "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
+      "name": "MossdeepCity_SpaceCenter_2F_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF9BC",
+      "border_filepath": "data/hyper_assets/layouts/14.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_SpaceCenter_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_2F_RICH_BOY",
+          "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
+          "x": 6,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_RichBoy",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 870,
+          "block": 13158,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_2F_GENTLEMAN",
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 11,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Gentleman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 8,
+          "metatile": 865,
+          "block": 13153,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_2F_SCIENTIST",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 5,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Scientist",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 6,
+          "metatile": 867,
+          "block": 13155,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_2F_STEVEN",
+          "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+          "x": 1,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Steven",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 8,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_GRUNT_6",
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 12,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt6",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 12,
+          "y": 2,
+          "metatile": 878,
+          "block": 13166,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_GRUNT_5",
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 13,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt5",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 13,
+          "y": 3,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_GRUNT_7",
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 14,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt7",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 14,
+          "y": 2,
+          "metatile": 879,
+          "block": 13167,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_TABITHA",
+          "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+          "x": 0,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Tabitha",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 0,
+          "y": 8,
+          "metatile": 753,
+          "block": 13041,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 8,
+        "event": {
+          "local_id": "LOCALID_SPACE_CENTER_MAXIE",
+          "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+          "x": 1,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_SpaceCenter_2F_EventScript_Maxie",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+        },
+        "cell": {
+          "x": 1,
+          "y": 9,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MossdeepCity_StevensHouse",
+    "layout": {
+      "id": "LAYOUT_MOSSDEEP_CITY_STEVENS_HOUSE",
+      "name": "MossdeepCity_StevensHouse_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/14.7/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/MossdeepCity_StevensHouse/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_STEVENS_HOUSE_STEVEN",
+          "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+          "x": 9,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_StevensHouse_EventScript_Steven",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN"
+        },
+        "cell": {
+          "x": 9,
+          "y": 6,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_STEVENS_HOUSE_BALL",
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 4,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_StevensHouse_EventScript_BeldumPokeball",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL"
+        },
+        "cell": {
+          "x": 4,
+          "y": 3,
+          "metatile": 744,
+          "block": 14056,
+          "collision": 1,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
+          "x": 6,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MossdeepCity_StevensHouse_EventScript_Letter",
+          "flag": "FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY"
+        },
+        "cell": {
+          "x": 6,
+          "y": 4,
+          "metatile": 721,
+          "block": 14033,
+          "collision": 1,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "6"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_MOSSDEEP_CITY",
+        "dest_warp_id": "6"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+      },
+      {
+        "type": "sign",
+        "x": 1,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+      },
+      {
+        "type": "sign",
+        "x": 10,
+        "y": 4,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+      },
+      {
+        "type": "sign",
+        "x": 10,
+        "y": 6,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_House1",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE1",
+      "name": "HyperCanary9PacifidlogTown_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/7.2/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_House1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+          "x": 3,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House1_EventScript_Man",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 5,
+          "metatile": 942,
+          "block": 13230,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
+          "x": 6,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House1_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 4,
+          "metatile": 943,
+          "block": 13231,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_House2",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE2",
+      "name": "HyperCanary9PacifidlogTown_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/7.3/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_House2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 3,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House2_EventScript_FanClubYoungerBrother",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 5,
+          "metatile": 942,
+          "block": 13230,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_AZURILL",
+          "x": 8,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House2_EventScript_HappyAzurill",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 6,
+          "metatile": 934,
+          "block": 13222,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_AZURILL",
+          "x": 1,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House2_EventScript_UnhappyAzurill",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 7,
+          "metatile": 931,
+          "block": 13219,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_House3",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE3",
+      "name": "HyperCanary9PacifidlogTown_House3_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/7.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_House3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+          "x": 3,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House3_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 5,
+          "metatile": 942,
+          "block": 13230,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 4,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House3_EventScript_Trader",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 2,
+          "metatile": 929,
+          "block": 13217,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "3"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_House4",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE4",
+      "name": "HyperCanary9PacifidlogTown_House4_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/7.5/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_House4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 3,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House4_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 4,
+          "metatile": 925,
+          "block": 13213,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
+          "x": 7,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House4_EventScript_LittleGirl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 5,
+          "metatile": 925,
+          "block": 13213,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BOY_1",
+          "x": 7,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House4_EventScript_Boy",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 4,
+          "metatile": 925,
+          "block": 13213,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "4"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_House5",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE5",
+      "name": "HyperCanary9PacifidlogTown_House5_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/7.6/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_House5/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+          "x": 9,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House5_EventScript_MirageIslandWatcher",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 4,
+          "metatile": 931,
+          "block": 13219,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 3,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_House5_EventScript_Gentleman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 4,
+          "metatile": 942,
+          "block": 13230,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "5"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_PokemonCenter_1F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_1_F",
+      "name": "HyperCanary9PacifidlogTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/7.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_PokemonCenter_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_PACIFIDLOG_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_PokemonCenter_1F_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 519,
+          "block": 12807,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+          "x": 10,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_PokemonCenter_1F_EventScript_OldMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 6,
+          "metatile": 564,
+          "block": 12852,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_PokemonCenter_1F_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 633,
+          "block": 12921,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
+          "x": 4,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_PokemonCenter_1F_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 5,
+          "metatile": 514,
+          "block": 12802,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+          "x": 12,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "PacifidlogTown_PokemonCenter_1F_EventScript_ExplosionTutor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 12,
+          "y": 8,
+          "metatile": 564,
+          "block": 12852,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_PACIFIDLOG_TOWN",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "PacifidlogTown_PokemonCenter_2F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_2_F",
+      "name": "HyperCanary9PacifidlogTown_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/7.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/PacifidlogTown_PokemonCenter_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_UnionRoomAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_WirelessClubAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_DirectCornerAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
+          "x": 1,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "CableClub_EventScript_MysteryGiftMan",
+          "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_UNION_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRADE_CENTER",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House1",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE1",
+      "name": "HyperCanary9SootopolisCity_House1_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.5/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House1_EventScript_BrickBreakBlackBelt",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 733,
+          "block": 13021,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_KECLEON",
+          "x": 2,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House1_EventScript_Kecleon",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 3,
+          "metatile": 733,
+          "block": 13021,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "4"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House2",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE2",
+      "name": "HyperCanary9SootopolisCity_House2_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.6/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+          "x": 3,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House2_EventScript_ExpertF",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 3,
+          "metatile": 547,
+          "block": 12835,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SOOTOPOLIS_CITY__HOUSE2_CANARY8_CONSTRUCTION_1",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 3,
+          "y": 1,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House2_EventScript_HyperConstruction_Canary9_1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 1,
+          "metatile": 758,
+          "block": 13046,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 96,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_35_20_SOOTOPOLIS_CITY",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House3",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE3",
+      "name": "HyperCanary9SootopolisCity_House3_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.7/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House3_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 734,
+          "block": 13022,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+          "x": 6,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House3_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 4,
+          "metatile": 811,
+          "block": 13099,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "6"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "6"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House4",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE4",
+      "name": "HyperCanary9SootopolisCity_House4_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.8/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House4_EventScript_Man",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 733,
+          "block": 13021,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
+          "x": 5,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 2,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House4_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 2,
+          "metatile": 1023,
+          "block": 13311,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_AZUMARILL",
+          "x": 2,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House4_EventScript_Azumarill",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 3,
+          "metatile": 733,
+          "block": 13021,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "7"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "7"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House5",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE5",
+      "name": "HyperCanary9SootopolisCity_House5_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/37.118/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House5/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+          "x": 5,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House5_EventScript_Maniac",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 3,
+          "metatile": 734,
+          "block": 13022,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 6,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House5_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 3,
+          "metatile": 811,
+          "block": 13099,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "8"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "8"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House6",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE6",
+      "name": "HyperCanary9SootopolisCity_House6_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House6/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 4,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House6_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 3,
+          "metatile": 811,
+          "block": 13099,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "9"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "9"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_House7",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE7",
+      "name": "HyperCanary9SootopolisCity_House7_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.11/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_House7/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+          "x": 5,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House7_EventScript_OldMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 3,
+          "metatile": 734,
+          "block": 13022,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+          "x": 1,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_House7_EventScript_PokefanF",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 4,
+          "metatile": 811,
+          "block": 13099,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "10"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "10"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_LotadAndSeedotHouse",
+    "layout": {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
+      "name": "SootopolisCity_LotadAndSeedotHouse_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/15.12/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_LotadAndSeedotHouse/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 733,
+          "block": 13021,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_HIKER",
+          "x": 5,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 4,
+          "metatile": 734,
+          "block": 13022,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "11"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "11"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 5,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotSizeRecord"
+      },
+      {
+        "type": "sign",
+        "x": 2,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_Mart",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_MART",
+      "name": "HyperCanary9SootopolisCity_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF89C",
+      "border_filepath": "data/hyper_assets/layouts/15.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_Mart/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SOOTOPOLIS_MART_CLERK",
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 1,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_Mart_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 3,
+          "metatile": 569,
+          "block": 12857,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+          "x": 5,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_Mart_EventScript_FatMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 5,
+          "metatile": 513,
+          "block": 12801,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 9,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_Mart_EventScript_Gentleman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 5,
+          "metatile": 513,
+          "block": 12801,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_MysteryEventsHouse_1F",
+    "layout": {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
+      "name": "SootopolisCity_MysteryEventsHouse_1F_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MysteryEventsHouse",
+      "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_MYSTERY_EVENTS_OLD_MAN",
+          "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+          "x": 6,
+          "y": 4,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_OldMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 4,
+          "metatile": 528,
+          "block": 528,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SOOTOPOLISCITY_MYSTERYEVENTSHOUSE_1F_ASSET_TRAVEL_2",
+          "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+          "x": 9,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 2,
+          "metatile": 548,
+          "block": 548,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "12"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "12"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_37_121_SOOTOPOLIS_CITY",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_MysteryEventsHouse_B1F",
+    "layout": {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F",
+      "name": "SootopolisCity_MysteryEventsHouse_B1F_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFDE4",
+      "border_filepath": "data/hyper_assets/layouts/15.14/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SootopolisCity_MysteryEventsHouse_B1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+          "x": 6,
+          "y": 5,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 553,
+          "block": 553,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_PokemonCenter_1F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_1_F",
+      "name": "HyperCanary9SootopolisCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/15.2/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_PokemonCenter_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SOOTOPOLIS_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_PokemonCenter_1F_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 519,
+          "block": 12807,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 12,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_PokemonCenter_1F_EventScript_Gentleman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 12,
+          "y": 4,
+          "metatile": 514,
+          "block": 12802,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+          "x": 4,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_PokemonCenter_1F_EventScript_Woman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 7,
+          "metatile": 514,
+          "block": 12802,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
+          "x": 2,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SootopolisCity_PokemonCenter_1F_EventScript_DoubleEdgeTutor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 3,
+          "metatile": 564,
+          "block": 12852,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 7,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "elevation": 3,
+        "dest_map": "MAP_SOOTOPOLIS_CITY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SootopolisCity_PokemonCenter_2F",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_2_F",
+      "name": "HyperCanary9SootopolisCity_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF8B4",
+      "border_filepath": "data/hyper_assets/layouts/15.3/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/SootopolisCity_PokemonCenter_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 6,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_UnionRoomAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_WirelessClubAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Common_EventScript_DirectCornerAttendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 717,
+          "block": 717,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
+          "x": 1,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "CableClub_EventScript_MysteryGiftMan",
+          "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 729,
+          "block": 729,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 4,
+        "dest_map": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_UNION_ROOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRADE_CENTER",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "map": "InsideOfTruck",
+    "asset_origin": "HYPER",
+    "donor_id": "25.40",
+    "dimensions": [
+      5,
+      5
+    ],
+    "layout": "LAYOUT_INSIDE_OF_TRUCK",
+    "tilesets": [
+      "gTileset_Hyper_Final_InsideOfTruck_0",
+      "gTileset_Hyper_Secondary_083DFA94"
+    ],
+    "current_blockdata_sha256": "66e6b4f115d9fcf884d8129fccad88c14458193f537de44b7b8cefcbd9944311",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      5,
+      5
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08484EF0",
+    "layout_pointer": "0x084431C0",
+    "source_blockdata_sha256": "66e6b4f115d9fcf884d8129fccad88c14458193f537de44b7b8cefcbd9944311"
+  },
+  {
+    "map": "MtChimney_CableCarStation",
+    "asset_origin": "HYPER",
+    "donor_id": "19.1",
+    "dimensions": [
+      13,
+      12
+    ],
+    "layout": "LAYOUT_HYPER_CANARY5_MT_CHIMNEY_CABLE_CAR_STATION",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "current_blockdata_sha256": "410e7b7a3079c3e449b4c7f13a7dd5afaf9c0a6e95ddb0259e1c6f42628b0143",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      12
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483DFC",
+    "layout_pointer": "0x0842E048",
+    "source_blockdata_sha256": "410e7b7a3079c3e449b4c7f13a7dd5afaf9c0a6e95ddb0259e1c6f42628b0143"
+  },
+  {
+    "map": "Route104_MrBrineysHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "17.0",
+    "dimensions": [
+      12,
+      9
+    ],
+    "layout": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "bad41921019b92f44f8dc1fb9c643a7d50e368965f262306f34fbdc9277d21d2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      12,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D70",
+    "layout_pointer": "0x0842AFBC",
+    "source_blockdata_sha256": "bad41921019b92f44f8dc1fb9c643a7d50e368965f262306f34fbdc9277d21d2"
+  },
+  {
+    "map": "Route104_PrettyPetalFlowerShop",
+    "asset_origin": "HYPER",
+    "donor_id": "17.1",
+    "dimensions": [
+      15,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY3_ROUTE104__PRETTY_PETAL_FLOWER_SHOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF98C"
+    ],
+    "current_blockdata_sha256": "665d5f80cb8c6443cd68c7886f369c9d4b0e4c3ffa759c134a6063e0bcab1d52",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D8C",
+    "layout_pointer": "0x0842DEF0",
+    "source_blockdata_sha256": "665d5f80cb8c6443cd68c7886f369c9d4b0e4c3ffa759c134a6063e0bcab1d52"
+  },
+  {
+    "map": "Route109_SeashoreHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "28.0",
+    "dimensions": [
+      15,
+      10
+    ],
+    "layout": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF974"
+    ],
+    "current_blockdata_sha256": "c7485ff4023ad57cacf312ee151a93992dbf354b0c9c5452d5c6ef49190d8804",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485B30",
+    "layout_pointer": "0x08447174",
+    "source_blockdata_sha256": "c7485ff4023ad57cacf312ee151a93992dbf354b0c9c5452d5c6ef49190d8804"
+  },
+  {
+    "map": "Route110_SeasideCyclingRoadNorthEntrance",
+    "asset_origin": "HYPER",
+    "donor_id": "29.12",
+    "dimensions": [
+      15,
+      6
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "current_blockdata_sha256": "36140d418343358135549ff1b8b73501b56895abcedae83dbb98516022e26214",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      6
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C9C",
+    "layout_pointer": "0x08448D18",
+    "source_blockdata_sha256": "36140d418343358135549ff1b8b73501b56895abcedae83dbb98516022e26214"
+  },
+  {
+    "map": "Route110_SeasideCyclingRoadSouthEntrance",
+    "asset_origin": "HYPER",
+    "donor_id": "29.11",
+    "dimensions": [
+      15,
+      6
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "current_blockdata_sha256": "36140d418343358135549ff1b8b73501b56895abcedae83dbb98516022e26214",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      6
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C80",
+    "layout_pointer": "0x08448D18",
+    "source_blockdata_sha256": "36140d418343358135549ff1b8b73501b56895abcedae83dbb98516022e26214"
+  },
+  {
+    "map": "Route110_TrickHouseCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "29.2",
+    "dimensions": [
+      15,
+      24
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHouseCorridor_1"
+    ],
+    "current_blockdata_sha256": "c2966d3934eea2ae98802e2068435c138b7141526e27ff7d83c16c91596e0678",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      15,
+      24
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485B84",
+    "layout_pointer": "0x08447624",
+    "source_blockdata_sha256": "b1c27a1300f9342fd2c95b5c321bd4428ae150994a5e76149b31cf03cea14fc0"
+  },
+  {
+    "map": "Route110_TrickHouseEnd",
+    "asset_origin": "HYPER",
+    "donor_id": "29.1",
+    "dimensions": [
+      12,
+      8
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_END",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHouseEnd_1"
+    ],
+    "current_blockdata_sha256": "f2dc343fad8d17bced22a82e882a31a343c324df942e0c94f75038ef59972e36",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      12,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485B68",
+    "layout_pointer": "0x08447334",
+    "source_blockdata_sha256": "f2dc343fad8d17bced22a82e882a31a343c324df942e0c94f75038ef59972e36"
+  },
+  {
+    "map": "Route110_TrickHouseEntrance",
+    "asset_origin": "HYPER",
+    "donor_id": "29.0",
+    "dimensions": [
+      12,
+      8
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_ENTRANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHouseEntrance_1"
+    ],
+    "current_blockdata_sha256": "822403817fd139aaea3678a01d24081a1b8d273bfe16b6b3297660d03165cde4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      12,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485B4C",
+    "layout_pointer": "0x08447254",
+    "source_blockdata_sha256": "822403817fd139aaea3678a01d24081a1b8d273bfe16b6b3297660d03165cde4"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle1",
+    "asset_origin": "HYPER",
+    "donor_id": "29.3",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle1_1"
+    ],
+    "current_blockdata_sha256": "d6114c1a240bbe5fd9ab2f2764e6bae41a5e7f1b0bb72541ddb319c4ee1568f7",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485BA0",
+    "layout_pointer": "0x084478D8",
+    "source_blockdata_sha256": "974e599f4e7cd5b05539c99ba4541e010b7aee59e690f6662b5d6375b865c66a"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle2",
+    "asset_origin": "HYPER",
+    "donor_id": "29.4",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle2_1"
+    ],
+    "current_blockdata_sha256": "be917a0a532ef8a25d746fc296c4439ea0f78805d18250d5cc8abc0cbe957bf0",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485BBC",
+    "layout_pointer": "0x08447B8C",
+    "source_blockdata_sha256": "be917a0a532ef8a25d746fc296c4439ea0f78805d18250d5cc8abc0cbe957bf0"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle3",
+    "asset_origin": "HYPER",
+    "donor_id": "29.5",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle3_1"
+    ],
+    "current_blockdata_sha256": "8efcf2b65841e4eb52db43953fbb8d13499ec7543db02577a00b39c39f729f8e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485BD8",
+    "layout_pointer": "0x08447E40",
+    "source_blockdata_sha256": "8efcf2b65841e4eb52db43953fbb8d13499ec7543db02577a00b39c39f729f8e"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle4",
+    "asset_origin": "HYPER",
+    "donor_id": "29.6",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle4_1"
+    ],
+    "current_blockdata_sha256": "cd284006cfd2c4c3b71faf28ff6bded65867c368414b890663ddb66a6ea466ab",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485BF4",
+    "layout_pointer": "0x084480F4",
+    "source_blockdata_sha256": "cd284006cfd2c4c3b71faf28ff6bded65867c368414b890663ddb66a6ea466ab"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle5",
+    "asset_origin": "HYPER",
+    "donor_id": "29.7",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE5",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle5_1"
+    ],
+    "current_blockdata_sha256": "d2e85346a6667477dfd4a00378101b74bf92fc7a691bb22a5cc75307b75cd698",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C10",
+    "layout_pointer": "0x084483A8",
+    "source_blockdata_sha256": "a7a531122219bb1e523f5e20b5c32cf01e81af601f7b9b68bac4d730dcd6986c"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle6",
+    "asset_origin": "HYPER",
+    "donor_id": "29.8",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE6",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle6_1"
+    ],
+    "current_blockdata_sha256": "9ad00cd74907b49fd181450456a060ee67ef5735dcaafc983537d429f3afe24a",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C2C",
+    "layout_pointer": "0x0844865C",
+    "source_blockdata_sha256": "9ad00cd74907b49fd181450456a060ee67ef5735dcaafc983537d429f3afe24a"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle7",
+    "asset_origin": "HYPER",
+    "donor_id": "29.9",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE7",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle7_1"
+    ],
+    "current_blockdata_sha256": "04e056422d17f6aff72736db7eff8a1dc5a905e1dff311790d3a85bbc8c0737c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C48",
+    "layout_pointer": "0x08448910",
+    "source_blockdata_sha256": "04e056422d17f6aff72736db7eff8a1dc5a905e1dff311790d3a85bbc8c0737c"
+  },
+  {
+    "map": "Route110_TrickHousePuzzle8",
+    "asset_origin": "HYPER",
+    "donor_id": "29.10",
+    "dimensions": [
+      15,
+      22
+    ],
+    "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE8",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_Route110_TrickHousePuzzle8_1"
+    ],
+    "current_blockdata_sha256": "85e778f79e37654e3d71e43094d6825d5c3dd03093b622eff777cf030f51ba99",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      22
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485C64",
+    "layout_pointer": "0x08448BC4",
+    "source_blockdata_sha256": "85e778f79e37654e3d71e43094d6825d5c3dd03093b622eff777cf030f51ba99"
+  },
+  {
+    "map": "Route112_CableCarStation",
+    "asset_origin": "HYPER",
+    "donor_id": "19.0",
+    "dimensions": [
+      13,
+      12
+    ],
+    "layout": "LAYOUT_HYPER_CANARY5_ROUTE112_CABLE_CAR_STATION",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "current_blockdata_sha256": "410e7b7a3079c3e449b4c7f13a7dd5afaf9c0a6e95ddb0259e1c6f42628b0143",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      12
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483DE0",
+    "layout_pointer": "0x0842E048",
+    "source_blockdata_sha256": "410e7b7a3079c3e449b4c7f13a7dd5afaf9c0a6e95ddb0259e1c6f42628b0143"
+  },
+  {
+    "map": "Route116_TunnelersRestHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "21.0",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_ROUTE116_TUNNELERS_REST_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "ff55de6e4a06ba3e69a2400cbb8873d4fc49bcb12b945de50599b171e45a4444",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483E6C",
+    "layout_pointer": "0x0842E570",
+    "source_blockdata_sha256": "ff55de6e4a06ba3e69a2400cbb8873d4fc49bcb12b945de50599b171e45a4444"
+  },
+  {
+    "map": "Route117_PokemonDayCare",
+    "asset_origin": "HYPER",
+    "donor_id": "22.0",
+    "dimensions": [
+      12,
+      9
+    ],
+    "layout": "LAYOUT_ROUTE117_POKEMON_DAY_CARE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF9A4"
+    ],
+    "current_blockdata_sha256": "8fecd0d1a17ab1e17ed0b606121b9c9d105833c040d891326cdbbc90cd173844",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      12,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483E88",
+    "layout_pointer": "0x0842E668",
+    "source_blockdata_sha256": "6e0ffe03c99f7bb41bd11b1d12f71c0a69932b0c76c18910b4abb17733e3e79e"
+  },
+  {
+    "map": "Route124_DivingTreasureHuntersHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "33.0",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "650cd5d646f2908270faa59dbce390170422bd9118d08076f518c47a26a683ad",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485D44",
+    "layout_pointer": "0x08457368",
+    "source_blockdata_sha256": "650cd5d646f2908270faa59dbce390170422bd9118d08076f518c47a26a683ad"
+  },
+  {
+    "map": "SSTidalCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "25.41",
+    "dimensions": [
+      18,
+      13
+    ],
+    "layout": "LAYOUT_SS_TIDAL_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Final_SSTidalCorridor_0",
+      "gTileset_Hyper_Final_SSTidalCorridor_1"
+    ],
+    "current_blockdata_sha256": "a7ecc7d30044cd9225a410d7177fdf4b1fed952163e2df5281ca94ae2b66a82b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      18,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08484F0C",
+    "layout_pointer": "0x08451094",
+    "source_blockdata_sha256": "53d2e83ece149e154aac643cdd7785613288f7878a4c886e1a938ef336193249"
+  },
+  {
+    "map": "SSTidalLowerDeck",
+    "asset_origin": "HYPER",
+    "donor_id": "25.42",
+    "dimensions": [
+      17,
+      13
+    ],
+    "layout": "LAYOUT_SS_TIDAL_LOWER_DECK",
+    "tilesets": [
+      "gTileset_Hyper_Final_SSTidalLowerDeck_0",
+      "gTileset_Hyper_Final_SSTidalLowerDeck_1"
+    ],
+    "current_blockdata_sha256": "3f01f473f4caa3404f6633bb229b1e9c5cf5d54ed13dfcd21e8bf2b87a8068c4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      17,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08484F28",
+    "layout_pointer": "0x08451270",
+    "source_blockdata_sha256": "c4ec329059691f18f9411b5b16956008bfd83361899a253d46ec1b6566d9be7d"
+  },
+  {
+    "map": "SSTidalRooms",
+    "asset_origin": "HYPER",
+    "donor_id": "25.43",
+    "dimensions": [
+      36,
+      18
+    ],
+    "layout": "LAYOUT_SS_TIDAL_ROOMS",
+    "tilesets": [
+      "gTileset_Hyper_Final_SSTidalRooms_0",
+      "gTileset_Hyper_Final_SSTidalRooms_1"
+    ],
+    "current_blockdata_sha256": "92ddc632b7cead05385413c997ee0a65ceb7a10b4e9693835ed4f24f2a5eda16",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      36,
+      18
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08484F44",
+    "layout_pointer": "0x084517A0",
+    "source_blockdata_sha256": "86ec1521ecaeb3bd812b850b1b1b8a7e8a506cd45cf0fc2756c5243b1190eee9"
+  },
+  {
+    "map": "SafariZone_RestHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "26.11",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "6df0820d34564511f47a4ca5495024bbaf13c2f3ffaced133aa5048ad5160552",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485270",
+    "layout_pointer": "0x0845F328",
+    "source_blockdata_sha256": "6df0820d34564511f47a4ca5495024bbaf13c2f3ffaced133aa5048ad5160552"
+  },
+  {
+    "map": "TrainerHill_1F",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      16,
+      21
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_1F",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_TrainerHill"
+    ],
+    "current_blockdata_sha256": "e8e7cc9b36aea4d4936de1ed9617777ed391cf5782f615a07ff0cf03501cb74e",
+    "ownership": "Expansion/project events and scripts"
+  },
+  {
+    "map": "TrainerHill_2F",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      16,
+      21
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_2F",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_TrainerHill"
+    ],
+    "current_blockdata_sha256": "700860d411c4c65039aa337effe5bfcca15a5ab30b408622d97ce3c52d9166ed",
+    "ownership": "Expansion/project events and scripts"
+  },
+  {
+    "map": "TrainerHill_3F",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      16,
+      21
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_3F",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_TrainerHill"
+    ],
+    "current_blockdata_sha256": "5d360042c2b577c2a5618b8714e570a85444574ca5d88f0c91f170912ef561dc",
+    "ownership": "Expansion/project events and scripts"
+  },
+  {
+    "map": "TrainerHill_4F",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      16,
+      21
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_4F",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_TrainerHill"
+    ],
+    "current_blockdata_sha256": "571711499b9fbb91c3e4756b64a23bfbae627ad5ac1e6a4982322483b5568184",
+    "ownership": "Expansion/project events and scripts"
+  },
+  {
+    "map": "TrainerHill_Elevator",
+    "asset_origin": "HYPER",
+    "donor_id": "26.88",
+    "dimensions": [
+      5,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY5_TRAINER_HILL_ELEVATOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "defb996d7f0bbbc255e999711156d53dc0a10839d2b6cc63be5227f682b108b4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      5,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485ADC",
+    "layout_pointer": "0x0844D064",
+    "source_blockdata_sha256": "defb996d7f0bbbc255e999711156d53dc0a10839d2b6cc63be5227f682b108b4"
+  },
+  {
+    "map": "TrainerHill_Entrance",
+    "asset_origin": "HYPER",
+    "donor_id": "26.60",
+    "dimensions": [
+      19,
+      17
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_ENTRANCE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD84"
+    ],
+    "current_blockdata_sha256": "e405f9461f3eb4bf51280cf13921b289cdd39692ba55a76c96b6dcdac8d4d082",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      19,
+      17
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084857CC",
+    "layout_pointer": "0x0847C634",
+    "source_blockdata_sha256": "e405f9461f3eb4bf51280cf13921b289cdd39692ba55a76c96b6dcdac8d4d082"
+  },
+  {
+    "map": "TrainerHill_Roof",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      25,
+      16
+    ],
+    "layout": "LAYOUT_TRAINER_HILL_ROOF",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_TrainerHill"
+    ],
+    "current_blockdata_sha256": "90a565e221c1942bb93aa2d2f9fd48e2598d28b431fbbee0286020eb2d7dd69b",
+    "ownership": "Expansion/project events and scripts"
+  }
+]

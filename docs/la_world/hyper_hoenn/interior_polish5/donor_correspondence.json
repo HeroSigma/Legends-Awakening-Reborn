@@ -1,0 +1,1260 @@
+[
+  {
+    "map": "EverGrandeCity_ChampionsRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "16.4",
+    "dimensions": [
+      13,
+      13
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "afd4a382bab6dde768f3437bd9edb282ef0c03cdd480ca92338e41fc8eaeb300",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C3C",
+    "layout_pointer": "0x0842DC80",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "afd4a382bab6dde768f3437bd9edb282ef0c03cdd480ca92338e41fc8eaeb300"
+  },
+  {
+    "map": "EverGrandeCity_DrakesRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "16.3",
+    "dimensions": [
+      13,
+      14
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "c989ff32f0e4f490bd122418a252341dcb2ccc2c9c3848c9236dced001d6ecf2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C20",
+    "layout_pointer": "0x0842DB0C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "c989ff32f0e4f490bd122418a252341dcb2ccc2c9c3848c9236dced001d6ecf2"
+  },
+  {
+    "map": "EverGrandeCity_GlaciasRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "16.2",
+    "dimensions": [
+      13,
+      14
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "0fb1a3232c1c27cd2cb73259107d340ba91335251137bd25ff26fa502e305bec",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C04",
+    "layout_pointer": "0x0842D980",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "0fb1a3232c1c27cd2cb73259107d340ba91335251137bd25ff26fa502e305bec"
+  },
+  {
+    "map": "EverGrandeCity_Hall1",
+    "asset_origin": "HYPER",
+    "donor_id": "16.5",
+    "dimensions": [
+      11,
+      13
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C58",
+    "layout_pointer": "0x0842DDC0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e"
+  },
+  {
+    "map": "EverGrandeCity_Hall2",
+    "asset_origin": "HYPER",
+    "donor_id": "16.6",
+    "dimensions": [
+      11,
+      13
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C74",
+    "layout_pointer": "0x0842DDC0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e"
+  },
+  {
+    "map": "EverGrandeCity_Hall3",
+    "asset_origin": "HYPER",
+    "donor_id": "16.7",
+    "dimensions": [
+      11,
+      13
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483C90",
+    "layout_pointer": "0x0842DDC0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e"
+  },
+  {
+    "map": "EverGrandeCity_Hall4",
+    "asset_origin": "HYPER",
+    "donor_id": "16.8",
+    "dimensions": [
+      11,
+      34
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_HALL4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "9a59e097cb7a78e500115be355b4b8538279d1f108d69560ca6f8f047ca6406b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      34
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483CAC",
+    "layout_pointer": "0x0845A8A0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "9a59e097cb7a78e500115be355b4b8538279d1f108d69560ca6f8f047ca6406b"
+  },
+  {
+    "map": "EverGrandeCity_Hall5",
+    "asset_origin": "HYPER",
+    "donor_id": "16.9",
+    "dimensions": [
+      11,
+      13
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_HALL5",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483CC8",
+    "layout_pointer": "0x0842DDC0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "6616de5905aa7ce66b6d707a1b385b1dd1385816616b93bace546138f038724e"
+  },
+  {
+    "map": "EverGrandeCity_HallOfFame",
+    "asset_origin": "HYPER",
+    "donor_id": "16.11",
+    "dimensions": [
+      15,
+      17
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF95C"
+    ],
+    "current_blockdata_sha256": "f5a19d9e9711f1704f7c06cdafc046fe3001b3e93ff040be8364075556ac4b90",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      17
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D00",
+    "layout_pointer": "0x084570A4",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "f5a19d9e9711f1704f7c06cdafc046fe3001b3e93ff040be8364075556ac4b90"
+  },
+  {
+    "map": "EverGrandeCity_PhoebesRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "16.1",
+    "dimensions": [
+      13,
+      14
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "78a2d8ea1d7fd8f86a63263e7183bd7daf58bdc9fb734339c2eceacfafa2555b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483BE8",
+    "layout_pointer": "0x0842D7F4",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "78a2d8ea1d7fd8f86a63263e7183bd7daf58bdc9fb734339c2eceacfafa2555b"
+  },
+  {
+    "map": "EverGrandeCity_PokemonCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "16.12",
+    "dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D1C",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29"
+  },
+  {
+    "map": "EverGrandeCity_PokemonCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "16.13",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D38",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  },
+  {
+    "map": "EverGrandeCity_PokemonLeague_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "16.10",
+    "dimensions": [
+      19,
+      16
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "42fc30343f48b454bb1ead48a8344df80301a2cb86a73b21c81ffb4562d61663",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      19,
+      16
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483CE4",
+    "layout_pointer": "0x0844D564",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "42fc30343f48b454bb1ead48a8344df80301a2cb86a73b21c81ffb4562d61663"
+  },
+  {
+    "map": "EverGrandeCity_PokemonLeague_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "16.14",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_EVER_GRANDE_CITY_POKEMON_LEAGUE_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483D54",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  },
+  {
+    "map": "EverGrandeCity_SidneysRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "16.0",
+    "dimensions": [
+      13,
+      14
+    ],
+    "layout": "LAYOUT_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC7C"
+    ],
+    "current_blockdata_sha256": "b2651d87035127ea10fa41b17aeb756a852afa4ade4e6adec3e85e0af5ac8185",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483BCC",
+    "layout_pointer": "0x0842D668",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "b2651d87035127ea10fa41b17aeb756a852afa4ade4e6adec3e85e0af5ac8185"
+  },
+  {
+    "map": "MossdeepCity_GameCorner_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.11",
+    "dimensions": [
+      12,
+      10
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD54"
+    ],
+    "current_blockdata_sha256": "c66808a921334b7b90fb77950e65edfcc7080c6991e4b65cda5778fc5a3bf5d6",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      12,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084839F0",
+    "layout_pointer": "0x08459638",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "c66808a921334b7b90fb77950e65edfcc7080c6991e4b65cda5778fc5a3bf5d6"
+  },
+  {
+    "map": "MossdeepCity_GameCorner_B1F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.12",
+    "dimensions": [
+      12,
+      9
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "7fd1ff917a8be8c53a29bdd0d793c5c6446f91588b2c317251581fc0d54c76c4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      12,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A0C",
+    "layout_pointer": "0x08459730",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "7fd1ff917a8be8c53a29bdd0d793c5c6446f91588b2c317251581fc0d54c76c4"
+  },
+  {
+    "map": "MossdeepCity_House1",
+    "asset_origin": "HYPER",
+    "donor_id": "14.1",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084838D8",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c"
+  },
+  {
+    "map": "MossdeepCity_House2",
+    "asset_origin": "HYPER",
+    "donor_id": "14.2",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084838F4",
+    "layout_pointer": "0x08426D5C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799"
+  },
+  {
+    "map": "MossdeepCity_House3",
+    "asset_origin": "HYPER",
+    "donor_id": "14.6",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483964",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c"
+  },
+  {
+    "map": "MossdeepCity_House4",
+    "asset_origin": "HYPER",
+    "donor_id": "14.8",
+    "dimensions": [
+      10,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_HOUSE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "7b15562ac808ce125bcfc91f8a4a14c5118a06b746cfa812a02f1bf5b2826a25",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848399C",
+    "layout_pointer": "0x08428FE8",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "7b15562ac808ce125bcfc91f8a4a14c5118a06b746cfa812a02f1bf5b2826a25"
+  },
+  {
+    "map": "MossdeepCity_Mart",
+    "asset_origin": "HYPER",
+    "donor_id": "14.5",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483948",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f"
+  },
+  {
+    "map": "MossdeepCity_PokemonCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.3",
+    "dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483910",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29"
+  },
+  {
+    "map": "MossdeepCity_PokemonCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.4",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_MOSSDEEP_CITY_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848392C",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  },
+  {
+    "map": "MossdeepCity_SpaceCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.9",
+    "dimensions": [
+      16,
+      10
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "current_blockdata_sha256": "763d106814c273e1b157ba50c664f8b68bf63aaf76c9019a88e6ae64ee7cb8ed",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      16,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084839B8",
+    "layout_pointer": "0x08450D40",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "763d106814c273e1b157ba50c664f8b68bf63aaf76c9019a88e6ae64ee7cb8ed"
+  },
+  {
+    "map": "MossdeepCity_SpaceCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "14.10",
+    "dimensions": [
+      16,
+      10
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "current_blockdata_sha256": "9dcd2646c4e77b34a42a69c32b21f0d5e40f66c88c9a3d9f5fb954f361c501d4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      16,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084839D4",
+    "layout_pointer": "0x08450EA0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "9dcd2646c4e77b34a42a69c32b21f0d5e40f66c88c9a3d9f5fb954f361c501d4"
+  },
+  {
+    "map": "MossdeepCity_StevensHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "14.7",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_STEVENS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "76576b8fa486f935520844878198be54beaac7e8406db1660ba8411b9900c0cb",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483980",
+    "layout_pointer": "0x0845ED84",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "76576b8fa486f935520844878198be54beaac7e8406db1660ba8411b9900c0cb"
+  },
+  {
+    "map": "PacifidlogTown_House1",
+    "asset_origin": "HYPER",
+    "donor_id": "7.2",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482F8C",
+    "layout_pointer": "0x08428654",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90"
+  },
+  {
+    "map": "PacifidlogTown_House2",
+    "asset_origin": "HYPER",
+    "donor_id": "7.3",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "e0368b177577cbbb0a37573799e968b54a6ff8dd5949d2856dc792b3820487da",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482FA8",
+    "layout_pointer": "0x08428728",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "e0368b177577cbbb0a37573799e968b54a6ff8dd5949d2856dc792b3820487da"
+  },
+  {
+    "map": "PacifidlogTown_House3",
+    "asset_origin": "HYPER",
+    "donor_id": "7.4",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482FC4",
+    "layout_pointer": "0x08428654",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90"
+  },
+  {
+    "map": "PacifidlogTown_House4",
+    "asset_origin": "HYPER",
+    "donor_id": "7.5",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "e0368b177577cbbb0a37573799e968b54a6ff8dd5949d2856dc792b3820487da",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482FE0",
+    "layout_pointer": "0x08428728",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "e0368b177577cbbb0a37573799e968b54a6ff8dd5949d2856dc792b3820487da"
+  },
+  {
+    "map": "PacifidlogTown_House5",
+    "asset_origin": "HYPER",
+    "donor_id": "7.6",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_HOUSE5",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482FFC",
+    "layout_pointer": "0x08428654",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ea06ea78f9a97af54464a3a5acc9e40026c13cf7834ff67c04104b85217b6c90"
+  },
+  {
+    "map": "PacifidlogTown_PokemonCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "7.0",
+    "dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482F54",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29"
+  },
+  {
+    "map": "PacifidlogTown_PokemonCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "7.1",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_PACIFIDLOG_TOWN_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482F70",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  },
+  {
+    "map": "SootopolisCity_House1",
+    "asset_origin": "HYPER",
+    "donor_id": "15.5",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483AB4",
+    "layout_pointer": "0x084597C0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326"
+  },
+  {
+    "map": "SootopolisCity_House2",
+    "asset_origin": "HYPER",
+    "donor_id": "15.6",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "fa74b98f9e1f07b705fbc3e360c86c6ffff46653de1f0e17eab8a23d0670a1eb",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483AD0",
+    "layout_pointer": "0x08459850",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "fa74b98f9e1f07b705fbc3e360c86c6ffff46653de1f0e17eab8a23d0670a1eb"
+  },
+  {
+    "map": "SootopolisCity_House3",
+    "asset_origin": "HYPER",
+    "donor_id": "15.7",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "fb264eeb4ed6b0824f21d0074d33c692607b75ad8d73889bc7ebceba1c71fb2b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483AEC",
+    "layout_pointer": "0x084598E0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "fb264eeb4ed6b0824f21d0074d33c692607b75ad8d73889bc7ebceba1c71fb2b"
+  },
+  {
+    "map": "SootopolisCity_House4",
+    "asset_origin": "HYPER",
+    "donor_id": "15.8",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483B08",
+    "layout_pointer": "0x084597C0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326"
+  },
+  {
+    "map": "SootopolisCity_House5",
+    "asset_origin": "HYPER",
+    "donor_id": "37.118",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE5",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x089F67A0",
+    "layout_pointer": "0x089F6834",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326"
+  },
+  {
+    "map": "SootopolisCity_House6",
+    "asset_origin": "HYPER",
+    "donor_id": "15.10",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE6",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "fb264eeb4ed6b0824f21d0074d33c692607b75ad8d73889bc7ebceba1c71fb2b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483B40",
+    "layout_pointer": "0x084598E0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "fb264eeb4ed6b0824f21d0074d33c692607b75ad8d73889bc7ebceba1c71fb2b"
+  },
+  {
+    "map": "SootopolisCity_House7",
+    "asset_origin": "HYPER",
+    "donor_id": "15.11",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_HOUSE7",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483B5C",
+    "layout_pointer": "0x084597C0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "1438f9601ae52fb55e9051762a03d28919b5b64b088b7431bc845ec88ce91326"
+  },
+  {
+    "map": "SootopolisCity_LotadAndSeedotHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "15.12",
+    "dimensions": [
+      8,
+      7
+    ],
+    "layout": "LAYOUT_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "current_blockdata_sha256": "4411d2fb1b76a48d89825d0a1f3e7ec143e81cc566c75aa82ee279ad893a0d33",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483B78",
+    "layout_pointer": "0x08456E84",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "4411d2fb1b76a48d89825d0a1f3e7ec143e81cc566c75aa82ee279ad893a0d33"
+  },
+  {
+    "map": "SootopolisCity_Mart",
+    "asset_origin": "HYPER",
+    "donor_id": "15.4",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A98",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f"
+  },
+  {
+    "map": "SootopolisCity_MysteryEventsHouse_1F",
+    "asset_origin": "EXPANSION_ORIGINAL",
+    "donor_id": null,
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
+    "tilesets": [
+      "gTileset_Building",
+      "gTileset_MysteryEventsHouse"
+    ],
+    "current_blockdata_sha256": "2911489999f1f22a8a96f33486d0a997148c2e07549e6474370b223a5367ec70",
+    "ownership": "Expansion/project events and scripts"
+  },
+  {
+    "map": "SootopolisCity_MysteryEventsHouse_B1F",
+    "asset_origin": "HYPER",
+    "donor_id": "15.14",
+    "dimensions": [
+      12,
+      9
+    ],
+    "layout": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDE4"
+    ],
+    "current_blockdata_sha256": "4a84f95c2e11ba0f0cb11edc92ad05ebe049da57856a1a7225dc72908b8517be",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      12,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483BB0",
+    "layout_pointer": "0x08481CEC",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 27,
+    "source_blockdata_sha256": "6e635fd0d8a6388c5dc32062066d71f0cf06a2ea2abe559c22f9976057d6f3aa"
+  },
+  {
+    "map": "SootopolisCity_PokemonCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "15.2",
+    "dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A60",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29"
+  },
+  {
+    "map": "SootopolisCity_PokemonCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "15.3",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_CANARY8_SOOTOPOLIS_CITY_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A7C",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  }
+]

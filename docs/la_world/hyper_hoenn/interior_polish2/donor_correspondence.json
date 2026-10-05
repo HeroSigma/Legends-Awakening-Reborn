@@ -1,0 +1,678 @@
+[
+  {
+    "map": "DewfordTown_Hall",
+    "donor_id": "3.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      17,
+      9
+    ],
+    "donor_dimensions": [
+      17,
+      9
+    ],
+    "layout": "LAYOUT_DEWFORD_TOWN_HALL",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "source_blockdata_sha256": "77551678c783d4c2d57260db7005152d1c8f1067eaedfe5aca346985ba1b9c28",
+    "current_blockdata_sha256": "77551678c783d4c2d57260db7005152d1c8f1067eaedfe5aca346985ba1b9c28",
+    "header_pointer": "0x08482C7C",
+    "layout_pointer": "0x08427774",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "DewfordTown_House1",
+    "donor_id": "3.0",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      10,
+      8
+    ],
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "layout": "LAYOUT_HOUSE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_DewfordTown_House1_1"
+    ],
+    "source_blockdata_sha256": "148c46624e081ff25cd2a9410f67ce2eb5c743110aa01458814451550bc07c45",
+    "current_blockdata_sha256": "49db4df3c55981880588ba48c07804e4ef83fd8d007e55fb0c1773c2b3a793f5",
+    "header_pointer": "0x08482C0C",
+    "layout_pointer": "0x08427210",
+    "metatile_id_changes": 28,
+    "runtime_bit_changes": 28,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "DewfordTown_House2",
+    "donor_id": "3.5",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HOUSE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "source_blockdata_sha256": "14f3952380e07d27630fd66c6a7c30ce3389d0a39e607168c956923759a8ba14",
+    "current_blockdata_sha256": "14f3952380e07d27630fd66c6a7c30ce3389d0a39e607168c956923759a8ba14",
+    "header_pointer": "0x08482C98",
+    "layout_pointer": "0x08427848",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "DewfordTown_PokemonCenter_1F",
+    "donor_id": "3.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_DEWFORD_TOWN__POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "header_pointer": "0x08482C28",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "DewfordTown_PokemonCenter_2F",
+    "donor_id": "3.2",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_DEWFORD_TOWN_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "421b82f3d768019d34d9a6c7a4befa197b59bf91e60403eb9a0d9816af6fd9e8",
+    "header_pointer": "0x08482C44",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 49,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_BikeShop",
+    "donor_id": "10.1",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      12,
+      9
+    ],
+    "donor_dimensions": [
+      12,
+      9
+    ],
+    "layout": "LAYOUT_MAUVILLE_CITY_BIKE_SHOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9D4"
+    ],
+    "source_blockdata_sha256": "99f49db1f78ae3e3347927825132c816e38365cf59c48fdbce6e1fe1e80e7508",
+    "current_blockdata_sha256": "3b5c1c535a5282aaf1ae7a378509ea8b702ba6c1f912156598f0e6febff4e760",
+    "header_pointer": "0x08483280",
+    "layout_pointer": "0x08429EF8",
+    "metatile_id_changes": 1,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_GameCorner",
+    "donor_id": "10.3",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      22,
+      11
+    ],
+    "donor_dimensions": [
+      22,
+      11
+    ],
+    "layout": "LAYOUT_MAUVILLE_CITY_GAME_CORNER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_MauvilleCity_GameCorner_1"
+    ],
+    "source_blockdata_sha256": "d962ac5dc647028e121d1ee841a9e7f2c6e664c1609d3a5533af3ade67a6208f",
+    "current_blockdata_sha256": "0bb31216fba4e24e6a2f7b933350d7381a07e15f8e748767acf58dc6424e53c0",
+    "header_pointer": "0x084832B8",
+    "layout_pointer": "0x0842A0FC",
+    "metatile_id_changes": 29,
+    "runtime_bit_changes": 90,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_House1",
+    "donor_id": "10.2",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__HOUSE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "current_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "header_pointer": "0x0848329C",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_House2",
+    "donor_id": "10.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__HOUSE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "source_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799",
+    "current_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799",
+    "header_pointer": "0x084832D4",
+    "layout_pointer": "0x08426D5C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_Mart",
+    "donor_id": "10.7",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "header_pointer": "0x08483328",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_PokemonCenter_1F",
+    "donor_id": "10.5",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_MAUVILLE_CITY__POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "header_pointer": "0x084832F0",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "MauvilleCity_PokemonCenter_2F",
+    "donor_id": "10.6",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_MAUVILLE_CITY_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "421b82f3d768019d34d9a6c7a4befa197b59bf91e60403eb9a0d9816af6fd9e8",
+    "header_pointer": "0x0848330C",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 49,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_BattleTentBattleRoom",
+    "donor_id": "9.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_BATTLE_TENT_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "source_blockdata_sha256": "83c87c78eec37f7e84f25fb94bcd978ed6f07369297ad421d5cea72da68c728d",
+    "current_blockdata_sha256": "83c87c78eec37f7e84f25fb94bcd978ed6f07369297ad421d5cea72da68c728d",
+    "header_pointer": "0x0848314C",
+    "layout_pointer": "0x0846C148",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_BattleTentCorridor",
+    "donor_id": "9.3",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      5,
+      8
+    ],
+    "donor_dimensions": [
+      5,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_TENT_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "source_blockdata_sha256": "477939dfd2aa42326faa5630da80fd46abe2b495752af8b117f4218f25f6d895",
+    "current_blockdata_sha256": "41b3380fb07e9781dce3f8767d6039b8302ea6e96bb80557c0049f88e75fbe56",
+    "header_pointer": "0x08483130",
+    "layout_pointer": "0x0846C074",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 4,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_BattleTentLobby",
+    "donor_id": "9.2",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      13,
+      10
+    ],
+    "donor_dimensions": [
+      13,
+      10
+    ],
+    "layout": "LAYOUT_BATTLE_TENT_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "source_blockdata_sha256": "0c1bafa25de47e4322a225d72b1df2bea68b63cee558587833683fb0baca2412",
+    "current_blockdata_sha256": "039c084371b6c30fc4307c42a6ae3ac67d811c646a3c213f175a9a7dce83dd6e",
+    "header_pointer": "0x08483114",
+    "layout_pointer": "0x0846C004",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 51,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_Harbor",
+    "donor_id": "9.9",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      24,
+      15
+    ],
+    "donor_dimensions": [
+      24,
+      15
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__HARBOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "source_blockdata_sha256": "45073e7ff78722c0407c95a271793e3b966a90d7a45da4c7ebdb42059d1fb023",
+    "current_blockdata_sha256": "45073e7ff78722c0407c95a271793e3b966a90d7a45da4c7ebdb42059d1fb023",
+    "header_pointer": "0x084831D8",
+    "layout_pointer": "0x08429C3C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_House",
+    "donor_id": "9.10",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_SLATEPORT_CITY_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_SlateportCity_House_1"
+    ],
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "current_blockdata_sha256": "ebf6346598f564128ed492d0258527e13496ac1f3e5ac41a2d61c9f55fe75f45",
+    "header_pointer": "0x084831F4",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 17,
+    "runtime_bit_changes": 26,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_Mart",
+    "donor_id": "9.13",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "header_pointer": "0x08483248",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_NameRatersHouse",
+    "donor_id": "9.5",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      10,
+      8
+    ],
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "layout": "LAYOUT_HOUSE_WITH_BED",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "source_blockdata_sha256": "7b15562ac808ce125bcfc91f8a4a14c5118a06b746cfa812a02f1bf5b2826a25",
+    "current_blockdata_sha256": "41b583aabcaa7f63be730c940faee672b8ea3e1249938857f3d290e0dfebe8d7",
+    "header_pointer": "0x08483168",
+    "layout_pointer": "0x08428FE8",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 24,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_OceanicMuseum_1F",
+    "donor_id": "9.7",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      20,
+      9
+    ],
+    "donor_dimensions": [
+      20,
+      9
+    ],
+    "layout": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF944"
+    ],
+    "source_blockdata_sha256": "ac11908603383b547c3782f536c2748115a2f7dad8da944df37f613a07df83c6",
+    "current_blockdata_sha256": "ac11908603383b547c3782f536c2748115a2f7dad8da944df37f613a07df83c6",
+    "header_pointer": "0x084831A0",
+    "layout_pointer": "0x084297C4",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_OceanicMuseum_2F",
+    "donor_id": "9.8",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      20,
+      9
+    ],
+    "donor_dimensions": [
+      20,
+      9
+    ],
+    "layout": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF944"
+    ],
+    "source_blockdata_sha256": "347d93140e5776e25cce5691f9dbccbf77938bbec03c09994dc0cbbc430583e2",
+    "current_blockdata_sha256": "347d93140e5776e25cce5691f9dbccbf77938bbec03c09994dc0cbbc430583e2",
+    "header_pointer": "0x084831BC",
+    "layout_pointer": "0x0842994C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_PokemonCenter_1F",
+    "donor_id": "9.11",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_CANARY4_SLATEPORT_CITY__POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "header_pointer": "0x08483210",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_PokemonCenter_2F",
+    "donor_id": "9.12",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_SLATEPORT_CITY_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "421b82f3d768019d34d9a6c7a4befa197b59bf91e60403eb9a0d9816af6fd9e8",
+    "header_pointer": "0x0848322C",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 49,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_PokemonFanClub",
+    "donor_id": "9.6",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      14,
+      11
+    ],
+    "donor_dimensions": [
+      14,
+      11
+    ],
+    "layout": "LAYOUT_SLATEPORT_CITY_POKEMON_FAN_CLUB",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8FC"
+    ],
+    "source_blockdata_sha256": "11a86473608e55599d4f4aec100ea30ddc67f217bf2ceea5c167d4ddef7ac39d",
+    "current_blockdata_sha256": "7f371c04fd973e0e109787462f2f528f901e3fa030b1cf283cf2733316e5681b",
+    "header_pointer": "0x08483184",
+    "layout_pointer": "0x0842963C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 46,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_SternsShipyard_1F",
+    "donor_id": "9.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      21,
+      15
+    ],
+    "donor_dimensions": [
+      21,
+      15
+    ],
+    "layout": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "source_blockdata_sha256": "3a67adf632a7aa6528b5fc4d094b41f07c78a7c17c27bd63d2046c6467ff14ec",
+    "current_blockdata_sha256": "3a67adf632a7aa6528b5fc4d094b41f07c78a7c17c27bd63d2046c6467ff14ec",
+    "header_pointer": "0x084830DC",
+    "layout_pointer": "0x08429280",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  },
+  {
+    "map": "SlateportCity_SternsShipyard_2F",
+    "donor_id": "9.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      17,
+      15
+    ],
+    "donor_dimensions": [
+      17,
+      15
+    ],
+    "layout": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "source_blockdata_sha256": "0c64f99d0726ce5b90906e5beba166a53e8acd41573936581bdb6fee9b0f8672",
+    "current_blockdata_sha256": "0c64f99d0726ce5b90906e5beba166a53e8acd41573936581bdb6fee9b0f8672",
+    "header_pointer": "0x084830F8",
+    "layout_pointer": "0x084294A0",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts",
+    "dimensions_match": true
+  }
+]

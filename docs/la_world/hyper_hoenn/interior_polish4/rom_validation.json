@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "linked_maps": 780,
+  "linked_tilesets": 213,
+  "linked_objects": 2681,
+  "linked_warps": 2577,
+  "linked_connections": 262,
+  "native_cell_contracts_checked": 30160,
+  "canonical_asset_ports": 127,
+  "animation": {
+    "callbacks": 21,
+    "paired_hoenn_combinations": 29,
+    "ticks_per_case": 256,
+    "sanitizers": "address,undefined",
+    "result": "Validated 6252 DMA frame transfers."
+  },
+  "rom_sha256": "0bee08a84e22c85a1d15cfb80ba60bae46dffbc7764d3e55ef1d2a2ba00018ca",
+  "rom_bytes": 33554432,
+  "runtime_verified": false
+}

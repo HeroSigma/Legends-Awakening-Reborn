@@ -1,0 +1,1577 @@
+[
+  {
+    "map": "AquaHideout_1F",
+    "slot": 0,
+    "event": {
+      "x": 13,
+      "y": 27,
+      "elevation": 1,
+      "dest_map": "MAP_LILYCOVE_CITY",
+      "dest_warp_id": "6"
+    },
+    "cell": {
+      "x": 13,
+      "y": 27,
+      "metatile": 513,
+      "block": 4609,
+      "collision": 0,
+      "elevation": 1,
+      "translated_behavior": 109,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_1F",
+    "slot": 1,
+    "event": {
+      "x": 14,
+      "y": 27,
+      "elevation": 1,
+      "dest_map": "MAP_LILYCOVE_CITY",
+      "dest_warp_id": "6"
+    },
+    "cell": {
+      "x": 14,
+      "y": 27,
+      "metatile": 402,
+      "block": 4498,
+      "collision": 0,
+      "elevation": 1,
+      "translated_behavior": 21,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_1F",
+    "slot": 2,
+    "event": {
+      "x": 22,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 22,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 0,
+    "event": {
+      "x": 29,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_1F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 29,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 1,
+    "event": {
+      "x": 18,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 18,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 2,
+    "event": {
+      "x": 12,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 12,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 3,
+    "event": {
+      "x": 3,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 3,
+      "y": 3,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 4,
+    "event": {
+      "x": 31,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "7"
+    },
+    "cell": {
+      "x": 31,
+      "y": 4,
+      "metatile": 1022,
+      "block": 13310,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 5,
+    "event": {
+      "x": 27,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "8"
+    },
+    "cell": {
+      "x": 27,
+      "y": 4,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 6,
+    "event": {
+      "x": 20,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "10"
+    },
+    "cell": {
+      "x": 20,
+      "y": 4,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 7,
+    "event": {
+      "x": 29,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 29,
+      "y": 12,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 8,
+    "event": {
+      "x": 3,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "5"
+    },
+    "cell": {
+      "x": 3,
+      "y": 15,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 9,
+    "event": {
+      "x": 3,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "12"
+    },
+    "cell": {
+      "x": 3,
+      "y": 20,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 10,
+    "event": {
+      "x": 32,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "6"
+    },
+    "cell": {
+      "x": 32,
+      "y": 19,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 11,
+    "event": {
+      "x": 23,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "22"
+    },
+    "cell": {
+      "x": 23,
+      "y": 10,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 12,
+    "event": {
+      "x": 45,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "9"
+    },
+    "cell": {
+      "x": 45,
+      "y": 3,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 13,
+    "event": {
+      "x": 42,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "18"
+    },
+    "cell": {
+      "x": 42,
+      "y": 5,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 14,
+    "event": {
+      "x": 45,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "12"
+    },
+    "cell": {
+      "x": 45,
+      "y": 5,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 15,
+    "event": {
+      "x": 48,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "16"
+    },
+    "cell": {
+      "x": 48,
+      "y": 5,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 16,
+    "event": {
+      "x": 42,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "15"
+    },
+    "cell": {
+      "x": 42,
+      "y": 9,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 17,
+    "event": {
+      "x": 45,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "20"
+    },
+    "cell": {
+      "x": 45,
+      "y": 9,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 18,
+    "event": {
+      "x": 48,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "13"
+    },
+    "cell": {
+      "x": 48,
+      "y": 9,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 19,
+    "event": {
+      "x": 42,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "24"
+    },
+    "cell": {
+      "x": 42,
+      "y": 13,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 20,
+    "event": {
+      "x": 45,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "17"
+    },
+    "cell": {
+      "x": 45,
+      "y": 13,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 21,
+    "event": {
+      "x": 48,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "12"
+    },
+    "cell": {
+      "x": 48,
+      "y": 13,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 22,
+    "event": {
+      "x": 42,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "11"
+    },
+    "cell": {
+      "x": 42,
+      "y": 17,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 23,
+    "event": {
+      "x": 45,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "17"
+    },
+    "cell": {
+      "x": 45,
+      "y": 17,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "slot": 24,
+    "event": {
+      "x": 48,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "19"
+    },
+    "cell": {
+      "x": 48,
+      "y": 17,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 0,
+    "event": {
+      "x": 18,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 18,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 1,
+    "event": {
+      "x": 12,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 12,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 2,
+    "event": {
+      "x": 3,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 3,
+      "y": 3,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 3,
+    "event": {
+      "x": 31,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "5"
+    },
+    "cell": {
+      "x": 31,
+      "y": 8,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 4,
+    "event": {
+      "x": 8,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "8"
+    },
+    "cell": {
+      "x": 8,
+      "y": 8,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 5,
+    "event": {
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 5,
+      "y": 8,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 6,
+    "event": {
+      "x": 18,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "7"
+    },
+    "cell": {
+      "x": 18,
+      "y": 13,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 7,
+    "event": {
+      "x": 12,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "6"
+    },
+    "cell": {
+      "x": 12,
+      "y": 13,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 8,
+    "event": {
+      "x": 31,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 31,
+      "y": 17,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "slot": 9,
+    "event": {
+      "x": 32,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 32,
+      "y": 20,
+      "metatile": 735,
+      "block": 13023,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 103,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 0,
+    "event": {
+      "x": 17,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE122",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 17,
+      "y": 18,
+      "metatile": 518,
+      "block": 12806,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 1,
+    "event": {
+      "x": 3,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_EXTERIOR",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 3,
+      "y": 6,
+      "metatile": 518,
+      "block": 12806,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 2,
+    "event": {
+      "x": 18,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE122",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 18,
+      "y": 18,
+      "metatile": 519,
+      "block": 12807,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 3,
+    "event": {
+      "x": 4,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_EXTERIOR",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 4,
+      "y": 6,
+      "metatile": 519,
+      "block": 12807,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 4,
+    "event": {
+      "x": 11,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_2F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 11,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_1F",
+    "slot": 5,
+    "event": {
+      "x": 20,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_2F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 20,
+      "y": 9,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_2F",
+    "slot": 0,
+    "event": {
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_1F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 2,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_2F",
+    "slot": 1,
+    "event": {
+      "x": 10,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 10,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_2F",
+    "slot": 2,
+    "event": {
+      "x": 10,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 10,
+      "y": 12,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_2F",
+    "slot": 3,
+    "event": {
+      "x": 6,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "5"
+    },
+    "cell": {
+      "x": 6,
+      "y": 12,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_2F",
+    "slot": 4,
+    "event": {
+      "x": 11,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_1F",
+      "dest_warp_id": "5"
+    },
+    "cell": {
+      "x": 11,
+      "y": 9,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 0,
+    "event": {
+      "x": 10,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_2F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 10,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 1,
+    "event": {
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 2,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 2,
+    "event": {
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 9,
+      "y": 10,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 3,
+    "event": {
+      "x": 1,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "5"
+    },
+    "cell": {
+      "x": 1,
+      "y": 12,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 4,
+    "event": {
+      "x": 10,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_2F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 10,
+      "y": 12,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_3F",
+    "slot": 5,
+    "event": {
+      "x": 6,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_2F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 6,
+      "y": 12,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 0,
+    "event": {
+      "x": 10,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_5F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 10,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 1,
+    "event": {
+      "x": 2,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 2,
+      "y": 5,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 2,
+    "event": {
+      "x": 12,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_5F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 12,
+      "y": 10,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 3,
+    "event": {
+      "x": 12,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_5F",
+      "dest_warp_id": "4"
+    },
+    "cell": {
+      "x": 12,
+      "y": 12,
+      "metatile": 742,
+      "block": 13030,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 4,
+    "event": {
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 9,
+      "y": 10,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_4F",
+    "slot": 5,
+    "event": {
+      "x": 2,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_3F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 2,
+      "y": 12,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_5F",
+    "slot": 0,
+    "event": {
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_6F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 2,
+      "y": 1,
+      "metatile": 700,
+      "block": 12988,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_5F",
+    "slot": 1,
+    "event": {
+      "x": 10,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 10,
+      "y": 5,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_5F",
+    "slot": 2,
+    "event": {
+      "x": 0,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_6F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 0,
+      "y": 10,
+      "metatile": 743,
+      "block": 13031,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 8,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_5F",
+    "slot": 3,
+    "event": {
+      "x": 12,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 12,
+      "y": 10,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_5F",
+    "slot": 4,
+    "event": {
+      "x": 12,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_4F",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 12,
+      "y": 12,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_6F",
+    "slot": 0,
+    "event": {
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_5F",
+      "dest_warp_id": "0"
+    },
+    "cell": {
+      "x": 2,
+      "y": 1,
+      "metatile": 716,
+      "block": 13004,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_6F",
+    "slot": 1,
+    "event": {
+      "x": 1,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_5F",
+      "dest_warp_id": "2"
+    },
+    "cell": {
+      "x": 1,
+      "y": 10,
+      "metatile": 1010,
+      "block": 13298,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 15,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_6F",
+    "slot": 2,
+    "event": {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_50_ULTRA_SPACE",
+      "dest_warp_id": "3"
+    },
+    "cell": {
+      "x": 6,
+      "y": 7,
+      "metatile": 982,
+      "block": 982,
+      "collision": 0,
+      "elevation": 0,
+      "translated_behavior": 96,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_Exterior",
+    "slot": 0,
+    "event": {
+      "x": 10,
+      "y": 42,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_1F",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 10,
+      "y": 42,
+      "metatile": 167,
+      "block": 12455,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 96,
+      "layer": 1
+    }
+  },
+  {
+    "map": "MtPyre_Exterior",
+    "slot": 1,
+    "event": {
+      "x": 19,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_SUMMIT",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 19,
+      "y": 10,
+      "metatile": 686,
+      "block": 12974,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 100,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_Exterior",
+    "slot": 2,
+    "event": {
+      "x": 20,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_SUMMIT",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 20,
+      "y": 10,
+      "metatile": 687,
+      "block": 12975,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 100,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_Summit",
+    "slot": 0,
+    "event": {
+      "x": 22,
+      "y": 31,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_EXTERIOR",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 22,
+      "y": 31,
+      "metatile": 718,
+      "block": 13006,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_Summit",
+    "slot": 1,
+    "event": {
+      "x": 23,
+      "y": 31,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_EXTERIOR",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 23,
+      "y": 31,
+      "metatile": 679,
+      "block": 12967,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  },
+  {
+    "map": "MtPyre_Summit",
+    "slot": 2,
+    "event": {
+      "x": 24,
+      "y": 31,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_EXTERIOR",
+      "dest_warp_id": "1"
+    },
+    "cell": {
+      "x": 24,
+      "y": 31,
+      "metatile": 719,
+      "block": 13007,
+      "collision": 0,
+      "elevation": 3,
+      "translated_behavior": 101,
+      "layer": 0
+    }
+  }
+]

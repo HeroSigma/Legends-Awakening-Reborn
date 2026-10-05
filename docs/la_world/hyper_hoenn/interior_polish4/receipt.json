@@ -1,0 +1,12 @@
+{
+  "schema": "hoenn-interior-polish-v1",
+  "batch": 4,
+  "changed_files": {
+    "data/maps/LilycoveCity_DepartmentStore_1F/map.json": {
+      "before": "1f3102a43b16ed273d1d8c7f09dd018e1b75b5c5c8faf7247a8bae6a933a8b55",
+      "after": "d9a6b628dba0d0e42df7040ed66319c54ec3529fa70022f79e4bf060d04ac42f"
+    }
+  },
+  "hyper_gameplay_imported": false,
+  "runtime_verified": false
+}

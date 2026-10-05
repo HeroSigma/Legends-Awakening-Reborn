@@ -1,0 +1,16 @@
+[
+  {
+    "map": "LilycoveCity_DepartmentStore_1F",
+    "event": "FloorNamesSign",
+    "before": [
+      0,
+      8
+    ],
+    "after": [
+      2,
+      2
+    ],
+    "script": "LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign",
+    "reason": "Original y=8 lies outside 18x8 Hyper layout. Visible 1F directory occupies metatile 671 at (2,2); approach (2,3) is clear floor. Existing NORTH-facing interaction and native script preserved."
+  }
+]

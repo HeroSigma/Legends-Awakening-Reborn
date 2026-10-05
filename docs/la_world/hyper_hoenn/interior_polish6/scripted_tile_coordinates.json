@@ -1,0 +1,567 @@
+{
+  "checked": 112,
+  "issues": [],
+  "commands": [
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 1, METATILE_BattlePike_Curtain_Stage1_Tile0, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 2, METATILE_BattlePike_Curtain_Stage1_Tile1, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 2, METATILE_BattlePike_Curtain_Stage1_Tile2, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 2, METATILE_BattlePike_Curtain_Stage1_Tile3, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 3, METATILE_BattlePike_Curtain_Stage1_Tile4, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 3, METATILE_BattlePike_Curtain_Stage1_Tile5, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 3, METATILE_BattlePike_Curtain_Stage1_Tile6, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 1, METATILE_BattlePike_Curtain_Stage2_Tile0, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 2, METATILE_BattlePike_Curtain_Stage2_Tile1, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 2, METATILE_BattlePike_Curtain_Stage2_Tile2, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 2, METATILE_BattlePike_Curtain_Stage2_Tile3, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 3, METATILE_BattlePike_Curtain_Stage2_Tile4, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 3, METATILE_BattlePike_Curtain_Stage2_Tile5, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 3, METATILE_BattlePike_Curtain_Stage2_Tile6, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 1, METATILE_BattlePike_Curtain_Stage3_Tile0, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 2, METATILE_BattlePike_Curtain_Stage3_Tile1, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 2, METATILE_BattlePike_Curtain_Stage3_Tile2, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 2, METATILE_BattlePike_Curtain_Stage3_Tile3, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 3, METATILE_BattlePike_Curtain_Stage3_Tile4, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 3, METATILE_BattlePike_Curtain_Stage3_Tile5, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 3, METATILE_BattlePike_Curtain_Stage3_Tile6, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 1, METATILE_BattlePike_Curtain_Stage0_Tile0, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 2, METATILE_BattlePike_Curtain_Stage0_Tile1, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 2, METATILE_BattlePike_Curtain_Stage0_Tile2, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 2, METATILE_BattlePike_Curtain_Stage0_Tile3, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 3, 3, METATILE_BattlePike_Curtain_Stage0_Tile4, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 4, 3, METATILE_BattlePike_Curtain_Stage0_Tile5, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "command": "setmetatile 5, 3, METATILE_BattlePike_Curtain_Stage0_Tile6, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerCorridor",
+      "command": "setmetatile 12, 0, METATILE_BattleFrontier_CorridorOpenDoor_Top, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerCorridor",
+      "command": "setmetatile 12, 1, METATILE_BattleFrontier_CorridorOpenDoor_Bottom, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerCorridor",
+      "command": "setmetatile 15, 0, METATILE_BattleFrontier_CorridorOpenDoor_Top, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerCorridor",
+      "command": "setmetatile 15, 1, METATILE_BattleFrontier_CorridorOpenDoor_Bottom, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 3, 11, METATILE_MauvilleGym_RedBeamV1_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 3, 12, METATILE_MauvilleGym_RedBeamV2_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 3, 13, METATILE_MauvilleGym_PoleTop_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 10, METATILE_MauvilleGym_RedBeamH1_On, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 10, METATILE_MauvilleGym_RedBeamH2_On, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 11, METATILE_MauvilleGym_RedBeamH3_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 11, METATILE_MauvilleGym_RedBeamH4_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 7, 10, METATILE_MauvilleGym_RedBeamH1_On, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 8, 10, METATILE_MauvilleGym_RedBeamH2_On, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 7, 11, METATILE_MauvilleGym_RedBeamH3_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 8, 11, METATILE_MauvilleGym_RedBeamH4_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 13, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 13, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 14, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 14, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 1, 10, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 2, 10, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 1, 11, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 2, 11, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 6, 8, METATILE_MauvilleGym_PoleBottom_On, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 6, 9, METATILE_MauvilleGym_FloorTile, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 6, 10, METATILE_MauvilleGym_PoleTop_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 6, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 6, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 4, 7, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MauvilleCity_Gym",
+      "command": "setmetatile 5, 7, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 5, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 2, 7, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 14, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 10, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 15, 17, METATILE_RSMossdeepGym_RedArrow_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 17, 15, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 1, 23, METATILE_RSMossdeepGym_RedArrow_Up, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 24, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 5, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 2, 7, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 5, METATILE_RSMossdeepGym_RedArrow_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 2, 7, METATILE_RSMossdeepGym_Switch_Up, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 14, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 10, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 14, METATILE_RSMossdeepGym_RedArrow_Down, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 8, 10, METATILE_RSMossdeepGym_Switch_Up, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 15, 17, METATILE_RSMossdeepGym_RedArrow_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 17, 15, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 15, 17, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 17, 15, METATILE_RSMossdeepGym_Switch_Up, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 1, 23, METATILE_RSMossdeepGym_RedArrow_Up, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 24, METATILE_RSMossdeepGym_Switch_Down, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 1, 23, METATILE_RSMossdeepGym_RedArrow_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "MossdeepCity_Gym",
+      "command": "setmetatile 5, 24, METATILE_RSMossdeepGym_Switch_Up, TRUE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 85, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 85, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 98, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 98, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 46, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 46, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 59, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 59, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 59, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 59, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 72, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 72, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 20, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 20, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 20, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 20, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 33, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 33, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 33, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 33, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 1, 7, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 2, 7, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 6, 7, METATILE_PetalburgGym_RoomEntrance_Left, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "command": "setmetatile 7, 7, METATILE_PetalburgGym_RoomEntrance_Right, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 4, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 5, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 10, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 11, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 15, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    },
+    {
+      "map": "SootopolisCity_Gym_1F",
+      "command": "setmetatile 8, 16, METATILE_SootopolisGym_Stairs, FALSE",
+      "in_bounds": true
+    }
+  ],
+  "scope": "Literal setmetatile coordinates only; variable coordinates and runtime C mechanics are outside this scan."
+}

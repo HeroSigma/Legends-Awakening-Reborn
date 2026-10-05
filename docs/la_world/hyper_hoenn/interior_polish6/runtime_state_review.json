@@ -1,0 +1,502 @@
+[
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_PIKE_ROOM_NPC_1",
+        "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+        "x": 4,
+        "y": 4,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattlePikeRoomNormal_EventScript_NPC",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 4,
+        "y": 4,
+        "metatile": 740,
+        "block": 13028,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_PIKE_ROOM_NPC_2",
+        "graphics_id": "OBJ_EVENT_GFX_VAR_1",
+        "x": 3,
+        "y": 4,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattlePikeRoomNormal_EventScript_StatusMon",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 3,
+        "y": 4,
+        "metatile": 739,
+        "block": 13027,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattlePikeThreePathRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_LINK_RECEPTIONIST",
+        "x": 4,
+        "y": 10,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattlePikeThreePathRoom_EventScript_Attendant",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 4,
+        "y": 10,
+        "metatile": 736,
+        "block": 13024,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattlePikeThreePathRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_PIKE_HINT_GIVER",
+        "graphics_id": "OBJ_EVENT_GFX_LINK_RECEPTIONIST",
+        "x": 8,
+        "y": 5,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattlePikeThreePathRoom_EventScript_HintGiver",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 8,
+        "y": 5,
+        "metatile": 730,
+        "block": 13018,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattlePyramidTop",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_PYRAMID_TOP_ATTENDANT",
+        "graphics_id": "OBJ_EVENT_GFX_HIKER",
+        "x": 17,
+        "y": 11,
+        "elevation": 6,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "3",
+        "script": "BattleFrontier_BattlePyramidTop_EventScript_Attendant",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 17,
+        "y": 11,
+        "metatile": 601,
+        "block": 25177,
+        "collision": 0,
+        "elevation": 6,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattlePyramidTop/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_TOWER_PARTNER_ROOM_ATTENDANT",
+        "graphics_id": "OBJ_EVENT_GFX_TEALA",
+        "x": 11,
+        "y": 2,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Attendant",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 11,
+        "y": 2,
+        "metatile": 515,
+        "block": 12803,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+        "x": 2,
+        "y": 10,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner1",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1"
+      },
+      "cell": {
+        "x": 2,
+        "y": 10,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_1",
+        "x": 17,
+        "y": 11,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner2",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2"
+      },
+      "cell": {
+        "x": 17,
+        "y": 11,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_2",
+        "x": 6,
+        "y": 9,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner3",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
+      },
+      "cell": {
+        "x": 6,
+        "y": 9,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_3",
+        "x": 8,
+        "y": 13,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner4",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
+      },
+      "cell": {
+        "x": 8,
+        "y": 13,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_4",
+        "x": 10,
+        "y": 11,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_UP",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner5",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5"
+      },
+      "cell": {
+        "x": 10,
+        "y": 11,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_5",
+        "x": 13,
+        "y": 10,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner6",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6"
+      },
+      "cell": {
+        "x": 13,
+        "y": 10,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_6",
+        "x": 15,
+        "y": 13,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_LEFT",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner7",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1"
+      },
+      "cell": {
+        "x": 15,
+        "y": 13,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_VAR_7",
+        "x": 4,
+        "y": 12,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+        "movement_range_x": 1,
+        "movement_range_y": 1,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8",
+        "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2"
+      },
+      "cell": {
+        "x": 4,
+        "y": 12,
+        "metatile": 512,
+        "block": 12800,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "No static warp roots. Native facility hooks/scripted travel own entry and actor state; this BFS cannot establish player reachability.",
+    "source": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "MauvilleCity_Gym",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_WATTSON",
+        "x": 5,
+        "y": 2,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "MauvilleCity_Gym_EventScript_Wattson",
+        "flag": "FLAG_HIDE_MAUVILLE_GYM_WATTSON"
+      },
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 550,
+        "block": 550,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "Wattson is behind native switch-controlled electric barriers. Native script deactivates/updates barriers; base-layout BFS is not a completed-puzzle state.",
+    "source": "data/maps/MauvilleCity_Gym/scripts.inc",
+    "runtime_verified": false
+  }
+]

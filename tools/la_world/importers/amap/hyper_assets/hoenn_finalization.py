@@ -97,6 +97,7 @@ def apply():
 def audit():
  rec=load(O/'receipt.json');later_path=R/'.la_work/amap/hyper_sinnoh_asset_travel/receipt.json';later=load(later_path) if later_path.exists() else None
  fixpath=R/'.la_work/amap/hyper_sinnoh_id_correction/receipt.json';fix=load(fixpath) if fixpath.exists() else None
+ polish_receipts=[load(p) for p in sorted((R/'docs/la_world/hyper_hoenn').glob('interior_polish*/receipt.json'))]
  for f,h in rec['baseline'].items():
   expected=rec['changed_baseline_files'].get(f,{}).get('after',h)
   if later and f in later['changed_baseline_files']:
@@ -105,6 +106,9 @@ def audit():
    for changes in [fix['user_edits'],fix['changed_files']]:
     if f in changes:
      change=changes[f];assert change['before']==expected,('Correction chain',f);expected=change['after']
+  for polish in polish_receipts:
+   if f in polish['changed_files']:
+    change=polish['changed_files'][f];assert change['before']==expected,('Interior polish receipt chain',f);expected=change['after']
   assert (digest(R/f) if (R/f).exists() else None)==expected,('Protected baseline changed',f)
  data=load(O/'reconciliation.json');maps={p.parent.name:load(p) for p in (R/'data/maps').glob('*/map.json') if 'id' in load(p)};ids={m['id']:n for n,m in maps.items()};ls={x['id']:x for x in load(R/'data/layouts/layouts.json')['layouts']};header=(R/'src/data/tilesets/headers.h').read_text();meta=(R/'src/data/tilesets/metatiles.h').read_text();gates=[];specials={n for n in maps if n.startswith('HyperHoenn_')};roots=set();edges={}
  for n,m in maps.items():

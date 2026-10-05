@@ -1,0 +1,26 @@
+{
+  "rooms": 47,
+  "warp_arrivals": 119,
+  "native_dynamic_warps": [],
+  "conditional_layout_warps": [
+    {
+      "map": "SootopolisCity_MysteryEventsHouse_B1F",
+      "warp": {
+        "x": 3,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
+        "dest_warp_id": "2"
+      },
+      "destination": "SootopolisCity_MysteryEventsHouse_1F",
+      "runtime_layouts_with_clear_arrival": [
+        "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F_STAIRS_UNBLOCKED"
+      ],
+      "status": "Requires native scripted layout state; runtime testing pending"
+    }
+  ],
+  "active_actors": 117,
+  "bg_events": 9,
+  "issues": [],
+  "scope": "Static floor/counter reachability; native flags and script-controlled movement retained; runtime story/service testing remains necessary."
+}

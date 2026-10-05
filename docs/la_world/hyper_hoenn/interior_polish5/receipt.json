@@ -1,0 +1,12 @@
+{
+  "schema": "hoenn-interior-polish-v1",
+  "batch": 5,
+  "changed_files": {
+    "data/maps/EverGrandeCity_PokemonLeague_1F/map.json": {
+      "before": "235177d378e03d82a3e2473decbd5fbc91d7e1fb3c457bf58dc9b25945a011b7",
+      "after": "85be36e7a39fe1f18c1e93aa25d6d5198714e13b873dc21fcca98fac5bd6fe62"
+    }
+  },
+  "hyper_gameplay_imported": false,
+  "runtime_verified": false
+}

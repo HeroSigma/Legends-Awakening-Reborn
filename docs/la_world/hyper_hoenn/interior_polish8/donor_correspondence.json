@@ -1,0 +1,266 @@
+[
+  {
+    "map": "AquaHideout_1F",
+    "donor_id": "24.23",
+    "dimensions": [
+      28,
+      30
+    ],
+    "donor_dimensions": [
+      28,
+      30
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_AQUA_HIDEOUT_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x08484144",
+    "layout_pointer": "0x084354A8",
+    "source_blockdata_sha256": "d618b24649578cfe87ebaa119bb575cd2409b9a34711270957545fe4a8c11fb1",
+    "current_blockdata_sha256": "d618b24649578cfe87ebaa119bb575cd2409b9a34711270957545fe4a8c11fb1",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "AquaHideout_B1F",
+    "donor_id": "24.24",
+    "dimensions": [
+      51,
+      24
+    ],
+    "donor_dimensions": [
+      51,
+      24
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_AQUA_HIDEOUT_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Canary9_AquaHideout_B1F_Portals"
+    ],
+    "exact_donor_blockdata": false,
+    "header_pointer": "0x08484160",
+    "layout_pointer": "0x08435E58",
+    "source_blockdata_sha256": "99ca5264cab9d89bb7e6abd58d9f75d2556c08672f2316283b232cef1e829aeb",
+    "current_blockdata_sha256": "c40e3fa3d6de23d49e9e7e43d3c98f23263ee0e2d831e239a133fab2030acc7d",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "AquaHideout_B2F",
+    "donor_id": "24.25",
+    "dimensions": [
+      34,
+      24
+    ],
+    "donor_dimensions": [
+      34,
+      24
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_AQUA_HIDEOUT_B2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x0848417C",
+    "layout_pointer": "0x084364D8",
+    "source_blockdata_sha256": "201a1294c9bdc0291754b1e92809e286e66a04352ef9658d3f7de87bfd773f15",
+    "current_blockdata_sha256": "201a1294c9bdc0291754b1e92809e286e66a04352ef9658d3f7de87bfd773f15",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_1F",
+    "donor_id": "24.15",
+    "dimensions": [
+      22,
+      19
+    ],
+    "donor_dimensions": [
+      22,
+      19
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x08484064",
+    "layout_pointer": "0x084346B4",
+    "source_blockdata_sha256": "8dcbdef69556eec041b61322c7b01215effb9c718dc60a16d8014fbe3434fa2e",
+    "current_blockdata_sha256": "8dcbdef69556eec041b61322c7b01215effb9c718dc60a16d8014fbe3434fa2e",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_2F",
+    "donor_id": "24.16",
+    "dimensions": [
+      13,
+      13
+    ],
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x08484080",
+    "layout_pointer": "0x08434828",
+    "source_blockdata_sha256": "a18b76fd26877da86483e7571869ecff10694b6c8325372e618869d99f153d72",
+    "current_blockdata_sha256": "a18b76fd26877da86483e7571869ecff10694b6c8325372e618869d99f153d72",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_3F",
+    "donor_id": "24.17",
+    "dimensions": [
+      13,
+      13
+    ],
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_3F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x0848409C",
+    "layout_pointer": "0x0843499C",
+    "source_blockdata_sha256": "090c8499bc116e9096627cded165622853840b4424784a67ce9e2e5ff96a4760",
+    "current_blockdata_sha256": "090c8499bc116e9096627cded165622853840b4424784a67ce9e2e5ff96a4760",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_4F",
+    "donor_id": "24.18",
+    "dimensions": [
+      13,
+      13
+    ],
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_4F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x084840B8",
+    "layout_pointer": "0x08434B10",
+    "source_blockdata_sha256": "ad529c82e488b44929c857acaede025dd06fb53db880403eb00918bd876f93ac",
+    "current_blockdata_sha256": "ad529c82e488b44929c857acaede025dd06fb53db880403eb00918bd876f93ac",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_5F",
+    "donor_id": "24.19",
+    "dimensions": [
+      13,
+      13
+    ],
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_5F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x084840D4",
+    "layout_pointer": "0x08434C84",
+    "source_blockdata_sha256": "7b7cf5603e4b57458c27ea7ff7df7ce445ef1d58b15a81e76ef665ee85b4ecb5",
+    "current_blockdata_sha256": "7b7cf5603e4b57458c27ea7ff7df7ce445ef1d58b15a81e76ef665ee85b4ecb5",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_6F",
+    "donor_id": "24.20",
+    "dimensions": [
+      13,
+      13
+    ],
+    "donor_dimensions": [
+      13,
+      13
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_6F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x084840F0",
+    "layout_pointer": "0x08434DF8",
+    "source_blockdata_sha256": "7bfc698792216084b61ee50fdb4e5fea4e676fb231f45645e71f2ee1aa330fce",
+    "current_blockdata_sha256": "7bfc698792216084b61ee50fdb4e5fea4e676fb231f45645e71f2ee1aa330fce",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_Exterior",
+    "donor_id": "24.21",
+    "dimensions": [
+      38,
+      51
+    ],
+    "donor_dimensions": [
+      38,
+      51
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_EXTERIOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x0848410C",
+    "layout_pointer": "0x084582AC",
+    "source_blockdata_sha256": "08caad7651998bea20d7f46f33a32522b904192e3367c80a76d8238ba6ce719c",
+    "current_blockdata_sha256": "08caad7651998bea20d7f46f33a32522b904192e3367c80a76d8238ba6ce719c",
+    "ownership": "Expansion/project scripts and gameplay"
+  },
+  {
+    "map": "MtPyre_Summit",
+    "donor_id": "24.22",
+    "dimensions": [
+      50,
+      37
+    ],
+    "donor_dimensions": [
+      50,
+      37
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_MT_PYRE_SUMMIT",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF9BC"
+    ],
+    "exact_donor_blockdata": true,
+    "header_pointer": "0x08484128",
+    "layout_pointer": "0x08459140",
+    "source_blockdata_sha256": "78128e193f5a37e3b06ba96ca5ae908cc2e0b20a0a32c5856a4b55aea4437c3c",
+    "current_blockdata_sha256": "78128e193f5a37e3b06ba96ca5ae908cc2e0b20a0a32c5856a4b55aea4437c3c",
+    "ownership": "Expansion/project scripts and gameplay"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "map": "EverGrandeCity_PokemonLeague_1F",
+    "event": "Clerk",
+    "before": [
+      16,
+      2
+    ],
+    "after": [
+      16,
+      6
+    ],
+    "reason": "Visible shop counter at (16,7) has MB_COUNTER=128; (16,6) is clear elevation-3 clerk floor and (16,8) is reachable player floor. Original coordinate was in sealed north alcove. Native script, inventory, identity and event ordering preserved."
+  }
+]

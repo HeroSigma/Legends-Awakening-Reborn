@@ -1,0 +1,411 @@
+{
+  "rooms": 126,
+  "warp_arrivals": 490,
+  "native_dynamic_warps": [],
+  "conditional_layout_warps": [],
+  "active_actors": 120,
+  "bg_events": 0,
+  "issues": [
+    {
+      "map": "HyperHoenn_34_12_Unown_Ruins",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_34_12__UNOWN__RUINS_REGISTERED_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 7,
+        "y": 10,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_34_12_Unown_Ruins_EventScript_HyperConstruction_Registered1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 7,
+        "y": 10,
+        "metatile": 578,
+        "block": 12866,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_13_Distortion_World",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 2,
+        "y": 0,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERSINNOH_35_14_SOLACEON_RUINS",
+        "dest_warp_id": "25"
+      },
+      "destination": "HyperSinnoh_35_14_Solaceon_Ruins"
+    },
+    {
+      "map": "HyperHoenn_34_29_Ultra_Alliance",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 5,
+        "y": 13,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_34_26_ULTRA_ALLIANCE",
+        "dest_warp_id": "0"
+      },
+      "destination": "HyperHoenn_34_26_Ultra_Alliance"
+    },
+    {
+      "map": "HyperHoenn_34_30_Test_of_Heart",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 8,
+        "y": 75,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "6"
+      },
+      "destination": "EverGrandeCity"
+    },
+    {
+      "map": "HyperHoenn_34_30_Test_of_Heart",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 18,
+        "y": 75,
+        "elevation": 0,
+        "dest_map": "MAP_EVER_GRANDE_CITY",
+        "dest_warp_id": "5"
+      },
+      "destination": "EverGrandeCity"
+    },
+    {
+      "map": "HyperHoenn_34_42_Steven_s_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_34_42__STEVEN_S__ISLAND_CANARY8_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 59,
+        "y": 0,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_34_42_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 59,
+        "y": 0,
+        "metatile": 153,
+        "block": 12441,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_45_Desert_Ruins",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 37,
+        "y": 13,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERSINNOH_35_14_SOLACEON_RUINS",
+        "dest_warp_id": "25"
+      },
+      "destination": "HyperSinnoh_35_14_Solaceon_Ruins"
+    },
+    {
+      "map": "HyperHoenn_34_78_Champion_Island",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 7,
+        "y": 15,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_34_77_CHAMPION_ISLAND",
+        "dest_warp_id": "3"
+      },
+      "destination": "HyperHoenn_34_77_Champion_Island"
+    },
+    {
+      "map": "HyperHoenn_34_78_Champion_Island",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 8,
+        "y": 15,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_34_77_CHAMPION_ISLAND",
+        "dest_warp_id": "3"
+      },
+      "destination": "HyperHoenn_34_77_Champion_Island"
+    },
+    {
+      "map": "HyperHoenn_35_21_Couriway_Town",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_21__COURIWAY__TOWN_CANARY7_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 4,
+        "y": 49,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_21_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 4,
+        "y": 49,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 101,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_36_EV_Training_Cave",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_36__E_V__TRAINING__CAVE_CANARY6_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 26,
+        "y": 1,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_36_EV_Training_Cave_EventScript_HyperConstruction_Canary6_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 26,
+        "y": 1,
+        "metatile": 526,
+        "block": 12814,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_4_Rainbow_Castle",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 9,
+        "y": 15,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERHOENN_34_83_RAINBOW_CASTLE",
+        "dest_warp_id": "2"
+      },
+      "destination": "HyperHoenn_34_83_Rainbow_Castle"
+    },
+    {
+      "map": "HyperHoenn_35_57_Remote_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_57__REMOTE__ISLAND_CANARY6_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 31,
+        "y": 4,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_57_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 31,
+        "y": 4,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_59_Remote_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_59__REMOTE__ISLAND_CANARY6_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 13,
+        "y": 4,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_59_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 13,
+        "y": 4,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_6_Champion_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPERHOENN_35_6_CHAMPION_ISLAND_ASSET_TRAVEL_2",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 13,
+        "y": 3,
+        "elevation": 1,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_6_Champion_Island_EventScript_Inspect_26_59",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 13,
+        "y": 3,
+        "metatile": 348,
+        "block": 4444,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_70_Remote_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_70__REMOTE__ISLAND_CANARY6_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 0,
+        "y": 0,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_70_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 537,
+        "block": 12825,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_84_Ruins_of_Decision",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 8,
+        "y": 29,
+        "elevation": 0,
+        "dest_map": "MAP_METEOR_FALLS_1F_2R",
+        "dest_warp_id": "4"
+      },
+      "destination": "MeteorFalls_1F_2R"
+    },
+    {
+      "map": "HyperHoenn_35_8_Steven_s_Island",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_35_8__STEVEN_S__ISLAND_CANARY8_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 3,
+        "y": 50,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_35_8_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 3,
+        "y": 50,
+        "metatile": 547,
+        "block": 547,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_37_120_Ancient_Retreat",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_HYPER_HOENN_37_120__ANCIENT__RETREAT_CANARY8_CONSTRUCTION_1",
+        "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+        "x": 15,
+        "y": 0,
+        "elevation": 0,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "HyperHoenn_37_120_Ancient_Retreat_EventScript_HyperConstruction_Canary9_1",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 15,
+        "y": 0,
+        "metatile": 521,
+        "block": 521,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_37_96_Distortion_World",
+      "kind": "WARP_NO_FREE_NEIGHBOR",
+      "warp": {
+        "x": 15,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_HYPERSINNOH_35_14_SOLACEON_RUINS",
+        "dest_warp_id": "25"
+      },
+      "destination": "HyperSinnoh_35_14_Solaceon_Ruins"
+    }
+  ],
+  "scope": "Static floor/counter reachability; native flags and script-controlled movement retained; runtime story/service testing remains necessary."
+}

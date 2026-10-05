@@ -1,0 +1,21 @@
+review_id,status,map,kind,action
+1,OPEN,HyperHoenn_34_12_Unown_Ruins,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+2,OPEN,HyperHoenn_34_13_Distortion_World,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+3,OPEN,HyperHoenn_34_29_Ultra_Alliance,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+4,OPEN,HyperHoenn_34_30_Test_of_Heart,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+5,OPEN,HyperHoenn_34_30_Test_of_Heart,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+6,OPEN,HyperHoenn_34_42_Steven_s_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+7,OPEN,HyperHoenn_34_45_Desert_Ruins,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+8,OPEN,HyperHoenn_34_78_Champion_Island,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+9,OPEN,HyperHoenn_34_78_Champion_Island,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+10,OPEN,HyperHoenn_35_21_Couriway_Town,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+11,OPEN,HyperHoenn_35_36_EV_Training_Cave,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+12,OPEN,HyperHoenn_35_4_Rainbow_Castle,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+13,OPEN,HyperHoenn_35_57_Remote_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+14,OPEN,HyperHoenn_35_59_Remote_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+15,OPEN,HyperHoenn_35_6_Champion_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+16,OPEN,HyperHoenn_35_70_Remote_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+17,OPEN,HyperHoenn_35_84_Ruins_of_Decision,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."
+18,OPEN,HyperHoenn_35_8_Steven_s_Island,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+19,OPEN,HyperHoenn_37_120_Ancient_Retreat,NPC_NO_TALK_APPROACH,Inspect connection/script entry and reachable scientist approach. Static warp-root BFS is insufficient to clear this finding.
+20,OPEN,HyperHoenn_37_96_Distortion_World,WARP_NO_FREE_NEIGHBOR,"Inspect source geometry, arrival facing and project travel state before opening this route."

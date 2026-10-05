@@ -1,0 +1,132 @@
+[
+  {
+    "raw_finding": {
+      "map": "InsideOfTruck",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_TRUCK_BOX_TOP",
+        "graphics_id": "OBJ_EVENT_GFX_MOVING_BOX",
+        "x": 0,
+        "y": 0,
+        "elevation": 8,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "InsideOfTruck_EventScript_MovingBox",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 513,
+        "block": 1537,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "DECORATIVE_ACTOR",
+    "reason": "Native moving-box prop occupies the truck wall; do not relocate it as a talkable NPC.",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "InsideOfTruck",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "local_id": "LOCALID_TRUCK_BOX_BOTTOM_L",
+        "graphics_id": "OBJ_EVENT_GFX_MOVING_BOX",
+        "x": 0,
+        "y": 3,
+        "elevation": 8,
+        "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NONE",
+        "trainer_sight_or_berry_tree_id": "0",
+        "script": "InsideOfTruck_EventScript_MovingBox",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 537,
+        "block": 1561,
+        "collision": 1,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "DECORATIVE_ACTOR",
+    "reason": "Native moving-box prop occupies the truck wall; do not relocate it as a talkable NPC.",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "Route110_TrickHousePuzzle2",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
+        "x": 13,
+        "y": 10,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NORMAL",
+        "trainer_sight_or_berry_tree_id": "1",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Ted",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 13,
+        "y": 10,
+        "metatile": 520,
+        "block": 12808,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "Native button-controlled puzzle barriers alter access; base-layout BFS does not represent solved puzzle state.",
+    "runtime_verified": false
+  },
+  {
+    "raw_finding": {
+      "map": "Route110_TrickHousePuzzle2",
+      "kind": "NPC_NO_TALK_APPROACH",
+      "event": {
+        "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+        "x": 11,
+        "y": 9,
+        "elevation": 3,
+        "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+        "movement_range_x": 0,
+        "movement_range_y": 0,
+        "trainer_type": "TRAINER_TYPE_NORMAL",
+        "trainer_sight_or_berry_tree_id": "2",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Georgia",
+        "flag": "0"
+      },
+      "cell": {
+        "x": 11,
+        "y": 9,
+        "metatile": 520,
+        "block": 12808,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    "classification": "RUNTIME_STATE_REQUIRED",
+    "reason": "Native button-controlled puzzle barriers alter access; base-layout BFS does not represent solved puzzle state.",
+    "runtime_verified": false
+  }
+]

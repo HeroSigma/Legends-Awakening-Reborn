@@ -1,0 +1,730 @@
+[
+  {
+    "map": "FallarborTown_BattleTentBattleRoom",
+    "donor_id": "5.3",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482DCC",
+    "layout_pointer": "0x0846C148",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "83c87c78eec37f7e84f25fb94bcd978ed6f07369297ad421d5cea72da68c728d",
+    "current_blockdata_sha256": "83c87c78eec37f7e84f25fb94bcd978ed6f07369297ad421d5cea72da68c728d",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_BattleTentCorridor",
+    "donor_id": "5.2",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      5,
+      8
+    ],
+    "donor_dimensions": [
+      5,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482DB0",
+    "layout_pointer": "0x0846C074",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "477939dfd2aa42326faa5630da80fd46abe2b495752af8b117f4218f25f6d895",
+    "current_blockdata_sha256": "477939dfd2aa42326faa5630da80fd46abe2b495752af8b117f4218f25f6d895",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_BattleTentLobby",
+    "donor_id": "5.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      13,
+      10
+    ],
+    "donor_dimensions": [
+      13,
+      10
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482D94",
+    "layout_pointer": "0x0846C004",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "0c1bafa25de47e4322a225d72b1df2bea68b63cee558587833683fb0baca2412",
+    "current_blockdata_sha256": "0c1bafa25de47e4322a225d72b1df2bea68b63cee558587833683fb0baca2412",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_CozmosHouse",
+    "donor_id": "5.6",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_COZMOS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482E20",
+    "layout_pointer": "0x08426D5C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 8,
+    "source_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799",
+    "current_blockdata_sha256": "a9655e3d3b7a2a1b47f52ac1502271c5fb7c74ba0b98043ebe2c745c62667ac6",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_Mart",
+    "donor_id": "5.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "header_pointer": "0x08482D78",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_MoveRelearnersHouse",
+    "donor_id": "5.7",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482E3C",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 2,
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "current_blockdata_sha256": "a5b7d0c0fd51a6e3edc41368a2c209a5ea6df40a780f2ea3f9e6439670fdfaa0",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_PokemonCenter_1F",
+    "donor_id": "5.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482DE8",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "FallarborTown_PokemonCenter_2F",
+    "donor_id": "5.5",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_FALLARBOR_TOWN_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482E04",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "LavaridgeTown_HerbShop",
+    "donor_id": "4.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_LAVARIDGE_TOWN_HERB_SHOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "header_pointer": "0x08482CB4",
+    "layout_pointer": "0x08427918",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "b209863ea76996a96726c4944c6cd9cc98fbeccf7d1e89d65b02fecbf05da95c",
+    "current_blockdata_sha256": "b209863ea76996a96726c4944c6cd9cc98fbeccf7d1e89d65b02fecbf05da95c",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "LavaridgeTown_House",
+    "donor_id": "4.3",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      8
+    ],
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482D08",
+    "layout_pointer": "0x08427210",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "148c46624e081ff25cd2a9410f67ce2eb5c743110aa01458814451550bc07c45",
+    "current_blockdata_sha256": "148c46624e081ff25cd2a9410f67ce2eb5c743110aa01458814451550bc07c45",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "LavaridgeTown_Mart",
+    "donor_id": "4.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "header_pointer": "0x08482D24",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "LavaridgeTown_PokemonCenter_1F",
+    "donor_id": "4.5",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482D40",
+    "layout_pointer": "0x08427F84",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "845ed689f71dbcd0a13d1ac67e226bfd9b4023fc41070e0acb518bed78764481",
+    "current_blockdata_sha256": "845ed689f71dbcd0a13d1ac67e226bfd9b4023fc41070e0acb518bed78764481",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "LavaridgeTown_PokemonCenter_2F",
+    "donor_id": "4.6",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_LAVARIDGE_TOWN_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482D5C",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route111_OldLadysRestStop",
+    "donor_id": "18.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      8
+    ],
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_ROUTE111_OLD_LADYS_REST_STOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08483DC4",
+    "layout_pointer": "0x08427210",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "148c46624e081ff25cd2a9410f67ce2eb5c743110aa01458814451550bc07c45",
+    "current_blockdata_sha256": "148c46624e081ff25cd2a9410f67ce2eb5c743110aa01458814451550bc07c45",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route111_WinstrateFamilysHouse",
+    "donor_id": "18.0",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_ROUTE111_WINSTRATE_FAMILYS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08483DA8",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 2,
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "current_blockdata_sha256": "a5b7d0c0fd51a6e3edc41368a2c209a5ea6df40a780f2ea3f9e6439670fdfaa0",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route113_GlassWorkshop",
+    "donor_id": "30.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_ROUTE113_GLASS_WORKSHOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08485CB8",
+    "layout_pointer": "0x08427848",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "14f3952380e07d27630fd66c6a7c30ce3389d0a39e607168c956923759a8ba14",
+    "current_blockdata_sha256": "14f3952380e07d27630fd66c6a7c30ce3389d0a39e607168c956923759a8ba14",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route114_FossilManiacsHouse",
+    "donor_id": "20.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      10,
+      8
+    ],
+    "donor_dimensions": [
+      10,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_ROUTE114_FOSSIL_MANIACS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08483E18",
+    "layout_pointer": "0x0842E108",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "936b523165e4d87a75b078f1280b185d8e672c97888e68f8104a119209d2112f",
+    "current_blockdata_sha256": "936b523165e4d87a75b078f1280b185d8e672c97888e68f8104a119209d2112f",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route114_FossilManiacsTunnel",
+    "donor_id": "20.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      13,
+      26
+    ],
+    "donor_dimensions": [
+      13,
+      26
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_ROUTE114_FOSSIL_MANIACS_TUNNEL",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DF7AC"
+    ],
+    "header_pointer": "0x08483E34",
+    "layout_pointer": "0x0842E3CC",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ccd9011d8542ba921693035b5b26f1301e483b77a22c893f3cda863b8e453673",
+    "current_blockdata_sha256": "ccd9011d8542ba921693035b5b26f1301e483b77a22c893f3cda863b8e453673",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "Route114_LanettesHouse",
+    "donor_id": "20.2",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_ROUTE114_LANETTES_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB0C"
+    ],
+    "header_pointer": "0x08483E50",
+    "layout_pointer": "0x0842E49C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "83ddf43a799c55a3ba13dcbc3f0b724f636f51ebd10ae3ce502468a43aae8eb7",
+    "current_blockdata_sha256": "83ddf43a799c55a3ba13dcbc3f0b724f636f51ebd10ae3ce502468a43aae8eb7",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_BattleTentBattleRoom",
+    "donor_id": "6.2",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      13,
+      9
+    ],
+    "donor_dimensions": [
+      13,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482E90",
+    "layout_pointer": "0x0846C254",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "651641da12cee5771ee11c1e2ea7a828975842ab15265f33e521284cb9169895",
+    "current_blockdata_sha256": "651641da12cee5771ee11c1e2ea7a828975842ab15265f33e521284cb9169895",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_BattleTentCorridor",
+    "donor_id": "6.1",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      5,
+      8
+    ],
+    "donor_dimensions": [
+      5,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_BATTLE_TENT_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482E74",
+    "layout_pointer": "0x0846C074",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "477939dfd2aa42326faa5630da80fd46abe2b495752af8b117f4218f25f6d895",
+    "current_blockdata_sha256": "477939dfd2aa42326faa5630da80fd46abe2b495752af8b117f4218f25f6d895",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_BattleTentLobby",
+    "donor_id": "6.0",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      13,
+      10
+    ],
+    "donor_dimensions": [
+      13,
+      10
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFDCC"
+    ],
+    "header_pointer": "0x08482E58",
+    "layout_pointer": "0x0846C004",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "0c1bafa25de47e4322a225d72b1df2bea68b63cee558587833683fb0baca2412",
+    "current_blockdata_sha256": "0c1bafa25de47e4322a225d72b1df2bea68b63cee558587833683fb0baca2412",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_FriendshipRatersHouse",
+    "donor_id": "6.7",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482F1C",
+    "layout_pointer": "0x08426E2C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 2,
+    "source_blockdata_sha256": "3555c685eeded55a8869f06c63d5b81668588a30f972565f6dc8babe5e7e037c",
+    "current_blockdata_sha256": "a5b7d0c0fd51a6e3edc41368a2c209a5ea6df40a780f2ea3f9e6439670fdfaa0",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_House",
+    "donor_id": "6.8",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      10,
+      9
+    ],
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482F38",
+    "layout_pointer": "0x08426D5C",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 8,
+    "source_blockdata_sha256": "a593225fee5aa6b4f814433cc978d7c3c6ade5618656fb95ed1042ca21e08799",
+    "current_blockdata_sha256": "a9655e3d3b7a2a1b47f52ac1502271c5fb7c74ba0b98043ebe2c745c62667ac6",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_Mart",
+    "donor_id": "6.3",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      11,
+      8
+    ],
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "header_pointer": "0x08482EAC",
+    "layout_pointer": "0x08427150",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_PokemonCenter_1F",
+    "donor_id": "6.4",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      9
+    ],
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_POKEMON_CENTER_1_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482EC8",
+    "layout_pointer": "0x08426F48",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "current_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_PokemonCenter_2F",
+    "donor_id": "6.5",
+    "exact_donor_blockdata": true,
+    "dimensions": [
+      14,
+      10
+    ],
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_HYPER_CANARY5_VERDANTURF_TOWN_POKEMON_CENTER_2_F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "header_pointer": "0x08482EE4",
+    "layout_pointer": "0x08427080",
+    "metatile_id_changes": 0,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "current_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  },
+  {
+    "map": "VerdanturfTown_WandasHouse",
+    "donor_id": "6.6",
+    "exact_donor_blockdata": false,
+    "dimensions": [
+      17,
+      8
+    ],
+    "donor_dimensions": [
+      17,
+      8
+    ],
+    "dimensions_match": true,
+    "layout": "LAYOUT_VERDANTURF_TOWN_WANDAS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB6C"
+    ],
+    "header_pointer": "0x08482F00",
+    "layout_pointer": "0x08428580",
+    "metatile_id_changes": 1,
+    "runtime_bit_changes": 0,
+    "source_blockdata_sha256": "b4660ba65f4507a76e28017ed1935a37f4e9be39f98a4c266b70adf6bd90dbab",
+    "current_blockdata_sha256": "4ac057b1465fb5d4dd901d8d9c2323bceb51ccff6572836b739c8a73e244f490",
+    "ownership": "Hyper-derived geometry/graphics; expansion events and scripts"
+  }
+]

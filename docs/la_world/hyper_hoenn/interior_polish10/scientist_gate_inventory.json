@@ -1,0 +1,4618 @@
+[
+  {
+    "map": "HyperSinnoh_37_1_Twinleaf_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_1_Twinleaf_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_12_Unown_Ruins",
+    "object_index": 0,
+    "x": 7,
+    "y": 10,
+    "elevation": 0,
+    "script": "HyperHoenn_34_12_Unown_Ruins_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "AbandonedShip_HiddenFloorCorridors",
+    "object_index": 0,
+    "x": 6,
+    "y": 1,
+    "elevation": 0,
+    "script": "AbandonedShip_HiddenFloorCorridors_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_14_ABANDONED_SHIP"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_11_Spear_Pillar",
+    "object_index": 0,
+    "x": 14,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_11_Spear_Pillar_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_80_Mt_Coronet",
+    "object_index": 0,
+    "x": 7,
+    "y": 9,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_80_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_35_Route_216",
+    "object_index": 0,
+    "x": 14,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_35_Route_216_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_25_Solaceon_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_25_Solaceon_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_57_Old_Chateau",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_57_Old_Chateau_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_84_Hearthome_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_84_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MauvilleCity_BikeShop",
+    "object_index": 2,
+    "x": 11,
+    "y": 3,
+    "elevation": 0,
+    "script": "MauvilleCity_BikeShop_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_58_MT_SILVER"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_64_Couriway_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_64_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_14_Solaceon_Ruins",
+    "object_index": 0,
+    "x": 1,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_14_Solaceon_Ruins_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_34_Route_215",
+    "object_index": 0,
+    "x": 52,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_34_Route_215_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_65_Outer_Space",
+    "object_index": 0,
+    "x": 4,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_65_Outer_Space_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_98_Canalave_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_98_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_56_Old_Chateau",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_56_Old_Chateau_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_55_Fuego_Ironworks",
+    "object_index": 0,
+    "x": 21,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_55_Fuego_Ironworks_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_109_Jubilife_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_109_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_13_Distortion_World",
+    "object_index": 0,
+    "x": 9,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_34_13_Distortion_World_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_37_Steven_s_Island",
+    "object_index": 0,
+    "x": 14,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperHoenn_35_37_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MossdeepCity_House1",
+    "object_index": 2,
+    "x": 5,
+    "y": 7,
+    "elevation": 0,
+    "script": "MossdeepCity_House1_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_MOSSDEEP_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_7_Deep_Sea",
+    "object_index": 0,
+    "x": 8,
+    "y": 4,
+    "elevation": 0,
+    "script": "HyperHoenn_34_7_Deep_Sea_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_28_Champion_Island",
+    "object_index": 0,
+    "x": 5,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_35_28_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route111",
+    "object_index": 46,
+    "x": 35,
+    "y": 45,
+    "elevation": 0,
+    "script": "Route111_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_45_DESERT_RUINS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route111",
+    "object_index": 47,
+    "x": 33,
+    "y": 104,
+    "elevation": 0,
+    "script": "Route111_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_1_DRAGONSPIRAL_TOWER"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_1F_1R",
+    "object_index": 10,
+    "x": 18,
+    "y": 11,
+    "elevation": 0,
+    "script": "MeteorFalls_1F_1R_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_METEOR_FALLS_B1F_1R"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Underwater_SootopolisCity",
+    "object_index": 0,
+    "x": 9,
+    "y": 2,
+    "elevation": 0,
+    "script": "Underwater_SootopolisCity_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_7_DEEP_SEA"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_1_Sandgem_Town",
+    "object_index": 0,
+    "x": 24,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_1_Sandgem_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_65_Eterna_City",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_65_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_45_Snowpoint_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_45_Snowpoint_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_12_Snowpoint_City",
+    "object_index": 0,
+    "x": 8,
+    "y": 10,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_12_Snowpoint_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_81_Crown_Shrine",
+    "object_index": 0,
+    "x": 11,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_81_Crown_Shrine_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_17_Meteor_Temple",
+    "object_index": 0,
+    "x": 5,
+    "y": 9,
+    "elevation": 3,
+    "script": "HyperHoenn_34_17_Meteor_Temple_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_20_Hearthome_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_20_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_56_Amity_Square",
+    "object_index": 0,
+    "x": 52,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_56_Amity_Square_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_56_Remote_Island",
+    "object_index": 0,
+    "x": 14,
+    "y": 53,
+    "elevation": 0,
+    "script": "HyperHoenn_35_56_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_28_Route_211",
+    "object_index": 0,
+    "x": 2,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_28_Route_211_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_34_37_Sinnoh_League",
+    "object_index": 0,
+    "x": 7,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_34_37_Sinnoh_League_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MagmaHideout_2F_3R",
+    "object_index": 0,
+    "x": 47,
+    "y": 12,
+    "elevation": 0,
+    "script": "MagmaHideout_2F_3R_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_ROUTE112"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_49_EV_Training_Cave",
+    "object_index": 0,
+    "x": 19,
+    "y": 22,
+    "elevation": 3,
+    "script": "HyperHoenn_35_49_EV_Training_Cave_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_31_Route_213",
+    "object_index": 0,
+    "x": 16,
+    "y": 13,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_31_Route_213_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_89_Rainbow_Castle",
+    "object_index": 0,
+    "x": 3,
+    "y": 28,
+    "elevation": 3,
+    "script": "HyperHoenn_34_89_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_34_Pastoria_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_34_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_59_Great_Marsh",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_59_Great_Marsh_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_23_Solaceon_Town",
+    "object_index": 0,
+    "x": 9,
+    "y": 1,
+    "elevation": 0,
+    "script": "HyperSinnoh_37_23_Solaceon_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_44_Victory_Road",
+    "object_index": 0,
+    "x": 5,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_34_44_Victory_Road_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_48_Sunyshore_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_48_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_83_Mt_Coronet",
+    "object_index": 0,
+    "x": 9,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_83_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_49_Spring_Path",
+    "object_index": 0,
+    "x": 0,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_49_Spring_Path_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "NewMauville_Inside",
+    "object_index": 8,
+    "x": 35,
+    "y": 39,
+    "elevation": 0,
+    "script": "NewMauville_Inside_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_33_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "NewMauville_Inside",
+    "object_index": 9,
+    "x": 33,
+    "y": 13,
+    "elevation": 0,
+    "script": "NewMauville_Inside_EventScript_HyperConstruction_Canary6_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_51_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "NewMauville_Inside",
+    "object_index": 10,
+    "x": 33,
+    "y": 19,
+    "elevation": 0,
+    "script": "NewMauville_Inside_EventScript_HyperConstruction_Canary6_3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_PETALBURG_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_79_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_79_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_6_Oreburgh_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_6_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_37_102_Couriway_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_37_102_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_60_Oreburgh_City",
+    "object_index": 0,
+    "x": 6,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_60_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_13_Sunyshore_City",
+    "object_index": 0,
+    "x": 42,
+    "y": 0,
+    "elevation": 1,
+    "script": "HyperSinnoh_36_13_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_68_Veilstone_City",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_68_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_54_Mt_Silver",
+    "object_index": 0,
+    "x": 14,
+    "y": 32,
+    "elevation": 3,
+    "script": "HyperHoenn_34_54_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_45_Desert_Ruins",
+    "object_index": 0,
+    "x": 37,
+    "y": 12,
+    "elevation": 4,
+    "script": "HyperHoenn_34_45_Desert_Ruins_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_45_Desert_Ruins",
+    "object_index": 1,
+    "x": 3,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_45_Desert_Ruins_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_110_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_110_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_1F_2R",
+    "object_index": 3,
+    "x": 26,
+    "y": 5,
+    "elevation": 0,
+    "script": "MeteorFalls_1F_2R_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_84_RUINS_OF_DECISION"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_15_Route_201",
+    "object_index": 0,
+    "x": 40,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_15_Route_201_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_48_Steven_s_Island",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_35_48_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_10_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_10_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_89_Mt_Coronet",
+    "object_index": 0,
+    "x": 9,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_89_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route133",
+    "object_index": 10,
+    "x": 37,
+    "y": 14,
+    "elevation": 0,
+    "script": "Route133_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_15_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_32_Route_213",
+    "object_index": 0,
+    "x": 7,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_32_Route_213_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_18_Hearthome_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_18_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_101_Sinnoh_Region",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_101_Sinnoh_Region_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_2_Sandgem_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_2_Sandgem_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_27_Route_210",
+    "object_index": 0,
+    "x": 30,
+    "y": 8,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_27_Route_210_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_7_Victory_Road",
+    "object_index": 0,
+    "x": 5,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_35_7_Victory_Road_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_22_Route_206",
+    "object_index": 0,
+    "x": 13,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_22_Route_206_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_61_Remote_Island",
+    "object_index": 0,
+    "x": 7,
+    "y": 1,
+    "elevation": 0,
+    "script": "HyperHoenn_35_61_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_65_Remote_Island",
+    "object_index": 0,
+    "x": 10,
+    "y": 7,
+    "elevation": 0,
+    "script": "HyperHoenn_35_65_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_33_Ultra_Space",
+    "object_index": 0,
+    "x": 7,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_33_Ultra_Space_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "AbandonedShip_Underwater1",
+    "object_index": 0,
+    "x": 21,
+    "y": 7,
+    "elevation": 0,
+    "script": "AbandonedShip_Underwater1_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_ABANDONED_SHIP_UNDERWATER1"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "AbandonedShip_Underwater1",
+    "object_index": 1,
+    "x": 20,
+    "y": 7,
+    "elevation": 0,
+    "script": "AbandonedShip_Underwater1_EventScript_HyperConstruction_Canary6_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_ABANDONED_SHIP_UNDERWATER1"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "AbandonedShip_Underwater1",
+    "object_index": 2,
+    "x": 3,
+    "y": 1,
+    "elevation": 0,
+    "script": "AbandonedShip_Underwater1_EventScript_HyperConstruction_Canary6_3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_ABANDONED_SHIP_UNDERWATER1"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_82_Rainbow_Castle",
+    "object_index": 0,
+    "x": 13,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_34_82_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_B1F_1R",
+    "object_index": 0,
+    "x": 10,
+    "y": 26,
+    "elevation": 0,
+    "script": "MeteorFalls_B1F_1R_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_METEOR_FALLS_1F_1R"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_76_Jubilife_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_76_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "GraniteCave_StevensRoom",
+    "object_index": 1,
+    "x": 9,
+    "y": 10,
+    "elevation": 0,
+    "script": "GraniteCave_StevensRoom_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_36_ALLEARTH_LAKE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_29_Route_212",
+    "object_index": 0,
+    "x": 8,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_29_Route_212_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_35_Allearth_Forest",
+    "object_index": 0,
+    "x": 14,
+    "y": 13,
+    "elevation": 3,
+    "script": "HyperHoenn_34_35_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_45_Lake_Acuity",
+    "object_index": 0,
+    "x": 28,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_45_Lake_Acuity_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_10_Basement",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_34_10_Basement_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_58_Oreburgh_Gate",
+    "object_index": 0,
+    "x": 9,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_58_Oreburgh_Gate_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_63_Eterna_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_63_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "GraniteCave_B2F",
+    "object_index": 9,
+    "x": 29,
+    "y": 0,
+    "elevation": 0,
+    "script": "GraniteCave_B2F_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_49_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route116",
+    "object_index": 28,
+    "x": 60,
+    "y": 5,
+    "elevation": 0,
+    "script": "Route116_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_RUSTURF_TUNNEL"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route116",
+    "object_index": 29,
+    "x": 88,
+    "y": 10,
+    "elevation": 0,
+    "script": "Route116_EventScript_HyperConstruction_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_15_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_86_Mt_Coronet",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_86_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_57_Mt_Silver",
+    "object_index": 0,
+    "x": 20,
+    "y": 24,
+    "elevation": 3,
+    "script": "HyperHoenn_34_57_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_48_Ultra_Space",
+    "object_index": 0,
+    "x": 2,
+    "y": 20,
+    "elevation": 0,
+    "script": "HyperHoenn_34_48_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_48_Ultra_Space",
+    "object_index": 1,
+    "x": 10,
+    "y": 1,
+    "elevation": 0,
+    "script": "HyperHoenn_34_48_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_21_Route_205",
+    "object_index": 0,
+    "x": 14,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_21_Route_205_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_54_Meteor_Temple",
+    "object_index": 0,
+    "x": 19,
+    "y": 26,
+    "elevation": 0,
+    "script": "HyperHoenn_35_54_Meteor_Temple_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_117_Pastoria_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_117_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_52_Couriway_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_35_52_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_70_Iron_Island",
+    "object_index": 0,
+    "x": 8,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_70_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_B1F_2R",
+    "object_index": 1,
+    "x": 5,
+    "y": 2,
+    "elevation": 0,
+    "script": "MeteorFalls_B1F_2R_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_48_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_55_Ultra_Space",
+    "object_index": 0,
+    "x": 15,
+    "y": 18,
+    "elevation": 0,
+    "script": "HyperHoenn_35_55_Ultra_Space_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_55_Ultra_Space",
+    "object_index": 1,
+    "x": 15,
+    "y": 16,
+    "elevation": 0,
+    "script": "HyperHoenn_35_55_Ultra_Space_EventScript_HyperConstruction_Canary6_2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_23_Training_Area",
+    "object_index": 0,
+    "x": 10,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_23_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_4_Rainbow_Castle",
+    "object_index": 0,
+    "x": 9,
+    "y": 14,
+    "elevation": 3,
+    "script": "HyperHoenn_35_4_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_5_Rainbow_Castle",
+    "object_index": 0,
+    "x": 6,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_35_5_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_60_Mt_Silver",
+    "object_index": 0,
+    "x": 9,
+    "y": 11,
+    "elevation": 3,
+    "script": "HyperHoenn_34_60_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_95_Spear_Pillar",
+    "object_index": 0,
+    "x": 9,
+    "y": 8,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_95_Spear_Pillar_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_38_Allearth_Forest",
+    "object_index": 0,
+    "x": 14,
+    "y": 20,
+    "elevation": 3,
+    "script": "HyperHoenn_34_38_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_87_Steven_s_Island",
+    "object_index": 0,
+    "x": 1,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperHoenn_35_87_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_12_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_12_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_87_Mt_Coronet",
+    "object_index": 0,
+    "x": 35,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_87_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route104",
+    "object_index": 34,
+    "x": 30,
+    "y": 34,
+    "elevation": 0,
+    "script": "Route104_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_25_FLOWER_PARADISE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route104",
+    "object_index": 35,
+    "x": 29,
+    "y": 34,
+    "elevation": 0,
+    "script": "Route104_EventScript_HyperConstruction_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_25_FLOWER_PARADISE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MirageTower_4F",
+    "object_index": 3,
+    "x": 6,
+    "y": 3,
+    "elevation": 0,
+    "script": "MirageTower_4F_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_52_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_26_59_Champion_Island",
+    "object_index": 0,
+    "x": 0,
+    "y": 3,
+    "elevation": 0,
+    "script": "HyperHoenn_26_59_Champion_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_82_Crown_Shrine",
+    "object_index": 0,
+    "x": 9,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_82_Crown_Shrine_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_66_Remote_Island",
+    "object_index": 0,
+    "x": 11,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_35_66_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_41_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_41_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_37_96_Distortion_World",
+    "object_index": 0,
+    "x": 23,
+    "y": 2,
+    "elevation": 4,
+    "script": "HyperHoenn_37_96_Distortion_World_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "VerdanturfTown_WandasHouse",
+    "object_index": 5,
+    "x": 15,
+    "y": 2,
+    "elevation": 0,
+    "script": "VerdanturfTown_WandasHouse_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_30_CRESCENT_ISLE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_19_Hearthome_City",
+    "object_index": 0,
+    "x": 4,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_19_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_37_121_Sootopolis_City",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_37_121_Sootopolis_City_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_25_Flower_Paradise",
+    "object_index": 0,
+    "x": 7,
+    "y": 11,
+    "elevation": 3,
+    "script": "HyperHoenn_34_25_Flower_Paradise_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_82_Mt_Coronet",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_82_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_3_Rainbow_Castle",
+    "object_index": 0,
+    "x": 5,
+    "y": 13,
+    "elevation": 3,
+    "script": "HyperHoenn_35_3_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_19_Route_204",
+    "object_index": 0,
+    "x": 10,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_19_Route_204_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route129",
+    "object_index": 5,
+    "x": 60,
+    "y": 25,
+    "elevation": 3,
+    "script": "Route129_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_63_REMOTE_ISLAND"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route129",
+    "object_index": 6,
+    "x": 64,
+    "y": 6,
+    "elevation": 3,
+    "script": "Route129_EventScript_HyperConstruction_Canary9_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_13_DISTORTION_WORLD"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_1_Mt_Silver",
+    "object_index": 0,
+    "x": 6,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperHoenn_35_1_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_30_Crescent_Isle",
+    "object_index": 0,
+    "x": 9,
+    "y": 19,
+    "elevation": 3,
+    "script": "HyperHoenn_35_30_Crescent_Isle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_67_Iron_Island",
+    "object_index": 0,
+    "x": 15,
+    "y": 1,
+    "elevation": 4,
+    "script": "HyperSinnoh_36_67_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_72_Veilstone_City",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_72_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_81_Mt_Coronet",
+    "object_index": 0,
+    "x": 25,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_81_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_28_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_28_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route105",
+    "object_index": 8,
+    "x": 32,
+    "y": 45,
+    "elevation": 0,
+    "script": "Route105_EventScript_HyperConstruction_Corridor1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_6_CHAMPION_ISLAND"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MtPyre_6F",
+    "object_index": 3,
+    "x": 6,
+    "y": 7,
+    "elevation": 0,
+    "script": "MtPyre_6F_EventScript_HyperConstruction_Canary8_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_50_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_31_Test_of_Heart",
+    "object_index": 0,
+    "x": 14,
+    "y": 11,
+    "elevation": 3,
+    "script": "HyperHoenn_34_31_Test_of_Heart_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_31_Veilstone_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_31_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_24_Route_208",
+    "object_index": 0,
+    "x": 36,
+    "y": 9,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_24_Route_208_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_5_Sandgem_Town",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_5_Sandgem_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_53_Eterna_Forest",
+    "object_index": 0,
+    "x": 56,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_53_Eterna_Forest_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_53_Valley_Windworks",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_53_Valley_Windworks_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_63_Couriway_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_63_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_84_Rainbow_Castle",
+    "object_index": 0,
+    "x": 25,
+    "y": 25,
+    "elevation": 3,
+    "script": "HyperHoenn_34_84_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_24_Champion_Island",
+    "object_index": 0,
+    "x": 6,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperHoenn_35_24_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "PetalburgWoods",
+    "object_index": 13,
+    "x": 28,
+    "y": 20,
+    "elevation": 0,
+    "script": "PetalburgWoods_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_25_FLOWER_PARADISE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "PetalburgWoods",
+    "object_index": 14,
+    "x": 27,
+    "y": 20,
+    "elevation": 0,
+    "script": "PetalburgWoods_EventScript_HyperConstruction_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_25_FLOWER_PARADISE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "PetalburgWoods",
+    "object_index": 15,
+    "x": 41,
+    "y": 20,
+    "elevation": 0,
+    "script": "PetalburgWoods_EventScript_HyperConstruction_3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_35_ALLEARTH_FOREST"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_85_Mt_Coronet",
+    "object_index": 0,
+    "x": 39,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_85_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_32_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_32_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DesertUnderpass",
+    "object_index": 1,
+    "x": 125,
+    "y": 1,
+    "elevation": 0,
+    "script": "DesertUnderpass_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_51_DESERT_UNDERPASS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_72_Outer_Space",
+    "object_index": 0,
+    "x": 15,
+    "y": 1,
+    "elevation": 7,
+    "script": "HyperHoenn_34_72_Outer_Space_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_6_Eterna_City",
+    "object_index": 0,
+    "x": 10,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_6_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_77_Champion_Island",
+    "object_index": 0,
+    "x": 10,
+    "y": 15,
+    "elevation": 0,
+    "script": "HyperHoenn_34_77_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_53_Mt_Silver",
+    "object_index": 0,
+    "x": 32,
+    "y": 31,
+    "elevation": 3,
+    "script": "HyperHoenn_34_53_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_25_Champion_Island",
+    "object_index": 0,
+    "x": 3,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_35_25_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_32_Ultra_Space_Zero",
+    "object_index": 0,
+    "x": 9,
+    "y": 3,
+    "elevation": 0,
+    "script": "HyperHoenn_34_32_Ultra_Space_Zero_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_78_Jubilife_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_78_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_86_Rainbow_Castle",
+    "object_index": 0,
+    "x": 14,
+    "y": 25,
+    "elevation": 3,
+    "script": "HyperHoenn_34_86_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_0_Timeless_Woods",
+    "object_index": 0,
+    "x": 8,
+    "y": 26,
+    "elevation": 3,
+    "script": "HyperHoenn_34_0_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route110",
+    "object_index": 36,
+    "x": 36,
+    "y": 11,
+    "elevation": 0,
+    "script": "Route110_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_90_Snowpoint_City",
+    "object_index": 0,
+    "x": 10,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_90_Snowpoint_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_71_Veilstone_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_71_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_55_Old_Chateau",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_55_Old_Chateau_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_26_Route_210",
+    "object_index": 0,
+    "x": 12,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_26_Route_210_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_11_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_11_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_62_Eterna_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_62_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_40_Route_221",
+    "object_index": 0,
+    "x": 42,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_40_Route_221_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_112_Oreburgh_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_112_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_26_Ultra_Alliance",
+    "object_index": 0,
+    "x": 5,
+    "y": 4,
+    "elevation": 0,
+    "script": "HyperHoenn_34_26_Ultra_Alliance_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 5,
+    "x": 0,
+    "y": 6,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Corridor1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 6,
+    "x": 0,
+    "y": 7,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Corridor2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 7,
+    "x": 0,
+    "y": 11,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Corridor3",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 8,
+    "x": 0,
+    "y": 12,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Corridor4",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 9,
+    "x": 7,
+    "y": 19,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "DewfordTown",
+    "object_index": 10,
+    "x": 10,
+    "y": 19,
+    "elevation": 0,
+    "script": "DewfordTown_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_70_Veilstone_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_70_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_2_Steven_s_Island",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_35_2_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_88_Mt_Coronet",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_88_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_94_Sinnoh_Region",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_94_Sinnoh_Region_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_90_Mt_Coronet",
+    "object_index": 0,
+    "x": 5,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_90_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_73_Victory_Road",
+    "object_index": 0,
+    "x": 19,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_73_Victory_Road_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_25_Route_209",
+    "object_index": 0,
+    "x": 46,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_25_Route_209_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_47_Sunyshore_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_47_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_1_Dragonspiral_Tower",
+    "object_index": 0,
+    "x": 7,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperHoenn_34_1_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_18_Training_Area",
+    "object_index": 0,
+    "x": 10,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_18_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "RusturfTunnel",
+    "object_index": 10,
+    "x": 12,
+    "y": 12,
+    "elevation": 0,
+    "script": "RusturfTunnel_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_ROUTE116"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "RusturfTunnel",
+    "object_index": 11,
+    "x": 4,
+    "y": 15,
+    "elevation": 0,
+    "script": "RusturfTunnel_EventScript_HyperConstruction_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_PETALBURG_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_28_Crescent_Isle",
+    "object_index": 0,
+    "x": 6,
+    "y": 19,
+    "elevation": 3,
+    "script": "HyperHoenn_34_28_Crescent_Isle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_4_Sandgem_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_4_Sandgem_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_39_Route_220",
+    "object_index": 0,
+    "x": 18,
+    "y": 13,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_39_Route_220_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_39_Allearth_Forest",
+    "object_index": 0,
+    "x": 28,
+    "y": 48,
+    "elevation": 0,
+    "script": "HyperHoenn_34_39_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "EverGrandeCity",
+    "object_index": 0,
+    "x": 8,
+    "y": 6,
+    "elevation": 3,
+    "script": "EverGrandeCity_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_7_VICTORY_ROAD"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "EverGrandeCity",
+    "object_index": 1,
+    "x": 28,
+    "y": 62,
+    "elevation": 1,
+    "script": "EverGrandeCity_EventScript_HyperConstruction_Canary9_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_30_TEST_OF_HEART"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "EverGrandeCity",
+    "object_index": 2,
+    "x": 12,
+    "y": 62,
+    "elevation": 1,
+    "script": "EverGrandeCity_EventScript_HyperConstruction_Canary9_3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_30_TEST_OF_HEART"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_37_120_Ancient_Retreat",
+    "object_index": 0,
+    "x": 15,
+    "y": 0,
+    "elevation": 0,
+    "script": "HyperHoenn_37_120_Ancient_Retreat_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_49_Sinnoh_League",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_49_Sinnoh_League_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MossdeepCity_House2",
+    "object_index": 3,
+    "x": 2,
+    "y": 8,
+    "elevation": 0,
+    "script": "MossdeepCity_House2_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_MOSSDEEP_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 5,
+    "x": 50,
+    "y": 18,
+    "elevation": 0,
+    "script": "Route106_EventScript_HyperConstruction_Corridor1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 6,
+    "x": 62,
+    "y": 19,
+    "elevation": 0,
+    "script": "Route106_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 7,
+    "x": 65,
+    "y": 19,
+    "elevation": 0,
+    "script": "Route106_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 8,
+    "x": 68,
+    "y": 19,
+    "elevation": 0,
+    "script": "Route106_EventScript_HyperConstruction_Registered3",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 9,
+    "x": 47,
+    "y": 18,
+    "elevation": 3,
+    "script": "Route106_EventScript_HyperConstruction_Registered4",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route106",
+    "object_index": 10,
+    "x": 52,
+    "y": 18,
+    "elevation": 3,
+    "script": "Route106_EventScript_HyperConstruction_Registered5",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_8_Solaceon_Town",
+    "object_index": 0,
+    "x": 13,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_8_Solaceon_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_26_58_Outer_Space",
+    "object_index": 0,
+    "x": 13,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperHoenn_26_58_Outer_Space_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_62_Pastoria_City",
+    "object_index": 0,
+    "x": 19,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_62_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_88_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_88_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_46_Sunyshore_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_46_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_89_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_89_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_114_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_114_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_67_Veilstone_City",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_67_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_116_Oreburgh_City",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_116_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route112",
+    "object_index": 14,
+    "x": 7,
+    "y": 26,
+    "elevation": 0,
+    "script": "Route112_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_MAGMA_HIDEOUT_2F_3R"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_20_Training_Area",
+    "object_index": 0,
+    "x": 11,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_20_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_77_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_77_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_85_Hearthome_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_85_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MossdeepCity",
+    "object_index": 17,
+    "x": 74,
+    "y": 7,
+    "elevation": 9,
+    "script": "MossdeepCity_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_65_OUTER_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_2_Dragonspiral_Tower",
+    "object_index": 0,
+    "x": 5,
+    "y": 8,
+    "elevation": 3,
+    "script": "HyperHoenn_34_2_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_57_Remote_Island",
+    "object_index": 0,
+    "x": 31,
+    "y": 4,
+    "elevation": 0,
+    "script": "HyperHoenn_35_57_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_72_Victory_Road",
+    "object_index": 0,
+    "x": 11,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_72_Victory_Road_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_47_Ultra_Space",
+    "object_index": 0,
+    "x": 16,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_47_Ultra_Space_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_47_Ultra_Space",
+    "object_index": 1,
+    "x": 2,
+    "y": 4,
+    "elevation": 0,
+    "script": "HyperHoenn_34_47_Ultra_Space_EventScript_HyperConstruction_Canary7_2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_115_Sunyshore_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_115_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_StevensCave",
+    "object_index": 1,
+    "x": 3,
+    "y": 13,
+    "elevation": 0,
+    "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_16_METEOR_TEMPLE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_StevensCave",
+    "object_index": 2,
+    "x": 11,
+    "y": 7,
+    "elevation": 0,
+    "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_5_RAINBOW_CASTLE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_StevensCave",
+    "object_index": 3,
+    "x": 23,
+    "y": 12,
+    "elevation": 0,
+    "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_METEOR_FALLS_STEVENS_CAVE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MeteorFalls_StevensCave",
+    "object_index": 4,
+    "x": 23,
+    "y": 8,
+    "elevation": 0,
+    "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered4",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_METEOR_FALLS_STEVENS_CAVE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_40_Steven_s_Island",
+    "object_index": 0,
+    "x": 7,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_35_40_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_35_Pastoria_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_35_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_39_Celestic_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_39_Celestic_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_8_Oreburgh_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_8_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_60_Ultra_Space",
+    "object_index": 0,
+    "x": 14,
+    "y": 21,
+    "elevation": 3,
+    "script": "HyperHoenn_35_60_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_46_Sendoff_Spring",
+    "object_index": 0,
+    "x": 13,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_46_Sendoff_Spring_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_55_Mt_Silver",
+    "object_index": 0,
+    "x": 23,
+    "y": 29,
+    "elevation": 0,
+    "script": "HyperHoenn_34_55_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "RustboroCity_DevonCorp_1F",
+    "object_index": 3,
+    "x": 5,
+    "y": 1,
+    "elevation": 0,
+    "script": "RustboroCity_DevonCorp_1F_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_10_BASEMENT"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_36_Route_217",
+    "object_index": 0,
+    "x": 20,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_36_Route_217_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_65_Iron_Island",
+    "object_index": 0,
+    "x": 3,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_65_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_59_Mt_Silver",
+    "object_index": 0,
+    "x": 15,
+    "y": 29,
+    "elevation": 3,
+    "script": "HyperHoenn_34_59_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_95_Sinnoh_Region",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_95_Sinnoh_Region_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_14_Eterna_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_14_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_44_Snowpoint_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_44_Snowpoint_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_16_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_16_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_76_Champion_Island",
+    "object_index": 0,
+    "x": 2,
+    "y": 5,
+    "elevation": 0,
+    "script": "HyperHoenn_34_76_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_41_Route_222",
+    "object_index": 0,
+    "x": 0,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_41_Route_222_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_15_Ultra_Space",
+    "object_index": 0,
+    "x": 12,
+    "y": 5,
+    "elevation": 0,
+    "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_15_Ultra_Space",
+    "object_index": 1,
+    "x": 14,
+    "y": 18,
+    "elevation": 0,
+    "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_15_Ultra_Space",
+    "object_index": 2,
+    "x": 6,
+    "y": 0,
+    "elevation": 0,
+    "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered3",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_99_Canalave_City",
+    "object_index": 0,
+    "x": 4,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_99_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_22_Training_Area",
+    "object_index": 0,
+    "x": 10,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_22_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_88_Desert_Ruins",
+    "object_index": 0,
+    "x": 5,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_88_Desert_Ruins_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_33_Mountain_Top",
+    "object_index": 0,
+    "x": 10,
+    "y": 8,
+    "elevation": 0,
+    "script": "HyperHoenn_35_33_Mountain_Top_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_46_Unown_Ruins",
+    "object_index": 0,
+    "x": 19,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperHoenn_34_46_Unown_Ruins_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_30_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_30_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_2_Jubilife_City",
+    "object_index": 0,
+    "x": 44,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_2_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_18_Route_203",
+    "object_index": 0,
+    "x": 38,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_18_Route_203_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_74_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_74_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_73_Hearthome_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_73_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_86_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_86_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_17_Route_202",
+    "object_index": 0,
+    "x": 13,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_17_Route_202_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "SootopolisCity_MysteryEventsHouse_1F",
+    "object_index": 1,
+    "x": 9,
+    "y": 2,
+    "elevation": 0,
+    "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_37_121_SOOTOPOLIS_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_75_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_75_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_42_Steven_s_Island",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_35_42_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_30_Route_212",
+    "object_index": 0,
+    "x": 8,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_30_Route_212_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_38_Celestic_Town",
+    "object_index": 0,
+    "x": 5,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_38_Celestic_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_23_Route_207",
+    "object_index": 0,
+    "x": 14,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_23_Route_207_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "CaveOfOrigin_B1F",
+    "object_index": 1,
+    "x": 9,
+    "y": 15,
+    "elevation": 3,
+    "script": "CaveOfOrigin_B1F_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_49_EV_TRAINING_CAVE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_57_Pal_Park",
+    "object_index": 0,
+    "x": 31,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_57_Pal_Park_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "LilycoveCity_LilycoveMuseum_2F",
+    "object_index": 4,
+    "x": 1,
+    "y": 2,
+    "elevation": 0,
+    "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_HyperConstruction_Canary8_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_35_TEMPLE_OF_THE_END"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_96_Spear_Pillar",
+    "object_index": 0,
+    "x": 14,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_96_Spear_Pillar_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_43_Lake_Verity",
+    "object_index": 0,
+    "x": 15,
+    "y": 5,
+    "elevation": 1,
+    "script": "HyperSinnoh_36_43_Lake_Verity_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_69_Iron_Island",
+    "object_index": 0,
+    "x": 14,
+    "y": 1,
+    "elevation": 4,
+    "script": "HyperSinnoh_36_69_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_64_Eterna_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_64_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_49_Ultra_Space",
+    "object_index": 0,
+    "x": 14,
+    "y": 3,
+    "elevation": 0,
+    "script": "HyperHoenn_34_49_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_49_Ultra_Space",
+    "object_index": 1,
+    "x": 11,
+    "y": 25,
+    "elevation": 0,
+    "script": "HyperHoenn_34_49_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_21_Couriway_Town",
+    "object_index": 0,
+    "x": 4,
+    "y": 49,
+    "elevation": 0,
+    "script": "HyperHoenn_35_21_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_41_Allearth_Forest",
+    "object_index": 0,
+    "x": 15,
+    "y": 44,
+    "elevation": 3,
+    "script": "HyperHoenn_34_41_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_66_Veilstone_City",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_66_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_83_Rainbow_Castle",
+    "object_index": 0,
+    "x": 5,
+    "y": 18,
+    "elevation": 3,
+    "script": "HyperHoenn_34_83_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_52_Fuego_Ironworks",
+    "object_index": 0,
+    "x": 9,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_52_Fuego_Ironworks_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_54_Valley_Windworks",
+    "object_index": 0,
+    "x": 5,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_54_Valley_Windworks_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_3_Oreburgh_City",
+    "object_index": 0,
+    "x": 43,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_3_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_92_Sunyshore_City",
+    "object_index": 0,
+    "x": 11,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_92_Sunyshore_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_68_Iron_Island",
+    "object_index": 0,
+    "x": 8,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_68_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_24_Solaceon_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_24_Solaceon_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_36_EV_Training_Cave",
+    "object_index": 0,
+    "x": 26,
+    "y": 1,
+    "elevation": 0,
+    "script": "HyperHoenn_35_36_EV_Training_Cave_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_26_Dragonspiral_Tower",
+    "object_index": 0,
+    "x": 14,
+    "y": 26,
+    "elevation": 0,
+    "script": "HyperHoenn_35_26_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_74_Oreburgh_City",
+    "object_index": 0,
+    "x": 6,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_74_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_61_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_61_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_9_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_9_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_29_Veilstone_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_29_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_69_Veilstone_City",
+    "object_index": 0,
+    "x": 15,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_69_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_58_Mt_Silver",
+    "object_index": 0,
+    "x": 22,
+    "y": 16,
+    "elevation": 3,
+    "script": "HyperHoenn_34_58_Mt_Silver_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_113_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_113_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_93_Eterna_Forest",
+    "object_index": 0,
+    "x": 17,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_93_Eterna_Forest_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_84_Mt_Coronet",
+    "object_index": 0,
+    "x": 4,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_84_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_78_Champion_Island",
+    "object_index": 0,
+    "x": 7,
+    "y": 14,
+    "elevation": 3,
+    "script": "HyperHoenn_34_78_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MossdeepCity_SpaceCenter_1F",
+    "object_index": 11,
+    "x": 4,
+    "y": 1,
+    "elevation": 3,
+    "script": "MossdeepCity_SpaceCenter_1F_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_11_BASEMENT"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_54_Old_Chateau",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_54_Old_Chateau_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_66_Mountain_Top",
+    "object_index": 0,
+    "x": 11,
+    "y": 5,
+    "elevation": 0,
+    "script": "HyperHoenn_34_66_Mountain_Top_EventScript_HyperConstruction_Canary8_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_8_Steven_s_Island",
+    "object_index": 0,
+    "x": 3,
+    "y": 50,
+    "elevation": 0,
+    "script": "HyperHoenn_35_8_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_47_Valor_Lakefront",
+    "object_index": 0,
+    "x": 56,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_47_Valor_Lakefront_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_44_Lake_Valor",
+    "object_index": 0,
+    "x": 28,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_44_Lake_Valor_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_10_Celestic_Town",
+    "object_index": 0,
+    "x": 20,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_10_Celestic_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_38_Route_219",
+    "object_index": 0,
+    "x": 20,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_38_Route_219_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_40_Couriway_Town",
+    "object_index": 0,
+    "x": 17,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperHoenn_34_40_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_79_Jubilife_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_79_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_0_Twinleaf_Town",
+    "object_index": 0,
+    "x": 14,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_0_Twinleaf_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_68_Route_106",
+    "object_index": 0,
+    "x": 10,
+    "y": 13,
+    "elevation": 3,
+    "script": "HyperHoenn_34_68_Route_106_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_111_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_111_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_33_Route_214",
+    "object_index": 0,
+    "x": 13,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_33_Route_214_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_20_Route_205",
+    "object_index": 0,
+    "x": 8,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_20_Route_205_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_97_Canalave_City",
+    "object_index": 0,
+    "x": 14,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_97_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_52_Ultra_Space",
+    "object_index": 0,
+    "x": 16,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_52_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_52_Ultra_Space",
+    "object_index": 1,
+    "x": 2,
+    "y": 0,
+    "elevation": 0,
+    "script": "HyperHoenn_34_52_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_42_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_42_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_64_Iron_Island",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 1,
+    "script": "HyperSinnoh_36_64_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_20_Sootopolis_City",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_35_20_Sootopolis_City_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_60_Great_Marsh",
+    "object_index": 0,
+    "x": 6,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_60_Great_Marsh_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_27_Timeless_Woods",
+    "object_index": 0,
+    "x": 4,
+    "y": 29,
+    "elevation": 3,
+    "script": "HyperHoenn_35_27_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_37_Celestic_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_37_Celestic_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_29_Lost_Tower",
+    "object_index": 0,
+    "x": 0,
+    "y": 4,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_29_Lost_Tower_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "ScorchedSlab",
+    "object_index": 1,
+    "x": 7,
+    "y": 2,
+    "elevation": 0,
+    "script": "ScorchedSlab_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_47_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_48_Acuity_Lakefront",
+    "object_index": 0,
+    "x": 8,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_48_Acuity_Lakefront_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_37_Route_218",
+    "object_index": 0,
+    "x": 4,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_37_Route_218_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_87_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_87_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_94_Mt_Coronet",
+    "object_index": 0,
+    "x": 9,
+    "y": 8,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_94_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_11_Canalave_City",
+    "object_index": 0,
+    "x": 3,
+    "y": 7,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_11_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_92_Mt_Coronet",
+    "object_index": 0,
+    "x": 9,
+    "y": 8,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_92_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route102",
+    "object_index": 9,
+    "x": 24,
+    "y": 2,
+    "elevation": 0,
+    "script": "Route102_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_67_TIMELESS_WOODS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route102",
+    "object_index": 10,
+    "x": 25,
+    "y": 2,
+    "elevation": 0,
+    "script": "Route102_EventScript_HyperConstruction_2",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_67_TIMELESS_WOODS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route102",
+    "object_index": 11,
+    "x": 6,
+    "y": 3,
+    "elevation": 0,
+    "script": "Route102_EventScript_HyperConstruction_3",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_67_TIMELESS_WOODS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route102",
+    "object_index": 12,
+    "x": 7,
+    "y": 3,
+    "elevation": 0,
+    "script": "Route102_EventScript_HyperConstruction_4",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_67_TIMELESS_WOODS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_43_Snowpoint_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_43_Snowpoint_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_14_Sinnoh_League",
+    "object_index": 0,
+    "x": 3,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_14_Sinnoh_League_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_17_Hearthome_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_17_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_21_Training_Area",
+    "object_index": 0,
+    "x": 10,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_21_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_30_Test_of_Heart",
+    "object_index": 0,
+    "x": 4,
+    "y": 77,
+    "elevation": 0,
+    "script": "HyperHoenn_34_30_Test_of_Heart_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_19_Training_Area",
+    "object_index": 0,
+    "x": 9,
+    "y": 6,
+    "elevation": 3,
+    "script": "HyperHoenn_34_19_Training_Area_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_82_Oreburgh_City",
+    "object_index": 0,
+    "x": 6,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_82_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_27_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_27_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_66_Iron_Island",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_66_Iron_Island_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_4_Floaroma_Town",
+    "object_index": 0,
+    "x": 18,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_4_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_81_Jubilife_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_81_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_80_Jubilife_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_80_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_11_Basement",
+    "object_index": 0,
+    "x": 8,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperHoenn_34_11_Basement_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route119",
+    "object_index": 43,
+    "x": 20,
+    "y": 5,
+    "elevation": 0,
+    "script": "Route119_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_40_COURIWAY_TOWN"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_91_Pastoria_City",
+    "object_index": 0,
+    "x": 1,
+    "y": 1,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_91_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_13_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 4,
+    "script": "HyperSinnoh_37_13_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_3_Sandgem_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_3_Sandgem_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_15_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_15_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_42_Steven_s_Island",
+    "object_index": 0,
+    "x": 59,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperHoenn_34_42_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_93_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_93_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_58_Great_Marsh",
+    "object_index": 0,
+    "x": 26,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_58_Great_Marsh_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_51_Ultra_Space",
+    "object_index": 0,
+    "x": 17,
+    "y": 18,
+    "elevation": 0,
+    "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_51_Ultra_Space",
+    "object_index": 1,
+    "x": 11,
+    "y": 8,
+    "elevation": 0,
+    "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_51_Ultra_Space",
+    "object_index": 2,
+    "x": 8,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered3",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_51_Ultra_Space",
+    "object_index": 3,
+    "x": 1,
+    "y": 12,
+    "elevation": 0,
+    "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered4",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_26_67_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 3,
+    "elevation": 0,
+    "script": "HyperSinnoh_26_67_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MirageTower_2F",
+    "object_index": 0,
+    "x": 16,
+    "y": 8,
+    "elevation": 0,
+    "script": "MirageTower_2F_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_PETALBURG_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_50_Lake_Verity",
+    "object_index": 0,
+    "x": 10,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_50_Lake_Verity_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "MossdeepCity_House3",
+    "object_index": 1,
+    "x": 5,
+    "y": 7,
+    "elevation": 0,
+    "script": "MossdeepCity_House3_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_MOSSDEEP_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_67_Timeless_Woods",
+    "object_index": 0,
+    "x": 31,
+    "y": 17,
+    "elevation": 3,
+    "script": "HyperHoenn_34_67_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "SlateportCity",
+    "object_index": 35,
+    "x": 29,
+    "y": 12,
+    "elevation": 0,
+    "script": "SlateportCity_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_SLATEPORT_CITY_HARBOR"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_51_Lake_Valor",
+    "object_index": 0,
+    "x": 10,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_51_Lake_Valor_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_14_Abandoned_Ship",
+    "object_index": 0,
+    "x": 5,
+    "y": 3,
+    "elevation": 0,
+    "script": "HyperHoenn_34_14_Abandoned_Ship_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_75_Jubilife_City",
+    "object_index": 0,
+    "x": 12,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_75_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_63_Ravaged_Path",
+    "object_index": 0,
+    "x": 27,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_63_Ravaged_Path_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_50_Ultra_Space",
+    "object_index": 0,
+    "x": 4,
+    "y": 18,
+    "elevation": 0,
+    "script": "HyperHoenn_34_50_Ultra_Space_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_50_Ultra_Space",
+    "object_index": 1,
+    "x": 12,
+    "y": 16,
+    "elevation": 4,
+    "script": "HyperHoenn_34_50_Ultra_Space_EventScript_HyperConstruction_Registered2",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_26_Veilstone_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_26_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "SootopolisCity_House2",
+    "object_index": 1,
+    "x": 3,
+    "y": 1,
+    "elevation": 3,
+    "script": "SootopolisCity_House2_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_35_20_SOOTOPOLIS_CITY"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_83_Eterna_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_83_Eterna_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_34_61_Couriway_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_34_61_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_100_Hearthome_City",
+    "object_index": 0,
+    "x": 41,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_100_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_7_Oreburgh_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_7_Oreburgh_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_52_Lake_Acuity",
+    "object_index": 0,
+    "x": 10,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_52_Lake_Acuity_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_22_Solaceon_Town",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_22_Solaceon_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_6_Champion_Island",
+    "object_index": 0,
+    "x": 23,
+    "y": 46,
+    "elevation": 3,
+    "script": "HyperHoenn_35_6_Champion_Island_EventScript_HyperConstruction_Registered1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_6_Champion_Island",
+    "object_index": 1,
+    "x": 13,
+    "y": 3,
+    "elevation": 1,
+    "script": "HyperHoenn_35_6_Champion_Island_EventScript_Inspect_26_59",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "PacifidlogTown",
+    "object_index": 3,
+    "x": 12,
+    "y": 5,
+    "elevation": 0,
+    "script": "PacifidlogTown_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_24_EV_TRAINING_CAVE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_41_Steven_s_Island",
+    "object_index": 0,
+    "x": 2,
+    "y": 0,
+    "elevation": 4,
+    "script": "HyperHoenn_35_41_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_9_Veilstone_City",
+    "object_index": 0,
+    "x": 36,
+    "y": 9,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_9_Veilstone_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_21_Hearthome_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_21_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_91_Mt_Coronet",
+    "object_index": 0,
+    "x": 7,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_91_Mt_Coronet_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_5_Floaroma_Town",
+    "object_index": 0,
+    "x": 0,
+    "y": 3,
+    "elevation": 4,
+    "script": "HyperSinnoh_36_5_Floaroma_Town_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_76_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_76_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_59_Oreburgh_Gate",
+    "object_index": 0,
+    "x": 48,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_59_Oreburgh_Gate_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_62_Remote_Island",
+    "object_index": 0,
+    "x": 13,
+    "y": 2,
+    "elevation": 0,
+    "script": "HyperHoenn_35_62_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_58_Remote_Island",
+    "object_index": 0,
+    "x": 6,
+    "y": 5,
+    "elevation": 0,
+    "script": "HyperHoenn_35_58_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_35_Temple_of_the_End",
+    "object_index": 0,
+    "x": 25,
+    "y": 18,
+    "elevation": 3,
+    "script": "HyperHoenn_35_35_Temple_of_the_End_EventScript_HyperConstruction_Canary8_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_77_Jubilife_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_77_Jubilife_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_70_Remote_Island",
+    "object_index": 0,
+    "x": 0,
+    "y": 0,
+    "elevation": 0,
+    "script": "HyperHoenn_35_70_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_35_16_Route_210",
+    "object_index": 0,
+    "x": 1,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_35_16_Route_210_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_40_Canalave_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_40_Canalave_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_71_Victory_Road",
+    "object_index": 0,
+    "x": 30,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_71_Victory_Road_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_7_Hearthome_City",
+    "object_index": 0,
+    "x": 8,
+    "y": 0,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_7_Hearthome_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_16_Verity_Lakefront",
+    "object_index": 0,
+    "x": 10,
+    "y": 5,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_16_Verity_Lakefront_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "Route103",
+    "object_index": 20,
+    "x": 0,
+    "y": 8,
+    "elevation": 0,
+    "script": "Route103_EventScript_HyperConstruction_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_67_TIMELESS_WOODS"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_37_33_Pastoria_City",
+    "object_index": 0,
+    "x": 0,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_37_33_Pastoria_City_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "ShoalCave_LowTideIceRoom",
+    "object_index": 2,
+    "x": 12,
+    "y": 1,
+    "elevation": 0,
+    "script": "ShoalCave_LowTideIceRoom_EventScript_HyperConstruction_Canary9_1",
+    "flag": "0",
+    "coincident_warp_destinations": [
+      "MAP_HYPERHOENN_34_51_ULTRA_SPACE"
+    ],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_61_Oreburgh_Mine",
+    "object_index": 0,
+    "x": 13,
+    "y": 3,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_61_Oreburgh_Mine_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperHoenn_35_59_Remote_Island",
+    "object_index": 0,
+    "x": 13,
+    "y": 4,
+    "elevation": 0,
+    "script": "HyperHoenn_35_59_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  },
+  {
+    "map": "HyperSinnoh_36_78_Regigigas_Temple",
+    "object_index": 0,
+    "x": 2,
+    "y": 2,
+    "elevation": 3,
+    "script": "HyperSinnoh_36_78_Regigigas_Temple_EventScript_Construction",
+    "flag": "0",
+    "coincident_warp_destinations": [],
+    "status": "PRESERVED"
+  }
+]

@@ -1,0 +1,5232 @@
+[
+  {
+    "map": "InsideOfTruck",
+    "layout": {
+      "id": "LAYOUT_INSIDE_OF_TRUCK",
+      "name": "InsideOfTruck_Layout",
+      "width": 5,
+      "height": 5,
+      "primary_tileset": "gTileset_Hyper_Final_InsideOfTruck_0",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFA94",
+      "border_filepath": "data/hyper_assets/layouts/25.40/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/InsideOfTruck/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_TRUCK_BOX_TOP",
+          "graphics_id": "OBJ_EVENT_GFX_MOVING_BOX",
+          "x": 0,
+          "y": 0,
+          "elevation": 8,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "InsideOfTruck_EventScript_MovingBox",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 0,
+          "y": 0,
+          "metatile": 513,
+          "block": 1537,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_TRUCK_BOX_BOTTOM_L",
+          "graphics_id": "OBJ_EVENT_GFX_MOVING_BOX",
+          "x": 0,
+          "y": 3,
+          "elevation": 8,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "InsideOfTruck_EventScript_MovingBox",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 0,
+          "y": 3,
+          "metatile": 537,
+          "block": 1561,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_TRUCK_BOX_BOTTOM_R",
+          "graphics_id": "OBJ_EVENT_GFX_MOVING_BOX",
+          "x": 2,
+          "y": 3,
+          "elevation": 8,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "InsideOfTruck_EventScript_MovingBox",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 3,
+          "metatile": 539,
+          "block": 1563,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_DYNAMIC",
+        "dest_warp_id": "WARP_ID_DYNAMIC"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_DYNAMIC",
+        "dest_warp_id": "WARP_ID_DYNAMIC"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_DYNAMIC",
+        "dest_warp_id": "WARP_ID_DYNAMIC"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 1,
+        "elevation": 3,
+        "var": "VAR_LITTLEROOT_INTRO_STATE",
+        "var_value": "0",
+        "script": "InsideOfTruck_EventScript_SetIntroFlags"
+      },
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 2,
+        "elevation": 3,
+        "var": "VAR_LITTLEROOT_INTRO_STATE",
+        "var_value": "0",
+        "script": "InsideOfTruck_EventScript_SetIntroFlags"
+      },
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "var": "VAR_LITTLEROOT_INTRO_STATE",
+        "var_value": "0",
+        "script": "InsideOfTruck_EventScript_SetIntroFlags"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 1,
+        "y": 0,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "InsideOfTruck_EventScript_MovingBox"
+      },
+      {
+        "type": "sign",
+        "x": 3,
+        "y": 4,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "InsideOfTruck_EventScript_MovingBox"
+      },
+      {
+        "type": "sign",
+        "x": 2,
+        "y": 3,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "InsideOfTruck_EventScript_MovingBox"
+      },
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "InsideOfTruck_EventScript_MovingBox"
+      },
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 2,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "InsideOfTruck_EventScript_MovingBox"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "MtChimney_CableCarStation",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY5_MT_CHIMNEY_CABLE_CAR_STATION",
+      "name": "HyperCanary5MtChimney_CableCarStation_Layout",
+      "width": 13,
+      "height": 12,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF9BC",
+      "border_filepath": "data/hyper_assets/layouts/19.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary5_layouts/MtChimney_CableCarStation/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_MT_CHIMNEY_CABLE_CAR_ATTENDANT",
+          "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+          "x": 6,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "MtChimney_CableCarStation_EventScript_Attendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 6,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CABLE_CAR",
+          "x": 6,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 3,
+          "metatile": 761,
+          "block": 5881,
+          "collision": 1,
+          "elevation": 1,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_MT_CHIMNEY",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 7,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_MT_CHIMNEY",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route104_MrBrineysHouse",
+    "layout": {
+      "id": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
+      "name": "Route104_MrBrineysHouse_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/17.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/17.0/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_BRINEYS_HOUSE_BRINEY",
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+          "x": 5,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_LEFT_UP_RIGHT",
+          "movement_range_x": 3,
+          "movement_range_y": 3,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route104_MrBrineysHouse_EventScript_Briney",
+          "flag": "FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY"
+        },
+        "cell": {
+          "x": 5,
+          "y": 3,
+          "metatile": 553,
+          "block": 12841,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_BRINEYS_HOUSE_PEEKO",
+          "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+          "x": 6,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 3,
+          "movement_range_y": 3,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route104_MrBrineysHouse_EventScript_Peeko",
+          "flag": "FLAG_HIDE_BRINEYS_HOUSE_PEEKO"
+        },
+        "cell": {
+          "x": 6,
+          "y": 3,
+          "metatile": 553,
+          "block": 12841,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE104",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE104",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route104_PrettyPetalFlowerShop",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY3_ROUTE104__PRETTY_PETAL_FLOWER_SHOP",
+      "name": "HyperCanary3Route104_PrettyPetalFlowerShop_Layout",
+      "width": 15,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF98C",
+      "border_filepath": "data/hyper_assets/layouts/17.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/17.1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_FLOWER_SHOP_OWNER",
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 0,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route104_PrettyPetalFlowerShop_EventScript_ShopOwner",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 0,
+          "y": 3,
+          "metatile": 581,
+          "block": 12869,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 7,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 3,
+          "metatile": 554,
+          "block": 12842,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
+          "x": 11,
+          "y": 6,
+          "elevation": 4,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 2,
+          "movement_range_y": 2,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 6,
+          "metatile": 513,
+          "block": 12801,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 2,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE104",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE104",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route109_SeashoreHouse",
+    "layout": {
+      "id": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
+      "name": "Route109_SeashoreHouse_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF974",
+      "border_filepath": "data/hyper_assets/layouts/28.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/28.0/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+          "x": 6,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route109_SeashoreHouse_EventScript_Owner",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 530,
+          "block": 12818,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 2,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route109_SeashoreHouse_EventScript_Dwayne",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 3,
+          "metatile": 556,
+          "block": 12844,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
+          "x": 14,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route109_SeashoreHouse_EventScript_Simon",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 9,
+          "metatile": 541,
+          "block": 12829,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+          "x": 10,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route109_SeashoreHouse_EventScript_Johanna",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 5,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE109",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE109",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_SeasideCyclingRoadNorthEntrance",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+      "name": "HyperCanary4Route110_SeasideCyclingRoadNorthEntrance_Layout",
+      "width": 15,
+      "height": 6,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF89C",
+      "border_filepath": "data/hyper_assets/layouts/29.12/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/29.12/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_SeasideCyclingRoadNorthEntrance_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 664,
+          "block": 12952,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 12,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 13,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "3"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 7,
+        "y": 4,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_SeasideCyclingRoadNorthEntrance_EventScript_BikeCheck"
+      },
+      {
+        "type": "trigger",
+        "x": 5,
+        "y": 4,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "1",
+        "script": "Route110_SeasideCyclingRoadNorthEntrance_EventScript_ClearCyclingRoad"
+      }
+    ],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_SeasideCyclingRoadSouthEntrance",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY4_ROUTE110__SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+      "name": "HyperCanary4Route110_SeasideCyclingRoadSouthEntrance_Layout",
+      "width": 15,
+      "height": 6,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF89C",
+      "border_filepath": "data/hyper_assets/layouts/29.11/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/29.11/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_SeasideCyclingRoadSouthEntrance_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 664,
+          "block": 12952,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 12,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 13,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "5"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 7,
+        "y": 4,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_SeasideCyclingRoadSouthEntrance_EventScript_BikeCheck"
+      },
+      {
+        "type": "trigger",
+        "x": 5,
+        "y": 4,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "1",
+        "script": "Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad"
+      }
+    ],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHouseCorridor",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_CORRIDOR",
+      "name": "Route110_TrickHouseCorridor_Layout",
+      "width": 15,
+      "height": 24,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHouseCorridor_1",
+      "border_filepath": "data/hyper_assets/layouts/29.2/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHouseCorridor/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 13,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 14,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 4,
+        "y": 23,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 23,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHouseEnd",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_END",
+      "name": "Route110_TrickHouseEnd_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHouseEnd_1",
+      "border_filepath": "data/hyper_assets/layouts/29.1/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHouseEnd/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_TRICK_MASTER_END",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 4,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHouseEnd_EventScript_TrickMaster",
+          "flag": "FLAG_HIDE_TRICK_HOUSE_END_MAN"
+        },
+        "cell": {
+          "x": 4,
+          "y": 5,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 10,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_CORRIDOR",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 2,
+        "y": 2,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHouseEnd_EventScript_TrickMasterExitTrigger"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "hidden_item",
+        "x": 4,
+        "y": 5,
+        "elevation": 3,
+        "item": "ITEM_NUGGET",
+        "flag": "FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHouseEntrance",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_ENTRANCE",
+      "name": "Route110_TrickHouseEntrance_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHouseEntrance_1",
+      "border_filepath": "data/hyper_assets/layouts/29.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHouseEntrance/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_TRICK_MASTER",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 6,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHouseEntrance_EventScript_TrickMaster",
+          "flag": "FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN"
+        },
+        "cell": {
+          "x": 6,
+          "y": 2,
+          "metatile": 545,
+          "block": 12833,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 5,
+        "y": 7,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 4,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+        "var_value": "0",
+        "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+      },
+      {
+        "type": "trigger",
+        "x": 5,
+        "y": 6,
+        "elevation": 3,
+        "var": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+        "var_value": "0",
+        "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+      },
+      {
+        "type": "trigger",
+        "x": 6,
+        "y": 6,
+        "elevation": 3,
+        "var": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+        "var_value": "0",
+        "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+      },
+      {
+        "type": "trigger",
+        "x": 7,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+        "var_value": "0",
+        "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 5,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "Route110_TrickHouseEntrance_EventScript_Door"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle1",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "name": "Route110_TrickHousePuzzle1_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle1_1",
+      "border_filepath": "data/hyper_assets/layouts/29.3/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_LASS",
+          "x": 14,
+          "y": 20,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "6",
+          "script": "Route110_TrickHousePuzzle1_EventScript_Sally",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 20,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+          "x": 14,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle1_EventScript_Eddie",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 8,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_LASS",
+          "x": 2,
+          "y": 15,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle1_EventScript_Robin",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 15,
+          "metatile": 602,
+          "block": 12890,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 11,
+          "y": 16,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_13"
+        },
+        "cell": {
+          "x": 11,
+          "y": 16,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 13,
+          "y": 18,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_12"
+        },
+        "cell": {
+          "x": 13,
+          "y": 18,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 14,
+          "y": 14,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_14"
+        },
+        "cell": {
+          "x": 14,
+          "y": 14,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 11,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_17"
+        },
+        "cell": {
+          "x": 11,
+          "y": 8,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 8,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_16"
+        },
+        "cell": {
+          "x": 8,
+          "y": 10,
+          "metatile": 602,
+          "block": 12890,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 8,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 11,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_15"
+        },
+        "cell": {
+          "x": 11,
+          "y": 12,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 9,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_19"
+        },
+        "cell": {
+          "x": 2,
+          "y": 4,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 10,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 13,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_18"
+        },
+        "cell": {
+          "x": 13,
+          "y": 6,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 11,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 0,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_1B"
+        },
+        "cell": {
+          "x": 0,
+          "y": 6,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 12,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 9,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_ORANGE_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL"
+        },
+        "cell": {
+          "x": 9,
+          "y": 4,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 13,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 4,
+          "y": 8,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_1C"
+        },
+        "cell": {
+          "x": 4,
+          "y": 8,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 14,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+          "x": 2,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_CutTree",
+          "flag": "FLAG_TEMP_1E"
+        },
+        "cell": {
+          "x": 2,
+          "y": 12,
+          "metatile": 538,
+          "block": 12826,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 3,
+        "y": 16,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle1_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle2",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE2",
+      "name": "Route110_TrickHousePuzzle2_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle2_1",
+      "border_filepath": "data/hyper_assets/layouts/29.4/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
+          "x": 13,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle2_EventScript_Ted",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 13,
+          "y": 10,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
+          "x": 10,
+          "y": 17,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "4",
+          "script": "Route110_TrickHousePuzzle2_EventScript_Paul",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 17,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 11,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle2_EventScript_Georgia",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 9,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 8,
+          "y": 17,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_WAVE_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL"
+        },
+        "cell": {
+          "x": 8,
+          "y": 17,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 3,
+          "y": 13,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_HARBOR_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL"
+        },
+        "cell": {
+          "x": 3,
+          "y": 13,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 11,
+        "y": 12,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Button1"
+      },
+      {
+        "type": "trigger",
+        "x": 0,
+        "y": 4,
+        "elevation": 0,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Button2"
+      },
+      {
+        "type": "trigger",
+        "x": 14,
+        "y": 5,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Button3"
+      },
+      {
+        "type": "trigger",
+        "x": 7,
+        "y": 11,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Button4"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 14,
+        "y": 14,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle2_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle3",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE3",
+      "name": "Route110_TrickHousePuzzle3_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle3_1",
+      "border_filepath": "data/hyper_assets/layouts/29.5/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+          "x": 7,
+          "y": 19,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle3_EventScript_Justin",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 19,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+          "x": 4,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle3_EventScript_Martha",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 4,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_HIKER",
+          "x": 10,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle3_EventScript_Alan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 10,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 1,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_WOOD_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL"
+        },
+        "cell": {
+          "x": 1,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 4,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_SHADOW_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL"
+        },
+        "cell": {
+          "x": 4,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+          "x": 1,
+          "y": 20,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_RockSmash",
+          "flag": "FLAG_TEMP_15"
+        },
+        "cell": {
+          "x": 1,
+          "y": 20,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+          "x": 2,
+          "y": 21,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_RockSmash",
+          "flag": "FLAG_TEMP_16"
+        },
+        "cell": {
+          "x": 2,
+          "y": 21,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 4,
+        "y": 14,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle3_EventScript_Button1"
+      },
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 11,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle3_EventScript_Button2"
+      },
+      {
+        "type": "trigger",
+        "x": 12,
+        "y": 5,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle3_EventScript_Button3"
+      },
+      {
+        "type": "trigger",
+        "x": 8,
+        "y": 2,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle3_EventScript_Button4"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 14,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle3_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle4",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE4",
+      "name": "Route110_TrickHousePuzzle4_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle4_1",
+      "border_filepath": "data/hyper_assets/layouts/29.6/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle4_EventScript_Cora",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 14,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle4_EventScript_Paula",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 7,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+          "x": 2,
+          "y": 14,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "2",
+          "script": "Route110_TrickHousePuzzle4_EventScript_Yuji",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 14,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 2,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_MECH_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_4_MECH_MAIL"
+        },
+        "cell": {
+          "x": 2,
+          "y": 5,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 13,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_11"
+        },
+        "cell": {
+          "x": 13,
+          "y": 3,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 12,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_12"
+        },
+        "cell": {
+          "x": 12,
+          "y": 5,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 5,
+          "y": 16,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_13"
+        },
+        "cell": {
+          "x": 5,
+          "y": 16,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 4,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_14"
+        },
+        "cell": {
+          "x": 4,
+          "y": 6,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 8,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 12,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_15"
+        },
+        "cell": {
+          "x": 12,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 9,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 5,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_16"
+        },
+        "cell": {
+          "x": 5,
+          "y": 7,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 10,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 9,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_17"
+        },
+        "cell": {
+          "x": 9,
+          "y": 3,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 11,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 10,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_18"
+        },
+        "cell": {
+          "x": 10,
+          "y": 12,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 12,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 14,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_19"
+        },
+        "cell": {
+          "x": 14,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 13,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+          "x": 10,
+          "y": 15,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "EventScript_StrengthBoulder",
+          "flag": "FLAG_TEMP_1A"
+        },
+        "cell": {
+          "x": 10,
+          "y": 15,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 14,
+        "y": 13,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle4_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle5",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE5",
+      "name": "Route110_TrickHousePuzzle5_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle5_1",
+      "border_filepath": "data/hyper_assets/layouts/29.7/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle5/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_MECHADOLL_1",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 6,
+          "y": 17,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 17,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_MECHADOLL_2",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 0,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 0,
+          "y": 7,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "local_id": "LOCALID_MECHADOLL_3",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 14,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 10,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_MECHADOLL_4",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 14,
+          "y": 19,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 19,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "local_id": "LOCALID_MECHADOLL_5",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+          "x": 10,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 4,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 5,
+        "y": 17,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger0"
+      },
+      {
+        "type": "trigger",
+        "x": 4,
+        "y": 17,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger1"
+      },
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 17,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger2"
+      },
+      {
+        "type": "trigger",
+        "x": 2,
+        "y": 17,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger3"
+      },
+      {
+        "type": "trigger",
+        "x": 1,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger0"
+      },
+      {
+        "type": "trigger",
+        "x": 2,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger1"
+      },
+      {
+        "type": "trigger",
+        "x": 13,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger0"
+      },
+      {
+        "type": "trigger",
+        "x": 12,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger1"
+      },
+      {
+        "type": "trigger",
+        "x": 11,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger2"
+      },
+      {
+        "type": "trigger",
+        "x": 13,
+        "y": 19,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger0"
+      },
+      {
+        "type": "trigger",
+        "x": 12,
+        "y": 19,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger1"
+      },
+      {
+        "type": "trigger",
+        "x": 11,
+        "y": 4,
+        "elevation": 3,
+        "var": "VAR_TEMP_5",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Trigger0"
+      },
+      {
+        "type": "trigger",
+        "x": 1,
+        "y": 17,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger4"
+      },
+      {
+        "type": "trigger",
+        "x": 3,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger2"
+      },
+      {
+        "type": "trigger",
+        "x": 4,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger3"
+      },
+      {
+        "type": "trigger",
+        "x": 5,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger4"
+      },
+      {
+        "type": "trigger",
+        "x": 6,
+        "y": 7,
+        "elevation": 3,
+        "var": "VAR_TEMP_2",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger5"
+      },
+      {
+        "type": "trigger",
+        "x": 10,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger3"
+      },
+      {
+        "type": "trigger",
+        "x": 9,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_3",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger4"
+      },
+      {
+        "type": "trigger",
+        "x": 11,
+        "y": 19,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger2"
+      },
+      {
+        "type": "trigger",
+        "x": 10,
+        "y": 19,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger3"
+      },
+      {
+        "type": "trigger",
+        "x": 9,
+        "y": 19,
+        "elevation": 3,
+        "var": "VAR_TEMP_4",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger4"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 11,
+        "y": 21,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle5_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle6",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE6",
+      "name": "Route110_TrickHousePuzzle6_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle6_1",
+      "border_filepath": "data/hyper_assets/layouts/29.8/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle6/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+          "x": 7,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle6_EventScript_Sophia",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 9,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+          "x": 11,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "3",
+          "script": "Route110_TrickHousePuzzle6_EventScript_Benny",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 10,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+          "x": 4,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle6_EventScript_Sebastian",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 5,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 11,
+          "y": 21,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_GLITTER_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL"
+        },
+        "cell": {
+          "x": 11,
+          "y": 21,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 0,
+        "y": 10,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle6_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle7",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE7",
+      "name": "Route110_TrickHousePuzzle7_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle7_1",
+      "border_filepath": "data/hyper_assets/layouts/29.9/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle7/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
+          "x": 9,
+          "y": 20,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Joshua",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 20,
+          "metatile": 666,
+          "block": 666,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_LASS",
+          "x": 10,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Alexis",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 2,
+          "metatile": 689,
+          "block": 689,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
+          "x": 8,
+          "y": 17,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Patricia",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 17,
+          "metatile": 665,
+          "block": 665,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 5,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_TROPIC_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL"
+        },
+        "cell": {
+          "x": 5,
+          "y": 12,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
+          "x": 9,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Alvaro",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_LASS",
+          "x": 8,
+          "y": 13,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Mariela",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 13,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 9,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle7_EventScript_Everett",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 9,
+          "y": 12,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TRICK_HOUSE_STATUE",
+          "x": 4,
+          "y": 17,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 17,
+          "metatile": 674,
+          "block": 674,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      },
+      {
+        "index": 8,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_TRICK_HOUSE_STATUE",
+          "x": 4,
+          "y": 6,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 6,
+          "metatile": 682,
+          "block": 682,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 13,
+        "y": 4,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 13,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "6"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 1,
+        "y": 17,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "8"
+      },
+      {
+        "x": 0,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "7"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "10"
+      },
+      {
+        "x": 4,
+        "y": 13,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "9"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "12"
+      },
+      {
+        "x": 8,
+        "y": 12,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+        "dest_warp_id": "11"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 8,
+        "y": 19,
+        "elevation": 0,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle7_EventScript_YellowButton"
+      },
+      {
+        "type": "trigger",
+        "x": 0,
+        "y": 14,
+        "elevation": 0,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle7_EventScript_BlueButton"
+      },
+      {
+        "type": "trigger",
+        "x": 6,
+        "y": 6,
+        "elevation": 0,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle7_EventScript_GreenButton"
+      },
+      {
+        "type": "trigger",
+        "x": 9,
+        "y": 7,
+        "elevation": 0,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "Route110_TrickHousePuzzle7_EventScript_PurpleButton"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 6,
+        "y": 17,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle7_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route110_TrickHousePuzzle8",
+    "layout": {
+      "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE8",
+      "name": "Route110_TrickHousePuzzle8_Layout",
+      "width": 15,
+      "height": 22,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Final_Route110_TrickHousePuzzle8_1",
+      "border_filepath": "data/hyper_assets/layouts/29.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle8/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 1,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle8_EventScript_Vincent",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 10,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 4,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle8_EventScript_Leroy",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+          "x": 8,
+          "y": 17,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "Route110_TrickHousePuzzle8_EventScript_Keira",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 17,
+          "metatile": 520,
+          "block": 12808,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "ITEM_BEAD_MAIL",
+          "script": "Common_EventScript_FindItem",
+          "flag": "FLAG_ITEM_TRICK_HOUSE_PUZZLE_8_BEAD_MAIL"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 528,
+          "block": 12816,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 0,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 1,
+        "y": 21,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 3,
+        "y": 21,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route110_TrickHousePuzzle8_EventScript_Scroll"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route112_CableCarStation",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY5_ROUTE112_CABLE_CAR_STATION",
+      "name": "HyperCanary5Route112_CableCarStation_Layout",
+      "width": 13,
+      "height": 12,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF9BC",
+      "border_filepath": "data/hyper_assets/layouts/19.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary5_layouts/Route112_CableCarStation/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_ROUTE112_CABLE_CAR_ATTENDANT",
+          "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+          "x": 6,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route112_CableCarStation_EventScript_Attendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 6,
+          "metatile": 752,
+          "block": 13040,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_CABLE_CAR",
+          "x": 6,
+          "y": 3,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 3,
+          "metatile": 761,
+          "block": 5881,
+          "collision": 1,
+          "elevation": 1,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 6,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE112",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 7,
+        "y": 11,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE112",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route116_TunnelersRestHouse",
+    "layout": {
+      "id": "LAYOUT_ROUTE116_TUNNELERS_REST_HOUSE",
+      "name": "Route116_TunnelersRestHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/21.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/layouts/21.0/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+          "x": 6,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route116_TunnelersRestHouse_EventScript_Tunneler1",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 6,
+          "y": 5,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+          "x": 3,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route116_TunnelersRestHouse_EventScript_Tunneler3",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 3,
+          "y": 6,
+          "metatile": 553,
+          "block": 12841,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route116_TunnelersRestHouse_EventScript_Tunneler2",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 718,
+          "block": 13006,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE116",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE116",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route117_PokemonDayCare",
+    "layout": {
+      "id": "LAYOUT_ROUTE117_POKEMON_DAY_CARE",
+      "name": "Route117_PokemonDayCare_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DF9A4",
+      "border_filepath": "data/hyper_assets/layouts/22.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary5_layouts/Route117_PokemonDayCare/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_DAYCARE_LADY",
+          "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+          "x": 2,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route117_PokemonDayCare_EventScript_DaycareWoman",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 2,
+          "metatile": 537,
+          "block": 12825,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE117",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE117",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "Route124_DivingTreasureHuntersHouse",
+    "layout": {
+      "id": "LAYOUT_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
+      "name": "Route124_DivingTreasureHuntersHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/33.0/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary9_layouts/Route124_DivingTreasureHuntersHouse/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+          "x": 5,
+          "y": 4,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 4,
+          "metatile": 738,
+          "block": 738,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE124",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_ROUTE124",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 7,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SSTidalCorridor",
+    "layout": {
+      "id": "LAYOUT_SS_TIDAL_CORRIDOR",
+      "name": "SSTidalCorridor_Layout",
+      "width": 18,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Final_SSTidalCorridor_0",
+      "secondary_tileset": "gTileset_Hyper_Final_SSTidalCorridor_1",
+      "border_filepath": "data/hyper_assets/layouts/25.41/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SSTidalCorridor/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SS_TIDAL_EXIT_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 1,
+          "y": 11,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalCorridor_EventScript_ExitSailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 1,
+          "y": 11,
+          "metatile": 693,
+          "block": 12981,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 99,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 16,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 2,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalCorridor_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 16,
+          "y": 7,
+          "metatile": 698,
+          "block": 12986,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+          "x": 9,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalCorridor_EventScript_Briney",
+          "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY"
+        },
+        "cell": {
+          "x": 9,
+          "y": 2,
+          "metatile": 699,
+          "block": 12987,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+          "x": 7,
+          "y": 2,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalCorridor_EventScript_Peeko",
+          "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY"
+        },
+        "cell": {
+          "x": 7,
+          "y": 2,
+          "metatile": 699,
+          "block": 12987,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "local_id": "LOCALID_SS_TIDAL_SCOTT",
+          "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+          "x": 9,
+          "y": 10,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT"
+        },
+        "cell": {
+          "x": 9,
+          "y": 10,
+          "metatile": 702,
+          "block": 12990,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 9,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 10,
+        "y": 9,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 13,
+        "y": 9,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "6"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "8"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "9"
+      },
+      {
+        "x": 10,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "10"
+      },
+      {
+        "x": 13,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_ROOMS",
+        "dest_warp_id": "11"
+      },
+      {
+        "x": 16,
+        "y": 2,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_LOWER_DECK",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 2,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 4,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 6,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 8,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 10,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 12,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 14,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 16,
+        "y": 1,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalCorridor_EventScript_Porthole"
+      },
+      {
+        "type": "sign",
+        "x": 5,
+        "y": 9,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "SSTidalCorridor_EventScript_Cabin1Sign"
+      },
+      {
+        "type": "sign",
+        "x": 8,
+        "y": 9,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "SSTidalCorridor_EventScript_Cabin2Sign"
+      },
+      {
+        "type": "sign",
+        "x": 11,
+        "y": 9,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "SSTidalCorridor_EventScript_Cabin3Sign"
+      },
+      {
+        "type": "sign",
+        "x": 14,
+        "y": 9,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "SSTidalCorridor_EventScript_Cabin4Sign"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SSTidalLowerDeck",
+    "layout": {
+      "id": "LAYOUT_SS_TIDAL_LOWER_DECK",
+      "name": "SSTidalLowerDeck_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Hyper_Final_SSTidalLowerDeck_0",
+      "secondary_tileset": "gTileset_Hyper_Final_SSTidalLowerDeck_1",
+      "border_filepath": "data/hyper_assets/layouts/25.42/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SSTidalLowerDeck/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 10,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT",
+          "movement_range_x": 4,
+          "movement_range_y": 4,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "3",
+          "script": "SSTidalLowerDeck_EventScript_Phillip",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 10,
+          "y": 4,
+          "metatile": 758,
+          "block": 13046,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 7,
+          "y": 4,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_LEFT_UP_RIGHT",
+          "movement_range_x": 7,
+          "movement_range_y": 4,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "3",
+          "script": "SSTidalLowerDeck_EventScript_Leonard",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 4,
+          "metatile": 750,
+          "block": 13038,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 15,
+        "y": 2,
+        "elevation": 3,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "8"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "hidden_item",
+        "x": 0,
+        "y": 2,
+        "elevation": 0,
+        "item": "ITEM_LEFTOVERS",
+        "flag": "FLAG_HIDDEN_ITEM_SS_TIDAL_LOWER_DECK_LEFTOVERS"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SSTidalRooms",
+    "layout": {
+      "id": "LAYOUT_SS_TIDAL_ROOMS",
+      "name": "SSTidalRooms_Layout",
+      "width": 36,
+      "height": 18,
+      "primary_tileset": "gTileset_Hyper_Final_SSTidalRooms_0",
+      "secondary_tileset": "gTileset_Hyper_Final_SSTidalRooms_1",
+      "border_filepath": "data/hyper_assets/layouts/25.43/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SSTidalRooms/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+          "x": 4,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalRooms_EventScript_Colton",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 7,
+          "metatile": 608,
+          "block": 12896,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 34,
+          "y": 11,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "3",
+          "script": "SSTidalRooms_EventScript_Micah",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 34,
+          "y": 11,
+          "metatile": 636,
+          "block": 12924,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 21,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalRooms_EventScript_Thomas",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 21,
+          "y": 5,
+          "metatile": 608,
+          "block": 12896,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+          "x": 5,
+          "y": 14,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "SSTidalRooms_EventScript_Jed",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 14,
+          "metatile": 568,
+          "block": 12856,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
+          "x": 4,
+          "y": 14,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "SSTidalRooms_EventScript_Lea",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 14,
+          "metatile": 568,
+          "block": 12856,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 5,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
+          "x": 22,
+          "y": 11,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "3",
+          "script": "SSTidalRooms_EventScript_Garret",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 22,
+          "y": 11,
+          "metatile": 571,
+          "block": 12859,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 6,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+          "x": 15,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NORMAL",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalRooms_EventScript_Naomi",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 15,
+          "y": 6,
+          "metatile": 609,
+          "block": 12897,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 7,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+          "x": 28,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SSTidalRooms_EventScript_SnatchGiver",
+          "flag": "FLAG_HIDE_SS_TIDAL_ROOMS_SNATCH_GIVER"
+        },
+        "cell": {
+          "x": 28,
+          "y": 5,
+          "metatile": 573,
+          "block": 12861,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 11,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 5,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 13,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 14,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 22,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 23,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 31,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 32,
+        "y": 16,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "3"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 13,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "5"
+      },
+      {
+        "x": 22,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "6"
+      },
+      {
+        "x": 31,
+        "y": 1,
+        "elevation": 0,
+        "dest_map": "MAP_SS_TIDAL_CORRIDOR",
+        "dest_warp_id": "7"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 15,
+        "y": 11,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalRooms_EventScript_Bed"
+      },
+      {
+        "type": "sign",
+        "x": 15,
+        "y": 12,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SSTidalRooms_EventScript_Bed"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SafariZone_RestHouse",
+    "layout": {
+      "id": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
+      "name": "SafariZone_RestHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFB6C",
+      "border_filepath": "data/hyper_assets/layouts/26.11/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary8_layouts/SafariZone_RestHouse/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+          "x": 7,
+          "y": 4,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SafariZone_RestHouse_EventScript_Youngster",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 7,
+          "y": 4,
+          "metatile": 545,
+          "block": 12833,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
+          "x": 8,
+          "y": 4,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SafariZone_RestHouse_EventScript_PsychicM",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 4,
+          "metatile": 545,
+          "block": 12833,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+          "x": 2,
+          "y": 5,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SafariZone_RestHouse_EventScript_FatMan",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 2,
+          "y": 5,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_SAFARI_ZONE_SOUTHWEST",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "elevation": 0,
+        "dest_map": "MAP_SAFARI_ZONE_SOUTHWEST",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_1F",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_1F",
+      "name": "TrainerHill_1F_Layout",
+      "width": 16,
+      "height": 21,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerHill",
+      "border_filepath": "data/layouts/TrainerHill_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TrainerHill_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 2,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 12,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_2F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_2F",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_2F",
+      "name": "TrainerHill_2F_Layout",
+      "width": 16,
+      "height": 21,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerHill",
+      "border_filepath": "data/layouts/TrainerHill_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TrainerHill_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 2,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_1F",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 12,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_3F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_3F",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_3F",
+      "name": "TrainerHill_3F_Layout",
+      "width": 16,
+      "height": 21,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerHill",
+      "border_filepath": "data/layouts/TrainerHill_3F/border.bin",
+      "blockdata_filepath": "data/layouts/TrainerHill_3F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 2,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_2F",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 12,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_4F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_4F",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_4F",
+      "name": "TrainerHill_4F_Layout",
+      "width": 16,
+      "height": 21,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerHill",
+      "border_filepath": "data/layouts/TrainerHill_4F/border.bin",
+      "blockdata_filepath": "data/layouts/TrainerHill_4F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 2,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_3F",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 12,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_ROOF",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_Elevator",
+    "layout": {
+      "id": "LAYOUT_HYPER_CANARY5_TRAINER_HILL_ELEVATOR",
+      "name": "HyperCanary5TrainerHill_Elevator_Layout",
+      "width": 5,
+      "height": 7,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFC94",
+      "border_filepath": "data/hyper_assets/layouts/26.88/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary5_layouts/TrainerHill_Elevator/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_TRAINER_HILL_ELEVATOR_ATTENDANT",
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 0,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Elevator_EventScript_Attendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 0,
+          "y": 6,
+          "metatile": 612,
+          "block": 12900,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 6,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_ROOF",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_ROOF",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_Entrance",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_ENTRANCE",
+      "name": "TrainerHill_Entrance_Layout",
+      "width": 19,
+      "height": 17,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF884",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD84",
+      "border_filepath": "data/hyper_assets/layouts/26.60/border.bin",
+      "blockdata_filepath": "data/hyper_assets/canary5_layouts/TrainerHill_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_TRAINER_HILL_ATTENDANT",
+          "graphics_id": "OBJ_EVENT_GFX_TEALA",
+          "x": 11,
+          "y": 6,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Entrance_EventScript_Attendant",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 11,
+          "y": 6,
+          "metatile": 823,
+          "block": 13111,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_TRAINER_HILL_NURSE",
+          "graphics_id": "OBJ_EVENT_GFX_NURSE",
+          "x": 4,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Entrance_EventScript_Nurse",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 4,
+          "y": 9,
+          "metatile": 781,
+          "block": 13069,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 2,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+          "x": 14,
+          "y": 9,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Entrance_EventScript_Clerk",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 9,
+          "metatile": 781,
+          "block": 13069,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 3,
+        "event": {
+          "local_id": "LOCALID_TRAINER_HILL_GIRL",
+          "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+          "x": 5,
+          "y": 14,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Entrance_EventScript_Girl",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 5,
+          "y": 14,
+          "metatile": 816,
+          "block": 13104,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 4,
+        "event": {
+          "local_id": "LOCALID_TRAINER_HILL_MAN",
+          "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+          "x": 14,
+          "y": 15,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Entrance_EventScript_Man",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 14,
+          "y": 15,
+          "metatile": 816,
+          "block": 13104,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 9,
+        "y": 16,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE111",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 10,
+        "y": 16,
+        "elevation": 3,
+        "dest_map": "MAP_ROUTE111",
+        "dest_warp_id": "4"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_1F",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 9,
+        "y": 6,
+        "elevation": 3,
+        "var": "VAR_TRAINER_HILL_IS_ACTIVE",
+        "var_value": "0",
+        "script": "TrainerHill_Entrance_EventScript_EntryTrigger"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 8,
+        "y": 10,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "TrainerHill_Entrance_EventScript_Records"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "TrainerHill_Roof",
+    "layout": {
+      "id": "LAYOUT_TRAINER_HILL_ROOF",
+      "name": "TrainerHill_Roof_Layout",
+      "width": 25,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerHill",
+      "border_filepath": "data/layouts/TrainerHill_Roof/border.bin",
+      "blockdata_filepath": "data/layouts/TrainerHill_Roof/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+          "x": 12,
+          "y": 7,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "TrainerHill_Roof_EventScript_Owner",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 12,
+          "y": 7,
+          "metatile": 875,
+          "block": 13163,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 9,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_TRAINER_HILL_4F",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 15,
+        "y": 5,
+        "elevation": 0,
+        "dest_map": "MAP_TRAINER_HILL_ELEVATOR",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  }
+]

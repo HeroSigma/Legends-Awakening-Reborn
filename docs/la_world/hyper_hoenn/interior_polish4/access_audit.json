@@ -1,0 +1,32 @@
+{
+  "rooms": 37,
+  "warp_arrivals": 88,
+  "native_dynamic_warps": [
+    {
+      "map": "LilycoveCity_DepartmentStoreElevator",
+      "warp": {
+        "x": 1,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_DYNAMIC",
+        "dest_warp_id": "WARP_ID_DYNAMIC"
+      },
+      "owner": "Native runtime system"
+    },
+    {
+      "map": "LilycoveCity_DepartmentStoreElevator",
+      "warp": {
+        "x": 2,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_DYNAMIC",
+        "dest_warp_id": "WARP_ID_DYNAMIC"
+      },
+      "owner": "Native runtime system"
+    }
+  ],
+  "active_actors": 193,
+  "bg_events": 54,
+  "issues": [],
+  "scope": "Static floor/counter reachability; native flags and script-controlled movement retained; runtime story/service testing remains necessary."
+}

@@ -1,0 +1,1428 @@
+[
+  {
+    "map": "BirthIsland_Exterior",
+    "layout": {
+      "id": "LAYOUT_BIRTH_ISLAND_EXTERIOR",
+      "name": "BirthIsland_Exterior_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/BirthIsland_Exterior/border.bin",
+      "blockdata_filepath": "data/layouts/BirthIsland_Exterior/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK",
+          "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+          "x": 15,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "BirthIsland_Exterior_EventScript_Triangle",
+          "flag": "FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE"
+        },
+        "cell": {
+          "x": 15,
+          "y": 12,
+          "metatile": 473,
+          "block": 12761,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_BIRTH_ISLAND_DEOXYS",
+          "graphics_id": "OBJ_EVENT_GFX_DEOXYS",
+          "x": 15,
+          "y": 3,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_DEOXYS"
+        },
+        "cell": {
+          "x": 15,
+          "y": 3,
+          "metatile": 809,
+          "block": 1833,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 15,
+        "y": 24,
+        "elevation": 0,
+        "dest_map": "MAP_BIRTH_ISLAND_HARBOR",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "BirthIsland_Harbor",
+    "layout": {
+      "id": "LAYOUT_ISLAND_HARBOR",
+      "name": "IslandHarbor_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IslandHarbor",
+      "border_filepath": "data/layouts/IslandHarbor/border.bin",
+      "blockdata_filepath": "data/layouts/IslandHarbor/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_BIRTH_ISLAND_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 8,
+          "y": 5,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "BirthIsland_Harbor_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 5,
+          "metatile": 569,
+          "block": 1593,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_BIRTH_ISLAND_SS_TIDAL",
+          "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
+          "x": 8,
+          "y": 7,
+          "elevation": 1,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 7,
+          "metatile": 368,
+          "block": 1392,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 21,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 8,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_BIRTH_ISLAND_EXTERIOR",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "FarawayIsland_Entrance",
+    "layout": {
+      "id": "LAYOUT_FARAWAY_ISLAND_ENTRANCE",
+      "name": "FarawayIsland_Entrance_Layout",
+      "width": 34,
+      "height": 46,
+      "primary_tileset": "gTileset_Hyper_Final_FarawayIsland_Entrance_0",
+      "secondary_tileset": "gTileset_Hyper_Final_FarawayIsland_Entrance_1",
+      "border_filepath": "data/hyper_assets/layouts/26.56/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/FarawayIsland_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_FARAWAY_ISLAND_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 13,
+          "y": 39,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "FarawayIsland_Entrance_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 13,
+          "y": 39,
+          "metatile": 102,
+          "block": 12390,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_FARAWAY_ISLAND_SS_TIDAL",
+          "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
+          "x": 13,
+          "y": 41,
+          "elevation": 1,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 13,
+          "y": 41,
+          "metatile": 368,
+          "block": 4464,
+          "collision": 0,
+          "elevation": 1,
+          "translated_behavior": 21,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 22,
+        "y": 7,
+        "elevation": 3,
+        "dest_map": "MAP_FARAWAY_ISLAND_INTERIOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 23,
+        "y": 7,
+        "elevation": 3,
+        "dest_map": "MAP_FARAWAY_ISLAND_INTERIOR",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 9,
+        "y": 18,
+        "elevation": 3,
+        "var": "TRIGGER_RUN_IMMEDIATELY",
+        "var_value": "0",
+        "script": "FarawayIsland_Entrance_EventScript_SetCloudsWeather"
+      },
+      {
+        "type": "trigger",
+        "x": 10,
+        "y": 20,
+        "elevation": 3,
+        "var": "TRIGGER_RUN_IMMEDIATELY",
+        "var_value": "0",
+        "script": "FarawayIsland_Entrance_EventScript_ClearWeather"
+      },
+      {
+        "type": "trigger",
+        "x": 22,
+        "y": 9,
+        "elevation": 3,
+        "var": "TRIGGER_RUN_IMMEDIATELY",
+        "var_value": "0",
+        "script": "FarawayIsland_Entrance_EventScript_SetCloudsWeather"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 3,
+        "y": 32,
+        "elevation": 0,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "FarawayIsland_Entrance_EventScript_Sign"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "FarawayIsland_Interior",
+    "layout": {
+      "id": "LAYOUT_FARAWAY_ISLAND_INTERIOR",
+      "name": "FarawayIsland_Interior_Layout",
+      "width": 29,
+      "height": 26,
+      "primary_tileset": "gTileset_Hyper_Final_FarawayIsland_Interior_0",
+      "secondary_tileset": "gTileset_Hyper_Final_FarawayIsland_Interior_1",
+      "border_filepath": "data/hyper_assets/layouts/26.57/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/FarawayIsland_Interior/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_FARAWAY_ISLAND_MEW",
+          "graphics_id": "OBJ_EVENT_GFX_MEW",
+          "x": 13,
+          "y": 17,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_COPY_PLAYER_OPPOSITE_IN_GRASS",
+          "movement_range_x": 15,
+          "movement_range_y": 15,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "1",
+          "script": "FarawayIsland_Interior_EventScript_Mew",
+          "flag": "FLAG_HIDE_MEW"
+        },
+        "cell": {
+          "x": 13,
+          "y": 17,
+          "metatile": 5,
+          "block": 12293,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 12,
+        "y": 19,
+        "elevation": 0,
+        "dest_map": "MAP_FARAWAY_ISLAND_ENTRANCE",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 13,
+        "y": 19,
+        "elevation": 0,
+        "dest_map": "MAP_FARAWAY_ISLAND_ENTRANCE",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_B1F",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_B1F",
+      "name": "NavelRock_B1F_Layout",
+      "width": 23,
+      "height": 11,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_B1F_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_B1F_1",
+      "border_filepath": "data/hyper_assets/layouts/26.69/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_B1F/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 4,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_ENTRANCE",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 18,
+        "y": 9,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_FORK",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Bottom",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_BOTTOM",
+      "name": "NavelRock_Bottom_Layout",
+      "width": 22,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/NavelRock_Bottom/border.bin",
+      "blockdata_filepath": "data/layouts/NavelRock_Bottom/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_NAVEL_ROCK_LUGIA",
+          "graphics_id": "OBJ_EVENT_GFX_LUGIA",
+          "x": 11,
+          "y": 13,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "NavelRock_Bottom_EventScript_Lugia",
+          "flag": "FLAG_HIDE_LUGIA"
+        },
+        "cell": {
+          "x": 11,
+          "y": 13,
+          "metatile": 868,
+          "block": 868,
+          "collision": 0,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      }
+    ],
+    "warps": [
+      {
+        "x": 14,
+        "y": 19,
+        "elevation": 0,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN11",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down01",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN01",
+      "name": "HyperFinalNavelRock_Down01_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.76/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down01/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_FORK",
+        "dest_warp_id": "2"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN02",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down02",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN02",
+      "name": "HyperFinalNavelRock_Down02_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Down02_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Down02_1",
+      "border_filepath": "data/hyper_assets/layouts/26.77/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down02/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN01",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN03",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down03",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN03",
+      "name": "HyperFinalNavelRock_Down03_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.78/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down03/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN02",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN04",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down04",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN04",
+      "name": "HyperFinalNavelRock_Down04_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Down04_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Down04_1",
+      "border_filepath": "data/hyper_assets/layouts/26.79/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down04/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN03",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN05",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down05",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN05",
+      "name": "HyperFinalNavelRock_Down05_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.80/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down05/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN04",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN06",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down06",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN06",
+      "name": "HyperFinalNavelRock_Down06_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Down06_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Down06_1",
+      "border_filepath": "data/hyper_assets/layouts/26.81/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down06/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN05",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN07",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down07",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN07",
+      "name": "HyperFinalNavelRock_Down07_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.82/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down07/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN06",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN08",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down08",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN08",
+      "name": "HyperFinalNavelRock_Down08_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Down08_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Down08_1",
+      "border_filepath": "data/hyper_assets/layouts/26.83/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down08/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN07",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN09",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down09",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN09",
+      "name": "HyperFinalNavelRock_Down09_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.84/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down09/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN08",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN10",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down10",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_DOWN10",
+      "name": "HyperFinalNavelRock_Down10_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Down10_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Down10_1",
+      "border_filepath": "data/hyper_assets/layouts/26.85/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down10/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN09",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN11",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Down11",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_LADDER_ROOM1",
+      "name": "NavelRock_LadderRoom1_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.86/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Down11/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_BOTTOM",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN10",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Entrance",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_ENTRANCE",
+      "name": "NavelRock_Entrance_Layout",
+      "width": 21,
+      "height": 32,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Entrance_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Entrance_1",
+      "border_filepath": "data/hyper_assets/layouts/26.68/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 10,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_B1F",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 10,
+        "y": 26,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Exterior",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_EXTERIOR",
+      "name": "NavelRock_Exterior_Layout",
+      "width": 21,
+      "height": 24,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Exterior_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Exterior_1",
+      "border_filepath": "data/hyper_assets/layouts/26.66/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Exterior/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 10,
+        "y": 18,
+        "elevation": 0,
+        "dest_map": "MAP_NAVEL_ROCK_HARBOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "elevation": 0,
+        "dest_map": "MAP_NAVEL_ROCK_ENTRANCE",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Fork",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_FORK",
+      "name": "NavelRock_Fork_Layout",
+      "width": 27,
+      "height": 86,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Fork_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Fork_1",
+      "border_filepath": "data/hyper_assets/layouts/26.70/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Fork/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 4,
+        "y": 6,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP1",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 11,
+        "y": 79,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_B1F",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 22,
+        "y": 6,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_DOWN01",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Harbor",
+    "layout": {
+      "id": "LAYOUT_ISLAND_HARBOR",
+      "name": "IslandHarbor_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IslandHarbor",
+      "border_filepath": "data/layouts/IslandHarbor/border.bin",
+      "blockdata_filepath": "data/layouts/IslandHarbor/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_NAVEL_ROCK_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 8,
+          "y": 5,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "NavelRock_Harbor_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 5,
+          "metatile": 569,
+          "block": 1593,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_NAVEL_ROCK_SS_TIDAL",
+          "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
+          "x": 8,
+          "y": 7,
+          "elevation": 1,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 8,
+          "y": 7,
+          "metatile": 368,
+          "block": 1392,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 21,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 8,
+        "y": 2,
+        "elevation": 0,
+        "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Top",
+    "layout": {
+      "id": "LAYOUT_NAVEL_ROCK_TOP",
+      "name": "NavelRock_Top_Layout",
+      "width": 25,
+      "height": 28,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/NavelRock_Top/border.bin",
+      "blockdata_filepath": "data/layouts/NavelRock_Top/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_NAVEL_ROCK_HO_OH",
+          "graphics_id": "OBJ_EVENT_GFX_HOOH",
+          "x": 12,
+          "y": 4,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 1,
+          "movement_range_y": 1,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_HO_OH"
+        },
+        "cell": {
+          "x": 12,
+          "y": 4,
+          "metatile": 828,
+          "block": 1852,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 13,
+        "y": 20,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP4",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [
+      {
+        "type": "trigger",
+        "x": 12,
+        "y": 10,
+        "elevation": 3,
+        "var": "VAR_TEMP_1",
+        "var_value": "0",
+        "script": "NavelRock_Top_EventScript_HoOh"
+      }
+    ],
+    "bg_events": [
+      {
+        "type": "hidden_item",
+        "x": 12,
+        "y": 9,
+        "elevation": 3,
+        "item": "ITEM_SACRED_ASH",
+        "flag": "FLAG_HIDDEN_ITEM_NAVEL_ROCK_TOP_SACRED_ASH"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Up1",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_UP1",
+      "name": "HyperFinalNavelRock_Up1_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.71/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Up1/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_FORK",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP2",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Up2",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_UP2",
+      "name": "HyperFinalNavelRock_Up2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Up2_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Up2_1",
+      "border_filepath": "data/hyper_assets/layouts/26.72/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Up2/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP1",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP3",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Up3",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_UP3",
+      "name": "HyperFinalNavelRock_Up3_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Primary_083DF704",
+      "secondary_tileset": "gTileset_Hyper_Secondary_083DFD9C",
+      "border_filepath": "data/hyper_assets/layouts/26.73/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Up3/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP2",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP4",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "NavelRock_Up4",
+    "layout": {
+      "id": "LAYOUT_HYPER_FINAL_NAVEL_ROCK_UP4",
+      "name": "HyperFinalNavelRock_Up4_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Hyper_Final_NavelRock_Up4_0",
+      "secondary_tileset": "gTileset_Hyper_Final_NavelRock_Up4_1",
+      "border_filepath": "data/hyper_assets/layouts/26.74/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/NavelRock_Up4/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [],
+    "warps": [
+      {
+        "x": 3,
+        "y": 3,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_UP3",
+        "dest_warp_id": "1"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_NAVEL_ROCK_TOP",
+        "dest_warp_id": "0"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SouthernIsland_Exterior",
+    "layout": {
+      "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
+      "name": "SouthernIsland_Exterior_Layout",
+      "width": 33,
+      "height": 30,
+      "primary_tileset": "gTileset_Hyper_Final_SouthernIsland_Exterior_0",
+      "secondary_tileset": "gTileset_Hyper_Final_SouthernIsland_Exterior_1",
+      "border_filepath": "data/hyper_assets/layouts/26.9/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SouthernIsland_Exterior/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "local_id": "LOCALID_SOUTHERN_ISLAND_SAILOR",
+          "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+          "x": 13,
+          "y": 23,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "SouthernIsland_Exterior_EventScript_Sailor",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 13,
+          "y": 23,
+          "metatile": 78,
+          "block": 12366,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": false
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SOUTHERN_ISLAND_SS_TIDAL",
+          "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
+          "x": 13,
+          "y": 25,
+          "elevation": 1,
+          "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "0"
+        },
+        "cell": {
+          "x": 13,
+          "y": 25,
+          "metatile": 368,
+          "block": 4464,
+          "collision": 0,
+          "elevation": 1,
+          "translated_behavior": 21,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 14,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_SOUTHERN_ISLAND_INTERIOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 15,
+        "y": 5,
+        "elevation": 3,
+        "dest_map": "MAP_SOUTHERN_ISLAND_INTERIOR",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 16,
+        "y": 7,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+        "script": "SouthernIsland_Exterior_EventScript_Sign"
+      }
+    ],
+    "invalid_palette_refs": []
+  },
+  {
+    "map": "SouthernIsland_Interior",
+    "layout": {
+      "id": "LAYOUT_SOUTHERN_ISLAND_INTERIOR",
+      "name": "SouthernIsland_Interior_Layout",
+      "width": 27,
+      "height": 24,
+      "primary_tileset": "gTileset_Hyper_Final_SouthernIsland_Interior_0",
+      "secondary_tileset": "gTileset_Hyper_Final_SouthernIsland_Interior_1",
+      "border_filepath": "data/hyper_assets/layouts/26.10/border.bin",
+      "blockdata_filepath": "data/hyper_assets/finalization_layouts/SouthernIsland_Interior/map.bin",
+      "layout_version": "emerald"
+    },
+    "actors": [
+      {
+        "index": 0,
+        "event": {
+          "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+          "x": 13,
+          "y": 12,
+          "elevation": 3,
+          "movement_type": "MOVEMENT_TYPE_FACE_UP",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE"
+        },
+        "cell": {
+          "x": 13,
+          "y": 12,
+          "metatile": 4,
+          "block": 12292,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 0,
+          "layer": 1
+        },
+        "virtual_or_decorative": true
+      },
+      {
+        "index": 1,
+        "event": {
+          "local_id": "LOCALID_SOUTHERN_ISLAND_LATI",
+          "graphics_id": "OBJ_EVENT_GFX_VAR_1",
+          "x": 13,
+          "y": 2,
+          "elevation": 0,
+          "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+          "movement_range_x": 0,
+          "movement_range_y": 0,
+          "trainer_type": "TRAINER_TYPE_NONE",
+          "trainer_sight_or_berry_tree_id": "0",
+          "script": "0x0",
+          "flag": "FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON"
+        },
+        "cell": {
+          "x": 13,
+          "y": 2,
+          "metatile": 15,
+          "block": 1039,
+          "collision": 1,
+          "elevation": 0,
+          "translated_behavior": 0,
+          "layer": 0
+        },
+        "virtual_or_decorative": true
+      }
+    ],
+    "warps": [
+      {
+        "x": 13,
+        "y": 18,
+        "elevation": 3,
+        "dest_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+        "dest_warp_id": "0"
+      },
+      {
+        "x": 14,
+        "y": 18,
+        "elevation": 3,
+        "dest_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+        "dest_warp_id": "1"
+      }
+    ],
+    "coord_events": [],
+    "bg_events": [
+      {
+        "type": "sign",
+        "x": 13,
+        "y": 11,
+        "elevation": 3,
+        "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+        "script": "SouthernIsland_Interior_EventScript_TryLatiEncounter"
+      }
+    ],
+    "invalid_palette_refs": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "registered_maps": 126,
+  "map_types": {
+    "MAP_TYPE_UNDERWATER": 15,
+    "MAP_TYPE_INDOOR": 61,
+    "MAP_TYPE_ROUTE": 14,
+    "MAP_TYPE_UNDERGROUND": 32,
+    "MAP_TYPE_OCEAN_ROUTE": 1,
+    "MAP_TYPE_NONE": 2,
+    "MAP_TYPE_CITY": 1
+  },
+  "relationships": 498,
+  "gate_scientists": 408,
+  "warp_records_checked": 490,
+  "actor_candidates": 120,
+  "open_access_findings": 20,
+  "invalid_destination_records": [],
+  "invalid_palette_refs": 0,
+  "runtime_verified": false
+}

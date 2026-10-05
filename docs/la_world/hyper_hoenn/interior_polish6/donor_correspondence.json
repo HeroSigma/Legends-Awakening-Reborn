@@ -1,0 +1,1377 @@
+[
+  {
+    "map": "BattleFrontier_BattleArenaBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.30",
+    "dimensions": [
+      16,
+      11
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD0C"
+    ],
+    "current_blockdata_sha256": "6cea1d39155602af690c4e5dad93c11bffaad197a41b7a36d17c1c03e8d9083c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      16,
+      11
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485484",
+    "layout_pointer": "0x084675C0",
+    "source_blockdata_sha256": "6cea1d39155602af690c4e5dad93c11bffaad197a41b7a36d17c1c03e8d9083c"
+  },
+  {
+    "map": "BattleFrontier_BattleArenaCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.29",
+    "dimensions": [
+      18,
+      14
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD0C"
+    ],
+    "current_blockdata_sha256": "6080873853b21a59dbb9dbce1a091cb86d2fdc375a122026b6b18498b706385f",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      18,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485468",
+    "layout_pointer": "0x08467440",
+    "source_blockdata_sha256": "6080873853b21a59dbb9dbce1a091cb86d2fdc375a122026b6b18498b706385f"
+  },
+  {
+    "map": "BattleFrontier_BattleArenaLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.28",
+    "dimensions": [
+      16,
+      13
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD0C"
+    ],
+    "current_blockdata_sha256": "83620e4c540babca53604a5d9e96b7983d386187d8631b837800e8a1aaa49de2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      16,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848544C",
+    "layout_pointer": "0x08467228",
+    "source_blockdata_sha256": "83620e4c540babca53604a5d9e96b7983d386187d8631b837800e8a1aaa49de2"
+  },
+  {
+    "map": "BattleFrontier_BattleDomeBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.21",
+    "dimensions": [
+      20,
+      10
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "current_blockdata_sha256": "b7b6669b9f2755f62f66635221c7b77e84ee6f6d2f78ca29efcf2cd7bf106fda",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      20,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485388",
+    "layout_pointer": "0x08460250",
+    "source_blockdata_sha256": "b7b6669b9f2755f62f66635221c7b77e84ee6f6d2f78ca29efcf2cd7bf106fda"
+  },
+  {
+    "map": "BattleFrontier_BattleDomeCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.19",
+    "dimensions": [
+      48,
+      7
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "current_blockdata_sha256": "c88b5cf9bc48aafcc709ae646b7b93bdca158d810d8901198620920f5c8b2541",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      48,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485350",
+    "layout_pointer": "0x0845FFF0",
+    "source_blockdata_sha256": "c88b5cf9bc48aafcc709ae646b7b93bdca158d810d8901198620920f5c8b2541"
+  },
+  {
+    "map": "BattleFrontier_BattleDomeLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.18",
+    "dimensions": [
+      23,
+      17
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "current_blockdata_sha256": "50a8d3304745befcfdc6c3f7802708bdd7480710802b32853613d4f857769efc",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      23,
+      17
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485334",
+    "layout_pointer": "0x0845FD30",
+    "source_blockdata_sha256": "50a8d3304745befcfdc6c3f7802708bdd7480710802b32853613d4f857769efc"
+  },
+  {
+    "map": "BattleFrontier_BattleDomePreBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.20",
+    "dimensions": [
+      9,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCC4"
+    ],
+    "current_blockdata_sha256": "38810dbcabb3387790443696a09d12af064215090494043045c823e5875f9ead",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      9,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848536C",
+    "layout_pointer": "0x084600A0",
+    "source_blockdata_sha256": "38810dbcabb3387790443696a09d12af064215090494043045c823e5875f9ead"
+  },
+  {
+    "map": "BattleFrontier_BattleFactoryBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.33",
+    "dimensions": [
+      13,
+      12
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCDC"
+    ],
+    "current_blockdata_sha256": "ac8f24432f335295452713b8fb81b0a3036a84dd5e1c83d5672ed5ea7959033c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      12
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084854D8",
+    "layout_pointer": "0x08466BC8",
+    "source_blockdata_sha256": "ac8f24432f335295452713b8fb81b0a3036a84dd5e1c83d5672ed5ea7959033c"
+  },
+  {
+    "map": "BattleFrontier_BattleFactoryLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.31",
+    "dimensions": [
+      19,
+      12
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCDC"
+    ],
+    "current_blockdata_sha256": "0bdc8ef7bf8057904b4221d6bd6bc3144932a81cbe4c325ab8427308e4841f53",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      19,
+      12
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084854A0",
+    "layout_pointer": "0x08466874",
+    "source_blockdata_sha256": "0bdc8ef7bf8057904b4221d6bd6bc3144932a81cbe4c325ab8427308e4841f53"
+  },
+  {
+    "map": "BattleFrontier_BattleFactoryPreBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.32",
+    "dimensions": [
+      17,
+      14
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCDC"
+    ],
+    "current_blockdata_sha256": "81633f5d84cfe745747f37c7e1a9bb354382fd5bf81d55cdca8586755a18e51e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084854BC",
+    "layout_pointer": "0x08466A70",
+    "source_blockdata_sha256": "81633f5d84cfe745747f37c7e1a9bb354382fd5bf81d55cdca8586755a18e51e"
+  },
+  {
+    "map": "BattleFrontier_BattlePalaceBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.24",
+    "dimensions": [
+      15,
+      10
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Final_BattleFrontier_BattlePalaceBattleRoom_0",
+      "gTileset_Hyper_Secondary_083DFCAC"
+    ],
+    "current_blockdata_sha256": "8cd3e1603c149ee636b71dacdfe52f911be77be587929b8c5df6e73bd8c2dbb6",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      15,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084853DC",
+    "layout_pointer": "0x08463DEC",
+    "source_blockdata_sha256": "1fb19d22298e560b87e9e6947414d9051f19e0320e68f71cbba7028522f7f5f4"
+  },
+  {
+    "map": "BattleFrontier_BattlePalaceCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.23",
+    "dimensions": [
+      17,
+      14
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFCAC"
+    ],
+    "current_blockdata_sha256": "dddbdc1637fe69eccb07469144b3f5eb85b57bcfde797e919a86289471ef3fe9",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084853C0",
+    "layout_pointer": "0x08463CA0",
+    "source_blockdata_sha256": "dddbdc1637fe69eccb07469144b3f5eb85b57bcfde797e919a86289471ef3fe9"
+  },
+  {
+    "map": "BattleFrontier_BattlePalaceLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.22",
+    "dimensions": [
+      25,
+      12
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCAC"
+    ],
+    "current_blockdata_sha256": "eff008da15b3f504fed7d8c763b695e383a85b3492ebd0289c9c4091d886d0ce",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      25,
+      12
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084853A4",
+    "layout_pointer": "0x08463AA4",
+    "source_blockdata_sha256": "eff008da15b3f504fed7d8c763b695e383a85b3492ebd0289c9c4091d886d0ce"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.35",
+    "dimensions": [
+      14,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "21f8e9eca9c382c033d84ec7044b1c510ac38345bc2a0a8eb11b3e2be1faebf3",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      14,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485510",
+    "layout_pointer": "0x08466E08",
+    "source_blockdata_sha256": "21f8e9eca9c382c033d84ec7044b1c510ac38345bc2a0a8eb11b3e2be1faebf3"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.34",
+    "dimensions": [
+      11,
+      13
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "c30f1bf321d01ed79b48152eabe136289572d186bed81a308c8509a58fa1f9d0",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      13
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084854F4",
+    "layout_pointer": "0x08466D08",
+    "source_blockdata_sha256": "c30f1bf321d01ed79b48152eabe136289572d186bed81a308c8509a58fa1f9d0"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeRoomFinal",
+    "asset_origin": "HYPER",
+    "donor_id": "26.38",
+    "dimensions": [
+      5,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "9e0d2bef1efbcee00d108959c43b6b9f914ac1a2d3016461f6b0224b173c303f",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      5,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485564",
+    "layout_pointer": "0x08467068",
+    "source_blockdata_sha256": "9e0d2bef1efbcee00d108959c43b6b9f914ac1a2d3016461f6b0224b173c303f"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeRoomNormal",
+    "asset_origin": "HYPER",
+    "donor_id": "26.37",
+    "dimensions": [
+      9,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "6a7cc4f7c7d330507921e783d3cb65cacb90078f944b34dba818643efbb74f13",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      9,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485548",
+    "layout_pointer": "0x08466FF8",
+    "source_blockdata_sha256": "6a7cc4f7c7d330507921e783d3cb65cacb90078f944b34dba818643efbb74f13"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeRoomWildMons",
+    "asset_origin": "HYPER",
+    "donor_id": "26.39",
+    "dimensions": [
+      9,
+      20
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "8040ca7195fb9dc6b2c99b9b13f6dd41cb60f9abf12c00072206d592f91fa5c8",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      9,
+      20
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485580",
+    "layout_pointer": "0x08469388",
+    "source_blockdata_sha256": "8040ca7195fb9dc6b2c99b9b13f6dd41cb60f9abf12c00072206d592f91fa5c8"
+  },
+  {
+    "map": "BattleFrontier_BattlePikeThreePathRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.36",
+    "dimensions": [
+      13,
+      11
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_THREE_PATH_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFCF4"
+    ],
+    "current_blockdata_sha256": "bbd7936a3415d3e94d3cd3ee06573ccd9b8328691fdd0ea54bde72e54242469c",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      11
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848552C",
+    "layout_pointer": "0x08466F48",
+    "source_blockdata_sha256": "bbd7936a3415d3e94d3cd3ee06573ccd9b8328691fdd0ea54bde72e54242469c"
+  },
+  {
+    "map": "BattleFrontier_BattlePyramidFloor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.26",
+    "dimensions": [
+      8,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD24"
+    ],
+    "current_blockdata_sha256": "38d8091d9925f23fca107761f0588c731b32ecd41c5dd89f30308ffdd921d758",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      8,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485414",
+    "layout_pointer": "0x08469688",
+    "source_blockdata_sha256": "38d8091d9925f23fca107761f0588c731b32ecd41c5dd89f30308ffdd921d758"
+  },
+  {
+    "map": "BattleFrontier_BattlePyramidLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.25",
+    "dimensions": [
+      15,
+      18
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD24"
+    ],
+    "current_blockdata_sha256": "64d965808c893cb906dbbdb7146b78ee93bdd488675f25f1070e8c3a185dfa9d",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      15,
+      18
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084853F8",
+    "layout_pointer": "0x084695E8",
+    "source_blockdata_sha256": "64d965808c893cb906dbbdb7146b78ee93bdd488675f25f1070e8c3a185dfa9d"
+  },
+  {
+    "map": "BattleFrontier_BattlePyramidTop",
+    "asset_origin": "HYPER",
+    "donor_id": "26.27",
+    "dimensions": [
+      34,
+      23
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_TOP",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFD24"
+    ],
+    "current_blockdata_sha256": "d53fb40fd5d35d0bfd33bfd1f5cddd3d2fb610c9e1c1a64d400df6e8c10ffbe2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      34,
+      23
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485430",
+    "layout_pointer": "0x0846A6C4",
+    "source_blockdata_sha256": "d53fb40fd5d35d0bfd33bfd1f5cddd3d2fb610c9e1c1a64d400df6e8c10ffbe2"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.8",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "31f606c9f6d611d96fae041d1e719c91e242eb7f4227e2bfe2f2dac6b2789dd2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848521C",
+    "layout_pointer": "0x0844D204",
+    "source_blockdata_sha256": "31f606c9f6d611d96fae041d1e719c91e242eb7f4227e2bfe2f2dac6b2789dd2"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.7",
+    "dimensions": [
+      17,
+      5
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "d1d2516c0c2f92c9c32a54f648b8c6d9b1d4b4084b5b6b92dfa07d88bf0285f1",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      5
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485200",
+    "layout_pointer": "0x0844D130",
+    "source_blockdata_sha256": "d1d2516c0c2f92c9c32a54f648b8c6d9b1d4b4084b5b6b92dfa07d88bf0285f1"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerElevator",
+    "asset_origin": "HYPER",
+    "donor_id": "26.6",
+    "dimensions": [
+      5,
+      7
+    ],
+    "layout": "LAYOUT_BATTLE_ELEVATOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "defb996d7f0bbbc255e999711156d53dc0a10839d2b6cc63be5227f682b108b4",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      5,
+      7
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084851E4",
+    "layout_pointer": "0x0844D064",
+    "source_blockdata_sha256": "defb996d7f0bbbc255e999711156d53dc0a10839d2b6cc63be5227f682b108b4"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerLobby",
+    "asset_origin": "HYPER",
+    "donor_id": "26.5",
+    "dimensions": [
+      25,
+      10
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "6fff6330ce17b9c61dc4a6afd9072b69fa7b57851494f423765687c185e9a616",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      25,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084851C8",
+    "layout_pointer": "0x0844B05C",
+    "source_blockdata_sha256": "ad1cc8d67a6ccb2eb93bdfc867fff965a4e5a863539acec246364eadc159589f"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerMultiBattleRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.17",
+    "dimensions": [
+      10,
+      9
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "31f606c9f6d611d96fae041d1e719c91e242eb7f4227e2bfe2f2dac6b2789dd2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485318",
+    "layout_pointer": "0x0844D204",
+    "source_blockdata_sha256": "31f606c9f6d611d96fae041d1e719c91e242eb7f4227e2bfe2f2dac6b2789dd2"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerMultiCorridor",
+    "asset_origin": "HYPER",
+    "donor_id": "26.16",
+    "dimensions": [
+      17,
+      5
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "97609a3ea06a1557abe6af0f28fa9afa06ada297d6adc7da8076389002208a07",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      5
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084852FC",
+    "layout_pointer": "0x0846DFF8",
+    "source_blockdata_sha256": "97609a3ea06a1557abe6af0f28fa9afa06ada297d6adc7da8076389002208a07"
+  },
+  {
+    "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+    "asset_origin": "HYPER",
+    "donor_id": "26.15",
+    "dimensions": [
+      21,
+      15
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_PARTNER_ROOM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "740a8c140e03f21a9b8e57fd62bf288a18c2c81e169a2bbe495776bb06c6abf2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      21,
+      15
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084852E0",
+    "layout_pointer": "0x0846DF2C",
+    "source_blockdata_sha256": "740a8c140e03f21a9b8e57fd62bf288a18c2c81e169a2bbe495776bb06c6abf2"
+  },
+  {
+    "map": "BattleFrontier_ExchangeServiceCorner",
+    "asset_origin": "HYPER",
+    "donor_id": "26.42",
+    "dimensions": [
+      15,
+      11
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "8d1d6144c8e95253dde19cf9bfb1ae09f7f7bbc7f1c7a0ab6bec02274533a2a0",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      15,
+      11
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084855D4",
+    "layout_pointer": "0x08472F54",
+    "source_blockdata_sha256": "d9077ef4aaf8298176c42c0662d96fe27879d9d2d9f97396250817f2bf1b3acf"
+  },
+  {
+    "map": "BattleFrontier_Lounge1",
+    "asset_origin": "HYPER",
+    "donor_id": "26.41",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge1_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084855B8",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge2",
+    "asset_origin": "HYPER",
+    "donor_id": "26.43",
+    "dimensions": [
+      13,
+      8
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE2",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "9b9c0393d372d2ec4706408790262bdde2f987c66361e6ba6bbf8e7b05ddb866",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084855F0",
+    "layout_pointer": "0x08472DE8",
+    "source_blockdata_sha256": "9b9c0393d372d2ec4706408790262bdde2f987c66361e6ba6bbf8e7b05ddb866"
+  },
+  {
+    "map": "BattleFrontier_Lounge3",
+    "asset_origin": "HYPER",
+    "donor_id": "26.44",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE3",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge3_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848560C",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge4",
+    "asset_origin": "HYPER",
+    "donor_id": "26.45",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE4",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge4_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485628",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge5",
+    "asset_origin": "HYPER",
+    "donor_id": "26.47",
+    "dimensions": [
+      13,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_LOUNGE1",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "9b9c0393d372d2ec4706408790262bdde2f987c66361e6ba6bbf8e7b05ddb866",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      13,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485660",
+    "layout_pointer": "0x08472DE8",
+    "source_blockdata_sha256": "9b9c0393d372d2ec4706408790262bdde2f987c66361e6ba6bbf8e7b05ddb866"
+  },
+  {
+    "map": "BattleFrontier_Lounge6",
+    "asset_origin": "HYPER",
+    "donor_id": "26.48",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE6",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge6_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848567C",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge7",
+    "asset_origin": "HYPER",
+    "donor_id": "26.49",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE7",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge7_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485698",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge8",
+    "asset_origin": "HYPER",
+    "donor_id": "26.51",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE8",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge8_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084856D0",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Lounge9",
+    "asset_origin": "HYPER",
+    "donor_id": "26.52",
+    "dimensions": [
+      9,
+      10
+    ],
+    "layout": "LAYOUT_HYPER_FINAL_BATTLE_FRONTIER_LOUNGE9",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_Lounge9_1"
+    ],
+    "current_blockdata_sha256": "f64f07e05caa3fecf69669b16ac71f57075b2b708121ba5c47675fa1afc45f2e",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084856EC",
+    "layout_pointer": "0x08480418",
+    "source_blockdata_sha256": "791f01d118bcc29680743bf3b2678b4782408cd95c63922eafe0a9583f98faa6"
+  },
+  {
+    "map": "BattleFrontier_Mart",
+    "asset_origin": "HYPER",
+    "donor_id": "26.55",
+    "dimensions": [
+      11,
+      8
+    ],
+    "layout": "LAYOUT_MART",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF89C"
+    ],
+    "current_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485740",
+    "layout_pointer": "0x08427150",
+    "source_blockdata_sha256": "50deb49ef212cc13b10167c264e9b7621230fc819aff97a777ad252d96a05a9f"
+  },
+  {
+    "map": "BattleFrontier_PokemonCenter_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "26.53",
+    "dimensions": [
+      14,
+      9
+    ],
+    "layout": "LAYOUT_POKEMON_CENTER_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "e4f3f5745008fa4ffffd8a44529608a2289ff24a63f6090b53e720a696df8c39",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      14,
+      9
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485708",
+    "layout_pointer": "0x08426F48",
+    "source_blockdata_sha256": "ab353f0fed37ad3a6226446d57925f41d5b5cd85b2aedf57a3cb2430fc4fbc29"
+  },
+  {
+    "map": "BattleFrontier_PokemonCenter_2F",
+    "asset_origin": "HYPER",
+    "donor_id": "26.54",
+    "dimensions": [
+      14,
+      10
+    ],
+    "layout": "LAYOUT_POKEMON_CENTER_2F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DF8B4"
+    ],
+    "current_blockdata_sha256": "421b82f3d768019d34d9a6c7a4befa197b59bf91e60403eb9a0d9816af6fd9e8",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      14,
+      10
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485724",
+    "layout_pointer": "0x08427080",
+    "source_blockdata_sha256": "11f72a1324ce1c22e5631e1429e560c045a30e4f8414128aab3d1a01b9dc970b"
+  },
+  {
+    "map": "BattleFrontier_RankingHall",
+    "asset_origin": "HYPER",
+    "donor_id": "26.40",
+    "dimensions": [
+      53,
+      15
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_RANKING_HALL",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Final_BattleFrontier_RankingHall_1"
+    ],
+    "current_blockdata_sha256": "faf92cf3a09e9f4867aa85c0f925c5d6f18b7ea4ccfa983f99b700c3047147f2",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      53,
+      15
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848559C",
+    "layout_pointer": "0x08472CF8",
+    "source_blockdata_sha256": "5ad29e097febc8225c3f7e9c0e79d5799ca5ca2b323c682baeb5005f74c9e844"
+  },
+  {
+    "map": "BattleFrontier_ReceptionGate",
+    "asset_origin": "HYPER",
+    "donor_id": "26.50",
+    "dimensions": [
+      9,
+      14
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_RECEPTION_GATE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF704",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "47b539be220ac83956018cb5fe5d1bf6b6abdfcd730764ecf8c6726f6eedcb95",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      9,
+      14
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084856B4",
+    "layout_pointer": "0x08473070",
+    "source_blockdata_sha256": "1c7a054a6f61315cb35df5ad1a5e632ba784baa07708423d26b01a842a483c8f"
+  },
+  {
+    "map": "BattleFrontier_ScottsHouse",
+    "asset_origin": "HYPER",
+    "donor_id": "26.46",
+    "dimensions": [
+      6,
+      8
+    ],
+    "layout": "LAYOUT_BATTLE_FRONTIER_SCOTTS_HOUSE",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC94"
+    ],
+    "current_blockdata_sha256": "718810b7aa1ec200318329dfe017e317ebbddec56d5ae3d994d800dcf36916fc",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      6,
+      8
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08485644",
+    "layout_pointer": "0x08480498",
+    "source_blockdata_sha256": "718810b7aa1ec200318329dfe017e317ebbddec56d5ae3d994d800dcf36916fc"
+  },
+  {
+    "map": "DewfordTown_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "3.3",
+    "dimensions": [
+      18,
+      28
+    ],
+    "layout": "LAYOUT_DEWFORD_TOWN_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFBB4"
+    ],
+    "current_blockdata_sha256": "295ca485313c116096ebbb87fea88ac2f35ead5370f4a881eaa35483a017d8f1",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      18,
+      28
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482C60",
+    "layout_pointer": "0x08427620",
+    "source_blockdata_sha256": "295ca485313c116096ebbb87fea88ac2f35ead5370f4a881eaa35483a017d8f1"
+  },
+  {
+    "map": "FortreeCity_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "12.1",
+    "dimensions": [
+      20,
+      25
+    ],
+    "layout": "LAYOUT_FORTREE_CITY_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC14"
+    ],
+    "current_blockdata_sha256": "5fadfdf5a357b0bd3c82163e36a972eef0c798701a3ea7ba88f729c2af6c2f05",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      20,
+      25
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x0848353C",
+    "layout_pointer": "0x0842AE44",
+    "source_blockdata_sha256": "5fadfdf5a357b0bd3c82163e36a972eef0c798701a3ea7ba88f729c2af6c2f05"
+  },
+  {
+    "map": "LavaridgeTown_Gym_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "4.1",
+    "dimensions": [
+      17,
+      19
+    ],
+    "layout": "LAYOUT_LAVARIDGE_TOWN_GYM_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFBE4"
+    ],
+    "current_blockdata_sha256": "9d7e37e5b08048438aac202f5210e74a136dd34bf078e874beaf4af902efc017",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      17,
+      19
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482CD0",
+    "layout_pointer": "0x08427BC0",
+    "source_blockdata_sha256": "f62a582580a4f67d180c6cf2c9bb0ddb60a8fe8b22ea1ebee4de55ce76991719"
+  },
+  {
+    "map": "LavaridgeTown_Gym_B1F",
+    "asset_origin": "HYPER",
+    "donor_id": "4.2",
+    "dimensions": [
+      17,
+      19
+    ],
+    "layout": "LAYOUT_LAVARIDGE_TOWN_GYM_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFBE4"
+    ],
+    "current_blockdata_sha256": "bbdfa589a3667ac2c9108e946aa4e187c1dd4ddb7b44577197bc2f77d667d8ba",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": false,
+    "donor_dimensions": [
+      17,
+      19
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08482CEC",
+    "layout_pointer": "0x08427E68",
+    "source_blockdata_sha256": "6341384fc1f126e74133b133d3c9fe922fe4066abeafaf169bb79c5dc16e7376"
+  },
+  {
+    "map": "MauvilleCity_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "10.0",
+    "dimensions": [
+      10,
+      21
+    ],
+    "layout": "LAYOUT_MAUVILLE_CITY_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFBCC"
+    ],
+    "current_blockdata_sha256": "1b20462736f4a160314fa62fd5d01e0367de028181be5fdd01213004442ff245",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      10,
+      21
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483264",
+    "layout_pointer": "0x08429E00",
+    "source_blockdata_sha256": "1b20462736f4a160314fa62fd5d01e0367de028181be5fdd01213004442ff245"
+  },
+  {
+    "map": "MossdeepCity_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "14.0",
+    "dimensions": [
+      26,
+      36
+    ],
+    "layout": "LAYOUT_MOSSDEEP_CITY_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFC2C"
+    ],
+    "current_blockdata_sha256": "8777e413f40010afbcc391ac5d9abb91c7ef8ea0a5c4ccf571e63d68f988cca6",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      26,
+      36
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x084838BC",
+    "layout_pointer": "0x0842CDB4",
+    "source_blockdata_sha256": "8777e413f40010afbcc391ac5d9abb91c7ef8ea0a5c4ccf571e63d68f988cca6"
+  },
+  {
+    "map": "PetalburgCity_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "8.1",
+    "dimensions": [
+      9,
+      112
+    ],
+    "layout": "LAYOUT_PETALBURG_CITY_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB3C"
+    ],
+    "current_blockdata_sha256": "b75cd4f08b42faf760a95d2610fa8be868e47d37eb8d0c55ab6724ffc45883db",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      9,
+      112
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483034",
+    "layout_pointer": "0x08428F28",
+    "source_blockdata_sha256": "b75cd4f08b42faf760a95d2610fa8be868e47d37eb8d0c55ab6724ffc45883db"
+  },
+  {
+    "map": "RustboroCity_Gym",
+    "asset_origin": "HYPER",
+    "donor_id": "11.3",
+    "dimensions": [
+      11,
+      20
+    ],
+    "layout": "LAYOUT_RUSTBORO_CITY_GYM",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB9C"
+    ],
+    "current_blockdata_sha256": "6f57154e92b30c29c6e8537f3079f34e9a15d1a17ff0cc4027024352be2e215d",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      11,
+      20
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483398",
+    "layout_pointer": "0x0842A5C4",
+    "source_blockdata_sha256": "6f57154e92b30c29c6e8537f3079f34e9a15d1a17ff0cc4027024352be2e215d"
+  },
+  {
+    "map": "SootopolisCity_Gym_1F",
+    "asset_origin": "HYPER",
+    "donor_id": "15.0",
+    "dimensions": [
+      17,
+      26
+    ],
+    "layout": "LAYOUT_SOOTOPOLIS_CITY_GYM_1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB54"
+    ],
+    "current_blockdata_sha256": "e02be09ce5def76d6586d787160dcf35267729fb88ce5a5966e0a431da9b8d02",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      26
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A28",
+    "layout_pointer": "0x0842D148",
+    "source_blockdata_sha256": "e02be09ce5def76d6586d787160dcf35267729fb88ce5a5966e0a431da9b8d02"
+  },
+  {
+    "map": "SootopolisCity_Gym_B1F",
+    "asset_origin": "HYPER",
+    "donor_id": "15.1",
+    "dimensions": [
+      17,
+      26
+    ],
+    "layout": "LAYOUT_SOOTOPOLIS_CITY_GYM_B1F",
+    "tilesets": [
+      "gTileset_Hyper_Primary_083DF884",
+      "gTileset_Hyper_Secondary_083DFB54"
+    ],
+    "current_blockdata_sha256": "d49b4c8ccd4a78f9b8df0ae335013633a656a4ea55de8c1b5e363f7b742a475d",
+    "ownership": "Expansion/project events and scripts",
+    "exact_donor_blockdata": true,
+    "donor_dimensions": [
+      17,
+      26
+    ],
+    "dimensions_match": true,
+    "header_pointer": "0x08483A44",
+    "layout_pointer": "0x0842D4DC",
+    "source_blockdata_sha256": "d49b4c8ccd4a78f9b8df0ae335013633a656a4ea55de8c1b5e363f7b742a475d"
+  }
+]
