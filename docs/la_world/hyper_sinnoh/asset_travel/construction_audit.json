@@ -1,0 +1,6324 @@
+{
+  "result": {
+    "passed": true,
+    "new_maps": 215,
+    "new_sinnoh_maps": 212,
+    "reused_sinnoh_maps": 1,
+    "new_hoenn_alias_maps": 3,
+    "structurally_reachable_new_maps": 215,
+    "new_maps_with_project_return": 215,
+    "arrival_only_excluded_from_return_graph": true,
+    "scientists_checked": 335,
+    "protected_baseline_files": 32090,
+    "native_map_ids_and_save_abi_preserved": true,
+    "native_mystery_story_preserved": true,
+    "donor_gameplay_imported": false,
+    "map_groups": 127,
+    "map_sections": 248,
+    "rom_validation": {
+      "passed": true,
+      "linked_maps": 780,
+      "linked_tilesets": 213,
+      "linked_objects": 2681,
+      "linked_warps": 2577,
+      "linked_connections": 262,
+      "native_cell_contracts_checked": 30160,
+      "canonical_asset_ports": 127,
+      "animation": {
+        "callbacks": 21,
+        "paired_hoenn_combinations": 29,
+        "ticks_per_case": 256,
+        "sanitizers": "address,undefined",
+        "result": "Validated 6252 DMA frame transfers."
+      },
+      "rom_sha256": "4164b8c26f3a4a19746c7a7c3f8592ae71ce0b33ac9c46fa7f96456d881521fd",
+      "rom_bytes": 33554432,
+      "runtime_verified": false
+    },
+    "runtime_verified": false
+  },
+  "scientists": [
+    {
+      "map": "HyperSinnoh_37_1_Twinleaf_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_1_Twinleaf_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 862,
+        "block": 13150,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_12_Unown_Ruins",
+      "x": 7,
+      "y": 10,
+      "script": "HyperHoenn_34_12_Unown_Ruins_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 10,
+        "metatile": 578,
+        "block": 12866,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_11_Spear_Pillar",
+      "x": 14,
+      "y": 2,
+      "script": "HyperSinnoh_35_11_Spear_Pillar_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 2,
+        "metatile": 754,
+        "block": 13042,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_80_Mt_Coronet",
+      "x": 7,
+      "y": 9,
+      "script": "HyperSinnoh_36_80_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 9,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_35_Route_216",
+      "x": 14,
+      "y": 2,
+      "script": "HyperSinnoh_36_35_Route_216_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 2,
+        "metatile": 586,
+        "block": 12874,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_25_Solaceon_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_25_Solaceon_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_57_Old_Chateau",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_57_Old_Chateau_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 694,
+        "block": 12982,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_84_Hearthome_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_84_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 516,
+        "block": 12804,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_64_Couriway_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_34_64_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 886,
+        "block": 13174,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_14_Solaceon_Ruins",
+      "x": 1,
+      "y": 1,
+      "script": "HyperSinnoh_35_14_Solaceon_Ruins_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 1,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_34_Route_215",
+      "x": 52,
+      "y": 3,
+      "script": "HyperSinnoh_36_34_Route_215_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 52,
+        "y": 3,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_65_Outer_Space",
+      "x": 4,
+      "y": 6,
+      "script": "HyperHoenn_34_65_Outer_Space_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 6,
+        "metatile": 664,
+        "block": 12952,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_98_Canalave_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_98_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 545,
+        "block": 12833,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_56_Old_Chateau",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_56_Old_Chateau_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 704,
+        "block": 12992,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_55_Fuego_Ironworks",
+      "x": 21,
+      "y": 7,
+      "script": "HyperSinnoh_36_55_Fuego_Ironworks_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 21,
+        "y": 7,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_109_Jubilife_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_109_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_13_Distortion_World",
+      "x": 9,
+      "y": 2,
+      "script": "HyperHoenn_34_13_Distortion_World_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 2,
+        "metatile": 777,
+        "block": 13065,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_37_Steven_s_Island",
+      "x": 14,
+      "y": 1,
+      "script": "HyperHoenn_35_37_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 1,
+        "metatile": 519,
+        "block": 12807,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_7_Deep_Sea",
+      "x": 8,
+      "y": 4,
+      "script": "HyperHoenn_34_7_Deep_Sea_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 4,
+        "metatile": 595,
+        "block": 12883,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_28_Champion_Island",
+      "x": 5,
+      "y": 6,
+      "script": "HyperHoenn_35_28_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 6,
+        "metatile": 953,
+        "block": 13241,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_1_Sandgem_Town",
+      "x": 24,
+      "y": 0,
+      "script": "HyperSinnoh_36_1_Sandgem_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 24,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_65_Eterna_City",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_37_65_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 734,
+        "block": 13022,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_45_Snowpoint_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_45_Snowpoint_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_12_Snowpoint_City",
+      "x": 8,
+      "y": 10,
+      "script": "HyperSinnoh_36_12_Snowpoint_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 10,
+        "metatile": 586,
+        "block": 12874,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_81_Crown_Shrine",
+      "x": 11,
+      "y": 3,
+      "script": "HyperSinnoh_35_81_Crown_Shrine_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 3,
+        "metatile": 783,
+        "block": 13071,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_17_Meteor_Temple",
+      "x": 5,
+      "y": 9,
+      "script": "HyperHoenn_34_17_Meteor_Temple_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 9,
+        "metatile": 931,
+        "block": 13219,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_20_Hearthome_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_20_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_56_Amity_Square",
+      "x": 52,
+      "y": 3,
+      "script": "HyperSinnoh_36_56_Amity_Square_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 52,
+        "y": 3,
+        "metatile": 148,
+        "block": 12436,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_56_Remote_Island",
+      "x": 14,
+      "y": 53,
+      "script": "HyperHoenn_35_56_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 53,
+        "metatile": 343,
+        "block": 4439,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 18,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_28_Route_211",
+      "x": 2,
+      "y": 3,
+      "script": "HyperSinnoh_36_28_Route_211_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 3,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_34_37_Sinnoh_League",
+      "x": 7,
+      "y": 5,
+      "script": "HyperSinnoh_34_37_Sinnoh_League_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 5,
+        "metatile": 548,
+        "block": 12836,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_49_EV_Training_Cave",
+      "x": 19,
+      "y": 22,
+      "script": "HyperHoenn_35_49_EV_Training_Cave_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 19,
+        "y": 22,
+        "metatile": 554,
+        "block": 12842,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_31_Route_213",
+      "x": 16,
+      "y": 13,
+      "script": "HyperSinnoh_36_31_Route_213_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 16,
+        "y": 13,
+        "metatile": 331,
+        "block": 12619,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_89_Rainbow_Castle",
+      "x": 3,
+      "y": 28,
+      "script": "HyperHoenn_34_89_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 28,
+        "metatile": 552,
+        "block": 12840,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_34_Pastoria_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_34_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_59_Great_Marsh",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_59_Great_Marsh_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 496,
+        "block": 12784,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_23_Solaceon_Town",
+      "x": 9,
+      "y": 1,
+      "script": "HyperSinnoh_37_23_Solaceon_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 1,
+        "metatile": 574,
+        "block": 574,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_44_Victory_Road",
+      "x": 5,
+      "y": 2,
+      "script": "HyperHoenn_34_44_Victory_Road_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_48_Sunyshore_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_48_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_83_Mt_Coronet",
+      "x": 9,
+      "y": 3,
+      "script": "HyperSinnoh_36_83_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 3,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_49_Spring_Path",
+      "x": 0,
+      "y": 3,
+      "script": "HyperSinnoh_36_49_Spring_Path_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_79_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_79_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 901,
+        "block": 13189,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_6_Oreburgh_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_6_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 1023,
+        "block": 13311,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_37_102_Couriway_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_37_102_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 648,
+        "block": 12936,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_60_Oreburgh_City",
+      "x": 6,
+      "y": 3,
+      "script": "HyperSinnoh_36_60_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 3,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_13_Sunyshore_City",
+      "x": 42,
+      "y": 0,
+      "script": "HyperSinnoh_36_13_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 42,
+        "y": 0,
+        "metatile": 348,
+        "block": 4444,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_68_Veilstone_City",
+      "x": 3,
+      "y": 2,
+      "script": "HyperSinnoh_37_68_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 548,
+        "block": 12836,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_54_Mt_Silver",
+      "x": 14,
+      "y": 32,
+      "script": "HyperHoenn_34_54_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 32,
+        "metatile": 516,
+        "block": 12804,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_45_Desert_Ruins",
+      "x": 37,
+      "y": 12,
+      "script": "HyperHoenn_34_45_Desert_Ruins_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 37,
+        "y": 12,
+        "metatile": 513,
+        "block": 16897,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_45_Desert_Ruins",
+      "x": 3,
+      "y": 6,
+      "script": "HyperHoenn_34_45_Desert_Ruins_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 6,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_110_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_110_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_15_Route_201",
+      "x": 40,
+      "y": 4,
+      "script": "HyperSinnoh_36_15_Route_201_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 40,
+        "y": 4,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_48_Steven_s_Island",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_35_48_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 722,
+        "block": 722,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_10_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_10_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_89_Mt_Coronet",
+      "x": 9,
+      "y": 6,
+      "script": "HyperSinnoh_36_89_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 6,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "x": 7,
+      "y": 0,
+      "script": "HyperSinnoh_36_32_Route_213_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 0,
+        "metatile": 835,
+        "block": 13123,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_18_Hearthome_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_18_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 514,
+        "block": 12802,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_101_Sinnoh_Region",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_101_Sinnoh_Region_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 705,
+        "block": 12993,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_2_Sandgem_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_2_Sandgem_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 862,
+        "block": 13150,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_27_Route_210",
+      "x": 30,
+      "y": 8,
+      "script": "HyperSinnoh_36_27_Route_210_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 30,
+        "y": 8,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_7_Victory_Road",
+      "x": 5,
+      "y": 2,
+      "script": "HyperHoenn_35_7_Victory_Road_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 521,
+        "block": 12809,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 50,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_22_Route_206",
+      "x": 13,
+      "y": 0,
+      "script": "HyperSinnoh_36_22_Route_206_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 0,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_61_Remote_Island",
+      "x": 7,
+      "y": 1,
+      "script": "HyperHoenn_35_61_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 1,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_65_Remote_Island",
+      "x": 10,
+      "y": 7,
+      "script": "HyperHoenn_35_65_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 7,
+        "metatile": 757,
+        "block": 13045,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_33_Ultra_Space",
+      "x": 7,
+      "y": 2,
+      "script": "HyperHoenn_34_33_Ultra_Space_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 2,
+        "metatile": 604,
+        "block": 16988,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_82_Rainbow_Castle",
+      "x": 13,
+      "y": 2,
+      "script": "HyperHoenn_34_82_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 2,
+        "metatile": 553,
+        "block": 12841,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_76_Jubilife_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_76_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 1023,
+        "block": 13311,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_29_Route_212",
+      "x": 8,
+      "y": 0,
+      "script": "HyperSinnoh_36_29_Route_212_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 0,
+        "metatile": 472,
+        "block": 12760,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_35_Allearth_Forest",
+      "x": 14,
+      "y": 13,
+      "script": "HyperHoenn_34_35_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 13,
+        "metatile": 782,
+        "block": 13070,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_45_Lake_Acuity",
+      "x": 28,
+      "y": 3,
+      "script": "HyperSinnoh_36_45_Lake_Acuity_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 28,
+        "y": 3,
+        "metatile": 577,
+        "block": 12865,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_10_Basement",
+      "x": 2,
+      "y": 2,
+      "script": "HyperHoenn_34_10_Basement_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 896,
+        "block": 13184,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_58_Oreburgh_Gate",
+      "x": 9,
+      "y": 2,
+      "script": "HyperSinnoh_36_58_Oreburgh_Gate_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_63_Eterna_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_63_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_86_Mt_Coronet",
+      "x": 3,
+      "y": 2,
+      "script": "HyperSinnoh_36_86_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 757,
+        "block": 13045,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_57_Mt_Silver",
+      "x": 20,
+      "y": 24,
+      "script": "HyperHoenn_34_57_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 20,
+        "y": 24,
+        "metatile": 600,
+        "block": 12888,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_48_Ultra_Space",
+      "x": 2,
+      "y": 20,
+      "script": "HyperHoenn_34_48_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 20,
+        "metatile": 613,
+        "block": 12901,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_48_Ultra_Space",
+      "x": 10,
+      "y": 1,
+      "script": "HyperHoenn_34_48_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 1,
+        "metatile": 613,
+        "block": 12901,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_21_Route_205",
+      "x": 14,
+      "y": 4,
+      "script": "HyperSinnoh_36_21_Route_205_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 4,
+        "metatile": 439,
+        "block": 12727,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_54_Meteor_Temple",
+      "x": 19,
+      "y": 26,
+      "script": "HyperHoenn_35_54_Meteor_Temple_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 19,
+        "y": 26,
+        "metatile": 525,
+        "block": 12813,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 97,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_117_Pastoria_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_117_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 610,
+        "block": 12898,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_52_Couriway_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_35_52_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 648,
+        "block": 12936,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_70_Iron_Island",
+      "x": 8,
+      "y": 4,
+      "script": "HyperSinnoh_36_70_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 4,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_55_Ultra_Space",
+      "x": 15,
+      "y": 18,
+      "script": "HyperHoenn_35_55_Ultra_Space_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 18,
+        "metatile": 604,
+        "block": 16988,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_55_Ultra_Space",
+      "x": 15,
+      "y": 16,
+      "script": "HyperHoenn_35_55_Ultra_Space_EventScript_HyperConstruction_Canary6_2",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 16,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 21,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_23_Training_Area",
+      "x": 10,
+      "y": 6,
+      "script": "HyperHoenn_34_23_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 6,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_4_Rainbow_Castle",
+      "x": 9,
+      "y": 14,
+      "script": "HyperHoenn_35_4_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 14,
+        "metatile": 896,
+        "block": 13184,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_5_Rainbow_Castle",
+      "x": 6,
+      "y": 2,
+      "script": "HyperHoenn_35_5_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 2,
+        "metatile": 522,
+        "block": 522,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_60_Mt_Silver",
+      "x": 9,
+      "y": 11,
+      "script": "HyperHoenn_34_60_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 11,
+        "metatile": 762,
+        "block": 13050,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_95_Spear_Pillar",
+      "x": 9,
+      "y": 8,
+      "script": "HyperSinnoh_36_95_Spear_Pillar_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 8,
+        "metatile": 797,
+        "block": 13085,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_95_Spear_Pillar",
+      "x": 11,
+      "y": 8,
+      "script": "HyperSinnoh_36_95_Spear_Pillar_EventScript_Inspect_36_92",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 8,
+        "metatile": 799,
+        "block": 13087,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_95_Spear_Pillar",
+      "x": 9,
+      "y": 9,
+      "script": "HyperSinnoh_36_95_Spear_Pillar_EventScript_Inspect_36_96",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 9,
+        "metatile": 805,
+        "block": 13093,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_38_Allearth_Forest",
+      "x": 14,
+      "y": 20,
+      "script": "HyperHoenn_34_38_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 20,
+        "metatile": 820,
+        "block": 13108,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_87_Steven_s_Island",
+      "x": 1,
+      "y": 3,
+      "script": "HyperHoenn_35_87_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 3,
+        "metatile": 820,
+        "block": 13108,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_12_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_12_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_87_Mt_Coronet",
+      "x": 35,
+      "y": 2,
+      "script": "HyperSinnoh_36_87_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 35,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_26_59_Champion_Island",
+      "x": 0,
+      "y": 3,
+      "script": "HyperHoenn_26_59_Champion_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 536,
+        "block": 536,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_82_Crown_Shrine",
+      "x": 9,
+      "y": 2,
+      "script": "HyperSinnoh_35_82_Crown_Shrine_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 2,
+        "metatile": 554,
+        "block": 12842,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_66_Remote_Island",
+      "x": 11,
+      "y": 2,
+      "script": "HyperHoenn_35_66_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_41_Canalave_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_41_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_37_96_Distortion_World",
+      "x": 23,
+      "y": 2,
+      "script": "HyperHoenn_37_96_Distortion_World_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 23,
+        "y": 2,
+        "metatile": 789,
+        "block": 17173,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_19_Hearthome_City",
+      "x": 4,
+      "y": 2,
+      "script": "HyperSinnoh_37_19_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 2,
+        "metatile": 546,
+        "block": 12834,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_37_121_Sootopolis_City",
+      "x": 3,
+      "y": 2,
+      "script": "HyperHoenn_37_121_Sootopolis_City_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 985,
+        "block": 13273,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_25_Flower_Paradise",
+      "x": 7,
+      "y": 11,
+      "script": "HyperHoenn_34_25_Flower_Paradise_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 11,
+        "metatile": 4,
+        "block": 12292,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_82_Mt_Coronet",
+      "x": 3,
+      "y": 2,
+      "script": "HyperSinnoh_36_82_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_3_Rainbow_Castle",
+      "x": 5,
+      "y": 13,
+      "script": "HyperHoenn_35_3_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 13,
+        "metatile": 747,
+        "block": 13035,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_19_Route_204",
+      "x": 10,
+      "y": 0,
+      "script": "HyperSinnoh_36_19_Route_204_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 0,
+        "metatile": 288,
+        "block": 12576,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_1_Mt_Silver",
+      "x": 6,
+      "y": 7,
+      "script": "HyperHoenn_35_1_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 7,
+        "metatile": 577,
+        "block": 12865,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_30_Crescent_Isle",
+      "x": 9,
+      "y": 19,
+      "script": "HyperHoenn_35_30_Crescent_Isle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 19,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_67_Iron_Island",
+      "x": 15,
+      "y": 1,
+      "script": "HyperSinnoh_36_67_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 1,
+        "metatile": 753,
+        "block": 17137,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_72_Veilstone_City",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_37_72_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 553,
+        "block": 12841,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_81_Mt_Coronet",
+      "x": 25,
+      "y": 3,
+      "script": "HyperSinnoh_36_81_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 25,
+        "y": 3,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_28_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_28_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 632,
+        "block": 12920,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_31_Test_of_Heart",
+      "x": 14,
+      "y": 11,
+      "script": "HyperHoenn_34_31_Test_of_Heart_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 11,
+        "metatile": 830,
+        "block": 13118,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_31_Veilstone_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_31_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_24_Route_208",
+      "x": 36,
+      "y": 9,
+      "script": "HyperSinnoh_36_24_Route_208_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 36,
+        "y": 9,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_5_Sandgem_Town",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_5_Sandgem_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 545,
+        "block": 12833,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_53_Eterna_Forest",
+      "x": 56,
+      "y": 6,
+      "script": "HyperSinnoh_36_53_Eterna_Forest_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 56,
+        "y": 6,
+        "metatile": 606,
+        "block": 12894,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_53_Valley_Windworks",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_53_Valley_Windworks_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 634,
+        "block": 12922,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_63_Couriway_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_34_63_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 681,
+        "block": 12969,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_84_Rainbow_Castle",
+      "x": 25,
+      "y": 25,
+      "script": "HyperHoenn_34_84_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 25,
+        "y": 25,
+        "metatile": 661,
+        "block": 12949,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_24_Champion_Island",
+      "x": 6,
+      "y": 7,
+      "script": "HyperHoenn_35_24_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 7,
+        "metatile": 577,
+        "block": 12865,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_85_Mt_Coronet",
+      "x": 39,
+      "y": 2,
+      "script": "HyperSinnoh_36_85_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 39,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_32_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_32_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 756,
+        "block": 13044,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_72_Outer_Space",
+      "x": 15,
+      "y": 1,
+      "script": "HyperHoenn_34_72_Outer_Space_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 1,
+        "metatile": 793,
+        "block": 29465,
+        "collision": 0,
+        "elevation": 7,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_6_Eterna_City",
+      "x": 10,
+      "y": 5,
+      "script": "HyperSinnoh_36_6_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 5,
+        "metatile": 14,
+        "block": 12302,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_77_Champion_Island",
+      "x": 10,
+      "y": 15,
+      "script": "HyperHoenn_34_77_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 15,
+        "metatile": 832,
+        "block": 832,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_53_Mt_Silver",
+      "x": 32,
+      "y": 31,
+      "script": "HyperHoenn_34_53_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 32,
+        "y": 31,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_25_Champion_Island",
+      "x": 3,
+      "y": 6,
+      "script": "HyperHoenn_35_25_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 6,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_32_Ultra_Space_Zero",
+      "x": 9,
+      "y": 3,
+      "script": "HyperHoenn_34_32_Ultra_Space_Zero_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 3,
+        "metatile": 596,
+        "block": 12884,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_78_Jubilife_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_78_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_86_Rainbow_Castle",
+      "x": 14,
+      "y": 25,
+      "script": "HyperHoenn_34_86_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 25,
+        "metatile": 607,
+        "block": 12895,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_0_Timeless_Woods",
+      "x": 8,
+      "y": 26,
+      "script": "HyperHoenn_34_0_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 26,
+        "metatile": 783,
+        "block": 13071,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_90_Snowpoint_City",
+      "x": 10,
+      "y": 1,
+      "script": "HyperSinnoh_37_90_Snowpoint_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 1,
+        "metatile": 889,
+        "block": 13177,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_71_Veilstone_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_71_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 553,
+        "block": 12841,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_55_Old_Chateau",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_55_Old_Chateau_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_26_Route_210",
+      "x": 12,
+      "y": 5,
+      "script": "HyperSinnoh_36_26_Route_210_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 12,
+        "y": 5,
+        "metatile": 331,
+        "block": 12619,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_11_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_11_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_62_Eterna_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_62_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_40_Route_221",
+      "x": 42,
+      "y": 3,
+      "script": "HyperSinnoh_36_40_Route_221_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 42,
+        "y": 3,
+        "metatile": 454,
+        "block": 12742,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_112_Oreburgh_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_112_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 755,
+        "block": 13043,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_26_Ultra_Alliance",
+      "x": 5,
+      "y": 4,
+      "script": "HyperHoenn_34_26_Ultra_Alliance_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 4,
+        "metatile": 837,
+        "block": 837,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_70_Veilstone_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_70_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 553,
+        "block": 12841,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_2_Steven_s_Island",
+      "x": 3,
+      "y": 2,
+      "script": "HyperHoenn_35_2_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 537,
+        "block": 12825,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_88_Mt_Coronet",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_88_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_94_Sinnoh_Region",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_94_Sinnoh_Region_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 705,
+        "block": 12993,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_90_Mt_Coronet",
+      "x": 5,
+      "y": 2,
+      "script": "HyperSinnoh_36_90_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_73_Victory_Road",
+      "x": 19,
+      "y": 2,
+      "script": "HyperSinnoh_36_73_Victory_Road_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 19,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_25_Route_209",
+      "x": 46,
+      "y": 0,
+      "script": "HyperSinnoh_36_25_Route_209_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 46,
+        "y": 0,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_47_Sunyshore_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_47_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_1_Dragonspiral_Tower",
+      "x": 7,
+      "y": 7,
+      "script": "HyperHoenn_34_1_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 7,
+        "metatile": 893,
+        "block": 13181,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_18_Training_Area",
+      "x": 10,
+      "y": 6,
+      "script": "HyperHoenn_34_18_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 6,
+        "metatile": 4,
+        "block": 12292,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_28_Crescent_Isle",
+      "x": 6,
+      "y": 19,
+      "script": "HyperHoenn_34_28_Crescent_Isle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 19,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_4_Sandgem_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_4_Sandgem_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_39_Route_220",
+      "x": 18,
+      "y": 13,
+      "script": "HyperSinnoh_36_39_Route_220_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 18,
+        "y": 13,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_39_Allearth_Forest",
+      "x": 28,
+      "y": 48,
+      "script": "HyperHoenn_34_39_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 28,
+        "y": 48,
+        "metatile": 827,
+        "block": 13115,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 110,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_37_120_Ancient_Retreat",
+      "x": 15,
+      "y": 0,
+      "script": "HyperHoenn_37_120_Ancient_Retreat_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 0,
+        "metatile": 521,
+        "block": 521,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_49_Sinnoh_League",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_49_Sinnoh_League_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_8_Solaceon_Town",
+      "x": 13,
+      "y": 0,
+      "script": "HyperSinnoh_36_8_Solaceon_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 0,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_26_58_Outer_Space",
+      "x": 13,
+      "y": 5,
+      "script": "HyperHoenn_26_58_Outer_Space_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 5,
+        "metatile": 617,
+        "block": 12905,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_62_Pastoria_City",
+      "x": 19,
+      "y": 5,
+      "script": "HyperSinnoh_36_62_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 19,
+        "y": 5,
+        "metatile": 16,
+        "block": 12304,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_88_Canalave_City",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_88_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_46_Sunyshore_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_46_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 705,
+        "block": 12993,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_89_Canalave_City",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_89_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 752,
+        "block": 13040,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_114_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_114_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 905,
+        "block": 13193,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_67_Veilstone_City",
+      "x": 3,
+      "y": 2,
+      "script": "HyperSinnoh_37_67_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_116_Oreburgh_City",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_37_116_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 944,
+        "block": 13232,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_20_Training_Area",
+      "x": 11,
+      "y": 6,
+      "script": "HyperHoenn_34_20_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 6,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_77_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_77_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 901,
+        "block": 13189,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_85_Hearthome_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_85_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 743,
+        "block": 13031,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_2_Dragonspiral_Tower",
+      "x": 5,
+      "y": 8,
+      "script": "HyperHoenn_34_2_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 8,
+        "metatile": 655,
+        "block": 12943,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_57_Remote_Island",
+      "x": 31,
+      "y": 4,
+      "script": "HyperHoenn_35_57_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 31,
+        "y": 4,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_72_Victory_Road",
+      "x": 11,
+      "y": 2,
+      "script": "HyperSinnoh_36_72_Victory_Road_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_47_Ultra_Space",
+      "x": 16,
+      "y": 2,
+      "script": "HyperHoenn_34_47_Ultra_Space_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 16,
+        "y": 2,
+        "metatile": 613,
+        "block": 12901,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_47_Ultra_Space",
+      "x": 2,
+      "y": 4,
+      "script": "HyperHoenn_34_47_Ultra_Space_EventScript_HyperConstruction_Canary7_2",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 4,
+        "metatile": 604,
+        "block": 12892,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_115_Sunyshore_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_115_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 694,
+        "block": 12982,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_40_Steven_s_Island",
+      "x": 7,
+      "y": 2,
+      "script": "HyperHoenn_35_40_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_35_Pastoria_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_35_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_39_Celestic_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_39_Celestic_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_8_Oreburgh_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_8_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_60_Ultra_Space",
+      "x": 14,
+      "y": 21,
+      "script": "HyperHoenn_35_60_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 21,
+        "metatile": 595,
+        "block": 12883,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_46_Sendoff_Spring",
+      "x": 13,
+      "y": 6,
+      "script": "HyperSinnoh_36_46_Sendoff_Spring_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 6,
+        "metatile": 488,
+        "block": 12776,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_55_Mt_Silver",
+      "x": 23,
+      "y": 29,
+      "script": "HyperHoenn_34_55_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 23,
+        "y": 29,
+        "metatile": 516,
+        "block": 516,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_36_Route_217",
+      "x": 20,
+      "y": 1,
+      "script": "HyperSinnoh_36_36_Route_217_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 20,
+        "y": 1,
+        "metatile": 755,
+        "block": 13043,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_65_Iron_Island",
+      "x": 3,
+      "y": 2,
+      "script": "HyperSinnoh_36_65_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 2,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_59_Mt_Silver",
+      "x": 15,
+      "y": 29,
+      "script": "HyperHoenn_34_59_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 29,
+        "metatile": 918,
+        "block": 13206,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_95_Sinnoh_Region",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_95_Sinnoh_Region_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 905,
+        "block": 13193,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_14_Eterna_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_14_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 532,
+        "block": 12820,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_44_Snowpoint_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_44_Snowpoint_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_16_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_16_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_76_Champion_Island",
+      "x": 2,
+      "y": 5,
+      "script": "HyperHoenn_34_76_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 5,
+        "metatile": 598,
+        "block": 598,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_41_Route_222",
+      "x": 0,
+      "y": 5,
+      "script": "HyperSinnoh_36_41_Route_222_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 5,
+        "metatile": 488,
+        "block": 12776,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_15_Ultra_Space",
+      "x": 12,
+      "y": 5,
+      "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 12,
+        "y": 5,
+        "metatile": 604,
+        "block": 604,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_15_Ultra_Space",
+      "x": 14,
+      "y": 18,
+      "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 18,
+        "metatile": 604,
+        "block": 604,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_15_Ultra_Space",
+      "x": 6,
+      "y": 0,
+      "script": "HyperHoenn_34_15_Ultra_Space_EventScript_HyperConstruction_Registered3",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 0,
+        "metatile": 578,
+        "block": 12866,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_99_Canalave_City",
+      "x": 4,
+      "y": 2,
+      "script": "HyperSinnoh_37_99_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 2,
+        "metatile": 546,
+        "block": 12834,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_22_Training_Area",
+      "x": 10,
+      "y": 6,
+      "script": "HyperHoenn_34_22_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 6,
+        "metatile": 399,
+        "block": 12687,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_88_Desert_Ruins",
+      "x": 5,
+      "y": 3,
+      "script": "HyperSinnoh_35_88_Desert_Ruins_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 3,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_33_Mountain_Top",
+      "x": 10,
+      "y": 8,
+      "script": "HyperHoenn_35_33_Mountain_Top_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 8,
+        "metatile": 630,
+        "block": 12918,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_46_Unown_Ruins",
+      "x": 19,
+      "y": 4,
+      "script": "HyperHoenn_34_46_Unown_Ruins_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 19,
+        "y": 4,
+        "metatile": 740,
+        "block": 13028,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_30_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_30_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_2_Jubilife_City",
+      "x": 44,
+      "y": 0,
+      "script": "HyperSinnoh_36_2_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 44,
+        "y": 0,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_18_Route_203",
+      "x": 38,
+      "y": 6,
+      "script": "HyperSinnoh_36_18_Route_203_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 38,
+        "y": 6,
+        "metatile": 438,
+        "block": 12726,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_74_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_74_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_73_Hearthome_City",
+      "x": 0,
+      "y": 5,
+      "script": "HyperSinnoh_37_73_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 5,
+        "metatile": 519,
+        "block": 12807,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_86_Canalave_City",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_86_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_17_Route_202",
+      "x": 13,
+      "y": 0,
+      "script": "HyperSinnoh_36_17_Route_202_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 0,
+        "metatile": 530,
+        "block": 12818,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_75_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_75_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 901,
+        "block": 13189,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_42_Steven_s_Island",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_35_42_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 625,
+        "block": 12913,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_30_Route_212",
+      "x": 8,
+      "y": 0,
+      "script": "HyperSinnoh_36_30_Route_212_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_38_Celestic_Town",
+      "x": 5,
+      "y": 2,
+      "script": "HyperSinnoh_37_38_Celestic_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_23_Route_207",
+      "x": 14,
+      "y": 0,
+      "script": "HyperSinnoh_36_23_Route_207_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 0,
+        "metatile": 288,
+        "block": 12576,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_57_Pal_Park",
+      "x": 31,
+      "y": 6,
+      "script": "HyperSinnoh_36_57_Pal_Park_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 31,
+        "y": 6,
+        "metatile": 438,
+        "block": 12726,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_96_Spear_Pillar",
+      "x": 14,
+      "y": 7,
+      "script": "HyperSinnoh_36_96_Spear_Pillar_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 7,
+        "metatile": 526,
+        "block": 12814,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_43_Lake_Verity",
+      "x": 15,
+      "y": 5,
+      "script": "HyperSinnoh_36_43_Lake_Verity_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 5,
+        "metatile": 715,
+        "block": 4811,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_69_Iron_Island",
+      "x": 14,
+      "y": 1,
+      "script": "HyperSinnoh_36_69_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 1,
+        "metatile": 529,
+        "block": 16913,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_64_Eterna_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_64_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_49_Ultra_Space",
+      "x": 14,
+      "y": 3,
+      "script": "HyperHoenn_34_49_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 3,
+        "metatile": 613,
+        "block": 613,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_49_Ultra_Space",
+      "x": 11,
+      "y": 25,
+      "script": "HyperHoenn_34_49_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 25,
+        "metatile": 613,
+        "block": 613,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_21_Couriway_Town",
+      "x": 4,
+      "y": 49,
+      "script": "HyperHoenn_35_21_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 49,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 101,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_41_Allearth_Forest",
+      "x": 15,
+      "y": 44,
+      "script": "HyperHoenn_34_41_Allearth_Forest_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 44,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_66_Veilstone_City",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_37_66_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_83_Rainbow_Castle",
+      "x": 5,
+      "y": 18,
+      "script": "HyperHoenn_34_83_Rainbow_Castle_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 18,
+        "metatile": 552,
+        "block": 12840,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_52_Fuego_Ironworks",
+      "x": 9,
+      "y": 2,
+      "script": "HyperSinnoh_37_52_Fuego_Ironworks_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 2,
+        "metatile": 621,
+        "block": 12909,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 11,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_54_Valley_Windworks",
+      "x": 5,
+      "y": 7,
+      "script": "HyperSinnoh_36_54_Valley_Windworks_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 7,
+        "metatile": 204,
+        "block": 12492,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_3_Oreburgh_City",
+      "x": 43,
+      "y": 0,
+      "script": "HyperSinnoh_36_3_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 43,
+        "y": 0,
+        "metatile": 473,
+        "block": 12761,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_3_Oreburgh_City",
+      "x": 50,
+      "y": 8,
+      "script": "HyperSinnoh_36_3_Oreburgh_City_EventScript_ReturnHoenn",
+      "on_warp": false,
+      "cell": {
+        "x": 50,
+        "y": 8,
+        "metatile": 809,
+        "block": 13097,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_92_Sunyshore_City",
+      "x": 11,
+      "y": 2,
+      "script": "HyperSinnoh_37_92_Sunyshore_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 2,
+        "metatile": 528,
+        "block": 12816,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_68_Iron_Island",
+      "x": 8,
+      "y": 2,
+      "script": "HyperSinnoh_36_68_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_24_Solaceon_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_24_Solaceon_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_36_EV_Training_Cave",
+      "x": 26,
+      "y": 1,
+      "script": "HyperHoenn_35_36_EV_Training_Cave_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 26,
+        "y": 1,
+        "metatile": 526,
+        "block": 12814,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_26_Dragonspiral_Tower",
+      "x": 14,
+      "y": 26,
+      "script": "HyperHoenn_35_26_Dragonspiral_Tower_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 26,
+        "metatile": 429,
+        "block": 12717,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 101,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_74_Oreburgh_City",
+      "x": 6,
+      "y": 1,
+      "script": "HyperSinnoh_37_74_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 1,
+        "metatile": 913,
+        "block": 13201,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_61_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_61_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_9_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_9_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 820,
+        "block": 13108,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_29_Veilstone_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_29_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_69_Veilstone_City",
+      "x": 15,
+      "y": 1,
+      "script": "HyperSinnoh_37_69_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 15,
+        "y": 1,
+        "metatile": 912,
+        "block": 13200,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_58_Mt_Silver",
+      "x": 22,
+      "y": 16,
+      "script": "HyperHoenn_34_58_Mt_Silver_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 22,
+        "y": 16,
+        "metatile": 537,
+        "block": 12825,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_113_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_113_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_93_Eterna_Forest",
+      "x": 17,
+      "y": 0,
+      "script": "HyperSinnoh_36_93_Eterna_Forest_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 17,
+        "y": 0,
+        "metatile": 471,
+        "block": 12759,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_84_Mt_Coronet",
+      "x": 4,
+      "y": 2,
+      "script": "HyperSinnoh_36_84_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_78_Champion_Island",
+      "x": 7,
+      "y": 14,
+      "script": "HyperHoenn_34_78_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 14,
+        "metatile": 832,
+        "block": 13120,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_54_Old_Chateau",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_54_Old_Chateau_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_66_Mountain_Top",
+      "x": 11,
+      "y": 5,
+      "script": "HyperHoenn_34_66_Mountain_Top_EventScript_HyperConstruction_Canary8_1",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 5,
+        "metatile": 630,
+        "block": 12918,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_8_Steven_s_Island",
+      "x": 3,
+      "y": 50,
+      "script": "HyperHoenn_35_8_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 50,
+        "metatile": 547,
+        "block": 547,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_47_Valor_Lakefront",
+      "x": 56,
+      "y": 0,
+      "script": "HyperSinnoh_36_47_Valor_Lakefront_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 56,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_44_Lake_Valor",
+      "x": 28,
+      "y": 3,
+      "script": "HyperSinnoh_36_44_Lake_Valor_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 28,
+        "y": 3,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_10_Celestic_Town",
+      "x": 20,
+      "y": 4,
+      "script": "HyperSinnoh_36_10_Celestic_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 20,
+        "y": 4,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_38_Route_219",
+      "x": 20,
+      "y": 0,
+      "script": "HyperSinnoh_36_38_Route_219_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 20,
+        "y": 0,
+        "metatile": 243,
+        "block": 12531,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_40_Couriway_Town",
+      "x": 17,
+      "y": 7,
+      "script": "HyperHoenn_34_40_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 17,
+        "y": 7,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_79_Jubilife_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_79_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 1023,
+        "block": 13311,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_0_Twinleaf_Town",
+      "x": 14,
+      "y": 0,
+      "script": "HyperSinnoh_36_0_Twinleaf_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_68_Route_106",
+      "x": 10,
+      "y": 13,
+      "script": "HyperHoenn_34_68_Route_106_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 13,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_111_Floaroma_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_111_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_33_Route_214",
+      "x": 13,
+      "y": 0,
+      "script": "HyperSinnoh_36_33_Route_214_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 0,
+        "metatile": 472,
+        "block": 12760,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_20_Route_205",
+      "x": 8,
+      "y": 5,
+      "script": "HyperSinnoh_36_20_Route_205_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 5,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_97_Canalave_City",
+      "x": 14,
+      "y": 2,
+      "script": "HyperSinnoh_37_97_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 14,
+        "y": 2,
+        "metatile": 546,
+        "block": 12834,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_52_Ultra_Space",
+      "x": 16,
+      "y": 2,
+      "script": "HyperHoenn_34_52_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 16,
+        "y": 2,
+        "metatile": 604,
+        "block": 12892,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_52_Ultra_Space",
+      "x": 2,
+      "y": 0,
+      "script": "HyperHoenn_34_52_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 0,
+        "metatile": 578,
+        "block": 12866,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_42_Canalave_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_42_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_64_Iron_Island",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_64_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 148,
+        "block": 4244,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_20_Sootopolis_City",
+      "x": 2,
+      "y": 2,
+      "script": "HyperHoenn_35_20_Sootopolis_City_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 513,
+        "block": 12801,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_60_Great_Marsh",
+      "x": 6,
+      "y": 0,
+      "script": "HyperSinnoh_37_60_Great_Marsh_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 0,
+        "metatile": 496,
+        "block": 12784,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_27_Timeless_Woods",
+      "x": 4,
+      "y": 29,
+      "script": "HyperHoenn_35_27_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 29,
+        "metatile": 894,
+        "block": 13182,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_37_Celestic_Town",
+      "x": 0,
+      "y": 3,
+      "script": "HyperSinnoh_37_37_Celestic_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 680,
+        "block": 12968,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_29_Lost_Tower",
+      "x": 0,
+      "y": 4,
+      "script": "HyperSinnoh_35_29_Lost_Tower_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 4,
+        "metatile": 743,
+        "block": 13031,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_48_Acuity_Lakefront",
+      "x": 8,
+      "y": 6,
+      "script": "HyperSinnoh_36_48_Acuity_Lakefront_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 6,
+        "metatile": 604,
+        "block": 12892,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_37_Route_218",
+      "x": 4,
+      "y": 7,
+      "script": "HyperSinnoh_36_37_Route_218_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 7,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_87_Canalave_City",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_87_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_94_Mt_Coronet",
+      "x": 9,
+      "y": 8,
+      "script": "HyperSinnoh_36_94_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 8,
+        "metatile": 729,
+        "block": 13017,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_11_Canalave_City",
+      "x": 3,
+      "y": 7,
+      "script": "HyperSinnoh_36_11_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 7,
+        "metatile": 554,
+        "block": 12842,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_92_Mt_Coronet",
+      "x": 9,
+      "y": 8,
+      "script": "HyperSinnoh_36_92_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 8,
+        "metatile": 797,
+        "block": 13085,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_43_Snowpoint_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_43_Snowpoint_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 820,
+        "block": 13108,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_14_Sinnoh_League",
+      "x": 3,
+      "y": 6,
+      "script": "HyperSinnoh_36_14_Sinnoh_League_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 3,
+        "y": 6,
+        "metatile": 4,
+        "block": 12292,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_17_Hearthome_City",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_17_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 548,
+        "block": 12836,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_21_Training_Area",
+      "x": 10,
+      "y": 6,
+      "script": "HyperHoenn_34_21_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 6,
+        "metatile": 399,
+        "block": 12687,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_30_Test_of_Heart",
+      "x": 4,
+      "y": 77,
+      "script": "HyperHoenn_34_30_Test_of_Heart_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 77,
+        "metatile": 720,
+        "block": 720,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_19_Training_Area",
+      "x": 9,
+      "y": 6,
+      "script": "HyperHoenn_34_19_Training_Area_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 9,
+        "y": 6,
+        "metatile": 13,
+        "block": 12301,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_82_Oreburgh_City",
+      "x": 6,
+      "y": 1,
+      "script": "HyperSinnoh_37_82_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 1,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_27_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_27_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_66_Iron_Island",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_66_Iron_Island_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_4_Floaroma_Town",
+      "x": 18,
+      "y": 0,
+      "script": "HyperSinnoh_36_4_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 18,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_81_Jubilife_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_81_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_80_Jubilife_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_80_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_11_Basement",
+      "x": 8,
+      "y": 2,
+      "script": "HyperHoenn_34_11_Basement_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 2,
+        "metatile": 870,
+        "block": 13158,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_91_Pastoria_City",
+      "x": 1,
+      "y": 1,
+      "script": "HyperSinnoh_37_91_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 1,
+        "metatile": 638,
+        "block": 12926,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_13_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_13_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 820,
+        "block": 17204,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_13_Eterna_City",
+      "x": 5,
+      "y": 2,
+      "script": "HyperSinnoh_37_13_Eterna_City_EventScript_HeldEntrance_1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 2,
+        "metatile": 820,
+        "block": 17204,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_3_Sandgem_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_3_Sandgem_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_15_Eterna_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_15_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_42_Steven_s_Island",
+      "x": 59,
+      "y": 0,
+      "script": "HyperHoenn_34_42_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 59,
+        "y": 0,
+        "metatile": 153,
+        "block": 12441,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_93_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_93_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 728,
+        "block": 13016,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_58_Great_Marsh",
+      "x": 26,
+      "y": 3,
+      "script": "HyperSinnoh_37_58_Great_Marsh_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 26,
+        "y": 3,
+        "metatile": 399,
+        "block": 12687,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_51_Ultra_Space",
+      "x": 17,
+      "y": 18,
+      "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 17,
+        "y": 18,
+        "metatile": 604,
+        "block": 604,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_51_Ultra_Space",
+      "x": 11,
+      "y": 8,
+      "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 11,
+        "y": 8,
+        "metatile": 604,
+        "block": 604,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_51_Ultra_Space",
+      "x": 8,
+      "y": 2,
+      "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered3",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 2,
+        "metatile": 578,
+        "block": 12866,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_51_Ultra_Space",
+      "x": 1,
+      "y": 12,
+      "script": "HyperHoenn_34_51_Ultra_Space_EventScript_HyperConstruction_Registered4",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 12,
+        "metatile": 604,
+        "block": 604,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_26_67_Canalave_City",
+      "x": 0,
+      "y": 3,
+      "script": "HyperSinnoh_26_67_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 536,
+        "block": 536,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_50_Lake_Verity",
+      "x": 10,
+      "y": 2,
+      "script": "HyperSinnoh_36_50_Lake_Verity_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 2,
+        "metatile": 673,
+        "block": 12961,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_67_Timeless_Woods",
+      "x": 31,
+      "y": 17,
+      "script": "HyperHoenn_34_67_Timeless_Woods_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 31,
+        "y": 17,
+        "metatile": 805,
+        "block": 13093,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_51_Lake_Valor",
+      "x": 10,
+      "y": 2,
+      "script": "HyperSinnoh_36_51_Lake_Valor_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 2,
+        "metatile": 673,
+        "block": 12961,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_14_Abandoned_Ship",
+      "x": 5,
+      "y": 3,
+      "script": "HyperHoenn_34_14_Abandoned_Ship_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 5,
+        "y": 3,
+        "metatile": 732,
+        "block": 13020,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 108,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_75_Jubilife_City",
+      "x": 12,
+      "y": 2,
+      "script": "HyperSinnoh_37_75_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 12,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_63_Ravaged_Path",
+      "x": 27,
+      "y": 3,
+      "script": "HyperSinnoh_36_63_Ravaged_Path_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 27,
+        "y": 3,
+        "metatile": 753,
+        "block": 13041,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_50_Ultra_Space",
+      "x": 4,
+      "y": 18,
+      "script": "HyperHoenn_34_50_Ultra_Space_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 4,
+        "y": 18,
+        "metatile": 167,
+        "block": 12455,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 96,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_34_50_Ultra_Space",
+      "x": 12,
+      "y": 16,
+      "script": "HyperHoenn_34_50_Ultra_Space_EventScript_HyperConstruction_Registered2",
+      "on_warp": false,
+      "cell": {
+        "x": 12,
+        "y": 16,
+        "metatile": 520,
+        "block": 16904,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_26_Veilstone_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_26_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 884,
+        "block": 13172,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_83_Eterna_City",
+      "x": 0,
+      "y": 0,
+      "script": "HyperSinnoh_37_83_Eterna_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 468,
+        "block": 12756,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_34_61_Couriway_Town",
+      "x": 0,
+      "y": 2,
+      "script": "HyperHoenn_34_61_Couriway_Town_EventScript_HyperConstruction_Canary7_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 625,
+        "block": 12913,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_100_Hearthome_City",
+      "x": 41,
+      "y": 0,
+      "script": "HyperSinnoh_37_100_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 41,
+        "y": 0,
+        "metatile": 538,
+        "block": 12826,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_7_Oreburgh_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_7_Oreburgh_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 536,
+        "block": 12824,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_52_Lake_Acuity",
+      "x": 10,
+      "y": 2,
+      "script": "HyperSinnoh_36_52_Lake_Acuity_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 2,
+        "metatile": 673,
+        "block": 12961,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_22_Solaceon_Town",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_37_22_Solaceon_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 548,
+        "block": 12836,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_6_Champion_Island",
+      "x": 23,
+      "y": 46,
+      "script": "HyperHoenn_35_6_Champion_Island_EventScript_HyperConstruction_Registered1",
+      "on_warp": false,
+      "cell": {
+        "x": 23,
+        "y": 46,
+        "metatile": 94,
+        "block": 12382,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_6_Champion_Island",
+      "x": 13,
+      "y": 3,
+      "script": "HyperHoenn_35_6_Champion_Island_EventScript_Inspect_26_59",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 3,
+        "metatile": 348,
+        "block": 4444,
+        "collision": 0,
+        "elevation": 1,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_41_Steven_s_Island",
+      "x": 2,
+      "y": 0,
+      "script": "HyperHoenn_35_41_Steven_s_Island_EventScript_HyperConstruction_Canary9_1",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 0,
+        "metatile": 636,
+        "block": 17020,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_9_Veilstone_City",
+      "x": 36,
+      "y": 9,
+      "script": "HyperSinnoh_36_9_Veilstone_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 36,
+        "y": 9,
+        "metatile": 749,
+        "block": 13037,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_21_Hearthome_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_21_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 544,
+        "block": 12832,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_91_Mt_Coronet",
+      "x": 7,
+      "y": 2,
+      "script": "HyperSinnoh_36_91_Mt_Coronet_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 7,
+        "y": 2,
+        "metatile": 750,
+        "block": 13038,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_5_Floaroma_Town",
+      "x": 0,
+      "y": 3,
+      "script": "HyperSinnoh_36_5_Floaroma_Town_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 3,
+        "metatile": 648,
+        "block": 17032,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_76_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_76_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_59_Oreburgh_Gate",
+      "x": 48,
+      "y": 2,
+      "script": "HyperSinnoh_36_59_Oreburgh_Gate_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 48,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperHoenn_35_62_Remote_Island",
+      "x": 13,
+      "y": 2,
+      "script": "HyperHoenn_35_62_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 2,
+        "metatile": 526,
+        "block": 12814,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 97,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_58_Remote_Island",
+      "x": 6,
+      "y": 5,
+      "script": "HyperHoenn_35_58_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 6,
+        "y": 5,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_35_Temple_of_the_End",
+      "x": 25,
+      "y": 18,
+      "script": "HyperHoenn_35_35_Temple_of_the_End_EventScript_HyperConstruction_Canary8_1",
+      "on_warp": false,
+      "cell": {
+        "x": 25,
+        "y": 18,
+        "metatile": 624,
+        "block": 12912,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_77_Jubilife_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_77_Jubilife_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 905,
+        "block": 13193,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_70_Remote_Island",
+      "x": 0,
+      "y": 0,
+      "script": "HyperHoenn_35_70_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "metatile": 537,
+        "block": 12825,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_35_16_Route_210",
+      "x": 1,
+      "y": 2,
+      "script": "HyperSinnoh_35_16_Route_210_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 1,
+        "y": 2,
+        "metatile": 545,
+        "block": 12833,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_40_Canalave_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_40_Canalave_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 705,
+        "block": 12993,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_71_Victory_Road",
+      "x": 30,
+      "y": 2,
+      "script": "HyperSinnoh_36_71_Victory_Road_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 30,
+        "y": 2,
+        "metatile": 529,
+        "block": 12817,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_7_Hearthome_City",
+      "x": 8,
+      "y": 0,
+      "script": "HyperSinnoh_36_7_Hearthome_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 8,
+        "y": 0,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_16_Verity_Lakefront",
+      "x": 10,
+      "y": 5,
+      "script": "HyperSinnoh_36_16_Verity_Lakefront_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 10,
+        "y": 5,
+        "metatile": 439,
+        "block": 12727,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_37_33_Pastoria_City",
+      "x": 0,
+      "y": 2,
+      "script": "HyperSinnoh_37_33_Pastoria_City_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 0,
+        "y": 2,
+        "metatile": 884,
+        "block": 13172,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_61_Oreburgh_Mine",
+      "x": 13,
+      "y": 3,
+      "script": "HyperSinnoh_36_61_Oreburgh_Mine_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 3,
+        "metatile": 698,
+        "block": 12986,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperHoenn_35_59_Remote_Island",
+      "x": 13,
+      "y": 4,
+      "script": "HyperHoenn_35_59_Remote_Island_EventScript_HyperConstruction_Canary6_1",
+      "on_warp": false,
+      "cell": {
+        "x": 13,
+        "y": 4,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_78_Regigigas_Temple",
+      "x": 2,
+      "y": 2,
+      "script": "HyperSinnoh_36_78_Regigigas_Temple_EventScript_Construction",
+      "on_warp": false,
+      "cell": {
+        "x": 2,
+        "y": 2,
+        "metatile": 897,
+        "block": 13185,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 8,
+        "layer": 0
+      }
+    }
+  ],
+  "project_script_travel": [
+    {
+      "source": "NavelRock_Harbor",
+      "destination": "LilycoveCity_Harbor"
+    },
+    {
+      "source": "BattleFrontier_BattlePikeRoomFinal",
+      "destination": "BattleFrontier_BattlePikeLobby"
+    },
+    {
+      "source": "BattleFrontier_BattlePalaceCorridor",
+      "destination": "BattleFrontier_BattlePalaceBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleArenaLobby",
+      "destination": "BattleFrontier_BattleArenaCorridor"
+    },
+    {
+      "source": "EverGrandeCity_ChampionsRoom",
+      "destination": "EverGrandeCity_HallOfFame"
+    },
+    {
+      "source": "FarawayIsland_Entrance",
+      "destination": "LilycoveCity_Harbor"
+    },
+    {
+      "source": "LittlerootTown_MaysHouse_1F",
+      "destination": "LittlerootTown_MaysHouse_2F"
+    },
+    {
+      "source": "OneIsland_Frlg",
+      "destination": "OneIsland_PokemonCenter_1F_Frlg"
+    },
+    {
+      "source": "VerdanturfTown_BattleTentBattleRoom",
+      "destination": "VerdanturfTown_BattleTentLobby"
+    },
+    {
+      "source": "VerdanturfTown_BattleTentBattleRoom",
+      "destination": "VerdanturfTown_BattleTentLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleFactoryPreBattleRoom",
+      "destination": "BattleFrontier_BattleFactoryBattleRoom"
+    },
+    {
+      "source": "PetalburgCity",
+      "destination": "PetalburgCity_Gym"
+    },
+    {
+      "source": "PetalburgCity",
+      "destination": "PetalburgCity_WallysHouse"
+    },
+    {
+      "source": "PetalburgCity_Gym",
+      "destination": "PetalburgCity"
+    },
+    {
+      "source": "PetalburgCity_Gym",
+      "destination": "PetalburgCity"
+    },
+    {
+      "source": "TrainerTower_Elevator_Frlg",
+      "destination": "TrainerTower_Lobby_Frlg"
+    },
+    {
+      "source": "HyperSinnoh_36_83_Mt_Coronet",
+      "destination": "HyperSinnoh_36_84_Mt_Coronet"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerBattleRoom",
+      "destination": "BattleFrontier_BattleTowerLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerBattleRoom",
+      "destination": "BattleFrontier_BattleTowerLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerBattleRoom",
+      "destination": "BattleFrontier_BattleTowerLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerBattleRoom",
+      "destination": "BattleFrontier_BattleTowerLobby"
+    },
+    {
+      "source": "FallarborTown_BattleTentLobby",
+      "destination": "FallarborTown_BattleTentCorridor"
+    },
+    {
+      "source": "HyperSinnoh_36_89_Mt_Coronet",
+      "destination": "HyperSinnoh_36_88_Mt_Coronet"
+    },
+    {
+      "source": "BattleFrontier_BattlePyramidTop",
+      "destination": "BattleFrontier_BattlePyramidLobby"
+    },
+    {
+      "source": "Route104_MrBrineysHouse",
+      "destination": "Route104"
+    },
+    {
+      "source": "VerdanturfTown_BattleTentCorridor",
+      "destination": "VerdanturfTown_BattleTentBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleDomeLobby",
+      "destination": "BattleFrontier_BattleDomeCorridor"
+    },
+    {
+      "source": "SlateportCity_BattleTentBattleRoom",
+      "destination": "SlateportCity_BattleTentLobby"
+    },
+    {
+      "source": "SlateportCity_BattleTentBattleRoom",
+      "destination": "SlateportCity_BattleTentCorridor"
+    },
+    {
+      "source": "SlateportCity_BattleTentBattleRoom",
+      "destination": "SlateportCity_BattleTentLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleArenaCorridor",
+      "destination": "BattleFrontier_BattleArenaBattleRoom"
+    },
+    {
+      "source": "SevenIsland_House_Room1_Frlg",
+      "destination": "SevenIsland_House_Room2_Frlg"
+    },
+    {
+      "source": "VerdanturfTown_BattleTentLobby",
+      "destination": "VerdanturfTown_BattleTentCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattlePikeThreePathRoom",
+      "destination": "BattleFrontier_BattlePikeLobby"
+    },
+    {
+      "source": "HyperSinnoh_36_95_Spear_Pillar",
+      "destination": "HyperSinnoh_36_92_Mt_Coronet"
+    },
+    {
+      "source": "HyperSinnoh_36_95_Spear_Pillar",
+      "destination": "HyperSinnoh_36_96_Spear_Pillar"
+    },
+    {
+      "source": "MirageTower_4F",
+      "destination": "Route111"
+    },
+    {
+      "source": "PokemonTower_7F_Frlg",
+      "destination": "LavenderTown_VolunteerPokemonHouse_Frlg"
+    },
+    {
+      "source": "RustboroCity",
+      "destination": "RustboroCity_DevonCorp_3F"
+    },
+    {
+      "source": "HyperSinnoh_36_82_Mt_Coronet",
+      "destination": "HyperSinnoh_36_35_Route_216"
+    },
+    {
+      "source": "PokemonLeague_ChampionsRoom_Frlg",
+      "destination": "PokemonLeague_HallOfFame_Frlg"
+    },
+    {
+      "source": "SevenIsland_House_Room2_Frlg",
+      "destination": "SevenIsland_House_Room1_Frlg"
+    },
+    {
+      "source": "HyperSinnoh_36_81_Mt_Coronet",
+      "destination": "HyperSinnoh_36_85_Mt_Coronet"
+    },
+    {
+      "source": "HyperSinnoh_36_85_Mt_Coronet",
+      "destination": "HyperSinnoh_36_86_Mt_Coronet"
+    },
+    {
+      "source": "Route121_SafariZoneEntrance",
+      "destination": "SafariZone_South"
+    },
+    {
+      "source": "SeafoamIslands_B3F_Frlg",
+      "destination": "SeafoamIslands_B4F_Frlg"
+    },
+    {
+      "source": "SouthernIsland_Exterior",
+      "destination": "LilycoveCity_Harbor"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerElevator",
+      "destination": "BattleFrontier_BattleTowerCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerElevator",
+      "destination": "BattleFrontier_BattleTowerMultiCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerElevator",
+      "destination": "BattleFrontier_BattleTowerMultiCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerElevator",
+      "destination": "BattleFrontier_BattleTowerMultiPartnerRoom"
+    },
+    {
+      "source": "DewfordTown",
+      "destination": "Route104_MrBrineysHouse"
+    },
+    {
+      "source": "HyperSinnoh_36_88_Mt_Coronet",
+      "destination": "HyperSinnoh_36_91_Mt_Coronet"
+    },
+    {
+      "source": "HyperSinnoh_36_90_Mt_Coronet",
+      "destination": "HyperSinnoh_36_95_Spear_Pillar"
+    },
+    {
+      "source": "ContestHall",
+      "destination": "LilycoveCity_ContestLobby"
+    },
+    {
+      "source": "ContestHall",
+      "destination": "LilycoveCity_ContestLobby"
+    },
+    {
+      "source": "ContestHall",
+      "destination": "LilycoveCity_ContestLobby"
+    },
+    {
+      "source": "ContestHall",
+      "destination": "LilycoveCity_ContestLobby"
+    },
+    {
+      "source": "ContestHall",
+      "destination": "LilycoveCity_ContestLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleDomeBattleRoom",
+      "destination": "BattleFrontier_BattleDomePreBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleDomeBattleRoom",
+      "destination": "BattleFrontier_BattleDomeLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleDomeBattleRoom",
+      "destination": "BattleFrontier_BattleDomeLobby"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle1"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle2"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle3"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle4"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle5"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle6"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle7"
+    },
+    {
+      "source": "Route110_TrickHouseEntrance",
+      "destination": "Route110_TrickHousePuzzle8"
+    },
+    {
+      "source": "SeafloorCavern_Room9",
+      "destination": "Route128"
+    },
+    {
+      "source": "BattleFrontier_BattlePalaceBattleRoom",
+      "destination": "BattleFrontier_BattlePalaceLobby"
+    },
+    {
+      "source": "BattleFrontier_BattlePalaceBattleRoom",
+      "destination": "BattleFrontier_BattlePalaceLobby"
+    },
+    {
+      "source": "BattleFrontier_BattlePyramidLobby",
+      "destination": "BattleFrontier_BattlePyramidFloor"
+    },
+    {
+      "source": "BattleFrontier_BattlePyramidFloor",
+      "destination": "BattleFrontier_BattlePyramidFloor"
+    },
+    {
+      "source": "BattleFrontier_BattlePyramidFloor",
+      "destination": "BattleFrontier_BattlePyramidTop"
+    },
+    {
+      "source": "Route110_TrickHousePuzzle5",
+      "destination": "Route110_TrickHousePuzzle5"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "destination": "BattleFrontier_BattleTowerElevator"
+    },
+    {
+      "source": "BattleFrontier_BattlePikeRoomWildMons",
+      "destination": "BattleFrontier_BattlePikeLobby"
+    },
+    {
+      "source": "SootopolisCity_MysteryEventsHouse_B1F",
+      "destination": "SootopolisCity_MysteryEventsHouse_1F"
+    },
+    {
+      "source": "TrainerHill_Elevator",
+      "destination": "TrainerHill_Roof"
+    },
+    {
+      "source": "TrainerHill_Elevator",
+      "destination": "TrainerHill_Entrance"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerMultiCorridor",
+      "destination": "BattleFrontier_BattleTowerBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerMultiCorridor",
+      "destination": "BattleFrontier_BattleTowerMultiBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerMultiCorridor",
+      "destination": "BattleFrontier_BattleTowerMultiBattleRoom"
+    },
+    {
+      "source": "LilycoveCity_LilycoveMuseum_1F",
+      "destination": "LilycoveCity_LilycoveMuseum_2F"
+    },
+    {
+      "source": "LilycoveCity_LilycoveMuseum_1F",
+      "destination": "LilycoveCity_LilycoveMuseum_2F"
+    },
+    {
+      "source": "LilycoveCity_LilycoveMuseum_1F",
+      "destination": "LilycoveCity_LilycoveMuseum_2F"
+    },
+    {
+      "source": "LittlerootTown_BrendansHouse_1F",
+      "destination": "LittlerootTown_BrendansHouse_2F"
+    },
+    {
+      "source": "SSAnne_Exterior_Frlg",
+      "destination": "VermilionCity_Frlg"
+    },
+    {
+      "source": "SootopolisCity_MysteryEventsHouse_1F",
+      "destination": "SootopolisCity_MysteryEventsHouse_B1F"
+    },
+    {
+      "source": "SootopolisCity_MysteryEventsHouse_1F",
+      "destination": "HyperSinnoh_36_3_Oreburgh_City"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerCorridor",
+      "destination": "BattleFrontier_BattleTowerBattleRoom"
+    },
+    {
+      "source": "Route101",
+      "destination": "LittlerootTown_ProfessorBirchsLab"
+    },
+    {
+      "source": "BattleFrontier_BattlePalaceLobby",
+      "destination": "BattleFrontier_BattlePalaceCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattleDomePreBattleRoom",
+      "destination": "BattleFrontier_BattleDomeBattleRoom"
+    },
+    {
+      "source": "SootopolisCity",
+      "destination": "CaveOfOrigin_Entrance"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "SouthernIsland_Exterior"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "NavelRock_Harbor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "BirthIsland_Harbor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "FarawayIsland_Entrance"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "SSTidalCorridor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "BattleFrontier_OutsideWest"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "SouthernIsland_Exterior"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "BirthIsland_Harbor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "FarawayIsland_Entrance"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "FarawayIsland_Entrance"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "NavelRock_Harbor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "SSTidalCorridor"
+    },
+    {
+      "source": "LilycoveCity_Harbor",
+      "destination": "BattleFrontier_OutsideWest"
+    },
+    {
+      "source": "PalletTown_Frlg",
+      "destination": "PalletTown_ProfessorOaksLab_Frlg"
+    },
+    {
+      "source": "PalletTown_Frlg",
+      "destination": "PalletTown_ProfessorOaksLab_Frlg"
+    },
+    {
+      "source": "HyperSinnoh_36_3_Oreburgh_City",
+      "destination": "SootopolisCity_MysteryEventsHouse_1F"
+    },
+    {
+      "source": "FallarborTown_BattleTentCorridor",
+      "destination": "FallarborTown_BattleTentBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleDomeCorridor",
+      "destination": "BattleFrontier_BattleDomePreBattleRoom"
+    },
+    {
+      "source": "BirthIsland_Harbor",
+      "destination": "LilycoveCity_Harbor"
+    },
+    {
+      "source": "OneIsland_Harbor_Frlg",
+      "destination": "OneIsland_Frlg"
+    },
+    {
+      "source": "ThreeIsland_BerryForest_Frlg",
+      "destination": "TwoIsland_JoyfulGameCorner_Frlg"
+    },
+    {
+      "source": "SlateportCity_BattleTentLobby",
+      "destination": "SlateportCity_BattleTentCorridor"
+    },
+    {
+      "source": "BattleFrontier_BattleArenaBattleRoom",
+      "destination": "BattleFrontier_BattleArenaLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleArenaBattleRoom",
+      "destination": "BattleFrontier_BattleArenaLobby"
+    },
+    {
+      "source": "HyperSinnoh_36_92_Mt_Coronet",
+      "destination": "HyperHoenn_34_13_Distortion_World"
+    },
+    {
+      "source": "BattleFrontier_BattleTowerLobby",
+      "destination": "BattleFrontier_BattleTowerElevator"
+    },
+    {
+      "source": "BattleFrontier_BattleFactoryLobby",
+      "destination": "BattleFrontier_BattleFactoryPreBattleRoom"
+    },
+    {
+      "source": "SlateportCity",
+      "destination": "SlateportCity_Harbor"
+    },
+    {
+      "source": "FallarborTown_BattleTentBattleRoom",
+      "destination": "FallarborTown_BattleTentLobby"
+    },
+    {
+      "source": "FallarborTown_BattleTentBattleRoom",
+      "destination": "FallarborTown_BattleTentLobby"
+    },
+    {
+      "source": "SlateportCity_Harbor",
+      "destination": "SSTidalCorridor"
+    },
+    {
+      "source": "SlateportCity_Harbor",
+      "destination": "BattleFrontier_OutsideWest"
+    },
+    {
+      "source": "LittlerootTown",
+      "destination": "LittlerootTown_ProfessorBirchsLab"
+    },
+    {
+      "source": "SSTidalCorridor",
+      "destination": "LilycoveCity_Harbor"
+    },
+    {
+      "source": "SSTidalCorridor",
+      "destination": "SlateportCity_Harbor"
+    },
+    {
+      "source": "FiveIsland_LostCave_Room10_Frlg",
+      "destination": "FiveIsland_ResortGorgeous_Frlg"
+    },
+    {
+      "source": "SlateportCity_BattleTentCorridor",
+      "destination": "SlateportCity_BattleTentBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleFactoryBattleRoom",
+      "destination": "BattleFrontier_BattleFactoryPreBattleRoom"
+    },
+    {
+      "source": "BattleFrontier_BattleFactoryBattleRoom",
+      "destination": "BattleFrontier_BattleFactoryLobby"
+    },
+    {
+      "source": "BattleFrontier_BattleFactoryBattleRoom",
+      "destination": "BattleFrontier_BattleFactoryLobby"
+    },
+    {
+      "source": "HyperHoenn_35_6_Champion_Island",
+      "destination": "HyperHoenn_26_59_Champion_Island"
+    },
+    {
+      "source": "HyperSinnoh_36_91_Mt_Coronet",
+      "destination": "HyperSinnoh_35_81_Crown_Shrine"
+    },
+    {
+      "source": "BattleFrontier_BattlePikeRoomNormal",
+      "destination": "BattleFrontier_BattlePikeLobby"
+    },
+    {
+      "source": "CinnabarIsland_PokemonCenter_1F_Frlg",
+      "destination": "CinnabarIsland_Frlg"
+    },
+    {
+      "source": "MossdeepCity_SpaceCenter_2F",
+      "destination": "MossdeepCity_SpaceCenter_1F"
+    },
+    {
+      "source": "FuchsiaCity_SafariZone_Entrance_Frlg",
+      "destination": "SafariZone_Center_Frlg"
+    },
+    {
+      "source": "FuchsiaCity_SafariZone_Entrance_Frlg",
+      "destination": "SafariZone_Center_Frlg"
+    },
+    {
+      "source": "BattleFrontier_OutsideWest",
+      "destination": "SlateportCity_Harbor"
+    },
+    {
+      "source": "BattleFrontier_OutsideWest",
+      "destination": "LilycoveCity_Harbor"
+    }
+  ],
+  "scope": "Structural registration/return graph; construction gates intentionally restrict player access. Physical pathfinding and all entrances require runtime review."
+}

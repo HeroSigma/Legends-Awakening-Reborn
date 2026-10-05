@@ -32,9 +32,9 @@
     {
       "local_id": "LOCALID_HYPER_HOENN_34_50__ULTRA__SPACE_REGISTERED_CONSTRUCTION_2",
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 15,
-      "y": 15,
-      "elevation": 0,
+      "x": 12,
+      "y": 16,
+      "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
@@ -72,6 +72,13 @@
       "elevation": 0,
       "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_11_SPEAR_PILLAR",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

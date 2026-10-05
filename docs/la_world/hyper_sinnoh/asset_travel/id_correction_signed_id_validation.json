@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual_native_function_and_warp_struct": true,
+  "old_north_group": 139,
+  "old_gate_group": 167,
+  "old_sign_extension_reproduced": true,
+  "all_registered_map_lookups": 1290,
+  "save_struct_bytes": 8,
+  "sanitizers": "address,undefined",
+  "result": "Validated 1290 native signed WarpData map lookups; old north/gate IDs reproduce out-of-range promotion.",
+  "runtime_verified": false
+}

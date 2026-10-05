@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "vertical_approach_triggers": 24,
+  "diagonal_regressions": 8,
+  "sanitizers": "address,undefined",
+  "result": "24 vertical trigger cases, wrong position/facing/native exclusions and eight diagonal regressions passed.",
+  "runtime_verified": false
+}

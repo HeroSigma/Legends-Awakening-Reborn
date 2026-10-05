@@ -225,3 +225,19 @@ SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"
 
+
+@ Project asset/travel notice.
+SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction::
+	lock
+	faceplayer
+	msgbox SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction_Cancel
+	warp MAP_HYPERSINNOH_36_3_OREBURGH_CITY, 49, 8
+	waitstate
+	release
+	end
+SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction_Cancel:
+	release
+	end
+SootopolisCity_MysteryEventsHouse_1F_EventScript_HyperAnnexConstruction_Text:
+	.string "Sinnoh is under construction.\pWould you like to visit?$"

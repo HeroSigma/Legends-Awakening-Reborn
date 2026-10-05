@@ -847,3 +847,223 @@ const u16 gMetatileAttributes_Hyper_Canary9_Route128_Dive[] = INCBIN_U16("data/h
 
 const u16 gMetatiles_Hyper_Canary9_Underwater_Route126_Dive[] = INCBIN_U16("data/hyper_assets/canary9_layouts/Underwater_Route126/dive_metatiles.bin");
 const u16 gMetatileAttributes_Hyper_Canary9_Underwater_Route126_Dive[] = INCBIN_U16("data/hyper_assets/canary9_layouts/Underwater_Route126/dive_attributes.bin");
+
+const u16 gMetatiles_Hyper_finalization_HyperHoenn_35_35_Temple_of_the_End_Portals[] = INCBIN_U16("data/hyper_assets/finalization_layouts/HyperHoenn_35_35_Temple_of_the_End/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_finalization_HyperHoenn_35_35_Temple_of_the_End_Portals[] = INCBIN_U16("data/hyper_assets/finalization_layouts/HyperHoenn_35_35_Temple_of_the_End/portal_attributes.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_LittlerootTown_BrendansHouse_2F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/LittlerootTown_BrendansHouse_2F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_LittlerootTown_MaysHouse_2F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/LittlerootTown_MaysHouse_2F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_LittlerootTown_ProfessorBirchsLab_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/LittlerootTown_ProfessorBirchsLab/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_OldaleTown_House1_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/OldaleTown_House1/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_OldaleTown_House2_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/OldaleTown_House2/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_DewfordTown_House1_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/DewfordTown_House1/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_PetalburgCity_WallysHouse_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/PetalburgCity_WallysHouse/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_PetalburgCity_House1_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/PetalburgCity_House1/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SlateportCity_House_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SlateportCity_House/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_MauvilleCity_GameCorner_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/MauvilleCity_GameCorner/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_RustboroCity_House2_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/RustboroCity_House2/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_1F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/RustboroCity_Flat2_1F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_2F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/RustboroCity_Flat2_2F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_3F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/RustboroCity_Flat2_3F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_RustboroCity_House3_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/RustboroCity_House3/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_BattlePalaceBattleRoom_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_BattlePalaceBattleRoom/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_RankingHall_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_RankingHall/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge1_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge1/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge3_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge3/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge4_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge4/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge6_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge6/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge7_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge7/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge8_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge8/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge9_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/BattleFrontier_Lounge9/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_ArtisanCave_B1F_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/ArtisanCave_B1F/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_ArtisanCave_B1F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/ArtisanCave_B1F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_ArtisanCave_1F_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/ArtisanCave_1F/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_ArtisanCave_1F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/ArtisanCave_1F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_AlteringCave_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/AlteringCave/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_AlteringCave_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/AlteringCave/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_InsideOfTruck_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/InsideOfTruck/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalCorridor_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalCorridor/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalCorridor_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalCorridor/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalLowerDeck_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalLowerDeck/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalLowerDeck_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalLowerDeck/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalRooms_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalRooms/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SSTidalRooms_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SSTidalRooms/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SouthernIsland_Exterior_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SouthernIsland_Exterior/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SouthernIsland_Exterior_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SouthernIsland_Exterior/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SouthernIsland_Interior_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SouthernIsland_Interior/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_SouthernIsland_Interior_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/SouthernIsland_Interior/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_FarawayIsland_Entrance_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/FarawayIsland_Entrance/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_FarawayIsland_Entrance_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/FarawayIsland_Entrance/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_FarawayIsland_Interior_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/FarawayIsland_Interior/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_FarawayIsland_Interior_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/FarawayIsland_Interior/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Exterior_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Exterior/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Exterior_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Exterior/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Entrance_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Entrance/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Entrance_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Entrance/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_B1F_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_B1F/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_B1F_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_B1F/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Fork_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Fork/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Fork_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Fork/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Up2_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Up2/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Up2_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Up2/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Up4_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Up4/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Up4_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Up4/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down02_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down02/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down02_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down02/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down04_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down04/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down04_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down04/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down06_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down06/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down06_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down06/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down08_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down08/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down08_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down08/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down10_0[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down10/attributes0.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_NavelRock_Down10_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/NavelRock_Down10/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHouseEntrance_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHouseEntrance/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHouseEnd_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHouseEnd/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHouseCorridor_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHouseCorridor/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle1_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle1/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle2_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle2/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle3_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle3/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle4_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle4/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle5_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle5/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle6_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle6/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle7_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle7/attributes1.bin");
+
+const u16 gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle8_1[] = INCBIN_U16("data/hyper_assets/finalization_layouts/Route110_TrickHousePuzzle8/attributes1.bin");
+
+/* Additional recovered Hyper asset banks. */
+const u16 gMetatiles_Hyper_Primary_089CBC6C[] = INCBIN_U16("data/tilesets/primary/hyper_primary_089cbc6c/metatiles.bin");
+const u16 gMetatileAttributes_Hyper_Primary_089CBC6C[] = INCBIN_U16("data/tilesets/primary/hyper_primary_089cbc6c/metatile_attributes.bin");
+const u16 gMetatiles_Hyper_Secondary_089CD34C[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_089cd34c/metatiles.bin");
+const u16 gMetatileAttributes_Hyper_Secondary_089CD34C[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_089cd34c/metatile_attributes.bin");
+const u16 gMetatiles_Hyper_Secondary_08A62224[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_08a62224/metatiles.bin");
+const u16 gMetatileAttributes_Hyper_Secondary_08A62224[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_08a62224/metatile_attributes.bin");
+const u16 gMetatiles_Hyper_Secondary_08A6550C[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_08a6550c/metatiles.bin");
+const u16 gMetatileAttributes_Hyper_Secondary_08A6550C[] = INCBIN_U16("data/tilesets/secondary/hyper_secondary_08a6550c/metatile_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_35_11_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_11_Spear_Pillar/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_11_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_11_Spear_Pillar/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_35_14_Solaceon_Ruins_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_14_Solaceon_Ruins/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_14_Solaceon_Ruins_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_14_Solaceon_Ruins/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_35_88_Desert_Ruins_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_88_Desert_Ruins/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_88_Desert_Ruins_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_35_88_Desert_Ruins/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_36_2_Jubilife_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_2_Jubilife_City/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_2_Jubilife_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_2_Jubilife_City/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_27_Route_210/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_27_Route_210/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_36_92_Mt_Coronet_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_92_Mt_Coronet/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_92_Mt_Coronet_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_92_Mt_Coronet/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_36_95_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_95_Spear_Pillar/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_95_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_95_Spear_Pillar/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_36_96_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_96_Spear_Pillar/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_96_Spear_Pillar_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_36_96_Spear_Pillar/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_37_52_Fuego_Ironworks_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_52_Fuego_Ironworks/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_52_Fuego_Ironworks_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_52_Fuego_Ironworks/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_37_69_Veilstone_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_69_Veilstone_City/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_69_Veilstone_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_69_Veilstone_City/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_37_84_Hearthome_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_84_Hearthome_City/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_84_Hearthome_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_84_Hearthome_City/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_37_86_Canalave_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_86_Canalave_City/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_86_Canalave_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_86_Canalave_City/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperSinnoh_37_90_Snowpoint_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_90_Snowpoint_City/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_90_Snowpoint_City_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperSinnoh_37_90_Snowpoint_City/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_34_13_Distortion_World/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_34_13_Distortion_World/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_34_65_Outer_Space/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_34_65_Outer_Space/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_96_Distortion_World/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_96_Distortion_World/portal_attributes.bin");
+
+const u16 gMetatiles_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_120_Ancient_Retreat/portal_metatiles.bin");
+const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_120_Ancient_Retreat/portal_attributes.bin");

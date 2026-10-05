@@ -3060,3 +3060,1001 @@ const struct Tileset gTileset_Hyper_Canary9_Underwater_Route126_Dive = {
     .metatileAttributes = gMetatileAttributes_Hyper_Canary9_Underwater_Route126_Dive,
     .callback = InitTilesetAnim_HyperAsset_Secondary_083DFB24,
 };
+
+const struct Tileset gTileset_Hyper_finalization_HyperHoenn_35_35_Temple_of_the_End_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFADC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFADC,
+    .metatiles = gMetatiles_Hyper_finalization_HyperHoenn_35_35_Temple_of_the_End_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_finalization_HyperHoenn_35_35_Temple_of_the_End_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_LittlerootTown_BrendansHouse_2F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFAF4,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFAF4,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFAF4,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_LittlerootTown_BrendansHouse_2F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_LittlerootTown_MaysHouse_2F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFAF4,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFAF4,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFAF4,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_LittlerootTown_MaysHouse_2F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_LittlerootTown_ProfessorBirchsLab_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB0C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB0C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB0C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_LittlerootTown_ProfessorBirchsLab_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_OldaleTown_House1_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_OldaleTown_House1_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_OldaleTown_House2_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_OldaleTown_House2_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_DewfordTown_House1_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_DewfordTown_House1_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_PetalburgCity_WallysHouse_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_PetalburgCity_WallysHouse_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_PetalburgCity_House1_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_PetalburgCity_House1_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_SlateportCity_House_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SlateportCity_House_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_MauvilleCity_GameCorner_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB84,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB84,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB84,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_MauvilleCity_GameCorner_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_RustboroCity_House2_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_RustboroCity_House2_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_RustboroCity_Flat2_1F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_1F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_RustboroCity_Flat2_2F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_2F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_RustboroCity_Flat2_3F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_RustboroCity_Flat2_3F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_RustboroCity_House3_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_RustboroCity_House3_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_BattlePalaceBattleRoom_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_BattlePalaceBattleRoom_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_RankingHall_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFDB4,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFDB4,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFDB4,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_RankingHall_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge1_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge1_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge3_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge3_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge4_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge4_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge6_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge6_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge7_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge7_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge8_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge8_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_BattleFrontier_Lounge9_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC94,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC94,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC94,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_BattleFrontier_Lounge9_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_ArtisanCave_B1F_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_ArtisanCave_B1F_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_ArtisanCave_B1F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF8CC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF8CC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF8CC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_ArtisanCave_B1F_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF8CC,
+};
+
+const struct Tileset gTileset_Hyper_Final_ArtisanCave_1F_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_ArtisanCave_1F_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_ArtisanCave_1F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF8CC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF8CC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF8CC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_ArtisanCave_1F_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF8CC,
+};
+
+const struct Tileset gTileset_Hyper_Final_AlteringCave_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_AlteringCave_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_AlteringCave_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF8CC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF8CC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF8CC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_AlteringCave_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF8CC,
+};
+
+const struct Tileset gTileset_Hyper_Final_InsideOfTruck_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_InsideOfTruck_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalCorridor_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalCorridor_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalCorridor_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC44,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC44,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC44,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalCorridor_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalLowerDeck_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalLowerDeck_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalLowerDeck_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC44,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC44,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC44,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalLowerDeck_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalRooms_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalRooms_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SSTidalRooms_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC44,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC44,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFC44,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SSTidalRooms_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_SouthernIsland_Exterior_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SouthernIsland_Exterior_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SouthernIsland_Exterior_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF734,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF734,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF734,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SouthernIsland_Exterior_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF734,
+};
+
+const struct Tileset gTileset_Hyper_Final_SouthernIsland_Interior_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SouthernIsland_Interior_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_SouthernIsland_Interior_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF734,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF734,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF734,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_SouthernIsland_Interior_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF734,
+};
+
+const struct Tileset gTileset_Hyper_Final_FarawayIsland_Entrance_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_FarawayIsland_Entrance_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_FarawayIsland_Entrance_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF734,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF734,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF734,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_FarawayIsland_Entrance_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF734,
+};
+
+const struct Tileset gTileset_Hyper_Final_FarawayIsland_Interior_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_FarawayIsland_Interior_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_FarawayIsland_Interior_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF7C4,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF7C4,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF7C4,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_FarawayIsland_Interior_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Exterior_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Exterior_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Exterior_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF74C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF74C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DF74C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Exterior_1,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF74C,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Entrance_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Entrance_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Entrance_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Entrance_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_B1F_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_B1F_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_B1F_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_B1F_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Fork_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Fork_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Fork_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Fork_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Up2_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Up2_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Up2_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Up2_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Up4_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Up4_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Up4_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Up4_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down02_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down02_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down02_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down02_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down04_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down04_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down04_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down04_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down06_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down06_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down06_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down06_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down08_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down08_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down08_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down08_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down10_0 = {
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Hyper_Primary_083DF704,
+    .palettes = gTilesetPalettes_Hyper_Primary_083DF704,
+    .metatiles = gMetatiles_Hyper_Primary_083DF704,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down10_0,
+    .callback = InitTilesetAnim_HyperAsset_Primary_083DF704,
+};
+
+const struct Tileset gTileset_Hyper_Final_NavelRock_Down10_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD9C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD9C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFD9C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_NavelRock_Down10_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHouseEntrance_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHouseEntrance_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHouseEnd_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHouseEnd_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHouseCorridor_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB6C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB6C,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFB6C,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHouseCorridor_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle1_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle1_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle2_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle2_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle3_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle3_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle4_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle4_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle5_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle5_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle6_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle6_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle7_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle7_1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_Final_Route110_TrickHousePuzzle8_1 = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFBFC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFBFC,
+    .metatiles = gMetatiles_Hyper_Secondary_083DFBFC,
+    .metatileAttributes = gMetatileAttributes_Hyper_Final_Route110_TrickHousePuzzle8_1,
+    .callback = NULL,
+};
+
+/* Additional recovered Hyper asset banks. */
+const struct Tileset gTileset_Hyper_Primary_089CBC6C = {
+ .isCompressed = TRUE,
+ .isSecondary = FALSE,
+ .tiles = gTilesetTiles_Hyper_Primary_089CBC6C,
+ .palettes = gTilesetPalettes_Hyper_Primary_089CBC6C,
+ .metatiles = gMetatiles_Hyper_Primary_089CBC6C,
+ .metatileAttributes = gMetatileAttributes_Hyper_Primary_089CBC6C,
+ .callback = InitTilesetAnim_HyperAsset_Primary_089CBC6C,
+};
+const struct Tileset gTileset_Hyper_Secondary_089CD34C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTilesetTiles_Hyper_Secondary_089CD34C,
+ .palettes = gTilesetPalettes_Hyper_Secondary_089CD34C,
+ .metatiles = gMetatiles_Hyper_Secondary_089CD34C,
+ .metatileAttributes = gMetatileAttributes_Hyper_Secondary_089CD34C,
+ .callback = NULL,
+};
+const struct Tileset gTileset_Hyper_Secondary_08A62224 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTilesetTiles_Hyper_Secondary_08A62224,
+ .palettes = gTilesetPalettes_Hyper_Secondary_08A62224,
+ .metatiles = gMetatiles_Hyper_Secondary_08A62224,
+ .metatileAttributes = gMetatileAttributes_Hyper_Secondary_08A62224,
+ .callback = NULL,
+};
+const struct Tileset gTileset_Hyper_Secondary_08A6550C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTilesetTiles_Hyper_Secondary_08A6550C,
+ .palettes = gTilesetPalettes_Hyper_Secondary_08A6550C,
+ .metatiles = gMetatiles_Hyper_Secondary_08A6550C,
+ .metatileAttributes = gMetatileAttributes_Hyper_Secondary_08A6550C,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_35_11_Spear_Pillar_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_35_11_Spear_Pillar_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_11_Spear_Pillar_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_35_14_Solaceon_Ruins_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF8CC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF8CC,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_35_14_Solaceon_Ruins_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_14_Solaceon_Ruins_Portals,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF8CC,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_35_88_Desert_Ruins_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFD3C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFD3C,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_35_88_Desert_Ruins_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_35_88_Desert_Ruins_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_36_2_Jubilife_City_Portals = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTilesetTiles_Hyper_Secondary_08A62224,
+ .palettes = gTilesetPalettes_Hyper_Secondary_08A62224,
+ .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_36_2_Jubilife_City_Portals,
+ .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_2_Jubilife_City_Portals,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF77C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF77C,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF77C,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_36_92_Mt_Coronet_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_36_92_Mt_Coronet_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_92_Mt_Coronet_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_36_95_Spear_Pillar_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_36_95_Spear_Pillar_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_95_Spear_Pillar_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_36_96_Spear_Pillar_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_36_96_Spear_Pillar_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_36_96_Spear_Pillar_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_37_52_Fuego_Ironworks_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF9D4,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF9D4,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_37_52_Fuego_Ironworks_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_52_Fuego_Ironworks_Portals,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF9D4,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_37_69_Veilstone_City_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF9BC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF9BC,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_37_69_Veilstone_City_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_69_Veilstone_City_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_37_84_Hearthome_City_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFC2C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFC2C,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_37_84_Hearthome_City_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_84_Hearthome_City_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_37_86_Canalave_City_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF9BC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF9BC,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_37_86_Canalave_City_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_86_Canalave_City_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperSinnoh_37_90_Snowpoint_City_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DF8CC,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DF8CC,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperSinnoh_37_90_Snowpoint_City_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperSinnoh_37_90_Snowpoint_City_Portals,
+    .callback = InitTilesetAnim_HyperAsset_Secondary_083DF8CC,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_34_13_Distortion_World_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_083DFB0C,
+    .palettes = gTilesetPalettes_Hyper_Secondary_083DFB0C,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_34_65_Outer_Space_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Portals,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals = {
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hyper_Secondary_08305DE0,
+    .palettes = gTilesetPalettes_Hyper_Secondary_08305DE0,
+    .metatiles = gMetatiles_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals,
+    .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals,
+    .callback = NULL,
+};

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "new_maps": 215,
+  "new_sinnoh_maps": 212,
+  "reused_sinnoh_maps": 1,
+  "new_hoenn_alias_maps": 3,
+  "structurally_reachable_new_maps": 215,
+  "new_maps_with_project_return": 215,
+  "arrival_only_excluded_from_return_graph": true,
+  "scientists_checked": 335,
+  "protected_baseline_files": 32090,
+  "native_map_ids_and_save_abi_preserved": true,
+  "native_mystery_story_preserved": true,
+  "donor_gameplay_imported": false,
+  "map_groups": 127,
+  "map_sections": 248,
+  "rom_validation": {
+    "passed": true,
+    "linked_maps": 780,
+    "linked_tilesets": 213,
+    "linked_objects": 2681,
+    "linked_warps": 2577,
+    "linked_connections": 262,
+    "native_cell_contracts_checked": 30160,
+    "canonical_asset_ports": 127,
+    "animation": {
+      "callbacks": 21,
+      "paired_hoenn_combinations": 29,
+      "ticks_per_case": 256,
+      "sanitizers": "address,undefined",
+      "result": "Validated 6252 DMA frame transfers."
+    },
+    "rom_sha256": "4164b8c26f3a4a19746c7a7c3f8592ae71ce0b33ac9c46fa7f96456d881521fd",
+    "rom_bytes": 33554432,
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

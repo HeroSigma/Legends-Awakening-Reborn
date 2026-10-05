@@ -1,0 +1,101 @@
+[
+  {
+    "map": "HyperSinnoh_36_83_Mt_Coronet",
+    "scientist_cell": [
+      9,
+      3
+    ],
+    "source_warp": 3,
+    "destination": "MAP_HYPERSINNOH_36_84_MT_CORONET",
+    "destination_warp": "0",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_89_Mt_Coronet",
+    "scientist_cell": [
+      9,
+      6
+    ],
+    "source_warp": 0,
+    "destination": "MAP_HYPERSINNOH_36_88_MT_CORONET",
+    "destination_warp": "0",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_82_Mt_Coronet",
+    "scientist_cell": [
+      3,
+      2
+    ],
+    "source_warp": 0,
+    "destination": "MAP_HYPERSINNOH_36_35_ROUTE_216",
+    "destination_warp": "1",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_81_Mt_Coronet",
+    "scientist_cell": [
+      25,
+      3
+    ],
+    "source_warp": 2,
+    "destination": "MAP_HYPERSINNOH_36_85_MT_CORONET",
+    "destination_warp": "0",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_85_Mt_Coronet",
+    "scientist_cell": [
+      39,
+      2
+    ],
+    "source_warp": 2,
+    "destination": "MAP_HYPERSINNOH_36_86_MT_CORONET",
+    "destination_warp": "2",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_88_Mt_Coronet",
+    "scientist_cell": [
+      2,
+      2
+    ],
+    "source_warp": 1,
+    "destination": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+    "destination_warp": "5",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_90_Mt_Coronet",
+    "scientist_cell": [
+      5,
+      2
+    ],
+    "source_warp": 1,
+    "destination": "MAP_HYPERSINNOH_36_95_SPEAR_PILLAR",
+    "destination_warp": "0",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_92_Mt_Coronet",
+    "scientist_cell": [
+      9,
+      8
+    ],
+    "source_warp": 1,
+    "destination": "MAP_HYPERHOENN_34_13_DISTORTION_WORLD",
+    "destination_warp": "2",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  },
+  {
+    "map": "HyperSinnoh_36_91_Mt_Coronet",
+    "scientist_cell": [
+      7,
+      2
+    ],
+    "source_warp": 6,
+    "destination": "MAP_HYPERSINNOH_35_81_CROWN_SHRINE",
+    "destination_warp": "0",
+    "reason": "Offer project inspection travel through the nearest actual source door; cancel preserves position and no progression state is changed."
+  }
+]

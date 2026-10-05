@@ -1,0 +1,51 @@
+{
+  "id": "MAP_HYPERSINNOH_36_18_ROUTE_203",
+  "name": "HyperSinnoh_36_18_Route_203",
+  "layout": "LAYOUT_HYPERSINNOH_36_18_ROUTE_203",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 2,
+      "map": "MAP_HYPERSINNOH_36_2_JUBILIFE_CITY"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HYPERSINNOH_36_18_ROUTE_203_ASSET_TRAVEL_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 38,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HyperSinnoh_36_18_Route_203_EventScript_Construction",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 56,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_58_OREBURGH_GATE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

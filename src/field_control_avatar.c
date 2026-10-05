@@ -1,4 +1,5 @@
 #include "global.h"
+#include "hyper_sinnoh_climb.h"
 #include "battle_setup.h"
 #include "bike.h"
 #include "coord_event_weather.h"
@@ -360,6 +361,10 @@ static const u8 *GetInteractedObjectEventScript(struct MapPosition *position, u8
     u8 currBehavior = MapGridGetMetatileBehaviorAt(currX, currY);
 
     gSpecialVar_Facing = direction;
+    script = HyperSinnoh_GetRockClimbInteraction(currX, currY, direction);
+    if (script != NULL)
+        return script;
+
     switch (direction)
     {
     case DIR_EAST:

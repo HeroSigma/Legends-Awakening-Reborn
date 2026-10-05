@@ -25,7 +25,7 @@ def current_expected_hash(f,original):
 def animation_host_test(plan):
     runtime=(ROOT/'src/hyper_tileset_anims.inc').read_text()
     frames=re.findall(r'^static const u16 (sHyperAssetAnimFrameData_\w+)\[\]',runtime,re.M)
-    callbacks=[x['callback'] for x in plan['tilesets'] if x['callback'].startswith('InitTilesetAnim_HyperAsset_')]
+    callbacks=sorted({x['callback'] for x in plan['tilesets'] if x['callback'].startswith('InitTilesetAnim_HyperAsset_')})
     prefix='''#include <assert.h>
 #include <stdint.h>
 #include <stddef.h>

@@ -1,0 +1,1453 @@
+{
+  "phase": "Hoenn finalization",
+  "canonical_asset_ports": [
+    {
+      "map": "LittlerootTown_BrendansHouse_1F",
+      "donor_id": "1.0",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "LittlerootTown_MaysHouse_1F",
+      "donor_id": "1.2",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "OldaleTown_PokemonCenter_1F",
+      "donor_id": "2.2",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "OldaleTown_PokemonCenter_2F",
+      "donor_id": "2.3",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "DewfordTown_PokemonCenter_2F",
+      "donor_id": "3.2",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "DewfordTown_Hall",
+      "donor_id": "3.4",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "DewfordTown_House2",
+      "donor_id": "3.5",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_Gym",
+      "donor_id": "8.1",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_House2",
+      "donor_id": "8.3",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_PokemonCenter_1F",
+      "donor_id": "8.4",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_PokemonCenter_2F",
+      "donor_id": "8.5",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_Mart",
+      "donor_id": "8.6",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_BattleTentLobby",
+      "donor_id": "9.2",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_BattleTentCorridor",
+      "donor_id": "9.3",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_BattleTentBattleRoom",
+      "donor_id": "9.4",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_NameRatersHouse",
+      "donor_id": "9.5",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_PokemonFanClub",
+      "donor_id": "9.6",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_PokemonCenter_2F",
+      "donor_id": "9.12",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "MauvilleCity_PokemonCenter_2F",
+      "donor_id": "10.6",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_PokemonCenter_2F",
+      "donor_id": "11.6",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_Flat1_1F",
+      "donor_id": "11.8",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_Flat1_2F",
+      "donor_id": "11.9",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_House1",
+      "donor_id": "11.10",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerLobby",
+      "donor_id": "26.5",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerElevator",
+      "donor_id": "26.6",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerCorridor",
+      "donor_id": "26.7",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerBattleRoom",
+      "donor_id": "26.8",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerMultiPartnerRoom",
+      "donor_id": "26.15",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerMultiCorridor",
+      "donor_id": "26.16",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleTowerMultiBattleRoom",
+      "donor_id": "26.17",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleDomeLobby",
+      "donor_id": "26.18",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleDomeCorridor",
+      "donor_id": "26.19",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleDomePreBattleRoom",
+      "donor_id": "26.20",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleDomeBattleRoom",
+      "donor_id": "26.21",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePalaceLobby",
+      "donor_id": "26.22",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePalaceCorridor",
+      "donor_id": "26.23",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePyramidLobby",
+      "donor_id": "26.25",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePyramidFloor",
+      "donor_id": "26.26",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePyramidTop",
+      "donor_id": "26.27",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleArenaLobby",
+      "donor_id": "26.28",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleArenaCorridor",
+      "donor_id": "26.29",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleArenaBattleRoom",
+      "donor_id": "26.30",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleFactoryLobby",
+      "donor_id": "26.31",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleFactoryPreBattleRoom",
+      "donor_id": "26.32",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattleFactoryBattleRoom",
+      "donor_id": "26.33",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeLobby",
+      "donor_id": "26.34",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeCorridor",
+      "donor_id": "26.35",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeThreePathRoom",
+      "donor_id": "26.36",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomNormal",
+      "donor_id": "26.37",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomFinal",
+      "donor_id": "26.38",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePikeRoomWildMons",
+      "donor_id": "26.39",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_ExchangeServiceCorner",
+      "donor_id": "26.42",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge2",
+      "donor_id": "26.43",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_ScottsHouse",
+      "donor_id": "26.46",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge5",
+      "donor_id": "26.47",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_ReceptionGate",
+      "donor_id": "26.50",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_PokemonCenter_1F",
+      "donor_id": "26.53",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_PokemonCenter_2F",
+      "donor_id": "26.54",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Mart",
+      "donor_id": "26.55",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Up1",
+      "donor_id": "26.71",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Up3",
+      "donor_id": "26.73",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down01",
+      "donor_id": "26.76",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down03",
+      "donor_id": "26.78",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down05",
+      "donor_id": "26.80",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down07",
+      "donor_id": "26.82",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down09",
+      "donor_id": "26.84",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down11",
+      "donor_id": "26.86",
+      "mode": "LAYOUT_REPLACEMENT",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "LittlerootTown_BrendansHouse_2F",
+      "donor_id": "1.1",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "LittlerootTown_MaysHouse_2F",
+      "donor_id": "1.3",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "LittlerootTown_ProfessorBirchsLab",
+      "donor_id": "1.4",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "OldaleTown_House1",
+      "donor_id": "2.0",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "OldaleTown_House2",
+      "donor_id": "2.1",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "DewfordTown_House1",
+      "donor_id": "3.0",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_WallysHouse",
+      "donor_id": "8.0",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "PetalburgCity_House1",
+      "donor_id": "8.2",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SlateportCity_House",
+      "donor_id": "9.10",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "MauvilleCity_GameCorner",
+      "donor_id": "10.3",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_House2",
+      "donor_id": "11.12",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_Flat2_1F",
+      "donor_id": "11.13",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_Flat2_2F",
+      "donor_id": "11.14",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_Flat2_3F",
+      "donor_id": "11.15",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "RustboroCity_House3",
+      "donor_id": "11.16",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_BattlePalaceBattleRoom",
+      "donor_id": "26.24",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_RankingHall",
+      "donor_id": "26.40",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge1",
+      "donor_id": "26.41",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge3",
+      "donor_id": "26.44",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge4",
+      "donor_id": "26.45",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge6",
+      "donor_id": "26.48",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge7",
+      "donor_id": "26.49",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge8",
+      "donor_id": "26.51",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_Lounge9",
+      "donor_id": "26.52",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_OutsideWest",
+      "donor_id": "26.4",
+      "mode": "LAYOUT_REPLACEMENT",
+      "events_remapped": true,
+      "scripts_unchanged": true
+    },
+    {
+      "map": "BattleFrontier_OutsideEast",
+      "donor_id": "26.14",
+      "mode": "LAYOUT_REPLACEMENT",
+      "events_remapped": true,
+      "scripts_unchanged": true
+    },
+    {
+      "map": "SootopolisCity_MysteryEventsHouse_B1F",
+      "donor_id": "15.14",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "ArtisanCave_B1F",
+      "donor_id": "24.99",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "ArtisanCave_1F",
+      "donor_id": "24.100",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "AlteringCave",
+      "donor_id": "24.106",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "InsideOfTruck",
+      "donor_id": "25.40",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SSTidalCorridor",
+      "donor_id": "25.41",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SSTidalLowerDeck",
+      "donor_id": "25.42",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SSTidalRooms",
+      "donor_id": "25.43",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SouthernIsland_Exterior",
+      "donor_id": "26.9",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "SouthernIsland_Interior",
+      "donor_id": "26.10",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "FarawayIsland_Entrance",
+      "donor_id": "26.56",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "FarawayIsland_Interior",
+      "donor_id": "26.57",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Exterior",
+      "donor_id": "26.66",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Entrance",
+      "donor_id": "26.68",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_B1F",
+      "donor_id": "26.69",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Fork",
+      "donor_id": "26.70",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Up2",
+      "donor_id": "26.72",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Up4",
+      "donor_id": "26.74",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down02",
+      "donor_id": "26.77",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down04",
+      "donor_id": "26.79",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down06",
+      "donor_id": "26.81",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down08",
+      "donor_id": "26.83",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "NavelRock_Down10",
+      "donor_id": "26.85",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHouseEntrance",
+      "donor_id": "29.0",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHouseEnd",
+      "donor_id": "29.1",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHouseCorridor",
+      "donor_id": "29.2",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle1",
+      "donor_id": "29.3",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle2",
+      "donor_id": "29.4",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle3",
+      "donor_id": "29.5",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle4",
+      "donor_id": "29.6",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle5",
+      "donor_id": "29.7",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle6",
+      "donor_id": "29.8",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle7",
+      "donor_id": "29.9",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    },
+    {
+      "map": "Route110_TrickHousePuzzle8",
+      "donor_id": "29.10",
+      "mode": "LAYOUT_REPLACEMENT_WITH_NATIVE_CELL_RECONCILIATION",
+      "full_grid_contract_equal": true,
+      "events_and_scripts_unchanged": true
+    }
+  ],
+  "completed_links": [
+    {
+      "source": "PacifidlogTown",
+      "warp_index": 6,
+      "destination": "HyperHoenn_34_24_EV_Training_Cave",
+      "destination_warp": 7,
+      "source_record": {
+        "index": 6,
+        "x": 12,
+        "y": 5,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 24,
+        "target_id": "34.24",
+        "target_name": "EV Training Cave",
+        "dynamic_target": false,
+        "record_pointer": "0x08ADF074"
+      },
+      "destination_record": {
+        "index": 0,
+        "x": 7,
+        "y": 18,
+        "elevation": 0,
+        "dest_warp_id": 6,
+        "target_group": 0,
+        "target_map": 15,
+        "target_id": "0.15",
+        "target_name": "Pacifidlog Town",
+        "dynamic_target": false,
+        "record_pointer": "0x08AE81D8"
+      },
+      "reason": "Complete static reciprocal arrival using actual donor cells; donor gameplay excluded."
+    },
+    {
+      "source": "Route129",
+      "warp_index": 1,
+      "destination": "HyperHoenn_35_63_Remote_Island",
+      "destination_warp": 3,
+      "source_record": {
+        "index": 0,
+        "x": 60,
+        "y": 25,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 35,
+        "target_map": 63,
+        "target_id": "35.63",
+        "target_name": "Remote Island",
+        "dynamic_target": false,
+        "record_pointer": "0x08A17410"
+      },
+      "destination_record": {
+        "index": 2,
+        "x": 3,
+        "y": 3,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 0,
+        "target_map": 44,
+        "target_id": "0.44",
+        "target_name": "Route 129",
+        "dynamic_target": false,
+        "record_pointer": "0x08A4A8CC"
+      },
+      "reason": "Complete static reciprocal arrival using actual donor cells; donor gameplay excluded."
+    },
+    {
+      "source": "HyperHoenn_35_49_EV_Training_Cave",
+      "warp_index": 2,
+      "destination": "HyperHoenn_35_3_Rainbow_Castle",
+      "destination_warp": 1,
+      "source_record": {
+        "index": 1,
+        "x": 19,
+        "y": 21,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 3,
+        "target_id": "35.3",
+        "target_name": "Rainbow Castle",
+        "dynamic_target": false,
+        "record_pointer": "0x08B056D4"
+      },
+      "destination_record": {
+        "index": 0,
+        "x": 5,
+        "y": 14,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 35,
+        "target_map": 49,
+        "target_id": "35.49",
+        "target_name": "EV Training Cave",
+        "dynamic_target": false,
+        "record_pointer": "0x089CE5AC"
+      },
+      "reason": "Complete static reciprocal arrival using actual donor cells; donor gameplay excluded."
+    },
+    {
+      "source": "HyperHoenn_35_31_Cave_of_Despair",
+      "warp_index": 4,
+      "destination": "HyperHoenn_34_41_Allearth_Forest",
+      "destination_warp": 2,
+      "source_record": {
+        "index": 0,
+        "x": 15,
+        "y": 4,
+        "elevation": 0,
+        "dest_warp_id": 2,
+        "target_group": 34,
+        "target_map": 41,
+        "target_id": "34.41",
+        "target_name": "Allearth Forest",
+        "dynamic_target": false,
+        "record_pointer": "0x08A083B4"
+      },
+      "destination_record": {
+        "index": 2,
+        "x": 15,
+        "y": 43,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 35,
+        "target_map": 31,
+        "target_id": "35.31",
+        "target_name": "Cave of Despair",
+        "dynamic_target": false,
+        "record_pointer": "0x08A4C1C4"
+      },
+      "reason": "Complete static reciprocal arrival using actual donor cells; donor gameplay excluded."
+    },
+    {
+      "source": "HyperHoenn_35_35_Temple_of_the_End",
+      "warp_index": 3,
+      "destination": "HyperHoenn_35_5_Rainbow_Castle",
+      "destination_warp": 1,
+      "source_record": {
+        "index": 0,
+        "x": 25,
+        "y": 19,
+        "elevation": 0,
+        "dest_warp_id": 1,
+        "target_group": 35,
+        "target_map": 5,
+        "target_id": "35.5",
+        "target_name": "Rainbow Castle",
+        "dynamic_target": false,
+        "record_pointer": "0x089CCE44"
+      },
+      "destination_record": {
+        "index": 1,
+        "x": 6,
+        "y": 1,
+        "elevation": 0,
+        "dest_warp_id": 0,
+        "target_group": 34,
+        "target_map": 93,
+        "target_id": "34.93",
+        "target_name": "Temple of the End",
+        "dynamic_target": false,
+        "record_pointer": "0x089C1ABC"
+      },
+      "reason": "Complete static reciprocal arrival using actual donor cells; donor gameplay excluded."
+    },
+    {
+      "source": "SootopolisCity_MysteryEventsHouse_1F",
+      "warp_index": 3,
+      "destination": "HyperHoenn_37_121_Sootopolis_City",
+      "destination_warp": 0,
+      "reason": "New east annex; source outdoor doorway remains authoritative Mystery Events entrance."
+    }
+  ],
+  "keep_expansion_original": [
+    {
+      "map": "SootopolisCity_MysteryEventsHouse_1F",
+      "donor_id": "15.13",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "CaveOfOrigin_UnusedRubySapphireMap1",
+      "donor_id": "24.39",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "CaveOfOrigin_UnusedRubySapphireMap2",
+      "donor_id": "24.40",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "CaveOfOrigin_UnusedRubySapphireMap3",
+      "donor_id": "24.41",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "AquaHideout_UnusedRubyMap1",
+      "donor_id": "24.74",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "AquaHideout_UnusedRubyMap2",
+      "donor_id": "24.75",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "AquaHideout_UnusedRubyMap3",
+      "donor_id": "24.76",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_RedCave1",
+      "donor_id": "25.0",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BrownCave1",
+      "donor_id": "25.1",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BlueCave1",
+      "donor_id": "25.2",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_YellowCave1",
+      "donor_id": "25.3",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Tree1",
+      "donor_id": "25.4",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Shrub1",
+      "donor_id": "25.5",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_RedCave2",
+      "donor_id": "25.6",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BrownCave2",
+      "donor_id": "25.7",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BlueCave2",
+      "donor_id": "25.8",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_YellowCave2",
+      "donor_id": "25.9",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Tree2",
+      "donor_id": "25.10",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Shrub2",
+      "donor_id": "25.11",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_RedCave3",
+      "donor_id": "25.12",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BrownCave3",
+      "donor_id": "25.13",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BlueCave3",
+      "donor_id": "25.14",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_YellowCave3",
+      "donor_id": "25.15",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Tree3",
+      "donor_id": "25.16",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Shrub3",
+      "donor_id": "25.17",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_RedCave4",
+      "donor_id": "25.18",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BrownCave4",
+      "donor_id": "25.19",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_BlueCave4",
+      "donor_id": "25.20",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_YellowCave4",
+      "donor_id": "25.21",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Tree4",
+      "donor_id": "25.22",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "SecretBase_Shrub4",
+      "donor_id": "25.23",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattleColosseum_2P",
+      "donor_id": "25.24",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "TradeCenter",
+      "donor_id": "25.25",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "RecordCorner",
+      "donor_id": "25.26",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattleColosseum_4P",
+      "donor_id": "25.27",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHall",
+      "donor_id": "25.28",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall1",
+      "donor_id": "25.29",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall2",
+      "donor_id": "25.30",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall3",
+      "donor_id": "25.31",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall4",
+      "donor_id": "25.32",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall5",
+      "donor_id": "25.33",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnusedContestHall6",
+      "donor_id": "25.34",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHallBeauty",
+      "donor_id": "25.35",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHallTough",
+      "donor_id": "25.36",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHallCool",
+      "donor_id": "25.37",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHallSmart",
+      "donor_id": "25.38",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "ContestHallCute",
+      "donor_id": "25.39",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare01",
+      "donor_id": "25.44",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare02",
+      "donor_id": "25.45",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare03",
+      "donor_id": "25.46",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare04",
+      "donor_id": "25.47",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare05",
+      "donor_id": "25.48",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare06",
+      "donor_id": "25.49",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare07",
+      "donor_id": "25.50",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare08",
+      "donor_id": "25.51",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare09",
+      "donor_id": "25.52",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare10",
+      "donor_id": "25.53",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare11",
+      "donor_id": "25.54",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare12",
+      "donor_id": "25.55",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare13",
+      "donor_id": "25.56",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare14",
+      "donor_id": "25.57",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare15",
+      "donor_id": "25.58",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BattlePyramidSquare16",
+      "donor_id": "25.59",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "UnionRoom",
+      "donor_id": "25.60",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "BirthIsland_Exterior",
+      "donor_id": "26.58",
+      "reason": "Donor identity repurposed as a different region/special; canonical event island is preserved."
+    },
+    {
+      "map": "BirthIsland_Harbor",
+      "donor_id": "26.59",
+      "reason": "Donor identity repurposed as a different region/special; canonical event island is preserved."
+    },
+    {
+      "map": "TrainerHill_1F",
+      "donor_id": "26.61",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "TrainerHill_2F",
+      "donor_id": "26.62",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "TrainerHill_3F",
+      "donor_id": "26.63",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "TrainerHill_4F",
+      "donor_id": "26.64",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "TrainerHill_Roof",
+      "donor_id": "26.65",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "NavelRock_Harbor",
+      "donor_id": "26.67",
+      "reason": "Donor identity repurposed as a different region/special; canonical event island is preserved."
+    },
+    {
+      "map": "NavelRock_Top",
+      "donor_id": "26.75",
+      "reason": "Canonical legendary scene references native numeric art slots absent from the donor bank; keep original geometry/assets and gameplay."
+    },
+    {
+      "map": "NavelRock_Bottom",
+      "donor_id": "26.87",
+      "reason": "Canonical legendary scene references native numeric art slots absent from the donor bank; keep original geometry/assets and gameplay."
+    },
+    {
+      "map": "Route104_Prototype",
+      "donor_id": "27.0",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    },
+    {
+      "map": "Route104_PrototypePrettyPetalFlowerShop",
+      "donor_id": "27.1",
+      "reason": "Native generated/system or unused map retains expansion ownership."
+    }
+  ],
+  "native_gameplay_ownership": true,
+  "donor_gameplay_imported": false,
+  "runtime_verified": false
+}

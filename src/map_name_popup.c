@@ -20,10 +20,13 @@
 #include "constants/battle_frontier.h"
 #include "constants/layouts.h"
 #include "constants/map_types.h"
+#include "constants/map_groups.h"
 #include "constants/region_map_sections.h"
 #include "constants/weather.h"
 #include "config/general.h"
 #include "config/overworld.h"
+
+#include "hyper_sinnoh_display_names.inc"
 
 // enums
 enum MapPopUp_Themes
@@ -565,7 +568,10 @@ u8 *GetPopUpMapName(u8 *dest, const struct MapHeader *mapHeader)
     if (IsCeladonDeptStore(mapHeader))
         StringCopy(dest, COMPOUND_STRING("CELADON DEPT."));
     else
-        GetMapName(dest, mapHeader->regionMapSectionId, 0);
+        if (mapHeader->regionMapSectionId == MAPSEC_SINNOH && HyperSinnoh_CurrentDisplayName() != NULL)
+            StringCopy(dest, HyperSinnoh_CurrentDisplayName());
+        else
+            GetMapName(dest, mapHeader->regionMapSectionId, 0);
     if (mapHeader->floorNumber == 0)
         return dest;
     MapNamePopupAppendFloorNum(dest, mapHeader->floorNumber);

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "confirmed_points": 8,
+  "source_marker_families": [
+    "0x098C3593",
+    "0x098C346C",
+    "0x098C3622",
+    "0x098C36AF"
+  ],
+  "scope": [
+    "36.24",
+    "36.64",
+    "36.91"
+  ],
+  "geometry_approach_and_landing_collision_checked": true,
+  "host_sanitizers": "address,undefined",
+  "host_result": "Eight exact climb triggers, wrong-facing/position and native-map exclusions passed.",
+  "runtime_verified": false
+}

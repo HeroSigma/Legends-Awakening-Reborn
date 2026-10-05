@@ -1,0 +1,731 @@
+{
+  "strips": [
+    {
+      "map": "HyperSinnoh_36_13_Sunyshore_City",
+      "map_id": "MAP_HYPERSINNOH_36_13_SUNYSHORE_CITY",
+      "x": 58,
+      "top": 34,
+      "bottom": 36,
+      "steps": 4,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_08A6550C"
+      ],
+      "cells": [
+        {
+          "x": 58,
+          "y": 34,
+          "metatile": 359,
+          "block": 12647,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 58,
+          "y": 35,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 58,
+          "y": 36,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 58,
+        "y": 33,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 58,
+        "y": 37,
+        "metatile": 113,
+        "block": 12401,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 12,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_24_Route_208",
+      "map_id": "MAP_HYPERSINNOH_36_24_ROUTE_208",
+      "x": 15,
+      "top": 11,
+      "bottom": 13,
+      "steps": 4,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_08A62224"
+      ],
+      "cells": [
+        {
+          "x": 15,
+          "y": 11,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 15,
+          "y": 12,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 15,
+        "y": 10,
+        "metatile": 113,
+        "block": 12401,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 12,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 15,
+        "y": 14,
+        "metatile": 473,
+        "block": 12761,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_27_Route_210",
+      "map_id": "MAP_HYPERSINNOH_36_27_ROUTE_210",
+      "x": 19,
+      "top": 13,
+      "bottom": 13,
+      "steps": 2,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals"
+      ],
+      "cells": [
+        {
+          "x": 19,
+          "y": 13,
+          "metatile": 359,
+          "block": 12647,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 19,
+        "y": 12,
+        "metatile": 297,
+        "block": 12585,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 19,
+        "y": 14,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_27_Route_210",
+      "map_id": "MAP_HYPERSINNOH_36_27_ROUTE_210",
+      "x": 19,
+      "top": 15,
+      "bottom": 15,
+      "steps": 2,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_sinnoh_HyperSinnoh_36_27_Route_210_Portals"
+      ],
+      "cells": [
+        {
+          "x": 19,
+          "y": 15,
+          "metatile": 359,
+          "block": 12647,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 19,
+        "y": 14,
+        "metatile": 1,
+        "block": 12289,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 19,
+        "y": 16,
+        "metatile": 4,
+        "block": 12292,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 11,
+      "top": 30,
+      "bottom": 34,
+      "steps": 6,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 11,
+          "y": 30,
+          "metatile": 359,
+          "block": 12647,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 11,
+          "y": 31,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 11,
+          "y": 32,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 11,
+          "y": 33,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 11,
+          "y": 34,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 11,
+        "y": 29,
+        "metatile": 5,
+        "block": 12293,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 7,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 11,
+        "y": 35,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 38,
+      "top": 3,
+      "bottom": 4,
+      "steps": 3,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 38,
+          "y": 3,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 38,
+          "y": 4,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 38,
+        "y": 2,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 38,
+        "y": 5,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 39,
+      "top": 10,
+      "bottom": 11,
+      "steps": 3,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 39,
+          "y": 10,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 39,
+          "y": 11,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 39,
+        "y": 9,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 39,
+        "y": 12,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 44,
+      "top": 3,
+      "bottom": 3,
+      "steps": 2,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 44,
+          "y": 3,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 44,
+        "y": 2,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 44,
+        "y": 4,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 45,
+      "top": 7,
+      "bottom": 8,
+      "steps": 3,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 45,
+          "y": 7,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 45,
+          "y": 8,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 45,
+        "y": 6,
+        "metatile": 574,
+        "block": 12862,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 45,
+        "y": 9,
+        "metatile": 292,
+        "block": 12580,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 33,
+        "layer": 1
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_48_Acuity_Lakefront",
+      "map_id": "MAP_HYPERSINNOH_36_48_ACUITY_LAKEFRONT",
+      "x": 19,
+      "top": 35,
+      "bottom": 38,
+      "steps": 5,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_08A5FEB4"
+      ],
+      "cells": [
+        {
+          "x": 19,
+          "y": 35,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 19,
+          "y": 36,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 19,
+          "y": 37,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 19,
+          "y": 38,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 19,
+        "y": 34,
+        "metatile": 545,
+        "block": 12833,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 23,
+        "layer": 0
+      },
+      "lower_landing": {
+        "x": 19,
+        "y": 39,
+        "metatile": 545,
+        "block": 12833,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 23,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_91_Mt_Coronet",
+      "map_id": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+      "x": 40,
+      "top": 11,
+      "bottom": 13,
+      "steps": 4,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_08A5FEB4"
+      ],
+      "cells": [
+        {
+          "x": 40,
+          "y": 11,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 40,
+          "y": 12,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 40,
+          "y": 13,
+          "metatile": 580,
+          "block": 12868,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 40,
+        "y": 10,
+        "metatile": 577,
+        "block": 12865,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      },
+      "lower_landing": {
+        "x": 40,
+        "y": 14,
+        "metatile": 577,
+        "block": 12865,
+        "collision": 0,
+        "elevation": 3,
+        "translated_behavior": 2,
+        "layer": 0
+      }
+    },
+    {
+      "map": "HyperSinnoh_36_9_Veilstone_City",
+      "map_id": "MAP_HYPERSINNOH_36_9_VEILSTONE_CITY",
+      "x": 14,
+      "top": 39,
+      "bottom": 40,
+      "steps": 3,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_089CD34C"
+      ],
+      "cells": [
+        {
+          "x": 14,
+          "y": 39,
+          "metatile": 770,
+          "block": 17154,
+          "collision": 0,
+          "elevation": 4,
+          "translated_behavior": 209,
+          "layer": 1
+        },
+        {
+          "x": 14,
+          "y": 40,
+          "metatile": 770,
+          "block": 17154,
+          "collision": 0,
+          "elevation": 4,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "upper_landing": {
+        "x": 14,
+        "y": 38,
+        "metatile": 765,
+        "block": 17149,
+        "collision": 0,
+        "elevation": 4,
+        "translated_behavior": 0,
+        "layer": 1
+      },
+      "lower_landing": {
+        "x": 14,
+        "y": 41,
+        "metatile": 637,
+        "block": 637,
+        "collision": 0,
+        "elevation": 0,
+        "translated_behavior": 0,
+        "layer": 0
+      }
+    }
+  ],
+  "held": [
+    {
+      "map": "HyperSinnoh_36_32_Route_213",
+      "map_id": "MAP_HYPERSINNOH_36_32_ROUTE_213",
+      "x": 43,
+      "top": 0,
+      "bottom": 0,
+      "steps": 2,
+      "tilesets": [
+        "gTileset_Hyper_Primary_089CBC6C",
+        "gTileset_Hyper_Secondary_083DF764"
+      ],
+      "cells": [
+        {
+          "x": 43,
+          "y": 0,
+          "metatile": 358,
+          "block": 12646,
+          "collision": 0,
+          "elevation": 3,
+          "translated_behavior": 209,
+          "layer": 1
+        }
+      ],
+      "reason": "No in-bounds landing"
+    }
+  ],
+  "approach_triggers": 24,
+  "runtime_verified": false
+}

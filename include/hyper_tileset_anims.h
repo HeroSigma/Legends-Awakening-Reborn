@@ -2,6 +2,7 @@
 #define GUARD_HYPER_TILESET_ANIMS_H
 void InitTilesetAnim_HyperAsset_Primary_083DF704(void);
 void InitTilesetAnim_HyperAsset_Primary_083DF884(void);
+void InitTilesetAnim_HyperAsset_Primary_089CBC6C(void);
 void InitTilesetAnim_HyperAsset_Secondary_083DF734(void);
 void InitTilesetAnim_HyperAsset_Secondary_083DF74C(void);
 void InitTilesetAnim_HyperAsset_Secondary_083DF764(void);
