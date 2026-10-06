@@ -1,0 +1,91 @@
+{
+  "id": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+  "name": "GSJohto_1_83_Whirl_Islands",
+  "layout": "LAYOUT_GSJOHTO_1_83_WHIRL_ISLANDS",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 15,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_31_ROUTE_41",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 39,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_31_ROUTE_41",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_31_ROUTE_41",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 41,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_31_ROUTE_41",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 45,
+      "y": 27,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 40,
+      "y": 37,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 23,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 42,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

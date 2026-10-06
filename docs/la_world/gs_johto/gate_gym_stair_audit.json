@@ -1,0 +1,622 @@
+{
+  "changes": [
+    {
+      "map": "GSJohto_9_0_Goldenrod_City",
+      "fix": "All three gym exit lanes return to gym door (warp 1), not north gate (warp 2)"
+    },
+    {
+      "map": "GSJohto_1_12_National_Park",
+      "x": 40,
+      "y": 17,
+      "before": "0x562",
+      "after": "0x196",
+      "fix": "Open actual stair bottom and wildcard elevation"
+    },
+    {
+      "map": "GSJohto_3_41_Tohjo_Falls",
+      "x": 8,
+      "y": 5,
+      "before": "0x55b",
+      "after": "0x1a2",
+      "fix": "Open actual stair bottom and wildcard elevation"
+    },
+    {
+      "map": "GSJohto_1_38_National_Park",
+      "x": 40,
+      "y": 17,
+      "before": "0x562",
+      "after": "0x196",
+      "fix": "Open actual stair bottom and wildcard elevation"
+    },
+    {
+      "map": "GSJohto_1_38_National_Park",
+      "x": 35,
+      "y": 17,
+      "fix": "East-facing park gate entry"
+    },
+    {
+      "map": "GSJohto_1_38_National_Park",
+      "x": 35,
+      "y": 18,
+      "fix": "East-facing park gate entry"
+    }
+  ],
+  "nonreciprocal_review": [
+    {
+      "map": "GSJohto_10_17_Ecruteak_City",
+      "warp": 1,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_16_1_ROUTE_33"
+    },
+    {
+      "map": "GSJohto_10_17_Ecruteak_City",
+      "warp": 2,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_16_1_ROUTE_33"
+    },
+    {
+      "map": "GSJohto_1_66_Lighthouse",
+      "warp": 1,
+      "destination": "GSJohto_1_61_Lighthouse",
+      "returns_to": "MAP_GSJOHTO_1_61_LIGHTHOUSE"
+    },
+    {
+      "map": "GSJohto_12_7_Route_48",
+      "warp": 0,
+      "destination": "GSJohto_3_8_Cianwood_City",
+      "returns_to": "MAP_GSJOHTO_9_4_CIANWOOD_CITY"
+    },
+    {
+      "map": "GSJohto_12_7_Route_48",
+      "warp": 2,
+      "destination": "GSJohto_3_8_Cianwood_City",
+      "returns_to": "MAP_GSJOHTO_9_4_CIANWOOD_CITY"
+    },
+    {
+      "map": "GSJohto_11_0_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_1_63_Lighthouse",
+      "returns_to": "MAP_GSJOHTO_1_96_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_0_Olivine_City",
+      "warp": 1,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_3_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_0_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_3_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_0_Olivine_City",
+      "warp": 3,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_3_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_7_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_4_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_7_Olivine_City",
+      "warp": 1,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_4_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_7_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_4_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_14_5_Blackthorn_City",
+      "warp": 0,
+      "destination": "GSJohto_3_10_Blackthorn_City",
+      "returns_to": "MAP_GSJOHTO_14_1_BLACKTHORN_CITY"
+    },
+    {
+      "map": "GSJohto_14_5_Blackthorn_City",
+      "warp": 2,
+      "destination": "GSJohto_3_10_Blackthorn_City",
+      "returns_to": "MAP_GSJOHTO_14_1_BLACKTHORN_CITY"
+    },
+    {
+      "map": "GSJohto_7_2_Violet_City",
+      "warp": 0,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_1_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_7_2_Violet_City",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_1_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_15_0_Cherrygrove_City",
+      "warp": 1,
+      "destination": "GSJohto_1_0_Ilex_Forest",
+      "returns_to": "MAP_GSJOHTO_3_3_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_10_3_Goldenrod_City",
+      "warp": 1,
+      "destination": "GSJohto_10_2_Goldenrod_Sewers",
+      "returns_to": "MAP_GSJOHTO_10_2_GOLDENROD_SEWERS"
+    },
+    {
+      "map": "GSJohto_10_3_Goldenrod_City",
+      "warp": 2,
+      "destination": "GSJohto_10_4_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_3_5_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_10_0_Goldenrod_City",
+      "warp": 1,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_10_12_ECRUTEAK_CITY"
+    },
+    {
+      "map": "GSJohto_5_3_Cherrygrove_City",
+      "warp": 1,
+      "destination": "GSJohto_3_1_Cherrygrove_City",
+      "returns_to": "MAP_GSJOHTO_5_2_CHERRYGROVE_CITY"
+    },
+    {
+      "map": "GSJohto_9_6_Goldenrod_City",
+      "warp": 0,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_9_7_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_9_6_Goldenrod_City",
+      "warp": 2,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_9_7_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_7_1_Azalea_Town",
+      "warp": 0,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_7_1_Azalea_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_6_4_Ruins_of_Alph",
+      "warp": 0,
+      "destination": "GSJohto_3_2_Violet_City",
+      "returns_to": "MAP_GSJOHTO_6_1_VIOLET_CITY"
+    },
+    {
+      "map": "GSJohto_6_4_Ruins_of_Alph",
+      "warp": 2,
+      "destination": "GSJohto_3_2_Violet_City",
+      "returns_to": "MAP_GSJOHTO_6_1_VIOLET_CITY"
+    },
+    {
+      "map": "GSJohto_10_4_Goldenrod_City",
+      "warp": 1,
+      "destination": "GSJohto_10_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_9_3_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_1_81_Union_Cave",
+      "warp": 0,
+      "destination": "GSJohto_3_28_Route_38",
+      "returns_to": "MAP_GSJOHTO_16_1_ROUTE_33"
+    },
+    {
+      "map": "GSJohto_1_81_Union_Cave",
+      "warp": 5,
+      "destination": "GSJohto_3_28_Route_38",
+      "returns_to": "MAP_GSJOHTO_16_1_ROUTE_33"
+    },
+    {
+      "map": "GSJohto_3_42_Route_28",
+      "warp": 0,
+      "destination": "GSJohto_1_39_Victory_Road",
+      "returns_to": "MAP_GSJOHTO_1_40_VICTORY_ROAD"
+    },
+    {
+      "map": "GSJohto_3_42_Route_28",
+      "warp": 1,
+      "destination": "GSJohto_1_40_Victory_Road",
+      "returns_to": "MAP_GSJOHTO_1_41_VICTORY_ROAD"
+    },
+    {
+      "map": "GSJohto_3_42_Route_28",
+      "warp": 2,
+      "destination": "GSJohto_28_0_Route_48",
+      "returns_to": "MAP_GSJOHTO_1_39_VICTORY_ROAD"
+    },
+    {
+      "map": "GSJohto_3_42_Route_28",
+      "warp": 3,
+      "destination": "GSJohto_28_0_Route_48",
+      "returns_to": "MAP_GSJOHTO_1_39_VICTORY_ROAD"
+    },
+    {
+      "map": "GSJohto_9_4_Cianwood_City",
+      "warp": 0,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_0_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_9_4_Cianwood_City",
+      "warp": 2,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_0_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_1_78_Map_01_78",
+      "warp": 3,
+      "destination": "GSJohto_1_45_Map_01_45",
+      "returns_to": "MAP_GSJOHTO_1_45_MAP_01_45"
+    },
+    {
+      "map": "GSJohto_1_85_Whirl_Islands",
+      "warp": 3,
+      "destination": "GSJohto_1_84_Whirl_Islands",
+      "returns_to": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS"
+    },
+    {
+      "map": "GSJohto_10_7_Ecruteak_City",
+      "warp": 0,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_20_0_ROUTE_42"
+    },
+    {
+      "map": "GSJohto_10_7_Ecruteak_City",
+      "warp": 1,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_20_0_ROUTE_42"
+    },
+    {
+      "map": "GSJohto_10_7_Ecruteak_City",
+      "warp": 2,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_20_0_ROUTE_42"
+    },
+    {
+      "map": "GSJohto_10_7_Ecruteak_City",
+      "warp": 5,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_16_1_ROUTE_33"
+    },
+    {
+      "map": "GSJohto_11_3_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_6_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_3_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_6_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_1_86_Whirl_Islands",
+      "warp": 0,
+      "destination": "GSJohto_1_85_Whirl_Islands",
+      "returns_to": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS"
+    },
+    {
+      "map": "GSJohto_1_86_Whirl_Islands",
+      "warp": 1,
+      "destination": "GSJohto_1_85_Whirl_Islands",
+      "returns_to": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS"
+    },
+    {
+      "map": "GSJohto_1_86_Whirl_Islands",
+      "warp": 3,
+      "destination": "GSJohto_1_87_Mt_Mortar",
+      "returns_to": "MAP_GSJOHTO_1_73_MT_MORTAR"
+    },
+    {
+      "map": "GSJohto_1_86_Whirl_Islands",
+      "warp": 4,
+      "destination": "GSJohto_1_87_Mt_Mortar",
+      "returns_to": "MAP_GSJOHTO_1_72_MT_MORTAR"
+    },
+    {
+      "map": "GSJohto_1_75_Map_01_75",
+      "warp": 3,
+      "destination": "GSJohto_1_45_Map_01_45",
+      "returns_to": "MAP_GSJOHTO_1_45_MAP_01_45"
+    },
+    {
+      "map": "GSJohto_11_4_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_1_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_4_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_1_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_10_12_Ecruteak_City",
+      "warp": 0,
+      "destination": "GSJohto_3_6_Ecruteak_City",
+      "returns_to": "MAP_GSJOHTO_1_59_BURNED_TOWER"
+    },
+    {
+      "map": "GSJohto_5_0_Cherrygrove_City",
+      "warp": 2,
+      "destination": "GSJohto_3_1_Cherrygrove_City",
+      "returns_to": "MAP_GSJOHTO_5_2_CHERRYGROVE_CITY"
+    },
+    {
+      "map": "GSJohto_8_3_Mahogany_Town",
+      "warp": 0,
+      "destination": "GSJohto_3_4_Mahogany_Town",
+      "returns_to": "MAP_GSJOHTO_8_4_ROUTE_43"
+    },
+    {
+      "map": "GSJohto_8_3_Mahogany_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_4_Mahogany_Town",
+      "returns_to": "MAP_GSJOHTO_8_4_ROUTE_43"
+    },
+    {
+      "map": "GSJohto_16_0_Route_34",
+      "warp": 2,
+      "destination": "GSJohto_3_24_Route_34",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_15_3_New_Bark_Town",
+      "warp": 0,
+      "destination": "GSJohto_1_0_Ilex_Forest",
+      "returns_to": "MAP_GSJOHTO_3_24_ROUTE_34"
+    },
+    {
+      "map": "GSJohto_15_3_New_Bark_Town",
+      "warp": 2,
+      "destination": "GSJohto_1_0_Ilex_Forest",
+      "returns_to": "MAP_GSJOHTO_3_24_ROUTE_34"
+    },
+    {
+      "map": "GSJohto_15_3_New_Bark_Town",
+      "warp": 3,
+      "destination": "GSJohto_3_20_Route_30",
+      "returns_to": "MAP_GSJOHTO_15_1_ROUTE_30"
+    },
+    {
+      "map": "GSJohto_1_49_Goldenrod_Tower",
+      "warp": 3,
+      "destination": "GSJohto_1_58_Rocket_HQ",
+      "returns_to": "MAP_GSJOHTO_1_57_ROCKET_HQ"
+    },
+    {
+      "map": "GSJohto_5_2_Cherrygrove_City",
+      "warp": 2,
+      "destination": "GSJohto_3_1_Cherrygrove_City",
+      "returns_to": "MAP_GSJOHTO_5_0_CHERRYGROVE_CITY"
+    },
+    {
+      "map": "GSJohto_7_5_Azalea_Town",
+      "warp": 0,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_0_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_7_5_Azalea_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_0_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_24_0_Route_31",
+      "warp": 2,
+      "destination": "GSJohto_3_33_Route_43",
+      "returns_to": "MAP_GSJOHTO_8_1_ROUTE_43"
+    },
+    {
+      "map": "GSJohto_20_0_Route_42",
+      "warp": 2,
+      "destination": "GSJohto_3_26_Route_36",
+      "returns_to": "MAP_GSJOHTO_23_0_ROUTE_36"
+    },
+    {
+      "map": "GSJohto_20_0_Route_42",
+      "warp": 3,
+      "destination": "GSJohto_3_26_Route_36",
+      "returns_to": "MAP_GSJOHTO_23_0_ROUTE_36"
+    },
+    {
+      "map": "GSJohto_11_2_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_5_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_2_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_5_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_12_0_Cianwood_City",
+      "warp": 0,
+      "destination": "GSJohto_3_8_Cianwood_City",
+      "returns_to": "MAP_GSJOHTO_12_6_CIANWOOD_CITY"
+    },
+    {
+      "map": "GSJohto_12_0_Cianwood_City",
+      "warp": 2,
+      "destination": "GSJohto_3_8_Cianwood_City",
+      "returns_to": "MAP_GSJOHTO_12_6_CIANWOOD_CITY"
+    },
+    {
+      "map": "GSJohto_22_0_Map_22_00",
+      "warp": 0,
+      "destination": "GSJohto_3_29_Route_39",
+      "returns_to": "MAP_GSJOHTO_35_4_ROUTE_38"
+    },
+    {
+      "map": "GSJohto_9_7_Goldenrod_City",
+      "warp": 0,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_4_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_9_7_Goldenrod_City",
+      "warp": 2,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_4_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_11_1_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_2_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_11_1_Olivine_City",
+      "warp": 2,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_11_2_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_7_0_Azalea_Town",
+      "warp": 0,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_32_SLOWPOKE_WELL"
+    },
+    {
+      "map": "GSJohto_7_0_Azalea_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_32_SLOWPOKE_WELL"
+    },
+    {
+      "map": "GSJohto_17_0_Route_34",
+      "warp": 0,
+      "destination": "GSJohto_3_23_Route_33",
+      "returns_to": "MAP_GSJOHTO_1_30_UNION_CAVE"
+    },
+    {
+      "map": "GSJohto_17_0_Route_34",
+      "warp": 1,
+      "destination": "GSJohto_3_23_Route_33",
+      "returns_to": "MAP_GSJOHTO_1_30_UNION_CAVE"
+    },
+    {
+      "map": "GSJohto_17_0_Route_34",
+      "warp": 2,
+      "destination": "GSJohto_3_23_Route_33",
+      "returns_to": "MAP_GSJOHTO_1_30_UNION_CAVE"
+    },
+    {
+      "map": "GSJohto_11_8_Olivine_City",
+      "warp": 0,
+      "destination": "GSJohto_3_7_Olivine_City",
+      "returns_to": "MAP_GSJOHTO_1_61_LIGHTHOUSE"
+    },
+    {
+      "map": "GSJohto_1_61_Lighthouse",
+      "warp": 1,
+      "destination": "GSJohto_1_61_Lighthouse",
+      "returns_to": "MAP_GSJOHTO_3_7_OLIVINE_CITY"
+    },
+    {
+      "map": "GSJohto_1_4_S_S_Anne",
+      "warp": 0,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_9_3_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_1_4_S_S_Anne",
+      "warp": 3,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_9_0_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_1_77_Map_01_77",
+      "warp": 3,
+      "destination": "GSJohto_1_45_Map_01_45",
+      "returns_to": "MAP_GSJOHTO_1_45_MAP_01_45"
+    },
+    {
+      "map": "GSJohto_7_7_Azalea_Town",
+      "warp": 1,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_5_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_7_7_Azalea_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_7_5_AZALEA_TOWN"
+    },
+    {
+      "map": "GSJohto_7_6_Azalea_Town",
+      "warp": 0,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_7_6_Azalea_Town",
+      "warp": 1,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_7_6_Azalea_Town",
+      "warp": 2,
+      "destination": "GSJohto_3_3_Azalea_Town",
+      "returns_to": "MAP_GSJOHTO_1_0_ILEX_FOREST"
+    },
+    {
+      "map": "GSJohto_8_5_Lake_of_Rage",
+      "warp": 0,
+      "destination": "GSJohto_3_4_Mahogany_Town",
+      "returns_to": "MAP_GSJOHTO_8_4_ROUTE_43"
+    },
+    {
+      "map": "GSJohto_8_5_Lake_of_Rage",
+      "warp": 2,
+      "destination": "GSJohto_3_4_Mahogany_Town",
+      "returns_to": "MAP_GSJOHTO_8_4_ROUTE_43"
+    },
+    {
+      "map": "GSJohto_1_76_Map_01_76",
+      "warp": 3,
+      "destination": "GSJohto_1_45_Map_01_45",
+      "returns_to": "MAP_GSJOHTO_1_45_MAP_01_45"
+    },
+    {
+      "map": "GSJohto_9_1_Goldenrod_City",
+      "warp": 2,
+      "destination": "GSJohto_9_2_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_3_5_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_9_5_Ecruteak_City",
+      "warp": 0,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_3_GOLDENROD_CITY"
+    },
+    {
+      "map": "GSJohto_9_5_Ecruteak_City",
+      "warp": 2,
+      "destination": "GSJohto_3_5_Goldenrod_City",
+      "returns_to": "MAP_GSJOHTO_10_3_GOLDENROD_CITY"
+    }
+  ]
+}

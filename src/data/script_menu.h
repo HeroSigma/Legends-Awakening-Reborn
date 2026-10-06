@@ -101,6 +101,8 @@ static const struct MenuAction MultichoiceList_LATeleportDestinations[] =
     {COMPOUND_STRING("POSTWICK")},
     {COMPOUND_STRING("STRIATON CITY")},
     {COMPOUND_STRING("MOTOSTOKE")},
+    {COMPOUND_STRING("BWA MAP TEST")},
+    {COMPOUND_STRING("JOHTO")},
     {gText_Cancel},
 };
 

@@ -1,0 +1,61 @@
+{
+  "id": "MAP_GSJOHTO_3_20_ROUTE_30",
+  "name": "GSJohto_3_20_Route_30",
+  "layout": "LAYOUT_GSJOHTO_3_20_ROUTE_30",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_GSJOHTO_3_21_ROUTE_31",
+      "offset": -26,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_GSJOHTO_3_1_CHERRYGROVE_CITY",
+      "offset": -14,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_GSJOHTO_3_20_ROUTE_30_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 28,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "GSJohto_3_20_Route_30_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_15_1_ROUTE_30",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_15_3_NEW_BARK_TOWN",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

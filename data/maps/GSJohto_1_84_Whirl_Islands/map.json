@@ -1,0 +1,77 @@
+{
+  "id": "MAP_GSJOHTO_1_84_WHIRL_ISLANDS",
+  "name": "GSJohto_1_84_Whirl_Islands",
+  "layout": "LAYOUT_GSJOHTO_1_84_WHIRL_ISLANDS",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 57,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 48,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 15,
+      "y": 38,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 31,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 50,
+      "y": 34,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_83_WHIRL_ISLANDS",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 16,
+      "y": 35,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_85_WHIRL_ISLANDS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 38,
+      "y": 30,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_85_WHIRL_ISLANDS",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

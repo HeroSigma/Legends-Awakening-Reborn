@@ -1,0 +1,35 @@
+{
+  "id": "MAP_GSJOHTO_19_0_ROUTE_35",
+  "name": "GSJohto_19_0_Route_35",
+  "layout": "LAYOUT_GSJOHTO_19_0_ROUTE_35",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_25_ROUTE_35",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_38_NATIONAL_PARK",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

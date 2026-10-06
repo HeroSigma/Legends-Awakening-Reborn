@@ -1,0 +1,84 @@
+{
+  "id": "MAP_GSJOHTO_1_30_UNION_CAVE",
+  "name": "GSJohto_1_30_Union_Cave",
+  "layout": "LAYOUT_GSJOHTO_1_30_UNION_CAVE",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_22_ROUTE_32",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 25,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_3_23_ROUTE_33",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_31_UNION_CAVE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 5,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_92_UNION_CAVE",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 20,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_92_UNION_CAVE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 18,
+      "y": 62,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_88_RUINS_OF_ALPH",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 3,
+      "y": 62,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_88_RUINS_OF_ALPH",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 8,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_1_31_UNION_CAVE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_3_23_ROUTE_33",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -20,7 +20,9 @@ LA_TeleportScientist::
 	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpPostwick
 	goto_if_eq VAR_RESULT, 2, LA_TeleportScientist_WarpStriaton
 	goto_if_eq VAR_RESULT, 3, LA_TeleportScientist_WarpMotostoke
-	@ 4 = CANCEL (or B button): just end the conversation.
+	goto_if_eq VAR_RESULT, 4, LA_TeleportScientist_WarpBWABatch
+	goto_if_eq VAR_RESULT, 5, LA_TeleportScientist_WarpJohto
+	@ 6 = CANCEL (or B button): just end the conversation.
 	goto LA_TeleportScientist_Cancel
 
 LA_TeleportScientist_WarpNuvema::
@@ -62,3 +64,17 @@ LA_Text_TeleportScientistIntro:
 	.string "I can send you to a region my\n"
 	.string "equipment imported from another world.\p"
 	.string "Where shall I send you?$"
+
+LA_TeleportScientist_WarpBWABatch::
+	closemessage
+	warp MAP_BWA_1_30, 45, 19
+	waitstate
+	release
+	end
+
+LA_TeleportScientist_WarpJohto::
+	closemessage
+	warp MAP_GSJOHTO_3_0_NEW_BARK_TOWN, 10, 12
+	waitstate
+	release
+	end

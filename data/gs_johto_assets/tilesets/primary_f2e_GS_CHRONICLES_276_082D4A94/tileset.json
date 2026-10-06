@@ -1,0 +1,52 @@
+{
+  "id": "primary_f2e_GS_CHRONICLES_276_082D4A94",
+  "role": "primary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "gs_chronicles_native_512_512",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 0,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/00.pal"
+    },
+    {
+      "slot": 1,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/01.pal"
+    },
+    {
+      "slot": 2,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/02.pal"
+    },
+    {
+      "slot": 3,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/03.pal"
+    },
+    {
+      "slot": 4,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/04.pal"
+    },
+    {
+      "slot": 5,
+      "path": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/palettes/05.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct": "0x082D4A94",
+    "tiles_pointer": "0x08A9DD9C",
+    "palette_pointer": "0x08EA1B68",
+    "metatiles_pointer": "0x0890CC84",
+    "attributes_pointer": "0x0890EC84",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 1,
+  "raw_frlg_attributes": "tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "2847b49d350986f4e137d71b3430344f36bc490ba6a019568eb0b033f793af1d",
+    "metatiles_bvd": "a7fe0d4410575c7b85dda313facb2045e7a9f26da908dad5ec331993087a2e65",
+    "raw_frlg_attributes": "3e1b85a60dfb1349ca04db85d8f7379b35173356f1edf464c2c90443d8a2f21e"
+  },
+  "source_primary_tile_count": 512,
+  "source_secondary_tile_count": 512
+}

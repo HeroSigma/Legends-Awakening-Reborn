@@ -1,0 +1,23 @@
+{
+  "format": "Reborn Donor Preservation v1",
+  "donor": "swsh",
+  "rom": {
+    "path": "/mnt/c/Users/aadair/Downloads/tools/Donor Roms/ssultimateplus v1.2.1.2.gba",
+    "title": "POKEMON FIRE",
+    "game_code": "BPRE",
+    "size": 33554432,
+    "sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3"
+  },
+  "maps": 701,
+  "tilesets": 69,
+  "object_graphics_ids": 208,
+  "object_art_candidates": 240,
+  "static_graphics_table_size": 240,
+  "art_ids_catalogued": 249,
+  "animation_headers": 60,
+  "animation_callbacks_pending": 5,
+  "behavior_high_ids": 4201,
+  "gameplay_imported": false,
+  "new_live_maps": 0,
+  "status": "SOURCE_AND_EDITOR_PRESERVED_RUNTIME_ASSET_CLOSURE_PENDING"
+}

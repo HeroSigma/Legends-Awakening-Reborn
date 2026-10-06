@@ -1,0 +1,58 @@
+{
+  "id": "secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034",
+  "role": "secondary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "gs_chronicles_native_512_512",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 6,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/06.pal"
+    },
+    {
+      "slot": 7,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/07.pal"
+    },
+    {
+      "slot": 8,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/08.pal"
+    },
+    {
+      "slot": 9,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/09.pal"
+    },
+    {
+      "slot": 10,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/10.pal"
+    },
+    {
+      "slot": 11,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/11.pal"
+    },
+    {
+      "slot": 12,
+      "path": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/palettes/12.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct_for_moved_128": "0x082D4A94",
+    "secondary_tileset_struct": "0x082D5034",
+    "primary_palette_pointer": "0x08EA1B68",
+    "secondary_palette_pointer": "0x08298970",
+    "secondary_tiles_pointer": "0x089F21B4",
+    "secondary_metatiles_pointer": "0x089EEFD4",
+    "secondary_attributes_pointer": "0x089EFB54",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 134,
+  "raw_frlg_attributes": "tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "7cf588b32b7de2c61dc254386a82964eb8fc3cc6198f1081f6790a3d886a8415",
+    "metatiles_bvd": "c9f41ae4454f737c4b80cdfe3c9ca7e4f060aefff75fa29780eed2c7c8888c07",
+    "raw_frlg_attributes": "b9fd458e6aac72d2d3a26c4e76e293a3825921e4aa14c60b66c92e119fcc885b"
+  },
+  "source_primary_tile_count": 512,
+  "source_secondary_tile_count": 512
+}

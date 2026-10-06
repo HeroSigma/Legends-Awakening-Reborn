@@ -1,0 +1,49 @@
+{
+  "id": "MAP_GSJOHTO_22_0_MAP_22_00",
+  "name": "GSJohto_22_0_Map_22_00",
+  "layout": "LAYOUT_GSJOHTO_22_0_MAP_22_00",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_29_ROUTE_39",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_88_RUINS_OF_ALPH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_22_ROUTE_32",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_22_1_ROUTE_39",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

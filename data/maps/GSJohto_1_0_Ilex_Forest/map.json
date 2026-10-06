@@ -1,0 +1,64 @@
+{
+  "id": "MAP_GSJOHTO_1_0_ILEX_FOREST",
+  "name": "GSJohto_1_0_Ilex_Forest",
+  "layout": "LAYOUT_GSJOHTO_1_0_ILEX_FOREST",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_GSJOHTO_1_0_ILEX_FOREST_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 9,
+      "y": 18,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "GSJohto_1_0_Ilex_Forest_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 15,
+      "y": 58,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_3_AZALEA_TOWN",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 16,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_3_3_AZALEA_TOWN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_3_24_ROUTE_34",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_GSJOHTO_3_24_ROUTE_34",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

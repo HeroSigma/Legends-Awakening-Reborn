@@ -1,0 +1,23 @@
+{
+  "format": "Reborn Donor Preservation v1",
+  "donor": "bwa",
+  "rom": {
+    "path": "/mnt/c/Users/aadair/Downloads/tools/Donor Roms/Pokemon Black & White Advanced (Demo v2).gba",
+    "title": "POKEMON FIRE",
+    "game_code": "BPRE",
+    "size": 33554432,
+    "sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4"
+  },
+  "maps": 444,
+  "tilesets": 62,
+  "object_graphics_ids": 121,
+  "object_art_candidates": 152,
+  "static_graphics_table_size": 152,
+  "art_ids_catalogued": 160,
+  "animation_headers": 61,
+  "animation_callbacks_pending": 6,
+  "behavior_high_ids": 2120,
+  "gameplay_imported": false,
+  "new_live_maps": 0,
+  "status": "SOURCE_AND_EDITOR_PRESERVED_RUNTIME_ASSET_CLOSURE_PENDING"
+}

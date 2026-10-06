@@ -4058,3 +4058,733 @@ const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Por
     .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals,
     .callback = NULL,
 };
+const struct Tileset gTileset_BWABatch_primary_f2e_BWA_082D4A94 = {
+ .isCompressed = TRUE,
+ .isSecondary = FALSE,
+ .tiles = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Tiles,
+ .palettes = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Palettes,
+ .metatiles = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_primary_f2e_BWA_082D4BB4 = {
+ .isCompressed = TRUE,
+ .isSecondary = FALSE,
+ .tiles = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Tiles,
+ .palettes = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Palettes,
+ .metatiles = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84 = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C = {
+ .isCompressed = TRUE,
+ .isSecondary = TRUE,
+ .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Tiles,
+ .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Palettes,
+ .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Metatiles,
+ .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Attributes,
+ .callback = NULL,
+};
+
+const struct Tileset gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94 = {.isCompressed=TRUE ,
+ .isSecondary=FALSE ,
+ .tiles=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94_Tiles ,
+ .palettes=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94_Palettes ,
+ .metatiles=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4BB4 = {.isCompressed=TRUE ,
+ .isSecondary=FALSE ,
+ .tiles=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4BB4_Tiles ,
+ .palettes=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4BB4_Palettes ,
+ .metatiles=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4BB4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4BB4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AAC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AAC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AAC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AAC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AAC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AC4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AC4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AC4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AC4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AC4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4ADC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4ADC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4ADC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4ADC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4ADC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B0C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B0C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B0C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B0C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B0C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B24 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B24_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B24_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B24_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B24_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B3C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B3C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B3C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B3C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B3C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B54 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B54_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B54_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B54_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B54_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B9C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B9C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B9C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B9C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B9C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4D94 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4D94_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4D94_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4D94_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4D94_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4DF4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4DF4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4DF4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4DF4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4DF4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E0C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E0C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E0C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E0C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E0C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E24 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E24_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E24_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E24_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4E24_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4EFC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4EFC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4EFC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4EFC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4EFC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4F74 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4F74_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4F74_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4F74_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4F74_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D5034_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D50AC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D50AC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D50AC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D50AC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D50AC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S0890384C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S0890384C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S0890384C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S0890384C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S0890384C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08903F3C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08903F3C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08903F3C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08903F3C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08903F3C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A623C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A623C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A623C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A623C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A623C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A62CC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A62CC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A62CC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A62CC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S089A62CC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08A74F54 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08A74F54_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08A74F54_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08A74F54_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S08A74F54_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C14 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C14_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C14_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C14_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C14_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C2C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C2C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C2C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C2C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C2C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C5C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C5C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C5C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C5C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C5C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C74 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C74_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C74_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C74_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C74_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C8C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C8C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C8C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C8C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4C8C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CA4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CA4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CA4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CA4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CA4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CBC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CBC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CBC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CBC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CBC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CEC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CEC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CEC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CEC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4CEC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D04 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D04_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D04_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D04_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D04_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D1C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D1C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D1C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D1C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D1C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D34 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D34_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D34_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D34_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D34_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D4C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D4C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D4C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D4C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D4C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D64 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D64_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D64_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D64_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4D64_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4DAC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4DAC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4DAC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4DAC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4DAC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E0C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E0C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E0C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E0C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E0C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E84 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E84_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E84_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E84_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E84_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E9C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E9C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E9C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E9C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E9C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EB4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EB4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EB4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EB4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EB4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4ECC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4ECC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4ECC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4ECC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4ECC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EFC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EFC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EFC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EFC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4EFC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F14 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F14_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F14_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F14_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F14_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F2C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F2C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F2C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F2C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F2C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F44 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F44_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F44_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F44_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F44_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F5C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F5C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F5C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F5C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F5C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F74 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F74_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F74_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F74_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F74_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F8C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F8C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F8C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F8C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4F8C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FBC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FBC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FBC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FBC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FBC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FD4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FD4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FD4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FD4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4FD4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50C4 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50C4_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50C4_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50C4_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50C4_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089035AC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089035AC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089035AC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089035AC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089035AC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A626C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A626C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A626C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A626C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A626C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A629C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A629C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A629C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A629C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089A629C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC5C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC5C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC5C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC5C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC5C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC8C = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC8C_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC8C_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC8C_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFC8C_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFCBC = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFCBC_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFCBC_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFCBC_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089AFCBC_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089BFF64 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089BFF64_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089BFF64_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089BFF64_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S089BFF64_Attributes ,
+ .callback=NULL
+};
+const struct Tileset gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54 = {.isCompressed=TRUE ,
+ .isSecondary=TRUE ,
+ .tiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54_Tiles ,
+ .palettes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54_Palettes ,
+ .metatiles=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54_Metatiles ,
+ .metatileAttributes=gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54_Attributes ,
+ .callback=NULL
+};

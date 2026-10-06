@@ -1,0 +1,34 @@
+[
+  {
+    "map": "GSJohto_3_20_Route_30",
+    "x": 16,
+    "y": 5,
+    "before": "0x3250",
+    "after": "0x250",
+    "reason": "lower stair ordinary traversal"
+  },
+  {
+    "map": "GSJohto_3_20_Route_30",
+    "x": 16,
+    "y": 4,
+    "before": "0x4be",
+    "after": "0xbe",
+    "reason": "upper stair collision"
+  },
+  {
+    "map": "GSJohto_3_20_Route_30",
+    "x": 17,
+    "y": 5,
+    "before": "0x3254",
+    "after": "0x3ff",
+    "reason": "remove west-blocking landing behavior"
+  },
+  {
+    "map": "GSJohto_3_20_Route_30",
+    "x": 17,
+    "y": 6,
+    "before": "0x3251",
+    "after": "0x3013",
+    "reason": "restore plain grass landing; remove cycling-road tile"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "maps": 19,
+  "tilesets": 17,
+  "existing_numeric_ids_unchanged": true,
+  "protected_files": 554,
+  "donor_scripts": false,
+  "donor_flags": false,
+  "donor_npcs": false,
+  "donor_warps": false,
+  "natural_connections": false,
+  "animation_recovery_pending": true,
+  "build_passed": true,
+  "linked_maps": [
+    {
+      "map": "BWA_1_30",
+      "group": 76,
+      "number": 6
+    },
+    {
+      "map": "BWA_3_4",
+      "group": 76,
+      "number": 7
+    },
+    {
+      "map": "BWA_3_6",
+      "group": 76,
+      "number": 8
+    },
+    {
+      "map": "BWA_3_20",
+      "group": 76,
+      "number": 9
+    },
+    {
+      "map": "BWA_3_23",
+      "group": 76,
+      "number": 10
+    },
+    {
+      "map": "BWA_3_24",
+      "group": 76,
+      "number": 11
+    },
+    {
+      "map": "BWA_3_45",
+      "group": 76,
+      "number": 12
+    },
+    {
+      "map": "BWA_3_46",
+      "group": 76,
+      "number": 13
+    },
+    {
+      "map": "BWA_4_0",
+      "group": 76,
+      "number": 14
+    },
+    {
+      "map": "BWA_4_1",
+      "group": 76,
+      "number": 15
+    },
+    {
+      "map": "BWA_4_2",
+      "group": 76,
+      "number": 16
+    },
+    {
+      "map": "BWA_4_5",
+      "group": 76,
+      "number": 17
+    },
+    {
+      "map": "BWA_5_4",
+      "group": 76,
+      "number": 18
+    },
+    {
+      "map": "BWA_6_2",
+      "group": 76,
+      "number": 19
+    },
+    {
+      "map": "BWA_6_4",
+      "group": 76,
+      "number": 20
+    },
+    {
+      "map": "BWA_6_5",
+      "group": 76,
+      "number": 21
+    },
+    {
+      "map": "BWA_8_0",
+      "group": 76,
+      "number": 22
+    },
+    {
+      "map": "BWA_39_0",
+      "group": 76,
+      "number": 23
+    },
+    {
+      "map": "BWA_42_0",
+      "group": 76,
+      "number": 24
+    }
+  ],
+  "rom_sha256": "151a19c591491222d8038a0a29774bfee44582d82278d047f65a56e64ad3dca6",
+  "runtime_verified": false,
+  "hyper_regression": "780 maps, 213 tilesets, 30160 native cells; 6252 animation DMA transfers passed; historical whole-file audit superseded by import protected-file audit due authorized includes"
+}

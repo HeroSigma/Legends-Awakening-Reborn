@@ -1,0 +1,57 @@
+{
+  "id": "MAP_GSJOHTO_1_64_LIGHTHOUSE",
+  "name": "GSJohto_1_64_Lighthouse",
+  "layout": "LAYOUT_GSJOHTO_1_64_LIGHTHOUSE",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_GSJOHTO_1_64_LIGHTHOUSE_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 3,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "GSJohto_1_64_Lighthouse_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_65_LIGHTHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_63_LIGHTHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_63_LIGHTHOUSE",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

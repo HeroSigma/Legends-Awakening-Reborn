@@ -1,0 +1,35 @@
+{
+  "id": "MAP_GSJOHTO_1_87_MT_MORTAR",
+  "name": "GSJohto_1_87_Mt_Mortar",
+  "layout": "LAYOUT_GSJOHTO_1_87_MT_MORTAR",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_73_MT_MORTAR",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 25,
+      "y": 40,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_72_MT_MORTAR",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
