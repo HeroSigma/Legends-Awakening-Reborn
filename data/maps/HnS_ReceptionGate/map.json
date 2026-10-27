@@ -1,0 +1,137 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_RECEPTIONGATE",
+  "name": "HnS_ReceptionGate",
+  "layout": "LAYOUT_HNS_REGION_RECEPTIONGATE",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HNS_RECEPTIONGATE_1",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_OFFICER_HNS",
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BLACK_BELT_HNS",
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_RECEPTIONGATE_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BLACK_BELT_HNS",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_RECEPTIONGATE_3"
+    },
+    {
+      "local_id": "LOCALID_HNS_RECEPTIONGATE_4",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_JANINE_HNS",
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_RECEPTIONGATE_5",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 11,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_ReceptionGate_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE26NORTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_VICTORYROADKANTO_B2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_VICTORYROADKANTO_B2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE28",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE22",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    }
+  ],
+  "bg_events": []
+}

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_ExchangeServiceCorner_MapScripts::
 	.byte 0
 
@@ -517,3 +519,198 @@ BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
 	.string "A hold item that raises the\n"
 	.string "critical-hit rate.$"
+
+#else
+BattleFrontier_ExchangeServiceCorner_MapScripts::
+	.byte 0
+BattleFrontier_ExchangeServiceCorner_EventScript_ClerkWelcome::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TryGivePrize::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TryGiveDecor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_NoRoomForDecor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TryGiveItem::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_BagFull::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_DecorClerk1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_PurchaseDecor1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_KissPoster::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_KissCushion::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_SmoochumDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TogepiDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_MeowthDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ClefairyDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_TotodileDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_DecorClerk2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_PurchaseDecor2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_LaprasDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_VenusaurDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_CharizardDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_BlastoiseDoll::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_VitaminClerk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChooseVitamin::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_PurchaseVitamin::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Protein::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Calcium::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Iron::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Zinc::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Carbos::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_HPUp::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_HoldItemClerk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChooseHoldItem::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_PurchaseHoldItem::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Leftovers::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_WhiteHerb::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_QuickClaw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_MentalHerb::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Brightpowder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceBand::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_KingsRock::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_FocusBand::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_ScopeLens::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Sailor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_PokefanF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_RichBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmPurchase:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
+	.string "This feature is disabled in this build.$"
+#endif

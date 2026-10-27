@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "assertions": 432,
+  "stored_slots": 1800,
+  "record_bytes": 31,
+  "image_bytes": 131072,
+  "slot_capacity": 65152,
+  "slot_used": 64968,
+  "slot_spare": 184,
+  "scope": "Synthetic host-side format; production save integration is tested separately"
+}

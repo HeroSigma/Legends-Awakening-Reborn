@@ -1,0 +1,11 @@
+{
+  "rom_sha256": "3edff05729e63924f7abd4d071b6170ecd673f24476c8528b57e4028f52c2e27",
+  "checks": {
+    "linked_charge_function_returns_true": true,
+    "orb_item_required": true,
+    "old_story_lock_removed": true,
+    "once_per_battle_check_retained": true,
+    "gift_records_activation": true
+  },
+  "linked_charge_function": "00b500204df05afb012002bc0847"
+}

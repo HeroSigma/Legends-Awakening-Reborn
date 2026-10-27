@@ -158,6 +158,7 @@
 #define VAR_CONTEST_TYPE                                 0x4088
 #define VAR_SECRET_BASE_INITIALIZED                      0x4089
 #define VAR_CONTEST_PRIZE_PICKUP                         0x408A
+#define VAR_LA_TIMELESS_WOODS_CALL_STATE VAR_UNUSED_0x408B
 #define VAR_UNUSED_0x408B                                0x408B // Unused Var
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN              0x408C
 #define VAR_LITTLEROOT_RIVAL_STATE                       0x408D
@@ -313,6 +314,16 @@
 // cutscenes nor call a wait command. Used for weather effects in vanilla.
 #define TRIGGER_RUN_IMMEDIATELY   0
 
+// Legends bedroom prologue uses the canonical Littleroot state slot.
+// Values 1-6 remain reserved for legacy truck saves; 7 resumes native Hoenn.
+#define LA_INTRO_WAKE_UP             10
+#define LA_INTRO_CHECK_PC            11
+#define LA_INTRO_SET_CLOCK           12
+#define LA_INTRO_PACKAGE             13
+#define LA_INTRO_TERA_ORB_RECEIVED   14
+#define LA_INTRO_COMPLETE             7
+#define LA_INTRO_RIFT_REPORT         15
+
 // Temp var aliases
 #define VAR_TEMP_CHALLENGE_STATUS  VAR_TEMP_0
 
@@ -339,3 +350,8 @@
 #endif // TESTING
 
 #endif // GUARD_CONSTANTS_VARS_H
+
+// Persistent chapter-local state: 0 unstarted, 1 battle, 2 Red rescue, 3 complete.
+#define VAR_LA_BIRCH_RESCUE_STATE VAR_UNUSED_0x404E
+
+#define VAR_LA_LITTLEROOT_ARC VAR_UNUSED_0x4083 // 0 lab pending; 1 spar; 2 Route 103; 3 dex pending; 4 farewell; 5 complete

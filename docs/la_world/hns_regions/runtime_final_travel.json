@@ -1,0 +1,21 @@
+{
+  "rom_sha256": "843fe977a3f914ddc3c2b655cc4432aea0dbc28edb4846ed4d44e3b7c35ce016",
+  "checks": [
+    {
+      "test": "LA_TeleportScientist_WarpKantoAR",
+      "actual": [
+        113,
+        0
+      ],
+      "expected": [
+        113,
+        0
+      ],
+      "position": [
+        12,
+        10
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1695 @@
+{
+  "reference": "https://github.com/Skeli789/Complete-Fire-Red-Upgrade/blob/master/include/constants/metatile_behaviors.h",
+  "changes": [
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 296,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 302,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 304,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 312,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 356,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 390,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 391,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 441,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 442,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 453,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 456,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 457,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 0,
+      "after": 73
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 458,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 107,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 109,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 115,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 116,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 117,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 296,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 310,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 326,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 335,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 442,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 456,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 457,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 0,
+      "after": 73
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 203,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 304,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 339,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 441,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 442,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 453,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 456,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 458,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08C16524",
+      "index": 325,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08C16524",
+      "index": 328,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08C16524",
+      "index": 377,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08C16524",
+      "index": 379,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 302,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 310,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 391,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 441,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 453,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 456,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 453,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 480,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 482,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 484,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 486,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4DC4",
+      "index": 160,
+      "source_behavior": 3,
+      "native": "MB_LONG_GRASS",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4DC4",
+      "index": 168,
+      "source_behavior": 3,
+      "native": "MB_LONG_GRASS",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 233,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 234,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 235,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 0,
+      "after": 75
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 241,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 242,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 250,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4F8C",
+      "index": 309,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4F8C",
+      "index": 310,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 285,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 286,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 287,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 293,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 294,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 326,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 327,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 334,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 91,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 152,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 153,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 200,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 201,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 480,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 155,
+      "source_behavior": 26,
+      "native": "MB_POND_WATER",
+      "before": 4096,
+      "after": 4112
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 409,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 412,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 416,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 417,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 420,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 428,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 502,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 503,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 414,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 430,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 431,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 438,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 439,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 446,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 388,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 389,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 390,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 391,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 392,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5004",
+      "index": 79,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 285,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 286,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 287,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 341,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 383,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 391,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 392,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 393,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 394,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 395,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 399,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 400,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 401,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 403,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 407,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 424,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 426,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 430,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 431,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4E0C",
+      "index": 111,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4E0C",
+      "index": 119,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4E0C",
+      "index": 150,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 162,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 163,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 169,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 170,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 171,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 172,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 176,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 181,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 174,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 176,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 177,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 178,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 202,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 0,
+      "after": 75
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 214,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 0,
+      "after": 76
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 219,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 229,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 258,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 259,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 260,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 262,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 263,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 266,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 267,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4173
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 268,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 194,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 199,
+      "source_behavior": 181,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_TOP",
+      "before": 4096,
+      "after": 4171
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 236,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 237,
+      "source_behavior": 180,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 77
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 396,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 404,
+      "source_behavior": 179,
+      "native": "MB_SIDEWAYS_STAIRS_RIGHT_SIDE",
+      "before": 4096,
+      "after": 4169
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D55064",
+      "index": 91,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 0,
+      "after": 78
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D55064",
+      "index": 274,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D55064",
+      "index": 275,
+      "source_behavior": 176,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE",
+      "before": 4096,
+      "after": 4170
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 120,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 121,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 123,
+      "source_behavior": 178,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_TOP",
+      "before": 4096,
+      "after": 4172
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 125,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 139,
+      "source_behavior": 177,
+      "native": "MB_SIDEWAYS_STAIRS_LEFT_SIDE_BOTTOM",
+      "before": 4096,
+      "after": 4174
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 33,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 98,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 180,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 360,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 436,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4C2C",
+      "index": 321,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08C16524",
+      "index": 239,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 98,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 496,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4F8C",
+      "index": 170,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 145,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 173,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 189,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 201,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 407,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 328,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 329,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B54",
+      "index": 330,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 205,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 377,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 408,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 437,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 257,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 289,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 297,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 298,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 315,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 323,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 430,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D504C",
+      "index": 469,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 290,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 370,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D507C",
+      "index": 208,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D507C",
+      "index": 295,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D507C",
+      "index": 394,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D507C",
+      "index": 438,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 218,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5034",
+      "index": 187,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5034",
+      "index": 225,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5034",
+      "index": 266,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5004",
+      "index": 163,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5004",
+      "index": 185,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D5004",
+      "index": 495,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D4FEC",
+      "index": 229,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS082D4FA4",
+      "index": 168,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 200,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S082D4BE4",
+      "index": 379,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08B53584",
+      "index": 181,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08B53584",
+      "index": 216,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4F5C",
+      "index": 233,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08A853C4S08A5540C",
+      "index": 92,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08B031CC",
+      "index": 213,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4F5CS082D4E6C",
+      "index": 131,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08B031FC",
+      "index": 210,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DDD700",
+      "index": 285,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4F5CS08A511C4",
+      "index": 206,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4D1CS08BEC20C",
+      "index": 399,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 4201,
+      "after": 4192
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D501CS08DB0C3C",
+      "index": 401,
+      "source_behavior": 105,
+      "native": "MB_NON_ANIMATED_DOOR",
+      "before": 105,
+      "after": 96
+    }
+  ],
+  "water_cells": [],
+  "note": "Mercury-specific unrecognized extensions remain in manual review; not treated as proven native behavior."
+}

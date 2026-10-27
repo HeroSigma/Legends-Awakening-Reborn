@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_tera.h"
 #include "battle.h"
 #include "battle_hold_effects.h"
 #include "battle_message.h"
@@ -8408,6 +8409,7 @@ static void Cmd_givecaughtmon(void)
             gBattleStruct->partyState[B_SIDE_PLAYER][emptySlot].changedSpecies = GetBattlerPartyState(GetCatchingBattler())->changedSpecies;
 
         gBattleResults.caughtMonSpecies = GetMonData(caughtMon, MON_DATA_SPECIES);
+        LegendsAwardCaughtShard(gBattleResults.caughtMonSpecies, gBattlerPartyIndexes[GetCatchingBattler()]);
         GetMonData(caughtMon, MON_DATA_NICKNAME, gBattleResults.caughtMonNick);
         gBattleResults.caughtMonBall = GetMonData(caughtMon, MON_DATA_POKEBALL);
 
@@ -10328,8 +10330,10 @@ void BS_JumpIfCanGigantamax(void)
 void BS_JumpIfNoWhiteOut(void)
 {
     NATIVE_ARGS(const u8 *jumpInstr);
-
-    if (FlagGet(B_FLAG_NO_WHITEOUT))
+    if (FlagGet(B_FLAG_NO_WHITEOUT)
+     || (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE && FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+     || FlagGet(FLAG_LA_RED_LAB_BATTLE)
+     || FlagGet(FLAG_LA_ROUTE103_PARTNER_BATTLE))
         gBattlescriptCurrInstr = cmd->jumpInstr;
     else
         gBattlescriptCurrInstr = cmd->nextInstr;

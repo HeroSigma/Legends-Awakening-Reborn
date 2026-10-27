@@ -1,0 +1,120 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_DIGLETTSCAVE_TUNNEL",
+  "name": "HnS_DiglettsCave_Tunnel",
+  "layout": "LAYOUT_HNS_REGION_DIGLETTSCAVE_TUNNEL",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DIGLETT)",
+      "x": 72,
+      "y": 50,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DIGLETT)",
+      "x": 30,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DIGLETT)",
+      "x": 52,
+      "y": 38,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DIGLETT)",
+      "x": 67,
+      "y": 68,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DUGTRIO)",
+      "x": 17,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_5"
+    },
+    {
+      "local_id": "LOCALID_HNS_DIGLETTSCAVE_TUNNEL_6",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 42,
+      "y": 39,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_DiglettsCave_Tunnel_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_DIGLETTSCAVE_ENTRANCENORTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 82,
+      "y": 71,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_DIGLETTSCAVE_ENTRANCESOUTH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

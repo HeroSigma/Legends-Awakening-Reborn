@@ -1,0 +1,103 @@
+{
+  "rom_sha256": "8bee10338f7994a656997fb9d7fdc35e621bf25799804286bcf0ea989e76192a",
+  "header_count": 425,
+  "header_time_comparisons": 1700,
+  "checks": [
+    {
+      "test": "native_header_time_views_available",
+      "passed": true
+    },
+    {
+      "test": "invalid_header_has_empty_view",
+      "passed": true
+    },
+    {
+      "test": "invalid_time_has_empty_view",
+      "passed": true
+    },
+    {
+      "test": "oversized_header_has_empty_view",
+      "passed": true
+    },
+    {
+      "test": "no_active_map_profiles",
+      "passed": true
+    },
+    {
+      "test": "invalid_map_has_default_profile",
+      "passed": true
+    },
+    {
+      "test": "null_rules_fall_back",
+      "passed": true
+    },
+    {
+      "test": "empty_rules_fall_back",
+      "passed": true
+    },
+    {
+      "test": "unconditional_rule_selects_profile",
+      "passed": true
+    },
+    {
+      "test": "required_flag_blocks_profile",
+      "passed": true
+    },
+    {
+      "test": "required_flag_selects_profile",
+      "passed": true
+    },
+    {
+      "test": "forbidden_flag_blocks_profile",
+      "passed": true
+    },
+    {
+      "test": "first_matching_rule_wins",
+      "passed": true
+    },
+    {
+      "test": "unmatched_rule_uses_next",
+      "passed": true
+    },
+    {
+      "test": "variable_range_4",
+      "passed": true
+    },
+    {
+      "test": "variable_range_5",
+      "passed": true
+    },
+    {
+      "test": "variable_range_8",
+      "passed": true
+    },
+    {
+      "test": "variable_range_9",
+      "passed": true
+    },
+    {
+      "test": "reversed_range_falls_back",
+      "passed": true
+    },
+    {
+      "test": "special_variable_rejected",
+      "passed": true
+    },
+    {
+      "test": "invalid_flag_rejected",
+      "passed": true
+    },
+    {
+      "test": "invalid_profile_rejected",
+      "passed": true
+    },
+    {
+      "test": "empty_profile_registry_rejected",
+      "passed": true
+    },
+    {
+      "test": "default_rule_overrides_later_match",
+      "passed": true
+    }
+  ]
+}

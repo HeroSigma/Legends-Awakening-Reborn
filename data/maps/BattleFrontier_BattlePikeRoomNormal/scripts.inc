@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeRoomNormal_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoom_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePikeRoom_OnTransition
@@ -836,3 +838,232 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
 	.string "I will restore two of your POKéMON\n"
 	.string "to full health!$"
 
+
+#else
+BattleFrontier_BattlePikeRoomNormal_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeRoomNormal_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterSingleBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WonSingleBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterHardBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WonHardBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterBrainRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_LucyEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucySilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DefeatedLucySilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_IntroLucyGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucyGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DefeatedLucyGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DefeatedLucy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_PreQueenNoHeal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_PreQueenHealOneMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_PreQueenHealTwoMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterFullHealRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterDoubleBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WonDoubleBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_EnterStatusRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedToxic::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedWillOWisp::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedThunderWave::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedHypnosis::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedIceBeam::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedWillOWisp::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_DoPikeQueenBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_ApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_NPCExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_HealNPCExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_NPCApproachMon:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_StatusNPCApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_MonApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_MonFaceNPC:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_MonMoveAside:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_MonFaceRight:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_HealNPCApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_PlayerFaceTrainer1:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_PlayerFaceTrainer2:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_PlayerFaceUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer1WalkRight:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer2WalkLeft:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_DoubleTrainersWalkDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer1FacePlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer2FacePlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer1Exit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_Trainer2Exit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_PlayerWalkUp2:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_PreQueenHealNPCApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_HealNPCExitForLucy:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_LucyEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_LucyMoveAside:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_NPC::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_NormalNPC::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_StatusNPC::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_HealNPC::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WillRestoreOneMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_WillRestoreTwoMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_StatusMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesMostlyClosed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesLittleClosed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesClosed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_Silence:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
+	.string "This feature is disabled in this build.$"
+#endif

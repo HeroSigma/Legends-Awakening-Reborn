@@ -3,6 +3,7 @@ RustboroCity_DevonCorp_1F_MapScripts::
 	.byte 0
 
 RustboroCity_DevonCorp_1F_OnTransition:
+	call_if_set FLAG_RETURNED_DEVON_GOODS, LegendsTera_OpenBasement
 	call_if_unset FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_BlockStairs
 	end
 
@@ -145,6 +146,11 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 
 @ Project-owned reservation; no donor gameplay, flags or warp destination.
 RustboroCity_DevonCorp_1F_EventScript_HyperConstruction_1::
+	goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_EntranceLocked
+	goto_if_unset FLAG_RETURNED_DEVON_GOODS, LegendsTera_EntranceLocked
+	msgbox LegendsTera_Text_Entrance, MSGBOX_NPC
+	end
+LegendsTera_EntranceLocked:
 	lock
 	faceplayer
 	msgbox RustboroCity_DevonCorp_1F_Text_HyperConstruction_1, MSGBOX_DEFAULT
@@ -155,3 +161,9 @@ RustboroCity_DevonCorp_1F_Text_HyperConstruction_1:
 	.string "Basement is\n"
 	.string "under construction.\p"
 	.string "Please check back later!$"
+
+LegendsTera_OpenBasement:
+    goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_BasementReturn
+    setobjectxyperm LOCALID_RUSTBORO_CITY__DEVON_CORP_1_F_CONSTRUCTION_1, 6, 2
+LegendsTera_BasementReturn:
+    return

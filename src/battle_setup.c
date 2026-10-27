@@ -1039,6 +1039,9 @@ static void CB2_StartFirstBattle(void)
 
 static void CB2_EndFirstBattle(void)
 {
+    // Return to the rescue script with a usable starter; ordinary first battles are unchanged.
+    if (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+        HealPlayerParty();
     Overworld_ClearSavedMusic();
     DowngradeBadPoison();
     SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
@@ -1463,7 +1466,8 @@ void BattleSetup_StartTrainerBattle(void)
         }
     }
 
-    if (TRAINER_BATTLE_PARAM.earlyRival && GetRivalBattleFlags() & RIVAL_BATTLE_TUTORIAL)
+    if (TRAINER_BATTLE_PARAM.earlyRival && GetRivalBattleFlags() & RIVAL_BATTLE_TUTORIAL
+     && !FlagGet(FLAG_LA_RED_LAB_BATTLE))
         gBattleTypeFlags |= BATTLE_TYPE_FIRST_BATTLE;
 
     if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE)

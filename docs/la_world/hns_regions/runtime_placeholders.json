@@ -1,0 +1,709 @@
+{
+  "checks": [
+    {
+      "test": "route31_stairs_up",
+      "passed": true,
+      "gender": 0,
+      "before": [
+        24,
+        13
+      ],
+      "after": [
+        28,
+        11
+      ]
+    },
+    {
+      "test": "route31_stairs_down",
+      "passed": true,
+      "gender": 0,
+      "after": [
+        24,
+        13
+      ]
+    },
+    {
+      "test": "route31_stairs_up",
+      "passed": true,
+      "gender": 1,
+      "before": [
+        24,
+        13
+      ],
+      "after": [
+        28,
+        11
+      ]
+    },
+    {
+      "test": "route31_stairs_down",
+      "passed": true,
+      "gender": 1,
+      "after": [
+        24,
+        13
+      ]
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_AzaleaTown",
+      "local_id": 20
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_AzaleaTown",
+      "local_id": 21
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_AzaleaTown",
+      "local_id": 22
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_AzaleaTown",
+      "local_id": 23
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_GoldenrodCity",
+      "local_id": 34
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_EcruteakCity",
+      "local_id": 27
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnSTest_Route29",
+      "local_id": 18
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnSTest_Route29",
+      "local_id": 19
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnSTest_Route30",
+      "local_id": 18
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnSTest_Route30",
+      "local_id": 22
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnSTest_Route30",
+      "local_id": 24
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route36",
+      "local_id": 16
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route36",
+      "local_id": 18
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route36",
+      "local_id": 19
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route37",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 40
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 46
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 51
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 55
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 59
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route41",
+      "local_id": 63
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 1
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 3
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 5
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 8
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 10
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 11
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NewBarkTown_PlayersHouse_2F",
+      "local_id": 12
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_AzaleaTown_KurtsHouse",
+      "local_id": 5
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_GoldenrodCity_RadioTower_5F",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BellchimeTrail",
+      "local_id": 14
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BellchimeTrail",
+      "local_id": 40
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_CeruleanCity_Gym",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_CeruleanCity_Gym",
+      "local_id": 8
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_CeruleanCity_Gym",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SaffronCity_FightingDojoVIP",
+      "local_id": 34
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SaffronCity_CopyCatsHouse_2F",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SaffronCity_CopyCatsHouse_2F",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_FuchsiaCity_PokemonCenter",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_FuchsiaCity_Gym",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_FuchsiaCity_Gym",
+      "local_id": 8
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_FuchsiaCity_Gym",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_FuchsiaCity_Gym",
+      "local_id": 10
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlateportCity_BattleTentBattleRoom",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route34_DayCare",
+      "local_id": 3
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route25_BillsHouse",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_Route25_BillsHouse",
+      "local_id": 3
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlowpokeWell_B1F",
+      "local_id": 23
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlowpokeWell_B1F",
+      "local_id": 24
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlowpokeWell_B1F",
+      "local_id": 25
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlowpokeWell_B1F",
+      "local_id": 26
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_SlowpokeWell_B1F",
+      "local_id": 27
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_NationalPark_BugContest",
+      "local_id": 45
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_IcePath_1F",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_IcePath_B3F",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_DragonsDen_Cavern",
+      "local_id": 27
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_DragonsDen_Cavern",
+      "local_id": 30
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_RocketHideout_B3F",
+      "local_id": 16
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 3
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 5
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 8
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_UnionRoom",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleTowerBattleRoom",
+      "local_id": 1
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleTowerMultiCorridor",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleTowerMultiBattleRoom",
+      "local_id": 1
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleTowerMultiBattleRoom",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleTowerMultiBattleRoom",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleDomeBattleRoom",
+      "local_id": 15
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattlePalaceBattleRoom",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattlePalaceBattleRoom",
+      "local_id": 5
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleArenaBattleRoom",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattleFactoryBattleRoom",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattlePikeRoomNormal",
+      "local_id": 1
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_BattleFrontier_BattlePikeRoomNormal",
+      "local_id": 2
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 3
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 4
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 5
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 6
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 7
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 8
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 9
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 10
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 11
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_ContestHall",
+      "local_id": 12
+    },
+    {
+      "test": "hidden_actor_absent",
+      "passed": true,
+      "map": "HnS_LilycoveCity_ContestLobby",
+      "local_id": 18
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnSTest_CherrygroveCity_Mart",
+      "gender": 0,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnSTest_CherrygroveCity_Mart",
+      "gender": 1,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnSTest_VioletCity_Gym",
+      "gender": 0,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnSTest_VioletCity_Gym",
+      "gender": 1,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_GoldenrodCity_Gym",
+      "gender": 0,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_GoldenrodCity_Gym",
+      "gender": 1,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_PewterCity_Gym",
+      "gender": 0,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_PewterCity_Gym",
+      "gender": 1,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_CeruleanCity_Gym",
+      "gender": 0,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "placeholder_no_battle_or_charge",
+      "passed": true,
+      "map": "HnS_CeruleanCity_Gym",
+      "gender": 1,
+      "money_before": 3000,
+      "money_after": 3000
+    },
+    {
+      "test": "animation_vram_changes",
+      "passed": true,
+      "map": "HnSTest_NewBarkTown"
+    },
+    {
+      "test": "animation_vram_changes",
+      "passed": true,
+      "map": "HnS_GoldenrodCity"
+    },
+    {
+      "test": "animation_vram_changes",
+      "passed": true,
+      "map": "HnS_NationalPark_Normal"
+    }
+  ],
+  "passed": 111,
+  "total": 111
+}

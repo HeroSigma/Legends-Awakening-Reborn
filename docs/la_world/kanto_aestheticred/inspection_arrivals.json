@@ -1,0 +1,3791 @@
+[
+  {
+    "donor_id": "3.0",
+    "map": "KantoAR_3_0_PalletTown",
+    "map_id": "MAP_KANTOAR_3_0_PALLETTOWN",
+    "spawn": [
+      12,
+      9
+    ]
+  },
+  {
+    "donor_id": "0.0",
+    "map": "KantoAR_0_0_BattleColosseum_2P",
+    "map_id": "MAP_KANTOAR_0_0_BATTLECOLOSSEUM_2P",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "0.1",
+    "map": "KantoAR_0_1_TradeCenter",
+    "map_id": "MAP_KANTOAR_0_1_TRADECENTER",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "0.2",
+    "map": "KantoAR_0_2_RecordCorner",
+    "map_id": "MAP_KANTOAR_0_2_RECORDCORNER",
+    "spawn": [
+      13,
+      5
+    ]
+  },
+  {
+    "donor_id": "0.3",
+    "map": "KantoAR_0_3_BattleColosseum_4P",
+    "map_id": "MAP_KANTOAR_0_3_BATTLECOLOSSEUM_4P",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "0.4",
+    "map": "KantoAR_0_4_UnionRoom",
+    "map_id": "MAP_KANTOAR_0_4_UNIONROOM",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "1.0",
+    "map": "KantoAR_1_0_ViridianForest",
+    "map_id": "MAP_KANTOAR_1_0_VIRIDIANFOREST",
+    "spawn": [
+      22,
+      34
+    ]
+  },
+  {
+    "donor_id": "1.1",
+    "map": "KantoAR_1_1_MtMoon_1F",
+    "map_id": "MAP_KANTOAR_1_1_MTMOON_1F",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "1.2",
+    "map": "KantoAR_1_2_MtMoon_B1F",
+    "map_id": "MAP_KANTOAR_1_2_MTMOON_B1F",
+    "spawn": [
+      23,
+      17
+    ]
+  },
+  {
+    "donor_id": "1.3",
+    "map": "KantoAR_1_3_MtMoon_B2F",
+    "map_id": "MAP_KANTOAR_1_3_MTMOON_B2F",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "1.4",
+    "map": "KantoAR_1_4_SSAnne_Exterior",
+    "map_id": "MAP_KANTOAR_1_4_SSANNE_EXTERIOR",
+    "spawn": [
+      32,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.5",
+    "map": "KantoAR_1_5_SSAnne_1F_Corridor",
+    "map_id": "MAP_KANTOAR_1_5_SSANNE_1F_CORRIDOR",
+    "spawn": [
+      15,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.6",
+    "map": "KantoAR_1_6_SSAnne_2F_Corridor",
+    "map_id": "MAP_KANTOAR_1_6_SSANNE_2F_CORRIDOR",
+    "spawn": [
+      17,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.7",
+    "map": "KantoAR_1_7_SSAnne_3F_Corridor",
+    "map_id": "MAP_KANTOAR_1_7_SSANNE_3F_CORRIDOR",
+    "spawn": [
+      11,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.8",
+    "map": "KantoAR_1_8_SSAnne_B1F_Corridor",
+    "map_id": "MAP_KANTOAR_1_8_SSANNE_B1F_CORRIDOR",
+    "spawn": [
+      11,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.9",
+    "map": "KantoAR_1_9_SSAnne_Deck",
+    "map_id": "MAP_KANTOAR_1_9_SSANNE_DECK",
+    "spawn": [
+      12,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.10",
+    "map": "KantoAR_1_10_SSAnne_Kitchen",
+    "map_id": "MAP_KANTOAR_1_10_SSANNE_KITCHEN",
+    "spawn": [
+      9,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.11",
+    "map": "KantoAR_1_11_SSAnne_CaptainsOffice",
+    "map_id": "MAP_KANTOAR_1_11_SSANNE_CAPTAINSOFFICE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.12",
+    "map": "KantoAR_1_12_SSAnne_1F_Room1",
+    "map_id": "MAP_KANTOAR_1_12_SSANNE_1F_ROOM1",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.13",
+    "map": "KantoAR_1_13_SSAnne_1F_Room2",
+    "map_id": "MAP_KANTOAR_1_13_SSANNE_1F_ROOM2",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.14",
+    "map": "KantoAR_1_14_SSAnne_1F_Room3",
+    "map_id": "MAP_KANTOAR_1_14_SSANNE_1F_ROOM3",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.15",
+    "map": "KantoAR_1_15_SSAnne_1F_Room4",
+    "map_id": "MAP_KANTOAR_1_15_SSANNE_1F_ROOM4",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.16",
+    "map": "KantoAR_1_16_SSAnne_1F_Room5",
+    "map_id": "MAP_KANTOAR_1_16_SSANNE_1F_ROOM5",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.17",
+    "map": "KantoAR_1_17_SSAnne_1F_Room7",
+    "map_id": "MAP_KANTOAR_1_17_SSANNE_1F_ROOM7",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.18",
+    "map": "KantoAR_1_18_SSAnne_2F_Room1",
+    "map_id": "MAP_KANTOAR_1_18_SSANNE_2F_ROOM1",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.19",
+    "map": "KantoAR_1_19_SSAnne_2F_Room2",
+    "map_id": "MAP_KANTOAR_1_19_SSANNE_2F_ROOM2",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.20",
+    "map": "KantoAR_1_20_SSAnne_2F_Room3",
+    "map_id": "MAP_KANTOAR_1_20_SSANNE_2F_ROOM3",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.21",
+    "map": "KantoAR_1_21_SSAnne_2F_Room4",
+    "map_id": "MAP_KANTOAR_1_21_SSANNE_2F_ROOM4",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.22",
+    "map": "KantoAR_1_22_SSAnne_2F_Room5",
+    "map_id": "MAP_KANTOAR_1_22_SSANNE_2F_ROOM5",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.23",
+    "map": "KantoAR_1_23_SSAnne_2F_Room6",
+    "map_id": "MAP_KANTOAR_1_23_SSANNE_2F_ROOM6",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.24",
+    "map": "KantoAR_1_24_SSAnne_B1F_Room1",
+    "map_id": "MAP_KANTOAR_1_24_SSANNE_B1F_ROOM1",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.25",
+    "map": "KantoAR_1_25_SSAnne_B1F_Room2",
+    "map_id": "MAP_KANTOAR_1_25_SSANNE_B1F_ROOM2",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.26",
+    "map": "KantoAR_1_26_SSAnne_B1F_Room3",
+    "map_id": "MAP_KANTOAR_1_26_SSANNE_B1F_ROOM3",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.27",
+    "map": "KantoAR_1_27_SSAnne_B1F_Room4",
+    "map_id": "MAP_KANTOAR_1_27_SSANNE_B1F_ROOM4",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.28",
+    "map": "KantoAR_1_28_SSAnne_B1F_Room5",
+    "map_id": "MAP_KANTOAR_1_28_SSANNE_B1F_ROOM5",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.29",
+    "map": "KantoAR_1_29_SSAnne_1F_Room6",
+    "map_id": "MAP_KANTOAR_1_29_SSANNE_1F_ROOM6",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.30",
+    "map": "KantoAR_1_30_UndergroundPath_NorthEntrance",
+    "map_id": "MAP_KANTOAR_1_30_UNDERGROUNDPATH_NORTHENTRANCE",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.31",
+    "map": "KantoAR_1_31_UndergroundPath_NorthSouthTunnel",
+    "map_id": "MAP_KANTOAR_1_31_UNDERGROUNDPATH_NORTHSOUTHTUNNEL",
+    "spawn": [
+      4,
+      31
+    ]
+  },
+  {
+    "donor_id": "1.32",
+    "map": "KantoAR_1_32_UndergroundPath_SouthEntrance",
+    "map_id": "MAP_KANTOAR_1_32_UNDERGROUNDPATH_SOUTHENTRANCE",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.33",
+    "map": "KantoAR_1_33_UndergroundPath_WestEntrance",
+    "map_id": "MAP_KANTOAR_1_33_UNDERGROUNDPATH_WESTENTRANCE",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.34",
+    "map": "KantoAR_1_34_UndergroundPath_EastWestTunnel",
+    "map_id": "MAP_KANTOAR_1_34_UNDERGROUNDPATH_EASTWESTTUNNEL",
+    "spawn": [
+      40,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.35",
+    "map": "KantoAR_1_35_UndergroundPath_EastEntrance",
+    "map_id": "MAP_KANTOAR_1_35_UNDERGROUNDPATH_EASTENTRANCE",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.36",
+    "map": "KantoAR_1_36_DiglettsCave_NorthEntrance",
+    "map_id": "MAP_KANTOAR_1_36_DIGLETTSCAVE_NORTHENTRANCE",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.37",
+    "map": "KantoAR_1_37_DiglettsCave_B1F",
+    "map_id": "MAP_KANTOAR_1_37_DIGLETTSCAVE_B1F",
+    "spawn": [
+      42,
+      40
+    ]
+  },
+  {
+    "donor_id": "1.38",
+    "map": "KantoAR_1_38_DiglettsCave_SouthEntrance",
+    "map_id": "MAP_KANTOAR_1_38_DIGLETTSCAVE_SOUTHENTRANCE",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.39",
+    "map": "KantoAR_1_39_VictoryRoad_1F",
+    "map_id": "MAP_KANTOAR_1_39_VICTORYROAD_1F",
+    "spawn": [
+      22,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.40",
+    "map": "KantoAR_1_40_VictoryRoad_2F",
+    "map_id": "MAP_KANTOAR_1_40_VICTORYROAD_2F",
+    "spawn": [
+      25,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.41",
+    "map": "KantoAR_1_41_VictoryRoad_3F",
+    "map_id": "MAP_KANTOAR_1_41_VICTORYROAD_3F",
+    "spawn": [
+      22,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.42",
+    "map": "KantoAR_1_42_RocketHideout_B1F",
+    "map_id": "MAP_KANTOAR_1_42_ROCKETHIDEOUT_B1F",
+    "spawn": [
+      14,
+      17
+    ]
+  },
+  {
+    "donor_id": "1.43",
+    "map": "KantoAR_1_43_RocketHideout_B2F",
+    "map_id": "MAP_KANTOAR_1_43_ROCKETHIDEOUT_B2F",
+    "spawn": [
+      17,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.44",
+    "map": "KantoAR_1_44_RocketHideout_B3F",
+    "map_id": "MAP_KANTOAR_1_44_ROCKETHIDEOUT_B3F",
+    "spawn": [
+      8,
+      13
+    ]
+  },
+  {
+    "donor_id": "1.45",
+    "map": "KantoAR_1_45_RocketHideout_B4F",
+    "map_id": "MAP_KANTOAR_1_45_ROCKETHIDEOUT_B4F",
+    "spawn": [
+      12,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.46",
+    "map": "KantoAR_1_46_RocketHideout_Elevator",
+    "map_id": "MAP_KANTOAR_1_46_ROCKETHIDEOUT_ELEVATOR",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.47",
+    "map": "KantoAR_1_47_SilphCo_1F",
+    "map_id": "MAP_KANTOAR_1_47_SILPHCO_1F",
+    "spawn": [
+      18,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.48",
+    "map": "KantoAR_1_48_SilphCo_2F",
+    "map_id": "MAP_KANTOAR_1_48_SILPHCO_2F",
+    "spawn": [
+      18,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.49",
+    "map": "KantoAR_1_49_SilphCo_3F",
+    "map_id": "MAP_KANTOAR_1_49_SILPHCO_3F",
+    "spawn": [
+      19,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.50",
+    "map": "KantoAR_1_50_SilphCo_4F",
+    "map_id": "MAP_KANTOAR_1_50_SILPHCO_4F",
+    "spawn": [
+      17,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.51",
+    "map": "KantoAR_1_51_SilphCo_5F",
+    "map_id": "MAP_KANTOAR_1_51_SILPHCO_5F",
+    "spawn": [
+      21,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.52",
+    "map": "KantoAR_1_52_SilphCo_6F",
+    "map_id": "MAP_KANTOAR_1_52_SILPHCO_6F",
+    "spawn": [
+      15,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.53",
+    "map": "KantoAR_1_53_SilphCo_7F",
+    "map_id": "MAP_KANTOAR_1_53_SILPHCO_7F",
+    "spawn": [
+      18,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.54",
+    "map": "KantoAR_1_54_SilphCo_8F",
+    "map_id": "MAP_KANTOAR_1_54_SILPHCO_8F",
+    "spawn": [
+      15,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.55",
+    "map": "KantoAR_1_55_SilphCo_9F",
+    "map_id": "MAP_KANTOAR_1_55_SILPHCO_9F",
+    "spawn": [
+      15,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.56",
+    "map": "KantoAR_1_56_SilphCo_10F",
+    "map_id": "MAP_KANTOAR_1_56_SILPHCO_10F",
+    "spawn": [
+      11,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.57",
+    "map": "KantoAR_1_57_SilphCo_11F",
+    "map_id": "MAP_KANTOAR_1_57_SILPHCO_11F",
+    "spawn": [
+      6,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.58",
+    "map": "KantoAR_1_58_SilphCo_Elevator",
+    "map_id": "MAP_KANTOAR_1_58_SILPHCO_ELEVATOR",
+    "spawn": [
+      1,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.59",
+    "map": "KantoAR_1_59_PokemonMansion_1F",
+    "map_id": "MAP_KANTOAR_1_59_POKEMONMANSION_1F",
+    "spawn": [
+      19,
+      15
+    ]
+  },
+  {
+    "donor_id": "1.60",
+    "map": "KantoAR_1_60_PokemonMansion_2F",
+    "map_id": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+    "spawn": [
+      19,
+      17
+    ]
+  },
+  {
+    "donor_id": "1.61",
+    "map": "KantoAR_1_61_PokemonMansion_3F",
+    "map_id": "MAP_KANTOAR_1_61_POKEMONMANSION_3F",
+    "spawn": [
+      19,
+      16
+    ]
+  },
+  {
+    "donor_id": "1.62",
+    "map": "KantoAR_1_62_PokemonMansion_B1F",
+    "map_id": "MAP_KANTOAR_1_62_POKEMONMANSION_B1F",
+    "spawn": [
+      19,
+      18
+    ]
+  },
+  {
+    "donor_id": "1.63",
+    "map": "KantoAR_1_63_SafariZone_Center",
+    "map_id": "MAP_KANTOAR_1_63_SAFARIZONE_CENTER",
+    "spawn": [
+      25,
+      22
+    ]
+  },
+  {
+    "donor_id": "1.64",
+    "map": "KantoAR_1_64_SafariZone_East",
+    "map_id": "MAP_KANTOAR_1_64_SAFARIZONE_EAST",
+    "spawn": [
+      24,
+      16
+    ]
+  },
+  {
+    "donor_id": "1.65",
+    "map": "KantoAR_1_65_SafariZone_North",
+    "map_id": "MAP_KANTOAR_1_65_SAFARIZONE_NORTH",
+    "spawn": [
+      28,
+      19
+    ]
+  },
+  {
+    "donor_id": "1.66",
+    "map": "KantoAR_1_66_SafariZone_West",
+    "map_id": "MAP_KANTOAR_1_66_SAFARIZONE_WEST",
+    "spawn": [
+      28,
+      18
+    ]
+  },
+  {
+    "donor_id": "1.67",
+    "map": "KantoAR_1_67_SafariZone_Center_RestHouse",
+    "map_id": "MAP_KANTOAR_1_67_SAFARIZONE_CENTER_RESTHOUSE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.68",
+    "map": "KantoAR_1_68_SafariZone_East_RestHouse",
+    "map_id": "MAP_KANTOAR_1_68_SAFARIZONE_EAST_RESTHOUSE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.69",
+    "map": "KantoAR_1_69_SafariZone_North_RestHouse",
+    "map_id": "MAP_KANTOAR_1_69_SAFARIZONE_NORTH_RESTHOUSE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.70",
+    "map": "KantoAR_1_70_SafariZone_West_RestHouse",
+    "map_id": "MAP_KANTOAR_1_70_SAFARIZONE_WEST_RESTHOUSE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.71",
+    "map": "KantoAR_1_71_SafariZone_SecretHouse",
+    "map_id": "MAP_KANTOAR_1_71_SAFARIZONE_SECRETHOUSE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.72",
+    "map": "KantoAR_1_72_CeruleanCave_1F",
+    "map_id": "MAP_KANTOAR_1_72_CERULEANCAVE_1F",
+    "spawn": [
+      19,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.73",
+    "map": "KantoAR_1_73_CeruleanCave_2F",
+    "map_id": "MAP_KANTOAR_1_73_CERULEANCAVE_2F",
+    "spawn": [
+      17,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.74",
+    "map": "KantoAR_1_74_CeruleanCave_B1F",
+    "map_id": "MAP_KANTOAR_1_74_CERULEANCAVE_B1F",
+    "spawn": [
+      20,
+      13
+    ]
+  },
+  {
+    "donor_id": "1.75",
+    "map": "KantoAR_1_75_PokemonLeague_LoreleisRoom",
+    "map_id": "MAP_KANTOAR_1_75_POKEMONLEAGUE_LORELEISROOM",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "1.76",
+    "map": "KantoAR_1_76_PokemonLeague_BrunosRoom",
+    "map_id": "MAP_KANTOAR_1_76_POKEMONLEAGUE_BRUNOSROOM",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "1.77",
+    "map": "KantoAR_1_77_PokemonLeague_AgathasRoom",
+    "map_id": "MAP_KANTOAR_1_77_POKEMONLEAGUE_AGATHASROOM",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "1.78",
+    "map": "KantoAR_1_78_PokemonLeague_LancesRoom",
+    "map_id": "MAP_KANTOAR_1_78_POKEMONLEAGUE_LANCESROOM",
+    "spawn": [
+      16,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.79",
+    "map": "KantoAR_1_79_PokemonLeague_ChampionsRoom",
+    "map_id": "MAP_KANTOAR_1_79_POKEMONLEAGUE_CHAMPIONSROOM",
+    "spawn": [
+      6,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.81",
+    "map": "KantoAR_1_81_RockTunnel_1F",
+    "map_id": "MAP_KANTOAR_1_81_ROCKTUNNEL_1F",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "1.82",
+    "map": "KantoAR_1_82_RockTunnel_B1F",
+    "map_id": "MAP_KANTOAR_1_82_ROCKTUNNEL_B1F",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "1.83",
+    "map": "KantoAR_1_83_SeafoamIslands_1F",
+    "map_id": "MAP_KANTOAR_1_83_SEAFOAMISLANDS_1F",
+    "spawn": [
+      19,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.84",
+    "map": "KantoAR_1_84_SeafoamIslands_B1F",
+    "map_id": "MAP_KANTOAR_1_84_SEAFOAMISLANDS_B1F",
+    "spawn": [
+      21,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.85",
+    "map": "KantoAR_1_85_SeafoamIslands_B2F",
+    "map_id": "MAP_KANTOAR_1_85_SEAFOAMISLANDS_B2F",
+    "spawn": [
+      18,
+      16
+    ]
+  },
+  {
+    "donor_id": "1.86",
+    "map": "KantoAR_1_86_SeafoamIslands_B3F",
+    "map_id": "MAP_KANTOAR_1_86_SEAFOAMISLANDS_B3F",
+    "spawn": [
+      20,
+      18
+    ]
+  },
+  {
+    "donor_id": "1.87",
+    "map": "KantoAR_1_87_SeafoamIslands_B4F",
+    "map_id": "MAP_KANTOAR_1_87_SEAFOAMISLANDS_B4F",
+    "spawn": [
+      13,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.88",
+    "map": "KantoAR_1_88_PokemonTower_1F",
+    "map_id": "MAP_KANTOAR_1_88_POKEMONTOWER_1F",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.89",
+    "map": "KantoAR_1_89_PokemonTower_2F",
+    "map_id": "MAP_KANTOAR_1_89_POKEMONTOWER_2F",
+    "spawn": [
+      11,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.90",
+    "map": "KantoAR_1_90_PokemonTower_3F",
+    "map_id": "MAP_KANTOAR_1_90_POKEMONTOWER_3F",
+    "spawn": [
+      13,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.91",
+    "map": "KantoAR_1_91_PokemonTower_4F",
+    "map_id": "MAP_KANTOAR_1_91_POKEMONTOWER_4F",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.92",
+    "map": "KantoAR_1_92_PokemonTower_5F",
+    "map_id": "MAP_KANTOAR_1_92_POKEMONTOWER_5F",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.93",
+    "map": "KantoAR_1_93_PokemonTower_6F",
+    "map_id": "MAP_KANTOAR_1_93_POKEMONTOWER_6F",
+    "spawn": [
+      12,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.94",
+    "map": "KantoAR_1_94_PokemonTower_7F",
+    "map_id": "MAP_KANTOAR_1_94_POKEMONTOWER_7F",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.95",
+    "map": "KantoAR_1_95_PowerPlant",
+    "map_id": "MAP_KANTOAR_1_95_POWERPLANT",
+    "spawn": [
+      24,
+      17
+    ]
+  },
+  {
+    "donor_id": "1.96",
+    "map": "KantoAR_1_96_MtEmber_RubyPath_B4F",
+    "map_id": "MAP_KANTOAR_1_96_MTEMBER_RUBYPATH_B4F",
+    "spawn": [
+      10,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.97",
+    "map": "KantoAR_1_97_MtEmber_Exterior",
+    "map_id": "MAP_KANTOAR_1_97_MTEMBER_EXTERIOR",
+    "spawn": [
+      28,
+      28
+    ]
+  },
+  {
+    "donor_id": "1.98",
+    "map": "KantoAR_1_98_MtEmber_SummitPath_1F",
+    "map_id": "MAP_KANTOAR_1_98_MTEMBER_SUMMITPATH_1F",
+    "spawn": [
+      2,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.99",
+    "map": "KantoAR_1_99_MtEmber_SummitPath_2F",
+    "map_id": "MAP_KANTOAR_1_99_MTEMBER_SUMMITPATH_2F",
+    "spawn": [
+      15,
+      22
+    ]
+  },
+  {
+    "donor_id": "1.100",
+    "map": "KantoAR_1_100_MtEmber_SummitPath_3F",
+    "map_id": "MAP_KANTOAR_1_100_MTEMBER_SUMMITPATH_3F",
+    "spawn": [
+      10,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.101",
+    "map": "KantoAR_1_101_MtEmber_Summit",
+    "map_id": "MAP_KANTOAR_1_101_MTEMBER_SUMMIT",
+    "spawn": [
+      8,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.102",
+    "map": "KantoAR_1_102_MtEmber_RubyPath_B5F",
+    "map_id": "MAP_KANTOAR_1_102_MTEMBER_RUBYPATH_B5F",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "1.103",
+    "map": "KantoAR_1_103_MtEmber_RubyPath_1F",
+    "map_id": "MAP_KANTOAR_1_103_MTEMBER_RUBYPATH_1F",
+    "spawn": [
+      17,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.104",
+    "map": "KantoAR_1_104_MtEmber_RubyPath_B1F",
+    "map_id": "MAP_KANTOAR_1_104_MTEMBER_RUBYPATH_B1F",
+    "spawn": [
+      3,
+      12
+    ]
+  },
+  {
+    "donor_id": "1.105",
+    "map": "KantoAR_1_105_MtEmber_RubyPath_B2F",
+    "map_id": "MAP_KANTOAR_1_105_MTEMBER_RUBYPATH_B2F",
+    "spawn": [
+      8,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.106",
+    "map": "KantoAR_1_106_MtEmber_RubyPath_B3F",
+    "map_id": "MAP_KANTOAR_1_106_MTEMBER_RUBYPATH_B3F",
+    "spawn": [
+      19,
+      11
+    ]
+  },
+  {
+    "donor_id": "1.107",
+    "map": "KantoAR_1_107_MtEmber_RubyPath_B1F_Stairs",
+    "map_id": "MAP_KANTOAR_1_107_MTEMBER_RUBYPATH_B1F_STAIRS",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.108",
+    "map": "KantoAR_1_108_MtEmber_RubyPath_B2F_Stairs",
+    "map_id": "MAP_KANTOAR_1_108_MTEMBER_RUBYPATH_B2F_STAIRS",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.109",
+    "map": "KantoAR_1_109_ThreeIsland_BerryForest",
+    "map_id": "MAP_KANTOAR_1_109_THREEISLAND_BERRYFOREST",
+    "spawn": [
+      24,
+      23
+    ]
+  },
+  {
+    "donor_id": "1.110",
+    "map": "KantoAR_1_110_FourIsland_IcefallCave_Entrance",
+    "map_id": "MAP_KANTOAR_1_110_FOURISLAND_ICEFALLCAVE_ENTRANCE",
+    "spawn": [
+      12,
+      23
+    ]
+  },
+  {
+    "donor_id": "1.111",
+    "map": "KantoAR_1_111_FourIsland_IcefallCave_1F",
+    "map_id": "MAP_KANTOAR_1_111_FOURISLAND_ICEFALLCAVE_1F",
+    "spawn": [
+      10,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.112",
+    "map": "KantoAR_1_112_FourIsland_IcefallCave_B1F",
+    "map_id": "MAP_KANTOAR_1_112_FOURISLAND_ICEFALLCAVE_B1F",
+    "spawn": [
+      12,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.113",
+    "map": "KantoAR_1_113_FourIsland_IcefallCave_Back",
+    "map_id": "MAP_KANTOAR_1_113_FOURISLAND_ICEFALLCAVE_BACK",
+    "spawn": [
+      12,
+      15
+    ]
+  },
+  {
+    "donor_id": "1.114",
+    "map": "KantoAR_1_114_FiveIsland_RocketWarehouse",
+    "map_id": "MAP_KANTOAR_1_114_FIVEISLAND_ROCKETWAREHOUSE",
+    "spawn": [
+      16,
+      9
+    ]
+  },
+  {
+    "donor_id": "1.115",
+    "map": "KantoAR_1_115_SixIsland_DottedHole_1F",
+    "map_id": "MAP_KANTOAR_1_115_SIXISLAND_DOTTEDHOLE_1F",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.116",
+    "map": "KantoAR_1_116_SixIsland_DottedHole_B1F",
+    "map_id": "MAP_KANTOAR_1_116_SIXISLAND_DOTTEDHOLE_B1F",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.117",
+    "map": "KantoAR_1_117_SixIsland_DottedHole_B2F",
+    "map_id": "MAP_KANTOAR_1_117_SIXISLAND_DOTTEDHOLE_B2F",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.118",
+    "map": "KantoAR_1_118_SixIsland_DottedHole_B3F",
+    "map_id": "MAP_KANTOAR_1_118_SIXISLAND_DOTTEDHOLE_B3F",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.119",
+    "map": "KantoAR_1_119_SixIsland_DottedHole_B4F",
+    "map_id": "MAP_KANTOAR_1_119_SIXISLAND_DOTTEDHOLE_B4F",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.120",
+    "map": "KantoAR_1_120_SixIsland_DottedHole_SapphireRoom",
+    "map_id": "MAP_KANTOAR_1_120_SIXISLAND_DOTTEDHOLE_SAPPHIREROOM",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "1.121",
+    "map": "KantoAR_1_121_SixIsland_PatternBush",
+    "map_id": "MAP_KANTOAR_1_121_SIXISLAND_PATTERNBUSH",
+    "spawn": [
+      55,
+      16
+    ]
+  },
+  {
+    "donor_id": "1.122",
+    "map": "KantoAR_1_122_SixIsland_AlteringCave",
+    "map_id": "MAP_KANTOAR_1_122_SIXISLAND_ALTERINGCAVE",
+    "spawn": [
+      17,
+      12
+    ]
+  },
+  {
+    "donor_id": "2.0",
+    "map": "KantoAR_2_0_NavelRock_Exterior",
+    "map_id": "MAP_KANTOAR_2_0_NAVELROCK_EXTERIOR",
+    "spawn": [
+      10,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.1",
+    "map": "KantoAR_2_1_TrainerTower_1F",
+    "map_id": "MAP_KANTOAR_2_1_TRAINERTOWER_1F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.2",
+    "map": "KantoAR_2_2_TrainerTower_2F",
+    "map_id": "MAP_KANTOAR_2_2_TRAINERTOWER_2F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.3",
+    "map": "KantoAR_2_3_TrainerTower_3F",
+    "map_id": "MAP_KANTOAR_2_3_TRAINERTOWER_3F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.4",
+    "map": "KantoAR_2_4_TrainerTower_4F",
+    "map_id": "MAP_KANTOAR_2_4_TRAINERTOWER_4F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.5",
+    "map": "KantoAR_2_5_TrainerTower_5F",
+    "map_id": "MAP_KANTOAR_2_5_TRAINERTOWER_5F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.6",
+    "map": "KantoAR_2_6_TrainerTower_6F",
+    "map_id": "MAP_KANTOAR_2_6_TRAINERTOWER_6F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.7",
+    "map": "KantoAR_2_7_TrainerTower_7F",
+    "map_id": "MAP_KANTOAR_2_7_TRAINERTOWER_7F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.8",
+    "map": "KantoAR_2_8_TrainerTower_8F",
+    "map_id": "MAP_KANTOAR_2_8_TRAINERTOWER_8F",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "2.9",
+    "map": "KantoAR_2_9_TrainerTower_Roof",
+    "map_id": "MAP_KANTOAR_2_9_TRAINERTOWER_ROOF",
+    "spawn": [
+      9,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.10",
+    "map": "KantoAR_2_10_TrainerTower_Lobby",
+    "map_id": "MAP_KANTOAR_2_10_TRAINERTOWER_LOBBY",
+    "spawn": [
+      9,
+      11
+    ]
+  },
+  {
+    "donor_id": "2.11",
+    "map": "KantoAR_2_11_TrainerTower_Elevator",
+    "map_id": "MAP_KANTOAR_2_11_TRAINERTOWER_ELEVATOR",
+    "spawn": [
+      1,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.12",
+    "map": "KantoAR_2_12_FiveIsland_LostCave_Entrance",
+    "map_id": "MAP_KANTOAR_2_12_FIVEISLAND_LOSTCAVE_ENTRANCE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.13",
+    "map": "KantoAR_2_13_FiveIsland_LostCave_Room1",
+    "map_id": "MAP_KANTOAR_2_13_FIVEISLAND_LOSTCAVE_ROOM1",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.14",
+    "map": "KantoAR_2_14_FiveIsland_LostCave_Room2",
+    "map_id": "MAP_KANTOAR_2_14_FIVEISLAND_LOSTCAVE_ROOM2",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.15",
+    "map": "KantoAR_2_15_FiveIsland_LostCave_Room3",
+    "map_id": "MAP_KANTOAR_2_15_FIVEISLAND_LOSTCAVE_ROOM3",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.16",
+    "map": "KantoAR_2_16_FiveIsland_LostCave_Room4",
+    "map_id": "MAP_KANTOAR_2_16_FIVEISLAND_LOSTCAVE_ROOM4",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.17",
+    "map": "KantoAR_2_17_FiveIsland_LostCave_Room5",
+    "map_id": "MAP_KANTOAR_2_17_FIVEISLAND_LOSTCAVE_ROOM5",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.18",
+    "map": "KantoAR_2_18_FiveIsland_LostCave_Room6",
+    "map_id": "MAP_KANTOAR_2_18_FIVEISLAND_LOSTCAVE_ROOM6",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.19",
+    "map": "KantoAR_2_19_FiveIsland_LostCave_Room7",
+    "map_id": "MAP_KANTOAR_2_19_FIVEISLAND_LOSTCAVE_ROOM7",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.20",
+    "map": "KantoAR_2_20_FiveIsland_LostCave_Room8",
+    "map_id": "MAP_KANTOAR_2_20_FIVEISLAND_LOSTCAVE_ROOM8",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.21",
+    "map": "KantoAR_2_21_FiveIsland_LostCave_Room9",
+    "map_id": "MAP_KANTOAR_2_21_FIVEISLAND_LOSTCAVE_ROOM9",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.22",
+    "map": "KantoAR_2_22_FiveIsland_LostCave_Room10",
+    "map_id": "MAP_KANTOAR_2_22_FIVEISLAND_LOSTCAVE_ROOM10",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.23",
+    "map": "KantoAR_2_23_FiveIsland_LostCave_Room11",
+    "map_id": "MAP_KANTOAR_2_23_FIVEISLAND_LOSTCAVE_ROOM11",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.24",
+    "map": "KantoAR_2_24_FiveIsland_LostCave_Room12",
+    "map_id": "MAP_KANTOAR_2_24_FIVEISLAND_LOSTCAVE_ROOM12",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.25",
+    "map": "KantoAR_2_25_FiveIsland_LostCave_Room13",
+    "map_id": "MAP_KANTOAR_2_25_FIVEISLAND_LOSTCAVE_ROOM13",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.26",
+    "map": "KantoAR_2_26_FiveIsland_LostCave_Room14",
+    "map_id": "MAP_KANTOAR_2_26_FIVEISLAND_LOSTCAVE_ROOM14",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.27",
+    "map": "KantoAR_2_27_SevenIsland_TanobyRuins_MoneanChamber",
+    "map_id": "MAP_KANTOAR_2_27_SEVENISLAND_TANOBYRUINS_MONEANCHAMBER",
+    "spawn": [
+      11,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.28",
+    "map": "KantoAR_2_28_SevenIsland_TanobyRuins_LiptooChamber",
+    "map_id": "MAP_KANTOAR_2_28_SEVENISLAND_TANOBYRUINS_LIPTOOCHAMBER",
+    "spawn": [
+      9,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.29",
+    "map": "KantoAR_2_29_SevenIsland_TanobyRuins_WeepthChamber",
+    "map_id": "MAP_KANTOAR_2_29_SEVENISLAND_TANOBYRUINS_WEEPTHCHAMBER",
+    "spawn": [
+      11,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.30",
+    "map": "KantoAR_2_30_SevenIsland_TanobyRuins_DilfordChamber",
+    "map_id": "MAP_KANTOAR_2_30_SEVENISLAND_TANOBYRUINS_DILFORDCHAMBER",
+    "spawn": [
+      11,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.31",
+    "map": "KantoAR_2_31_SevenIsland_TanobyRuins_ScufibChamber",
+    "map_id": "MAP_KANTOAR_2_31_SEVENISLAND_TANOBYRUINS_SCUFIBCHAMBER",
+    "spawn": [
+      11,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.32",
+    "map": "KantoAR_2_32_SevenIsland_TanobyRuins_RixyChamber",
+    "map_id": "MAP_KANTOAR_2_32_SEVENISLAND_TANOBYRUINS_RIXYCHAMBER",
+    "spawn": [
+      11,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.33",
+    "map": "KantoAR_2_33_SevenIsland_TanobyRuins_ViapoisChamber",
+    "map_id": "MAP_KANTOAR_2_33_SEVENISLAND_TANOBYRUINS_VIAPOISCHAMBER",
+    "spawn": [
+      11,
+      9
+    ]
+  },
+  {
+    "donor_id": "2.34",
+    "map": "KantoAR_2_34_ThreeIsland_DunsparceTunnel",
+    "map_id": "MAP_KANTOAR_2_34_THREEISLAND_DUNSPARCETUNNEL",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.35",
+    "map": "KantoAR_2_35_SevenIsland_SevaultCanyon_TanobyKey",
+    "map_id": "MAP_KANTOAR_2_35_SEVENISLAND_SEVAULTCANYON_TANOBYKEY",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.36",
+    "map": "KantoAR_2_36_NavelRock_1F",
+    "map_id": "MAP_KANTOAR_2_36_NAVELROCK_1F",
+    "spawn": [
+      8,
+      13
+    ]
+  },
+  {
+    "donor_id": "2.37",
+    "map": "KantoAR_2_37_NavelRock_Summit",
+    "map_id": "MAP_KANTOAR_2_37_NAVELROCK_SUMMIT",
+    "spawn": [
+      9,
+      13
+    ]
+  },
+  {
+    "donor_id": "2.38",
+    "map": "KantoAR_2_38_NavelRock_Base",
+    "map_id": "MAP_KANTOAR_2_38_NAVELROCK_BASE",
+    "spawn": [
+      10,
+      15
+    ]
+  },
+  {
+    "donor_id": "2.39",
+    "map": "KantoAR_2_39_NavelRock_SummitPath_2F",
+    "map_id": "MAP_KANTOAR_2_39_NAVELROCK_SUMMITPATH_2F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.40",
+    "map": "KantoAR_2_40_NavelRock_SummitPath_3F",
+    "map_id": "MAP_KANTOAR_2_40_NAVELROCK_SUMMITPATH_3F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.41",
+    "map": "KantoAR_2_41_NavelRock_SummitPath_4F",
+    "map_id": "MAP_KANTOAR_2_41_NAVELROCK_SUMMITPATH_4F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.42",
+    "map": "KantoAR_2_42_NavelRock_SummitPath_5F",
+    "map_id": "MAP_KANTOAR_2_42_NAVELROCK_SUMMITPATH_5F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.43",
+    "map": "KantoAR_2_43_NavelRock_BasePath_B1F",
+    "map_id": "MAP_KANTOAR_2_43_NAVELROCK_BASEPATH_B1F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.44",
+    "map": "KantoAR_2_44_NavelRock_BasePath_B2F",
+    "map_id": "MAP_KANTOAR_2_44_NAVELROCK_BASEPATH_B2F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.45",
+    "map": "KantoAR_2_45_NavelRock_BasePath_B3F",
+    "map_id": "MAP_KANTOAR_2_45_NAVELROCK_BASEPATH_B3F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.46",
+    "map": "KantoAR_2_46_NavelRock_BasePath_B4F",
+    "map_id": "MAP_KANTOAR_2_46_NAVELROCK_BASEPATH_B4F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.47",
+    "map": "KantoAR_2_47_NavelRock_BasePath_B5F",
+    "map_id": "MAP_KANTOAR_2_47_NAVELROCK_BASEPATH_B5F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.48",
+    "map": "KantoAR_2_48_NavelRock_BasePath_B6F",
+    "map_id": "MAP_KANTOAR_2_48_NAVELROCK_BASEPATH_B6F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.49",
+    "map": "KantoAR_2_49_NavelRock_BasePath_B7F",
+    "map_id": "MAP_KANTOAR_2_49_NAVELROCK_BASEPATH_B7F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.50",
+    "map": "KantoAR_2_50_NavelRock_BasePath_B8F",
+    "map_id": "MAP_KANTOAR_2_50_NAVELROCK_BASEPATH_B8F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.51",
+    "map": "KantoAR_2_51_NavelRock_BasePath_B9F",
+    "map_id": "MAP_KANTOAR_2_51_NAVELROCK_BASEPATH_B9F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.52",
+    "map": "KantoAR_2_52_NavelRock_BasePath_B10F",
+    "map_id": "MAP_KANTOAR_2_52_NAVELROCK_BASEPATH_B10F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.53",
+    "map": "KantoAR_2_53_NavelRock_BasePath_B11F",
+    "map_id": "MAP_KANTOAR_2_53_NAVELROCK_BASEPATH_B11F",
+    "spawn": [
+      3,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.54",
+    "map": "KantoAR_2_54_NavelRock_B1F",
+    "map_id": "MAP_KANTOAR_2_54_NAVELROCK_B1F",
+    "spawn": [
+      8,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.55",
+    "map": "KantoAR_2_55_NavelRock_Fork",
+    "map_id": "MAP_KANTOAR_2_55_NAVELROCK_FORK",
+    "spawn": [
+      14,
+      50
+    ]
+  },
+  {
+    "donor_id": "2.56",
+    "map": "KantoAR_2_56_BirthIsland_Exterior",
+    "map_id": "MAP_KANTOAR_2_56_BIRTHISLAND_EXTERIOR",
+    "spawn": [
+      15,
+      20
+    ]
+  },
+  {
+    "donor_id": "2.57",
+    "map": "KantoAR_2_57_OneIsland_KindleRoad_EmberSpa",
+    "map_id": "MAP_KANTOAR_2_57_ONEISLAND_KINDLEROAD_EMBERSPA",
+    "spawn": [
+      13,
+      20
+    ]
+  },
+  {
+    "donor_id": "2.58",
+    "map": "KantoAR_2_58_BirthIsland_Harbor",
+    "map_id": "MAP_KANTOAR_2_58_BIRTHISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "2.59",
+    "map": "KantoAR_2_59_NavelRock_Harbor",
+    "map_id": "MAP_KANTOAR_2_59_NAVELROCK_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "3.1",
+    "map": "KantoAR_3_1_ViridianCity",
+    "map_id": "MAP_KANTOAR_3_1_VIRIDIANCITY",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.2",
+    "map": "KantoAR_3_2_PewterCity",
+    "map_id": "MAP_KANTOAR_3_2_PEWTERCITY",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.3",
+    "map": "KantoAR_3_3_CeruleanCity",
+    "map_id": "MAP_KANTOAR_3_3_CERULEANCITY",
+    "spawn": [
+      25,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.4",
+    "map": "KantoAR_3_4_LavenderTown",
+    "map_id": "MAP_KANTOAR_3_4_LAVENDERTOWN",
+    "spawn": [
+      14,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.5",
+    "map": "KantoAR_3_5_VermilionCity",
+    "map_id": "MAP_KANTOAR_3_5_VERMILIONCITY",
+    "spawn": [
+      24,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.6",
+    "map": "KantoAR_3_6_CeladonCity",
+    "map_id": "MAP_KANTOAR_3_6_CELADONCITY",
+    "spawn": [
+      30,
+      15
+    ]
+  },
+  {
+    "donor_id": "3.7",
+    "map": "KantoAR_3_7_FuchsiaCity",
+    "map_id": "MAP_KANTOAR_3_7_FUCHSIACITY",
+    "spawn": [
+      23,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.8",
+    "map": "KantoAR_3_8_CinnabarIsland",
+    "map_id": "MAP_KANTOAR_3_8_CINNABARISLAND",
+    "spawn": [
+      10,
+      11
+    ]
+  },
+  {
+    "donor_id": "3.9",
+    "map": "KantoAR_3_9_IndigoPlateau_Exterior",
+    "map_id": "MAP_KANTOAR_3_9_INDIGOPLATEAU_EXTERIOR",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.10",
+    "map": "KantoAR_3_10_SaffronCity",
+    "map_id": "MAP_KANTOAR_3_10_SAFFRONCITY",
+    "spawn": [
+      33,
+      32
+    ]
+  },
+  {
+    "donor_id": "3.11",
+    "map": "KantoAR_3_11_SaffronCity_Connection",
+    "map_id": "MAP_KANTOAR_3_11_SAFFRONCITY_CONNECTION",
+    "spawn": [
+      24,
+      25
+    ]
+  },
+  {
+    "donor_id": "3.12",
+    "map": "KantoAR_3_12_OneIsland",
+    "map_id": "MAP_KANTOAR_3_12_ONEISLAND",
+    "spawn": [
+      13,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.13",
+    "map": "KantoAR_3_13_TwoIsland",
+    "map_id": "MAP_KANTOAR_3_13_TWOISLAND",
+    "spawn": [
+      24,
+      12
+    ]
+  },
+  {
+    "donor_id": "3.14",
+    "map": "KantoAR_3_14_ThreeIsland",
+    "map_id": "MAP_KANTOAR_3_14_THREEISLAND",
+    "spawn": [
+      11,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.15",
+    "map": "KantoAR_3_15_FourIsland",
+    "map_id": "MAP_KANTOAR_3_15_FOURISLAND",
+    "spawn": [
+      24,
+      22
+    ]
+  },
+  {
+    "donor_id": "3.16",
+    "map": "KantoAR_3_16_FiveIsland",
+    "map_id": "MAP_KANTOAR_3_16_FIVEISLAND",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.17",
+    "map": "KantoAR_3_17_SevenIsland",
+    "map_id": "MAP_KANTOAR_3_17_SEVENISLAND",
+    "spawn": [
+      9,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.18",
+    "map": "KantoAR_3_18_SixIsland",
+    "map_id": "MAP_KANTOAR_3_18_SIXISLAND",
+    "spawn": [
+      12,
+      14
+    ]
+  },
+  {
+    "donor_id": "3.19",
+    "map": "KantoAR_3_19_Route1",
+    "map_id": "MAP_KANTOAR_3_19_ROUTE1",
+    "spawn": [
+      12,
+      18
+    ]
+  },
+  {
+    "donor_id": "3.20",
+    "map": "KantoAR_3_20_Route2",
+    "map_id": "MAP_KANTOAR_3_20_ROUTE2",
+    "spawn": [
+      17,
+      40
+    ]
+  },
+  {
+    "donor_id": "3.21",
+    "map": "KantoAR_3_21_Route3",
+    "map_id": "MAP_KANTOAR_3_21_ROUTE3",
+    "spawn": [
+      42,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.22",
+    "map": "KantoAR_3_22_Route4",
+    "map_id": "MAP_KANTOAR_3_22_ROUTE4",
+    "spawn": [
+      54,
+      11
+    ]
+  },
+  {
+    "donor_id": "3.23",
+    "map": "KantoAR_3_23_Route5",
+    "map_id": "MAP_KANTOAR_3_23_ROUTE5",
+    "spawn": [
+      26,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.24",
+    "map": "KantoAR_3_24_Route6",
+    "map_id": "MAP_KANTOAR_3_24_ROUTE6",
+    "spawn": [
+      12,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.25",
+    "map": "KantoAR_3_25_Route7",
+    "map_id": "MAP_KANTOAR_3_25_ROUTE7",
+    "spawn": [
+      12,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.26",
+    "map": "KantoAR_3_26_Route8",
+    "map_id": "MAP_KANTOAR_3_26_ROUTE8",
+    "spawn": [
+      35,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.27",
+    "map": "KantoAR_3_27_Route9",
+    "map_id": "MAP_KANTOAR_3_27_ROUTE9",
+    "spawn": [
+      36,
+      7
+    ]
+  },
+  {
+    "donor_id": "3.28",
+    "map": "KantoAR_3_28_Route10",
+    "map_id": "MAP_KANTOAR_3_28_ROUTE10",
+    "spawn": [
+      11,
+      41
+    ]
+  },
+  {
+    "donor_id": "3.29",
+    "map": "KantoAR_3_29_Route11",
+    "map_id": "MAP_KANTOAR_3_29_ROUTE11",
+    "spawn": [
+      37,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.30",
+    "map": "KantoAR_3_30_Route12",
+    "map_id": "MAP_KANTOAR_3_30_ROUTE12",
+    "spawn": [
+      9,
+      63
+    ]
+  },
+  {
+    "donor_id": "3.31",
+    "map": "KantoAR_3_31_Route13",
+    "map_id": "MAP_KANTOAR_3_31_ROUTE13",
+    "spawn": [
+      36,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.32",
+    "map": "KantoAR_3_32_Route14",
+    "map_id": "MAP_KANTOAR_3_32_ROUTE14",
+    "spawn": [
+      10,
+      30
+    ]
+  },
+  {
+    "donor_id": "3.33",
+    "map": "KantoAR_3_33_Route15",
+    "map_id": "MAP_KANTOAR_3_33_ROUTE15",
+    "spawn": [
+      36,
+      7
+    ]
+  },
+  {
+    "donor_id": "3.34",
+    "map": "KantoAR_3_34_Route16",
+    "map_id": "MAP_KANTOAR_3_34_ROUTE16",
+    "spawn": [
+      28,
+      8
+    ]
+  },
+  {
+    "donor_id": "3.35",
+    "map": "KantoAR_3_35_Route17",
+    "map_id": "MAP_KANTOAR_3_35_ROUTE17",
+    "spawn": [
+      11,
+      80
+    ]
+  },
+  {
+    "donor_id": "3.36",
+    "map": "KantoAR_3_36_Route18",
+    "map_id": "MAP_KANTOAR_3_36_ROUTE18",
+    "spawn": [
+      30,
+      9
+    ]
+  },
+  {
+    "donor_id": "3.37",
+    "map": "KantoAR_3_37_Route19",
+    "map_id": "MAP_KANTOAR_3_37_ROUTE19",
+    "spawn": [
+      12,
+      1
+    ]
+  },
+  {
+    "donor_id": "3.38",
+    "map": "KantoAR_3_38_Route20",
+    "map_id": "MAP_KANTOAR_3_38_ROUTE20",
+    "spawn": [
+      60,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.39",
+    "map": "KantoAR_3_39_Route21_North",
+    "map_id": "MAP_KANTOAR_3_39_ROUTE21_NORTH",
+    "spawn": [
+      12,
+      2
+    ]
+  },
+  {
+    "donor_id": "3.40",
+    "map": "KantoAR_3_40_Route21_South",
+    "map_id": "MAP_KANTOAR_3_40_ROUTE21_SOUTH",
+    "spawn": [
+      12,
+      48
+    ]
+  },
+  {
+    "donor_id": "3.41",
+    "map": "KantoAR_3_41_Route22",
+    "map_id": "MAP_KANTOAR_3_41_ROUTE22",
+    "spawn": [
+      24,
+      13
+    ]
+  },
+  {
+    "donor_id": "3.42",
+    "map": "KantoAR_3_42_Route23",
+    "map_id": "MAP_KANTOAR_3_42_ROUTE23",
+    "spawn": [
+      12,
+      77
+    ]
+  },
+  {
+    "donor_id": "3.43",
+    "map": "KantoAR_3_43_Route24",
+    "map_id": "MAP_KANTOAR_3_43_ROUTE24",
+    "spawn": [
+      11,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.44",
+    "map": "KantoAR_3_44_Route25",
+    "map_id": "MAP_KANTOAR_3_44_ROUTE25",
+    "spawn": [
+      36,
+      8
+    ]
+  },
+  {
+    "donor_id": "3.45",
+    "map": "KantoAR_3_45_OneIsland_KindleRoad",
+    "map_id": "MAP_KANTOAR_3_45_ONEISLAND_KINDLEROAD",
+    "spawn": [
+      10,
+      70
+    ]
+  },
+  {
+    "donor_id": "3.46",
+    "map": "KantoAR_3_46_OneIsland_TreasureBeach",
+    "map_id": "MAP_KANTOAR_3_46_ONEISLAND_TREASUREBEACH",
+    "spawn": [
+      12,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.47",
+    "map": "KantoAR_3_47_TwoIsland_CapeBrink",
+    "map_id": "MAP_KANTOAR_3_47_TWOISLAND_CAPEBRINK",
+    "spawn": [
+      12,
+      17
+    ]
+  },
+  {
+    "donor_id": "3.48",
+    "map": "KantoAR_3_48_ThreeIsland_BondBridge",
+    "map_id": "MAP_KANTOAR_3_48_THREEISLAND_BONDBRIDGE",
+    "spawn": [
+      48,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.49",
+    "map": "KantoAR_3_49_ThreeIsland_Port",
+    "map_id": "MAP_KANTOAR_3_49_THREEISLAND_PORT",
+    "spawn": [
+      16,
+      9
+    ]
+  },
+  {
+    "donor_id": "3.52",
+    "map": "KantoAR_3_52_Prototype_SeviiIsle_8",
+    "map_id": "MAP_KANTOAR_3_52_PROTOTYPE_SEVIIISLE_8",
+    "spawn": [
+      49,
+      11
+    ]
+  },
+  {
+    "donor_id": "3.54",
+    "map": "KantoAR_3_54_FiveIsland_ResortGorgeous",
+    "map_id": "MAP_KANTOAR_3_54_FIVEISLAND_RESORTGORGEOUS",
+    "spawn": [
+      35,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.55",
+    "map": "KantoAR_3_55_FiveIsland_WaterLabyrinth",
+    "map_id": "MAP_KANTOAR_3_55_FIVEISLAND_WATERLABYRINTH",
+    "spawn": [
+      16,
+      10
+    ]
+  },
+  {
+    "donor_id": "3.56",
+    "map": "KantoAR_3_56_FiveIsland_Meadow",
+    "map_id": "MAP_KANTOAR_3_56_FIVEISLAND_MEADOW",
+    "spawn": [
+      12,
+      23
+    ]
+  },
+  {
+    "donor_id": "3.57",
+    "map": "KantoAR_3_57_FiveIsland_MemorialPillar",
+    "map_id": "MAP_KANTOAR_3_57_FIVEISLAND_MEMORIALPILLAR",
+    "spawn": [
+      17,
+      30
+    ]
+  },
+  {
+    "donor_id": "3.58",
+    "map": "KantoAR_3_58_SixIsland_OutcastIsland",
+    "map_id": "MAP_KANTOAR_3_58_SIXISLAND_OUTCASTISLAND",
+    "spawn": [
+      12,
+      28
+    ]
+  },
+  {
+    "donor_id": "3.59",
+    "map": "KantoAR_3_59_SixIsland_GreenPath",
+    "map_id": "MAP_KANTOAR_3_59_SIXISLAND_GREENPATH",
+    "spawn": [
+      38,
+      14
+    ]
+  },
+  {
+    "donor_id": "3.60",
+    "map": "KantoAR_3_60_SixIsland_WaterPath",
+    "map_id": "MAP_KANTOAR_3_60_SIXISLAND_WATERPATH",
+    "spawn": [
+      8,
+      51
+    ]
+  },
+  {
+    "donor_id": "3.61",
+    "map": "KantoAR_3_61_SixIsland_RuinValley",
+    "map_id": "MAP_KANTOAR_3_61_SIXISLAND_RUINVALLEY",
+    "spawn": [
+      24,
+      26
+    ]
+  },
+  {
+    "donor_id": "3.62",
+    "map": "KantoAR_3_62_SevenIsland_TrainerTower",
+    "map_id": "MAP_KANTOAR_3_62_SEVENISLAND_TRAINERTOWER",
+    "spawn": [
+      58,
+      15
+    ]
+  },
+  {
+    "donor_id": "3.63",
+    "map": "KantoAR_3_63_SevenIsland_SevaultCanyon_Entrance",
+    "map_id": "MAP_KANTOAR_3_63_SEVENISLAND_SEVAULTCANYON_ENTRANCE",
+    "spawn": [
+      15,
+      20
+    ]
+  },
+  {
+    "donor_id": "3.64",
+    "map": "KantoAR_3_64_SevenIsland_SevaultCanyon",
+    "map_id": "MAP_KANTOAR_3_64_SEVENISLAND_SEVAULTCANYON",
+    "spawn": [
+      13,
+      42
+    ]
+  },
+  {
+    "donor_id": "3.65",
+    "map": "KantoAR_3_65_SevenIsland_TanobyRuins",
+    "map_id": "MAP_KANTOAR_3_65_SEVENISLAND_TANOBYRUINS",
+    "spawn": [
+      85,
+      10
+    ]
+  },
+  {
+    "donor_id": "4.0",
+    "map": "KantoAR_4_0_PalletTown_PlayersHouse_1F",
+    "map_id": "MAP_KANTOAR_4_0_PALLETTOWN_PLAYERSHOUSE_1F",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "4.1",
+    "map": "KantoAR_4_1_PalletTown_PlayersHouse_2F",
+    "map_id": "MAP_KANTOAR_4_1_PALLETTOWN_PLAYERSHOUSE_2F",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "4.2",
+    "map": "KantoAR_4_2_PalletTown_RivalsHouse",
+    "map_id": "MAP_KANTOAR_4_2_PALLETTOWN_RIVALSHOUSE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "4.3",
+    "map": "KantoAR_4_3_PalletTown_ProfessorOaksLab",
+    "map_id": "MAP_KANTOAR_4_3_PALLETTOWN_PROFESSOROAKSLAB",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "5.0",
+    "map": "KantoAR_5_0_ViridianCity_House",
+    "map_id": "MAP_KANTOAR_5_0_VIRIDIANCITY_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "5.1",
+    "map": "KantoAR_5_1_ViridianCity_Gym",
+    "map_id": "MAP_KANTOAR_5_1_VIRIDIANCITY_GYM",
+    "spawn": [
+      10,
+      12
+    ]
+  },
+  {
+    "donor_id": "5.2",
+    "map": "KantoAR_5_2_ViridianCity_School",
+    "map_id": "MAP_KANTOAR_5_2_VIRIDIANCITY_SCHOOL",
+    "spawn": [
+      6,
+      3
+    ]
+  },
+  {
+    "donor_id": "5.3",
+    "map": "KantoAR_5_3_ViridianCity_Mart",
+    "map_id": "MAP_KANTOAR_5_3_VIRIDIANCITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "5.4",
+    "map": "KantoAR_5_4_ViridianCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_5_4_VIRIDIANCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "5.5",
+    "map": "KantoAR_5_5_ViridianCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_5_5_VIRIDIANCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.0",
+    "map": "KantoAR_6_0_PewterCity_Museum_1F",
+    "map_id": "MAP_KANTOAR_6_0_PEWTERCITY_MUSEUM_1F",
+    "spawn": [
+      13,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.1",
+    "map": "KantoAR_6_1_PewterCity_Museum_2F",
+    "map_id": "MAP_KANTOAR_6_1_PEWTERCITY_MUSEUM_2F",
+    "spawn": [
+      9,
+      4
+    ]
+  },
+  {
+    "donor_id": "6.2",
+    "map": "KantoAR_6_2_PewterCity_Gym",
+    "map_id": "MAP_KANTOAR_6_2_PEWTERCITY_GYM",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "6.3",
+    "map": "KantoAR_6_3_PewterCity_Mart",
+    "map_id": "MAP_KANTOAR_6_3_PEWTERCITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "6.4",
+    "map": "KantoAR_6_4_PewterCity_House1",
+    "map_id": "MAP_KANTOAR_6_4_PEWTERCITY_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "6.5",
+    "map": "KantoAR_6_5_PewterCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_6_5_PEWTERCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.6",
+    "map": "KantoAR_6_6_PewterCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_6_6_PEWTERCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.7",
+    "map": "KantoAR_6_7_PewterCity_House2",
+    "map_id": "MAP_KANTOAR_6_7_PEWTERCITY_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.0",
+    "map": "KantoAR_7_0_CeruleanCity_House1",
+    "map_id": "MAP_KANTOAR_7_0_CERULEANCITY_HOUSE1",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.1",
+    "map": "KantoAR_7_1_CeruleanCity_House2",
+    "map_id": "MAP_KANTOAR_7_1_CERULEANCITY_HOUSE2",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.2",
+    "map": "KantoAR_7_2_CeruleanCity_House3",
+    "map_id": "MAP_KANTOAR_7_2_CERULEANCITY_HOUSE3",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.3",
+    "map": "KantoAR_7_3_CeruleanCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_7_3_CERULEANCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.4",
+    "map": "KantoAR_7_4_CeruleanCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_7_4_CERULEANCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.5",
+    "map": "KantoAR_7_5_CeruleanCity_Gym",
+    "map_id": "MAP_KANTOAR_7_5_CERULEANCITY_GYM",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "7.6",
+    "map": "KantoAR_7_6_CeruleanCity_BikeShop",
+    "map_id": "MAP_KANTOAR_7_6_CERULEANCITY_BIKESHOP",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.7",
+    "map": "KantoAR_7_7_CeruleanCity_Mart",
+    "map_id": "MAP_KANTOAR_7_7_CERULEANCITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "7.8",
+    "map": "KantoAR_7_8_CeruleanCity_House4",
+    "map_id": "MAP_KANTOAR_7_8_CERULEANCITY_HOUSE4",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.9",
+    "map": "KantoAR_7_9_CeruleanCity_House5",
+    "map_id": "MAP_KANTOAR_7_9_CERULEANCITY_HOUSE5",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "8.0",
+    "map": "KantoAR_8_0_LavenderTown_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_8_0_LAVENDERTOWN_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "8.1",
+    "map": "KantoAR_8_1_LavenderTown_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_8_1_LAVENDERTOWN_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "8.2",
+    "map": "KantoAR_8_2_LavenderTown_VolunteerPokemonHouse",
+    "map_id": "MAP_KANTOAR_8_2_LAVENDERTOWN_VOLUNTEERPOKEMONHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "8.3",
+    "map": "KantoAR_8_3_LavenderTown_House1",
+    "map_id": "MAP_KANTOAR_8_3_LAVENDERTOWN_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "8.4",
+    "map": "KantoAR_8_4_LavenderTown_House2",
+    "map_id": "MAP_KANTOAR_8_4_LAVENDERTOWN_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "8.5",
+    "map": "KantoAR_8_5_LavenderTown_Mart",
+    "map_id": "MAP_KANTOAR_8_5_LAVENDERTOWN_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "9.0",
+    "map": "KantoAR_9_0_VermilionCity_House1",
+    "map_id": "MAP_KANTOAR_9_0_VERMILIONCITY_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "9.1",
+    "map": "KantoAR_9_1_VermilionCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_9_1_VERMILIONCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "9.2",
+    "map": "KantoAR_9_2_VermilionCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_9_2_VERMILIONCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "9.3",
+    "map": "KantoAR_9_3_VermilionCity_PokemonFanClub",
+    "map_id": "MAP_KANTOAR_9_3_VERMILIONCITY_POKEMONFANCLUB",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "9.4",
+    "map": "KantoAR_9_4_VermilionCity_House2",
+    "map_id": "MAP_KANTOAR_9_4_VERMILIONCITY_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "9.5",
+    "map": "KantoAR_9_5_VermilionCity_Mart",
+    "map_id": "MAP_KANTOAR_9_5_VERMILIONCITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "9.6",
+    "map": "KantoAR_9_6_VermilionCity_Gym",
+    "map_id": "MAP_KANTOAR_9_6_VERMILIONCITY_GYM",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "9.7",
+    "map": "KantoAR_9_7_VermilionCity_House3",
+    "map_id": "MAP_KANTOAR_9_7_VERMILIONCITY_HOUSE3",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.0",
+    "map": "KantoAR_10_0_CeladonCity_DepartmentStore_1F",
+    "map_id": "MAP_KANTOAR_10_0_CELADONCITY_DEPARTMENTSTORE_1F",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "10.1",
+    "map": "KantoAR_10_1_CeladonCity_DepartmentStore_2F",
+    "map_id": "MAP_KANTOAR_10_1_CELADONCITY_DEPARTMENTSTORE_2F",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "10.2",
+    "map": "KantoAR_10_2_CeladonCity_DepartmentStore_3F",
+    "map_id": "MAP_KANTOAR_10_2_CELADONCITY_DEPARTMENTSTORE_3F",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "10.3",
+    "map": "KantoAR_10_3_CeladonCity_DepartmentStore_4F",
+    "map_id": "MAP_KANTOAR_10_3_CELADONCITY_DEPARTMENTSTORE_4F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.4",
+    "map": "KantoAR_10_4_CeladonCity_DepartmentStore_5F",
+    "map_id": "MAP_KANTOAR_10_4_CELADONCITY_DEPARTMENTSTORE_5F",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "10.5",
+    "map": "KantoAR_10_5_CeladonCity_DepartmentStore_Roof",
+    "map_id": "MAP_KANTOAR_10_5_CELADONCITY_DEPARTMENTSTORE_ROOF",
+    "spawn": [
+      9,
+      7
+    ]
+  },
+  {
+    "donor_id": "10.6",
+    "map": "KantoAR_10_6_CeladonCity_DepartmentStore_Elevator",
+    "map_id": "MAP_KANTOAR_10_6_CELADONCITY_DEPARTMENTSTORE_ELEVATOR",
+    "spawn": [
+      1,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.7",
+    "map": "KantoAR_10_7_CeladonCity_Condominiums_1F",
+    "map_id": "MAP_KANTOAR_10_7_CELADONCITY_CONDOMINIUMS_1F",
+    "spawn": [
+      5,
+      9
+    ]
+  },
+  {
+    "donor_id": "10.8",
+    "map": "KantoAR_10_8_CeladonCity_Condominiums_2F",
+    "map_id": "MAP_KANTOAR_10_8_CELADONCITY_CONDOMINIUMS_2F",
+    "spawn": [
+      10,
+      10
+    ]
+  },
+  {
+    "donor_id": "10.9",
+    "map": "KantoAR_10_9_CeladonCity_Condominiums_3F",
+    "map_id": "MAP_KANTOAR_10_9_CELADONCITY_CONDOMINIUMS_3F",
+    "spawn": [
+      10,
+      10
+    ]
+  },
+  {
+    "donor_id": "10.10",
+    "map": "KantoAR_10_10_CeladonCity_Condominiums_Roof",
+    "map_id": "MAP_KANTOAR_10_10_CELADONCITY_CONDOMINIUMS_ROOF",
+    "spawn": [
+      9,
+      11
+    ]
+  },
+  {
+    "donor_id": "10.11",
+    "map": "KantoAR_10_11_CeladonCity_Condominiums_RoofRoom",
+    "map_id": "MAP_KANTOAR_10_11_CELADONCITY_CONDOMINIUMS_ROOFROOM",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.12",
+    "map": "KantoAR_10_12_CeladonCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_10_12_CELADONCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.13",
+    "map": "KantoAR_10_13_CeladonCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_10_13_CELADONCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.14",
+    "map": "KantoAR_10_14_CeladonCity_GameCorner",
+    "map_id": "MAP_KANTOAR_10_14_CELADONCITY_GAMECORNER",
+    "spawn": [
+      9,
+      7
+    ]
+  },
+  {
+    "donor_id": "10.15",
+    "map": "KantoAR_10_15_CeladonCity_GameCorner_PrizeRoom",
+    "map_id": "MAP_KANTOAR_10_15_CELADONCITY_GAMECORNER_PRIZEROOM",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.16",
+    "map": "KantoAR_10_16_CeladonCity_Gym",
+    "map_id": "MAP_KANTOAR_10_16_CELADONCITY_GYM",
+    "spawn": [
+      6,
+      10
+    ]
+  },
+  {
+    "donor_id": "10.17",
+    "map": "KantoAR_10_17_CeladonCity_Restaurant",
+    "map_id": "MAP_KANTOAR_10_17_CELADONCITY_RESTAURANT",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.18",
+    "map": "KantoAR_10_18_CeladonCity_House1",
+    "map_id": "MAP_KANTOAR_10_18_CELADONCITY_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.19",
+    "map": "KantoAR_10_19_CeladonCity_Hotel",
+    "map_id": "MAP_KANTOAR_10_19_CELADONCITY_HOTEL",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "11.0",
+    "map": "KantoAR_11_0_FuchsiaCity_SafariZone_Entrance",
+    "map_id": "MAP_KANTOAR_11_0_FUCHSIACITY_SAFARIZONE_ENTRANCE",
+    "spawn": [
+      4,
+      4
+    ]
+  },
+  {
+    "donor_id": "11.1",
+    "map": "KantoAR_11_1_FuchsiaCity_Mart",
+    "map_id": "MAP_KANTOAR_11_1_FUCHSIACITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "11.2",
+    "map": "KantoAR_11_2_FuchsiaCity_SafariZone_Office",
+    "map_id": "MAP_KANTOAR_11_2_FUCHSIACITY_SAFARIZONE_OFFICE",
+    "spawn": [
+      12,
+      4
+    ]
+  },
+  {
+    "donor_id": "11.3",
+    "map": "KantoAR_11_3_FuchsiaCity_Gym",
+    "map_id": "MAP_KANTOAR_11_3_FUCHSIACITY_GYM",
+    "spawn": [
+      7,
+      13
+    ]
+  },
+  {
+    "donor_id": "11.4",
+    "map": "KantoAR_11_4_FuchsiaCity_House1",
+    "map_id": "MAP_KANTOAR_11_4_FUCHSIACITY_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "11.5",
+    "map": "KantoAR_11_5_FuchsiaCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_11_5_FUCHSIACITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "11.6",
+    "map": "KantoAR_11_6_FuchsiaCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_11_6_FUCHSIACITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "11.7",
+    "map": "KantoAR_11_7_FuchsiaCity_WardensHouse",
+    "map_id": "MAP_KANTOAR_11_7_FUCHSIACITY_WARDENSHOUSE",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "11.8",
+    "map": "KantoAR_11_8_FuchsiaCity_House2",
+    "map_id": "MAP_KANTOAR_11_8_FUCHSIACITY_HOUSE2",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "11.9",
+    "map": "KantoAR_11_9_FuchsiaCity_House3",
+    "map_id": "MAP_KANTOAR_11_9_FUCHSIACITY_HOUSE3",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "12.0",
+    "map": "KantoAR_12_0_CinnabarIsland_Gym",
+    "map_id": "MAP_KANTOAR_12_0_CINNABARISLAND_GYM",
+    "spawn": [
+      15,
+      12
+    ]
+  },
+  {
+    "donor_id": "12.1",
+    "map": "KantoAR_12_1_CinnabarIsland_PokemonLab_Entrance",
+    "map_id": "MAP_KANTOAR_12_1_CINNABARISLAND_POKEMONLAB_ENTRANCE",
+    "spawn": [
+      14,
+      7
+    ]
+  },
+  {
+    "donor_id": "12.2",
+    "map": "KantoAR_12_2_CinnabarIsland_PokemonLab_Lounge",
+    "map_id": "MAP_KANTOAR_12_2_CINNABARISLAND_POKEMONLAB_LOUNGE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "12.3",
+    "map": "KantoAR_12_3_CinnabarIsland_PokemonLab_ResearchRoom",
+    "map_id": "MAP_KANTOAR_12_3_CINNABARISLAND_POKEMONLAB_RESEARCHROOM",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "12.4",
+    "map": "KantoAR_12_4_CinnabarIsland_PokemonLab_ExperimentRoom",
+    "map_id": "MAP_KANTOAR_12_4_CINNABARISLAND_POKEMONLAB_EXPERIMENTROOM",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "12.5",
+    "map": "KantoAR_12_5_CinnabarIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_12_5_CINNABARISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "12.6",
+    "map": "KantoAR_12_6_CinnabarIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_12_6_CINNABARISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "12.7",
+    "map": "KantoAR_12_7_CinnabarIsland_Mart",
+    "map_id": "MAP_KANTOAR_12_7_CINNABARISLAND_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "13.0",
+    "map": "KantoAR_13_0_IndigoPlateau_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_13_0_INDIGOPLATEAU_POKEMONCENTER_1F",
+    "spawn": [
+      12,
+      12
+    ]
+  },
+  {
+    "donor_id": "13.1",
+    "map": "KantoAR_13_1_IndigoPlateau_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_13_1_INDIGOPLATEAU_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "14.0",
+    "map": "KantoAR_14_0_SaffronCity_CopycatsHouse_1F",
+    "map_id": "MAP_KANTOAR_14_0_SAFFRONCITY_COPYCATSHOUSE_1F",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "14.1",
+    "map": "KantoAR_14_1_SaffronCity_CopycatsHouse_2F",
+    "map_id": "MAP_KANTOAR_14_1_SAFFRONCITY_COPYCATSHOUSE_2F",
+    "spawn": [
+      6,
+      4
+    ]
+  },
+  {
+    "donor_id": "14.2",
+    "map": "KantoAR_14_2_SaffronCity_Dojo",
+    "map_id": "MAP_KANTOAR_14_2_SAFFRONCITY_DOJO",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "14.3",
+    "map": "KantoAR_14_3_SaffronCity_Gym",
+    "map_id": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+    "spawn": [
+      14,
+      12
+    ]
+  },
+  {
+    "donor_id": "14.4",
+    "map": "KantoAR_14_4_SaffronCity_House",
+    "map_id": "MAP_KANTOAR_14_4_SAFFRONCITY_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "14.5",
+    "map": "KantoAR_14_5_SaffronCity_Mart",
+    "map_id": "MAP_KANTOAR_14_5_SAFFRONCITY_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "14.6",
+    "map": "KantoAR_14_6_SaffronCity_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_14_6_SAFFRONCITY_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "14.7",
+    "map": "KantoAR_14_7_SaffronCity_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_14_7_SAFFRONCITY_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "14.8",
+    "map": "KantoAR_14_8_SaffronCity_MrPsychicsHouse",
+    "map_id": "MAP_KANTOAR_14_8_SAFFRONCITY_MRPSYCHICSHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "14.9",
+    "map": "KantoAR_14_9_SaffronCity_PokemonTrainerFanClub",
+    "map_id": "MAP_KANTOAR_14_9_SAFFRONCITY_POKEMONTRAINERFANCLUB",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "15.0",
+    "map": "KantoAR_15_0_Route2_ViridianForest_SouthEntrance",
+    "map_id": "MAP_KANTOAR_15_0_ROUTE2_VIRIDIANFOREST_SOUTHENTRANCE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "15.1",
+    "map": "KantoAR_15_1_Route2_House",
+    "map_id": "MAP_KANTOAR_15_1_ROUTE2_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "15.2",
+    "map": "KantoAR_15_2_Route2_EastBuilding",
+    "map_id": "MAP_KANTOAR_15_2_ROUTE2_EASTBUILDING",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "15.3",
+    "map": "KantoAR_15_3_Route2_ViridianForest_NorthEntrance",
+    "map_id": "MAP_KANTOAR_15_3_ROUTE2_VIRIDIANFOREST_NORTHENTRANCE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "16.0",
+    "map": "KantoAR_16_0_Route4_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_16_0_ROUTE4_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "16.1",
+    "map": "KantoAR_16_1_Route4_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_16_1_ROUTE4_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "17.0",
+    "map": "KantoAR_17_0_Route5_PokemonDayCare",
+    "map_id": "MAP_KANTOAR_17_0_ROUTE5_POKEMONDAYCARE",
+    "spawn": [
+      6,
+      3
+    ]
+  },
+  {
+    "donor_id": "17.1",
+    "map": "KantoAR_17_1_Route5_SouthEntrance",
+    "map_id": "MAP_KANTOAR_17_1_ROUTE5_SOUTHENTRANCE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "18.0",
+    "map": "KantoAR_18_0_Route6_NorthEntrance",
+    "map_id": "MAP_KANTOAR_18_0_ROUTE6_NORTHENTRANCE",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "18.1",
+    "map": "KantoAR_18_1_Route6_UnusedHouse",
+    "map_id": "MAP_KANTOAR_18_1_ROUTE6_UNUSEDHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "19.0",
+    "map": "KantoAR_19_0_Route7_EastEntrance",
+    "map_id": "MAP_KANTOAR_19_0_ROUTE7_EASTENTRANCE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "20.0",
+    "map": "KantoAR_20_0_Route8_WestEntrance",
+    "map_id": "MAP_KANTOAR_20_0_ROUTE8_WESTENTRANCE",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "21.0",
+    "map": "KantoAR_21_0_Route10_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_21_0_ROUTE10_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "21.1",
+    "map": "KantoAR_21_1_Route10_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_21_1_ROUTE10_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "22.0",
+    "map": "KantoAR_22_0_Route11_EastEntrance_1F",
+    "map_id": "MAP_KANTOAR_22_0_ROUTE11_EASTENTRANCE_1F",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "22.1",
+    "map": "KantoAR_22_1_Route11_EastEntrance_2F",
+    "map_id": "MAP_KANTOAR_22_1_ROUTE11_EASTENTRANCE_2F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "23.0",
+    "map": "KantoAR_23_0_Route12_NorthEntrance_1F",
+    "map_id": "MAP_KANTOAR_23_0_ROUTE12_NORTHENTRANCE_1F",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "23.1",
+    "map": "KantoAR_23_1_Route12_NorthEntrance_2F",
+    "map_id": "MAP_KANTOAR_23_1_ROUTE12_NORTHENTRANCE_2F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "23.2",
+    "map": "KantoAR_23_2_Route12_FishingHouse",
+    "map_id": "MAP_KANTOAR_23_2_ROUTE12_FISHINGHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "24.0",
+    "map": "KantoAR_24_0_Route15_WestEntrance_1F",
+    "map_id": "MAP_KANTOAR_24_0_ROUTE15_WESTENTRANCE_1F",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "24.1",
+    "map": "KantoAR_24_1_Route15_WestEntrance_2F",
+    "map_id": "MAP_KANTOAR_24_1_ROUTE15_WESTENTRANCE_2F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "25.0",
+    "map": "KantoAR_25_0_Route16_House",
+    "map_id": "MAP_KANTOAR_25_0_ROUTE16_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "25.1",
+    "map": "KantoAR_25_1_Route16_NorthEntrance_1F",
+    "map_id": "MAP_KANTOAR_25_1_ROUTE16_NORTHENTRANCE_1F",
+    "spawn": [
+      6,
+      11
+    ]
+  },
+  {
+    "donor_id": "25.2",
+    "map": "KantoAR_25_2_Route16_NorthEntrance_2F",
+    "map_id": "MAP_KANTOAR_25_2_ROUTE16_NORTHENTRANCE_2F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "26.0",
+    "map": "KantoAR_26_0_Route18_EastEntrance_1F",
+    "map_id": "MAP_KANTOAR_26_0_ROUTE18_EASTENTRANCE_1F",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "26.1",
+    "map": "KantoAR_26_1_Route18_EastEntrance_2F",
+    "map_id": "MAP_KANTOAR_26_1_ROUTE18_EASTENTRANCE_2F",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "27.0",
+    "map": "KantoAR_27_0_Route19_UnusedHouse",
+    "map_id": "MAP_KANTOAR_27_0_ROUTE19_UNUSEDHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "28.0",
+    "map": "KantoAR_28_0_Route22_NorthEntrance",
+    "map_id": "MAP_KANTOAR_28_0_ROUTE22_NORTHENTRANCE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "29.0",
+    "map": "KantoAR_29_0_Route23_UnusedHouse",
+    "map_id": "MAP_KANTOAR_29_0_ROUTE23_UNUSEDHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "30.0",
+    "map": "KantoAR_30_0_Route25_SeaCottage",
+    "map_id": "MAP_KANTOAR_30_0_ROUTE25_SEACOTTAGE",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "31.0",
+    "map": "KantoAR_31_0_SevenIsland_House_Room1",
+    "map_id": "MAP_KANTOAR_31_0_SEVENISLAND_HOUSE_ROOM1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "31.1",
+    "map": "KantoAR_31_1_SevenIsland_House_Room2",
+    "map_id": "MAP_KANTOAR_31_1_SEVENISLAND_HOUSE_ROOM2",
+    "spawn": [
+      6,
+      4
+    ]
+  },
+  {
+    "donor_id": "31.2",
+    "map": "KantoAR_31_2_SevenIsland_Mart",
+    "map_id": "MAP_KANTOAR_31_2_SEVENISLAND_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "31.3",
+    "map": "KantoAR_31_3_SevenIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_31_3_SEVENISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "31.4",
+    "map": "KantoAR_31_4_SevenIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_31_4_SEVENISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "31.5",
+    "map": "KantoAR_31_5_SevenIsland_UnusedHouse",
+    "map_id": "MAP_KANTOAR_31_5_SEVENISLAND_UNUSEDHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "31.6",
+    "map": "KantoAR_31_6_SevenIsland_Harbor",
+    "map_id": "MAP_KANTOAR_31_6_SEVENISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "32.0",
+    "map": "KantoAR_32_0_OneIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_32_0_ONEISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      9,
+      5
+    ]
+  },
+  {
+    "donor_id": "32.1",
+    "map": "KantoAR_32_1_OneIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_32_1_ONEISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "32.2",
+    "map": "KantoAR_32_2_OneIsland_House1",
+    "map_id": "MAP_KANTOAR_32_2_ONEISLAND_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "32.3",
+    "map": "KantoAR_32_3_OneIsland_House2",
+    "map_id": "MAP_KANTOAR_32_3_ONEISLAND_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "32.4",
+    "map": "KantoAR_32_4_OneIsland_Harbor",
+    "map_id": "MAP_KANTOAR_32_4_ONEISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "33.0",
+    "map": "KantoAR_33_0_TwoIsland_JoyfulGameCorner",
+    "map_id": "MAP_KANTOAR_33_0_TWOISLAND_JOYFULGAMECORNER",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "33.1",
+    "map": "KantoAR_33_1_TwoIsland_House",
+    "map_id": "MAP_KANTOAR_33_1_TWOISLAND_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "33.2",
+    "map": "KantoAR_33_2_TwoIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_33_2_TWOISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "33.3",
+    "map": "KantoAR_33_3_TwoIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_33_3_TWOISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "33.4",
+    "map": "KantoAR_33_4_TwoIsland_Harbor",
+    "map_id": "MAP_KANTOAR_33_4_TWOISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "34.0",
+    "map": "KantoAR_34_0_ThreeIsland_House1",
+    "map_id": "MAP_KANTOAR_34_0_THREEISLAND_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "34.1",
+    "map": "KantoAR_34_1_ThreeIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_34_1_THREEISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "34.2",
+    "map": "KantoAR_34_2_ThreeIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_34_2_THREEISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "34.3",
+    "map": "KantoAR_34_3_ThreeIsland_Mart",
+    "map_id": "MAP_KANTOAR_34_3_THREEISLAND_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "34.4",
+    "map": "KantoAR_34_4_ThreeIsland_House2",
+    "map_id": "MAP_KANTOAR_34_4_THREEISLAND_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "34.5",
+    "map": "KantoAR_34_5_ThreeIsland_House3",
+    "map_id": "MAP_KANTOAR_34_5_THREEISLAND_HOUSE3",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "34.6",
+    "map": "KantoAR_34_6_ThreeIsland_House4",
+    "map_id": "MAP_KANTOAR_34_6_THREEISLAND_HOUSE4",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "34.7",
+    "map": "KantoAR_34_7_ThreeIsland_House5",
+    "map_id": "MAP_KANTOAR_34_7_THREEISLAND_HOUSE5",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "35.0",
+    "map": "KantoAR_35_0_FourIsland_PokemonDayCare",
+    "map_id": "MAP_KANTOAR_35_0_FOURISLAND_POKEMONDAYCARE",
+    "spawn": [
+      6,
+      4
+    ]
+  },
+  {
+    "donor_id": "35.1",
+    "map": "KantoAR_35_1_FourIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_35_1_FOURISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "35.2",
+    "map": "KantoAR_35_2_FourIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_35_2_FOURISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "35.3",
+    "map": "KantoAR_35_3_FourIsland_House1",
+    "map_id": "MAP_KANTOAR_35_3_FOURISLAND_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "35.4",
+    "map": "KantoAR_35_4_FourIsland_LoreleisHouse",
+    "map_id": "MAP_KANTOAR_35_4_FOURISLAND_LORELEISHOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "35.5",
+    "map": "KantoAR_35_5_FourIsland_Harbor",
+    "map_id": "MAP_KANTOAR_35_5_FOURISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "35.6",
+    "map": "KantoAR_35_6_FourIsland_House2",
+    "map_id": "MAP_KANTOAR_35_6_FOURISLAND_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "35.7",
+    "map": "KantoAR_35_7_FourIsland_Mart",
+    "map_id": "MAP_KANTOAR_35_7_FOURISLAND_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "36.0",
+    "map": "KantoAR_36_0_FiveIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_36_0_FIVEISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "36.1",
+    "map": "KantoAR_36_1_FiveIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_36_1_FIVEISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "36.2",
+    "map": "KantoAR_36_2_FiveIsland_Harbor",
+    "map_id": "MAP_KANTOAR_36_2_FIVEISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "36.3",
+    "map": "KantoAR_36_3_FiveIsland_House1",
+    "map_id": "MAP_KANTOAR_36_3_FIVEISLAND_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "36.4",
+    "map": "KantoAR_36_4_FiveIsland_House2",
+    "map_id": "MAP_KANTOAR_36_4_FIVEISLAND_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "37.0",
+    "map": "KantoAR_37_0_SixIsland_PokemonCenter_1F",
+    "map_id": "MAP_KANTOAR_37_0_SIXISLAND_POKEMONCENTER_1F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "37.1",
+    "map": "KantoAR_37_1_SixIsland_PokemonCenter_2F",
+    "map_id": "MAP_KANTOAR_37_1_SIXISLAND_POKEMONCENTER_2F",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "37.2",
+    "map": "KantoAR_37_2_SixIsland_Harbor",
+    "map_id": "MAP_KANTOAR_37_2_SIXISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "37.3",
+    "map": "KantoAR_37_3_SixIsland_House",
+    "map_id": "MAP_KANTOAR_37_3_SIXISLAND_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "37.4",
+    "map": "KantoAR_37_4_SixIsland_Mart",
+    "map_id": "MAP_KANTOAR_37_4_SIXISLAND_MART",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "38.0",
+    "map": "KantoAR_38_0_ThreeIsland_Harbor",
+    "map_id": "MAP_KANTOAR_38_0_THREEISLAND_HARBOR",
+    "spawn": [
+      8,
+      5
+    ]
+  },
+  {
+    "donor_id": "39.0",
+    "map": "KantoAR_39_0_FiveIsland_ResortGorgeous_House",
+    "map_id": "MAP_KANTOAR_39_0_FIVEISLAND_RESORTGORGEOUS_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "40.0",
+    "map": "KantoAR_40_0_TwoIsland_CapeBrink_House",
+    "map_id": "MAP_KANTOAR_40_0_TWOISLAND_CAPEBRINK_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "41.0",
+    "map": "KantoAR_41_0_SixIsland_WaterPath_House1",
+    "map_id": "MAP_KANTOAR_41_0_SIXISLAND_WATERPATH_HOUSE1",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "41.1",
+    "map": "KantoAR_41_1_SixIsland_WaterPath_House2",
+    "map_id": "MAP_KANTOAR_41_1_SIXISLAND_WATERPATH_HOUSE2",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "42.0",
+    "map": "KantoAR_42_0_SevenIsland_SevaultCanyon_House",
+    "map_id": "MAP_KANTOAR_42_0_SEVENISLAND_SEVAULTCANYON_HOUSE",
+    "spawn": [
+      4,
+      3
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "MAP_GSJOHTO_1_17_S_S_ANNE",
+  "name": "Johto_S_S_Anne_Interior_11",
+  "layout": "LAYOUT_GSJOHTO_1_17_S_S_ANNE",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_JOHTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

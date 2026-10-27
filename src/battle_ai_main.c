@@ -1,4 +1,6 @@
 #include "global.h"
+#include "constants/flags.h"
+#include "event_data.h"
 #include "main.h"
 #include "malloc.h"
 #include "battle.h"
@@ -6724,7 +6726,7 @@ static s32 AI_Safari(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
 // First battle logic
 static s32 AI_FirstBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, s32 score)
 {
-    if (!IS_FRLG && gAiLogicData->hpPercents[battlerDef] <= 20)
+    if (!IS_FRLG && !FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) && gAiLogicData->hpPercents[battlerDef] <= 20)
         AI_Flee();
 
     return score;

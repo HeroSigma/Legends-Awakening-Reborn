@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeRoomWildMons_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoomWildMons_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeRoomWildMons_OnFrame
@@ -40,3 +42,22 @@ BattleFrontier_BattlePikeRoomWildMons_EventScript_SetLost::
 	setvar VAR_TEMP_1, 1
 	end
 
+
+#else
+BattleFrontier_BattlePikeRoomWildMons_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeRoomWildMons_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_EventScript_SetInWildMonRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomWildMons_EventScript_SetLost::
+	goto EventScript_LegacyFeatureDisabled
+#endif

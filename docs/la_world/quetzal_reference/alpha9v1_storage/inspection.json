@@ -1,0 +1,47 @@
+{
+  "rom_path": "/mnt/c/Users/aadair/Downloads/Quetzal English Alpha 9v1.gba",
+  "rom_bytes": 33554432,
+  "rom_sha256": "74bd8f7be7647c3a5088e5df300d8144b93dff624c98e0a4a0b6d19bd25179a5",
+  "flash_library_marker": "FLASH1M_V103",
+  "mode_getter": "0x08137ED4",
+  "count_getter": "0x08137F00",
+  "metadata_predicate": "0x08137898",
+  "warning_nickname_pointer": "0x0928BF9C",
+  "warning_truncation_pointer": "0x0928BFD0",
+  "record_clear_function": "0x0813857C",
+  "modes": [
+    {
+      "format_mode": 0,
+      "metadata_predicate": 1,
+      "record_bytes": 38,
+      "boxes": 37
+    },
+    {
+      "format_mode": 0,
+      "metadata_predicate": 0,
+      "record_bytes": 31,
+      "boxes": 45
+    },
+    {
+      "format_mode": 1,
+      "metadata_predicate": 1,
+      "record_bytes": 28,
+      "boxes": 50
+    },
+    {
+      "format_mode": 1,
+      "metadata_predicate": 0,
+      "record_bytes": 21,
+      "boxes": 67
+    }
+  ],
+  "reborn_rom_matches_previous_release": true,
+  "user_battery_opened_by_test": false,
+  "permanent_rom_or_save_written": false,
+  "unknowns": [
+    "Full field reconstruction semantics",
+    "Meaning of metadata predicate/settings",
+    "Full-capacity save integrity",
+    "Whether any donor gameplay system is sacrificed for storage"
+  ]
+}

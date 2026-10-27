@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeThreePathRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoom_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeThreePathRoom_OnFrame
@@ -365,3 +367,128 @@ BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
 	.string "From every path I sense a dreadful\n"
 	.string "presence…$"
+
+#else
+BattleFrontier_BattlePikeThreePathRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeThreePathRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom5::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom7::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom9::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom11::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AttendantRoom13::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AskContinueChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AskSaveChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_SetHintRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_SetPikeQueenHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GivePikeQueenHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_HintGiver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_DeclineHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_AcceptHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveLeftRoomHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveCenterRoomHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveRightRoomHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_HintNostalgia::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_HintWhispering::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_HintPokemon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_HintPeople::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveBrainHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
+	.string "This feature is disabled in this build.$"
+#endif

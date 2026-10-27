@@ -1,0 +1,23 @@
+{
+  "format": "Reborn Donor Preservation v1",
+  "donor": "aestheticred",
+  "rom": {
+    "path": "/mnt/c/Users/aadair/Downloads/aestheticred-ds-normal-v1.2.gba",
+    "title": "POKEMON FIRE",
+    "game_code": "BPRE",
+    "size": 33554432,
+    "sha256": "01f0ae917a9de97b3459f68b4a6d08c03ce09f8e1fef5675d71edc610b12821e"
+  },
+  "maps": 425,
+  "tilesets": 62,
+  "object_graphics_ids": 152,
+  "object_art_candidates": 176,
+  "static_graphics_table_size": 176,
+  "art_ids_catalogued": 184,
+  "animation_headers": 61,
+  "animation_callbacks_pending": 6,
+  "behavior_high_ids": 2399,
+  "gameplay_imported": false,
+  "new_live_maps": 0,
+  "status": "SOURCE_AND_EDITOR_PRESERVED_RUNTIME_ASSET_CLOSURE_PENDING"
+}

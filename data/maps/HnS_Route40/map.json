@@ -1,0 +1,432 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_RAIN",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_ROUTE40",
+  "name": "HnS_Route40",
+  "layout": "LAYOUT_HNS_REGION_ROUTE40",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [
+    {
+      "map": "MAP_HNS_REGION_OLIVINECITY",
+      "offset": -32,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_HNS_REGION_ROUTE41",
+      "offset": -25,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_HNS_REGION_TRAINERHILL_COURTYARD",
+      "offset": -2,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+      "x": 16,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+      "x": 13,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SWIMMER_F_HNS",
+      "x": 11,
+      "y": 41,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_5"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BOY_2_HNS",
+      "x": 25,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_WOMAN_2_HNS",
+      "x": 21,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_7"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SWIMMER_M_HNS",
+      "x": 13,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_8"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SWIMMER_F_HNS",
+      "x": 26,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_9"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SWIMMER_M_HNS",
+      "x": 22,
+      "y": 50,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(KRABBY)",
+      "x": 16,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_11"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(KRABBY)",
+      "x": 19,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_12"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(KRABBY)",
+      "x": 30,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_13"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(TEDDIURSA)",
+      "x": 2,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_14"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SHELLDER)",
+      "x": 24,
+      "y": 37,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_15"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SHELLDER)",
+      "x": 25,
+      "y": 50,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(TENTACOOL)",
+      "x": 7,
+      "y": 32,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SHELLDER)",
+      "x": 4,
+      "y": 47,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(TENTACOOL)",
+      "x": 27,
+      "y": 43,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_19"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_LASS_HNS",
+      "x": 19,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ROUTE40_20"
+    },
+    {
+      "local_id": "LOCALID_HNS_ROUTE40_21",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 20,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_Route40_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 13,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 14,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 15,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 16,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 17,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 18,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 19,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 20,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE41",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 18,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

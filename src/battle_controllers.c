@@ -31,6 +31,8 @@
 #include "util.h"
 #include "wild_encounter.h"
 #include "constants/abilities.h"
+#include "constants/flags.h"
+#include "constants/moves.h"
 #include "constants/item_effects.h"
 #include "constants/songs.h"
 #include "test/battle.h"
@@ -160,7 +162,20 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     BattleAI_SetupFlags();
 
     if (!IS_FRLG && gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
-        CreateWildMon(SPECIES_ZIGZAGOON, 2);
+    {
+        if (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+        {
+            // A fixed story opponent bypasses route/time/badge encounter pools.
+            CreateWildMon(SPECIES_IRON_VALIANT, 100);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_AERIAL_ACE, 0);
+            for (u32 i = 1; i < MAX_MON_MOVES; i++)
+                SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_NONE, i);
+        }
+        else
+        {
+            CreateWildMon(SPECIES_ZIGZAGOON, 2);
+        }
+    }
 }
 
 void InitBattleControllers(void)

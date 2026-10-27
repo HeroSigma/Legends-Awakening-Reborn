@@ -22,6 +22,7 @@ LittlerootTown_ProfessorBirchsLab_MapScripts::
 LittlerootTown_ProfessorBirchsLab_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
+	call LegendsArc_SetupLab
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout
 	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter
@@ -105,6 +106,7 @@ LittlerootTown_ProfessorBirchsLab_OnFrame:
 @ The starter is technically given prior to this on Route 101 by special ChooseStarter
 @ This is just where the game tells you its yours and lets you nickname it
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent::
+	goto_if_set FLAG_LA_MET_RED, LegendsArc_LabIntro
 	lockall
 	bufferleadmonspeciesname STR_VAR_1
 	message LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon
@@ -461,6 +463,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter::
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_Birch::
+	goto_if_eq VAR_LA_LITTLEROOT_ARC, 3, LegendsArc_ResumeDex
 	lock
 	faceplayer
 	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_CanHaveAnyOneOfRarePokemon
@@ -504,6 +507,7 @@ EventScript_RegisterProfBirch::
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
+	goto_if_set FLAG_LA_RED_ROUTE103_COMPLETE, LegendsArc_DexGifts
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex, MSGBOX_DEFAULT
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT

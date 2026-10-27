@@ -399,7 +399,7 @@ static bool32 AnyMonHasRibbon(void)
         }
     }
 
-    for (j = 0; j < TOTAL_BOXES_COUNT; j++)
+    for (j = 0; j < GetStorageBoxCount(); j++)
     {
         for (i = 0; i < IN_BOX_COUNT; i++)
         {

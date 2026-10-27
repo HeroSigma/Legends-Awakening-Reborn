@@ -9345,6 +9345,13 @@ bool32 CanStealItem(enum BattlerId battlerStealing, enum BattlerId battlerItem, 
         return FALSE;
     }
 
+    // Player theft from wild opponents can collect protected equipment.
+    // Keep Sticky Hold, empty-hand and damage checks in the native move handler.
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_LINK | BATTLE_TYPE_FRONTIER))
+     && stealerSide == B_SIDE_PLAYER && GetBattlerSide(battlerItem) == B_SIDE_OPPONENT
+     && (GetItemHoldEffect(item) == HOLD_EFFECT_MEGA_STONE || GetItemHoldEffect(item) == HOLD_EFFECT_Z_CRYSTAL))
+        return TRUE;
+
     if (!CanBattlerGetOrLoseItem(battlerItem, battlerStealing, item)  // Battler with item cannot have it stolen
      || !CanBattlerGetOrLoseItem(battlerStealing, battlerItem, item)) // Stealer cannot take the item
         return FALSE;

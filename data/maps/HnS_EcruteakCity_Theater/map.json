@@ -1,0 +1,292 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_ECRUTEAKCITY_THEATER",
+  "name": "HnS_EcruteakCity_Theater",
+  "layout": "LAYOUT_HNS_REGION_ECRUTEAKCITY_THEATER",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_1",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_2",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_3",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "x": 13,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_4",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "x": 15,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_5",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_OLD_WOMAN_HNS",
+      "x": 7,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_6"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_7",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_GENTLEMAN_HNS",
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_WORKER_M_HNS",
+      "x": 17,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_8"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PSYDUCK)",
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_9"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_OLD_MAN_HNS",
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_10"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_11",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_TWIN_HNS",
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_12",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_ROCKET_M_HNS",
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ECRUTEAKCITY_THEATER_13",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 9,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_EcruteakCity_Theater_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ECRUTEAKCITY",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

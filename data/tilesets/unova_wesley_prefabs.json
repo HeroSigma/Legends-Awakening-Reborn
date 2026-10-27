@@ -1,0 +1,8301 @@
+[
+  {
+    "name": "Unova - ForestInterior",
+    "width": 2,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 52,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 53,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 54,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 55,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - TreeNature",
+    "width": 2,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 62,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 63,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 64,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 65,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 66,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 67,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - CoastalCliff",
+    "width": 1,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 68,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 69,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - SandyShore",
+    "width": 1,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 70,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 71,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - ForestVerticalCluster",
+    "width": 2,
+    "height": 4,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 72,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 73,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 74,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 75,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 76,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 77,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "metatile_id": 78,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "metatile_id": 79,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - ForestHorizontalCluster",
+    "width": 4,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 80,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 81,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 82,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 83,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 84,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 85,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 86,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 87,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 88,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 89,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "metatile_id": 90,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "metatile_id": 91,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - ForestPartialLeft",
+    "width": 1,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 92,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 93,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 94,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - ForestPartialRight",
+    "width": 1,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 95,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 96,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 97,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - StoneSign",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 120,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Ocean",
+    "width": 2,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 150,
+        "collision": 0,
+        "elevation": 1
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 151,
+        "collision": 0,
+        "elevation": 1
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 152,
+        "collision": 0,
+        "elevation": 1
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 153,
+        "collision": 0,
+        "elevation": 1
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse",
+    "width": 5,
+    "height": 6,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 512,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 513,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 514,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 515,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 516,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 517,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 518,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 519,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 520,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "metatile_id": 521,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 522,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 523,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "metatile_id": 524,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "metatile_id": 525,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "metatile_id": 526,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "metatile_id": 527,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "metatile_id": 528,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "metatile_id": 529,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "metatile_id": 530,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "metatile_id": 531,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "metatile_id": 532,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "metatile_id": 533,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "metatile_id": 534,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "metatile_id": 535,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "metatile_id": 536,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "metatile_id": 537,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "metatile_id": 538,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "metatile_id": 539,
+        "collision": 0,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "metatile_id": 540,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "metatile_id": 541,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory",
+    "width": 10,
+    "height": 7,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 542,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 543,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 544,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 545,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 546,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 547,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 548,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 549,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 550,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 551,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 552,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 553,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 554,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 555,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "metatile_id": 556,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "metatile_id": 557,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "metatile_id": 558,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "metatile_id": 559,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "metatile_id": 560,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "metatile_id": 561,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 562,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 563,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "metatile_id": 564,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "metatile_id": 565,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "metatile_id": 566,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "metatile_id": 567,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "metatile_id": 568,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "metatile_id": 569,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "metatile_id": 570,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "metatile_id": 571,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "metatile_id": 572,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "metatile_id": 573,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "metatile_id": 574,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "metatile_id": 575,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "metatile_id": 576,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "metatile_id": 577,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "metatile_id": 578,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "metatile_id": 579,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "metatile_id": 580,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "metatile_id": 581,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "metatile_id": 582,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "metatile_id": 583,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "metatile_id": 584,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "metatile_id": 585,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "metatile_id": 586,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "metatile_id": 587,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "metatile_id": 588,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "metatile_id": 589,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "metatile_id": 590,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "metatile_id": 591,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "metatile_id": 592,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "metatile_id": 593,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "metatile_id": 594,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "metatile_id": 595,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "metatile_id": 596,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "metatile_id": 597,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "metatile_id": 598,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "metatile_id": 599,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "metatile_id": 600,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "metatile_id": 601,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "metatile_id": 602,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "metatile_id": 603,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "metatile_id": 604,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "metatile_id": 605,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "metatile_id": 606,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "metatile_id": 607,
+        "collision": 0,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "metatile_id": 608,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "metatile_id": 609,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "metatile_id": 610,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "metatile_id": 611,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Mailbox",
+    "width": 1,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 612,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 613,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Hedge",
+    "width": 1,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 614,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 615,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 616,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - TownSign",
+    "width": 2,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 617,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 618,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 619,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 620,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BoardwalkBack",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 623,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BoardwalkDeck",
+    "width": 2,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 624,
+        "collision": 0,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 625,
+        "collision": 0,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 626,
+        "collision": 0,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 627,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BoardwalkFront",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 628,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BoardwalkSupport",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 629,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse_RoofTop",
+    "width": 5,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 512,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 513,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 514,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 515,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 516,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse_RoofMiddle",
+    "width": 5,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 517,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 518,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 519,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 520,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 521,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 522,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 523,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 524,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 525,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "metatile_id": 526,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse_Eaves",
+    "width": 5,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 527,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 528,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 529,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 530,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 531,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse_WindowsWalls",
+    "width": 5,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 532,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 533,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 534,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 535,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 536,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - BlueHouse_DoorBase",
+    "width": 5,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 537,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 538,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 539,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 540,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 541,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory_ChimneyRoofTop",
+    "width": 10,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 542,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 543,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 544,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 545,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 546,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 547,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 548,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 549,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 550,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 551,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 552,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 553,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 554,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 555,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "metatile_id": 556,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "metatile_id": 557,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "metatile_id": 558,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "metatile_id": 559,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "metatile_id": 560,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "metatile_id": 561,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory_RoofMiddle",
+    "width": 10,
+    "height": 2,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 562,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 563,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 564,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 565,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 566,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 567,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 568,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 569,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 570,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 571,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 572,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 573,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "metatile_id": 574,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "metatile_id": 575,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "metatile_id": 576,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "metatile_id": 577,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "metatile_id": 578,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "metatile_id": 579,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "metatile_id": 580,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "metatile_id": 581,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory_DormerEaves",
+    "width": 10,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 582,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 583,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 584,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 585,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 586,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 587,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 588,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 589,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 590,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 591,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory_WindowsWalls",
+    "width": 10,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 592,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 593,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 594,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 595,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 596,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 597,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 598,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 599,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 600,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 601,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Laboratory_EntranceBase",
+    "width": 10,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 602,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 603,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "metatile_id": 604,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "metatile_id": 605,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "metatile_id": 606,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "metatile_id": 607,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "metatile_id": 608,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "metatile_id": 609,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "metatile_id": 610,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "metatile_id": 611,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Tree",
+    "width": 2,
+    "height": 3,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 56,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "metatile_id": 57,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "metatile_id": 58,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "metatile_id": 59,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "metatile_id": 60,
+        "collision": 1,
+        "elevation": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "metatile_id": 61,
+        "collision": 1,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Unova - Grass",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaGeneral_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvema_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 0,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 0,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 1,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 2,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 3,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 4,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 5,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 6,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 7,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 8,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 9,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 10,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 11,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 12,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 13,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 14,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,0) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 15,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 16,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 17,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 18,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 19,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 20,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 21,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 22,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 23,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 24,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 25,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 26,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 27,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 28,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 29,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 30,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,16) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 31,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 32,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 33,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 34,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 35,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 36,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 37,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 38,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 39,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 40,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 41,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 42,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 43,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 44,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 45,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,32) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 46,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 47,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 48,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 49,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 50,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 51,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 52,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 53,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 54,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 55,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 56,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 57,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 58,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 59,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 60,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,48) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 61,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 62,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 63,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 64,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 65,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 66,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 67,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 68,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 69,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 70,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 71,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 72,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 73,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 74,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 75,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,64) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 76,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 77,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 78,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 79,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 80,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 81,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 82,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 83,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 84,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 85,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 86,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 87,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 88,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 89,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,80) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 90,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 91,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 92,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 93,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 94,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 95,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 96,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 97,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 98,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 99,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 100,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 101,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 102,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,96) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 103,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 104,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 105,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 106,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 107,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 108,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 109,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 110,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 111,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 112,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 113,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 114,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,112) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 115,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,144) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 116,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,144) page 1",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal1_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal1_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 117,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,112) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 0,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 1,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 2,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 3,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 4,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 5,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 6,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 7,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 8,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 9,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 10,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 11,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 12,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 13,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 14,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 15,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 16,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 17,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 18,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 19,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 20,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 21,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 22,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 23,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 24,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 25,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 26,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 27,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 28,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 29,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 30,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 31,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 32,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 33,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 34,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 35,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 36,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 37,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 38,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (176,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 39,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 40,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 41,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 42,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,160) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 43,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 44,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 45,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 46,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 47,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 48,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 49,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 50,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,176) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 51,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 52,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 53,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 54,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 55,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 56,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,192) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 57,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 58,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 59,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 60,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 61,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 62,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 63,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 64,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 65,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 66,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 67,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 68,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 69,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 70,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 71,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,208) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 72,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 73,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 74,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 75,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 76,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 77,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 78,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 79,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 80,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 81,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 82,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 83,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (192,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 84,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (208,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 85,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (224,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 86,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (240,224) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 87,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (0,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 88,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (16,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 89,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (32,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 90,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (48,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 91,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (64,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 92,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (80,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 93,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (96,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 94,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (112,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 95,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (128,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 96,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (144,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 97,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema.png (160,240) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 98,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,0) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 99,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,0) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 100,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,0) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 101,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,0) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 102,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,0) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 103,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 104,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 105,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 106,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 107,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 108,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 109,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 110,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 111,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 112,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 113,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 114,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,16) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 115,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 116,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 117,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 118,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 119,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 120,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 121,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 122,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 123,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 124,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 125,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 126,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 127,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 128,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,32) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 129,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 130,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 131,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 132,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 133,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 134,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 135,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 136,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 137,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 138,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 139,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 140,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 141,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 142,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,48) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 143,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 144,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 145,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 146,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 147,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 148,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 149,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 150,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 151,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 152,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 153,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 154,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 155,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 156,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,64) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 157,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 158,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 159,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 160,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 161,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 162,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 163,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 164,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 165,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 166,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 167,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 168,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 169,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 170,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,80) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 171,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 512,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 513,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 514,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 515,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 516,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 517,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 518,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 519,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,96) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 520,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,112) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 521,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,112) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 522,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 523,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 524,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 525,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 526,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 527,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 528,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 529,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 530,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 531,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 532,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 533,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 534,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,128) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 535,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 536,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 537,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 538,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,144) page 2",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal2_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal2_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 539,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 0,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 1,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 2,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 3,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 4,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 5,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 6,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,144) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 7,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 8,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 9,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 10,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 11,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 12,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 13,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 14,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 15,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 16,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 17,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 18,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 19,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 20,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 21,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 22,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (240,160) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 23,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 24,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 25,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 26,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 27,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 28,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 29,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 30,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 31,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 32,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 33,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 34,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 35,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 36,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 37,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 38,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (240,176) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 39,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (0,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 40,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (16,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 41,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (32,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 42,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (48,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 43,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (64,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 44,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (80,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 45,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (96,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 46,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (112,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 47,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 48,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 49,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 50,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 51,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 52,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 53,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 54,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (240,192) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 55,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (128,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 56,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (144,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 57,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (160,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 58,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 59,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 60,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (208,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 61,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (224,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 62,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (240,208) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 63,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (176,224) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 64,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  },
+  {
+    "name": "Original sheet - Nuvema Second.png (192,224) page 3",
+    "width": 1,
+    "height": 1,
+    "primary_tileset": "gTileset_UnovaNuvemaOriginal3_Primary",
+    "secondary_tileset": "gTileset_UnovaNuvemaOriginal3_Secondary",
+    "metatiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "metatile_id": 65,
+        "collision": 0,
+        "elevation": 3
+      }
+    ]
+  }
+]

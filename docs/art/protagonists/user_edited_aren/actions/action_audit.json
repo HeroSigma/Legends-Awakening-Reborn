@@ -1,0 +1,663 @@
+[
+  {
+    "action": "running",
+    "frame_size": [
+      16,
+      32
+    ],
+    "frame_count": 9,
+    "adapted": 9,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.312,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.312,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.312,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "mach_bike",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 9,
+    "adapted": 9,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.818,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.912,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.918,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.918,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "acro_bike",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 27,
+    "adapted": 27,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.818,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.912,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.918,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.918,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 9,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 10,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 11,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 12,
+        "head_match": 0.772,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 13,
+        "head_match": 0.818,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 14,
+        "head_match": 0.818,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 15,
+        "head_match": 0.737,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 16,
+        "head_match": 0.586,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 17,
+        "head_match": 0.843,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 18,
+        "head_match": 0.799,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 19,
+        "head_match": 0.843,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 20,
+        "head_match": 0.843,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 21,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 22,
+        "head_match": 0.65,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 23,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 24,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 25,
+        "head_match": 0.799,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 26,
+        "head_match": 0.799,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "surfing",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 6,
+    "adapted": 6,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.793,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.793,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.947,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.962,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "fishing",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 12,
+    "adapted": 12,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.949,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.97,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.803,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.97,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.979,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 9,
+        "head_match": 0.979,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 10,
+        "head_match": 0.786,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 11,
+        "head_match": 0.979,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "watering",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 6,
+    "adapted": 6,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.764,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.764,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.889,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.889,
+        "adapted": true,
+        "direction": 1,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 5,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "field_move",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 5,
+    "adapted": 5,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.677,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.667,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.905,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.493,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 4,
+        "head_match": 0.483,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      }
+    ]
+  },
+  {
+    "action": "underwater",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frame_count": 4,
+    "adapted": 4,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.22,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.217,
+        "adapted": true,
+        "direction": 0,
+        "mirrored": true
+      },
+      {
+        "frame": 2,
+        "head_match": 0.299,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.299,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": true
+      }
+    ]
+  },
+  {
+    "action": "decorating",
+    "frame_size": [
+      16,
+      32
+    ],
+    "frame_count": 1,
+    "adapted": 1,
+    "review_frames": [],
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 1.0,
+        "adapted": true,
+        "direction": 2,
+        "mirrored": false
+      }
+    ]
+  }
+]

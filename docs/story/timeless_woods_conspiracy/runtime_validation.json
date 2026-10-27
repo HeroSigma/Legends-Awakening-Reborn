@@ -1,0 +1,166 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "arrival_completed_0",
+      "passed": true
+    },
+    {
+      "test": "coordinate_trigger_reached_0",
+      "passed": true
+    },
+    {
+      "test": "camera_at_meeting_0",
+      "passed": true
+    },
+    {
+      "test": "giovanni_position_and_facing_0",
+      "passed": true
+    },
+    {
+      "test": "cyrus_position_and_facing_0",
+      "passed": true
+    },
+    {
+      "test": "ball_between_them_0",
+      "passed": true
+    },
+    {
+      "test": "giovanni_picks_up_ball_0",
+      "passed": true
+    },
+    {
+      "test": "camera_removed_on_return_0",
+      "passed": true
+    },
+    {
+      "test": "villains_left_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_and_camera_completed_0",
+      "passed": true
+    },
+    {
+      "test": "both_walked_to_right_edge_0",
+      "passed": true
+    },
+    {
+      "test": "player_not_teleported_0",
+      "passed": true
+    },
+    {
+      "test": "actors_stay_hidden_on_reentry_0",
+      "passed": true
+    },
+    {
+      "test": "arrival_does_not_repeat_0",
+      "passed": true
+    },
+    {
+      "test": "meeting_does_not_repeat_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_success_0",
+      "passed": true
+    },
+    {
+      "test": "saved_scene_flags_persist_0",
+      "passed": true
+    },
+    {
+      "test": "saved_actors_stay_hidden_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "arrival_completed_1",
+      "passed": true
+    },
+    {
+      "test": "coordinate_trigger_reached_1",
+      "passed": true
+    },
+    {
+      "test": "camera_at_meeting_1",
+      "passed": true
+    },
+    {
+      "test": "giovanni_position_and_facing_1",
+      "passed": true
+    },
+    {
+      "test": "cyrus_position_and_facing_1",
+      "passed": true
+    },
+    {
+      "test": "ball_between_them_1",
+      "passed": true
+    },
+    {
+      "test": "giovanni_picks_up_ball_1",
+      "passed": true
+    },
+    {
+      "test": "camera_removed_on_return_1",
+      "passed": true
+    },
+    {
+      "test": "villains_left_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_and_camera_completed_1",
+      "passed": true
+    },
+    {
+      "test": "both_walked_to_right_edge_1",
+      "passed": true
+    },
+    {
+      "test": "player_not_teleported_1",
+      "passed": true
+    },
+    {
+      "test": "actors_stay_hidden_on_reentry_1",
+      "passed": true
+    },
+    {
+      "test": "arrival_does_not_repeat_1",
+      "passed": true
+    },
+    {
+      "test": "meeting_does_not_repeat_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_success_1",
+      "passed": true
+    },
+    {
+      "test": "saved_scene_flags_persist_1",
+      "passed": true
+    },
+    {
+      "test": "saved_actors_stay_hidden_1",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "user_save_loaded": false
+}

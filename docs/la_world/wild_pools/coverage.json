@@ -1,0 +1,17 @@
+{
+  "policy": "all active regions follow Hoenn badges temporarily",
+  "maps": 424,
+  "time_tables": 1696,
+  "slots": 31524,
+  "eligible_species": 901,
+  "unplaced": [],
+  "regional_maps": {
+    "REGION_HOENN": 176,
+    "REGION_SINNOH": 83,
+    "REGION_UNOVA": 9,
+    "REGION_JOHTO": 110,
+    "REGION_KANTO": 46
+  },
+  "form_policy": "One ordinary representative per National Dex entry; battle-only forms excluded.",
+  "source_sha256": "0e8e24ce4b59d88be8466418839d3f1872406bfec8cc8c3e737ed735f56d76c4"
+}

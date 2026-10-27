@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_TOWER_MULTI_CORRIDOR_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_F.
@@ -168,3 +170,46 @@ BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator:
 	walk_down
 	step_end
 
+
+#else
+BattleFrontier_BattleTowerMultiCorridor_MapScripts::
+	.byte 0
+BattleFrontier_BattleTowerMultiCorridor_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_SetObjGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_SetLinkPlayerGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToNormalBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToMultiBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToLinkMultiBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_PlayerWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_PartnerWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_PlayerAttendantWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_PartnerAttendantWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_TrainerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator:
+	goto EventScript_LegacyFeatureDisabled
+#endif

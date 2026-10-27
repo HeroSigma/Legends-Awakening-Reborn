@@ -1,0 +1,97 @@
+{
+  "id": "MAP_KANTOAR_3_4_LAVENDERTOWN",
+  "name": "Kanto_LavenderTown",
+  "layout": "LAYOUT_KANTOAR_3_4_LAVENDERTOWN",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KANTOAR_3_28_ROUTE10",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_KANTOAR_3_30_ROUTE12",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_KANTOAR_3_26_ROUTE8",
+      "offset": 0,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_3_4_LAVENDERTOWN_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 14,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_3_4_LavenderTown_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_88_POKEMONTOWER_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_8_0_LAVENDERTOWN_POKEMONCENTER_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_8_2_LAVENDERTOWN_VOLUNTEERPOKEMONHOUSE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_8_3_LAVENDERTOWN_HOUSE1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_8_4_LAVENDERTOWN_HOUSE2",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_8_5_LAVENDERTOWN_MART",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

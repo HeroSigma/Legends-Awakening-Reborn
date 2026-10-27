@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_tera.h"
 #include "malloc.h"
 #include "apprentice.h"
 #include "battle.h"
@@ -2987,7 +2988,7 @@ u8 CopyMonToPC(struct Pokemon *mon)
         }
 
         boxNo++;
-        if (boxNo == TOTAL_BOXES_COUNT)
+        if (boxNo == GetStorageBoxCount())
             boxNo = 0;
     } while (boxNo != StorageGetCurrentBox());
 
@@ -3168,7 +3169,7 @@ bool8 IsPokemonStorageFull(void)
 {
     s32 i, j;
 
-    for (i = 0; i < TOTAL_BOXES_COUNT; i++)
+    for (i = 0; i < GetStorageBoxCount(); i++)
         for (j = 0; j < IN_BOX_COUNT; j++)
             if (GetBoxMonDataAt(i, j, MON_DATA_SPECIES) == SPECIES_NONE)
                 return FALSE;
@@ -5385,59 +5386,24 @@ static inline bool32 CanFirstMonBoostHeldItemRarity(void)
 
 void SetWildMonHeldItem(void)
 {
-    u16 rnd;
-    enum Species species;
-    u16 count = (WILD_DOUBLE_BATTLE) ? 2 : 1;
-    u16 i;
-    bool32 itemHeldBoost = CanFirstMonBoostHeldItemRarity();
-    u16 chanceNoItem = itemHeldBoost ? 20 : 45;
-    u16 chanceNotRare = itemHeldBoost ? 80 : 95;
-
+    u32 i, count = WILD_DOUBLE_BATTLE ? 2 : 1;
     for (i = 0; i < count; i++)
     {
-        if (GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM) != ITEM_NONE)
-            continue; // prevent overwriting previously set item
-
-        rnd = Random() % 100;
-        species = GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_SPECIES, 0);
+        struct Pokemon *mon = &gParties[B_TRAINER_OPPONENT_A][i];
+        u16 species, item;
+        if (GetMonData(mon, MON_DATA_HELD_ITEM) != ITEM_NONE)
+            continue; // Explicit scripted/DexNav items remain authoritative.
+        if (Random() % 100 >= 5)
+            continue;
+        species = GetMonData(mon, MON_DATA_SPECIES);
+        item = LegendsChooseWildHeldItem(species);
         if (gMapHeader.mapLayoutId == LAYOUT_ALTERING_CAVE)
         {
-            s32 alteringCaveId = GetWildMonTableIdInAlteringCave(species);
-            if (alteringCaveId != 0)
-            {
-                // In active Altering Cave, use special item list
-                if (rnd < chanceNotRare)
-                    continue;
-                SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &sAlteringCaveWildMonHeldItems[alteringCaveId].item);
-            }
-            else
-            {
-                // In inactive Altering Cave, use normal items
-                if (rnd < chanceNoItem)
-                    continue;
-                if (rnd < chanceNotRare)
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-                else
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemRare);
-            }
+            s32 id = GetWildMonTableIdInAlteringCave(species);
+            if (id != 0)
+                item = sAlteringCaveWildMonHeldItems[id].item;
         }
-        else
-        {
-            if (gSpeciesInfo[species].itemCommon == gSpeciesInfo[species].itemRare && gSpeciesInfo[species].itemCommon != ITEM_NONE)
-            {
-                // Both held items are the same, 100% chance to hold item
-                SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-            }
-            else
-            {
-                if (rnd < chanceNoItem)
-                    continue;
-                if (rnd < chanceNotRare)
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-                else
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemRare);
-            }
-        }
+        SetMonData(mon, MON_DATA_HELD_ITEM, &item);
     }
 }
 

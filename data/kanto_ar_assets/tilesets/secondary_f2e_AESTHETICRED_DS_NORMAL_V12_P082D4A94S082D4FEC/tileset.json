@@ -1,0 +1,56 @@
+{
+  "id": "secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC",
+  "role": "secondary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "frlg_640_384_to_rse_512_512_global_ids_preserved",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 6,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/06.pal"
+    },
+    {
+      "slot": 7,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/07.pal"
+    },
+    {
+      "slot": 8,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/08.pal"
+    },
+    {
+      "slot": 9,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/09.pal"
+    },
+    {
+      "slot": 10,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/10.pal"
+    },
+    {
+      "slot": 11,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/11.pal"
+    },
+    {
+      "slot": 12,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/12.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct_for_moved_128": "0x082D4A94",
+    "secondary_tileset_struct": "0x082D4FEC",
+    "primary_palette_pointer": "0x09174DC8",
+    "secondary_palette_pointer": "0x09172D60",
+    "secondary_tiles_pointer": "0x08933DB4",
+    "secondary_metatiles_pointer": "0x08900000",
+    "secondary_attributes_pointer": "0x08900FA0",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 14,
+  "raw_frlg_attributes": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "592628dc13e34d59a1f11d64298e2ed37a410cc117254d4a62ad5215634ff834",
+    "metatiles_bvd": "dd55308c3656c67b2f514471bc43ef49f822460ccfc557d82ccf3eaa2b0f7c8b",
+    "raw_frlg_attributes": "d5d00c17f6a21e06d7979bffefd26368b63e01461c07e433f0a7028d6d3844ef"
+  }
+}

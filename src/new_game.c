@@ -52,12 +52,17 @@
 #include "constants/items.h"
 #include "difficulty.h"
 #include "follower_npc.h"
+#include "config/mercury_exploration.h"
+#include "constants/flags.h"
+#include "constants/moves.h"
+#include "constants/species.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
+extern const u8 LegendsBedroom_Initialize[];
 extern const u8 EventScript_ResetAllMapFlagsFrlg[];
 
 static void ClearFrontierRecord(void);
-static void WarpToTruck(void);
+static void SetNewGameDestination(void);
 static void ResetMiniGamesRecords(void);
 static void ResetItemFlags(void);
 static void ResetDexNav(void);
@@ -133,12 +138,27 @@ static void ClearFrontierRecord(void)
     gSaveBlock2Ptr->frontier.opponentNames[1][0] = EOS;
 }
 
-static void WarpToTruck(void)
+static void SetNewGameDestination(void)
 {
+#if HNS_CANARY_EXPLORATION_START
+    SetWarpDestination(MAP_GROUP(MAP_HNS_TEST_NEWBARKTOWN), MAP_NUM(MAP_HNS_TEST_NEWBARKTOWN), WARP_ID_NONE, 20, 19);
+#elif MERCURY_JOHTO_EXPLORATION_START
+    SetWarpDestination(MAP_GROUP(MAP_GSJOHTO_3_0_NEW_BARK_TOWN), MAP_NUM(MAP_GSJOHTO_3_0_NEW_BARK_TOWN), WARP_ID_NONE, 22, 11);
+#elif FULL_SHEET_TEST_START == 2
+    SetWarpDestination(MAP_GROUP(MAP_UNOVA_NUVEMA_FULL_SHEET_TEST), MAP_NUM(MAP_UNOVA_NUVEMA_FULL_SHEET_TEST), WARP_ID_NONE, 20, 28);
+#elif defined(FULL_SHEET_TEST_START)
+    SetWarpDestination(MAP_GROUP(MAP_UNOVA_ACCUMULA_FULL_SHEET_TEST), MAP_NUM(MAP_UNOVA_ACCUMULA_FULL_SHEET_TEST), WARP_ID_NONE, 20, 27);
+#else
     if (IS_FRLG)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
-        SetWarpDestination(MAP_GROUP(MAP_INSIDE_OF_TRUCK), MAP_NUM(MAP_INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
+        {
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            SetWarpDestination(MAP_GROUP(MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F), MAP_NUM(MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F), WARP_ID_NONE, 1, 4);
+        else
+            SetWarpDestination(MAP_GROUP(MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F), MAP_NUM(MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F), WARP_ID_NONE, 7, 4);
+    }
+#endif
     WarpIntoMap();
 }
 
@@ -211,13 +231,16 @@ void NewGameInitData(void)
     ResetFanClub();
     ResetLotteryCorner();
     UpdateDailySeed();
-    WarpToTruck();
+    SetNewGameDestination();
     if (IS_FRLG)
         RunScriptImmediately(EventScript_ResetAllMapFlagsFrlg);
     else
         RunScriptImmediately(EventScript_ResetAllMapFlags);
 #if IS_FRLG
         StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
+#endif
+#if !IS_FRLG && !MERCURY_JOHTO_EXPLORATION_START && !HNS_CANARY_EXPLORATION_START && !defined(FULL_SHEET_TEST_START)
+    RunScriptImmediately(LegendsBedroom_Initialize);
 #endif
     ResetMiniGamesRecords();
     InitUnionRoomChatRegisteredTexts();
@@ -234,6 +257,28 @@ void NewGameInitData(void)
     ResetItemFlags();
     ResetDexNav();
     ClearFollowerNPCData();
+#if MERCURY_JOHTO_EXPLORATION_START || HNS_CANARY_EXPLORATION_START
+    // Native test supplies only: no donor progression or save logic.
+    FlagSet(FLAG_SYS_POKEMON_GET);
+    FlagSet(FLAG_SYS_POKEDEX_GET);
+    FlagSet(FLAG_SYS_B_DASH);
+    for (u16 badge = FLAG_BADGE01_GET; badge <= FLAG_BADGE08_GET; badge++)
+        FlagSet(badge);
+    CreateRandomMon(&gPlayerParty[0], SPECIES_FERALIGATR, 50);
+    SetMonMoveSlot(&gPlayerParty[0], MOVE_SURF, 0);
+    SetMonMoveSlot(&gPlayerParty[0], MOVE_WATERFALL, 1);
+    SetMonMoveSlot(&gPlayerParty[0], MOVE_DIVE, 2);
+    SetMonMoveSlot(&gPlayerParty[0], MOVE_STRENGTH, 3);
+    CreateRandomMon(&gPlayerParty[1], SPECIES_SMEARGLE, 50);
+    SetMonMoveSlot(&gPlayerParty[1], MOVE_CUT, 0);
+    SetMonMoveSlot(&gPlayerParty[1], MOVE_ROCK_SMASH, 1);
+    SetMonMoveSlot(&gPlayerParty[1], MOVE_FLASH, 2);
+    SetMonMoveSlot(&gPlayerParty[1], MOVE_ROCK_CLIMB, 3);
+    gPartiesCount[B_TRAINER_PLAYER] = 2;
+    AddBagItem(ITEM_MACH_BIKE, 1);
+    AddBagItem(ITEM_ACRO_BIKE, 1);
+    AddBagItem(ITEM_MAX_REPEL, 99);
+#endif
 }
 
 static void ResetMiniGamesRecords(void)

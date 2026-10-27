@@ -1,6 +1,8 @@
 #ifndef GUARD_CONFIG_POKEMON_H
 #define GUARD_CONFIG_POKEMON_H
 
+#include "config/free_space.h"
+
 // Species data settings
 #define P_UPDATED_TYPES             GEN_LATEST  // Some Pokémon have received type updates after their introduction.
 #define P_UPDATED_STATS             GEN_LATEST  // Some Pokémon have received base stat updates after their introduction.
@@ -77,7 +79,11 @@
 #include "constants/sound.h"
 
 // Sound related settings
+#if LA_FREE_SPACE
+#define P_MODIFIED_MEGA_CRIES            FALSE
+#else
 #define P_MODIFIED_MEGA_CRIES            P_MEGA_EVOLUTIONS  // If TRUE, will use the extra separate Mega Cries (approx. 3% space of ROM). if FALSE, will use the same cry for all Mega Evolutions except modified with P_MODIFIED_MEGA_CRY_MODE. By default, this is set based on if mega evolutions are enabled.
+#endif
 #define P_MODIFIED_MEGA_CRY_MODE         CRY_MODE_HIGH_PITCH
 
 // Pokédex

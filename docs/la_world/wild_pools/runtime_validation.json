@@ -1,0 +1,244 @@
+{
+  "rom_sha256": "26c2e48c27b557c27af2ee65d563c4d3c6c4a950ca7b4fa4a2ebe44eacded2f4",
+  "header_count": 425,
+  "linked_slot_comparisons": 283149,
+  "checks": [
+    {
+      "test": "badge_stage_0",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_0",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_1",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_1",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_2",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_2",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_3",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_3",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_4",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_4",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_5",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_5",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_6",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_6",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_7",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_7",
+      "passed": true
+    },
+    {
+      "test": "badge_stage_8",
+      "passed": true
+    },
+    {
+      "test": "next_leader_lowest_level_8",
+      "passed": true
+    },
+    {
+      "test": "post_league_cap_100",
+      "passed": true
+    },
+    {
+      "test": "evolution_CHARMANDER_15",
+      "passed": true
+    },
+    {
+      "test": "evolution_CHARMANDER_16",
+      "passed": true
+    },
+    {
+      "test": "evolution_CHARMANDER_36",
+      "passed": true
+    },
+    {
+      "test": "evolution_CHARIZARD_5",
+      "passed": true
+    },
+    {
+      "test": "evolution_CATERPIE_10",
+      "passed": true
+    },
+    {
+      "test": "evolution_EEVEE_70",
+      "passed": true
+    },
+    {
+      "test": "evolution_CURSOLA_5",
+      "passed": true
+    },
+    {
+      "test": "evolution_CURSOLA_38",
+      "passed": true
+    },
+    {
+      "test": "evolution_KINGAMBIT_30",
+      "passed": true
+    },
+    {
+      "test": "evolution_RAICHU_5",
+      "passed": true
+    },
+    {
+      "test": "evolution_RAICHU_25",
+      "passed": true
+    },
+    {
+      "test": "evolution_RAICHU_36",
+      "passed": true
+    },
+    {
+      "test": "evolution_SILCOON_2",
+      "passed": true
+    },
+    {
+      "test": "evolution_POIPOLE_100",
+      "passed": true
+    },
+    {
+      "test": "evolution_PIKACHU_100",
+      "passed": true
+    },
+    {
+      "test": "safe_area_LittlerootTown",
+      "passed": true
+    },
+    {
+      "test": "safe_area_OldaleTown",
+      "passed": true
+    },
+    {
+      "test": "safe_area_MauvilleCity_BikeShop",
+      "passed": true
+    },
+    {
+      "test": "safe_area_HnS_BlackthornCity_Gym",
+      "passed": true
+    },
+    {
+      "test": "safe_area_HnS_CeruleanCity_Gym",
+      "passed": true
+    },
+    {
+      "test": "no_random_battles_before_starter",
+      "passed": true
+    },
+    {
+      "test": "all_authored_maps_have_headers",
+      "passed": true
+    },
+    {
+      "test": "all_linked_slots_obey_caps_and_exclusions",
+      "passed": true
+    },
+    {
+      "test": "route_ranges_rise_with_badges",
+      "passed": true
+    },
+    {
+      "test": "four_time_views_have_distinct_storage",
+      "passed": true
+    },
+    {
+      "test": "dexnav_bonus_cannot_exceed_cap",
+      "passed": true
+    },
+    {
+      "test": "dexnav_bonus_preserves_searched_species",
+      "passed": true
+    },
+    {
+      "test": "poipole_does_not_auto_evolve_by_level",
+      "passed": true
+    },
+    {
+      "test": "invalid_header_empty",
+      "passed": true
+    },
+    {
+      "test": "night_route_theme_badges_0",
+      "passed": true
+    },
+    {
+      "test": "night_route_theme_badges_5",
+      "passed": true
+    },
+    {
+      "test": "night_route_theme_badges_8",
+      "passed": true
+    },
+    {
+      "test": "no_runtime_header_LittlerootTown",
+      "passed": true
+    },
+    {
+      "test": "no_runtime_header_OldaleTown",
+      "passed": true
+    },
+    {
+      "test": "no_runtime_header_MauvilleCity_BikeShop",
+      "passed": true
+    },
+    {
+      "test": "no_runtime_header_HnS_BlackthornCity_Gym",
+      "passed": true
+    },
+    {
+      "test": "dexnav_to_real_wild_mon_badges_0",
+      "passed": true
+    },
+    {
+      "test": "dexnav_to_real_wild_mon_badges_2",
+      "passed": true
+    },
+    {
+      "test": "dexnav_to_real_wild_mon_badges_5",
+      "passed": true
+    },
+    {
+      "test": "dexnav_to_real_wild_mon_badges_8",
+      "passed": true
+    }
+  ],
+  "user_battery_save_loaded": false
+}

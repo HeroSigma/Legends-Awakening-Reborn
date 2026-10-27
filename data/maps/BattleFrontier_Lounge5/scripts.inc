@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge5_MapScripts::
 	.byte 0
 
@@ -123,3 +125,50 @@ BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
 	.string "That little girl plays at the red house\n"
 	.string "a lot!$"
 
+
+#else
+BattleFrontier_Lounge5_MapScripts::
+	.byte 0
+BattleFrontier_Lounge5_EventScript_NatureGirl::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_EventScript_NatureGirlEgg::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_EventScript_NatureGirlNoneShown::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_EventScript_Gentleman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_EventScript_BlackBelt::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_EventScript_LittleBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge5_Text_NatureGirlGreeting::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_NatureGirlEgg::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
+	.string "This feature is disabled in this build.$"
+#endif

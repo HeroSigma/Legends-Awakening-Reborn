@@ -1,4 +1,5 @@
 #include "global.h"
+#include "la_pc_storage_fast.h"
 #include "battle.h"
 #include "battle_gfx_sfx_util.h"
 #include "berry.h"
@@ -51,15 +52,18 @@ void HealPlayerParty(void)
 static void HealPlayerBoxes(void)
 {
     int boxId, boxPosition;
-    struct BoxPokemon *boxMon;
+    struct BoxPokemon copy;
+    struct BoxPokemon *boxMon = &copy;
+    if (StorageIsCollectionMode()) { StorageHealCollectionCache(); return; }
 
-    for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+    for (boxId = 0; boxId < GetStorageBoxCount(); boxId++)
     {
         for (boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++)
         {
-            boxMon = &gPokemonStoragePtr->boxes[boxId][boxPosition];
-            if (GetBoxMonData(boxMon, MON_DATA_SANITY_HAS_SPECIES))
+            if (StorageReadMon(boxId, boxPosition, boxMon) && GetBoxMonData(boxMon, MON_DATA_SANITY_HAS_SPECIES)) {
                 HealBoxPokemon(boxMon);
+                StorageWriteMon(boxId, boxPosition, boxMon);
+            }
         }
     }
 }

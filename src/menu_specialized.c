@@ -877,7 +877,7 @@ s32 GetBoxOrPartyMonData(u16 boxId, u16 monId, s32 request, u8 *dst)
 {
     s32 ret;
 
-    if (boxId == TOTAL_BOXES_COUNT) // Party mon.
+    if (boxId == GetStorageBoxCount()) // Party mon.
     {
         if (request == MON_DATA_NICKNAME || request == MON_DATA_OT_NAME)
             ret = GetMonData(&gParties[B_TRAINER_PLAYER][monId], request, dst);
@@ -918,7 +918,7 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
     GetBoxOrPartyMonData(box, mon, MON_DATA_NICKNAME, dst);
     StringGet_Nickname(dst);
     species = GetBoxOrPartyMonData(box, mon, MON_DATA_SPECIES, NULL);
-    if (box == TOTAL_BOXES_COUNT) // Party mon.
+    if (box == GetStorageBoxCount()) // Party mon.
     {
         level = GetMonData(&gParties[B_TRAINER_PLAYER][mon], MON_DATA_LEVEL);
         gender = GetMonGender(&gParties[B_TRAINER_PLAYER][mon]);
@@ -1016,7 +1016,7 @@ void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 boxId
         locationDst[i++] = TEXT_COLOR_BLUE;
         locationDst[i++] = TEXT_COLOR_LIGHT_BLUE;
         locationDst[i++] = TEXT_COLOR_TRANSPARENT;
-        if (box == TOTAL_BOXES_COUNT) // Party mon.
+        if (box == GetStorageBoxCount()) // Party mon.
             BufferConditionMenuSpacedStringN(&locationDst[i], gText_InParty, BOX_NAME_LENGTH);
         else
             BufferConditionMenuSpacedStringN(&locationDst[i], GetBoxNamePtr(box), BOX_NAME_LENGTH);

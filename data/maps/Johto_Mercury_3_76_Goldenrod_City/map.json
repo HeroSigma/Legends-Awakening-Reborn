@@ -1,0 +1,106 @@
+{
+  "id": "MAP_JOHTO_MERCURY_3_76_GOLDENROD_CITY",
+  "name": "Johto_Mercury_3_76_Goldenrod_City",
+  "layout": "LAYOUT_JOHTO_MERCURY_3_76_GOLDENROD_CITY",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [
+    {
+      "local_id": "LOCALID_JOHTO_MERCURY_3_76_GOLDENROD_CITY_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 26,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Johto_Mercury_3_76_Goldenrod_City_Inspect",
+      "flag": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 35,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_10_3_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 42,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_56_15_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 39,
+      "y": 31,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_50_20_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 48,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_50_43_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 38,
+      "y": 48,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_50_22_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_50_14_GOLDENROD_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_10_5_GOLDENROD_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 36,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_50_10_GOLDENROD_CITY",
+      "dest_warp_id": "5"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 2,
+      "map": "MAP_GSJOHTO_3_5_GOLDENROD_CITY"
+    },
+    {
+      "direction": "up",
+      "offset": -52,
+      "map": "MAP_JOHTO_MERCURY_3_77_GOLDENROD_CITY"
+    }
+  ],
+  "map_type": "MAP_TYPE_CITY",
+  "region": "REGION_JOHTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

@@ -1,0 +1,7 @@
+Kanto_Route2_ViridianForest_NorthEntrance_MapScripts::
+	.byte 0
+
+KantoAR_15_3_Route2_ViridianForest_NorthEntrance_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_16_0_ROUTE4_POKEMONCENTER_1F, 7, 5
+	goto KantoAR_InspectionFinish

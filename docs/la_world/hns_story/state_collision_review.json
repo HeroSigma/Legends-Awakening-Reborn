@@ -1,0 +1,610 @@
+[
+  {
+    "donor_name": "VAR_AZALEA_TOWN_STATE",
+    "donor_address": "0x4053",
+    "native_occupants": [
+      "VAR_LAVARIDGE_TOWN_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BAOBA_QUEST_STATE",
+    "donor_address": "0x4054",
+    "native_occupants": [
+      "VAR_CURRENT_SECRET_BASE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BILLS_GRANDPA",
+    "donor_address": "0x4055",
+    "native_occupants": [
+      "VAR_VERDANTURF_TOWN_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BLACKTHORN_CITY_STATE",
+    "donor_address": "0x4056",
+    "native_occupants": [
+      "VAR_PACIFIDLOG_TOWN_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BLACKTHORN_GYM_STATE",
+    "donor_address": "0x4057",
+    "native_occupants": [
+      "VAR_PETALBURG_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BUG_CONTEST_STATE",
+    "donor_address": "0x4058",
+    "native_occupants": [
+      "VAR_SLATEPORT_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CERULEAN_CITY_STATE",
+    "donor_address": "0x4059",
+    "native_occupants": [
+      "VAR_MAUVILLE_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CHERRYGROVE_CITY_STATE",
+    "donor_address": "0x405A",
+    "native_occupants": [
+      "VAR_RUSTBORO_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CIANWOOD_CITY_STATE",
+    "donor_address": "0x405B",
+    "native_occupants": [
+      "VAR_FORTREE_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CINNABAR_ISLAND_STATE",
+    "donor_address": "0x405C",
+    "native_occupants": [
+      "VAR_LILYCOVE_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CLEFAIRY_DOLL_STATE",
+    "donor_address": "0x405D",
+    "native_occupants": [
+      "VAR_MOSSDEEP_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_COMPLETED_HO_OH",
+    "donor_address": "0x405E",
+    "native_occupants": [
+      "VAR_SOOTOPOLIS_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_COMPLETED_LUGIA",
+    "donor_address": "0x405F",
+    "native_occupants": [
+      "VAR_EVER_GRANDE_CITY_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_DRAGONS_DEN_QUIZ",
+    "donor_address": "0x4060",
+    "native_occupants": [
+      "VAR_ROUTE101_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ECRUTEAK_CITY_STATE",
+    "donor_address": "0x4061",
+    "native_occupants": [
+      "VAR_ROUTE102_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ECRUTEAK_CITY_THEATER",
+    "donor_address": "0x4062",
+    "native_occupants": [
+      "VAR_ROUTE103_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ELECTRODES_FAINTED",
+    "donor_address": "0x4063",
+    "native_occupants": [
+      "VAR_ROUTE104_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ELEVATOR",
+    "donor_address": "0x4064",
+    "native_occupants": [
+      "VAR_ROUTE105_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_FAN_CLUB_CLEFAIRY",
+    "donor_address": "0x4065",
+    "native_occupants": [
+      "VAR_ROUTE106_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_FAN_CLUB_GUY",
+    "donor_address": "0x4066",
+    "native_occupants": [
+      "VAR_ROUTE107_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_FUCHSIA_CITY_STATE",
+    "donor_address": "0x4067",
+    "native_occupants": [
+      "VAR_ROUTE108_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_GETFLY",
+    "donor_address": "0x4068",
+    "native_occupants": [
+      "VAR_ROUTE109_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_GOLDENROD_CITY_STATE",
+    "donor_address": "0x4069",
+    "native_occupants": [
+      "VAR_ROUTE110_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ICE_PATH_STATE",
+    "donor_address": "0x406A",
+    "native_occupants": [
+      "VAR_ROUTE111_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ILEX_FOREST_FARFETCHD",
+    "donor_address": "0x406B",
+    "native_occupants": [
+      "VAR_ROUTE112_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_KANTO_ROCKET_STORY_STATE",
+    "donor_address": "0x406C",
+    "native_occupants": [
+      "VAR_ROUTE113_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_KANTO_SAFARI_ZONE_PROGRESS",
+    "donor_address": "0x406D",
+    "native_occupants": [
+      "VAR_ROUTE114_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_KENYA",
+    "donor_address": "0x406E",
+    "native_occupants": [
+      "VAR_ROUTE115_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_LAKE_OF_RAGE_FISHERMAN",
+    "donor_address": "0x406F",
+    "native_occupants": [
+      "VAR_ROUTE116_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_LEAGUE_STATE",
+    "donor_address": "0x4070",
+    "native_occupants": [
+      "VAR_ROUTE117_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_LUGIA_OR_HOOH",
+    "donor_address": "0x4071",
+    "native_occupants": [
+      "VAR_ROUTE118_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_MAHOGANY_TOWN_STATE",
+    "donor_address": "0x4072",
+    "native_occupants": [
+      "VAR_ROUTE119_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_MT_SILVER_STATE",
+    "donor_address": "0x4073",
+    "native_occupants": [
+      "VAR_ROUTE120_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_NEWBARKTOWN_LABSTATE",
+    "donor_address": "0x4074",
+    "native_occupants": [
+      "VAR_ROUTE121_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_NEWBARK_TOWN_STATE",
+    "donor_address": "0x4075",
+    "native_occupants": [
+      "VAR_ROUTE122_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_NUM_BADGES",
+    "donor_address": "0x4076",
+    "native_occupants": [
+      "VAR_ROUTE123_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_OLIVINE_CITY_STATE",
+    "donor_address": "0x4077",
+    "native_occupants": [
+      "VAR_ROUTE124_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_PALLETTOWN_LABSTATE",
+    "donor_address": "0x4078",
+    "native_occupants": [
+      "VAR_ROUTE125_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_PEWTER_CITY_STATE",
+    "donor_address": "0x4079",
+    "native_occupants": [
+      "VAR_ROUTE126_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_HIDEOUT_STATUE_1",
+    "donor_address": "0x407A",
+    "native_occupants": [
+      "VAR_ROUTE127_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_HIDEOUT_STATUE_2",
+    "donor_address": "0x407B",
+    "native_occupants": [
+      "VAR_ROUTE128_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_HIDEOUT_STATUE_3",
+    "donor_address": "0x407C",
+    "native_occupants": [
+      "VAR_ROUTE129_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_HIDEOUT_STATUE_4",
+    "donor_address": "0x407D",
+    "native_occupants": [
+      "VAR_ROUTE130_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_HIDEOUT_STATUE_5",
+    "donor_address": "0x407E",
+    "native_occupants": [
+      "VAR_ROUTE131_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROCKET_PASSWORD",
+    "donor_address": "0x407F",
+    "native_occupants": [
+      "VAR_ROUTE132_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROUTE22_GIOVANNI_STATE",
+    "donor_address": "0x4080",
+    "native_occupants": [
+      "VAR_ROUTE133_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROUTE27_BAOBA_CALL",
+    "donor_address": "0x4081",
+    "native_occupants": [
+      "VAR_ROUTE134_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROUTE27_STATE",
+    "donor_address": "0x4082",
+    "native_occupants": [
+      "VAR_LITTLEROOT_HOUSES_STATE_MAY"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_RUINSOFALPH_STATE",
+    "donor_address": "0x4084",
+    "native_occupants": [
+      "VAR_BIRCH_LAB_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SAFARI_ZONE_GATE_STATE",
+    "donor_address": "0x4085",
+    "native_occupants": [
+      "VAR_PETALBURG_GYM_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SUICUNE_ENCOUNTERS",
+    "donor_address": "0x408C",
+    "native_occupants": [
+      "VAR_LITTLEROOT_HOUSES_STATE_BRENDAN"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_TOHJO_FALLS_GIOVANNI_STATE",
+    "donor_address": "0x408D",
+    "native_occupants": [
+      "VAR_LITTLEROOT_RIVAL_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_TRAIN",
+    "donor_address": "0x408E",
+    "native_occupants": [
+      "VAR_BOARD_BRINEY_BOAT_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_VERMILION_CITY_STATE",
+    "donor_address": "0x408F",
+    "native_occupants": [
+      "VAR_DEVON_CORP_3F_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_VIOLET_CITY_KIMONO_GIRL",
+    "donor_address": "0x4090",
+    "native_occupants": [
+      "VAR_BRINEY_HOUSE_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_WADE_ITEM_HNS",
+    "donor_address": "0x4097",
+    "native_occupants": [
+      "VAR_INIT_SECRET_BASE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ALAN_ITEM_HNS",
+    "donor_address": "0x4098",
+    "native_occupants": [
+      "VAR_PETALBURG_WOODS_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_DANA_ITEM_HNS",
+    "donor_address": "0x409A",
+    "native_occupants": [
+      "VAR_RUSTURF_TUNNEL_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_BEVERLY_ITEM_HNS",
+    "donor_address": "0x409E",
+    "native_occupants": [
+      "VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_JOSE_ITEM_HNS",
+    "donor_address": "0x409F",
+    "native_occupants": [
+      "VAR_MOSSDEEP_SPACE_CENTER_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_KENJI_ITEM_HNS",
+    "donor_address": "0x40A0",
+    "native_occupants": [
+      "VAR_SLATEPORT_HARBOR_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ROAMER_POKEMON_HNS",
+    "donor_address": "0x40A2",
+    "native_occupants": [
+      "VAR_SEAFLOOR_CAVERN_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_VERMILION_CITY_STEVEN",
+    "donor_address": "0x40A3",
+    "native_occupants": [
+      "VAR_CABLE_CAR_STATION_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_OAK_MT_SILVER_CALL",
+    "donor_address": "0x40A7",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_ENTRANCE_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_CONTEST_PRIZE_PICKUP_HNS",
+    "donor_address": "0x40AC",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_2_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_TRIGGER_ELM_ROCKET_CALL",
+    "donor_address": "0x40B3",
+    "native_occupants": [
+      "VAR_WEATHER_INSTITUTE_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ALOLA_TRAVEL",
+    "donor_address": "0x40AD",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_3_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_ALOLA_STATE",
+    "donor_address": "0x40AE",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_4_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SINJOH_STORYLINE",
+    "donor_address": "0x40AF",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_5_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_PLATECOUNTER",
+    "donor_address": "0x40B0",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_6_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_REGIS_SCANNED",
+    "donor_address": "0x40B1",
+    "native_occupants": [
+      "VAR_TRICK_HOUSE_PUZZLE_7_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SHUCKIE",
+    "donor_address": "0x40BE",
+    "native_occupants": [
+      "VAR_GLASS_WORKSHOP_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SLOWPOKE_TAIL",
+    "donor_address": "0x40BF",
+    "native_occupants": [
+      "VAR_METEOR_FALLS_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_SPROUT_TOWER",
+    "donor_address": "0x40C0",
+    "native_occupants": [
+      "VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_WILTON_ITEM_HNS",
+    "donor_address": "0x40C3",
+    "native_occupants": [
+      "VAR_VICTORY_ROAD_1F_STATE"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  },
+  {
+    "donor_name": "VAR_0x8000",
+    "donor_address": "0x8000",
+    "native_occupants": [
+      "SPECIAL_VARS_START"
+    ],
+    "action": "namespace into independent HnS story state; do not reuse address"
+  }
+]

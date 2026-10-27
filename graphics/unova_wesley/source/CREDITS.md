@@ -1,0 +1,1 @@
+Original Unova artwork by WesleyFG. User-provided original PNG downloads are retained unchanged. Building, nature and vehicle sheets plus the supplied Nuvema town reference are used for derived GBA assets. Preserve this attribution.

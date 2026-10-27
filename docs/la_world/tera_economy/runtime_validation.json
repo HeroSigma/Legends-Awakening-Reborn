@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_shards_before_devon",
+      "passed": true
+    },
+    {
+      "test": "primary_fire_shard_on_defeat",
+      "passed": true
+    },
+    {
+      "test": "primary_not_secondary",
+      "passed": true
+    },
+    {
+      "test": "shard_on_capture",
+      "passed": true
+    },
+    {
+      "test": "no_reward_for_live_escape_2",
+      "passed": true
+    },
+    {
+      "test": "no_reward_for_live_escape_4",
+      "passed": true
+    },
+    {
+      "test": "no_reward_for_live_escape_5",
+      "passed": true
+    },
+    {
+      "test": "no_reward_for_live_escape_6",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_8",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_2",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_16",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_512",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_16777216",
+      "passed": true
+    },
+    {
+      "test": "excluded_battle_1048576",
+      "passed": true
+    },
+    {
+      "test": "double_two_primary_shards",
+      "passed": true
+    },
+    {
+      "test": "stellar_bonus_is_rare",
+      "passed": true
+    },
+    {
+      "test": "five_percent_held_item_roll",
+      "passed": true
+    },
+    {
+      "test": "charmander_both_charizardites",
+      "passed": true
+    },
+    {
+      "test": "matching_z_crystal",
+      "passed": true
+    },
+    {
+      "test": "explicit_item_preserved",
+      "passed": true
+    },
+    {
+      "test": "short_shards_no_change",
+      "passed": true
+    },
+    {
+      "test": "prepare_cost_50",
+      "passed": true
+    },
+    {
+      "test": "change_cost_exactly_50",
+      "passed": true
+    },
+    {
+      "test": "same_type_no_charge",
+      "passed": true
+    },
+    {
+      "test": "stellar_quote_150",
+      "passed": true
+    },
+    {
+      "test": "stellar_cost_exactly_150",
+      "passed": true
+    },
+    {
+      "test": "egg_no_charge",
+      "passed": true
+    },
+    {
+      "test": "scientist_cell_walkable",
+      "passed": true
+    },
+    {
+      "test": "service_interaction_cell_walkable",
+      "passed": true
+    }
+  ],
+  "held_samples": 2000,
+  "held_count": 102,
+  "all_passed": true,
+  "user_save_loaded": false
+}

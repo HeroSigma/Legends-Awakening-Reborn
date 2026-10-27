@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleTowerCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, BattleFrontier_BattleTowerCorridor_OnLoad
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerCorridor_OnFrame
@@ -52,3 +54,28 @@ BattleFrontier_BattleTowerCorridor_Movement_AttendantWalkToDoor:
 	set_invisible
 	step_end
 
+
+#else
+BattleFrontier_BattleTowerCorridor_MapScripts::
+	.byte 0
+BattleFrontier_BattleTowerCorridor_OnLoad:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_EventScript_OpenFarDoor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_EventScript_WalkToFarDoor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_EventScript_WarpToBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_Movement_PlayerWalkToFarDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_Movement_AttendantWalkToFarDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_Movement_PlayerWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerCorridor_Movement_AttendantWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+#endif

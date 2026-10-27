@@ -1,0 +1,319 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_TEST_NEWBARKTOWN",
+  "name": "HnSTest_NewBarkTown",
+  "layout": "LAYOUT_HNS_TEST_NEWBARKTOWN",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [
+    {
+      "map": "MAP_HNS_TEST_ROUTE29",
+      "offset": -5,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_HNS_REGION_ROUTE27",
+      "offset": -11,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_FAT_MAN_HNS",
+      "x": 20,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_1"
+    },
+    {
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_2",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_LASS_HNS",
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_3",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SILVER_HNS",
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(WOOPER)",
+      "x": 10,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+      "x": 27,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_5"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+      "x": -2,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "FLAG_HIDE_HNS_PLACEHOLDER_VARIANTS",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_7"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+      "x": 10,
+      "y": 27,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_8"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_9"
+    },
+    {
+      "local_id": "LOCALID_HNSTEST_NEWBARKTOWN_10",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 15,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnSTest_NewBarkTown_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_NEWBARKTOWN_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_NEWBARKTOWN_PLAYERSHOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_NEWBARKTOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_NEWBARKTOWN_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_TINTOWER_ROOFDAY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_NEWBARKTOWN_LAB",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

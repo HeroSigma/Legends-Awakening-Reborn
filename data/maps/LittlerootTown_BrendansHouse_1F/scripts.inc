@@ -24,6 +24,8 @@ LittlerootTown_BrendansHouse_1F_EventScript_ShowRunningShoesManual::
 	return
 
 LittlerootTown_BrendansHouse_1F_OnTransition:
+	call LegendsNextDoor_SetupFemale
+	call LegendsDownstairs_SetupMale
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToDoor
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToStairs
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToTV
@@ -47,11 +49,14 @@ LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToDoor::
 @ Many of the below scripts have no gender check because they assume youre in the correct house
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 LittlerootTown_BrendansHouse_1F_OnFrame:
+	map_script_2 VAR_LITTLEROOT_INTRO_STATE, LA_INTRO_RIFT_REPORT, LegendsDownstairs_Report
+	map_script_2 VAR_TEMP_2, 0, LegendsDownstairs_ResumeMale
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_BrendansHouse_1F_EventScript_EnterHouseMovingIn
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_BrendansHouse_1F_EventScript_PetalburgGymReport
 	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 1, LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor
 	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
+	map_script_2 VAR_TEMP_3, 1, LegendsNextDoor_Resume
 	.2byte 0
 
 LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock::
@@ -94,6 +99,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
+	call LegendsNextDoor_TryGreeting
 	special GetRivalSonDaughterString
 	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
 	setflag FLAG_MET_RIVAL_MOM

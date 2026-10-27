@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "battle_anim.h"
@@ -4107,3 +4109,65 @@ static inline void TruncateToFirstWordOnly(u8 *str)
         }
     }
 }
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "battle_anim.h"
+#include "bg.h"
+#include "data.h"
+#include "decompress.h"
+#include "dynamic_placeholder_text_util.h"
+#include "event_data.h"
+#include "international_string_util.h"
+#include "item.h"
+#include "link.h"
+#include "link_rfu.h"
+#include "main.h"
+#include "menu.h"
+#include "minigame_countdown.h"
+#include "palette.h"
+#include "random.h"
+#include "digit_obj_util.h"
+#include "save.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "sound.h"
+#include "sprite.h"
+#include "string_util.h"
+#include "strings.h"
+#include "task.h"
+#include "text_window.h"
+#include "trig.h"
+#include "pokemon.h"
+#include "pokemon_jump.h"
+#include "constants/rgb.h"
+#include "constants/songs.h"
+#include "constants/items.h"
+#include "script.h"
+#include "legacy_features.h"
+void StartPokemonJump(u16 partyId, MainCallback exitCallback)
+{
+    if (exitCallback != NULL) SetMainCallback2(exitCallback);
+}
+
+bool32 IsSpeciesAllowedInPokemonJump(enum Species species)
+{
+    return 0;
+}
+
+void IsPokemonJumpSpeciesInParty(void)
+{
+    gSpecialVar_Result = FALSE;
+}
+
+void ResetPokemonJumpRecords(void)
+{
+
+}
+
+void ShowPokemonJumpRecords(void)
+{
+    LegacyFeature_ResumeScript();
+}
+#endif

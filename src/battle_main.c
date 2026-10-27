@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_tera.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_ai_main.h"
@@ -5304,6 +5305,7 @@ static void HandleEndTurn_FinishBattle(void)
             gBattlerBattleController[i] = BATTLE_CONTROLLER_NONE;
         }
 
+        LegendsAwardWildShards();
         gBattleMainFunc = FreeResetData_ReturnToOvOrDoEvolutions;
         gCB2_AfterEvolution = BattleMainCB2;
     }

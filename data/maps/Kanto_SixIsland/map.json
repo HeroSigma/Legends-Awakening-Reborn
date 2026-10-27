@@ -1,0 +1,73 @@
+{
+  "id": "MAP_KANTOAR_3_18_SIXISLAND",
+  "name": "Kanto_SixIsland",
+  "layout": "LAYOUT_KANTOAR_3_18_SIXISLAND",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KANTOAR_3_60_SIXISLAND_WATERPATH",
+      "offset": -40,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_3_18_SIXISLAND_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 12,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_3_18_SixIsland_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 11,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_37_2_SIXISLAND_HARBOR",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_37_0_SIXISLAND_POKEMONCENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_37_3_SIXISLAND_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_37_4_SIXISLAND_MART",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

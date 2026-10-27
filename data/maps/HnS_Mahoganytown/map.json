@@ -1,0 +1,671 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_MAHOGANYTOWN",
+  "name": "HnS_Mahoganytown",
+  "layout": "LAYOUT_HNS_REGION_MAHOGANYTOWN",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [
+    {
+      "map": "MAP_HNS_REGION_ROUTE42",
+      "offset": -3,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_HNS_REGION_ROUTE43",
+      "offset": 2,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_HNS_REGION_ROUTE44",
+      "offset": -2,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_OLD_MAN_HNS",
+      "x": 7,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_WOMAN_1_HNS",
+      "x": 24,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_2"
+    },
+    {
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_3",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BALDING_MAN_HNS",
+      "x": 30,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_FAT_MAN_HNS",
+      "x": 10,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AIPOM)",
+      "x": 27,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_5"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AIPOM)",
+      "x": 28,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AIPOM)",
+      "x": 24,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_7"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AIPOM)",
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_8"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DELIBIRD)",
+      "x": 8,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_9"
+    },
+    {
+      "local_id": "LOCALID_HNS_MAHOGANYTOWN_10",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 22,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_Mahoganytown_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 14,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GATE_MAHOGANYTOWN_ROUTE43",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_MAHOGANYTOWN_SHOP",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_MAHOGANYTOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_MAHOGANYTOWN_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_MAHOGANYTOWN_POKEMONCENTER",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 19,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

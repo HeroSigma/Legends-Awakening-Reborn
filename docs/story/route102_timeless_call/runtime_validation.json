@@ -1,0 +1,238 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_0_12",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_0_12",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_0_12",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_0_12",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_0_12",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_0_12",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_0_13",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_0_13",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_0_13",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_0_13",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_0_13",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_0_13",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_0_14",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_0_14",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_0_14",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_0_14",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_0_14",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_0_14",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_1_12",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_1_12",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_1_12",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_1_12",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_1_12",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_1_12",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_1_13",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_1_13",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_1_13",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_1_13",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_1_13",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_1_13",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "camera_shows_woods_1_14",
+      "passed": true
+    },
+    {
+      "test": "voice_calls_player_1_14",
+      "passed": true
+    },
+    {
+      "test": "not_forced_battle_1_14",
+      "passed": true
+    },
+    {
+      "test": "player_stays_on_trigger_1_14",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_1_14",
+      "passed": true
+    },
+    {
+      "test": "map_reentry_no_repeat_1_14",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "unbeaten_allen_does_not_gate_scene",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "actual_youngster_battle_before_scene",
+      "passed": true
+    },
+    {
+      "test": "scene_after_battle_at_same_tile",
+      "passed": true
+    },
+    {
+      "test": "native_save_success",
+      "passed": true
+    },
+    {
+      "test": "saved_scene_completion_persists",
+      "passed": true
+    },
+    {
+      "test": "saved_scene_does_not_replay",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "user_save_loaded": false
+}

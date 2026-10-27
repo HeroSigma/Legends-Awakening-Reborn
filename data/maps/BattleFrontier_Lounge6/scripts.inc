@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge6_MapScripts::
 	.byte 0
 
@@ -56,3 +58,26 @@ BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
 	.string "Giggle!\n"
 	.string "A SKITTY is so much cuter than I had\l"
 	.string "imagined. I'm delighted!$"
+
+#else
+BattleFrontier_Lounge6_MapScripts::
+	.byte 0
+BattleFrontier_Lounge6_EventScript_Trader::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge6_EventScript_DeclineTrade::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge6_EventScript_NotRequestedMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge6_EventScript_TradeCompleted::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge6_Text_WellThatsFineToo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
+	.string "This feature is disabled in this build.$"
+#endif

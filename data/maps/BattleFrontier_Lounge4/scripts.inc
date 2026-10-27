@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge4_MapScripts::
 	.byte 0
 
@@ -28,3 +30,20 @@ BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles:
 	.string "But even now, I never take a break\n"
 	.string "from plotting strategy and combos.$"
 
+
+#else
+BattleFrontier_Lounge4_MapScripts::
+	.byte 0
+BattleFrontier_Lounge4_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge4_EventScript_Cook::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge4_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles:
+	.string "This feature is disabled in this build.$"
+#endif

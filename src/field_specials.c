@@ -3490,7 +3490,7 @@ bool8 IsDestinationBoxFull(void)
     {
         for (i = 0; i < IN_BOX_COUNT; i++)
         {
-            if (GetBoxMonData(GetBoxedMonPtr(box, i), MON_DATA_SPECIES, 0) == SPECIES_NONE)
+            if (GetAndCopyBoxMonDataAt(box, i, MON_DATA_SPECIES, 0) == SPECIES_NONE)
             {
                 if (GetPCBoxToSendMon() != box)
                     FlagClear(FLAG_SHOWN_BOX_WAS_FULL_MESSAGE);
@@ -3499,7 +3499,7 @@ bool8 IsDestinationBoxFull(void)
             }
         }
 
-        if (++box == TOTAL_BOXES_COUNT)
+        if (++box == GetStorageBoxCount())
             box = 0;
     } while (box != StorageGetCurrentBox());
     return FALSE;

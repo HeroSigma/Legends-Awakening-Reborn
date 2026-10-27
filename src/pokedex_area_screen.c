@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_encounters.h"
 #include "bg.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -340,7 +341,7 @@ static void FindMapsWithMon(enum Species species)
         if (GetRegionMapType(headerSectionId) != currentRegionMapType)
             continue;
 
-        if (MapHasSpecies(&gWildMonHeaders[i].encounterTypes[gAreaTimeOfDay], headerSectionId, species))
+        if (MapHasSpecies(GetEffectiveWildEncounterTypes(i, gAreaTimeOfDay), headerSectionId, species))
         {
             switch (gWildMonHeaders[i].mapGroup)
             {

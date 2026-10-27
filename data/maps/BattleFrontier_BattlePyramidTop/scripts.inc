@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePyramidTop_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidTop_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidTop_OnFrame
@@ -327,3 +329,96 @@ BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
 	.string "Now, when you are ready, take courage\n"
 	.string "and step forward.$"
 
+
+#else
+BattleFrontier_BattlePyramidTop_MapScripts::
+	.byte 0
+BattleFrontier_BattlePyramidTop_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_EndSetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_CheckChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_PlayPyramidMusic::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_ShowMapName::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_ReadyChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_WarpToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_StepForwardWhenReady::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BrandonHereMoveAside::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BattleBrandon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardSilverSpeech::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BattleBrandonSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_DefeatedBrandonSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BrandonIntroGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardGoldSpeech::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_BattleBrandonGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_DefeatedBrandonGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_EventScript_DoBrandonBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Movement_AttendantBlockPath:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Movement_PlayerClimbToTop:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Movement_BrandonApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
+	.string "This feature is disabled in this build.$"
+#endif

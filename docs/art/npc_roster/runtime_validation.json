@@ -1,0 +1,822 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Red",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Red",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Red",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Red",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_RED",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_RED_NORMAL_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Blue",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Blue",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Blue",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Blue",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_BLUE",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_BLUE_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Green",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Green",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Green",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Green",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Brendan",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Brendan",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Brendan",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Brendan",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_May",
+      "passed": true
+    },
+    {
+      "test": "dimensions_May",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_May",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_May",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_RIVAL_MAY_NORMAL",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Birch",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Birch",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Birch",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Birch",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_PROF_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Silver",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Silver",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Silver",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Silver",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_SILVER_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Elio",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Elio",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Elio",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Elio",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Wally",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Wally",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Wally",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Wally",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_WALLY",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Hilda",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Hilda",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Hilda",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Hilda",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Rosa",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Rosa",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Rosa",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Rosa",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Serena",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Serena",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Serena",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Serena",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Lyra",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Lyra",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Lyra",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Lyra",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Kris",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Kris",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Kris",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Kris",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_KRIS_NORMAL_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Lucas",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Lucas",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Lucas",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Lucas",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Selene",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Selene",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Selene",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Selene",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Hilbert",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Hilbert",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Hilbert",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Hilbert",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Nate",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Nate",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Nate",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Nate",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Hugh",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Hugh",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Hugh",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Hugh",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Calem",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Calem",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Calem",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Calem",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Ash",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Ash",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Ash",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Ash",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Alain",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Alain",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Alain",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Alain",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Barry",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Barry",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Barry",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Barry",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Gladion",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Gladion",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Gladion",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Gladion",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Zinnia",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Zinnia",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Zinnia",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Zinnia",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Archie",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Archie",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Archie",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Archie",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_ARCHIE",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Maxie",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Maxie",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Maxie",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Maxie",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_MAXIE",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_N",
+      "passed": true
+    },
+    {
+      "test": "dimensions_N",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_N",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_N",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Iris",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Iris",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Iris",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Iris",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Gloria",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Gloria",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Gloria",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Gloria",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Bede",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Bede",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Bede",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Bede",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Marnie",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Marnie",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Marnie",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Marnie",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Hop",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Hop",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Hop",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Hop",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Cheren",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Cheren",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Cheren",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Cheren",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Ethan",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Ethan",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Ethan",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Ethan",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Oak",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Oak",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Oak",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Oak",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_PROF_OAK",
+      "passed": true
+    },
+    {
+      "test": "role_alias_OBJ_EVENT_GFX_HNS_PROF_OAK_HNS",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_RandomPortals",
+      "passed": true
+    },
+    {
+      "test": "dimensions_RandomPortals",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_RandomPortals",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_RandomPortals",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Juniper",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Juniper",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Juniper",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Juniper",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_Cynthia",
+      "passed": true
+    },
+    {
+      "test": "dimensions_Cynthia",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_Cynthia",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_Cynthia",
+      "passed": true
+    },
+    {
+      "test": "named_graphics_HoopaRing",
+      "passed": true
+    },
+    {
+      "test": "dimensions_HoopaRing",
+      "passed": true
+    },
+    {
+      "test": "linked_frames_HoopaRing",
+      "passed": true
+    },
+    {
+      "test": "linked_palette_HoopaRing",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_0",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_1",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_2",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_3",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_4",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_5",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_6",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_7",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_8",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_9",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_10",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_11",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_12",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_13",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_14",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_15",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_16",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_17",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_18",
+      "passed": true
+    },
+    {
+      "test": "hoopa_donor_animation_19",
+      "passed": true
+    },
+    {
+      "test": "hoopa_combined_sprite_created",
+      "passed": true
+    },
+    {
+      "test": "ring_then_hoopa_single_sprite",
+      "passed": true
+    },
+    {
+      "test": "hoopa_emergence_finishes",
+      "passed": true
+    },
+    {
+      "test": "player_avatar_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "player_avatar_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "protected_maps_player_art_save_unchanged",
+      "passed": true
+    },
+    {
+      "test": "existing_graphics_ids_unchanged",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "user_save_loaded": false
+}

@@ -1,0 +1,50 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_RUINSOFALPH_WORDSROOM2",
+  "name": "HnS_RuinsOfAlph_WordsRoom2",
+  "layout": "LAYOUT_HNS_REGION_RUINSOFALPH_WORDSROOM2",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HNS_RUINSOFALPH_WORDSROOM2_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 10,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_RuinsOfAlph_WordsRoom2_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_RUINSOFALPH_B1F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_RUINSOFALPH_PUZZLEANDREWARDCHAMBERS",
+      "dest_warp_id": "26"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

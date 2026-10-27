@@ -3,7 +3,6 @@
   "name": "Route102",
   "layout": "LAYOUT_ROUTE102",
   "music": "MUS_ROUTE101",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_102",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -67,10 +66,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
-      "x": 3,
-      "y": 5,
+      "x": 10,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -142,62 +141,6 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route102_EventScript_Allen",
       "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE102_CONSTRUCTION_1",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 24,
-      "y": 2,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route102_EventScript_HyperConstruction_1",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE102_CONSTRUCTION_2",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 25,
-      "y": 2,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route102_EventScript_HyperConstruction_2",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE102_CONSTRUCTION_3",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 6,
-      "y": 3,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route102_EventScript_HyperConstruction_3",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE102_CONSTRUCTION_4",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 7,
-      "y": 3,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route102_EventScript_HyperConstruction_4",
-      "flag": "0"
     }
   ],
   "warp_events": [
@@ -230,7 +173,35 @@
       "dest_warp_id": "3"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_LA_TIMELESS_WOODS_CALL_STATE",
+      "var_value": "0",
+      "script": "Route102_EventScript_TimelessCall"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_LA_TIMELESS_WOODS_CALL_STATE",
+      "var_value": "0",
+      "script": "Route102_EventScript_TimelessCall"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_LA_TIMELESS_WOODS_CALL_STATE",
+      "var_value": "0",
+      "script": "Route102_EventScript_TimelessCall"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -248,5 +219,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route102_EventScript_RouteSignOldale"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

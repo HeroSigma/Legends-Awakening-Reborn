@@ -1,0 +1,39 @@
+{
+  "rom_sha256": "74bd8f7be7647c3a5088e5df300d8144b93dff624c98e0a4a0b6d19bd25179a5",
+  "isolated_core": true,
+  "user_save_loaded": false,
+  "results": [
+    {
+      "format_mode": 0,
+      "metadata_gate_byte": 0,
+      "reported_mode": 0,
+      "rich_records": 1,
+      "boxes": 37,
+      "slots": 1110
+    },
+    {
+      "format_mode": 0,
+      "metadata_gate_byte": 1,
+      "reported_mode": 0,
+      "rich_records": 0,
+      "boxes": 45,
+      "slots": 1350
+    },
+    {
+      "format_mode": 1,
+      "metadata_gate_byte": 0,
+      "reported_mode": 1,
+      "rich_records": 1,
+      "boxes": 50,
+      "slots": 1500
+    },
+    {
+      "format_mode": 1,
+      "metadata_gate_byte": 1,
+      "reported_mode": 1,
+      "rich_records": 0,
+      "boxes": 67,
+      "slots": 2010
+    }
+  ]
+}

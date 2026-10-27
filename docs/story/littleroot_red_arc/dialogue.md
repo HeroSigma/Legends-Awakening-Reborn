@@ -1,0 +1,333 @@
+# Littleroot: Red and the rifts
+
+## BirchRecognizes
+
+**BIRCH**: Red?! I know that face anywhere!
+
+But how did you get to Hoenn?
+
+## PortalArrival
+
+**RED**: Pikachu and I came through a portal.
+
+One moment we were travelling.
+
+The next, we were here.
+
+I travelled through Hoenn before.
+
+I remembered the road to your lab.
+
+## KeepStarter
+
+**BIRCH**: Then the rifts carry people too…
+
+For now, both of you are safe.
+
+{PLAYER}, keep the partner you chose.
+
+You stood together when it mattered.
+
+## PlayerIntroduction
+
+**PLAYER**: We never introduced ourselves.
+
+My name is {PLAYER}.
+
+Thank you for saving us.
+
+## RedIntroduction
+
+**RED**: Red. Good to meet you properly.
+
+How about a battle?
+
+Pikachu would be too much right now.
+
+Professor, may I raise a new partner?
+
+## RioluGift
+
+**BIRCH**: This Riolu was found near a rift.
+
+Its species is native to Sinnoh. Finding one here was quite a surprise.
+
+An aide brought it to my lab. I have been helping it settle in.
+
+It needs more than observation. It needs someone it can trust.
+
+If it is willing, Red, I would like you to travel together.
+
+## RedChallenge
+
+**RED**: All right, Riolu. A fresh start.
+
+{PLAYER}, show me how you and your
+
+partner work together.
+
+## RedDefeated
+
+**RED**: You surprised me. Well battled!
+
+## RedVictory
+
+**RED**: You held your ground. Well done.
+
+## RedCongratulates
+
+**RED**: You held your own for a new trainer.
+
+You watched, and you kept trying.
+
+Experience makes a difference.
+
+Keep building trust with your partner.
+
+## MegaRingFuture
+
+**RED**: That is a Mega Ring.
+
+It will come in handy in the future.
+
+When you find a matching Mega Stone,
+
+your bond can unlock more power.
+
+## FindBothRivals
+
+**BIRCH**: Brendan and May are on Route 103.
+
+Please call them back to the lab.
+
+I have research equipment for you.
+
+## RedHeadsAhead
+
+**RED**: I will go on ahead and find them.
+
+Come on, Pikachu. Stay close.
+
+## RingBagFull
+
+**RED**: Make room for this ring first.
+
+I will keep it safe until you do.
+
+## BrendanRecognizes
+
+**BRENDAN**: Wait… Red?!
+
+The Champion from Kanto?!
+
+## MayRecognizes
+
+**MAY**: It really is you! And Pikachu!
+
+Dad never said you were visiting!
+
+## PlayerChampionQuestion
+
+**PLAYER**: Champion…?
+
+You are Kanto's Champion?
+
+## RedExplains
+
+**RED**: That is where my journey began.
+
+But a title does not explain a rift.
+
+I came through one with Pikachu.
+
+Now I want to understand why.
+
+## MayRiftQuestion
+
+**MAY**: You came through a rift yourself?
+
+Then the sightings are only part of it.
+
+## RedFreshStart
+
+**RED**: I know my way around Hoenn.
+
+This time, I am starting fresh.
+
+New partners. New things to learn.
+
+Pikachu is still coming with me.
+
+## BrendanDoubleChallenge
+
+**BRENDAN**: Then let us help with that!
+
+May and me against you two.
+
+A double battle!
+
+## RedPartnerAdvice
+
+**RED**: Ready, {PLAYER}? Watch both opponents.
+
+Riolu and I will back you up.
+
+Pikachu, stay here and watch.
+
+## BrendanDefeat
+
+**BRENDAN**: So that is fighting a Champion…
+
+## MayDefeat
+
+**MAY**: You two made a good team!
+
+## BrendanAfterDouble
+
+**BRENDAN**: Even with a new partner… Wow.
+
+{PLAYER}, you kept up with him!
+
+## MayAfterDouble
+
+**MAY**: Dad wants us back at the lab?
+
+Let us go. We have plenty to tell him.
+
+## RedAfterDouble
+
+**RED**: Well battled, all of you.
+
+A new team still learns every day.
+
+Let us bring the Professor his notes.
+
+## DoubleRetry
+
+**RED**: Everyone needs practice together.
+
+I have healed your partners.
+
+Speak to us when you want to try again.
+
+## BirchResearch
+
+**BIRCH**: You have all seen what is happening.
+
+POKéMON from distant places…
+
+And now, people crossing the rifts.
+
+We need careful records, not guesses.
+
+## RedResearch
+
+**RED**: I will investigate what I can.
+
+There may be other travellers.
+
+If we share what we learn, it helps.
+
+## NationalDexGift
+
+**BIRCH**: {PLAYER}, this is your POKéDEX.
+
+I have enabled its National records.
+
+A Hoenn-only list is no longer enough.
+
+## DexNavGift
+
+**BIRCH**: I have also installed the DexNav.
+
+It helps you find and study POKéMON.
+
+Search the habitats around you.
+
+Different times bring different sights.
+
+## MayPokeBalls
+
+**MAY**: Here. Take these POKé BALLS too.
+
+Let your new partner make some friends!
+
+## BrendanResearch
+
+**BRENDAN**: And remember, we are rivals now.
+
+Research does not cancel our battles!
+
+## RedFarewell
+
+**RED**: I will look for signs of the rifts.
+
+There is still a lot we do not know.
+
+We will meet again, {PLAYER}.
+
+Come on, Pikachu.
+
+## DexBagFull
+
+**MAY**: Your bag is full.
+
+Make room, then come back for these.
+
+## ElaraAsk
+
+**MOM**: There you are, {PLAYER}.
+
+You have been gone quite a while.
+
+How did meeting the Professor go?
+
+## PlayerTellsElara
+
+**PLAYER**: There was a strange POKéMON.
+
+Red and Pikachu saved us.
+
+He said he came through a portal.
+
+He is a Champion from Kanto.
+
+We battled, and he gave me this ring.
+
+Birch asked us to study the sightings.
+
+## ElaraAbsorbs
+
+**MOM**: A portal… And Red is here too…
+
+That is a lot for your first outing.
+
+## ElaraThought
+
+**Unspoken narration**: Elara falls quiet for a moment.
+
+Her thoughts turn to Caelum.
+
+(Is this what you planned?)
+
+## ElaraShoes
+
+**MOM**: Then you will need these shoes.
+
+They are made for a long journey.
+
+## ElaraTakeCare
+
+**MOM**: Hold B outside to run.
+
+Come home whenever you need to.
+
+Take care of yourself, {PLAYER}.
+
+And take care of your partner too.
+
+## Companion
+
+**RED**: There is always something new to learn.
+
+Pikachu and I are taking our time.

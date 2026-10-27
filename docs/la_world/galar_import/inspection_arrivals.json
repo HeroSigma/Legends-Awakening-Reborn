@@ -1,0 +1,3836 @@
+[
+  {
+    "donor_id": "3.0",
+    "map": "AMap_3_0_Postwick",
+    "map_id": "MAP_AMAP_3_0_POSTWICK",
+    "spawn": [
+      18,
+      24
+    ]
+  },
+  {
+    "donor_id": "3.19",
+    "map": "Galar_3_19_Route_1",
+    "map_id": "MAP_GALAR_3_19_ROUTE_1",
+    "spawn": [
+      46,
+      12
+    ]
+  },
+  {
+    "donor_id": "5.6",
+    "map": "Galar_5_6_Wedgehurst",
+    "map_id": "MAP_GALAR_5_6_WEDGEHURST",
+    "spawn": [
+      10,
+      17
+    ]
+  },
+  {
+    "donor_id": "5.12",
+    "map": "Galar_5_12_Route_2",
+    "map_id": "MAP_GALAR_5_12_ROUTE_2",
+    "spawn": [
+      42,
+      18
+    ]
+  },
+  {
+    "donor_id": "6.10",
+    "map": "AMap_6_10_Motostoke",
+    "map_id": "MAP_AMAP_6_10_MOTOSTOKE",
+    "spawn": [
+      22,
+      33
+    ]
+  },
+  {
+    "donor_id": "6.17",
+    "map": "AMap_6_17_Route_3",
+    "map_id": "MAP_AMAP_6_17_ROUTE_3",
+    "spawn": [
+      9,
+      7
+    ]
+  },
+  {
+    "donor_id": "6.28",
+    "map": "AMap_6_28_Galar_Mine",
+    "map_id": "MAP_AMAP_6_28_GALAR_MINE",
+    "spawn": [
+      38,
+      23
+    ]
+  },
+  {
+    "donor_id": "7.17",
+    "map": "AMap_7_17_Route_4",
+    "map_id": "MAP_AMAP_7_17_ROUTE_4",
+    "spawn": [
+      14,
+      29
+    ]
+  },
+  {
+    "donor_id": "7.11",
+    "map": "AMap_7_11_Turffield",
+    "map_id": "MAP_AMAP_7_11_TURFFIELD",
+    "spawn": [
+      26,
+      28
+    ]
+  },
+  {
+    "donor_id": "8.6",
+    "map": "AMap_8_6_Route_5",
+    "map_id": "MAP_AMAP_8_6_ROUTE_5",
+    "spawn": [
+      36,
+      15
+    ]
+  },
+  {
+    "donor_id": "8.7",
+    "map": "AMap_8_7_Hulbury",
+    "map_id": "MAP_AMAP_8_7_HULBURY",
+    "spawn": [
+      12,
+      28
+    ]
+  },
+  {
+    "donor_id": "9.10",
+    "map": "Galar_9_10_Hammerlocke",
+    "map_id": "MAP_GALAR_9_10_HAMMERLOCKE",
+    "spawn": [
+      9,
+      21
+    ]
+  },
+  {
+    "donor_id": "10.21",
+    "map": "Galar_10_21_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_21_STOW_ON_SIDE",
+    "spawn": [
+      37,
+      55
+    ]
+  },
+  {
+    "donor_id": "11.10",
+    "map": "Galar_11_10_Ballonlea",
+    "map_id": "MAP_GALAR_11_10_BALLONLEA",
+    "spawn": [
+      26,
+      37
+    ]
+  },
+  {
+    "donor_id": "12.10",
+    "map": "Galar_12_10_Circhester",
+    "map_id": "MAP_GALAR_12_10_CIRCHESTER",
+    "spawn": [
+      28,
+      7
+    ]
+  },
+  {
+    "donor_id": "14.10",
+    "map": "Galar_14_10_Spikemuth",
+    "map_id": "MAP_GALAR_14_10_SPIKEMUTH",
+    "spawn": [
+      11,
+      21
+    ]
+  },
+  {
+    "donor_id": "3.28",
+    "map": "Galar_3_28_Route_10",
+    "map_id": "MAP_GALAR_3_28_ROUTE_10",
+    "spawn": [
+      41,
+      31
+    ]
+  },
+  {
+    "donor_id": "3.9",
+    "map": "Galar_3_9_Wyndon",
+    "map_id": "MAP_GALAR_3_9_WYNDON",
+    "spawn": [
+      50,
+      47
+    ]
+  },
+  {
+    "donor_id": "1.0",
+    "map": "Galar_1_0_Slumbering_area",
+    "map_id": "MAP_GALAR_1_0_SLUMBERING_AREA",
+    "spawn": [
+      43,
+      59
+    ]
+  },
+  {
+    "donor_id": "1.99",
+    "map": "Galar_1_99_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_1_99_DYNAMAX_ADVENTURE",
+    "spawn": [
+      27,
+      37
+    ]
+  },
+  {
+    "donor_id": "4.10",
+    "map": "Galar_4_10_Postwick",
+    "map_id": "MAP_GALAR_4_10_POSTWICK",
+    "spawn": [
+      58,
+      17
+    ]
+  },
+  {
+    "donor_id": "4.11",
+    "map": "Galar_4_11_Postwick",
+    "map_id": "MAP_GALAR_4_11_POSTWICK",
+    "spawn": [
+      15,
+      25
+    ]
+  },
+  {
+    "donor_id": "6.27",
+    "map": "Galar_6_27_Map_06_27",
+    "map_id": "MAP_GALAR_6_27_MAP_06_27",
+    "spawn": [
+      10,
+      11
+    ]
+  },
+  {
+    "donor_id": "6.29",
+    "map": "Galar_6_29_Map_06_29",
+    "map_id": "MAP_GALAR_6_29_MAP_06_29",
+    "spawn": [
+      10,
+      23
+    ]
+  },
+  {
+    "donor_id": "6.30",
+    "map": "Galar_6_30_Wild_Area",
+    "map_id": "MAP_GALAR_6_30_WILD_AREA",
+    "spawn": [
+      36,
+      8
+    ]
+  },
+  {
+    "donor_id": "6.31",
+    "map": "Galar_6_31_Wild_Area",
+    "map_id": "MAP_GALAR_6_31_WILD_AREA",
+    "spawn": [
+      35,
+      52
+    ]
+  },
+  {
+    "donor_id": "6.32",
+    "map": "Galar_6_32_Motostoke",
+    "map_id": "MAP_GALAR_6_32_MOTOSTOKE",
+    "spawn": [
+      18,
+      9
+    ]
+  },
+  {
+    "donor_id": "8.20",
+    "map": "Galar_8_20_Galar_Mine",
+    "map_id": "MAP_GALAR_8_20_GALAR_MINE",
+    "spawn": [
+      16,
+      10
+    ]
+  },
+  {
+    "donor_id": "8.26",
+    "map": "AMap_8_26_Hulbury",
+    "map_id": "MAP_AMAP_8_26_HULBURY",
+    "spawn": [
+      29,
+      9
+    ]
+  },
+  {
+    "donor_id": "9.13",
+    "map": "Galar_9_13_Route_7",
+    "map_id": "MAP_GALAR_9_13_ROUTE_7",
+    "spawn": [
+      9,
+      21
+    ]
+  },
+  {
+    "donor_id": "10.20",
+    "map": "Galar_10_20_Route_6",
+    "map_id": "MAP_GALAR_10_20_ROUTE_6",
+    "spawn": [
+      58,
+      59
+    ]
+  },
+  {
+    "donor_id": "12.8",
+    "map": "Galar_12_8_Route_8",
+    "map_id": "MAP_GALAR_12_8_ROUTE_8",
+    "spawn": [
+      30,
+      9
+    ]
+  },
+  {
+    "donor_id": "12.9",
+    "map": "Galar_12_9_Route_8",
+    "map_id": "MAP_GALAR_12_9_ROUTE_8",
+    "spawn": [
+      11,
+      22
+    ]
+  },
+  {
+    "donor_id": "14.11",
+    "map": "Galar_14_11_Route_9",
+    "map_id": "MAP_GALAR_14_11_ROUTE_9",
+    "spawn": [
+      43,
+      100
+    ]
+  },
+  {
+    "donor_id": "42.2",
+    "map": "Galar_42_2_Map_42_02",
+    "map_id": "MAP_GALAR_42_2_MAP_42_02",
+    "spawn": [
+      27,
+      6
+    ]
+  },
+  {
+    "donor_id": "42.4",
+    "map": "Galar_42_4_Wild_Area",
+    "map_id": "MAP_GALAR_42_4_WILD_AREA",
+    "spawn": [
+      13,
+      30
+    ]
+  },
+  {
+    "donor_id": "42.6",
+    "map": "Galar_42_6_Wild_Area",
+    "map_id": "MAP_GALAR_42_6_WILD_AREA",
+    "spawn": [
+      8,
+      6
+    ]
+  },
+  {
+    "donor_id": "42.7",
+    "map": "Galar_42_7_Wild_Area",
+    "map_id": "MAP_GALAR_42_7_WILD_AREA",
+    "spawn": [
+      10,
+      5
+    ]
+  },
+  {
+    "donor_id": "42.12",
+    "map": "Galar_42_12_Wild_Area",
+    "map_id": "MAP_GALAR_42_12_WILD_AREA",
+    "spawn": [
+      25,
+      17
+    ]
+  },
+  {
+    "donor_id": "42.13",
+    "map": "Galar_42_13_Wild_Area",
+    "map_id": "MAP_GALAR_42_13_WILD_AREA",
+    "spawn": [
+      29,
+      11
+    ]
+  },
+  {
+    "donor_id": "42.14",
+    "map": "Galar_42_14_Wild_Area",
+    "map_id": "MAP_GALAR_42_14_WILD_AREA",
+    "spawn": [
+      9,
+      34
+    ]
+  },
+  {
+    "donor_id": "42.15",
+    "map": "Galar_42_15_Wild_Area",
+    "map_id": "MAP_GALAR_42_15_WILD_AREA",
+    "spawn": [
+      39,
+      9
+    ]
+  },
+  {
+    "donor_id": "0.6",
+    "map": "Galar_0_6_Motostoke",
+    "map_id": "MAP_GALAR_0_6_MOTOSTOKE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "0.7",
+    "map": "Galar_0_7_Stow_On_Side",
+    "map_id": "MAP_GALAR_0_7_STOW_ON_SIDE",
+    "spawn": [
+      37,
+      5
+    ]
+  },
+  {
+    "donor_id": "0.8",
+    "map": "Galar_0_8_Hulbury",
+    "map_id": "MAP_GALAR_0_8_HULBURY",
+    "spawn": [
+      18,
+      16
+    ]
+  },
+  {
+    "donor_id": "0.9",
+    "map": "Galar_0_9_Postwick",
+    "map_id": "MAP_GALAR_0_9_POSTWICK",
+    "spawn": [
+      8,
+      32
+    ]
+  },
+  {
+    "donor_id": "0.10",
+    "map": "Galar_0_10_Stow_On_Side",
+    "map_id": "MAP_GALAR_0_10_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      14
+    ]
+  },
+  {
+    "donor_id": "0.12",
+    "map": "Galar_0_12_Map_00_12",
+    "map_id": "MAP_GALAR_0_12_MAP_00_12",
+    "spawn": [
+      9,
+      13
+    ]
+  },
+  {
+    "donor_id": "0.15",
+    "map": "Galar_0_15_Map_00_15",
+    "map_id": "MAP_GALAR_0_15_MAP_00_15",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "0.16",
+    "map": "Galar_0_16_Postwick",
+    "map_id": "MAP_GALAR_0_16_POSTWICK",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "0.18",
+    "map": "Galar_0_18_Postwick",
+    "map_id": "MAP_GALAR_0_18_POSTWICK",
+    "spawn": [
+      8,
+      10
+    ]
+  },
+  {
+    "donor_id": "0.19",
+    "map": "Galar_0_19_Postwick",
+    "map_id": "MAP_GALAR_0_19_POSTWICK",
+    "spawn": [
+      8,
+      10
+    ]
+  },
+  {
+    "donor_id": "0.20",
+    "map": "Galar_0_20_Postwick",
+    "map_id": "MAP_GALAR_0_20_POSTWICK",
+    "spawn": [
+      47,
+      13
+    ]
+  },
+  {
+    "donor_id": "1.8",
+    "map": "Galar_1_8_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_8_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.18",
+    "map": "Galar_1_18_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_18_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.19",
+    "map": "Galar_1_19_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_19_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.20",
+    "map": "Galar_1_20_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_20_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.21",
+    "map": "Galar_1_21_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_21_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.22",
+    "map": "Galar_1_22_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_22_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.23",
+    "map": "Galar_1_23_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_23_CRYSTAL_HOTEL",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "1.24",
+    "map": "Galar_1_24_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_24_CRYSTAL_HOTEL",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.25",
+    "map": "Galar_1_25_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_25_CRYSTAL_HOTEL",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.26",
+    "map": "Galar_1_26_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_26_CRYSTAL_HOTEL",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.27",
+    "map": "Galar_1_27_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_27_CRYSTAL_HOTEL",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.28",
+    "map": "Galar_1_28_Crystal_Hotel",
+    "map_id": "MAP_GALAR_1_28_CRYSTAL_HOTEL",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.34",
+    "map": "Galar_1_34_Map_01_34",
+    "map_id": "MAP_GALAR_1_34_MAP_01_34",
+    "spawn": [
+      18,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.42",
+    "map": "Galar_1_42_Secret_Base",
+    "map_id": "MAP_GALAR_1_42_SECRET_BASE",
+    "spawn": [
+      13,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.43",
+    "map": "Galar_1_43_Secret_Base",
+    "map_id": "MAP_GALAR_1_43_SECRET_BASE",
+    "spawn": [
+      22,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.44",
+    "map": "Galar_1_44_Secret_Base",
+    "map_id": "MAP_GALAR_1_44_SECRET_BASE",
+    "spawn": [
+      17,
+      3
+    ]
+  },
+  {
+    "donor_id": "1.45",
+    "map": "Galar_1_45_Secret_Base",
+    "map_id": "MAP_GALAR_1_45_SECRET_BASE",
+    "spawn": [
+      9,
+      15
+    ]
+  },
+  {
+    "donor_id": "1.47",
+    "map": "Galar_1_47_Silph_Co",
+    "map_id": "MAP_GALAR_1_47_SILPH_CO",
+    "spawn": [
+      18,
+      8
+    ]
+  },
+  {
+    "donor_id": "1.63",
+    "map": "Galar_1_63_Underwater",
+    "map_id": "MAP_GALAR_1_63_UNDERWATER",
+    "spawn": [
+      27,
+      33
+    ]
+  },
+  {
+    "donor_id": "1.64",
+    "map": "Galar_1_64_Underwater",
+    "map_id": "MAP_GALAR_1_64_UNDERWATER",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "1.90",
+    "map": "Galar_1_90_Map_01_90",
+    "map_id": "MAP_GALAR_1_90_MAP_01_90",
+    "spawn": [
+      10,
+      16
+    ]
+  },
+  {
+    "donor_id": "1.91",
+    "map": "Galar_1_91_Map_01_91",
+    "map_id": "MAP_GALAR_1_91_MAP_01_91",
+    "spawn": [
+      16,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.92",
+    "map": "Galar_1_92_Map_01_92",
+    "map_id": "MAP_GALAR_1_92_MAP_01_92",
+    "spawn": [
+      16,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.94",
+    "map": "Galar_1_94_Postwick",
+    "map_id": "MAP_GALAR_1_94_POSTWICK",
+    "spawn": [
+      11,
+      15
+    ]
+  },
+  {
+    "donor_id": "1.109",
+    "map": "Galar_1_109_Map_01_109",
+    "map_id": "MAP_GALAR_1_109_MAP_01_109",
+    "spawn": [
+      4,
+      25
+    ]
+  },
+  {
+    "donor_id": "1.122",
+    "map": "Galar_1_122_Map_01_122",
+    "map_id": "MAP_GALAR_1_122_MAP_01_122",
+    "spawn": [
+      18,
+      23
+    ]
+  },
+  {
+    "donor_id": "2.9",
+    "map": "Galar_2_9_Map_02_09",
+    "map_id": "MAP_GALAR_2_9_MAP_02_09",
+    "spawn": [
+      14,
+      8
+    ]
+  },
+  {
+    "donor_id": "2.10",
+    "map": "Galar_2_10_Map_02_10",
+    "map_id": "MAP_GALAR_2_10_MAP_02_10",
+    "spawn": [
+      9,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.13",
+    "map": "Galar_2_13_Map_02_13",
+    "map_id": "MAP_GALAR_2_13_MAP_02_13",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.14",
+    "map": "Galar_2_14_Map_02_14",
+    "map_id": "MAP_GALAR_2_14_MAP_02_14",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.15",
+    "map": "Galar_2_15_Map_02_15",
+    "map_id": "MAP_GALAR_2_15_MAP_02_15",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.16",
+    "map": "Galar_2_16_Map_02_16",
+    "map_id": "MAP_GALAR_2_16_MAP_02_16",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.17",
+    "map": "Galar_2_17_Map_02_17",
+    "map_id": "MAP_GALAR_2_17_MAP_02_17",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.18",
+    "map": "Galar_2_18_Map_02_18",
+    "map_id": "MAP_GALAR_2_18_MAP_02_18",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.19",
+    "map": "Galar_2_19_Map_02_19",
+    "map_id": "MAP_GALAR_2_19_MAP_02_19",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.20",
+    "map": "Galar_2_20_Map_02_20",
+    "map_id": "MAP_GALAR_2_20_MAP_02_20",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.21",
+    "map": "Galar_2_21_Map_02_21",
+    "map_id": "MAP_GALAR_2_21_MAP_02_21",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.22",
+    "map": "Galar_2_22_Map_02_22",
+    "map_id": "MAP_GALAR_2_22_MAP_02_22",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "2.23",
+    "map": "Galar_2_23_Map_02_23",
+    "map_id": "MAP_GALAR_2_23_MAP_02_23",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "2.25",
+    "map": "Galar_2_25_Map_02_25",
+    "map_id": "MAP_GALAR_2_25_MAP_02_25",
+    "spawn": [
+      3,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.26",
+    "map": "Galar_2_26_Map_02_26",
+    "map_id": "MAP_GALAR_2_26_MAP_02_26",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "2.56",
+    "map": "Galar_2_56_Map_02_56",
+    "map_id": "MAP_GALAR_2_56_MAP_02_56",
+    "spawn": [
+      15,
+      22
+    ]
+  },
+  {
+    "donor_id": "3.21",
+    "map": "Galar_3_21_Newmoon_Island",
+    "map_id": "MAP_GALAR_3_21_NEWMOON_ISLAND",
+    "spawn": [
+      13,
+      17
+    ]
+  },
+  {
+    "donor_id": "3.23",
+    "map": "Galar_3_23_Map_03_23",
+    "map_id": "MAP_GALAR_3_23_MAP_03_23",
+    "spawn": [
+      10,
+      27
+    ]
+  },
+  {
+    "donor_id": "3.30",
+    "map": "Galar_3_30_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_3_30_DYNAMAX_ADVENTURE",
+    "spawn": [
+      10,
+      7
+    ]
+  },
+  {
+    "donor_id": "3.31",
+    "map": "Galar_3_31_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_3_31_DYNAMAX_ADVENTURE",
+    "spawn": [
+      10,
+      7
+    ]
+  },
+  {
+    "donor_id": "3.33",
+    "map": "Galar_3_33_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_3_33_DYNAMAX_ADVENTURE",
+    "spawn": [
+      12,
+      13
+    ]
+  },
+  {
+    "donor_id": "3.36",
+    "map": "Galar_3_36_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_3_36_DYNAMAX_ADVENTURE",
+    "spawn": [
+      16,
+      2
+    ]
+  },
+  {
+    "donor_id": "3.37",
+    "map": "Galar_3_37_Dynamax_Adventure",
+    "map_id": "MAP_GALAR_3_37_DYNAMAX_ADVENTURE",
+    "spawn": [
+      9,
+      9
+    ]
+  },
+  {
+    "donor_id": "3.66",
+    "map": "Galar_3_66_Motostoke",
+    "map_id": "MAP_GALAR_3_66_MOTOSTOKE",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "4.0",
+    "map": "Galar_4_0_Postwick",
+    "map_id": "MAP_GALAR_4_0_POSTWICK",
+    "spawn": [
+      9,
+      3
+    ]
+  },
+  {
+    "donor_id": "4.1",
+    "map": "Galar_4_1_Postwick",
+    "map_id": "MAP_GALAR_4_1_POSTWICK",
+    "spawn": [
+      10,
+      4
+    ]
+  },
+  {
+    "donor_id": "4.2",
+    "map": "Galar_4_2_Postwick",
+    "map_id": "MAP_GALAR_4_2_POSTWICK",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "4.3",
+    "map": "Galar_4_3_Postwick",
+    "map_id": "MAP_GALAR_4_3_POSTWICK",
+    "spawn": [
+      45,
+      36
+    ]
+  },
+  {
+    "donor_id": "4.7",
+    "map": "Galar_4_7_Postwick",
+    "map_id": "MAP_GALAR_4_7_POSTWICK",
+    "spawn": [
+      38,
+      15
+    ]
+  },
+  {
+    "donor_id": "4.8",
+    "map": "Galar_4_8_Hammerlocke",
+    "map_id": "MAP_GALAR_4_8_HAMMERLOCKE",
+    "spawn": [
+      6,
+      4
+    ]
+  },
+  {
+    "donor_id": "5.0",
+    "map": "Galar_5_0_Wedgehurst",
+    "map_id": "MAP_GALAR_5_0_WEDGEHURST",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.1",
+    "map": "Galar_5_1_Postwick",
+    "map_id": "MAP_GALAR_5_1_POSTWICK",
+    "spawn": [
+      9,
+      39
+    ]
+  },
+  {
+    "donor_id": "5.2",
+    "map": "Galar_5_2_Wedgehurst",
+    "map_id": "MAP_GALAR_5_2_WEDGEHURST",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.3",
+    "map": "Galar_5_3_Postwick",
+    "map_id": "MAP_GALAR_5_3_POSTWICK",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.4",
+    "map": "Galar_5_4_Wedgehurst",
+    "map_id": "MAP_GALAR_5_4_WEDGEHURST",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.5",
+    "map": "Galar_5_5_Wedgehurst",
+    "map_id": "MAP_GALAR_5_5_WEDGEHURST",
+    "spawn": [
+      10,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.7",
+    "map": "Galar_5_7_Postwick",
+    "map_id": "MAP_GALAR_5_7_POSTWICK",
+    "spawn": [
+      39,
+      30
+    ]
+  },
+  {
+    "donor_id": "5.8",
+    "map": "Galar_5_8_Wedgehurst",
+    "map_id": "MAP_GALAR_5_8_WEDGEHURST",
+    "spawn": [
+      6,
+      10
+    ]
+  },
+  {
+    "donor_id": "5.9",
+    "map": "Galar_5_9_Route_2",
+    "map_id": "MAP_GALAR_5_9_ROUTE_2",
+    "spawn": [
+      10,
+      16
+    ]
+  },
+  {
+    "donor_id": "5.11",
+    "map": "Galar_5_11_Wedgehurst",
+    "map_id": "MAP_GALAR_5_11_WEDGEHURST",
+    "spawn": [
+      16,
+      13
+    ]
+  },
+  {
+    "donor_id": "5.13",
+    "map": "Galar_5_13_Route_2",
+    "map_id": "MAP_GALAR_5_13_ROUTE_2",
+    "spawn": [
+      10,
+      7
+    ]
+  },
+  {
+    "donor_id": "5.14",
+    "map": "Galar_5_14_Map_05_14",
+    "map_id": "MAP_GALAR_5_14_MAP_05_14",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.15",
+    "map": "Galar_5_15_Map_05_15",
+    "map_id": "MAP_GALAR_5_15_MAP_05_15",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "5.16",
+    "map": "Galar_5_16_Wedgehurst",
+    "map_id": "MAP_GALAR_5_16_WEDGEHURST",
+    "spawn": [
+      2,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.0",
+    "map": "Galar_6_0_Motostoke",
+    "map_id": "MAP_GALAR_6_0_MOTOSTOKE",
+    "spawn": [
+      2,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.1",
+    "map": "Galar_6_1_Motostoke",
+    "map_id": "MAP_GALAR_6_1_MOTOSTOKE",
+    "spawn": [
+      9,
+      5
+    ]
+  },
+  {
+    "donor_id": "6.2",
+    "map": "Galar_6_2_Motostoke",
+    "map_id": "MAP_GALAR_6_2_MOTOSTOKE",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "6.5",
+    "map": "Galar_6_5_Motostoke",
+    "map_id": "MAP_GALAR_6_5_MOTOSTOKE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.8",
+    "map": "Galar_6_8_Postwick",
+    "map_id": "MAP_GALAR_6_8_POSTWICK",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.12",
+    "map": "Galar_6_12_Motostoke",
+    "map_id": "MAP_GALAR_6_12_MOTOSTOKE",
+    "spawn": [
+      6,
+      14
+    ]
+  },
+  {
+    "donor_id": "6.13",
+    "map": "Galar_6_13_Wedgehurst",
+    "map_id": "MAP_GALAR_6_13_WEDGEHURST",
+    "spawn": [
+      7,
+      7
+    ]
+  },
+  {
+    "donor_id": "6.14",
+    "map": "Galar_6_14_Motostoke",
+    "map_id": "MAP_GALAR_6_14_MOTOSTOKE",
+    "spawn": [
+      7,
+      4
+    ]
+  },
+  {
+    "donor_id": "6.16",
+    "map": "Galar_6_16_Postwick",
+    "map_id": "MAP_GALAR_6_16_POSTWICK",
+    "spawn": [
+      11,
+      9
+    ]
+  },
+  {
+    "donor_id": "6.18",
+    "map": "Galar_6_18_Motostoke",
+    "map_id": "MAP_GALAR_6_18_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.19",
+    "map": "Galar_6_19_Motostoke",
+    "map_id": "MAP_GALAR_6_19_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.20",
+    "map": "Galar_6_20_Motostoke",
+    "map_id": "MAP_GALAR_6_20_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.21",
+    "map": "Galar_6_21_Motostoke",
+    "map_id": "MAP_GALAR_6_21_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.22",
+    "map": "Galar_6_22_Motostoke",
+    "map_id": "MAP_GALAR_6_22_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.23",
+    "map": "Galar_6_23_Motostoke",
+    "map_id": "MAP_GALAR_6_23_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.24",
+    "map": "Galar_6_24_Motostoke",
+    "map_id": "MAP_GALAR_6_24_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.25",
+    "map": "Galar_6_25_Motostoke",
+    "map_id": "MAP_GALAR_6_25_MOTOSTOKE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "6.26",
+    "map": "Galar_6_26_Motostoke",
+    "map_id": "MAP_GALAR_6_26_MOTOSTOKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "6.33",
+    "map": "Galar_6_33_Motostoke",
+    "map_id": "MAP_GALAR_6_33_MOTOSTOKE",
+    "spawn": [
+      12,
+      31
+    ]
+  },
+  {
+    "donor_id": "6.34",
+    "map": "Galar_6_34_Motostoke",
+    "map_id": "MAP_GALAR_6_34_MOTOSTOKE",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "6.35",
+    "map": "Galar_6_35_Motostoke",
+    "map_id": "MAP_GALAR_6_35_MOTOSTOKE",
+    "spawn": [
+      14,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.0",
+    "map": "Galar_7_0_Turffield",
+    "map_id": "MAP_GALAR_7_0_TURFFIELD",
+    "spawn": [
+      5,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.1",
+    "map": "Galar_7_1_Turffield",
+    "map_id": "MAP_GALAR_7_1_TURFFIELD",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "7.3",
+    "map": "Galar_7_3_Turffield",
+    "map_id": "MAP_GALAR_7_3_TURFFIELD",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.5",
+    "map": "Galar_7_5_Turffield",
+    "map_id": "MAP_GALAR_7_5_TURFFIELD",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "7.6",
+    "map": "Galar_7_6_Turffield",
+    "map_id": "MAP_GALAR_7_6_TURFFIELD",
+    "spawn": [
+      6,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.7",
+    "map": "Galar_7_7_Postwick",
+    "map_id": "MAP_GALAR_7_7_POSTWICK",
+    "spawn": [
+      25,
+      24
+    ]
+  },
+  {
+    "donor_id": "7.9",
+    "map": "Galar_7_9_Turffield",
+    "map_id": "MAP_GALAR_7_9_TURFFIELD",
+    "spawn": [
+      5,
+      4
+    ]
+  },
+  {
+    "donor_id": "7.10",
+    "map": "Galar_7_10_Postwick",
+    "map_id": "MAP_GALAR_7_10_POSTWICK",
+    "spawn": [
+      15,
+      28
+    ]
+  },
+  {
+    "donor_id": "7.12",
+    "map": "Galar_7_12_Turffield",
+    "map_id": "MAP_GALAR_7_12_TURFFIELD",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "7.13",
+    "map": "Galar_7_13_Turffield",
+    "map_id": "MAP_GALAR_7_13_TURFFIELD",
+    "spawn": [
+      12,
+      9
+    ]
+  },
+  {
+    "donor_id": "7.14",
+    "map": "Galar_7_14_Turffield",
+    "map_id": "MAP_GALAR_7_14_TURFFIELD",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "7.15",
+    "map": "Galar_7_15_Postwick",
+    "map_id": "MAP_GALAR_7_15_POSTWICK",
+    "spawn": [
+      12,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.16",
+    "map": "Galar_7_16_Postwick",
+    "map_id": "MAP_GALAR_7_16_POSTWICK",
+    "spawn": [
+      12,
+      12
+    ]
+  },
+  {
+    "donor_id": "7.18",
+    "map": "Galar_7_18_Turffield",
+    "map_id": "MAP_GALAR_7_18_TURFFIELD",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.19",
+    "map": "Galar_7_19_Turffield",
+    "map_id": "MAP_GALAR_7_19_TURFFIELD",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.20",
+    "map": "Galar_7_20_Turffield",
+    "map_id": "MAP_GALAR_7_20_TURFFIELD",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.21",
+    "map": "Galar_7_21_Turffield",
+    "map_id": "MAP_GALAR_7_21_TURFFIELD",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "7.22",
+    "map": "Galar_7_22_Postwick",
+    "map_id": "MAP_GALAR_7_22_POSTWICK",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "7.23",
+    "map": "Galar_7_23_Motostoke",
+    "map_id": "MAP_GALAR_7_23_MOTOSTOKE",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "8.0",
+    "map": "Galar_8_0_Hulbury",
+    "map_id": "MAP_GALAR_8_0_HULBURY",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "8.2",
+    "map": "Galar_8_2_Hulbury",
+    "map_id": "MAP_GALAR_8_2_HULBURY",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "8.3",
+    "map": "Galar_8_3_Hulbury",
+    "map_id": "MAP_GALAR_8_3_HULBURY",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "8.4",
+    "map": "Galar_8_4_Hulbury",
+    "map_id": "MAP_GALAR_8_4_HULBURY",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "8.9",
+    "map": "Galar_8_9_Postwick",
+    "map_id": "MAP_GALAR_8_9_POSTWICK",
+    "spawn": [
+      27,
+      31
+    ]
+  },
+  {
+    "donor_id": "8.10",
+    "map": "Galar_8_10_Postwick",
+    "map_id": "MAP_GALAR_8_10_POSTWICK",
+    "spawn": [
+      24,
+      26
+    ]
+  },
+  {
+    "donor_id": "8.11",
+    "map": "Galar_8_11_Postwick",
+    "map_id": "MAP_GALAR_8_11_POSTWICK",
+    "spawn": [
+      24,
+      25
+    ]
+  },
+  {
+    "donor_id": "8.12",
+    "map": "Galar_8_12_Postwick",
+    "map_id": "MAP_GALAR_8_12_POSTWICK",
+    "spawn": [
+      24,
+      6
+    ]
+  },
+  {
+    "donor_id": "8.13",
+    "map": "Galar_8_13_Postwick",
+    "map_id": "MAP_GALAR_8_13_POSTWICK",
+    "spawn": [
+      24,
+      5
+    ]
+  },
+  {
+    "donor_id": "8.14",
+    "map": "Galar_8_14_Hulbury",
+    "map_id": "MAP_GALAR_8_14_HULBURY",
+    "spawn": [
+      26,
+      7
+    ]
+  },
+  {
+    "donor_id": "8.15",
+    "map": "Galar_8_15_Hulbury",
+    "map_id": "MAP_GALAR_8_15_HULBURY",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "8.16",
+    "map": "Galar_8_16_Hulbury",
+    "map_id": "MAP_GALAR_8_16_HULBURY",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "8.17",
+    "map": "Galar_8_17_Postwick",
+    "map_id": "MAP_GALAR_8_17_POSTWICK",
+    "spawn": [
+      6,
+      12
+    ]
+  },
+  {
+    "donor_id": "8.18",
+    "map": "Galar_8_18_Postwick",
+    "map_id": "MAP_GALAR_8_18_POSTWICK",
+    "spawn": [
+      6,
+      12
+    ]
+  },
+  {
+    "donor_id": "8.19",
+    "map": "Galar_8_19_Hulbury",
+    "map_id": "MAP_GALAR_8_19_HULBURY",
+    "spawn": [
+      17,
+      26
+    ]
+  },
+  {
+    "donor_id": "8.21",
+    "map": "Galar_8_21_Postwick",
+    "map_id": "MAP_GALAR_8_21_POSTWICK",
+    "spawn": [
+      29,
+      9
+    ]
+  },
+  {
+    "donor_id": "8.22",
+    "map": "Galar_8_22_Map_08_22",
+    "map_id": "MAP_GALAR_8_22_MAP_08_22",
+    "spawn": [
+      6,
+      14
+    ]
+  },
+  {
+    "donor_id": "8.23",
+    "map": "Galar_8_23_Wild_Area",
+    "map_id": "MAP_GALAR_8_23_WILD_AREA",
+    "spawn": [
+      9,
+      42
+    ]
+  },
+  {
+    "donor_id": "8.24",
+    "map": "Galar_8_24_Map_08_24",
+    "map_id": "MAP_GALAR_8_24_MAP_08_24",
+    "spawn": [
+      29,
+      4
+    ]
+  },
+  {
+    "donor_id": "8.25",
+    "map": "Galar_8_25_Postwick",
+    "map_id": "MAP_GALAR_8_25_POSTWICK",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "9.0",
+    "map": "Galar_9_0_Stow_On_Side",
+    "map_id": "MAP_GALAR_9_0_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      14
+    ]
+  },
+  {
+    "donor_id": "9.1",
+    "map": "Galar_9_1_Stow_On_Side",
+    "map_id": "MAP_GALAR_9_1_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "9.3",
+    "map": "Galar_9_3_Circhester",
+    "map_id": "MAP_GALAR_9_3_CIRCHESTER",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "9.4",
+    "map": "Galar_9_4_Stow_On_Side",
+    "map_id": "MAP_GALAR_9_4_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "9.6",
+    "map": "Galar_9_6_Hammerlocke",
+    "map_id": "MAP_GALAR_9_6_HAMMERLOCKE",
+    "spawn": [
+      4,
+      17
+    ]
+  },
+  {
+    "donor_id": "9.8",
+    "map": "Galar_9_8_Circhester",
+    "map_id": "MAP_GALAR_9_8_CIRCHESTER",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "9.9",
+    "map": "Galar_9_9_Hammerlocke",
+    "map_id": "MAP_GALAR_9_9_HAMMERLOCKE",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "9.11",
+    "map": "Galar_9_11_Hammerlocke",
+    "map_id": "MAP_GALAR_9_11_HAMMERLOCKE",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "9.14",
+    "map": "Galar_9_14_Hammerlocke",
+    "map_id": "MAP_GALAR_9_14_HAMMERLOCKE",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "9.15",
+    "map": "Galar_9_15_Hammerlocke",
+    "map_id": "MAP_GALAR_9_15_HAMMERLOCKE",
+    "spawn": [
+      9,
+      3
+    ]
+  },
+  {
+    "donor_id": "9.16",
+    "map": "Galar_9_16_Hammerlocke",
+    "map_id": "MAP_GALAR_9_16_HAMMERLOCKE",
+    "spawn": [
+      12,
+      17
+    ]
+  },
+  {
+    "donor_id": "9.17",
+    "map": "Galar_9_17_Hammerlocke",
+    "map_id": "MAP_GALAR_9_17_HAMMERLOCKE",
+    "spawn": [
+      18,
+      37
+    ]
+  },
+  {
+    "donor_id": "9.18",
+    "map": "Galar_9_18_Stow_On_Side",
+    "map_id": "MAP_GALAR_9_18_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "9.19",
+    "map": "Galar_9_19_Stow_On_Side",
+    "map_id": "MAP_GALAR_9_19_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "9.20",
+    "map": "Galar_9_20_Hammerlocke",
+    "map_id": "MAP_GALAR_9_20_HAMMERLOCKE",
+    "spawn": [
+      5,
+      12
+    ]
+  },
+  {
+    "donor_id": "10.0",
+    "map": "Galar_10_0_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_0_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.1",
+    "map": "Galar_10_1_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_1_STOW_ON_SIDE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.2",
+    "map": "Galar_10_2_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_2_STOW_ON_SIDE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.3",
+    "map": "Galar_10_3_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_3_STOW_ON_SIDE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.4",
+    "map": "Galar_10_4_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_4_STOW_ON_SIDE",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.5",
+    "map": "Galar_10_5_Hammerlocke",
+    "map_id": "MAP_GALAR_10_5_HAMMERLOCKE",
+    "spawn": [
+      3,
+      22
+    ]
+  },
+  {
+    "donor_id": "10.6",
+    "map": "Galar_10_6_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_6_STOW_ON_SIDE",
+    "spawn": [
+      2,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.7",
+    "map": "Galar_10_7_Hammerlocke",
+    "map_id": "MAP_GALAR_10_7_HAMMERLOCKE",
+    "spawn": [
+      5,
+      12
+    ]
+  },
+  {
+    "donor_id": "10.8",
+    "map": "Galar_10_8_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_8_STOW_ON_SIDE",
+    "spawn": [
+      11,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.9",
+    "map": "Galar_10_9_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_9_STOW_ON_SIDE",
+    "spawn": [
+      11,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.10",
+    "map": "Galar_10_10_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_10_STOW_ON_SIDE",
+    "spawn": [
+      9,
+      3
+    ]
+  },
+  {
+    "donor_id": "10.11",
+    "map": "Galar_10_11_Hammerlocke",
+    "map_id": "MAP_GALAR_10_11_HAMMERLOCKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "10.12",
+    "map": "Galar_10_12_Hammerlocke",
+    "map_id": "MAP_GALAR_10_12_HAMMERLOCKE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "10.14",
+    "map": "Galar_10_14_Hammerlocke",
+    "map_id": "MAP_GALAR_10_14_HAMMERLOCKE",
+    "spawn": [
+      9,
+      11
+    ]
+  },
+  {
+    "donor_id": "10.15",
+    "map": "Galar_10_15_Hammerlocke",
+    "map_id": "MAP_GALAR_10_15_HAMMERLOCKE",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "10.16",
+    "map": "Galar_10_16_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_16_STOW_ON_SIDE",
+    "spawn": [
+      6,
+      10
+    ]
+  },
+  {
+    "donor_id": "10.17",
+    "map": "Galar_10_17_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_17_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "10.18",
+    "map": "Galar_10_18_Hammerlocke",
+    "map_id": "MAP_GALAR_10_18_HAMMERLOCKE",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "10.19",
+    "map": "Galar_10_19_Hammerlocke",
+    "map_id": "MAP_GALAR_10_19_HAMMERLOCKE",
+    "spawn": [
+      3,
+      8
+    ]
+  },
+  {
+    "donor_id": "10.22",
+    "map": "Galar_10_22_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_22_STOW_ON_SIDE",
+    "spawn": [
+      12,
+      15
+    ]
+  },
+  {
+    "donor_id": "10.23",
+    "map": "Galar_10_23_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_23_STOW_ON_SIDE",
+    "spawn": [
+      9,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.24",
+    "map": "Galar_10_24_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_24_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      11
+    ]
+  },
+  {
+    "donor_id": "10.25",
+    "map": "Galar_10_25_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_25_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "10.26",
+    "map": "Galar_10_26_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_26_STOW_ON_SIDE",
+    "spawn": [
+      9,
+      4
+    ]
+  },
+  {
+    "donor_id": "10.27",
+    "map": "Galar_10_27_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_27_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "10.28",
+    "map": "Galar_10_28_Stow_On_Side",
+    "map_id": "MAP_GALAR_10_28_STOW_ON_SIDE",
+    "spawn": [
+      5,
+      11
+    ]
+  },
+  {
+    "donor_id": "10.29",
+    "map": "Galar_10_29_Map_10_29",
+    "map_id": "MAP_GALAR_10_29_MAP_10_29",
+    "spawn": [
+      15,
+      30
+    ]
+  },
+  {
+    "donor_id": "11.0",
+    "map": "Galar_11_0_Ballonlea",
+    "map_id": "MAP_GALAR_11_0_BALLONLEA",
+    "spawn": [
+      4,
+      4
+    ]
+  },
+  {
+    "donor_id": "11.2",
+    "map": "Galar_11_2_Ballonlea",
+    "map_id": "MAP_GALAR_11_2_BALLONLEA",
+    "spawn": [
+      12,
+      4
+    ]
+  },
+  {
+    "donor_id": "11.3",
+    "map": "Galar_11_3_Ballonlea",
+    "map_id": "MAP_GALAR_11_3_BALLONLEA",
+    "spawn": [
+      7,
+      13
+    ]
+  },
+  {
+    "donor_id": "11.5",
+    "map": "Galar_11_5_Ballonlea",
+    "map_id": "MAP_GALAR_11_5_BALLONLEA",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "11.7",
+    "map": "Galar_11_7_Ballonlea",
+    "map_id": "MAP_GALAR_11_7_BALLONLEA",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "11.8",
+    "map": "Galar_11_8_Ballonlea",
+    "map_id": "MAP_GALAR_11_8_BALLONLEA",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "11.9",
+    "map": "Galar_11_9_Ballonlea",
+    "map_id": "MAP_GALAR_11_9_BALLONLEA",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "11.11",
+    "map": "Galar_11_11_Ballonlea",
+    "map_id": "MAP_GALAR_11_11_BALLONLEA",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "11.12",
+    "map": "Galar_11_12_Ballonlea",
+    "map_id": "MAP_GALAR_11_12_BALLONLEA",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "11.13",
+    "map": "Galar_11_13_Ballonlea",
+    "map_id": "MAP_GALAR_11_13_BALLONLEA",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "12.0",
+    "map": "Galar_12_0_Ballonlea",
+    "map_id": "MAP_GALAR_12_0_BALLONLEA",
+    "spawn": [
+      25,
+      21
+    ]
+  },
+  {
+    "donor_id": "12.1",
+    "map": "Galar_12_1_Circhester",
+    "map_id": "MAP_GALAR_12_1_CIRCHESTER",
+    "spawn": [
+      19,
+      7
+    ]
+  },
+  {
+    "donor_id": "12.2",
+    "map": "Galar_12_2_Crystal_Hotel",
+    "map_id": "MAP_GALAR_12_2_CRYSTAL_HOTEL",
+    "spawn": [
+      8,
+      4
+    ]
+  },
+  {
+    "donor_id": "12.3",
+    "map": "Galar_12_3_Circhester",
+    "map_id": "MAP_GALAR_12_3_CIRCHESTER",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "12.4",
+    "map": "Galar_12_4_Circhester",
+    "map_id": "MAP_GALAR_12_4_CIRCHESTER",
+    "spawn": [
+      6,
+      8
+    ]
+  },
+  {
+    "donor_id": "12.5",
+    "map": "Galar_12_5_Circhester",
+    "map_id": "MAP_GALAR_12_5_CIRCHESTER",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "12.11",
+    "map": "Galar_12_11_Circhester",
+    "map_id": "MAP_GALAR_12_11_CIRCHESTER",
+    "spawn": [
+      12,
+      15
+    ]
+  },
+  {
+    "donor_id": "12.13",
+    "map": "Galar_12_13_Circhester",
+    "map_id": "MAP_GALAR_12_13_CIRCHESTER",
+    "spawn": [
+      11,
+      2
+    ]
+  },
+  {
+    "donor_id": "12.14",
+    "map": "Galar_12_14_Circhester",
+    "map_id": "MAP_GALAR_12_14_CIRCHESTER",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "12.15",
+    "map": "Galar_12_15_Circhester",
+    "map_id": "MAP_GALAR_12_15_CIRCHESTER",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "12.16",
+    "map": "Galar_12_16_Circhester",
+    "map_id": "MAP_GALAR_12_16_CIRCHESTER",
+    "spawn": [
+      18,
+      16
+    ]
+  },
+  {
+    "donor_id": "12.18",
+    "map": "Galar_12_18_Circhester",
+    "map_id": "MAP_GALAR_12_18_CIRCHESTER",
+    "spawn": [
+      5,
+      3
+    ]
+  },
+  {
+    "donor_id": "13.0",
+    "map": "Galar_13_0_Wyndon",
+    "map_id": "MAP_GALAR_13_0_WYNDON",
+    "spawn": [
+      12,
+      15
+    ]
+  },
+  {
+    "donor_id": "13.2",
+    "map": "Galar_13_2_Spikemuth",
+    "map_id": "MAP_GALAR_13_2_SPIKEMUTH",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "13.3",
+    "map": "Galar_13_3_Spikemuth",
+    "map_id": "MAP_GALAR_13_3_SPIKEMUTH",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "13.4",
+    "map": "Galar_13_4_Spikemuth",
+    "map_id": "MAP_GALAR_13_4_SPIKEMUTH",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "13.5",
+    "map": "Galar_13_5_Spikemuth",
+    "map_id": "MAP_GALAR_13_5_SPIKEMUTH",
+    "spawn": [
+      4,
+      3
+    ]
+  },
+  {
+    "donor_id": "13.6",
+    "map": "Galar_13_6_Route_10",
+    "map_id": "MAP_GALAR_13_6_ROUTE_10",
+    "spawn": [
+      5,
+      6
+    ]
+  },
+  {
+    "donor_id": "13.7",
+    "map": "Galar_13_7_Wyndon",
+    "map_id": "MAP_GALAR_13_7_WYNDON",
+    "spawn": [
+      11,
+      7
+    ]
+  },
+  {
+    "donor_id": "13.8",
+    "map": "Galar_13_8_Postwick",
+    "map_id": "MAP_GALAR_13_8_POSTWICK",
+    "spawn": [
+      17,
+      7
+    ]
+  },
+  {
+    "donor_id": "13.9",
+    "map": "Galar_13_9_Postwick",
+    "map_id": "MAP_GALAR_13_9_POSTWICK",
+    "spawn": [
+      17,
+      7
+    ]
+  },
+  {
+    "donor_id": "13.10",
+    "map": "Galar_13_10_Postwick",
+    "map_id": "MAP_GALAR_13_10_POSTWICK",
+    "spawn": [
+      13,
+      23
+    ]
+  },
+  {
+    "donor_id": "13.11",
+    "map": "Galar_13_11_Postwick",
+    "map_id": "MAP_GALAR_13_11_POSTWICK",
+    "spawn": [
+      16,
+      8
+    ]
+  },
+  {
+    "donor_id": "13.13",
+    "map": "Galar_13_13_Postwick",
+    "map_id": "MAP_GALAR_13_13_POSTWICK",
+    "spawn": [
+      17,
+      7
+    ]
+  },
+  {
+    "donor_id": "13.14",
+    "map": "Galar_13_14_Postwick",
+    "map_id": "MAP_GALAR_13_14_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "13.15",
+    "map": "Galar_13_15_Postwick",
+    "map_id": "MAP_GALAR_13_15_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "13.16",
+    "map": "Galar_13_16_Postwick",
+    "map_id": "MAP_GALAR_13_16_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "13.17",
+    "map": "Galar_13_17_Postwick",
+    "map_id": "MAP_GALAR_13_17_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "13.18",
+    "map": "Galar_13_18_Hammerlocke",
+    "map_id": "MAP_GALAR_13_18_HAMMERLOCKE",
+    "spawn": [
+      3,
+      22
+    ]
+  },
+  {
+    "donor_id": "13.19",
+    "map": "Galar_13_19_Postwick",
+    "map_id": "MAP_GALAR_13_19_POSTWICK",
+    "spawn": [
+      17,
+      7
+    ]
+  },
+  {
+    "donor_id": "13.20",
+    "map": "Galar_13_20_Postwick",
+    "map_id": "MAP_GALAR_13_20_POSTWICK",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "14.0",
+    "map": "Galar_14_0_Wyndon",
+    "map_id": "MAP_GALAR_14_0_WYNDON",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "14.1",
+    "map": "Galar_14_1_Spikemuth",
+    "map_id": "MAP_GALAR_14_1_SPIKEMUTH",
+    "spawn": [
+      6,
+      4
+    ]
+  },
+  {
+    "donor_id": "14.2",
+    "map": "Galar_14_2_Spikemuth",
+    "map_id": "MAP_GALAR_14_2_SPIKEMUTH",
+    "spawn": [
+      6,
+      7
+    ]
+  },
+  {
+    "donor_id": "14.4",
+    "map": "Galar_14_4_Wyndon",
+    "map_id": "MAP_GALAR_14_4_WYNDON",
+    "spawn": [
+      3,
+      6
+    ]
+  },
+  {
+    "donor_id": "14.6",
+    "map": "Galar_14_6_Spikemuth",
+    "map_id": "MAP_GALAR_14_6_SPIKEMUTH",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "14.9",
+    "map": "Galar_14_9_Spikemuth",
+    "map_id": "MAP_GALAR_14_9_SPIKEMUTH",
+    "spawn": [
+      5,
+      10
+    ]
+  },
+  {
+    "donor_id": "20.0",
+    "map": "Galar_20_0_Route_8",
+    "map_id": "MAP_GALAR_20_0_ROUTE_8",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "21.0",
+    "map": "Galar_21_0_Stow_On_Side",
+    "map_id": "MAP_GALAR_21_0_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "21.1",
+    "map": "Galar_21_1_Wedgehurst",
+    "map_id": "MAP_GALAR_21_1_WEDGEHURST",
+    "spawn": [
+      10,
+      6
+    ]
+  },
+  {
+    "donor_id": "21.2",
+    "map": "Galar_21_2_Newmoon_Island",
+    "map_id": "MAP_GALAR_21_2_NEWMOON_ISLAND",
+    "spawn": [
+      10,
+      11
+    ]
+  },
+  {
+    "donor_id": "27.0",
+    "map": "Galar_27_0_Hammerlocke",
+    "map_id": "MAP_GALAR_27_0_HAMMERLOCKE",
+    "spawn": [
+      12,
+      16
+    ]
+  },
+  {
+    "donor_id": "30.0",
+    "map": "Galar_30_0_Postwick",
+    "map_id": "MAP_GALAR_30_0_POSTWICK",
+    "spawn": [
+      6,
+      51
+    ]
+  },
+  {
+    "donor_id": "33.2",
+    "map": "Galar_33_2_Wyndon",
+    "map_id": "MAP_GALAR_33_2_WYNDON",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "34.1",
+    "map": "Galar_34_1_Map_34_01",
+    "map_id": "MAP_GALAR_34_1_MAP_34_01",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "35.0",
+    "map": "Galar_35_0_Map_35_00",
+    "map_id": "MAP_GALAR_35_0_MAP_35_00",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "35.8",
+    "map": "Galar_35_8_Postwick",
+    "map_id": "MAP_GALAR_35_8_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.9",
+    "map": "Galar_35_9_Postwick",
+    "map_id": "MAP_GALAR_35_9_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.10",
+    "map": "Galar_35_10_Postwick",
+    "map_id": "MAP_GALAR_35_10_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.11",
+    "map": "Galar_35_11_Postwick",
+    "map_id": "MAP_GALAR_35_11_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.12",
+    "map": "Galar_35_12_Postwick",
+    "map_id": "MAP_GALAR_35_12_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.13",
+    "map": "Galar_35_13_Postwick",
+    "map_id": "MAP_GALAR_35_13_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.14",
+    "map": "Galar_35_14_Postwick",
+    "map_id": "MAP_GALAR_35_14_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.15",
+    "map": "Galar_35_15_Postwick",
+    "map_id": "MAP_GALAR_35_15_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.16",
+    "map": "Galar_35_16_Postwick",
+    "map_id": "MAP_GALAR_35_16_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.17",
+    "map": "Galar_35_17_Postwick",
+    "map_id": "MAP_GALAR_35_17_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.18",
+    "map": "Galar_35_18_Postwick",
+    "map_id": "MAP_GALAR_35_18_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.19",
+    "map": "Galar_35_19_Postwick",
+    "map_id": "MAP_GALAR_35_19_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.20",
+    "map": "Galar_35_20_Postwick",
+    "map_id": "MAP_GALAR_35_20_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.21",
+    "map": "Galar_35_21_Postwick",
+    "map_id": "MAP_GALAR_35_21_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.22",
+    "map": "Galar_35_22_Postwick",
+    "map_id": "MAP_GALAR_35_22_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.23",
+    "map": "Galar_35_23_Postwick",
+    "map_id": "MAP_GALAR_35_23_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.24",
+    "map": "Galar_35_24_Postwick",
+    "map_id": "MAP_GALAR_35_24_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.25",
+    "map": "Galar_35_25_Postwick",
+    "map_id": "MAP_GALAR_35_25_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.26",
+    "map": "Galar_35_26_Postwick",
+    "map_id": "MAP_GALAR_35_26_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.27",
+    "map": "Galar_35_27_Postwick",
+    "map_id": "MAP_GALAR_35_27_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "35.28",
+    "map": "Galar_35_28_Postwick",
+    "map_id": "MAP_GALAR_35_28_POSTWICK",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "36.0",
+    "map": "Galar_36_0_Map_36_00",
+    "map_id": "MAP_GALAR_36_0_MAP_36_00",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "36.5",
+    "map": "Galar_36_5_Postwick",
+    "map_id": "MAP_GALAR_36_5_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.6",
+    "map": "Galar_36_6_Postwick",
+    "map_id": "MAP_GALAR_36_6_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.7",
+    "map": "Galar_36_7_Postwick",
+    "map_id": "MAP_GALAR_36_7_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.8",
+    "map": "Galar_36_8_Postwick",
+    "map_id": "MAP_GALAR_36_8_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.9",
+    "map": "Galar_36_9_Postwick",
+    "map_id": "MAP_GALAR_36_9_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.10",
+    "map": "Galar_36_10_Postwick",
+    "map_id": "MAP_GALAR_36_10_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.11",
+    "map": "Galar_36_11_Postwick",
+    "map_id": "MAP_GALAR_36_11_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.12",
+    "map": "Galar_36_12_Postwick",
+    "map_id": "MAP_GALAR_36_12_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.13",
+    "map": "Galar_36_13_Postwick",
+    "map_id": "MAP_GALAR_36_13_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.14",
+    "map": "Galar_36_14_Postwick",
+    "map_id": "MAP_GALAR_36_14_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.15",
+    "map": "Galar_36_15_Postwick",
+    "map_id": "MAP_GALAR_36_15_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.16",
+    "map": "Galar_36_16_Postwick",
+    "map_id": "MAP_GALAR_36_16_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.17",
+    "map": "Galar_36_17_Postwick",
+    "map_id": "MAP_GALAR_36_17_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.18",
+    "map": "Galar_36_18_Postwick",
+    "map_id": "MAP_GALAR_36_18_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.19",
+    "map": "Galar_36_19_Postwick",
+    "map_id": "MAP_GALAR_36_19_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.20",
+    "map": "Galar_36_20_Postwick",
+    "map_id": "MAP_GALAR_36_20_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.21",
+    "map": "Galar_36_21_Postwick",
+    "map_id": "MAP_GALAR_36_21_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.22",
+    "map": "Galar_36_22_Postwick",
+    "map_id": "MAP_GALAR_36_22_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.23",
+    "map": "Galar_36_23_Postwick",
+    "map_id": "MAP_GALAR_36_23_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "36.24",
+    "map": "Galar_36_24_Postwick",
+    "map_id": "MAP_GALAR_36_24_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "37.0",
+    "map": "Galar_37_0_Map_37_00",
+    "map_id": "MAP_GALAR_37_0_MAP_37_00",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "37.5",
+    "map": "Galar_37_5_Map_37_05",
+    "map_id": "MAP_GALAR_37_5_MAP_37_05",
+    "spawn": [
+      12,
+      6
+    ]
+  },
+  {
+    "donor_id": "37.6",
+    "map": "Galar_37_6_Map_37_06",
+    "map_id": "MAP_GALAR_37_6_MAP_37_06",
+    "spawn": [
+      50,
+      32
+    ]
+  },
+  {
+    "donor_id": "37.7",
+    "map": "Galar_37_7_Map_37_07",
+    "map_id": "MAP_GALAR_37_7_MAP_37_07",
+    "spawn": [
+      36,
+      6
+    ]
+  },
+  {
+    "donor_id": "37.8",
+    "map": "Galar_37_8_Map_37_08",
+    "map_id": "MAP_GALAR_37_8_MAP_37_08",
+    "spawn": [
+      75,
+      68
+    ]
+  },
+  {
+    "donor_id": "37.9",
+    "map": "Galar_37_9_Map_37_09",
+    "map_id": "MAP_GALAR_37_9_MAP_37_09",
+    "spawn": [
+      91,
+      45
+    ]
+  },
+  {
+    "donor_id": "37.13",
+    "map": "Galar_37_13_Map_37_13",
+    "map_id": "MAP_GALAR_37_13_MAP_37_13",
+    "spawn": [
+      35,
+      24
+    ]
+  },
+  {
+    "donor_id": "37.14",
+    "map": "Galar_37_14_Map_37_14",
+    "map_id": "MAP_GALAR_37_14_MAP_37_14",
+    "spawn": [
+      31,
+      57
+    ]
+  },
+  {
+    "donor_id": "37.15",
+    "map": "Galar_37_15_Map_37_15",
+    "map_id": "MAP_GALAR_37_15_MAP_37_15",
+    "spawn": [
+      40,
+      37
+    ]
+  },
+  {
+    "donor_id": "37.21",
+    "map": "Galar_37_21_Map_37_21",
+    "map_id": "MAP_GALAR_37_21_MAP_37_21",
+    "spawn": [
+      4,
+      5
+    ]
+  },
+  {
+    "donor_id": "37.22",
+    "map": "Galar_37_22_Map_37_22",
+    "map_id": "MAP_GALAR_37_22_MAP_37_22",
+    "spawn": [
+      56,
+      29
+    ]
+  },
+  {
+    "donor_id": "38.1",
+    "map": "Galar_38_1_Map_38_01",
+    "map_id": "MAP_GALAR_38_1_MAP_38_01",
+    "spawn": [
+      91,
+      28
+    ]
+  },
+  {
+    "donor_id": "38.2",
+    "map": "Galar_38_2_Map_38_02",
+    "map_id": "MAP_GALAR_38_2_MAP_38_02",
+    "spawn": [
+      36,
+      32
+    ]
+  },
+  {
+    "donor_id": "38.3",
+    "map": "Galar_38_3_Map_38_03",
+    "map_id": "MAP_GALAR_38_3_MAP_38_03",
+    "spawn": [
+      51,
+      19
+    ]
+  },
+  {
+    "donor_id": "38.4",
+    "map": "Galar_38_4_Map_38_04",
+    "map_id": "MAP_GALAR_38_4_MAP_38_04",
+    "spawn": [
+      15,
+      10
+    ]
+  },
+  {
+    "donor_id": "38.5",
+    "map": "Galar_38_5_Map_38_05",
+    "map_id": "MAP_GALAR_38_5_MAP_38_05",
+    "spawn": [
+      62,
+      18
+    ]
+  },
+  {
+    "donor_id": "38.6",
+    "map": "Galar_38_6_Map_38_06",
+    "map_id": "MAP_GALAR_38_6_MAP_38_06",
+    "spawn": [
+      78,
+      26
+    ]
+  },
+  {
+    "donor_id": "38.7",
+    "map": "Galar_38_7_Map_38_07",
+    "map_id": "MAP_GALAR_38_7_MAP_38_07",
+    "spawn": [
+      54,
+      55
+    ]
+  },
+  {
+    "donor_id": "38.8",
+    "map": "Galar_38_8_Map_38_08",
+    "map_id": "MAP_GALAR_38_8_MAP_38_08",
+    "spawn": [
+      77,
+      54
+    ]
+  },
+  {
+    "donor_id": "38.9",
+    "map": "Galar_38_9_Map_38_09",
+    "map_id": "MAP_GALAR_38_9_MAP_38_09",
+    "spawn": [
+      40,
+      35
+    ]
+  },
+  {
+    "donor_id": "38.12",
+    "map": "Galar_38_12_Map_38_12",
+    "map_id": "MAP_GALAR_38_12_MAP_38_12",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "38.13",
+    "map": "Galar_38_13_Map_38_13",
+    "map_id": "MAP_GALAR_38_13_MAP_38_13",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "38.14",
+    "map": "Galar_38_14_Map_38_14",
+    "map_id": "MAP_GALAR_38_14_MAP_38_14",
+    "spawn": [
+      4,
+      6
+    ]
+  },
+  {
+    "donor_id": "38.15",
+    "map": "Galar_38_15_Map_38_15",
+    "map_id": "MAP_GALAR_38_15_MAP_38_15",
+    "spawn": [
+      3,
+      11
+    ]
+  },
+  {
+    "donor_id": "38.17",
+    "map": "Galar_38_17_Map_38_17",
+    "map_id": "MAP_GALAR_38_17_MAP_38_17",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.18",
+    "map": "Galar_38_18_Map_38_18",
+    "map_id": "MAP_GALAR_38_18_MAP_38_18",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.19",
+    "map": "Galar_38_19_Map_38_19",
+    "map_id": "MAP_GALAR_38_19_MAP_38_19",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.20",
+    "map": "Galar_38_20_Map_38_20",
+    "map_id": "MAP_GALAR_38_20_MAP_38_20",
+    "spawn": [
+      5,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.21",
+    "map": "Galar_38_21_Map_38_21",
+    "map_id": "MAP_GALAR_38_21_MAP_38_21",
+    "spawn": [
+      7,
+      10
+    ]
+  },
+  {
+    "donor_id": "38.23",
+    "map": "Galar_38_23_Map_38_23",
+    "map_id": "MAP_GALAR_38_23_MAP_38_23",
+    "spawn": [
+      18,
+      4
+    ]
+  },
+  {
+    "donor_id": "38.24",
+    "map": "Galar_38_24_Map_38_24",
+    "map_id": "MAP_GALAR_38_24_MAP_38_24",
+    "spawn": [
+      14,
+      6
+    ]
+  },
+  {
+    "donor_id": "38.25",
+    "map": "Galar_38_25_Map_38_25",
+    "map_id": "MAP_GALAR_38_25_MAP_38_25",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "38.26",
+    "map": "Galar_38_26_Map_38_26",
+    "map_id": "MAP_GALAR_38_26_MAP_38_26",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "38.27",
+    "map": "Galar_38_27_Map_38_27",
+    "map_id": "MAP_GALAR_38_27_MAP_38_27",
+    "spawn": [
+      4,
+      9
+    ]
+  },
+  {
+    "donor_id": "38.28",
+    "map": "Galar_38_28_Map_38_28",
+    "map_id": "MAP_GALAR_38_28_MAP_38_28",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.29",
+    "map": "Galar_38_29_Map_38_29",
+    "map_id": "MAP_GALAR_38_29_MAP_38_29",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.30",
+    "map": "Galar_38_30_Map_38_30",
+    "map_id": "MAP_GALAR_38_30_MAP_38_30",
+    "spawn": [
+      7,
+      8
+    ]
+  },
+  {
+    "donor_id": "38.44",
+    "map": "Galar_38_44_Map_38_44",
+    "map_id": "MAP_GALAR_38_44_MAP_38_44",
+    "spawn": [
+      77,
+      54
+    ]
+  },
+  {
+    "donor_id": "39.1",
+    "map": "Galar_39_1_Postwick",
+    "map_id": "MAP_GALAR_39_1_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.2",
+    "map": "Galar_39_2_Postwick",
+    "map_id": "MAP_GALAR_39_2_POSTWICK",
+    "spawn": [
+      8,
+      7
+    ]
+  },
+  {
+    "donor_id": "39.3",
+    "map": "Galar_39_3_Postwick",
+    "map_id": "MAP_GALAR_39_3_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.4",
+    "map": "Galar_39_4_Postwick",
+    "map_id": "MAP_GALAR_39_4_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.5",
+    "map": "Galar_39_5_Postwick",
+    "map_id": "MAP_GALAR_39_5_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.6",
+    "map": "Galar_39_6_Postwick",
+    "map_id": "MAP_GALAR_39_6_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.7",
+    "map": "Galar_39_7_Postwick",
+    "map_id": "MAP_GALAR_39_7_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.8",
+    "map": "Galar_39_8_Postwick",
+    "map_id": "MAP_GALAR_39_8_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.9",
+    "map": "Galar_39_9_Postwick",
+    "map_id": "MAP_GALAR_39_9_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.10",
+    "map": "Galar_39_10_Postwick",
+    "map_id": "MAP_GALAR_39_10_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.11",
+    "map": "Galar_39_11_Postwick",
+    "map_id": "MAP_GALAR_39_11_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.12",
+    "map": "Galar_39_12_Postwick",
+    "map_id": "MAP_GALAR_39_12_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.13",
+    "map": "Galar_39_13_Postwick",
+    "map_id": "MAP_GALAR_39_13_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.14",
+    "map": "Galar_39_14_Postwick",
+    "map_id": "MAP_GALAR_39_14_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.15",
+    "map": "Galar_39_15_Postwick",
+    "map_id": "MAP_GALAR_39_15_POSTWICK",
+    "spawn": [
+      12,
+      11
+    ]
+  },
+  {
+    "donor_id": "39.16",
+    "map": "Galar_39_16_Postwick",
+    "map_id": "MAP_GALAR_39_16_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.17",
+    "map": "Galar_39_17_Postwick",
+    "map_id": "MAP_GALAR_39_17_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.18",
+    "map": "Galar_39_18_Postwick",
+    "map_id": "MAP_GALAR_39_18_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.19",
+    "map": "Galar_39_19_Postwick",
+    "map_id": "MAP_GALAR_39_19_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.20",
+    "map": "Galar_39_20_Postwick",
+    "map_id": "MAP_GALAR_39_20_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.21",
+    "map": "Galar_39_21_Postwick",
+    "map_id": "MAP_GALAR_39_21_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.22",
+    "map": "Galar_39_22_Postwick",
+    "map_id": "MAP_GALAR_39_22_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.23",
+    "map": "Galar_39_23_Postwick",
+    "map_id": "MAP_GALAR_39_23_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.24",
+    "map": "Galar_39_24_Postwick",
+    "map_id": "MAP_GALAR_39_24_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.25",
+    "map": "Galar_39_25_Postwick",
+    "map_id": "MAP_GALAR_39_25_POSTWICK",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "39.26",
+    "map": "Galar_39_26_Postwick",
+    "map_id": "MAP_GALAR_39_26_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.27",
+    "map": "Galar_39_27_Postwick",
+    "map_id": "MAP_GALAR_39_27_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.28",
+    "map": "Galar_39_28_Postwick",
+    "map_id": "MAP_GALAR_39_28_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.29",
+    "map": "Galar_39_29_Postwick",
+    "map_id": "MAP_GALAR_39_29_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.30",
+    "map": "Galar_39_30_Postwick",
+    "map_id": "MAP_GALAR_39_30_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.31",
+    "map": "Galar_39_31_Postwick",
+    "map_id": "MAP_GALAR_39_31_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.32",
+    "map": "Galar_39_32_Postwick",
+    "map_id": "MAP_GALAR_39_32_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.33",
+    "map": "Galar_39_33_Postwick",
+    "map_id": "MAP_GALAR_39_33_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.34",
+    "map": "Galar_39_34_Postwick",
+    "map_id": "MAP_GALAR_39_34_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.35",
+    "map": "Galar_39_35_Postwick",
+    "map_id": "MAP_GALAR_39_35_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.36",
+    "map": "Galar_39_36_Postwick",
+    "map_id": "MAP_GALAR_39_36_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.37",
+    "map": "Galar_39_37_Postwick",
+    "map_id": "MAP_GALAR_39_37_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.38",
+    "map": "Galar_39_38_Postwick",
+    "map_id": "MAP_GALAR_39_38_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.39",
+    "map": "Galar_39_39_Postwick",
+    "map_id": "MAP_GALAR_39_39_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.40",
+    "map": "Galar_39_40_Postwick",
+    "map_id": "MAP_GALAR_39_40_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "39.41",
+    "map": "Galar_39_41_Postwick",
+    "map_id": "MAP_GALAR_39_41_POSTWICK",
+    "spawn": [
+      6,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.0",
+    "map": "Galar_40_0_Hulbury",
+    "map_id": "MAP_GALAR_40_0_HULBURY",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.1",
+    "map": "Galar_40_1_Stow_On_Side",
+    "map_id": "MAP_GALAR_40_1_STOW_ON_SIDE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.2",
+    "map": "Galar_40_2_Motostoke",
+    "map_id": "MAP_GALAR_40_2_MOTOSTOKE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.3",
+    "map": "Galar_40_3_Hammerlocke",
+    "map_id": "MAP_GALAR_40_3_HAMMERLOCKE",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.4",
+    "map": "Galar_40_4_Postwick",
+    "map_id": "MAP_GALAR_40_4_POSTWICK",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.5",
+    "map": "Galar_40_5_Ballonlea",
+    "map_id": "MAP_GALAR_40_5_BALLONLEA",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.6",
+    "map": "Galar_40_6_Circhester",
+    "map_id": "MAP_GALAR_40_6_CIRCHESTER",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.7",
+    "map": "Galar_40_7_Wedgehurst",
+    "map_id": "MAP_GALAR_40_7_WEDGEHURST",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "40.8",
+    "map": "Galar_40_8_Postwick",
+    "map_id": "MAP_GALAR_40_8_POSTWICK",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.9",
+    "map": "Galar_40_9_Spikemuth",
+    "map_id": "MAP_GALAR_40_9_SPIKEMUTH",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.10",
+    "map": "Galar_40_10_Hulbury",
+    "map_id": "MAP_GALAR_40_10_HULBURY",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.11",
+    "map": "Galar_40_11_Wyndon",
+    "map_id": "MAP_GALAR_40_11_WYNDON",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.12",
+    "map": "Galar_40_12_Postwick",
+    "map_id": "MAP_GALAR_40_12_POSTWICK",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.13",
+    "map": "Galar_40_13_Map_40_13",
+    "map_id": "MAP_GALAR_40_13_MAP_40_13",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.14",
+    "map": "Galar_40_14_Map_40_14",
+    "map_id": "MAP_GALAR_40_14_MAP_40_14",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "40.15",
+    "map": "Galar_40_15_Turffield",
+    "map_id": "MAP_GALAR_40_15_TURFFIELD",
+    "spawn": [
+      7,
+      6
+    ]
+  },
+  {
+    "donor_id": "42.3",
+    "map": "Galar_42_3_Wild_Area",
+    "map_id": "MAP_GALAR_42_3_WILD_AREA",
+    "spawn": [
+      5,
+      7
+    ]
+  },
+  {
+    "donor_id": "42.8",
+    "map": "Galar_42_8_Wild_Area",
+    "map_id": "MAP_GALAR_42_8_WILD_AREA",
+    "spawn": [
+      23,
+      34
+    ]
+  },
+  {
+    "donor_id": "42.10",
+    "map": "Galar_42_10_Wild_Area",
+    "map_id": "MAP_GALAR_42_10_WILD_AREA",
+    "spawn": [
+      41,
+      41
+    ]
+  },
+  {
+    "donor_id": "42.11",
+    "map": "Galar_42_11_Wild_Area",
+    "map_id": "MAP_GALAR_42_11_WILD_AREA",
+    "spawn": [
+      15,
+      44
+    ]
+  },
+  {
+    "donor_id": "43.0",
+    "map": "Galar_43_0_Postwick",
+    "map_id": "MAP_GALAR_43_0_POSTWICK",
+    "spawn": [
+      8,
+      10
+    ]
+  },
+  {
+    "donor_id": "1.41",
+    "map": "Galar_1_41_Courageous_Cavern",
+    "map_id": "MAP_GALAR_1_41_COURAGEOUS_CAVERN",
+    "spawn": [
+      34,
+      24
+    ]
+  },
+  {
+    "donor_id": "38.16",
+    "map": "Galar_38_16_Map_38_16",
+    "map_id": "MAP_GALAR_38_16_MAP_38_16",
+    "spawn": [
+      7,
+      5
+    ]
+  },
+  {
+    "donor_id": "42.1",
+    "map": "Galar_42_1_Postwick",
+    "map_id": "MAP_GALAR_42_1_POSTWICK",
+    "spawn": [
+      23,
+      4
+    ]
+  }
+]

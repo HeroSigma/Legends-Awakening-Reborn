@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 SlateportCity_BattleTentCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentCorridor_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentCorridor_OnWarp
@@ -273,3 +275,78 @@ SlateportCity_ContestHall_Text_HyperRankStage:
 	.string "POKéMON CONTESTS\n"
 	.string "HYPER RANK STAGE!$"
 
+
+#else
+SlateportCity_BattleTentCorridor_MapScripts::
+	.byte 0
+SlateportCity_BattleTentCorridor_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_AskReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_AskPauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_AskSwapMon::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_SwapMons::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_ReadyFor2ndOpponent::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_ReadyFor3rdOpponent::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_Movement_PlayerEnter:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_Movement_PlayerExit:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_Movement_AttendantEnter:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentCorridor_Movement_AttendantExit:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_ContestHall_Text_AdviceForContests:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_ExplainTorment:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_ItsAppealTime:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_RewardWithSageAdvice:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_BattleAndContestAlike:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
+	.string "This feature is disabled in this build.$"
+SlateportCity_ContestHall_Text_HyperRankStage:
+	.string "This feature is disabled in this build.$"
+#endif

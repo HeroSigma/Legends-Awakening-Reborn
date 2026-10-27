@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "contest.h"
 #include "contest_link.h"
@@ -343,3 +345,22 @@ static void Task_LinkContest_CommunicateAIMonsEm(u8 taskId)
         break;
     }
 }
+
+#else
+#include "global.h"
+#include "contest.h"
+#include "contest_link.h"
+#include "event_data.h"
+#include "link.h"
+#include "random.h"
+#include "task.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+
+
+void Task_LinkContest_StartCommunicationEm(u8 taskId)
+{
+
+}
+#endif

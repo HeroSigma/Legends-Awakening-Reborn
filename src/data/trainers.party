@@ -16877,3 +16877,90 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LA_RED_FRESH_START ===
+Name: RED
+Class: Rival
+Pic: Red
+Gender: Male
+Music: Male
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Riolu @ Focus Sash
+Level: 10
+Adamant Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 4 HP
+- Aerial Ace
+
+=== TRAINER_LA_BRENDAN_ROUTE103_0 ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+AI: Check Bad Move
+
+Torchic
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_LA_BRENDAN_ROUTE103_1 ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+AI: Check Bad Move
+
+Mudkip
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_LA_BRENDAN_ROUTE103_2 ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+AI: Check Bad Move
+
+Treecko
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_LA_MAY_ROUTE103_0 ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Male
+AI: Check Bad Move
+
+Mudkip
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_LA_MAY_ROUTE103_1 ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Male
+AI: Check Bad Move
+
+Treecko
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_LA_MAY_ROUTE103_2 ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Male
+AI: Check Bad Move
+
+Torchic
+Level: 5
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe

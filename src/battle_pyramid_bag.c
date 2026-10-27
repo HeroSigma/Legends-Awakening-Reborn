@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "battle.h"
 #include "battle_controllers.h"
@@ -1624,3 +1626,99 @@ static void UpdateSwapLinePos(u8 y)
 {
     UpdateSwapLineSpritesPos(&gPyramidBagMenu->spriteIds[PBAG_SPRITE_SWAP_LINE_START], NUM_SWAP_LINE_SPRITES | SWAP_LINE_HAS_MARGIN, 120, (y + 1) * 16);
 }
+
+#else
+#include "global.h"
+#include "battle.h"
+#include "battle_controllers.h"
+#include "battle_pyramid_bag.h"
+#include "bg.h"
+#include "decompress.h"
+#include "event_data.h"
+#include "field_effect.h"
+#include "field_weather.h"
+#include "graphics.h"
+#include "gpu_regs.h"
+#include "international_string_util.h"
+#include "item.h"
+#include "item_icon.h"
+#include "item_menu.h"
+#include "item_use.h"
+#include "list_menu.h"
+#include "mail.h"
+#include "malloc.h"
+#include "menu.h"
+#include "menu_helpers.h"
+#include "overworld.h"
+#include "palette.h"
+#include "party_menu.h"
+#include "task.h"
+#include "text_window.h"
+#include "scanline_effect.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "sound.h"
+#include "string_util.h"
+#include "strings.h"
+#include "constants/items.h"
+#include "constants/rgb.h"
+#include "constants/songs.h"
+#include "script.h"
+#include "legacy_features.h"
+EWRAM_DATA struct PyramidBagMenu *gPyramidBagMenu = NULL;
+EWRAM_DATA struct PyramidBagMenuState gPyramidBagMenuState = {0};
+void InitBattlePyramidBagCursorPosition(void)
+{
+
+}
+
+void CB2_PyramidBagMenuFromStartMenu(void)
+{
+
+}
+
+void ChooseItemsToTossFromPyramidBag(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+void CB2_ReturnToPyramidBagMenu(void)
+{
+
+}
+
+void GoToBattlePyramidBagMenu(u8 location, MainCallback exitCallback)
+{
+
+}
+
+void UpdatePyramidBagList(void)
+{
+
+}
+
+void UpdatePyramidBagCursorPos(void)
+{
+
+}
+
+void CloseBattlePyramidBag(u8 taskId)
+{
+
+}
+
+void Task_CloseBattlePyramidBagMessage(u8 taskId)
+{
+
+}
+
+void TryStoreHeldItemsInPyramidBag(void)
+{
+
+}
+
+void DisplayItemMessageInBattlePyramid(u8 taskId, const u8 *str, TaskFunc callback)
+{
+
+}
+#endif

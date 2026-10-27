@@ -1,0 +1,270 @@
+{
+  "id": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+  "name": "Kanto_SaffronCity_Gym",
+  "layout": "LAYOUT_KANTOAR_14_3_SAFFRONCITY_GYM",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_14_3_SAFFRONCITY_GYM_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 14,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_14_3_SaffronCity_Gym_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_10_SAFFRONCITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_10_SAFFRONCITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_10_SAFFRONCITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "32"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "22"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "20"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "30"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 0,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "28"
+    },
+    {
+      "x": 0,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "19"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "18"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "17"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "15"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "26"
+    },
+    {
+      "x": 8,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "24"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "23"
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "21"
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "16"
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "27"
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "14"
+    },
+    {
+      "x": 28,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "25"
+    },
+    {
+      "x": 28,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 28,
+      "y": 12,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "31"
+    },
+    {
+      "x": 28,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 28,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "29"
+    },
+    {
+      "x": 28,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_14_3_SAFFRONCITY_GYM",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

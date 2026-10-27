@@ -1,0 +1,56 @@
+{
+  "id": "secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C",
+  "role": "secondary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "frlg_640_384_to_rse_512_512_global_ids_preserved",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 6,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/06.pal"
+    },
+    {
+      "slot": 7,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/07.pal"
+    },
+    {
+      "slot": 8,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/08.pal"
+    },
+    {
+      "slot": 9,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/09.pal"
+    },
+    {
+      "slot": 10,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/10.pal"
+    },
+    {
+      "slot": 11,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/11.pal"
+    },
+    {
+      "slot": 12,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/12.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct_for_moved_128": "0x082D4BB4",
+    "secondary_tileset_struct": "0x082D4F2C",
+    "primary_palette_pointer": "0x08277694",
+    "secondary_palette_pointer": "0x08292FF0",
+    "secondary_tiles_pointer": "0x082922F0",
+    "secondary_metatiles_pointer": "0x082C4310",
+    "secondary_attributes_pointer": "0x082C5330",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 0,
+  "raw_frlg_attributes": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "54af85a14076a5f57dab230d56fe61684b14d5dff18edb22876421f71384152b",
+    "metatiles_bvd": "3f4916c783d681cc04c640349100739a394646f59b7fb4baadb43cceb50ec24d",
+    "raw_frlg_attributes": "c7997ad8d1cc12b9aaba124df10c1b145a5cdda684ccd0095bf57878d639d6f8"
+  }
+}

@@ -4,6 +4,7 @@ Route101_MapScripts::
 	.byte 0
 
 Route101_OnTransition:
+	setflag FLAG_HIDE_LA_BIRCH_RESCUE_RED
 	call ProfBirch_EventScript_UpdateLocation
 	end
 
@@ -19,6 +20,7 @@ Route101_EventScript_HideMapNamePopup::
 Route101_EventScript_StartBirchRescue::
 	lockall
 	playbgm MUS_HELP, TRUE
+	setspeaker SP_NAME_BIRCH
 	msgbox Route101_Text_HelpMe, MSGBOX_DEFAULT
 	closemessage
 	setobjectxy LOCALID_ROUTE101_BIRCH, 0, 15
@@ -219,17 +221,22 @@ Route101_EventScript_BirchsBag::
 	lock
 	faceplayer
 	setflag FLAG_SYS_POKEMON_GET
-	setflag FLAG_RESCUED_BIRCH
+	setflag FLAG_LA_BIRCH_RESCUE_BATTLE
+	setvar VAR_LA_BIRCH_RESCUE_STATE, 1
 	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_ROUTE101_ZIGZAGOON
 	setobjectxy LOCALID_PLAYER, 6, 13
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	special ChooseStarter
+	call Route101_RedRescue
 	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchApproachPlayer
 	waitmovement 0
+	setspeaker SP_NAME_BIRCH
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
 	special HealPlayerParty
+	setflag FLAG_RESCUED_BIRCH
+	setvar VAR_LA_BIRCH_RESCUE_STATE, 3
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
@@ -270,15 +277,7 @@ Route101_Text_DontLeaveMe:
 	.string "Don't leave me like this!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+    .string "Whew… That was far beyond anything\nI expected to find on this route.\pYou tried to protect me, {PLAYER}.\nAnd Red arrived just in time.\pLet's get your partner somewhere safe.\nWe can talk at my lab.$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If POKéMON get tired, take them to\n"
@@ -296,3 +295,117 @@ Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
 
+
+@ The first-battle callback returns here on loss without blackout or money loss.
+Route101_RedRescue:
+    clearflag FLAG_LA_BIRCH_RESCUE_BATTLE
+    setvar VAR_LA_BIRCH_RESCUE_STATE, 2
+    addobject LOCALID_ROUTE101_ZIGZAGOON
+    setobjectxy LOCALID_ROUTE101_ZIGZAGOON, 5, 13
+    setobjectmovementtype LOCALID_ROUTE101_ZIGZAGOON, MOVEMENT_TYPE_FACE_RIGHT
+    setspeaker SP_NAME_PLAYER
+    msgbox Route101_Text_Outmatched, MSGBOX_DEFAULT
+    setspeaker SP_NAME_NONE
+    msgbox Route101_Text_RedOffscreen, MSGBOX_DEFAULT
+    closemessage
+    special LegendsBirchRescueThunderbolt
+    waitstate
+    applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_AttackerFaints
+    waitmovement 0
+    removeobject LOCALID_ROUTE101_ZIGZAGOON
+    setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+    clearflag FLAG_HIDE_LA_BIRCH_RESCUE_RED
+    addobject LOCALID_ROUTE101_RED
+    addobject LOCALID_ROUTE101_RED_PIKACHU
+    applymovement LOCALID_ROUTE101_RED, Route101_Movement_RedArrives
+    applymovement LOCALID_ROUTE101_RED_PIKACHU, Route101_Movement_RedArrives
+    waitmovement 0
+    applymovement LOCALID_ROUTE101_RED, Common_Movement_FacePlayer
+    applymovement LOCALID_ROUTE101_RED_PIKACHU, Common_Movement_FacePlayer
+    waitmovement 0
+    applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+    waitmovement 0
+    setspeaker SP_NAME_RED
+    msgbox Route101_Text_RedIntroduces, MSGBOX_DEFAULT
+    setspeaker SP_NAME_BIRCH
+    msgbox Route101_Text_BirchThanksRed, MSGBOX_DEFAULT
+    setspeaker SP_NAME_RED
+    msgbox Route101_Text_RedReassures, MSGBOX_DEFAULT
+    closemessage
+    setflag FLAG_LA_MET_RED
+    special HealPlayerParty
+    applymovement LOCALID_ROUTE101_RED, Route101_Movement_RedLeavesSouth
+    applymovement LOCALID_ROUTE101_RED_PIKACHU, Route101_Movement_PikachuLeavesSouth
+    waitmovement 0
+    removeobject LOCALID_ROUTE101_RED
+    removeobject LOCALID_ROUTE101_RED_PIKACHU
+    setflag FLAG_HIDE_LA_BIRCH_RESCUE_RED
+    applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+    waitmovement 0
+    return
+
+Route101_Movement_AttackerFaints:
+    delay_8
+    set_invisible
+    delay_8
+    set_visible
+    delay_8
+    set_invisible
+    step_end
+
+@ Enter from the northern path, stopping just above the player and bag.
+Route101_Movement_RedArrives:
+    walk_down
+    walk_down
+    walk_left
+    walk_left
+    walk_left
+    walk_left
+    walk_left
+    walk_down
+    step_end
+
+Route101_Text_Outmatched:
+    .string "{COLOR LIGHT_BLUE}My partner can't keep fighting…\pI can't stop that thing!$"
+Route101_Text_RedOffscreen:
+    .string "{COLOR RED}Pikachu! Use Thunderbolt!$"
+Route101_Text_RedIntroduces:
+    .string "{COLOR RED}Stay back. Pikachu's got this.\pI'm Red. Are either of you hurt?$"
+Route101_Text_BirchThanksRed:
+    .string "We're all right, thanks to you.\pThat POKéMON… It doesn't belong\nanywhere near Littleroot.$"
+Route101_Text_RedReassures:
+    .string "{COLOR RED}You stepped in to help. That took\ncourage. But you were outmatched.\pLook after your partner first.\nProfessor, get them back to your lab.$"
+
+Route101_Movement_RedLeavesSouth:
+    walk_left
+    walk_down
+    walk_down
+    walk_down
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+    walk_down
+    walk_down
+    walk_down
+    walk_down
+    set_invisible
+    step_end
+
+Route101_Movement_PikachuLeavesSouth:
+    delay_16
+    walk_left
+    walk_left
+    walk_down
+    walk_down
+    walk_down
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+    walk_down
+    walk_down
+    walk_down
+    walk_down
+    set_invisible
+    step_end

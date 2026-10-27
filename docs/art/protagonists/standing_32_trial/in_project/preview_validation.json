@@ -1,0 +1,14 @@
+{
+  "rom_sha256": "65f8e4a2a511928f116df870a234d1035779dd324c191e3a4022333db5fb493c",
+  "method": "RAM-only 32x32 graphics override in isolated native mGBA; one down-facing static draft, no ROM or save writes",
+  "captures": [
+    "aren_bedroom_current",
+    "aren_bedroom_trial",
+    "aren_oldale_current",
+    "aren_oldale_trial",
+    "aria_bedroom_current",
+    "aria_bedroom_trial",
+    "aria_oldale_current",
+    "aria_oldale_trial"
+  ]
+}

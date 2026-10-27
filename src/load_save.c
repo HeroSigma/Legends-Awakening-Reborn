@@ -1,4 +1,5 @@
 #include "global.h"
+#include "full_sheet_stream.h"
 #include "malloc.h"
 #include "berry_powder.h"
 #include "fake_rtc.h"
@@ -106,6 +107,9 @@ void MoveSaveBlocks_ResetHeap(void)
     gMain.hblankCallback = NULL;
     gTrainerHillVBlankCounter = NULL;
 
+    FullSheetStreamRelease();
+    if (!StorageFlush()) { gMain.vblankCallback = vblankCB; gMain.hblankCallback = hblankCB; return; }
+
     saveBlock2Copy = (struct SaveBlock2 *)(gHeap);
     saveBlock1Copy = (struct SaveBlock1 *)(gHeap + sizeof(struct SaveBlock2));
     pokemonStorageCopy = (struct PokemonStorage *)(gHeap + sizeof(struct SaveBlock2) + sizeof(struct SaveBlock1));
@@ -127,6 +131,7 @@ void MoveSaveBlocks_ResetHeap(void)
     *gSaveBlock2Ptr = *saveBlock2Copy;
     *gSaveBlock1Ptr = *saveBlock1Copy;
     *gPokemonStoragePtr = *pokemonStorageCopy;
+    StorageInvalidateCache();
 
     // heap was destroyed in the copying process, so reset it
     InitHeap(gHeap, HEAP_SIZE);

@@ -1,0 +1,7 @@
+Kanto_SevenIsland_TanobyRuins_RixyChamber_MapScripts::
+	.byte 0
+
+KantoAR_2_32_SevenIsland_TanobyRuins_RixyChamber_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_2_33_SEVENISLAND_TANOBYRUINS_VIAPOISCHAMBER, 11, 9
+	goto KantoAR_InspectionFinish

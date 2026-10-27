@@ -1,0 +1,56 @@
+{
+  "id": "secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04",
+  "role": "secondary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "frlg_640_384_to_rse_512_512_global_ids_preserved",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 6,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/06.pal"
+    },
+    {
+      "slot": 7,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/07.pal"
+    },
+    {
+      "slot": 8,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/08.pal"
+    },
+    {
+      "slot": 9,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/09.pal"
+    },
+    {
+      "slot": 10,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/10.pal"
+    },
+    {
+      "slot": 11,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/11.pal"
+    },
+    {
+      "slot": 12,
+      "path": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/12.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct_for_moved_128": "0x082D4BB4",
+    "secondary_tileset_struct": "0x082D4D04",
+    "primary_palette_pointer": "0x08277694",
+    "secondary_palette_pointer": "0x082839B0",
+    "secondary_tiles_pointer": "0x082831BC",
+    "secondary_metatiles_pointer": "0x082AAA14",
+    "secondary_attributes_pointer": "0x082AB064",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 0,
+  "raw_frlg_attributes": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "e9bbc3fecdfb5de22c8b96e1b748dddb22b066d00d2488785382bfc963911e1f",
+    "metatiles_bvd": "9fbd0b77ef75bc830f6d513351b2ca9c5f652d376f1a8c3200be96473df2a3c8",
+    "raw_frlg_attributes": "1f2956d00ba63f40f923b76d0eab9006e8ab5f7e9491da116a5d4434cee03425"
+  }
+}

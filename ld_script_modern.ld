@@ -1,3 +1,6 @@
+EXTERN(GetWildBadgeStage GetWildProgressionCap ResolveWildLevelSpecies ClampWildBonusLevel)
+/* Keep the pool framework API available with an empty authored registry. */
+EXTERN(ResolveDynamicEncounterRules GetDynamicEncounterProfileForMap GetCurrentDynamicEncounterProfile)
 ENTRY(Start)
 
 gNumMusicPlayers = 4;

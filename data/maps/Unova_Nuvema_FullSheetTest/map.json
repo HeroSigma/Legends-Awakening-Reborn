@@ -1,0 +1,57 @@
+{
+  "id": "MAP_UNOVA_NUVEMA_FULL_SHEET_TEST",
+  "name": "Unova_Nuvema_FullSheetTest",
+  "layout": "LAYOUT_NUVEMA_FULL_SHEET_TEST",
+  "music": "MUS_LITTLEROOT",
+  "region_map_section": "MAPSEC_UNOVA",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "NuvemaTest_EnterLab"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "NuvemaTest_EnterCenterHouse"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "NuvemaTest_EnterWestHouse"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "NuvemaTest_EnterEastHouse"
+    }
+  ],
+  "bg_events": []
+}

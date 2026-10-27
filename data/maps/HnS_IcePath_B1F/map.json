@@ -1,0 +1,277 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_ICEPATH_B1F",
+  "name": "HnS_IcePath_B1F",
+  "layout": "LAYOUT_HNS_REGION_ICEPATH_B1F",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_POKE_BALL",
+      "x": 23,
+      "y": 32,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 28,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 28,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 5,
+      "y": 45,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_POKE_BALL",
+      "x": 11,
+      "y": 42,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_5"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 21,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 29,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_7"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+      "x": 13,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_8"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+      "x": 14,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_9"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+      "x": 23,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_11"
+    },
+    {
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_12",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HNS_ICEPATH_B1F_13",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 17,
+      "y": 23,
+      "elevation": 5,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_IcePath_B1F_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 17,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B3F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B2F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B2F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B2F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ICEPATH_B2F",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 13,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

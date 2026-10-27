@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePyramidLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomeLobby_OnWarp
@@ -903,3 +905,288 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 	.string "The contents of the BATTLE BAG are\n"
 	.string "lost if you fail in your quest.$"
 
+
+#else
+BattleFrontier_BattlePyramidLobby_MapScripts::
+	.byte 0
+BattleFrontier_BattlePyramidLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_TurnPlayerNorth:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_DefeatedKing::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_AskTakeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_EnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_NotEnoughValidMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_NotEnoughValidMonsLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_NotEnoughValidMonsLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_LoadPartyAndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_EndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintGiver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_NoHint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveHintLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveHintGetLv50Streak::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveHintLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_GiveHintGetLvOpenStreak::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_DoHintComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintParalysis::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintPoison::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintBurn::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintPPWaste::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintLevitate::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintTrapAbility::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintIce::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintExplosion::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintPsychic::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintRock::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintFighting::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintWeather::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintBug::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintDark::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintWater::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintGhost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintSteel::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintFlyingDragon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintStoneEvolve::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HintNormal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ShowResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_WalkToPanelAndReceiveBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ReceiveNewBattleBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ReceiveBattleBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_Movement_AttendantWalkToPanel:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_Movement_PlayerWalkToPanel:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_Movement_AttendantMoveAside:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_Movement_PlayerStepOnPanel:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_StoreHeldItemsInPyramidBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_HeldItemsStoredInPyramidBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_PickItemsToKeep::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_PickItemsFromBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_PickItemsFromParty::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ExitPickItems::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_PartyStillHasHeldItems::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_FatMan::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_RulesPokemon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_RulesTrainers::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_RulesMaze::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_RulesBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsEnd:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_Aah:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintPoison:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintBurn:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintIce:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintRock:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintFighting:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintWeather:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintBug:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintDark:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintWater:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintGhost:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintSteel:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_HintNormal:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
+	.string "This feature is disabled in this build.$"
+#endif

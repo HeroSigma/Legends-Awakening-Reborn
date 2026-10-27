@@ -1,0 +1,337 @@
+#include "global.h"
+#include "pokemon_storage_system.h"
+#include "la_pc_features.h"
+#include "script.h"
+#include "constants/maps.h"
+#include "constants/map_groups.h"
+static const u16 sRetiredMaps[] = {
+    MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY,
+    MAP_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR,
+    MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM,
+    MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY,
+    MAP_VERDANTURF_TOWN_BATTLE_TENT_CORRIDOR,
+    MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM,
+    MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY,
+    MAP_SLATEPORT_CITY_BATTLE_TENT_CORRIDOR,
+    MAP_SLATEPORT_CITY_BATTLE_TENT_BATTLE_ROOM,
+    MAP_LILYCOVE_CITY_CONTEST_LOBBY,
+    MAP_LILYCOVE_CITY_CONTEST_HALL,
+    MAP_SECRET_BASE_RED_CAVE1,
+    MAP_SECRET_BASE_BROWN_CAVE1,
+    MAP_SECRET_BASE_BLUE_CAVE1,
+    MAP_SECRET_BASE_YELLOW_CAVE1,
+    MAP_SECRET_BASE_TREE1,
+    MAP_SECRET_BASE_SHRUB1,
+    MAP_SECRET_BASE_RED_CAVE2,
+    MAP_SECRET_BASE_BROWN_CAVE2,
+    MAP_SECRET_BASE_BLUE_CAVE2,
+    MAP_SECRET_BASE_YELLOW_CAVE2,
+    MAP_SECRET_BASE_TREE2,
+    MAP_SECRET_BASE_SHRUB2,
+    MAP_SECRET_BASE_RED_CAVE3,
+    MAP_SECRET_BASE_BROWN_CAVE3,
+    MAP_SECRET_BASE_BLUE_CAVE3,
+    MAP_SECRET_BASE_YELLOW_CAVE3,
+    MAP_SECRET_BASE_TREE3,
+    MAP_SECRET_BASE_SHRUB3,
+    MAP_SECRET_BASE_RED_CAVE4,
+    MAP_SECRET_BASE_BROWN_CAVE4,
+    MAP_SECRET_BASE_BLUE_CAVE4,
+    MAP_SECRET_BASE_YELLOW_CAVE4,
+    MAP_SECRET_BASE_TREE4,
+    MAP_SECRET_BASE_SHRUB4,
+    MAP_RECORD_CORNER,
+    MAP_CONTEST_HALL,
+    MAP_UNUSED_CONTEST_HALL1,
+    MAP_UNUSED_CONTEST_HALL2,
+    MAP_UNUSED_CONTEST_HALL3,
+    MAP_UNUSED_CONTEST_HALL4,
+    MAP_UNUSED_CONTEST_HALL5,
+    MAP_UNUSED_CONTEST_HALL6,
+    MAP_CONTEST_HALL_BEAUTY,
+    MAP_CONTEST_HALL_TOUGH,
+    MAP_CONTEST_HALL_COOL,
+    MAP_CONTEST_HALL_SMART,
+    MAP_CONTEST_HALL_CUTE,
+    MAP_UNION_ROOM,
+    MAP_BATTLE_FRONTIER_OUTSIDE_WEST,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_ELEVATOR,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_OUTSIDE_EAST,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_PARTNER_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_DOME_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR,
+    MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_TOP,
+    MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_ARENA_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_CORRIDOR,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_THREE_PATH_ROOM,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL,
+    MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS,
+    MAP_BATTLE_FRONTIER_RANKING_HALL,
+    MAP_BATTLE_FRONTIER_LOUNGE1,
+    MAP_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER,
+    MAP_BATTLE_FRONTIER_LOUNGE2,
+    MAP_BATTLE_FRONTIER_LOUNGE3,
+    MAP_BATTLE_FRONTIER_LOUNGE4,
+    MAP_BATTLE_FRONTIER_SCOTTS_HOUSE,
+    MAP_BATTLE_FRONTIER_LOUNGE5,
+    MAP_BATTLE_FRONTIER_LOUNGE6,
+    MAP_BATTLE_FRONTIER_LOUNGE7,
+    MAP_BATTLE_FRONTIER_RECEPTION_GATE,
+    MAP_BATTLE_FRONTIER_LOUNGE8,
+    MAP_BATTLE_FRONTIER_LOUNGE9,
+    MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F,
+    MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F,
+    MAP_BATTLE_FRONTIER_MART,
+    MAP_TRAINER_HILL_ENTRANCE,
+    MAP_TRAINER_HILL_1F,
+    MAP_TRAINER_HILL_2F,
+    MAP_TRAINER_HILL_3F,
+    MAP_TRAINER_HILL_4F,
+    MAP_TRAINER_HILL_ROOF,
+    MAP_TRAINER_HILL_ELEVATOR,
+    MAP_RECORD_CORNER_FRLG,
+    MAP_UNION_ROOM_FRLG,
+    MAP_KANTOAR_0_2_RECORDCORNER,
+    MAP_KANTOAR_0_4_UNIONROOM,
+    MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD,
+    MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTLOBBY,
+    MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTCORRIDOR,
+    MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTBATTLEROOM,
+    MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTLOBBY,
+    MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTCORRIDOR,
+    MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTBATTLEROOM,
+    MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTLOBBY,
+    MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTCORRIDOR,
+    MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTBATTLEROOM,
+    MAP_HNS_REGION_NATIONALPARK_BUGCONTEST,
+    MAP_HNS_REGION_UNIONROOM,
+    MAP_HNS_REGION_TRAINERHILL_COURTYARD,
+    MAP_HNS_REGION_TRAINERHILL_ENTRANCE,
+    MAP_HNS_REGION_TRAINERHILL_1F,
+    MAP_HNS_REGION_TRAINERHILL_2F,
+    MAP_HNS_REGION_TRAINERHILL_3F,
+    MAP_HNS_REGION_TRAINERHILL_4F,
+    MAP_HNS_REGION_TRAINERHILL_ROOF,
+    MAP_HNS_REGION_TRAINERHILL_ELEVATOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_OUTSIDEWEST,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERLOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERELEVATOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERCORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_OUTSIDEEAST,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTIPARTNERROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTICORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTIBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMELOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMECORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMEPREBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMEBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACELOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACECORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACEBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDLOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDFLOOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDTOP,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENALOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENACORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENABATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYLOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYPREBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYBATTLEROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKELOBBY,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKECORRIDOR,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKETHREEPATHROOM,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMFINAL,
+    MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMWILDMONS,
+    MAP_HNS_REGION_BATTLEFRONTIER_RANKINGHALL,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE1,
+    MAP_HNS_REGION_BATTLEFRONTIER_EXCHANGESERVICECORNER,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE2,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE3,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE4,
+    MAP_HNS_REGION_BATTLEFRONTIER_SCOTTSHOUSE,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE5,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE6,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE7,
+    MAP_HNS_REGION_BATTLEFRONTIER_RECEPTIONGATE,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE8,
+    MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE9,
+    MAP_HNS_REGION_BATTLEFRONTIER_POKEMONCENTER_1F,
+    MAP_HNS_REGION_BATTLEFRONTIER_POKEMONCENTER_2F,
+    MAP_HNS_REGION_BATTLEFRONTIER_MART,
+    MAP_HNS_REGION_CONTESTHALL,
+    MAP_HNS_REGION_CONTESTHALLBEAUTY,
+    MAP_HNS_REGION_CONTESTHALLCOOL,
+    MAP_HNS_REGION_CONTESTHALLCUTE,
+    MAP_HNS_REGION_CONTESTHALLSMART,
+    MAP_HNS_REGION_CONTESTHALLTOUGH,
+    MAP_HNS_REGION_LILYCOVECITY_CONTESTHALL,
+    MAP_HNS_REGION_LILYCOVECITY_CONTESTLOBBY,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL1,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL2,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL3,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL4,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL5,
+    MAP_HNS_REGION_UNUSEDCONTESTHALL6,
+};
+bool32 LaPcRetiredMap(u32 group, u32 num)
+{
+    u32 i;
+    for(i=0;i<ARRAY_COUNT(sRetiredMaps);i++)
+        if(MAP_GROUP(sRetiredMaps[i])==group && MAP_NUM(sRetiredMaps[i])==num) return TRUE;
+    return FALSE;
+}
+bool32 LaPcBlockedSpecial(u32 id)
+{
+    if(!StorageIsCollectionMode()) return FALSE;
+    switch(id) {
+    case 6: // SetPlayerSecretBase
+    case 7: // CheckPlayerHasSecretBase
+    case 8: // EnterSecretBase
+    case 9: // ClearAndLeaveSecretBase
+    case 10: // MoveOutOfSecretBase
+    case 11: // IsCurSecretBaseOwnedByAnotherPlayer
+    case 12: // GetCurSecretBaseRegistrationValidity
+    case 13: // ToggleCurSecretBaseRegistry
+    case 14: // ShowSecretBaseDecorationMenu
+    case 15: // ShowSecretBaseRegistryMenu
+    case 16: // PrepSecretBaseBattleFlags
+    case 17: // GetSecretBaseOwnerAndState
+    case 18: // InitSecretBaseDecorationSprites
+    case 19: // SetDecoration
+    case 21: // GetSecretBaseTypeInFrontOfPlayer
+    case 22: // SetSecretBaseOwnerGfxId
+    case 23: // PutAwayDecorationIteration
+    case 24: // EnterNewlyCreatedSecretBase
+    case 26: // DoSecretBasePCTurnOffEffect
+    case 27: // RecordMixingPlayerSpotTriggered
+    case 30: // TryRecordMixLinkup
+    case 37: // TryBerryBlenderLinkup
+    case 72: // SetContestCategoryStringVarForInterview
+    case 77: // GetContestWinnerId
+    case 78: // GetContestPlayerId
+    case 79: // GetNpcContestantLocalId
+    case 80: // BufferContestWinnerTrainerName
+    case 81: // BufferContestWinnerMonName
+    case 82: // BufferContestTrainerAndMonNames
+    case 83: // GetContestMonConditionRanking
+    case 84: // SetContestTrainerGfxIds
+    case 85: // TryEnterContestMon
+    case 86: // GetContestantNamesAtRank
+    case 87: // SetLinkContestPlayerGfx
+    case 88: // GetContestMonCondition
+    case 89: // HasMonWonThisContestBefore
+    case 90: // GiveMonContestRibbon
+    case 91: // IsContestDebugActive
+    case 93: // TryContestGModeLinkup
+    case 114: // TraderMenuGetDecoration
+    case 116: // DoesPlayerHaveNoDecorations
+    case 117: // IsDecorationCategoryFull
+    case 118: // TraderShowDecorationMenu
+    case 119: // TraderDoDecorationTrade
+    case 135: // ShouldReadyContestArtist
+    case 136: // SaveMuseumContestPainting
+    case 137: // DoesContestCategoryHaveMuseumPainting
+    case 139: // ShowContestPainting
+    case 197: // ShowLinkBattleRecords
+    case 233: // CallBattleTowerFunc
+    case 234: // CallBattleDomeFunction
+    case 235: // CallBattlePalaceFunction
+    case 238: // CallBattleArenaFunction
+    case 239: // CallBattleFactoryFunction
+    case 240: // CallBattlePikeFunction
+    case 241: // CallBattlePyramidFunction
+    case 246: // ChoosePartyForBattleFrontier
+    case 248: // GetBattleTowerSinglesStreak
+    case 260: // ShowBerryBlenderRecordWindow
+    case 279: // GetSecretBaseNearbyMapName
+    case 300: // DoContestHallWarp
+    case 303: // CopyCurSecretBaseOwnerName_StrVar1
+    case 307: // InteractWithShieldOrTVDecoration
+    case 320: // ShowContestEntryMonPic
+    case 321: // HideContestEntryMonPic
+    case 326: // GetContestMultiplayerId
+    case 330: // TryInitBattleTowerAwardManObjectEvent
+    case 331: // MoveOutOfSecretBaseFromOutside
+    case 339: // TryHideBattleTowerReporter
+    case 341: // GenerateContestRand
+    case 351: // InitSecretBaseVars
+    case 353: // DeclinedSecretBaseBattle
+    case 354: // DrewSecretBaseBattle
+    case 355: // WonSecretBaseBattle
+    case 356: // LostSecretBaseBattle
+    case 363: // SetLilycoveLadyGfx
+    case 364: // Script_GetLilycoveLadyId
+    case 391: // GetMysteryGiftCardStat
+    case 397: // ShouldContestLadyShowGoOnAir
+    case 398: // HasPlayerGivenContestLadyPokeblock
+    case 399: // Script_BufferContestLadyCategoryAndMonName
+    case 400: // OpenPokeblockCaseForContestLady
+    case 401: // SetContestLadyGivenPokeblock
+    case 402: // GetContestLadyMonSpecies
+    case 403: // GetContestLadyCategory
+    case 404: // PutLilycoveContestLadyShowOnTheAir
+    case 405: // CloseBattlePikeCurtain
+    case 417: // RunUnionRoom
+    case 419: // InitUnionRoom
+    case 420: // BufferUnionRoomPlayerName
+    case 423: // Script_ResetUnionRoomTrade
+    case 427: // IsPokemonJumpSpeciesInParty
+    case 428: // ShowPokemonJumpRecords
+    case 430: // ShowDodrioBerryPickingRecords
+    case 434: // LinkContestWaitForConnection
+    case 436: // LinkContestTryShowWirelessIndicator
+    case 437: // LinkContestTryHideWirelessIndicator
+    case 438: // IsWirelessContest
+    case 442: // IsContestWithRSPlayer
+    case 443: // ClearLinkContestFlags
+    case 444: // TryContestEModeLinkup
+    case 447: // BufferBattleTowerElevatorFloors
+    case 450: // DoBattlePyramidMonsHaveHeldItem
+    case 451: // BattlePyramidChooseMonHeldItems
+    case 452: // SetBattleTowerLinkPlayerGfx
+    case 473: // BufferBattleFrontierTutorMoveName
+    case 474: // CloseBattleFrontierTutorWindow
+    case 491: // SaveForBattleTowerLink
+    case 502: // LinkRetireStatusWithBattleTowerPartner
+    case 503: // BattleTowerReconnectLink
+    case 504: // CallTrainerHillFunction
+    case 508: // ShowBerryCrushRankings
+    case 512: // PlayerNotAtTrainerHillEntrance
+    case 513: // GetBattlePyramidHint
+    case 514: // LoadLinkContestPlayerPalettes
+    case 515: // ShowTrainerHillRecords
+    case 524: // TrySetBattleTowerLinkType
+        return TRUE;
+    }
+    return FALSE;
+}
+bool32 LaPcBlockWarp(const struct MapHeader *map, s32 warpId)
+{
+    const struct WarpEvent *warp;
+    if(!StorageIsCollectionMode() || warpId<0 || warpId>=map->events->warpCount) return FALSE;
+    warp=&map->events->warps[warpId];
+    if(!LaPcRetiredMap(warp->mapGroup,warp->mapNum)) return FALSE;
+    ScriptContext_SetupScript(LaCollection_Blocked);
+    return TRUE;
+}

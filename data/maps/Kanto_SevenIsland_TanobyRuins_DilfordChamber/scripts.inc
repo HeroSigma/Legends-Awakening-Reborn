@@ -1,0 +1,7 @@
+Kanto_SevenIsland_TanobyRuins_DilfordChamber_MapScripts::
+	.byte 0
+
+KantoAR_2_30_SevenIsland_TanobyRuins_DilfordChamber_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_2_31_SEVENISLAND_TANOBYRUINS_SCUFIBCHAMBER, 11, 8
+	goto KantoAR_InspectionFinish

@@ -1,0 +1,26 @@
+{
+  "rom_sha256": "26fd151d3406fa8f8d59d8b1e3bfd2a6aa57324ad6a3b93df620e6e9fac261fd",
+  "release": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba",
+  "save_sha256": "704fbb870228934b829ff2cce3c71baf7a8cd51c9036d519b29ec81f221b5709",
+  "save_preserved": true,
+  "validation": [
+    {
+      "path": "docs/story/littleroot_red_arc/runtime_validation.json",
+      "passed": 170
+    },
+    {
+      "path": "docs/story/birch_red_rescue/runtime_validation.json",
+      "passed": 102
+    },
+    {
+      "path": "docs/story/nextdoor/runtime_validation.json",
+      "passed": 88
+    },
+    {
+      "path": "docs/art/protagonists/trainer_draft/runtime_validation.json",
+      "passed": 64
+    }
+  ],
+  "total_checks": 424,
+  "native_save_continue_passed": true
+}

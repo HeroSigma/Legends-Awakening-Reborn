@@ -98,11 +98,10 @@ static const struct MenuAction MultichoiceList_YesNoInfo2[] =
 static const struct MenuAction MultichoiceList_LATeleportDestinations[] =
 {
     {COMPOUND_STRING("NUVEMA TOWN")},
-    {COMPOUND_STRING("POSTWICK")},
     {COMPOUND_STRING("STRIATON CITY")},
-    {COMPOUND_STRING("MOTOSTOKE")},
     {COMPOUND_STRING("BWA MAP TEST")},
     {COMPOUND_STRING("JOHTO")},
+    {COMPOUND_STRING("KANTO")},
     {gText_Cancel},
 };
 
@@ -1144,8 +1143,52 @@ struct MultichoiceListStruct
     u8 count;
 };
 
+static const struct MenuAction MultichoiceList_KantoARTravel[] =
+{
+    {COMPOUND_STRING("EXPLORE KANTO")},
+    {COMPOUND_STRING("SEVII ISLANDS")},
+    {COMPOUND_STRING("MAP TOUR")},
+    {COMPOUND_STRING("LITTLEROOT")},
+    {gText_Cancel},
+};
+
+static const struct MenuAction MultichoiceList_LaTera1[] = {
+    {COMPOUND_STRING("Normal")},
+    {COMPOUND_STRING("Fire")},
+    {COMPOUND_STRING("Water")},
+    {COMPOUND_STRING("Grass")},
+    {COMPOUND_STRING("Electric")},
+    {COMPOUND_STRING("Ice")},
+    {COMPOUND_STRING("Next page")},
+    {gText_Cancel2},
+};
+static const struct MenuAction MultichoiceList_LaTera2[] = {
+    {COMPOUND_STRING("Fighting")},
+    {COMPOUND_STRING("Poison")},
+    {COMPOUND_STRING("Ground")},
+    {COMPOUND_STRING("Flying")},
+    {COMPOUND_STRING("Psychic")},
+    {COMPOUND_STRING("Bug")},
+    {COMPOUND_STRING("Next page")},
+    {gText_Cancel2},
+};
+static const struct MenuAction MultichoiceList_LaTera3[] = {
+    {COMPOUND_STRING("Rock")},
+    {COMPOUND_STRING("Ghost")},
+    {COMPOUND_STRING("Dragon")},
+    {COMPOUND_STRING("Dark")},
+    {COMPOUND_STRING("Steel")},
+    {COMPOUND_STRING("Fairy")},
+    {COMPOUND_STRING("Stellar")},
+    {COMPOUND_STRING("Next page")},
+    {gText_Cancel2},
+};
+
 static const struct MultichoiceListStruct sMultichoiceLists[] =
 {
+    [MULTI_LA_TERA_PAGE1] = MULTICHOICE(MultichoiceList_LaTera1),
+    [MULTI_LA_TERA_PAGE2] = MULTICHOICE(MultichoiceList_LaTera2),
+    [MULTI_LA_TERA_PAGE3] = MULTICHOICE(MultichoiceList_LaTera3),
     [MULTI_BRINEY_ON_DEWFORD]          = MULTICHOICE(MultichoiceList_BrineyOnDewford),
     [MULTI_PC]                         = MULTICHOICE(MultichoiceList_Exit),
     [MULTI_ENTERINFO]                  = MULTICHOICE(MultichoiceList_EnterInfo),
@@ -1167,7 +1210,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_BATTLE_MODE]                = MULTICHOICE(MultichoiceList_BattleMode),
     [MULTI_UNUSED_19]                  = MULTICHOICE(MultichoiceList_LATeleportDestinations),
     [MULTI_YESNOINFO_2]                = MULTICHOICE(MultichoiceList_YesNoInfo2),
-    [MULTI_UNUSED_21]                  = MULTICHOICE(MultichoiceList_Exit),
+    [MULTI_UNUSED_21]                  = MULTICHOICE(MultichoiceList_KantoARTravel),
     [MULTI_UNUSED_22]                  = MULTICHOICE(MultichoiceList_Exit),
     [MULTI_CHALLENGEINFO]              = MULTICHOICE(MultichoiceList_ChallengeInfo),
     [MULTI_LEVEL_MODE]                 = MULTICHOICE(MultichoiceList_LevelMode),

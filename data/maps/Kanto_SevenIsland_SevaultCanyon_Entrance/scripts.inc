@@ -1,0 +1,7 @@
+Kanto_SevenIsland_SevaultCanyon_Entrance_MapScripts::
+	.byte 0
+
+KantoAR_3_63_SevenIsland_SevaultCanyon_Entrance_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_3_64_SEVENISLAND_SEVAULTCANYON, 13, 42
+	goto KantoAR_InspectionFinish

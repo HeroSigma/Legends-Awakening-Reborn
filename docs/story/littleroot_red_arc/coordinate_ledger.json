@@ -1,0 +1,58 @@
+[
+  {
+    "map": "LittlerootTown_ProfessorBirchsLab",
+    "actor": "LOCALID_LA_LAB_RED",
+    "x": 4,
+    "y": 5,
+    "collision": 0
+  },
+  {
+    "map": "LittlerootTown_ProfessorBirchsLab",
+    "actor": "LOCALID_LA_LAB_PIKACHU",
+    "x": 4,
+    "y": 4,
+    "collision": 0
+  },
+  {
+    "map": "LittlerootTown_ProfessorBirchsLab",
+    "actor": "LOCALID_LA_LAB_BRENDAN",
+    "x": 5,
+    "y": 4,
+    "collision": 0
+  },
+  {
+    "map": "LittlerootTown_ProfessorBirchsLab",
+    "actor": "LOCALID_LA_LAB_MAY",
+    "x": 7,
+    "y": 4,
+    "collision": 0
+  },
+  {
+    "map": "Route103",
+    "actor": "LOCALID_LA_ROUTE103_RED",
+    "x": 7,
+    "y": 4,
+    "collision": 0
+  },
+  {
+    "map": "Route103",
+    "actor": "LOCALID_LA_ROUTE103_PIKACHU",
+    "x": 6,
+    "y": 4,
+    "collision": 0
+  },
+  {
+    "map": "Route103",
+    "actor": "LOCALID_LA_ROUTE103_BRENDAN",
+    "x": 10,
+    "y": 3,
+    "collision": 0
+  },
+  {
+    "map": "Route103",
+    "actor": "LOCALID_LA_ROUTE103_MAY",
+    "x": 11,
+    "y": 3,
+    "collision": 0
+  }
+]

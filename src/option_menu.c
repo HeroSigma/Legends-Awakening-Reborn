@@ -1,4 +1,7 @@
 #include "global.h"
+#include "pokemon_storage_system.h"
+#include "la_pc_features.h"
+#include "overworld.h"
 #include "option_menu.h"
 #include "bg.h"
 #include "gpu_regs.h"
@@ -23,6 +26,7 @@
 #define tSound data[4]
 #define tButtonMode data[5]
 #define tWindowFrameType data[6]
+#define tStorageWarning data[7]
 
 enum
 {
@@ -32,6 +36,7 @@ enum
     MENUITEM_SOUND,
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
+    MENUITEM_STORAGE,
     MENUITEM_CANCEL,
     MENUITEM_COUNT,
 };
@@ -42,13 +47,15 @@ enum
     WIN_OPTIONS
 };
 
-#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 16)
-#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 16)
-#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 16)
-#define YPOS_SOUND        (MENUITEM_SOUND * 16)
-#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 16)
-#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 16)
+#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 14)
+#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 14)
+#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 14)
+#define YPOS_SOUND        (MENUITEM_SOUND * 14)
+#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 14)
+#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 14)
 
+static void Task_StorageWarning(u8 taskId);
+static void Storage_DrawChoices(void);
 static void Task_OptionMenuFadeIn(u8 taskId);
 static void Task_OptionMenuProcessInput(u8 taskId);
 static void Task_OptionMenuSave(u8 taskId);
@@ -100,6 +107,7 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_SOUND]       = COMPOUND_STRING("SOUND"),
     [MENUITEM_BUTTONMODE]  = COMPOUND_STRING("BUTTON MODE"),
     [MENUITEM_FRAMETYPE]   = COMPOUND_STRING("FRAME"),
+    [MENUITEM_STORAGE]     = COMPOUND_STRING("PC BOXES"),
     [MENUITEM_CANCEL]      = COMPOUND_STRING("CANCEL"),
 };
 
@@ -257,6 +265,7 @@ void CB2_InitOptionMenu(void)
         Sound_DrawChoices(gTasks[taskId].tSound);
         ButtonMode_DrawChoices(gTasks[taskId].tButtonMode);
         FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
+        Storage_DrawChoices();
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
 
         CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
@@ -281,6 +290,10 @@ static void Task_OptionMenuProcessInput(u8 taskId)
 {
     if (JOY_NEW(A_BUTTON))
     {
+        if (gTasks[taskId].tMenuSelection == MENUITEM_STORAGE) {
+            gTasks[taskId].tStorageWarning = 0;
+            gTasks[taskId].func = Task_StorageWarning;
+        }
         if (gTasks[taskId].tMenuSelection == MENUITEM_CANCEL)
             gTasks[taskId].func = Task_OptionMenuSave;
     }
@@ -390,7 +403,7 @@ static void Task_OptionMenuFadeOut(u8 taskId)
 static void HighlightOptionMenuItem(u8 index)
 {
     SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(16, DISPLAY_WIDTH - 16));
-    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * 16 + 40, index * 16 + 56));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * 14 + 40, index * 14 + 54));
 }
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
@@ -408,7 +421,7 @@ static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
     }
 
     dst[i] = EOS;
-    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, dst, x, y + 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_SMALL, dst, x, y + 1, TEXT_SKIP_DRAW, NULL);
 }
 
 static u8 TextSpeed_ProcessInput(u8 selection)
@@ -644,7 +657,7 @@ static void DrawOptionMenuTexts(void)
 
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
     for (i = 0; i < MENUITEM_COUNT; i++)
-        AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, sOptionMenuItemsNames[i], 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_OPTIONS, FONT_SMALL, sOptionMenuItemsNames[i], 8, (i * 14) + 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 
@@ -681,4 +694,69 @@ static void DrawBgWindowFrames(void)
     FillBgTilemapBufferRect(1, TILE_BOT_CORNER_R, 28, 19,  1,  1,  7);
 
     CopyBgTilemapBufferToVram(1);
+}
+
+static void Storage_DrawChoices(void)
+{
+    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}14"), 104, MENUITEM_STORAGE * 14, !StorageIsCollectionMode());
+    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}60"), 150, MENUITEM_STORAGE * 14, StorageIsCollectionMode());
+}
+static void Storage_RedrawOptions(u8 taskId)
+{
+    DrawOptionMenuTexts();
+    TextSpeed_DrawChoices(gTasks[taskId].tTextSpeed);
+    BattleScene_DrawChoices(gTasks[taskId].tBattleSceneOff);
+    BattleStyle_DrawChoices(gTasks[taskId].tBattleStyle);
+    Sound_DrawChoices(gTasks[taskId].tSound);
+    ButtonMode_DrawChoices(gTasks[taskId].tButtonMode);
+    FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
+    Storage_DrawChoices();
+    HighlightOptionMenuItem(MENUITEM_STORAGE);
+    CopyWindowToVram(WIN_OPTIONS, COPYWIN_GFX);
+    gTasks[taskId].func = Task_OptionMenuProcessInput;
+}
+static void Storage_WarningText(const u8 *text)
+{
+    FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(40, 152));
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_SMALL, text, 0, 0, TEXT_SKIP_DRAW, NULL);
+    CopyWindowToVram(WIN_OPTIONS, COPYWIN_GFX);
+}
+static void Task_StorageWarning(u8 taskId)
+{
+    switch(gTasks[taskId].tStorageWarning) {
+    case 0:
+        if ((gMain.savedCallback != CB2_ReturnToFieldWithOpenMenu && gMain.savedCallback != CB2_ReturnToField) || gPokemonStoragePtr->version != 2 || LaPcRetiredMap((u8)gSaveBlock1Ptr->location.mapGroup, (u8)gSaveBlock1Ptr->location.mapNum)) {
+            Storage_WarningText(COMPOUND_STRING("Please use this option outside\na legacy activity, during your game.\n\nA/B: Return"));
+            gTasks[taskId].tStorageWarning = 4;
+        } else if (StorageHasBoxedFusion()) {
+            Storage_WarningText(COMPOUND_STRING("Unfuse boxed Pokémon before\nchanging storage modes.\n\nA/B: Return"));
+            gTasks[taskId].tStorageWarning = 4;
+        } else {
+            Storage_WarningText(COMPOUND_STRING("60-box mode uses collection storage.\nSpecies names replace nicknames.\nOT/met details are simplified.\nBattle/evolution traits are kept.\nFrontier, Contests, Trainer Hill,\nSecret Bases and legacy activities\nare disabled.\nA: Next  B: Cancel"));
+            gTasks[taskId].tStorageWarning = 1;
+        }
+        break;
+    case 1:
+        if (JOY_NEW(B_BUTTON)) Storage_RedrawOptions(taskId);
+        else if (JOY_NEW(A_BUTTON)) {
+            Storage_WarningText(COMPOUND_STRING("Changing either way erases\nALL BOXED POKéMON!\nParty and fusion partners stay.\n\nSave afterward to keep the change.\n\nA: ERASE BOXES AND SWITCH\nB: Cancel"));
+            gTasks[taskId].tStorageWarning = 2;
+        }
+        break;
+    case 2:
+        if (JOY_NEW(B_BUTTON)) Storage_RedrawOptions(taskId);
+        else if (JOY_NEW(A_BUTTON)) {
+            if (StorageChangeMode(StorageIsCollectionMode() ? 0 : 1, TRUE)) {
+                Storage_WarningText(StorageIsCollectionMode()
+                    ? COMPOUND_STRING("60-box collection mode enabled.\nRemember to save your game.\n\nA/B: Return")
+                    : COMPOUND_STRING("14-box normal mode enabled.\nRemember to save your game.\n\nA/B: Return"));
+            } else Storage_WarningText(COMPOUND_STRING("Storage could not be changed.\n\nA/B: Return"));
+            gTasks[taskId].tStorageWarning = 4;
+        }
+        break;
+    case 4:
+        if (JOY_NEW(A_BUTTON | B_BUTTON)) Storage_RedrawOptions(taskId);
+        break;
+    }
 }

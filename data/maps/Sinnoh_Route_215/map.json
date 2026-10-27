@@ -1,0 +1,48 @@
+{
+  "id": "MAP_HYPERSINNOH_36_34_ROUTE_215",
+  "name": "Sinnoh_Route_215",
+  "layout": "LAYOUT_HYPERSINNOH_36_34_ROUTE_215",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -79,
+      "map": "MAP_HYPERSINNOH_36_27_ROUTE_210"
+    },
+    {
+      "direction": "right",
+      "offset": -1,
+      "map": "MAP_HYPERSINNOH_36_9_VEILSTONE_CITY"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HYPERSINNOH_36_34_ROUTE_215_ASSET_TRAVEL_1",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 52,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HyperSinnoh_36_34_Route_215_EventScript_Construction",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

@@ -1,0 +1,7 @@
+Kanto_SaffronCity_PokemonTrainerFanClub_MapScripts::
+	.byte 0
+
+KantoAR_14_9_SaffronCity_PokemonTrainerFanClub_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_15_0_ROUTE2_VIRIDIANFOREST_SOUTHENTRANCE, 7, 6
+	goto KantoAR_InspectionFinish

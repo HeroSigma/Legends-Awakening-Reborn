@@ -1,0 +1,160 @@
+{
+  "source": "Legends Rewake: A Strange Delivery",
+  "mother": "Elara",
+  "texts": {
+    "Dream": "No...\nDon't send me away...\\pPlease...\\pNo!",
+    "Wake": "...!",
+    "DreamAftermath": "That dream again...\\p“Don't send me away...”\\pWhy would I say that?\\pI can barely remember any of it.",
+    "Huh": "Huh?",
+    "CheckPC": "That's my PC.\nI should check it.",
+    "Delivery": "DELIVERY NOTICE\\pYour order has been processed.\\pDelivery is scheduled to arrive shortly.\\pThank you for your purchase.",
+    "OrderReaction": "My order?\\pI didn't order anything.\\pThat's weird...\\pAnd the clock still isn't set.\\pI should probably fix that before I go downstairs.",
+    "PCFirst": "I should check the PC first.",
+    "ClockFirst": "Clock first.\\pElara will definitely say something if I leave it like that.",
+    "ClockDone": "There.\nMuch better.\\pNow the clock's set.",
+    "Talk0": "Hey, sleepyhead.\nFinally awake?",
+    "Talk1": "Barely.",
+    "Talk2": "You okay?",
+    "Talk3": "Yeah.\nJust had a weird dream.",
+    "Talk4": "Bad one?",
+    "Talk5": "I think so.\nI can't really remember it.",
+    "Talk6": "Probably for the best.",
+    "Talk7": "Actually...\nA package just arrived for you.",
+    "Talk8": "For me?",
+    "Talk9": "That's what it says.\nYour name and everything.",
+    "Talk10": "When did you order something?",
+    "Talk11": "I didn't.",
+    "Talk12": "...\nThat's strange.",
+    "Talk13": "My PC said an order was arriving too.",
+    "Talk14": "Your PC knew about it?",
+    "Talk15": "Apparently.",
+    "Talk16": "Well...\nit's addressed to you.",
+    "Talk17": "Let's at least see what's inside.",
+    "After0": "A Tera Orb...?",
+    "After1": "That's definitely not something I'd expect to arrive in the mail.",
+    "After2": "You know what it is?",
+    "After3": "I've heard of them.\nThey're used by Trainers in other regions.",
+    "After4": "But why someone sent one to you...\nI have no idea.",
+    "After5": "Keep it with you for now.",
+    "After6": "Just don't start pressing buttons until we know where it came from.",
+    "After7": "That's oddly specific.",
+    "After8": "I'm your mother.\nBeing oddly specific is part of the job.",
+    "After9": "Come downstairs when you're ready.\nThere's something else I need to tell you."
+  },
+  "conversation": [
+    [
+      "ELARA",
+      "Hey, sleepyhead.\nFinally awake?"
+    ],
+    [
+      "PLAYER",
+      "Barely."
+    ],
+    [
+      "ELARA",
+      "You okay?"
+    ],
+    [
+      "PLAYER",
+      "Yeah.\nJust had a weird dream."
+    ],
+    [
+      "ELARA",
+      "Bad one?"
+    ],
+    [
+      "PLAYER",
+      "I think so.\nI can't really remember it."
+    ],
+    [
+      "ELARA",
+      "Probably for the best."
+    ],
+    [
+      "ELARA",
+      "Actually...\nA package just arrived for you."
+    ],
+    [
+      "PLAYER",
+      "For me?"
+    ],
+    [
+      "ELARA",
+      "That's what it says.\nYour name and everything."
+    ],
+    [
+      "ELARA",
+      "When did you order something?"
+    ],
+    [
+      "PLAYER",
+      "I didn't."
+    ],
+    [
+      "ELARA",
+      "...\nThat's strange."
+    ],
+    [
+      "PLAYER",
+      "My PC said an order was arriving too."
+    ],
+    [
+      "ELARA",
+      "Your PC knew about it?"
+    ],
+    [
+      "PLAYER",
+      "Apparently."
+    ],
+    [
+      "ELARA",
+      "Well...\nit's addressed to you."
+    ],
+    [
+      "ELARA",
+      "Let's at least see what's inside."
+    ]
+  ],
+  "after_item": [
+    [
+      "PLAYER",
+      "A Tera Orb...?"
+    ],
+    [
+      "ELARA",
+      "That's definitely not something I'd expect to arrive in the mail."
+    ],
+    [
+      "PLAYER",
+      "You know what it is?"
+    ],
+    [
+      "ELARA",
+      "I've heard of them.\nThey're used by Trainers in other regions."
+    ],
+    [
+      "ELARA",
+      "But why someone sent one to you...\nI have no idea."
+    ],
+    [
+      "ELARA",
+      "Keep it with you for now."
+    ],
+    [
+      "ELARA",
+      "Just don't start pressing buttons until we know where it came from."
+    ],
+    [
+      "PLAYER",
+      "That's oddly specific."
+    ],
+    [
+      "ELARA",
+      "I'm your mother.\nBeing oddly specific is part of the job."
+    ],
+    [
+      "ELARA",
+      "Come downstairs when you're ready.\nThere's something else I need to tell you."
+    ]
+  ]
+}

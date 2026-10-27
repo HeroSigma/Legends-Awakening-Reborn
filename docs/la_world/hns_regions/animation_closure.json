@@ -1,0 +1,35 @@
+{
+  "512": {
+    "callbacks": [
+      "InitTilesetAnim_BattleDome",
+      "InitTilesetAnim_BattleFrontierOutsideEast",
+      "InitTilesetAnim_BattleFrontierOutsideWest",
+      "InitTilesetAnim_BattlePyramid",
+      "InitTilesetAnim_Building",
+      "InitTilesetAnim_Cave",
+      "InitTilesetAnim_Dewford",
+      "InitTilesetAnim_Fortree",
+      "InitTilesetAnim_General",
+      "InitTilesetAnim_JohtoGeneral",
+      "InitTilesetAnim_Rustboro"
+    ],
+    "functions": 42,
+    "arrays": 103
+  },
+  "640": {
+    "callbacks": [
+      "InitTilesetAnim_AzaleaTownGym",
+      "InitTilesetAnim_BlackthornGym",
+      "InitTilesetAnim_CeladonCity_Hns",
+      "InitTilesetAnim_CeruleanCity_Hns",
+      "InitTilesetAnim_EcruteakTheater",
+      "InitTilesetAnim_General",
+      "InitTilesetAnim_JohtoGeneral",
+      "InitTilesetAnim_MtSilverExp",
+      "InitTilesetAnim_NationalPark",
+      "InitTilesetAnim_SilphCo_Hns"
+    ],
+    "functions": 40,
+    "arrays": 111
+  }
+}

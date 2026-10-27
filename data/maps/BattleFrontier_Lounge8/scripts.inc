@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge8_MapScripts::
 	.byte 0
 
@@ -43,3 +45,20 @@ BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
 	.string "I guess having talent and liking\n"
 	.string "something aren't the same.$"
 
+
+#else
+BattleFrontier_Lounge8_MapScripts::
+	.byte 0
+BattleFrontier_Lounge8_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge8_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge8_EventScript_NinjaBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
+	.string "This feature is disabled in this build.$"
+#endif

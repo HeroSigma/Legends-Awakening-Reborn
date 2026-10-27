@@ -1,0 +1,60 @@
+{
+  "id": "MAP_KANTOAR_30_0_ROUTE25_SEACOTTAGE",
+  "name": "Kanto_Route25_SeaCottage",
+  "layout": "LAYOUT_KANTOAR_30_0_ROUTE25_SEACOTTAGE",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_30_0_ROUTE25_SEACOTTAGE_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 7,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_30_0_Route25_SeaCottage_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_44_ROUTE25",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_44_ROUTE25",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_3_44_ROUTE25",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

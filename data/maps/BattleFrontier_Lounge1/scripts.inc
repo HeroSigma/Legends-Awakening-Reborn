@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge1_MapScripts::
 	.byte 0
 
@@ -256,3 +258,102 @@ BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
 	.string "But I didn't do anything special\l"
 	.string "raising it…$"
 
+
+#else
+BattleFrontier_Lounge1_MapScripts::
+	.byte 0
+BattleFrontier_Lounge1_EventScript_Breeder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_ChooseMonToShowBreeder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_BreederIntro::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_AlreadyMetBreeder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_ShowMonToBreeder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_ShowEggToBreeder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVStat::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVValue::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_EndBreederComments::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_AverageTotalIVs::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_AboveAverageTotalIVs::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighTotalIVs::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_VeryHighTotalIVs::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVHP::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVAtk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVDef::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVSpeed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVSpAtk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVSpDef::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVLow::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVMid::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVHigh::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_HighestIVMax::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_CancelMonSelect::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_Boy1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_EventScript_Boy2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge1_Text_PokemonBreederIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_AverageAbility:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BetterThanAverageAbility:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_ImpressiveAbility:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_OutstandingAbility:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectHP:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectAtk:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectDef:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectSpAtk:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectSpDef:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_BestAspectSpeed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_StatRelativelyGood:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_StatImpressive:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_StatOutstanding:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_StatFlawless:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_NoTimeForMyAdvice:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_EvenICantTell:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
+	.string "This feature is disabled in this build.$"
+#endif

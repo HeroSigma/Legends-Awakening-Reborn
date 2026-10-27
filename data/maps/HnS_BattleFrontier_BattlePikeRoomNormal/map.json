@@ -1,0 +1,127 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL",
+  "name": "HnS_BattleFrontier_BattlePikeRoomNormal",
+  "layout": "LAYOUT_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 4,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "FLAG_HIDE_HNS_PLACEHOLDER_VARIANTS",
+      "local_id": "LOCALID_HNS_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 3,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "FLAG_HIDE_HNS_PLACEHOLDER_VARIANTS",
+      "local_id": "LOCALID_HNS_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL_2"
+    },
+    {
+      "local_id": "LOCALID_HNS_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL_3",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_BattleFrontier_BattlePikeRoomNormal_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 3,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 6,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 6,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "65535",
+      "script": "HnsRegion_NoOp"
+    }
+  ],
+  "bg_events": []
+}

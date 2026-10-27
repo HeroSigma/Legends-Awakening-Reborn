@@ -1,0 +1,1022 @@
+{
+  "rom_sha256": "b7e8ee7fab5908263d28d57b30080bee77e820ea27752a5199f8471604fd2f42",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_0_0",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_0_0",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_0_0",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_0_0",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_0_0",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_0_0",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_0_0",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_0_0",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_0_0",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_0_0",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_0_0",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_0_0",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_0_0",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_0_0",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_0_0",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_0_0",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_0_0",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_0_0",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_0_0",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_0_0",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_0_0",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_0_0",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_0_0",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_0_0",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_0_0",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_0_0",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_0_0",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_0_0",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_0_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_0_1",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_0_1",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_0_1",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_0_1",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_0_1",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_0_1",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_0_1",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_0_1",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_0_1",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_0_1",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_0_1",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_0_1",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_0_1",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_0_1",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_0_1",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_0_1",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_0_1",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_0_1",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_0_1",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_0_1",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_0_1",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_0_1",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_0_1",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_0_1",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_0_1",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_0_1",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_0_1",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_0_1",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_0_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_0_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_0_2",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_0_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_0_2",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_0_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_0_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_0_2",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_0_2",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_0_2",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_0_2",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_0_2",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_0_2",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_0_2",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_0_2",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_0_2",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_0_2",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_0_2",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_0_2",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_0_2",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_0_2",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_0_2",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_0_2",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_0_2",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_0_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_0_2",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_0_2",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_0_2",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_0_2",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_0_2",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_0_2",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_0_2",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_0_2",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_0_2",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_0_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_1_0",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_1_0",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_1_0",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_1_0",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_1_0",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_1_0",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_1_0",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_1_0",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_1_0",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_1_0",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_1_0",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_1_0",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_1_0",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_1_0",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_1_0",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_1_0",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_1_0",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_1_0",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_1_0",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_1_0",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_1_0",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_1_0",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_1_0",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_1_0",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_1_0",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_1_0",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_1_0",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_1_0",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_1_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_1_1",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_1_1",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_1_1",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_1_1",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_1_1",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_1_1",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_1_1",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_1_1",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_1_1",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_1_1",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_1_1",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_1_1",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_1_1",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_1_1",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_1_1",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_1_1",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_1_1",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_1_1",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_1_1",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_1_1",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_1_1",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_1_1",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_1_1",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_1_1",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_1_1",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_1_1",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_1_1",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_1_1",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_1_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "red_and_encounter_pikachu_in_lab_1_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_BirchRecognizes_1_2",
+      "passed": true
+    },
+    {
+      "test": "red_faces_birch_at_opening_1_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_PortalArrival_1_2",
+      "passed": true
+    },
+    {
+      "test": "red_stays_with_pikachu_for_birch_1_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_KeepStarter_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_red_approached_PlayerIntroduction_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_red_faces_player_PlayerIntroduction_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_pikachu_faces_conversation_PlayerIntroduction_1_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_RioluGift_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_normal_trainer_not_birch_tutorial_1_2",
+      "passed": true
+    },
+    {
+      "test": "red_uses_riolu_level_10_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_actual_forced_loss_1_2",
+      "passed": true
+    },
+    {
+      "test": "riolu_origin_explained_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_story_complete_1_2",
+      "passed": true
+    },
+    {
+      "test": "mega_ring_once_1_2",
+      "passed": true
+    },
+    {
+      "test": "no_spar_money_penalty_1_2",
+      "passed": true
+    },
+    {
+      "test": "starter_retained_1_2",
+      "passed": true
+    },
+    {
+      "test": "lab_no_replay_1_2",
+      "passed": true
+    },
+    {
+      "test": "all_four_route_actors_1_2",
+      "passed": true
+    },
+    {
+      "test": "automatic_route_meeting_1_2",
+      "passed": true
+    },
+    {
+      "test": "route_player_walks_to_brendan_1_2",
+      "passed": true
+    },
+    {
+      "test": "route_red_in_front_of_may_1_2",
+      "passed": true
+    },
+    {
+      "test": "route_pikachu_at_right_facing_group_1_2",
+      "passed": true
+    },
+    {
+      "test": "true_four_trainer_battle_1_2",
+      "passed": true
+    },
+    {
+      "test": "red_is_battle_partner_1_2",
+      "passed": true
+    },
+    {
+      "test": "red_battles_with_riolu_not_pikachu_1_2",
+      "passed": true
+    },
+    {
+      "test": "route_double_won_1_2",
+      "passed": true
+    },
+    {
+      "test": "partner_never_added_to_player_party_1_2",
+      "passed": true
+    },
+    {
+      "test": "battle_flags_scoped_1_2",
+      "passed": true
+    },
+    {
+      "test": "birch_faces_speaker_DexNavGift_1_2",
+      "passed": true
+    },
+    {
+      "test": "national_dex_received_1_2",
+      "passed": true
+    },
+    {
+      "test": "dexnav_received_1_2",
+      "passed": true
+    },
+    {
+      "test": "five_balls_received_1_2",
+      "passed": true
+    },
+    {
+      "test": "normal_adventure_progression_1_2",
+      "passed": true
+    },
+    {
+      "test": "elara_caelum_thought_1_2",
+      "passed": true
+    },
+    {
+      "test": "native_running_shoes_unlocked_1_2",
+      "passed": true
+    },
+    {
+      "test": "ring_still_one_1_2",
+      "passed": true
+    },
+    {
+      "test": "completed_lab_stays_complete_1_2",
+      "passed": true
+    },
+    {
+      "test": "route_actors_gone_after_chapter_1_2",
+      "passed": true
+    },
+    {
+      "test": "native_save_success",
+      "passed": true
+    },
+    {
+      "test": "native_save_continue_preserves_chapter",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

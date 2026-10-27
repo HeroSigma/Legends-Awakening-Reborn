@@ -1,0 +1,53 @@
+{
+  "id": 96,
+  "key": "gfx_096",
+  "status": "extracted",
+  "graphics_pointer_table_entry": "0x0839FF30",
+  "graphics_info_pointer": "0x083A451C",
+  "tile_tag": 65535,
+  "palette_tag": 4362,
+  "reflection_palette_tag": 4607,
+  "palette_pointer": "0x0836D908",
+  "palette_status": "rom",
+  "palette_raw": "sprites/gfx_096/palette.gbapal",
+  "width": 16,
+  "height": 16,
+  "frame_size": 128,
+  "frame_count": 4,
+  "frame_sizes": [
+    128,
+    128,
+    128,
+    128
+  ],
+  "frame_offsets": [
+    0,
+    128,
+    256,
+    384
+  ],
+  "expected_frame_size": 128,
+  "standard_frame_stride": true,
+  "project_import_safe": false,
+  "project_oam_symbol": "gObjectEventBaseOam_16x16",
+  "project_subsprite_symbol": "sOamTables_16x16",
+  "palette_slot": 9,
+  "shadow_size": 1,
+  "inanimate": false,
+  "source_flag7": false,
+  "frames": [
+    "sprites/gfx_096/frames/frame_00.png",
+    "sprites/gfx_096/frames/frame_01.png",
+    "sprites/gfx_096/frames/frame_02.png",
+    "sprites/gfx_096/frames/frame_03.png"
+  ],
+  "preview": "sprites/gfx_096/preview.png",
+  "sheet": "sprites/gfx_096/sheet.png",
+  "images_table_pointer": "0x083A1698",
+  "oam_pointer": "0x083A36F0",
+  "subsprite_tables_pointer": "0x083A3748",
+  "anims_pointer": "0x083A3658",
+  "affine_anims_pointer": "0x08231CFC",
+  "packed_flags": 25,
+  "tracks": 1
+}

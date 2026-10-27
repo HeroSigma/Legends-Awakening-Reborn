@@ -314,7 +314,9 @@ static const u8 sTextScrollSpeeds[] =
     [OPTIONS_TEXT_SPEED_INSTANT] = 6,
 };
 
+#if !LA_FREE_SPACE
 static const u16 sFontBoldJapaneseGlyphs[] = INCGFX_U16("graphics/fonts/japanese_bold.png", ".hwjpnfont");
+#endif
 
 static void SetFontsPointer(const struct FontInfo *fonts)
 {
@@ -2201,11 +2203,13 @@ u8 GetMenuCursorDimensionByFont(u8 fontId, u8 whichDimension)
     return sMenuCursorDimensions[fontId][whichDimension];
 }
 
+// Latin fonts include extended symbols (0x100+), including the battle Lv label.
+// Keep those IDs intact even when Japanese fonts are omitted by LA_FREE_SPACE.
 static void DecompressGlyph_Small(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese)
+    if (!LA_FREE_SPACE && isJapanese)
     {
         glyphs = gFontSmallJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId & 0xF));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2237,7 +2241,7 @@ static void DecompressGlyph_Small(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Small(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontSmallLatinGlyphWidths[glyphId];
@@ -2247,7 +2251,7 @@ static void DecompressGlyph_Narrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontNormalJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId % 0x10));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2279,7 +2283,7 @@ static void DecompressGlyph_Narrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Narrow(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontNarrowLatinGlyphWidths[glyphId];
@@ -2289,7 +2293,7 @@ static void DecompressGlyph_SmallNarrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontSmallJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId & 0xF));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2321,7 +2325,7 @@ static void DecompressGlyph_SmallNarrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_SmallNarrow(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontSmallNarrowLatinGlyphWidths[glyphId];
@@ -2331,7 +2335,7 @@ static void DecompressGlyph_Short(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontShortJapaneseGlyphs + (0x100 * (glyphId >> 0x3)) + (0x10 * (glyphId & 0x7));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2365,7 +2369,7 @@ static void DecompressGlyph_Short(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Short(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
         return gFontShortLatinGlyphWidths[glyphId];
@@ -2375,7 +2379,7 @@ static void DecompressGlyph_Normal(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontNormalJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId % 0x10));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2407,7 +2411,7 @@ static void DecompressGlyph_Normal(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Normal(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontNormalLatinGlyphWidths[glyphId];
@@ -2415,6 +2419,9 @@ static u32 GetGlyphWidth_Normal(u16 glyphId, bool32 isJapanese)
 
 static void DecompressGlyph_Bold(u16 glyphId)
 {
+#if LA_FREE_SPACE
+    DecompressGlyph_Normal(glyphId, FALSE);
+#else
     const u16 *glyphs;
 
     glyphs = sFontBoldJapaneseGlyphs + (0x100 * (glyphId >> 4)) + (0x8 * (glyphId & 0xF));
@@ -2422,13 +2429,14 @@ static void DecompressGlyph_Bold(u16 glyphId)
     DecompressGlyphTile(glyphs + 0x80, gCurGlyph.gfxBufferBottom);
     gCurGlyph.width = 8;
     gCurGlyph.height = 12;
+#endif
 }
 
 static void DecompressGlyph_Narrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontNormalJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId % 0x10));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2460,7 +2468,7 @@ static void DecompressGlyph_Narrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Narrower(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontNarrowerLatinGlyphWidths[glyphId];
@@ -2470,7 +2478,7 @@ static void DecompressGlyph_SmallNarrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontSmallJapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId % 0x10));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2502,7 +2510,7 @@ static void DecompressGlyph_SmallNarrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_SmallNarrower(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return 8;
     else
         return gFontSmallNarrowerLatinGlyphWidths[glyphId];
@@ -2512,7 +2520,7 @@ static void DecompressGlyph_ShortNarrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontShortJapaneseGlyphs + (0x100 * (glyphId >> 0x3)) + (0x10 * (glyphId & 0x7));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2546,7 +2554,7 @@ static void DecompressGlyph_ShortNarrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_ShortNarrow(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
         return gFontShortNarrowLatinGlyphWidths[glyphId];
@@ -2556,7 +2564,7 @@ static void DecompressGlyph_ShortNarrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
 
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
     {
         glyphs = gFontShortJapaneseGlyphs + (0x100 * (glyphId >> 0x3)) + (0x10 * (glyphId & 0x7));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
@@ -2590,7 +2598,7 @@ static void DecompressGlyph_ShortNarrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_ShortNarrower(u16 glyphId, bool32 isJapanese)
 {
-    if (isJapanese == TRUE)
+    if (!LA_FREE_SPACE && isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
         return gFontShortNarrowerLatinGlyphWidths[glyphId];

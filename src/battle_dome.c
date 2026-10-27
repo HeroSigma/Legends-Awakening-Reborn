@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "battle_dome.h"
 #include "battle.h"
@@ -5996,3 +5998,68 @@ static void CopyDomeTrainerName(u8 *str, u16 trainerId)
         str[i] = EOS;
     }
 }
+
+#else
+#include "global.h"
+#include "battle_dome.h"
+#include "battle.h"
+#include "battle_ai_util.h"
+#include "battle_main.h"
+#include "battle_setup.h"
+#include "battle_tower.h"
+#include "battle_stat_change.h"
+#include "frontier_util.h"
+#include "battle_message.h"
+#include "event_data.h"
+#include "overworld.h"
+#include "util.h"
+#include "malloc.h"
+#include "string_util.h"
+#include "random.h"
+#include "task.h"
+#include "main.h"
+#include "gpu_regs.h"
+#include "text.h"
+#include "bg.h"
+#include "window.h"
+#include "strings.h"
+#include "palette.h"
+#include "decompress.h"
+#include "party_menu.h"
+#include "menu.h"
+#include "sound.h"
+#include "pokemon_icon.h"
+#include "data.h"
+#include "item.h"
+#include "international_string_util.h"
+#include "trainer_pokemon_sprites.h"
+#include "scanline_effect.h"
+#include "script_pokemon_util.h"
+#include "graphics.h"
+#include "constants/battle_dome.h"
+#include "constants/battle_move_effects.h"
+#include "constants/frontier_util.h"
+#include "constants/moves.h"
+#include "constants/trainers.h"
+#include "constants/abilities.h"
+#include "constants/songs.h"
+#include "constants/battle_frontier.h"
+#include "constants/rgb.h"
+#include "script.h"
+#include "legacy_features.h"
+
+void CallBattleDomeFunction(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+int GetDomeTrainerSelectedMons(u16 tournamentTrainerId)
+{
+    return 0;
+}
+
+int TrainerIdToDomeTournamentId(u16 trainerId)
+{
+    return 0;
+}
+#endif

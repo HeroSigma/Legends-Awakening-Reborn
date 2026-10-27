@@ -53,6 +53,8 @@ LittlerootTown_MaysHouse_2F_EventScript_WallClock::
 	end
 
 PlayersHouse_2F_EventScript_WallClock::
+    goto_if_eq VAR_LITTLEROOT_INTRO_STATE, LA_INTRO_CHECK_PC, LegendsBedroom_ClockBeforePC
+    goto_if_eq VAR_LITTLEROOT_INTRO_STATE, LA_INTRO_SET_CLOCK, LegendsBedroom_SetClock
 	goto_if_set FLAG_SET_WALL_CLOCK, PlayersHouse_2F_EventScript_CheckWallClock
 	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT
 	call PlayersHouse_2F_EventScript_SetWallClock
@@ -303,6 +305,7 @@ PlayersHouse_1F_EventScript_Mom::
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, PlayersHouse_1F_EventScript_DontPushYourselfTooHard
 	goto_if_set FLAG_HAS_MATCH_CALL, PlayersHouse_1F_EventScript_TryRegisterMom
 	goto_if_set FLAG_RESCUED_BIRCH, PlayersHouse_1F_EventScript_MomHealsParty
+	goto_if_set FLAG_LA_WATCHED_RIFT_REPORT, LegendsDownstairs_ElaraReminder
 	goto_if_eq VAR_TEMP_1, 1, PlayersHouse_1F_EventScript_SeeYouHoney
 	goto_if_eq VAR_LITTLEROOT_INTRO_STATE, 7, PlayersHouse_1F_EventScript_DidYouMeetProfBirch
 	msgbox PlayersHouse_1F_Text_IsntItNiceInHere, MSGBOX_DEFAULT

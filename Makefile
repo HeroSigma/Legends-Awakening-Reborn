@@ -157,6 +157,9 @@ else
 O_LEVEL ?= 2
 endif
 CPPFLAGS := $(INCLUDE_CPP_ARGS) -Wno-trigraphs -DMODERN=1 -DTESTING=$(TEST) -D$(GAME_VERSION) -std=gnu17
+ifneq ($(origin LA_FREE_SPACE),undefined)
+  override CPPFLAGS += -DLA_FREE_SPACE=$(LA_FREE_SPACE)
+endif
 ifeq ($(RELEASE),1)
 	override CPPFLAGS += -DRELEASE
 	ifeq ($(USE_LTO_ON_RELEASE),1)
@@ -193,6 +196,10 @@ endif
 
 LIBPATH := -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libgcc.a))" -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libnosys.a))" -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libc.a))"
 LIB := $(LIBPATH) -lc -lnosys -lgcc -L../../libagbsyscall -lagbsyscall
+# Emit separate native sections so the existing linker GC can retain every
+# referenced regional asset while discarding unreferenced code and declarations.
+override CFLAGS += -ffunction-sections -fdata-sections
+
 # Enable debug info if set
 ifeq ($(DINFO),1)
   override CFLAGS += -g
@@ -595,3 +602,24 @@ leafgreen: all
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
+
+# Reject stale two-layer outputs from legacy importers before compiling tilesets.
+.PHONY: check-metatile-format
+check-metatile-format:
+	@python3 tools/la_world/check_triple_layer_format.py
+
+$(C_BUILDDIR)/tilesets.o: | check-metatile-format
+
+# Opt-in new-game entry for the isolated full-sheet rendering test.
+ifneq ($(filter 1 2,$(FULL_SHEET_TEST_START)),)
+$(C_BUILDDIR)/new_game.o: CPPFLAGS += -DFULL_SHEET_TEST_START=$(FULL_SHEET_TEST_START)
+endif
+
+# Make changing the entry flag rebuild new_game.o in either direction.
+.PHONY: full-sheet-start-check
+$(OBJ_DIR)/full-sheet-start.cfg: full-sheet-start-check
+	@mkdir -p $(dir $@)
+	@printf '%s\n' '$(if $(filter 1 2,$(FULL_SHEET_TEST_START)),$(FULL_SHEET_TEST_START),normal)' > $@.tmp
+	@cmp -s $@.tmp $@ || cp $@.tmp $@
+	@rm -f $@.tmp
+$(C_BUILDDIR)/new_game.o: $(OBJ_DIR)/full-sheet-start.cfg

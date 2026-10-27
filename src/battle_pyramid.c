@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "battle_pyramid.h"
 #include "battle_pyramid_bag.h"
@@ -2204,3 +2206,141 @@ u16 GetBattlePyramidPickupItemId(void)
 const u8 *GetBattlePyramidTrainerScript() {
     return BattlePyramid_TrainerBattle;
 }
+
+#else
+#include "global.h"
+#include "battle_pyramid.h"
+#include "battle_pyramid_bag.h"
+#include "event_data.h"
+#include "frontier_util.h"
+#include "battle.h"
+#include "battle_setup.h"
+#include "battle_tower.h"
+#include "save.h"
+#include "strings.h"
+#include "fieldmap.h"
+#include "party_menu.h"
+#include "palette.h"
+#include "field_screen_effect.h"
+#include "field_message_box.h"
+#include "random.h"
+#include "item.h"
+#include "util.h"
+#include "sound.h"
+#include "task.h"
+#include "start_menu.h"
+#include "string_util.h"
+#include "trainer_see.h"
+#include "main.h"
+#include "load_save.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "malloc.h"
+#include "overworld.h"
+#include "event_scripts.h"
+#include "graphics.h"
+#include "wild_encounter.h"
+#include "constants/battle_frontier.h"
+#include "constants/battle_pyramid.h"
+#include "constants/event_objects.h"
+#include "constants/event_object_movement.h"
+#include "constants/frontier_util.h"
+#include "constants/items.h"
+#include "constants/layouts.h"
+#include "constants/metatile_labels.h"
+#include "constants/moves.h"
+#include "constants/species.h"
+#include "constants/trainers.h"
+#include "script.h"
+#include "legacy_features.h"
+
+void CallBattlePyramidFunction(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+u16 LocalIdToPyramidTrainerId(u8 localId)
+{
+    return 0;
+}
+
+bool8 GetBattlePyramidTrainerFlag(u8 eventId)
+{
+    return 0;
+}
+
+void MarkApproachingPyramidTrainersAsBattled(void)
+{
+
+}
+
+void GenerateBattlePyramidWildMon(enum Species forceSpecies)
+{
+
+}
+
+u8 GetPyramidRunMultiplier(void)
+{
+    return 0;
+}
+
+u8 CurrentBattlePyramidLocation(void)
+{
+    return 0;
+}
+
+bool8 InBattlePyramid(void)
+{
+    return 0;
+}
+
+void PausePyramidChallenge(void)
+{
+
+}
+
+void SoftResetInBattlePyramid(void)
+{
+
+}
+
+void CopyPyramidTrainerSpeechBefore(u16 trainerId)
+{
+
+}
+
+u8 GetTrainerEncounterMusicIdInBattlePyramid(u16 trainerId)
+{
+    return 0;
+}
+
+void GenerateBattlePyramidFloorLayout(u16 *backupMapData, bool8 setPlayerPosition)
+{
+
+}
+
+void LoadBattlePyramidObjectEventTemplates(void)
+{
+
+}
+
+void LoadBattlePyramidFloorObjectEventScripts(void)
+{
+
+}
+
+u8 GetNumBattlePyramidObjectEvents(void)
+{
+    return 0;
+}
+
+u16 GetBattlePyramidPickupItemId(void)
+{
+    return 0;
+}
+const u8 *GetBattlePyramidTrainerScript(void)
+{
+    static const u8 disabledScript[] = { 2 }; // Script end.
+    return disabledScript;
+}
+#endif

@@ -1,0 +1,57 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_EMBEDDEDTOWER",
+  "name": "HnS_EmbeddedTower",
+  "layout": "LAYOUT_HNS_REGION_EMBEDDEDTOWER",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(RAYQUAZA)",
+      "x": 14,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_EMBEDDEDTOWER_1"
+    },
+    {
+      "local_id": "LOCALID_HNS_EMBEDDEDTOWER_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 14,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_EmbeddedTower_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 14,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_ROUTE47",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

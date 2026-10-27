@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "battle.h"
@@ -2662,3 +2664,268 @@ bool8 IsWirelessContest(void)
     else
         return FALSE;
 }
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "battle.h"
+#include "battle_gfx_sfx_util.h"
+#include "bg.h"
+#include "contest.h"
+#include "contest_util.h"
+#include "contest_link.h"
+#include "contest_painting.h"
+#include "data.h"
+#include "decompress.h"
+#include "dma3.h"
+#include "event_data.h"
+#include "event_object_movement.h"
+#include "field_specials.h"
+#include "gpu_regs.h"
+#include "graphics.h"
+#include "international_string_util.h"
+#include "link.h"
+#include "link_rfu.h"
+#include "load_save.h"
+#include "main.h"
+#include "overworld.h"
+#include "palette.h"
+#include "pokedex.h"
+#include "pokemon.h"
+#include "pokemon_icon.h"
+#include "random.h"
+#include "save.h"
+#include "scanline_effect.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "script_menu.h"
+#include "sound.h"
+#include "string_util.h"
+#include "strings.h"
+#include "task.h"
+#include "text.h"
+#include "trig.h"
+#include "tv.h"
+#include "util.h"
+#include "window.h"
+#include "constants/event_objects.h"
+#include "constants/field_specials.h"
+#include "constants/game_stat.h"
+#include "constants/rgb.h"
+#include "constants/songs.h"
+#include "contest.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+
+
+void TryEnterContestMon(void)
+{
+
+}
+
+u16 HasMonWonThisContestBefore(void)
+{
+    return 0;
+}
+
+void GiveMonContestRibbon(void)
+{
+
+}
+
+void BufferContestantTrainerName(void)
+{
+
+}
+
+void BufferContestantMonNickname(void)
+{
+
+}
+
+void GetContestMonConditionRanking(void)
+{
+
+}
+
+void GetContestMonCondition(void)
+{
+
+}
+
+void GetContestWinnerId(void)
+{
+
+}
+
+void BufferContestWinnerTrainerName(void)
+{
+
+}
+
+void BufferContestWinnerMonName(void)
+{
+
+}
+
+void CB2_SetStartContestCallback(void)
+{
+    SetMainCallback2(CB2_ReturnToField);
+}
+
+void StartContest(void)
+{
+
+}
+
+void BufferContestantMonSpecies(void)
+{
+
+}
+
+void ShowContestResults(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+void GetContestPlayerId(void)
+{
+
+}
+
+void ContestLinkTransfer(u8 category)
+{
+
+}
+
+u8 LinkContest_GetLeaderIndex(u8 *ids)
+{
+    return 0;
+}
+
+void Task_LinkContest_FinalizeConnection(u8 taskId)
+{
+
+}
+
+void SetContestTrainerGfxIds(void)
+{
+
+}
+
+void GetNpcContestantLocalId(void)
+{
+
+}
+
+void BufferContestTrainerAndMonNames(void)
+{
+
+}
+
+void DoesContestCategoryHaveMuseumPainting(void)
+{
+
+}
+
+void SaveMuseumContestPainting(void)
+{
+
+}
+
+void ShouldReadyContestArtist(void)
+{
+
+}
+
+u8 CountPlayerMuseumPaintings(void)
+{
+    return 0;
+}
+
+void GetContestantNamesAtRank(void)
+{
+
+}
+
+void ShowContestPainting(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+void SetLinkContestPlayerGfx(void)
+{
+
+}
+
+void LoadLinkContestPlayerPalettes(void)
+{
+
+}
+
+bool8 GiveMonArtistRibbon(void)
+{
+    return 0;
+}
+
+bool8 IsContestDebugActive(void)
+{
+    return 0;
+}
+
+void ShowContestEntryMonPic(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+void HideContestEntryMonPic(void)
+{
+
+}
+
+void GetContestMultiplayerId(void)
+{
+
+}
+
+void GenerateContestRand(void)
+{
+
+}
+
+u16 GetContestRand(void)
+{
+    return 0;
+}
+
+bool8 LinkContestWaitForConnection(void)
+{
+    return 0;
+}
+
+void LinkContestTryShowWirelessIndicator(void)
+{
+
+}
+
+void LinkContestTryHideWirelessIndicator(void)
+{
+
+}
+
+bool8 IsContestWithRSPlayer(void)
+{
+    return 0;
+}
+
+void ClearLinkContestFlags(void)
+{
+
+}
+
+bool8 IsWirelessContest(void)
+{
+    return 0;
+}
+#endif

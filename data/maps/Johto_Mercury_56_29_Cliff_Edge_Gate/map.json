@@ -1,0 +1,53 @@
+{
+  "id": "MAP_JOHTO_MERCURY_56_29_CLIFF_EDGE_GATE",
+  "name": "Johto_Mercury_56_29_Cliff_Edge_Gate",
+  "layout": "LAYOUT_JOHTO_MERCURY_56_29_CLIFF_EDGE_GATE",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [
+    {
+      "local_id": "LOCALID_JOHTO_MERCURY_56_29_CLIFF_EDGE_GATE_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Johto_Mercury_56_29_Cliff_Edge_Gate_Inspect",
+      "flag": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_56_28_CLIFF_EDGE_GATE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_3_37_ROUTE_47",
+      "dest_warp_id": "2"
+    }
+  ],
+  "connections": null,
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "region": "REGION_JOHTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

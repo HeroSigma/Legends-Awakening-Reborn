@@ -1,4 +1,6 @@
 #include "global.h"
+#include "la_pc_features.h"
+#include "pokemon_storage_system.h"
 #include "hyper_sinnoh_climb.h"
 #include "battle_setup.h"
 #include "bike.h"
@@ -45,6 +47,7 @@
 #include "constants/metatile_behaviors.h"
 #include "constants/songs.h"
 #include "constants/trainer_hill.h"
+#include "constants/region_map_sections.h"
 
 static EWRAM_DATA u8 sWildEncounterImmunitySteps = 0;
 static EWRAM_DATA u16 sPrevMetatileBehavior = 0;
@@ -954,6 +957,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
 
     if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
     {
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoWarp();
         return TRUE;
@@ -967,6 +971,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
             delay = 12;
         }
 
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoStairWarp(metatileBehavior, delay);
         return TRUE;
@@ -980,6 +985,7 @@ static bool8 TryStartWarpEventScript(struct MapPosition *position, u16 metatileB
 
     if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
     {
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StoreInitialPlayerAvatarState();
         SetupWarp(&gMapHeader, warpEventId, position);
         if (MetatileBehavior_IsEscalator(metatileBehavior) == TRUE)
@@ -1102,7 +1108,14 @@ static void SetupWarp(struct MapHeader *unused, s8 warpEventId, struct MapPositi
         UpdateEscapeWarp(position->x, position->y);
         mapHeader = Overworld_GetMapHeaderByGroupAndId(warpEvent->mapGroup, warpEvent->mapNum);
         if (mapHeader->events->warps[warpEvent->warpId].mapNum == MAP_NUM(MAP_DYNAMIC))
-            SetDynamicWarp(mapHeader->events->warps[warpEventId].warpId, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, warpEventId);
+        {
+            // Kanto shared rooms return to the entrance actually used.
+            // Source and destination warp indices need not be equal.
+            if (mapHeader->regionMapSectionId == MAPSEC_KANTO_AR)
+                SetDynamicWarp(0, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, warpEventId);
+            else
+                SetDynamicWarp(mapHeader->events->warps[warpEventId].warpId, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, warpEventId);
+        }
     }
 }
 
@@ -1114,6 +1127,7 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
     {
         if (MetatileBehavior_IsOpenSecretBaseDoor(metatileBehavior) == TRUE)
         {
+            if (StorageIsCollectionMode()) { ScriptContext_SetupScript(LaCollection_Blocked); return TRUE; }
             WarpIntoSecretBase(position, gMapHeader.events);
             return TRUE;
         }
@@ -1123,6 +1137,7 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
             warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
             if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
             {
+                if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
                 StoreInitialPlayerAvatarState();
                 SetupWarp(&gMapHeader, warpEventId, position);
                 DoDoorWarp();

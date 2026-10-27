@@ -1,0 +1,96 @@
+{
+  "total_frames": 88,
+  "checks": [
+    {
+      "action": "walking",
+      "frame_count": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "running",
+      "frame_count": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "mach_bike",
+      "frame_count": 9,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "acro_bike",
+      "frame_count": 27,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "surfing",
+      "frame_count": 6,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "fishing",
+      "frame_count": 12,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "watering",
+      "frame_count": 6,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "field_move",
+      "frame_count": 5,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "underwater",
+      "frame_count": 4,
+      "frame_size": [
+        32,
+        32
+      ],
+      "passed": true
+    },
+    {
+      "action": "decorating",
+      "frame_count": 1,
+      "frame_size": [
+        16,
+        32
+      ],
+      "passed": true
+    }
+  ],
+  "rom_changed": false
+}

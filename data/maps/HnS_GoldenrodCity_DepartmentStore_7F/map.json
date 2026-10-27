@@ -1,0 +1,124 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_GOLDENRODCITY_DEPARTMENTSTORE_7F",
+  "name": "HnS_GoldenrodCity_DepartmentStore_7F",
+  "layout": "LAYOUT_HNS_REGION_GOLDENRODCITY_DEPARTMENTSTORE_7F",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "connections": [],
+  "object_events": [
+    {
+      "local_id": "LOCALID_HNS_GOLDENRODCITY_DEPARTMENTSTORE_7F_1",
+      "graphics_id": "OBJ_EVENT_GFX_HNS_SUPER_NERD_HNS",
+      "x": 22,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_WOMAN_2_HNS",
+      "x": 19,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_GOLDENRODCITY_DEPARTMENTSTORE_7F_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_FAT_MAN_HNS",
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_GOLDENRODCITY_DEPARTMENTSTORE_7F_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HNS_BUG_CATCHER_HNS",
+      "x": 12,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "local_id": "LOCALID_HNS_GOLDENRODCITY_DEPARTMENTSTORE_7F_4"
+    },
+    {
+      "local_id": "LOCALID_HNS_GOLDENRODCITY_DEPARTMENTSTORE_7F_5",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 16,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_GoldenrodCity_DepartmentStore_7F_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 22,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_GOLDENRODCITY_DEPARTMENTSTORE_6F",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "HnsRegion_Sign"
+    }
+  ]
+}

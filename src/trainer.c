@@ -3,7 +3,7 @@
 
 static enum TrainerPicID GetEmeraldTrainerPic(enum Gender gender)
 {
-    return gender == MALE ? TRAINER_PIC_BRENDAN : TRAINER_PIC_MAY;
+    return gender == MALE ? TRAINER_PIC_AREN : TRAINER_PIC_ARIA;
 }
 static enum TrainerPicID GetRSTrainerPic(enum Gender gender)
 {

@@ -1,0 +1,358 @@
+{
+  "rom_sha256": "26fd151d3406fa8f8d59d8b1e3bfd2a6aa57324ad6a3b93df620e6e9fac261fd",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_visible_0_0",
+      "passed": true
+    },
+    {
+      "test": "distinct_rival_graphics_0_0",
+      "passed": true
+    },
+    {
+      "test": "native_brendan_sprite_0_0",
+      "passed": true
+    },
+    {
+      "test": "native_may_sprite_0_0",
+      "passed": true
+    },
+    {
+      "test": "hazel_faces_player_0_0",
+      "passed": true
+    },
+    {
+      "test": "rivals_adjacent_to_player_0_0",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_within_one_step_0_0",
+      "passed": true
+    },
+    {
+      "test": "all_three_named_speakers_displayed_0_0",
+      "passed": true
+    },
+    {
+      "test": "scene_complete_0_0",
+      "passed": true
+    },
+    {
+      "test": "birch_field_progression_ready_0_0",
+      "passed": true
+    },
+    {
+      "test": "both_ground_floor_rivals_departed_0_0",
+      "passed": true
+    },
+    {
+      "test": "player_position_preserved_0_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "meeting_persists_after_continue_0_0",
+      "passed": true
+    },
+    {
+      "test": "resident_rival_at_pc_0_0",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_rival_introduction_0_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "pc_state_survives_save_continue_0_0",
+      "passed": true
+    },
+    {
+      "test": "pc_walk_does_not_replay_0_0",
+      "passed": true
+    },
+    {
+      "test": "scene_does_not_replay_0_0",
+      "passed": true
+    },
+    {
+      "test": "temporary_rivals_removed_after_rescue_0_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_visible_0_1",
+      "passed": true
+    },
+    {
+      "test": "distinct_rival_graphics_0_1",
+      "passed": true
+    },
+    {
+      "test": "native_brendan_sprite_0_1",
+      "passed": true
+    },
+    {
+      "test": "native_may_sprite_0_1",
+      "passed": true
+    },
+    {
+      "test": "hazel_faces_player_0_1",
+      "passed": true
+    },
+    {
+      "test": "all_three_named_speakers_displayed_0_1",
+      "passed": true
+    },
+    {
+      "test": "scene_complete_0_1",
+      "passed": true
+    },
+    {
+      "test": "birch_field_progression_ready_0_1",
+      "passed": true
+    },
+    {
+      "test": "both_ground_floor_rivals_departed_0_1",
+      "passed": true
+    },
+    {
+      "test": "player_position_preserved_0_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "meeting_persists_after_continue_0_1",
+      "passed": true
+    },
+    {
+      "test": "resident_rival_at_pc_0_1",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_rival_introduction_0_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "pc_state_survives_save_continue_0_1",
+      "passed": true
+    },
+    {
+      "test": "pc_walk_does_not_replay_0_1",
+      "passed": true
+    },
+    {
+      "test": "scene_does_not_replay_0_1",
+      "passed": true
+    },
+    {
+      "test": "temporary_rivals_removed_after_rescue_0_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_visible_1_0",
+      "passed": true
+    },
+    {
+      "test": "distinct_rival_graphics_1_0",
+      "passed": true
+    },
+    {
+      "test": "native_brendan_sprite_1_0",
+      "passed": true
+    },
+    {
+      "test": "native_may_sprite_1_0",
+      "passed": true
+    },
+    {
+      "test": "hazel_faces_player_1_0",
+      "passed": true
+    },
+    {
+      "test": "rivals_adjacent_to_player_1_0",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_within_one_step_1_0",
+      "passed": true
+    },
+    {
+      "test": "all_three_named_speakers_displayed_1_0",
+      "passed": true
+    },
+    {
+      "test": "scene_complete_1_0",
+      "passed": true
+    },
+    {
+      "test": "birch_field_progression_ready_1_0",
+      "passed": true
+    },
+    {
+      "test": "both_ground_floor_rivals_departed_1_0",
+      "passed": true
+    },
+    {
+      "test": "player_position_preserved_1_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "meeting_persists_after_continue_1_0",
+      "passed": true
+    },
+    {
+      "test": "resident_rival_at_pc_1_0",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_rival_introduction_1_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "pc_state_survives_save_continue_1_0",
+      "passed": true
+    },
+    {
+      "test": "pc_walk_does_not_replay_1_0",
+      "passed": true
+    },
+    {
+      "test": "scene_does_not_replay_1_0",
+      "passed": true
+    },
+    {
+      "test": "temporary_rivals_removed_after_rescue_1_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "both_rivals_visible_1_1",
+      "passed": true
+    },
+    {
+      "test": "distinct_rival_graphics_1_1",
+      "passed": true
+    },
+    {
+      "test": "native_brendan_sprite_1_1",
+      "passed": true
+    },
+    {
+      "test": "native_may_sprite_1_1",
+      "passed": true
+    },
+    {
+      "test": "hazel_faces_player_1_1",
+      "passed": true
+    },
+    {
+      "test": "all_three_named_speakers_displayed_1_1",
+      "passed": true
+    },
+    {
+      "test": "scene_complete_1_1",
+      "passed": true
+    },
+    {
+      "test": "birch_field_progression_ready_1_1",
+      "passed": true
+    },
+    {
+      "test": "both_ground_floor_rivals_departed_1_1",
+      "passed": true
+    },
+    {
+      "test": "player_position_preserved_1_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "meeting_persists_after_continue_1_1",
+      "passed": true
+    },
+    {
+      "test": "resident_rival_at_pc_1_1",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_rival_introduction_1_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "pc_state_survives_save_continue_1_1",
+      "passed": true
+    },
+    {
+      "test": "pc_walk_does_not_replay_1_1",
+      "passed": true
+    },
+    {
+      "test": "scene_does_not_replay_1_1",
+      "passed": true
+    },
+    {
+      "test": "temporary_rivals_removed_after_rescue_1_1",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

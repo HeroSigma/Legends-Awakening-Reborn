@@ -1,0 +1,118 @@
+
+/mnt/c/Users/aadair/Downloads/Quetzal English Alpha 9v1.gba:     file format binary
+
+
+Disassembly of section .data:
+
+0813857c <.data+0x13857c>:
+ 813857c:	b570      	push	{r4, r5, r6, lr}
+ 813857e:	0600      	lsls	r0, r0, #24
+ 8138580:	0e05      	lsrs	r5, r0, #24
+ 8138582:	0609      	lsls	r1, r1, #24
+ 8138584:	0e0c      	lsrs	r4, r1, #24
+ 8138586:	0128      	lsls	r0, r5, #4
+ 8138588:	1b46      	subs	r6, r0, r5
+ 813858a:	0070      	lsls	r0, r6, #1
+ 813858c:	1900      	adds	r0, r0, r4
+ 813858e:	0400      	lsls	r0, r0, #16
+ 8138590:	0c00      	lsrs	r0, r0, #16
+ 8138592:	f181 fd71 	bl	0x82ba078
+ 8138596:	f7ff fc9d 	bl	0x8137ed4
+ 813859a:	0600      	lsls	r0, r0, #24
+ 813859c:	0e00      	lsrs	r0, r0, #24
+ 813859e:	2800      	cmp	r0, #0
+ 81385a0:	d118      	bne.n	0x81385d4
+ 81385a2:	f7ff f979 	bl	0x8137898
+ 81385a6:	0600      	lsls	r0, r0, #24
+ 81385a8:	2800      	cmp	r0, #0
+ 81385aa:	d015      	beq.n	0x81385d8
+ 81385ac:	4806      	ldr	r0, [pc, #24]	@ (0x81385c8)
+ 81385ae:	6802      	ldr	r2, [r0, #0]
+ 81385b0:	2026      	movs	r0, #38	@ 0x26
+ 81385b2:	4360      	muls	r0, r4
+ 81385b4:	4905      	ldr	r1, [pc, #20]	@ (0x81385cc)
+ 81385b6:	4369      	muls	r1, r5
+ 81385b8:	1889      	adds	r1, r1, r2
+ 81385ba:	1840      	adds	r0, r0, r1
+ 81385bc:	4904      	ldr	r1, [pc, #16]	@ (0x81385d0)
+ 81385be:	1840      	adds	r0, r0, r1
+ 81385c0:	2100      	movs	r1, #0
+ 81385c2:	2226      	movs	r2, #38	@ 0x26
+ 81385c4:	e045      	b.n	0x8138652
+ 81385c6:	0000      	movs	r0, r0
+ 81385c8:	55c4      	strb	r4, [r0, r7]
+ 81385ca:	0300      	lsls	r0, r0, #12
+ 81385cc:	0474      	lsls	r4, r6, #17
+ 81385ce:	0000      	movs	r0, r0
+ 81385d0:	0461      	lsls	r1, r4, #17
+ 81385d2:	0000      	movs	r0, r0
+ 81385d4:	2801      	cmp	r0, #1
+ 81385d6:	d011      	beq.n	0x81385fc
+ 81385d8:	4806      	ldr	r0, [pc, #24]	@ (0x81385f4)
+ 81385da:	6802      	ldr	r2, [r0, #0]
+ 81385dc:	0160      	lsls	r0, r4, #5
+ 81385de:	1b00      	subs	r0, r0, r4
+ 81385e0:	0171      	lsls	r1, r6, #5
+ 81385e2:	1b89      	subs	r1, r1, r6
+ 81385e4:	0049      	lsls	r1, r1, #1
+ 81385e6:	1889      	adds	r1, r1, r2
+ 81385e8:	1840      	adds	r0, r0, r1
+ 81385ea:	4903      	ldr	r1, [pc, #12]	@ (0x81385f8)
+ 81385ec:	1840      	adds	r0, r0, r1
+ 81385ee:	2100      	movs	r1, #0
+ 81385f0:	221f      	movs	r2, #31
+ 81385f2:	e02e      	b.n	0x8138652
+ 81385f4:	55cc      	strb	r4, [r1, r7]
+ 81385f6:	0300      	lsls	r0, r0, #12
+ 81385f8:	0461      	lsls	r1, r4, #17
+ 81385fa:	0000      	movs	r0, r0
+ 81385fc:	f7ff f94c 	bl	0x8137898
+ 8138600:	0600      	lsls	r0, r0, #24
+ 8138602:	2800      	cmp	r0, #0
+ 8138604:	d014      	beq.n	0x8138630
+ 8138606:	4808      	ldr	r0, [pc, #32]	@ (0x8138628)
+ 8138608:	6803      	ldr	r3, [r0, #0]
+ 813860a:	00e0      	lsls	r0, r4, #3
+ 813860c:	1b00      	subs	r0, r0, r4
+ 813860e:	0080      	lsls	r0, r0, #2
+ 8138610:	00ea      	lsls	r2, r5, #3
+ 8138612:	1b52      	subs	r2, r2, r5
+ 8138614:	0111      	lsls	r1, r2, #4
+ 8138616:	1a89      	subs	r1, r1, r2
+ 8138618:	00c9      	lsls	r1, r1, #3
+ 813861a:	18c9      	adds	r1, r1, r3
+ 813861c:	1840      	adds	r0, r0, r1
+ 813861e:	4903      	ldr	r1, [pc, #12]	@ (0x813862c)
+ 8138620:	1840      	adds	r0, r0, r1
+ 8138622:	2100      	movs	r1, #0
+ 8138624:	221c      	movs	r2, #28
+ 8138626:	e014      	b.n	0x8138652
+ 8138628:	55c8      	strb	r0, [r1, r7]
+ 813862a:	0300      	lsls	r0, r0, #12
+ 813862c:	0461      	lsls	r1, r4, #17
+ 813862e:	0000      	movs	r0, r0
+ 8138630:	480a      	ldr	r0, [pc, #40]	@ (0x813865c)
+ 8138632:	6803      	ldr	r3, [r0, #0]
+ 8138634:	00a0      	lsls	r0, r4, #2
+ 8138636:	1900      	adds	r0, r0, r4
+ 8138638:	0080      	lsls	r0, r0, #2
+ 813863a:	1900      	adds	r0, r0, r4
+ 813863c:	00aa      	lsls	r2, r5, #2
+ 813863e:	1952      	adds	r2, r2, r5
+ 8138640:	0191      	lsls	r1, r2, #6
+ 8138642:	1a89      	subs	r1, r1, r2
+ 8138644:	0049      	lsls	r1, r1, #1
+ 8138646:	18c9      	adds	r1, r1, r3
+ 8138648:	1840      	adds	r0, r0, r1
+ 813864a:	4905      	ldr	r1, [pc, #20]	@ (0x8138660)
+ 813864c:	1840      	adds	r0, r0, r1
+ 813864e:	2100      	movs	r1, #0
+ 8138650:	2215      	movs	r2, #21
+ 8138652:	f390 fe19 	bl	0x84c9288
+ 8138656:	bc70      	pop	{r4, r5, r6}
+ 8138658:	bc01      	pop	{r0}
+ 813865a:	4700      	bx	r0
+ 813865c:	55d0      	strb	r0, [r2, r7]
+ 813865e:	0300      	lsls	r0, r0, #12
+ 8138660:	0461      	lsls	r1, r4, #17
+	...

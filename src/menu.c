@@ -1,4 +1,5 @@
 #include "global.h"
+#include "full_sheet_stream.h"
 #include "bg.h"
 #include "blit.h"
 #include "decompress.h"
@@ -1467,6 +1468,10 @@ void ScheduleBgCopyTilemapToVram(u8 bgId)
 
 void DoScheduledBgTilemapCopiesToVram(void)
 {
+    u16 streamIme = REG_IME;
+    bool8 streaming = FullSheetStreamActive();
+    if (streaming)
+        REG_IME = 0;
     if (sScheduledBgCopiesToVram[0] == TRUE)
     {
         CopyBgTilemapBufferToVram(0);
@@ -1486,6 +1491,11 @@ void DoScheduledBgTilemapCopiesToVram(void)
     {
         CopyBgTilemapBufferToVram(3);
         sScheduledBgCopiesToVram[3] = FALSE;
+    }
+    if (streaming)
+    {
+        FullSheetStreamCommit();
+        REG_IME = streamIme;
     }
 }
 

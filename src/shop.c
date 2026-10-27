@@ -826,7 +826,7 @@ static void BuyMenuDrawMapBg(void)
         {
             metatile = MapGridGetMetatileIdAt(x + i, y + j);
             if (BuyMenuCheckForOverlapWithMenuBg(i, j) == TRUE)
-                metatileLayerType = MapGridGetMetatileLayerTypeAt(x + i, y + j);
+                metatileLayerType = METATILE_LAYER_TYPE_NORMAL;
             else
                 metatileLayerType = METATILE_LAYER_TYPE_COVERED;
 
@@ -838,25 +838,46 @@ static void BuyMenuDrawMapBg(void)
     }
 }
 
+static bool8 IsShopMetatileLayerEmpty(const u16 *src)
+{
+    u32 i;
+    for (i = 0; i < 4; i++)
+    {
+        // 0x3014 is the stock NORMAL metatile's unused bottom-layer filler.
+        if ((src[i] & 0x3FF) != 0 && src[i] != 0x3014)
+            return FALSE;
+    }
+    return TRUE;
+}
+
 static void BuyMenuDrawMapMetatile(s16 x, s16 y, const u16 *src, u8 metatileLayerType)
 {
     u16 offset1 = x * 2;
     u16 offset2 = y * 64;
+    const u16 *bottom = src;
+    const u16 *middle = src + 4;
 
-    switch (metatileLayerType)
+    if (metatileLayerType == METATILE_LAYER_TYPE_NORMAL)
     {
-    case METATILE_LAYER_TYPE_NORMAL:
-        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[3], offset1, offset2, src);
-        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[1], offset1, offset2, src + 4);
-        break;
-    case METATILE_LAYER_TYPE_COVERED:
         BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[2], offset1, offset2, src);
         BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[3], offset1, offset2, src + 4);
-        break;
-    case METATILE_LAYER_TYPE_SPLIT:
-        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[2], offset1, offset2, src);
-        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[1], offset1, offset2, src + 4);
-        break;
+        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[1], offset1, offset2, src + 8);
+    }
+    else
+    {
+        // The menu occupies BG1. Compact the two occupied layers beneath it.
+        // Converted legacy tiles always have an empty (or stock filler) layer.
+        if (IsShopMetatileLayerEmpty(src))
+        {
+            bottom = src + 4;
+            middle = src + 8;
+        }
+        else if (IsShopMetatileLayerEmpty(src + 4))
+        {
+            middle = src + 8;
+        }
+        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[2], offset1, offset2, bottom);
+        BuyMenuDrawMapMetatileLayer(sShopData->tilemapBuffers[3], offset1, offset2, middle);
     }
 }
 

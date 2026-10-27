@@ -1,0 +1,173 @@
+{
+  "rom_sha256": "d6b69b116c65836a2523573a726b70cc4764cc065fe7ae0fe184b473ebc5056b",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "clock_cannot_skip_pc_0",
+      "passed": true
+    },
+    {
+      "test": "stairs_block_pc_0",
+      "passed": true
+    },
+    {
+      "test": "pc_message_recorded_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "stairs_block_clock_0",
+      "passed": true
+    },
+    {
+      "test": "gift_complete_0",
+      "passed": true
+    },
+    {
+      "test": "tera_orb_exactly_once_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "stairs_unlocked_0",
+      "passed": true
+    },
+    {
+      "test": "rift_report_completed_0",
+      "passed": true
+    },
+    {
+      "test": "tv_staging_position_0",
+      "passed": true
+    },
+    {
+      "test": "control_restored_after_report_0",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_0",
+      "passed": true
+    },
+    {
+      "test": "rift_report_persists_after_continue_0",
+      "passed": true
+    },
+    {
+      "test": "no_cutscene_replay_0",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate_orb_after_reload_0",
+      "passed": true
+    },
+    {
+      "test": "normal_pc_restored_0",
+      "passed": true
+    },
+    {
+      "test": "native_rival_family_progression_0",
+      "passed": true
+    },
+    {
+      "test": "native_rival_meeting_ready_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "clock_cannot_skip_pc_1",
+      "passed": true
+    },
+    {
+      "test": "stairs_block_pc_1",
+      "passed": true
+    },
+    {
+      "test": "pc_message_recorded_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "stairs_block_clock_1",
+      "passed": true
+    },
+    {
+      "test": "gift_complete_1",
+      "passed": true
+    },
+    {
+      "test": "tera_orb_exactly_once_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "stairs_unlocked_1",
+      "passed": true
+    },
+    {
+      "test": "rift_report_completed_1",
+      "passed": true
+    },
+    {
+      "test": "tv_staging_position_1",
+      "passed": true
+    },
+    {
+      "test": "control_restored_after_report_1",
+      "passed": true
+    },
+    {
+      "test": "native_save_softreset_continue_1",
+      "passed": true
+    },
+    {
+      "test": "rift_report_persists_after_continue_1",
+      "passed": true
+    },
+    {
+      "test": "no_cutscene_replay_1",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate_orb_after_reload_1",
+      "passed": true
+    },
+    {
+      "test": "normal_pc_restored_1",
+      "passed": true
+    },
+    {
+      "test": "native_rival_family_progression_1",
+      "passed": true
+    },
+    {
+      "test": "native_rival_meeting_ready_1",
+      "passed": true
+    }
+  ]
+}

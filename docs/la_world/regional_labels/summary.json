@@ -1,0 +1,29 @@
+{
+  "maps_by_region": {
+    "Unova": 26,
+    "Johto": 266,
+    "Kanto": 425,
+    "Sinnoh": 212
+  },
+  "unique_locations": 217,
+  "unidentified_maps": [
+    "GSJohto_1_45_Map_01_45",
+    "GSJohto_1_75_Map_01_75",
+    "GSJohto_1_76_Map_01_76",
+    "GSJohto_1_77_Map_01_77",
+    "GSJohto_1_78_Map_01_78",
+    "GSJohto_1_79_Map_01_79",
+    "GSJohto_1_80_Map_01_80",
+    "GSJohto_3_9_Map_03_09",
+    "GSJohto_13_0_Map_13_00",
+    "GSJohto_13_1_Map_13_01",
+    "GSJohto_22_0_Map_22_00"
+  ],
+  "numeric_map_ids_changed": false,
+  "build_verified": true,
+  "runtime_verified": false,
+  "total_labelled_maps": 929,
+  "used_rom_bytes": 30922308,
+  "free_rom_bytes": 2632124,
+  "sha256": "bc01e5531373c4b61e82adeb437de7751495c788e249aacece8eb12084d0a05e"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "MAP_GSJOHTO_1_73_MT_MORTAR",
+  "name": "Johto_Mt_Mortar_Section_01",
+  "layout": "LAYOUT_GSJOHTO_1_73_MT_MORTAR",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "music": "MUS_ROUTE104",
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "requires_flash": false,
+  "allow_cycling": true,
+  "allow_running": true,
+  "allow_escaping": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_JOHTO_MT_MORTAR_SECTION_01_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 39,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Johto_Mt_Mortar_Section_01_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 19,
+      "y": 64,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_72_MT_MORTAR",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 41,
+      "y": 64,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_72_MT_MORTAR",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 9,
+      "y": 47,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_55_36_MT_MORTAR",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 61,
+      "y": 63,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_72_MT_MORTAR",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 51,
+      "y": 49,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_72_MT_MORTAR",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_87_MT_MORTAR",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_74_MT_MORTAR",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 39,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_MERCURY_55_41_MT_MORTAR",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_JOHTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

@@ -40,6 +40,12 @@
 #include "title_screen.h"
 #include "window.h"
 #include "mystery_gift_menu.h"
+#include "data/text/legends_intro.h"
+
+static void Task_LegendsCreator_Init(u8 taskId);
+static void Task_LegendsCreator_Update(u8 taskId);
+static bool8 sLegendsCreatorTransition;
+
 
 /*
  * Main menu state machine
@@ -473,8 +479,8 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 };
 
 static const struct MenuAction sMenuActions_Gender[] = {
-    {gText_Boy, {NULL}},
-    {gText_Girl, {NULL}}
+    {sTextLegendsAren, {NULL}},
+    {sTextLegendsAria, {NULL}}
 };
 
 static const u8 *const sMalePresetNames[] = {
@@ -1091,7 +1097,7 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
 
             gPlttBufferUnfaded[0] = RGB_BLACK;
             gPlttBufferFaded[0] = RGB_BLACK;
-            gTasks[taskId].func = Task_NewGameBirchSpeech_Init;
+            gTasks[taskId].func = Task_LegendsCreator_Init;
             break;
         case ACTION_CONTINUE:
             gPlttBufferUnfaded[0] = RGB_BLACK;
@@ -1294,6 +1300,83 @@ static void HighlightSelectedMainMenuItem(enum PartyMenuType menuType, u8 select
 #define tBrendanSpriteId data[10]
 #define tMaySpriteId data[11]
 
+// The Creator addresses the player before the in-world professor introduction.
+// Uses the native text printer and fade tasks; no map or save state is involved.
+static const struct WindowTemplate sLegendsCreatorWindows[] =
+{
+    {.bg=0, .tilemapLeft=2, .tilemapTop=6, .width=26, .height=8, .paletteNum=15, .baseBlock=1},
+    DUMMY_WIN_TEMPLATE
+};
+
+static void Task_LegendsCreator_Init(u8 taskId)
+{
+    static const u16 colors[16] = {
+        RGB_BLACK, RGB_WHITE, RGB(6,6,6), RGB(20,20,20),
+        RGB(25,4,4), RGB(31,17,17), RGB(4,20,8), RGB(16,31,18),
+        RGB(4,8,24), RGB(16,22,31), RGB_WHITE, RGB_WHITE,
+        RGB_WHITE, RGB_WHITE, RGB_WHITE, RGB_WHITE
+    };
+    SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    SetGpuReg(REG_OFFSET_WIN0H, 0);
+    SetGpuReg(REG_OFFSET_WIN0V, 0);
+    SetGpuReg(REG_OFFSET_WININ, 0);
+    SetGpuReg(REG_OFFSET_WINOUT, 0);
+    SetGpuReg(REG_OFFSET_BLDCNT, 0);
+    ScanlineEffect_Stop();
+    ResetSpriteData();
+    HideBg(1);
+    HideBg(2);
+    HideBg(3);
+    FillPalette(RGB_BLACK, 0, PLTT_SIZE);
+    InitBgFromTemplate(&sBirchBgTemplate);
+    InitWindows(sLegendsCreatorWindows);
+    CpuFill16(0, (void *)BG_CHAR_ADDR(3), 32);
+    FillBgTilemapBufferRect(0, 0, 0, 0, 32, 32, 0);
+    CopyBgTilemapBufferToVram(0);
+    FillWindowPixelBuffer(0, PIXEL_FILL(0));
+    PutWindowTilemap(0);
+    CopyWindowToVram(0, COPYWIN_FULL);
+    LoadPalette(colors, BG_PLTT_ID(15), sizeof(colors));
+    ShowBg(0);
+    FadeOutBGM(4);
+    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+    gTasks[taskId].data[0] = 0;
+    gTasks[taskId].data[1] = 45;
+    gTasks[taskId].func = Task_LegendsCreator_Update;
+}
+
+static void Task_LegendsCreator_Update(u8 taskId)
+{
+    switch (gTasks[taskId].data[0])
+    {
+    case 0:
+        if (gPaletteFade.active)
+            return;
+        if (gTasks[taskId].data[1]-- > 0)
+            return;
+        StringExpandPlaceholders(gStringVar4, sTextLegendsCreator);
+        gTextFlags.canABSpeedUpPrint = TRUE;
+        AddTextPrinterParameterized2(0, FONT_NORMAL, gStringVar4, GetPlayerTextSpeedDelay(), NULL, TEXT_COLOR_LIGHT_RED, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY);
+        gTasks[taskId].data[0] = 1;
+        break;
+    case 1:
+        if (!RunTextPrintersAndIsPrinter0Active())
+        {
+            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_WHITE);
+            gTasks[taskId].data[0] = 2;
+        }
+        break;
+    case 2:
+        if (!gPaletteFade.active)
+        {
+            FreeAllWindowBuffers();
+            sLegendsCreatorTransition = TRUE;
+            Task_NewGameBirchSpeech_Init(taskId);
+        }
+        break;
+    }
+}
+
 static void Task_NewGameBirchSpeech_Init(u8 taskId)
 {
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
@@ -1311,12 +1394,14 @@ static void Task_NewGameBirchSpeech_Init(u8 taskId)
     DecompressDataWithHeaderVram(sBirchSpeechBgMap, (void *)(BG_SCREEN_ADDR(7)));
     LoadPalette(sBirchSpeechBgPals, BG_PLTT_ID(0), 2 * PLTT_SIZE_4BPP);
     LoadPalette(&sBirchSpeechBgGradientPal[8], BG_PLTT_ID(0) + 1, PLTT_SIZEOF(8));
+    LoadPalette(sMainMenuTextPal, BG_PLTT_ID(15), PLTT_SIZE_4BPP);
     ScanlineEffect_Stop();
     ResetSpriteData();
     FreeAllSpritePalettes();
     ResetAllPicSprites();
     AddBirchSpeechObjects(taskId);
-    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, sLegendsCreatorTransition ? RGB_WHITE : RGB_BLACK);
+    sLegendsCreatorTransition = FALSE;
     gTasks[taskId].tBG1HOFS = 0;
     gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowBirch;
     gTasks[taskId].tPlayerSpriteId = SPRITE_NONE;
@@ -1379,7 +1464,7 @@ static void Task_NewGameBirchSpeech_ThisIsAPokemon(u8 taskId)
     if (!gPaletteFade.active && !RunTextPrintersAndIsPrinter0Active())
     {
         gTasks[taskId].func = Task_NewGameBirchSpeech_MainSpeech;
-        StringExpandPlaceholders(gStringVar4, gText_ThisIsAPokemon);
+        StringExpandPlaceholders(gStringVar4, sTextLegendsPokemon);
         AddTextPrinterWithCallbackForMessage(TRUE, NewGameBirchSpeech_WaitForThisIsPokemonText);
         sBirchSpeechMainTaskId = taskId;
     }
@@ -1634,7 +1719,7 @@ static void Task_NewGameBirchSpeech_StartNamingScreen(u8 taskId)
     {
         FreeAllWindowBuffers();
         FreeAndDestroyMonPicSprite(gTasks[taskId].tLotadSpriteId);
-        NewGameBirchSpeech_SetDefaultPlayerName(Random() % NUM_PRESET_NAMES);
+        StringCopy(gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender == MALE ? sTextLegendsAren : sTextLegendsAria);
         DestroyTask(taskId);
         DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_NewGameBirchSpeech_ReturnFromNamingScreen);
     }

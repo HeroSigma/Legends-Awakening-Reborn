@@ -98,6 +98,62 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA"
+    },
+    {
+      "local_id": "LOCALID_LA_LAB_RED",
+      "graphics_id": "OBJ_EVENT_GFX_RED",
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsArc_CompanionTalk",
+      "flag": "FLAG_LA_HIDE_RED_IN_LAB"
+    },
+    {
+      "local_id": "LOCALID_LA_LAB_PIKACHU",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PIKACHU)",
+      "x": 4,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsArc_PikachuTalk",
+      "flag": "FLAG_LA_HIDE_RED_IN_LAB"
+    },
+    {
+      "local_id": "LOCALID_LA_LAB_BRENDAN",
+      "graphics_id": "OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsArc_BrendanTalk",
+      "flag": "FLAG_LA_HIDE_ARC_LAB_RIVALS"
+    },
+    {
+      "local_id": "LOCALID_LA_LAB_MAY",
+      "graphics_id": "OBJ_EVENT_GFX_RIVAL_MAY_NORMAL",
+      "x": 7,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsArc_MayTalk",
+      "flag": "FLAG_LA_HIDE_ARC_LAB_RIVALS"
     }
   ],
   "warp_events": [

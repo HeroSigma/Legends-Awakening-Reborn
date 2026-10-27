@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_ReceptionGate_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_ReceptionGate_OnFrame
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_ReceptionGate_OnTransition
@@ -503,3 +505,148 @@ BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "for prizes at the EXCHANGE SERVICE\l"
 	.string "CORNER.$"
 
+
+#else
+BattleFrontier_ReceptionGate_MapScripts::
+	.byte 0
+BattleFrontier_ReceptionGate_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_FirstTimeEntering::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ScottScene::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_PlayerApproachCounter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_PlayerFaceScott:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_WalkDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_ScottEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_ScottExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_GreeterFaceScott:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Movement_FacilityGuideFaceScott:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_Greeter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_FacilityGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ChooseFacilityToLearnAbout::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattleTower::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattleDome::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattlePalace::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattleArena::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattleFactory::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattlePike::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattlePyramid::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_RankingHall::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ExchangeCorner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ExitFacilityGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_RulesGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ChooseRuleToLearnAbout::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_LevelMode::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_Level50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_OpenLevel::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_MonEntry::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_HoldItems::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ExitRulesGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_FrontierPassGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ChooseFrontierPassInfoToLearnAbout::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_Symbols::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_BattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_RankingHallInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_YourGuideToRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_LevelModeInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_Level50Info:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_MonEntryInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_SymbolsInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
+	.string "This feature is disabled in this build.$"
+#endif

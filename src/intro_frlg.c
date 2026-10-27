@@ -970,7 +970,7 @@ bool8 SetUpCopyrightScreenFrlg(void)
         if (!UpdatePaletteFade())
         {
             gMain.state++;
-            if (sGcmb.gcmb_field_2 != 0)
+            if (!LA_FREE_SPACE && sGcmb.gcmb_field_2 != 0)
             {
                 if (sGcmb.gcmb_field_2 == 2)
                 {

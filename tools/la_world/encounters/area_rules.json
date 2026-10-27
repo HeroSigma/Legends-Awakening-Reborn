@@ -1,0 +1,33 @@
+{
+  "no_encounters": [
+    "LittlerootTown",
+    "OldaleTown"
+  ],
+  "wild_areas": [
+    "Unova_Dreamyard",
+    "Unova_Route1",
+    "Unova_Route2",
+    "Unova_Route3_East",
+    "Unova_Route3_West",
+    "Unova_Route4_Desert",
+    "Unova_Route5",
+    "Unova_PinwheelForest_Approach",
+    "Unova_PinwheelForest_Interior"
+  ],
+  "water_only_settlements": [
+    "NewBarkTown",
+    "CherrygroveCity",
+    "VioletCity",
+    "EcruteakCity",
+    "OlivineCity",
+    "CianwoodCity",
+    "BlackthornCity",
+    "TwinleafTown",
+    "CanalaveCity",
+    "PastoriaCity",
+    "CelesticTown",
+    "SnowpointCity",
+    "SunyshoreCity"
+  ],
+  "policy": "Safe settlements have no grass encounters. Listed settlement water areas require actual water tiles. Interior doors/gyms/shops remain excluded; source type labels alone are not sufficient."
+}

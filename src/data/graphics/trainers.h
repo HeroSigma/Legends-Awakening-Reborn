@@ -1,6 +1,13 @@
 #include "constants/trainers.h"
 #include "data.h"
 
+const u32 gTrainerFrontPic_Aren[] = INCGFX_U32("graphics/trainers/front_pics/aren.png", ".4bpp.smol");
+const u8 gTrainerBackPic_Aren[] = INCGFX_U8("graphics/trainers/back_pics/aren.png", ".4bpp");
+const u16 gTrainerPalette_Aren[] = INCGFX_U16("graphics/trainers/palettes/aren.pal", ".gbapal");
+const u32 gTrainerFrontPic_Aria[] = INCGFX_U32("graphics/trainers/front_pics/aria.png", ".4bpp.smol");
+const u8 gTrainerBackPic_Aria[] = INCGFX_U8("graphics/trainers/back_pics/aria.png", ".4bpp");
+const u16 gTrainerPalette_Aria[] = INCGFX_U16("graphics/trainers/palettes/aria.pal", ".gbapal");
+
 const u32 gTrainerFrontPic_None[] = INCGFX_U32("graphics/trainers/front_pics/none.png", ".4bpp.smol");
 const u16 gTrainerPalette_None[] = INCGFX_U16("graphics/trainers/palettes/none.pal", ".gbapal");
 
@@ -583,8 +590,38 @@ const union AnimCmd *const sBackAnims_OldManPokedude[] = {
         .animation = anim,                                                                   \
     }}
 
+// Legends artwork is ordered neutral, windup, extension, release.
+// Keep the original Hoenn timing without showing release as the idle pose.
+static const union AnimCmd sAnimCmd_LegendsThrow[] =
+{
+    ANIMCMD_FRAME(0, 24),
+    ANIMCMD_FRAME(1, 9),
+    ANIMCMD_FRAME(2, 24),
+    ANIMCMD_FRAME(3, 9),
+    ANIMCMD_FRAME(0, 50),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sBackAnims_Legends[] =
+{
+    sAnim_GeneralFrame0,
+    sAnimCmd_LegendsThrow,
+    sAnimCmd_Point_HGSS,
+};
+
 const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
 {
+    [TRAINER_PIC_AREN] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Aren, gTrainerPalette_Aren),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_Aren, gTrainerPalette_Aren, sBackAnims_Legends),
+    },
+    [TRAINER_PIC_ARIA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Aria, gTrainerPalette_Aria),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_Aria, gTrainerPalette_Aria, sBackAnims_Legends),
+    },
+
     [TRAINER_PIC_NONE] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_None, gTrainerPalette_None),

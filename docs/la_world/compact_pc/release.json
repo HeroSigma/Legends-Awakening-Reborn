@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-27T22:40:03.039563+00:00",
+  "rom_path": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba",
+  "rom_sha256": "b7e8ee7fab5908263d28d57b30080bee77e820ea27752a5199f8471604fd2f42",
+  "previous_rom_sha256": "d0dbec6ec7292bb04e65eee17f2cbcea17236440545059ef8f9d127fa0a16191",
+  "rom_bytes": 33554432,
+  "save_sha256_before": "4bd214ef7181a43258fd5c96008066ce3ad7577493fc12af41a9319bd21e98de",
+  "save_sha256_after": "4bd214ef7181a43258fd5c96008066ce3ad7577493fc12af41a9319bd21e98de",
+  "save_preserved": true,
+  "save_bytes": 131088,
+  "backup_directory": "/home/allan/projects/Legends-Awakening-Reborn/.la_work/pc_release_backup/20261027_174001",
+  "production_integration_assertions": 2211,
+  "regressions": {
+    "story_60": "Littleroot Red chapter checks: 261",
+    "story_14": "Littleroot Red chapter checks: 254",
+    "npc_roster": "NPC roster checks: 204",
+    "timeless_woods": "Timeless conspiracy checks: 40",
+    "existing_save": "\"source_unchanged\": true"
+  },
+  "resources_bytes": {
+    "ewram": 256720,
+    "iwram": 28140,
+    "rom_used": 32560736
+  },
+  "default_boxes": 14,
+  "optional_boxes": 60,
+  "collection_slots": 1800,
+  "activation": "In-game Options > PC BOXES > A; two destructive confirmations",
+  "compatibility": "Use Continue from battery save, not old emulator save states"
+}

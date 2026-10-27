@@ -6,6 +6,7 @@ Route103_MapScripts::
 Route103_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
+	call LegendsArc_SetupRoute103
 	end
 
 Route103_OnLoad:
@@ -18,6 +19,7 @@ Route103_EventScript_OpenAlteringCave::
 	return
 
 Route103_EventScript_Rival::
+	goto_if_set FLAG_LA_RED_LAB_COMPLETE, LegendsArc_Route103Meeting
 	lockall
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay

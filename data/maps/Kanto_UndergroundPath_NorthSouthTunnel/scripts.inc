@@ -1,0 +1,7 @@
+Kanto_UndergroundPath_NorthSouthTunnel_MapScripts::
+	.byte 0
+
+KantoAR_1_31_UndergroundPath_NorthSouthTunnel_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_1_32_UNDERGROUNDPATH_SOUTHENTRANCE, 8, 5
+	goto KantoAR_InspectionFinish

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "bg.h"
@@ -4683,3 +4685,46 @@ static void SpriteCB_Taillow(struct Sprite *sprite)
     gSprites[sprite->sMonSpriteId].callback = SpriteCB_Taillow_FlyIn;
     m4aSongNumStart(SE_FALL);
 }
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "bg.h"
+#include "coins.h"
+#include "decompress.h"
+#include "event_data.h"
+#include "field_screen_effect.h"
+#include "gpu_regs.h"
+#include "graphics.h"
+#include "m4a.h"
+#include "main.h"
+#include "menu.h"
+#include "menu_helpers.h"
+#include "overworld.h"
+#include "palette.h"
+#include "palette_util.h"
+#include "random.h"
+#include "roulette.h"
+#include "rtc.h"
+#include "scanline_effect.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "sound.h"
+#include "sprite.h"
+#include "string_util.h"
+#include "strings.h"
+#include "task.h"
+#include "trig.h"
+#include "tv.h"
+#include "window.h"
+#include "constants/coins.h"
+#include "constants/rgb.h"
+#include "constants/roulette.h"
+#include "constants/songs.h"
+#include "script.h"
+#include "legacy_features.h"
+void PlayRoulette(void)
+{
+    LegacyFeature_ResumeScript();
+}
+#endif

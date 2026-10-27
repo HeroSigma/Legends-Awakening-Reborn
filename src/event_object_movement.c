@@ -496,8 +496,11 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/object_event_graphics_info.h"
 #include "data/object_events/object_event_graphics_info_followers.h"
 #include "data/object_events/hyper_assets.inc"
+#include "data/object_events/npc_roster_overrides.inc"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_Aren, OBJ_EVENT_PAL_TAG_AREN},
+    {gObjectEventPal_Aria, OBJ_EVENT_PAL_TAG_ARIA},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},
@@ -586,6 +589,73 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPaletteEmotes,             OBJ_EVENT_PAL_TAG_EMOTES},
     {gObjectEventPaletteNeonLight,          OBJ_EVENT_PAL_TAG_NEON_LIGHT},
 #include "data/object_events/hyper_palettes.inc"
+/* LA_NPC_ROSTER_PALETTES_BEGIN */
+    {gObjectEventPal_LaRoster00, 0xDB40},
+    {gObjectEventPal_LaRoster01, 0xDB41},
+    {gObjectEventPal_LaRoster02, 0xDB42},
+    {gObjectEventPal_LaRoster03, 0xDB43},
+    {gObjectEventPal_LaRoster04, 0xDB44},
+    {gObjectEventPal_LaRoster05, 0xDB45},
+    {gObjectEventPal_LaRoster06, 0xDB46},
+    {gObjectEventPal_LaRoster07, 0xDB47},
+    {gObjectEventPal_LaRoster08, 0xDB48},
+    {gObjectEventPal_LaRoster09, 0xDB49},
+    {gObjectEventPal_LaRoster10, 0xDB4A},
+    {gObjectEventPal_LaRoster11, 0xDB4B},
+    {gObjectEventPal_LaRoster12, 0xDB4C},
+    {gObjectEventPal_LaRoster13, 0xDB4D},
+    {gObjectEventPal_LaRoster14, 0xDB4E},
+    {gObjectEventPal_LaRoster15, 0xDB4F},
+    {gObjectEventPal_LaRoster16, 0xDB50},
+    {gObjectEventPal_LaRoster17, 0xDB51},
+/* LA_NPC_ROSTER_PALETTES_END */
+    {gObjectEventPal_LaHyperBosses, OBJ_EVENT_PAL_TAG_LA_HYPER_BOSSES},
+    {gHnsObjectPalette_a08041541f7cdf8b, 0xDA00},
+    {gHnsObjectPalette_ca8a3523c5558aa3, 0xDA01},
+    {gHnsObjectPalette_d2cdddb966e6f007, 0xDA02},
+    {gHnsObjectPalette_1437c15d61647432, 0xDA03},
+    {gHnsObjectPalette_32a16f0cde2dcd8b, 0xDA04},
+    {gHnsObjectPalette_18e26e1997d7b32b, 0xDA05},
+    {gHnsObjectPalette_6523ac5fa9c7d5cb, 0xDA06},
+    {gHnsObjectPalette_a886e173163d9560, 0xDA07},
+    {gHnsObjectPalette_9372153fd1a30c8b, 0xDA08},
+    {gHnsObjectPalette_d869f8b66fc5473a, 0xDA09},
+    {gHnsObjectPalette_30276a0b647c6947, 0xDA0A},
+    {gHnsObjectPalette_3bb5cad1a26da0bd, 0xDA0B},
+    {gHnsObjectPalette_737d214632e3fe21, 0xDA0C},
+    {gHnsObjectPalette_3bfa6a1bf19e7be4, 0xDA0D},
+    {gHnsObjectPalette_30f721f3807f90ac, 0xDA0E},
+    {gHnsObjectPalette_cb1f7d47a41b3fff, 0xDA0F},
+    {gHnsObjectPalette_69cba08a7378aaa9, 0xDA10},
+    {gHnsObjectPalette_d538883ee7713ff5, 0xDA11},
+    {gHnsObjectPalette_051c744f79b28c4f, 0xDA12},
+    {gHnsObjectPalette_0aed2dae46505ecf, 0xDA13},
+    {gHnsObjectPalette_7f40f77e926668d1, 0xDA14},
+    {gHnsObjectPalette_3aa6988e7be361a4, 0xDA15},
+    {gHnsObjectPalette_e406065567177532, 0xDA16},
+    {gHnsObjectPalette_7d4fb28c0c2f1e2d, 0xDA17},
+    {gHnsObjectPalette_e248a842abd9a561, 0xDA18},
+    {gHnsObjectPalette_53fe4e0645eb60c4, 0xDA19},
+    {gHnsObjectPalette_f8b2180ab280bbe3, 0xDA1A},
+    {gHnsObjectPalette_e6ea7db1d4eacff4, 0xDA1B},
+    {gHnsObjectPalette_76f829c2fd409c1d, 0xDA1C},
+    {gHnsObjectPalette_2ee26ade580958f9, 0xDA1D},
+    {gHnsObjectPalette_3a66111c5c8ea2bc, 0xDA1E},
+    {gHnsObjectPalette_2af36a8e926726b3, 0xDA1F},
+    {gHnsObjectPalette_ec7629ad6caca7b4, 0xDA20},
+    {gHnsObjectPalette_38b95ff19342a2ba, 0xDA21},
+    {gHnsObjectPalette_e228f8e4cf5192e4, 0xDA22},
+    {gHnsObjectPalette_a491484d8db3b1e2, 0xDA23},
+    {gHnsObjectPalette_68d38fb477af34c9, 0xDA24},
+    {gHnsObjectPalette_4bf6760c9120d0a1, 0xDA25},
+    {gHnsObjectPalette_9a7d62d35bee553e, 0xDA26},
+    {gHnsObjectPalette_a0cc726f73c5e2c9, 0xDA27},
+    {gHnsObjectPalette_6aec5a1db37e5cac, 0xDA28},
+    {gHnsObjectPalette_b180ff667ab7cc4b, 0xDA29},
+    {gHnsObjectPalette_3f8a1c94699742cf, 0xDA2A},
+    {gHnsObjectPalette_f5ae73fbc466686b, 0xDA2B},
+    {gHnsObjectPalette_e426f40355350022, 0xDA2C},
+
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
@@ -3210,6 +3280,14 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
     if (graphicsId & OBJ_EVENT_MON)
         return SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
 
+    /* Selected NPC roles override old map-specific visual substitutions. */
+    const struct ObjectEventGraphicsInfo *rosterGraphics = GetLaNpcRosterGraphics(graphicsId);
+    if (rosterGraphics != NULL)
+        return rosterGraphics;
+
+    if (graphicsId >= OBJ_EVENT_GFX_HNS_BASE && graphicsId < OBJ_EVENT_GFX_HNS_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
+
     /* Visual-only opt-in after expansion dynamic/species resolution. */
     const struct ObjectEventGraphicsInfo *hyperGraphics = HyperAssets_GetCanonicalObjectGraphics(graphicsId);
     if (hyperGraphics != NULL)
@@ -3324,10 +3402,10 @@ u8 LoadPlayerObjectEventPalette(enum Gender gender)
     {
     default:
     case MALE:
-        paletteTag = OBJ_EVENT_PAL_TAG_BRENDAN;
+        paletteTag = OBJ_EVENT_PAL_TAG_AREN;
         break;
     case FEMALE:
-        paletteTag = OBJ_EVENT_PAL_TAG_MAY;
+        paletteTag = OBJ_EVENT_PAL_TAG_ARIA;
         break;
     }
     return LoadObjectEventPalette(paletteTag);

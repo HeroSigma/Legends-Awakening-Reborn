@@ -1,0 +1,58 @@
+{
+  "source": "/home/allan/projects/walking.png",
+  "idle_frames_preserved": true,
+  "frame_size": [
+    16,
+    32
+  ],
+  "sheet_size": [
+    144,
+    32
+  ],
+  "adaptations": [
+    {
+      "direction": 0,
+      "walking_frames": [
+        3,
+        4
+      ],
+      "body_palette_mapping": {
+        "8": 14,
+        "4": 11,
+        "12": 10,
+        "13": 10
+      }
+    },
+    {
+      "direction": 1,
+      "walking_frames": [
+        5,
+        6
+      ],
+      "body_palette_mapping": {
+        "4": 11,
+        "12": 10,
+        "11": 9,
+        "14": 15,
+        "13": 10,
+        "10": 14
+      }
+    },
+    {
+      "direction": 2,
+      "walking_frames": [
+        7,
+        8
+      ],
+      "body_palette_mapping": {
+        "11": 12,
+        "13": 10,
+        "4": 14,
+        "10": 12,
+        "12": 10,
+        "8": 11
+      }
+    }
+  ],
+  "rom_changed": false
+}

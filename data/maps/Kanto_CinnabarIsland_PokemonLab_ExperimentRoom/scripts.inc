@@ -1,0 +1,7 @@
+Kanto_CinnabarIsland_PokemonLab_ExperimentRoom_MapScripts::
+	.byte 0
+
+KantoAR_12_4_CinnabarIsland_PokemonLab_ExperimentRoom_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_12_5_CINNABARISLAND_POKEMONCENTER_1F, 7, 5
+	goto KantoAR_InspectionFinish

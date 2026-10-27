@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleFactoryPreBattleRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryPreBattleRoom_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleFactoryPreBattleRoom_OnWarp
@@ -652,3 +654,240 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 	.string "I'm terribly sorry, but I can't tell you\n"
 	.string "anything about the FACTORY HEAD.$"
+
+#else
+BattleFrontier_BattleFactoryPreBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleFactoryPreBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_EnterBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReturnToRoomFromBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskReadyForRegularOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskReadyForOpponentNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskPauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskSwapMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_SwapMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor2ndOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor3rdOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor4thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor5thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor6thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReadyFor7thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_CommentOnOpponentType::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesNormal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFighting::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFlying::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesPoison::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesGround::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesRock::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesBug::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesGhost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesSteel::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFire::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesWater::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesGrass::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesElectric::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesPsychic::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesIce::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDragon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDark::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFairy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentHasNoMostCommonType::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_CommentOnOpponentStyle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleUnrestrained::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleTotalPreparation::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleSlowAndSteady::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleEndurance::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleHighRisk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleWeakenFoe::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleImpossibleToPredict::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleDependsOnFlow::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_StyleFlexible::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskReadyForHead::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskReadyForHeadNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_AskSwapBeforeHead::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_WalkToBattleRoomLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_EventScript_WalkToBattleRoomLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_PlayerEnterRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_PlayerWalkToBattleRoomLv50:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_PlayerWalkToBattleRoomLvOpen:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantEnterRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_GuideWalkToBattleRoomLv50:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_GuideWalkToBattleRoomLvOpen:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantMoveToReceiveCall:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
+	.string "This feature is disabled in this build.$"
+#endif
