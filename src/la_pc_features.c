@@ -280,8 +280,6 @@ bool32 LaPcBlockedSpecial(u32 id)
     case 354: // DrewSecretBaseBattle
     case 355: // WonSecretBaseBattle
     case 356: // LostSecretBaseBattle
-    case 363: // SetLilycoveLadyGfx
-    case 364: // Script_GetLilycoveLadyId
     case 391: // GetMysteryGiftCardStat
     case 397: // ShouldContestLadyShowGoOnAir
     case 398: // HasPlayerGivenContestLadyPokeblock
@@ -293,7 +291,6 @@ bool32 LaPcBlockedSpecial(u32 id)
     case 404: // PutLilycoveContestLadyShowOnTheAir
     case 405: // CloseBattlePikeCurtain
     case 417: // RunUnionRoom
-    case 419: // InitUnionRoom
     case 420: // BufferUnionRoomPlayerName
     case 423: // Script_ResetUnionRoomTrade
     case 427: // IsPokemonJumpSpeciesInParty

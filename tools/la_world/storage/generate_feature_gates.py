@@ -3,11 +3,14 @@ from pathlib import Path
 import json, re
 R=Path(__file__).resolve().parents[3]
 SPECIAL_PATTERN=r'Contest|TrainerHill|BattleFrontier|BattleTower|BattleTent|BattlePike|BattleDome|BattlePalace|BattleFactory|BattleArena|BattlePyramid|SecretBase|Decoration|BerryBlender|RecordMix|MysteryGift|UnionRoom|LilycoveLady|PokemonJump|BerryCrush|BerryPick|BattleRecords'
+# These support ordinary map initialization/identity, not activity entry.
+# InitUnionRoom itself checks whether the current map needs wireless setup.
+ALLOWED_SETUP_SPECIALS={'InitUnionRoom','SetLilycoveLadyGfx','Script_GetLilycoveLadyId'}
 MAP_PATTERN=r'BattleFrontier|BattleTent|TrainerHill|SecretBase|Contest|BerryBlender|UnionRoom|RecordCorner'
 
 def generate(check=False):
     names=re.findall(r'^\s*def_special\s+(\w+)',(R/'data/specials.inc').read_text(),re.M)
-    blocked=[(i,n) for i,n in enumerate(names) if re.search(SPECIAL_PATTERN,n)]
+    blocked=[(i,n) for i,n in enumerate(names) if re.search(SPECIAL_PATTERN,n) and n not in ALLOWED_SETUP_SPECIALS]
     groups=json.loads((R/'data/maps/map_groups.json').read_text());maps=[]
     for group in groups['group_order']:
         for name in groups[group]:

@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "assertions": 58,
+  "rom_sha256": "21e3cc4104d90f85d17a1322ec5dfb59b58012c1453abf71c0c12a31fae0310b",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "mode_0",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_InitUnionRoom",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_SetLilycoveLadyGfx",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_Script_GetLilycoveLadyId",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_0_0",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_0_0",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_0_0",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_0_0",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_0_0",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_0_0",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_0_0",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_0_1",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_0_1",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_0_1",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_0_1",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_0_1",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_0_1",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_0_1",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_0_2",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_0_2",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_0_2",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_0_2",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_0_2",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_0_2",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_0_2",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_0_OpenPokeblockCaseForContestLady",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_0_CallBattleTowerFunc",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_0_CallTrainerHillFunction",
+      "passed": true
+    },
+    {
+      "test": "mode_1",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_InitUnionRoom",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_SetLilycoveLadyGfx",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_Script_GetLilycoveLadyId",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_1_0",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_1_0",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_1_0",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_1_0",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_1_0",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_1_0",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_1_0",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_1_1",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_1_1",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_1_1",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_1_1",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_1_1",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_1_1",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_1_1",
+      "passed": true
+    },
+    {
+      "test": "lady_variant_1_2",
+      "passed": true
+    },
+    {
+      "test": "center_loaded_1_2",
+      "passed": true
+    },
+    {
+      "test": "center_overworld_1_2",
+      "passed": true
+    },
+    {
+      "test": "no_unavailable_dialog_1_2",
+      "passed": true
+    },
+    {
+      "test": "initializer_result_1_2",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_allowed_1_2",
+      "passed": true
+    },
+    {
+      "test": "lady_identity_result_1_2",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_1_OpenPokeblockCaseForContestLady",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_1_CallBattleTowerFunc",
+      "passed": true
+    },
+    {
+      "test": "retired_activity_1_CallTrainerHillFunction",
+      "passed": true
+    }
+  ]
+}

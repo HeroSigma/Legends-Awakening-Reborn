@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "rom_sha256": "b7e8ee7fab5908263d28d57b30080bee77e820ea27752a5199f8471604fd2f42",
-  "assertions": 2211,
+  "rom_sha256": "21e3cc4104d90f85d17a1322ec5dfb59b58012c1453abf71c0c12a31fae0310b",
+  "assertions": 2202,
   "full_pc_scan_frames": 7,
   "checks": [
     {
@@ -7981,22 +7981,6 @@
       "passed": true
     },
     {
-      "test": "special_id_SetLilycoveLadyGfx",
-      "passed": true
-    },
-    {
-      "test": "normal_activity_SetLilycoveLadyGfx",
-      "passed": true
-    },
-    {
-      "test": "special_id_Script_GetLilycoveLadyId",
-      "passed": true
-    },
-    {
-      "test": "normal_activity_Script_GetLilycoveLadyId",
-      "passed": true
-    },
-    {
       "test": "special_id_GetMysteryGiftCardStat",
       "passed": true
     },
@@ -8082,14 +8066,6 @@
     },
     {
       "test": "normal_activity_RunUnionRoom",
-      "passed": true
-    },
-    {
-      "test": "special_id_InitUnionRoom",
-      "passed": true
-    },
-    {
-      "test": "normal_activity_InitUnionRoom",
       "passed": true
     },
     {
@@ -8621,14 +8597,6 @@
       "passed": true
     },
     {
-      "test": "collection_activity_SetLilycoveLadyGfx",
-      "passed": true
-    },
-    {
-      "test": "collection_activity_Script_GetLilycoveLadyId",
-      "passed": true
-    },
-    {
       "test": "collection_activity_GetMysteryGiftCardStat",
       "passed": true
     },
@@ -8670,10 +8638,6 @@
     },
     {
       "test": "collection_activity_RunUnionRoom",
-      "passed": true
-    },
-    {
-      "test": "collection_activity_InitUnionRoom",
       "passed": true
     },
     {
