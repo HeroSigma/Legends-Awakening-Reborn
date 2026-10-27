@@ -79,7 +79,7 @@ struct UsePokeblockSession
 // TODO: Once the PokéNav conditions screens are documented, resolve the above
 struct UsePokeblockMenuPokemon
 {
-    u8 boxId; // Because this screen is never used for the PC this is always set to TOTAL_BOXES_COUNT to refer to party
+    u8 boxId; // Because this screen is never used for the PC this is always set to GetStorageBoxCount() to refer to party
     u8 monId;
     u16 data; // never read
 };
@@ -1159,7 +1159,7 @@ static void LoadPartyInfo(void)
     {
         if (!GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_IS_EGG))
         {
-            sMenu->party[numMons].boxId = TOTAL_BOXES_COUNT;
+            sMenu->party[numMons].boxId = GetStorageBoxCount();
             sMenu->party[numMons].monId = i;
             sMenu->party[numMons].data = 0;
             numMons++;

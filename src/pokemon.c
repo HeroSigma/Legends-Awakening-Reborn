@@ -2987,7 +2987,7 @@ u8 CopyMonToPC(struct Pokemon *mon)
         }
 
         boxNo++;
-        if (boxNo == TOTAL_BOXES_COUNT)
+        if (boxNo == GetStorageBoxCount())
             boxNo = 0;
     } while (boxNo != StorageGetCurrentBox());
 
@@ -3168,7 +3168,7 @@ bool8 IsPokemonStorageFull(void)
 {
     s32 i, j;
 
-    for (i = 0; i < TOTAL_BOXES_COUNT; i++)
+    for (i = 0; i < GetStorageBoxCount(); i++)
         for (j = 0; j < IN_BOX_COUNT; j++)
             if (GetBoxMonDataAt(i, j, MON_DATA_SPECIES) == SPECIES_NONE)
                 return FALSE;

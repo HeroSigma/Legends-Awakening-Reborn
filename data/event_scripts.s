@@ -2411,3 +2411,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/GSJohto_35_0_Route_34/scripts.inc"
 .include "data/maps/GSJohto_35_3_Lake_of_Rage/scripts.inc"
 .include "data/maps/GSJohto_35_4_Route_38/scripts.inc"
+
+	.include "data/scripts/la_collection_storage.inc"

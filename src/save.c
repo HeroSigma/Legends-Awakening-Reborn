@@ -4,6 +4,7 @@
 #include "fieldmap.h"
 #include "save.h"
 #include "task.h"
+#include "la_collection_save.h"
 #include "decompress.h"
 #include "load_save.h"
 #include "overworld.h"
@@ -64,15 +65,15 @@ struct
     SAVEBLOCK_CHUNK(struct SaveBlock1, 2),
     SAVEBLOCK_CHUNK(struct SaveBlock1, 3), // SECTOR_ID_SAVEBLOCK1_END
 
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 0), // SECTOR_ID_PKMN_STORAGE_START
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 1),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 2),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 3),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 4),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 5),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 6),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 7),
-    SAVEBLOCK_CHUNK(struct PokemonStorage, 8), // SECTOR_ID_PKMN_STORAGE_END
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 0), // SECTOR_ID_PKMN_STORAGE_START
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 1),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 2),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 3),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 4),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 5),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 6),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 7),
+    SAVEBLOCK_CHUNK(struct PokemonStorageLegacy, 8), // SECTOR_ID_PKMN_STORAGE_END
 };
 
 // These will produce an error if a save struct is larger than the space
@@ -80,7 +81,7 @@ struct
 STATIC_ASSERT(sizeof(struct SaveBlock3) <= SAVE_BLOCK_3_CHUNK_SIZE * NUM_SECTORS_PER_SLOT, SaveBlock3FreeSpace);
 STATIC_ASSERT(sizeof(struct SaveBlock2) <= SECTOR_DATA_SIZE, SaveBlock2FreeSpace);
 STATIC_ASSERT(sizeof(struct SaveBlock1) <= SECTOR_DATA_SIZE * (SECTOR_ID_SAVEBLOCK1_END - SECTOR_ID_SAVEBLOCK1_START + 1), SaveBlock1FreeSpace);
-STATIC_ASSERT(sizeof(struct PokemonStorage) <= SECTOR_DATA_SIZE * (SECTOR_ID_PKMN_STORAGE_END - SECTOR_ID_PKMN_STORAGE_START + 1), PokemonStorageFreeSpace);
+STATIC_ASSERT(sizeof(struct PokemonStorageLegacy) <= SECTOR_DATA_SIZE * (SECTOR_ID_PKMN_STORAGE_END - SECTOR_ID_PKMN_STORAGE_START + 1), PokemonStorageFreeSpace);
 
 COMMON_DATA u16 gLastWrittenSector = 0;
 COMMON_DATA u32 gLastSaveCounter = 0;
@@ -199,13 +200,15 @@ static u8 HandleWriteSector(u16 sectorId, const struct SaveSectorLocation *locat
     gReadWriteSector->signature = SECTOR_SIGNATURE;
     gReadWriteSector->counter = gSaveCounter;
 
-    // Copy current data to temp buffer for writing
-    for (i = 0; i < size; i++)
-        gReadWriteSector->data[i] = data[i];
+    // Normal-mode PC sectors retain the original 14-box flash layout.
+    if (sectorId >= SECTOR_ID_PKMN_STORAGE_START)
+        StorageLegacyRead(gReadWriteSector->data, sSaveSlotLayout[sectorId].offset, size);
+    else
+        for (i = 0; i < size; i++) gReadWriteSector->data[i] = data[i];
 
     CopyFromSaveBlock3(sectorId, gReadWriteSector);
 
-    gReadWriteSector->checksum = CalculateChecksum(data, size);
+    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, size);
 
     return TryWriteSector(sector, gReadWriteSector->data);
 }
@@ -335,13 +338,15 @@ static u8 HandleReplaceSector(u16 sectorId, const struct SaveSectorLocation *loc
     gReadWriteSector->signature = SECTOR_SIGNATURE;
     gReadWriteSector->counter = gSaveCounter;
 
-    // Copy current data to temp buffer for writing
-    for (i = 0; i < size; i++)
-        gReadWriteSector->data[i] = data[i];
+    // Normal-mode PC sectors retain the original 14-box flash layout.
+    if (sectorId >= SECTOR_ID_PKMN_STORAGE_START)
+        StorageLegacyRead(gReadWriteSector->data, sSaveSlotLayout[sectorId].offset, size);
+    else
+        for (i = 0; i < size; i++) gReadWriteSector->data[i] = data[i];
 
     CopyFromSaveBlock3(sectorId, gReadWriteSector);
 
-    gReadWriteSector->checksum = CalculateChecksum(data, size);
+    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, size);
 
     // Erase old save data
     EraseFlashSector(sector);
@@ -499,6 +504,7 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         ReadFlashSector(i + slotOffset, gReadWriteSector);
 
         id = gReadWriteSector->id;
+        if (id >= NUM_SECTORS_PER_SLOT) continue;
         if (id == 0)
             gLastWrittenSector = i;
 
@@ -508,8 +514,10 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->checksum == checksum)
         {
             u16 j;
-            for (j = 0; j < locations[id].size; j++)
-                ((u8 *)locations[id].data)[j] = gReadWriteSector->data[j];
+            if (id >= SECTOR_ID_PKMN_STORAGE_START)
+                StorageLegacyWrite(gReadWriteSector->data, sSaveSlotLayout[id].offset, locations[id].size);
+            else
+                for (j = 0; j < locations[id].size; j++) ((u8 *)locations[id].data)[j] = gReadWriteSector->data[j];
             CopyToSaveBlock3(id, gReadWriteSector);
         }
     }
@@ -532,12 +540,13 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
     for (i = 0; i < NUM_SECTORS_PER_SLOT; i++)
     {
         ReadFlashSector(i, gReadWriteSector);
-        if (gReadWriteSector->signature == SECTOR_SIGNATURE)
+        if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
             checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
             if (gReadWriteSector->checksum == checksum)
             {
+                if (validSectorFlags && saveSlot1Counter != gReadWriteSector->counter) { validSectorFlags = 0; break; }
                 saveSlot1Counter = gReadWriteSector->counter;
                 validSectorFlags |= 1 << gReadWriteSector->id;
             }
@@ -564,12 +573,13 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
     for (i = 0; i < NUM_SECTORS_PER_SLOT; i++)
     {
         ReadFlashSector(i + NUM_SECTORS_PER_SLOT, gReadWriteSector);
-        if (gReadWriteSector->signature == SECTOR_SIGNATURE)
+        if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
             checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
             if (gReadWriteSector->checksum == checksum)
             {
+                if (validSectorFlags && saveSlot2Counter != gReadWriteSector->counter) { validSectorFlags = 0; break; }
                 saveSlot2Counter = gReadWriteSector->counter;
                 validSectorFlags |= 1 << gReadWriteSector->id;
             }
@@ -710,20 +720,77 @@ static void UpdateSaveAddresses(void)
     }
 }
 
+static bool32 CollectionCheckpointNormal(void)
+{
+    u32 i;
+    /* Collection bank 1 can replace native bank 1 only after its newest native
+     * save has a complete checkpoint in native bank 0. */
+    if (!(gSaveCounter & 1)) return TRUE;
+    for (i = 0; i < 14; i++) {
+        ReadFlash(14 + i, 0, (u8 *)&gSaveDataBuffer, SECTOR_SIZE);
+        if (gSaveDataBuffer.signature != SECTOR_SIGNATURE) return FALSE;
+        gSaveDataBuffer.counter = gSaveCounter + 1;
+        if (ProgramFlashSectorAndVerify(i, (u8 *)&gSaveDataBuffer)) return FALSE;
+    }
+    gSaveCounter++;
+    return TRUE;
+}
+
+static bool32 PendingNormalProfileTransition(void)
+{
+    u32 counter, bank;
+    return !StorageIsCollectionMode() && LaCollectionFind(&counter, &bank) && (s32)(counter - gSaveCounter) >= 0;
+}
+
+static bool32 PrepareNormalAfterCollection(void)
+{
+    u32 counter, bank;
+    if (!LaCollectionFind(&counter, &bank)) return TRUE;
+    if ((s32)(counter - gSaveCounter) < 0) return TRUE;
+    /* Keep a complete 16-sector bank in the upper half before writing native
+     * bank 0. A power cut can then recover the pre-transition collection save. */
+    if (bank == 0) {
+        if (!LaCollectionCopyToBank1(counter + 1)) return FALSE;
+        counter++;
+    }
+    gSaveCounter = counter;
+    return TRUE;
+}
+
 u8 HandleSavingData(u8 saveType)
 {
     u8 i;
     u32 *backupVar = gTrainerHillVBlankCounter;
 
     gTrainerHillVBlankCounter = NULL;
+    if (!StorageFlush()) { gDamagedSaveSectors = 1; gTrainerHillVBlankCounter = backupVar; return SAVE_STATUS_ERROR; }
     UpdateSaveAddresses();
+    if (StorageIsCollectionMode()) {
+        u32 counter, bank;
+        bool32 found = LaCollectionFind(&counter, &bank);
+        if (saveType == SAVE_HALL_OF_FAME || saveType == SAVE_HALL_OF_FAME_ERASE_BEFORE) {
+            if (GetGameStat(GAME_STAT_ENTERED_HOF) < 999) IncrementGameStat(GAME_STAT_ENTERED_HOF);
+        }
+        CopyPartyAndObjectsToSave();
+        if (!found || (s32)(gSaveCounter - counter) > 0) {
+            if (!CollectionCheckpointNormal()) { gDamagedSaveSectors = 1; gTrainerHillVBlankCounter = backupVar; return SAVE_STATUS_ERROR; }
+            counter = gSaveCounter;
+            bank = 0;
+        }
+        counter++;
+        if (!LaCollectionWrite(counter, bank ^ 1)) gDamagedSaveSectors = 1;
+        else { gSaveCounter = counter; gDamagedSaveSectors = 0; }
+        gTrainerHillVBlankCounter = backupVar;
+        return gDamagedSaveSectors ? SAVE_STATUS_ERROR : SAVE_STATUS_OK;
+    }
+    if (PendingNormalProfileTransition() && (saveType == SAVE_LINK || saveType == SAVE_EREADER)) saveType = SAVE_NORMAL;
+    if (!PrepareNormalAfterCollection()) { gDamagedSaveSectors = 1; gTrainerHillVBlankCounter = backupVar; return SAVE_STATUS_ERROR; }
     switch (saveType)
     {
     case SAVE_HALL_OF_FAME_ERASE_BEFORE:
         // Unused. Erases the special save sectors (HOF, Trainer Hill, Recorded Battle)
         // before overwriting HOF.
-        for (i = SECTOR_ID_HOF_1; i < SECTORS_COUNT; i++)
-            EraseFlashSector(i);
+        // Special sectors are erased only after the native save is committed.
         // fallthrough
     case SAVE_HALL_OF_FAME:
         if (GetGameStat(GAME_STAT_ENTERED_HOF) < 999)
@@ -758,14 +825,15 @@ u8 HandleSavingData(u8 saveType)
         break;
     case SAVE_OVERWRITE_DIFFERENT_FILE:
         // Erase Hall of Fame
-        for (i = SECTOR_ID_HOF_1; i < SECTORS_COUNT; i++)
-            EraseFlashSector(i);
+        // Special sectors are erased only after the native save is committed.
 
         // Overwrite save slot
         CopyPartyAndObjectsToSave();
         WriteSaveSectorOrSlot(FULL_SAVE_SLOT, gRamSaveSectorLocations);
         break;
     }
+    if (!gDamagedSaveSectors && (saveType == SAVE_OVERWRITE_DIFFERENT_FILE || saveType == SAVE_HALL_OF_FAME_ERASE_BEFORE))
+        for (i = SECTOR_ID_HOF_1; i < SECTORS_COUNT; i++) EraseFlashSector(i);
     gTrainerHillVBlankCounter = backupVar;
     return 0;
 }
@@ -792,10 +860,15 @@ u8 TrySavingData(u8 saveType)
     }
 }
 
+static bool8 sProfileFullLinkSave;
+
 bool8 LinkFullSave_Init(void)
 {
+    sProfileFullLinkSave = StorageIsCollectionMode() || PendingNormalProfileTransition();
+    if (sProfileFullLinkSave) { TrySavingData(SAVE_NORMAL); return FALSE; }
     if (gFlashMemoryPresent != TRUE)
         return TRUE;
+    if (!StorageFlush()) { gDamagedSaveSectors = 1; return TRUE; }
     UpdateSaveAddresses();
     CopyPartyAndObjectsToSave();
     RestoreSaveBackupVarsAndIncrement(gRamSaveSectorLocations);
@@ -804,6 +877,7 @@ bool8 LinkFullSave_Init(void)
 
 bool8 LinkFullSave_WriteSector(void)
 {
+    if (sProfileFullLinkSave || StorageIsCollectionMode()) return TRUE;
     u8 status = HandleWriteIncrementalSector(NUM_SECTORS_PER_SLOT, gRamSaveSectorLocations);
     if (gDamagedSaveSectors)
         DoSaveFailedScreen(SAVE_NORMAL);
@@ -819,6 +893,7 @@ bool8 LinkFullSave_WriteSector(void)
 
 bool8 LinkFullSave_ReplaceLastSector(void)
 {
+    if (sProfileFullLinkSave || StorageIsCollectionMode()) return FALSE;
     HandleReplaceSectorAndVerify(NUM_SECTORS_PER_SLOT, gRamSaveSectorLocations);
     if (gDamagedSaveSectors)
         DoSaveFailedScreen(SAVE_NORMAL);
@@ -827,6 +902,7 @@ bool8 LinkFullSave_ReplaceLastSector(void)
 
 bool8 LinkFullSave_SetLastSectorSignature(void)
 {
+    if (sProfileFullLinkSave || StorageIsCollectionMode()) { sProfileFullLinkSave = FALSE; return FALSE; }
     CopySectorSignatureByte(NUM_SECTORS_PER_SLOT, gRamSaveSectorLocations);
     if (gDamagedSaveSectors)
         DoSaveFailedScreen(SAVE_NORMAL);
@@ -835,9 +911,12 @@ bool8 LinkFullSave_SetLastSectorSignature(void)
 
 bool8 WriteSaveBlock2(void)
 {
+    sProfileFullLinkSave = StorageIsCollectionMode() || PendingNormalProfileTransition();
+    if (sProfileFullLinkSave) { TrySavingData(SAVE_NORMAL); return FALSE; }
     if (gFlashMemoryPresent != TRUE)
         return TRUE;
 
+    if (!StorageFlush()) { gDamagedSaveSectors = 1; return TRUE; }
     UpdateSaveAddresses();
     CopyPartyAndObjectsToSave();
     RestoreSaveBackupVars(gRamSaveSectorLocations);
@@ -853,6 +932,7 @@ bool8 WriteSaveBlock2(void)
 // It returns TRUE when finished.
 bool8 WriteSaveBlock1Sector(void)
 {
+    if (sProfileFullLinkSave || StorageIsCollectionMode()) { sProfileFullLinkSave = FALSE; return TRUE; }
     bool32 finished = FALSE;
     u16 sectorId = ++gIncrementalSectorId; // Because WriteSaveBlock2 will have been called prior, this will be SECTOR_ID_SAVEBLOCK1_START
     if (sectorId <= SECTOR_ID_SAVEBLOCK1_END)
@@ -891,12 +971,27 @@ u8 LoadGameSave(u8 saveType)
     {
     case SAVE_NORMAL:
     default:
-        status = TryLoadSaveSlot(FULL_SAVE_SLOT, gRamSaveSectorLocations);
+        {
+            u32 collectionCounter, bank;
+            u8 normalStatus = GetSaveValidStatus(gRamSaveSectorLocations);
+            u32 normalCounter = gSaveCounter;
+            bool32 collection = LaCollectionFind(&collectionCounter, &bank);
+            if (collection && ((normalStatus != SAVE_STATUS_OK && normalStatus != SAVE_STATUS_ERROR)
+                || (s32)(collectionCounter - normalCounter) > 0)) {
+                status = LaCollectionLoad(bank) ? SAVE_STATUS_OK : SAVE_STATUS_CORRUPT;
+            } else {
+                StorageInitialize();
+                gSaveCounter = normalCounter;
+                status = TryLoadSaveSlot(FULL_SAVE_SLOT, gRamSaveSectorLocations);
+            }
+            StorageInvalidateCache();
+        }
         CopyPartyAndObjectsFromSave();
         gSaveFileStatus = status;
         gGameContinueCallback = NULL;
         break;
     case SAVE_HALL_OF_FAME:
+        if (StorageIsCollectionMode()) return SAVE_STATUS_EMPTY;
         if (gHoFSaveBuffer != NULL)
         {
             u8 *hofData = (u8 *) gHoFSaveBuffer;
@@ -945,6 +1040,7 @@ u32 TryReadSpecialSaveSector(u8 sector, u8 *dst)
     s32 size;
     u8 *savData;
 
+    if (StorageIsCollectionMode()) return SAVE_STATUS_ERROR;
     if (sector != SECTOR_ID_TRAINER_HILL && sector != SECTOR_ID_RECORDED_BATTLE)
         return SAVE_STATUS_ERROR;
 
@@ -968,6 +1064,8 @@ u32 TryWriteSpecialSaveSector(u8 sector, u8 *src)
     u8 *savData;
     void *savDataBuffer;
 
+    if (StorageIsCollectionMode()) return SAVE_STATUS_ERROR;
+    if (PendingNormalProfileTransition() && TrySavingData(SAVE_NORMAL) != SAVE_STATUS_OK) return SAVE_STATUS_ERROR;
     if (sector != SECTOR_ID_TRAINER_HILL && sector != SECTOR_ID_RECORDED_BATTLE)
         return SAVE_STATUS_ERROR;
 

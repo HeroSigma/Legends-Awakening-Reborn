@@ -1,4 +1,6 @@
 #include "global.h"
+#include "la_pc_features.h"
+#include "pokemon_storage_system.h"
 #include "hyper_sinnoh_climb.h"
 #include "battle_setup.h"
 #include "bike.h"
@@ -954,6 +956,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
 
     if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
     {
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoWarp();
         return TRUE;
@@ -967,6 +970,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
             delay = 12;
         }
 
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoStairWarp(metatileBehavior, delay);
         return TRUE;
@@ -980,6 +984,7 @@ static bool8 TryStartWarpEventScript(struct MapPosition *position, u16 metatileB
 
     if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
     {
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StoreInitialPlayerAvatarState();
         SetupWarp(&gMapHeader, warpEventId, position);
         if (MetatileBehavior_IsEscalator(metatileBehavior) == TRUE)
@@ -1114,6 +1119,7 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
     {
         if (MetatileBehavior_IsOpenSecretBaseDoor(metatileBehavior) == TRUE)
         {
+            if (StorageIsCollectionMode()) { ScriptContext_SetupScript(LaCollection_Blocked); return TRUE; }
             WarpIntoSecretBase(position, gMapHeader.events);
             return TRUE;
         }
@@ -1123,7 +1129,8 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
             warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
             if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
             {
-                StoreInitialPlayerAvatarState();
+                if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
+        StoreInitialPlayerAvatarState();
                 SetupWarp(&gMapHeader, warpEventId, position);
                 DoDoorWarp();
                 return TRUE;
@@ -1229,7 +1236,8 @@ bool8 TryDoDiveWarp(struct MapPosition *position, u16 metatileBehavior)
     {
         if (SetDiveWarpEmerge(position->x - MAP_OFFSET, position->y - MAP_OFFSET))
         {
-            StoreInitialPlayerAvatarState();
+            if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
+        StoreInitialPlayerAvatarState();
             DoDiveWarp();
             PlaySE(SE_M_DIVE);
             return TRUE;
@@ -1239,7 +1247,8 @@ bool8 TryDoDiveWarp(struct MapPosition *position, u16 metatileBehavior)
     {
         if (SetDiveWarpDive(position->x - MAP_OFFSET, position->y - MAP_OFFSET))
         {
-            StoreInitialPlayerAvatarState();
+            if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
+        StoreInitialPlayerAvatarState();
             DoDiveWarp();
             PlaySE(SE_M_DIVE);
             return TRUE;

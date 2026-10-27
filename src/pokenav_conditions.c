@@ -135,7 +135,7 @@ static u32 OpenMarkingsMenu(struct Pokenav_ConditionMenu *menu)
         monId = monListPtr->monData[monListPtr->currIndex].monId;
         markings = menu->monMarks[menu->loadId];
 
-        if (boxId == TOTAL_BOXES_COUNT)
+        if (boxId == GetStorageBoxCount())
             SetMonData(&gParties[B_TRAINER_PLAYER][monId], MON_DATA_MARKINGS, &markings);
         else
             SetBoxMonDataAt(boxId, monId, MON_DATA_MARKINGS, &markings);
@@ -357,7 +357,7 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
     GetBoxOrPartyMonData(boxId, monId, MON_DATA_NICKNAME, str);
     StringGet_Nickname(str);
     species = GetBoxOrPartyMonData(boxId, monId, MON_DATA_SPECIES, NULL);
-    if (boxId == TOTAL_BOXES_COUNT)
+    if (boxId == GetStorageBoxCount())
     {
         level = GetMonData(&gParties[B_TRAINER_PLAYER][monId], MON_DATA_LEVEL);
         gender = GetMonGender(&gParties[B_TRAINER_PLAYER][monId]);
@@ -446,7 +446,7 @@ static void CopyMonNameGenderLocation(s16 listId, u8 loadId)
         menu->locationText[loadId][i++] = TEXT_COLOR_BLUE;
         menu->locationText[loadId][i++] = TEXT_COLOR_LIGHT_BLUE;
         menu->locationText[loadId][i++] = TEXT_COLOR_TRANSPARENT;
-        if (boxId == TOTAL_BOXES_COUNT)
+        if (boxId == GetStorageBoxCount())
             CopyStringLeftAlignedToConditionData(&menu->locationText[loadId][i], gText_InParty, BOX_NAME_LENGTH);
         else
             CopyStringLeftAlignedToConditionData(&menu->locationText[loadId][i], GetBoxNamePtr(boxId), BOX_NAME_LENGTH);
@@ -474,7 +474,7 @@ static void InitPartyConditionListParameters(void)
     {
         if (!GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_IS_EGG))
         {
-            monListPtr->monData[count].boxId = TOTAL_BOXES_COUNT;
+            monListPtr->monData[count].boxId = GetStorageBoxCount();
             monListPtr->monData[count].monId = i;
             monListPtr->monData[count].data = 0;
             count++;

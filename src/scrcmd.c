@@ -1,4 +1,5 @@
 #include "global.h"
+#include "la_pc_features.h"
 #include "frontier_util.h"
 #include "battle_setup.h"
 #include "battle_util.h"
@@ -142,6 +143,7 @@ bool8 ScrCmd_special(struct ScriptContext *ctx)
     Script_RequestEffects(SCREFF_V1);
     Script_CheckEffectInstrumentedSpecial(index);
 
+    if (LaPcBlockedSpecial(index)) { ScriptContext_SetupScript(LaCollection_Blocked); return FALSE; }
     gSpecials[index]();
     return FALSE;
 }
@@ -156,6 +158,7 @@ bool8 ScrCmd_specialvar(struct ScriptContext *ctx)
     Script_RequestWriteVar(varId);
     Script_CheckEffectInstrumentedSpecial(index);
 
+    if (LaPcBlockedSpecial(index)) { ScriptContext_SetupScript(LaCollection_Blocked); return FALSE; }
     *ptr = gSpecials[index]();
     return FALSE;
 }

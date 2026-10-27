@@ -253,7 +253,7 @@ static u32 BuildPartyMonRibbonList(s32 state)
 
     list->monList->listCount = 0;
     list->monList->currIndex = 0;
-    item.boxId = TOTAL_BOXES_COUNT;
+    item.boxId = GetStorageBoxCount();
     for (i = 0; i < PARTY_SIZE; i++)
     {
         struct Pokemon *pokemon = &gParties[B_TRAINER_PLAYER][i];
@@ -290,7 +290,7 @@ static u32 BuildBoxMonRibbonList(s32 state)
     s32 boxCount = 0;
     struct PokenavMonListItem item;
 
-    while (boxId < TOTAL_BOXES_COUNT)
+    while (boxId < GetStorageBoxCount())
     {
         while (monId < IN_BOX_COUNT)
         {
@@ -307,7 +307,7 @@ static u32 BuildBoxMonRibbonList(s32 state)
             }
             boxCount++;
             monId++;
-            if (boxCount > TOTAL_BOXES_COUNT)
+            if (boxCount > GetStorageBoxCount())
             {
                 list->boxId = boxId;
                 list->monId = monId;
@@ -357,7 +357,7 @@ static bool32 UNUSED PlayerHasRibbonsMon(void)
             return TRUE;
     }
 
-    for (i = 0; i < TOTAL_BOXES_COUNT; i++)
+    for (i = 0; i < GetStorageBoxCount(); i++)
     {
         for (j = 0; j < IN_BOX_COUNT; j++)
         {
@@ -705,7 +705,7 @@ static void BufferRibbonMonInfoText(struct PokenavListItem *listItem, u8 *dest)
     u32 fontId;
 
     // Mon is in party
-    if (item->boxId == TOTAL_BOXES_COUNT)
+    if (item->boxId == GetStorageBoxCount())
     {
         struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][item->monId];
         gender = GetMonGender(mon);

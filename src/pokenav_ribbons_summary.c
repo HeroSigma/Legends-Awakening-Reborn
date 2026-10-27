@@ -384,7 +384,7 @@ static void GetMonNicknameLevelGender(u8 *nick, u8 *level, u8 *gender)
     struct PokenavMonList *mons = list->monList;
     struct PokenavMonListItem *monInfo = &mons->monData[mons->currIndex];
 
-    if (monInfo->boxId == TOTAL_BOXES_COUNT)
+    if (monInfo->boxId == GetStorageBoxCount())
     {
         // Get info for party mon
         struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][monInfo->monId];
@@ -409,7 +409,7 @@ static void GetMonSpeciesPersonalityShiny(enum Species *species, u32 *personalit
     struct PokenavMonList *mons = list->monList;
     struct PokenavMonListItem *monInfo = &mons->monData[mons->currIndex];
 
-    if (monInfo->boxId == TOTAL_BOXES_COUNT)
+    if (monInfo->boxId == GetStorageBoxCount())
     {
         // Get info for party mon
         struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][monInfo->monId];
@@ -433,7 +433,7 @@ static u32 GetCurrMonRibbonCount(void)
     struct PokenavMonList *mons = list->monList;
     struct PokenavMonListItem *monInfo = &mons->monData[mons->currIndex];
 
-    if (monInfo->boxId == TOTAL_BOXES_COUNT)
+    if (monInfo->boxId == GetStorageBoxCount())
         return GetMonData(&gParties[B_TRAINER_PLAYER][monInfo->monId], MON_DATA_RIBBON_COUNT);
     else
         return GetBoxMonDataAt(monInfo->boxId, monInfo->monId, MON_DATA_RIBBON_COUNT);
@@ -446,7 +446,7 @@ static void GetMonRibbons(struct Pokenav_RibbonsSummaryList *list)
     struct PokenavMonList *mons = list->monList;
     struct PokenavMonListItem *monInfo = &mons->monData[mons->currIndex];
 
-    if (monInfo->boxId == TOTAL_BOXES_COUNT)
+    if (monInfo->boxId == GetStorageBoxCount())
         ribbonFlags = GetMonData(&gParties[B_TRAINER_PLAYER][monInfo->monId], MON_DATA_RIBBONS);
     else
         ribbonFlags = GetBoxMonDataAt(monInfo->boxId, monInfo->monId, MON_DATA_RIBBONS);

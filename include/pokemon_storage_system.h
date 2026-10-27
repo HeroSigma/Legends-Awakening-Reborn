@@ -1,7 +1,7 @@
 #ifndef GUARD_POKEMON_STORAGE_SYSTEM_H
 #define GUARD_POKEMON_STORAGE_SYSTEM_H
 
-#define TOTAL_BOXES_COUNT       14
+#define TOTAL_BOXES_COUNT       60
 #define IN_BOX_ROWS             5 // Number of rows, 6 Pokémon per row
 #define IN_BOX_COLUMNS          6 // Number of columns, 5 Pokémon per column
 #define IN_BOX_COUNT            (IN_BOX_ROWS * IN_BOX_COLUMNS)
@@ -19,14 +19,41 @@ ROWS        0   1   2   3   4   5
 
 struct PokemonStorage
 {
-    /*0x0000*/ u8 currentBox;
-    /*0x0001*/ struct BoxPokemon boxes[TOTAL_BOXES_COUNT][IN_BOX_COUNT];
-    /*0x8344*/ u8 boxNames[TOTAL_BOXES_COUNT][BOX_NAME_LENGTH + 1];
-    /*0x83C2*/ u8 boxWallpapers[TOTAL_BOXES_COUNT];
-    /*0x8432*/ struct Pokemon fusions[MAX_FUSION_STORAGE];
+    u8 currentBox;
+    u8 mode;
+    u16 version;
+    union {
+        struct BoxPokemon boxes[14][IN_BOX_COUNT];
+        u8 compactBoxes[60][IN_BOX_COUNT][31];
+    };
+    u8 boxNames[60][BOX_NAME_LENGTH + 1];
+    u8 boxWallpapers[60];
+    struct Pokemon fusions[MAX_FUSION_STORAGE];
 };
 
+struct PokemonStorageLegacy
+{
+    u8 currentBox;
+    struct BoxPokemon boxes[14][30];
+    u8 boxNames[14][9];
+    u8 boxWallpapers[14];
+    struct Pokemon fusions[4];
+};
 extern struct PokemonStorage *gPokemonStoragePtr;
+u32 GetStorageBoxCount(void);
+bool32 StorageIsCollectionMode(void);
+bool32 StorageFlush(void);
+void StorageInvalidateCache(void);
+void StorageInitialize(void);
+bool32 StorageHasBoxedFusion(void);
+bool32 StorageChangeMode(u32 mode, bool32 confirmed);
+bool32 StorageIsBoxPointer(const void *ptr);
+bool32 StorageReadMon(u32 box, u32 slot, struct BoxPokemon *out);
+bool32 StorageWriteMon(u32 box, u32 slot, const struct BoxPokemon *in);
+struct BoxPokemon *StorageGetMon(u32 box, u32 slot);
+u32 StorageLegacySize(void);
+void StorageLegacyRead(void *out, u32 offset, u32 size);
+void StorageLegacyWrite(const void *in, u32 offset, u32 size);
 
 void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero2, s32 bytesToBuffer);
 u8 CountMonsInBox(u8 boxId);
