@@ -1130,7 +1130,7 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
             if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
             {
                 if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
-        StoreInitialPlayerAvatarState();
+                StoreInitialPlayerAvatarState();
                 SetupWarp(&gMapHeader, warpEventId, position);
                 DoDoorWarp();
                 return TRUE;
@@ -1236,8 +1236,7 @@ bool8 TryDoDiveWarp(struct MapPosition *position, u16 metatileBehavior)
     {
         if (SetDiveWarpEmerge(position->x - MAP_OFFSET, position->y - MAP_OFFSET))
         {
-            if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
-        StoreInitialPlayerAvatarState();
+            StoreInitialPlayerAvatarState();
             DoDiveWarp();
             PlaySE(SE_M_DIVE);
             return TRUE;
@@ -1247,8 +1246,7 @@ bool8 TryDoDiveWarp(struct MapPosition *position, u16 metatileBehavior)
     {
         if (SetDiveWarpDive(position->x - MAP_OFFSET, position->y - MAP_OFFSET))
         {
-            if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
-        StoreInitialPlayerAvatarState();
+            StoreInitialPlayerAvatarState();
             DoDiveWarp();
             PlaySE(SE_M_DIVE);
             return TRUE;
