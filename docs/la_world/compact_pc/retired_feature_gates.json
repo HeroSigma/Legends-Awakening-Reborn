@@ -1,0 +1,650 @@
+{
+  "maps": [
+    "MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
+    "MAP_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR",
+    "MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM",
+    "MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
+    "MAP_VERDANTURF_TOWN_BATTLE_TENT_CORRIDOR",
+    "MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM",
+    "MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY",
+    "MAP_SLATEPORT_CITY_BATTLE_TENT_CORRIDOR",
+    "MAP_SLATEPORT_CITY_BATTLE_TENT_BATTLE_ROOM",
+    "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
+    "MAP_LILYCOVE_CITY_CONTEST_HALL",
+    "MAP_SECRET_BASE_RED_CAVE1",
+    "MAP_SECRET_BASE_BROWN_CAVE1",
+    "MAP_SECRET_BASE_BLUE_CAVE1",
+    "MAP_SECRET_BASE_YELLOW_CAVE1",
+    "MAP_SECRET_BASE_TREE1",
+    "MAP_SECRET_BASE_SHRUB1",
+    "MAP_SECRET_BASE_RED_CAVE2",
+    "MAP_SECRET_BASE_BROWN_CAVE2",
+    "MAP_SECRET_BASE_BLUE_CAVE2",
+    "MAP_SECRET_BASE_YELLOW_CAVE2",
+    "MAP_SECRET_BASE_TREE2",
+    "MAP_SECRET_BASE_SHRUB2",
+    "MAP_SECRET_BASE_RED_CAVE3",
+    "MAP_SECRET_BASE_BROWN_CAVE3",
+    "MAP_SECRET_BASE_BLUE_CAVE3",
+    "MAP_SECRET_BASE_YELLOW_CAVE3",
+    "MAP_SECRET_BASE_TREE3",
+    "MAP_SECRET_BASE_SHRUB3",
+    "MAP_SECRET_BASE_RED_CAVE4",
+    "MAP_SECRET_BASE_BROWN_CAVE4",
+    "MAP_SECRET_BASE_BLUE_CAVE4",
+    "MAP_SECRET_BASE_YELLOW_CAVE4",
+    "MAP_SECRET_BASE_TREE4",
+    "MAP_SECRET_BASE_SHRUB4",
+    "MAP_RECORD_CORNER",
+    "MAP_CONTEST_HALL",
+    "MAP_UNUSED_CONTEST_HALL1",
+    "MAP_UNUSED_CONTEST_HALL2",
+    "MAP_UNUSED_CONTEST_HALL3",
+    "MAP_UNUSED_CONTEST_HALL4",
+    "MAP_UNUSED_CONTEST_HALL5",
+    "MAP_UNUSED_CONTEST_HALL6",
+    "MAP_CONTEST_HALL_BEAUTY",
+    "MAP_CONTEST_HALL_TOUGH",
+    "MAP_CONTEST_HALL_COOL",
+    "MAP_CONTEST_HALL_SMART",
+    "MAP_CONTEST_HALL_CUTE",
+    "MAP_UNION_ROOM",
+    "MAP_BATTLE_FRONTIER_OUTSIDE_WEST",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_ELEVATOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_PARTNER_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_DOME_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_TOP",
+    "MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_ARENA_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_CORRIDOR",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_THREE_PATH_ROOM",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL",
+    "MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS",
+    "MAP_BATTLE_FRONTIER_RANKING_HALL",
+    "MAP_BATTLE_FRONTIER_LOUNGE1",
+    "MAP_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER",
+    "MAP_BATTLE_FRONTIER_LOUNGE2",
+    "MAP_BATTLE_FRONTIER_LOUNGE3",
+    "MAP_BATTLE_FRONTIER_LOUNGE4",
+    "MAP_BATTLE_FRONTIER_SCOTTS_HOUSE",
+    "MAP_BATTLE_FRONTIER_LOUNGE5",
+    "MAP_BATTLE_FRONTIER_LOUNGE6",
+    "MAP_BATTLE_FRONTIER_LOUNGE7",
+    "MAP_BATTLE_FRONTIER_RECEPTION_GATE",
+    "MAP_BATTLE_FRONTIER_LOUNGE8",
+    "MAP_BATTLE_FRONTIER_LOUNGE9",
+    "MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F",
+    "MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F",
+    "MAP_BATTLE_FRONTIER_MART",
+    "MAP_TRAINER_HILL_ENTRANCE",
+    "MAP_TRAINER_HILL_1F",
+    "MAP_TRAINER_HILL_2F",
+    "MAP_TRAINER_HILL_3F",
+    "MAP_TRAINER_HILL_4F",
+    "MAP_TRAINER_HILL_ROOF",
+    "MAP_TRAINER_HILL_ELEVATOR",
+    "MAP_RECORD_CORNER_FRLG",
+    "MAP_UNION_ROOM_FRLG",
+    "MAP_KANTOAR_0_2_RECORDCORNER",
+    "MAP_KANTOAR_0_4_UNIONROOM",
+    "MAP_HNS_REGION_GATE_ROUTE40_TRAINERHILL_COURTYARD",
+    "MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTLOBBY",
+    "MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTCORRIDOR",
+    "MAP_HNS_REGION_SLATEPORTCITY_BATTLETENTBATTLEROOM",
+    "MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTLOBBY",
+    "MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTCORRIDOR",
+    "MAP_HNS_REGION_VERDANTURFTOWN_BATTLETENTBATTLEROOM",
+    "MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTLOBBY",
+    "MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTCORRIDOR",
+    "MAP_HNS_REGION_FALLARBORTOWN_BATTLETENTBATTLEROOM",
+    "MAP_HNS_REGION_NATIONALPARK_BUGCONTEST",
+    "MAP_HNS_REGION_UNIONROOM",
+    "MAP_HNS_REGION_TRAINERHILL_COURTYARD",
+    "MAP_HNS_REGION_TRAINERHILL_ENTRANCE",
+    "MAP_HNS_REGION_TRAINERHILL_1F",
+    "MAP_HNS_REGION_TRAINERHILL_2F",
+    "MAP_HNS_REGION_TRAINERHILL_3F",
+    "MAP_HNS_REGION_TRAINERHILL_4F",
+    "MAP_HNS_REGION_TRAINERHILL_ROOF",
+    "MAP_HNS_REGION_TRAINERHILL_ELEVATOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_OUTSIDEWEST",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERLOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERELEVATOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERCORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_OUTSIDEEAST",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTIPARTNERROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTICORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLETOWERMULTIBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMELOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMECORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMEPREBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEDOMEBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACELOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACECORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPALACEBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDLOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDFLOOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPYRAMIDTOP",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENALOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENACORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEARENABATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYLOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYPREBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEFACTORYBATTLEROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKELOBBY",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKECORRIDOR",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKETHREEPATHROOM",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMNORMAL",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMFINAL",
+    "MAP_HNS_REGION_BATTLEFRONTIER_BATTLEPIKEROOMWILDMONS",
+    "MAP_HNS_REGION_BATTLEFRONTIER_RANKINGHALL",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE1",
+    "MAP_HNS_REGION_BATTLEFRONTIER_EXCHANGESERVICECORNER",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE2",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE3",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE4",
+    "MAP_HNS_REGION_BATTLEFRONTIER_SCOTTSHOUSE",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE5",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE6",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE7",
+    "MAP_HNS_REGION_BATTLEFRONTIER_RECEPTIONGATE",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE8",
+    "MAP_HNS_REGION_BATTLEFRONTIER_LOUNGE9",
+    "MAP_HNS_REGION_BATTLEFRONTIER_POKEMONCENTER_1F",
+    "MAP_HNS_REGION_BATTLEFRONTIER_POKEMONCENTER_2F",
+    "MAP_HNS_REGION_BATTLEFRONTIER_MART",
+    "MAP_HNS_REGION_CONTESTHALL",
+    "MAP_HNS_REGION_CONTESTHALLBEAUTY",
+    "MAP_HNS_REGION_CONTESTHALLCOOL",
+    "MAP_HNS_REGION_CONTESTHALLCUTE",
+    "MAP_HNS_REGION_CONTESTHALLSMART",
+    "MAP_HNS_REGION_CONTESTHALLTOUGH",
+    "MAP_HNS_REGION_LILYCOVECITY_CONTESTHALL",
+    "MAP_HNS_REGION_LILYCOVECITY_CONTESTLOBBY",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL1",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL2",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL3",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL4",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL5",
+    "MAP_HNS_REGION_UNUSEDCONTESTHALL6"
+  ],
+  "specials": [
+    {
+      "index": 6,
+      "name": "SetPlayerSecretBase"
+    },
+    {
+      "index": 7,
+      "name": "CheckPlayerHasSecretBase"
+    },
+    {
+      "index": 8,
+      "name": "EnterSecretBase"
+    },
+    {
+      "index": 9,
+      "name": "ClearAndLeaveSecretBase"
+    },
+    {
+      "index": 10,
+      "name": "MoveOutOfSecretBase"
+    },
+    {
+      "index": 11,
+      "name": "IsCurSecretBaseOwnedByAnotherPlayer"
+    },
+    {
+      "index": 12,
+      "name": "GetCurSecretBaseRegistrationValidity"
+    },
+    {
+      "index": 13,
+      "name": "ToggleCurSecretBaseRegistry"
+    },
+    {
+      "index": 14,
+      "name": "ShowSecretBaseDecorationMenu"
+    },
+    {
+      "index": 15,
+      "name": "ShowSecretBaseRegistryMenu"
+    },
+    {
+      "index": 16,
+      "name": "PrepSecretBaseBattleFlags"
+    },
+    {
+      "index": 17,
+      "name": "GetSecretBaseOwnerAndState"
+    },
+    {
+      "index": 18,
+      "name": "InitSecretBaseDecorationSprites"
+    },
+    {
+      "index": 19,
+      "name": "SetDecoration"
+    },
+    {
+      "index": 21,
+      "name": "GetSecretBaseTypeInFrontOfPlayer"
+    },
+    {
+      "index": 22,
+      "name": "SetSecretBaseOwnerGfxId"
+    },
+    {
+      "index": 23,
+      "name": "PutAwayDecorationIteration"
+    },
+    {
+      "index": 24,
+      "name": "EnterNewlyCreatedSecretBase"
+    },
+    {
+      "index": 26,
+      "name": "DoSecretBasePCTurnOffEffect"
+    },
+    {
+      "index": 27,
+      "name": "RecordMixingPlayerSpotTriggered"
+    },
+    {
+      "index": 30,
+      "name": "TryRecordMixLinkup"
+    },
+    {
+      "index": 37,
+      "name": "TryBerryBlenderLinkup"
+    },
+    {
+      "index": 72,
+      "name": "SetContestCategoryStringVarForInterview"
+    },
+    {
+      "index": 77,
+      "name": "GetContestWinnerId"
+    },
+    {
+      "index": 78,
+      "name": "GetContestPlayerId"
+    },
+    {
+      "index": 79,
+      "name": "GetNpcContestantLocalId"
+    },
+    {
+      "index": 80,
+      "name": "BufferContestWinnerTrainerName"
+    },
+    {
+      "index": 81,
+      "name": "BufferContestWinnerMonName"
+    },
+    {
+      "index": 82,
+      "name": "BufferContestTrainerAndMonNames"
+    },
+    {
+      "index": 83,
+      "name": "GetContestMonConditionRanking"
+    },
+    {
+      "index": 84,
+      "name": "SetContestTrainerGfxIds"
+    },
+    {
+      "index": 85,
+      "name": "TryEnterContestMon"
+    },
+    {
+      "index": 86,
+      "name": "GetContestantNamesAtRank"
+    },
+    {
+      "index": 87,
+      "name": "SetLinkContestPlayerGfx"
+    },
+    {
+      "index": 88,
+      "name": "GetContestMonCondition"
+    },
+    {
+      "index": 89,
+      "name": "HasMonWonThisContestBefore"
+    },
+    {
+      "index": 90,
+      "name": "GiveMonContestRibbon"
+    },
+    {
+      "index": 91,
+      "name": "IsContestDebugActive"
+    },
+    {
+      "index": 93,
+      "name": "TryContestGModeLinkup"
+    },
+    {
+      "index": 114,
+      "name": "TraderMenuGetDecoration"
+    },
+    {
+      "index": 116,
+      "name": "DoesPlayerHaveNoDecorations"
+    },
+    {
+      "index": 117,
+      "name": "IsDecorationCategoryFull"
+    },
+    {
+      "index": 118,
+      "name": "TraderShowDecorationMenu"
+    },
+    {
+      "index": 119,
+      "name": "TraderDoDecorationTrade"
+    },
+    {
+      "index": 135,
+      "name": "ShouldReadyContestArtist"
+    },
+    {
+      "index": 136,
+      "name": "SaveMuseumContestPainting"
+    },
+    {
+      "index": 137,
+      "name": "DoesContestCategoryHaveMuseumPainting"
+    },
+    {
+      "index": 139,
+      "name": "ShowContestPainting"
+    },
+    {
+      "index": 197,
+      "name": "ShowLinkBattleRecords"
+    },
+    {
+      "index": 233,
+      "name": "CallBattleTowerFunc"
+    },
+    {
+      "index": 234,
+      "name": "CallBattleDomeFunction"
+    },
+    {
+      "index": 235,
+      "name": "CallBattlePalaceFunction"
+    },
+    {
+      "index": 238,
+      "name": "CallBattleArenaFunction"
+    },
+    {
+      "index": 239,
+      "name": "CallBattleFactoryFunction"
+    },
+    {
+      "index": 240,
+      "name": "CallBattlePikeFunction"
+    },
+    {
+      "index": 241,
+      "name": "CallBattlePyramidFunction"
+    },
+    {
+      "index": 246,
+      "name": "ChoosePartyForBattleFrontier"
+    },
+    {
+      "index": 248,
+      "name": "GetBattleTowerSinglesStreak"
+    },
+    {
+      "index": 260,
+      "name": "ShowBerryBlenderRecordWindow"
+    },
+    {
+      "index": 279,
+      "name": "GetSecretBaseNearbyMapName"
+    },
+    {
+      "index": 300,
+      "name": "DoContestHallWarp"
+    },
+    {
+      "index": 303,
+      "name": "CopyCurSecretBaseOwnerName_StrVar1"
+    },
+    {
+      "index": 307,
+      "name": "InteractWithShieldOrTVDecoration"
+    },
+    {
+      "index": 320,
+      "name": "ShowContestEntryMonPic"
+    },
+    {
+      "index": 321,
+      "name": "HideContestEntryMonPic"
+    },
+    {
+      "index": 326,
+      "name": "GetContestMultiplayerId"
+    },
+    {
+      "index": 330,
+      "name": "TryInitBattleTowerAwardManObjectEvent"
+    },
+    {
+      "index": 331,
+      "name": "MoveOutOfSecretBaseFromOutside"
+    },
+    {
+      "index": 339,
+      "name": "TryHideBattleTowerReporter"
+    },
+    {
+      "index": 341,
+      "name": "GenerateContestRand"
+    },
+    {
+      "index": 351,
+      "name": "InitSecretBaseVars"
+    },
+    {
+      "index": 353,
+      "name": "DeclinedSecretBaseBattle"
+    },
+    {
+      "index": 354,
+      "name": "DrewSecretBaseBattle"
+    },
+    {
+      "index": 355,
+      "name": "WonSecretBaseBattle"
+    },
+    {
+      "index": 356,
+      "name": "LostSecretBaseBattle"
+    },
+    {
+      "index": 391,
+      "name": "GetMysteryGiftCardStat"
+    },
+    {
+      "index": 397,
+      "name": "ShouldContestLadyShowGoOnAir"
+    },
+    {
+      "index": 398,
+      "name": "HasPlayerGivenContestLadyPokeblock"
+    },
+    {
+      "index": 399,
+      "name": "Script_BufferContestLadyCategoryAndMonName"
+    },
+    {
+      "index": 400,
+      "name": "OpenPokeblockCaseForContestLady"
+    },
+    {
+      "index": 401,
+      "name": "SetContestLadyGivenPokeblock"
+    },
+    {
+      "index": 402,
+      "name": "GetContestLadyMonSpecies"
+    },
+    {
+      "index": 403,
+      "name": "GetContestLadyCategory"
+    },
+    {
+      "index": 404,
+      "name": "PutLilycoveContestLadyShowOnTheAir"
+    },
+    {
+      "index": 405,
+      "name": "CloseBattlePikeCurtain"
+    },
+    {
+      "index": 417,
+      "name": "RunUnionRoom"
+    },
+    {
+      "index": 420,
+      "name": "BufferUnionRoomPlayerName"
+    },
+    {
+      "index": 423,
+      "name": "Script_ResetUnionRoomTrade"
+    },
+    {
+      "index": 427,
+      "name": "IsPokemonJumpSpeciesInParty"
+    },
+    {
+      "index": 428,
+      "name": "ShowPokemonJumpRecords"
+    },
+    {
+      "index": 430,
+      "name": "ShowDodrioBerryPickingRecords"
+    },
+    {
+      "index": 434,
+      "name": "LinkContestWaitForConnection"
+    },
+    {
+      "index": 436,
+      "name": "LinkContestTryShowWirelessIndicator"
+    },
+    {
+      "index": 437,
+      "name": "LinkContestTryHideWirelessIndicator"
+    },
+    {
+      "index": 438,
+      "name": "IsWirelessContest"
+    },
+    {
+      "index": 442,
+      "name": "IsContestWithRSPlayer"
+    },
+    {
+      "index": 443,
+      "name": "ClearLinkContestFlags"
+    },
+    {
+      "index": 444,
+      "name": "TryContestEModeLinkup"
+    },
+    {
+      "index": 447,
+      "name": "BufferBattleTowerElevatorFloors"
+    },
+    {
+      "index": 450,
+      "name": "DoBattlePyramidMonsHaveHeldItem"
+    },
+    {
+      "index": 451,
+      "name": "BattlePyramidChooseMonHeldItems"
+    },
+    {
+      "index": 452,
+      "name": "SetBattleTowerLinkPlayerGfx"
+    },
+    {
+      "index": 473,
+      "name": "BufferBattleFrontierTutorMoveName"
+    },
+    {
+      "index": 474,
+      "name": "CloseBattleFrontierTutorWindow"
+    },
+    {
+      "index": 491,
+      "name": "SaveForBattleTowerLink"
+    },
+    {
+      "index": 502,
+      "name": "LinkRetireStatusWithBattleTowerPartner"
+    },
+    {
+      "index": 503,
+      "name": "BattleTowerReconnectLink"
+    },
+    {
+      "index": 504,
+      "name": "CallTrainerHillFunction"
+    },
+    {
+      "index": 508,
+      "name": "ShowBerryCrushRankings"
+    },
+    {
+      "index": 512,
+      "name": "PlayerNotAtTrainerHillEntrance"
+    },
+    {
+      "index": 513,
+      "name": "GetBattlePyramidHint"
+    },
+    {
+      "index": 514,
+      "name": "LoadLinkContestPlayerPalettes"
+    },
+    {
+      "index": 515,
+      "name": "ShowTrainerHillRecords"
+    },
+    {
+      "index": 524,
+      "name": "TrySetBattleTowerLinkType"
+    }
+  ]
+}
