@@ -1,6 +1,7 @@
 #include "global.h"
 #include "bag_categories.h"
 #include "item_menu.h"
+#include "malloc.h"
 #include "string_util.h"
 
 const u8 *const gBagCategoryNames[BAG_CATEGORIES_COUNT] = {
@@ -124,8 +125,9 @@ void BagCategory_Sort(u32 category, u32 sort)
         return;
     }
     // Sort only this category; preserve the placement/order of all other items.
-    struct ItemSlot slots[BAG_ITEMS_COUNT];
-    u8 indices[BAG_ITEMS_COUNT];
+    struct ItemSlot *slots = Alloc(pocket->capacity * sizeof(*slots));
+    u16 *indices = Alloc(pocket->capacity * sizeof(*indices));
+    if (!slots || !indices) {Free(slots);Free(indices);return;}
     u32 count = 0;
     for (u32 i = 0; i < pocket->capacity; i++)
     {
@@ -133,13 +135,15 @@ void BagCategory_Sort(u32 category, u32 sort)
         if (item != ITEM_NONE && GetItemBagCategory(item) == category)
         {
             indices[count] = i;
-            slots[count++] = pocket->itemSlots[i];
+            slots[count] = BagPocket_GetSlotData(pocket, i);
+            slots[count++].quantity ^= gSaveBlock2Ptr->encryptionKey;
         }
     }
-    if (count < 2) return;
+    if (count < 2) {Free(slots);Free(indices);return;}
     struct BagPocket view = {.itemSlots = slots, .capacity = count, .id = POCKET_ITEMS};
     SortItemsInBag(&view, sort);
-    for (u32 i = 0; i < count; i++) pocket->itemSlots[indices[i]] = slots[i];
+    for (u32 i = 0; i < count; i++) BagPocket_SetSlotData(pocket, indices[i], BagPocket_GetSlotData(&view, i));
+    Free(slots);Free(indices);
 }
 
 bool32 LegendsStore_CategoryAllowed(u32 category)

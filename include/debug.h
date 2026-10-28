@@ -2,6 +2,8 @@
 #define GUARD_DEBUG_H
 
 void Debug_ShowMainMenu(void);
+u32 Debug_FillPCBoxes(bool32 randomIvs);
+u32 Debug_FillBagCategory(u32 category);
 extern const u8 Debug_FlagsAndVarNotSetBattleConfigMessage[];
 const u8 *GetWeatherName(u32 weatherId);
 const struct Trainer* GetDebugAiTrainer(void);

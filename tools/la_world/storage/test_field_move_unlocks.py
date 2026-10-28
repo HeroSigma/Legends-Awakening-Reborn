@@ -7,7 +7,7 @@ exec(compile(helpers,'pc_helpers','exec'))
 D=R/'.la_work/field-move-test';D.mkdir(parents=True,exist_ok=True)
 proof=R/'docs/features/field-move-unlocks';proof.mkdir(exist_ok=True)
 start(0);invoke('ScriptGiveMon',151,10,0)
-party=symbols['gParties'];A=0x0203f000;V=A+0x300
+party=symbols['gParties'];A=0x0203fc00;V=A+0x300
 for slot in range(4):invoke('SetMonMoveSlot',party,0,slot)
 # Compiler resolves enum/ABI constants, including the native badge per skill.
 import tempfile,struct

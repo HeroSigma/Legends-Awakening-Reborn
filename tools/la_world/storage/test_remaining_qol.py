@@ -12,7 +12,7 @@ with tempfile.TemporaryDirectory() as td:
  subprocess.run(['arm-none-eabi-objcopy','-O','binary','--only-section=.rodata',str(td/'c.o'),str(td/'c.bin')],check=True)
  c=struct.unpack('<22I',(td/'c.bin').read_bytes())
 goods,nav,registered,seen,friend,egg,bad,species,woods,basement,oran,berry,ripe,planted,dayoff,stepoff,pid,move,ivs,partyflag,treeoff,treesize=c
-A=0x0203f000;V=A+0x300
+A=0x0203fc00;V=A+0x300
 invoke('ScriptGiveMon',1,10,0)
 party=symbols['gParties']
 def setdata(field,value):
@@ -22,7 +22,7 @@ def flags(g,n):
 for mode in [0,1]:
  invoke('StorageChangeMode',mode,1)
  invoke('CreateEgg',A,133,0);setdata(friend,3)
- invoke('SetBoxMonAt',0,29,A);invoke('SetBoxMonAt',1,0,A)
+ invoke('StorageWriteMon',0,29,A);invoke('StorageWriteMon',1,0,A)
  before=[invoke('GetBoxMonDataAt',0,29,f) for f in [pid,move,ivs]]
  for g,n in [(0,0),(1,0),(0,1)]:
   flags(g,n);invoke('LegendsNursery_AdvanceCycle',1)
@@ -36,12 +36,12 @@ for mode in [0,1]:
  check('still_egg_'+str(mode),invoke('GetBoxMonDataAt',0,29,egg)==1)
  check('inheritance_unchanged_'+str(mode),before==[invoke('GetBoxMonDataAt',0,29,f) for f in [pid,move,ivs]])
  # Normal Pokemon must not lose friendship in nursery.
- invoke('SetBoxMonAt',0,0,party)
+ invoke('StorageWriteMon',0,0,party)
  beforefriend=invoke('GetBoxMonDataAt',0,0,friend)
  invoke('LegendsNursery_AdvanceCycle',2)
  check('non_egg_friendship_'+str(mode),invoke('GetBoxMonDataAt',0,0,friend)==beforefriend)
  # The actual walking-cycle hatch checker advances nursery eggs.
- invoke('SetBoxMonAt',0,28,A)
+ invoke('StorageWriteMon',0,28,A)
  save1=rd(symbols['gSaveBlock1Ptr']);wr(save1+dayoff+stepoff,127,1)
  invoke('ShouldEggHatch')
  check('native_step_hook_'+str(mode),invoke('GetBoxMonDataAt',0,28,friend)<3)

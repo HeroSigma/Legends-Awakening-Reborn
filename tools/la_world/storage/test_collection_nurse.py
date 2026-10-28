@@ -7,7 +7,7 @@ mg=json.loads((R/'data/maps/map_groups.json').read_text())
 for mode in [0,1]:
  start(0);invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,8,0)
  # A marker in the final slot catches accidental loss or profile resets.
- invoke('SetBoxMonAt',59 if mode else 13,29,symbols['gParties'])
+ invoke('StorageWriteMon',59 if mode else 13,29,symbols['gParties'])
  for name in ['OldaleTown_PokemonCenter_1F','PetalburgCity_PokemonCenter_1F','LilycoveCity_PokemonCenter_1F']:
   for group,gname in enumerate(mg['group_order']):
    if name in mg[gname]:mapnum=mg[gname].index(name);break

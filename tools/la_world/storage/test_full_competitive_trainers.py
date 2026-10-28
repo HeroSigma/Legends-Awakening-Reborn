@@ -40,7 +40,7 @@ for key in manifest['excluded']:
 for mode in [0,1]:
  invoke('StorageChangeMode',mode,1)
  for key in ['TRAINER_ROXANNE_1','TRAINER_SIDNEY','TRAINER_WALLACE','TRAINER_BRENDAN_ROUTE_110_TREECKO','TRAINER_GRUNT_AQUA_HIDEOUT_1']:
-  tid=trainer_ids[key];t=invoke('LegendsTrainer_Get',tid,base+tid*ts);A=0x0203f000
+  tid=trainer_ids[key];t=invoke('LegendsTrainer_Get',tid,base+tid*ts);A=0x0203fc00
   invoke('CreateNPCTrainerPartyFromTrainer',A,t)
   for slot in range(6):
    mon=A+slot*100

@@ -1,5 +1,6 @@
 #include "global.h"
 #include "item_menu.h"
+#include "expanded_bag.h"
 #include "battle.h"
 #include "battle_controllers.h"
 #include "battle_pyramid.h"
@@ -58,13 +59,7 @@
 // number of item slots that could fit in a single pocket, + 1 for Cancel.
 // This constant picks the max of the existing pocket sizes.
 // By default, the largest pocket is BAG_TMHM_COUNT at 64.
-#define MAX_POCKET_ITEMS  ((max(BAG_TMHM_COUNT,              \
-                            max(BAG_BERRIES_COUNT,           \
-                            max(BAG_ITEMS_COUNT,             \
-                            max(BAG_KEYITEMS_COUNT,          \
-                                BAG_POKEBALLS_COUNT))))) + 1)
-
-// Up to 8 item slots can be visible at a time
+#define MAX_POCKET_ITEMS 256
 #define MAX_ITEMS_SHOWN 8
 
 enum {
@@ -109,6 +104,9 @@ enum {
 
 struct ListBuffer1 {
     struct ListMenuItem subBuffers[MAX_POCKET_ITEMS];
+    u16 nativeSlots[MAX_POCKET_ITEMS];
+    u8 category;
+    bool8 valid;
 };
 
 struct ListBuffer2 {
@@ -899,20 +897,46 @@ static u8 CreateBagInputHandlerTask(u8 location)
 
 static void AllocateBagItemListBuffers(void)
 {
-    sListBuffer1 = Alloc(sizeof(*sListBuffer1));
+    sListBuffer1 = AllocZeroed(sizeof(*sListBuffer1));
     sListBuffer2 = Alloc(sizeof(*sListBuffer2));
+}
+
+static struct ItemSlot BagMenu_GetSlot(u32 category,u32 position)
+{
+    if(sListBuffer1 && sListBuffer1->valid && sListBuffer1->category==category && position<MAX_POCKET_ITEMS) {
+        struct BagPocket *pocket=&gBagPockets[BagCategory_StoragePocket(category)];
+        u32 slot=sListBuffer1->nativeSlots[position];
+        if(slot<pocket->capacity)return BagPocket_GetSlotData(pocket,slot);
+        return (struct ItemSlot){0};
+    }
+    return BagCategory_GetSlot(category,position);
+}
+static enum Item BagMenu_GetItem(u32 category,u32 position)
+{
+    if(!sListBuffer1 || !sListBuffer1->valid || sListBuffer1->category!=category)
+        return BagCategory_GetItem(category,position);
+    return BagMenu_GetSlot(category,position).itemId;
 }
 
 static void LoadBagItemListBuffers(u8 pocketId)
 {
     u16 i;
     struct ListMenuItem *subBuffer;
+    struct BagPocket *pocket=&gBagPockets[BagCategory_StoragePocket(pocketId)];
+    u32 count=0;
+    for(u32 slot=0;slot<pocket->capacity;slot++) {
+        enum Item item=BagPocket_GetSlotData(pocket,slot).itemId;
+        if(item!=ITEM_NONE && GetItemBagCategory(item)==pocketId && count<MAX_POCKET_ITEMS)
+            sListBuffer1->nativeSlots[count++]=slot;
+    }
+    for(u32 slot=count;slot<MAX_POCKET_ITEMS;slot++)sListBuffer1->nativeSlots[slot]=pocket->capacity;
+    sListBuffer1->category=pocketId;sListBuffer1->valid=TRUE;
 
     if (!gBagMenu->hideCloseBagText)
     {
         for (i = 0; i < gBagMenu->numItemStacks[pocketId] - 1; i++)
         {
-            GetItemNameFromPocket(sListBuffer2->name[i], BagCategory_GetItem(pocketId, i));
+            GetItemNameFromPocket(sListBuffer2->name[i], BagMenu_GetItem(pocketId, i));
             subBuffer = sListBuffer1->subBuffers;
             subBuffer[i].name = sListBuffer2->name[i];
             subBuffer[i].id = i;
@@ -926,7 +950,7 @@ static void LoadBagItemListBuffers(u8 pocketId)
     {
         for (i = 0; i < gBagMenu->numItemStacks[pocketId]; i++)
         {
-            GetItemNameFromPocket(sListBuffer2->name[i], BagCategory_GetItem(pocketId, i));
+            GetItemNameFromPocket(sListBuffer2->name[i], BagMenu_GetItem(pocketId, i));
             subBuffer = sListBuffer1->subBuffers;
             subBuffer[i].name = sListBuffer2->name[i];
             subBuffer[i].id = i;
@@ -983,7 +1007,7 @@ static void BagMenu_MoveCursorCallback(s32 itemIndex, bool8 onInit, struct ListM
     {
         RemoveBagItemIconSprite(gBagMenu->itemIconSlot ^ 1);
         if (itemIndex != LIST_CANCEL)
-           AddBagItemIconSprite(BagCategory_GetItem(gBagPosition.pocket, itemIndex), gBagMenu->itemIconSlot);
+           AddBagItemIconSprite(BagMenu_GetItem(gBagPosition.pocket, itemIndex), gBagMenu->itemIconSlot);
         else
            AddBagItemIconSprite(ITEM_LIST_END, gBagMenu->itemIconSlot);
         gBagMenu->itemIconSlot ^= 1;
@@ -1007,7 +1031,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
                 BagMenu_PrintCursorAtPos(y, COLORID_NONE);
         }
 
-        struct ItemSlot itemSlot = BagCategory_GetSlot(gBagPosition.pocket, itemIndex);
+        struct ItemSlot itemSlot = BagMenu_GetSlot(gBagPosition.pocket, itemIndex);
 
         // Draw HM icon
         if (gBagPosition.pocket == POCKET_TM_HM && GetItemTMHMIndex(itemSlot.itemId) > NUM_TECHNICAL_MACHINES)
@@ -1035,7 +1059,7 @@ static void PrintItemDescription(int itemIndex)
     const u8 *str;
     if (itemIndex != LIST_CANCEL)
     {
-        str = GetItemDescription(BagCategory_GetItem(gBagPosition.pocket, itemIndex));
+        str = GetItemDescription(BagMenu_GetItem(gBagPosition.pocket, itemIndex));
     }
     else
     {
@@ -1105,6 +1129,7 @@ static void FreeBagMenu(void)
 {
     Free(sListBuffer2);
     Free(sListBuffer1);
+    sListBuffer1 = NULL;
     FreeAllWindowBuffers();
     Free(gBagMenu);
 }
@@ -1156,6 +1181,7 @@ static void Task_CloseBagMenu(u8 taskId)
 
 void UpdatePocketItemList(enum Pocket pocketId)
 {
+    if(sListBuffer1)sListBuffer1->valid=FALSE;
     if ((u32)pocketId >= BAG_CATEGORIES_COUNT)
         return; // shouldn't even get here
 
@@ -1305,7 +1331,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
                 {
                     struct ItemSlot tempItem;
                     data[1] = GetItemListPosition(gBagPosition.pocket);
-                    tempItem = BagCategory_GetSlot(gBagPosition.pocket, data[1]);
+                    tempItem = BagMenu_GetSlot(gBagPosition.pocket, data[1]);
                     data[2] = tempItem.quantity;
                     if (gBagPosition.cursorPosition[gBagPosition.pocket] == gBagMenu->numItemStacks[gBagPosition.pocket])
                         break;
@@ -1341,7 +1367,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
             break;
         default: // A_BUTTON
             {
-                struct ItemSlot itemSlot = BagCategory_GetSlot(gBagPosition.pocket, listPosition);
+                struct ItemSlot itemSlot = BagMenu_GetSlot(gBagPosition.pocket, listPosition);
                 PlaySE(SE_SELECT);
                 BagDestroyPocketScrollArrowPair();
                 BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
@@ -1521,7 +1547,7 @@ static void StartItemSwap(u8 taskId)
     ListMenuSetTemplateField(tListTaskId, LISTFIELD_CURSORKIND, CURSOR_INVISIBLE);
     tListPosition = gBagPosition.scrollPosition[gBagPosition.pocket] + gBagPosition.cursorPosition[gBagPosition.pocket];
     gBagMenu->toSwapPos = tListPosition;
-    CopyItemName(BagCategory_GetItem(gBagPosition.pocket, tListPosition), gStringVar1);
+    CopyItemName(BagMenu_GetItem(gBagPosition.pocket, tListPosition), gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
     BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL);
@@ -2412,6 +2438,7 @@ static bool8 IsWallysBag(void)
 
 static void PrepareBagForWallyTutorial(void)
 {
+    ExpandedBag_Suspend();
     u32 i;
 
     sTempWallyBag = AllocZeroed(sizeof(*sTempWallyBag));
@@ -2441,6 +2468,7 @@ static void RestoreBagAfterWallyTutorial(void)
         gBagPosition.scrollPosition[i] = sTempWallyBag->scrollPosition[i];
     }
     Free(sTempWallyBag);
+    ExpandedBag_Resume();
 }
 
 void DoWallyTutorialBagMenu(void)

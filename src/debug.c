@@ -1,4 +1,6 @@
 #include "global.h"
+#include "bag_categories.h"
+#include "expanded_bag.h"
 #include "battle.h"
 #include "battle_setup.h"
 #include "berry.h"
@@ -301,6 +303,16 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId);
 static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId);
 static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId);
 static void DebugAction_PCBag_Fill_PCItemStorage(u8 taskId);
+static void DebugAction_PCBag_Fill_All(u8 taskId);
+static void DebugAction_PCBag_Fill_Medicine(u8 taskId);
+static void DebugAction_PCBag_Fill_Equipment(u8 taskId);
+static void DebugAction_PCBag_Fill_Training(u8 taskId);
+static void DebugAction_PCBag_Fill_Evolution(u8 taskId);
+static void DebugAction_PCBag_Fill_Mega(u8 taskId);
+static void DebugAction_PCBag_Fill_Z(u8 taskId);
+static void DebugAction_PCBag_Fill_Tera(u8 taskId);
+static void DebugAction_PCBag_Fill_Treasures(u8 taskId);
+
 static void DebugAction_PCBag_Fill_PocketItems(u8 taskId);
 static void DebugAction_PCBag_Fill_PocketPokeBalls(u8 taskId);
 static void DebugAction_PCBag_Fill_PocketTMHM(u8 taskId);
@@ -606,6 +618,15 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
 
 static const struct DebugMenuOption sDebugMenu_Actions_PCBag_Fill[] =
 {
+    { COMPOUND_STRING("Fill Bag (all items)"), DebugAction_PCBag_Fill_All },
+    { COMPOUND_STRING("Fill Medicine"), DebugAction_PCBag_Fill_Medicine },
+    { COMPOUND_STRING("Fill Equipment"), DebugAction_PCBag_Fill_Equipment },
+    { COMPOUND_STRING("Fill Training"), DebugAction_PCBag_Fill_Training },
+    { COMPOUND_STRING("Fill Evolution"), DebugAction_PCBag_Fill_Evolution },
+    { COMPOUND_STRING("Fill Mega Stones"), DebugAction_PCBag_Fill_Mega },
+    { COMPOUND_STRING("Fill Z-Crystals"), DebugAction_PCBag_Fill_Z },
+    { COMPOUND_STRING("Fill Tera Shards"), DebugAction_PCBag_Fill_Tera },
+    { COMPOUND_STRING("Fill Treasures"), DebugAction_PCBag_Fill_Treasures },
     { COMPOUND_STRING("Fill PC Boxes Fast"),        DebugAction_PCBag_Fill_PCBoxes_Fast },
     { COMPOUND_STRING("Fill PC Boxes Slow (LAG!)"), DebugAction_PCBag_Fill_PCBoxes_Slow },
     { COMPOUND_STRING("Fill PC Items") ,            DebugAction_PCBag_Fill_PCItemStorage },
@@ -3623,76 +3644,63 @@ void DebugAction_TimeMenu_RedoDailyEvents(u8 taskId)
 // *******************************
 // Actions PCBag
 
-static enum Species GetNextSpecies(enum Species species)
+static enum Species GetNextSpecies(enum Species species, const u8 *seen)
 {
-    do {
-        species = (species < NUM_SPECIES - 1) ? species + 1 : 1;
-    } while (!IsSpeciesEnabled(species));
-    return species;
+    while (++species < NUM_SPECIES)
+        if (IsSpeciesEnabled(species) && !(seen[species / 8] & (1 << (species % 8)))) return species;
+    return SPECIES_NONE;
 }
 
-static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId) //Credit: Sierraffinity
+u32 Debug_FillPCBoxes(bool32 randomIvs)
 {
-    int boxId, boxPosition;
     struct BoxPokemon boxMon;
-    enum Species species = GetNextSpecies(SPECIES_NONE);
-    u8 speciesName[POKEMON_NAME_LENGTH + 1];
-
+    u8 *seen = AllocZeroed((NUM_SPECIES + 7) / 8);
+    if (!seen) return 0;
+    for (u32 box = 0; box < GetStorageBoxCount(); box++)
+        for (u32 slot = 0; slot < IN_BOX_COUNT; slot++) {
+            u32 owned = GetBoxMonDataAt(box, slot, MON_DATA_SPECIES);
+            if (owned < NUM_SPECIES) seen[owned / 8] |= 1 << (owned % 8);
+        }
+    enum Species species = GetNextSpecies(SPECIES_NONE, seen);
+    u32 added = 0;
+    if (species == SPECIES_NONE) {Free(seen);return 0;}
     CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
-    //mons are created with 0 IVs
-
-    for (boxId = 0; boxId < GetStorageBoxCount(); boxId++)
+    for (u32 box = 0; box < GetStorageBoxCount() && species != SPECIES_NONE; box++)
     {
-        for (boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++)
+        for (u32 slot = 0; slot < IN_BOX_COUNT && species != SPECIES_NONE; slot++)
         {
-            if (!GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SANITY_HAS_SPECIES))
+            if (GetBoxMonDataAt(box, slot, MON_DATA_SANITY_HAS_SPECIES)) continue;
+            if (randomIvs)
             {
-                StringCopy(speciesName, GetSpeciesName(species));
-                SetBoxMonData(&boxMon, MON_DATA_NICKNAME, &speciesName);
-                SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
-                GiveBoxMonInitialMoveset(&boxMon);
-                SetBoxMonAt(boxId, boxPosition, &boxMon);
-                species = GetNextSpecies(species);
+                CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
+                SetBoxMonIVs(&boxMon, USE_RANDOM_IVS);
             }
+            else
+            {
+                SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
+                SetBoxMonData(&boxMon, MON_DATA_NICKNAME, GetSpeciesName(species));
+            }
+            GiveBoxMonInitialMoveset(&boxMon);
+            if (!StorageWriteMon(box, slot, &boxMon)) {Free(seen);return added;}
+            added++;
+            species = GetNextSpecies(species, seen);
         }
     }
-
-    // Set flag for user convenience
+    Free(seen);
     FlagSet(FLAG_SYS_POKEMON_GET);
+    return added;
+}
+
+static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId)
+{
+    Debug_FillPCBoxes(FALSE);
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
 }
 
 static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId)
 {
-    int boxId, boxPosition;
-    struct BoxPokemon boxMon;
-    enum Species species = GetNextSpecies(SPECIES_NONE);
-    bool8 spaceAvailable = FALSE;
-
-    for (boxId = 0; boxId < GetStorageBoxCount(); boxId++)
-    {
-        for (boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++)
-        {
-            if (!GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SANITY_HAS_SPECIES))
-            {
-                if (!spaceAvailable)
-                    PlayBGM(MUS_RG_MYSTERY_GIFT);
-                CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
-                SetBoxMonIVs(&boxMon, USE_RANDOM_IVS);
-                GiveBoxMonInitialMoveset(&boxMon);
-                SetBoxMonAt(boxId, boxPosition, &boxMon);
-                species = GetNextSpecies(species);
-                spaceAvailable = TRUE;
-            }
-        }
-    }
-
-    // Set flag for user convenience
-    FlagSet(FLAG_SYS_POKEMON_GET);
-    if (spaceAvailable)
-        PlayBGM(GetCurrentMapMusic());
-
+    Debug_FillPCBoxes(TRUE);
     Debug_DestroyMenu_Full_Script(taskId, Debug_BoxFilledMessage);
 }
 
@@ -3707,60 +3715,34 @@ static void DebugAction_PCBag_Fill_PCItemStorage(u8 taskId)
     }
 }
 
-static void DebugAction_PCBag_Fill_PocketItems(u8 taskId)
+u32 Debug_FillBagCategory(u32 category)
 {
-    enum Item itemId;
-
-    for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
-    {
-        if (GetItemPocket(itemId) == POCKET_ITEMS && CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
+    u32 added=0;
+    for(u32 item=1;item<ITEMS_COUNT;item++) {
+        if(category<BAG_CATEGORIES_COUNT && GetItemBagCategory(item)!=category)continue;
+        u32 target=(GetItemImportance(item) || GetItemPocket(item)==POCKET_TM_HM)?1:MAX_BAG_ITEM_CAPACITY;
+        u32 owned=CountTotalItemQuantityInBag(item);
+        if(owned<target && AddBagItem(item,target-owned))added++;
     }
+    return added;
 }
-
-static void DebugAction_PCBag_Fill_PocketPokeBalls(u8 taskId)
-{
-    for (enum PokeBall ballId = BALL_STRANGE; ballId < POKEBALL_COUNT; ballId++)
-    {
-        if (CheckBagHasSpace(gPokeBalls[ballId].itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(gPokeBalls[ballId].itemId, MAX_BAG_ITEM_CAPACITY);
-    }
-}
-
-static void DebugAction_PCBag_Fill_PocketTMHM(u8 taskId)
-{
-    u16 index, itemId;
-
-    for (index = 0; index < NUM_ALL_MACHINES; index++)
-    {
-        itemId = GetTMHMItemId(index + 1);
-        if (CheckBagHasSpace(itemId, 1) && ItemIdToBattleMoveId(itemId) != MOVE_NONE)
-            AddBagItem(itemId, 1);
-    }
-}
-
-static void DebugAction_PCBag_Fill_PocketBerries(u8 taskId)
-{
-    enum Item itemId;
-
-    for (enum BerryId berryId = 1; berryId < NUM_BERRIES; berryId++)
-    {
-        itemId = BerryTypeToItemId(berryId);
-        if (CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
-    }
-}
-
-static void DebugAction_PCBag_Fill_PocketKeyItems(u8 taskId)
-{
-    enum Item itemId;
-
-    for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
-    {
-        if (GetItemPocket(itemId) == POCKET_KEY_ITEMS && CheckBagHasSpace(itemId, 1))
-            AddBagItem(itemId, 1);
-    }
-}
+#define DEBUG_FILL_CATEGORY(name,category) \
+static void DebugAction_PCBag_Fill_##name(u8 taskId) { Debug_FillBagCategory(category); }
+DEBUG_FILL_CATEGORY(All,BAG_CATEGORIES_COUNT)
+DEBUG_FILL_CATEGORY(PocketItems,BAG_REGULAR)
+DEBUG_FILL_CATEGORY(PocketPokeBalls,BAG_BALLS)
+DEBUG_FILL_CATEGORY(PocketTMHM,BAG_MACHINES)
+DEBUG_FILL_CATEGORY(PocketBerries,BAG_BERRIES)
+DEBUG_FILL_CATEGORY(PocketKeyItems,BAG_KEYS)
+DEBUG_FILL_CATEGORY(Medicine,BAG_MEDICINE)
+DEBUG_FILL_CATEGORY(Equipment,BAG_EQUIPMENT)
+DEBUG_FILL_CATEGORY(Training,BAG_TRAINING)
+DEBUG_FILL_CATEGORY(Evolution,BAG_EVOLUTION)
+DEBUG_FILL_CATEGORY(Mega,BAG_MEGA_STONES)
+DEBUG_FILL_CATEGORY(Z,BAG_Z_CRYSTALS)
+DEBUG_FILL_CATEGORY(Tera,BAG_TERA_SHARDS)
+DEBUG_FILL_CATEGORY(Treasures,BAG_TREASURES)
+#undef DEBUG_FILL_CATEGORY
 
 static void DebugAction_PCBag_ClearBag(u8 taskId)
 {

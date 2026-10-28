@@ -3,7 +3,7 @@ from probe import *
 import hashlib, tempfile
 D=R/'docs/la_world/pool_framework';D.mkdir(parents=True,exist_ok=True)
 # Scratch lies beyond the linked EWRAM footprint; no user battery save is loaded.
-BASE=0x0203f000
+BASE=0x03007000
 RULES=BASE+0x100
 RESULT=BASE+0x180
 assembly=r"""

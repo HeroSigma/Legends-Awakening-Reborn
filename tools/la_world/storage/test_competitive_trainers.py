@@ -45,7 +45,7 @@ for mode in [0,1]:
   for slot in range(6):check('legal_member_'+str((mode,id,slot)),invoke('LegendsTrainer_MemberLegal',team+slot*ms)==1)
   g=invoke('LegendsTrainer_Gimmick',id)
   check('stable_gimmick_'+str((mode,id)),g in [1,2] and all(invoke('LegendsTrainer_Gimmick',id)==g for _ in range(8)))
-  A=0x0203f000
+  A=0x0203fc00
   invoke('CreateNPCTrainerPartyFromTrainer',A,t)
   for slot in range(6):
    mon=A+slot*100
@@ -64,7 +64,7 @@ for mode in [0,1]:
   other=ids[(ids.index(id)+1)%4];invoke('LegendsTrainer_Get',other,base+other*ts)
   check('independent_views_'+str((mode,id)),before==bytes(rd(team+i,1) for i in range(ms*6)))
 # Mutated scratch copies must reject early evolution, over-cap levels and illegal moves.
-source=symbols['sTeam_RICK'];scratch=0x0203f000
+source=symbols['sTeam_RICK'];scratch=0x0203fc00
 for i in range(ms):wr(scratch+i,rd(source+i,1),1)
 wr(scratch+leveloff,9,1)
 check('reject_early_butterfree',invoke('LegendsTrainer_MemberLegal',scratch)==0)

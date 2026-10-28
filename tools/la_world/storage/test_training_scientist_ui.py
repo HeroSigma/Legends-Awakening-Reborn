@@ -22,6 +22,8 @@ def begin():
  tap(1);menu(0)
 for mode in [0,1]:
  start(0);invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,5,0)
+ # Ensure edits differ from the generated Pokemon's randomized initial values.
+ setdata('MON_DATA_HIDDEN_NATURE',0);setdata('MON_DATA_ATK_IV',31)
  invoke('FlagSet',c['FLAG_LA_RED_DEX_GIFTS'])
  if mode:
   for i in range(8):invoke('FlagSet',c['FLAG_BADGE01_GET']+i)

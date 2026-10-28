@@ -12,7 +12,7 @@ with tempfile.TemporaryDirectory() as td:
  c=dict(zip(names,struct.unpack('<'+str(len(names))+'I',(td/'c.bin').read_bytes())))
 def get(field):return invoke('GetMonData3',symbols['gParties'],c[field],0)
 def setdata(field,value):
- wr(0x0203f000,value);invoke('SetMonData',symbols['gParties'],c[field],0x0203f000)
+ wr(0x0203fc00,value);invoke('SetMonData',symbols['gParties'],c[field],0x0203fc00)
 def vars(action,stat=0,value=0):
  for key,val in [('gSpecialVar_0x8008',action),('gSpecialVar_0x8006',stat),('gSpecialVar_0x8007',value),('gSpecialVar_0x8009',0)]:wr(symbols[key],val,2)
 def result():return rd(symbols['gSpecialVar_Result'],2)
@@ -56,7 +56,7 @@ for mode in [0,1]:
  for n,value in identity.items():check('identity_'+str((mode,n)),get(n)==value)
  check('money_untouched_'+str(mode),invoke('GetMoney',rd(symbols['gSaveBlock1Ptr'])+c['offsetof(struct SaveBlock1,money)'])==money)
  # Round-trip through real box accessors and save/load in each storage mode.
- invoke('SetBoxMonAt',0,0,symbols['gParties']);invoke('StorageFlush')
+ invoke('StorageWriteMon',0,0,symbols['gParties']);invoke('StorageFlush')
  check('save_'+str(mode),invoke('TrySavingData',0)==1)
  check('load_'+str(mode),invoke('LoadGameSave',0)==1)
  check('stored_nature_'+str(mode),invoke('GetBoxMonDataAt',0,0,c['MON_DATA_HIDDEN_NATURE'])==24)

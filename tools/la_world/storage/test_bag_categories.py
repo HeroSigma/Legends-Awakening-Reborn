@@ -73,7 +73,7 @@ for mode in [0,1]:
  for _ in range(3):tap(1);frames(30)
  tap(2);frames(180)
  # Healing from Medicine must consume the selected medicine, not an underlying slot.
- wr(0x0203f000,1);invoke('SetMonData',symbols['gParties'],c['MON_DATA_HP'],0x0203f000)
+ wr(0x0203fc00,1);invoke('SetMonData',symbols['gParties'],c['MON_DATA_HP'],0x0203fc00)
  openbag(c['BAG_MEDICINE'])
  tap(1);frames(20);selected=rd(symbols['gSpecialVar_ItemId'],2)
  quantity=invoke('CountTotalItemQuantityInBag',selected)

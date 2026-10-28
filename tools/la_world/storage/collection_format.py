@@ -68,24 +68,48 @@ def encode_slot(schema,blocks,pc,extra,counter,rotation=0):
 
 def decode_slot(schema,slot):
     if len(slot)!=SECTOR*SLOT_SECTORS:raise InvalidSave('slot size')
-    chunks={};counters=set()
+    chunks={};counters=set();versions=set()
     for i in range(SLOT_SECTORS):
         s=slot[i*SECTOR:(i+1)*SECTOR]
         logical,check,sig,counter=struct.unpack_from('<HHII',s,4084)
         if logical>=SLOT_SECTORS or logical in chunks or sig!=SIGNATURE:raise InvalidSave('sector identity')
-        if s[:8]!=struct.pack('<4sHH',b'LACS',VERSION,CHUNK):raise InvalidSave('sector version')
+        marker,sector_version,chunk_size=struct.unpack_from('<4sHH',s)
+        if marker!=b'LACS' or sector_version not in [2,3] or chunk_size!=CHUNK:raise InvalidSave('sector version')
+        versions.add(sector_version)
         if check!=checksum(s[:4084]):raise InvalidSave('sector checksum')
         if struct.unpack_from('<I',s,8)[0]!=zlib.crc32(struct.pack('<HI',logical,counter)+s[:8]+s[12:4084]):raise InvalidSave('sector CRC')
         chunks[logical]=s[12:4084];counters.add(counter)
-    if len(counters)!=1:raise InvalidSave('mixed generations')
+    if len(counters)!=1 or len(versions)!=1:raise InvalidSave('mixed generations')
     data=b''.join(chunks[i] for i in range(SLOT_SECTORS))
     magic,version,size,pc_size,crc=struct.unpack_from('<8sIIII',data)
+    item_count=struct.unpack_from('<I',data,60)[0] if version==3 else 0
+    bag_bytes=((item_count-1)*10+7)//8 if item_count else 0
     expected=schema['story_bytes']+schema['pc_bytes']+schema['sizes']['SaveBlock3']
-    if magic!=b'LACOLL2\0' or version!=VERSION or size!=expected or pc_size!=schema['pc_bytes']:raise InvalidSave('payload header')
+    if version==3:expected+=-744-200-112+125+bag_bytes
+    if magic!=b'LACOLL2\0' or version not in [2,3] or version not in versions or size!=expected or pc_size!=schema['pc_bytes']:raise InvalidSave('payload header')
     if data[24:56]!=bytes.fromhex(schema['abi_sha256']):raise InvalidSave('incompatible ABI')
     if struct.unpack_from('<I',data,56)[0]!=zlib.crc32(data[:56]):raise InvalidSave('header CRC')
     body=data[64:64+size]
     if zlib.crc32(body)!=crc:raise InvalidSave('payload CRC')
+    if version==3:
+        if not 1<item_count<=1024:raise InvalidSave('bag schema')
+        blocks={};pos=0
+        cuts={'SaveBlock1':[(1176,2120)],'SaveBlock2':[(40,152)]}
+        for name in ['SaveBlock1','SaveBlock2']:
+            restored=bytearray(schema['sizes'][name])
+            for start,end in keep_ranges(schema,name):
+                parts=[(start,end)]
+                for lo,hi in cuts[name]:
+                    parts=[part for a,b in parts for part in ([(a,b)] if b<=lo or a>=hi else ([(a,lo)] if a<lo else [])+([(hi,b)] if b>hi else []))]
+                for a,b in parts:restored[a:b]=body[pos:pos+b-a];pos+=b-a
+            blocks[name]=restored
+        pc_items=int.from_bytes(body[pos:pos+125],'little');pos+=125
+        for i in range(50):
+            slot=(pc_items>>(i*20))&((1<<20)-1)
+            struct.pack_into('<HH',blocks['SaveBlock1'],1176+i*4,slot&1023,slot>>10)
+        packed_bag=int.from_bytes(body[pos:pos+bag_bytes],'little');pos+=bag_bytes
+        quantities={item:(packed_bag>>((item-1)*10))&1023 for item in range(1,item_count)}
+        return dict(counter=counters.pop(),blocks={k:bytes(v) for k,v in blocks.items()},bag_quantities=quantities,pc=body[pos:pos+pc_size],extra=body[pos+pc_size:],version=3)
     story_end=schema['story_bytes'];pc_end=story_end+pc_size
     return dict(counter=counters.pop(),blocks=unpack_story(schema,body[:story_end]),pc=body[story_end:pc_end],extra=body[pc_end:])
 
