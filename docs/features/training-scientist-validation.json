@@ -2,7 +2,7 @@
   "passed": true,
   "assertions": 358,
   "centers": 17,
-  "rom_sha256": "612bb8c725f882e2e43118fe2af6c2450ca566917b98a53e5a2bd4182a81da95",
+  "rom_sha256": "daea586747bb15fa2ff08c37be2751375655b1495f7352a54f4279b53437420b",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -237,19 +237,19 @@
       "passed": true
     },
     {
-      "test": "prepare_(3, 5, 0)",
-      "passed": true
-    },
-    {
-      "test": "commit_(3, 5, 0)",
-      "passed": true
-    },
-    {
       "test": "prepare_(3, 5, 31)",
       "passed": true
     },
     {
       "test": "commit_(3, 5, 31)",
+      "passed": true
+    },
+    {
+      "test": "prepare_(3, 5, 0)",
+      "passed": true
+    },
+    {
+      "test": "commit_(3, 5, 0)",
       "passed": true
     },
     {
@@ -781,19 +781,19 @@
       "passed": true
     },
     {
-      "test": "prepare_(3, 0, 0)",
-      "passed": true
-    },
-    {
-      "test": "commit_(3, 0, 0)",
-      "passed": true
-    },
-    {
       "test": "prepare_(3, 0, 31)",
       "passed": true
     },
     {
       "test": "commit_(3, 0, 31)",
+      "passed": true
+    },
+    {
+      "test": "prepare_(3, 0, 0)",
+      "passed": true
+    },
+    {
+      "test": "commit_(3, 0, 0)",
       "passed": true
     },
     {
