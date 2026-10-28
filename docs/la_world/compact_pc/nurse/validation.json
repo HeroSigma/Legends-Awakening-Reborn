@@ -1,0 +1,1071 @@
+{
+  "passed": true,
+  "assertions": 266,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(0, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(0, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(0, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(0, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(0, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(0, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(0, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(0, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(0, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(0, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(0, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(0, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetPlayerSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CheckPlayerHasSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_EnterSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ClearAndLeaveSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_MoveOutOfSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsCurSecretBaseOwnedByAnotherPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetCurSecretBaseRegistrationValidity",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ToggleCurSecretBaseRegistry",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowSecretBaseDecorationMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowSecretBaseRegistryMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_PrepSecretBaseBattleFlags",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetSecretBaseOwnerAndState",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_InitSecretBaseDecorationSprites",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetSecretBaseTypeInFrontOfPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetSecretBaseOwnerGfxId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_PutAwayDecorationIteration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_EnterNewlyCreatedSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DoSecretBasePCTurnOffEffect",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_RecordMixingPlayerSpotTriggered",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryRecordMixLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryBerryBlenderLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetContestCategoryStringVarForInterview",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestWinnerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestPlayerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetNpcContestantLocalId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BufferContestWinnerTrainerName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BufferContestWinnerMonName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BufferContestTrainerAndMonNames",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestMonConditionRanking",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetContestTrainerGfxIds",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryEnterContestMon",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestantNamesAtRank",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetLinkContestPlayerGfx",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestMonCondition",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_HasMonWonThisContestBefore",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GiveMonContestRibbon",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsContestDebugActive",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryContestGModeLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TraderMenuGetDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DoesPlayerHaveNoDecorations",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsDecorationCategoryFull",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TraderShowDecorationMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TraderDoDecorationTrade",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShouldReadyContestArtist",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SaveMuseumContestPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DoesContestCategoryHaveMuseumPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowContestPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowLinkBattleRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattleTowerFunc",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattleDomeFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattlePalaceFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattleArenaFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattleFactoryFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattlePikeFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallBattlePyramidFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ChoosePartyForBattleFrontier",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetBattleTowerSinglesStreak",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowBerryBlenderRecordWindow",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetSecretBaseNearbyMapName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DoContestHallWarp",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CopyCurSecretBaseOwnerName_StrVar1",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_InteractWithShieldOrTVDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowContestEntryMonPic",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_HideContestEntryMonPic",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestMultiplayerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryInitBattleTowerAwardManObjectEvent",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_MoveOutOfSecretBaseFromOutside",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryHideBattleTowerReporter",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GenerateContestRand",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_InitSecretBaseVars",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DeclinedSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DrewSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_WonSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LostSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetMysteryGiftCardStat",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShouldContestLadyShowGoOnAir",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_HasPlayerGivenContestLadyPokeblock",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_Script_BufferContestLadyCategoryAndMonName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_OpenPokeblockCaseForContestLady",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetContestLadyGivenPokeblock",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestLadyMonSpecies",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetContestLadyCategory",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_PutLilycoveContestLadyShowOnTheAir",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CloseBattlePikeCurtain",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_RunUnionRoom",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_Script_ResetUnionRoomTrade",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsPokemonJumpSpeciesInParty",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowPokemonJumpRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowDodrioBerryPickingRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LinkContestWaitForConnection",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LinkContestTryShowWirelessIndicator",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LinkContestTryHideWirelessIndicator",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsWirelessContest",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_IsContestWithRSPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ClearLinkContestFlags",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TryContestEModeLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BufferBattleTowerElevatorFloors",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_DoBattlePyramidMonsHaveHeldItem",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BattlePyramidChooseMonHeldItems",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SetBattleTowerLinkPlayerGfx",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BufferBattleFrontierTutorMoveName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CloseBattleFrontierTutorWindow",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_SaveForBattleTowerLink",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LinkRetireStatusWithBattleTowerPartner",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_BattleTowerReconnectLink",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_CallTrainerHillFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowBerryCrushRankings",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_GetBattlePyramidHint",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_LoadLinkContestPlayerPalettes",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_ShowTrainerHillRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_0_TrySetBattleTowerLinkType",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_HealPlayerParty",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_CountPlayerTrainerStars",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_IsPokerusInParty",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_PlayerNotAtTrainerHillEntrance",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_BufferUnionRoomPlayerName",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_LegendsTraining_Menu",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_0_LegendsTraining_Commit",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(1, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(1, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(1, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(1, 'OldaleTown_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(1, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(1, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(1, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(1, 'PetalburgCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_no_warning_(1, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "nurse_heals_(1, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_preserved_(1, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "stored_marker_preserved_(1, 'LilycoveCity_PokemonCenter_1F')",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetPlayerSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CheckPlayerHasSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_EnterSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ClearAndLeaveSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_MoveOutOfSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsCurSecretBaseOwnedByAnotherPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetCurSecretBaseRegistrationValidity",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ToggleCurSecretBaseRegistry",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowSecretBaseDecorationMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowSecretBaseRegistryMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_PrepSecretBaseBattleFlags",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetSecretBaseOwnerAndState",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_InitSecretBaseDecorationSprites",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetSecretBaseTypeInFrontOfPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetSecretBaseOwnerGfxId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_PutAwayDecorationIteration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_EnterNewlyCreatedSecretBase",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DoSecretBasePCTurnOffEffect",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_RecordMixingPlayerSpotTriggered",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryRecordMixLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryBerryBlenderLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetContestCategoryStringVarForInterview",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestWinnerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestPlayerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetNpcContestantLocalId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BufferContestWinnerTrainerName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BufferContestWinnerMonName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BufferContestTrainerAndMonNames",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestMonConditionRanking",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetContestTrainerGfxIds",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryEnterContestMon",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestantNamesAtRank",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetLinkContestPlayerGfx",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestMonCondition",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_HasMonWonThisContestBefore",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GiveMonContestRibbon",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsContestDebugActive",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryContestGModeLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TraderMenuGetDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DoesPlayerHaveNoDecorations",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsDecorationCategoryFull",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TraderShowDecorationMenu",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TraderDoDecorationTrade",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShouldReadyContestArtist",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SaveMuseumContestPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DoesContestCategoryHaveMuseumPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowContestPainting",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowLinkBattleRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattleTowerFunc",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattleDomeFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattlePalaceFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattleArenaFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattleFactoryFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattlePikeFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallBattlePyramidFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ChoosePartyForBattleFrontier",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetBattleTowerSinglesStreak",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowBerryBlenderRecordWindow",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetSecretBaseNearbyMapName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DoContestHallWarp",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CopyCurSecretBaseOwnerName_StrVar1",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_InteractWithShieldOrTVDecoration",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowContestEntryMonPic",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_HideContestEntryMonPic",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestMultiplayerId",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryInitBattleTowerAwardManObjectEvent",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_MoveOutOfSecretBaseFromOutside",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryHideBattleTowerReporter",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GenerateContestRand",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_InitSecretBaseVars",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DeclinedSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DrewSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_WonSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LostSecretBaseBattle",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetMysteryGiftCardStat",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShouldContestLadyShowGoOnAir",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_HasPlayerGivenContestLadyPokeblock",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_Script_BufferContestLadyCategoryAndMonName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_OpenPokeblockCaseForContestLady",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetContestLadyGivenPokeblock",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestLadyMonSpecies",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetContestLadyCategory",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_PutLilycoveContestLadyShowOnTheAir",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CloseBattlePikeCurtain",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_RunUnionRoom",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_Script_ResetUnionRoomTrade",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsPokemonJumpSpeciesInParty",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowPokemonJumpRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowDodrioBerryPickingRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LinkContestWaitForConnection",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LinkContestTryShowWirelessIndicator",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LinkContestTryHideWirelessIndicator",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsWirelessContest",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_IsContestWithRSPlayer",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ClearLinkContestFlags",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TryContestEModeLinkup",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BufferBattleTowerElevatorFloors",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_DoBattlePyramidMonsHaveHeldItem",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BattlePyramidChooseMonHeldItems",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SetBattleTowerLinkPlayerGfx",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BufferBattleFrontierTutorMoveName",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CloseBattleFrontierTutorWindow",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_SaveForBattleTowerLink",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LinkRetireStatusWithBattleTowerPartner",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_BattleTowerReconnectLink",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_CallTrainerHillFunction",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowBerryCrushRankings",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_GetBattlePyramidHint",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_LoadLinkContestPlayerPalettes",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_ShowTrainerHillRecords",
+      "passed": true
+    },
+    {
+      "test": "named_gate_1_TrySetBattleTowerLinkType",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_HealPlayerParty",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_CountPlayerTrainerStars",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_IsPokerusInParty",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_PlayerNotAtTrainerHillEntrance",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_BufferUnionRoomPlayerName",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_LegendsTraining_Menu",
+      "passed": true
+    },
+    {
+      "test": "ordinary_service_1_LegendsTraining_Commit",
+      "passed": true
+    }
+  ],
+  "rom_sha256": "c162cf9117317176efb9a09d6db56f25f4da71a95dcba510eb5374f8e82a30f4"
+}

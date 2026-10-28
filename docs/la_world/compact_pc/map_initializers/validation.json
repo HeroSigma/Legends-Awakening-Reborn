@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 58,
-  "rom_sha256": "15e641916d000b7400593ad950b4d9e5e0c8ca72f411b6ff9216e0cf14ec06c8",
+  "assertions": 68,
+  "rom_sha256": "c162cf9117317176efb9a09d6db56f25f4da71a95dcba510eb5374f8e82a30f4",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -25,6 +25,26 @@
     },
     {
       "test": "initializer_allowed_0_Script_GetLilycoveLadyId",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_PlayerNotAtTrainerHillEntrance",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_BufferUnionRoomPlayerName",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_HealPlayerParty",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_CountPlayerTrainerStars",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_0_IsPokerusInParty",
       "passed": true
     },
     {
@@ -137,6 +157,26 @@
     },
     {
       "test": "initializer_allowed_1_Script_GetLilycoveLadyId",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_PlayerNotAtTrainerHillEntrance",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_BufferUnionRoomPlayerName",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_HealPlayerParty",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_CountPlayerTrainerStars",
+      "passed": true
+    },
+    {
+      "test": "initializer_allowed_1_IsPokerusInParty",
       "passed": true
     },
     {

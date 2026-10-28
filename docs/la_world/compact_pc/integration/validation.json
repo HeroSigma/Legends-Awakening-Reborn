@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "rom_sha256": "620a1324d0df33bc4c7fde08d59c6256c2ea9630cefe8b17d1e438199d2f5f9e",
-  "assertions": 2202,
+  "rom_sha256": "c162cf9117317176efb9a09d6db56f25f4da71a95dcba510eb5374f8e82a30f4",
+  "assertions": 2196,
   "full_pc_scan_frames": 7,
   "checks": [
     {
@@ -8069,14 +8069,6 @@
       "passed": true
     },
     {
-      "test": "special_id_BufferUnionRoomPlayerName",
-      "passed": true
-    },
-    {
-      "test": "normal_activity_BufferUnionRoomPlayerName",
-      "passed": true
-    },
-    {
       "test": "special_id_Script_ResetUnionRoomTrade",
       "passed": true
     },
@@ -8250,14 +8242,6 @@
     },
     {
       "test": "normal_activity_ShowBerryCrushRankings",
-      "passed": true
-    },
-    {
-      "test": "special_id_PlayerNotAtTrainerHillEntrance",
-      "passed": true
-    },
-    {
-      "test": "normal_activity_PlayerNotAtTrainerHillEntrance",
       "passed": true
     },
     {
@@ -8641,10 +8625,6 @@
       "passed": true
     },
     {
-      "test": "collection_activity_BufferUnionRoomPlayerName",
-      "passed": true
-    },
-    {
       "test": "collection_activity_Script_ResetUnionRoomTrade",
       "passed": true
     },
@@ -8730,10 +8710,6 @@
     },
     {
       "test": "collection_activity_ShowBerryCrushRankings",
-      "passed": true
-    },
-    {
-      "test": "collection_activity_PlayerNotAtTrainerHillEntrance",
       "passed": true
     },
     {

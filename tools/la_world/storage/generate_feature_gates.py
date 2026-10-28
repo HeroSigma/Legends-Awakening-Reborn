@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[3]
 SPECIAL_PATTERN=r'Contest|TrainerHill|BattleFrontier|BattleTower|BattleTent|BattlePike|BattleDome|BattlePalace|BattleFactory|BattleArena|BattlePyramid|SecretBase|Decoration|BerryBlender|RecordMix|MysteryGift|UnionRoom|LilycoveLady|PokemonJump|BerryCrush|BerryPick|BattleRecords'
 # These support ordinary map initialization/identity, not activity entry.
 # InitUnionRoom itself checks whether the current map needs wireless setup.
-ALLOWED_SETUP_SPECIALS={'InitUnionRoom','SetLilycoveLadyGfx','Script_GetLilycoveLadyId'}
+ALLOWED_SETUP_SPECIALS={'InitUnionRoom','SetLilycoveLadyGfx','Script_GetLilycoveLadyId','PlayerNotAtTrainerHillEntrance','BufferUnionRoomPlayerName'}
 MAP_PATTERN=r'BattleFrontier|BattleTent|TrainerHill|SecretBase|Contest|BerryBlender|UnionRoom|RecordCorner'
 
 def generate(check=False):
@@ -19,8 +19,16 @@ def generate(check=False):
     p=R/'src/la_pc_features.c';s=p.read_text()
     a=s.index('static const u16 sRetiredMaps[] = {');b=s.index('};',a)+2
     updated=s[:a]+'static const u16 sRetiredMaps[] = {\n'+''.join('    '+n+',\n' for n in maps)+'};'+s[b:]
-    a=updated.index('    switch(id) {');b=updated.index('        return TRUE;',a)
-    updated=updated[:a]+'    switch(id) {\n'+''.join('    case %d: // %s\n'%(i,n) for i,n in blocked)+updated[b:]
+    # Reference linker-defined SPECIAL symbols rather than baking mutable table
+    # indices into C. Appending/inserting a special can never retarget a gate.
+    a=updated.index('// BEGIN NAMED COLLECTION SPECIAL GATES') if '// BEGIN NAMED COLLECTION SPECIAL GATES' in updated else updated.index('bool32 LaPcBlockedSpecial(u32 id)')
+    b=updated.index('bool32 LaPcBlockWarp',a)
+    block='// BEGIN NAMED COLLECTION SPECIAL GATES\n'
+    block+=''.join('extern const u8 SPECIAL_'+name+'[];\n' for _,name in blocked)
+    block+='static const u32 sRetiredSpecials[] = {\n'
+    block+=''.join('    (u32)SPECIAL_'+name+',\n' for _,name in blocked)
+    block+='};\nbool32 LaPcBlockedSpecial(u32 id)\n{\n    if (!StorageIsCollectionMode()) return FALSE;\n    for (u32 i=0;i<ARRAY_COUNT(sRetiredSpecials);i++)\n        if (id==sRetiredSpecials[i]) return TRUE;\n    return FALSE;\n}\n// END NAMED COLLECTION SPECIAL GATES\n'
+    updated=updated[:a]+block+updated[b:]
     if check:
         assert updated==s,'collection feature gates need regeneration'
     else:

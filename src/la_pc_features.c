@@ -201,128 +201,241 @@ bool32 LaPcRetiredMap(u32 group, u32 num)
         if(MAP_GROUP(sRetiredMaps[i])==group && MAP_NUM(sRetiredMaps[i])==num) return TRUE;
     return FALSE;
 }
+// BEGIN NAMED COLLECTION SPECIAL GATES
+extern const u8 SPECIAL_SetPlayerSecretBase[];
+extern const u8 SPECIAL_CheckPlayerHasSecretBase[];
+extern const u8 SPECIAL_EnterSecretBase[];
+extern const u8 SPECIAL_ClearAndLeaveSecretBase[];
+extern const u8 SPECIAL_MoveOutOfSecretBase[];
+extern const u8 SPECIAL_IsCurSecretBaseOwnedByAnotherPlayer[];
+extern const u8 SPECIAL_GetCurSecretBaseRegistrationValidity[];
+extern const u8 SPECIAL_ToggleCurSecretBaseRegistry[];
+extern const u8 SPECIAL_ShowSecretBaseDecorationMenu[];
+extern const u8 SPECIAL_ShowSecretBaseRegistryMenu[];
+extern const u8 SPECIAL_PrepSecretBaseBattleFlags[];
+extern const u8 SPECIAL_GetSecretBaseOwnerAndState[];
+extern const u8 SPECIAL_InitSecretBaseDecorationSprites[];
+extern const u8 SPECIAL_SetDecoration[];
+extern const u8 SPECIAL_GetSecretBaseTypeInFrontOfPlayer[];
+extern const u8 SPECIAL_SetSecretBaseOwnerGfxId[];
+extern const u8 SPECIAL_PutAwayDecorationIteration[];
+extern const u8 SPECIAL_EnterNewlyCreatedSecretBase[];
+extern const u8 SPECIAL_DoSecretBasePCTurnOffEffect[];
+extern const u8 SPECIAL_RecordMixingPlayerSpotTriggered[];
+extern const u8 SPECIAL_TryRecordMixLinkup[];
+extern const u8 SPECIAL_TryBerryBlenderLinkup[];
+extern const u8 SPECIAL_SetContestCategoryStringVarForInterview[];
+extern const u8 SPECIAL_GetContestWinnerId[];
+extern const u8 SPECIAL_GetContestPlayerId[];
+extern const u8 SPECIAL_GetNpcContestantLocalId[];
+extern const u8 SPECIAL_BufferContestWinnerTrainerName[];
+extern const u8 SPECIAL_BufferContestWinnerMonName[];
+extern const u8 SPECIAL_BufferContestTrainerAndMonNames[];
+extern const u8 SPECIAL_GetContestMonConditionRanking[];
+extern const u8 SPECIAL_SetContestTrainerGfxIds[];
+extern const u8 SPECIAL_TryEnterContestMon[];
+extern const u8 SPECIAL_GetContestantNamesAtRank[];
+extern const u8 SPECIAL_SetLinkContestPlayerGfx[];
+extern const u8 SPECIAL_GetContestMonCondition[];
+extern const u8 SPECIAL_HasMonWonThisContestBefore[];
+extern const u8 SPECIAL_GiveMonContestRibbon[];
+extern const u8 SPECIAL_IsContestDebugActive[];
+extern const u8 SPECIAL_TryContestGModeLinkup[];
+extern const u8 SPECIAL_TraderMenuGetDecoration[];
+extern const u8 SPECIAL_DoesPlayerHaveNoDecorations[];
+extern const u8 SPECIAL_IsDecorationCategoryFull[];
+extern const u8 SPECIAL_TraderShowDecorationMenu[];
+extern const u8 SPECIAL_TraderDoDecorationTrade[];
+extern const u8 SPECIAL_ShouldReadyContestArtist[];
+extern const u8 SPECIAL_SaveMuseumContestPainting[];
+extern const u8 SPECIAL_DoesContestCategoryHaveMuseumPainting[];
+extern const u8 SPECIAL_ShowContestPainting[];
+extern const u8 SPECIAL_ShowLinkBattleRecords[];
+extern const u8 SPECIAL_CallBattleTowerFunc[];
+extern const u8 SPECIAL_CallBattleDomeFunction[];
+extern const u8 SPECIAL_CallBattlePalaceFunction[];
+extern const u8 SPECIAL_CallBattleArenaFunction[];
+extern const u8 SPECIAL_CallBattleFactoryFunction[];
+extern const u8 SPECIAL_CallBattlePikeFunction[];
+extern const u8 SPECIAL_CallBattlePyramidFunction[];
+extern const u8 SPECIAL_ChoosePartyForBattleFrontier[];
+extern const u8 SPECIAL_GetBattleTowerSinglesStreak[];
+extern const u8 SPECIAL_ShowBerryBlenderRecordWindow[];
+extern const u8 SPECIAL_GetSecretBaseNearbyMapName[];
+extern const u8 SPECIAL_DoContestHallWarp[];
+extern const u8 SPECIAL_CopyCurSecretBaseOwnerName_StrVar1[];
+extern const u8 SPECIAL_InteractWithShieldOrTVDecoration[];
+extern const u8 SPECIAL_ShowContestEntryMonPic[];
+extern const u8 SPECIAL_HideContestEntryMonPic[];
+extern const u8 SPECIAL_GetContestMultiplayerId[];
+extern const u8 SPECIAL_TryInitBattleTowerAwardManObjectEvent[];
+extern const u8 SPECIAL_MoveOutOfSecretBaseFromOutside[];
+extern const u8 SPECIAL_TryHideBattleTowerReporter[];
+extern const u8 SPECIAL_GenerateContestRand[];
+extern const u8 SPECIAL_InitSecretBaseVars[];
+extern const u8 SPECIAL_DeclinedSecretBaseBattle[];
+extern const u8 SPECIAL_DrewSecretBaseBattle[];
+extern const u8 SPECIAL_WonSecretBaseBattle[];
+extern const u8 SPECIAL_LostSecretBaseBattle[];
+extern const u8 SPECIAL_GetMysteryGiftCardStat[];
+extern const u8 SPECIAL_ShouldContestLadyShowGoOnAir[];
+extern const u8 SPECIAL_HasPlayerGivenContestLadyPokeblock[];
+extern const u8 SPECIAL_Script_BufferContestLadyCategoryAndMonName[];
+extern const u8 SPECIAL_OpenPokeblockCaseForContestLady[];
+extern const u8 SPECIAL_SetContestLadyGivenPokeblock[];
+extern const u8 SPECIAL_GetContestLadyMonSpecies[];
+extern const u8 SPECIAL_GetContestLadyCategory[];
+extern const u8 SPECIAL_PutLilycoveContestLadyShowOnTheAir[];
+extern const u8 SPECIAL_CloseBattlePikeCurtain[];
+extern const u8 SPECIAL_RunUnionRoom[];
+extern const u8 SPECIAL_Script_ResetUnionRoomTrade[];
+extern const u8 SPECIAL_IsPokemonJumpSpeciesInParty[];
+extern const u8 SPECIAL_ShowPokemonJumpRecords[];
+extern const u8 SPECIAL_ShowDodrioBerryPickingRecords[];
+extern const u8 SPECIAL_LinkContestWaitForConnection[];
+extern const u8 SPECIAL_LinkContestTryShowWirelessIndicator[];
+extern const u8 SPECIAL_LinkContestTryHideWirelessIndicator[];
+extern const u8 SPECIAL_IsWirelessContest[];
+extern const u8 SPECIAL_IsContestWithRSPlayer[];
+extern const u8 SPECIAL_ClearLinkContestFlags[];
+extern const u8 SPECIAL_TryContestEModeLinkup[];
+extern const u8 SPECIAL_BufferBattleTowerElevatorFloors[];
+extern const u8 SPECIAL_DoBattlePyramidMonsHaveHeldItem[];
+extern const u8 SPECIAL_BattlePyramidChooseMonHeldItems[];
+extern const u8 SPECIAL_SetBattleTowerLinkPlayerGfx[];
+extern const u8 SPECIAL_BufferBattleFrontierTutorMoveName[];
+extern const u8 SPECIAL_CloseBattleFrontierTutorWindow[];
+extern const u8 SPECIAL_SaveForBattleTowerLink[];
+extern const u8 SPECIAL_LinkRetireStatusWithBattleTowerPartner[];
+extern const u8 SPECIAL_BattleTowerReconnectLink[];
+extern const u8 SPECIAL_CallTrainerHillFunction[];
+extern const u8 SPECIAL_ShowBerryCrushRankings[];
+extern const u8 SPECIAL_GetBattlePyramidHint[];
+extern const u8 SPECIAL_LoadLinkContestPlayerPalettes[];
+extern const u8 SPECIAL_ShowTrainerHillRecords[];
+extern const u8 SPECIAL_TrySetBattleTowerLinkType[];
+static const u32 sRetiredSpecials[] = {
+    (u32)SPECIAL_SetPlayerSecretBase,
+    (u32)SPECIAL_CheckPlayerHasSecretBase,
+    (u32)SPECIAL_EnterSecretBase,
+    (u32)SPECIAL_ClearAndLeaveSecretBase,
+    (u32)SPECIAL_MoveOutOfSecretBase,
+    (u32)SPECIAL_IsCurSecretBaseOwnedByAnotherPlayer,
+    (u32)SPECIAL_GetCurSecretBaseRegistrationValidity,
+    (u32)SPECIAL_ToggleCurSecretBaseRegistry,
+    (u32)SPECIAL_ShowSecretBaseDecorationMenu,
+    (u32)SPECIAL_ShowSecretBaseRegistryMenu,
+    (u32)SPECIAL_PrepSecretBaseBattleFlags,
+    (u32)SPECIAL_GetSecretBaseOwnerAndState,
+    (u32)SPECIAL_InitSecretBaseDecorationSprites,
+    (u32)SPECIAL_SetDecoration,
+    (u32)SPECIAL_GetSecretBaseTypeInFrontOfPlayer,
+    (u32)SPECIAL_SetSecretBaseOwnerGfxId,
+    (u32)SPECIAL_PutAwayDecorationIteration,
+    (u32)SPECIAL_EnterNewlyCreatedSecretBase,
+    (u32)SPECIAL_DoSecretBasePCTurnOffEffect,
+    (u32)SPECIAL_RecordMixingPlayerSpotTriggered,
+    (u32)SPECIAL_TryRecordMixLinkup,
+    (u32)SPECIAL_TryBerryBlenderLinkup,
+    (u32)SPECIAL_SetContestCategoryStringVarForInterview,
+    (u32)SPECIAL_GetContestWinnerId,
+    (u32)SPECIAL_GetContestPlayerId,
+    (u32)SPECIAL_GetNpcContestantLocalId,
+    (u32)SPECIAL_BufferContestWinnerTrainerName,
+    (u32)SPECIAL_BufferContestWinnerMonName,
+    (u32)SPECIAL_BufferContestTrainerAndMonNames,
+    (u32)SPECIAL_GetContestMonConditionRanking,
+    (u32)SPECIAL_SetContestTrainerGfxIds,
+    (u32)SPECIAL_TryEnterContestMon,
+    (u32)SPECIAL_GetContestantNamesAtRank,
+    (u32)SPECIAL_SetLinkContestPlayerGfx,
+    (u32)SPECIAL_GetContestMonCondition,
+    (u32)SPECIAL_HasMonWonThisContestBefore,
+    (u32)SPECIAL_GiveMonContestRibbon,
+    (u32)SPECIAL_IsContestDebugActive,
+    (u32)SPECIAL_TryContestGModeLinkup,
+    (u32)SPECIAL_TraderMenuGetDecoration,
+    (u32)SPECIAL_DoesPlayerHaveNoDecorations,
+    (u32)SPECIAL_IsDecorationCategoryFull,
+    (u32)SPECIAL_TraderShowDecorationMenu,
+    (u32)SPECIAL_TraderDoDecorationTrade,
+    (u32)SPECIAL_ShouldReadyContestArtist,
+    (u32)SPECIAL_SaveMuseumContestPainting,
+    (u32)SPECIAL_DoesContestCategoryHaveMuseumPainting,
+    (u32)SPECIAL_ShowContestPainting,
+    (u32)SPECIAL_ShowLinkBattleRecords,
+    (u32)SPECIAL_CallBattleTowerFunc,
+    (u32)SPECIAL_CallBattleDomeFunction,
+    (u32)SPECIAL_CallBattlePalaceFunction,
+    (u32)SPECIAL_CallBattleArenaFunction,
+    (u32)SPECIAL_CallBattleFactoryFunction,
+    (u32)SPECIAL_CallBattlePikeFunction,
+    (u32)SPECIAL_CallBattlePyramidFunction,
+    (u32)SPECIAL_ChoosePartyForBattleFrontier,
+    (u32)SPECIAL_GetBattleTowerSinglesStreak,
+    (u32)SPECIAL_ShowBerryBlenderRecordWindow,
+    (u32)SPECIAL_GetSecretBaseNearbyMapName,
+    (u32)SPECIAL_DoContestHallWarp,
+    (u32)SPECIAL_CopyCurSecretBaseOwnerName_StrVar1,
+    (u32)SPECIAL_InteractWithShieldOrTVDecoration,
+    (u32)SPECIAL_ShowContestEntryMonPic,
+    (u32)SPECIAL_HideContestEntryMonPic,
+    (u32)SPECIAL_GetContestMultiplayerId,
+    (u32)SPECIAL_TryInitBattleTowerAwardManObjectEvent,
+    (u32)SPECIAL_MoveOutOfSecretBaseFromOutside,
+    (u32)SPECIAL_TryHideBattleTowerReporter,
+    (u32)SPECIAL_GenerateContestRand,
+    (u32)SPECIAL_InitSecretBaseVars,
+    (u32)SPECIAL_DeclinedSecretBaseBattle,
+    (u32)SPECIAL_DrewSecretBaseBattle,
+    (u32)SPECIAL_WonSecretBaseBattle,
+    (u32)SPECIAL_LostSecretBaseBattle,
+    (u32)SPECIAL_GetMysteryGiftCardStat,
+    (u32)SPECIAL_ShouldContestLadyShowGoOnAir,
+    (u32)SPECIAL_HasPlayerGivenContestLadyPokeblock,
+    (u32)SPECIAL_Script_BufferContestLadyCategoryAndMonName,
+    (u32)SPECIAL_OpenPokeblockCaseForContestLady,
+    (u32)SPECIAL_SetContestLadyGivenPokeblock,
+    (u32)SPECIAL_GetContestLadyMonSpecies,
+    (u32)SPECIAL_GetContestLadyCategory,
+    (u32)SPECIAL_PutLilycoveContestLadyShowOnTheAir,
+    (u32)SPECIAL_CloseBattlePikeCurtain,
+    (u32)SPECIAL_RunUnionRoom,
+    (u32)SPECIAL_Script_ResetUnionRoomTrade,
+    (u32)SPECIAL_IsPokemonJumpSpeciesInParty,
+    (u32)SPECIAL_ShowPokemonJumpRecords,
+    (u32)SPECIAL_ShowDodrioBerryPickingRecords,
+    (u32)SPECIAL_LinkContestWaitForConnection,
+    (u32)SPECIAL_LinkContestTryShowWirelessIndicator,
+    (u32)SPECIAL_LinkContestTryHideWirelessIndicator,
+    (u32)SPECIAL_IsWirelessContest,
+    (u32)SPECIAL_IsContestWithRSPlayer,
+    (u32)SPECIAL_ClearLinkContestFlags,
+    (u32)SPECIAL_TryContestEModeLinkup,
+    (u32)SPECIAL_BufferBattleTowerElevatorFloors,
+    (u32)SPECIAL_DoBattlePyramidMonsHaveHeldItem,
+    (u32)SPECIAL_BattlePyramidChooseMonHeldItems,
+    (u32)SPECIAL_SetBattleTowerLinkPlayerGfx,
+    (u32)SPECIAL_BufferBattleFrontierTutorMoveName,
+    (u32)SPECIAL_CloseBattleFrontierTutorWindow,
+    (u32)SPECIAL_SaveForBattleTowerLink,
+    (u32)SPECIAL_LinkRetireStatusWithBattleTowerPartner,
+    (u32)SPECIAL_BattleTowerReconnectLink,
+    (u32)SPECIAL_CallTrainerHillFunction,
+    (u32)SPECIAL_ShowBerryCrushRankings,
+    (u32)SPECIAL_GetBattlePyramidHint,
+    (u32)SPECIAL_LoadLinkContestPlayerPalettes,
+    (u32)SPECIAL_ShowTrainerHillRecords,
+    (u32)SPECIAL_TrySetBattleTowerLinkType,
+};
 bool32 LaPcBlockedSpecial(u32 id)
 {
-    if(!StorageIsCollectionMode()) return FALSE;
-    switch(id) {
-    case 6: // SetPlayerSecretBase
-    case 7: // CheckPlayerHasSecretBase
-    case 8: // EnterSecretBase
-    case 9: // ClearAndLeaveSecretBase
-    case 10: // MoveOutOfSecretBase
-    case 11: // IsCurSecretBaseOwnedByAnotherPlayer
-    case 12: // GetCurSecretBaseRegistrationValidity
-    case 13: // ToggleCurSecretBaseRegistry
-    case 14: // ShowSecretBaseDecorationMenu
-    case 15: // ShowSecretBaseRegistryMenu
-    case 16: // PrepSecretBaseBattleFlags
-    case 17: // GetSecretBaseOwnerAndState
-    case 18: // InitSecretBaseDecorationSprites
-    case 19: // SetDecoration
-    case 21: // GetSecretBaseTypeInFrontOfPlayer
-    case 22: // SetSecretBaseOwnerGfxId
-    case 23: // PutAwayDecorationIteration
-    case 24: // EnterNewlyCreatedSecretBase
-    case 26: // DoSecretBasePCTurnOffEffect
-    case 27: // RecordMixingPlayerSpotTriggered
-    case 30: // TryRecordMixLinkup
-    case 37: // TryBerryBlenderLinkup
-    case 72: // SetContestCategoryStringVarForInterview
-    case 77: // GetContestWinnerId
-    case 78: // GetContestPlayerId
-    case 79: // GetNpcContestantLocalId
-    case 80: // BufferContestWinnerTrainerName
-    case 81: // BufferContestWinnerMonName
-    case 82: // BufferContestTrainerAndMonNames
-    case 83: // GetContestMonConditionRanking
-    case 84: // SetContestTrainerGfxIds
-    case 85: // TryEnterContestMon
-    case 86: // GetContestantNamesAtRank
-    case 87: // SetLinkContestPlayerGfx
-    case 88: // GetContestMonCondition
-    case 89: // HasMonWonThisContestBefore
-    case 90: // GiveMonContestRibbon
-    case 91: // IsContestDebugActive
-    case 93: // TryContestGModeLinkup
-    case 114: // TraderMenuGetDecoration
-    case 116: // DoesPlayerHaveNoDecorations
-    case 117: // IsDecorationCategoryFull
-    case 118: // TraderShowDecorationMenu
-    case 119: // TraderDoDecorationTrade
-    case 135: // ShouldReadyContestArtist
-    case 136: // SaveMuseumContestPainting
-    case 137: // DoesContestCategoryHaveMuseumPainting
-    case 139: // ShowContestPainting
-    case 197: // ShowLinkBattleRecords
-    case 233: // CallBattleTowerFunc
-    case 234: // CallBattleDomeFunction
-    case 235: // CallBattlePalaceFunction
-    case 238: // CallBattleArenaFunction
-    case 239: // CallBattleFactoryFunction
-    case 240: // CallBattlePikeFunction
-    case 241: // CallBattlePyramidFunction
-    case 246: // ChoosePartyForBattleFrontier
-    case 248: // GetBattleTowerSinglesStreak
-    case 260: // ShowBerryBlenderRecordWindow
-    case 279: // GetSecretBaseNearbyMapName
-    case 300: // DoContestHallWarp
-    case 303: // CopyCurSecretBaseOwnerName_StrVar1
-    case 307: // InteractWithShieldOrTVDecoration
-    case 320: // ShowContestEntryMonPic
-    case 321: // HideContestEntryMonPic
-    case 326: // GetContestMultiplayerId
-    case 330: // TryInitBattleTowerAwardManObjectEvent
-    case 331: // MoveOutOfSecretBaseFromOutside
-    case 339: // TryHideBattleTowerReporter
-    case 341: // GenerateContestRand
-    case 351: // InitSecretBaseVars
-    case 353: // DeclinedSecretBaseBattle
-    case 354: // DrewSecretBaseBattle
-    case 355: // WonSecretBaseBattle
-    case 356: // LostSecretBaseBattle
-    case 391: // GetMysteryGiftCardStat
-    case 397: // ShouldContestLadyShowGoOnAir
-    case 398: // HasPlayerGivenContestLadyPokeblock
-    case 399: // Script_BufferContestLadyCategoryAndMonName
-    case 400: // OpenPokeblockCaseForContestLady
-    case 401: // SetContestLadyGivenPokeblock
-    case 402: // GetContestLadyMonSpecies
-    case 403: // GetContestLadyCategory
-    case 404: // PutLilycoveContestLadyShowOnTheAir
-    case 405: // CloseBattlePikeCurtain
-    case 417: // RunUnionRoom
-    case 420: // BufferUnionRoomPlayerName
-    case 423: // Script_ResetUnionRoomTrade
-    case 427: // IsPokemonJumpSpeciesInParty
-    case 428: // ShowPokemonJumpRecords
-    case 430: // ShowDodrioBerryPickingRecords
-    case 434: // LinkContestWaitForConnection
-    case 436: // LinkContestTryShowWirelessIndicator
-    case 437: // LinkContestTryHideWirelessIndicator
-    case 438: // IsWirelessContest
-    case 442: // IsContestWithRSPlayer
-    case 443: // ClearLinkContestFlags
-    case 444: // TryContestEModeLinkup
-    case 447: // BufferBattleTowerElevatorFloors
-    case 450: // DoBattlePyramidMonsHaveHeldItem
-    case 451: // BattlePyramidChooseMonHeldItems
-    case 452: // SetBattleTowerLinkPlayerGfx
-    case 473: // BufferBattleFrontierTutorMoveName
-    case 474: // CloseBattleFrontierTutorWindow
-    case 491: // SaveForBattleTowerLink
-    case 502: // LinkRetireStatusWithBattleTowerPartner
-    case 503: // BattleTowerReconnectLink
-    case 504: // CallTrainerHillFunction
-    case 508: // ShowBerryCrushRankings
-    case 512: // PlayerNotAtTrainerHillEntrance
-    case 513: // GetBattlePyramidHint
-    case 514: // LoadLinkContestPlayerPalettes
-    case 515: // ShowTrainerHillRecords
-    case 524: // TrySetBattleTowerLinkType
-        return TRUE;
-    }
+    if (!StorageIsCollectionMode()) return FALSE;
+    for (u32 i=0;i<ARRAY_COUNT(sRetiredSpecials);i++)
+        if (id==sRetiredSpecials[i]) return TRUE;
     return FALSE;
 }
+// END NAMED COLLECTION SPECIAL GATES
 bool32 LaPcBlockWarp(const struct MapHeader *map, s32 warpId)
 {
     const struct WarpEvent *warp;
