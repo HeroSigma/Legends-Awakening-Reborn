@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "assertions": 17,
+  "rom_sha256": "5acaea02f5b7d0366ccf8ad17a16ed338d939859137f192ac3b01f93cf010758",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "route_encounters",
+      "passed": true
+    },
+    {
+      "test": "real_search_started",
+      "passed": true
+    },
+    {
+      "test": "walk_no_A_required",
+      "passed": true
+    },
+    {
+      "test": "walk_target_stays",
+      "passed": true
+    },
+    {
+      "test": "walk_chain_preserved",
+      "passed": true
+    },
+    {
+      "test": "sprint_no_A_required",
+      "passed": true
+    },
+    {
+      "test": "sprint_target_stays",
+      "passed": true
+    },
+    {
+      "test": "sprint_chain_preserved",
+      "passed": true
+    },
+    {
+      "test": "bike_no_A_required",
+      "passed": true
+    },
+    {
+      "test": "bike_target_stays",
+      "passed": true
+    },
+    {
+      "test": "bike_chain_preserved",
+      "passed": true
+    },
+    {
+      "test": "contact_starts_battle",
+      "passed": true
+    },
+    {
+      "test": "search_consumed_once",
+      "passed": true
+    },
+    {
+      "test": "correct_target_species",
+      "passed": true
+    },
+    {
+      "test": "no_active_search_safe",
+      "passed": true
+    }
+  ]
+}
