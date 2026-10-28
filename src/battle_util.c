@@ -1,4 +1,5 @@
 #include "global.h"
+#include "caps.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_anim_scripts.h"
@@ -5661,6 +5662,12 @@ enum Obedience GetAttackerObedienceForAction(void)
         obedienceLevel = 70;
     if (FlagGet(FLAG_BADGE07_GET)) // Mind Badge
         obedienceLevel = 80;
+
+    // Obedience must never fall below the story's permitted training level.
+    // The opening uses the same level-16 limit as the training scientist.
+    u32 storyCap = FlagGet(FLAG_LA_RED_DEX_GIFTS) ? GetCurrentLevelCap() : 16;
+    if (obedienceLevel < storyCap)
+        obedienceLevel = storyCap;
 
     if (B_OBEDIENCE_MECHANICS >= GEN_8
      && !IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))
