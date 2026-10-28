@@ -197,7 +197,7 @@ EventSnippet_NotEnoughMonsForDoubleBattle::
 	end
 
 EventSnippet_LegendsChooseFormat::
-	specialvar VAR_RESULT, LegendsTrainer_PrepareFormat
+	special LegendsTrainer_PrepareFormat
 	goto_if_eq VAR_RESULT, FALSE, EventSnippet_LegendsFormatDone
 	msgbox LegendsTrainer_Text_Format, MSGBOX_YESNO
 	special LegendsTrainer_SelectFormat

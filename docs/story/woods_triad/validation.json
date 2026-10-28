@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 67,
-  "rom_sha256": "3db6375db3059662ddb5828210912edd2af565b39f47910857662c902e15a390",
+  "assertions": 69,
+  "rom_sha256": "cb9ab10b34a6c41ce8856845a813a01e3d7b26be4e15d736c06022f453072680",
   "battle_results": "injected through native end handlers; combat difficulty is not measured",
   "checks": [
     {
@@ -18,6 +18,10 @@
     },
     {
       "test": "silph_joins_conversation_35",
+      "passed": true
+    },
+    {
+      "test": "fixed_singles_35",
       "passed": true
     },
     {
@@ -122,6 +126,10 @@
     },
     {
       "test": "silph_joins_conversation_36",
+      "passed": true
+    },
+    {
+      "test": "fixed_singles_36",
       "passed": true
     },
     {

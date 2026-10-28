@@ -26,3 +26,7 @@ The Silph researcher checks the Scope, steps down to join the player and Devon, 
 ## Validation
 
 `tools/la_world/storage/test_woods_triad_story.py` uses isolated native mGBA saves for both trigger columns, both protagonists and storage modes, all three visible actors on walkable ground, team legality and shiny ace, save/reload, no replay, loss/retry, full reward stack, and completed legacy saves. Battle outcomes are injected through native win/loss end handlers: this validates scene continuation and trainer setup, not combat difficulty. Screenshots record the research dialogue, donor trainer portrait, and three-member appearance.
+
+## Fixed story format
+
+The shared format snippet calls `LegendsTrainer_PrepareFormat` with `special`, because that void helper writes `VAR_RESULT` directly. `specialvar` overwrote the result with an undefined return value, which could show the gym format prompt during ordinary/story battles. The Woods regression now uses two usable party Pokemon, rejects any yes/no prompt throughout the scene, and asserts an actual two-battler singles battle. Separate native gym checks retain singles, doubles, one-Pokemon fallback, and Tate/Liza singles.

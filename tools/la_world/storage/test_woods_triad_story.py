@@ -21,12 +21,14 @@ def actor_position(name):
  a=actor(name)+c['offsetof(struct ObjectEvent,currentCoords)'];return rd(a,2)-7,rd(a+2,2)-7
 def until(predicate,limit=24000):
  for i in range(limit):
+  check_prompt=active('Task_HandleYesNoInput')
+  assert check_prompt is None, "Story battle must not offer Singles/Doubles"
   if predicate():frames(15);return
   frames(1,1 if i%31<4 else 0)
  raise AssertionError(('timeout',state(),pos(),location(),hex(rd(symbols['sGlobalScriptContext']+8)),hex(rd(symbols['gMain']+4))))
 def setup(gender,mode,seen=True):
  start(gender);invoke('FlagClear',c['FLAG_LA_INTRO_ACTIVE']);invoke('VarSet',c['VAR_LITTLEROOT_INTRO_STATE'],7)
- invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0)
+ invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0);invoke('ScriptGiveMon',7,16,0)
  invoke('FlagSet',c['FLAG_LA_RED_DEX_GIFTS'])
  if seen:invoke('FlagSet',c['FLAG_LA_TIMELESS_WOODS_CONSPIRACY_SEEN'])
  for n in ['FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE','FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT','FLAG_LA_WOODS_TRIAD_COMPLETE','FLAG_LA_WOODS_RIFT_RECORD_STOLEN']:invoke('FlagClear',c[n])
@@ -49,6 +51,7 @@ for gender,mode,x in [(0,0,35),(1,1,36)]:
  check('silph_joins_conversation_'+str(x),actor_position('LOCALID_WOODS_SILPH')==(36,18))
  frames(600);shutil.copy2(shot('scientist'),proof/('scientist_'+str(x)+'.png'))
  battle()
+ check('fixed_singles_'+str(x),not (rd(symbols['gBattleTypeFlags'])&1) and rd(symbols['gBattlersCount'],1)==2)
  check('correct_opponent_'+str(x),rd(symbols['gTrainerBattleParameter']+2,2)==c['TRAINER_GRUNT_PETALBURG_WOODS'])
  check('six_opponents_'+str(x),rd(symbols['gPartiesCount']+1,1)==6)
  check('shiny_ace_'+str(x),invoke('GetBoxMonData3',symbols['gParties']+600+500,c['MON_DATA_IS_SHINY'],0)==1)
