@@ -22,6 +22,8 @@ LegendsDaycare_Exit:
 	end
 LegendsDaycare_Text_Manage:
 	.string "DAY-CARE remote connection.\p"
+	.string "EGGS in BOX 1 incubate as you walk.\n"
+	.string "Withdraw them to hatch them.\p"
 	.string "Manage the POKéMON we are raising?\n"
 	.string "Select NO to check for an EGG.$"
 LegendsDaycare_Text_Collect:

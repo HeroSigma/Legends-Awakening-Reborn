@@ -1,0 +1,275 @@
+{
+  "passed": true,
+  "assertions": 67,
+  "rom_sha256": "69618d2d46ffe954b01ded2f7c3a7425f7bc9943f7fd204c248eb12c6fd16de9",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(0, 0, 0)",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(0, 1, 0)",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(0, 0, 1)",
+      "passed": true
+    },
+    {
+      "test": "nursery_progress_0",
+      "passed": true
+    },
+    {
+      "test": "other_boxes_paused_0",
+      "passed": true
+    },
+    {
+      "test": "nursery_zero_floor_0",
+      "passed": true
+    },
+    {
+      "test": "still_egg_0",
+      "passed": true
+    },
+    {
+      "test": "inheritance_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "non_egg_friendship_0",
+      "passed": true
+    },
+    {
+      "test": "native_step_hook_0",
+      "passed": true
+    },
+    {
+      "test": "nursery_save_0",
+      "passed": true
+    },
+    {
+      "test": "nursery_load_0",
+      "passed": true
+    },
+    {
+      "test": "saved_ready_egg_0",
+      "passed": true
+    },
+    {
+      "test": "replant_0",
+      "passed": true
+    },
+    {
+      "test": "planted_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_double_replant_0",
+      "passed": true
+    },
+    {
+      "test": "one_seed_spent_0",
+      "passed": true
+    },
+    {
+      "test": "no_seed_no_replant_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_tree_0",
+      "passed": true
+    },
+    {
+      "test": "berries_save_0",
+      "passed": true
+    },
+    {
+      "test": "tree_persists_0",
+      "passed": true
+    },
+    {
+      "test": "rtc_regrowth_0",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(1, 0, 0)",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(1, 1, 0)",
+      "passed": true
+    },
+    {
+      "test": "nursery_locked_(1, 0, 1)",
+      "passed": true
+    },
+    {
+      "test": "nursery_progress_1",
+      "passed": true
+    },
+    {
+      "test": "other_boxes_paused_1",
+      "passed": true
+    },
+    {
+      "test": "nursery_zero_floor_1",
+      "passed": true
+    },
+    {
+      "test": "still_egg_1",
+      "passed": true
+    },
+    {
+      "test": "inheritance_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "non_egg_friendship_1",
+      "passed": true
+    },
+    {
+      "test": "native_step_hook_1",
+      "passed": true
+    },
+    {
+      "test": "nursery_save_1",
+      "passed": true
+    },
+    {
+      "test": "nursery_load_1",
+      "passed": true
+    },
+    {
+      "test": "saved_ready_egg_1",
+      "passed": true
+    },
+    {
+      "test": "replant_1",
+      "passed": true
+    },
+    {
+      "test": "planted_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_double_replant_1",
+      "passed": true
+    },
+    {
+      "test": "one_seed_spent_1",
+      "passed": true
+    },
+    {
+      "test": "no_seed_no_replant_1",
+      "passed": true
+    },
+    {
+      "test": "invalid_tree_1",
+      "passed": true
+    },
+    {
+      "test": "berries_save_1",
+      "passed": true
+    },
+    {
+      "test": "tree_persists_1",
+      "passed": true
+    },
+    {
+      "test": "rtc_regrowth_1",
+      "passed": true
+    },
+    {
+      "test": "woods_hint_exists",
+      "passed": true
+    },
+    {
+      "test": "woods_hint_changes",
+      "passed": true
+    },
+    {
+      "test": "devon_hint_exists",
+      "passed": true
+    },
+    {
+      "test": "ordinary_map_native_reactions",
+      "passed": true
+    },
+    {
+      "test": "follower_no_flag_writes",
+      "passed": true
+    },
+    {
+      "test": "journal_handoff_51",
+      "passed": true
+    },
+    {
+      "test": "locked_remote_returns",
+      "passed": true
+    },
+    {
+      "test": "journal_handoff_53",
+      "passed": true
+    },
+    {
+      "test": "unregistered_remote_returns",
+      "passed": true
+    },
+    {
+      "test": "journal_handoff_55",
+      "passed": true
+    },
+    {
+      "test": "remote_cancel_returns",
+      "passed": true
+    },
+    {
+      "test": "one_parent_deposited",
+      "passed": true
+    },
+    {
+      "test": "journal_handoff_58",
+      "passed": true
+    },
+    {
+      "test": "remote_retrieval_complete",
+      "passed": true
+    },
+    {
+      "test": "retrieval_script_finished",
+      "passed": true
+    },
+    {
+      "test": "two_parents_shared",
+      "passed": true
+    },
+    {
+      "test": "remote_full_party_keeps_egg",
+      "passed": true
+    },
+    {
+      "test": "remote_egg_delivered",
+      "passed": true
+    },
+    {
+      "test": "remote_egg_is_egg",
+      "passed": true
+    },
+    {
+      "test": "remote_egg_species_inherits",
+      "passed": true
+    },
+    {
+      "test": "egg_script_finished",
+      "passed": true
+    }
+  ]
+}

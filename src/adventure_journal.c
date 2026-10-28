@@ -49,7 +49,7 @@ static const u8 sTitleJourney[] = _("ADVENTURE JOURNAL  1/3");
 static const u8 sTitleField[] = _("FIELD RECORDS  2/3");
 static const u8 sTitleStory[] = _("STORY NOTES  3/3");
 static const u8 *const sTitles[] = {sTitleJourney, sTitleField, sTitleStory};
-static const u8 sFooter[] = _("SELECT: Day Care  B: close");
+static const u8 sFooter[] = _("L/R: pages SELECT: care B: exit");
 extern const u8 LegendsDaycare_Remote[];
 static const u8 sDone[] = _("Done");
 static const u8 sPending[] = _("Pending");
