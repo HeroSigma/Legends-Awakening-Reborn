@@ -85,7 +85,7 @@ for mode in [0,1]:
  tap(1);confirm();menu(0);check('ui_exact_ev127_'+str(mode),get('MON_DATA_DEF_EV')==127)
  # Presets replace the whole EV spread, with cancellable preview.
  evfields=['MON_DATA_HP_EV','MON_DATA_ATK_EV','MON_DATA_DEF_EV','MON_DATA_SPATK_EV','MON_DATA_SPDEF_EV','MON_DATA_SPEED_EV']
- presets=[[4,252,0,0,0,252],[4,0,0,252,0,252],[252,0,252,0,4,0],[252,0,4,0,252,0]]
+ presets=[[6,252,0,0,0,252],[6,0,0,252,0,252],[252,0,252,0,6,0],[252,0,6,0,252,0]]
  before=[get(f) for f in evfields]
  choose(7);menu(8);choose(0);confirm(False);menu(0)
  check('preset_cancel_'+str(mode),[get(f) for f in evfields]==before)
@@ -94,7 +94,7 @@ for mode in [0,1]:
   if index==0:shutil.copy2(shot('ev_presets'),R/'docs/features/training-scientist-presets.png')
   choose(index);confirm();menu(0)
   check('preset_spread_'+str((mode,index)),[get(f) for f in evfields]==spread)
-  check('preset_legal_total_'+str((mode,index)),sum(get(f) for f in evfields)==508)
+  check('preset_legal_total_'+str((mode,index)),sum(get(f) for f in evfields)==510)
   check('preset_keeps_ivs_'+str((mode,index)),all(get(f)==31 for f in fields))
  choose(7);menu(8);choose(3);menu(0)
  check('preset_unchanged_'+str(mode),[get(f) for f in evfields]==presets[3])

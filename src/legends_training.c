@@ -19,10 +19,10 @@ static const u8 sEVFields[] = {MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MO
 static const u8 sIVFields[] = {MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
 static const u8 *const sEVChoices[] = {COMPOUND_STRING("Set to 252"),COMPOUND_STRING("Set to 4"),COMPOUND_STRING("Set to 0"),COMPOUND_STRING("Choose exact value"),COMPOUND_STRING("Back")};
 static const u8 sEVPresets[][6] = {
-    {4,252,0,0,0,252},
-    {4,0,0,252,0,252},
-    {252,0,252,0,4,0},
-    {252,0,4,0,252,0},
+    {6,252,0,0,0,252},
+    {6,0,0,252,0,252},
+    {252,0,252,0,6,0},
+    {252,0,6,0,252,0},
 };
 static const u8 *const sEVPresetNames[] = {
     COMPOUND_STRING("Physical attacker"), COMPOUND_STRING("Special attacker"),
@@ -212,7 +212,7 @@ void LegendsTraining_Prepare(void)
             StringAppend(gStringVar4,sStats[i]);StringAppend(gStringVar4,COMPOUND_STRING(": "));
             AppendNumber(gStringVar4,sEVPresets[value][i]);
         }
-        StringAppend(gStringVar4,COMPOUND_STRING("\pTotal: 508 / 510"));
+        StringAppend(gStringVar4,COMPOUND_STRING("\pTotal: 510 / 510"));
     } else if (action==7) StringAppend(gStringVar4,COMPOUND_STRING("Set all six IVs to 31."));
     else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
     else if (action==4) {StringAppend(gStringVar4,COMPOUND_STRING("Nature effects: "));StringAppend(gStringVar4,gNaturesInfo[value].name);}
