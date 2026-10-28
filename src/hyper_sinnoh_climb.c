@@ -1,4 +1,5 @@
 #include "global.h"
+#include "field_move.h"
 #include "fieldmap.h"
 #include "hyper_sinnoh_climb.h"
 #include "event_data.h"
@@ -50,16 +51,5 @@ const u8 *HyperSinnoh_GetRockClimbInteraction(s16 x, s16 y, u8 direction)
 // This is not a global mapping of Hyper's native address.
 void HyperSinnoh_RockClimbSelectMon(void)
 {
-    u32 i;
-    gSpecialVar_0x8004 = PARTY_SIZE;
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][i];
-        u16 species = GetMonData(mon, MON_DATA_SPECIES);
-        if (species != SPECIES_NONE && !GetMonData(mon, MON_DATA_IS_EGG) && (MonKnowsMove(mon, MOVE_ROCK_CLIMB) || CanLearnTeachableMove(species, MOVE_ROCK_CLIMB)))
-        {
-            gSpecialVar_0x8004 = i;
-            return;
-        }
-    }
+    gSpecialVar_0x8004 = FieldMove_FindUser(FIELD_MOVE_ROCK_CLIMB);
 }

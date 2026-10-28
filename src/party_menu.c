@@ -110,6 +110,9 @@ enum {
     MENU_CATALOG_MOWER,
     MENU_CHANGE_FORM,
     MENU_CHANGE_ABILITY,
+    MENU_FIELD_SKILLS,
+    MENU_FIELD_SKILLS_NEXT,
+    MENU_FIELD_SKILLS_BACK,
     MENU_FIELD_MOVES
 };
 
@@ -185,7 +188,8 @@ struct PartyMenuInternal
     u32 spriteIdCancelPokeball:7;
     u32 messageId:14;
     u8 windowId[3];
-    u8 actions[8];
+    u8 actions[9];
+    u8 fieldSkillsPage;
     u8 numActions;
     // In vanilla Emerald, only the first 0xB0 hwords (0x160 bytes) are actually used.
     // However, a full 0x100 hwords (0x200 bytes) are allocated.
@@ -474,6 +478,9 @@ static void CursorCb_Trade1(u8);
 static void CursorCb_Trade2(u8);
 static void CursorCb_Toss(u8);
 static void CursorCb_FieldMove(u8);
+static void CursorCb_FieldSkills(u8);
+static void CursorCb_FieldSkillsNext(u8);
+static void CursorCb_FieldSkillsBack(u8);
 static void CursorCb_CatalogBulb(u8);
 static void CursorCb_CatalogOven(u8);
 static void CursorCb_CatalogWashing(u8);
@@ -2959,7 +2966,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     {
         for (j = 0; j != FIELD_MOVES_COUNT; j++)
         {
-            if (!FieldMove_IsVisible(j))
+            if (FieldMove_IsSlotFree(j) || !FieldMove_IsVisible(j))
                 continue;
 
             if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == FieldMove_GetMoveId(j))
@@ -2969,6 +2976,8 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
             }
         }
     }
+
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS);
 
     if (!InBattlePike())
     {
@@ -8624,3 +8633,46 @@ s8 Test_UpdatePartySelectionSingleLayout(s8 slotId, s8 movementDir, bool8 choose
     return slotId;
 }
 #endif
+
+// Six skills per page: at most eight rows including page navigation and Back.
+static void ShowFieldSkills(u8 taskId)
+{
+    static const u8 skills[] = {FIELD_MOVE_CUT, FIELD_MOVE_FLASH, FIELD_MOVE_ROCK_SMASH,
+        FIELD_MOVE_STRENGTH, FIELD_MOVE_SURF, FIELD_MOVE_FLY,
+        FIELD_MOVE_DIVE, FIELD_MOVE_WATERFALL, FIELD_MOVE_ROCK_CLIMB};
+    u32 i, first = sPartyMenuInternal->fieldSkillsPage ? 6 : 0;
+    u32 end = sPartyMenuInternal->fieldSkillsPage ? ARRAY_COUNT(skills) : 6;
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    sPartyMenuInternal->numActions = 0;
+    for (i = first; i < end; i++)
+        if (FieldMove_CanAssist(&gPlayerParty[gPartyMenu.slotId], skills[i]))
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_MOVES + skills[i]);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_NEXT);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void CursorCb_FieldSkills(u8 taskId)
+{
+    sPartyMenuInternal->fieldSkillsPage = 0;
+    ShowFieldSkills(taskId);
+}
+
+static void CursorCb_FieldSkillsNext(u8 taskId)
+{
+    sPartyMenuInternal->fieldSkillsPage ^= 1;
+    ShowFieldSkills(taskId);
+}
+
+static void CursorCb_FieldSkillsBack(u8 taskId)
+{
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    SetPartyMonFieldSelectionActions(gPlayerParty, gPartyMenu.slotId);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
