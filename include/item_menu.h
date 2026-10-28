@@ -2,6 +2,7 @@
 #define GUARD_ITEM_MENU_H
 
 #include "item.h"
+#include "bag_categories.h"
 #include "main.h"
 #include "menu_helpers.h"
 
@@ -63,8 +64,8 @@ struct BagPosition
     u8 location;
     u8 pocket;
     u16 pocketSwitchArrowPos;
-    u16 cursorPosition[POCKETS_COUNT];
-    u16 scrollPosition[POCKETS_COUNT];
+    u16 cursorPosition[BAG_CATEGORIES_COUNT];
+    u16 scrollPosition[BAG_CATEGORIES_COUNT];
 };
 
 extern struct BagPosition gBagPosition;
@@ -86,8 +87,8 @@ struct BagMenu
     const u8 *contextMenuItemsPtr;
     u8 contextMenuItemsBuffer[4];
     u8 contextMenuNumItems;
-    u8 numItemStacks[POCKETS_COUNT];
-    u8 numShownItems[POCKETS_COUNT];
+    u8 numItemStacks[BAG_CATEGORIES_COUNT];
+    u8 numShownItems[BAG_CATEGORIES_COUNT];
     s16 graphicsLoadState;
     u8 unused2[14];
     u8 ALIGNED(4) pocketNameBuffer[32][32];

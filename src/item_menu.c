@@ -118,8 +118,8 @@ struct ListBuffer2 {
 struct TempWallyBag {
     struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
     struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
-    u16 cursorPosition[POCKETS_COUNT];
-    u16 scrollPosition[POCKETS_COUNT];
+    u16 cursorPosition[BAG_CATEGORIES_COUNT];
+    u16 scrollPosition[BAG_CATEGORIES_COUNT];
     u16 unused;
     u16 pocket;
 };
@@ -592,13 +592,13 @@ void ResetBagScrollPositions(void)
 
 void CB2_BagMenuFromStartMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_FIELD, POCKETS_COUNT, CB2_ReturnToFieldWithOpenMenu);
+    GoToBagMenu(ITEMMENULOCATION_FIELD, BAG_CATEGORIES_COUNT, CB2_ReturnToFieldWithOpenMenu);
 }
 
 void CB2_BagMenuFromBattle(void)
 {
     if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE)
-        GoToBagMenu(ITEMMENULOCATION_BATTLE, POCKETS_COUNT, CB2_SetUpReshowBattleScreenAfterMenu2);
+        GoToBagMenu(ITEMMENULOCATION_BATTLE, BAG_CATEGORIES_COUNT, CB2_SetUpReshowBattleScreenAfterMenu2);
     else
         GoToBattlePyramidBagMenu(PYRAMIDBAG_LOC_BATTLE, CB2_SetUpReshowBattleScreenAfterMenu2);
 }
@@ -628,30 +628,30 @@ void CB2_ChooseBall(void)
 
 void CB2_GoToSellMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_SHOP, POCKETS_COUNT, CB2_ExitSellMenu);
+    GoToBagMenu(ITEMMENULOCATION_SHOP, BAG_CATEGORIES_COUNT, CB2_ExitSellMenu);
 }
 
 void CB2_GoToItemDepositMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_ITEMPC, POCKETS_COUNT, CB2_PlayerPCExitBagMenu);
+    GoToBagMenu(ITEMMENULOCATION_ITEMPC, BAG_CATEGORIES_COUNT, CB2_PlayerPCExitBagMenu);
 }
 
 void ApprenticeOpenBagMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_APPRENTICE, POCKETS_COUNT, CB2_ApprenticeExitBagMenu);
+    GoToBagMenu(ITEMMENULOCATION_APPRENTICE, BAG_CATEGORIES_COUNT, CB2_ApprenticeExitBagMenu);
     gSpecialVar_0x8005 = ITEM_NONE;
     gSpecialVar_Result = FALSE;
 }
 
 void FavorLadyOpenBagMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_FAVOR_LADY, POCKETS_COUNT, CB2_FavorLadyExitBagMenu);
+    GoToBagMenu(ITEMMENULOCATION_FAVOR_LADY, BAG_CATEGORIES_COUNT, CB2_FavorLadyExitBagMenu);
     gSpecialVar_Result = FALSE;
 }
 
 void QuizLadyOpenBagMenu(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_QUIZ_LADY, POCKETS_COUNT, CB2_QuizLadyExitBagMenu);
+    GoToBagMenu(ITEMMENULOCATION_QUIZ_LADY, BAG_CATEGORIES_COUNT, CB2_QuizLadyExitBagMenu);
     gSpecialVar_Result = FALSE;
 }
 
@@ -669,7 +669,7 @@ void GoToBagMenu(u8 location, u8 pocket, MainCallback exitCallback)
             gBagPosition.location = location;
         if (exitCallback)
             gBagPosition.exitCallback = exitCallback;
-        if (pocket < POCKETS_COUNT)
+        if (pocket < BAG_CATEGORIES_COUNT)
             gBagPosition.pocket = pocket;
         if (gBagPosition.location == ITEMMENULOCATION_BERRY_TREE
          || gBagPosition.location == ITEMMENULOCATION_BERRY_BLENDER_CRUSH
@@ -783,9 +783,10 @@ static bool8 SetupBagMenu(void)
         gMain.state++;
         break;
     case 13:
-        PrintPocketNames(gPocketNamesStringsTable[gBagPosition.pocket], 0);
+        PrintPocketNames(gBagCategoryNames[gBagPosition.pocket], 0);
         CopyPocketNameToWindow(0);
-        DrawPocketIndicatorSquare(gBagPosition.pocket, TRUE);
+        for (u32 i = 0; i < BAG_CATEGORIES_COUNT; i++)
+            DrawPocketIndicatorSquare(i, i == gBagPosition.pocket);
         gMain.state++;
         break;
     case 14:
@@ -912,7 +913,7 @@ static void LoadBagItemListBuffers(u8 pocketId)
     {
         for (i = 0; i < gBagMenu->numItemStacks[pocketId] - 1; i++)
         {
-            GetItemNameFromPocket(sListBuffer2->name[i], GetBagItemId(pocketId, i));
+            GetItemNameFromPocket(sListBuffer2->name[i], BagCategory_GetItem(pocketId, i));
             subBuffer = sListBuffer1->subBuffers;
             subBuffer[i].name = sListBuffer2->name[i];
             subBuffer[i].id = i;
@@ -926,7 +927,7 @@ static void LoadBagItemListBuffers(u8 pocketId)
     {
         for (i = 0; i < gBagMenu->numItemStacks[pocketId]; i++)
         {
-            GetItemNameFromPocket(sListBuffer2->name[i], GetBagItemId(pocketId, i));
+            GetItemNameFromPocket(sListBuffer2->name[i], BagCategory_GetItem(pocketId, i));
             subBuffer = sListBuffer1->subBuffers;
             subBuffer[i].name = sListBuffer2->name[i];
             subBuffer[i].id = i;
@@ -983,7 +984,7 @@ static void BagMenu_MoveCursorCallback(s32 itemIndex, bool8 onInit, struct ListM
     {
         RemoveBagItemIconSprite(gBagMenu->itemIconSlot ^ 1);
         if (itemIndex != LIST_CANCEL)
-           AddBagItemIconSprite(GetBagItemId(gBagPosition.pocket, itemIndex), gBagMenu->itemIconSlot);
+           AddBagItemIconSprite(BagCategory_GetItem(gBagPosition.pocket, itemIndex), gBagMenu->itemIconSlot);
         else
            AddBagItemIconSprite(ITEM_LIST_END, gBagMenu->itemIconSlot);
         gBagMenu->itemIconSlot ^= 1;
@@ -1007,7 +1008,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
                 BagMenu_PrintCursorAtPos(y, COLORID_NONE);
         }
 
-        struct ItemSlot itemSlot = GetBagItemIdAndQuantity(gBagPosition.pocket, itemIndex);
+        struct ItemSlot itemSlot = BagCategory_GetSlot(gBagPosition.pocket, itemIndex);
 
         // Draw HM icon
         if (gBagPosition.pocket == POCKET_TM_HM && GetItemTMHMIndex(itemSlot.itemId) > NUM_TECHNICAL_MACHINES)
@@ -1035,7 +1036,7 @@ static void PrintItemDescription(int itemIndex)
     const u8 *str;
     if (itemIndex != LIST_CANCEL)
     {
-        str = GetItemDescription(GetBagItemId(gBagPosition.pocket, itemIndex));
+        str = GetItemDescription(BagCategory_GetItem(gBagPosition.pocket, itemIndex));
     }
     else
     {
@@ -1156,10 +1157,10 @@ static void Task_CloseBagMenu(u8 taskId)
 
 void UpdatePocketItemList(enum Pocket pocketId)
 {
-    if (pocketId >= POCKETS_COUNT)
+    if ((u32)pocketId >= BAG_CATEGORIES_COUNT)
         return; // shouldn't even get here
 
-    struct BagPocket *pocket = &gBagPockets[pocketId];
+    struct BagPocket *pocket = &gBagPockets[BagCategory_StoragePocket(pocketId)];
     switch (pocketId)
     {
     case POCKET_TM_HM:
@@ -1167,14 +1168,13 @@ void UpdatePocketItemList(enum Pocket pocketId)
         SortItemsInBag(pocket, SORT_BY_INDEX);
         break;
     default:
-        CompactItemsInBagPocket(pocketId);
+        CompactItemsInBagPocket(BagCategory_StoragePocket(pocketId));
         break;
     }
 
     gBagMenu->numItemStacks[pocketId] = 0;
 
-    for (u32 i = 0; i < pocket->capacity && BagPocket_GetSlotData(pocket, i).itemId; i++)
-        gBagMenu->numItemStacks[pocketId]++;
+    gBagMenu->numItemStacks[pocketId] = BagCategory_Count(pocketId);
 
     if (!gBagMenu->hideCloseBagText)
         gBagMenu->numItemStacks[pocketId]++;
@@ -1188,7 +1188,7 @@ void UpdatePocketItemList(enum Pocket pocketId)
 static void UpdatePocketItemLists(void)
 {
     u8 i;
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < BAG_CATEGORIES_COUNT; i++)
         UpdatePocketItemList(i);
 }
 
@@ -1200,14 +1200,14 @@ void UpdatePocketListPosition(u8 pocketId)
 static void InitPocketListPositions(void)
 {
     u8 i;
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < BAG_CATEGORIES_COUNT; i++)
         UpdatePocketListPosition(i);
 }
 
 static void InitPocketScrollPositions(void)
 {
     u8 i;
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < BAG_CATEGORIES_COUNT; i++)
         SetCursorScrollWithinListBounds(&gBagPosition.scrollPosition[i], &gBagPosition.cursorPosition[i], gBagMenu->numShownItems[i], gBagMenu->numItemStacks[i], MAX_ITEMS_SHOWN);
 }
 
@@ -1306,7 +1306,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
                 {
                     struct ItemSlot tempItem;
                     data[1] = GetItemListPosition(gBagPosition.pocket);
-                    tempItem = GetBagItemIdAndQuantity(gBagPosition.pocket, data[1]);
+                    tempItem = BagCategory_GetSlot(gBagPosition.pocket, data[1]);
                     data[2] = tempItem.quantity;
                     if (gBagPosition.cursorPosition[gBagPosition.pocket] == gBagMenu->numItemStacks[gBagPosition.pocket])
                         break;
@@ -1342,7 +1342,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
             break;
         default: // A_BUTTON
             {
-                struct ItemSlot itemSlot = GetBagItemIdAndQuantity(gBagPosition.pocket, listPosition);
+                struct ItemSlot itemSlot = BagCategory_GetSlot(gBagPosition.pocket, listPosition);
                 PlaySE(SE_SELECT);
                 BagDestroyPocketScrollArrowPair();
                 BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
@@ -1388,10 +1388,10 @@ static u8 GetSwitchBagPocketDirection(void)
 
 static void ChangeBagPocketId(u8 *bagPocketId, s8 deltaBagPocketId)
 {
-    if (deltaBagPocketId == MENU_CURSOR_DELTA_RIGHT && *bagPocketId == POCKETS_COUNT - 1)
+    if (deltaBagPocketId == MENU_CURSOR_DELTA_RIGHT && *bagPocketId == BAG_CATEGORIES_COUNT - 1)
         *bagPocketId = 0;
     else if (deltaBagPocketId == MENU_CURSOR_DELTA_LEFT && *bagPocketId == 0)
-        *bagPocketId = POCKETS_COUNT - 1;
+        *bagPocketId = BAG_CATEGORIES_COUNT - 1;
     else
         *bagPocketId += deltaBagPocketId;
 
@@ -1421,12 +1421,12 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
     ChangeBagPocketId(&newPocket, deltaBagPocketId);
     if (deltaBagPocketId == MENU_CURSOR_DELTA_RIGHT)
     {
-        PrintPocketNames(gPocketNamesStringsTable[gBagPosition.pocket], gPocketNamesStringsTable[newPocket]);
+        PrintPocketNames(gBagCategoryNames[gBagPosition.pocket], gBagCategoryNames[newPocket]);
         CopyPocketNameToWindow(0);
     }
     else
     {
-        PrintPocketNames(gPocketNamesStringsTable[newPocket], gPocketNamesStringsTable[gBagPosition.pocket]);
+        PrintPocketNames(gBagCategoryNames[newPocket], gBagCategoryNames[gBagPosition.pocket]);
         CopyPocketNameToWindow(8);
     }
     DrawPocketIndicatorSquare(gBagPosition.pocket, FALSE);
@@ -1497,9 +1497,9 @@ static void DrawItemListBgRow(u8 y)
 static void DrawPocketIndicatorSquare(u8 x, bool8 isCurrentPocket)
 {
     if (!isCurrentPocket)
-        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 5, 3, 1, 1);
+        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 1, 3, 1, 1);
     else
-        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 5, 3, 1, 1);
+        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 1, 3, 1, 1);
     ScheduleBgCopyTilemapToVram(2);
 }
 
@@ -1524,7 +1524,7 @@ static void StartItemSwap(u8 taskId)
     ListMenuSetTemplateField(tListTaskId, LISTFIELD_CURSORKIND, CURSOR_INVISIBLE);
     tListPosition = gBagPosition.scrollPosition[gBagPosition.pocket] + gBagPosition.cursorPosition[gBagPosition.pocket];
     gBagMenu->toSwapPos = tListPosition;
-    CopyItemName(GetBagItemId(gBagPosition.pocket, tListPosition), gStringVar1);
+    CopyItemName(BagCategory_GetItem(gBagPosition.pocket, tListPosition), gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
     BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL);
@@ -1586,7 +1586,7 @@ static void DoItemSwap(u8 taskId)
     }
     else
     {
-        MoveItemSlotInPocket(gBagPosition.pocket, tListPosition, realPos);
+        BagCategory_Move(gBagPosition.pocket, tListPosition, realPos);
         gBagMenu->toSwapPos = NOT_SWAPPING;
         DestroyListMenuTask(tListTaskId, scrollPos, cursorPos);
         if (tListPosition < realPos)
@@ -1695,7 +1695,7 @@ static void OpenContextMenu(u8 taskId)
         }
         else
         {
-            switch (gBagPosition.pocket)
+            switch (BagCategory_StoragePocket(gBagPosition.pocket))
             {
             case POCKET_ITEMS:
                 gBagMenu->contextMenuItemsPtr = gBagMenu->contextMenuItemsBuffer;
@@ -1987,7 +1987,7 @@ static void Task_TossItemFromBag(u8 taskId)
     if (JOY_NEW(A_BUTTON | B_BUTTON))
     {
         PlaySE(SE_SELECT);
-        RemoveBagItemFromSlot(&gBagPockets[gBagPosition.pocket], *scrollPos + *cursorPos, tItemCount);
+        RemoveBagItemFromSlot(&gBagPockets[BagCategory_StoragePocket(gBagPosition.pocket)], BagCategory_Slot(gBagPosition.pocket, *scrollPos + *cursorPos), tItemCount);
         DestroyListMenuTask(tListTaskId, scrollPos, cursorPos);
         UpdatePocketItemList(gBagPosition.pocket);
         UpdatePocketListPosition(gBagPosition.pocket);
@@ -2119,7 +2119,7 @@ static void ItemMenu_UseInBattle(u8 taskId)
 
 void CB2_ReturnToBagMenuPocket(void)
 {
-    GoToBagMenu(ITEMMENULOCATION_LAST, POCKETS_COUNT, NULL);
+    GoToBagMenu(ITEMMENULOCATION_LAST, BAG_CATEGORIES_COUNT, NULL);
 }
 
 static void Task_ItemContext_GiveToParty(u8 taskId)
@@ -2421,7 +2421,7 @@ static void PrepareBagForWallyTutorial(void)
     memcpy(sTempWallyBag->bagPocket_Items, gSaveBlock1Ptr->bag.items, sizeof(gSaveBlock1Ptr->bag.items));
     memcpy(sTempWallyBag->bagPocket_PokeBalls, gSaveBlock1Ptr->bag.pokeBalls, sizeof(gSaveBlock1Ptr->bag.pokeBalls));
     sTempWallyBag->pocket = gBagPosition.pocket;
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < BAG_CATEGORIES_COUNT; i++)
     {
         sTempWallyBag->cursorPosition[i] = gBagPosition.cursorPosition[i];
         sTempWallyBag->scrollPosition[i] = gBagPosition.scrollPosition[i];
@@ -2438,7 +2438,7 @@ static void RestoreBagAfterWallyTutorial(void)
     memcpy(gSaveBlock1Ptr->bag.items, sTempWallyBag->bagPocket_Items, sizeof(sTempWallyBag->bagPocket_Items));
     memcpy(gSaveBlock1Ptr->bag.pokeBalls, sTempWallyBag->bagPocket_PokeBalls, sizeof(sTempWallyBag->bagPocket_PokeBalls));
     gBagPosition.pocket = sTempWallyBag->pocket;
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < BAG_CATEGORIES_COUNT; i++)
     {
         gBagPosition.cursorPosition[i] = sTempWallyBag->cursorPosition[i];
         gBagPosition.scrollPosition[i] = sTempWallyBag->scrollPosition[i];
@@ -2556,12 +2556,12 @@ static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
     window.height = 2;
     windowId = AddWindow(&window);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
-    offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
-    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+    offset = GetStringCenterAlignXOffset(FONT_SMALL, pocketName1, 0x40);
+    BagMenu_Print(windowId, FONT_SMALL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     if (pocketName2)
     {
-        offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
-        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+        offset = GetStringCenterAlignXOffset(FONT_SMALL, pocketName2, 0x40);
+        BagMenu_Print(windowId, FONT_SMALL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     }
     CpuCopy32((u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), gBagMenu->pocketNameBuffer, sizeof(gBagMenu->pocketNameBuffer));
     RemoveWindow(windowId);
@@ -2863,7 +2863,7 @@ static void SortBagItems(u8 taskId)
 
     RemoveContextWindow();
 
-    SortItemsInBag(&gBagPockets[gBagPosition.pocket], tSortType);
+    BagCategory_Sort(gBagPosition.pocket, tSortType);
     DestroyListMenuTask(data[0], scrollPos, cursorPos);
     UpdatePocketListPosition(gBagPosition.pocket);
     LoadBagItemListBuffers(gBagPosition.pocket);
