@@ -9,3 +9,7 @@ Level catch-up raises the Pokémon to a chosen level within the current player c
 Each change is previewed and confirmed before it is applied, then validated again at commit. Cancelled, invalid or unchanged choices do not modify the Pokémon. EV, IV and Nature changes recalculate current stats. Eggs and bad eggs are rejected. Personality, OT ID, friendship, held items and the save layout remain unchanged.
 
 Tests use isolated emulator saves. Coverage includes EV/IV boundaries, total limits, legal Ability/Nature changes, cap enforcement, identity preservation, both storage modes, box save/load, upstairs placements, real menu cancellation, numeric value 127 (which must not collide with B/cancel), and native evolution flow. Slateport Market is outside this task.
+
+## Sprite compatibility
+
+Training scientists use the native Emerald Scientist 1 sprite. The generic FireRed scientist ID previously pointed at an empty Emerald graphics slot, so the actor existed but contributed no visible pixels. A graphics-table alias also maps that old ID to the Emerald sprite for existing saved actors. Pixel-difference tests verify visible bodies in all 17 rooms, alongside training/evolution and Nurse Joy regressions.

@@ -1149,6 +1149,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
 #endif // IS_FRLG
+#if !IS_FRLG
+    // Legacy scientist ID was used by early training-service saves. The FRLG
+    // slot is otherwise empty in Emerald; retain a valid cosmetic fallback.
+    [OBJ_EVENT_GFX_SCIENTIST] = &gObjectEventGraphicsInfo_Scientist1,
+#endif
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
