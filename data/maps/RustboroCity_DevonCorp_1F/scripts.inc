@@ -164,6 +164,6 @@ RustboroCity_DevonCorp_1F_Text_HyperConstruction_1:
 
 LegendsTera_OpenBasement:
     goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_BasementReturn
-    setobjectxyperm LOCALID_RUSTBORO_CITY__DEVON_CORP_1_F_CONSTRUCTION_1, 6, 2
+    @ The construction scientist was removed in the current map edit.
 LegendsTera_BasementReturn:
     return

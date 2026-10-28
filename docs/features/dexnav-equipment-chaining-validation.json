@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "assertions": 23,
+  "rom_sha256": "c5f49008c8941134a0ec26d03a082d53af92db0a9668a2bcc4f9464d7f512596",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "chance_0",
+      "passed": true
+    },
+    {
+      "test": "chance_9",
+      "passed": true
+    },
+    {
+      "test": "chance_10",
+      "passed": true
+    },
+    {
+      "test": "chance_24",
+      "passed": true
+    },
+    {
+      "test": "chance_25",
+      "passed": true
+    },
+    {
+      "test": "chance_49",
+      "passed": true
+    },
+    {
+      "test": "chance_50",
+      "passed": true
+    },
+    {
+      "test": "chance_99",
+      "passed": true
+    },
+    {
+      "test": "chance_100",
+      "passed": true
+    },
+    {
+      "test": "chance_255",
+      "passed": true
+    },
+    {
+      "test": "chance_9999",
+      "passed": true
+    },
+    {
+      "test": "ineligible_(4, 100, 0)",
+      "passed": true
+    },
+    {
+      "test": "ineligible_(4, 9, 1)",
+      "passed": true
+    },
+    {
+      "test": "ineligible_(0, 100, 1)",
+      "passed": true
+    },
+    {
+      "test": "ineligible_(1573, 100, 1)",
+      "passed": true
+    },
+    {
+      "test": "species_appropriate_4",
+      "passed": true
+    },
+    {
+      "test": "eligible_equipment_present_4",
+      "passed": true
+    },
+    {
+      "test": "all_family_options_4",
+      "passed": true
+    },
+    {
+      "test": "species_appropriate_161",
+      "passed": true
+    },
+    {
+      "test": "eligible_equipment_present_161",
+      "passed": true
+    },
+    {
+      "test": "all_family_options_161",
+      "passed": true
+    }
+  ]
+}

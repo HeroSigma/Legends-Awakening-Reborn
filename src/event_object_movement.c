@@ -2765,6 +2765,17 @@ void GetFollowerAction(struct ScriptContext *ctx) // Essentially a big switch fo
         if (condEmotes[i].emotion == emotion && (Random() < 0x10000 / (j++)))  // Replace each item with 1/j chance
             multi = condEmotes[i].index;
     }
+    // Project story locations take priority over random generic chatter.
+    {
+        const u8 *hint = LegendsFollower_EnvironmentalText(gMapHeader.mapLayoutId);
+        if (hint != NULL)
+        {
+            ObjectEventEmote(objEvent, FOLLOWER_EMOTION_CURIOUS);
+            ctx->data[0] = (u32)hint;
+            ScriptCall(ctx, gFollowerBasicMessages[FOLLOWER_EMOTION_CURIOUS].script);
+            return;
+        }
+    }
     // (50% chance) Match *scripted* conditional messages, from follower_helper.c
     for (i = (Random() & 1) ? COND_MSG_COUNT : 0, j = 1; i < COND_MSG_COUNT; i++)
     {

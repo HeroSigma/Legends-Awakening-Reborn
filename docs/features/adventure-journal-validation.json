@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "assertions": 26,
+  "rom_sha256": "c5f49008c8941134a0ec26d03a082d53af92db0a9668a2bcc4f9464d7f512596",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "nine_menu_rows_0",
+      "passed": true
+    },
+    {
+      "test": "journal_from_start_0",
+      "passed": true
+    },
+    {
+      "test": "page_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "page_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "page_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "wrap_forward_0",
+      "passed": true
+    },
+    {
+      "test": "wrap_backward_0",
+      "passed": true
+    },
+    {
+      "test": "journal_closed_0",
+      "passed": true
+    },
+    {
+      "test": "overworld_return_0",
+      "passed": true
+    },
+    {
+      "test": "stats_read_only_0",
+      "passed": true
+    },
+    {
+      "test": "story_read_only_0",
+      "passed": true
+    },
+    {
+      "test": "nine_menu_rows_1",
+      "passed": true
+    },
+    {
+      "test": "journal_from_start_1",
+      "passed": true
+    },
+    {
+      "test": "page_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "page_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "page_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "wrap_forward_1",
+      "passed": true
+    },
+    {
+      "test": "wrap_backward_1",
+      "passed": true
+    },
+    {
+      "test": "journal_closed_1",
+      "passed": true
+    },
+    {
+      "test": "overworld_return_1",
+      "passed": true
+    },
+    {
+      "test": "stats_read_only_1",
+      "passed": true
+    },
+    {
+      "test": "story_read_only_1",
+      "passed": true
+    },
+    {
+      "test": "journal_reopens",
+      "passed": true
+    },
+    {
+      "test": "start_closes_journal",
+      "passed": true
+    }
+  ]
+}
