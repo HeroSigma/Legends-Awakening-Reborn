@@ -1496,7 +1496,7 @@ static void ClearPocketIndicators(void)
 {
     // Continue the background stripe across the former indicator row.
     u16 tile = ((u16 *)GetBgTilemapBuffer(2))[3 * 32];
-    FillBgTilemapBufferRect_Palette0(2, tile, 1, 3, BAG_CATEGORIES_COUNT, 1);
+    FillBgTilemapBufferRect_Palette0(2, tile, 1, 3, 12, 1);
     ScheduleBgCopyTilemapToVram(2);
 }
 
