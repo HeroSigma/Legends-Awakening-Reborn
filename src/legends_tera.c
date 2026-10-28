@@ -115,6 +115,31 @@ u16 LegendsChooseWildHeldItem(u16 species)
     }
 }
 
+// A bonus equipment roll for an already-caught DexNav target only.
+__attribute__((noinline)) u32 LegendsDexNavEquipmentChance(u32 chain)
+{
+    if (chain >= 100) return 50;
+    if (chain >= 50) return 35;
+    if (chain >= 25) return 20;
+    if (chain >= 10) return 10;
+    return 0;
+}
+
+u16 LegendsChooseDexNavEquipment(u16 species, u32 chain, bool32 caught)
+{
+    u16 mega[8], crystal;
+    u32 count, chance = LegendsDexNavEquipmentChance(chain);
+    if (!caught || !chance || species == SPECIES_NONE || species >= NUM_SPECIES)
+        return ITEM_NONE;
+    if (Random() % 100 >= chance)
+        return ITEM_NONE;
+    count = CollectMegaStones(species, mega, 0, 0);
+    crystal = sCrystals[gSpeciesInfo[species].types[0]];
+    if (count && (crystal == ITEM_NONE || Random() % 2 == 0))
+        return mega[Random() % count];
+    return crystal;
+}
+
 static EWRAM_DATA u8 sCaughtShardSlot = 0;
 
 static bool32 IsShardRewardBattle(void)
