@@ -1,0 +1,1623 @@
+{
+  "passed": true,
+  "assertions": 404,
+  "rom_sha256": "e712e1b1ebd34291f0b2ca59169f95795202d21bef41171ca6a43637c8b189e8",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "pre_dex_uncapped",
+      "passed": true
+    },
+    {
+      "test": "pre_dex_native_318",
+      "passed": true
+    },
+    {
+      "test": "pre_dex_native_615",
+      "passed": true
+    },
+    {
+      "test": "pre_dex_native_603",
+      "passed": true
+    },
+    {
+      "test": "pre_dex_native_333",
+      "passed": true
+    },
+    {
+      "test": "roxanne_cap_16",
+      "passed": true
+    },
+    {
+      "test": "exp_stops_at_cap",
+      "passed": true
+    },
+    {
+      "test": "exp_below_cap",
+      "passed": true
+    },
+    {
+      "test": "override_(0, 318)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(0, 318)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(0, 318)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(0, 318)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(0, 318)",
+      "passed": true
+    },
+    {
+      "test": "override_(0, 615)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(0, 615)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(0, 615)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(0, 615)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(0, 615)",
+      "passed": true
+    },
+    {
+      "test": "override_(0, 603)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(0, 603)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(0, 603)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(0, 603)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(0, 603)",
+      "passed": true
+    },
+    {
+      "test": "override_(0, 333)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(0, 333)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(0, 333)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(0, 333)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(0, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(0, 333)",
+      "passed": true
+    },
+    {
+      "test": "override_(1, 318)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(1, 318)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(1, 318)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(1, 318)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 318, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(1, 318)",
+      "passed": true
+    },
+    {
+      "test": "override_(1, 615)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(1, 615)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(1, 615)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(1, 615)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 615, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(1, 615)",
+      "passed": true
+    },
+    {
+      "test": "override_(1, 603)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(1, 603)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(1, 603)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(1, 603)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 603, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(1, 603)",
+      "passed": true
+    },
+    {
+      "test": "override_(1, 333)",
+      "passed": true
+    },
+    {
+      "test": "smart_ai_(1, 333)",
+      "passed": true
+    },
+    {
+      "test": "two_heals_(1, 333)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_member_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "stable_gimmick_(1, 333)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 0)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 1)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 2)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 3)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 4)",
+      "passed": true
+    },
+    {
+      "test": "created_member_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "level_cap_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_evs_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "exclusive_tera_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "ordinary_not_shiny_(1, 333, 5)",
+      "passed": true
+    },
+    {
+      "test": "independent_views_(1, 333)",
+      "passed": true
+    },
+    {
+      "test": "reject_early_butterfree",
+      "passed": true
+    },
+    {
+      "test": "reject_over_cap",
+      "passed": true
+    },
+    {
+      "test": "reject_missing_move",
+      "passed": true
+    },
+    {
+      "test": "gym_untouched",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_0",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_1",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_2",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_3",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_4",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_5",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_6",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_7",
+      "passed": true
+    },
+    {
+      "test": "badge_cap_8",
+      "passed": true
+    },
+    {
+      "test": "post_league_caps_deferred",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "real_battle_six_opponents",
+      "passed": true
+    },
+    {
+      "test": "real_battle_cap",
+      "passed": true
+    }
+  ]
+}
