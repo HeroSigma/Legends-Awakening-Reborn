@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_trainers.h"
 #include "data.h"
 #include "main.h"
 #include "battle.h"
@@ -1235,7 +1236,7 @@ static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battlePar
         return;
     }
 
-    if (battleParams->params.isDoubleBattle && !HasEnoughMonsForDoubleBattle2())
+    if (battleParams->params.isDoubleBattle && !LegendsTrainer_IsFormatChoice(battleParams->params.opponentA) && !HasEnoughMonsForDoubleBattle2())
     {
         PUSH(EventSnippet_NotEnoughMonsForDoubleBattle)
         return;
@@ -1255,6 +1256,7 @@ static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battlePar
     
     PUSH_IF_SET(EventSnippet_PlayTrainerEncounterMusic, battleParams->params.playMusicA)
     PUSH_IF_SET(EventSnippet_SetTrainerFacingDirection, battleParams->params.facePlayer);
+    PUSH(EventSnippet_LegendsChooseFormat)
     PUSH_IF_SET(EventSnippet_ShowTrainerIntroMsg, battleParams->params.introTextA)
     PUSH_IF_ELSE(EventSnippet_DoRematchTrainerBattle, EventSnippet_DoTrainerBattle, battleParams->params.isRematch)
     PUSH_IF_ELSE(EventSnippet_GotoPostBattleScript, EventSnippet_EndTrainerBattle, battleParams->params.continueScript)

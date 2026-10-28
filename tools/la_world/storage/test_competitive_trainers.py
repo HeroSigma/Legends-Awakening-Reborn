@@ -72,8 +72,8 @@ wr(scratch+leveloff,17,1)
 check('reject_over_cap',invoke('LegendsTrainer_MemberLegal',scratch)==0)
 wr(scratch+leveloff,15,1);wr(scratch+moveoff,0,2)
 check('reject_missing_move',invoke('LegendsTrainer_MemberLegal',scratch)==0)
-# No gym/story/partner conversion is included in this first batch.
-id=c['TRAINER_ROXANNE_1'];check('gym_untouched',invoke('LegendsTrainer_Get',id,base+id*ts)==base+id*ts)
+# Gym entries now expand; scripted tutorial/partner exceptions remain protected.
+id=c['TRAINER_ROXANNE_1'];check('gym_expanded',invoke('LegendsTrainer_Get',id,base+id*ts)!=base+id*ts)
 for badge_stage,expected_cap in enumerate([16,20,26,32,37,43,49,56,65]):
  check('badge_cap_'+str(badge_stage),invoke('GetCurrentLevelCap')==expected_cap)
  if badge_stage<8:invoke('FlagSet',c['FLAG_BADGE01_GET']+badge_stage)

@@ -641,3 +641,6 @@ gSpecials::
 	def_special LegendsBirchRescueThunderbolt
 	def_special LegendsPrepareTeraChange
 	def_special LegendsCommitTeraChange
+
+	def_special LegendsTrainer_PrepareFormat
+	def_special LegendsTrainer_SelectFormat

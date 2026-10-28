@@ -4,4 +4,8 @@
 bool32 LegendsTrainer_MoveLegal(u32 species, u32 level, u32 move);
 bool32 LegendsTrainer_MemberLegal(const struct TrainerMon *mon);
 u32 LegendsTrainer_Gimmick(u32 trainerId);
+bool32 LegendsTrainer_HasProfile(u32 trainerId);
+bool32 LegendsTrainer_IsFormatChoice(u32 trainerId);
+void LegendsTrainer_PrepareFormat(void);
+void LegendsTrainer_SelectFormat(void);
 #endif

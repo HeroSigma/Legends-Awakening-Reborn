@@ -195,3 +195,22 @@ EventSnippet_NotEnoughMonsForDoubleBattle::
 	waitbuttonpress
 	release
 	end
+
+EventSnippet_LegendsChooseFormat::
+	specialvar VAR_RESULT, LegendsTrainer_PrepareFormat
+	goto_if_eq VAR_RESULT, FALSE, EventSnippet_LegendsFormatDone
+	msgbox LegendsTrainer_Text_Format, MSGBOX_YESNO
+	special LegendsTrainer_SelectFormat
+	goto_if_eq VAR_RESULT, 2, EventSnippet_LegendsFormatFallback
+	return
+EventSnippet_LegendsFormatDone:
+	return
+EventSnippet_LegendsFormatFallback:
+	msgbox LegendsTrainer_Text_FormatFallback, MSGBOX_DEFAULT
+	return
+LegendsTrainer_Text_Format:
+	.string "Singles or Doubles?\n"
+	.string "YES: Doubles. NO: Singles.$"
+LegendsTrainer_Text_FormatFallback:
+	.string "You need two able POKéMON.\n"
+	.string "We'll battle in Singles this time.$"

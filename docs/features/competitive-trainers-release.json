@@ -1,7 +1,10 @@
 {
   "rom_path": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba",
-  "rom_sha256": "e712e1b1ebd34291f0b2ca59169f95795202d21bef41171ca6a43637c8b189e8",
+  "rom_sha256": "764e4d72be16ab455488adfe54455f45770682dd0c5a5d01db45832087d15f60",
   "save_sha256_before": "ebbfb883e5d6d2b1a0818f4d4b9aefc085203a770142a03544063059a0560f38",
   "save_sha256_after": "ebbfb883e5d6d2b1a0818f4d4b9aefc085203a770142a03544063059a0560f38",
-  "save_preserved": true
+  "save_preserved": true,
+  "profiles": 845,
+  "feature_branch": "feature/competitive-trainers-full",
+  "assertions": 21014
 }

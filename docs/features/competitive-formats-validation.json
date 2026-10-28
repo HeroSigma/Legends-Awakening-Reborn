@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "assertions": 26,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "singles_battlers",
+      "passed": true
+    },
+    {
+      "test": "singles_battle_flag",
+      "passed": true
+    },
+    {
+      "test": "singles_six_opponents",
+      "passed": true
+    },
+    {
+      "test": "singles_native_tera_eligibility",
+      "passed": true
+    },
+    {
+      "test": "singles_native_z_eligibility",
+      "passed": true
+    },
+    {
+      "test": "badge_awarded_by_original_script",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "doubles_battlers",
+      "passed": true
+    },
+    {
+      "test": "doubles_battle_flag",
+      "passed": true
+    },
+    {
+      "test": "doubles_six_opponents",
+      "passed": true
+    },
+    {
+      "test": "doubles_native_tera_eligibility",
+      "passed": true
+    },
+    {
+      "test": "doubles_native_z_eligibility",
+      "passed": true
+    },
+    {
+      "test": "native_usable_z_attack",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fallback_battlers",
+      "passed": true
+    },
+    {
+      "test": "fallback_battle_flag",
+      "passed": true
+    },
+    {
+      "test": "fallback_six_opponents",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "tate_singles_battlers",
+      "passed": true
+    },
+    {
+      "test": "tate_singles_battle_flag",
+      "passed": true
+    },
+    {
+      "test": "tate_singles_six_opponents",
+      "passed": true
+    }
+  ],
+  "rom_sha256": "764e4d72be16ab455488adfe54455f45770682dd0c5a5d01db45832087d15f60"
+}

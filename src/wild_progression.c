@@ -25,7 +25,7 @@ u32 GetWildProgressionCap(void)
         TRAINER_WINONA_1, TRAINER_TATE_AND_LIZA_1, TRAINER_JUAN_1, TRAINER_SIDNEY };
     if (FlagGet(FLAG_SYS_GAME_CLEAR))
         return MAX_LEVEL;
-    const struct Trainer *trainer = &gTrainers[DIFFICULTY_NORMAL][leaders[GetWildBadgeStage()]];
+    const struct Trainer *trainer = GetTrainerStructFromId(leaders[GetWildBadgeStage()]);
     u32 cap = MAX_LEVEL;
     for (u32 i = 0; i < trainer->partySize; i++)
         cap = min(cap, trainer->party[i].lvl);
