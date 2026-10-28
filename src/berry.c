@@ -3134,3 +3134,22 @@ static void AddTreeBonus(struct BerryTree *tree, u8 bonus)
         tree->berryYield = bonus;
     }
 }
+
+// Called only after a successful harvest; never resets unique pickup flags.
+__attribute__((noinline)) bool32 LegendsBerry_Replant(u32 id)
+{
+    u8 berry;
+    if (id >= BERRY_TREES_COUNT)
+        return FALSE;
+    berry = GetBerryTypeByBerryTreeId(id);
+    if (!berry || GetStageByBerryTreeId(id) != BERRY_STAGE_BERRIES
+        || !RemoveBagItem(BerryTypeToItemId(berry), 1))
+        return FALSE;
+    PlantBerryTree(id, berry, BERRY_STAGE_PLANTED, TRUE);
+    return TRUE;
+}
+
+void LegendsBerry_ReplantSelected(void)
+{
+    gSpecialVar_Result = LegendsBerry_Replant(GetObjectEventBerryTreeId(gSelectedObjectEvent));
+}

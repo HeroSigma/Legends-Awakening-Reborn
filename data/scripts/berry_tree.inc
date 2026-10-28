@@ -173,7 +173,6 @@ BerryTree_EventScript_PickBerry::
 	goto_if_eq VAR_0x8004, BERRY_MUTATION_SPACE_IN_BAG, BerryTree_EventScript_PickBerry_Mutation
 .endif
 	special IncrementDailyPickedBerries
-	special ObjectEventInteractionRemoveBerryTree
 	message BerryTree_Text_PickedTheBerry
 	delay 10
 	showberrydescription
@@ -185,6 +184,7 @@ BerryTree_EventScript_PickBerry::
 	waitmessage
 	waitbuttonpress
 	hideitemdescription
+	call LegendsBerry_OfferReplant
 	release
 	end
 
@@ -366,7 +366,6 @@ BerryTree_EventScript_BerryPocketFull_Mutation::
 
 BerryTree_EventScript_PickBerry_Mutation::
 	special IncrementDailyPickedBerries
-	special ObjectEventInteractionRemoveBerryTree
 	message BerryTree_Text_PickedTheBerry_Mutation
 	playfanfare MUS_OBTAIN_BERRY
 	waitmessage
@@ -375,6 +374,7 @@ BerryTree_EventScript_PickBerry_Mutation::
 	message BerryTree_Text_PutAwayBerry_Mutation
 	waitmessage
 	waitbuttonpress
+	call LegendsBerry_OfferReplant
 	release
 	end
 
@@ -463,3 +463,20 @@ BerryTree_EventScript_EncounterPests::
 BerryTree_Text_APokemonAppeared:
 	.string "A Pokémon appeared!$"
 .endif
+
+LegendsBerry_OfferReplant:
+	msgbox LegendsBerry_Text_Replant, MSGBOX_YESNO
+	goto_if_ne VAR_RESULT, YES, LegendsBerry_ClearPlot
+	callnative LegendsBerry_ReplantSelected
+	goto_if_eq VAR_RESULT, FALSE, LegendsBerry_ClearPlot
+	msgbox LegendsBerry_Text_Replanted, MSGBOX_DEFAULT
+	return
+LegendsBerry_ClearPlot:
+	special ObjectEventInteractionRemoveBerryTree
+	return
+LegendsBerry_Text_Replant:
+	.string "Replant one of these BERRIES?\n"
+	.string "It will grow back over time.$"
+LegendsBerry_Text_Replanted:
+	.string "One BERRY was planted.\n"
+	.string "Water it to help it grow!$"

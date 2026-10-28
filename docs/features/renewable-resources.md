@@ -1,5 +1,5 @@
 # Renewable gathering resources
 
-Planned only. Renewable berries and selected gathering nodes. Unique gifts, progression items and one-time rewards remain one-time. Review RTC, save persistence and exploit controls before implementing.
+Berry harvests now offer to replant one berry of the same type, consuming one from the successful harvest. YES resets the tree to planted stage with normal RTC growth, watering and yield; NO clears the plot normally. Full-bag failure never reaches the prompt. Mutation harvests keep their existing reward handling and replant the base berry.
 
-Branch base: `reborn` at `4db6b2729c7603caf1201a0bc3cc7fc58134b695`. Implement independently and validate before merging. Inspired by reported Quetzal behavior; use Reborn-owned code.
+No map-wide pickup-flag resets: unique gifts, hidden items, story rewards, apricorn donor scripts and progression items remain unchanged. No new gathering nodes are invented without mapped locations and resource ownership; this implementation covers the existing renewable berry plots. No new saved state.
