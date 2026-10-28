@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 1133,
-  "rom_sha256": "74429d3430307f59a08920ecbc44b73fb638123595a5f0dc3fbe42e2863f1fb2",
+  "assertions": 1161,
+  "rom_sha256": "c3741b9ddbeda828e6f01bd478ca9259e8c7758b1d5fedd44c81cc59c93184df",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -81,6 +81,62 @@
     },
     {
       "test": "add_(0, 'ITEM_X_ATTACK')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_X_DEFENSE')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_X_DEFENSE')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_X_SP_ATK')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_X_SP_ATK')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_X_SP_DEF')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_X_SP_DEF')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_X_SPEED')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_X_SPEED')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_X_ACCURACY')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_X_ACCURACY')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_DIRE_HIT')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_DIRE_HIT')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_GUARD_SPEC')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_GUARD_SPEC')",
       "passed": true
     },
     {
@@ -597,6 +653,62 @@
     },
     {
       "test": "add_(1, 'ITEM_X_ATTACK')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_X_DEFENSE')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_X_DEFENSE')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_X_SP_ATK')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_X_SP_ATK')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_X_SP_DEF')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_X_SP_DEF')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_X_SPEED')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_X_SPEED')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_X_ACCURACY')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_X_ACCURACY')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_DIRE_HIT')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_DIRE_HIT')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_GUARD_SPEC')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_GUARD_SPEC')",
       "passed": true
     },
     {
