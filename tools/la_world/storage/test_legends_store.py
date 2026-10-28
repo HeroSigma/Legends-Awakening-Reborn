@@ -4,7 +4,7 @@ R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
 D=R/'.la_work/legends-store';D.mkdir(exist_ok=True)
 import tempfile,struct
-names=['ITEMS_COUNT','ITEM_NONE','ITEM_POTION','ITEM_POKE_BALL','ITEM_MASTER_BALL','ITEM_ABILITY_PATCH','ITEM_ABILITY_CAPSULE','ITEM_CHARIZARDITE_X','ITEM_NORMALIUM_Z','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE','ITEM_TM_FOCUS_PUNCH','BAG_TRAINING','BAG_MEDICINE','BAG_KEYS','BAG_TERA_SHARDS','BAG_CATEGORIES_COUNT','offsetof(struct SaveBlock1,money)','sizeof(struct ItemInfo)','offsetof(struct ItemInfo,price)','FLAG_SYS_POKEDEX_GET','FLAG_SYS_POKEMON_GET','FLAG_SYS_POKENAV_GET','DN_FLAG_DEXNAV_GET']
+names=['ITEM_HM_CUT', 'ITEM_HM_FLY', 'ITEM_HM_SURF', 'ITEM_HM_STRENGTH', 'ITEM_HM_FLASH', 'ITEM_HM_ROCK_SMASH', 'ITEM_HM_WATERFALL', 'ITEM_HM_DIVE']+['ITEMS_COUNT','ITEM_NONE','ITEM_POTION','ITEM_POKE_BALL','ITEM_MASTER_BALL','ITEM_ABILITY_PATCH','ITEM_ABILITY_CAPSULE','ITEM_CHARIZARDITE_X','ITEM_NORMALIUM_Z','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE','ITEM_TM_FOCUS_PUNCH','BAG_TRAINING','BAG_MEDICINE','BAG_KEYS','BAG_TERA_SHARDS','BAG_CATEGORIES_COUNT','offsetof(struct SaveBlock1,money)','sizeof(struct ItemInfo)','offsetof(struct ItemInfo,price)','FLAG_SYS_POKEDEX_GET','FLAG_SYS_POKEMON_GET','FLAG_SYS_POKENAV_GET','DN_FLAG_DEXNAV_GET']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "item.h"\n#include "bag_categories.h"\n#include "dexnav.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -16,7 +16,7 @@ def quantity(item):return invoke('CountTotalItemQuantityInBag',item)
 prices=[]
 for mode in [0,1]:
  start(0);invoke('StorageChangeMode',mode,1);invoke('ClearBag')
- for name in ['ITEM_NONE','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE']:
+ for name in ['ITEM_NONE','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE']+['ITEM_HM_CUT', 'ITEM_HM_FLY', 'ITEM_HM_SURF', 'ITEM_HM_STRENGTH', 'ITEM_HM_FLASH', 'ITEM_HM_ROCK_SMASH', 'ITEM_HM_WATERFALL', 'ITEM_HM_DIVE']:
   check('excluded_'+str((mode,name)),invoke('LegendsStore_ItemAllowed',c[name])==0)
   check('excluded_purchase_'+str((mode,name)),invoke('LegendsStore_Buy',c[name],1,99)==1)
  for name in ['ITEM_POTION','ITEM_MASTER_BALL','ITEM_ABILITY_PATCH','ITEM_ABILITY_CAPSULE','ITEM_CHARIZARDITE_X','ITEM_NORMALIUM_Z']:

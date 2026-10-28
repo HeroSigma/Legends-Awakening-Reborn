@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 910,
-  "rom_sha256": "33dcdc137caeedbf864b0bc7ccc1a585c7c1d93426cce5f2e955394cb1a2571e",
+  "assertions": 934,
+  "rom_sha256": "7a85e2b917e46742c07e9e29a6bc6325b4358dbd8c48139536892a7c3bb70dfb",
   "examples": [
     {
       "item": "ITEM_POTION",
@@ -65,6 +65,70 @@
     },
     {
       "test": "excluded_purchase_(0, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_DIVE')",
       "passed": true
     },
     {
@@ -3012,38 +3076,6 @@
       "passed": true
     },
     {
-      "test": "catalog_price_682",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_683",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_684",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_685",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_686",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_687",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_688",
-      "passed": true
-    },
-    {
-      "test": "catalog_price_689",
-      "passed": true
-    },
-    {
       "test": "catalog_price_758",
       "passed": true
     },
@@ -3445,6 +3477,70 @@
     },
     {
       "test": "excluded_purchase_(1, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_DIVE')",
       "passed": true
     },
     {

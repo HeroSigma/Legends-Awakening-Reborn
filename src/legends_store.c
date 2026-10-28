@@ -36,6 +36,7 @@ static const struct WindowTemplate sWindow = {
 bool32 __attribute__((noinline)) LegendsStore_ItemAllowed(enum Item item)
 {
     return item > ITEM_NONE && item < ITEMS_COUNT
+        && GetItemTMHMIndex(item) <= NUM_TECHNICAL_MACHINES
         && gItemsInfo[item].name != NULL
         && gItemsInfo[item].name != gQuestionMarksItemName
         && LegendsStore_CategoryAllowed(GetItemBagCategory(item));

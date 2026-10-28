@@ -11,6 +11,8 @@ Available on the Services page of the normal Start menu (and debug Start menu), 
 
 Delivery goes directly to the correct Bag category. Quantity is 1–99; reusable machines and important items are limited to one and cannot be repurchased while owned. Insufficient funds or bag space never consumes money. Both normal and 60-box collection saves retain purchases and funds.
 
+HMs are excluded from the catalog; TMs remain available. Existing HMs in the Bag are unaffected.
+
 ## Economy
 
 Normal prices include a 25% convenience premium. One eligible category per local RTC day receives a 20% discount on the normal price, removing the premium. Categories rotate through all 11 eligible categories over 11 days. The sale is fixed when opening the store; a new session reads the current day.
