@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "assertions": 27,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "inspection_returns_0",
+      "passed": true
+    },
+    {
+      "test": "cancel_no_edit_0",
+      "passed": true
+    },
+    {
+      "test": "ui_ev252_0",
+      "passed": true
+    },
+    {
+      "test": "ui_iv0_0",
+      "passed": true
+    },
+    {
+      "test": "ui_nature_adamant_0",
+      "passed": true
+    },
+    {
+      "test": "ui_hidden_ability_0",
+      "passed": true
+    },
+    {
+      "test": "ui_exact_ev127_0",
+      "passed": true
+    },
+    {
+      "test": "ui_level_0",
+      "passed": true
+    },
+    {
+      "test": "ui_evolution_0",
+      "passed": true
+    },
+    {
+      "test": "ui_money_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "ui_clean_exit_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "inspection_returns_1",
+      "passed": true
+    },
+    {
+      "test": "cancel_no_edit_1",
+      "passed": true
+    },
+    {
+      "test": "ui_ev252_1",
+      "passed": true
+    },
+    {
+      "test": "ui_iv0_1",
+      "passed": true
+    },
+    {
+      "test": "ui_nature_adamant_1",
+      "passed": true
+    },
+    {
+      "test": "ui_hidden_ability_1",
+      "passed": true
+    },
+    {
+      "test": "ui_exact_ev127_1",
+      "passed": true
+    },
+    {
+      "test": "cancel_evolution_keeps_species",
+      "passed": true
+    },
+    {
+      "test": "ui_level_1",
+      "passed": true
+    },
+    {
+      "test": "ui_evolution_1",
+      "passed": true
+    },
+    {
+      "test": "ui_money_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "ui_clean_exit_1",
+      "passed": true
+    }
+  ],
+  "rom_sha256": "620a1324d0df33bc4c7fde08d59c6256c2ea9630cefe8b17d1e438199d2f5f9e"
+}

@@ -644,3 +644,9 @@ gSpecials::
 
 	def_special LegendsTrainer_PrepareFormat
 	def_special LegendsTrainer_SelectFormat
+
+	def_special LegendsTraining_Menu, waitstate=1
+	def_special LegendsTraining_Inspect
+	def_special LegendsTraining_Prepare
+	def_special LegendsTraining_Commit
+	def_special LegendsTraining_Evolve, waitstate=1
