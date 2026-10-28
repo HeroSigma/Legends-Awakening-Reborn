@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_tera.h"
 #include "wild_progression.h"
 #include "dynamic_encounters.h"
 #include "battle_main.h"
@@ -1282,6 +1283,11 @@ static void DexNavGenerateMoveset(enum Species species, u8 searchLevel, u8 encou
 
 static enum Item DexNavGenerateHeldItem(enum Species species, u8 searchLevel)
 {
+    enum Item equipment = LegendsChooseDexNavEquipment(species, gSaveBlock3Ptr->dexNavChain,
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT));
+    if (equipment != ITEM_NONE)
+        return equipment;
+
     u16 randVal = Random() % 100;
     u8 searchLevelInfluence = searchLevel >> 1;
     enum Item item1 = gSpeciesInfo[species].itemCommon;

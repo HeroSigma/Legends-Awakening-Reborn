@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "assertions": 25,
+  "rom_sha256": "c5f49008c8941134a0ec26d03a082d53af92db0a9668a2bcc4f9464d7f512596",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "fishing_table_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "automatic_battle_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "fishing_counter_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "no_fish_table",
+      "passed": true
+    },
+    {
+      "test": "clean_exit_False",
+      "passed": true
+    },
+    {
+      "test": "overworld_restored_False",
+      "passed": true
+    },
+    {
+      "test": "clean_exit_True",
+      "passed": true
+    },
+    {
+      "test": "overworld_restored_True",
+      "passed": true
+    }
+  ]
+}
