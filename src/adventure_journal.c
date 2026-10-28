@@ -49,7 +49,8 @@ static const u8 sTitleJourney[] = _("ADVENTURE JOURNAL  1/3");
 static const u8 sTitleField[] = _("FIELD RECORDS  2/3");
 static const u8 sTitleStory[] = _("STORY NOTES  3/3");
 static const u8 *const sTitles[] = {sTitleJourney, sTitleField, sTitleStory};
-static const u8 sFooter[] = _("Left/Right: pages   B: close");
+static const u8 sFooter[] = _("SELECT: Day Care  B: close");
+extern const u8 LegendsDaycare_Remote[];
 static const u8 sDone[] = _("Done");
 static const u8 sPending[] = _("Pending");
 static const struct WindowTemplate sJournalWindow = {
@@ -92,6 +93,14 @@ static void Task_AdventureJournal(u8 taskId)
         DestroyTask(taskId);
         ScriptUnfreezeObjectEvents();
         UnlockPlayerFieldControls();
+    }
+    else if (JOY_NEW(SELECT_BUTTON))
+    {
+        u8 win = gTasks[taskId].data[0];
+        ClearStdWindowAndFrame(win, TRUE);
+        RemoveWindow(win);
+        DestroyTask(taskId);
+        ScriptContext_SetupScript(LegendsDaycare_Remote);
     }
     else if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT | L_BUTTON | R_BUTTON))
     {

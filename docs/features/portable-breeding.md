@@ -1,5 +1,7 @@
-# Portable breeding service
+# Portable daycare
 
-Planned only. Story-unlocked Devon access to native daycare/breeding. Respect egg generation, inherited traits, compatibility and story gating; audit any extra pairs against save capacity.
+Start > Journal > SELECT opens remote daycare. Requires both Devon return/PokeNav milestones and a first visit inside Route 117 Daycare. Reuses the native two-parent service, compatibility, inheritance, step generation, retrieval fees and pending egg. No extra pair or save fields.
 
-Branch base: `reborn` at `4db6b2729c7603caf1201a0bc3cc7fc58134b695`. Implement independently and validate before merging. Inspired by reported Quetzal behavior; use Reborn-owned code.
+YES manages parents; NO offers egg collection. Native full-party, money, cancellation and last-battler protections remain. Only physical retrieval animation is skipped remotely; no teleport, map actor movement or story warp. Local daycare explicitly clears the temporary remote-call marker.
+
+Box 1 is the passive egg nursery after Devon: store eggs there, walk to incubate, withdraw to hatch. Party eggs keep their normal behavior.

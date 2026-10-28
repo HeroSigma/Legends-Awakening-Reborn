@@ -2689,3 +2689,5 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_tera.inc"
 
 	.include "data/scripts/la_collection_storage.inc"
+
+	.include "data/scripts/legends_portable_daycare.inc"
