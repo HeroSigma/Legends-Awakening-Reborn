@@ -1,5 +1,5 @@
-# Follower environmental interactions
+# Environmental follower interactions
 
-Planned only. Optional environmental reactions including unstable rifts. Begin with cosmetic hints; terrain changes must preserve collision, script ownership and map reload behavior.
+Talking to the following Pokemon in Timeless Woods gives a contextual reaction. After the conspiracy scene, it notices the fading trail instead. Devon basement has an equipment reaction. These hints take priority over random chatter in those locations; existing health, weather, terrain and time-of-day reactions remain elsewhere.
 
-Branch base: `reborn` at `4db6b2729c7603caf1201a0bc3cc7fc58134b695`. Implement independently and validate before merging. Inspired by reported Quetzal behavior; use Reborn-owned code.
+Cosmetic and optional: talking initiates them, no forced stops, rewards, friendship farming, collision edits, map changes or story-state writes. Uses the existing follower text, name expansion and emote path. No new art or saved fields.

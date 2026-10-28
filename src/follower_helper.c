@@ -1,5 +1,8 @@
 #include "global.h"
 #include "data.h"
+#include "event_data.h"
+#include "constants/layouts.h"
+#include "constants/flags.h"
 #include "event_scripts.h"
 #include "follower_helper.h"
 #include "overworld.h"
@@ -408,3 +411,23 @@ const struct FollowerMessagePool gFollowerBasicMessages[FOLLOWER_EMOTION_LENGTH]
     [FOLLOWER_EMOTION_MUSIC]    = {gFollowerMusicMessages,    EventScript_FollowerGeneric, FOLLOWER_MUSIC_MESSAGE_COUNT},
     [FOLLOWER_EMOTION_POISONED] = {gFollowerPoisonedMessages, EventScript_FollowerGeneric, FOLLOWER_POISONED_MESSAGE_COUNT},
 };
+
+// Priority story-area hints: cosmetic only, with no terrain or progression writes.
+static const u8 sRiftUnease[] = _("{STR_VAR_1} listens closely.\nSomething stirs between the trees.");
+static const u8 sRiftTrace[] = _("{STR_VAR_1} follows a fading scent.\nThe strangers' trail ends here.");
+static const u8 sDevonCurious[] = _("{STR_VAR_1} watches the equipment\nwith a curious tilt of its head.");
+
+const u8 *LegendsFollower_EnvironmentalText(u32 layout)
+{
+    switch (layout)
+    {
+    case LAYOUT_HYPERHOENN_34_67_TIMELESS_WOODS:
+    case LAYOUT_HYPERHOENN_34_0_TIMELESS_WOODS:
+    case LAYOUT_HYPERHOENN_35_27_TIMELESS_WOODS:
+        return FlagGet(FLAG_LA_TIMELESS_WOODS_CONSPIRACY_SEEN) ? sRiftTrace : sRiftUnease;
+    case LAYOUT_HYPERHOENN_34_10_BASEMENT:
+        return sDevonCurious;
+    default:
+        return NULL;
+    }
+}
