@@ -1,4 +1,6 @@
 #include "global.h"
+#include "legends_store.h"
+#include "bag_categories.h"
 #include "expanded_bag.h"
 #include "item.h"
 #include "berry.h"
@@ -965,7 +967,13 @@ u32 GetItemStatus1Mask(enum Item itemId)
 
 u32 GetItemSellPrice(enum Item itemId)
 {
-    return GetItemPrice(itemId) / ITEM_SELL_FACTOR;
+    u32 price = GetItemPrice(itemId) / ITEM_SELL_FACTOR;
+    if (LegendsStore_ItemAllowed(itemId))
+    {
+        u32 ceiling = LegendsStore_Price(itemId, GetItemBagCategory(itemId)) / ITEM_SELL_FACTOR;
+        if (price > ceiling) price = ceiling;
+    }
+    return price;
 }
 
 bool32 IsHoldEffectChoice(enum HoldEffect holdEffect)

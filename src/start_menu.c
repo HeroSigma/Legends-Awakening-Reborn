@@ -1,5 +1,6 @@
 #include "global.h"
 #include "adventure_journal.h"
+#include "legends_store.h"
 #include "config/save.h"
 #include "battle_pike.h"
 #include "battle_pyramid.h"
@@ -71,6 +72,7 @@ enum
     MENU_ACTION_DEBUG,
     MENU_ACTION_DEXNAV,
     MENU_ACTION_JOURNAL,
+    MENU_ACTION_STORE,
 };
 
 // Save status
@@ -90,7 +92,7 @@ EWRAM_DATA static u8 sSafariBallsWindowId = 0;
 EWRAM_DATA static u8 sBattlePyramidFloorWindowId = 0;
 EWRAM_DATA static u8 sStartMenuCursorPos = 0;
 EWRAM_DATA static u8 sNumStartMenuActions = 0;
-EWRAM_DATA static u8 sCurrentStartMenuActions[9] = {0};
+EWRAM_DATA static u8 sCurrentStartMenuActions[10] = {0};
 EWRAM_DATA static s8 sInitStartMenuData[2] = {0};
 
 EWRAM_DATA static u8 (*sSaveDialogCallback)(void) = NULL;
@@ -114,6 +116,7 @@ static bool8 StartMenuBattlePyramidBagCallback(void);
 static bool8 StartMenuDebugCallback(void);
 static bool8 StartMenuDexNavCallback(void);
 static bool8 StartMenuJournalCallback(void);
+static bool8 StartMenuStoreCallback(void);
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -190,6 +193,8 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
     .baseBlock = 0x8
 };
 
+static const u8 sText_MenuStore[] = _("LEGENDS STORE");
+
 static const u8 sText_MenuJournal[] = _("JOURNAL");
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
@@ -210,6 +215,7 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_RETIRE_FRONTIER] = {gText_MenuRetire,  {.u8_void = StartMenuBattlePyramidRetireCallback}},
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
     [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
+    [MENU_ACTION_STORE]           = {sText_MenuStore, {.u8_void = StartMenuStoreCallback}},
     [MENU_ACTION_JOURNAL]         = {sText_MenuJournal, {.u8_void = StartMenuJournalCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
 };
@@ -347,12 +353,14 @@ static void BuildNormalStartMenu(void)
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
     AddStartMenuAction(MENU_ACTION_OPTION);
-    AddStartMenuAction(MENU_ACTION_JOURNAL); // B/START still closes the menu; keep the nine-row limit.
+    AddStartMenuAction(MENU_ACTION_JOURNAL);
+    AddStartMenuAction(MENU_ACTION_STORE);
 }
 
 static void BuildDebugStartMenu(void)
 {
     AddStartMenuAction(MENU_ACTION_DEBUG);
+    AddStartMenuAction(MENU_ACTION_STORE);
     if (FlagGet(FLAG_SYS_POKEDEX_GET) == TRUE)
         AddStartMenuAction(MENU_ACTION_POKEDEX);
     if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
@@ -494,12 +502,12 @@ static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
     {
         if (sStartMenuItems[sCurrentStartMenuActions[index]].func.u8_void == StartMenuPlayerNameCallback)
         {
-            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, (index << 4) + 9);
+            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, index * (sNumStartMenuActions >= 9 ? 14 : 16) + (sNumStartMenuActions >= 9 ? 1 : 9));
         }
         else
         {
             StringExpandPlaceholders(gStringVar4, sStartMenuItems[sCurrentStartMenuActions[index]].text);
-            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, (index << 4) + 9, TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, index * (sNumStartMenuActions >= 9 ? 14 : 16) + (sNumStartMenuActions >= 9 ? 1 : 9), TEXT_SKIP_DRAW, NULL);
         }
 
         index++;
@@ -548,7 +556,7 @@ static bool32 InitStartMenuStep(void)
             sInitStartMenuData[0]++;
         break;
     case 5:
-        sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, 9, 16, sNumStartMenuActions, sStartMenuCursorPos);
+        sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, sNumStartMenuActions >= 9 ? 1 : 9, sNumStartMenuActions >= 9 ? 14 : 16, sNumStartMenuActions, sStartMenuCursorPos);
         CopyWindowToVram(GetStartMenuWindowId(), COPYWIN_MAP);
         return TRUE;
     }
@@ -659,6 +667,7 @@ static bool8 HandleStartMenuInput(void)
         gMenuCallback = sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].func.u8_void;
 
         if (gMenuCallback != StartMenuSaveCallback
+            && gMenuCallback != StartMenuStoreCallback
             && gMenuCallback != StartMenuJournalCallback
             && gMenuCallback != StartMenuExitCallback
             && gMenuCallback != StartMenuDebugCallback
@@ -1524,5 +1533,13 @@ static bool8 StartMenuJournalCallback(void)
     RemoveExtraStartMenuWindows();
     HideStartMenuDebug(); // Remove menu while retaining the field-control lock.
     AdventureJournal_Open();
+    return TRUE;
+}
+
+static bool8 StartMenuStoreCallback(void)
+{
+    RemoveExtraStartMenuWindows();
+    HideStartMenuDebug();
+    LegendsStore_Open();
     return TRUE;
 }

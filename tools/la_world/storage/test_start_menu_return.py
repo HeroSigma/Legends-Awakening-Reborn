@@ -21,7 +21,7 @@ for mode in [0,1]:
   for key in [2,8]:
    tap(8);frames(40)
    check('direct_open_'+str((mode,mask,key)),active('Task_ShowStartMenu') is not None)
-   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=9)
+   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=10)
    tap(key);frames(20)
    check('direct_close_'+str((mode,mask,key)),active('Task_ShowStartMenu') is None and rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
  for f in flags:invoke('FlagSet',f)
