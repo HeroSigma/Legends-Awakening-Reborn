@@ -21,3 +21,7 @@ Both Fast and Slow fill commands scan the PC for owned species, preserve occupie
 ## Validation
 
 Native mGBA tests exercise full stock, all categories, 999-count persistence, normal and V2-to-V3 migration, the real debug-menu actions, both PC fill paths, deduplication, end-of-list termination, full-pocket navigation, and damaged normal-sector recovery. Additional PC integration, Nurse Joy, training scientist, Start menu and host format tests pass. No tests write the player's actual battery file. The release receipt records counts and ROM/save hashes.
+
+## Fill PC levels
+
+Both Fast and Slow Fill PC create new Pokemon at level 5. The fast path resets experience for each species growth curve, so every species reaches exactly level 5. Existing boxed Pokemon retain their levels. `test_fill_pc_levels.py` verifies every new record in both storage modes, repeat termination, and save/reload.

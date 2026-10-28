@@ -3664,7 +3664,7 @@ u32 Debug_FillPCBoxes(bool32 randomIvs)
     enum Species species = GetNextSpecies(SPECIES_NONE, seen);
     u32 added = 0;
     if (species == SPECIES_NONE) {Free(seen);return 0;}
-    CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
+    CreateBoxMon(&boxMon, species, 5, Random32(), OTID_STRUCT_PLAYER_ID);
     for (u32 box = 0; box < GetStorageBoxCount() && species != SPECIES_NONE; box++)
     {
         for (u32 slot = 0; slot < IN_BOX_COUNT && species != SPECIES_NONE; slot++)
@@ -3672,13 +3672,16 @@ u32 Debug_FillPCBoxes(bool32 randomIvs)
             if (GetBoxMonDataAt(box, slot, MON_DATA_SANITY_HAS_SPECIES)) continue;
             if (randomIvs)
             {
-                CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
+                CreateBoxMon(&boxMon, species, 5, Random32(), OTID_STRUCT_PLAYER_ID);
                 SetBoxMonIVs(&boxMon, USE_RANDOM_IVS);
             }
             else
             {
                 SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
                 SetBoxMonData(&boxMon, MON_DATA_NICKNAME, GetSpeciesName(species));
+                // Species use different growth curves; reset EXP for each one.
+                u32 experience = gExperienceTables[gSpeciesInfo[species].growthRate][5];
+                SetBoxMonData(&boxMon, MON_DATA_EXP, &experience);
             }
             GiveBoxMonInitialMoveset(&boxMon);
             if (!StorageWriteMon(box, slot, &boxMon)) {Free(seen);return added;}
