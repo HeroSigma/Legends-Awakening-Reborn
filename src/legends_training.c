@@ -13,11 +13,21 @@
 #include "constants/flags.h"
 
 // Only transient script variables are used. No money, items or save fields.
-static const u8 *const sServices[] = {COMPOUND_STRING("Inspect build"), COMPOUND_STRING("EV training"), COMPOUND_STRING("Reset all EVs"), COMPOUND_STRING("IV adjustment"), COMPOUND_STRING("Nature effects"), COMPOUND_STRING("Ability"), COMPOUND_STRING("Level catch-up"), COMPOUND_STRING("Done")};
+static const u8 *const sServices[] = {COMPOUND_STRING("Inspect build"), COMPOUND_STRING("EV training"), COMPOUND_STRING("Reset all EVs"), COMPOUND_STRING("IV adjustment"), COMPOUND_STRING("Nature effects"), COMPOUND_STRING("Ability"), COMPOUND_STRING("Level catch-up"), COMPOUND_STRING("EV presets"), COMPOUND_STRING("Done")};
 static const u8 *const sStats[] = {COMPOUND_STRING("HP"), COMPOUND_STRING("Attack"), COMPOUND_STRING("Defense"), COMPOUND_STRING("Sp. Attack"), COMPOUND_STRING("Sp. Defense"), COMPOUND_STRING("Speed")};
 static const u8 sEVFields[] = {MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
 static const u8 sIVFields[] = {MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
 static const u8 *const sEVChoices[] = {COMPOUND_STRING("Set to 252"),COMPOUND_STRING("Set to 4"),COMPOUND_STRING("Set to 0"),COMPOUND_STRING("Choose exact value"),COMPOUND_STRING("Back")};
+static const u8 sEVPresets[][6] = {
+    {4,252,0,0,0,252},
+    {4,0,0,252,0,252},
+    {252,0,252,0,4,0},
+    {252,0,4,0,252,0},
+};
+static const u8 *const sEVPresetNames[] = {
+    COMPOUND_STRING("Physical attacker"), COMPOUND_STRING("Special attacker"),
+    COMPOUND_STRING("Physical wall"), COMPOUND_STRING("Special wall"),
+};
 static EWRAM_DATA u16 sEvolutionSpecies = SPECIES_NONE;
 
 static struct Pokemon *SelectedMon(void)
@@ -52,6 +62,9 @@ void LegendsTraining_Menu(void)
     if (!items) {gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
     if (kind==0) {
         for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],i);
+    } else if (kind==8) {
+        for (u32 i=0;i<ARRAY_COUNT(sEVPresets);i++) MenuItem(items,count++,sEVPresetNames[i],i);
+        MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind==1) {
         for (u32 i=0;i<6;i++) {
             u8 text[40], number[8];
@@ -159,6 +172,12 @@ void LegendsTraining_Prepare(void)
             for (u32 i=0;i<6;i++) if (i!=stat) total+=GetMonData(mon,sEVFields[i]);
             if (total>510) {gSpecialVar_Result=2;return;}
         }
+    } else if (action==8) {
+        if (value>=ARRAY_COUNT(sEVPresets)) return;
+        bool32 same=TRUE;
+        for (u32 i=0;i<6;i++) if (GetMonData(mon,sEVFields[i])!=sEVPresets[value][i]) same=FALSE;
+        if (same) {gSpecialVar_Result=4;return;}
+        old=value+1;
     } else if (action==7) {
         if (value!=31) return;
         for (u32 i=0;i<6;i++) old+=GetMonData(mon,sIVFields[i]);
@@ -185,6 +204,15 @@ void LegendsTraining_Prepare(void)
     if (action==1 || action==3) {
         StringAppend(gStringVar4,sStats[stat]);StringAppend(gStringVar4,action==1?COMPOUND_STRING(" EVs: "):COMPOUND_STRING(" IVs: "));
         AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);
+    } else if (action==8) {
+        StringAppend(gStringVar4,sEVPresetNames[value]);
+        StringAppend(gStringVar4,COMPOUND_STRING("\pReplaces all current EVs."));
+        for (u32 i=0;i<6;i++) {
+            StringAppend(gStringVar4,i%2?COMPOUND_STRING("\n"):COMPOUND_STRING("\p"));
+            StringAppend(gStringVar4,sStats[i]);StringAppend(gStringVar4,COMPOUND_STRING(": "));
+            AppendNumber(gStringVar4,sEVPresets[value][i]);
+        }
+        StringAppend(gStringVar4,COMPOUND_STRING("\pTotal: 508 / 510"));
     } else if (action==7) StringAppend(gStringVar4,COMPOUND_STRING("Set all six IVs to 31."));
     else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
     else if (action==4) {StringAppend(gStringVar4,COMPOUND_STRING("Nature effects: "));StringAppend(gStringVar4,gNaturesInfo[value].name);}
@@ -201,6 +229,7 @@ void LegendsTraining_Commit(void)
     struct Pokemon *mon=SelectedMon();
     u32 action=gSpecialVar_0x8008,stat=gSpecialVar_0x8006,value=gSpecialVar_0x8007;
     if (action==1 || action==3) SetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat],&value);
+    else if (action==8) {for (u32 i=0;i<6;i++) {u32 ev=sEVPresets[value][i];SetMonData(mon,sEVFields[i],&ev);}}
     else if (action==7) {u32 max=31;for (u32 i=0;i<6;i++) SetMonData(mon,sIVFields[i],&max);}
     else if (action==2) {u32 zero=0;for (u32 i=0;i<6;i++) SetMonData(mon,sEVFields[i],&zero);}
     else if (action==4) SetMonData(mon,MON_DATA_HIDDEN_NATURE,&value);

@@ -16,8 +16,9 @@ LegendsTraining_Main:
     closemessage
     setvar VAR_0x8005, 0
     special LegendsTraining_Menu
-    goto_if_ge VAR_RESULT, 7, LegendsTraining_End
+    goto_if_ge VAR_RESULT, 8, LegendsTraining_End
     copyvar VAR_0x8008, VAR_RESULT
+    goto_if_eq VAR_RESULT, 7, LegendsTraining_Presets
     goto_if_eq VAR_RESULT, 0, LegendsTraining_InspectBuild
     goto_if_eq VAR_RESULT, 2, LegendsTraining_Reset
     goto_if_eq VAR_RESULT, 4, LegendsTraining_Nature
@@ -48,6 +49,13 @@ LegendsTraining_ShowEVBudget:
 LegendsTraining_ExactEV:
     setvar VAR_0x8005, 5
     goto LegendsTraining_Number
+LegendsTraining_Presets:
+    setvar VAR_0x8005, 8
+    special LegendsTraining_Menu
+    goto_if_ge VAR_RESULT, 4, LegendsTraining_Main
+    setvar VAR_0x8008, 8
+    copyvar VAR_0x8007, VAR_RESULT
+    goto LegendsTraining_Confirm
 LegendsTraining_AllIVs:
     setvar VAR_0x8008, 7
     setvar VAR_0x8007, 31

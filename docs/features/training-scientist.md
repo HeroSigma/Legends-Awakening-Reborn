@@ -19,3 +19,14 @@ The IV adjustment stat list includes **31 All** after Speed. It uses the normal 
 ## Build visibility
 
 EV and IV stat lists show each current value beside its stat. The EV selection screen keeps used points (out of 510) and remaining points visible in the dialogue box, without an extra confirmation press. The budget is recomputed on each visit, including after edits or cancellations. Inspect Build includes the same budget. Individual editing and 31 All keep their existing confirmation and legality checks.
+
+## EV presets
+
+EV presets offers four complete 508-point spreads in stat order HP / Attack / Defense / Sp. Attack / Sp. Defense / Speed:
+
+- Physical attacker: 4 / 252 / 0 / 0 / 0 / 252.
+- Special attacker: 4 / 0 / 0 / 252 / 0 / 252.
+- Physical wall: 252 / 0 / 252 / 0 / 4 / 0.
+- Special wall: 252 / 0 / 4 / 0 / 252 / 0.
+
+The preview states that all current EVs are replaced, lists all six values and the 508/510 total, and requires confirmation. Canceling preserves the entire original spread; selecting an identical spread reports that no change is needed. Presets do not alter IVs, nature, ability, or level, and remain free. Individual EV adjustments remain available for custom builds.
