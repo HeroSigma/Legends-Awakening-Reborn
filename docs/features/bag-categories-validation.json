@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 1125,
-  "rom_sha256": "ba325a7a36bef62f1ae95a03b1367413417f7013d443875f46592e7c9729faf1",
+  "assertions": 1133,
+  "rom_sha256": "e4b500fdc0cedfd3ccaa76335f04583f7f564fd7270f94bc3e73fb5a22c4c85f",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -89,6 +89,22 @@
     },
     {
       "test": "add_(0, 'ITEM_TIMID_MINT')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "classification_(0, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "add_(0, 'ITEM_ABILITY_CAPSULE')",
       "passed": true
     },
     {
@@ -589,6 +605,22 @@
     },
     {
       "test": "add_(1, 'ITEM_TIMID_MINT')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "classification_(1, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "add_(1, 'ITEM_ABILITY_CAPSULE')",
       "passed": true
     },
     {
