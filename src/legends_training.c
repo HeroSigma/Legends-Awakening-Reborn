@@ -11,6 +11,9 @@
 #include "overworld.h"
 #include "evolution_scene.h"
 #include "constants/flags.h"
+#include "menu.h"
+#include "window.h"
+#include "text.h"
 
 // Only transient script variables are used. No money, items or save fields.
 static const u8 *const sServices[] = {COMPOUND_STRING("Inspect build"), COMPOUND_STRING("EV training"), COMPOUND_STRING("Reset all EVs"), COMPOUND_STRING("IV adjustment"), COMPOUND_STRING("Nature effects"), COMPOUND_STRING("Ability"), COMPOUND_STRING("Level catch-up"), COMPOUND_STRING("EV presets"), COMPOUND_STRING("Done")};
@@ -274,4 +277,54 @@ static void AfterTrainingEvolution(void)
 void LegendsTraining_Evolve(void)
 {
     if (!StartTrainingEvolution()) CreateTask(ResumeTraining,0);
+}
+
+static const struct WindowTemplate sBuildWindow = {
+    .bg=0, .tilemapLeft=1, .tilemapTop=1, .width=28, .height=18,
+    .paletteNum=15, .baseBlock=1,
+};
+static void BuildPrint(u8 win,const u8 *text,u32 x,u32 y)
+{
+    AddTextPrinterParameterized(win,FONT_SMALL,text,x,y,TEXT_SKIP_DRAW,NULL);
+}
+static void Task_TrainingBuild(u8 taskId)
+{
+    if (gTasks[taskId].data[1]) {gTasks[taskId].data[1]--;return;}
+    if (!JOY_NEW(A_BUTTON | B_BUTTON)) return;
+    u8 win=gTasks[taskId].data[0];
+    ClearStdWindowAndFrame(win,TRUE);
+    RemoveWindow(win);
+    DestroyTask(taskId);
+    ScriptContext_Enable();
+}
+void LegendsTraining_ShowBuild(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    gSpecialVar_Result=1;
+    if (!mon) {CreateTask(ResumeTraining,0);return;}
+    u8 win=AddWindow(&sBuildWindow),text[100];
+    if (win==WINDOW_NONE) {CreateTask(ResumeTraining,0);return;}
+    PutWindowTilemap(win);DrawStdWindowFrame(win,FALSE);
+    FillWindowPixelBuffer(win,PIXEL_FILL(1));
+    GetMonData(mon,MON_DATA_NICKNAME,text);BuildPrint(win,text,4,0);
+    StringCopy(text,COMPOUND_STRING("Lv. "));AppendNumber(text,GetMonData(mon,MON_DATA_LEVEL));BuildPrint(win,text,160,0);
+    StringCopy(text,COMPOUND_STRING("Nature: "));StringAppend(text,gNaturesInfo[GetMonData(mon,MON_DATA_HIDDEN_NATURE)].name);BuildPrint(win,text,4,12);
+    StringCopy(text,COMPOUND_STRING("Ability: "));StringAppend(text,gAbilitiesInfo[GetMonAbility(mon)].name);BuildPrint(win,text,4,24);
+    BuildPrint(win,COMPOUND_STRING("STAT"),4,36);
+    BuildPrint(win,COMPOUND_STRING("IV"),116,36);
+    BuildPrint(win,COMPOUND_STRING("EV"),170,36);
+    u32 total=0;
+    for (u32 i=0;i<6;i++) {
+        BuildPrint(win,sStats[i],4,48+i*12);
+        ConvertIntToDecimalStringN(text,GetMonData(mon,sIVFields[i]),STR_CONV_MODE_RIGHT_ALIGN,3);BuildPrint(win,text,108,48+i*12);
+        u32 ev=GetMonData(mon,sEVFields[i]);total+=ev;
+        ConvertIntToDecimalStringN(text,ev,STR_CONV_MODE_RIGHT_ALIGN,3);BuildPrint(win,text,162,48+i*12);
+    }
+    StringCopy(text,COMPOUND_STRING("EVs: "));AppendNumber(text,total);
+    StringAppend(text,COMPOUND_STRING("/510   Available: "));AppendNumber(text,total<510?510-total:0);BuildPrint(win,text,4,122);
+    BuildPrint(win,COMPOUND_STRING("A/B: back to training"),4,134);
+    CopyWindowToVram(win,COPYWIN_FULL);
+    u8 task=CreateTask(Task_TrainingBuild,0);
+    gTasks[task].data[0]=win;gTasks[task].data[1]=8;
+    gSpecialVar_Result=0;
 }

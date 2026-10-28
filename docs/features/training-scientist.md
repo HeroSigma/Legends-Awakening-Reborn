@@ -34,3 +34,7 @@ The preview states that all current EVs are replaced, lists all six values and t
 ## Editing flow
 
 Confirmed edits, cancelled confirmations, and unchanged/invalid choices return to the EV/IV stat picker or the relevant nature, ability, or preset list. EV/IV pickers retain the selected stat, including 31 All. Nature and ability lists highlight the current setting, and preset lists retain the selected build. B backs out to the service menu. Numeric EV/IV cancellation returns to the stat picker, and the EV quick-value list can also back out one level. Level evolution and one-shot EV reset retain their existing flow.
+
+## Compact inspection
+
+Inspect Build opens a read-only panel showing nickname, level, effective nature, ability, all six IV/EV pairs, and the EV budget on one screen. A or B returns to the scientist service list. The panel has a brief opening input guard so the button used to choose Inspect cannot also close it. It uses temporary window/task state and changes no Pokemon or save fields.

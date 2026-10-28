@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "assertions": 97,
+  "assertions": 103,
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -8,6 +8,18 @@
     },
     {
       "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "build_panel_open_0",
+      "passed": true
+    },
+    {
+      "test": "build_panel_text_rendered_0",
+      "passed": true
+    },
+    {
+      "test": "build_panel_read_only_0",
       "passed": true
     },
     {
@@ -203,6 +215,18 @@
       "passed": true
     },
     {
+      "test": "build_panel_open_1",
+      "passed": true
+    },
+    {
+      "test": "build_panel_text_rendered_1",
+      "passed": true
+    },
+    {
+      "test": "build_panel_read_only_1",
+      "passed": true
+    },
+    {
       "test": "inspection_returns_1",
       "passed": true
     },
@@ -391,5 +415,5 @@
       "passed": true
     }
   ],
-  "rom_sha256": "8d7b59e3ca0a116f5fdd36a6617d52cd392d2b9fe16b5b56af2f7ccc779c2804"
+  "rom_sha256": "84e2316929a564ce0333c6ad831ec6897d1309c30ac835c58b36d2ced0c26e8c"
 }

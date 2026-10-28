@@ -120,9 +120,9 @@ LegendsTraining_ReturnIVs:
     setvar VAR_0x8008, 3
     goto LegendsTraining_Stats
 LegendsTraining_InspectBuild:
-    special LegendsTraining_Inspect
+    closemessage
+    special LegendsTraining_ShowBuild
     goto_if_ne VAR_RESULT, 0, LegendsTraining_Egg
-    msgbox gStringVar4, MSGBOX_DEFAULT
     goto LegendsTraining_Main
 LegendsTraining_EVLimit:
     msgbox LegendsTraining_Text_EVLimit, MSGBOX_DEFAULT

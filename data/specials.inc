@@ -651,3 +651,4 @@ gSpecials::
 	def_special LegendsTraining_Commit
 	def_special LegendsTraining_Evolve, waitstate=1
 	def_special LegendsTraining_EVBudget
+	def_special LegendsTraining_ShowBuild, waitstate=1
