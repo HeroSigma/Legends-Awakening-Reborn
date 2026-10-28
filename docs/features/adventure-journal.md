@@ -1,5 +1,9 @@
 # Adventure journal
 
-Implement now. Read-only paged journal with existing adventure counters and story milestones. Reuse saved stats/flags without allocating save fields. Accessible from the ordinary Start menu; native save/menu return behavior remains intact.
+Implemented independently on this feature branch; not merged into reborn.
 
-Branch base: `reborn` at `4db6b2729c7603caf1201a0bc3cc7fc58134b695`. Implement independently and validate before merging. Inspired by reported Quetzal behavior; use Reborn-owned code.
+Open Start > JOURNAL in the normal field menu. It occupies the former EXIT row to retain the existing nine-row maximum; B/Start still closes the Start menu. Left/Right or L/R cycles Journey, Field Records and Story Notes. B/Start closes the journal and restores field controls. Link and facility menus retain their original actions.
+
+Displays existing saved counters (steps, battles, catches, eggs, evolution, fishing, DexNav, healing, berries, field moves, saves, League) and eight project-owned story milestones. Viewing is read-only; no save fields, inferred visit counts or new tracking flags are added. Historical values reflect the existing native counter definitions.
+
+No encounter changes, story advancement or Tera rewards. New regional-visit/rift statistics remain future work requiring an explicit persistence design. Validation report and linked-ROM UI test accompany this branch. Manual checks: all pages, reopen, save/reload, maximum counters and both storage profiles.
