@@ -133,7 +133,7 @@ static void AllocateBagItemListBuffers(void);
 static void LoadBagItemListBuffers(u8);
 static void PrintPocketNames(const u8 *, const u8 *);
 static void CopyPocketNameToWindow(u32);
-static void DrawPocketIndicatorSquare(u8, bool8);
+static void ClearPocketIndicators(void);
 static void CreatePocketScrollArrowPair(void);
 static void CreatePocketSwitchArrowPair(void);
 static void DestroyPocketSwitchArrowPair(void);
@@ -785,8 +785,7 @@ static bool8 SetupBagMenu(void)
     case 13:
         PrintPocketNames(gBagCategoryNames[gBagPosition.pocket], 0);
         CopyPocketNameToWindow(0);
-        for (u32 i = 0; i < BAG_CATEGORIES_COUNT; i++)
-            DrawPocketIndicatorSquare(i, i == gBagPosition.pocket);
+        ClearPocketIndicators();
         gMain.state++;
         break;
     case 14:
@@ -1429,8 +1428,7 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
         PrintPocketNames(gBagCategoryNames[newPocket], gBagCategoryNames[gBagPosition.pocket]);
         CopyPocketNameToWindow(8);
     }
-    DrawPocketIndicatorSquare(gBagPosition.pocket, FALSE);
-    DrawPocketIndicatorSquare(newPocket, TRUE);
+    ClearPocketIndicators();
     FillBgTilemapBufferRect_Palette0(2, 11, 14, 2, 15, 16);
     ScheduleBgCopyTilemapToVram(2);
     SetBagVisualPocketId(newPocket, TRUE);
@@ -1494,12 +1492,11 @@ static void DrawItemListBgRow(u8 y)
     ScheduleBgCopyTilemapToVram(2);
 }
 
-static void DrawPocketIndicatorSquare(u8 x, bool8 isCurrentPocket)
+static void ClearPocketIndicators(void)
 {
-    if (!isCurrentPocket)
-        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 1, 3, 1, 1);
-    else
-        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 1, 3, 1, 1);
+    // Continue the background stripe across the former indicator row.
+    u16 tile = ((u16 *)GetBgTilemapBuffer(2))[3 * 32];
+    FillBgTilemapBufferRect_Palette0(2, tile, 1, 3, BAG_CATEGORIES_COUNT, 1);
     ScheduleBgCopyTilemapToVram(2);
 }
 
