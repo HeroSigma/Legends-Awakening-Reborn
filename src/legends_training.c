@@ -63,9 +63,11 @@ void LegendsTraining_Menu(void)
     if (kind==0) {
         for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],i);
     } else if (kind==8) {
+        current=gSpecialVar_0x8007<ARRAY_COUNT(sEVPresets)?gSpecialVar_0x8007:0;
         for (u32 i=0;i<ARRAY_COUNT(sEVPresets);i++) MenuItem(items,count++,sEVPresetNames[i],i);
         MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind==1) {
+        current=gSpecialVar_0x8006<6?gSpecialVar_0x8006:gSpecialVar_0x8008==3?6:0;
         for (u32 i=0;i<6;i++) {
             u8 text[40], number[8];
             StringCopy(text,sStats[i]);
@@ -82,6 +84,7 @@ void LegendsTraining_Menu(void)
     } else if (kind==2) {
         for (u32 i=0;i<ARRAY_COUNT(sEVChoices);i++) MenuItem(items,count++,sEVChoices[i],i);
     } else if (kind==3) {
+        if (mon) current=GetMonData(mon,MON_DATA_HIDDEN_NATURE);
         for (u32 i=0;i<NUM_NATURES;i++) MenuItem(items,count++,gNaturesInfo[i].name,i);
         MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind==4 && mon) {
@@ -91,7 +94,10 @@ void LegendsTraining_Menu(void)
             if (!ability) continue;
             bool32 duplicate=FALSE;
             for (u32 j=0;j<i;j++) if (info->abilities[j]==ability) duplicate=TRUE;
-            if (!duplicate) MenuItem(items,count++,gAbilitiesInfo[ability].name,i);
+            if (!duplicate) {
+                if (GetMonData(mon,MON_DATA_ABILITY_NUM)==i) current=count;
+                MenuItem(items,count++,gAbilitiesInfo[ability].name,i);
+            }
         }
         MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind>=5 && kind<=7 && mon) {

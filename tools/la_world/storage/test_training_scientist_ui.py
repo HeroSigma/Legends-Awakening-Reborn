@@ -2,13 +2,28 @@
 from pathlib import Path
 R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_training_scientist.py').read_text().split('for mode in [0,1]:')[0],'training_helpers','exec'))
+# Hold inputs across multiple hardware frames to avoid sampling a one-frame tap.
+def tap(key):
+ frames(2);frames(3,key);frames(12)
 mg=json.loads((R/'data/maps/map_groups.json').read_text());name='OldaleTown_PokemonCenter_2F'
 for group,gname in enumerate(mg['group_order']):
  if name in mg[gname]:mapnum=mg[gname].index(name);break
 row=next(x for x in json.loads((R/'docs/features/training-scientist-locations.json').read_text()) if x['map']==name)
 def menu(kind):
+ if kind==0:
+  waitfor(lambda:task('Task_HandleScrollingMultichoiceInput') is not None)
+  frames(20)
+  actual=rd(symbols['gSpecialVar_0x8005'],2)
+  if actual!=0:
+   assert actual in [1,3,4,8],('unexpected return menu',actual)
+   tap(2)
  waitfor(lambda:rd(symbols['gSpecialVar_0x8005'],2)==kind and task('Task_HandleScrollingMultichoiceInput') is not None)
  frames(15)
+def selected_row():
+ t=task('Task_HandleScrollingMultichoiceInput')
+ list_id=rd(symbols['gTasks']+t*40+8,2)
+ invoke('ListMenuGetCurrentItemArrayId',list_id,0x0203fc00)
+ return rd(0x0203fc00,2)
 def text_bytes(pointer):
  out=[]
  for i in range(600):
@@ -21,7 +36,8 @@ def budget_numbers():
  import re
  return [int(''.join(str(x-0xa1) for x in group)) for group in re.findall(b'[\xa1-\xaa]+',text_bytes(symbols['gStringVar4']))]
 def choose(index):
- for _ in range(index):tap(128)
+ current=selected_row()
+ for _ in range(abs(index-current)):tap(128 if index>current else 64)
  tap(1);frames(15)
 def confirm(yes=True):
  waitfor(lambda:task('Task_HandleYesNoInput') is not None);frames(10);tap(1 if yes else 2)
@@ -47,13 +63,13 @@ for mode in [0,1]:
  check('ev_budget_initial_'+str(mode),budget_numbers()==[0,510,510])
  shutil.copy2(shot('ev_stats'),R/'docs/features/training-scientist-ev-menu.png')
  choose(0);menu(2);choose(0)
- confirm(False);menu(0);check('cancel_no_edit_'+str(mode),get('MON_DATA_HP_EV')==before)
+ confirm(False);menu(1);check('cancel_returns_to_ev_stats_'+str(mode),selected_row()==0);menu(0);check('cancel_no_edit_'+str(mode),get('MON_DATA_HP_EV')==before)
  choose(1);menu(1)
  check('ev_label_after_cancel_'+str(mode),stat_label(0).endswith(bytes([0xa1,0,0xbf,0xd0])))
  choose(0);menu(2);choose(0)
  waitfor(lambda:task('Task_HandleYesNoInput') is not None);frames(10)
  shutil.copy2(shot('training_confirm'),R/'docs/features/training-scientist-confirm.png')
- tap(1);menu(0);check('ui_ev252_'+str(mode),get('MON_DATA_HP_EV')==252)
+ tap(1);menu(1);check('ev_returns_to_stat_'+str(mode),selected_row()==0);menu(0);check('ui_ev252_'+str(mode),get('MON_DATA_HP_EV')==252)
  # Set Attack IV to zero through the numeric list, then confirm.
  choose(3);menu(1)
  check('iv_label_current_'+str(mode),stat_label(1).endswith(bytes([0xa4,0xa2,0,0xc3,0xd0])))
@@ -61,20 +77,20 @@ for mode in [0,1]:
  choose(1);menu(6)
  old=get('MON_DATA_ATK_IV')
  for _ in range(old):tap(64)
- tap(1);confirm();menu(0);check('ui_iv0_'+str(mode),get('MON_DATA_ATK_IV')==0)
+ tap(1);confirm();menu(1);check('iv_returns_to_attack_'+str(mode),selected_row()==1);menu(0);check('ui_iv0_'+str(mode),get('MON_DATA_ATK_IV')==0)
  # 31 All uses the existing confirmation, supports cancellation, and preserves EVs.
  fields=['MON_DATA_HP_IV','MON_DATA_ATK_IV','MON_DATA_DEF_IV','MON_DATA_SPATK_IV','MON_DATA_SPDEF_IV','MON_DATA_SPEED_IV']
  before=[get(f) for f in fields]
  choose(3);menu(1);choose(6);confirm(False);menu(0)
  check('all_ivs_cancel_'+str(mode),[get(f) for f in fields]==before)
- choose(3);menu(1);choose(6);confirm();menu(0)
+ choose(3);menu(1);choose(6);confirm();menu(1);check('all_iv_returns_to_31_all_'+str(mode),selected_row()==6);menu(0)
  check('all_ivs_31_'+str(mode),all(get(f)==31 for f in fields))
  check('all_ivs_keep_evs_'+str(mode),get('MON_DATA_HP_EV')==252)
  choose(3);menu(1);choose(6);menu(0)
  check('all_ivs_already_max_'+str(mode),all(get(f)==31 for f in fields))
- choose(4);menu(3);choose(3);confirm();menu(0)
+ choose(4);menu(3);choose(3);confirm();menu(3);check('nature_return_selection_'+str(mode),selected_row()==3);menu(0)
  check('ui_nature_adamant_'+str(mode),get('MON_DATA_HIDDEN_NATURE')==3)
- choose(5);menu(4);choose(1);confirm();menu(0)
+ choose(5);menu(4);choose(1);confirm();menu(4);check('ability_return_selection_'+str(mode),selected_row()==1);menu(0)
  check('ui_hidden_ability_'+str(mode),get('MON_DATA_ABILITY_NUM')==2)
  # A real exact-value EV choice at 127 must not be mistaken for B/cancel.
  choose(1);menu(1)
@@ -82,6 +98,7 @@ for mode in [0,1]:
  check('ev_label_updated_'+str(mode),stat_label(0).endswith(bytes([0xa3,0xa6,0xa3,0,0xbf,0xd0])))
  choose(2);menu(2);choose(3);menu(5)
  for _ in range(127):tap(128)
+ check('numeric_ev_cursor_'+str(mode),selected_row()==127)
  tap(1);confirm();menu(0);check('ui_exact_ev127_'+str(mode),get('MON_DATA_DEF_EV')==127)
  # Presets replace the whole EV spread, with cancellable preview.
  evfields=['MON_DATA_HP_EV','MON_DATA_ATK_EV','MON_DATA_DEF_EV','MON_DATA_SPATK_EV','MON_DATA_SPDEF_EV','MON_DATA_SPEED_EV']
@@ -92,7 +109,7 @@ for mode in [0,1]:
  for index,spread in enumerate(presets):
   choose(7);menu(8)
   if index==0:shutil.copy2(shot('ev_presets'),R/'docs/features/training-scientist-presets.png')
-  choose(index);confirm();menu(0)
+  choose(index);confirm();menu(8);check('preset_return_selection_'+str((mode,index)),selected_row()==index);menu(0)
   check('preset_spread_'+str((mode,index)),[get(f) for f in evfields]==spread)
   check('preset_legal_total_'+str((mode,index)),sum(get(f) for f in evfields)==510)
   check('preset_keeps_ivs_'+str((mode,index)),all(get(f)==31 for f in fields))

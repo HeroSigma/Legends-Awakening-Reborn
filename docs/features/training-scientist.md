@@ -30,3 +30,7 @@ EV presets offers four complete 510-point spreads in stat order HP / Attack / De
 - Special wall: 252 / 0 / 6 / 0 / 252 / 0.
 
 The preview states that all current EVs are replaced, lists all six values and the 510/510 total, and requires confirmation. Canceling preserves the entire original spread; selecting an identical spread reports that no change is needed. Presets do not alter IVs, nature, ability, or level, and remain free. Individual EV adjustments remain available for custom builds.
+
+## Editing flow
+
+Confirmed edits, cancelled confirmations, and unchanged/invalid choices return to the EV/IV stat picker or the relevant nature, ability, or preset list. EV/IV pickers retain the selected stat, including 31 All. Nature and ability lists highlight the current setting, and preset lists retain the selected build. B backs out to the service menu. Numeric EV/IV cancellation returns to the stat picker, and the EV quick-value list can also back out one level. Level evolution and one-shot EV reset retain their existing flow.
