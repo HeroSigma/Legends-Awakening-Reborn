@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "assertions": 27,
+  "assertions": 35,
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -24,6 +24,22 @@
     },
     {
       "test": "ui_iv0_0",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_cancel_0",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_31_0",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_keep_evs_0",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_already_max_0",
       "passed": true
     },
     {
@@ -79,6 +95,22 @@
       "passed": true
     },
     {
+      "test": "all_ivs_cancel_1",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_31_1",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_keep_evs_1",
+      "passed": true
+    },
+    {
+      "test": "all_ivs_already_max_1",
+      "passed": true
+    },
+    {
       "test": "ui_nature_adamant_1",
       "passed": true
     },
@@ -111,5 +143,5 @@
       "passed": true
     }
   ],
-  "rom_sha256": "ba325a7a36bef62f1ae95a03b1367413417f7013d443875f46592e7c9729faf1"
+  "rom_sha256": "e7a8ec5df0e5380f58373ff960b3bc0a0d414f3ad8820286cd8d32346b679003"
 }

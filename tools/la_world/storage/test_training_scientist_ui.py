@@ -42,6 +42,16 @@ for mode in [0,1]:
  old=get('MON_DATA_ATK_IV')
  for _ in range(old):tap(64)
  tap(1);confirm();menu(0);check('ui_iv0_'+str(mode),get('MON_DATA_ATK_IV')==0)
+ # 31 All uses the existing confirmation, supports cancellation, and preserves EVs.
+ fields=['MON_DATA_HP_IV','MON_DATA_ATK_IV','MON_DATA_DEF_IV','MON_DATA_SPATK_IV','MON_DATA_SPDEF_IV','MON_DATA_SPEED_IV']
+ before=[get(f) for f in fields]
+ choose(3);menu(1);choose(6);confirm(False);menu(0)
+ check('all_ivs_cancel_'+str(mode),[get(f) for f in fields]==before)
+ choose(3);menu(1);choose(6);confirm();menu(0)
+ check('all_ivs_31_'+str(mode),all(get(f)==31 for f in fields))
+ check('all_ivs_keep_evs_'+str(mode),get('MON_DATA_HP_EV')==252)
+ choose(3);menu(1);choose(6);menu(0)
+ check('all_ivs_already_max_'+str(mode),all(get(f)==31 for f in fields))
  choose(4);menu(3);choose(3);confirm();menu(0)
  check('ui_nature_adamant_'+str(mode),get('MON_DATA_HIDDEN_NATURE')==3)
  choose(5);menu(4);choose(1);confirm();menu(0)

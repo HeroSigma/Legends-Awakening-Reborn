@@ -54,6 +54,7 @@ void LegendsTraining_Menu(void)
         for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],i);
     } else if (kind==1) {
         for (u32 i=0;i<6;i++) MenuItem(items,count++,sStats[i],i);
+        if (gSpecialVar_0x8008==3) MenuItem(items,count++,COMPOUND_STRING("31 All"),6);
         MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind==2) {
         for (u32 i=0;i<ARRAY_COUNT(sEVChoices);i++) MenuItem(items,count++,sEVChoices[i],i);
@@ -131,6 +132,10 @@ void LegendsTraining_Prepare(void)
             for (u32 i=0;i<6;i++) if (i!=stat) total+=GetMonData(mon,sEVFields[i]);
             if (total>510) {gSpecialVar_Result=2;return;}
         }
+    } else if (action==7) {
+        if (value!=31) return;
+        for (u32 i=0;i<6;i++) old+=GetMonData(mon,sIVFields[i]);
+        value=186;
     } else if (action==2) {
         for (u32 i=0;i<6;i++) old+=GetMonData(mon,sEVFields[i]);
         value=0;
@@ -153,7 +158,8 @@ void LegendsTraining_Prepare(void)
     if (action==1 || action==3) {
         StringAppend(gStringVar4,sStats[stat]);StringAppend(gStringVar4,action==1?COMPOUND_STRING(" EVs: "):COMPOUND_STRING(" IVs: "));
         AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);
-    } else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
+    } else if (action==7) StringAppend(gStringVar4,COMPOUND_STRING("Set all six IVs to 31."));
+    else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
     else if (action==4) {StringAppend(gStringVar4,COMPOUND_STRING("Nature effects: "));StringAppend(gStringVar4,gNaturesInfo[value].name);}
     else if (action==5) {StringAppend(gStringVar4,COMPOUND_STRING("Ability: "));StringAppend(gStringVar4,gAbilitiesInfo[gSpeciesInfo[GetMonData(mon,MON_DATA_SPECIES)].abilities[value]].name);}
     else {StringAppend(gStringVar4,COMPOUND_STRING("Level "));AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);}
@@ -168,6 +174,7 @@ void LegendsTraining_Commit(void)
     struct Pokemon *mon=SelectedMon();
     u32 action=gSpecialVar_0x8008,stat=gSpecialVar_0x8006,value=gSpecialVar_0x8007;
     if (action==1 || action==3) SetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat],&value);
+    else if (action==7) {u32 max=31;for (u32 i=0;i<6;i++) SetMonData(mon,sIVFields[i],&max);}
     else if (action==2) {u32 zero=0;for (u32 i=0;i<6;i++) SetMonData(mon,sEVFields[i],&zero);}
     else if (action==4) SetMonData(mon,MON_DATA_HIDDEN_NATURE,&value);
     else if (action==5) SetMonData(mon,MON_DATA_ABILITY_NUM,&value);

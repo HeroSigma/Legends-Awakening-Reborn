@@ -25,6 +25,7 @@ LegendsTraining_Main:
     goto_if_eq VAR_RESULT, 6, LegendsTraining_Level
     setvar VAR_0x8005, 1
     special LegendsTraining_Menu
+    goto_if_eq VAR_RESULT, 6, LegendsTraining_AllIVs
     goto_if_ge VAR_RESULT, 6, LegendsTraining_Main
     copyvar VAR_0x8006, VAR_RESULT
     goto_if_eq VAR_0x8008, 3, LegendsTraining_IV
@@ -41,6 +42,10 @@ LegendsTraining_Main:
 LegendsTraining_ExactEV:
     setvar VAR_0x8005, 5
     goto LegendsTraining_Number
+LegendsTraining_AllIVs:
+    setvar VAR_0x8008, 7
+    setvar VAR_0x8007, 31
+    goto LegendsTraining_Confirm
 LegendsTraining_IV:
     setvar VAR_0x8005, 6
     goto LegendsTraining_Number
