@@ -1,255 +1,201 @@
 PetalburgWoods_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, LegendsWoods_OnLoad
 	.byte 0
 
-PetalburgWoods_EventScript_DevonResearcherLeft::
-	lockall
-	call PetalburgWoods_EventScript_DevonResearcherIntro
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft
-	waitmovement 0
-	msgbox PetalburgWoods_Text_HaveYouSeenShroomish, MSGBOX_DEFAULT
-	closemessage
-	playbgm MUS_ENCOUNTER_AQUA, FALSE
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaEntrance
-	waitmovement 0
-	msgbox PetalburgWoods_Text_IWasGoingToAmbushYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherLeft
-	waitmovement 0
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox PetalburgWoods_Text_HandOverThosePapers, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerLeft
-	waitmovement 0
-	msgbox PetalburgWoods_Text_YouHaveToHelpMe, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachPlayer
-	waitmovement 0
-	msgbox PetalburgWoods_Text_NoOneCrossesTeamAqua, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
-	waitmovement 0
-	call PetalburgWoods_EventScript_DevonResearcherPostBattle
-	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitLeft
-	waitmovement 0
-	goto PetalburgWoods_EventScript_RemoveDevonResearcher
+LegendsWoods_OnLoad:
+	setflag FLAG_HIDE_LA_WOODS_TRIAD_BACKUP
+	goto_if_ge VAR_PETALBURG_WOODS_STATE, 1, LegendsWoods_HideFinished
+	end
+LegendsWoods_HideFinished:
+	setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+	setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 	end
 
 PetalburgWoods_EventScript_DevonResearcherRight::
 	lockall
-	call PetalburgWoods_EventScript_DevonResearcherIntro
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerRight
+	applymovement LOCALID_PLAYER, LegendsWoods_PlayerLeft
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	msgbox PetalburgWoods_Text_HaveYouSeenShroomish, MSGBOX_DEFAULT
-	closemessage
-	playbgm MUS_ENCOUNTER_AQUA, FALSE
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaEntrance
-	waitmovement 0
-	msgbox PetalburgWoods_Text_IWasGoingToAmbushYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherRight
-	waitmovement 0
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox PetalburgWoods_Text_HandOverThosePapers, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerRight
-	waitmovement 0
-	msgbox PetalburgWoods_Text_YouHaveToHelpMe, MSGBOX_DEFAULT
+	goto LegendsWoods_Begin
+
+PetalburgWoods_EventScript_DevonResearcherLeft::
+	lockall
+LegendsWoods_Begin:
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox PetalburgWoods_Text_NoOneCrossesTeamAqua, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
-	waitmovement 0
-	call PetalburgWoods_EventScript_DevonResearcherPostBattle
-	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitRight
-	waitmovement 0
-	goto PetalburgWoods_EventScript_RemoveDevonResearcher
-	end
-
-PetalburgWoods_EventScript_DevonResearcherIntro::
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherLookAround
-	waitmovement 0
-	msgbox PetalburgWoods_Text_NotAOneToBeFound, MSGBOX_DEFAULT
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_Readings, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsWoods_Text_Scope, MSGBOX_DEFAULT
 	closemessage
-	return
-
-PetalburgWoods_EventScript_DevonResearcherPostBattle::
-	msgbox PetalburgWoods_Text_YouveGotSomeNerve, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaRunAway
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, LegendsWoods_DevonApproach
 	waitmovement 0
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_Greeting, MSGBOX_DEFAULT
+	closemessage
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadApproach
+	waitmovement 0
+	applymovement LOCALID_WOODS_SILPH, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsWoods_Text_Demand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsWoods_Text_Refusal, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, LegendsWoods_DevonAside
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadOneDown
+	waitmovement 0
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_Help, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsWoods_Text_Challenge, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, LegendsWoods_Text_Defeat
+	closemessage
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadBack
+	waitmovement 0
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsWoods_Text_Delay, MSGBOX_DEFAULT
+	closemessage
+	playse SE_M_TELEPORT
+	addobject LOCALID_WOODS_TRIAD_2
+	addobject LOCALID_WOODS_TRIAD_3
+	delay 20
+	applymovement LOCALID_WOODS_TRIAD_2, LegendsWoods_TriadBackupApproach
+	waitmovement 0
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsWoods_Text_Three, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsWoods_Text_Confirmed, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_WOODS_SILPH, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsWoods_Text_Stolen, MSGBOX_DEFAULT
+	setflag FLAG_LA_WOODS_RIFT_RECORD_STOLEN
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsWoods_Text_Withdraw, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadExitLead
+	applymovement LOCALID_WOODS_TRIAD_2, LegendsWoods_TriadExitBackup
+	applymovement LOCALID_WOODS_TRIAD_3, LegendsWoods_TriadExitBackup
+	waitmovement 0
+	playse SE_M_TELEPORT
 	removeobject LOCALID_PETALBURG_WOODS_GRUNT
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	removeobject LOCALID_WOODS_TRIAD_2
+	removeobject LOCALID_WOODS_TRIAD_3
+	setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+	setflag FLAG_HIDE_LA_WOODS_TRIAD_BACKUP
+	fadedefaultbgm
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	msgbox PetalburgWoods_Text_ThatWasAwfullyClose, MSGBOX_DEFAULT
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_Thanks, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	giveitem ITEM_GREAT_BALL
-	goto_if_eq VAR_RESULT, FALSE, PetalburgWoods_EventScript_BagFull
-	goto PetalburgWoods_EventScript_DevonResearcherFinish
-	end
-
-PetalburgWoods_EventScript_BagFull::
-	msgbox PetalburgWoods_Text_YoureLoadedWithItems, MSGBOX_DEFAULT
-	goto PetalburgWoods_EventScript_DevonResearcherFinish
-	end
-
-PetalburgWoods_EventScript_DevonResearcherFinish::
-	msgbox PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro, MSGBOX_DEFAULT
-	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherStartExit
+	goto_if_eq VAR_RESULT, FALSE, LegendsWoods_NoRoom
+LegendsWoods_AfterReward:
+	applymovement LOCALID_WOODS_SILPH, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	msgbox PetalburgWoods_Text_ICantBeWastingTime, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsWoods_Text_Damage, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	goto_if_unset FLAG_LA_TIMELESS_WOODS_CONSPIRACY_SEEN, LegendsWoods_NoRecognition
+	msgbox LegendsWoods_Text_Thought, MSGBOX_DEFAULT
+	goto LegendsWoods_Report
+LegendsWoods_NoRecognition:
+	msgbox LegendsWoods_Text_ThoughtUnknown, MSGBOX_DEFAULT
+LegendsWoods_Report:
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_Report, MSGBOX_DEFAULT
 	closemessage
-	return
-
-PetalburgWoods_EventScript_RemoveDevonResearcher::
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphExit
+	waitmovement 0
+	removeobject LOCALID_WOODS_SILPH
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, LegendsWoods_DevonExit
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
 	removeobject LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE
+	setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+	setflag FLAG_LA_WOODS_TRIAD_COMPLETE
 	setvar VAR_PETALBURG_WOODS_STATE, 1
+	setspeaker SP_NAME_NONE
 	releaseall
 	end
+LegendsWoods_NoRoom:
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsWoods_Text_NoRoom, MSGBOX_DEFAULT
+	goto LegendsWoods_AfterReward
 
-PetalburgWoods_Movement_DevonResearcherLookAround:
-	face_up
-	delay_16
-	delay_4
-	face_right
-	delay_16
-	delay_8
-	face_left
-	delay_16
-	delay_8
+LegendsWoods_PlayerLeft:
+	walk_left
+	step_end
+LegendsWoods_DevonApproach:
+	walk_down
+	walk_down
 	face_down
+	step_end
+LegendsWoods_DevonAside:
+	walk_fast_right
+	walk_fast_down
+	face_left
+	step_end
+LegendsWoods_TriadApproach:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+LegendsWoods_TriadOneDown:
 	delay_16
+	walk_down
+	step_end
+LegendsWoods_TriadBackupApproach:
+	walk_down
 	face_right
-	delay_16
-	delay_8
-	face_up
-	delay_16
 	step_end
-
-PetalburgWoods_Movement_DevonResearcherExitLeft:
-	walk_fast_right
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft:
-	delay_16
-	face_player
-	walk_down
-	walk_down
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherApproachPlayerRight:
-	delay_16
-	face_player
-	walk_down
-	walk_down
-	walk_down
-	walk_in_place_faster_right
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherExitRight:
-	walk_fast_left
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_left
-	walk_fast_left
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	step_end
-
-PetalburgWoods_Movement_WatchResearcherLeave:
-	delay_16
-	delay_16
-	walk_in_place_faster_up
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherFleeToPlayerLeft:
-	walk_fast_right
-	walk_fast_down
-	walk_fast_down
-	walk_fast_left
-	walk_in_place_faster_up
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherFleeToPlayerRight:
-	walk_fast_down
-	walk_fast_right
-	walk_in_place_faster_up
-	step_end
-
-PetalburgWoods_Movement_DevonResearcherStartExit:
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	face_up
-	step_end
-
-PetalburgWoods_Movement_AquaApproachResearcherLeft:
-	walk_fast_down
-	walk_fast_down
-	step_end
-
-PetalburgWoods_Movement_AquaBackOff:
-	lock_facing_direction
+LegendsWoods_TriadBack:
 	walk_up
-	unlock_facing_direction
+	face_down
 	step_end
-
-PetalburgWoods_Movement_AquaRunAway:
+LegendsWoods_TriadExitLead:
+	delay_16
+	delay_16
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+LegendsWoods_TriadExitBackup:
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+LegendsWoods_SilphExit:
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+LegendsWoods_DevonExit:
+	walk_fast_up
+	walk_fast_up
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
 	walk_fast_left
 	walk_fast_left
+	walk_fast_left
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
-	delay_16
-	delay_16
-	step_end
-
-PetalburgWoods_Movement_AquaApproachResearcherRight:
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	step_end
-
-PetalburgWoods_Movement_AquaEntrance:
-	walk_down
-	walk_down
-	delay_16
-	delay_16
-	step_end
-
-PetalburgWoods_Movement_AquaApproachPlayer:
-	walk_down
 	step_end
 
 PetalburgWoods_EventScript_Boy1::
@@ -329,71 +275,6 @@ PetalburgWoods_EventScript_JamesRematch::
 	trainerbattle_rematch TRAINER_JAMES_1, PetalburgWoods_Text_MyPokemonHaveGrown, PetalburgWoods_Text_CantBePopularIfLose
 	msgbox PetalburgWoods_Text_IveBeenTrainingHard, MSGBOX_AUTOCLOSE
 	end
-
-PetalburgWoods_Text_NotAOneToBeFound:
-	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
-
-PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
-
-PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
-
-PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
-
-PetalburgWoods_Text_YouHaveToHelpMe:
-	.string "Aiyeeeh!\p"
-	.string "You're a POKéMON TRAINER, aren't you?\n"
-	.string "You've got to help me, please!$"
-
-PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
-
-PetalburgWoods_Text_YoureKiddingMe:
-	.string "You're kidding me! You're tough!$"
-
-PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
-
-PetalburgWoods_Text_ThatWasAwfullyClose:
-	.string "Whew…\n"
-	.string "That was awfully close!\p"
-	.string "Thanks to you, he didn't rob me of\n"
-	.string "these important papers.\p"
-	.string "I know, I'll give you a GREAT BALL as\n"
-	.string "my thanks!$"
-
-PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
-
-PetalburgWoods_Text_ICantBeWastingTime:
-	.string "Uh-oh! It's a crisis!\n"
-	.string "I can't be wasting time!$"
-
-PetalburgWoods_Text_YoureLoadedWithItems:
-	.string "You're loaded with items.\n"
-	.string "I can't give you this GREAT BALL.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
 	.string "I caught a whole bunch of POKéMON!\p"
@@ -525,3 +406,95 @@ PetalburgWoods_Text_HyperConstruction_3:
 	.string "Allearth Forest is\n"
 	.string "under construction.\p"
 	.string "Please check back later!$"
+
+LegendsWoods_Text_Readings:
+	.string "The energy spike came from here.\p"
+	.string "Devon and Silph registered it\n"
+	.string "at exactly the same moment.$"
+
+LegendsWoods_Text_Scope:
+	.string "The modified Silph Scope caught\n"
+	.string "an image inside the opening.\p"
+	.string "Buildings. People. A different sky.\p"
+	.string "It collapsed before I could\n"
+	.string "identify the location.$"
+
+LegendsWoods_Text_Greeting:
+	.string "Oh! A Trainer. Please be careful.\p"
+	.string "We are investigating the rifts.\n"
+	.string "I work for Devon in Rustboro.\p"
+	.string "My colleague is visiting from\n"
+	.string "Silph in Kanto.$"
+
+LegendsWoods_Text_Demand:
+	.string "Your recording. Hand it over.$"
+
+LegendsWoods_Text_Refusal:
+	.string "Who are you? This is joint research\n"
+	.string "between Devon and Silph!$"
+
+LegendsWoods_Text_Help:
+	.string "Please, help us! We cannot let\n"
+	.string "someone take these findings.$"
+
+LegendsWoods_Text_Challenge:
+	.string "You felt the disturbance too.\n"
+	.string "That is why you stopped.\p"
+	.string "Step aside. Or show me how far\n"
+	.string "that curiosity will take you.$"
+
+LegendsWoods_Text_Defeat:
+	.string "Enough. You have made your point.$"
+
+LegendsWoods_Text_Delay:
+	.string "You have strength.\p"
+	.string "But you were watching only me.$"
+
+LegendsWoods_Text_Three:
+	.string "Two more?!\n"
+	.string "Where did they come from?$"
+
+LegendsWoods_Text_Confirmed:
+	.string "The signatures match.\n"
+	.string "Take the Scope recording.\p"
+	.string "The device they recovered needs\n"
+	.string "a stable point of reference.$"
+
+LegendsWoods_Text_Stolen:
+	.string "The backup drive!\n"
+	.string "You took the only clear images!$"
+
+LegendsWoods_Text_Withdraw:
+	.string "Our task is complete.\n"
+	.string "Do not follow us, Trainer.$"
+
+LegendsWoods_Text_Thanks:
+	.string "You kept him away from us.\n"
+	.string "Thank you.\p"
+	.string "This is a small gift,\n"
+	.string "but you have more than earned it.$"
+
+LegendsWoods_Text_Damage:
+	.string "The readings are still here.\n"
+	.string "Only the Scope images are gone.\p"
+	.string "They knew exactly what to take.$"
+
+LegendsWoods_Text_Thought:
+	.string "That device... Could they mean\n"
+	.string "the object from Timeless Woods?\p"
+	.string "I need to get this news to Birch.$"
+
+LegendsWoods_Text_ThoughtUnknown:
+	.string "What device were they talking about?\p"
+	.string "Birch needs to hear about this.$"
+
+LegendsWoods_Text_Report:
+	.string "We will warn Devon right away.\p"
+	.string "If you reach Rustboro, ask for us\n"
+	.string "at the Devon building.\p"
+	.string "Tell them you helped in the woods.\p"
+	.string "We must compare what you saw, too.$"
+
+LegendsWoods_Text_NoRoom:
+	.string "Your Bag is full. Please do not\n"
+	.string "worry about the gift right now.$"

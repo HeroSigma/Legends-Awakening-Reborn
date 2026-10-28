@@ -897,4 +897,6 @@ const u32 gObjectEventPic_LaRosterJuniper[] = INCGFX_U32("graphics/object_events
 const u16 gObjectEventPal_LaRoster17[] = INCBIN_U16("graphics/object_events/palettes/la_roster_17.gbapal");
 const u32 gObjectEventPic_LaRosterCynthia[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/cynthia.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u32 gObjectEventPic_LaRosterHoopaRing[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/hooparing.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_LaRoster18[] = INCBIN_U16("graphics/object_events/palettes/la_roster_18.gbapal");
+const u32 gObjectEventPic_LaRosterShadowTriad[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/shadowtriad.png", ".4bpp", "-mwidth 4 -mheight 4");
 /* LA_NPC_ROSTER_GRAPHICS_END */

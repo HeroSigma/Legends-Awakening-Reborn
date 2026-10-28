@@ -10153,4 +10153,15 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterHoopaRing 
  .anims = sAnimTable_LaHoopaCombined, .images = sPicTable_LaRosterHoopaRing,
  .affineAnims = gDummySpriteAffineAnimTable,
 };
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTriad = {
+ .tileTag = TAG_NONE, .paletteTag = 0xDB52,
+ .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+ .size = 512, .width = 32, .height = 32,
+ .paletteSlot = 5, .shadowSize = 1, .inanimate = FALSE,
+ .compressed = FALSE, .tracks = TRACKS_FOOT,
+ .oam = &gObjectEventBaseOam_32x32,
+ .subspriteTables = sOamTables_32x32,
+ .anims = sAnimTable_Standard, .images = sPicTable_LaRosterShadowTriad,
+ .affineAnims = gDummySpriteAffineAnimTable,
+};
 /* LA_NPC_ROSTER_INFO_END */

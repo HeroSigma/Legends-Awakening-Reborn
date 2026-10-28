@@ -113,9 +113,9 @@ for i in range(1,len(P),2):
  cls=field('Class');name=field('Name');species=native.get(key,[])
  if not species or cls in FACILITIES or key.startswith('TRAINER_LA_') or key.endswith('_PLACEHOLDER'):
   excluded[key]='scripted tutorial/partner, empty placeholder, or separate facility rules';continue
- if cls not in CORES and not any(k in key for k in BOSSES):raise ValueError((key,cls))
+ if cls not in CORES and key!='TRAINER_GRUNT_PETALBURG_WOODS' and not any(k in key for k in BOSSES):raise ValueError((key,cls))
  boss=next((k for k in BOSSES if re.match('TRAINER_'+k+r'(?:_\d+)?$',key)),None)
- core,weather,level=BOSSES[boss] if boss else (CORES[cls],'balance',0)
+ core,weather,level=BOSSES[boss] if boss else (CORES.get(cls,CORES['Team Aqua']),'balance',0)
  if boss and re.search(r'_[2-5]$',key):level=100
  if not boss:species=list(dict.fromkeys(final_form(sp) for sp in species))
  pool=core.split();ace=pool[-1] if boss else species[-1]
@@ -136,6 +136,8 @@ for i in range(1,len(P),2):
   weather='rain' if cls in ['Fisherman','Swimmer M','Swimmer F','Sailor','Team Aqua','Aqua Admin','Aqua Leader','Parasol Lady','Sis And Bro'] else 'sun' if cls in ['Kindler','Team Magma','Magma Admin','Magma Leader','Aroma Lady'] else 'sand' if cls=='Hiker' else 'trick' if cls in ['Old Couple','Ruin Maniac','Psychic'] else 'balance'
  major=bool(boss or cls in ['Rival','RS Protag','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'])
  choice=bool(boss and boss not in ['WALLY','RED','LEAF','STEVEN'])
+ if key=='TRAINER_GRUNT_PETALBURG_WOODS':
+  team=['PAWNIARD','ZUBAT','KOFFING','SNEASEL','ZORUA','ABSOL'];weather='balance';level=16;major=True;choice=False
  profiles[key]=dict(name=name,trainer_class=cls,species=team,theme=weather,level=level,shiny_ace=major,format_choice=choice)
  out.append('    ['+key+'] = {{'+','.join('SPECIES_'+sp for sp in team)+'}, '+str(level)+', THEME_'+weather.upper()+', '+str(int(major))+', '+str(int(choice))+'},')
 out+=['};']

@@ -39,6 +39,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterRan
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterJuniper;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterCynthia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterHoopaRing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTriad;
 /* LA_NPC_ROSTER_EXTERNS_END */
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperGiovanni;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperCyrus;
@@ -637,6 +638,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_LA_ROSTER_JUNIPER] = &gObjectEventGraphicsInfo_LaRosterJuniper,
     [OBJ_EVENT_GFX_LA_ROSTER_CYNTHIA] = &gObjectEventGraphicsInfo_LaRosterCynthia,
     [OBJ_EVENT_GFX_LA_ROSTER_HOOPARING] = &gObjectEventGraphicsInfo_LaRosterHoopaRing,
+    [OBJ_EVENT_GFX_LA_ROSTER_SHADOWTRIAD] = &gObjectEventGraphicsInfo_LaRosterShadowTriad,
 /* LA_NPC_ROSTER_POINTERS_END */
     [OBJ_EVENT_GFX_LA_HYPER_GIOVANNI] = &gObjectEventGraphicsInfo_LaHyperGiovanni,
     [OBJ_EVENT_GFX_LA_HYPER_CYRUS] = &gObjectEventGraphicsInfo_LaHyperCyrus,

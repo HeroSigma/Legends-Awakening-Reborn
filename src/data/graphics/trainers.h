@@ -1,5 +1,7 @@
 #include "constants/trainers.h"
 #include "data.h"
+const u32 gTrainerFrontPic_ShadowTriad[] = INCGFX_U32("graphics/trainers/front_pics/shadow_triad.png", ".4bpp.smol");
+const u16 gTrainerPalette_ShadowTriad[] = INCGFX_U16("graphics/trainers/front_pics/shadow_triad.png", ".gbapal");
 
 const u32 gTrainerFrontPic_Aren[] = INCGFX_U32("graphics/trainers/front_pics/aren.png", ".4bpp.smol");
 const u8 gTrainerBackPic_Aren[] = INCGFX_U8("graphics/trainers/back_pics/aren.png", ".4bpp");
@@ -678,6 +680,10 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     [TRAINER_PIC_HIKER] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Hiker, gTrainerPalette_Hiker),
+    },
+    [TRAINER_PIC_SHADOW_TRIAD] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_ShadowTriad, gTrainerPalette_ShadowTriad),
     },
     [TRAINER_PIC_AQUA_GRUNT_M] =
     {

@@ -4490,4 +4490,15 @@ static const union AnimCmd *const sAnimTable_LaHoopaCombined[] = {
     sLaHoopaDonorAnim19,
     sLaHoopaEmerge,
 };
+static const struct SpriteFrameImage sPicTable_LaRosterShadowTriad[] = {
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 3),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 5),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 6),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 7),
+    overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 8),
+};
 /* LA_NPC_ROSTER_PICTURES_END */

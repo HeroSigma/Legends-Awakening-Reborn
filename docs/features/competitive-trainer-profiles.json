@@ -145,19 +145,19 @@
       "format_choice": false
     },
     "TRAINER_GRUNT_PETALBURG_WOODS": {
-      "name": "GRUNT",
-      "trainer_class": "Team Aqua",
+      "name": "TRIAD",
+      "trainer_class": "Pkmn Trainer 1",
       "species": [
-        "PELIPPER",
-        "MUK",
-        "CROBAT",
-        "CRAWDAUNT",
-        "LANTURN",
-        "MIGHTYENA"
+        "PAWNIARD",
+        "ZUBAT",
+        "KOFFING",
+        "SNEASEL",
+        "ZORUA",
+        "ABSOL"
       ],
-      "theme": "rain",
+      "theme": "balance",
       "level": 16,
-      "shiny_ace": false,
+      "shiny_ace": true,
       "format_choice": false
     },
     "TRAINER_MARCEL": {

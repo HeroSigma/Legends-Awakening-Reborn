@@ -179,6 +179,7 @@ enum __attribute__((packed)) TrainerPicID
     TRAINER_PIC_PAINTER_FRLG,
     TRAINER_PIC_AREN,
     TRAINER_PIC_ARIA,
+    TRAINER_PIC_SHADOW_TRIAD,
     TRAINER_PIC_COUNT,
 };
 
