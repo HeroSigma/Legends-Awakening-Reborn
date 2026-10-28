@@ -53,7 +53,17 @@ void LegendsTraining_Menu(void)
     if (kind==0) {
         for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],i);
     } else if (kind==1) {
-        for (u32 i=0;i<6;i++) MenuItem(items,count++,sStats[i],i);
+        for (u32 i=0;i<6;i++) {
+            u8 text[40], number[8];
+            StringCopy(text,sStats[i]);
+            if (mon) {
+                StringAppend(text,COMPOUND_STRING(": "));
+                ConvertIntToDecimalStringN(number,GetMonData(mon,gSpecialVar_0x8008==3?sIVFields[i]:sEVFields[i]),STR_CONV_MODE_LEFT_ALIGN,3);
+                StringAppend(text,number);
+                StringAppend(text,gSpecialVar_0x8008==3?COMPOUND_STRING(" IV"):COMPOUND_STRING(" EV"));
+            }
+            MenuItem(items,count++,text,i);
+        }
         if (gSpecialVar_0x8008==3) MenuItem(items,count++,COMPOUND_STRING("31 All"),6);
         MenuItem(items,count++,COMPOUND_STRING("Back"),255);
     } else if (kind==2) {
@@ -92,6 +102,19 @@ static void AppendNumber(u8 *dst,u32 number)
     u8 text[12];ConvertIntToDecimalStringN(text,number,STR_CONV_MODE_LEFT_ALIGN,3);StringAppend(dst,text);
 }
 
+void LegendsTraining_EVBudget(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    u32 total=0;
+    if (!mon) {gSpecialVar_Result=1;return;}
+    for (u32 i=0;i<6;i++) total+=GetMonData(mon,sEVFields[i]);
+    StringCopy(gStringVar4,COMPOUND_STRING("EV points used: "));
+    AppendNumber(gStringVar4,total);
+    StringAppend(gStringVar4,COMPOUND_STRING(" / 510\nAvailable: "));
+    AppendNumber(gStringVar4,total<510?510-total:0);
+    gSpecialVar_Result=0;
+}
+
 void LegendsTraining_Inspect(void)
 {
     struct Pokemon *mon=SelectedMon();
@@ -101,6 +124,10 @@ void LegendsTraining_Inspect(void)
     StringCopy(gStringVar4,gStringVar1);StringAppend(gStringVar4,COMPOUND_STRING("\nLevel: "));AppendNumber(gStringVar4,GetMonData(mon,MON_DATA_LEVEL));
     StringAppend(gStringVar4,COMPOUND_STRING("\pNature effects: "));StringAppend(gStringVar4,gNaturesInfo[GetMonData(mon,MON_DATA_HIDDEN_NATURE)].name);
     StringAppend(gStringVar4,COMPOUND_STRING("\nAbility: "));StringAppend(gStringVar4,gAbilitiesInfo[GetMonAbility(mon)].name);
+    u32 evTotal=0;
+    for (u32 i=0;i<6;i++) evTotal+=GetMonData(mon,sEVFields[i]);
+    StringAppend(gStringVar4,COMPOUND_STRING("\pEV points used: "));AppendNumber(gStringVar4,evTotal);
+    StringAppend(gStringVar4,COMPOUND_STRING(" / 510\nAvailable: "));AppendNumber(gStringVar4,evTotal<510?510-evTotal:0);
     for (u32 kind=0;kind<2;kind++) {
         StringAppend(gStringVar4,kind?COMPOUND_STRING("\pIVs"):COMPOUND_STRING("\pEVs"));
         for (u32 i=0;i<6;i++) {

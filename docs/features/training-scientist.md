@@ -15,3 +15,7 @@ Tests use isolated emulator saves. Coverage includes EV/IV boundaries, total lim
 Training scientists use the native Emerald Scientist 1 sprite. The generic FireRed scientist ID previously pointed at an empty Emerald graphics slot, so the actor existed but contributed no visible pixels. A graphics-table alias also maps that old ID to the Emerald sprite for existing saved actors. Pixel-difference tests verify visible bodies in all 17 rooms, alongside training/evolution and Nurse Joy regressions.
 
 The IV adjustment stat list includes **31 All** after Speed. It uses the normal confirmation, sets all six IVs to 31, recalculates stats, and reports an unchanged build when all six are already maximum. Cancellation preserves the original IVs.
+
+## Build visibility
+
+EV and IV stat lists show each current value beside its stat. The EV selection screen keeps used points (out of 510) and remaining points visible in the dialogue box, without an extra confirmation press. The budget is recomputed on each visit, including after edits or cancellations. Inspect Build includes the same budget. Individual editing and 31 All keep their existing confirmation and legality checks.

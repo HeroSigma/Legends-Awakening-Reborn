@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "assertions": 35,
+  "assertions": 47,
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -15,11 +15,27 @@
       "passed": true
     },
     {
+      "test": "ev_label_current_0",
+      "passed": true
+    },
+    {
+      "test": "ev_budget_initial_0",
+      "passed": true
+    },
+    {
       "test": "cancel_no_edit_0",
       "passed": true
     },
     {
+      "test": "ev_label_after_cancel_0",
+      "passed": true
+    },
+    {
       "test": "ui_ev252_0",
+      "passed": true
+    },
+    {
+      "test": "iv_label_current_0",
       "passed": true
     },
     {
@@ -48,6 +64,14 @@
     },
     {
       "test": "ui_hidden_ability_0",
+      "passed": true
+    },
+    {
+      "test": "ev_budget_updated_0",
+      "passed": true
+    },
+    {
+      "test": "ev_label_updated_0",
       "passed": true
     },
     {
@@ -83,11 +107,27 @@
       "passed": true
     },
     {
+      "test": "ev_label_current_1",
+      "passed": true
+    },
+    {
+      "test": "ev_budget_initial_1",
+      "passed": true
+    },
+    {
       "test": "cancel_no_edit_1",
       "passed": true
     },
     {
+      "test": "ev_label_after_cancel_1",
+      "passed": true
+    },
+    {
       "test": "ui_ev252_1",
+      "passed": true
+    },
+    {
+      "test": "iv_label_current_1",
       "passed": true
     },
     {
@@ -119,6 +159,14 @@
       "passed": true
     },
     {
+      "test": "ev_budget_updated_1",
+      "passed": true
+    },
+    {
+      "test": "ev_label_updated_1",
+      "passed": true
+    },
+    {
       "test": "ui_exact_ev127_1",
       "passed": true
     },
@@ -143,5 +191,5 @@
       "passed": true
     }
   ],
-  "rom_sha256": "e7a8ec5df0e5380f58373ff960b3bc0a0d414f3ad8820286cd8d32346b679003"
+  "rom_sha256": "477f9e42720508e2f0f79a429664bee8c6deae742ee6af6e1a5eb64734aa3d9d"
 }

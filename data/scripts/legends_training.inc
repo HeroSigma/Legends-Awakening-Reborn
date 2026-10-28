@@ -23,6 +23,7 @@ LegendsTraining_Main:
     goto_if_eq VAR_RESULT, 4, LegendsTraining_Nature
     goto_if_eq VAR_RESULT, 5, LegendsTraining_Ability
     goto_if_eq VAR_RESULT, 6, LegendsTraining_Level
+    call_if_eq VAR_0x8008, 1, LegendsTraining_ShowEVBudget
     setvar VAR_0x8005, 1
     special LegendsTraining_Menu
     goto_if_eq VAR_RESULT, 6, LegendsTraining_AllIVs
@@ -39,6 +40,11 @@ LegendsTraining_Main:
     goto_if_eq VAR_RESULT, 1, LegendsTraining_Confirm
     setvar VAR_0x8007, 0
     goto LegendsTraining_Confirm
+LegendsTraining_ShowEVBudget:
+    special LegendsTraining_EVBudget
+    message gStringVar4
+    waitmessage
+    return
 LegendsTraining_ExactEV:
     setvar VAR_0x8005, 5
     goto LegendsTraining_Number

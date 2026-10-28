@@ -9,6 +9,17 @@ row=next(x for x in json.loads((R/'docs/features/training-scientist-locations.js
 def menu(kind):
  waitfor(lambda:rd(symbols['gSpecialVar_0x8005'],2)==kind and task('Task_HandleScrollingMultichoiceInput') is not None)
  frames(15)
+def text_bytes(pointer):
+ out=[]
+ for i in range(600):
+  value=rd(pointer+i,1)
+  if value==255:return bytes(out)
+  out.append(value)
+ raise AssertionError('unterminated text')
+def stat_label(index):return text_bytes(rd(rd(symbols['gMultiuseListMenuTemplate'])+index*8))
+def budget_numbers():
+ import re
+ return [int(''.join(str(x-0xa1) for x in group)) for group in re.findall(b'[\xa1-\xaa]+',text_bytes(symbols['gStringVar4']))]
 def choose(index):
  for _ in range(index):tap(128)
  tap(1);frames(15)
@@ -31,14 +42,23 @@ for mode in [0,1]:
  begin();shutil.copy2(shot('training_menu'),R/'docs/features/training-scientist-menu.png')
  choose(0);menu(0);check('inspection_returns_'+str(mode),True)
  # Cancelling confirmation must not edit an EV.
- before=get('MON_DATA_HP_EV');choose(1);menu(1);choose(0);menu(2);choose(0)
+ before=get('MON_DATA_HP_EV');choose(1);menu(1)
+ check('ev_label_current_'+str(mode),stat_label(0).endswith(bytes([0xa1,0,0xbf,0xd0])))
+ check('ev_budget_initial_'+str(mode),budget_numbers()==[0,510,510])
+ shutil.copy2(shot('ev_stats'),R/'docs/features/training-scientist-ev-menu.png')
+ choose(0);menu(2);choose(0)
  confirm(False);menu(0);check('cancel_no_edit_'+str(mode),get('MON_DATA_HP_EV')==before)
- choose(1);menu(1);choose(0);menu(2);choose(0)
+ choose(1);menu(1)
+ check('ev_label_after_cancel_'+str(mode),stat_label(0).endswith(bytes([0xa1,0,0xbf,0xd0])))
+ choose(0);menu(2);choose(0)
  waitfor(lambda:task('Task_HandleYesNoInput') is not None);frames(10)
  shutil.copy2(shot('training_confirm'),R/'docs/features/training-scientist-confirm.png')
  tap(1);menu(0);check('ui_ev252_'+str(mode),get('MON_DATA_HP_EV')==252)
  # Set Attack IV to zero through the numeric list, then confirm.
- choose(3);menu(1);choose(1);menu(6)
+ choose(3);menu(1)
+ check('iv_label_current_'+str(mode),stat_label(1).endswith(bytes([0xa4,0xa2,0,0xc3,0xd0])))
+ shutil.copy2(shot('iv_stats'),R/'docs/features/training-scientist-iv-menu.png')
+ choose(1);menu(6)
  old=get('MON_DATA_ATK_IV')
  for _ in range(old):tap(64)
  tap(1);confirm();menu(0);check('ui_iv0_'+str(mode),get('MON_DATA_ATK_IV')==0)
@@ -57,7 +77,10 @@ for mode in [0,1]:
  choose(5);menu(4);choose(1);confirm();menu(0)
  check('ui_hidden_ability_'+str(mode),get('MON_DATA_ABILITY_NUM')==2)
  # A real exact-value EV choice at 127 must not be mistaken for B/cancel.
- choose(1);menu(1);choose(2);menu(2);choose(3);menu(5)
+ choose(1);menu(1)
+ check('ev_budget_updated_'+str(mode),budget_numbers()==[252,510,258])
+ check('ev_label_updated_'+str(mode),stat_label(0).endswith(bytes([0xa3,0xa6,0xa3,0,0xbf,0xd0])))
+ choose(2);menu(2);choose(3);menu(5)
  for _ in range(127):tap(128)
  tap(1);confirm();menu(0);check('ui_exact_ev127_'+str(mode),get('MON_DATA_DEF_EV')==127)
  choose(6);menu(7)
