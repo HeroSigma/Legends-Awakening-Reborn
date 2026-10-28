@@ -1,0 +1,58 @@
+"""Real Start-menu return/close regression using an isolated new-game battery."""
+from pathlib import Path
+R=Path('/home/allan/projects/Legends-Awakening-Reborn')
+exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0], 'helpers', 'exec'))
+D=R/'.la_work/start-menu-test';D.mkdir(exist_ok=True)
+start(0)
+invoke('ScriptGiveMon',265,10,0)
+import tempfile,struct
+if True:
+ with tempfile.TemporaryDirectory() as td:
+  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "constants/flags.h"\n#include "dexnav.h"\nconst unsigned v[]={FLAG_SYS_POKEDEX_GET,FLAG_SYS_POKEMON_GET,FLAG_SYS_POKENAV_GET,DN_FLAG_DEXNAV_GET};\n')
+  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
+  subprocess.run(['arm-none-eabi-objcopy','-O','binary','--only-section=.rodata',str(td/'c.o'),str(td/'c.bin')],check=True)
+  flags=struct.unpack('<4I',(td/'c.bin').read_bytes())
+for f in flags:invoke('FlagSet',f)
+
+for mode in [0,1]:
+ invoke('StorageChangeMode',mode,1)
+ for mask in range(16):
+  for i,f in enumerate(flags):invoke('FlagSet' if mask&(1<<i) else 'FlagClear',f)
+  for key in [2,8]:
+   tap(8);frames(40)
+   check('direct_open_'+str((mode,mask,key)),active('Task_ShowStartMenu') is not None)
+   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=9)
+   tap(key);frames(20)
+   check('direct_close_'+str((mode,mask,key)),active('Task_ShowStartMenu') is None and rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
+ for f in flags:invoke('FlagSet',f)
+ # Pokedex, Pokemon, Bag, trainer card, Options. Exercise immediate repeated
+ # B input as well as waiting for each returned Start menu to finish fading.
+ for option in [0,2,3,5,7]:
+  for rapid in [False,True]:
+   wr(symbols['sStartMenuCursorPos'],0,1)
+   tap(8);frames(50)
+   for _ in range(option):tap(128)
+   tap(1);frames(180)
+   check('entered_submenu_'+str((mode,option,rapid)),rd(symbols['gMain']+4)!=symbols['CB2_Overworld']|1)
+   expected_location=location()
+   tap(2)
+   if rapid:
+    for _ in range(60):tap(2)
+   else:
+    frames(240)
+    check('submenu_return_'+str((mode,option)),active('Task_ShowStartMenu') is not None)
+    tap(2);frames(180)
+   check('submenu_closed_'+str((mode,option,rapid)),active('Task_ShowStartMenu') is None)
+   check('no_reset_'+str((mode,option,rapid)),rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and location()==expected_location)
+   check('controls_released_'+str((mode,option,rapid)),invoke('ArePlayerFieldControlsLocked')==0)
+ # Journal closes directly to the field.
+ wr(symbols['sStartMenuCursorPos'],0,1)
+ tap(8);frames(50)
+ for _ in range(8):tap(128)
+ tap(1);frames(30);check('journal_open_'+str(mode),active('Task_AdventureJournal') is not None)
+ tap(2);frames(30)
+ check('journal_exit_'+str(mode),active('Task_AdventureJournal') is None and rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
+lib.shutdown()
+result=dict(passed=True,assertions=len(checks),rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),checks=checks)
+(D/'results.json').write_text(json.dumps(result,indent=2)+'\n')
+print('PASS',len(checks),'Start menu checks')
