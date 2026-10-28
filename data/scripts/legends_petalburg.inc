@@ -90,11 +90,11 @@ LegendsPetalburg_RaltsStep:
 LegendsPetalburg_Text_Exit:
     .string "{COLOR LIGHT_BLUE}I can't just keep this to myself.\pProfessor Birch needs to know.\pPetalburg is close. Maybe Norman\ncan help me reach him.$"
 LegendsPetalburg_Text_Report:
-    .string "{COLOR LIGHT_BLUE}Something happened in the woods.\pI heard two men talking about\nthe rifts. They took something.\pThey said it could keep a portal\nopen and let them control it.\pThey didn't want the professors\nor any of us finding out.$"
+    .string "{COLOR LIGHT_BLUE}Something happened in the woods.\pI heard two men talking about\nthe rifts. They took something.\pThey said it could keep a portal\nopen and let them control it.\pThey didn't want the professors\nor anyone finding out.$"
 LegendsPetalburg_Text_Listen:
     .string "Take a breath. You're safe here.\pTell me what they looked like.$"
 LegendsPetalburg_Text_Descriptions:
-    .string "{COLOR LIGHT_BLUE}One had dark hair and a suit.\nHe did most of the talking.\pThe other had blue hair,\nand wore a gray uniform.\pI felt like I'd seen them before.\nBut I can't remember where.$"
+    .string "{COLOR LIGHT_BLUE}One had dark hair and a suit.\nThere was an R on his clothes.\pThe other had blue hair,\nand wore a gray uniform.\pHis clothes had a G on them.\pI felt like I'd seen them before.\nBut I can't remember where.$"
 LegendsPetalburg_Text_Recognizes:
     .string "A dark suit… Blue hair…\pThose descriptions…\nIf they're who I think they are…$"
 LegendsPetalburg_Text_Relay:
