@@ -11,6 +11,8 @@ A Devon energy researcher and a visiting Silph researcher compare simultaneous r
 - Original trainer ID retained for flag compatibility; name is TRIAD, class is generic Pokemon Trainer.
 - Six-member post-Dex profile: Pawniard, Zubat, Koffing, Sneasel, Zorua, shiny Absol ace. Level target 16, capped by existing progression, with the existing smart AI, legal move/ability/evolution checks, two healing items, and one deterministic Tera/Z gimmick. No gym-format prompt is added to this story encounter.
 
+The Silph researcher checks the Scope, steps down to join the player and Devon, faces the approaching Triad, returns north to protect the recording, and approaches after the theft. Its exit compensates for that final step, keeping both researcher routes clear.
+
 ## State and compatibility
 
 - Existing `VAR_PETALBURG_WOODS_STATE`: 0 pending; 1 completed. Existing Devon and grunt hide flags remain authoritative.

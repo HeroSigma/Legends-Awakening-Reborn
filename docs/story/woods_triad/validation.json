@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 63,
-  "rom_sha256": "835fcc55b479383d5afe551cc94a4c6bba5940f76099c4903024f8b0b3d8355a",
+  "assertions": 67,
+  "rom_sha256": "3db6375db3059662ddb5828210912edd2af565b39f47910857662c902e15a390",
   "battle_results": "injected through native end handlers; combat difficulty is not measured",
   "checks": [
     {
@@ -14,6 +14,10 @@
     },
     {
       "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "silph_joins_conversation_35",
       "passed": true
     },
     {
@@ -54,6 +58,10 @@
     },
     {
       "test": "legal_team_(35, 5)",
+      "passed": true
+    },
+    {
+      "test": "silph_returns_to_recording_35",
       "passed": true
     },
     {
@@ -113,6 +121,10 @@
       "passed": true
     },
     {
+      "test": "silph_joins_conversation_36",
+      "passed": true
+    },
+    {
       "test": "correct_opponent_36",
       "passed": true
     },
@@ -150,6 +162,10 @@
     },
     {
       "test": "legal_team_(36, 5)",
+      "passed": true
+    },
+    {
+      "test": "silph_returns_to_recording_36",
       "passed": true
     },
     {

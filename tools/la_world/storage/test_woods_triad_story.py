@@ -17,6 +17,8 @@ def state():return rd(rd(symbols['gSaveBlock1Ptr'])+0x139c+(c['VAR_PETALBURG_WOO
 def actor(name):
  local=c[name]
  return next((symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)'] for j in range(16) if rd(symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)'],1)&1 and rd(symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)']+c['offsetof(struct ObjectEvent,localId)'],1)==local),None)
+def actor_position(name):
+ a=actor(name)+c['offsetof(struct ObjectEvent,currentCoords)'];return rd(a,2)-7,rd(a+2,2)-7
 def until(predicate,limit=24000):
  for i in range(limit):
   if predicate():frames(15);return
@@ -43,6 +45,9 @@ for gender,mode,x in [(0,0,35),(1,1,36)]:
  until(lambda:any(all(rd(symbols['gStringVar4']+offset+i,1)==rd(symbols['LegendsWoods_Text_Scope']+i,1) for i in range(10)) for offset in range(4)))
  frames(600)
  shutil.copy2(shot('researchers'),proof/('researchers_'+str(x)+'.png'))
+ until(lambda:any(all(rd(symbols['gStringVar4']+offset+i,1)==rd(symbols['LegendsWoods_Text_Greeting']+i,1) for i in range(10)) for offset in range(4)))
+ check('silph_joins_conversation_'+str(x),actor_position('LOCALID_WOODS_SILPH')==(36,18))
+ frames(600);shutil.copy2(shot('scientist'),proof/('scientist_'+str(x)+'.png'))
  battle()
  check('correct_opponent_'+str(x),rd(symbols['gTrainerBattleParameter']+2,2)==c['TRAINER_GRUNT_PETALBURG_WOODS'])
  check('six_opponents_'+str(x),rd(symbols['gPartiesCount']+1,1)==6)
@@ -57,6 +62,7 @@ for gender,mode,x in [(0,0,35),(1,1,36)]:
  before=invoke('CountTotalItemQuantityInBag',c['ITEM_GREAT_BALL'])
  finish(1)
  until(lambda:rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and fl('FLAG_LA_WOODS_RIFT_RECORD_STOLEN')==1)
+ check('silph_returns_to_recording_'+str(x),actor_position('LOCALID_WOODS_SILPH')==(36,17))
  print('TRIAD',x,pos(),[(n,actor(n)) for n in ['LOCALID_PETALBURG_WOODS_GRUNT','LOCALID_WOODS_TRIAD_2','LOCALID_WOODS_TRIAD_3']],flush=True)
  shutil.copy2(shot('appearance'),proof/('appearance_'+str(x)+'.png'))
  check('all_three_present_'+str(x),all(actor(n) is not None for n in ['LOCALID_PETALBURG_WOODS_GRUNT','LOCALID_WOODS_TRIAD_2','LOCALID_WOODS_TRIAD_3']))

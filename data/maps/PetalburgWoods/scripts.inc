@@ -24,10 +24,15 @@ LegendsWoods_Begin:
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Readings, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphCheckScope
+	waitmovement 0
 	setspeaker SP_NAME_SILPH_RESEARCHER
 	msgbox LegendsWoods_Text_Scope, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, LegendsWoods_DevonApproach
+	waitmovement 0
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphJoinPlayer
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Greeting, MSGBOX_DEFAULT
@@ -35,7 +40,7 @@ LegendsWoods_Begin:
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadApproach
 	waitmovement 0
-	applymovement LOCALID_WOODS_SILPH, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphReactToThreat
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	setspeaker SP_NAME_SHADOW_TRIAD
@@ -58,6 +63,8 @@ LegendsWoods_Begin:
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsWoods_Text_Delay, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphProtectRecording
+	waitmovement 0
 	playse SE_M_TELEPORT
 	addobject LOCALID_WOODS_TRIAD_2
 	addobject LOCALID_WOODS_TRIAD_3
@@ -90,6 +97,8 @@ LegendsWoods_Begin:
 	fadedefaultbgm
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphAfterTheft
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Thanks, MSGBOX_DEFAULT
@@ -173,6 +182,7 @@ LegendsWoods_TriadExitBackup:
 	walk_fast_up
 	step_end
 LegendsWoods_SilphExit:
+	walk_fast_up
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
@@ -498,3 +508,26 @@ LegendsWoods_Text_Report:
 LegendsWoods_Text_NoRoom:
 	.string "Your Bag is full. Please do not\n"
 	.string "worry about the gift right now.$"
+
+@ Silph stays in the eastern lane, clear of the player and Devon.
+LegendsWoods_SilphCheckScope:
+	face_up
+	delay_16
+	face_left
+	step_end
+LegendsWoods_SilphJoinPlayer:
+	walk_down
+	face_down
+	step_end
+LegendsWoods_SilphReactToThreat:
+	face_left
+	delay_16
+	step_end
+LegendsWoods_SilphProtectRecording:
+	walk_up
+	face_left
+	step_end
+LegendsWoods_SilphAfterTheft:
+	walk_down
+	face_down
+	step_end
