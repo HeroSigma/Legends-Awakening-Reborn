@@ -620,7 +620,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_PCBag_Fill[] =
 {
     { COMPOUND_STRING("Fill Bag (all items)"), DebugAction_PCBag_Fill_All },
     { COMPOUND_STRING("Fill Medicine"), DebugAction_PCBag_Fill_Medicine },
-    { COMPOUND_STRING("Fill Equipment"), DebugAction_PCBag_Fill_Equipment },
+    { COMPOUND_STRING("Fill Held Items"), DebugAction_PCBag_Fill_Equipment },
     { COMPOUND_STRING("Fill Training"), DebugAction_PCBag_Fill_Training },
     { COMPOUND_STRING("Fill Evolution"), DebugAction_PCBag_Fill_Evolution },
     { COMPOUND_STRING("Fill Mega Stones"), DebugAction_PCBag_Fill_Mega },
