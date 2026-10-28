@@ -14,6 +14,9 @@ The native Wally tutorial still saves/restores the player party, supplies the lo
 The native Petalburg city/gym vars remain authoritative for the outing and badges. Ralts uses FLAG_TEMP_9, explicitly hidden on map transition; no permanent extra actor flag. Old saves with a completed outing can deliver a late report without replaying the tutorial or falsely marking the new Ralts scene as seen. Nothing rewinds gym progress.
 
 ## Geometry
-West Woods warps 2/3 return to Route 102 at (6,3)/(7,3); the exit thought allows the emergence row through y=4. Only x=6..7 qualifies. Ralts enters from Petalburg (37,15) to (36,15), beside Wally (35,15); player (35,14). All four are grass behavior 2, collision 0 in the linked native map. Existing tutorial escort movements and gym return warp remain intact.
+West Woods warps 2/3 return to Route 102 at (6,3)/(7,3); the exit thought allows the emergence row through y=4. Only x=6..7 qualifies.
+
+The native Wally escort crosses Petalburg's east connection into Route 102. The player ends at (5,5), Wally at (5,6). Ralts is registered on Route 102 at (7,5), and approaches to (6,5). All four cells have grass behavior 2 and collision 0. Ralts stands one row above Wally so its small sprite remains visible above the dialogue window. The cutscene explicitly resets its position before spawning; FLAG_TEMP_9 hides it outside the scene. The incorrect out-of-bounds Petalburg actor was removed. Native escort movements, catch battle and gym return warp remain intact.
 
 Gym family-specific trainer, guide, battle/rematch and badge dialogue was updated to Norman's mentor role. Appended NORMAN/WALLY namebox entries preserve prior speaker IDs. No save structure or MAP identities change. Local user Devon map edits are excluded from this story commit.
+

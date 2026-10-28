@@ -55,8 +55,9 @@ LegendsPetalburg_RelayToBirch:
     return
 
 LegendsPetalburg_RaltsApproach:
+    setobjectxyperm LOCALID_LA_ROUTE102_RALTS, 7, 5
     clearflag FLAG_TEMP_9
-    addobject LOCALID_LA_PETALBURG_RALTS
+    addobject LOCALID_LA_ROUTE102_RALTS
     playmoncry SPECIES_RALTS, CRY_MODE_NORMAL
     waitmoncry
     setspeaker SP_NAME_PLAYER
@@ -64,13 +65,13 @@ LegendsPetalburg_RaltsApproach:
     setspeaker SP_NAME_WALLY
     msgbox LegendsPetalburg_Text_Reassure, MSGBOX_DEFAULT
     closemessage
-    applymovement LOCALID_LA_PETALBURG_RALTS, LegendsPetalburg_RaltsStep
+    applymovement LOCALID_LA_ROUTE102_RALTS, LegendsPetalburg_RaltsStep
     waitmovement 0
     delay 24
     setspeaker SP_NAME_WALLY
     msgbox LegendsPetalburg_Text_RaltsTrust, MSGBOX_DEFAULT
     closemessage
-    removeobject LOCALID_LA_PETALBURG_RALTS
+    removeobject LOCALID_LA_ROUTE102_RALTS
     setflag FLAG_TEMP_9
     setspeaker SP_NAME_NONE
     return

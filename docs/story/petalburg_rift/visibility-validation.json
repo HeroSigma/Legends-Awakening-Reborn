@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "assertions": 4,
+  "visible_pixel_difference": 130,
+  "rom_sha256": "fd6ea0661965cdec34802890236083f53189f0c959702d88328ed5759ee9760a",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "ralts_spawned",
+      "passed": true
+    },
+    {
+      "test": "ralts_visible_above_dialogue",
+      "passed": true
+    }
+  ]
+}

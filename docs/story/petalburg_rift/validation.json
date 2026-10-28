@@ -1,7 +1,7 @@
 {
   "passed": true,
   "assertions": 42,
-  "rom_sha256": "15e641916d000b7400593ad950b4d9e5e0c8ca72f411b6ff9216e0cf14ec06c8",
+  "rom_sha256": "fd6ea0661965cdec34802890236083f53189f0c959702d88328ed5759ee9760a",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -16,19 +16,19 @@
       "passed": true
     },
     {
-      "test": "tutorial_cell_(0, 35, 14)",
+      "test": "tutorial_cell_(0, 5, 5)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(0, 35, 15)",
+      "test": "tutorial_cell_(0, 5, 6)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(0, 36, 15)",
+      "test": "tutorial_cell_(0, 6, 5)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(0, 37, 15)",
+      "test": "tutorial_cell_(0, 7, 5)",
       "passed": true
     },
     {
@@ -84,19 +84,19 @@
       "passed": true
     },
     {
-      "test": "tutorial_cell_(1, 35, 14)",
+      "test": "tutorial_cell_(1, 5, 5)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(1, 35, 15)",
+      "test": "tutorial_cell_(1, 5, 6)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(1, 36, 15)",
+      "test": "tutorial_cell_(1, 6, 5)",
       "passed": true
     },
     {
-      "test": "tutorial_cell_(1, 37, 15)",
+      "test": "tutorial_cell_(1, 7, 5)",
       "passed": true
     },
     {

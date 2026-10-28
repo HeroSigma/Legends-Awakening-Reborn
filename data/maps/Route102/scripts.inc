@@ -162,6 +162,7 @@ Route102_Text_HyperConstruction_4:
 
 @ Saved once-only story state; no trainer defeat or Woods access requirement.
 Route102_TimelessCallOnTransition:
+    setflag FLAG_TEMP_9
     call LegendsPetalburg_CheckWoodsExit
     goto_if_set FLAG_LA_TIMELESS_WOODS_CALL_HEARD, Route102_TimelessCallAlreadyHeard
     setvar VAR_LA_TIMELESS_WOODS_CALL_STATE, 0

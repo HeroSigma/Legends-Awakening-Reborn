@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "assertions": 46,
+  "rom_sha256": "fd6ea0661965cdec34802890236083f53189f0c959702d88328ed5759ee9760a",
+  "save_sha256_unchanged": "ebbfb883e5d6d2b1a0818f4d4b9aefc085203a770142a03544063059a0560f38",
+  "fix": "Register Ralts in Route102 at 7,5; approach to 6,5 above dialogue"
+}

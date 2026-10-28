@@ -38,8 +38,8 @@ for gender,mode in [(0,0),(1,1)]:
  check('exit_thought_'+str(gender),invoke('FlagGet',exitflag)==1)
  until(lambda:rd(symbols['sGlobalScriptContextStatus'],1)==2)
  # Validate Ralts' added approach cells against the actual imported geometry.
- warp(0,0,35,14)
- for x,y in [(35,14),(35,15),(36,15),(37,15)]:
+ warp(0,17,5,5)
+ for x,y in [(5,5),(5,6),(6,5),(7,5)]:
   check('tutorial_cell_'+str((gender,x,y)),invoke('MapGridGetCollisionAt',x+7,y+7)==0)
  warp(8,1,4,108)
  before=bytes(rd(symbols['gParties']+i,1) for i in range(100))
