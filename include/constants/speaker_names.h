@@ -12,6 +12,8 @@ enum SpeakerNames {
     SP_NAME_BIRCH,
     SP_NAME_GIOVANNI,
     SP_NAME_CYRUS,
+    SP_NAME_NORMAN,
+    SP_NAME_WALLY,
     SP_NAME_COUNT
 };
 

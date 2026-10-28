@@ -2691,3 +2691,5 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/la_collection_storage.inc"
 
 	.include "data/scripts/legends_portable_daycare.inc"
+
+	.include "data/scripts/legends_petalburg.inc"

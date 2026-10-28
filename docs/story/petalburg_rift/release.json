@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "assertions": 2675,
+  "rom_sha256": "15e641916d000b7400593ad950b4d9e5e0c8ca72f411b6ff9216e0cf14ec06c8",
+  "save_sha256_unchanged": "ebbfb883e5d6d2b1a0818f4d4b9aefc085203a770142a03544063059a0560f38",
+  "preserved_user_maps": {
+    "data/maps/Hoenn_Basement/map.json": "af88cd9509c329d7583f396a38cf2324d09690170721b63cbb1e9dcf61cda2c8",
+    "data/maps/RustboroCity_DevonCorp_1F/map.json": "542e1e31e9e332a09adc5c368b7fd6a528bb04561e27afb18a1bbf84c4961fda"
+  },
+  "reports": [
+    "docs/story/petalburg_rift/validation.json",
+    "docs/features/dexnav-free-approach-validation.json",
+    "docs/features/dexnav-equipment-chaining-validation.json",
+    "docs/features/remaining-qol-validation.json",
+    "docs/features/field-move-unlocks-validation.json",
+    "docs/features/automatic-fishing-validation.json",
+    "docs/features/adventure-journal-validation.json",
+    "docs/la_world/compact_pc/map_initializers/validation.json",
+    "docs/la_world/compact_pc/integration/validation.json"
+  ]
+}

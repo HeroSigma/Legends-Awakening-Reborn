@@ -4,6 +4,7 @@ PetalburgCity_MapScripts::
 	.byte 0
 
 PetalburgCity_OnTransition:
+	setflag FLAG_TEMP_9
 	setflag FLAG_VISITED_PETALBURG_CITY
 	call_if_eq VAR_PETALBURG_CITY_STATE, 0, PetalburgCity_EventScript_MoveGymBoyToWestEntrance
 	call_if_eq VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_DisableMapNameAndMusic
@@ -36,8 +37,11 @@ PetalburgCity_EventScript_WallyTutorial::
 	applymovement LOCALID_PETALBURG_WALLY, PetalburgCity_Movement_WallyTutorialWally
 	applymovement LOCALID_PLAYER, PetalburgCity_Movement_WallyTutorialPlayer
 	waitmovement 0
+	setspeaker SP_NAME_WALLY
 	msgbox Route102_Text_WatchMeCatchPokemon, MSGBOX_DEFAULT
+	call LegendsPetalburg_RaltsApproach
 	special StartWallyTutorialBattle
+	call LegendsPetalburg_RaltsCaught
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 	applymovement LOCALID_PETALBURG_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
 	waitmovement LOCALID_PETALBURG_WALLY, MAP_PETALBURG_CITY
