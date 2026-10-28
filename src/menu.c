@@ -398,6 +398,14 @@ u8 AddStartMenuWindow(u8 numActions)
     return sStartMenuWindowId;
 }
 
+u8 AddPagedStartMenuWindow(void)
+{
+    if (sStartMenuWindowId == WINDOW_NONE)
+        // Keep the larger window below the standard frame graphics at tile 0x214.
+        sStartMenuWindowId = AddWindowParameterized(0, 14, 1, 15, 18, 15, 0x100);
+    return sStartMenuWindowId;
+}
+
 u8 GetStartMenuWindowId(void)
 {
     return sStartMenuWindowId;

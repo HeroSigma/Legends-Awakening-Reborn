@@ -19,16 +19,22 @@ for mode in [0,1]:
  for mask in range(16):
   for i,f in enumerate(flags):invoke('FlagSet' if mask&(1<<i) else 'FlagClear',f)
   for key in [2,8]:
+   wr(symbols['sStartMenuPage'],0,1)
    tap(8);frames(40)
    check('direct_open_'+str((mode,mask,key)),active('Task_ShowStartMenu') is not None)
-   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=10)
+   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=6)
+   tap(16);frames(30)
+   check('services_page_'+str((mode,mask,key)),rd(symbols['sStartMenuPage'],1)==1 and rd(symbols['sNumStartMenuActions'],1)==5)
+   tap(32);frames(30)
+   check('adventure_page_'+str((mode,mask,key)),rd(symbols['sStartMenuPage'],1)==0)
    tap(key);frames(20)
    check('direct_close_'+str((mode,mask,key)),active('Task_ShowStartMenu') is None and rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
  for f in flags:invoke('FlagSet',f)
  # Pokedex, Pokemon, Bag, trainer card, Options. Exercise immediate repeated
  # B input as well as waiting for each returned Start menu to finish fading.
- for option in [0,2,3,5,7]:
+ for page,option in [(0,2),(0,0),(0,1),(1,0),(1,4)]:
   for rapid in [False,True]:
+   wr(symbols['sStartMenuPage'],page,1)
    wr(symbols['sStartMenuCursorPos'],0,1)
    tap(8);frames(50)
    for _ in range(option):tap(128)
@@ -46,12 +52,21 @@ for mode in [0,1]:
    check('no_reset_'+str((mode,option,rapid)),rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and location()==expected_location)
    check('controls_released_'+str((mode,option,rapid)),invoke('ArePlayerFieldControlsLocked')==0)
  # Journal closes directly to the field.
+ wr(symbols['sStartMenuPage'],1,1)
  wr(symbols['sStartMenuCursorPos'],0,1)
  tap(8);frames(50)
- for _ in range(8):tap(128)
+ tap(128)
  tap(1);frames(30);check('journal_open_'+str(mode),active('Task_AdventureJournal') is not None)
  tap(2);frames(30)
  check('journal_exit_'+str(mode),active('Task_AdventureJournal') is None and rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
+# Capture both fully unlocked pages and verify repeated shoulder-button switching.
+for page in [0,1]:
+ wr(symbols['sStartMenuPage'],page,1);wr(symbols['sStartMenuCursorPos'],0,1)
+ tap(8);frames(50)
+ shutil.copy2(shot('page_'+str(page)),R/'docs/features'/('start-menu-page-'+str(page)+'.png'))
+ for _ in range(6):tap(256);frames(25)
+ check('shoulder_wrap_'+str(page),rd(symbols['sStartMenuPage'],1)==page)
+ tap(2);frames(30)
 lib.shutdown()
 result=dict(passed=True,assertions=len(checks),rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),checks=checks)
 (D/'results.json').write_text(json.dumps(result,indent=2)+'\n')

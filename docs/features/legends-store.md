@@ -1,6 +1,6 @@
 # Legends Store
 
-Available from the normal Start menu (and debug Start menu), outside restricted link/Safari/Frontier contexts. A compact ten-row Start menu preserves the existing entries. The shop uses the current field window style and a cached catalog, with no save-format changes.
+Available on the Services page of the normal Start menu (and debug Start menu), outside restricted link/Safari/Frontier contexts. The two-page Start menu preserves the existing entries. The shop uses the current field window style and a cached catalog, with no save-format changes.
 
 ## Controls
 

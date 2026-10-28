@@ -91,6 +91,8 @@ COMMON_DATA bool8 (*gMenuCallback)(void) = NULL;
 EWRAM_DATA static u8 sSafariBallsWindowId = 0;
 EWRAM_DATA static u8 sBattlePyramidFloorWindowId = 0;
 EWRAM_DATA static u8 sStartMenuCursorPos = 0;
+EWRAM_DATA static u8 sStartMenuPage = 0;
+EWRAM_DATA static bool8 sPagedStartMenu = FALSE;
 EWRAM_DATA static u8 sNumStartMenuActions = 0;
 EWRAM_DATA static u8 sCurrentStartMenuActions[10] = {0};
 EWRAM_DATA static s8 sInitStartMenuData[2] = {0};
@@ -192,6 +194,11 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
     .paletteNum = 15,
     .baseBlock = 0x8
 };
+
+static const u8 sText_PageAdventure[] = _("ADVENTURE          1/2");
+static const u8 sText_PageServices[] = _("SERVICES           2/2");
+static const u8 sText_PageControls[] = _("Left/Right: page");
+static const u8 sText_PageClose[] = _("A: open   B: close");
 
 static const u8 sText_MenuStore[] = _("LEGENDS STORE");
 
@@ -295,6 +302,7 @@ static void HideStartMenuDebug(void);
 static void BuildStartMenuActions(void)
 {
     sNumStartMenuActions = 0;
+    sPagedStartMenu = FALSE;
 
     if (IsOverworldLinkActive() == TRUE)
     {
@@ -336,41 +344,29 @@ static void AddStartMenuAction(u8 action)
 
 static void BuildNormalStartMenu(void)
 {
-    if (FlagGet(FLAG_SYS_POKEDEX_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKEDEX);
-
-    if (DN_FLAG_DEXNAV_GET != 0 && FlagGet(DN_FLAG_DEXNAV_GET))
-        AddStartMenuAction(MENU_ACTION_DEXNAV);
-
-    if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKEMON);
-
-    AddStartMenuAction(MENU_ACTION_BAG);
-
-    if (FlagGet(FLAG_SYS_POKENAV_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKENAV);
-
-    AddStartMenuAction(MENU_ACTION_PLAYER);
-    AddStartMenuAction(MENU_ACTION_SAVE);
-    AddStartMenuAction(MENU_ACTION_OPTION);
-    AddStartMenuAction(MENU_ACTION_JOURNAL);
-    AddStartMenuAction(MENU_ACTION_STORE);
+    sPagedStartMenu = TRUE;
+    if (sStartMenuPage == 0)
+    {
+        if (FlagGet(FLAG_SYS_POKEMON_GET)) AddStartMenuAction(MENU_ACTION_POKEMON);
+        AddStartMenuAction(MENU_ACTION_BAG);
+        if (FlagGet(FLAG_SYS_POKEDEX_GET)) AddStartMenuAction(MENU_ACTION_POKEDEX);
+        if (DN_FLAG_DEXNAV_GET != 0 && FlagGet(DN_FLAG_DEXNAV_GET)) AddStartMenuAction(MENU_ACTION_DEXNAV);
+        if (FlagGet(FLAG_SYS_POKENAV_GET)) AddStartMenuAction(MENU_ACTION_POKENAV);
+    }
+    else
+    {
+        AddStartMenuAction(MENU_ACTION_PLAYER);
+        AddStartMenuAction(MENU_ACTION_JOURNAL);
+        AddStartMenuAction(MENU_ACTION_STORE);
+        AddStartMenuAction(MENU_ACTION_SAVE);
+        AddStartMenuAction(MENU_ACTION_OPTION);
+    }
 }
 
 static void BuildDebugStartMenu(void)
 {
-    AddStartMenuAction(MENU_ACTION_DEBUG);
-    AddStartMenuAction(MENU_ACTION_STORE);
-    if (FlagGet(FLAG_SYS_POKEDEX_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKEDEX);
-    if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKEMON);
-    AddStartMenuAction(MENU_ACTION_BAG);
-    if (FlagGet(FLAG_SYS_POKENAV_GET) == TRUE)
-        AddStartMenuAction(MENU_ACTION_POKENAV);
-    AddStartMenuAction(MENU_ACTION_PLAYER);
-    AddStartMenuAction(MENU_ACTION_SAVE);
-    AddStartMenuAction(MENU_ACTION_OPTION);
+    BuildNormalStartMenu();
+    if (sStartMenuPage == 1) AddStartMenuAction(MENU_ACTION_DEBUG);
 }
 
 static void BuildSafariZoneStartMenu(void)
@@ -502,12 +498,12 @@ static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
     {
         if (sStartMenuItems[sCurrentStartMenuActions[index]].func.u8_void == StartMenuPlayerNameCallback)
         {
-            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, index * (sNumStartMenuActions >= 9 ? 14 : 16) + (sNumStartMenuActions >= 9 ? 1 : 9));
+            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, index * (sPagedStartMenu ? 18 : 16) + (sPagedStartMenu ? 26 : 9));
         }
         else
         {
             StringExpandPlaceholders(gStringVar4, sStartMenuItems[sCurrentStartMenuActions[index]].text);
-            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, index * (sNumStartMenuActions >= 9 ? 14 : 16) + (sNumStartMenuActions >= 9 ? 1 : 9), TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, index * (sPagedStartMenu ? 18 : 16) + (sPagedStartMenu ? 26 : 9), TEXT_SKIP_DRAW, NULL);
         }
 
         index++;
@@ -540,7 +536,20 @@ static bool32 InitStartMenuStep(void)
         break;
     case 2:
         LoadMessageBoxAndBorderGfx();
-        DrawStdWindowFrame(AddStartMenuWindow(sNumStartMenuActions), FALSE);
+        DrawStdWindowFrame(sPagedStartMenu ? AddPagedStartMenuWindow() : AddStartMenuWindow(sNumStartMenuActions), FALSE);
+        if (sPagedStartMenu)
+        {
+            u8 win = GetStartMenuWindowId();
+            FillWindowPixelBuffer(win, PIXEL_FILL(1));
+            FillWindowPixelRect(win, PIXEL_FILL(2), 4, 20, 112, 1);
+            AddTextPrinterParameterized(win, FONT_SMALL, sStartMenuPage ? sText_PageServices : sText_PageAdventure, 4, 2, TEXT_SKIP_DRAW, NULL);
+            if (sNumStartMenuActions <= 5)
+            {
+                AddTextPrinterParameterized(win, FONT_SMALL, sText_PageControls, 4, 116, TEXT_SKIP_DRAW, NULL);
+                AddTextPrinterParameterized(win, FONT_SMALL, sText_PageClose, 4, 130, TEXT_SKIP_DRAW, NULL);
+            }
+        }
+        if (sStartMenuCursorPos >= sNumStartMenuActions) sStartMenuCursorPos = 0;
         sInitStartMenuData[1] = 0;
         sInitStartMenuData[0]++;
         break;
@@ -556,7 +565,7 @@ static bool32 InitStartMenuStep(void)
             sInitStartMenuData[0]++;
         break;
     case 5:
-        sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, sNumStartMenuActions >= 9 ? 1 : 9, sNumStartMenuActions >= 9 ? 14 : 16, sNumStartMenuActions, sStartMenuCursorPos);
+        sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, sPagedStartMenu ? 26 : 9, sPagedStartMenu ? 18 : 16, sNumStartMenuActions, sStartMenuCursorPos);
         CopyWindowToVram(GetStartMenuWindowId(), COPYWIN_MAP);
         return TRUE;
     }
@@ -640,6 +649,14 @@ void ShowStartMenu(void)
 
 static bool8 HandleStartMenuInput(void)
 {
+    if (sPagedStartMenu && JOY_NEW(DPAD_LEFT | DPAD_RIGHT | L_BUTTON | R_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        sStartMenuPage ^= 1;
+        sStartMenuCursorPos = 0;
+        InitStartMenu();
+        return FALSE;
+    }
     if (JOY_NEW(DPAD_UP))
     {
         PlaySE(SE_SELECT);
