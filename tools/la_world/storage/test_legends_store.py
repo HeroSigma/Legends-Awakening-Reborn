@@ -50,7 +50,7 @@ for mode in [0,1]:
  # All story unlocks: the new tenth Start row must be reachable without overflow.
  for n in ['FLAG_SYS_POKEDEX_GET','FLAG_SYS_POKEMON_GET','FLAG_SYS_POKENAV_GET','DN_FLAG_DEXNAV_GET']:invoke('FlagSet',c[n])
  wr(symbols['sStartMenuPage'],0,1);wr(symbols['sStartMenuCursorPos'],0,1);tap(8);frames(60)
- check('five_rows_'+str(mode),rd(symbols['sNumStartMenuActions'],1)==5)
+ check('classic_eight_rows_'+str(mode),rd(symbols['sNumStartMenuActions'],1)==8)
  if mode==0:shutil.copy2(shot('start'),R/'docs/features/legends-store-start.png')
  tap(16);frames(30)
  for _ in range(2):tap(128)

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "assertions": 934,
-  "rom_sha256": "c3741b9ddbeda828e6f01bd478ca9259e8c7758b1d5fedd44c81cc59c93184df",
+  "rom_sha256": "f1df3e8c46a12a3c3243ef1bdb65140e27b46a1138728ac5f22708291ec9ad20",
   "examples": [
     {
       "item": "ITEM_POTION",
@@ -284,7 +284,7 @@
       "passed": true
     },
     {
-      "test": "five_rows_0",
+      "test": "classic_eight_rows_0",
       "passed": true
     },
     {
@@ -3696,7 +3696,7 @@
       "passed": true
     },
     {
-      "test": "five_rows_1",
+      "test": "classic_eight_rows_1",
       "passed": true
     },
     {

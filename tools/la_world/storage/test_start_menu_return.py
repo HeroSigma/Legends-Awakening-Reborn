@@ -22,9 +22,9 @@ for mode in [0,1]:
    wr(symbols['sStartMenuPage'],0,1)
    tap(8);frames(40)
    check('direct_open_'+str((mode,mask,key)),active('Task_ShowStartMenu') is not None)
-   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=6)
+   check('bounded_rows_'+str((mode,mask,key)),rd(symbols['sNumStartMenuActions'],1)<=8)
    tap(16);frames(30)
-   check('services_page_'+str((mode,mask,key)),rd(symbols['sStartMenuPage'],1)==1 and rd(symbols['sNumStartMenuActions'],1)==5)
+   check('services_page_'+str((mode,mask,key)),rd(symbols['sStartMenuPage'],1)==1 and rd(symbols['sNumStartMenuActions'],1)==(4 if mask&8 else 3))
    tap(32);frames(30)
    check('adventure_page_'+str((mode,mask,key)),rd(symbols['sStartMenuPage'],1)==0)
    tap(key);frames(20)
@@ -32,7 +32,7 @@ for mode in [0,1]:
  for f in flags:invoke('FlagSet',f)
  # Pokedex, Pokemon, Bag, trainer card, Options. Exercise immediate repeated
  # B input as well as waiting for each returned Start menu to finish fading.
- for page,option in [(0,2),(0,0),(0,1),(1,0),(1,4)]:
+ for page,option in [(0,0),(0,1),(0,2),(0,4),(0,6)]:
   for rapid in [False,True]:
    wr(symbols['sStartMenuPage'],page,1)
    wr(symbols['sStartMenuCursorPos'],0,1)
@@ -64,9 +64,15 @@ for page in [0,1]:
  wr(symbols['sStartMenuPage'],page,1);wr(symbols['sStartMenuCursorPos'],0,1)
  tap(8);frames(50)
  shutil.copy2(shot('page_'+str(page)),R/'docs/features'/('start-menu-page-'+str(page)+'.png'))
- for _ in range(6):tap(256);frames(25)
- check('shoulder_wrap_'+str(page),rd(symbols['sStartMenuPage'],1)==page)
- tap(2);frames(30)
+ for key in [256,512]:
+  for press in range(6):
+   before=rd(symbols['sStartMenuPage'],1);tap(key);frames(25)
+   check('shoulder_cycles_'+str((page,key,press)),rd(symbols['sStartMenuPage'],1)==(before^1))
+  check('shoulder_wrap_'+str((page,key)),rd(symbols['sStartMenuPage'],1)==page)
+ # EXIT remains a real selectable classic entry on both lists.
+ for _ in range(rd(symbols['sNumStartMenuActions'],1)-1):tap(128)
+ tap(1);frames(30)
+ check('exit_action_'+str(page),active('Task_ShowStartMenu') is None and invoke('ArePlayerFieldControlsLocked')==0)
 lib.shutdown()
 result=dict(passed=True,assertions=len(checks),rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),checks=checks)
 (D/'results.json').write_text(json.dumps(result,indent=2)+'\n')
