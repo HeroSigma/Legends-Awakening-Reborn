@@ -1844,6 +1844,8 @@ const u16 gSwapLinePal[] = INCGFX_U16("graphics/interface/swap_line.png", ".gbap
 
 const u32 gShopMenu_Gfx[] = INCGFX_U32("graphics/shop/menu.png", ".4bpp.smol");
 const u16 gShopMenu_Pal[] = INCGFX_U16("graphics/shop/menu.png", ".gbapal");
+const u32 gShopMenu_ScrollGfx[] = INCGFX_U32("graphics/shop/scroll.png", ".4bpp.smol");
+const u32 gShopMenu_ScrollTilemap[] = INCGFX_U32("graphics/shop/scroll.bin", ".smolTM");
 const u32 gShopMenu_Tilemap[] = INCGFX_U32("graphics/shop/menu.bin", ".smolTM");
 const u32 gShopMenuMoney_Gfx[] = INCGFX_U32("graphics/shop/money.png", ".4bpp.smol");
 

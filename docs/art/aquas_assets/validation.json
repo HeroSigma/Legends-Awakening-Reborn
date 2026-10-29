@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "assertions": 40,
+  "rom_sha256": "f313db2a84583ae2f730ec1973a45bf9f8002f18c0e128f038c958684e1a4050",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "spawn_GOLD_BALL",
+      "passed": true
+    },
+    {
+      "test": "spawn_MEGA_STONE",
+      "passed": true
+    },
+    {
+      "test": "spawn_TYRANTRUM_EXHIBIT",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_RED",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_BLUE",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_YELLOW",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_GREEN",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_PINK",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_WHITE",
+      "passed": true
+    },
+    {
+      "test": "spawn_APRICORN_BLACK",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_CHERI",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_CHESTO",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_PECHA",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_RAWST",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_ASPEAR",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_LEPPA",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_ORAN",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_PERSIM",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_LUM",
+      "passed": true
+    },
+    {
+      "test": "berry_palette_SITRUS",
+      "passed": true
+    },
+    {
+      "test": "devon_map_running",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "shop_prompt",
+      "passed": true
+    },
+    {
+      "test": "shop_buy_list",
+      "passed": true
+    },
+    {
+      "test": "mart_purchase_item",
+      "passed": true
+    },
+    {
+      "test": "mart_purchase_cost",
+      "passed": true
+    },
+    {
+      "test": "shop_no_reset",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bag_opens_0",
+      "passed": true
+    },
+    {
+      "test": "bag_returns_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "bag_opens_1",
+      "passed": true
+    },
+    {
+      "test": "bag_returns_1",
+      "passed": true
+    }
+  ]
+}

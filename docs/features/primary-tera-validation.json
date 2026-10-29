@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 2033,
-  "rom_sha256": "b96cc7e3076ed0e9eb4cf7259c65acd324715da9aebfc94a28326e37671099cb",
+  "assertions": 2037,
+  "rom_sha256": "f313db2a84583ae2f730ec1973a45bf9f8002f18c0e128f038c958684e1a4050",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -73,6 +73,14 @@
     },
     {
       "test": "summary_badge_0",
+      "passed": true
+    },
+    {
+      "test": "move_page_normal_sheet_0",
+      "passed": true
+    },
+    {
+      "test": "info_page_tera_sheet_0",
       "passed": true
     },
     {
@@ -1837,6 +1845,14 @@
     },
     {
       "test": "summary_badge_1",
+      "passed": true
+    },
+    {
+      "test": "move_page_normal_sheet_1",
+      "passed": true
+    },
+    {
+      "test": "info_page_tera_sheet_1",
       "passed": true
     },
     {

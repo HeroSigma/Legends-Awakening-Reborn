@@ -779,6 +779,7 @@ static const u8 sMovesPPLayout[] = _("{PP}{DYNAMIC 0}/{DYNAMIC 1}");
 #define TAG_MOVE_SELECTOR 30000
 #define TAG_MON_STATUS 30001
 #define TAG_MOVE_TYPES 30002
+#define TAG_TERA_TYPES 30005
 #define TAG_MON_MARKINGS 30003
 #define TAG_CATEGORY_ICONS 30004
 
@@ -990,6 +991,10 @@ const struct CompressedSpriteSheet gSpriteSheet_MoveTypes =
     .data = gMoveTypes_Gfx,
     .size = (NUMBER_OF_MON_TYPES + CONTEST_CATEGORIES_COUNT) * 0x100,
     .tag = TAG_MOVE_TYPES
+};
+static const u32 sTeraTypesGfx[] = INCGFX_U32("graphics/types/tera_icons.png", ".4bpp.smol");
+static const struct CompressedSpriteSheet sTeraTypesSheet = {
+    .data=sTeraTypesGfx, .size=NUMBER_OF_MON_TYPES * 0x100, .tag=TAG_TERA_TYPES,
 };
 const struct SpriteTemplate gSpriteTemplate_MoveTypes =
 {
@@ -1469,6 +1474,7 @@ static bool8 DecompressGraphics(void)
         break;
     case 7:
         LoadCompressedSpriteSheet(&gSpriteSheet_MoveTypes);
+        LoadCompressedSpriteSheet(&sTeraTypesSheet);
         sMonSummaryScreen->switchCounter++;
         break;
     case 8:
@@ -4324,6 +4330,7 @@ static void CreateMoveTypeIcons(void)
 void SetTypeSpritePosAndPal(enum Type typeId, u8 x, u8 y, u8 spriteArrayId)
 {
     struct Sprite *sprite = &gSprites[sMonSummaryScreen->spriteIds[spriteArrayId]];
+    sprite->sheetTileStart = GetSpriteTileStartByTag(sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO && spriteArrayId == SPRITE_ARR_ID_TYPE + 2 ? TAG_TERA_TYPES : TAG_MOVE_TYPES);
     StartSpriteAnim(sprite, typeId);
     if (typeId < NUMBER_OF_MON_TYPES)
         sprite->oam.paletteNum = gTypesInfo[typeId].palette;

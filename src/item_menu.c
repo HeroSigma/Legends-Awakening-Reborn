@@ -874,9 +874,14 @@ static bool8 LoadBagMenu_Graphics(void)
         gBagMenu->graphicsLoadState++;
         break;
     case 4:
-        LoadSpritePalette(&gBagPaletteTable);
+    {
+        struct SpritePalette bagPalette = gBagPaletteTable;
+        if (!IsWallysBag() && gSaveBlock2Ptr->playerGender != MALE)
+            bagPalette.data += 16;
+        LoadSpritePalette(&bagPalette);
         gBagMenu->graphicsLoadState++;
         break;
+    }
     default:
         LoadListMenuSwapLineGfx();
         gBagMenu->graphicsLoadState = 0;

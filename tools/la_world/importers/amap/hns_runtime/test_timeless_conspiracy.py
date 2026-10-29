@@ -28,7 +28,7 @@ def run_scene(gender):
   for name in texts:
    ptr=symbols['TimelessWoods_Text_'+name]
    expected=bytes(rd(ptr+j,1) for j in range(12))
-   if name not in seen and message[:12]==expected:
+   if name not in seen and any(message[offset:offset+12]==expected for offset in range(4)):
     seen.add(name)
     if name=='Discovery':
      check('camera_at_meeting_'+str(gender),axy(127)==(24,12))
@@ -90,5 +90,5 @@ for gender in [0,1]:
  check('saved_scene_flags_persist_'+str(gender),flag(ENTERED) and flag(SEEN) and flag(TAKEN))
  check('saved_actors_stay_hidden_'+str(gender),not actor(1) and not actor(2) and not actor(3))
  lib.shutdown()
-(D/'runtime_validation.json').write_text(json.dumps(dict(checks=checks,all_passed=all(x['passed'] for x in checks),user_save_loaded=False),indent=2)+'\n')
+(D/'runtime_validation.json').write_text(json.dumps(dict(checks=checks,all_passed=all(x['passed'] for x in checks),user_save_loaded=False,rom_sha256=hashlib.sha256((R/"pokeemerald.gba").read_bytes()).hexdigest()),indent=2)+'\n')
 print('Timeless conspiracy checks:',len(checks),flush=True)

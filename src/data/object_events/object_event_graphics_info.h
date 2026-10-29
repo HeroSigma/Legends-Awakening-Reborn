@@ -10165,3 +10165,161 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTria
  .affineAnims = gDummySpriteAffineAnimTable,
 };
 /* LA_NPC_ROSTER_INFO_END */
+
+static const struct SpriteFrameImage sAquasFrames_GoldBall[] = {
+    overworld_frame(gAquasPic_GoldBall, 2, 2, 0),
+};
+static const union AnimCmd sAquasAnim_GoldBall[] = { ANIMCMD_FRAME(0, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_GoldBall[] = {sAquasAnim_GoldBall,sAquasAnim_GoldBall,sAquasAnim_GoldBall,sAquasAnim_GoldBall};
+const struct ObjectEventGraphicsInfo gAquasInfo_GoldBall = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC80, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=128, .width=16, .height=16, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x16, .subspriteTables=sOamTables_16x16,
+    .anims=sAquasAnims_GoldBall, .images=sAquasFrames_GoldBall,
+};
+static const struct SpriteFrameImage sAquasFrames_MegaStone[] = {
+    overworld_frame(gAquasPic_MegaStone, 2, 2, 0),
+    overworld_frame(gAquasPic_MegaStone, 2, 2, 1),
+    overworld_frame(gAquasPic_MegaStone, 2, 2, 2),
+};
+static const union AnimCmd sAquasAnim_MegaStone[] = { ANIMCMD_FRAME(0, 12), ANIMCMD_FRAME(1, 12), ANIMCMD_FRAME(2, 12), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAquasAnims_MegaStone[] = {sAquasAnim_MegaStone,sAquasAnim_MegaStone,sAquasAnim_MegaStone,sAquasAnim_MegaStone};
+const struct ObjectEventGraphicsInfo gAquasInfo_MegaStone = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC81, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=128, .width=16, .height=16, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x16, .subspriteTables=sOamTables_16x16,
+    .anims=sAquasAnims_MegaStone, .images=sAquasFrames_MegaStone,
+};
+static const struct SpriteFrameImage sAquasFrames_TyrantrumExhibit[] = {
+    overworld_frame(gAquasPic_TyrantrumExhibit, 8, 8, 0),
+};
+static const union AnimCmd sAquasAnim_TyrantrumExhibit[] = { ANIMCMD_FRAME(0, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_TyrantrumExhibit[] = {sAquasAnim_TyrantrumExhibit,sAquasAnim_TyrantrumExhibit,sAquasAnim_TyrantrumExhibit,sAquasAnim_TyrantrumExhibit};
+const struct ObjectEventGraphicsInfo gAquasInfo_TyrantrumExhibit = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC82, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=2048, .width=64, .height=64, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_64x64, .subspriteTables=sOamTables_64x64,
+    .anims=sAquasAnims_TyrantrumExhibit, .images=sAquasFrames_TyrantrumExhibit,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornRed[] = {
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornRed, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornRed[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornRed[] = {sAquasAnim_ApricornRed,sAquasAnim_ApricornRed,sAquasAnim_ApricornRed,sAquasAnim_ApricornRed};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornRed = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC83, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornRed, .images=sAquasFrames_ApricornRed,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornBlue[] = {
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornBlue, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornBlue[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornBlue[] = {sAquasAnim_ApricornBlue,sAquasAnim_ApricornBlue,sAquasAnim_ApricornBlue,sAquasAnim_ApricornBlue};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornBlue = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC84, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornBlue, .images=sAquasFrames_ApricornBlue,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornYellow[] = {
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornYellow, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornYellow[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornYellow[] = {sAquasAnim_ApricornYellow,sAquasAnim_ApricornYellow,sAquasAnim_ApricornYellow,sAquasAnim_ApricornYellow};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornYellow = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC85, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornYellow, .images=sAquasFrames_ApricornYellow,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornGreen[] = {
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornGreen, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornGreen[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornGreen[] = {sAquasAnim_ApricornGreen,sAquasAnim_ApricornGreen,sAquasAnim_ApricornGreen,sAquasAnim_ApricornGreen};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornGreen = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC86, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornGreen, .images=sAquasFrames_ApricornGreen,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornPink[] = {
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornPink, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornPink[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornPink[] = {sAquasAnim_ApricornPink,sAquasAnim_ApricornPink,sAquasAnim_ApricornPink,sAquasAnim_ApricornPink};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornPink = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC87, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornPink, .images=sAquasFrames_ApricornPink,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornWhite[] = {
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornWhite, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornWhite[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornWhite[] = {sAquasAnim_ApricornWhite,sAquasAnim_ApricornWhite,sAquasAnim_ApricornWhite,sAquasAnim_ApricornWhite};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornWhite = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC88, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornWhite, .images=sAquasFrames_ApricornWhite,
+};
+static const struct SpriteFrameImage sAquasFrames_ApricornBlack[] = {
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 0),
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 1),
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 2),
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 3),
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 4),
+    overworld_frame(gAquasPic_ApricornBlack, 2, 4, 5),
+};
+static const union AnimCmd sAquasAnim_ApricornBlack[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_END };
+static const union AnimCmd *const sAquasAnims_ApricornBlack[] = {sAquasAnim_ApricornBlack,sAquasAnim_ApricornBlack,sAquasAnim_ApricornBlack,sAquasAnim_ApricornBlack};
+const struct ObjectEventGraphicsInfo gAquasInfo_ApricornBlack = {
+    .tileTag=TAG_NONE, .paletteTag=0xDC89, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
+    .size=256, .width=16, .height=32, .paletteSlot=PALSLOT_NPC_1,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .oam=&gObjectEventBaseOam_16x32, .subspriteTables=sOamTables_16x32,
+    .anims=sAquasAnims_ApricornBlack, .images=sAquasFrames_ApricornBlack,
+};

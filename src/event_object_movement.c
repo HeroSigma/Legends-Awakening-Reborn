@@ -499,6 +499,17 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/npc_roster_overrides.inc"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gAquasPal_GoldBall, 0xDC80},
+    {gAquasPal_MegaStone, 0xDC81},
+    {gAquasPal_TyrantrumExhibit, 0xDC82},
+    {gAquasPal_ApricornRed, 0xDC83},
+    {gAquasPal_ApricornBlue, 0xDC84},
+    {gAquasPal_ApricornYellow, 0xDC85},
+    {gAquasPal_ApricornGreen, 0xDC86},
+    {gAquasPal_ApricornPink, 0xDC87},
+    {gAquasPal_ApricornWhite, 0xDC88},
+    {gAquasPal_ApricornBlack, 0xDC89},
+
     {gObjectEventPal_Aren, OBJ_EVENT_PAL_TAG_AREN},
     {gObjectEventPal_Aria, OBJ_EVENT_PAL_TAG_ARIA},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
@@ -3237,12 +3248,38 @@ void ObjectEventTurnByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup, enum Dir
         ObjectEventTurn(&gObjectEvents[objectEventId], direction);
 }
 
+
+static const u16 sAquasBerryPal_cheri[] = INCGFX_U16("graphics/object_events/pics/berry_trees/cheri.png", ".gbapal");
+static const u16 sAquasBerryPal_chesto[] = INCGFX_U16("graphics/object_events/pics/berry_trees/chesto.png", ".gbapal");
+static const u16 sAquasBerryPal_pecha[] = INCGFX_U16("graphics/object_events/pics/berry_trees/pecha.png", ".gbapal");
+static const u16 sAquasBerryPal_rawst[] = INCGFX_U16("graphics/object_events/pics/berry_trees/rawst.png", ".gbapal");
+static const u16 sAquasBerryPal_aspear[] = INCGFX_U16("graphics/object_events/pics/berry_trees/aspear.png", ".gbapal");
+static const u16 sAquasBerryPal_leppa[] = INCGFX_U16("graphics/object_events/pics/berry_trees/leppa.png", ".gbapal");
+static const u16 sAquasBerryPal_oran[] = INCGFX_U16("graphics/object_events/pics/berry_trees/oran.png", ".gbapal");
+static const u16 sAquasBerryPal_persim[] = INCGFX_U16("graphics/object_events/pics/berry_trees/persim.png", ".gbapal");
+static const u16 sAquasBerryPal_lum[] = INCGFX_U16("graphics/object_events/pics/berry_trees/lum.png", ".gbapal");
+static const u16 sAquasBerryPal_sitrus[] = INCGFX_U16("graphics/object_events/pics/berry_trees/sitrus.png", ".gbapal");
+static const struct SpritePalette sAquasBerryPalettes[NUM_BERRIES + 1] = {
+    [BERRY_ID_CHERI] = {sAquasBerryPal_cheri, 0xDCC0},
+    [BERRY_ID_CHESTO] = {sAquasBerryPal_chesto, 0xDCC1},
+    [BERRY_ID_PECHA] = {sAquasBerryPal_pecha, 0xDCC2},
+    [BERRY_ID_RAWST] = {sAquasBerryPal_rawst, 0xDCC3},
+    [BERRY_ID_ASPEAR] = {sAquasBerryPal_aspear, 0xDCC4},
+    [BERRY_ID_LEPPA] = {sAquasBerryPal_leppa, 0xDCC5},
+    [BERRY_ID_ORAN] = {sAquasBerryPal_oran, 0xDCC6},
+    [BERRY_ID_PERSIM] = {sAquasBerryPal_persim, 0xDCC7},
+    [BERRY_ID_LUM] = {sAquasBerryPal_lum, 0xDCC8},
+    [BERRY_ID_SITRUS] = {sAquasBerryPal_sitrus, 0xDCC9},
+};
 static void SetBerryTreeGraphicsById(struct ObjectEvent *objectEvent, u8 berryId, u8 berryStage)
 {
     const u16 graphicsId = gBerryTreeObjectEventGraphicsIdTable[berryStage];
     const struct ObjectEventGraphicsInfo *graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
     struct Sprite *sprite = &gSprites[objectEvent->spriteId];
-    UpdateSpritePalette(&sObjectEventSpritePalettes[gBerries[berryId].berryTreePaletteSlotTable[berryStage] - 2], sprite);
+    if (berryStage >= 2 && sAquasBerryPalettes[berryId].data != NULL)
+        UpdateSpritePalette(&sAquasBerryPalettes[berryId], sprite);
+    else
+        UpdateSpritePalette(&sObjectEventSpritePalettes[gBerries[berryId].berryTreePaletteSlotTable[berryStage] - 2], sprite);
     sprite->oam.shape = graphicsInfo->oam->shape;
     sprite->oam.size = graphicsInfo->oam->size;
     sprite->images = gBerries[berryId].berryTreePicTable;

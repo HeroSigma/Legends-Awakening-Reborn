@@ -900,3 +900,25 @@ const u32 gObjectEventPic_LaRosterHoopaRing[] = INCGFX_U32("graphics/object_even
 const u16 gObjectEventPal_LaRoster18[] = INCBIN_U16("graphics/object_events/palettes/la_roster_18.gbapal");
 const u32 gObjectEventPic_LaRosterShadowTriad[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/shadowtriad.png", ".4bpp", "-mwidth 4 -mheight 4");
 /* LA_NPC_ROSTER_GRAPHICS_END */
+
+// Credited Team Aqua repository world assets.
+const u32 gAquasPic_GoldBall[] = INCGFX_U32("graphics/object_events/pics/aquas/gold_item_ball.png", ".4bpp", "-mwidth 2 -mheight 2");
+const u16 gAquasPal_GoldBall[] = INCGFX_U16("graphics/object_events/pics/aquas/gold_item_ball.png", ".gbapal");
+const u32 gAquasPic_MegaStone[] = INCGFX_U32("graphics/object_events/pics/aquas/mega_stone.png", ".4bpp", "-mwidth 2 -mheight 2");
+const u16 gAquasPal_MegaStone[] = INCGFX_U16("graphics/object_events/pics/aquas/mega_stone.png", ".gbapal");
+const u32 gAquasPic_TyrantrumExhibit[] = INCGFX_U32("graphics/object_events/pics/aquas/tyrantrum_exhibit.png", ".4bpp", "-mwidth 8 -mheight 8");
+const u16 gAquasPal_TyrantrumExhibit[] = INCGFX_U16("graphics/object_events/pics/aquas/tyrantrum_exhibit.png", ".gbapal");
+const u32 gAquasPic_ApricornRed[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_red.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornRed[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_red.png", ".gbapal");
+const u32 gAquasPic_ApricornBlue[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_blue.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornBlue[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_blue.png", ".gbapal");
+const u32 gAquasPic_ApricornYellow[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_yellow.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornYellow[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_yellow.png", ".gbapal");
+const u32 gAquasPic_ApricornGreen[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_green.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornGreen[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_green.png", ".gbapal");
+const u32 gAquasPic_ApricornPink[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_pink.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornPink[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_pink.png", ".gbapal");
+const u32 gAquasPic_ApricornWhite[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_white.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornWhite[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_white.png", ".gbapal");
+const u32 gAquasPic_ApricornBlack[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_black.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gAquasPal_ApricornBlack[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_black.png", ".gbapal");

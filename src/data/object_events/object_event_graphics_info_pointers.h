@@ -1,3 +1,13 @@
+extern const struct ObjectEventGraphicsInfo gAquasInfo_GoldBall;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_MegaStone;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_TyrantrumExhibit;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornRed;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornBlue;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornYellow;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornGreen;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornPink;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornWhite;
+extern const struct ObjectEventGraphicsInfo gAquasInfo_ApricornBlack;
 /* LA_NPC_ROSTER_EXTERNS_BEGIN */
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterRed;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterBlue;
@@ -582,6 +592,17 @@ extern const struct ObjectEventGraphicsInfo gHnsRegionInfo_gObjectEventGraphicsI
 extern const struct ObjectEventGraphicsInfo gHnsRegionInfo_gObjectEventGraphicsInfo_Scott_hns;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] = {
+    [OBJ_EVENT_GFX_LA_GOLD_BALL] = &gAquasInfo_GoldBall,
+    [OBJ_EVENT_GFX_LA_MEGA_STONE] = &gAquasInfo_MegaStone,
+    [OBJ_EVENT_GFX_LA_TYRANTRUM_EXHIBIT] = &gAquasInfo_TyrantrumExhibit,
+    [OBJ_EVENT_GFX_LA_APRICORN_RED] = &gAquasInfo_ApricornRed,
+    [OBJ_EVENT_GFX_LA_APRICORN_BLUE] = &gAquasInfo_ApricornBlue,
+    [OBJ_EVENT_GFX_LA_APRICORN_YELLOW] = &gAquasInfo_ApricornYellow,
+    [OBJ_EVENT_GFX_LA_APRICORN_GREEN] = &gAquasInfo_ApricornGreen,
+    [OBJ_EVENT_GFX_LA_APRICORN_PINK] = &gAquasInfo_ApricornPink,
+    [OBJ_EVENT_GFX_LA_APRICORN_WHITE] = &gAquasInfo_ApricornWhite,
+    [OBJ_EVENT_GFX_LA_APRICORN_BLACK] = &gAquasInfo_ApricornBlack,
+
 /* LA_NPC_ROSTER_POINTERS_BEGIN */
     [OBJ_EVENT_GFX_LA_ROSTER_RED] = &gObjectEventGraphicsInfo_LaRosterRed,
     [OBJ_EVENT_GFX_RED] = &gObjectEventGraphicsInfo_LaRosterRed,

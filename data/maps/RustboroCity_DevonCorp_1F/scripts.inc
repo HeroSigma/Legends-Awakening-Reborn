@@ -161,3 +161,13 @@ LegendsTera_OpenBasement:
     @ The construction scientist was removed in the current map edit.
 LegendsTera_BasementReturn:
     return
+
+Devon_Exhibit_EventScript::
+    lockall
+    setspeaker SP_NAME_NONE
+    msgbox Devon_Exhibit_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+Devon_Exhibit_Text:
+    .string "A reconstructed Tyrantrum fossil.\nDevon's restoration technology\lbrings ancient Pokemon to life.\pThe display reads:\n'Understanding our past helps\lus prepare for the unknown.'$"

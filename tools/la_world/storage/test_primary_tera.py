@@ -6,7 +6,7 @@ import tempfile,struct
 source=(R/'src/pokemon_summary_screen.c').read_text()
 enums=source[source.index('enum\n{\n    SPRITE_ARR_ID_MON'):source.index('static EWRAM_DATA struct PokemonSummaryScreenData')]
 decl=source[source.index('static EWRAM_DATA struct PokemonSummaryScreenData'):source.index('EWRAM_DATA u8 gLastViewedMonIndex')].replace('static EWRAM_DATA struct','struct').replace('} *sMonSummaryScreen = NULL;','};')
-names=['sizeof(struct SpeciesInfo)','offsetof(struct SpeciesInfo,forceTeraType)','MON_DATA_TERA_TYPE','MON_DATA_SPECIES','MON_DATA_IS_EGG','SPECIES_CHARMANDER','SPECIES_WOOPER','SPECIES_MAGNEMITE','TYPE_FIRE','TYPE_WATER','TYPE_ELECTRIC','TYPE_GRASS','TYPE_NONE','TYPE_STELLAR','ITEM_GRASS_TERA_SHARD','FLAG_RETURNED_DEVON_GOODS','FLAG_RECEIVED_POKENAV','FLAG_LA_TERA_RESEARCH_INTRO','IN_BOX_COUNT','offsetof(struct PokemonSummaryScreenData,summary.teraType)','offsetof(struct PokemonSummaryScreenData,spriteIds)','sizeof(struct Sprite)','offsetof(struct Sprite,animNum)','SPRITE_ARR_ID_TYPE']
+names=['sizeof(struct SpeciesInfo)','offsetof(struct SpeciesInfo,forceTeraType)','MON_DATA_TERA_TYPE','MON_DATA_SPECIES','MON_DATA_IS_EGG','SPECIES_CHARMANDER','SPECIES_WOOPER','SPECIES_MAGNEMITE','TYPE_FIRE','TYPE_WATER','TYPE_ELECTRIC','TYPE_GRASS','TYPE_NONE','TYPE_STELLAR','ITEM_GRASS_TERA_SHARD','FLAG_RETURNED_DEVON_GOODS','FLAG_RECEIVED_POKENAV','FLAG_LA_TERA_RESEARCH_INTRO','IN_BOX_COUNT','offsetof(struct PokemonSummaryScreenData,summary.teraType)','offsetof(struct PokemonSummaryScreenData,spriteIds)','sizeof(struct Sprite)','offsetof(struct Sprite,animNum)','SPRITE_ARR_ID_TYPE','offsetof(struct Sprite,sheetTileStart)','MOVE_EMBER']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "pokemon_summary_screen.h"\n#include "sprite.h"\n#include "pokemon_storage_system.h"\n#include <stddef.h>\n#define TYPE_ICON_SPRITE_COUNT (MAX_MON_MOVES + 1)\n#define MOVE_SELECTOR_SPRITES_COUNT 10\n'+enums+decl+'const unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -28,6 +28,7 @@ for mode in [0,1]:
  invoke('LegendsCommitTeraChange')
  check('scientist_grass_'+str(mode),invoke('GetMonData3',party,c['MON_DATA_TERA_TYPE'],0)==c['TYPE_GRASS'])
  check('shards_consumed_'+str(mode),invoke('CountTotalItemQuantityInBag',c['ITEM_GRASS_TERA_SHARD'])==0)
+ invoke('SetMonMoveSlot',party,c['MOVE_EMBER'],2)
  invoke('ShowPokemonSummaryScreen',0,party,0,0,symbols['CB2_ReturnToField']|1)
  wr(symbols['gMain']+4,symbols['CB2_InitSummaryScreen']|1);frames(180)
  summary=rd(symbols['sMonSummaryScreen'])
@@ -36,6 +37,10 @@ for mode in [0,1]:
  sprite=symbols['gSprites']+sprite_id*c['sizeof(struct Sprite)']
  check('summary_badge_'+str(mode),rd(sprite+c['offsetof(struct Sprite,animNum)'],1)==c['TYPE_GRASS'])
  if mode==0:shutil.copy2(shot('tera_summary'),R/'docs/features/tera-summary.png')
+ tap(16);frames(120);tap(16);frames(120)
+ check('move_page_normal_sheet_'+str(mode),rd(sprite+c['offsetof(struct Sprite,sheetTileStart)'],2)==invoke('GetSpriteTileStartByTag',30002))
+ tap(32);frames(120);tap(32);frames(120)
+ check('info_page_tera_sheet_'+str(mode),rd(sprite+c['offsetof(struct Sprite,sheetTileStart)'],2)==invoke('GetSpriteTileStartByTag',30005))
  tap(2);frames(180)
  invoke('Debug_FillPCBoxes',0)
  for box in range(invoke('GetStorageBoxCount')):
