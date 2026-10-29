@@ -231,14 +231,13 @@ const struct FieldEffectInfoOWE gOverworldWildEncounterFieldEffectInfo[] =
 
 
 // Leave room for followers, trainers and scripted actors on crowded maps.
-bool32 HasRoomForGeneratedOWE(void)
+bool32 __attribute__((noinline)) HasRoomForGeneratedOWE(void)
 {
     u32 freeSlots = 0;
     for (u32 i = 0; i < OBJECT_EVENTS_COUNT; i++)
         if (!gObjectEvents[i].active)
             freeSlots++;
-    return freeSlots > OWE_RESERVED_OBJECT_SLOTS
-        && GetNumberOfActiveOWEs(OWE_GENERATED) < OWE_VISIBLE_LIMIT;
+    return freeSlots > OWE_RESERVED_OBJECT_SLOTS;
 }
 
 void UpdateOverworldWildEncounter(void)

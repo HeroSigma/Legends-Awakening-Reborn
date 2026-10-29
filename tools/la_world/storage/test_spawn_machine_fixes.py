@@ -3,7 +3,7 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
 import tempfile,struct
-names=['ITEM_TM01','ITEM_TM50','ITEM_TM51','ITEM_TM100','ITEM_HM01','ITEM_HM08','BAG_CATEGORIES_COUNT','BAG_MACHINES','ITEMS_COUNT','OBJECT_EVENTS_COUNT','sizeof(struct ObjectEvent)','OWE_RESERVED_OBJECT_SLOTS','OWE_VISIBLE_LIMIT','MAP_GROUP(MAP_ROUTE116)','MAP_NUM(MAP_ROUTE116)']
+names=['ITEM_TM01','ITEM_TM50','ITEM_TM51','ITEM_TM100','ITEM_HM01','ITEM_HM08','BAG_CATEGORIES_COUNT','BAG_MACHINES','ITEMS_COUNT','OBJECT_EVENTS_COUNT','sizeof(struct ObjectEvent)','OWE_RESERVED_OBJECT_SLOTS','OWE_SPAWNS_MAX','MAP_GROUP(MAP_ROUTE116)','MAP_NUM(MAP_ROUTE116)']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "item.h"\n#include "bag_categories.h"\n#include "wild_encounter_ow.h"\n#include "constants/maps.h"\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -39,7 +39,7 @@ maximum=0
 for _ in range(120):
  frames(30)
  n=invoke('GetNumberOfActiveOWEs',1);maximum=max(maximum,n)
- check('visible_limit_'+str(_),n<=c['OWE_VISIBLE_LIMIT'])
+ check('visible_limit_'+str(_),n<=c['OWE_SPAWNS_MAX'])
 check('route_still_running',rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1)
 lib.shutdown()
 (R/'docs/features/spawn-machine-validation.json').write_text(json.dumps(dict(passed=True,assertions=len(checks),rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),maximum_route116_spawns=maximum,checks=checks),indent=2)+'\n')

@@ -2,7 +2,6 @@
 #define GUARD_WILD_ENCOUNTER_OW_H
 
 #define OWE_SPAWNS_MAX                  4 // Keep reserved local IDs stable.
-#define OWE_VISIBLE_LIMIT               2
 #define OWE_RESERVED_OBJECT_SLOTS       2
 
 bool32 HasRoomForGeneratedOWE(void);

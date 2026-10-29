@@ -1,8 +1,8 @@
 # Crowded overworld maps and blank debug TMs
 
-Ordinary generated overworld encounters are limited to two active Pokemon. The four reserved encounter local IDs remain unchanged, preserving existing object identity rules. Before attempting a spawn, the engine requires more than two free object-event slots, leaving two slots for followers and story actors. If a subsequent allocation still fails (including sprite exhaustion), it quietly retries later rather than opening an assertion screen. Missing local-ID lookups are checked before dereferencing an old object.
+Generated overworld encounters use the existing four encounter slots without an additional two- or three-Pokemon cap. The reserved encounter local IDs remain unchanged, preserving existing object identity rules. Before attempting a spawn, the engine requires more than two free object-event slots, leaving two slots for followers and story actors. If a subsequent allocation still fails (including sprite exhaustion), it quietly retries later rather than opening an assertion screen. Missing local-ID lookups are checked before dereferencing an old object.
 
-Manual story Pokemon and DexNav searches retain their existing behavior. This is a cap on generated wild Pokemon, not a total cap on NPCs, followers or story Pokemon. Maps with fewer available slots can show fewer than two wild Pokemon.
+Manual story Pokemon and DexNav searches retain their existing behavior. The available object slots determine how many generated wild Pokemon can appear: busy maps skip spawns sooner, while quieter maps can use all four existing encounter slots. NPCs, followers and story Pokemon keep their normal behavior.
 
 Fill Bag and Fill Pocket TMHM omit machine items whose move is MOVE_NONE. Current reserved TM51–TM100 entries are blank; the 50 working TMs and eight HMs remain. Re-running a Fill Bag/category command also removes blank machines previously added by older builds. No legitimate machine items or player save files are removed during ROM replacement.
 
