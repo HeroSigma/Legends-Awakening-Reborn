@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "assertions": 19,
+  "rom_sha256": "f71ce1671374a285a6d1d640ed29fcfedbfd6981ed54a42fc97970431f19c669",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "opens_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "color_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "opens_WALLY",
+      "passed": true
+    },
+    {
+      "test": "color_WALLY",
+      "passed": true
+    },
+    {
+      "test": "opens_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "color_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "opens_MAY",
+      "passed": true
+    },
+    {
+      "test": "color_MAY",
+      "passed": true
+    },
+    {
+      "test": "opens_RED",
+      "passed": true
+    },
+    {
+      "test": "color_RED",
+      "passed": true
+    },
+    {
+      "test": "opens_BRINEY",
+      "passed": true
+    },
+    {
+      "test": "color_BRINEY",
+      "passed": true
+    },
+    {
+      "test": "opens_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "color_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "explicit_color_preserved",
+      "passed": true
+    },
+    {
+      "test": "neutral_NONE",
+      "passed": true
+    },
+    {
+      "test": "neutral_BIRCH",
+      "passed": true
+    }
+  ]
+}

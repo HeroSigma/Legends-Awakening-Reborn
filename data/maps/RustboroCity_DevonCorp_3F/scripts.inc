@@ -27,6 +27,7 @@ RustboroCity_DevonCorp_3F_OnFrame:
 
 RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	lockall
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_DEVON_CORP_3F_EMPLOYEE, RustboroCity_DevonCorp_3F_Movement_EmployeeWalkOffscreen
@@ -46,24 +47,55 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	applymovement LOCALID_DEVON_CORP_3F_EMPLOYEE, RustboroCity_DevonCorp_3F_Movement_EmployeeFaceDesk
 	applymovement LOCALID_PLAYER, RustboroCity_DevonCorp_3F_Movement_PlayerApproachDesk
 	waitmovement 0
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_STONE
+	msgbox LegendsVoice_StoneEvidence, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneOffer, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_STONE
+	msgbox LegendsVoice_StoneLetter, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	giveitem ITEM_LETTER
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_ContactQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_3F_Text_ReceivedPokenav
 	waitfanfare
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	call Common_EventScript_OutOfCenterPartyHeal
 	playse SE_PC_LOGIN
 	msgbox LegendsRustboro_Text_BirchConnected, MSGBOX_DEFAULT
 	setspeaker SP_NAME_BIRCH
 	msgbox LegendsRustboro_Text_BirchReport, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_BirchQuestion, MSGBOX_DEFAULT
 	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_BIRCH
+	msgbox LegendsVoice_BirchAnswer, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_BirchPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STONE
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneDeparture, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDA
@@ -201,7 +233,7 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-	.string "I'm MR. STONE, DEVON's PRESIDENT.\nOur researchers told me what you did.\pYou protected them in the woods\nand recovered our shipment. Thank you.\pThe stolen SILPH recordings measured\ndistortions near the rifts.\pThe components you recovered help\nus measure similar changes at sea.\pWe cannot assume the thieves are\nlinked. We must remain careful.\pMy son STEVEN studies unusual stones.\nHe may recognize the traces we found.\pWould you deliver this LETTER to him?\nHe's investigating near DEWFORD.$"
+	.string "I'm MR. STONE, DEVON's PRESIDENT.\nOur researchers told me what you did.\pYou protected them in the woods\nand recovered our shipment. Thank you.\pThose stolen SILPH recordings\nmeasured distortions near the rifts.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "You'll need a reliable way to keep\nin touch while you're traveling.\pPlease take this, with our thanks.$"
@@ -269,4 +301,4 @@ RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 LegendsRustboro_Text_BirchConnected:
     .string "One moment. PROFESSOR BIRCH is\njoining us over the office line.$"
 LegendsRustboro_Text_BirchReport:
-    .string "I'm glad you're safe, {PLAYER}.\nNORMAN passed on your report.\pThe men in the woods, the missing\nobject, and now stolen research...\pThere may be a connection, but we\nneed evidence before we can be sure.\pThe SILPH researcher is comparing\nour readings with reports from KANTO.\pI'll help coordinate the research here.\nPlease keep your POKéNAV with you.\pIf you notice another disturbance,\nkeep your distance and contact us.$"
+	.string "I'm glad you're safe, {PLAYER}.\nNORMAN passed on your report.\pThe men in the woods, the missing\nobject, and now stolen research...$"

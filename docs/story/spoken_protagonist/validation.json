@@ -1,0 +1,572 @@
+{
+  "passed": true,
+  "assertions": 141,
+  "rom_sha256": "f71ce1671374a285a6d1d640ed29fcfedbfd6981ed54a42fc97970431f19c669",
+  "battle_outcome": "injected native win to check continuation, not difficulty",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "player_challenges_grunt_0",
+      "passed": true
+    },
+    {
+      "test": "story_has_no_format_prompt_0",
+      "passed": true
+    },
+    {
+      "test": "questions_grunt_0",
+      "passed": true
+    },
+    {
+      "test": "introduces_self_0",
+      "passed": true
+    },
+    {
+      "test": "thanks_briney_0",
+      "passed": true
+    },
+    {
+      "test": "parcel_obtained_0",
+      "passed": true
+    },
+    {
+      "test": "rustboro_return_state_0",
+      "passed": true
+    },
+    {
+      "test": "theft_flag_cleared_0",
+      "passed": true
+    },
+    {
+      "test": "tunnel_controls_return_0",
+      "passed": true
+    },
+    {
+      "test": "asks_for_passage_0",
+      "passed": true
+    },
+    {
+      "test": "explains_delivery_0",
+      "passed": true
+    },
+    {
+      "test": "decline_is_spoken_0",
+      "passed": true
+    },
+    {
+      "test": "decline_stays_in_cottage_0",
+      "passed": true
+    },
+    {
+      "test": "decline_controls_return_0",
+      "passed": true
+    },
+    {
+      "test": "departure_is_spoken_0",
+      "passed": true
+    },
+    {
+      "test": "boat_sequence_armed_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "player_challenges_grunt_1",
+      "passed": true
+    },
+    {
+      "test": "story_has_no_format_prompt_1",
+      "passed": true
+    },
+    {
+      "test": "questions_grunt_1",
+      "passed": true
+    },
+    {
+      "test": "introduces_self_1",
+      "passed": true
+    },
+    {
+      "test": "thanks_briney_1",
+      "passed": true
+    },
+    {
+      "test": "parcel_obtained_1",
+      "passed": true
+    },
+    {
+      "test": "rustboro_return_state_1",
+      "passed": true
+    },
+    {
+      "test": "theft_flag_cleared_1",
+      "passed": true
+    },
+    {
+      "test": "tunnel_controls_return_1",
+      "passed": true
+    },
+    {
+      "test": "asks_for_passage_1",
+      "passed": true
+    },
+    {
+      "test": "explains_delivery_1",
+      "passed": true
+    },
+    {
+      "test": "decline_is_spoken_1",
+      "passed": true
+    },
+    {
+      "test": "decline_stays_in_cottage_1",
+      "passed": true
+    },
+    {
+      "test": "decline_controls_return_1",
+      "passed": true
+    },
+    {
+      "test": "departure_is_spoken_1",
+      "passed": true
+    },
+    {
+      "test": "boat_sequence_armed_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_4",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_5",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_6",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchAnswer_7",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchPromise_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchPromise_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchQuestion_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchQuestion_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchQuestion_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BirchQuestion_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyIntroduction_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyIntroduction_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyIntroduction_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyNotYet_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyNotYet_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyPassage_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyPassage_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyPassage_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyPassage_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReady_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReady_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReason_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReason_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReason_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyReason_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyRequest_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_BrineyRequest_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ContactQuestion_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ContactQuestion_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonAccept_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonAccept_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonDirection_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonDirection_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonPromise_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonPromise_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonUncertain_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonUncertain_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonUncertain_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_DevonUncertain_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntChallenge_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntChallenge_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntQuestion_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntQuestion_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntReply_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntReply_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntReply_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_GruntReply_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ParcelRecovered_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ParcelRecovered_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ParcelRecovered_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ParcelRecovered_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoFarewell_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoFarewell_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoPromise_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoPromise_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoPromise_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoPromise_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoSafe_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PeekoSafe_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PlayerIntroduction_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_PlayerIntroduction_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ReleasePeeko_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_ReleasePeeko_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_SilphAnswer_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_SilphAnswer_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_SilphSafe_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_SilphSafe_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneDeparture_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneDeparture_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_4",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_5",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_6",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneEvidence_7",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneLetter_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneLetter_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneLetter_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneLetter_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneOffer_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneOffer_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneQuestion_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneQuestion_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneQuestion_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_StoneQuestion_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsAgree_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsAgree_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsConcern_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsConcern_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsDemand_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsDemand_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsQuestion_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsQuestion_1",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsQuestion_2",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsQuestion_3",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsStand_0",
+      "passed": true
+    },
+    {
+      "test": "fits_LegendsVoice_WoodsStand_1",
+      "passed": true
+    }
+  ]
+}

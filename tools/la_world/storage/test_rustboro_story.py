@@ -14,13 +14,18 @@ def unlocked():
  return rd(symbols['gSpecialVar_Result'],2)!=4
 def flag(n):return invoke('FlagGet',c[n])
 def var(n):return invoke('VarGet',c[n])
+spoken=set()
+voice_labels=[n for n in symbols if n.startswith("LegendsVoice_")]
 def until(pred,limit=24000):
  for i in range(limit):
+  current=[bytes(rd(symbols["gStringVar4"]+offset+j,1) for j in range(12)) for offset in range(4)]
+  spoken.update(n for n in voice_labels if bytes(rd(symbols[n]+j,1) for j in range(12)) in current)
   if pred():return
   frames(1,1 if i%31<4 else 0)
  raise AssertionError(('timeout',pos(),location()))
 def script(n):invoke('ScriptContext_SetupScript',symbols[n]);frames(5)
 for gender in [0,1]:
+ spoken.clear()
  start(gender);invoke('FlagClear',c['FLAG_LA_INTRO_ACTIVE']);invoke('VarSet',c['VAR_LITTLEROOT_INTRO_STATE'],7)
  invoke('StorageChangeMode',gender,1);invoke('ScriptGiveMon',4,16,0)
  invoke('FlagSet',c['FLAG_RETURNED_DEVON_GOODS'])
@@ -36,6 +41,8 @@ for gender in [0,1]:
  check('office_sets_call_scene_'+str(gender),var('VAR_RUSTBORO_CITY_STATE')==6)
  check('letter_obtained_'+str(gender),invoke('CheckBagHasItem',c['ITEM_LETTER'],1)==1)
  check('office_releases_controls_'+str(gender),invoke('ArePlayerFieldControlsLocked')==0)
+ for label in ['StoneQuestion','StoneOffer','ContactQuestion','BirchQuestion','BirchPromise','StoneDeparture']:
+  check('player_speaks_'+str(gender)+'_'+label,'LegendsVoice_'+label in spoken)
  check('milestones_alone_do_not_unlock_shards_'+str(gender),unlocked()==0)
  before=invoke('CountTotalItemQuantityInBag',c['ITEM_FIRE_TERA_SHARD'])
  invoke('LegendsAwardCaughtShard',c['SPECIES_CHARMANDER'],0)

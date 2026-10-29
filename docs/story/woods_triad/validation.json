@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 71,
-  "rom_sha256": "41a2876a39396e04a95cd4bc17066f23767c0738882d5c21b9509954fc6bb8c8",
+  "assertions": 81,
+  "rom_sha256": "f71ce1671374a285a6d1d640ed29fcfedbfd6981ed54a42fc97970431f19c669",
   "battle_results": "injected through native end handlers; combat difficulty is not measured",
   "checks": [
     {
@@ -86,6 +86,26 @@
     },
     {
       "test": "completed_35",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsStand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsDemand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsConcern",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsAgree",
       "passed": true
     },
     {
@@ -198,6 +218,26 @@
     },
     {
       "test": "completed_36",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsStand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsDemand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsConcern",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsAgree",
       "passed": true
     },
     {

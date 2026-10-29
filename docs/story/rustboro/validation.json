@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 92,
-  "rom_sha256": "9420b7dd278f995a84c0c0507fa6b219d85c85bd1d3e16cfdbfe7694a7d0748a",
+  "assertions": 88,
+  "rom_sha256": "f71ce1671374a285a6d1d640ed29fcfedbfd6981ed54a42fc97970431f19c669",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -29,6 +29,30 @@
     },
     {
       "test": "office_releases_controls_0",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_StoneQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_StoneOffer",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_ContactQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_BirchQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_BirchPromise",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_0_StoneDeparture",
       "passed": true
     },
     {
@@ -88,6 +112,30 @@
       "passed": true
     },
     {
+      "test": "player_speaks_1_StoneQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_1_StoneOffer",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_1_ContactQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_1_BirchQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_1_BirchPromise",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_1_StoneDeparture",
+      "passed": true
+    },
+    {
       "test": "milestones_alone_do_not_unlock_shards_1",
       "passed": true
     },
@@ -129,38 +177,6 @@
     },
     {
       "test": "dialogue_width_LegendsRustboro_Text_BirchReport_3",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_4",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_5",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_6",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_7",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_8",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_9",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_10",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_11",
       "passed": true
     },
     {
@@ -257,38 +273,6 @@
     },
     {
       "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_5",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_6",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_7",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_8",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_9",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_10",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_11",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_12",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_13",
       "passed": true
     },
     {

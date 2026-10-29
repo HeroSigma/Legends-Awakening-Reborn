@@ -228,3 +228,36 @@ bool32 IsSpeakerBuffered(const u8 *str)
 
     return res;
 }
+
+// Character defaults apply to ordinary field dialogue; explicit script colors win.
+void ApplySpeakerDialogueColor(void)
+{
+    u8 color = TEXT_COLOR_DARK_GRAY;
+    if (gSpeakerName == gSpeakerNamesTable[SP_NAME_PLAYER])
+        color = TEXT_COLOR_LIGHT_BLUE;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_WALLY])
+        color = TEXT_COLOR_LIGHT_GREEN;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_BRENDAN])
+        color = TEXT_COLOR_GREEN;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_RED]
+          || gSpeakerName == gSpeakerNamesTable[SP_NAME_MAY])
+        color = TEXT_COLOR_RED;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_AQUA_GRUNT]
+          || gSpeakerName == gSpeakerNamesTable[SP_NAME_BRINEY])
+        color = TEXT_COLOR_BLUE;
+
+    if (color == TEXT_COLOR_DARK_GRAY
+        || (gStringVar4[0] == EXT_CTRL_CODE_BEGIN
+            && (gStringVar4[1] == EXT_CTRL_CODE_COLOR
+                || gStringVar4[1] == EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW
+                || gStringVar4[1] == EXT_CTRL_CODE_TEXT_COLORS)))
+        return;
+
+    u32 length = StringLength(gStringVar4);
+    if (length + 3 >= sizeof(gStringVar4)) return;
+    for (u32 i = length + 1; i; i--)
+        gStringVar4[i + 2] = gStringVar4[i - 1];
+    gStringVar4[0] = EXT_CTRL_CODE_BEGIN;
+    gStringVar4[1] = EXT_CTRL_CODE_COLOR;
+    gStringVar4[2] = color;
+}

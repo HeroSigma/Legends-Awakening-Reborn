@@ -134,7 +134,11 @@ Route116_EventScript_TrainerTipsBagHasPockets::
 Route116_EventScript_Briney::
 	lock
 	faceplayer
+	setspeaker SP_NAME_BRINEY
 	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_PeekoPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setvar VAR_ROUTE116_STATE, 2
 	release
 	end
@@ -144,7 +148,11 @@ Route116_EventScript_BrineyTrigger::
 	applymovement LOCALID_ROUTE116_BRINEY, Common_Movement_WalkInPlaceFasterRight
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
+	setspeaker SP_NAME_BRINEY
 	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_PeekoPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setvar VAR_ROUTE116_STATE, 2
 	releaseall
 	end

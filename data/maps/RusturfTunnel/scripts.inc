@@ -269,7 +269,11 @@ RusturfTunnel_EventScript_TunnelBlockagePos3::
 RusturfTunnel_EventScript_AquaGruntBackUp::
 	lockall
 	setflag FLAG_SAFE_FOLLOWER_MOVEMENT
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_ComeAndGetSome, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_ReleasePeeko, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	applymovement LOCALID_RUSTURF_TUNNEL_GRUNT, RusturfTunnel_Movement_GruntAndPeekoBackUp
 	applymovement LOCALID_RUSTURF_TUNNEL_PEEKO, RusturfTunnel_Movement_GruntAndPeekoBackUp
@@ -300,9 +304,20 @@ RusturfTunnel_EventScript_Grunt::
 	lock
 	faceplayer
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_GruntIntro, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_GruntChallenge, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	trainerbattle_no_intro TRAINER_GRUNT_RUSTURF_TUNNEL, RusturfTunnel_Text_GruntDefeat
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_GruntTakePackage, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_GruntQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_AQUA_GRUNT
+	msgbox LegendsVoice_GruntReply, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	giveitem ITEM_DEVON_PARTS
 	closemessage
 	applymovement LOCALID_PLAYER, RusturfTunnel_Movement_PushPlayerAsideForGrunt
@@ -316,9 +331,25 @@ RusturfTunnel_EventScript_Grunt::
 	applymovement LOCALID_PLAYER, RusturfTunnel_Movement_PlayerMoveAsideForBriney
 	applymovement LOCALID_RUSTURF_TUNNEL_BRINEY, RusturfTunnel_Movement_BrineyApproachPeeko2
 	waitmovement 0
+	setspeaker SP_NAME_BRINEY
 	msgbox RusturfTunnel_Text_PeekoGladToSeeYouSafe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_PeekoSafe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	applymovement LOCALID_RUSTURF_TUNNEL_BRINEY, Common_Movement_FacePlayer
 	waitmovement 0
+	setspeaker SP_NAME_BRINEY
+	msgbox LegendsVoice_BrineyIntroduction, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_PlayerIntroduction, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_BRINEY
+	msgbox LegendsVoice_BrineyPassage, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_PeekoFarewell, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BRINEY
 	message RusturfTunnel_Text_ThankYouLetsGoHomePeeko
 	waitmessage
 	waitse
@@ -337,6 +368,7 @@ RusturfTunnel_EventScript_Grunt::
 	setvar VAR_RUSTBORO_CITY_STATE, 4
 	setvar VAR_BRINEY_HOUSE_STATE, 1
 	setflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+	setspeaker SP_NAME_NONE
 	release
 	end
 
@@ -426,46 +458,21 @@ RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_GruntIntro:
-	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
-	.string "In this tunnel to nowhere!\p"
-	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "A dead end! You've got to be kidding!\nAnd now you followed me here?\pStay back! This parcel is AQUA's!$"
 
 RusturfTunnel_Text_GruntDefeat:
 	.string "Urrrggh! My career in crime comes to\n"
 	.string "a dead end!$"
 
 RusturfTunnel_Text_GruntTakePackage:
-	.string "This is plain not right…\p"
-	.string "The BOSS told me this would be a\n"
-	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
-	.string "from DEVON.\p"
-	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "Tch! They said this would be easy.\nJust pick up a parcel and get out!$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "PEEKO!\n"
 	.string "Am I glad to see you're safe!$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-	.string "PEEKO owes her life to you!\p"
-	.string "They call me MR. BRINEY.\n"
-	.string "And, you are?\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "Ah, so you are {PLAYER}{KUN}!\n"
-	.string "I sincerely thank you!\p"
-	.string "Now, if there's anything that troubles\n"
-	.string "you, don't hesitate to tell me!\p"
-	.string "You can usually find me in my cottage\n"
-	.string "by the sea near PETALBURG WOODS.\p"
-	.string "Come, PEEKO, we should make our way\n"
-	.string "home.\p"
-	.string "PEEKO: Pihyoh!$"
+	.string "Come along, PEEKO.\nLet's get you home.$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"

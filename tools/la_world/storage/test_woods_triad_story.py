@@ -19,14 +19,19 @@ def actor(name):
  return next((symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)'] for j in range(16) if rd(symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)'],1)&1 and rd(symbols['gObjectEvents']+j*c['sizeof(struct ObjectEvent)']+c['offsetof(struct ObjectEvent,localId)'],1)==local),None)
 def actor_position(name):
  a=actor(name)+c['offsetof(struct ObjectEvent,currentCoords)'];return rd(a,2)-7,rd(a+2,2)-7
+spoken=set()
+voice_labels=[n for n in symbols if n.startswith("LegendsVoice_")]
 def until(predicate,limit=24000):
  for i in range(limit):
+  current=[bytes(rd(symbols["gStringVar4"]+offset+j,1) for j in range(12)) for offset in range(4)]
+  spoken.update(n for n in voice_labels if bytes(rd(symbols[n]+j,1) for j in range(12)) in current)
   check_prompt=active('Task_HandleYesNoInput')
   assert check_prompt is None, "Story battle must not offer Singles/Doubles"
   if predicate():frames(15);return
   frames(1,1 if i%31<4 else 0)
  raise AssertionError(('timeout',state(),pos(),location(),hex(rd(symbols['sGlobalScriptContext']+8)),hex(rd(symbols['gMain']+4))))
 def setup(gender,mode,seen=True):
+ spoken.clear()
  start(gender);invoke('FlagClear',c['FLAG_LA_INTRO_ACTIVE']);invoke('VarSet',c['VAR_LITTLEROOT_INTRO_STATE'],7)
  invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0);invoke('ScriptGiveMon',7,16,0)
  invoke('FlagSet',c['FLAG_LA_RED_DEX_GIFTS'])
@@ -76,6 +81,8 @@ for gender,mode,x in [(0,0,35),(1,1,36)]:
  shutil.copy2(shot('triad'),proof/('triad_'+str(x)+'.png'))
  until(lambda:state()==1 and rd(symbols['sGlobalScriptContextStatus'],1)==2)
  check('completed_'+str(x),fl('FLAG_LA_WOODS_TRIAD_COMPLETE')==1)
+ for label in ['WoodsQuestion','WoodsStand','WoodsDemand','WoodsConcern','WoodsAgree']:
+  check('player_speaks_'+str(x)+'_'+label,'LegendsVoice_'+label in spoken)
  check('pokevial_reward_'+str(x),invoke('CheckBagHasItem',c['ITEM_POKEVIAL'],1)==1 and invoke('VarGet',c['VAR_LA_POKEVIAL_CHARGES'])==3)
  check('one_reward_'+str(x),invoke('CountTotalItemQuantityInBag',c['ITEM_GREAT_BALL'])==before+1)
  check('controls_restored_'+str(x),invoke('ArePlayerFieldControlsLocked')==0)

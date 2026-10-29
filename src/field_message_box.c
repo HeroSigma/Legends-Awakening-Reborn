@@ -131,6 +131,7 @@ static void ExpandStringAndStartDrawFieldMessage(const u8 *str, bool32 allowSkip
 {
     StringExpandPlaceholders(gStringVar4, str);
     TrySpawnNamebox(gStringVar4, NAME_BOX_BASE_TILE_NUM);
+    ApplySpeakerDialogueColor();
     AddTextPrinterForMessage(allowSkippingDelayWithButtonPress);
     CreateTask_DrawFieldMessage();
 }

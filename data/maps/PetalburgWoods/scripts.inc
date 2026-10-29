@@ -36,6 +36,12 @@ LegendsWoods_Begin:
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Greeting, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_WoodsQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsVoice_SilphAnswer, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadApproach
@@ -53,6 +59,9 @@ LegendsWoods_Begin:
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Help, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_WoodsStand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsWoods_Text_Challenge, MSGBOX_DEFAULT
 	setspeaker SP_NAME_NONE
@@ -81,6 +90,9 @@ LegendsWoods_Begin:
 	setspeaker SP_NAME_SILPH_RESEARCHER
 	msgbox LegendsWoods_Text_Stolen, MSGBOX_DEFAULT
 	setflag FLAG_LA_WOODS_RIFT_RECORD_STOLEN
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_WoodsDemand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsWoods_Text_Withdraw, MSGBOX_DEFAULT
 	closemessage
@@ -102,6 +114,12 @@ LegendsWoods_Begin:
 	waitmovement 0
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Thanks, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_WoodsConcern, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_SILPH_RESEARCHER
+	msgbox LegendsVoice_SilphSafe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setspeaker SP_NAME_NONE
 	giveitem ITEM_GREAT_BALL
 	goto_if_eq VAR_RESULT, FALSE, LegendsWoods_NoRoom
@@ -120,6 +138,9 @@ LegendsWoods_NoRecognition:
 LegendsWoods_Report:
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Report, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_WoodsAgree, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	applymovement LOCALID_WOODS_SILPH, LegendsWoods_SilphExit
 	waitmovement 0
@@ -491,20 +512,13 @@ LegendsWoods_Text_Damage:
 	.string "They knew exactly what to take.$"
 
 LegendsWoods_Text_Thought:
-	.string "That device... Could they mean\n"
-	.string "the object from Timeless Woods?\p"
-	.string "I need to get this news to Birch.$"
+	.string "I overheard two men in Timeless Woods.\nThey took an object from there.\pCould that be the device those three\nwere talking about?$"
 
 LegendsWoods_Text_ThoughtUnknown:
-	.string "What device were they talking about?\p"
-	.string "Birch needs to hear about this.$"
+	.string "What device were they talking about?\nWhy would they need your recordings?$"
 
 LegendsWoods_Text_Report:
-	.string "We will warn Devon right away.\p"
-	.string "If you reach Rustboro, ask for us\n"
-	.string "at the Devon building.\p"
-	.string "Tell them you helped in the woods.\p"
-	.string "We must compare what you saw, too.$"
+	.string "We can't be certain. DEVON has the\nequipment to compare our findings.\pWe'll warn them and contact BIRCH.\nPlease meet us in RUSTBORO.\pTell reception you helped us here.\nYour account could be important.$"
 
 LegendsWoods_Text_NoRoom:
 	.string "Your Bag is full. Please do not\n"

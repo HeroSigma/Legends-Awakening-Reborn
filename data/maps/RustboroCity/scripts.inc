@@ -317,7 +317,14 @@ RustboroCity_EventScript_ShadyCharacterTookOff::
 
 @ Unused
 RustboroCity_EventScript_YouGotItThankYou::
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_ParcelRecovered, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsVoice_DevonUncertain, MSGBOX_DEFAULT
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	return
 
 @ Unknown, unused employee movements. Based on the differences in movement theyre for approaching an object (probably the player) in different positions
@@ -501,7 +508,14 @@ RustboroCity_EventScript_EmployeeAskToGetGoods::
 	setflag FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN
 	setvar VAR_RUSTBORO_CITY_STATE, 3
 	copyobjectxytoperm LOCALID_RUSTBORO_DEVON_EMPLOYEE
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_HelpMeIWasRobbed, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_DevonPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsVoice_DevonDirection, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	releaseall
 	end
 
@@ -593,7 +607,11 @@ RustboroCity_EventScript_ReturnGoods::
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
 	giveitem ITEM_GREAT_BALL
 	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_DevonAccept, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	setflag FLAG_RETURNED_DEVON_GOODS
 	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
