@@ -2,7 +2,7 @@
 from pathlib import Path
 R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_preferred_follower.py').read_text().split('for mode in [0,1]:')[0],'helpers','exec'))
-names=['FLAG_SYS_B_DASH','FLAG_BADGE01_GET','FLAG_SYS_POKEMON_GET','MOVE_SURF','ITEM_HM03','offsetof(struct PlayerAvatar,flags)','offsetof(struct PlayerAvatar,objectEventId)','offsetof(struct PlayerAvatar,preventStep)','offsetof(struct ObjectEvent,graphicsId)','offsetof(struct ObjectEvent,fieldEffectSpriteId)','sizeof(struct ObjectEvent)','OBJ_EVENT_GFX_LA_BRENDAN_WATER_RIDING','OBJ_EVENT_GFX_LA_MAY_WATER_RIDING','PLAYER_AVATAR_FLAG_SURFING','PLAYER_AVATAR_FLAG_ON_FOOT','MON_DATA_HP']
+names=['FLAG_SYS_B_DASH','FLAG_BADGE01_GET','FLAG_SYS_POKEMON_GET','MOVE_SURF','ITEM_HM03','offsetof(struct PlayerAvatar,flags)','offsetof(struct PlayerAvatar,objectEventId)','offsetof(struct PlayerAvatar,preventStep)','offsetof(struct ObjectEvent,graphicsId)','offsetof(struct ObjectEvent,fieldEffectSpriteId)','sizeof(struct ObjectEvent)','OBJ_EVENT_GFX_LA_BRENDAN_WATER_RIDING','OBJ_EVENT_GFX_LA_MAY_WATER_RIDING','PLAYER_AVATAR_FLAG_SURFING','PLAYER_AVATAR_FLAG_ON_FOOT','MON_DATA_HP','MOVE_FLY','ITEM_HM02']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'w.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "constants/flags.h"\n#include "constants/items.h"\n#include "constants/event_objects.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'w.c'),'-o',str(td/'w.o')],cwd=R,check=True)
@@ -28,8 +28,9 @@ def bank():
     if water(x+dx,y+dy) and water(x+2*dx,y+2*dy):return x,y,direction,key,opposite
  raise AssertionError('No valid shoreline')
 for gender in [0,1]:
- start(gender);invoke('StorageChangeMode',gender,1);invoke('ScriptGiveMon',131,25,0);invoke('ScriptGiveMon',6,25,0)
+ start(gender);invoke('StorageChangeMode',gender,1);invoke('ScriptGiveMon',131,25,0);invoke('ScriptGiveMon',6,25,0);invoke('ScriptGiveMon',249,25,0)
  invoke('SetMonMoveSlot',symbols['gParties'],c['MOVE_SURF'],0)
+ invoke('SetMonMoveSlot',symbols['gParties']+200,c['MOVE_SURF'],0);invoke('SetMonMoveSlot',symbols['gParties']+200,c['MOVE_FLY'],1)
  invoke('AddBagItem',c['ITEM_HM03'],1);invoke('FlagSet',c['FLAG_SYS_B_DASH'])
  for tid in [318,333,603,615]:invoke('SetTrainerFlag',tid)
  realwarp(0,17,5,12)
@@ -68,6 +69,16 @@ for gender in [0,1]:
   tap(2);frames(70)
  check('party_keeps_surf_'+str(gender),surf() and invoke('PokeRide_IsWaterMode')==1)
  check('party_keeps_gender_'+str(gender),playergfx()==c['OBJ_EVENT_GFX_LA_MAY_WATER_RIDING' if gender else 'OBJ_EVENT_GFX_LA_BRENDAN_WATER_RIDING'])
+ # A supported swimmer/flier still needs Fly permission while over water.
+ check('combined_water_mount_'+str(gender),invoke('PokeRide_Start',2)==1);frames(25)
+ check('water_flight_locked_'+str(gender),invoke('PokeRide_CanFly')==0)
+ invoke('FlagSet',c['FLAG_BADGE01_GET']+5);invoke('AddBagItem',c['ITEM_HM02'],1)
+ tap(2);frames(30)
+ check('water_low_flight_'+str(gender),invoke('PokeRide_IsAirborne')==1 and surf())
+ tap(2);frames(30)
+ check('land_on_water_mount_'+str(gender),invoke('PokeRide_IsAirborne')==0 and surf())
+ check('still_no_offshore_dismount_'+str(gender),invoke('PokeRide_CanDismount')==0)
+ check('restore_lapras_'+str(gender),invoke('PokeRide_Start',0)==1);frames(25)
  # A fainted mount must fall back to native Surf, never leave a walking avatar.
  scratch=0x0203fc00;wr(scratch,0);invoke('SetMonData',symbols['gParties'],c['MON_DATA_HP'],scratch);frames(30)
  check('faint_keeps_native_surf_'+str(gender),surf() and invoke('PokeRide_IsActive')==0)

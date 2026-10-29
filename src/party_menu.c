@@ -8746,7 +8746,7 @@ static void CursorCb_FollowerRecall(u8 taskId)
 {
     if (!PokeRide_CanDismount())
     {
-        FollowerMessage(taskId, COMPOUND_STRING("Reach land before recalling your ride."));
+        FollowerMessage(taskId, COMPOUND_STRING("Land before recalling your ride."));
         return;
     }
     PokeRide_Stop();
@@ -8874,6 +8874,6 @@ static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mo
 static void CursorCb_Ride(u8 taskId)
 {
     bool32 mounted = PokeRide_Start(gPartyMenu.slotId);
-    FollowerMessage(taskId, mounted ? COMPOUND_STRING("Ready to ride! L+R dismounts outside.")
+    FollowerMessage(taskId, mounted ? COMPOUND_STRING("Ready! L+R: off. Flying mounts: B.")
         : COMPOUND_STRING("You can't ride this Pokémon here yet."));
 }

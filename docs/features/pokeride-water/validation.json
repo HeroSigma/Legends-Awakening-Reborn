@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 62,
-  "rom_sha256": "2a312524d12962fc3954aaa419e7b5cf26bfdfa6c8cd2df79e22a2578c5fddcc",
+  "assertions": 74,
+  "rom_sha256": "45be7a78f5bb375ce14f23799096ef159e6466bf4b8fd32e1a3256f2a72223b3",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -69,6 +69,30 @@
     },
     {
       "test": "party_keeps_gender_0",
+      "passed": true
+    },
+    {
+      "test": "combined_water_mount_0",
+      "passed": true
+    },
+    {
+      "test": "water_flight_locked_0",
+      "passed": true
+    },
+    {
+      "test": "water_low_flight_0",
+      "passed": true
+    },
+    {
+      "test": "land_on_water_mount_0",
+      "passed": true
+    },
+    {
+      "test": "still_no_offshore_dismount_0",
+      "passed": true
+    },
+    {
+      "test": "restore_lapras_0",
       "passed": true
     },
     {
@@ -193,6 +217,30 @@
     },
     {
       "test": "party_keeps_gender_1",
+      "passed": true
+    },
+    {
+      "test": "combined_water_mount_1",
+      "passed": true
+    },
+    {
+      "test": "water_flight_locked_1",
+      "passed": true
+    },
+    {
+      "test": "water_low_flight_1",
+      "passed": true
+    },
+    {
+      "test": "land_on_water_mount_1",
+      "passed": true
+    },
+    {
+      "test": "still_no_offshore_dismount_1",
+      "passed": true
+    },
+    {
+      "test": "restore_lapras_1",
       "passed": true
     },
     {

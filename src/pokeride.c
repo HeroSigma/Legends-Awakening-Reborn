@@ -34,7 +34,8 @@ static EWRAM_DATA struct {
     u32 pid, ot;
     u16 species, gfx;
     u8 slot, sprite;
-    bool8 active, hasSprite, waterMode;
+    bool8 active, hasSprite, waterMode, airMode;
+    u8 airHeight;
 } sRide = {0};
 
 static const struct PokeRideInfo *RideInfo(u32 species)
@@ -55,7 +56,8 @@ bool32 __attribute__((noinline)) PokeRide_IsWaterMode(void) { return sRide.activ
 bool32 PokeRide_HidesSurfBlob(void) { return PokeRide_IsWaterMode() && sRide.hasSprite; }
 bool32 PokeRide_CanDismount(void)
 {
-    return !PokeRide_IsWaterMode() || !(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING);
+    return !PokeRide_IsAirborne()
+        && (!PokeRide_IsWaterMode() || !(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING));
 }
 bool32 PokeRide_IsWaterSpecies(u32 species)
 {
@@ -68,7 +70,7 @@ u16 PokeRide_PlayerGraphics(u32 gender)
         return gender ? OBJ_EVENT_GFX_LA_MAY_WATER_RIDING : OBJ_EVENT_GFX_LA_BRENDAN_WATER_RIDING;
     return gender ? OBJ_EVENT_GFX_LA_MAY_RIDING : OBJ_EVENT_GFX_LA_BRENDAN_RIDING;
 }
-static bool32 RideMonPresent(void)
+static struct Pokemon *CurrentRideMon(void)
 {
     for (u32 i = 0; i < gPartiesCount[B_TRAINER_PLAYER]; i++)
     {
@@ -76,9 +78,40 @@ static bool32 RideMonPresent(void)
         if (GetMonData(mon, MON_DATA_SPECIES) == sRide.species
          && GetMonData(mon, MON_DATA_PERSONALITY) == sRide.pid && GetMonData(mon, MON_DATA_OT_ID) == sRide.ot
          && GetMonData(mon, MON_DATA_HP) && !GetMonData(mon, MON_DATA_IS_EGG) && !mon->box.isBadEgg)
-            return TRUE;
+            return mon;
     }
-    return FALSE;
+    return NULL;
+}
+static bool32 RideMonPresent(void) { return CurrentRideMon() != NULL; }
+bool32 PokeRide_IsAirSpecies(u32 species)
+{
+    const struct PokeRideInfo *info = RideInfo(species);
+    return info != NULL && (info->flags & POKERIDE_FLAG_CAN_FLY);
+}
+bool32 PokeRide_CanFly(void)
+{
+    struct Pokemon *mon = CurrentRideMon();
+    return sRide.active && mon != NULL && IsMapTypeOutdoors(gMapHeader.mapType)
+        && IsFieldMoveUnlocked(FIELD_MOVE_FLY) && PokeRide_IsAirSpecies(sRide.species)
+        && FieldMove_CanAssist(mon, FIELD_MOVE_FLY);
+}
+bool32 __attribute__((noinline)) PokeRide_IsAirborne(void)
+{
+    return sRide.active && (sRide.airMode || sRide.airHeight);
+}
+bool32 __attribute__((noinline)) PokeRide_ToggleFlight(void)
+{
+    if (!sRide.active)
+        return FALSE;
+    if (sRide.airMode)
+    {
+        sRide.airMode = FALSE;
+        return TRUE;
+    }
+    if (!PokeRide_CanFly())
+        return FALSE;
+    sRide.airMode = TRUE;
+    return TRUE;
 }
 static void FreeMountSprite(void)
 {
@@ -109,6 +142,8 @@ void PokeRide_Stop(void)
         return;
     sRide.active = FALSE;
     sRide.waterMode = FALSE;
+    sRide.airMode = FALSE;
+    sRide.airHeight = 0;
     FreeMountSprite();
     if (gMain.callback2 == CB2_Overworld && gPlayerAvatar.objectEventId < OBJECT_EVENTS_COUNT)
     {
@@ -129,7 +164,7 @@ void PokeRide_ResetSprites(void) { sRide.hasSprite = FALSE; }
 bool32 PokeRide_Start(u32 slot)
 {
     bool32 surfing = gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING;
-    if (gMain.inBattle || slot >= gPartiesCount[B_TRAINER_PLAYER] || !FlagGet(FLAG_SYS_B_DASH)
+    if (gMain.inBattle || PokeRide_IsAirborne() || slot >= gPartiesCount[B_TRAINER_PLAYER] || !FlagGet(FLAG_SYS_B_DASH)
      || (!IsMapTypeOutdoors(gMapHeader.mapType) && !surfing) || PlayerHasFollowerNPC()
      || (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_BIKE | PLAYER_AVATAR_FLAG_UNDERWATER)))
         return FALSE;
@@ -171,6 +206,11 @@ bool32 PokeRide_ProcessInput(void)
             PlaySE(SE_WALL_HIT);
         return TRUE;
     }
+    if (sRide.active && JOY_NEW(B_BUTTON) && PokeRide_IsAirSpecies(sRide.species))
+    {
+        PlaySE(PokeRide_ToggleFlight() ? SE_M_FLY : SE_WALL_HIT);
+        return TRUE;
+    }
     return FALSE;
 }
 void PokeRide_BeforeMovement(struct ObjectEvent *object, struct Sprite *sprite)
@@ -201,6 +241,12 @@ void PokeRide_AfterMovement(struct ObjectEvent *object, struct Sprite *sprite)
     }
     if (sRide.waterMode && !surfing)
         sRide.waterMode = FALSE;
+    if (sRide.airMode && !PokeRide_CanFly())
+        sRide.airMode = FALSE;
+    if (sRide.airMode && sRide.airHeight < 12)
+        sRide.airHeight++;
+    else if (!sRide.airMode && sRide.airHeight)
+        sRide.airHeight--;
     u16 gfx = PokeRide_PlayerGraphics(gPlayerAvatar.gender);
     if (object->graphicsId != gfx)
         ObjectEventSetGraphicsId(object, gfx);
@@ -223,15 +269,15 @@ void PokeRide_AfterMovement(struct ObjectEvent *object, struct Sprite *sprite)
     const struct PokeRideSpriteInfo *offset = &RideInfo(sRide.species)->spriteInfo[pose];
     s32 flip = dir == DIR_WEST || dir == DIR_NORTHWEST || dir == DIR_SOUTHWEST ? -1 : 1;
     u32 animDir = pose == POKERIDE_SPRITE_SIDE ? (flip < 0 ? DIR_WEST : DIR_EAST) : dir;
-    StartSpriteAnimIfDifferent(mount, (gPlayerAvatar.runningState == MOVING ? ANIM_STD_GO_SOUTH : ANIM_STD_FACE_SOUTH) + animDir - DIR_SOUTH);
+    StartSpriteAnimIfDifferent(mount, (gPlayerAvatar.runningState == MOVING || PokeRide_IsAirborne() ? ANIM_STD_GO_SOUTH : ANIM_STD_FACE_SOUTH) + animDir - DIR_SOUTH);
     s32 bob = sRide.waterMode && ((gMain.vblankCounter1 >> 4) & 1) ? -1 : 0;
     mount->x = sprite->x; mount->y = sprite->y;
-    mount->x2 = offset->monX * flip; mount->y2 = offset->monY + bob;
+    mount->x2 = offset->monX * flip; mount->y2 = offset->monY + bob - sRide.airHeight;
     mount->oam.priority = sprite->oam.priority;
     // Reborn's follower art can overlap the seated head in the front pose.
     bool32 riderFront = offset->playerRendersInFront || pose == POKERIDE_SPRITE_DOWN;
     mount->subpriority = riderFront ? sprite->subpriority + 1 : (sprite->subpriority ? sprite->subpriority - 1 : 0);
     mount->invisible = sprite->invisible;
     sprite->x2 += offset->playerX * flip;
-    sprite->y2 += offset->playerY + bob;
+    sprite->y2 += offset->playerY + bob - sRide.airHeight;
 }

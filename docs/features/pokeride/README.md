@@ -10,3 +10,5 @@ Credits: Aio Silver and Lucky Capybara, EE-Ride-System ride-system branch dbca61
 https://github.com/silversisama/EE-Ride-System/tree/ride-system
 
 Validation: 96 native ride checks across both protagonists and storage modes, real party-menu selection, eligibility gates, movement, switching, menu returns, dismount/control release, indoor dismount, wild battle escape/return, and saving while mounted. Also passed 44 follower, 48 identity and 446 Start menu regressions. All tests use isolated saves.
+
+Current extensions: [Water mounts](../pokeride-water/README.md) and [Fly-gated low flight](../pokeride-air/README.md). The ground integration above is retained as the foundation; native Surf now supports water mounts and eligible flying mounts can toggle bounded low flight.

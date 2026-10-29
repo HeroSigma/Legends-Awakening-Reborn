@@ -22,3 +22,7 @@ Compatibility constraints: EWRAM uses 261,320/262,144 bytes and ROM 32,637,696/3
 ## Route-scaling correction
 
 Supersedes party-relative ordinary trainer scaling above. Ordinary trainers now use their original location/team maximum plus two levels, limited by their authored profile baseline; this rises by two per earned Hoenn badge and stays at least two levels below the next gym cap. The highest player party level is no longer an input. Gym/League profiles keep authored milestone levels. Story exclusions, legality, themes and six-member teams remain enforced.
+
+## PokeRide milestone
+
+Ground riding, native-Surf water mounts and Fly-gated low flight are implemented on their feature branches. Original avatar/underwater flags and save layouts remain intact. Unrestricted free flight and reverse-ledge climbing remain disabled; native route collision/story barriers and existing Surf/Fly/Dive progression remain authoritative. See docs/features/pokeride-water and pokeride-air for scope and ROM-hashed validation.

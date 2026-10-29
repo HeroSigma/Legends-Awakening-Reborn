@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "assertions": 52,
+  "rom_sha256": "45be7a78f5bb375ce14f23799096ef159e6466bf4b8fd32e1a3256f2a72223b3",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "charizard_air_species_0",
+      "passed": true
+    },
+    {
+      "test": "venusaur_not_air_species_0",
+      "passed": true
+    },
+    {
+      "test": "mount_0",
+      "passed": true
+    },
+    {
+      "test": "fly_locked_0",
+      "passed": true
+    },
+    {
+      "test": "takeoff_locked_0",
+      "passed": true
+    },
+    {
+      "test": "fly_unlocked_0",
+      "passed": true
+    },
+    {
+      "test": "b_takes_off_0",
+      "passed": true
+    },
+    {
+      "test": "takeoff_keeps_position_0",
+      "passed": true
+    },
+    {
+      "test": "takeoff_keeps_native_flags_0",
+      "passed": true
+    },
+    {
+      "test": "air_dismount_blocked_0",
+      "passed": true
+    },
+    {
+      "test": "air_switch_blocked_0",
+      "passed": true
+    },
+    {
+      "test": "shoulders_do_not_drop_rider_0",
+      "passed": true
+    },
+    {
+      "test": "no_control_lock_0",
+      "passed": true
+    },
+    {
+      "test": "air_moves_on_paths_0",
+      "passed": true
+    },
+    {
+      "test": "party_open_0",
+      "passed": true
+    },
+    {
+      "test": "menu_keeps_air_0",
+      "passed": true
+    },
+    {
+      "test": "menu_keeps_gender_0",
+      "passed": true
+    },
+    {
+      "test": "save_in_air_0",
+      "passed": true
+    },
+    {
+      "test": "b_lands_0",
+      "passed": true
+    },
+    {
+      "test": "ground_dismount_allowed_0",
+      "passed": true
+    },
+    {
+      "test": "ground_wall_blocks_0",
+      "passed": true
+    },
+    {
+      "test": "air_wall_still_blocks_0",
+      "passed": true
+    },
+    {
+      "test": "wall_does_not_cancel_air_0",
+      "passed": true
+    },
+    {
+      "test": "indoor_lands_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "charizard_air_species_1",
+      "passed": true
+    },
+    {
+      "test": "venusaur_not_air_species_1",
+      "passed": true
+    },
+    {
+      "test": "mount_1",
+      "passed": true
+    },
+    {
+      "test": "fly_locked_1",
+      "passed": true
+    },
+    {
+      "test": "takeoff_locked_1",
+      "passed": true
+    },
+    {
+      "test": "fly_unlocked_1",
+      "passed": true
+    },
+    {
+      "test": "b_takes_off_1",
+      "passed": true
+    },
+    {
+      "test": "takeoff_keeps_position_1",
+      "passed": true
+    },
+    {
+      "test": "takeoff_keeps_native_flags_1",
+      "passed": true
+    },
+    {
+      "test": "air_dismount_blocked_1",
+      "passed": true
+    },
+    {
+      "test": "air_switch_blocked_1",
+      "passed": true
+    },
+    {
+      "test": "shoulders_do_not_drop_rider_1",
+      "passed": true
+    },
+    {
+      "test": "no_control_lock_1",
+      "passed": true
+    },
+    {
+      "test": "air_moves_on_paths_1",
+      "passed": true
+    },
+    {
+      "test": "party_open_1",
+      "passed": true
+    },
+    {
+      "test": "menu_keeps_air_1",
+      "passed": true
+    },
+    {
+      "test": "menu_keeps_gender_1",
+      "passed": true
+    },
+    {
+      "test": "save_in_air_1",
+      "passed": true
+    },
+    {
+      "test": "b_lands_1",
+      "passed": true
+    },
+    {
+      "test": "ground_dismount_allowed_1",
+      "passed": true
+    },
+    {
+      "test": "ground_wall_blocks_1",
+      "passed": true
+    },
+    {
+      "test": "air_wall_still_blocks_1",
+      "passed": true
+    },
+    {
+      "test": "wall_does_not_cancel_air_1",
+      "passed": true
+    },
+    {
+      "test": "indoor_lands_1",
+      "passed": true
+    }
+  ]
+}
