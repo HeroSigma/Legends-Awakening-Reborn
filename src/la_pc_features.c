@@ -2,6 +2,8 @@
 #include "pokemon_storage_system.h"
 #include "la_pc_features.h"
 #include "script.h"
+#include "event_data.h"
+#include "constants/battle_pyramid.h"
 #include "constants/maps.h"
 #include "constants/map_groups.h"
 static const u16 sRetiredMaps[] = {
@@ -431,6 +433,9 @@ static const u32 sRetiredSpecials[] = {
 bool32 LaPcBlockedSpecial(u32 id)
 {
     if (!StorageIsCollectionMode()) return FALSE;
+    // Ordinary pickups query their location before closing the item header.
+    if (id == (u32)SPECIAL_CallBattlePyramidFunction
+        && gSpecialVar_0x8004 == BATTLE_PYRAMID_FUNC_CURRENT_LOCATION) return FALSE;
     for (u32 i=0;i<ARRAY_COUNT(sRetiredSpecials);i++)
         if (id==sRetiredSpecials[i]) return TRUE;
     return FALSE;

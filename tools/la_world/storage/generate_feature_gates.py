@@ -27,7 +27,7 @@ def generate(check=False):
     block+=''.join('extern const u8 SPECIAL_'+name+'[];\n' for _,name in blocked)
     block+='static const u32 sRetiredSpecials[] = {\n'
     block+=''.join('    (u32)SPECIAL_'+name+',\n' for _,name in blocked)
-    block+='};\nbool32 LaPcBlockedSpecial(u32 id)\n{\n    if (!StorageIsCollectionMode()) return FALSE;\n    for (u32 i=0;i<ARRAY_COUNT(sRetiredSpecials);i++)\n        if (id==sRetiredSpecials[i]) return TRUE;\n    return FALSE;\n}\n// END NAMED COLLECTION SPECIAL GATES\n'
+    block+='};\nbool32 LaPcBlockedSpecial(u32 id)\n{\n    if (!StorageIsCollectionMode()) return FALSE;\n    // Ordinary pickups query their location before closing the item header.\n    if (id == (u32)SPECIAL_CallBattlePyramidFunction\n        && gSpecialVar_0x8004 == BATTLE_PYRAMID_FUNC_CURRENT_LOCATION) return FALSE;\n    for (u32 i=0;i<ARRAY_COUNT(sRetiredSpecials);i++)\n        if (id==sRetiredSpecials[i]) return TRUE;\n    return FALSE;\n}\n// END NAMED COLLECTION SPECIAL GATES\n'
     updated=updated[:a]+block+updated[b:]
     if check:
         assert updated==s,'collection feature gates need regeneration'
