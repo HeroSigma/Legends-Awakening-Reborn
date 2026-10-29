@@ -10,10 +10,11 @@
 #include "constants/items.h"
 #include "constants/form_change_types.h"
 
-// Native Devon milestones also support existing saves, without new save fields.
+// Collection begins only after the basement researcher explains it.
 bool32 LegendsTeraUnlocked(void)
 {
-    return FlagGet(FLAG_RETURNED_DEVON_GOODS) && FlagGet(FLAG_RECEIVED_POKENAV);
+    return FlagGet(FLAG_RETURNED_DEVON_GOODS) && FlagGet(FLAG_RECEIVED_POKENAV)
+        && FlagGet(FLAG_LA_TERA_RESEARCH_INTRO);
 }
 
 static const u16 sShards[NUMBER_OF_MON_TYPES] = {

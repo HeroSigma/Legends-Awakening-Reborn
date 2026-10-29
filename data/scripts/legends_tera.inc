@@ -4,6 +4,10 @@ LegendsTera_Scientist::
     faceplayer
     goto_if_unset FLAG_RETURNED_DEVON_GOODS, LegendsTera_Locked
     goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_Locked
+    goto_if_set FLAG_LA_TERA_RESEARCH_INTRO, LegendsTera_Service
+    msgbox LegendsTera_Text_Introduction, MSGBOX_DEFAULT
+    setflag FLAG_LA_TERA_RESEARCH_INTRO
+LegendsTera_Service:
     msgbox LegendsTera_Text_Welcome, MSGBOX_DEFAULT
     closemessage
 LegendsTera_Page1:
@@ -84,3 +88,6 @@ LegendsTera_Text_Same:
     .string "Your partner already has that\nTera Type. No shards were used.$"
 LegendsTera_Text_Locked:
     .string "The laboratory is not open yet.$"
+
+LegendsTera_Text_Introduction:
+    .string "You must be the TRAINER who helped\nour researchers. Thank you!\pWe're studying crystalline traces\nfound around the rift disturbances.\pWild POKéMON can leave Tera Shards\nwhen defeated or caught.\pThe shard matches the POKéMON's\nprimary type.\pOccasionally, you may also find a\nrare Stellar Shard.\pI'll calibrate your POKéNAV to collect\nthese traces from now on.\pCollection happens automatically.\nYou won't need to stop after battles.\pBring me 50 shards of one type,\nand I can change a partner's Tera Type.\pFor the Stellar type, I need\n150 Stellar Shards instead.$"

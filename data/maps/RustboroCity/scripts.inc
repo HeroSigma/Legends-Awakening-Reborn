@@ -1096,34 +1096,20 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Don't take my GOODS!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-	.string "Oh, it's you!\p"
-	.string "You're that fantastic TRAINER who\n"
-	.string "helped me in PETALBURG WOODS!\p"
-	.string "Help me! I was robbed by TEAM AQUA!\n"
-	.string "I have to get the DEVON GOODS back!\p"
-	.string "If I don't…\n"
-	.string "I'm going to be in serious trouble.$"
+	.string "{PLAYER}! You helped us in the woods!\pThose three took our recordings.\nNow TEAM AQUA has stolen our hardware!\pThat parcel contains components\nfor CAPT. STERN's research equipment.\pI don't know if the thefts are linked.\nPlease help me get the DEVON GOODS!$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
-	.string "That shady character, I think he took\n"
-	.string "off towards the tunnel over there.$"
+	.string "The thief went toward RUSTURF TUNNEL.\nPlease be careful!$"
 
 RustboroCity_Text_YouGotItThankYou:
-	.string "Oh! How did it go?\n"
-	.string "The DEVON GOODS?\p"
-	.string "You did!\n"
-	.string "You got them back!\p"
-	.string "You really are a great TRAINER!\p"
-	.string "I know! As my thanks, I'll give you\n"
-	.string "another GREAT BALL!$"
+	.string "You recovered the DEVON GOODS!\nAnd everyone is safe? Thank goodness!\pAfter what happened in the woods,\nI couldn't bear another disaster.\pPlease take this GREAT BALL\nas a small thank-you.$"
 
 RustboroCity_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
 
 RustboroCity_Text_PleaseComeWithMe:
-	.string "Excuse me, please!\n"
-	.string "Please come with me!$"
+	.string "PRESIDENT STONE has heard about you.\nHe wants to discuss the disturbances.\pPlease come with me.$"
 
 RustboroCity_Text_MayHiLetsRegister:
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
@@ -1276,8 +1262,7 @@ RustboroCity_Text_PleaseSelectPokenav:
 	.string "Please select the POKéNAV.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
-	.string "Okay, I'd better get back to work.\n"
-	.string "Please take care, {PLAYER}!$"
+	.string "The call came through perfectly!\nI'd better get back to work.\pBefore you leave, visit our basement\nlaboratory when you have a chance.\pOne of our researchers has something\nyou might find useful.\pTake care, {PLAYER}!$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
 	.string "Did you know this?\p"

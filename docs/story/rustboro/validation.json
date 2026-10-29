@@ -1,0 +1,375 @@
+{
+  "passed": true,
+  "assertions": 92,
+  "rom_sha256": "9420b7dd278f995a84c0c0507fa6b219d85c85bd1d3e16cfdbfe7694a7d0748a",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_shards_before_pokenav_0",
+      "passed": true
+    },
+    {
+      "test": "office_grants_pokenav_0",
+      "passed": true
+    },
+    {
+      "test": "office_sets_call_scene_0",
+      "passed": true
+    },
+    {
+      "test": "letter_obtained_0",
+      "passed": true
+    },
+    {
+      "test": "office_releases_controls_0",
+      "passed": true
+    },
+    {
+      "test": "milestones_alone_do_not_unlock_shards_0",
+      "passed": true
+    },
+    {
+      "test": "no_reward_before_explanation_0",
+      "passed": true
+    },
+    {
+      "test": "first_conversation_sets_flag_0",
+      "passed": true
+    },
+    {
+      "test": "first_conversation_unlocks_collection_0",
+      "passed": true
+    },
+    {
+      "test": "scientist_cancel_releases_controls_0",
+      "passed": true
+    },
+    {
+      "test": "primary_type_shard_after_intro_0",
+      "passed": true
+    },
+    {
+      "test": "repeat_visit_opens_service_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "no_shards_before_pokenav_1",
+      "passed": true
+    },
+    {
+      "test": "office_grants_pokenav_1",
+      "passed": true
+    },
+    {
+      "test": "office_sets_call_scene_1",
+      "passed": true
+    },
+    {
+      "test": "letter_obtained_1",
+      "passed": true
+    },
+    {
+      "test": "office_releases_controls_1",
+      "passed": true
+    },
+    {
+      "test": "milestones_alone_do_not_unlock_shards_1",
+      "passed": true
+    },
+    {
+      "test": "no_reward_before_explanation_1",
+      "passed": true
+    },
+    {
+      "test": "first_conversation_sets_flag_1",
+      "passed": true
+    },
+    {
+      "test": "first_conversation_unlocks_collection_1",
+      "passed": true
+    },
+    {
+      "test": "scientist_cancel_releases_controls_1",
+      "passed": true
+    },
+    {
+      "test": "primary_type_shard_after_intro_1",
+      "passed": true
+    },
+    {
+      "test": "repeat_visit_opens_service_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_6",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_7",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_8",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_9",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_10",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsRustboro_Text_BirchReport_11",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_6",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_7",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_8",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_9",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_10",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_11",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_12",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_13",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_14",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_15",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_16",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_LegendsTera_Text_Introduction_17",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_6",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_7",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_8",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_9",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_10",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_11",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_12",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_13",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_HelpMeIWasRobbed_6",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_0",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_1",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_2",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_3",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_4",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_Text_IdBetterGetBackToWork_6",
+      "passed": true
+    }
+  ]
+}
