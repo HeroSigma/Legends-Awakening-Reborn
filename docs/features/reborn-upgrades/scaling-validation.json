@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 17,
-  "rom_sha256": "e1c6d2cac91d318356eb057972d006353650088fd292d75e54cb9a8ccee42cbb",
+  "assertions": 26,
+  "rom_sha256": "a399c0e909d92e8c7babec5020921d4a3e3b86c80d5765f486576acb12e7de6c",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -12,63 +12,99 @@
       "passed": true
     },
     {
-      "test": "party_level_1",
+      "test": "early_route_below_gym",
       "passed": true
     },
     {
-      "test": "authored_floor_1",
+      "test": "party_does_not_raise_route_1",
       "passed": true
     },
     {
-      "test": "authored_ceiling_1",
+      "test": "party_does_not_raise_route_5",
       "passed": true
     },
     {
-      "test": "party_level_15",
+      "test": "party_does_not_raise_route_16",
       "passed": true
     },
     {
-      "test": "authored_floor_15",
+      "test": "party_does_not_raise_route_100",
       "passed": true
     },
     {
-      "test": "authored_ceiling_15",
+      "test": "gym_keeps_level",
       "passed": true
     },
     {
-      "test": "party_level_16",
+      "test": "route_badge_progression_0",
       "passed": true
     },
     {
-      "test": "authored_floor_16",
+      "test": "general_baseline_0",
       "passed": true
     },
     {
-      "test": "authored_ceiling_16",
+      "test": "route_badge_progression_1",
       "passed": true
     },
     {
-      "test": "party_level_100",
+      "test": "general_baseline_1",
       "passed": true
     },
     {
-      "test": "authored_floor_100",
+      "test": "route_badge_progression_2",
       "passed": true
     },
     {
-      "test": "authored_ceiling_100",
+      "test": "general_baseline_2",
       "passed": true
     },
     {
-      "test": "cache_refresh_(5, 14)",
+      "test": "route_badge_progression_3",
       "passed": true
     },
     {
-      "test": "cache_refresh_(32, 15)",
+      "test": "general_baseline_3",
       "passed": true
     },
     {
-      "test": "cache_refresh_(5, 16)",
+      "test": "route_badge_progression_4",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_4",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_5",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_5",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_6",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_6",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_7",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_7",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_8",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_8",
       "passed": true
     }
   ]

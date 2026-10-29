@@ -18,3 +18,7 @@ Validation: 28 protagonist/summary checks including the final normal and compact
 Not yet implemented: PokéRide and all other entries in the requested queue. Donor checkouts are review material, not completed integrations. In particular, SwSh party/bag/storage/message UI is not enabled merely because the SwSh summary is enabled. Only the first milestone above is ready for playtesting.
 
 Compatibility constraints: EWRAM uses 261,320/262,144 bytes and ROM 32,637,696/33,554,432 bytes after this milestone. Further features require a memory budget, especially ride state, palette effects and replacement storage UI. Do not change SaveBlock layouts or bypass compact storage to fit donor code.
+
+## Route-scaling correction
+
+Supersedes party-relative ordinary trainer scaling above. Ordinary trainers now use their original location/team maximum plus two levels, limited by their authored profile baseline; this rises by two per earned Hoenn badge and stays at least two levels below the next gym cap. The highest player party level is no longer an input. Gym/League profiles keep authored milestone levels. Story exclusions, legality, themes and six-member teams remain enforced.

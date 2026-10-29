@@ -4,6 +4,7 @@
 #include "legends_trainers.h"
 #include "pokemon.h"
 #include "caps.h"
+#include "wild_progression.h"
 #include "move.h"
 #include "battle_setup.h"
 #include "constants/battle_ai.h"
@@ -317,14 +318,16 @@ u32 __attribute__((noinline)) LegendsTrainer_PlayerLevel(void)
 
 u32 __attribute__((noinline)) LegendsTrainer_ScaledLevel(u32 authoredLevel)
 {
-    return min(GetCurrentLevelCap(), max(authoredLevel, LegendsTrainer_PlayerLevel()));
+    u32 cap = GetCurrentLevelCap();
+    u32 ceiling = cap > 2 ? cap - 2 : 1;
+    return min(ceiling, authoredLevel + GetWildBadgeStage() * 2);
 }
 
 const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *base)
 {
     if (!FlagGet(FLAG_LA_RED_DEX_GIFTS) || !LegendsTrainer_HasProfile(trainerId)) return base;
     u32 cap=GetCurrentLevelCap();
-    u32 playerLevel=LegendsTrainer_PlayerLevel();
+    u32 playerLevel=GetWildBadgeStage();
     bool32 doubles=LegendsTrainer_IsFormatChoice(trainerId)?(sFormatTrainer==trainerId && sDoubleFormat):base->battleType==TRAINER_BATTLE_TYPE_DOUBLES;
     for (u32 i=0;i<4;i++)
         if (sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
@@ -332,17 +335,22 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     struct Trainer *trainer=&sTrainers[index];
     *trainer=*base;
     struct TrainerMon *team=sMembers[index];
-    s32 canary=Profile(trainerId);
-    if (canary>=0) {
-        for (u32 i=0;i<PARTY_SIZE;i++) team[i]=sProfiles[canary].team[i];
-        if (LegendsTrainer_Gimmick(trainerId)==1) team[5].teraType=sProfiles[canary].tera;
-        else team[5].heldItem=sProfiles[canary].crystal;
-    } else {
-        const struct LegendsTeamProfile *profile=&sFullProfiles[trainerId];
-        u32 level=LegendsTrainer_ScaledLevel(profile->level);
-        for (u32 i=0;i<PARTY_SIZE;i++) BuildMember(&team[i],profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
-        ApplyGimmick(trainerId,team);
+    const struct LegendsTeamProfile *profile=&sFullProfiles[trainerId];
+    u32 level;
+    if (profile->formatChoice)
+        level = min(cap, profile->level); // Gym/League milestones retain authored levels.
+    else
+    {
+        u32 routeBase = 1;
+        for (u32 i = 0; i < base->partySize; i++)
+            routeBase = max(routeBase, base->party[i].lvl);
+        // Original route/story placement determines the baseline, not the player.
+        routeBase = min(profile->level > 2 ? profile->level - 2 : 1, routeBase + 2);
+        level = LegendsTrainer_ScaledLevel(routeBase);
     }
+    for (u32 i=0;i<PARTY_SIZE;i++)
+        BuildMember(&team[i],profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
+    ApplyGimmick(trainerId,team);
     for (u32 i=0;i<PARTY_SIZE;i++)
         if (!LegendsTrainer_MemberLegal(&team[i])) return base;
     trainer->party=team;
