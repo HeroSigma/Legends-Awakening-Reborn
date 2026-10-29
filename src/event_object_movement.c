@@ -510,8 +510,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gAquasPal_ApricornWhite, 0xDC88},
     {gAquasPal_ApricornBlack, 0xDC89},
 
-    {gObjectEventPal_Aren, OBJ_EVENT_PAL_TAG_AREN},
-    {gObjectEventPal_Aria, OBJ_EVENT_PAL_TAG_ARIA},
+    {gObjectEventPal_Brendan, OBJ_EVENT_PAL_TAG_AREN},
+    {gObjectEventPal_May, OBJ_EVENT_PAL_TAG_ARIA},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},

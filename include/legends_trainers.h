@@ -6,6 +6,8 @@ bool32 LegendsTrainer_MemberLegal(const struct TrainerMon *mon);
 u32 LegendsTrainer_Gimmick(u32 trainerId);
 bool32 LegendsTrainer_HasProfile(u32 trainerId);
 bool32 LegendsTrainer_IsFormatChoice(u32 trainerId);
+u32 LegendsTrainer_PlayerLevel(void);
+u32 LegendsTrainer_ScaledLevel(u32 authoredLevel);
 void LegendsTrainer_PrepareFormat(void);
 void LegendsTrainer_SelectFormat(void);
 #endif

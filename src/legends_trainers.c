@@ -41,6 +41,7 @@ struct LegendsTeamProfile {
 #include "data/legends_trainer_profiles.h"
 static EWRAM_DATA u16 sCachedIds[4] = {0};
 static EWRAM_DATA u8 sCachedCaps[4] = {0};
+static EWRAM_DATA u8 sCachedPlayerLevels[4] = {0};
 static EWRAM_DATA u8 sCachedFormats[4] = {0};
 static EWRAM_DATA const struct Trainer *sCachedBases[4] = {0};
 static EWRAM_DATA u8 sNextCache = 0;
@@ -300,13 +301,33 @@ static void ApplyGimmick(u32 id,struct TrainerMon *team)
     }
 }
 
+// Party-relative scaling adapted from Graion Dilach's dynamic-level approach.
+// The badge cap is always authoritative; eggs and empty slots cannot inflate it.
+u32 __attribute__((noinline)) LegendsTrainer_PlayerLevel(void)
+{
+    u32 highest = 1;
+    for (u32 i = 0; i < gPartiesCount[B_TRAINER_PLAYER]; i++)
+    {
+        struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][i];
+        if (GetMonData(mon, MON_DATA_SPECIES) != SPECIES_NONE && !GetMonData(mon, MON_DATA_IS_EGG))
+            highest = max(highest, GetMonData(mon, MON_DATA_LEVEL));
+    }
+    return min(highest, GetCurrentLevelCap());
+}
+
+u32 __attribute__((noinline)) LegendsTrainer_ScaledLevel(u32 authoredLevel)
+{
+    return min(GetCurrentLevelCap(), max(authoredLevel, LegendsTrainer_PlayerLevel()));
+}
+
 const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *base)
 {
     if (!FlagGet(FLAG_LA_RED_DEX_GIFTS) || !LegendsTrainer_HasProfile(trainerId)) return base;
     u32 cap=GetCurrentLevelCap();
+    u32 playerLevel=LegendsTrainer_PlayerLevel();
     bool32 doubles=LegendsTrainer_IsFormatChoice(trainerId)?(sFormatTrainer==trainerId && sDoubleFormat):base->battleType==TRAINER_BATTLE_TYPE_DOUBLES;
     for (u32 i=0;i<4;i++)
-        if (sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
+        if (sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
     u32 index=sNextCache++%4;
     struct Trainer *trainer=&sTrainers[index];
     *trainer=*base;
@@ -318,7 +339,7 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
         else team[5].heldItem=sProfiles[canary].crystal;
     } else {
         const struct LegendsTeamProfile *profile=&sFullProfiles[trainerId];
-        u32 level=cap<profile->level?cap:profile->level;
+        u32 level=LegendsTrainer_ScaledLevel(profile->level);
         for (u32 i=0;i<PARTY_SIZE;i++) BuildMember(&team[i],profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
         ApplyGimmick(trainerId,team);
     }
@@ -336,6 +357,6 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     for (u32 i=0;i<MAX_TRAINER_ITEMS;i++) trainer->items[i]=ITEM_NONE;
     u32 item=cap<=26?ITEM_SUPER_POTION:cap<=49?ITEM_HYPER_POTION:ITEM_FULL_RESTORE;
     trainer->items[0]=item;trainer->items[1]=item;
-    sCachedIds[index]=trainerId;sCachedCaps[index]=cap;sCachedFormats[index]=doubles;sCachedBases[index]=base;
+    sCachedIds[index]=trainerId;sCachedCaps[index]=cap; sCachedPlayerLevels[index]=playerLevel;sCachedFormats[index]=doubles;sCachedBases[index]=base;
     return trainer;
 }

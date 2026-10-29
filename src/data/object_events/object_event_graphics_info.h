@@ -1,6 +1,6 @@
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_AREN,
+    .paletteTag = 0xDB40,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
     .size = 512,
     .width = 16,
@@ -13,7 +13,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
-    .images = sPicTable_BrendanNormal,
+    .images = sPicTable_LaRosterBrendan,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = {
@@ -1584,7 +1584,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrBrineysBoat = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayNormal = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_ARIA,
+    .paletteTag = 0xDB40,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
     .size = 512,
     .width = 16,
@@ -1597,7 +1597,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayNormal = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
-    .images = sPicTable_MayNormal,
+    .images = sPicTable_LaRosterMay,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayMachBike = {
