@@ -1,4 +1,5 @@
 #include "global.h"
+#include "pokeride.h"
 #include "field_move.h"
 #include "main.h"
 #include "bike.h"
@@ -300,7 +301,7 @@ static const struct PACKED
 {
     u16 graphicsId;
     u8 playerFlag;
-} sPlayerAvatarGfxToStateFlag[GENDER_COUNT][5] =
+} sPlayerAvatarGfxToStateFlag[GENDER_COUNT][6] =
 {
     [MALE] =
     {
@@ -309,6 +310,7 @@ static const struct PACKED
         {PLAYER_AVATAR_GFX_MALE_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {PLAYER_AVATAR_GFX_MALE_SURFING,    PLAYER_AVATAR_FLAG_SURFING},
         {PLAYER_AVATAR_GFX_MALE_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_LA_BRENDAN_RIDING, PLAYER_AVATAR_FLAG_ON_FOOT},
     },
     [FEMALE] =
     {
@@ -317,6 +319,7 @@ static const struct PACKED
         {PLAYER_AVATAR_GFX_FEMALE_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {PLAYER_AVATAR_GFX_FEMALE_SURFING,        PLAYER_AVATAR_FLAG_SURFING},
         {PLAYER_AVATAR_GFX_FEMALE_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_LA_MAY_RIDING, PLAYER_AVATAR_FLAG_ON_FOOT},
     }
 };
 
@@ -891,6 +894,11 @@ static void PlayerNotOnBikeMoving(enum Direction direction, u16 heldKeys)
         }
     }
 
+    if (PokeRide_IsActive() && !IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior))
+    {
+        PlayerWalkFast(direction);
+        return;
+    }
     ResetSpinTimer(); // Everything below will move the player a space, reset the timer.
     gPlayerAvatar.creeping = FALSE;
     if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING)
@@ -1571,6 +1579,8 @@ u16 GetRivalAvatarGraphicsIdByStateIdAndGender(u8 state, enum Gender gender)
 
 u16 GetPlayerAvatarGraphicsIdByStateIdAndGender(u8 state, enum Gender gender)
 {
+    if (state == PLAYER_AVATAR_STATE_NORMAL && PokeRide_IsActive())
+        return PokeRide_PlayerGraphics(gender);
     return sPlayerAvatarGfxIds[state][gender];
 }
 
@@ -1593,6 +1603,7 @@ enum Gender GetPlayerAvatarGenderByGraphicsId(u16 gfxId)
 {
     switch (gfxId)
     {
+    case OBJ_EVENT_GFX_LA_MAY_RIDING:
     case OBJ_EVENT_GFX_MAY_NORMAL:
     case OBJ_EVENT_GFX_MAY_MACH_BIKE:
     case OBJ_EVENT_GFX_MAY_ACRO_BIKE:

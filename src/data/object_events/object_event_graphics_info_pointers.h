@@ -591,6 +591,8 @@ extern const struct ObjectEventGraphicsInfo gHnsRegionInfo_gObjectEventGraphicsI
 extern const struct ObjectEventGraphicsInfo gHnsRegionInfo_gObjectEventGraphicsInfo_Boy1;
 extern const struct ObjectEventGraphicsInfo gHnsRegionInfo_gObjectEventGraphicsInfo_Scott_hns;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanRiding;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayRiding;
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] = {
     [OBJ_EVENT_GFX_LA_GOLD_BALL] = &gAquasInfo_GoldBall,
     [OBJ_EVENT_GFX_LA_MEGA_STONE] = &gAquasInfo_MegaStone,
@@ -601,6 +603,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_LA_APRICORN_GREEN] = &gAquasInfo_ApricornGreen,
     [OBJ_EVENT_GFX_LA_APRICORN_PINK] = &gAquasInfo_ApricornPink,
     [OBJ_EVENT_GFX_LA_APRICORN_WHITE] = &gAquasInfo_ApricornWhite,
+    [OBJ_EVENT_GFX_LA_BRENDAN_RIDING] = &gObjectEventGraphicsInfo_BrendanRiding,
+    [OBJ_EVENT_GFX_LA_MAY_RIDING] = &gObjectEventGraphicsInfo_MayRiding,
     [OBJ_EVENT_GFX_LA_APRICORN_BLACK] = &gAquasInfo_ApricornBlack,
 
 /* LA_NPC_ROSTER_POINTERS_BEGIN */

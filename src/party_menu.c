@@ -16,6 +16,7 @@
 #include "event_data.h"
 #include "event_object_movement.h"
 #include "preferred_follower.h"
+#include "pokeride.h"
 #include "evolution_scene.h"
 #include "field_control_avatar.h"
 #include "field_effect.h"
@@ -116,6 +117,7 @@ enum {
     MENU_FIELD_SKILLS_BACK,
     MENU_FOLLOWER,
     MENU_FOLLOWER_SET,
+    MENU_RIDE,
     MENU_FOLLOWER_RECALL,
     MENU_FOLLOWER_AUTO,
     MENU_FIELD_MOVES
@@ -472,6 +474,7 @@ static void BlitBitmapToPartyWindow_RightColumn(u8, u8, u8, u8, u8, bool8);
 static void CursorCb_Summary(u8);
 static void CursorCb_Follower(u8);
 static void CursorCb_FollowerSet(u8);
+static void CursorCb_Ride(u8);
 static void CursorCb_FollowerRecall(u8);
 static void CursorCb_FollowerAuto(u8);
 static void CursorCb_Switch(u8);
@@ -8717,6 +8720,7 @@ static void CursorCb_Follower(u8 taskId)
     PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
     sPartyMenuInternal->numActions = 0;
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_SET);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_RIDE);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_RECALL);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_AUTO);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
@@ -8740,6 +8744,7 @@ static void CursorCb_FollowerSet(u8 taskId)
 }
 static void CursorCb_FollowerRecall(u8 taskId)
 {
+    PokeRide_Stop();
     PreferredFollower_Recall();
     FollowerMessage(taskId, COMPOUND_STRING("Your companion will stay in its Ball."));
 }
@@ -8859,4 +8864,11 @@ static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mo
     PrintBulkTrainingPrompt();
     gTasks[taskId].func = Task_BulkTrainingInput;
     return TRUE;
+}
+
+static void CursorCb_Ride(u8 taskId)
+{
+    bool32 mounted = PokeRide_Start(gPartyMenu.slotId);
+    FollowerMessage(taskId, mounted ? COMPOUND_STRING("Ready to ride! L+R dismounts outside.")
+        : COMPOUND_STRING("You can't ride this Pokémon here yet."));
 }

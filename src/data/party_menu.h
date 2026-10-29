@@ -797,6 +797,7 @@ struct
     [MENU_FIELD_SKILLS_NEXT] = {COMPOUND_STRING("NEXT PAGE"), CursorCb_FieldSkillsNext},
     [MENU_FIELD_SKILLS_BACK] = {COMPOUND_STRING("BACK"), CursorCb_FieldSkillsBack},
     [MENU_FOLLOWER]        = {COMPOUND_STRING("FOLLOWER"), CursorCb_Follower},
+    [MENU_RIDE]           = {COMPOUND_STRING("RIDE"), CursorCb_Ride},
     [MENU_FOLLOWER_SET]    = {COMPOUND_STRING("FOLLOW ME"), CursorCb_FollowerSet},
     [MENU_FOLLOWER_RECALL] = {COMPOUND_STRING("RECALL"), CursorCb_FollowerRecall},
     [MENU_FOLLOWER_AUTO]   = {COMPOUND_STRING("AUTOMATIC"), CursorCb_FollowerAuto},

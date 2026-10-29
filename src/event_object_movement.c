@@ -1,6 +1,7 @@
 #include "global.h"
 #include "hyper_assets.h"
 #include "preferred_follower.h"
+#include "pokeride.h"
 #include "malloc.h"
 #include "battle_anim.h"
 #include "battle_pyramid.h"
@@ -2426,6 +2427,8 @@ static bool8 GetMonInfo(struct Pokemon *mon, enum Species *species, bool32 *shin
 // Retrieve graphic information about the following Pokémon, if any
 bool8 GetFollowerInfo(enum Species *species, bool32 *shiny, bool32 *female)
 {
+    if (PokeRide_IsActive())
+        return FALSE;
     return GetMonInfo(GetFirstLiveMon(), species, shiny, female);
 }
 
@@ -6949,6 +6952,7 @@ u8 ObjectEventGetHeldMovementActionId(struct ObjectEvent *objectEvent)
 
 void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sprite *sprite, bool8 (*callback)(struct ObjectEvent *, struct Sprite *))
 {
+    PokeRide_BeforeMovement(objectEvent, sprite);
     DoGroundEffects_OnSpawn(objectEvent, sprite);
     TryEnableObjectEventAnim(objectEvent, sprite);
 
@@ -6962,6 +6966,7 @@ void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sp
     UpdateObjectEventSpriteAnimPause(objectEvent, sprite);
     UpdateObjectEventVisibility(objectEvent, sprite);
     ObjectEventUpdateSubpriority(objectEvent, sprite);
+    PokeRide_AfterMovement(objectEvent, sprite);
 }
 
 #define dirn_to_anim(name, table)\

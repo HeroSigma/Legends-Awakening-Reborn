@@ -1,4 +1,5 @@
 #include "global.h"
+#include "pokeride.h"
 #include "sprite.h"
 #include "main.h"
 #include "overworld.h"
@@ -275,6 +276,7 @@ EWRAM_DATA bool8 gAffineAnimsDisabled = FALSE;
 
 void ResetSpriteData(void)
 {
+    PokeRide_ResetSprites();
     ResetOamRange(0, 128);
     sOamDummyIndex = 0;
     ResetAllSprites();

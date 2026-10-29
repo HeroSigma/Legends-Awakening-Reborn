@@ -311,3 +311,10 @@ $(PKNAVOPTIONSGFXDIR)/options.4bpp: $(PKNAVOPTIONSGFXDIR)/hoenn_map.4bpp \
                                     $(PKNAVOPTIONSGFXDIR)/tough.4bpp \
                                     $(PKNAVOPTIONSGFXDIR)/cancel.4bpp
 	@cat $^ >$@
+
+# Seated rider sheets are nine separate 16x32 frames, not a single wide image.
+graphics/object_events/pics/people/brendan/riding.4bpp: graphics/object_events/pics/people/brendan/riding.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/object_events/pics/people/may/riding.4bpp: graphics/object_events/pics/people/may/riding.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

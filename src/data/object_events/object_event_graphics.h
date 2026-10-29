@@ -922,3 +922,6 @@ const u32 gAquasPic_ApricornWhite[] = INCGFX_U32("graphics/object_events/pics/aq
 const u16 gAquasPal_ApricornWhite[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_white.png", ".gbapal");
 const u32 gAquasPic_ApricornBlack[] = INCGFX_U32("graphics/object_events/pics/aquas/apricorn_black.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u16 gAquasPal_ApricornBlack[] = INCGFX_U16("graphics/object_events/pics/aquas/apricorn_black.png", ".gbapal");
+
+const u32 gObjectEventPic_BrendanRiding[] = INCBIN_U32("graphics/object_events/pics/people/brendan/riding.4bpp");
+const u32 gObjectEventPic_MayRiding[] = INCBIN_U32("graphics/object_events/pics/people/may/riding.4bpp");

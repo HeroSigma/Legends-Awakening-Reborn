@@ -1,4 +1,5 @@
 #include "global.h"
+#include "pokeride.h"
 #include "la_pc_features.h"
 #include "pokemon_storage_system.h"
 #include "hyper_sinnoh_climb.h"
@@ -168,6 +169,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     enum Direction playerDirection;
     u16 metatileBehavior;
 
+    PokeRide_ProcessInput(); // Dismounting is not a script and must not lock controls.
     gSpecialVar_LastTalked = LOCALID_NONE;
     gSelectedObjectEvent = 0;
 

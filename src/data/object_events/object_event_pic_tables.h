@@ -4502,3 +4502,27 @@ static const struct SpriteFrameImage sPicTable_LaRosterShadowTriad[] = {
     overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 8),
 };
 /* LA_NPC_ROSTER_PICTURES_END */
+
+static const struct SpriteFrameImage sPicTable_BrendanRiding[] = {
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_MayRiding[] = {
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 2),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 0),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 1),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 2),
+    overworld_frame(gObjectEventPic_MayRiding, 2, 4, 2),
+};
