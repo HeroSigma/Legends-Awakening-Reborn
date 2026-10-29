@@ -20,6 +20,7 @@ u32 GetNameboxWidth(void);
 void TrySpawnAndShowNamebox(const u8 *speaker, u32 tileNum);
 bool32 IsSpeakerBuffered(const u8 *str);
 void ApplySpeakerDialogueColor(void);
+void ApplySpeakerDialoguePalette(void);
 
 static inline void TrySpawnNamebox(const u8 *dialogue, u32 tileNum)
 {

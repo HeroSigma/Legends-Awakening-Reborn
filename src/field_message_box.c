@@ -37,6 +37,7 @@ static void Task_DrawFieldMessage(u8 taskId)
             LoadSignPostWindowFrameGfx();
         else
             LoadMessageBoxAndBorderGfx();
+        ApplySpeakerDialoguePalette();
         task->tState++;
         break;
     case 1:

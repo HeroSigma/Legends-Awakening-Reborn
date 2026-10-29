@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 19,
-  "rom_sha256": "f71ce1671374a285a6d1d640ed29fcfedbfd6981ed54a42fc97970431f19c669",
+  "assertions": 59,
+  "rom_sha256": "bd3f5a3a407bcc06797da733ee595222d7ac40413d320a43474f4f6143a65fde",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -60,11 +60,171 @@
       "passed": true
     },
     {
+      "test": "opens_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "faction_index_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_ROCKET",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_ROCKET",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_ROCKET",
+      "passed": true
+    },
+    {
       "test": "opens_AQUA_GRUNT",
       "passed": true
     },
     {
-      "test": "color_AQUA_GRUNT",
+      "test": "faction_index_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "opens_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "faction_index_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "opens_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "opens_AETHER_FOUNDATION",
+      "passed": true
+    },
+    {
+      "test": "faction_index_AETHER_FOUNDATION",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_AETHER_FOUNDATION",
       "passed": true
     },
     {

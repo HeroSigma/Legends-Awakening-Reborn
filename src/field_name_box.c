@@ -14,6 +14,8 @@
 #include "event_data.h"
 #include "match_call.h"
 #include "malloc.h"
+#include "palette.h"
+#include "constants/rgb.h"
 #include "constants/speaker_names.h"
 #include "data/speaker_names.h"
 
@@ -229,11 +231,59 @@ bool32 IsSpeakerBuffered(const u8 *str)
     return res;
 }
 
+// One reserved foreground slot is refreshed after the dialogue frame palette loads.
+// This leaves the border, namebox, shadow and authored color controls intact.
+static const struct {
+    u16 speaker;
+    u16 color;
+} sFactionDialogueColors[] = {
+    {SP_NAME_GIOVANNI, RGB(22, 3, 6)},
+    {SP_NAME_TEAM_ROCKET, RGB(22, 3, 6)},
+    {SP_NAME_AQUA_GRUNT, RGB(3, 8, 23)},
+    {SP_NAME_TEAM_AQUA, RGB(3, 8, 23)},
+    {SP_NAME_TEAM_MAGMA, RGB(23, 8, 2)},
+    {SP_NAME_CYRUS, RGB(15, 5, 23)},
+    {SP_NAME_TEAM_GALACTIC, RGB(15, 5, 23)},
+    {SP_NAME_SHADOW_TRIAD, RGB(6, 12, 17)},
+    {SP_NAME_TEAM_PLASMA, RGB(6, 12, 17)},
+    {SP_NAME_TEAM_FLARE, RGB(26, 5, 2)},
+    {SP_NAME_TEAM_SKULL, RGB(5, 5, 7)},
+    {SP_NAME_TEAM_YELL, RGB(23, 3, 14)},
+    {SP_NAME_TEAM_STAR, RGB(17, 10, 2)},
+    {SP_NAME_AETHER_FOUNDATION, RGB(2, 15, 13)},
+};
+
+static bool32 GetFactionDialogueColor(u16 *color)
+{
+    for (u32 i = 0; i < ARRAY_COUNT(sFactionDialogueColors); i++)
+    {
+        if (gSpeakerName == gSpeakerNamesTable[sFactionDialogueColors[i].speaker])
+        {
+            *color = sFactionDialogueColors[i].color;
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
+void ApplySpeakerDialoguePalette(void)
+{
+    u16 color;
+    if (gStringVar4[0] == EXT_CTRL_CODE_BEGIN
+        && gStringVar4[1] == EXT_CTRL_CODE_COLOR
+        && gStringVar4[2] == TEXT_DYNAMIC_COLOR_1
+        && GetFactionDialogueColor(&color))
+        LoadPalette(&color, BG_PLTT_ID(GetWindowAttribute(0, WINDOW_PALETTE_NUM)) + TEXT_DYNAMIC_COLOR_1, sizeof(color));
+}
+
 // Character defaults apply to ordinary field dialogue; explicit script colors win.
 void ApplySpeakerDialogueColor(void)
 {
     u8 color = TEXT_COLOR_DARK_GRAY;
-    if (gSpeakerName == gSpeakerNamesTable[SP_NAME_PLAYER])
+    u16 factionColor;
+    if (GetFactionDialogueColor(&factionColor))
+        color = TEXT_DYNAMIC_COLOR_1;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_PLAYER])
         color = TEXT_COLOR_LIGHT_BLUE;
     else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_WALLY])
         color = TEXT_COLOR_LIGHT_GREEN;
@@ -242,8 +292,7 @@ void ApplySpeakerDialogueColor(void)
     else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_RED]
           || gSpeakerName == gSpeakerNamesTable[SP_NAME_MAY])
         color = TEXT_COLOR_RED;
-    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_AQUA_GRUNT]
-          || gSpeakerName == gSpeakerNamesTable[SP_NAME_BRINEY])
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_BRINEY])
         color = TEXT_COLOR_BLUE;
 
     if (color == TEXT_COLOR_DARK_GRAY
