@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "assertions": 48,
+  "rom_sha256": "30b843aae97d001c5de5fbb26ff6e63716a1e9752ea6fac2d47ac5278ebae657",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 3)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 3)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 3)",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 4)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 4)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 4)",
+      "passed": true
+    },
+    {
+      "test": "choose_(0, 5)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(0, 5)",
+      "passed": true
+    },
+    {
+      "test": "species_(0, 5)",
+      "passed": true
+    },
+    {
+      "test": "sneasler_after_swap_0",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "load_0",
+      "passed": true
+    },
+    {
+      "test": "sneasler_after_reload_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 3)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 3)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 3)",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 4)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 4)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 4)",
+      "passed": true
+    },
+    {
+      "test": "choose_(1, 5)",
+      "passed": true
+    },
+    {
+      "test": "exact_slot_(1, 5)",
+      "passed": true
+    },
+    {
+      "test": "species_(1, 5)",
+      "passed": true
+    },
+    {
+      "test": "sneasler_after_swap_1",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "load_1",
+      "passed": true
+    },
+    {
+      "test": "sneasler_after_reload_1",
+      "passed": true
+    }
+  ]
+}
