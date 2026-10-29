@@ -230,6 +230,17 @@ const struct FieldEffectInfoOWE gOverworldWildEncounterFieldEffectInfo[] =
 };
 
 
+// Leave room for followers, trainers and scripted actors on crowded maps.
+bool32 HasRoomForGeneratedOWE(void)
+{
+    u32 freeSlots = 0;
+    for (u32 i = 0; i < OBJECT_EVENTS_COUNT; i++)
+        if (!gObjectEvents[i].active)
+            freeSlots++;
+    return freeSlots > OWE_RESERVED_OBJECT_SLOTS
+        && GetNumberOfActiveOWEs(OWE_GENERATED) < OWE_VISIBLE_LIMIT;
+}
+
 void UpdateOverworldWildEncounter(void)
 {
     //Check if possible to spawn.
@@ -272,6 +283,12 @@ void UpdateOverworldWildEncounter(void)
 
     // Check for a valid tile.
 
+    if (!HasRoomForGeneratedOWE())
+    {
+        SetMinimumOWESpawnTimer();
+        return;
+    }
+
     u32 spawnSlot = GetNextOWESpawnSlot();
     s32 x, y;
     if (spawnSlot == OWE_INVALID_SPAWN_SLOT
@@ -313,11 +330,12 @@ void UpdateOverworldWildEncounter(void)
     };
     u32 objectEventId = GetObjectEventIdByLocalId(infoOWE.localId);
     struct ObjectEvent *owe = &gObjectEvents[objectEventId];
-    if (ShouldDespawnGeneratedForNewOWE(owe))
+    if (objectEventId < OBJECT_EVENTS_COUNT && ShouldDespawnGeneratedForNewOWE(owe))
         RemoveObjectEvent(owe);
     objectEventId = SpawnSpecialObjectEvent(&objectEventTemplate);
 
-    assertf(objectEventId < OBJECT_EVENTS_COUNT, "could not spawn generated overworld encounter. too many object events exist")
+    // Object/sprite exhaustion is an ordinary skipped spawn, not a fatal assertion.
+    if (objectEventId >= OBJECT_EVENTS_COUNT)
     {
         SetMinimumOWESpawnTimer();
         return;

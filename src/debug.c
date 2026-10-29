@@ -3722,6 +3722,14 @@ u32 Debug_FillBagCategory(u32 category)
 {
     u32 added=0;
     for(u32 item=1;item<ITEMS_COUNT;item++) {
+        // Reserved TM numbers have no move and render as "No00 -".
+        // Also clean up copies added by older Fill Bag builds.
+        if (GetItemPocket(item) == POCKET_TM_HM && GetItemTMHMMoveId(item) == MOVE_NONE)
+        {
+            u32 quantity = CountTotalItemQuantityInBag(item);
+            if (quantity) RemoveBagItem(item, quantity);
+            continue;
+        }
         if(category<BAG_CATEGORIES_COUNT && GetItemBagCategory(item)!=category)continue;
         u32 target=(GetItemImportance(item) || GetItemPocket(item)==POCKET_TM_HM)?1:MAX_BAG_ITEM_CAPACITY;
         u32 owned=CountTotalItemQuantityInBag(item);

@@ -4,7 +4,7 @@ R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
 D=R/'.la_work/debug-fill-tests';D.mkdir(exist_ok=True)
 import tempfile,struct
-names=['ITEMS_COUNT','NUM_SPECIES','MON_DATA_SPECIES','MON_DATA_SANITY_HAS_SPECIES','ITEM_POTION','ITEM_STELLAR_TERA_SHARD','ITEM_CHARIZARDITE_X','ITEM_MACH_BIKE','BAG_CATEGORIES_COUNT','BAG_EQUIPMENT','offsetof(struct SaveBlock1,bag)','sizeof(struct Bag)','offsetof(struct BagPosition,pocket)','offsetof(struct BagMenu,numItemStacks)']
+names=['ITEM_TM51','ITEM_TM100','ITEMS_COUNT','NUM_SPECIES','MON_DATA_SPECIES','MON_DATA_SANITY_HAS_SPECIES','ITEM_POTION','ITEM_STELLAR_TERA_SHARD','ITEM_CHARIZARDITE_X','ITEM_MACH_BIKE','BAG_CATEGORIES_COUNT','BAG_EQUIPMENT','offsetof(struct SaveBlock1,bag)','sizeof(struct Bag)','offsetof(struct BagPosition,pocket)','offsetof(struct BagMenu,numItemStacks)']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "item_menu.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -18,6 +18,7 @@ def flash():
   invoke('ReadFlash',sector,0,symbols['gSaveDataBuffer'],4096)
   image.extend(rd(symbols['gSaveDataBuffer']+i,1) for i in range(4096))
  return bytes(image)
+invalid=set(range(c['ITEM_TM51'],c['ITEM_TM100']+1))
 for mode in [0,1]:
  start(0);invoke('StorageChangeMode',mode,1)
  # Manufacture an old-format bag and save with the retained legacy writer.
@@ -29,14 +30,15 @@ for mode in [0,1]:
  check('legacy_reload_'+str(mode),invoke('LoadGameSave',0)==1)
  check('legacy_migrated_'+str(mode),invoke('ExpandedBag_Active')==1)
  check('legacy_quantities_'+str(mode),qty(c['ITEM_POTION'])==12 and qty(c['ITEM_CHARIZARDITE_X'])==3)
- check('fill_all_'+str(mode),invoke('Debug_FillBagCategory',c['BAG_CATEGORIES_COUNT'])==c['ITEMS_COUNT']-1)
+ check('fill_all_'+str(mode),invoke('Debug_FillBagCategory',c['BAG_CATEGORIES_COUNT'])==c['ITEMS_COUNT']-1-len(invalid))
  counts={i:invoke('BagCategory_Count',i) for i in range(c['BAG_CATEGORIES_COUNT'])}
- check('all_items_have_home_'+str(mode),sum(counts.values())==c['ITEMS_COUNT']-1)
+ check('all_items_have_home_'+str(mode),sum(counts.values())==c['ITEMS_COUNT']-1-len(invalid))
  expected={}
  for item in range(1,c['ITEMS_COUNT']):
   target=1 if invoke('GetItemImportance',item) or invoke('GetItemPocket',item)==2 else 999
   # Existing quantities of an important item are never reduced.
   target=max(target,3 if item==c['ITEM_CHARIZARDITE_X'] else 0)
+  if item in invalid:target=0
   expected[item]=target
   check('full_quantity_'+str((mode,item)),qty(item)==target)
  check('repeat_fill_no_duplicates_'+str(mode),invoke('Debug_FillBagCategory',c['BAG_CATEGORIES_COUNT'])==0)
@@ -88,7 +90,7 @@ for mode in [0,1]:
 start(0);invoke('StorageChangeMode',1,1);invoke('ClearBag')
 invoke('Debug_ShowMainMenu');frames(30)
 tap(128);tap(1);frames(20);tap(128);tap(1);frames(20);tap(1);frames(180)
-check('debug_menu_fill_bag',sum(invoke('BagCategory_Count',i) for i in range(c['BAG_CATEGORIES_COUNT']))==c['ITEMS_COUNT']-1)
+check('debug_menu_fill_bag',sum(invoke('BagCategory_Count',i) for i in range(c['BAG_CATEGORIES_COUNT']))==c['ITEMS_COUNT']-1-len(invalid))
 for _ in range(9):tap(128)
 tap(1);frames(240)
 check('debug_menu_fill_pc',invoke('CountStorageNonEggMons')>1000)

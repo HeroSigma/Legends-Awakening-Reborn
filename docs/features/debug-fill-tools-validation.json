@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 7120,
-  "rom_sha256": "ba325a7a36bef62f1ae95a03b1367413417f7013d443875f46592e7c9729faf1",
+  "assertions": 7124,
+  "rom_sha256": "2425dd3c406192b05f3c763a4f184f558f71601d79ee6b4da37e6589840fa035",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -3525,6 +3525,10 @@
     },
     {
       "test": "full_quantity_(0, 873)",
+      "passed": true
+    },
+    {
+      "test": "full_quantity_(0, 874)",
       "passed": true
     },
     {
@@ -7064,6 +7068,10 @@
       "passed": true
     },
     {
+      "test": "loaded_quantity_(0, 874)",
+      "passed": true
+    },
+    {
       "test": "profile_unchanged_0",
       "passed": true
     },
@@ -10600,6 +10608,10 @@
       "passed": true
     },
     {
+      "test": "full_quantity_(1, 874)",
+      "passed": true
+    },
+    {
       "test": "repeat_fill_no_duplicates_1",
       "passed": true
     },
@@ -14109,6 +14121,10 @@
     },
     {
       "test": "loaded_quantity_(1, 873)",
+      "passed": true
+    },
+    {
+      "test": "loaded_quantity_(1, 874)",
       "passed": true
     },
     {
