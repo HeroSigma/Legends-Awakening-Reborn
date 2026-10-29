@@ -2015,22 +2015,10 @@ MatchCall_BattlePyramidText14::
 	.string "See you again!$"
 
 MatchCall_Text_Mom1::
-	.string "MOM: Your father and you…\n"
-	.string "Everyone is captivated by POKéMON.\p"
-	.string "What is the charm of POKéMON?\p"
-	.string "Me?\n"
-	.string "I adore POKéMON that help me with\l"
-	.string "my everyday chores.$"
+	.string "ELARA: You sound busy, {PLAYER}!\nAre your POKéMON keeping you company?\pTake good care of each other.\nAnd remember to get some rest.$"
 
 MatchCall_Text_Mom2::
-	.string "MOM: Hi, {PLAYER}!\n"
-	.string "Your father keeps himself locked\l"
-	.string "away in the PETALBURG GYM.\p"
-	.string "He comes home every so often.\n"
-	.string "But he goes back to the GYM when\l"
-	.string "he's eaten everything he can.\p"
-	.string "I'm guessing that losing to you\n"
-	.string "was a big blow to his pride!$"
+	.string "ELARA: I heard you beat NORMAN!\nYou've worked hard to get this far.\pI'm glad he's been looking out\nfor you on your journey.\pCome home when you have a chance.\nI'd love to hear all about it.$"
 
 MatchCall_Text_Mom3::
 	.string "MOM: {PLAYER}…\n"
@@ -2710,23 +2698,17 @@ MatchCall_Text_Scott7::
 	.string "the POKéNAV's service area…$"
 
 MatchCall_Text_Norman1::
-	.string "DAD: In RUSTBORO, there's a man\n"
+	.string "NORMAN: In RUSTBORO, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the CUTTER.\p"
 	.string "If you're in the area, you should\n"
 	.string "pay him a visit.$"
 
 MatchCall_Text_Norman2::
-	.string "DAD: Hm… Little by little, but also\n"
-	.string "very surely, you're getting\l"
-	.string "tougher, {PLAYER}.\p"
-	.string "The stronger you get, the farther\n"
-	.string "and higher you soar from Mother\l"
-	.string "and me…\p"
-	.string "This feeling is hard to explain.$"
+	.string "NORMAN: You're growing stronger,\n{PLAYER}. Your training is paying off.\pKeep learning from your partners.\nThere's no need to rush your journey.$"
 
 MatchCall_Text_Norman3::
-	.string "DAD: I see…\n"
+	.string "NORMAN: I see…\n"
 	.string "You've collected four GYM BADGES…\p"
 	.string "There's no avoiding it now.\n"
 	.string "We will battle like I promised.\p"
@@ -2734,35 +2716,30 @@ MatchCall_Text_Norman3::
 	.string "We'll all be waiting for you!$"
 
 MatchCall_Text_Norman4::
-	.string "DAD: {PLAYER}! You'd better go visit\n"
-	.string "Mother every so often.\p"
-	.string "I'm going to remain here and\n"
-	.string "redouble my training.\p"
-	.string "The way of battling is deep\n"
-	.string "and unforgiving!$"
+	.string "NORMAN: Keep in touch with ELARA.\nShe'll want to know you're safe.\pI'll be here at the GYM, training.\nI look forward to our next battle.$"
 
 MatchCall_Text_Norman5::
-	.string "DAD: Oh, hi, {PLAYER}!\p"
+	.string "NORMAN: Oh, hi, {PLAYER}!\p"
 	.string "What's that? MAGMA EMBLEM?\n"
 	.string "I don't know what that's about.\p"
 	.string "But with a name like that, it may\n"
 	.string "be somehow linked to a volcano!$"
 
 MatchCall_Text_Norman_Preparing::
-	.string "DAD: Hiyah! Haah! Dwah!\p"
+	.string "NORMAN: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a POKéMON training session!$"
 
 MatchCall_Text_Norman_PreparingPostGame::
-	.string "DAD: {PLAYER}!\p"
+	.string "NORMAN: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
 	.string "the POKéMON LEAGUE CHAMPION…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
 MatchCall_Text_Norman_RematchReady::
-	.string "DAD: Hm? {PLAYER}?\n"
+	.string "NORMAN: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
@@ -2770,7 +2747,7 @@ MatchCall_Text_Norman_RematchReady::
 	.string "Accept my challenge anytime!$"
 
 MatchCall_Text_Norman_PostRematch::
-	.string "DAD: …You amaze me, {PLAYER}.\n"
+	.string "NORMAN: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
 MatchCall_Text_Steven1::
@@ -2898,19 +2875,10 @@ MatchCall_Text_MrStone4::
 	.string "own convenience.$"
 
 MatchCall_Text_MrStone5::
-	.string "MR. STONE: Hello, hello, {PLAYER}{KUN}!\p"
-	.string "I heard from someone in PETALBURG\n"
-	.string "that you're NORMAN's child!\p"
-	.string "No wonder you're such a capable\n"
-	.string "being!$"
+	.string "MR. STONE: Hello, {PLAYER}!\nNORMAN spoke highly of you.\pHe seems pleased with your progress.\nYou've earned his confidence.$"
 
 MatchCall_Text_MrStone6::
-	.string "MR. STONE: What's that?\p"
-	.string "You battled your own father and\n"
-	.string "defeated him?\p"
-	.string "That's astounding!\p"
-	.string "I had no idea that I befriended\n"
-	.string "someone so special! Wahaha!$"
+	.string "MR. STONE: You defeated NORMAN?\nThat's quite an accomplishment!\pHis GYM tests even capable TRAINERS.\nYou and your partners should be proud.$"
 
 MatchCall_Text_MrStone7::
 	.string "Hello!\n"

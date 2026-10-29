@@ -77,24 +77,10 @@ Route105_EventScript_AndresRematch::
 	end
 
 Route104_Text_DadPokenavCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "DAD: Oh, {PLAYER}?\p"
-	.string "… … … … … …\n"
-	.string "Where are you now?\l"
-	.string "It sounds windy wherever you are.\p"
-	.string "I just heard from DEVON's MR. STONE\n"
-	.string "about your POKéNAV, so I decided\l"
-	.string "to give you a call.\p"
-	.string "It sounds like you're doing fine,\n"
-	.string "so that's fine with me.\p"
-	.string "You take care now.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "NORMAN: {PLAYER}? It's NORMAN.\nCan you hear me over the wind?\pMR. STONE passed along your number.\nI hear you're heading to DEWFORD.\pBIRCH told me about the research\nyou helped recover in RUSTBORO.\pLet STEVEN examine the evidence.\nPlease don't follow a rift alone.\pYou're making good progress.\nTake care of yourself and your team.$"
 
 Route104_Text_RegisteredDadInPokenav:
-	.string "Registered DAD NORMAN\n"
-	.string "in the POKéNAV.$"
+	.string "Registered NORMAN\nin the POKéNAV.$"
 
 @ Project-owned reservation; no donor gameplay, flags or warp destination.
 Route105_EventScript_HyperConstruction_Corridor1::

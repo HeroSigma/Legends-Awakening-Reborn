@@ -9,3 +9,7 @@ After the PokéNav tutorial call to Stone, the departing scientist invites the p
 ## Next: Slateport museum
 
 Barry enters looking for a public phone, impatiently bypassing the queue without realizing the people waiting are Aqua. He helps defend Stern. Check for a usable Barry back sprite before choosing an ally double battle; otherwise stage separate simultaneous singles. Barry does not know he is in Hoenn. After combat he mentions Twinleaf/Sinnoh; the player tells him this is Slateport, Hoenn. He is shocked and recalls strange light near Pastoria. Before the player can explain the rifts, Barry rushes off looking for a phone. Player thinks: “I bet that's how he got caught up in all this...” Do not implement the museum in this Rustboro change.
+
+## Norman continuity correction
+
+The PokéNav contact and boat-call registration display NORMAN, with contact IDs and unlock flags unchanged for existing saves. The first Dewford boat call references Stone, Birch and the recovered research; Norman is an established ally, not the player's father. Later Norman, Elara and Stone calls no longer imply that relationship. The shared TV label also displays NORMAN, and the field-item reminder uses the player's thoughts. Internal legacy Dad labels remain to avoid unrelated script churn.
