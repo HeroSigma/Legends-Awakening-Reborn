@@ -870,6 +870,18 @@ static u8 GetBattleEnvironmentByMapScene(u8 mapBattleScene)
     return BATTLE_ENVIRONMENT_PLAIN;
 }
 
+// Background-only adaptation of Kasenn's battle-dns palette integration.
+// Start from source colors on every load so restores cannot compound the tint.
+void LoadBattleTimePalette(const void *palette)
+{
+    LoadPalette(palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+    if (!MapHasNaturalLight(gMapHeader.mapType))
+        return;
+    TimeMixPalettes((1 << 2) | (1 << 3) | (1 << 4), gPlttBufferUnfaded,
+        gPlttBufferFaded, &gTimeBlend.startBlend, &gTimeBlend.endBlend, gTimeBlend.weight);
+    CpuCopy16(&gPlttBufferFaded[BG_PLTT_ID(2)], &gPlttBufferUnfaded[BG_PLTT_ID(2)], 3 * PLTT_SIZE_4BPP);
+}
+
 // Loads the initial battle environment.
 static void LoadBattleEnvironmentGfx(u16 environment)
 {
@@ -878,7 +890,7 @@ static void LoadBattleEnvironmentGfx(u16 environment)
     // Copy to bg3
     DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tileset, (void *)(BG_CHAR_ADDR(2)));
     DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tilemap, (void *)(BG_SCREEN_ADDR(26)));
-    LoadPalette(gBattleEnvironmentInfo[environment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+    LoadBattleTimePalette(gBattleEnvironmentInfo[environment].palette);
 }
 
 // Loads the entry associated with the battle environment.
@@ -1344,7 +1356,7 @@ bool8 LoadChosenBattleElement(u8 caseId)
         DecompressDataWithHeaderVram(gBattleEnvironmentInfo[GetBattleEnvironmentOverride()].background.tilemap, (void *)(BG_SCREEN_ADDR(26)));
         break;
     case 5:
-        LoadPalette(gBattleEnvironmentInfo[GetBattleEnvironmentOverride()].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+        LoadBattleTimePalette(gBattleEnvironmentInfo[GetBattleEnvironmentOverride()].palette);
         break;
     case 6:
         LoadBattleMenuWindowGfx();
