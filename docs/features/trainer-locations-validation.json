@@ -1,0 +1,3271 @@
+{
+  "passed": true,
+  "assertions": 816,
+  "rom_sha256": "99e5f3588c9ec0344d1bb800b10d22ce1820c44b1e96e13f01c038e341b2b589",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_ROCK",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOSH', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOSH', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JOSH",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JOSH",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TOMMY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TOMMY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_TOMMY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_TOMMY",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARC', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARC', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_MARC",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_MARC",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_FIGHTING",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TAKAO', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TAKAO', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_TAKAO",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_TAKAO",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JOCELYN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JOCELYN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JOCELYN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JOCELYN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LAURA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LAURA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_LAURA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_LAURA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRENDEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRENDEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BRENDEN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BRENDEN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_LILITH', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_LILITH', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_LILITH",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_LILITH",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISTIAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISTIAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_CRISTIAN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_CRISTIAN",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_ELECTRIC",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KIRK', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KIRK', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_KIRK",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_KIRK",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SHAWN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SHAWN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_SHAWN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_SHAWN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BEN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BEN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIVIAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIVIAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_VIVIAN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_VIVIAN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANGELO', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANGELO', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ANGELO",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ANGELO",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_FIRE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_COLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_COLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_COLE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_COLE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JEFF', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JEFF', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JEFF",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JEFF",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_AXLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_AXLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_AXLE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_AXLE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JACE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JACE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JACE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JACE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KEEGAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KEEGAN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_KEEGAN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_KEEGAN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ELI', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ELI', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ELI",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ELI",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GERALD', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GERALD', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_GERALD",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_GERALD",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DANIELLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DANIELLE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_DANIELLE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_DANIELLE",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_NORMAL",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_RANDALL', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_RANDALL', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_RANDALL",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_RANDALL",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PARKER', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PARKER', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_PARKER",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_PARKER",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_GEORGE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_GEORGE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_GEORGE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_GEORGE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BERKE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BERKE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BERKE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BERKE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MARY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MARY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_MARY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_MARY",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ALEXIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ALEXIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ALEXIA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ALEXIA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JODY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JODY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JODY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JODY",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_FLYING",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_JARED', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_JARED', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_JARED",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_JARED",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HUMBERTO', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HUMBERTO', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_HUMBERTO",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_HUMBERTO",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_EDWARDO', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_EDWARDO', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_EDWARDO",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_EDWARDO",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_FLINT', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_FLINT', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_FLINT",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_FLINT",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ASHLEY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ASHLEY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ASHLEY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ASHLEY",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DARIUS', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DARIUS', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_DARIUS",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_DARIUS",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_PSYCHIC",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_PRESTON', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_PRESTON', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_PRESTON",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_PRESTON",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_VIRGIL', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_VIRGIL', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_VIRGIL",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_VIRGIL",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BLAKE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BLAKE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BLAKE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BLAKE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_HANNAH', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_HANNAH', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_HANNAH",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_HANNAH",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SAMANTHA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SAMANTHA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_SAMANTHA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_SAMANTHA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MAURA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MAURA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_MAURA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_MAURA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_SYLVIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_SYLVIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_SYLVIA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_SYLVIA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NATE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NATE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_NATE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_NATE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_KATHLEEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_KATHLEEN', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_KATHLEEN",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_KATHLEEN",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CLIFFORD', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CLIFFORD', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_CLIFFORD",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_CLIFFORD",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_NICHOLAS', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_NICHOLAS', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_NICHOLAS",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_NICHOLAS",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_MACEY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_MACEY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_MACEY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_MACEY",
+      "passed": true
+    },
+    {
+      "test": "gym_has_students_WATER",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_DAPHNE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_DAPHNE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_DAPHNE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_DAPHNE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIANNA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIANNA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BRIANNA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BRIANNA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CONNIE', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CONNIE', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_CONNIE",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_CONNIE",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BRIDGET', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BRIDGET', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BRIDGET",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BRIDGET",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_OLIVIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_OLIVIA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_OLIVIA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_OLIVIA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_TIFFANY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_TIFFANY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_TIFFANY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_TIFFANY",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_BETHANY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_BETHANY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_BETHANY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_BETHANY",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANNIKA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANNIKA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ANNIKA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ANNIKA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_ANDREA', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_ANDREA', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_ANDREA",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_ANDREA",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 0)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 1)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 2)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 3)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 4)",
+      "passed": true
+    },
+    {
+      "test": "gym_type_('TRAINER_CRISSY', 5)",
+      "passed": true
+    },
+    {
+      "test": "legal_gym_member_('TRAINER_CRISSY', 5)",
+      "passed": true
+    },
+    {
+      "test": "student_no_format_choice_TRAINER_CRISSY",
+      "passed": true
+    },
+    {
+      "test": "student_no_shiny_ace_TRAINER_CRISSY",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_COLE",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_AXLE",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_KEEGAN",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_DANIELLE",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_GERALD",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_JACE",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_JEFF",
+      "passed": true
+    },
+    {
+      "test": "buried_fire_trainer_TRAINER_ELI",
+      "passed": true
+    }
+  ]
+}

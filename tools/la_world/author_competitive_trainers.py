@@ -84,6 +84,74 @@ BOSSES={
 'LEAF':('CLEFABLE NINETALES KANGASKHAN GYARADOS VICTREEBEL VENUSAUR','balance',75),
 }
 BOSSES['WATTSON']=('GALVANTULA LANTURN MAGNEZONE ROTOM EELEKTROSS MANECTRIC','balance',26)
+# Map context takes priority over a generic class identity for Gym students.
+GYM_CORES={
+ 'rock':('GOLEM ONIX PROBOPASS RHYDON CRADILY ARMALDO','sand'),
+ 'fighting':('MACHAMP MEDICHAM HERACROSS SCRAGGY HITMONTOP HARIYAMA','balance'),
+ 'electric':('RAICHU LANTURN MAGNEZONE ROTOM EELEKTROSS MANECTRIC','balance'),
+ 'fire':('TORKOAL NINETALES MAGCARGO HOUNDOOM TALONFLAME CAMERUPT','sun'),
+ 'normal':('LINOONE STOUTLAND FURRET PERSIAN TAUROS SLAKING','balance'),
+ 'flying':('PELIPPER SKARMORY SWELLOW NOCTOWL TROPIUS ALTARIA','rain'),
+ 'psychic':('BRONZONG CLAYDOL XATU SLOWBRO LUNATONE SOLROCK','trick'),
+ 'water':('PELIPPER LUDICOLO GASTRODON TENTACRUEL GYARADOS KINGDRA','rain'),
+ 'grass':('ROSERADE VILEPLUME BRELOOM TANGROWTH VICTREEBEL LILLIGANT','balance'),
+ 'poison':('CROBAT WEEZING MUK VENOMOTH TENTACRUEL DRAPION','balance'),
+ 'ground':('SANDSLASH RHYDON CLAYDOL MUDSDALE QUAGSIRE EXCADRILL','sand'),
+ 'bug':('BUTTERFREE BEEDRILL ARIADOS SCIZOR HERACROSS FORRETRESS','balance'),
+ 'ghost':('GENGAR MISMAGIUS BANETTE DUSCLOPS COFAGRIGUS SPIRITOMB','trick'),
+ 'steel':('MAGNEZONE STEELIX SKARMORY AGGRON FORRETRESS BRONZONG','balance'),
+ 'ice':('ABOMASNOW DEWGONG PILOSWINE JYNX GLALIE WALREIN','snow'),
+ 'dragon':('ALTARIA KINGDRA DRUDDIGON FLYGON HAXORUS SALAMENCE','balance'),
+}
+GYM_LOCATIONS={
+ 'RustboroCity_Gym':'rock','DewfordTown_Gym':'fighting','MauvilleCity_Gym':'electric',
+ 'LavaridgeTown_Gym':'fire','PetalburgCity_Gym':'normal','FortreeCity_Gym':'flying',
+ 'MossdeepCity_Gym':'psychic','SootopolisCity_Gym':'water',
+ 'PewterCity_Gym':'rock','CeruleanCity_Gym':'water','VermilionCity_Gym':'electric',
+ 'CeladonCity_Gym':'grass','FuchsiaCity_Gym':'poison','SaffronCity_Gym':'psychic',
+ 'CinnabarIsland_Gym':'fire','SeafoamIslands_Gym':'fire','ViridianCity_Gym':'ground',
+ 'VioletCity_Gym':'flying','AzaleaTown_Gym':'bug','GoldenrodCity_Gym':'normal',
+ 'EcruteakCity_Gym':'ghost','CianwoodGym':'fighting','OlivineCity_Gym':'steel',
+ 'MahoganyTown_Gym':'ice','BlackthornCity_Gym':'dragon',
+}
+BIOME_CORES={
+ 'forest':('BUTTERFREE BEEDRILL BRELOOM ROSERADE SHIFTRY MASQUERAIN','balance'),
+ 'cave':('GOLEM GOLBAT SABLEYE PROBOPASS EXCADRILL AGGRON','balance'),
+ 'mountain':('GOLEM SKARMORY MUDSDALE MACHAMP ALTARIA CAMERUPT','balance'),
+ 'coast':('PELIPPER LANTURN TENTACRUEL GASTRODON FLOATZEL LUDICOLO','rain'),
+ 'desert':('SANDSLASH CACTURNE FLYGON CLAYDOL KROOKODILE MARACTUS','sand'),
+ 'volcanic':('TORKOAL MAGCARGO CAMERUPT WEEZING SANDSLASH SKARMORY','sun'),
+}
+def location_theme(name):
+ for gym,theme in GYM_LOCATIONS.items():
+  if name.startswith(gym) or name.startswith('Kanto_'+gym) or name.startswith('HnS_'+gym) or name.startswith('HnSTest_'+gym):return 'gym:'+theme
+ if any(x in name for x in ['Woods','Forest','SafariZone']):return 'forest'
+ if name.startswith('Route111_Desert'):return 'desert'
+ if any(x in name for x in ['FieryPath','MtChimney','JaggedPass','Route113']):return 'volcanic'
+ if any(x in name for x in ['MtPyre','MeteorFalls','VictoryRoad','MtSilver','MtEmber']):return 'mountain'
+ if any(x in name for x in ['Cave','Tunnel']):return 'cave'
+ if name in ['Route105','Route106','Route107','Route108','Route109','Route124','Route125','Route126','Route127','Route128','Route129','Route130','Route131','Route132','Route133','Route134','DewfordTown']:return 'coast'
+ return None
+locations={}
+for path in sorted((R/'data/maps').glob('*/scripts.inc')):
+ theme=location_theme(path.parent.name)
+ if not theme:continue
+ for tid in set(tid for line in re.findall(r'^\s*trainerbattle_\w+[^\n]*',path.read_text(),re.M) for tid in re.findall(r'\bTRAINER_\w+',line)):
+  locations.setdefault(tid,[]).append((path.parent.name,theme))
+LOCATION_CLASSES={'Youngster','Lass','School Kid','Camper','Picnicker','Cooltrainer','Cooltrainer 2','Pkmn Ranger','Hiker','Bug Catcher','Bug Maniac','Ruin Maniac','Ninja Boy','Bird Keeper','Fisherman','Swimmer M','Swimmer F','Sailor','Black Belt','Battle Girl','Hex Maniac','Psychic','Tuber M','Tuber F'}
+def context_core(key,cls):
+ sources=locations.get(key,[])
+ gyms={theme for _,theme in sources if theme.startswith('gym:')}
+ if len(gyms)==1:
+  theme=next(iter(gyms));return theme,GYM_CORES[theme[4:]],sources
+ if gyms or cls not in LOCATION_CLASSES:return None
+ themes={theme for _,theme in sources}
+ if len(themes)!=1:return None # Shared cross-area trainers keep their explicit class identity.
+ theme=next(iter(themes))
+ # Specialists retain a relevant role within the environment.
+ if theme=='forest' and cls in ['Bug Catcher','Bug Maniac','Ninja Boy','Bird Keeper']:return theme,(CORES[cls],'balance'),sources
+ if theme=='coast' and cls in ['Fisherman','Swimmer M','Swimmer F','Sailor','Tuber M','Tuber F']:return theme,(CORES[cls],'rain'),sources
+ return theme,BIOME_CORES[theme],sources
 FACILITIES={'Salon Maiden','Dome Ace','Palace Maven','Arena Tycoon','Factory Head','Pike Queen','Pyramid King'}
 S=(R/'src/data/trainers.party').read_text();S=re.sub(r'/\*.*?\*/','',S,flags=re.S)
 P=re.split(r'^=== (TRAINER_\w+) ===\s*$',S,flags=re.M)
@@ -134,11 +202,19 @@ for i in range(1,len(P),2):
   old=[15,19,24,29,31,33,42,46,58,100];new=[16,20,26,32,37,43,49,56,65,100]
   stage=next(j for j,v in enumerate(old) if original<=v);level=new[stage]
   weather='rain' if cls in ['Fisherman','Swimmer M','Swimmer F','Sailor','Team Aqua','Aqua Admin','Aqua Leader','Parasol Lady','Sis And Bro'] else 'sun' if cls in ['Kindler','Team Magma','Magma Admin','Magma Leader','Aroma Lady'] else 'sand' if cls=='Hiker' else 'trick' if cls in ['Old Couple','Ruin Maniac','Psychic'] else 'balance'
+ context=None if boss or cls in ['Rival','RS Protag','Team Aqua','Team Magma','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'] or key=='TRAINER_GRUNT_PETALBURG_WOODS' else context_core(key,cls)
+ if context:
+  location,(local_core,weather),sources=context
+  pool=local_core.split()
+  # Different students lead with different members; the entire roster stays thematic.
+  offset=sum(key.encode())%len(pool)
+  team=pool[offset:]+pool[:offset]
  major=bool(boss or cls in ['Rival','RS Protag','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'])
  choice=bool(boss and boss not in ['WALLY','RED','LEAF','STEVEN'])
  if key=='TRAINER_GRUNT_PETALBURG_WOODS':
   team=['PAWNIARD','ZUBAT','KOFFING','SNEASEL','ZORUA','ABSOL'];weather='balance';level=16;major=True;choice=False
  profiles[key]=dict(name=name,trainer_class=cls,species=team,theme=weather,level=level,shiny_ace=major,format_choice=choice)
+ if context:profiles[key].update(location_theme=context[0],location_sources=[name for name,_ in context[2]])
  out.append('    ['+key+'] = {{'+','.join('SPECIES_'+sp for sp in team)+'}, '+str(level)+', THEME_'+weather.upper()+', '+str(int(major))+', '+str(int(choice))+'},')
 out+=['};']
 (R/'src/data/legends_trainer_profiles.h').write_text('\n'.join(out)+'\n')

@@ -4,17 +4,21 @@
       "name": "SAWYER",
       "trainer_class": "Hiker",
       "species": [
-        "GIGALITH",
-        "EXCADRILL",
-        "GASTRODON",
         "SKARMORY",
-        "MUDSDALE",
-        "GOLEM"
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH"
       ],
-      "theme": "sand",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "MtChimney"
+      ]
     },
     "TRAINER_GRUNT_AQUA_HIDEOUT_1": {
       "name": "GRUNT",
@@ -228,17 +232,21 @@
       "name": "DECLAN",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "GYARADOS"
+        "SHARPEDO",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_GRUNT_RUSTURF_TUNNEL": {
       "name": "GRUNT",
@@ -484,17 +492,21 @@
       "name": "ZANDER",
       "trainer_class": "Black Belt",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
         "MACHAMP",
-        "MIENSHAO",
-        "LUCARIO",
-        "HARIYAMA"
+        "ALTARIA",
+        "CAMERUPT"
       ],
       "theme": "balance",
       "level": 37,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_2F"
+      ]
     },
     "TRAINER_SHELLY_WEATHER_INSTITUTE": {
       "name": "SHELLY",
@@ -548,17 +560,21 @@
       "name": "LEAH",
       "trainer_class": "Hex Maniac",
       "species": [
-        "SABLEYE",
-        "COFAGRIGUS",
-        "MISMAGIUS",
-        "SPIRITOMB",
-        "BANETTE",
-        "GRUMPIG"
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP"
       ],
       "theme": "balance",
       "level": 37,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_2F"
+      ]
     },
     "TRAINER_DAISY": {
       "name": "DAISY",
@@ -596,17 +612,21 @@
       "name": "FELIX",
       "trainer_class": "Cooltrainer",
       "species": [
-        "MEDICHAM",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "CLAYDOL"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_VIOLET": {
       "name": "VIOLET",
@@ -724,17 +744,21 @@
       "name": "FOSTER",
       "trainer_class": "Ruin Maniac",
       "species": [
-        "BRONZONG",
-        "CLAYDOL",
-        "CRADILY",
-        "ARMALDO",
-        "RUNERIGUS",
-        "SANDSLASH"
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL"
       ],
-      "theme": "trick",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_DUSTY_2": {
       "name": "DUSTY",
@@ -900,49 +924,61 @@
       "name": "LOLA",
       "trainer_class": "Tuber F",
       "species": [
+        "AZUMARILL",
         "DEWGONG",
         "LANTURN",
         "LUDICOLO",
         "PELIPPER",
-        "GOREBYSS",
-        "AZUMARILL"
+        "GOREBYSS"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_AUSTINA": {
       "name": "AUSTINA",
       "trainer_class": "Tuber F",
       "species": [
-        "DEWGONG",
-        "LANTURN",
         "LUDICOLO",
         "PELIPPER",
         "GOREBYSS",
-        "AZUMARILL"
+        "AZUMARILL",
+        "DEWGONG",
+        "LANTURN"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_GWEN": {
       "name": "GWEN",
       "trainer_class": "Tuber F",
       "species": [
-        "DEWGONG",
-        "LANTURN",
         "LUDICOLO",
         "PELIPPER",
         "GOREBYSS",
-        "AZUMARILL"
+        "AZUMARILL",
+        "DEWGONG",
+        "LANTURN"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_LOLA_2": {
       "name": "LOLA",
@@ -1017,12 +1053,16 @@
         "QUAGSIRE",
         "PELIPPER",
         "FLOATZEL",
-        "LINOONE"
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_SIMON": {
       "name": "SIMON",
@@ -1124,65 +1164,81 @@
       "name": "RANDALL",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "SWELLOW"
+        "TAUROS",
+        "SLAKING",
+        "LINOONE",
+        "STOUTLAND",
+        "FURRET",
+        "PERSIAN"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_PARKER": {
       "name": "PARKER",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "SPINDA"
+        "STOUTLAND",
+        "FURRET",
+        "PERSIAN",
+        "TAUROS",
+        "SLAKING",
+        "LINOONE"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_GEORGE": {
       "name": "GEORGE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "SLAKING"
+        "STOUTLAND",
+        "FURRET",
+        "PERSIAN",
+        "TAUROS",
+        "SLAKING",
+        "LINOONE"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_BERKE": {
       "name": "BERKE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "SLAKING"
+        "SLAKING",
+        "LINOONE",
+        "STOUTLAND",
+        "FURRET",
+        "PERSIAN",
+        "TAUROS"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_BRAXTON": {
       "name": "BRAXTON",
@@ -1252,81 +1308,101 @@
       "name": "EDGAR",
       "trainer_class": "Cooltrainer",
       "species": [
-        "CACTURNE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "PELIPPER"
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_1F"
+      ]
     },
     "TRAINER_ALBERT": {
       "name": "ALBERT",
       "trainer_class": "Cooltrainer",
       "species": [
-        "MAGNEZONE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "MUK"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_1F"
+      ]
     },
     "TRAINER_SAMUEL": {
       "name": "SAMUEL",
       "trainer_class": "Cooltrainer",
       "species": [
-        "SWELLOW",
-        "MAWILE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "ALAKAZAM"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B1F"
+      ]
     },
     "TRAINER_VITO": {
       "name": "VITO",
       "trainer_class": "Cooltrainer",
       "species": [
-        "DODRIO",
-        "ALAKAZAM",
-        "ELECTRODE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "SHIFTRY"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
       "theme": "balance",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_OWEN": {
       "name": "OWEN",
       "trainer_class": "Cooltrainer",
       "species": [
-        "KECLEON",
+        "CAMERUPT",
         "GOLEM",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "WAILORD"
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA"
       ],
       "theme": "balance",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_WILTON_2": {
       "name": "WILTON",
@@ -1396,65 +1472,81 @@
       "name": "WARREN",
       "trainer_class": "Cooltrainer",
       "species": [
-        "GOLEM",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "LUDICOLO"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route133"
+      ]
     },
     "TRAINER_MARY": {
       "name": "MARY",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "DELCATTY"
+        "SLAKING",
+        "LINOONE",
+        "STOUTLAND",
+        "FURRET",
+        "PERSIAN",
+        "TAUROS"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_ALEXIA": {
       "name": "ALEXIA",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "WIGGLYTUFF"
+        "FURRET",
+        "PERSIAN",
+        "TAUROS",
+        "SLAKING",
+        "LINOONE",
+        "STOUTLAND"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_JODY": {
       "name": "JODY",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "ZANGOOSE"
+        "FURRET",
+        "PERSIAN",
+        "TAUROS",
+        "SLAKING",
+        "LINOONE",
+        "STOUTLAND"
       ],
       "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:normal",
+      "location_sources": [
+        "PetalburgCity_Gym"
+      ]
     },
     "TRAINER_WENDY": {
       "name": "WENDY",
@@ -1524,81 +1616,101 @@
       "name": "HOPE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "ROSERADE"
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_1F"
+      ]
     },
     "TRAINER_SHANNON": {
       "name": "SHANNON",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "CLAYDOL"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B1F"
+      ]
     },
     "TRAINER_MICHELLE": {
       "name": "MICHELLE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "TORKOAL",
-        "MEDICHAM",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "LUDICOLO"
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM"
       ],
       "theme": "balance",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B1F"
+      ]
     },
     "TRAINER_CAROLINE": {
       "name": "CAROLINE",
       "trainer_class": "Cooltrainer",
       "species": [
+        "CAMERUPT",
+        "GOLEM",
         "SKARMORY",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "SABLEYE"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_JULIE": {
       "name": "JULIE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "SANDSLASH",
-        "NINETALES",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "TROPIUS"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_BROOKE_2": {
       "name": "BROOKE",
@@ -1716,33 +1828,41 @@
       "name": "VALERIE",
       "trainer_class": "Hex Maniac",
       "species": [
-        "COFAGRIGUS",
-        "MISMAGIUS",
-        "SPIRITOMB",
-        "BANETTE",
-        "GENGAR",
-        "SABLEYE"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
       "theme": "balance",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_6F"
+      ]
     },
     "TRAINER_TASHA": {
       "name": "TASHA",
       "trainer_class": "Hex Maniac",
       "species": [
-        "SABLEYE",
-        "COFAGRIGUS",
-        "MISMAGIUS",
-        "SPIRITOMB",
-        "GENGAR",
-        "BANETTE"
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM"
       ],
       "theme": "balance",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_5F"
+      ]
     },
     "TRAINER_VALERIE_2": {
       "name": "VALERIE",
@@ -1828,17 +1948,21 @@
       "name": "DAPHNE",
       "trainer_class": "Lady",
       "species": [
-        "PERSIAN",
-        "FLORGES",
-        "MILOTIC",
-        "ROSERADE",
-        "ARCANINE",
-        "LUVDISC"
+        "GYARADOS",
+        "KINGDRA",
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_GRUNT_SPACE_CENTER_2": {
       "name": "GRUNT",
@@ -1876,17 +2000,21 @@
       "name": "BRIANNA",
       "trainer_class": "Lady",
       "species": [
-        "PERSIAN",
-        "FLORGES",
-        "MILOTIC",
-        "ROSERADE",
-        "ARCANINE",
-        "SEAKING"
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS",
+        "KINGDRA",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_NAOMI": {
       "name": "NAOMI",
@@ -2036,65 +2164,81 @@
       "name": "CONNIE",
       "trainer_class": "Beauty",
       "species": [
-        "NINETALES",
-        "ROSERADE",
-        "MILOTIC",
-        "LOPUNNY",
-        "GARDEVOIR",
-        "SEAKING"
+        "GYARADOS",
+        "KINGDRA",
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_BRIDGET": {
       "name": "BRIDGET",
       "trainer_class": "Beauty",
       "species": [
-        "NINETALES",
-        "ROSERADE",
-        "MILOTIC",
-        "LOPUNNY",
-        "GARDEVOIR",
-        "AZUMARILL"
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS",
+        "KINGDRA",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_OLIVIA": {
       "name": "OLIVIA",
       "trainer_class": "Beauty",
       "species": [
-        "HUNTAIL",
-        "CRAWDAUNT",
-        "NINETALES",
-        "ROSERADE",
-        "MILOTIC",
-        "LUDICOLO"
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS",
+        "KINGDRA"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_TIFFANY": {
       "name": "TIFFANY",
       "trainer_class": "Beauty",
       "species": [
-        "NINETALES",
-        "ROSERADE",
-        "MILOTIC",
-        "LOPUNNY",
-        "GARDEVOIR",
-        "SHARPEDO"
+        "KINGDRA",
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_JESSICA_2": {
       "name": "JESSICA",
@@ -2404,161 +2548,201 @@
       "name": "LUIS",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "SHARPEDO"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_DOMINIK": {
       "name": "DOMINIK",
       "trainer_class": "Swimmer M",
       "species": [
+        "SHARPEDO",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
-        "MANTINE",
-        "TENTACRUEL"
+        "MANTINE"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_DOUGLAS": {
       "name": "DOUGLAS",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "TENTACRUEL"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route106"
+      ]
     },
     "TRAINER_DARRIN": {
       "name": "DARRIN",
       "trainer_class": "Swimmer M",
       "species": [
-        "TENTACRUEL",
-        "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "PELIPPER"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
       ],
       "theme": "rain",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route107"
+      ]
     },
     "TRAINER_TONY_1": {
       "name": "TONY",
       "trainer_class": "Swimmer M",
       "species": [
+        "MANTINE",
+        "SHARPEDO",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "SHARPEDO"
+        "QWILFISH"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route107"
+      ]
     },
     "TRAINER_JEROME": {
       "name": "JEROME",
       "trainer_class": "Swimmer M",
       "species": [
+        "MANTINE",
+        "SHARPEDO",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "TENTACRUEL"
+        "QWILFISH"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_MATTHEW": {
       "name": "MATTHEW",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
-        "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "SHARPEDO"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_DAVID": {
       "name": "DAVID",
       "trainer_class": "Swimmer M",
       "species": [
-        "TENTACRUEL",
+        "MANTINE",
+        "SHARPEDO",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
-        "QWILFISH",
-        "SHARPEDO"
+        "QWILFISH"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_SPENCER": {
       "name": "SPENCER",
       "trainer_class": "Swimmer M",
       "species": [
-        "TENTACRUEL",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "PELIPPER"
+        "QWILFISH"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_ROLAND": {
       "name": "ROLAND",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
-        "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "SHARPEDO"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_NOLEN": {
       "name": "NOLEN",
@@ -2569,188 +2753,236 @@
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "TENTACRUEL"
-      ],
-      "theme": "rain",
-      "level": 49,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_STAN": {
-      "name": "STAN",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "KINGDRA"
-      ],
-      "theme": "rain",
-      "level": 49,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_BARRY": {
-      "name": "BARRY",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "GYARADOS"
-      ],
-      "theme": "rain",
-      "level": 49,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_DEAN": {
-      "name": "DEAN",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "SHARPEDO",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "PELIPPER"
-      ],
-      "theme": "rain",
-      "level": 37,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_RODNEY": {
-      "name": "RODNEY",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "GYARADOS"
-      ],
-      "theme": "rain",
-      "level": 49,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_RICHARD": {
-      "name": "RICHARD",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "SHARPEDO",
-        "PELIPPER"
-      ],
-      "theme": "rain",
-      "level": 49,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_HERMAN": {
-      "name": "HERMAN",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
-        "TENTACRUEL"
-      ],
-      "theme": "rain",
-      "level": 43,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_SANTIAGO": {
-      "name": "SANTIAGO",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "TENTACRUEL",
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "WAILORD"
-      ],
-      "theme": "rain",
-      "level": 43,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_GILBERT": {
-      "name": "GILBERT",
-      "trainer_class": "Swimmer M",
-      "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
-        "QWILFISH",
-        "MANTINE",
         "SHARPEDO"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
+    },
+    "TRAINER_STAN": {
+      "name": "STAN",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "LUDICOLO",
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
+      ],
+      "theme": "rain",
+      "level": 49,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
+    },
+    "TRAINER_BARRY": {
+      "name": "BARRY",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO",
+        "QWILFISH"
+      ],
+      "theme": "rain",
+      "level": 49,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
+    },
+    "TRAINER_DEAN": {
+      "name": "DEAN",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "LUDICOLO",
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
+      ],
+      "theme": "rain",
+      "level": 37,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
+    },
+    "TRAINER_RODNEY": {
+      "name": "RODNEY",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "FLOATZEL",
+        "LUDICOLO",
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER"
+      ],
+      "theme": "rain",
+      "level": 49,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route130"
+      ]
+    },
+    "TRAINER_RICHARD": {
+      "name": "RICHARD",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
+      ],
+      "theme": "rain",
+      "level": 49,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route131"
+      ]
+    },
+    "TRAINER_HERMAN": {
+      "name": "HERMAN",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
+      ],
+      "theme": "rain",
+      "level": 43,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route131"
+      ]
+    },
+    "TRAINER_SANTIAGO": {
+      "name": "SANTIAGO",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "LUDICOLO",
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL"
+      ],
+      "theme": "rain",
+      "level": 43,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route130"
+      ]
+    },
+    "TRAINER_GILBERT": {
+      "name": "GILBERT",
+      "trainer_class": "Swimmer M",
+      "species": [
+        "QWILFISH",
+        "MANTINE",
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
+      ],
+      "theme": "rain",
+      "level": 49,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_FRANKLIN": {
       "name": "FRANKLIN",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "WALREIN"
+        "SHARPEDO",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route133"
+      ]
     },
     "TRAINER_KEVIN": {
       "name": "KEVIN",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "WALREIN"
+        "SHARPEDO",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route131"
+      ]
     },
     "TRAINER_JACK": {
       "name": "JACK",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
-        "FLOATZEL",
-        "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "GYARADOS"
+        "SHARPEDO",
+        "PELIPPER",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_DUDLEY": {
       "name": "DUDLEY",
@@ -2772,17 +3004,21 @@
       "name": "CHAD",
       "trainer_class": "Swimmer M",
       "species": [
-        "TENTACRUEL",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
-        "WAILORD"
+        "MANTINE",
+        "SHARPEDO"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_TONY_2": {
       "name": "TONY",
@@ -2852,49 +3088,61 @@
       "name": "TAKAO",
       "trainer_class": "Black Belt",
       "species": [
+        "MACHAMP",
+        "MEDICHAM",
+        "HERACROSS",
+        "SCRAGGY",
         "HITMONTOP",
-        "HARIYAMA",
-        "BRELOOM",
-        "MIENSHAO",
-        "LUCARIO",
-        "MACHAMP"
+        "HARIYAMA"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_HITOSHI": {
       "name": "HITOSHI",
       "trainer_class": "Black Belt",
       "species": [
-        "HITMONTOP",
-        "HARIYAMA",
-        "BRELOOM",
-        "MIENSHAO",
-        "LUCARIO",
-        "MACHAMP"
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_KIYO": {
       "name": "KIYO",
       "trainer_class": "Black Belt",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
-        "MACHAMP",
-        "MIENSHAO",
-        "LUCARIO",
-        "HARIYAMA"
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_KOICHI": {
       "name": "KOICHI",
@@ -3028,33 +3276,41 @@
       "name": "ATSUSHI",
       "trainer_class": "Black Belt",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
         "MACHAMP",
-        "MIENSHAO",
-        "LUCARIO",
-        "HARIYAMA"
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_4F"
+      ]
     },
     "TRAINER_KIRK": {
       "name": "KIRK",
       "trainer_class": "Guitarist",
       "species": [
-        "MANECTRIC",
-        "GALVANTULA",
         "ROTOM",
-        "MAGNEZONE",
-        "TOXTRICITY_AMPED",
-        "ELECTRODE"
+        "EELEKTROSS",
+        "MANECTRIC",
+        "RAICHU",
+        "LANTURN",
+        "MAGNEZONE"
       ],
       "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:electric",
+      "location_sources": [
+        "MauvilleCity_Gym"
+      ]
     },
     "TRAINER_GRUNT_AQUA_HIDEOUT_7": {
       "name": "GRUNT",
@@ -3092,17 +3348,21 @@
       "name": "SHAWN",
       "trainer_class": "Guitarist",
       "species": [
-        "ELECTRODE",
-        "GALVANTULA",
         "MANECTRIC",
+        "RAICHU",
+        "LANTURN",
+        "MAGNEZONE",
         "ROTOM",
-        "TOXTRICITY_AMPED",
-        "MAGNEZONE"
+        "EELEKTROSS"
       ],
       "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:electric",
+      "location_sources": [
+        "MauvilleCity_Gym"
+      ]
     },
     "TRAINER_FERNANDO_1": {
       "name": "FERNANDO",
@@ -3205,80 +3465,100 @@
       "trainer_class": "Kindler",
       "species": [
         "NINETALES",
-        "ARCANINE",
-        "HOUNDOOM",
         "MAGCARGO",
+        "HOUNDOOM",
         "TALONFLAME",
-        "CAMERUPT"
+        "CAMERUPT",
+        "TORKOAL"
       ],
       "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_JEFF": {
       "name": "JEFF",
       "trainer_class": "Kindler",
       "species": [
-        "NINETALES",
-        "ARCANINE",
-        "HOUNDOOM",
-        "TALONFLAME",
+        "CAMERUPT",
         "TORKOAL",
-        "MAGCARGO"
+        "NINETALES",
+        "MAGCARGO",
+        "HOUNDOOM",
+        "TALONFLAME"
       ],
       "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_AXLE": {
       "name": "AXLE",
       "trainer_class": "Kindler",
       "species": [
-        "NINETALES",
-        "ARCANINE",
-        "HOUNDOOM",
         "MAGCARGO",
+        "HOUNDOOM",
         "TALONFLAME",
-        "CAMERUPT"
+        "CAMERUPT",
+        "TORKOAL",
+        "NINETALES"
       ],
       "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_JACE": {
       "name": "JACE",
       "trainer_class": "Kindler",
       "species": [
-        "NINETALES",
-        "ARCANINE",
         "HOUNDOOM",
         "TALONFLAME",
+        "CAMERUPT",
         "TORKOAL",
+        "NINETALES",
         "MAGCARGO"
       ],
       "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_KEEGAN": {
       "name": "KEEGAN",
       "trainer_class": "Kindler",
       "species": [
-        "NINETALES",
-        "ARCANINE",
-        "HOUNDOOM",
-        "TALONFLAME",
+        "CAMERUPT",
         "TORKOAL",
-        "MAGCARGO"
+        "NINETALES",
+        "MAGCARGO",
+        "HOUNDOOM",
+        "TALONFLAME"
       ],
       "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_BERNIE_1": {
       "name": "BERNIE",
@@ -3444,33 +3724,41 @@
       "name": "ETHAN",
       "trainer_class": "Camper",
       "species": [
-        "LINOONE",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
         "SANDSLASH",
-        "BRELOOM",
-        "ARCANINE",
-        "NOCTOWL",
-        "SWELLOW"
+        "SKARMORY"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "JaggedPass"
+      ]
     },
     "TRAINER_AUTUMN": {
       "name": "AUTUMN",
       "trainer_class": "Picnicker",
       "species": [
-        "ROSERADE",
-        "RAICHU",
-        "AZUMARILL",
-        "NINETALES",
-        "ALTARIA",
-        "BRELOOM"
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "JaggedPass"
+      ]
     },
     "TRAINER_TRAVIS": {
       "name": "TRAVIS",
@@ -3716,65 +4004,81 @@
       "name": "PRESTON",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "BRONZONG",
+        "CLAYDOL",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "ALAKAZAM",
-        "GARDEVOIR"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_VIRGIL": {
       "name": "VIRGIL",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "BRONZONG",
         "SLOWBRO",
-        "ESPEON",
-        "ALAKAZAM",
-        "GARDEVOIR"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG",
+        "CLAYDOL",
+        "XATU"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_BLAKE": {
       "name": "BLAKE",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
-        "BRONZONG",
+        "CLAYDOL",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "FARIGIRAF"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_WILLIAM": {
       "name": "WILLIAM",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "BRONZONG",
-        "SLOWBRO",
-        "ESPEON",
-        "ALAKAZAM",
-        "GARDEVOIR"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
-      "theme": "trick",
+      "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_3F"
+      ]
     },
     "TRAINER_JOSHUA": {
       "name": "JOSHUA",
@@ -3892,65 +4196,81 @@
       "name": "HANNAH",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "BRONZONG",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "ALAKAZAM",
-        "GARDEVOIR"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG",
+        "CLAYDOL"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_SAMANTHA": {
       "name": "SAMANTHA",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
+        "SOLROCK",
         "BRONZONG",
+        "CLAYDOL",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "XATU"
+        "LUNATONE"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_MAURA": {
       "name": "MAURA",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
         "BRONZONG",
+        "CLAYDOL",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "ALAKAZAM"
+        "LUNATONE",
+        "SOLROCK"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_KAYLA": {
       "name": "KAYLA",
       "trainer_class": "Psychic",
       "species": [
-        "WOBBUFFET",
-        "XATU",
-        "MR_MIME",
-        "GARDEVOIR",
-        "BRONZONG",
-        "ALAKAZAM"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
-      "theme": "trick",
+      "theme": "balance",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_3F"
+      ]
     },
     "TRAINER_ALEXIS": {
       "name": "ALEXIS",
@@ -4804,17 +5124,21 @@
       "name": "BETHANY",
       "trainer_class": "Pokefan",
       "species": [
-        "RAICHU",
-        "CLEFABLE",
-        "WIGGLYTUFF",
-        "DELCATTY",
-        "KANGASKHAN",
-        "AZUMARILL"
+        "KINGDRA",
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_ISABEL_1": {
       "name": "ISABEL",
@@ -5108,33 +5432,41 @@
       "name": "JOSH",
       "trainer_class": "Youngster",
       "species": [
-        "LINOONE",
-        "RATICATE",
-        "SWELLOW",
-        "LUXRAY",
-        "MUDSDALE",
-        "GOLEM"
+        "GOLEM",
+        "ONIX",
+        "PROBOPASS",
+        "RHYDON",
+        "CRADILY",
+        "ARMALDO"
       ],
-      "theme": "balance",
+      "theme": "sand",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:rock",
+      "location_sources": [
+        "RustboroCity_Gym"
+      ]
     },
     "TRAINER_TOMMY": {
       "name": "TOMMY",
       "trainer_class": "Youngster",
       "species": [
-        "LINOONE",
-        "RATICATE",
-        "SWELLOW",
-        "LUXRAY",
-        "MUDSDALE",
-        "GOLEM"
+        "PROBOPASS",
+        "RHYDON",
+        "CRADILY",
+        "ARMALDO",
+        "GOLEM",
+        "ONIX"
       ],
-      "theme": "balance",
+      "theme": "sand",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:rock",
+      "location_sources": [
+        "RustboroCity_Gym"
+      ]
     },
     "TRAINER_JOEY": {
       "name": "JOEY",
@@ -5156,81 +5488,101 @@
       "name": "BEN",
       "trainer_class": "Youngster",
       "species": [
-        "LINOONE",
-        "RATICATE",
-        "SWELLOW",
-        "LUXRAY",
-        "MUDSDALE",
-        "SWALOT"
+        "LANTURN",
+        "MAGNEZONE",
+        "ROTOM",
+        "EELEKTROSS",
+        "MANECTRIC",
+        "RAICHU"
       ],
       "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:electric",
+      "location_sources": [
+        "MauvilleCity_Gym"
+      ]
     },
     "TRAINER_QUINCY": {
       "name": "QUINCY",
       "trainer_class": "Cooltrainer",
       "species": [
-        "SLAKING",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "DUSKNOIR"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_1F"
+      ]
     },
     "TRAINER_KATELYNN": {
       "name": "KATELYNN",
       "trainer_class": "Cooltrainer",
       "species": [
-        "GARDEVOIR",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "SLAKING"
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_1F"
+      ]
     },
     "TRAINER_JAYLEN": {
       "name": "JAYLEN",
       "trainer_class": "Youngster",
       "species": [
-        "LINOONE",
-        "RATICATE",
-        "SWELLOW",
-        "LUXRAY",
-        "MUDSDALE",
-        "FLYGON"
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_DILLON": {
       "name": "DILLON",
       "trainer_class": "Youngster",
       "species": [
-        "LINOONE",
-        "RATICATE",
-        "SWELLOW",
-        "LUXRAY",
-        "MUDSDALE",
-        "AGGRON"
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_CALVIN_2": {
       "name": "CALVIN",
@@ -5412,33 +5764,41 @@
       "name": "ELLIOT",
       "trainer_class": "Fisherman",
       "species": [
-        "GYARADOS",
+        "TENTACRUEL",
         "PELIPPER",
         "BARRASKEWDA",
         "LUDICOLO",
         "WHISCASH",
-        "TENTACRUEL"
+        "GYARADOS"
       ],
       "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route106"
+      ]
     },
     "TRAINER_NED": {
       "name": "NED",
       "trainer_class": "Fisherman",
       "species": [
-        "PELIPPER",
-        "BARRASKEWDA",
-        "LUDICOLO",
         "WHISCASH",
         "GYARADOS",
-        "TENTACRUEL"
+        "TENTACRUEL",
+        "PELIPPER",
+        "BARRASKEWDA",
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route106"
+      ]
     },
     "TRAINER_DALE": {
       "name": "DALE",
@@ -5508,17 +5868,21 @@
       "name": "CARTER",
       "trainer_class": "Fisherman",
       "species": [
-        "WAILORD",
+        "WHISCASH",
+        "GYARADOS",
+        "TENTACRUEL",
         "PELIPPER",
         "BARRASKEWDA",
-        "LUDICOLO",
-        "WHISCASH",
-        "TENTACRUEL"
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_ELLIOT_2": {
       "name": "ELLIOT",
@@ -5588,17 +5952,21 @@
       "name": "RONALD",
       "trainer_class": "Fisherman",
       "species": [
-        "PELIPPER",
-        "BARRASKEWDA",
         "LUDICOLO",
         "WHISCASH",
+        "GYARADOS",
         "TENTACRUEL",
-        "GYARADOS"
+        "PELIPPER",
+        "BARRASKEWDA"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_JACOB": {
       "name": "JACOB",
@@ -6404,65 +6772,81 @@
       "name": "JARED",
       "trainer_class": "Bird Keeper",
       "species": [
-        "DODRIO",
-        "SKARMORY",
         "SWELLOW",
         "NOCTOWL",
-        "TALONFLAME",
-        "TROPIUS"
+        "TROPIUS",
+        "ALTARIA",
+        "PELIPPER",
+        "SKARMORY"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_HUMBERTO": {
       "name": "HUMBERTO",
       "trainer_class": "Bird Keeper",
       "species": [
+        "PELIPPER",
+        "SKARMORY",
         "SWELLOW",
         "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "ALTARIA",
-        "SKARMORY"
+        "TROPIUS",
+        "ALTARIA"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 37,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_PRESLEY": {
       "name": "PRESLEY",
       "trainer_class": "Bird Keeper",
       "species": [
-        "TROPIUS",
-        "SKARMORY",
-        "SWELLOW",
-        "NOCTOWL",
-        "TALONFLAME",
-        "XATU"
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
     },
     "TRAINER_EDWARDO": {
       "name": "EDWARDO",
       "trainer_class": "Bird Keeper",
       "species": [
-        "DODRIO",
+        "PELIPPER",
         "SKARMORY",
         "SWELLOW",
         "NOCTOWL",
-        "TALONFLAME",
-        "PELIPPER"
+        "TROPIUS",
+        "ALTARIA"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_COLIN": {
       "name": "COLIN",
@@ -6596,33 +6980,41 @@
       "name": "ALEX",
       "trainer_class": "Bird Keeper",
       "species": [
-        "XATU",
-        "SKARMORY",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "SWELLOW"
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_BECK": {
       "name": "BECK",
       "trainer_class": "Bird Keeper",
       "species": [
-        "SKARMORY",
-        "SWELLOW",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "TROPIUS"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route133"
+      ]
     },
     "TRAINER_YASU": {
       "name": "YASU",
@@ -6660,17 +7052,21 @@
       "name": "DIANNE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "CLAYDOL",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "LANTURN"
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B2F"
+      ]
     },
     "TRAINER_JANI": {
       "name": "JANI",
@@ -6692,33 +7088,41 @@
       "name": "LAO",
       "trainer_class": "Ninja Boy",
       "species": [
-        "CROBAT",
-        "SCOLIPEDE",
-        "TENTACRUEL",
-        "VENOMOTH",
-        "SHIFTRY",
-        "WEEZING"
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_LUNG": {
       "name": "LUNG",
       "trainer_class": "Ninja Boy",
       "species": [
+        "CAMERUPT",
         "WEEZING",
-        "CROBAT",
-        "SCOLIPEDE",
-        "TENTACRUEL",
-        "VENOMOTH",
-        "NINJASK"
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_LAO_2": {
       "name": "LAO",
@@ -6788,33 +7192,41 @@
       "name": "JOCELYN",
       "trainer_class": "Battle Girl",
       "species": [
+        "HERACROSS",
+        "SCRAGGY",
         "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
         "HARIYAMA",
-        "LUCARIO",
+        "MACHAMP",
         "MEDICHAM"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_LAURA": {
       "name": "LAURA",
       "trainer_class": "Battle Girl",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
         "HARIYAMA",
-        "LUCARIO",
-        "MEDICHAM"
+        "MACHAMP",
+        "MEDICHAM",
+        "HERACROSS",
+        "SCRAGGY",
+        "HITMONTOP"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_CYNDY_1": {
       "name": "CYNDY",
@@ -7044,49 +7456,61 @@
       "name": "BEVERLY",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "WAILORD"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_IMANI": {
       "name": "IMANI",
       "trainer_class": "Swimmer F",
       "species": [
+        "GOREBYSS",
+        "MILOTIC",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
-        "GASTRODON",
-        "GOREBYSS",
-        "AZUMARILL"
+        "GASTRODON"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_KYLA": {
       "name": "KYLA",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
-        "LUDICOLO",
-        "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "WAILORD"
+        "MILOTIC",
+        "PELIPPER",
+        "LUDICOLO",
+        "LANTURN"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route106"
+      ]
     },
     "TRAINER_DENISE": {
       "name": "DENISE",
@@ -7097,156 +7521,196 @@
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route107"
+      ]
     },
     "TRAINER_BETH": {
       "name": "BETH",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route107"
+      ]
     },
     "TRAINER_TARA": {
       "name": "TARA",
       "trainer_class": "Swimmer F",
       "species": [
-        "KINGDRA",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
-        "AZUMARILL"
+        "GOREBYSS",
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_MISSY": {
       "name": "MISSY",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_ALICE": {
       "name": "ALICE",
       "trainer_class": "Swimmer F",
       "species": [
-        "SEAKING",
+        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "PELIPPER"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_JENNY_1": {
       "name": "JENNY",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
-        "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "WAILORD"
+        "MILOTIC",
+        "PELIPPER",
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_GRACE": {
       "name": "GRACE",
       "trainer_class": "Swimmer F",
       "species": [
+        "GOREBYSS",
+        "MILOTIC",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
-        "GASTRODON",
-        "GOREBYSS",
-        "AZUMARILL"
+        "GASTRODON"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route124"
+      ]
     },
     "TRAINER_TANYA": {
       "name": "TANYA",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "LUVDISC"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
     },
     "TRAINER_SHARON": {
       "name": "SHARON",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
     },
     "TRAINER_NIKKI": {
       "name": "NIKKI",
       "trainer_class": "Swimmer F",
       "species": [
-        "AZUMARILL",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
-        "WALREIN"
+        "GOREBYSS",
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
     },
     "TRAINER_BRENDA": {
       "name": "BRENDA",
@@ -7257,76 +7721,96 @@
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
     },
     "TRAINER_KATIE": {
       "name": "KATIE",
       "trainer_class": "Swimmer F",
       "species": [
-        "SEAKING",
+        "GOREBYSS",
+        "MILOTIC",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
-        "GASTRODON",
-        "WALREIN"
+        "GASTRODON"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route130"
+      ]
     },
     "TRAINER_SUSIE": {
       "name": "SUSIE",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "LUVDISC"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route131"
+      ]
     },
     "TRAINER_KARA": {
       "name": "KARA",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
-        "LUDICOLO",
-        "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC",
+        "PELIPPER",
+        "LUDICOLO",
+        "LANTURN"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route131"
+      ]
     },
     "TRAINER_DANA": {
       "name": "DANA",
       "trainer_class": "Swimmer F",
       "species": [
+        "GOREBYSS",
+        "MILOTIC",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
-        "GASTRODON",
-        "GOREBYSS",
-        "AZUMARILL"
+        "GASTRODON"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_SIENNA": {
       "name": "SIENNA",
@@ -7337,12 +7821,16 @@
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "LUVDISC"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
     },
     "TRAINER_DEBRA": {
       "name": "DEBRA",
@@ -7353,28 +7841,36 @@
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route133"
+      ]
     },
     "TRAINER_LINDA": {
       "name": "LINDA",
       "trainer_class": "Swimmer F",
       "species": [
+        "GOREBYSS",
+        "MILOTIC",
         "PELIPPER",
         "LUDICOLO",
         "LANTURN",
-        "GASTRODON",
-        "GOREBYSS",
-        "KINGDRA"
+        "GASTRODON"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route133"
+      ]
     },
     "TRAINER_KAYLEE": {
       "name": "KAYLEE",
@@ -7396,17 +7892,21 @@
       "name": "LAUREL",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
         "LUDICOLO",
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "LUVDISC"
+        "MILOTIC",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_CARLEE": {
       "name": "CARLEE",
@@ -7417,12 +7917,16 @@
         "LANTURN",
         "GASTRODON",
         "GOREBYSS",
-        "SEAKING"
+        "MILOTIC"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route128"
+      ]
     },
     "TRAINER_JENNY_2": {
       "name": "JENNY",
@@ -7572,33 +8076,41 @@
       "name": "DIANA",
       "trainer_class": "Picnicker",
       "species": [
-        "BRELOOM",
-        "VILEPLUME",
-        "ROSERADE",
-        "RAICHU",
-        "AZUMARILL",
-        "ALTARIA"
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "JaggedPass"
+      ]
     },
     "TRAINER_CEDRIC": {
       "name": "CEDRIC",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
-        "BRONZONG",
-        "SLOWBRO",
-        "ESPEON",
-        "WOBBUFFET"
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP"
       ],
-      "theme": "trick",
+      "theme": "balance",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "MtPyre_6F"
+      ]
     },
     "TRAINER_IRENE": {
       "name": "IRENE",
@@ -7828,22 +8340,6 @@
       "name": "HUEY",
       "trainer_class": "Sailor",
       "species": [
-        "PELIPPER",
-        "POLIWRATH",
-        "TENTACRUEL",
-        "LANTURN",
-        "GYARADOS",
-        "MACHAMP"
-      ],
-      "theme": "rain",
-      "level": 16,
-      "shiny_ace": false,
-      "format_choice": false
-    },
-    "TRAINER_EDMOND": {
-      "name": "EDMOND",
-      "trainer_class": "Sailor",
-      "species": [
         "POLIWRATH",
         "TENTACRUEL",
         "LANTURN",
@@ -7854,23 +8350,51 @@
       "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
+    },
+    "TRAINER_EDMOND": {
+      "name": "EDMOND",
+      "trainer_class": "Sailor",
+      "species": [
+        "GYARADOS",
+        "PELIPPER",
+        "POLIWRATH",
+        "TENTACRUEL",
+        "LANTURN",
+        "MACHAMP"
+      ],
+      "theme": "rain",
+      "level": 16,
+      "shiny_ace": false,
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_ERNEST_1": {
       "name": "ERNEST",
       "trainer_class": "Sailor",
       "species": [
-        "PELIPPER",
         "POLIWRATH",
         "TENTACRUEL",
         "LANTURN",
+        "MACHAMP",
         "GYARADOS",
-        "MACHAMP"
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route125"
+      ]
     },
     "TRAINER_DWAYNE": {
       "name": "DWAYNE",
@@ -8004,33 +8528,41 @@
       "name": "ELI",
       "trainer_class": "Hiker",
       "species": [
-        "GIGALITH",
-        "EXCADRILL",
-        "GASTRODON",
-        "SKARMORY",
-        "MUDSDALE",
+        "TORKOAL",
+        "NINETALES",
+        "MAGCARGO",
+        "HOUNDOOM",
+        "TALONFLAME",
         "CAMERUPT"
       ],
-      "theme": "sand",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_ANNIKA": {
       "name": "ANNIKA",
       "trainer_class": "Pokefan",
       "species": [
-        "RAICHU",
-        "AZUMARILL",
-        "CLEFABLE",
-        "WIGGLYTUFF",
-        "DELCATTY",
-        "MILOTIC"
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS",
+        "KINGDRA"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_JAZMYN": {
       "name": "JAZMYN",
@@ -8100,65 +8632,81 @@
       "name": "KELVIN",
       "trainer_class": "Sailor",
       "species": [
-        "MACHAMP",
+        "GYARADOS",
         "PELIPPER",
         "POLIWRATH",
         "TENTACRUEL",
         "LANTURN",
-        "WALREIN"
+        "MACHAMP"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_MARLEY": {
       "name": "MARLEY",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "MANECTRIC"
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_REYNA": {
       "name": "REYNA",
       "trainer_class": "Battle Girl",
       "species": [
-        "MEDICHAM",
-        "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
-        "LUCARIO",
-        "HARIYAMA"
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_HUDSON": {
       "name": "HUDSON",
       "trainer_class": "Sailor",
       "species": [
-        "PELIPPER",
         "POLIWRATH",
         "TENTACRUEL",
         "LANTURN",
         "MACHAMP",
-        "WAILORD"
+        "GYARADOS",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route134"
+      ]
     },
     "TRAINER_CONOR": {
       "name": "CONOR",
@@ -8628,17 +9176,21 @@
       "name": "MITCHELL",
       "trainer_class": "Cooltrainer",
       "species": [
-        "LUNATONE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "SOLROCK"
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY",
+        "MUDSDALE",
+        "MACHAMP"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B1F"
+      ]
     },
     "TRAINER_ISAAC_2": {
       "name": "ISAAC",
@@ -8724,17 +9276,21 @@
       "name": "HALLE",
       "trainer_class": "Cooltrainer",
       "species": [
-        "SABLEYE",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "ABSOL"
+        "MUDSDALE",
+        "MACHAMP",
+        "ALTARIA",
+        "CAMERUPT",
+        "GOLEM",
+        "SKARMORY"
       ],
       "theme": "balance",
       "level": 56,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "mountain",
+      "location_sources": [
+        "VictoryRoad_B1F"
+      ]
     },
     "TRAINER_GARRISON": {
       "name": "GARRISON",
@@ -9124,81 +9680,101 @@
       "name": "MARC",
       "trainer_class": "Hiker",
       "species": [
-        "GIGALITH",
-        "EXCADRILL",
-        "GASTRODON",
-        "SKARMORY",
-        "MUDSDALE",
+        "ONIX",
+        "PROBOPASS",
+        "RHYDON",
+        "CRADILY",
+        "ARMALDO",
         "GOLEM"
       ],
       "theme": "sand",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:rock",
+      "location_sources": [
+        "RustboroCity_Gym"
+      ]
     },
     "TRAINER_BRENDEN": {
       "name": "BRENDEN",
       "trainer_class": "Sailor",
       "species": [
-        "PELIPPER",
-        "POLIWRATH",
-        "TENTACRUEL",
-        "LANTURN",
-        "GYARADOS",
-        "MACHAMP"
+        "HITMONTOP",
+        "HARIYAMA",
+        "MACHAMP",
+        "MEDICHAM",
+        "HERACROSS",
+        "SCRAGGY"
       ],
-      "theme": "rain",
+      "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_LILITH": {
       "name": "LILITH",
       "trainer_class": "Battle Girl",
       "species": [
+        "HERACROSS",
+        "SCRAGGY",
         "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
         "HARIYAMA",
-        "LUCARIO",
+        "MACHAMP",
         "MEDICHAM"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_CRISTIAN": {
       "name": "CRISTIAN",
       "trainer_class": "Black Belt",
       "species": [
+        "SCRAGGY",
         "HITMONTOP",
-        "BRELOOM",
+        "HARIYAMA",
         "MACHAMP",
-        "MIENSHAO",
-        "LUCARIO",
-        "HARIYAMA"
+        "MEDICHAM",
+        "HERACROSS"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fighting",
+      "location_sources": [
+        "DewfordTown_Gym"
+      ]
     },
     "TRAINER_SYLVIA": {
       "name": "SYLVIA",
       "trainer_class": "Hex Maniac",
       "species": [
-        "SABLEYE",
-        "COFAGRIGUS",
-        "MISMAGIUS",
-        "SPIRITOMB",
-        "BANETTE",
-        "MEDICHAM"
+        "XATU",
+        "SLOWBRO",
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG",
+        "CLAYDOL"
       ],
-      "theme": "balance",
+      "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_LEONARDO": {
       "name": "LEONARDO",
@@ -9214,23 +9790,31 @@
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route126"
+      ]
     },
     "TRAINER_ATHENA": {
       "name": "ATHENA",
       "trainer_class": "Cooltrainer",
       "species": [
-        "MANECTRIC",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "LINOONE"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_HARRISON": {
       "name": "HARRISON",
@@ -9241,12 +9825,16 @@
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "TENTACRUEL"
+        "SHARPEDO"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route128"
+      ]
     },
     "TRAINER_GRUNT_MT_CHIMNEY_2": {
       "name": "GRUNT",
@@ -9268,17 +9856,21 @@
       "name": "CLARENCE",
       "trainer_class": "Swimmer M",
       "species": [
-        "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
         "QWILFISH",
         "MANTINE",
-        "SHARPEDO"
+        "SHARPEDO",
+        "PELIPPER"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route129"
+      ]
     },
     "TRAINER_TERRY": {
       "name": "TERRY",
@@ -9300,65 +9892,81 @@
       "name": "NATE",
       "trainer_class": "Gentleman",
       "species": [
-        "STOUTLAND",
-        "ARCANINE",
-        "POLTEAGEIST",
-        "MR_MIME",
-        "ROSERADE",
-        "GRUMPIG"
+        "BRONZONG",
+        "CLAYDOL",
+        "XATU",
+        "SLOWBRO",
+        "LUNATONE",
+        "SOLROCK"
       ],
-      "theme": "balance",
+      "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_KATHLEEN": {
       "name": "KATHLEEN",
       "trainer_class": "Hex Maniac",
       "species": [
-        "SABLEYE",
-        "COFAGRIGUS",
-        "MISMAGIUS",
-        "SPIRITOMB",
-        "BANETTE",
-        "ALAKAZAM"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG",
+        "CLAYDOL",
+        "XATU",
+        "SLOWBRO"
       ],
-      "theme": "balance",
+      "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_CLIFFORD": {
       "name": "CLIFFORD",
       "trainer_class": "Gentleman",
       "species": [
-        "STOUTLAND",
-        "ARCANINE",
-        "POLTEAGEIST",
-        "MR_MIME",
-        "ROSERADE",
-        "FARIGIRAF"
+        "CLAYDOL",
+        "XATU",
+        "SLOWBRO",
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG"
       ],
-      "theme": "balance",
+      "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_NICHOLAS": {
       "name": "NICHOLAS",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
-        "BRONZONG",
         "SLOWBRO",
-        "ESPEON",
-        "WOBBUFFET"
+        "LUNATONE",
+        "SOLROCK",
+        "BRONZONG",
+        "CLAYDOL",
+        "XATU"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_GRUNT_SPACE_CENTER_3": {
       "name": "GRUNT",
@@ -9444,17 +10052,21 @@
       "name": "MACEY",
       "trainer_class": "Psychic",
       "species": [
-        "MR_MIME",
-        "GARDEVOIR",
+        "SOLROCK",
         "BRONZONG",
+        "CLAYDOL",
+        "XATU",
         "SLOWBRO",
-        "ESPEON",
-        "XATU"
+        "LUNATONE"
       ],
       "theme": "trick",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:psychic",
+      "location_sources": [
+        "MossdeepCity_Gym"
+      ]
     },
     "TRAINER_BRENDAN_RUSTBORO_TREECKO": {
       "name": "BRENDAN",
@@ -9556,17 +10168,21 @@
       "name": "JONATHAN",
       "trainer_class": "Cooltrainer",
       "species": [
-        "KECLEON",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "EXPLOUD"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_BRENDAN_RUSTBORO_TORCHIC": {
       "name": "BRENDAN",
@@ -9796,33 +10412,41 @@
       "name": "ANDREA",
       "trainer_class": "Lass",
       "species": [
-        "ROSERADE",
-        "DELCATTY",
-        "AZUMARILL",
-        "TOGEKISS",
-        "FURRET",
-        "LUVDISC"
+        "KINGDRA",
+        "PELIPPER",
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_CRISSY": {
       "name": "CRISSY",
       "trainer_class": "Lass",
       "species": [
-        "SEAKING",
-        "ROSERADE",
-        "DELCATTY",
-        "AZUMARILL",
-        "TOGEKISS",
-        "WAILORD"
+        "LUDICOLO",
+        "GASTRODON",
+        "TENTACRUEL",
+        "GYARADOS",
+        "KINGDRA",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:water",
+      "location_sources": [
+        "SootopolisCity_Gym_B1F"
+      ]
     },
     "TRAINER_RICK": {
       "name": "RICK",
@@ -9844,17 +10468,21 @@
       "name": "LYLE",
       "trainer_class": "Bug Catcher",
       "species": [
-        "BUTTERFREE",
-        "BEEDRILL",
         "DUSTOX",
+        "BEAUTIFLY",
         "MASQUERAIN",
         "ARAQUANID",
-        "BEAUTIFLY"
+        "BUTTERFREE",
+        "BEEDRILL"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "forest",
+      "location_sources": [
+        "PetalburgWoods"
+      ]
     },
     "TRAINER_JOSE": {
       "name": "JOSE",
@@ -9929,12 +10557,16 @@
         "DUSTOX",
         "BEAUTIFLY",
         "MASQUERAIN",
-        "NINJASK"
+        "ARAQUANID"
       ],
       "theme": "balance",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "forest",
+      "location_sources": [
+        "PetalburgWoods"
+      ]
     },
     "TRAINER_JAMES_2": {
       "name": "JAMES",
@@ -10100,17 +10732,21 @@
       "name": "ERIC",
       "trainer_class": "Hiker",
       "species": [
-        "GOLEM",
-        "GIGALITH",
-        "EXCADRILL",
-        "GASTRODON",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH",
         "SKARMORY",
-        "CLAYDOL"
+        "TORKOAL"
       ],
-      "theme": "sand",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "JaggedPass"
+      ]
     },
     "TRAINER_LUCAS_2": {
       "name": "LUCAS",
@@ -10148,17 +10784,21 @@
       "name": "MIKE",
       "trainer_class": "Hiker",
       "species": [
+        "AGGRON",
         "GOLEM",
-        "GIGALITH",
-        "EXCADRILL",
-        "GASTRODON",
-        "SKARMORY",
-        "MACHAMP"
+        "GOLBAT",
+        "SABLEYE",
+        "PROBOPASS",
+        "EXCADRILL"
       ],
-      "theme": "sand",
+      "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "cave",
+      "location_sources": [
+        "RusturfTunnel"
+      ]
     },
     "TRAINER_TRENT_2": {
       "name": "TRENT",
@@ -10356,49 +10996,61 @@
       "name": "GERALD",
       "trainer_class": "Cooltrainer",
       "species": [
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "GARCHOMP",
-        "KECLEON"
+        "HOUNDOOM",
+        "TALONFLAME",
+        "CAMERUPT",
+        "TORKOAL",
+        "NINETALES",
+        "MAGCARGO"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_VIVIAN": {
       "name": "VIVIAN",
       "trainer_class": "Battle Girl",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
-        "HARIYAMA",
-        "LUCARIO",
-        "MEDICHAM"
+        "ROTOM",
+        "EELEKTROSS",
+        "MANECTRIC",
+        "RAICHU",
+        "LANTURN",
+        "MAGNEZONE"
       ],
       "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:electric",
+      "location_sources": [
+        "MauvilleCity_Gym"
+      ]
     },
     "TRAINER_DANIELLE": {
       "name": "DANIELLE",
       "trainer_class": "Battle Girl",
       "species": [
-        "HITMONTOP",
-        "BRELOOM",
-        "MIENSHAO",
-        "HARIYAMA",
-        "LUCARIO",
-        "MEDICHAM"
+        "MAGCARGO",
+        "HOUNDOOM",
+        "TALONFLAME",
+        "CAMERUPT",
+        "TORKOAL",
+        "NINETALES"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:fire",
+      "location_sources": [
+        "LavaridgeTown_Gym_1F"
+      ]
     },
     "TRAINER_HIDEO": {
       "name": "HIDEO",
@@ -10452,33 +11104,41 @@
       "name": "FLINT",
       "trainer_class": "Camper",
       "species": [
+        "SKARMORY",
         "SWELLOW",
-        "SANDSLASH",
-        "BRELOOM",
-        "ARCANINE",
         "NOCTOWL",
-        "XATU"
+        "TROPIUS",
+        "ALTARIA",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_ASHLEY": {
       "name": "ASHLEY",
       "trainer_class": "Picnicker",
       "species": [
-        "ROSERADE",
-        "RAICHU",
-        "AZUMARILL",
-        "NINETALES",
-        "WIGGLYTUFF",
-        "ALTARIA"
+        "SWELLOW",
+        "NOCTOWL",
+        "TROPIUS",
+        "ALTARIA",
+        "PELIPPER",
+        "SKARMORY"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_WALLY_MAUVILLE": {
       "name": "WALLY",
@@ -10660,161 +11320,201 @@
       "name": "JONAH",
       "trainer_class": "Fisherman",
       "species": [
-        "WAILORD",
-        "TENTACRUEL",
         "PELIPPER",
         "BARRASKEWDA",
         "LUDICOLO",
-        "SHARPEDO"
+        "WHISCASH",
+        "GYARADOS",
+        "TENTACRUEL"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_HENRY": {
       "name": "HENRY",
       "trainer_class": "Fisherman",
       "species": [
-        "SHARPEDO",
+        "GYARADOS",
+        "TENTACRUEL",
         "PELIPPER",
         "BARRASKEWDA",
         "LUDICOLO",
-        "WHISCASH",
-        "TENTACRUEL"
+        "WHISCASH"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_ROGER": {
       "name": "ROGER",
       "trainer_class": "Fisherman",
       "species": [
+        "WHISCASH",
+        "GYARADOS",
+        "TENTACRUEL",
         "PELIPPER",
         "BARRASKEWDA",
-        "LUDICOLO",
-        "WHISCASH",
-        "TENTACRUEL",
-        "GYARADOS"
+        "LUDICOLO"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_ALEXA": {
       "name": "ALEXA",
       "trainer_class": "Cooltrainer",
       "species": [
-        "VILEPLUME",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "AZUMARILL"
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route128"
+      ]
     },
     "TRAINER_RUBEN": {
       "name": "RUBEN",
       "trainer_class": "Cooltrainer",
       "species": [
-        "SHIFTRY",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "PROBOPASS"
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route128"
+      ]
     },
     "TRAINER_KOJI_1": {
       "name": "KOJI",
       "trainer_class": "Black Belt",
       "species": [
-        "HITMONTOP",
-        "HARIYAMA",
-        "BRELOOM",
-        "MIENSHAO",
-        "LUCARIO",
-        "MACHAMP"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_WAYNE": {
       "name": "WAYNE",
       "trainer_class": "Fisherman",
       "species": [
-        "TENTACRUEL",
-        "PELIPPER",
-        "BARRASKEWDA",
         "LUDICOLO",
         "WHISCASH",
-        "WAILORD"
+        "GYARADOS",
+        "TENTACRUEL",
+        "PELIPPER",
+        "BARRASKEWDA"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route128"
+      ]
     },
     "TRAINER_AIDAN": {
       "name": "AIDAN",
       "trainer_class": "Bird Keeper",
       "species": [
-        "SWELLOW",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "ALTARIA",
-        "SKARMORY"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route127"
+      ]
     },
     "TRAINER_REED": {
       "name": "REED",
       "trainer_class": "Swimmer M",
       "species": [
-        "WALREIN",
+        "MANTINE",
+        "SHARPEDO",
         "PELIPPER",
         "FLOATZEL",
         "LUDICOLO",
-        "QWILFISH",
-        "SHARPEDO"
+        "QWILFISH"
       ],
       "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route129"
+      ]
     },
     "TRAINER_TISHA": {
       "name": "TISHA",
       "trainer_class": "Swimmer F",
       "species": [
-        "PELIPPER",
-        "LUDICOLO",
         "GASTRODON",
         "GOREBYSS",
         "MILOTIC",
+        "PELIPPER",
+        "LUDICOLO",
         "LANTURN"
       ],
       "theme": "rain",
       "level": 49,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route129"
+      ]
     },
     "TRAINER_TORI_AND_TIA": {
       "name": "TORI & TIA",
@@ -11140,33 +11840,41 @@
       "name": "HAILEY",
       "trainer_class": "Tuber F",
       "species": [
-        "DEWGONG",
-        "LANTURN",
-        "LUDICOLO",
         "PELIPPER",
         "GOREBYSS",
-        "AZUMARILL"
+        "AZUMARILL",
+        "DEWGONG",
+        "LANTURN",
+        "LUDICOLO"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_CHANDLER": {
       "name": "CHANDLER",
       "trainer_class": "Tuber M",
       "species": [
+        "LUDICOLO",
         "AZUMARILL",
         "LANTURN",
         "QUAGSIRE",
         "PELIPPER",
-        "FLOATZEL",
-        "TENTACRUEL"
+        "FLOATZEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 16,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_KALEB": {
       "name": "KALEB",
@@ -11316,49 +12024,61 @@
       "name": "SOPHIE",
       "trainer_class": "Picnicker",
       "species": [
-        "AZUMARILL",
-        "ROSERADE",
-        "RAICHU",
-        "NINETALES",
-        "ALTARIA",
-        "LUDICOLO"
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_COBY": {
       "name": "COBY",
       "trainer_class": "Bird Keeper",
       "species": [
         "SKARMORY",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "ALTARIA",
-        "SWELLOW"
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT",
+        "WEEZING",
+        "SANDSLASH"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_LAWRENCE": {
       "name": "LAWRENCE",
       "trainer_class": "Camper",
       "species": [
-        "CLAYDOL",
-        "BRELOOM",
-        "ARCANINE",
-        "NOCTOWL",
-        "QUAGSIRE",
-        "SANDSLASH"
+        "WEEZING",
+        "SANDSLASH",
+        "SKARMORY",
+        "TORKOAL",
+        "MAGCARGO",
+        "CAMERUPT"
       ],
-      "theme": "balance",
+      "theme": "sun",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "volcanic",
+      "location_sources": [
+        "Route113"
+      ]
     },
     "TRAINER_WYATT": {
       "name": "WYATT",
@@ -11716,17 +12436,21 @@
       "name": "DARCY",
       "trainer_class": "Cooltrainer",
       "species": [
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
         "PELIPPER",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "CAMERUPT"
+        "LANTURN",
+        "TENTACRUEL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 43,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route132"
+      ]
     },
     "TRAINER_MAXIE_MOSSDEEP": {
       "name": "MAXIE",
@@ -11780,33 +12504,41 @@
       "name": "ANDRES",
       "trainer_class": "Ruin Maniac",
       "species": [
-        "BRONZONG",
-        "CLAYDOL",
-        "CRADILY",
-        "ARMALDO",
-        "RUNERIGUS",
-        "SANDSLASH"
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL"
       ],
-      "theme": "trick",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_JOSUE": {
       "name": "JOSUE",
       "trainer_class": "Bird Keeper",
       "species": [
-        "SWELLOW",
-        "SKARMORY",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "PELIPPER"
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER",
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route105"
+      ]
     },
     "TRAINER_CAMRON": {
       "name": "CAMRON",
@@ -11828,49 +12560,61 @@
       "name": "CORY",
       "trainer_class": "Sailor",
       "species": [
-        "PELIPPER",
-        "MACHAMP",
-        "POLIWRATH",
         "LANTURN",
+        "MACHAMP",
         "GYARADOS",
+        "PELIPPER",
+        "POLIWRATH",
         "TENTACRUEL"
       ],
       "theme": "rain",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_CAROLINA": {
       "name": "CAROLINA",
       "trainer_class": "Cooltrainer",
       "species": [
-        "MANECTRIC",
-        "ROTOM_WASH",
-        "ARCANINE",
-        "AMOONGUSS",
-        "METAGROSS",
-        "SWELLOW"
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 26,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route108"
+      ]
     },
     "TRAINER_ELIJAH": {
       "name": "ELIJAH",
       "trainer_class": "Bird Keeper",
       "species": [
-        "SWELLOW",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "ALTARIA",
-        "SKARMORY"
+        "LANTURN",
+        "TENTACRUEL",
+        "GASTRODON",
+        "FLOATZEL",
+        "LUDICOLO",
+        "PELIPPER"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 32,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "coast",
+      "location_sources": [
+        "Route109"
+      ]
     },
     "TRAINER_CELIA": {
       "name": "CELIA",
@@ -12820,33 +13564,41 @@
       "name": "ANGELO",
       "trainer_class": "Bug Maniac",
       "species": [
-        "ILLUMISE",
-        "GALVANTULA",
-        "SCIZOR",
-        "FORRETRESS",
-        "VOLCARONA",
-        "VOLBEAT"
+        "EELEKTROSS",
+        "MANECTRIC",
+        "RAICHU",
+        "LANTURN",
+        "MAGNEZONE",
+        "ROTOM"
       ],
       "theme": "balance",
       "level": 20,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:electric",
+      "location_sources": [
+        "MauvilleCity_Gym"
+      ]
     },
     "TRAINER_DARIUS": {
       "name": "DARIUS",
       "trainer_class": "Bird Keeper",
       "species": [
+        "TROPIUS",
+        "ALTARIA",
+        "PELIPPER",
         "SKARMORY",
         "SWELLOW",
-        "NOCTOWL",
-        "TALONFLAME",
-        "CORVIKNIGHT",
-        "TROPIUS"
+        "NOCTOWL"
       ],
-      "theme": "balance",
+      "theme": "rain",
       "level": 37,
       "shiny_ace": false,
-      "format_choice": false
+      "format_choice": false,
+      "location_theme": "gym:flying",
+      "location_sources": [
+        "FortreeCity_Gym"
+      ]
     },
     "TRAINER_STEVEN": {
       "name": "STEVEN",
