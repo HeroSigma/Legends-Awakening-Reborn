@@ -195,6 +195,9 @@ struct PartyMenuInternal
     u8 windowId[3];
     u8 actions[9];
     u8 fieldSkillsPage;
+    u16 bulkCount, bulkMax;
+    TaskFunc bulkReturnTask;
+    bool8 bulkReady, bulkCandy;
     u8 numActions;
     // In vanilla Emerald, only the first 0xB0 hwords (0x160 bytes) are actually used.
     // However, a full 0x100 hwords (0x200 bytes) are allocated.
@@ -327,6 +330,9 @@ static void Task_CancelChooseMonYesNo(u8);
 static void PartyMenuDisplayYesNoMenu(void);
 static void Task_HandleCancelChooseMonYesNoInput(u8);
 static void Task_ReturnToChooseMonAfterText(u8);
+static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mon, bool32 candy);
+u32 TrainingItem_MaxQuantity(struct Pokemon *mon, enum Item item);
+u32 TrainingItem_Apply(struct Pokemon *mon, enum Item item, u32 slot, u32 count);
 static void UpdateCurrentPartySelection(s8 *, s8);
 static void UpdatePartySelectionSingleLayout(s8 *, s8);
 static void UpdatePartySelectionDoubleLayout(s8 *, s8);
@@ -4904,6 +4910,11 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     enum Item item = gSpecialVar_ItemId;
     bool8 canHeal, cannotUse;
     u32 oldStatus = GetMonData(mon, MON_DATA_STATUS);
+    if (TryBulkTrainingPrompt(taskId, task, mon, FALSE))
+        return;
+    u32 quantity = max(1, sPartyMenuInternal->bulkCount);
+    sPartyMenuInternal->bulkCount = 1;
+    u32 used = 0;
 
     if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
     {
@@ -4918,7 +4929,8 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
             if (hp == GetMonData(mon, MON_DATA_MAX_HP))
                 canHeal = FALSE;
         }
-        cannotUse = ExecuteTableBasedItemEffect(mon, item, gPartyMenu.slotId, 0);
+        used = TrainingItem_Apply(mon, item, gPartyMenu.slotId, quantity);
+        cannotUse = used == 0;
     }
 
     if (cannotUse != FALSE)
@@ -4939,7 +4951,7 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
         if (!IsItemFlute(item))
         {
             PlaySE(SE_USE_ITEM);
-            RemoveBagItem(item, 1);
+            RemoveBagItem(item, used);
         }
         else
         {
@@ -5847,11 +5859,18 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     bool8 cannotUseEffect;
     u8 holdEffectParam = GetItemHoldEffectParam(*itemPtr);
 
+    if (TryBulkTrainingPrompt(taskId, task, mon, TRUE))
+        return;
+    u32 quantity = max(1, ptr->bulkCount);
+    ptr->bulkCount = 1;
+    u32 used = 0;
+    u32 oldExp = GetMonData(mon, MON_DATA_EXP);
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
     if (!(B_RARE_CANDY_CAP && sInitialLevel >= GetCurrentLevelCap()))
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
-        cannotUseEffect = ExecuteTableBasedItemEffect(mon, *itemPtr, gPartyMenu.slotId, 0);
+        used = TrainingItem_Apply(mon, *itemPtr, gPartyMenu.slotId, quantity);
+        cannotUseEffect = used == 0;
         BufferMonStatsToTaskData(mon, &ptr->data[NUM_STATS]);
     }
     else
@@ -5898,7 +5917,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         sFinalLevel = GetMonData(mon, MON_DATA_LEVEL);
         gPartyMenuUseExitCallback = TRUE;
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
-        RemoveBagItem(gSpecialVar_ItemId, 1);
+        RemoveBagItem(gSpecialVar_ItemId, used);
         GetMonNickname(mon, gStringVar1);
         if (sFinalLevel > sInitialLevel)
         {
@@ -5910,7 +5929,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
             }
             else // Exp Candies
             {
-                ConvertIntToDecimalStringN(gStringVar2, sExpCandyExperienceTable[holdEffectParam - 1], STR_CONV_MODE_LEFT_ALIGN, 6);
+                ConvertIntToDecimalStringN(gStringVar2, (GetMonData(mon, MON_DATA_EXP) - oldExp), STR_CONV_MODE_LEFT_ALIGN, 6);
                 ConvertIntToDecimalStringN(gStringVar3, sFinalLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExpAndElevatedToLvVar3);
             }
@@ -5922,7 +5941,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         else
         {
             PlaySE(SE_USE_ITEM);
-            ConvertIntToDecimalStringN(gStringVar2, sExpCandyExperienceTable[holdEffectParam - 1], STR_CONV_MODE_LEFT_ALIGN, 6);
+            ConvertIntToDecimalStringN(gStringVar2, (GetMonData(mon, MON_DATA_EXP) - oldExp), STR_CONV_MODE_LEFT_ALIGN, 6);
             StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExp);
             DisplayPartyMenuMessage(gStringVar4, FALSE);
             ScheduleBgCopyTilemapToVram(2);
@@ -8728,4 +8747,116 @@ static void CursorCb_FollowerAuto(u8 taskId)
 {
     PreferredFollower_Automatic();
     FollowerMessage(taskId, COMPOUND_STRING("The first healthy Pokémon will follow."));
+}
+
+// Quantity selection adapted to the modern item engine without changing effects
+// or save structures. Only field training items use it; battle items stay single.
+u32 TrainingItem_MaxQuantity(struct Pokemon *mon, enum Item item)
+{
+    u32 bag = CountTotalItemQuantityInBag(item);
+    if (!bag || GetMonData(mon, MON_DATA_IS_EGG))
+        return 0;
+    u32 type = GetItemEffectType(item);
+    if (type == ITEM_EFFECT_RAISE_LEVEL)
+    {
+        u32 level = GetMonData(mon, MON_DATA_LEVEL), cap = GetCurrentLevelCap();
+        if (level >= cap)
+            return 1; // Existing Rare Candy evolution-only behavior is preserved.
+        u32 param = GetItemHoldEffectParam(item);
+        if (!param)
+            return min(bag, cap - level);
+        if (param > 5)
+            return 1;
+        u32 species = GetMonData(mon, MON_DATA_SPECIES);
+        u32 remaining = gExperienceTables[gSpeciesInfo[species].growthRate][cap] - GetMonData(mon, MON_DATA_EXP);
+        u32 exp = sExpCandyExperienceTable[param - 1];
+        return min(bag, (remaining + exp - 1) / exp);
+    }
+    u32 ev;
+    switch (type)
+    {
+    case ITEM_EFFECT_HP_EV: ev = MON_DATA_HP_EV; break;
+    case ITEM_EFFECT_ATK_EV: ev = MON_DATA_ATK_EV; break;
+    case ITEM_EFFECT_DEF_EV: ev = MON_DATA_DEF_EV; break;
+    case ITEM_EFFECT_SPEED_EV: ev = MON_DATA_SPEED_EV; break;
+    case ITEM_EFFECT_SPATK_EV: ev = MON_DATA_SPATK_EV; break;
+    case ITEM_EFFECT_SPDEF_EV: ev = MON_DATA_SPDEF_EV; break;
+    default: return 1;
+    }
+    const u8 *effect = GetItemEffect(item);
+    s32 increase = (s8)effect[6];
+    if (increase <= 0)
+        return 1;
+    if (GetItemEffectType(item) == ITEM_EFFECT_HP_EV && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_SHEDINJA)
+        return 0;
+    u32 perStat = (effect[10] & ITEM10_IS_VITAMIN) ? EV_ITEM_RAISE_LIMIT : MAX_PER_STAT_EVS;
+    u32 total = B_EV_ITEMS_CAP ? GetCurrentEVCap() : MAX_TOTAL_EVS;
+    u32 current = GetMonData(mon, ev), used = GetMonEVCount(mon);
+    if (current >= perStat || used >= total)
+        return 0;
+    return min(bag, (min(perStat-current, total-used) + increase-1) / increase);
+}
+u32 TrainingItem_Apply(struct Pokemon *mon, enum Item item, u32 slot, u32 count)
+{
+    u32 used = 0;
+    while (used < count)
+    {
+        if (GetItemEffectType(item) == ITEM_EFFECT_RAISE_LEVEL
+         && GetMonData(mon, MON_DATA_LEVEL) >= GetCurrentLevelCap())
+            break;
+        if (ExecuteTableBasedItemEffect(mon, item, slot, 0))
+            break;
+        used++;
+    }
+    return used;
+}
+static void PrintBulkTrainingPrompt(void)
+{
+    ConvertIntToDecimalStringN(gStringVar1, sPartyMenuInternal->bulkCount, STR_CONV_MODE_LEFT_ALIGN, 4);
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Use how many? {STR_VAR_1}\nA: Use   B: Cancel"));
+    DrawStdFrameWithCustomTileAndPalette(WIN_MSG, FALSE, 0x4F, 13);
+    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, gStringVar4, TEXT_SPEED_INSTANT,
+        NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    ScheduleBgCopyTilemapToVram(2);
+}
+static void Task_BulkTrainingInput(u8 taskId)
+{
+    if (IsPartyMenuTextPrinterActive())
+        return;
+    if (JOY_NEW(B_BUTTON))
+    {
+        sPartyMenuInternal->bulkCount = 1;
+        sPartyMenuInternal->bulkReady = FALSE;
+        ReturnToUseOnWhichMon(taskId);
+    }
+    else if (JOY_NEW(A_BUTTON))
+    {
+        sPartyMenuInternal->bulkReady = TRUE;
+        if (sPartyMenuInternal->bulkCandy)
+            ItemUseCB_RareCandy(taskId, sPartyMenuInternal->bulkReturnTask);
+        else
+            ItemUseCB_Medicine(taskId, sPartyMenuInternal->bulkReturnTask);
+    }
+    else if (AdjustQuantityAccordingToDPadInput((s16 *)&sPartyMenuInternal->bulkCount, sPartyMenuInternal->bulkMax))
+        PrintBulkTrainingPrompt();
+}
+static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mon, bool32 candy)
+{
+    if (sPartyMenuInternal->bulkReady)
+    {
+        sPartyMenuInternal->bulkReady = FALSE;
+        return FALSE;
+    }
+    sPartyMenuInternal->bulkCount = 1;
+    if (gPartyMenu.menuType != PARTY_MENU_TYPE_FIELD || gPartyMenu.slotId >= PARTY_SIZE)
+        return FALSE;
+    u32 maximum = TrainingItem_MaxQuantity(mon, gSpecialVar_ItemId);
+    if (maximum <= 1)
+        return FALSE;
+    sPartyMenuInternal->bulkMax = min(maximum, 9999);
+    sPartyMenuInternal->bulkCandy = candy;
+    sPartyMenuInternal->bulkReturnTask = task;
+    PrintBulkTrainingPrompt();
+    gTasks[taskId].func = Task_BulkTrainingInput;
+    return TRUE;
 }

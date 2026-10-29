@@ -1,0 +1,323 @@
+{
+  "passed": true,
+  "assertions": 79,
+  "rom_sha256": "a399c0e909d92e8c7babec5020921d4a3e3b86c80d5765f486576acb12e7de6c",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(0, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(0, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(0, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(0, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "total_room_0",
+      "passed": true
+    },
+    {
+      "test": "total_used_0",
+      "passed": true
+    },
+    {
+      "test": "total_510_0",
+      "passed": true
+    },
+    {
+      "test": "rare_limit_0",
+      "passed": true
+    },
+    {
+      "test": "rare_used_0",
+      "passed": true
+    },
+    {
+      "test": "rare_cap_0",
+      "passed": true
+    },
+    {
+      "test": "no_candy_at_cap_0",
+      "passed": true
+    },
+    {
+      "test": "xl_limit_0",
+      "passed": true
+    },
+    {
+      "test": "xl_consumes_only_one_0",
+      "passed": true
+    },
+    {
+      "test": "xl_stops_at_cap_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_HP_UP')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_PROTEIN')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_IRON')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_CARBOS')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_CALCIUM')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_max_(1, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_used_(1, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_252_(1, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "vitamin_full_(1, 'ITEM_ZINC')",
+      "passed": true
+    },
+    {
+      "test": "total_room_1",
+      "passed": true
+    },
+    {
+      "test": "total_used_1",
+      "passed": true
+    },
+    {
+      "test": "total_510_1",
+      "passed": true
+    },
+    {
+      "test": "rare_limit_1",
+      "passed": true
+    },
+    {
+      "test": "rare_used_1",
+      "passed": true
+    },
+    {
+      "test": "rare_cap_1",
+      "passed": true
+    },
+    {
+      "test": "no_candy_at_cap_1",
+      "passed": true
+    },
+    {
+      "test": "xl_limit_1",
+      "passed": true
+    },
+    {
+      "test": "xl_consumes_only_one_1",
+      "passed": true
+    },
+    {
+      "test": "xl_stops_at_cap_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "quantity_open",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_items",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_level",
+      "passed": true
+    },
+    {
+      "test": "two_candies_consumed",
+      "passed": true
+    },
+    {
+      "test": "two_levels_gained",
+      "passed": true
+    }
+  ]
+}
