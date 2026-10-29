@@ -236,7 +236,58 @@ bool32 IsSpeakerBuffered(const u8 *str)
 static const struct {
     u16 speaker;
     u16 color;
-} sFactionDialogueColors[] = {
+} sCustomSpeakerColors[] = {
+    {SP_NAME_BIRCH, RGB(8, 14, 5)},
+    {SP_NAME_OAK, RGB(16, 10, 5)},
+    {SP_NAME_ELM, RGB(13, 8, 5)},
+    {SP_NAME_ROWAN, RGB(6, 10, 16)},
+    {SP_NAME_JUNIPER, RGB(7, 15, 8)},
+    {SP_NAME_SYCAMORE, RGB(7, 9, 18)},
+    {SP_NAME_KUKUI, RGB(2, 15, 13)},
+    {SP_NAME_BURNET, RGB(12, 8, 18)},
+    {SP_NAME_MAGNOLIA, RGB(15, 6, 16)},
+    {SP_NAME_SONIA, RGB(23, 9, 3)},
+    {SP_NAME_SADA, RGB(20, 8, 3)},
+    {SP_NAME_TURO, RGB(12, 7, 20)},
+    {SP_NAME_LAVENTON, RGB(13, 6, 19)},
+    {SP_NAME_BLUE, RGB(3, 8, 23)},
+    {SP_NAME_GREEN, RGB(3, 16, 7)},
+    {SP_NAME_SILVER, RGB(21, 4, 7)},
+    {SP_NAME_ETHAN, RGB(19, 12, 2)},
+    {SP_NAME_LYRA, RGB(20, 5, 8)},
+    {SP_NAME_KRIS, RGB(2, 14, 18)},
+    {SP_NAME_LUCAS, RGB(18, 4, 7)},
+    {SP_NAME_DAWN, RGB(21, 5, 13)},
+    {SP_NAME_BARRY, RGB(22, 10, 2)},
+    {SP_NAME_HILBERT, RGB(5, 10, 19)},
+    {SP_NAME_HILDA, RGB(20, 5, 12)},
+    {SP_NAME_CHEREN, RGB(5, 8, 15)},
+    {SP_NAME_BIANCA, RGB(6, 16, 8)},
+    {SP_NAME_NATE, RGB(3, 10, 21)},
+    {SP_NAME_ROSA, RGB(4, 15, 13)},
+    {SP_NAME_HUGH, RGB(7, 5, 18)},
+    {SP_NAME_CALEM, RGB(4, 8, 18)},
+    {SP_NAME_SERENA, RGB(21, 4, 9)},
+    {SP_NAME_TIERNO, RGB(16, 9, 3)},
+    {SP_NAME_TREVOR, RGB(22, 8, 3)},
+    {SP_NAME_SHAUNA, RGB(21, 5, 14)},
+    {SP_NAME_ELIO, RGB(4, 10, 20)},
+    {SP_NAME_SELENE, RGB(19, 6, 12)},
+    {SP_NAME_HAU, RGB(12, 15, 2)},
+    {SP_NAME_GLADION, RGB(11, 6, 16)},
+    {SP_NAME_GLORIA, RGB(19, 4, 10)},
+    {SP_NAME_VICTOR, RGB(7, 12, 17)},
+    {SP_NAME_HOP, RGB(6, 8, 20)},
+    {SP_NAME_BEDE, RGB(18, 6, 19)},
+    {SP_NAME_MARNIE, RGB(20, 4, 13)},
+    {SP_NAME_NEMONA, RGB(3, 15, 10)},
+    {SP_NAME_ARVEN, RGB(16, 11, 4)},
+    {SP_NAME_PENNY, RGB(12, 6, 18)},
+    {SP_NAME_ASH, RGB(4, 9, 21)},
+    {SP_NAME_ALAIN, RGB(6, 7, 13)},
+    {SP_NAME_N, RGB(5, 15, 8)},
+    {SP_NAME_IRIS, RGB(15, 6, 20)},
+    {SP_NAME_ZINNIA, RGB(13, 5, 19)},
     {SP_NAME_GIOVANNI, RGB(22, 3, 6)},
     {SP_NAME_TEAM_ROCKET, RGB(22, 3, 6)},
     {SP_NAME_AQUA_GRUNT, RGB(3, 8, 23)},
@@ -253,13 +304,13 @@ static const struct {
     {SP_NAME_AETHER_FOUNDATION, RGB(2, 15, 13)},
 };
 
-static bool32 GetFactionDialogueColor(u16 *color)
+static bool32 GetCustomSpeakerColor(u16 *color)
 {
-    for (u32 i = 0; i < ARRAY_COUNT(sFactionDialogueColors); i++)
+    for (u32 i = 0; i < ARRAY_COUNT(sCustomSpeakerColors); i++)
     {
-        if (gSpeakerName == gSpeakerNamesTable[sFactionDialogueColors[i].speaker])
+        if (gSpeakerName == gSpeakerNamesTable[sCustomSpeakerColors[i].speaker])
         {
-            *color = sFactionDialogueColors[i].color;
+            *color = sCustomSpeakerColors[i].color;
             return TRUE;
         }
     }
@@ -272,7 +323,7 @@ void ApplySpeakerDialoguePalette(void)
     if (gStringVar4[0] == EXT_CTRL_CODE_BEGIN
         && gStringVar4[1] == EXT_CTRL_CODE_COLOR
         && gStringVar4[2] == TEXT_DYNAMIC_COLOR_1
-        && GetFactionDialogueColor(&color))
+        && GetCustomSpeakerColor(&color))
         LoadPalette(&color, BG_PLTT_ID(GetWindowAttribute(0, WINDOW_PALETTE_NUM)) + TEXT_DYNAMIC_COLOR_1, sizeof(color));
 }
 
@@ -280,8 +331,8 @@ void ApplySpeakerDialoguePalette(void)
 void ApplySpeakerDialogueColor(void)
 {
     u8 color = TEXT_COLOR_DARK_GRAY;
-    u16 factionColor;
-    if (GetFactionDialogueColor(&factionColor))
+    u16 customColor;
+    if (GetCustomSpeakerColor(&customColor))
         color = TEXT_DYNAMIC_COLOR_1;
     else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_PLAYER])
         color = TEXT_COLOR_LIGHT_BLUE;
