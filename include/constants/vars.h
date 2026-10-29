@@ -357,3 +357,10 @@
 #define VAR_LA_BIRCH_RESCUE_STATE VAR_UNUSED_0x404E
 
 #define VAR_LA_LITTLEROOT_ARC VAR_UNUSED_0x4083 // 0 lab pending; 1 spar; 2 Route 103; 3 dex pending; 4 farewell; 5 complete
+
+// Persistent follower identity; these previously unused vars do not resize saves.
+#define VAR_LA_FOLLOWER_MODE VAR_UNUSED_0x40FA
+#define VAR_LA_FOLLOWER_PID_LO VAR_UNUSED_0x40FB
+#define VAR_LA_FOLLOWER_PID_HI VAR_UNUSED_0x40FC
+#define VAR_LA_FOLLOWER_OT_LO VAR_UNUSED_0x40FD
+#define VAR_LA_FOLLOWER_OT_HI VAR_UNUSED_0x40FE

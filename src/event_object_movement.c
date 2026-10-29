@@ -1,5 +1,6 @@
 #include "global.h"
 #include "hyper_assets.h"
+#include "preferred_follower.h"
 #include "malloc.h"
 #include "battle_anim.h"
 #include "battle_pyramid.h"
@@ -2186,10 +2187,15 @@ u8 CreateVirtualObject(u16 graphicsId, u8 virtualObjId, s16 x, s16 y, u8 elevati
 // Return address of first conscious party mon or NULL
 struct Pokemon *GetFirstLiveMon(void)
 {
-    u32 i;
-    for (i = 0; i < PARTY_SIZE; i++)
+    if (PreferredFollower_IsRecalled())
+        return NULL;
+    struct Pokemon *preferred = PreferredFollower_Get();
+    // Check the chosen companion first, then retain the normal eligible fallback.
+    for (u32 i = 0; i <= PARTY_SIZE; i++)
     {
-        struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][i];
+        struct Pokemon *mon = i == 0 ? preferred : &gParties[B_TRAINER_PLAYER][i - 1];
+        if (mon == NULL)
+            continue;
         enum Species species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG);
         if (species == SPECIES_NONE)
             continue;
@@ -2199,8 +2205,8 @@ struct Pokemon *GetFirstLiveMon(void)
          || (OW_FOLLOWERS_ALLOWED_MET_LOC && GetMonData(mon, MON_DATA_MET_LOCATION) != VarGet(OW_FOLLOWERS_ALLOWED_MET_LOC)))
             continue;
 
-        if (gParties[B_TRAINER_PLAYER][i].hp > 0 && !(gParties[B_TRAINER_PLAYER][i].box.isEgg || gParties[B_TRAINER_PLAYER][i].box.isBadEgg))
-            return &gParties[B_TRAINER_PLAYER][i];
+        if (mon->hp > 0 && !(mon->box.isEgg || mon->box.isBadEgg))
+            return mon;
     }
     return NULL;
 }

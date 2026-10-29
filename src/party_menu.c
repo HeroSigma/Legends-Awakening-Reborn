@@ -15,6 +15,7 @@
 #include "easy_chat.h"
 #include "event_data.h"
 #include "event_object_movement.h"
+#include "preferred_follower.h"
 #include "evolution_scene.h"
 #include "field_control_avatar.h"
 #include "field_effect.h"
@@ -113,6 +114,10 @@ enum {
     MENU_FIELD_SKILLS,
     MENU_FIELD_SKILLS_NEXT,
     MENU_FIELD_SKILLS_BACK,
+    MENU_FOLLOWER,
+    MENU_FOLLOWER_SET,
+    MENU_FOLLOWER_RECALL,
+    MENU_FOLLOWER_AUTO,
     MENU_FIELD_MOVES
 };
 
@@ -459,6 +464,10 @@ static void ShiftMoveSlot(struct BoxPokemon *, u8, u8);
 static void BlitBitmapToPartyWindow_LeftColumn(u8, u8, u8, u8, u8, bool8);
 static void BlitBitmapToPartyWindow_RightColumn(u8, u8, u8, u8, u8, bool8);
 static void CursorCb_Summary(u8);
+static void CursorCb_Follower(u8);
+static void CursorCb_FollowerSet(u8);
+static void CursorCb_FollowerRecall(u8);
+static void CursorCb_FollowerAuto(u8);
 static void CursorCb_Switch(u8);
 static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
@@ -2988,6 +2997,10 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         else
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_ITEM);
     }
+    // Keep the menu within nine rows. Fully occupied menus also expose this
+    // choice through FIELD SKILLS, without dropping a learned field move.
+    if (sPartyMenuInternal->numActions < 8)
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
 
@@ -8648,6 +8661,7 @@ static void ShowFieldSkills(u8 taskId)
     for (i = first; i < end; i++)
         if (FieldMove_CanAssist(&gPlayerParty[gPartyMenu.slotId], skills[i]))
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_MOVES + skills[i]);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_NEXT);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
     DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
@@ -8675,4 +8689,43 @@ static void CursorCb_FieldSkillsBack(u8 taskId)
     DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
     gTasks[taskId].data[0] = 0xFF;
     gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void CursorCb_Follower(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    sPartyMenuInternal->numActions = 0;
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_SET);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_RECALL);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_AUTO);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+static void FollowerMessage(u8 taskId, const u8 *text)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    DisplayPartyMenuMessage(text, TRUE);
+    gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
+}
+static void CursorCb_FollowerSet(u8 taskId)
+{
+    bool32 set = PreferredFollower_Set(gPartyMenu.slotId);
+    FollowerMessage(taskId, set ? COMPOUND_STRING("This Pokémon will follow you.")
+        : COMPOUND_STRING("Choose a healthy Pokémon first."));
+}
+static void CursorCb_FollowerRecall(u8 taskId)
+{
+    PreferredFollower_Recall();
+    FollowerMessage(taskId, COMPOUND_STRING("Your companion will stay in its Ball."));
+}
+static void CursorCb_FollowerAuto(u8 taskId)
+{
+    PreferredFollower_Automatic();
+    FollowerMessage(taskId, COMPOUND_STRING("The first healthy Pokémon will follow."));
 }

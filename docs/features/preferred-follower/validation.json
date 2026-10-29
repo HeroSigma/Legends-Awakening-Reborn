@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "assertions": 44,
+  "rom_sha256": "1887958f4a960689e4384608acb8c9819ad6807ca6fba110badcfe0d1c33e3be",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_default_lead",
+      "passed": true
+    },
+    {
+      "test": "choose_second_0",
+      "passed": true
+    },
+    {
+      "test": "0_chosen_second",
+      "passed": true
+    },
+    {
+      "test": "lead_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "0_selection_survives_swap",
+      "passed": true
+    },
+    {
+      "test": "0_fainted_fallback",
+      "passed": true
+    },
+    {
+      "test": "0_healed_preference",
+      "passed": true
+    },
+    {
+      "test": "0_egg_fallback",
+      "passed": true
+    },
+    {
+      "test": "egg_cannot_select_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_slot_0",
+      "passed": true
+    },
+    {
+      "test": "0_recalled",
+      "passed": true
+    },
+    {
+      "test": "0_automatic",
+      "passed": true
+    },
+    {
+      "test": "0_before_save",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "reload_0",
+      "passed": true
+    },
+    {
+      "test": "0_preference_reloaded",
+      "passed": true
+    },
+    {
+      "test": "0_stored_fallback",
+      "passed": true
+    },
+    {
+      "test": "follower_submenu_0",
+      "passed": true
+    },
+    {
+      "test": "ui_sets_preference_0",
+      "passed": true
+    },
+    {
+      "test": "menu_returns_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "1_default_lead",
+      "passed": true
+    },
+    {
+      "test": "choose_second_1",
+      "passed": true
+    },
+    {
+      "test": "1_chosen_second",
+      "passed": true
+    },
+    {
+      "test": "lead_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "1_selection_survives_swap",
+      "passed": true
+    },
+    {
+      "test": "1_fainted_fallback",
+      "passed": true
+    },
+    {
+      "test": "1_healed_preference",
+      "passed": true
+    },
+    {
+      "test": "1_egg_fallback",
+      "passed": true
+    },
+    {
+      "test": "egg_cannot_select_1",
+      "passed": true
+    },
+    {
+      "test": "invalid_slot_1",
+      "passed": true
+    },
+    {
+      "test": "1_recalled",
+      "passed": true
+    },
+    {
+      "test": "1_automatic",
+      "passed": true
+    },
+    {
+      "test": "1_before_save",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "reload_1",
+      "passed": true
+    },
+    {
+      "test": "1_preference_reloaded",
+      "passed": true
+    },
+    {
+      "test": "1_stored_fallback",
+      "passed": true
+    },
+    {
+      "test": "follower_submenu_1",
+      "passed": true
+    },
+    {
+      "test": "ui_sets_preference_1",
+      "passed": true
+    },
+    {
+      "test": "menu_returns_1",
+      "passed": true
+    }
+  ]
+}
