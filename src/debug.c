@@ -3683,6 +3683,8 @@ u32 Debug_FillPCBoxes(bool32 randomIvs)
                 u32 experience = gExperienceTables[gSpeciesInfo[species].growthRate][5];
                 SetBoxMonData(&boxMon, MON_DATA_EXP, &experience);
             }
+            enum Type teraType = GetSpeciesType(species, 0);
+            SetBoxMonData(&boxMon, MON_DATA_TERA_TYPE, &teraType);
             GiveBoxMonInitialMoveset(&boxMon);
             if (!StorageWriteMon(box, slot, &boxMon)) {Free(seen);return added;}
             added++;
