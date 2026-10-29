@@ -1,4 +1,5 @@
 #include "global.h"
+#include "pokeride.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -3425,6 +3426,7 @@ static void SurfFieldEffect_End(struct Task *task)
         if (followerObject)
             ObjectEventClearHeldMovementIfFinished(followerObject);
         SetSurfBlob_BobState(objectEvent->fieldEffectSpriteId, BOB_PLAYER_AND_MON);
+        PokeRide_BeginSurf(task->tMonId);
         UnfreezeObjectEvents();
         UnlockPlayerFieldControls();
         FieldEffectActiveListRemove(FLDEFF_USE_SURF);

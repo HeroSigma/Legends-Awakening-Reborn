@@ -8744,6 +8744,11 @@ static void CursorCb_FollowerSet(u8 taskId)
 }
 static void CursorCb_FollowerRecall(u8 taskId)
 {
+    if (!PokeRide_CanDismount())
+    {
+        FollowerMessage(taskId, COMPOUND_STRING("Reach land before recalling your ride."));
+        return;
+    }
     PokeRide_Stop();
     PreferredFollower_Recall();
     FollowerMessage(taskId, COMPOUND_STRING("Your companion will stay in its Ball."));

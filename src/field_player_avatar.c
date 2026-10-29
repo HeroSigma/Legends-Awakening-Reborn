@@ -301,7 +301,7 @@ static const struct PACKED
 {
     u16 graphicsId;
     u8 playerFlag;
-} sPlayerAvatarGfxToStateFlag[GENDER_COUNT][6] =
+} sPlayerAvatarGfxToStateFlag[GENDER_COUNT][7] =
 {
     [MALE] =
     {
@@ -311,6 +311,7 @@ static const struct PACKED
         {PLAYER_AVATAR_GFX_MALE_SURFING,    PLAYER_AVATAR_FLAG_SURFING},
         {PLAYER_AVATAR_GFX_MALE_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
         {OBJ_EVENT_GFX_LA_BRENDAN_RIDING, PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_LA_BRENDAN_WATER_RIDING, PLAYER_AVATAR_FLAG_SURFING},
     },
     [FEMALE] =
     {
@@ -320,6 +321,7 @@ static const struct PACKED
         {PLAYER_AVATAR_GFX_FEMALE_SURFING,        PLAYER_AVATAR_FLAG_SURFING},
         {PLAYER_AVATAR_GFX_FEMALE_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
         {OBJ_EVENT_GFX_LA_MAY_RIDING, PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_LA_MAY_WATER_RIDING, PLAYER_AVATAR_FLAG_SURFING},
     }
 };
 
@@ -894,7 +896,7 @@ static void PlayerNotOnBikeMoving(enum Direction direction, u16 heldKeys)
         }
     }
 
-    if (PokeRide_IsActive() && !IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior))
+    if (PokeRide_IsActive() && !(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING) && !IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior))
     {
         PlayerWalkFast(direction);
         return;
@@ -1603,6 +1605,7 @@ enum Gender GetPlayerAvatarGenderByGraphicsId(u16 gfxId)
 {
     switch (gfxId)
     {
+    case OBJ_EVENT_GFX_LA_MAY_WATER_RIDING:
     case OBJ_EVENT_GFX_LA_MAY_RIDING:
     case OBJ_EVENT_GFX_MAY_NORMAL:
     case OBJ_EVENT_GFX_MAY_MACH_BIKE:

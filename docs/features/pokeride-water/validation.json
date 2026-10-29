@@ -1,0 +1,255 @@
+{
+  "passed": true,
+  "assertions": 62,
+  "rom_sha256": "2a312524d12962fc3954aaa419e7b5cf26bfdfa6c8cd2df79e22a2578c5fddcc",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "lapras_swims_0",
+      "passed": true
+    },
+    {
+      "test": "charizard_not_swimmer_0",
+      "passed": true
+    },
+    {
+      "test": "badge_gate_0",
+      "passed": true
+    },
+    {
+      "test": "starts_on_land_0",
+      "passed": true
+    },
+    {
+      "test": "native_surf_started_0",
+      "passed": true
+    },
+    {
+      "test": "automatic_water_mount_0",
+      "passed": true
+    },
+    {
+      "test": "water_rider_graphics_0",
+      "passed": true
+    },
+    {
+      "test": "blob_hidden_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_dismount_offshore_0",
+      "passed": true
+    },
+    {
+      "test": "shoulders_stay_on_water_mount_0",
+      "passed": true
+    },
+    {
+      "test": "controls_not_locked_0",
+      "passed": true
+    },
+    {
+      "test": "moves_on_water_0",
+      "passed": true
+    },
+    {
+      "test": "party_open_0",
+      "passed": true
+    },
+    {
+      "test": "party_keeps_surf_0",
+      "passed": true
+    },
+    {
+      "test": "party_keeps_gender_0",
+      "passed": true
+    },
+    {
+      "test": "faint_keeps_native_surf_0",
+      "passed": true
+    },
+    {
+      "test": "fallback_blob_visible_0",
+      "passed": true
+    },
+    {
+      "test": "remount_on_water_0",
+      "passed": true
+    },
+    {
+      "test": "reject_land_species_on_water_0",
+      "passed": true
+    },
+    {
+      "test": "battle_returns_surfing_0",
+      "passed": true
+    },
+    {
+      "test": "battle_keeps_water_mount_0",
+      "passed": true
+    },
+    {
+      "test": "save_on_water_0",
+      "passed": true
+    },
+    {
+      "test": "reload_battery_0",
+      "passed": true
+    },
+    {
+      "test": "reload_native_surf_0",
+      "passed": true
+    },
+    {
+      "test": "reload_remount_0",
+      "passed": true
+    },
+    {
+      "test": "native_shore_exit_0",
+      "passed": true
+    },
+    {
+      "test": "shore_controls_released_0",
+      "passed": true
+    },
+    {
+      "test": "land_dismount_allowed_0",
+      "passed": true
+    },
+    {
+      "test": "land_dismounts_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "lapras_swims_1",
+      "passed": true
+    },
+    {
+      "test": "charizard_not_swimmer_1",
+      "passed": true
+    },
+    {
+      "test": "badge_gate_1",
+      "passed": true
+    },
+    {
+      "test": "starts_on_land_1",
+      "passed": true
+    },
+    {
+      "test": "native_surf_started_1",
+      "passed": true
+    },
+    {
+      "test": "automatic_water_mount_1",
+      "passed": true
+    },
+    {
+      "test": "water_rider_graphics_1",
+      "passed": true
+    },
+    {
+      "test": "blob_hidden_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_dismount_offshore_1",
+      "passed": true
+    },
+    {
+      "test": "shoulders_stay_on_water_mount_1",
+      "passed": true
+    },
+    {
+      "test": "controls_not_locked_1",
+      "passed": true
+    },
+    {
+      "test": "moves_on_water_1",
+      "passed": true
+    },
+    {
+      "test": "party_open_1",
+      "passed": true
+    },
+    {
+      "test": "party_keeps_surf_1",
+      "passed": true
+    },
+    {
+      "test": "party_keeps_gender_1",
+      "passed": true
+    },
+    {
+      "test": "faint_keeps_native_surf_1",
+      "passed": true
+    },
+    {
+      "test": "fallback_blob_visible_1",
+      "passed": true
+    },
+    {
+      "test": "remount_on_water_1",
+      "passed": true
+    },
+    {
+      "test": "reject_land_species_on_water_1",
+      "passed": true
+    },
+    {
+      "test": "battle_returns_surfing_1",
+      "passed": true
+    },
+    {
+      "test": "battle_keeps_water_mount_1",
+      "passed": true
+    },
+    {
+      "test": "save_on_water_1",
+      "passed": true
+    },
+    {
+      "test": "reload_battery_1",
+      "passed": true
+    },
+    {
+      "test": "reload_native_surf_1",
+      "passed": true
+    },
+    {
+      "test": "reload_remount_1",
+      "passed": true
+    },
+    {
+      "test": "native_shore_exit_1",
+      "passed": true
+    },
+    {
+      "test": "shore_controls_released_1",
+      "passed": true
+    },
+    {
+      "test": "land_dismount_allowed_1",
+      "passed": true
+    },
+    {
+      "test": "land_dismounts_1",
+      "passed": true
+    }
+  ]
+}
