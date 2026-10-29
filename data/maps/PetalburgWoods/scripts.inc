@@ -106,6 +106,7 @@ LegendsWoods_Begin:
 	giveitem ITEM_GREAT_BALL
 	goto_if_eq VAR_RESULT, FALSE, LegendsWoods_NoRoom
 LegendsWoods_AfterReward:
+	call LegendsPokevial_GiveReward
 	applymovement LOCALID_WOODS_SILPH, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	setspeaker SP_NAME_SILPH_RESEARCHER

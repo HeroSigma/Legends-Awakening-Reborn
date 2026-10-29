@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "assertions": 34,
+  "old_rom_sha256": "99e5f3588c9ec0344d1bb800b10d22ce1820c44b1e96e13f01c038e341b2b589",
+  "rom_sha256": "6429fa25e100e6858ce9562fbde2f902c87c63213d6e54c6dd517027bc056b4f",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "old_save_loads_0",
+      "passed": true
+    },
+    {
+      "test": "old_mode_0",
+      "passed": true
+    },
+    {
+      "test": "old_bag_active_0",
+      "passed": true
+    },
+    {
+      "test": "old_item_(0, 6)",
+      "passed": true
+    },
+    {
+      "test": "old_item_(0, 49)",
+      "passed": true
+    },
+    {
+      "test": "old_item_(0, 873)",
+      "passed": true
+    },
+    {
+      "test": "new_item_starts_empty_0",
+      "passed": true
+    },
+    {
+      "test": "old_last_box_0",
+      "passed": true
+    },
+    {
+      "test": "new_format_saves_0",
+      "passed": true
+    },
+    {
+      "test": "new_format_loads_0",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(0, 6)",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(0, 49)",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(0, 873)",
+      "passed": true
+    },
+    {
+      "test": "vial_saved_0",
+      "passed": true
+    },
+    {
+      "test": "boxed_saved_0",
+      "passed": true
+    },
+    {
+      "test": "old_save_loads_1",
+      "passed": true
+    },
+    {
+      "test": "old_mode_1",
+      "passed": true
+    },
+    {
+      "test": "old_bag_active_1",
+      "passed": true
+    },
+    {
+      "test": "old_item_(1, 6)",
+      "passed": true
+    },
+    {
+      "test": "old_item_(1, 49)",
+      "passed": true
+    },
+    {
+      "test": "old_item_(1, 873)",
+      "passed": true
+    },
+    {
+      "test": "new_item_starts_empty_1",
+      "passed": true
+    },
+    {
+      "test": "old_last_box_1",
+      "passed": true
+    },
+    {
+      "test": "new_format_saves_1",
+      "passed": true
+    },
+    {
+      "test": "new_format_loads_1",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(1, 6)",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(1, 49)",
+      "passed": true
+    },
+    {
+      "test": "new_item_preserved_(1, 873)",
+      "passed": true
+    },
+    {
+      "test": "vial_saved_1",
+      "passed": true
+    },
+    {
+      "test": "boxed_saved_1",
+      "passed": true
+    }
+  ]
+}

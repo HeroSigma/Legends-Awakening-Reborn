@@ -3,6 +3,7 @@
 #include "decompress.h"
 #include "graphics.h"
 #include "item.h"
+#include "legends_pokevial.h"
 #include "item_icon.h"
 #include "malloc.h"
 #include "move.h"
@@ -156,6 +157,11 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
 
 const void *GetItemIconPic(enum Item itemId)
 {
+    if (itemId == ITEM_POKEVIAL)
+    {
+        const void *const doses[] = {gItemIcon_Pokevial0, gItemIcon_Pokevial3, gItemIcon_Pokevial6, gItemIcon_Pokevial9};
+        return doses[LegendsPokevialCharges()];
+    }
     if (itemId == ITEM_LIST_END)
         return gItemIcon_ReturnToFieldArrow; // Use last icon, the "return to field" arrow
     if (itemId >= ITEMS_COUNT)

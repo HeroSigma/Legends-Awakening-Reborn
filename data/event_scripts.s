@@ -2695,3 +2695,5 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_petalburg.inc"
 
 	.include "data/scripts/legends_training.inc"
+
+	.include "data/scripts/legends_pokevial.inc"

@@ -1,0 +1,419 @@
+{
+  "passed": true,
+  "assertions": 103,
+  "rom_sha256": "6429fa25e100e6858ce9562fbde2f902c87c63213d6e54c6dd517027bc056b4f",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "not_owned_0",
+      "passed": true
+    },
+    {
+      "test": "key_pocket_0",
+      "passed": true
+    },
+    {
+      "test": "starts_full_0",
+      "passed": true
+    },
+    {
+      "test": "healthy_rejected_0",
+      "passed": true
+    },
+    {
+      "test": "healthy_no_charge_0",
+      "passed": true
+    },
+    {
+      "test": "ready_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "revives_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "icon_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "ready_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "revives_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "icon_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "ready_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "revives_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "icon_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "egg_untouched_0",
+      "passed": true
+    },
+    {
+      "test": "empty_no_heal_0",
+      "passed": true
+    },
+    {
+      "test": "center_refills_0",
+      "passed": true
+    },
+    {
+      "test": "pp_only_0",
+      "passed": true
+    },
+    {
+      "test": "reload_0",
+      "passed": true
+    },
+    {
+      "test": "charges_persist_0",
+      "passed": true
+    },
+    {
+      "test": "item_persists_0",
+      "passed": true
+    },
+    {
+      "test": "last_box_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "registered_starts_0",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_charge_0",
+      "passed": true
+    },
+    {
+      "test": "registered_heals_0",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_0",
+      "passed": true
+    },
+    {
+      "test": "bag_use_cancel_0",
+      "passed": true
+    },
+    {
+      "test": "catchup_reward_0",
+      "passed": true
+    },
+    {
+      "test": "reward_once_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "not_owned_1",
+      "passed": true
+    },
+    {
+      "test": "key_pocket_1",
+      "passed": true
+    },
+    {
+      "test": "starts_full_1",
+      "passed": true
+    },
+    {
+      "test": "healthy_rejected_1",
+      "passed": true
+    },
+    {
+      "test": "healthy_no_charge_1",
+      "passed": true
+    },
+    {
+      "test": "ready_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "revives_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "icon_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "ready_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "revives_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "icon_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "ready_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "charge_consumed_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "revives_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "status_cured_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "pp_restored_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "icon_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "egg_untouched_1",
+      "passed": true
+    },
+    {
+      "test": "empty_no_heal_1",
+      "passed": true
+    },
+    {
+      "test": "center_refills_1",
+      "passed": true
+    },
+    {
+      "test": "pp_only_1",
+      "passed": true
+    },
+    {
+      "test": "reload_1",
+      "passed": true
+    },
+    {
+      "test": "charges_persist_1",
+      "passed": true
+    },
+    {
+      "test": "item_persists_1",
+      "passed": true
+    },
+    {
+      "test": "last_box_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "registered_starts_1",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_charge_1",
+      "passed": true
+    },
+    {
+      "test": "registered_heals_1",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_1",
+      "passed": true
+    },
+    {
+      "test": "bag_use_cancel_1",
+      "passed": true
+    },
+    {
+      "test": "catchup_reward_1",
+      "passed": true
+    },
+    {
+      "test": "reward_once_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Confirm_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Confirm_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Empty_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Empty_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Empty_2",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_2",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_3",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_4",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_5",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_6",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Explain_7",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Healed_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Healed_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Healthy_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Healthy_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_NoRoom_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_NoRoom_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Reward_0",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Reward_1",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Reward_2",
+      "passed": true
+    },
+    {
+      "test": "text_fits_LegendsPokevial_Text_Reward_3",
+      "passed": true
+    }
+  ]
+}

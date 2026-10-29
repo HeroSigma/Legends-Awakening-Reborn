@@ -100,7 +100,7 @@ void ExpandedBag_SetSlot(struct BagPocket *pocket,u32 slot,struct ItemSlot data)
 u16 ExpandedBag_SectorSize(u32 id,const u8 *data,u16 size)
 {
     if(id==SECTOR_ID_PKMN_STORAGE_END && Read32(data+size)==BAG_MAGIC)
-        return size+BAG_HEADER+((EXPANDED_BAG_BYTES+3)&~3);
+        return size+BAG_HEADER+((min(Read32(data+size+8), EXPANDED_BAG_BYTES)+3)&~3);
     return size;
 }
 void ExpandedBag_WriteSector(u32 id,u8 *data,u16 size)
@@ -113,8 +113,10 @@ void ExpandedBag_ReadSector(u32 id,const u8 *data,u16 size)
 {
     if(id!=SECTOR_ID_PKMN_STORAGE_END)return;
     const u8 *p=data+size;
-    if(Read32(p)!=BAG_MAGIC || Read32(p+4)!=ITEMS_COUNT || Read32(p+8)!=EXPANDED_BAG_BYTES
-      || Read32(p+12)!=BagCrc(p+BAG_HEADER,EXPANDED_BAG_BYTES))return;
-    memcpy(gExpandedBagData,p+BAG_HEADER,EXPANDED_BAG_BYTES);ExpandedBag_LoadPacked();
+    u32 count=Read32(p+4), bytes=Read32(p+8);
+    if(Read32(p)!=BAG_MAGIC || count<2 || count>ITEMS_COUNT || bytes!=((count-1)*10+7)/8
+      || Read32(p+12)!=BagCrc(p+BAG_HEADER,bytes))return;
+    memset(gExpandedBagData,0,sizeof(gExpandedBagData));
+    memcpy(gExpandedBagData,p+BAG_HEADER,bytes);ExpandedBag_LoadPacked();
 }
 STATIC_ASSERT(sizeof(struct PokemonStorageLegacy)-8*SECTOR_DATA_SIZE+BAG_HEADER+((EXPANDED_BAG_BYTES+3)&~3)<=SECTOR_DATA_SIZE, ExpandedBagNormalSectorFits);

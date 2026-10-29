@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 69,
-  "rom_sha256": "cb9ab10b34a6c41ce8856845a813a01e3d7b26be4e15d736c06022f453072680",
+  "assertions": 71,
+  "rom_sha256": "6429fa25e100e6858ce9562fbde2f902c87c63213d6e54c6dd517027bc056b4f",
   "battle_results": "injected through native end handlers; combat difficulty is not measured",
   "checks": [
     {
@@ -86,6 +86,10 @@
     },
     {
       "test": "completed_35",
+      "passed": true
+    },
+    {
+      "test": "pokevial_reward_35",
       "passed": true
     },
     {
@@ -194,6 +198,10 @@
     },
     {
       "test": "completed_36",
+      "passed": true
+    },
+    {
+      "test": "pokevial_reward_36",
       "passed": true
     },
     {

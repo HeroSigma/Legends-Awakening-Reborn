@@ -28,6 +28,7 @@
 #include "string_util.h"
 #include "tv.h"
 #include "wild_encounter.h"
+#include "legends_pokevial.h"
 #include "constants/abilities.h"
 #include "constants/items.h"
 #include "constants/battle_frontier.h"
@@ -38,6 +39,7 @@ static void HealPlayerBoxes(void);
 
 void HealPlayerParty(void)
 {
+    LegendsPokevialRefill();
     u32 i;
     for (i = 0; i < gPartiesCount[B_TRAINER_PLAYER]; i++)
         HealPokemon(&gParties[B_TRAINER_PLAYER][i]);

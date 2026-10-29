@@ -652,3 +652,7 @@ gSpecials::
 	def_special LegendsTraining_Evolve, waitstate=1
 	def_special LegendsTraining_EVBudget
 	def_special LegendsTraining_ShowBuild, waitstate=1
+
+	def_special LegendsPokevialGrant
+	def_special LegendsPokevialPrepare
+	def_special LegendsPokevialHeal

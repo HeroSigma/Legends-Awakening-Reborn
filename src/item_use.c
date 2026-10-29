@@ -734,6 +734,23 @@ static void Task_OpenRegisteredPokeblockCase(u8 taskId)
     }
 }
 
+static void Task_UsePokevial(u8 taskId)
+{
+    ScriptContext_SetupScript(LegendsPokevial_Use);
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_Pokevial(u8 taskId)
+{
+    if (MenuHelpers_IsLinkActive())
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+    else
+    {
+        sItemUseOnFieldCB = Task_UsePokevial;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+}
+
 void ItemUseOutOfBattle_PokemonBoxLink(u8 taskId)
 {
     sItemUseOnFieldCB = Task_AccessPokemonBoxLink;

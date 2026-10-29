@@ -54,6 +54,7 @@ RustboroCity_DevonCorp_1F_EventScript_GotRobbed::
 RustboroCity_DevonCorp_1F_EventScript_Greeter::
 	lock
 	faceplayer
+	call LegendsPokevial_Reward
 	goto_if_set FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_WelcomeToDevonCorp
 	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed

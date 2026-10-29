@@ -13,6 +13,7 @@
 struct CollectionSpan { u8 block; u16 offset; u16 size; };
 #include "data/la_collection_save_spans.h"
 #include "data/la_expanded_bag_save_spans.h"
+static EWRAM_DATA u32 sBagTransferBytes = 0;
 static EWRAM_DATA u8 sPackedPcItems[BAG_PC_BYTES] = {0};
 static u32 Read32(const u8 *p) { return p[0] | p[1]<<8 | p[2]<<16 | (u32)p[3]<<24; }
 static void Put32(u8 *p, u32 v) { u32 i; for(i=0;i<4;i++) p[i]=v>>(i*8); }
@@ -113,7 +114,7 @@ static void TransferBag(void *buffer,u32 offset,u32 size,bool32 write)
             p=(s->block==1?(u8 *)gSaveBlock1Ptr:(u8 *)gSaveBlock2Ptr)+s->offset;length=s->size;
         } else switch(i-ARRAY_COUNT(sBagCollectionSpans)) {
             case 0:p=sPackedPcItems;length=sizeof(sPackedPcItems);break;
-            case 1:p=gExpandedBagData;length=EXPANDED_BAG_BYTES;break;
+            case 1:p=gExpandedBagData;length=sBagTransferBytes;break;
             case 2:p=(u8 *)gPokemonStoragePtr;length=sizeof(*gPokemonStoragePtr);break;
             default:p=(u8 *)gSaveBlock3Ptr;length=sizeof(*gSaveBlock3Ptr);break;
         }
@@ -127,7 +128,7 @@ static void TransferVersion(void *b,u32 offset,u32 n,bool32 write,u32 version)
 {
     if(version==3)TransferBag(b,offset,n,write);else Transfer(b,offset,n,write);
 }
-static u32 Used(u32 version) {return version==3?COLLECTION_BAG_USED:COLLECTION_USED;}
+static u32 Used(u32 version) {return version==3?COLLECTION_BAG_USED-EXPANDED_BAG_BYTES+sBagTransferBytes:COLLECTION_USED;}
 static bool32 Inspect(u32 bank,u32 *generation,u8 positions[16],u32 *outVersion)
 {
     struct SaveSector *s=&gSaveDataBuffer;
@@ -140,6 +141,11 @@ static bool32 Inspect(u32 bank,u32 *generation,u8 positions[16],u32 *outVersion)
         if(i==0)version=Read32(s->data+4)&0xffff;
         if((version!=2 && version!=3) || s->counter!=counter || Read32(s->data)!=0x5343414c || Read32(s->data+4)!=(0x0fe80000|version))return FALSE;
         if(s->checksum!=Sum((u8 *)s) || Read32(s->data+8)!=SectorCrc(s)) return FALSE;
+        if(s->id==0 && version==3) {
+            u32 count=Read32(s->data+12+60);
+            if(count<2 || count>ITEMS_COUNT)return FALSE;
+            sBagTransferBytes=((count-1)*10+7)/8;
+        }
         seen|=1u<<s->id;positions[s->id]=i;
     }
     for(i=0;i<16;i++) {
@@ -152,7 +158,7 @@ static bool32 Inspect(u32 bank,u32 *generation,u8 positions[16],u32 *outVersion)
         || Read32(header+12)!=Used(version)-64 || Read32(header+16)!=sizeof(*gPokemonStoragePtr)
         || Read32(header+20)!=~crc || !Equal(header+24,sCollectionAbi,32)
         || Read32(header+56)!=~Crc(0xffffffff,header,56)) return FALSE;
-    if(version==3 && Read32(header+60)!=ITEMS_COUNT)return FALSE;
+    if(version==3 && ((Read32(header+60)-1)*10+7)/8!=sBagTransferBytes)return FALSE;
     if(outVersion)*outVersion=version;
     *generation=counter;
     return TRUE;
@@ -170,7 +176,7 @@ bool32 LaCollectionWrite(u32 counter,u32 bank)
     struct SaveSector *s=&gSaveDataBuffer;
     u32 i,offset,crc=0xffffffff,version=ExpandedBag_Active()?3:2;u8 header[64]={0};
     if(bank>1 || !StorageIsCollectionMode() || !StorageFlush()) return FALSE;
-    if(version==3)PcItemsPack(FALSE);
+    if(version==3){sBagTransferBytes=EXPANDED_BAG_BYTES;PcItemsPack(FALSE);}
     for(offset=0;offset<Used(version)-64;offset+=4096) {
         u32 n=min(4096,Used(version)-64-offset);
         TransferVersion(s,offset,n,FALSE,version);crc=Crc(crc,(u8 *)s,n);
@@ -198,6 +204,7 @@ bool32 LaCollectionLoad(u32 bank)
     memset(gSaveBlock1Ptr,0,sizeof(*gSaveBlock1Ptr));
     memset(gSaveBlock2Ptr,0,sizeof(*gSaveBlock2Ptr));
     StorageInitialize();
+    memset(gExpandedBagData,0,sizeof(gExpandedBagData));
     for(i=0;i<16;i++) {
         u32 start=i*CHUNK,skip=i==0?64:0,end=min((i+1)*CHUNK,Used(version));
         ReadFlash(bank*16+positions[i],0,(u8 *)s,4096);

@@ -808,4 +808,6 @@ extern const u8 EventScript_Indigo_HighestAuthority[];
 
 extern const u8 EventSnippet_LegendsChooseFormat[];
 
+extern const u8 LegendsPokevial_Use[];
+
 #endif // GUARD_EVENT_SCRIPTS_H
