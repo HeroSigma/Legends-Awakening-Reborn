@@ -61,7 +61,7 @@ static void RestoreFooter(u8 win, u8 backdrop)
         BlitBitmapToWindow(win,tile,(i%width)*8,(i/width)*8,8,8);
     }
 }
-static const u8 sFooterColors[]={TEXT_COLOR_TRANSPARENT,1,5};
+static const u8 sFooterColors[]={TEXT_COLOR_TRANSPARENT,5,1};
 void CustomStartMenu_Select(u8 cursor,const u8 *label)
 {
     u32 i;

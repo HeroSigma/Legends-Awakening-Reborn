@@ -20,4 +20,4 @@ Rotom Phone was evaluated but is not installed. Quest icons, new quests and the 
 
 ## Footer correction
 
-The text windows now preserve the exact underlying footer tile pixels, including flips, instead of filling oversized white rectangles. Clock and page hint share a single line within the left panel; the current app name uses the right panel. Footer text uses the active frame palette and transparent glyph background. All four themes and all 554 existing native checks pass after the correction.
+The footer uses a continuous themed color strip with no white panels or window borders. Clock, L/R page hint and selected app name use white text with a dark shadow. All four themes and all 554 native checks pass on this build.
