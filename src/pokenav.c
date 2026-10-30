@@ -1,4 +1,5 @@
 #include "global.h"
+#include "world_map.h"
 #include "malloc.h"
 #include "task.h"
 #include "main.h"
@@ -455,7 +456,13 @@ static void Task_Pokenav(u8 taskId)
         tState = 3;
     case 3:
         menuId = GetCurrentMenuCB();
-        if (menuId == POKENAV_MENU_FUNC_EXIT)
+        if (menuId == POKENAV_REGION_MAP && gPokenavResources->mode == POKENAV_MODE_NORMAL)
+        {
+            data[1] = 1;
+            ShutdownPokenav();
+            tState = 5;
+        }
+        else if (menuId == POKENAV_MENU_FUNC_EXIT)
         {
             ShutdownPokenav();
             tState = 5;
@@ -494,6 +501,8 @@ static void Task_Pokenav(u8 taskId)
             FreePokenavResources();
             if (calledFromScript)
                 SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+            else if (data[1])
+                WorldMap_Open(CB2_ReturnToFieldWithOpenMenu);
             else
                 SetMainCallback2(CB2_ReturnToFieldWithOpenMenu);
         }
