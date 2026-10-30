@@ -39,8 +39,8 @@ for speaker,rgb in factions.items():
 # An already authored color control must not be duplicated or replaced.
 wr(symbols['gSpeakerName'],rd(symbols['gSpeakerNamesTable']+c['SP_NAME_WALLY']*4))
 raw=bytes([c['EXT_CTRL_CODE_BEGIN'],c['EXT_CTRL_CODE_COLOR'],c['TEXT_COLOR_RED'],0xbb,255])
-for i,v in enumerate(raw):wr(0x0203fc00+i,v,1)
-invoke('ShowFieldMessage',0x0203fc00)
+for i,v in enumerate(raw):wr(0x03007400+i,v,1)
+invoke('ShowFieldMessage',0x03007400)
 check('explicit_color_preserved',bytes(rd(symbols['gStringVar4']+i,1) for i in range(len(raw)))==raw)
 frames(30);invoke('HideFieldMessageBox')
 for speaker in ['NONE','DEVON_RESEARCHER']:

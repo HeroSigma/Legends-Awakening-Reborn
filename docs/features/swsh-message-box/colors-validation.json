@@ -1,0 +1,855 @@
+{
+  "passed": true,
+  "assertions": 212,
+  "rom_sha256": "cfb53002f1e32fbc77fb1f6de4e290203051165ab3859924d73ead09af619ae5",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "opens_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "color_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "opens_WALLY",
+      "passed": true
+    },
+    {
+      "test": "color_WALLY",
+      "passed": true
+    },
+    {
+      "test": "opens_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "color_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "opens_MAY",
+      "passed": true
+    },
+    {
+      "test": "color_MAY",
+      "passed": true
+    },
+    {
+      "test": "opens_RED",
+      "passed": true
+    },
+    {
+      "test": "color_RED",
+      "passed": true
+    },
+    {
+      "test": "opens_BRINEY",
+      "passed": true
+    },
+    {
+      "test": "color_BRINEY",
+      "passed": true
+    },
+    {
+      "test": "opens_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "faction_index_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_ROCKET",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_ROCKET",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_ROCKET",
+      "passed": true
+    },
+    {
+      "test": "opens_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "faction_index_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_AQUA",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_MAGMA",
+      "passed": true
+    },
+    {
+      "test": "opens_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "faction_index_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_GALACTIC",
+      "passed": true
+    },
+    {
+      "test": "opens_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_PLASMA",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_FLARE",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_SKULL",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_YELL",
+      "passed": true
+    },
+    {
+      "test": "opens_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TEAM_STAR",
+      "passed": true
+    },
+    {
+      "test": "opens_AETHER_FOUNDATION",
+      "passed": true
+    },
+    {
+      "test": "faction_index_AETHER_FOUNDATION",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_AETHER_FOUNDATION",
+      "passed": true
+    },
+    {
+      "test": "opens_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "opens_OAK",
+      "passed": true
+    },
+    {
+      "test": "faction_index_OAK",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_OAK",
+      "passed": true
+    },
+    {
+      "test": "opens_ELM",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ELM",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ELM",
+      "passed": true
+    },
+    {
+      "test": "opens_ROWAN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ROWAN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ROWAN",
+      "passed": true
+    },
+    {
+      "test": "opens_JUNIPER",
+      "passed": true
+    },
+    {
+      "test": "faction_index_JUNIPER",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_JUNIPER",
+      "passed": true
+    },
+    {
+      "test": "opens_SYCAMORE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SYCAMORE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SYCAMORE",
+      "passed": true
+    },
+    {
+      "test": "opens_KUKUI",
+      "passed": true
+    },
+    {
+      "test": "faction_index_KUKUI",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_KUKUI",
+      "passed": true
+    },
+    {
+      "test": "opens_BURNET",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BURNET",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BURNET",
+      "passed": true
+    },
+    {
+      "test": "opens_MAGNOLIA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_MAGNOLIA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_MAGNOLIA",
+      "passed": true
+    },
+    {
+      "test": "opens_SONIA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SONIA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SONIA",
+      "passed": true
+    },
+    {
+      "test": "opens_SADA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SADA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SADA",
+      "passed": true
+    },
+    {
+      "test": "opens_TURO",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TURO",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TURO",
+      "passed": true
+    },
+    {
+      "test": "opens_LAVENTON",
+      "passed": true
+    },
+    {
+      "test": "faction_index_LAVENTON",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_LAVENTON",
+      "passed": true
+    },
+    {
+      "test": "opens_BLUE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BLUE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BLUE",
+      "passed": true
+    },
+    {
+      "test": "opens_GREEN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_GREEN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_GREEN",
+      "passed": true
+    },
+    {
+      "test": "opens_SILVER",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SILVER",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SILVER",
+      "passed": true
+    },
+    {
+      "test": "opens_ETHAN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ETHAN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ETHAN",
+      "passed": true
+    },
+    {
+      "test": "opens_LYRA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_LYRA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_LYRA",
+      "passed": true
+    },
+    {
+      "test": "opens_KRIS",
+      "passed": true
+    },
+    {
+      "test": "faction_index_KRIS",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_KRIS",
+      "passed": true
+    },
+    {
+      "test": "opens_LUCAS",
+      "passed": true
+    },
+    {
+      "test": "faction_index_LUCAS",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_LUCAS",
+      "passed": true
+    },
+    {
+      "test": "opens_DAWN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_DAWN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_DAWN",
+      "passed": true
+    },
+    {
+      "test": "opens_BARRY",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BARRY",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BARRY",
+      "passed": true
+    },
+    {
+      "test": "opens_HILBERT",
+      "passed": true
+    },
+    {
+      "test": "faction_index_HILBERT",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_HILBERT",
+      "passed": true
+    },
+    {
+      "test": "opens_HILDA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_HILDA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_HILDA",
+      "passed": true
+    },
+    {
+      "test": "opens_CHEREN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_CHEREN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_CHEREN",
+      "passed": true
+    },
+    {
+      "test": "opens_BIANCA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BIANCA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BIANCA",
+      "passed": true
+    },
+    {
+      "test": "opens_NATE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_NATE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_NATE",
+      "passed": true
+    },
+    {
+      "test": "opens_ROSA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ROSA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ROSA",
+      "passed": true
+    },
+    {
+      "test": "opens_HUGH",
+      "passed": true
+    },
+    {
+      "test": "faction_index_HUGH",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_HUGH",
+      "passed": true
+    },
+    {
+      "test": "opens_CALEM",
+      "passed": true
+    },
+    {
+      "test": "faction_index_CALEM",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_CALEM",
+      "passed": true
+    },
+    {
+      "test": "opens_SERENA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SERENA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SERENA",
+      "passed": true
+    },
+    {
+      "test": "opens_TIERNO",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TIERNO",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TIERNO",
+      "passed": true
+    },
+    {
+      "test": "opens_TREVOR",
+      "passed": true
+    },
+    {
+      "test": "faction_index_TREVOR",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_TREVOR",
+      "passed": true
+    },
+    {
+      "test": "opens_SHAUNA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SHAUNA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SHAUNA",
+      "passed": true
+    },
+    {
+      "test": "opens_ELIO",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ELIO",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ELIO",
+      "passed": true
+    },
+    {
+      "test": "opens_SELENE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_SELENE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_SELENE",
+      "passed": true
+    },
+    {
+      "test": "opens_HAU",
+      "passed": true
+    },
+    {
+      "test": "faction_index_HAU",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_HAU",
+      "passed": true
+    },
+    {
+      "test": "opens_GLADION",
+      "passed": true
+    },
+    {
+      "test": "faction_index_GLADION",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_GLADION",
+      "passed": true
+    },
+    {
+      "test": "opens_GLORIA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_GLORIA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_GLORIA",
+      "passed": true
+    },
+    {
+      "test": "opens_VICTOR",
+      "passed": true
+    },
+    {
+      "test": "faction_index_VICTOR",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_VICTOR",
+      "passed": true
+    },
+    {
+      "test": "opens_HOP",
+      "passed": true
+    },
+    {
+      "test": "faction_index_HOP",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_HOP",
+      "passed": true
+    },
+    {
+      "test": "opens_BEDE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_BEDE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_BEDE",
+      "passed": true
+    },
+    {
+      "test": "opens_MARNIE",
+      "passed": true
+    },
+    {
+      "test": "faction_index_MARNIE",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_MARNIE",
+      "passed": true
+    },
+    {
+      "test": "opens_NEMONA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_NEMONA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_NEMONA",
+      "passed": true
+    },
+    {
+      "test": "opens_ARVEN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ARVEN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ARVEN",
+      "passed": true
+    },
+    {
+      "test": "opens_PENNY",
+      "passed": true
+    },
+    {
+      "test": "faction_index_PENNY",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_PENNY",
+      "passed": true
+    },
+    {
+      "test": "opens_ASH",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ASH",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ASH",
+      "passed": true
+    },
+    {
+      "test": "opens_ALAIN",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ALAIN",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ALAIN",
+      "passed": true
+    },
+    {
+      "test": "opens_N",
+      "passed": true
+    },
+    {
+      "test": "faction_index_N",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_N",
+      "passed": true
+    },
+    {
+      "test": "opens_IRIS",
+      "passed": true
+    },
+    {
+      "test": "faction_index_IRIS",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_IRIS",
+      "passed": true
+    },
+    {
+      "test": "opens_ZINNIA",
+      "passed": true
+    },
+    {
+      "test": "faction_index_ZINNIA",
+      "passed": true
+    },
+    {
+      "test": "faction_palette_ZINNIA",
+      "passed": true
+    },
+    {
+      "test": "explicit_color_preserved",
+      "passed": true
+    },
+    {
+      "test": "neutral_NONE",
+      "passed": true
+    },
+    {
+      "test": "neutral_DEVON_RESEARCHER",
+      "passed": true
+    }
+  ]
+}

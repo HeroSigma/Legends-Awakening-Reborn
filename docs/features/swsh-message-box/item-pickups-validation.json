@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "assertions": 34,
+  "rom_sha256": "cfb53002f1e32fbc77fb1f6de4e290203051165ab3859924d73ead09af619ae5",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(0, 'first')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(0, 'first')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(0, 'first')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(0, 'first')",
+      "passed": true
+    },
+    {
+      "test": "description_shown_0",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(0, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(0, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(0, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(0, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(0, 'full')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(0, 'full')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(0, 'full')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(0, 'full')",
+      "passed": true
+    },
+    {
+      "test": "location_query_allowed_0",
+      "passed": true
+    },
+    {
+      "test": "pyramid_gameplay_still_blocked_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(1, 'first')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(1, 'first')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(1, 'first')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(1, 'first')",
+      "passed": true
+    },
+    {
+      "test": "description_shown_1",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(1, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(1, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(1, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(1, 'repeat')",
+      "passed": true
+    },
+    {
+      "test": "no_warning_(1, 'full')",
+      "passed": true
+    },
+    {
+      "test": "header_removed_(1, 'full')",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_(1, 'full')",
+      "passed": true
+    },
+    {
+      "test": "quantity_(1, 'full')",
+      "passed": true
+    },
+    {
+      "test": "location_query_allowed_1",
+      "passed": true
+    },
+    {
+      "test": "pyramid_gameplay_still_blocked_1",
+      "passed": true
+    }
+  ]
+}
