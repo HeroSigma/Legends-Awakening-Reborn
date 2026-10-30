@@ -20,4 +20,4 @@ Rotom Phone was evaluated but is not installed. Quest icons, new quests and the 
 
 ## Footer correction
 
-The footer uses a continuous themed color strip with no white panels or window borders. Clock, L/R page hint and selected app name use white text with a dark shadow. All four themes and all 554 native checks pass on this build.
+Restores Vol's original background tilemap, with only palette-bank references adapted to this engine. The original shaped footer and two bordered inset panels remain intact. Text windows copy the artwork beneath them rather than replacing it with opaque white rectangles. Clock and L/R hint fit the left panel; app labels fit the original right panel (Legends Store displays STORE). Theme switching and both action pages remain available. All 554 checks pass on this build.

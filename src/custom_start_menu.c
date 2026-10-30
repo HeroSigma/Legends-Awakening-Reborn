@@ -61,7 +61,7 @@ static void RestoreFooter(u8 win, u8 backdrop)
         BlitBitmapToWindow(win,tile,(i%width)*8,(i/width)*8,8,8);
     }
 }
-static const u8 sFooterColors[]={TEXT_COLOR_TRANSPARENT,5,1};
+static const u8 sFooterColors[]={TEXT_COLOR_TRANSPARENT,1,4};
 void CustomStartMenu_Select(u8 cursor,const u8 *label)
 {
     u32 i;
@@ -69,6 +69,8 @@ void CustomStartMenu_Select(u8 cursor,const u8 *label)
     for(i=0;i<sCustomMenu->count;i++)
         if(sCustomMenu->sprites[i]!=MAX_SPRITES)
             StartSpriteAnim(&gSprites[sCustomMenu->sprites[i]],sCustomMenu->icons[i]+(i==cursor?0:sCustomMenu->icons[i]==14?1:7));
+    // Keep the long store name inside Vol's original seven-tile panel.
+    if(!StringCompare(label,COMPOUND_STRING("LEGENDS STORE")))label=COMPOUND_STRING("STORE");
     RestoreFooter(sCustomMenu->label,1);
     AddTextPrinterParameterized4(sCustomMenu->label,FONT_SMALL,0,1,0,0,sFooterColors,TEXT_SKIP_DRAW,label);
     CopyWindowToVram(sCustomMenu->label,COPYWIN_FULL);
