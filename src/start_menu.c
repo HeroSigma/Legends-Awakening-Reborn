@@ -1,4 +1,5 @@
 #include "global.h"
+#include "custom_start_menu.h"
 #include "adventure_journal.h"
 #include "legends_store.h"
 #include "config/save.h"
@@ -224,6 +225,31 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_JOURNAL]         = {sText_MenuJournal, {.u8_void = StartMenuJournalCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
 };
+
+static void RefreshCustomStartMenu(void)
+{
+    if(sCurrentStartMenuActions[sStartMenuCursorPos]==MENU_ACTION_PLAYER)
+        CustomStartMenu_Select(sStartMenuCursorPos,gSaveBlock2Ptr->playerName);
+    else
+        CustomStartMenu_Select(sStartMenuCursorPos,sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text);
+}
+static bool32 OpenCustomStartMenu(void)
+{
+    u8 icons[8];u32 i;
+    for(i=0;i<sNumStartMenuActions && i<8;i++)
+        switch(sCurrentStartMenuActions[i])
+        {
+        case MENU_ACTION_POKEDEX:icons[i]=1;break;
+        case MENU_ACTION_POKEMON:icons[i]=2;break;
+        case MENU_ACTION_BAG:case MENU_ACTION_STORE:icons[i]=3;break;
+        case MENU_ACTION_POKENAV:case MENU_ACTION_DEXNAV:icons[i]=0;break;
+        case MENU_ACTION_PLAYER:icons[i]=4;break;
+        case MENU_ACTION_SAVE:case MENU_ACTION_JOURNAL:icons[i]=5;break;
+        case MENU_ACTION_OPTION:case MENU_ACTION_DEBUG:icons[i]=6;break;
+        default:icons[i]=14;break;
+        }
+    return CustomStartMenu_Open(icons,sNumStartMenuActions,sStartMenuCursorPos,sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text,sStartMenuPage);
+}
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
 {
@@ -476,6 +502,7 @@ static void ShowPyramidFloorWindow(void)
 
 static void RemoveExtraStartMenuWindows(void)
 {
+    CustomStartMenu_Close();
     if (GetSafariZoneFlag())
     {
         ClearStdWindowAndFrameToTransparent(sSafariBallsWindowId, FALSE);
@@ -492,6 +519,7 @@ static void RemoveExtraStartMenuWindows(void)
 static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
 {
     s8 index = *pIndex;
+    if(CustomStartMenu_IsActive()){*pIndex=sNumStartMenuActions;return TRUE;}
 
     do
     {
@@ -538,7 +566,10 @@ static bool32 InitStartMenuStep(void)
         break;
     case 2:
         LoadMessageBoxAndBorderGfx();
-        DrawStdWindowFrame(AddStartMenuWindow(sNumStartMenuActions), FALSE);
+        AddStartMenuWindow(sNumStartMenuActions);
+        if(sStartMenuCursorPos>=sNumStartMenuActions)sStartMenuCursorPos=0;
+        if(!sPagedStartMenu || !OpenCustomStartMenu())
+            DrawStdWindowFrame(GetStartMenuWindowId(), FALSE);
         if (sStartMenuCursorPos >= sNumStartMenuActions) sStartMenuCursorPos = 0;
         sInitStartMenuData[1] = 0;
         sInitStartMenuData[0]++;
@@ -555,6 +586,7 @@ static bool32 InitStartMenuStep(void)
             sInitStartMenuData[0]++;
         break;
     case 5:
+        if(CustomStartMenu_IsActive()){RefreshCustomStartMenu();return TRUE;}
         sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, 9, 16, sNumStartMenuActions, sStartMenuCursorPos);
         CopyWindowToVram(GetStartMenuWindowId(), COPYWIN_MAP);
         return TRUE;
@@ -642,6 +674,7 @@ static bool8 HandleStartMenuInput(void)
     if (sPagedStartMenu && JOY_NEW(DPAD_LEFT | DPAD_RIGHT | L_BUTTON | R_BUTTON))
     {
         PlaySE(SE_SELECT);
+        CustomStartMenu_Close();
         ClearStdWindowAndFrameToTransparent(GetStartMenuWindowId(), TRUE);
         RemoveStartMenuWindow();
         sStartMenuPage ^= 1;
@@ -652,13 +685,15 @@ static bool8 HandleStartMenuInput(void)
     if (JOY_NEW(DPAD_UP))
     {
         PlaySE(SE_SELECT);
-        sStartMenuCursorPos = Menu_MoveCursor(-1);
+        if(CustomStartMenu_IsActive()){sStartMenuCursorPos=(sStartMenuCursorPos+sNumStartMenuActions-1)%sNumStartMenuActions;RefreshCustomStartMenu();}
+        else sStartMenuCursorPos = Menu_MoveCursor(-1);
     }
 
     if (JOY_NEW(DPAD_DOWN))
     {
         PlaySE(SE_SELECT);
-        sStartMenuCursorPos = Menu_MoveCursor(1);
+        if(CustomStartMenu_IsActive()){sStartMenuCursorPos=(sStartMenuCursorPos+1)%sNumStartMenuActions;RefreshCustomStartMenu();}
+        else sStartMenuCursorPos = Menu_MoveCursor(1);
     }
 
     if (JOY_NEW(A_BUTTON))
@@ -840,6 +875,7 @@ static bool8 StartMenuSafariZoneRetireCallback(void)
 
 static void HideStartMenuDebug(void)
 {
+    CustomStartMenu_Close();
     PlaySE(SE_SELECT);
     ClearStdWindowAndFrame(GetStartMenuWindowId(), TRUE);
     RemoveStartMenuWindow();
@@ -1061,6 +1097,7 @@ static bool8 SaveErrorTimer(void)
 
 static u8 SaveConfirmSaveCallback(void)
 {
+    CustomStartMenu_Close();
     ClearStdWindowAndFrame(GetStartMenuWindowId(), FALSE);
     RemoveStartMenuWindow();
     ShowSaveInfoWindow();
@@ -1505,6 +1542,7 @@ void SaveForBattleTowerLink(void)
 
 static void HideStartMenuWindow(void)
 {
+    CustomStartMenu_Close();
     ClearStdWindowAndFrame(GetStartMenuWindowId(), TRUE);
     RemoveStartMenuWindow();
     ScriptUnfreezeObjectEvents();

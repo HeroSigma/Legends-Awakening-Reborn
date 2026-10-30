@@ -1,4 +1,5 @@
 #include "global.h"
+#include "custom_start_menu.h"
 #include "pokemon_storage_system.h"
 #include "la_pc_features.h"
 #include "overworld.h"
@@ -27,6 +28,7 @@
 #define tButtonMode data[5]
 #define tWindowFrameType data[6]
 #define tStorageWarning data[7]
+#define tMenuTheme data[8]
 
 enum
 {
@@ -37,6 +39,7 @@ enum
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
     MENUITEM_STORAGE,
+    MENUITEM_THEME,
     MENUITEM_CANCEL,
     MENUITEM_COUNT,
 };
@@ -47,15 +50,16 @@ enum
     WIN_OPTIONS
 };
 
-#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 14)
-#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 14)
-#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 14)
-#define YPOS_SOUND        (MENUITEM_SOUND * 14)
-#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 14)
-#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 14)
+#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 12)
+#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 12)
+#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 12)
+#define YPOS_SOUND        (MENUITEM_SOUND * 12)
+#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 12)
+#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 12)
 
 static void Task_StorageWarning(u8 taskId);
 static void Storage_DrawChoices(void);
+static void Theme_DrawChoices(u8 selection);
 static void Task_OptionMenuFadeIn(u8 taskId);
 static void Task_OptionMenuProcessInput(u8 taskId);
 static void Task_OptionMenuSave(u8 taskId);
@@ -108,6 +112,7 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_BUTTONMODE]  = COMPOUND_STRING("BUTTON MODE"),
     [MENUITEM_FRAMETYPE]   = COMPOUND_STRING("FRAME"),
     [MENUITEM_STORAGE]     = COMPOUND_STRING("PC BOXES"),
+    [MENUITEM_THEME]       = COMPOUND_STRING("MENU COLOR"),
     [MENUITEM_CANCEL]      = COMPOUND_STRING("CANCEL"),
 };
 
@@ -266,6 +271,8 @@ void CB2_InitOptionMenu(void)
         ButtonMode_DrawChoices(gTasks[taskId].tButtonMode);
         FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
         Storage_DrawChoices();
+        gTasks[taskId].tMenuTheme=CustomStartMenu_GetTheme();
+        Theme_DrawChoices(gTasks[taskId].tMenuTheme);
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
 
         CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
@@ -365,6 +372,12 @@ static void Task_OptionMenuProcessInput(u8 taskId)
             if (previousOption != gTasks[taskId].tWindowFrameType)
                 FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
             break;
+        case MENUITEM_THEME:
+            previousOption=gTasks[taskId].tMenuTheme;
+            if(JOY_NEW(DPAD_RIGHT))gTasks[taskId].tMenuTheme=(previousOption+1)%LEGENDS_MENU_THEME_COUNT;
+            else if(JOY_NEW(DPAD_LEFT))gTasks[taskId].tMenuTheme=(previousOption+LEGENDS_MENU_THEME_COUNT-1)%LEGENDS_MENU_THEME_COUNT;
+            if(previousOption!=gTasks[taskId].tMenuTheme){Theme_DrawChoices(gTasks[taskId].tMenuTheme);sArrowPressed=TRUE;}
+            break;
         default:
             return;
         }
@@ -379,6 +392,7 @@ static void Task_OptionMenuProcessInput(u8 taskId)
 
 static void Task_OptionMenuSave(u8 taskId)
 {
+    CustomStartMenu_SetTheme(gTasks[taskId].tMenuTheme);
     gSaveBlock2Ptr->optionsTextSpeed = gTasks[taskId].tTextSpeed;
     gSaveBlock2Ptr->optionsBattleSceneOff = gTasks[taskId].tBattleSceneOff;
     gSaveBlock2Ptr->optionsBattleStyle = gTasks[taskId].tBattleStyle;
@@ -403,7 +417,7 @@ static void Task_OptionMenuFadeOut(u8 taskId)
 static void HighlightOptionMenuItem(u8 index)
 {
     SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(16, DISPLAY_WIDTH - 16));
-    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * 14 + 40, index * 14 + 54));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * 12 + 40, index * 12 + 52));
 }
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
@@ -657,7 +671,7 @@ static void DrawOptionMenuTexts(void)
 
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
     for (i = 0; i < MENUITEM_COUNT; i++)
-        AddTextPrinterParameterized(WIN_OPTIONS, FONT_SMALL, sOptionMenuItemsNames[i], 8, (i * 14) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_OPTIONS, FONT_SMALL, sOptionMenuItemsNames[i], 8, (i * 12) + 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 
@@ -696,10 +710,17 @@ static void DrawBgWindowFrames(void)
     CopyBgTilemapBufferToVram(1);
 }
 
+static void Theme_DrawChoices(u8 selection)
+{
+    static const u8 *const names[]={COMPOUND_STRING("TEAL"),COMPOUND_STRING("SLATE"),COMPOUND_STRING("RED"),COMPOUND_STRING("GREEN")};
+    FillWindowPixelRect(WIN_OPTIONS,PIXEL_FILL(1),104,MENUITEM_THEME*12,100,12);
+    AddTextPrinterParameterized(WIN_OPTIONS,FONT_SMALL,names[selection%LEGENDS_MENU_THEME_COUNT],104,MENUITEM_THEME*12+1,TEXT_SKIP_DRAW,NULL);
+}
+
 static void Storage_DrawChoices(void)
 {
-    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}14"), 104, MENUITEM_STORAGE * 14, !StorageIsCollectionMode());
-    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}60"), 150, MENUITEM_STORAGE * 14, StorageIsCollectionMode());
+    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}14"), 104, MENUITEM_STORAGE * 12, !StorageIsCollectionMode());
+    DrawOptionMenuChoice(COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}60"), 150, MENUITEM_STORAGE * 12, StorageIsCollectionMode());
 }
 static void Storage_RedrawOptions(u8 taskId)
 {
