@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rom_sha256": "fd2a8e021d664fcdff14a159b5c3fc2f2dcc9dc09e49050ca86a6fba7b6b96e0",
+  "total": 9765,
+  "checks": {
+    "battle": 20,
+    "categories": 1162,
+    "full-inventory": 7124,
+    "store": 934,
+    "training": 79,
+    "menu-return": 446
+  }
+}

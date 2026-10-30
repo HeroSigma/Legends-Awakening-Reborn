@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "assertions": 20,
+  "rom_sha256": "fd2a8e021d664fcdff14a159b5c3fc2f2dcc9dc09e49050ca86a6fba7b6b96e0",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_bag_open_0",
+      "passed": true
+    },
+    {
+      "test": "medicine_party_open_0",
+      "passed": true
+    },
+    {
+      "test": "battle_heal_0",
+      "passed": true
+    },
+    {
+      "test": "battle_consumes_potion_0",
+      "passed": true
+    },
+    {
+      "test": "ball_pocket_0",
+      "passed": true
+    },
+    {
+      "test": "ball_consumed_0",
+      "passed": true
+    },
+    {
+      "test": "catch_joins_party_0",
+      "passed": true
+    },
+    {
+      "test": "capture_returns_field_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_bag_open_1",
+      "passed": true
+    },
+    {
+      "test": "medicine_party_open_1",
+      "passed": true
+    },
+    {
+      "test": "battle_heal_1",
+      "passed": true
+    },
+    {
+      "test": "battle_consumes_potion_1",
+      "passed": true
+    },
+    {
+      "test": "ball_pocket_1",
+      "passed": true
+    },
+    {
+      "test": "ball_consumed_1",
+      "passed": true
+    },
+    {
+      "test": "catch_joins_party_1",
+      "passed": true
+    },
+    {
+      "test": "capture_returns_field_1",
+      "passed": true
+    }
+  ]
+}

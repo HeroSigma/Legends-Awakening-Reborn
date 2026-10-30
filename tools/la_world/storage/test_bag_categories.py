@@ -4,7 +4,7 @@ R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0], 'helpers', 'exec'))
 D=R/'.la_work/bag-categories';D.mkdir(exist_ok=True)
 import tempfile,struct
-names=['BAG_CATEGORIES_COUNT','ITEMS_COUNT','offsetof(struct BagPosition,pocket)','offsetof(struct BagMenu,numItemStacks)','sizeof(struct Bag)','offsetof(struct SaveBlock1,bag)','MON_DATA_HP','MON_DATA_HELD_ITEM']
+names=['SWSH_BAG_MENU','BAG_CATEGORIES_COUNT','ITEMS_COUNT','offsetof(struct BagPosition,pocket)','offsetof(struct BagMenu,numItemStacks)','sizeof(struct Bag)','offsetof(struct SaveBlock1,bag)','MON_DATA_HP','MON_DATA_HELD_ITEM']
 samples=[('ITEM_REPEL','BAG_REGULAR'),('ITEM_POKE_BALL','BAG_BALLS'),('ITEM_TM_FOCUS_PUNCH','BAG_MACHINES'),('ITEM_ORAN_BERRY','BAG_BERRIES'),('ITEM_MACH_BIKE','BAG_KEYS'),('ITEM_POTION','BAG_MEDICINE'),('ITEM_SUPER_POTION','BAG_MEDICINE'),('ITEM_CHOICE_SCARF','BAG_EQUIPMENT'),('ITEM_X_ATTACK','BAG_REGULAR'),('ITEM_X_DEFENSE','BAG_REGULAR'),('ITEM_X_SP_ATK','BAG_REGULAR'),('ITEM_X_SP_DEF','BAG_REGULAR'),('ITEM_X_SPEED','BAG_REGULAR'),('ITEM_X_ACCURACY','BAG_REGULAR'),('ITEM_DIRE_HIT','BAG_REGULAR'),('ITEM_GUARD_SPEC','BAG_REGULAR'),('ITEM_TIMID_MINT','BAG_TRAINING'),('ITEM_ABILITY_PATCH','BAG_TRAINING'),('ITEM_ABILITY_CAPSULE','BAG_TRAINING'),('ITEM_RARE_CANDY','BAG_TRAINING'),('ITEM_FIRE_STONE','BAG_EVOLUTION'),('ITEM_DRAGON_SCALE','BAG_EVOLUTION'),('ITEM_CHARIZARDITE_X','BAG_MEGA_STONES'),('ITEM_CHARIZARDITE_Y','BAG_MEGA_STONES'),('ITEM_NORMALIUM_Z','BAG_Z_CRYSTALS'),('ITEM_STELLAR_TERA_SHARD','BAG_TERA_SHARDS'),('ITEM_FIRE_TERA_SHARD','BAG_TERA_SHARDS'),('ITEM_NUGGET','BAG_TREASURES')]
 names+=list(dict.fromkeys(n for pair in samples for n in pair))
 with tempfile.TemporaryDirectory() as td:
@@ -47,7 +47,7 @@ for mode in [0,1]:
  for i in range(c['BAG_CATEGORIES_COUNT']):
   check('ui_category_'+str((mode,i)),category()==i)
   stacks=rd(rd(symbols['gBagMenu'])+c['offsetof(struct BagMenu,numItemStacks)']+i,1)
-  check('ui_filtered_count_'+str((mode,i)),stacks==counts[i]+1)
+  check('ui_filtered_count_'+str((mode,i)),stacks==counts[i]+(0 if c['SWSH_BAG_MENU'] else 1))
   if mode==0 and i in [c['BAG_MEDICINE'],c['BAG_MEGA_STONES'],c['BAG_TERA_SHARDS']]:
    shutil.copy2(shot('category_'+str(i)),R/'docs/features'/('bag-category-'+str(i)+'.png'))
   tap(1);frames(20)
@@ -61,7 +61,7 @@ for mode in [0,1]:
  # Toss one item via the real category context menu; neighboring categories survive.
  openbag(c['BAG_TRAINING'])
  tap(1);frames(20);selected=rd(symbols['gSpecialVar_ItemId'],2)
- tap(128);tap(1);frames(25);tap(1);frames(25);tap(1);frames(25);tap(1);frames(40)
+ tap(128);tap(1);frames(180);tap(1);frames(180);tap(1);frames(180);tap(1);frames(40)
  after=inventory()
  check('toss_only_selected_'+str(mode),all(after[n]==q-(1 if c[n]==selected else 0) for n,q in before.items()))
  closebag()
@@ -73,7 +73,7 @@ for mode in [0,1]:
  for _ in range(3):tap(1);frames(30)
  tap(2);frames(180)
  # Healing from Medicine must consume the selected medicine, not an underlying slot.
- wr(0x0203fc00,1);invoke('SetMonData',symbols['gParties'],c['MON_DATA_HP'],0x0203fc00)
+ wr(0x03007400,1);invoke('SetMonData',symbols['gParties'],c['MON_DATA_HP'],0x03007400)
  openbag(c['BAG_MEDICINE'])
  tap(1);frames(20);selected=rd(symbols['gSpecialVar_ItemId'],2)
  quantity=invoke('CountTotalItemQuantityInBag',selected)

@@ -77,7 +77,7 @@ for mode in [0,1]:
  check('profile_unchanged_'+str(mode),invoke('GetStorageBoxCount')==(60 if mode else 14))
  # All 198 equipment entries, including the end of the list, must be usable.
  invoke('GoToBagMenu',0,c['BAG_EQUIPMENT'],symbols['CB2_ReturnToField']|1)
- wr(symbols['gMain']+4,symbols['CB2_Bag']|1);frames(150)
+ wr(symbols['gMain']+4,symbols['CB2_Bag']|1);wait('Task_BagMenu_HandleInput',900);frames(60)
  check('full_bag_ui_'+str(mode),active('Task_BagMenu_HandleInput') is not None)
  for _ in range(counts[c['BAG_EQUIPMENT']]-1):tap(128)
  tap(1);frames(20)
