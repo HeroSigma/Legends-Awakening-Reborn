@@ -19,3 +19,9 @@ Art is regenerated with tools/la_world/build_world_map_art.py. It merges ocean c
 The supplied 216×168 Sinnoh image is preserved byte-for-byte under assets/regional_maps/sinnoh/map.png and placed northwest of the HnS landmass. Its towns, lakes, islands, postgame areas and route segments have authored hover cells in locations.json. The generator prioritizes towns/landmarks over route labels where the 8-pixel cursor grid overlaps them. Some short routes share a cursor tile with a neighboring town and therefore do not have a separate hover label.
 
 The atlas now has four region palettes and 883 unique 4bpp tiles (28,256 tile bytes). This keeps graphics below the UI character bank, preserves the original pixel resolution, and avoids extra persistent RAM/save fields. Runtime tests cover every generated Sinnoh cell, all previous cells, PokeNav and field-map entry, scrolling bounds and clean exit; the latest screenshots/report are in runtime/.
+
+## Hoenn-style Sinnoh ROM preview
+
+active-art.json now selects the generated Sinnoh redraw, exported to its existing 216×168 footprint. The source draft is preserved non-destructively. This preview uses six local 16-color Sinnoh banks plus three existing atlas banks to retain terrain detail; every palette bank is padded to its full GBA slot. 913 unique 4bpp tiles fit below the UI bank. Hover town centers have been adjusted to the redraw. Existing routes remain provisional because the generated geography differs from the original.
+
+This is an in-ROM art preview, not the final geography pass. The emulator screenshot runtime/sinnoh.png shows the actual converted result. The validation report now checks every loaded atlas palette color as well as hover cells and menu entry/exit.
