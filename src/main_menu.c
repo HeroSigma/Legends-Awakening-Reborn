@@ -14,6 +14,7 @@
 #include "link.h"
 #include "main.h"
 #include "main_menu.h"
+#include "ui_main_menu.h"
 #include "menu.h"
 #include "list_menu.h"
 #include "mystery_event_menu.h"
@@ -765,6 +766,11 @@ static void Task_WaitForBatteryDryErrorWindow(u8 taskId)
 
 static void Task_DisplayMainMenu(u8 taskId)
 {
+    if (gTasks[taskId].data[0] != HAS_NO_SAVED_GAME)
+    {
+        gTasks[taskId].func = Task_OpenMainMenu;
+        return;
+    }
     s16 *data = gTasks[taskId].data;
     u16 palette;
 
@@ -2392,3 +2398,15 @@ static void Task_NewGameBirchSpeech_ReturnFromNamingScreenShowTextbox(u8 taskId)
 }
 
 #undef tTimer
+
+// Enter our existing creator/introduction sequence after the custom UI releases its resources.
+void CB2_LegendsNewGameFromMenu(void)
+{
+    ResetTasks();
+    SetVBlankCallback(VBlankCB_MainMenu);
+    SetMainCallback2(CB2_MainMenu);
+    if (IS_FRLG)
+        StartNewGameSceneFrlg();
+    else
+        CreateTask(Task_LegendsCreator_Init, 0);
+}

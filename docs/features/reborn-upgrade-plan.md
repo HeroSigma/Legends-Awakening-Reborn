@@ -26,3 +26,7 @@ Supersedes party-relative ordinary trainer scaling above. Ordinary trainers now 
 ## PokeRide milestone
 
 Ground riding, native-Surf water mounts and Fly-gated low flight are implemented on their feature branches. Original avatar/underwater flags and save layouts remain intact. Unrestricted free flight and reverse-ledge climbing remain disabled; native route collision/story barriers and existing Surf/Fly/Dive progression remain authoritative. See docs/features/pokeride-water and pokeride-air for scope and ROM-hashed validation.
+
+## Completed UI milestones
+
+Supersedes the first milestone's pending UI list: SwSh party, storage, bag and message box are integrated on their named feature branches, with native regression reports. The Archie/Mudskip Continue menu is now adapted in `feature/main-menu-mugshot`; see `docs/features/main_menu_mugshot` for attribution, compatibility and validation. The in-game Custom Start Menu remains separate and unchanged. The deferred Rhythm feature list remains deferred.
