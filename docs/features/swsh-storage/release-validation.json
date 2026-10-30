@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rom_sha256": "55a6fd0a93983839b4f72d8ca0bc0729fc78e56cc58c51c1135e2d2ebdb2c24a",
+  "total": 2678,
+  "checks": {
+    "native": 36,
+    "integration": 2196,
+    "start_menu": 446
+  }
+}

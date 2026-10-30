@@ -27,7 +27,8 @@ def open_options(callback='CB2_ReturnToField'):
 start(0)
 check('normal_default_14',invoke('GetStorageBoxCount')==14)
 invoke('ScriptGiveMon',265,10,0)
-A=0x0203fc00;B=A+0x100;V=A+0x200
+# Keep test specimens outside EWRAM globals/windows and below the IWRAM stack.
+A=0x03007400;B=A+0x100;V=A+0x200
 party=symbols['gParties']
 for i in range(80):wr(A+i,rd(party+i,1),1)
 wr(V,5);invoke('SetBoxMonData',A,8,V)

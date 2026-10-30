@@ -1,4 +1,5 @@
 #include "global.h"
+#include "swsh_storage_system.h"
 #include "la_pc_storage_fast.h"
 #include "malloc.h"
 #include "bg.h"
@@ -1622,6 +1623,11 @@ static void Task_PCMainMenu(u8 taskId)
 
 void ShowPokemonStorageSystemPC(void)
 {
+    if (SWSH_STORAGE_SYSTEM)
+    {
+        ShowPokemonStorageSystemPC_SwSh();
+        return;
+    }
     u8 taskId = CreateTask(Task_PCMainMenu, 80);
     gTasks[taskId].tState = 0;
     gTasks[taskId].tSelectedOption = 0;
@@ -6981,12 +6987,22 @@ static void ReshowDisplayMon(void)
 
 void SetMonFormPSS(struct BoxPokemon *boxMon, enum FormChanges method)
 {
+    if (SWSH_STORAGE_SYSTEM)
+    {
+        SetMonFormPSS_SwSh(boxMon, method);
+        return;
+    }
     if (TryBoxMonFormChange(boxMon, method))
         sRefreshDisplayMonGfx = TRUE;
 }
 
 void SetMonFormPSS_ItemHold(struct BoxPokemon *boxMon)
 {
+    if (SWSH_STORAGE_SYSTEM)
+    {
+        SetMonFormPSS_ItemHold_SwSh(boxMon);
+        return;
+    }
     if (TryBoxMonFormChange(boxMon, FORM_CHANGE_ITEM_HOLD))
         sRefreshDisplayMonGfx = TRUE;
     UpdateSpeciesSpritePSS(boxMon);
@@ -10026,6 +10042,11 @@ static void TilemapUtil_Draw(u8 id)
 
 void UpdateSpeciesSpritePSS(struct BoxPokemon *boxMon)
 {
+    if (SWSH_STORAGE_SYSTEM)
+    {
+        UpdateSpeciesSpritePSS_SwSh(boxMon);
+        return;
+    }
     enum Species species = GetBoxMonData(boxMon, MON_DATA_SPECIES);
     bool32 isShiny = GetBoxMonData(boxMon, MON_DATA_IS_SHINY);
     u32 pid = GetBoxMonData(boxMon, MON_DATA_PERSONALITY);
@@ -10061,6 +10082,11 @@ void UpdateSpeciesSpritePSS(struct BoxPokemon *boxMon)
 
 void ChooseMonFromStorage(void)
 {
+    if (SWSH_STORAGE_SYSTEM)
+    {
+        ChooseMonFromStorage_SwSh();
+        return;
+    }
     EnterPokeStorage(OPTION_SELECT_MON);
 }
 
