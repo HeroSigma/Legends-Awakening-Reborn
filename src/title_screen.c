@@ -888,10 +888,42 @@ static void Legends_TitleVBlank(void)
     TransferPlttBuffer();
 }
 
+// Spatially separate palette bands let the light travel across the logo and
+// along the rift without recoloring the people, scenery or Pokemon.
+static void Legends_AnimateTitle(u16 tick)
+{
+    u16 colors[56];
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(colors); i++)
+    {
+        u16 base = sLegendsTitlePalette[192 + i];
+        u32 amount;
+        u32 r = base & 31;
+        u32 g = (base >> 5) & 31;
+        u32 b = (base >> 10) & 31;
+        if (i < 32)
+        {
+            u32 phase = ((tick / 2) - (i / 2) * 4) & 63;
+            u32 distance = phase < 32 ? phase : 64 - phase;
+            amount = distance < 8 ? (8 - distance) * 2 : 0;
+        }
+        else
+        {
+            amount = Sin((tick - ((i - 32) / 2) * 14) & 255, 5) + 5;
+        }
+        colors[i] = RGB(r + ((31 - r) * amount / 32),
+                        g + ((31 - g) * amount / 32),
+                        b + ((31 - b) * amount / 32));
+    }
+    LoadPalette(colors, 192, sizeof(colors));
+}
+
 static void Task_LegendsTitle(u8 taskId)
 {
     if (gPaletteFade.active)
         return;
+    Legends_AnimateTitle(gTasks[taskId].data[0]);
+    gTasks[taskId].data[0] = (gTasks[taskId].data[0] + 1) & 511;
     if (QUICKSTART && JOY_NEW(SELECT_BUTTON))
     {
         Quickstart();

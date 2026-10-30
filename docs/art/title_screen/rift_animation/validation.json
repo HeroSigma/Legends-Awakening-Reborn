@@ -1,0 +1,109 @@
+{
+  "rom_sha256": "5028b4ca712cdfaf0a50d9027cb6bdfb22c3983ac3602b4d127af0cbeb72db20",
+  "checks": [
+    {
+      "test": "title_active",
+      "passed": true
+    },
+    {
+      "test": "bitmap_mode4",
+      "passed": true
+    },
+    {
+      "test": "logo_shimmer_changes",
+      "passed": true
+    },
+    {
+      "test": "rift_light_changes",
+      "passed": true
+    },
+    {
+      "test": "unmasked_palette_stable",
+      "passed": true
+    },
+    {
+      "test": "bitmap_stays_stable",
+      "passed": true
+    },
+    {
+      "test": "animation_has_multiple_frames",
+      "passed": true
+    },
+    {
+      "test": "start_opens_no_save_menu",
+      "passed": true
+    },
+    {
+      "test": "no_save_b_returns_title",
+      "passed": true
+    },
+    {
+      "test": "a_opens_menu",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "continue_available_0",
+      "passed": true
+    },
+    {
+      "test": "saved_b_returns_title_0",
+      "passed": true
+    },
+    {
+      "test": "continue_location_0",
+      "passed": true
+    },
+    {
+      "test": "continue_storage_0",
+      "passed": true
+    },
+    {
+      "test": "continue_party_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "continue_available_1",
+      "passed": true
+    },
+    {
+      "test": "saved_b_returns_title_1",
+      "passed": true
+    },
+    {
+      "test": "continue_location_1",
+      "passed": true
+    },
+    {
+      "test": "continue_storage_1",
+      "passed": true
+    },
+    {
+      "test": "continue_party_1",
+      "passed": true
+    }
+  ]
+}
