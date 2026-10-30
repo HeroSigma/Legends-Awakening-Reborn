@@ -1,4 +1,6 @@
 #include "global.h"
+#include "dynamic_move_info.h"
+#include "constants/rgb.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_arena.h"
@@ -1747,56 +1749,43 @@ static void TryMoveSelectionDisplayMoveDescription(enum BattlerId battler)
         MoveSelectionDisplayMoveDescription(battler);
 }
 
+static u8 *AppendMovePreviewNumber(u8 *dest, u16 value, u16 base, bool32 accuracy)
+{
+    u8 color = (accuracy && value == 0 && base != 0) || value > base ? TEXT_COLOR_GREEN : value < base ? TEXT_COLOR_RED : TEXT_DYNAMIC_COLOR_4;
+    dest = WriteColorChangeControlCode(dest, 0, color);
+    if (value < 2)
+        dest = StringCopy(dest, gText_BattleSwitchWhich5);
+    else
+        dest = ConvertIntToDecimalStringN(dest, value, STR_CONV_MODE_LEFT_ALIGN, 3);
+    return WriteColorChangeControlCode(dest, 0, TEXT_DYNAMIC_COLOR_4);
+}
+
 static void MoveSelectionDisplayMoveDescription(enum BattlerId battler)
 {
     struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct*)(&gBattleResources->bufferA[battler][4]);
-    enum Move move = moveInfo->moves[gMoveSelectionCursor[battler]];
-    u16 pwr = GetMovePower(move);
-    u16 acc = GetMoveAccuracy(move);
-    enum DamageCategory cat = GetBattleMoveCategory(move);
-
-    if (GetActiveGimmick(battler) == GIMMICK_DYNAMAX || IsGimmickSelected(battler, GIMMICK_DYNAMAX))
-    {
-        pwr = GetMaxMovePower(move, move);
-        move = GetMaxMove(battler, move);
-        acc = 0;
-    }
-
-    u8 pwr_num[3], acc_num[3];
-    u8 cat_desc[7] = _("CAT: ");
-    u8 pwr_desc[7] = _("PWR: ");
-    u8 acc_desc[7] = _("ACC: ");
-    u8 cat_start[] = _("{CLEAR_TO 3}");
-    u8 pwr_start[] = _("{CLEAR_TO 56}");
-    u8 acc_start[] = _("{CLEAR_TO 108}");
+    static const u8 heading[] = _("{CLEAR_TO 3}CAT: {CLEAR_TO 56}PWR: ");
+    static const u8 accuracyHeading[] = _("{CLEAR_TO 108}ACC: ");
+    static const u16 upColor = RGB(3, 19, 6);
+    static const u16 downColor = RGB(25, 3, 3);
+    struct MoveDescriptionPreview preview;
+    u8 *ptr, *descStart, *descEnd;
+    GetMoveDescriptionPreview(battler, moveInfo->moves[gMoveSelectionCursor[battler]], &preview);
     LoadMessageBoxAndBorderGfx();
     DrawStdWindowFrame(B_WIN_MOVE_DESCRIPTION, FALSE);
-    if (pwr < 2)
-        StringCopy(pwr_num, gText_BattleSwitchWhich5);
-    else
-        ConvertIntToDecimalStringN(pwr_num, pwr, STR_CONV_MODE_LEFT_ALIGN, 3);
-    if (acc < 2)
-        StringCopy(acc_num, gText_BattleSwitchWhich5);
-    else
-        ConvertIntToDecimalStringN(acc_num, acc, STR_CONV_MODE_LEFT_ALIGN, 3);
-    StringCopy(gDisplayedStringBattle, cat_start);
-    StringAppend(gDisplayedStringBattle, cat_desc);
-    StringAppend(gDisplayedStringBattle, pwr_start);
-    StringAppend(gDisplayedStringBattle, pwr_desc);
-    StringAppend(gDisplayedStringBattle, pwr_num);
-    StringAppend(gDisplayedStringBattle, acc_start);
-    StringAppend(gDisplayedStringBattle, acc_desc);
-    StringAppend(gDisplayedStringBattle, acc_num);
-    u8 *descStart = StringAppend(gDisplayedStringBattle, gText_NewLine);
-    u8 *descEnd = StringAppend(gDisplayedStringBattle, GetMoveDescription(move));
+    u32 palette = BG_PLTT_ID(GetWindowAttribute(B_WIN_MOVE_DESCRIPTION, WINDOW_PALETTE_NUM));
+    LoadPalette(&upColor, palette + TEXT_COLOR_GREEN, sizeof(upColor));
+    LoadPalette(&downColor, palette + TEXT_COLOR_RED, sizeof(downColor));
+    ptr = StringCopy(gDisplayedStringBattle, heading);
+    ptr = AppendMovePreviewNumber(ptr, preview.power, preview.basePower, FALSE);
+    ptr = StringCopy(ptr, accuracyHeading);
+    ptr = AppendMovePreviewNumber(ptr, preview.accuracy, preview.baseAccuracy, TRUE);
+    descStart = StringCopy(ptr, gText_NewLine);
+    descEnd = StringCopy(descStart, GetMoveDescription(preview.displayMove));
     WrapFontIdToFit(descStart, descEnd, FONT_NORMAL, WindowWidthPx(B_WIN_MOVE_DESCRIPTION));
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_DESCRIPTION);
-
     if (gCategoryIconSpriteId == 0xFF)
         gCategoryIconSpriteId = CreateSprite(&gSpriteTemplate_CategoryIcons, 38, 64, 1);
-
-    StartSpriteAnim(&gSprites[gCategoryIconSpriteId], cat);
-
+    StartSpriteAnim(&gSprites[gCategoryIconSpriteId], preview.category);
     CopyWindowToVram(B_WIN_MOVE_DESCRIPTION, COPYWIN_FULL);
 }
 
