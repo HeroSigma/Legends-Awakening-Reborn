@@ -15,11 +15,9 @@ locs=re.findall(r'\{(\d+), (\d+), (\d+), (sWorldName\d+)\}',text)
 for x,y,region,name in locs:
  check('location '+x+','+y,invoke('WorldMap_LocationAt',int(x),int(y))==symbols[name])
  check('region '+x+','+y,invoke('WorldMap_RegionAt',int(x),int(y))==int(region))
-sinnoh=(R/'src/data/world_map_sinnoh.h').read_text()
-sinnohLocs=re.findall(r'\{(\d+), (\d+), (\d+), (sSinnohName\d+)\}',sinnoh)
-for x,y,region,name in sinnohLocs:
- check('Sinnoh location '+x+','+y,invoke('WorldMap_LocationAt',int(x),int(y))==symbols[name])
- check('Sinnoh region '+x+','+y,invoke('WorldMap_RegionAt',int(x),int(y))==4)
+for x in range(2,29):
+ for y in range(3,24):
+  check('removed region '+str((x,y)),invoke('WorldMap_RegionAt',x,y)==0)
 check('open sea' ,invoke('WorldMap_RegionAt',2,25)==0)
 invoke('FieldInitRegionMap',symbols['CB2_ReturnToFieldWithOpenMenu']|1)
 wr(symbols['gMain']+4,symbols['WorldMap_Update']|1);frames(40)
@@ -35,10 +33,8 @@ for region,name in [(2,'johto'),(1,'kanto')]:
  wr(state+5,int(x),1);wr(state+6,int(y),1);invoke('WorldMap_Refresh');frames(4)
  shutil.copy2(shot('world_'+name),D/(name+'.png'))
  check(name+' label region',invoke('WorldMap_RegionAt',int(x),int(y))==region)
-x,y,_,_=next(v for v in sinnohLocs if v[3]=='sSinnohName'+re.search(r'sSinnohName(\d+)\[\] = _\("Veilstone City"\)',sinnoh).group(1))
-wr(state+5,int(x),1);wr(state+6,int(y),1);invoke('WorldMap_Refresh');frames(4)
-shutil.copy2(shot('world_sinnoh'),D/'sinnoh.png')
-check('Sinnoh overview hover',invoke('WorldMap_RegionAt',int(x),int(y))==4)
+wr(state+5,16,1);wr(state+6,12,1);invoke('WorldMap_Refresh');frames(4)
+shutil.copy2(shot('world_open_sea'),D/'removed-sinnoh.png')
 wr(state+5,61,1);wr(state+6,47,1);frames(2);frames(1,16|128);frames(2)
 check('bottom right clamped',rd(state+5,1)==61 and rd(state+6,1)==47)
 frames(1,2);frames(60)

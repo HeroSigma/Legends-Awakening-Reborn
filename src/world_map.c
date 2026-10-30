@@ -22,7 +22,6 @@
 
 struct WorldLocation { u8 x, y, region; const u8 *name; };
 #include "data/world_map_locations.h"
-#include "data/world_map_sinnoh.h"
 static const u8 sTiles[] = INCBIN_U8("data/world_map/tiles.bin");
 static const u16 sTilemap[] = INCBIN_U16("data/world_map/tilemap.bin");
 static const u16 sPalette[] = INCBIN_U16("data/world_map/palette.bin");
@@ -30,7 +29,6 @@ static const u8 sOcean[] = _("Open Sea");
 static const u8 sHoenn[] = _("Hoenn");
 static const u8 sJohto[] = _("Johto");
 static const u8 sKanto[] = _("Kanto");
-static const u8 sSinnoh[] = _("Sinnoh");
 static const u8 sWorld[] = _("World Map");
 static const u8 sHelp[] = _("D-Pad: Explore   B: Back");
 static EWRAM_DATA struct {
@@ -58,8 +56,6 @@ __attribute__((noinline)) const u8 *WorldMap_LocationAt(u16 x, u16 y)
     u32 i;
     for(i=0;i<ARRAY_COUNT(sWorldLocations);i++)
         if(sWorldLocations[i].x==x && sWorldLocations[i].y==y) return sWorldLocations[i].name;
-    for(i=0;i<ARRAY_COUNT(sSinnohLocations);i++)
-        if(sSinnohLocations[i].x==x && sSinnohLocations[i].y==y) return sSinnohLocations[i].name;
     return sOcean;
 }
 __attribute__((noinline)) u8 WorldMap_RegionAt(u16 x, u16 y)
@@ -67,9 +63,6 @@ __attribute__((noinline)) u8 WorldMap_RegionAt(u16 x, u16 y)
     u32 i;
     for(i=0;i<ARRAY_COUNT(sWorldLocations);i++)
         if(sWorldLocations[i].x==x && sWorldLocations[i].y==y) return sWorldLocations[i].region;
-    for(i=0;i<ARRAY_COUNT(sSinnohLocations);i++)
-        if(sSinnohLocations[i].x==x && sSinnohLocations[i].y==y) return 4;
-    if(x>=2 && x<29 && y>=3 && y<24)return 4;
     if(x>=31 && x<61 && y>=3 && y<23) return x<48 ? 2 : 1;
     if(x>=2 && x<32 && y>=28 && y<48) return 3;
     return 0;
@@ -78,7 +71,7 @@ __attribute__((noinline)) static void WorldMap_Refresh(void)
 {
     s16 sx=sWorldMap->x*8-120, sy=sWorldMap->y*8-72;
     u8 r=WorldMap_RegionAt(sWorldMap->x,sWorldMap->y);
-    const u8 *region=r==1?sKanto:r==2?sJohto:r==3?sHoenn:r==4?sSinnoh:sWorld;
+    const u8 *region=r==1?sKanto:r==2?sJohto:r==3?sHoenn:sWorld;
     if(sx<0)sx=0;if(sx>256)sx=256;if(sy<0)sy=0;if(sy>240)sy=240;
     ChangeBgX(2,sx<<8,BG_COORD_SET);ChangeBgY(2,sy<<8,BG_COORD_SET);
     gSprites[sWorldMap->cursor].x=sWorldMap->x*8+4-sx;
@@ -136,9 +129,6 @@ void WorldMap_Open(MainCallback callback)
     if(!current){GetMapName(name,gMapHeader.regionMapSectionId,0);current=name;}
     for(i=0;i<ARRAY_COUNT(sWorldLocations);i++)
         if(SameName(current,sWorldLocations[i].name)){sWorldMap->x=sWorldLocations[i].x;sWorldMap->y=sWorldLocations[i].y;sWorldMap->playerKnown=TRUE;break;}
-    if(!sWorldMap->playerKnown)
-        for(i=0;i<ARRAY_COUNT(sSinnohLocations);i++)
-            if(SameName(current,sSinnohLocations[i].name)){sWorldMap->x=sSinnohLocations[i].x;sWorldMap->y=sSinnohLocations[i].y;sWorldMap->playerKnown=TRUE;break;}
     sWorldMap->playerX=sWorldMap->x;sWorldMap->playerY=sWorldMap->y;
     ResetSpriteData();FreeAllSpritePalettes();ResetBgsAndClearDma3BusyFlags(0);InitBgsFromTemplates(0,sBgs,ARRAY_COUNT(sBgs));
     SetBgTilemapBuffer(0,sWorldMap->bg0);InitWindows(sWindows);DeactivateAllTextPrinters();

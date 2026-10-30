@@ -29,3 +29,7 @@ This is an in-ROM art preview, not the final geography pass. The emulator screen
 ## Original cartography restored
 
 The generated terrain-heavy Sinnoh preview was rejected by the user after in-ROM review. The builder and interactive Sinnoh cells are restored to the original regional artwork and locations. Generated drafts are inactive. Native Emerald Hoenn cartography is the style target for future work.
+
+## Sinnoh removed from atlas
+
+At user request, Sinnoh artwork, hover labels, region identification, and player-location lookup are removed from the playable world map. Its former area is open sea. Hoenn, Johto and Kanto remain. Source images and old experiments remain inactive reference files only.
