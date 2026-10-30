@@ -17,3 +17,7 @@ Rotom Phone was evaluated but is not installed. Quest icons, new quests and the 
 ## Validation
 
 108 native feature checks cover all four colors in both storage modes, actual Options input, theme save/load persistence, save cancellation, Journal handoff and repeated resource cleanup. A further 446 native Start-menu regressions cover unlock combinations, cycling, repeated B input, submenu returns and control release. All 554 pass on the same ROM hash. Screenshots and pinned reports are alongside this file. Player SRAM is never used by tests.
+
+## Footer correction
+
+The text windows now preserve the exact underlying footer tile pixels, including flips, instead of filling oversized white rectangles. Clock and page hint share a single line within the left panel; the current app name uses the right panel. Footer text uses the active frame palette and transparent glyph background. All four themes and all 554 existing native checks pass after the correction.
