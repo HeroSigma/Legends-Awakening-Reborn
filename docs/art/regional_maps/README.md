@@ -25,3 +25,7 @@ The atlas now has four region palettes and 883 unique 4bpp tiles (28,256 tile by
 active-art.json now selects the generated Sinnoh redraw, exported to its existing 216×168 footprint. The source draft is preserved non-destructively. This preview uses six local 16-color Sinnoh banks plus three existing atlas banks to retain terrain detail; every palette bank is padded to its full GBA slot. 913 unique 4bpp tiles fit below the UI bank. Hover town centers have been adjusted to the redraw. Existing routes remain provisional because the generated geography differs from the original.
 
 This is an in-ROM art preview, not the final geography pass. The emulator screenshot runtime/sinnoh.png shows the actual converted result. The validation report now checks every loaded atlas palette color as well as hover cells and menu entry/exit.
+
+## Original cartography restored
+
+The generated terrain-heavy Sinnoh preview was rejected by the user after in-ROM review. The builder and interactive Sinnoh cells are restored to the original regional artwork and locations. Generated drafts are inactive. Native Emerald Hoenn cartography is the style target for future work.

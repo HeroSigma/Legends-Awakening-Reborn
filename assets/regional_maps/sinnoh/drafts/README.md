@@ -1,3 +1,3 @@
-# Sinnoh Hoenn-style art draft
+# Rejected Sinnoh art experiment
 
-Generated from the supplied Sinnoh map and native Hoenn runtime reference. The high-resolution draft is preserved here. active-art.json selects its native-size export for an in-ROM style preview. Town centers are adjusted in hoenn-style-locations.json; roads and geography still need canonical refinement. Original source artwork and original locations.json remain preserved.
+The richer generated style was rejected after in-ROM review. These files are inactive reference only. The playable atlas uses the original regional artwork and original hover locations. Future atlas artwork should match native Emerald Hoenn cartography.
