@@ -43,6 +43,7 @@ enum {
 #define BERRY_UPDATE_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON)
 #define A_B_START_SELECT (A_BUTTON | B_BUTTON | START_BUTTON | SELECT_BUTTON)
 
+static void Legends_InitTitleScreen(void);
 static void MainCB2(void);
 static void Task_TitleScreenPhase1(u8);
 static void Task_TitleScreenPhase2(u8);
@@ -563,6 +564,11 @@ static void VBlankCB(void)
 
 void CB2_InitTitleScreen(void)
 {
+    if (!IS_FRLG)
+    {
+        Legends_InitTitleScreen();
+        return;
+    }
     if (IS_FRLG)
     {
         CB2_InitTitleScreenFrlg();
@@ -870,4 +876,89 @@ static void UpdateLegendaryMarkingColor(u8 frameNum)
         u16 color = RGB(r, g, b);
         LoadPalette(&color, BG_PLTT_ID(14) + 15, sizeof(color));
    }
+}
+
+
+// A 240x160 indexed bitmap preserves the rift illustration within GBA limits.
+static const u32 sLegendsTitleBitmap[] = INCBIN_U32("graphics/title_screen/legends_awakening/title.bin");
+static const u16 sLegendsTitlePalette[] = INCBIN_U16("graphics/title_screen/legends_awakening/title.gbapal");
+
+static void Legends_TitleVBlank(void)
+{
+    TransferPlttBuffer();
+}
+
+static void Task_LegendsTitle(u8 taskId)
+{
+    if (gPaletteFade.active)
+        return;
+    if (QUICKSTART && JOY_NEW(SELECT_BUTTON))
+    {
+        Quickstart();
+        return;
+    }
+    if (JOY_HELD(CLEAR_SAVE_BUTTON_COMBO) == CLEAR_SAVE_BUTTON_COMBO)
+    {
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        SetMainCallback2(CB2_GoToClearSaveDataScreen);
+    }
+    else if (JOY_HELD(RESET_RTC_BUTTON_COMBO) == RESET_RTC_BUTTON_COMBO && CanResetRTC())
+    {
+        FadeOutBGM(4);
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        SetMainCallback2(CB2_GoToResetRtcScreen);
+    }
+    else if (JOY_HELD(BERRY_UPDATE_BUTTON_COMBO) == BERRY_UPDATE_BUTTON_COMBO)
+    {
+        FadeOutBGM(4);
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        SetMainCallback2(CB2_GoToBerryFixScreen);
+    }
+    else if (JOY_NEW(A_BUTTON | START_BUTTON))
+    {
+        FadeOutBGM(4);
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        SetMainCallback2(CB2_GoToMainMenu);
+    }
+}
+
+static void Legends_TitleMain(void)
+{
+    RunTasks();
+    UpdatePaletteFade();
+}
+
+static void Legends_InitTitleScreen(void)
+{
+    SetVBlankCallback(NULL);
+    SetHBlankCallback(NULL);
+    ScanlineEffect_Stop();
+    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_FORCED_BLANK);
+    ResetTasks();
+    ResetSpriteData();
+    FreeAllSpritePalettes();
+    ResetPaletteFade();
+    DmaFill16(3, 0, (void *)VRAM, VRAM_SIZE);
+    DmaFill32(3, 0, (void *)OAM, OAM_SIZE);
+    DmaCopy16(3, sLegendsTitleBitmap, (void *)VRAM, DISPLAY_WIDTH * DISPLAY_HEIGHT);
+    LoadPalette(sLegendsTitlePalette, 0, sizeof(sLegendsTitlePalette));
+    SetGpuReg(REG_OFFSET_BG2CNT, 0);
+    SetGpuReg(REG_OFFSET_BG2PA, 0x100);
+    SetGpuReg(REG_OFFSET_BG2PB, 0);
+    SetGpuReg(REG_OFFSET_BG2PC, 0);
+    SetGpuReg(REG_OFFSET_BG2PD, 0x100);
+    SetGpuReg(REG_OFFSET_BG2X_L, 0);
+    SetGpuReg(REG_OFFSET_BG2X_H, 0);
+    SetGpuReg(REG_OFFSET_BG2Y_L, 0);
+    SetGpuReg(REG_OFFSET_BG2Y_H, 0);
+    SetGpuReg(REG_OFFSET_BLDCNT, 0);
+    SetGpuReg(REG_OFFSET_BLDALPHA, 0);
+    SetGpuReg(REG_OFFSET_BLDY, 0);
+    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+    SetVBlankCallback(Legends_TitleVBlank);
+    EnableInterrupts(INTR_FLAG_VBLANK);
+    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_4 | DISPCNT_BG2_ON);
+    CreateTask(Task_LegendsTitle, 0);
+    m4aSongNumStart(MUS_TITLE);
+    SetMainCallback2(Legends_TitleMain);
 }
