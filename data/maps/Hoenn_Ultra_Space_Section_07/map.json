@@ -3,7 +3,6 @@
   "name": "Hoenn_Ultra_Space_Section_07",
   "layout": "LAYOUT_HYPERHOENN_34_33_ULTRA_SPACE",
   "music": "MUS_ROUTE104",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_HYPER_ULTRA_SPACE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -53,5 +52,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

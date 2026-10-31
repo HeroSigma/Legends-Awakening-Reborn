@@ -3,7 +3,6 @@
   "name": "Hoenn_Dragonspiral_Tower",
   "layout": "LAYOUT_HYPERHOENN_34_1_DRAGONSPIRAL_TOWER",
   "music": "MUS_ROUTE104",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_HYPER_DRAGONSPIRAL_TOWER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -46,5 +45,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

@@ -1,6 +1,6 @@
 # Selected NPC overworld roster
 
-All 40 donor/source IDs are taken from the user selection. See manifest.json and roster.png. Alain is the conventional spelling of the user label “Alaine”. These are NPC overworld appearances, not trainer battle portraits or replacement player avatars.
+The current user-approved donor/source selections are recorded in manifest.json and summarized below. The selection is still in progress; additional characters will be added as the user supplies them. Alain is the conventional spelling of the user label “Alaine”. These are NPC overworld appearances, not trainer battle portraits or replacement player avatars.
 
 Selected characters are registered as OBJ_EVENT_GFX_LA_ROSTER_<NAME>. Existing Red, Blue, Brendan, May, Birch, Silver, Kris, Wally, Archie and Maxie walking NPC role IDs resolve to the selected art. Other selections are available in Porymap but are not placed on maps. Specialized cycling/surfing/field-action variants retain their existing contracts pending dedicated donor action-sheet selection.
 
@@ -14,4 +14,4 @@ Missing selections are listed in missing_selections.json. That list compares the
 
 Ethan uses the exact requested legacy RGBA backup, sliced using its 16x32 nine-frame metadata and indexed against the recovered palette. Oak uses Aesthetic Red 071; Juniper BWA 071; Cynthia Hyper 183; Random Portals SWSH 091. Ethan and normal Oak NPC roles resolve to these choices; Alolan Oak keeps its own identity. No new map placements are added.
 
-HoopaRing is a **single** graphics entry from Hyper 004, with all seven images. The original 20 visual AnimCmd sequences are ported and checked byte-for-byte. Animation 20 is a project-owned emergence presentation: ring frames, large open ring, then Hoopa. It finishes holding Hoopa rather than looping the reveal. The larger-form frame is retained in the same source sheet, with no separate character registration. No teleport, encounter or donor gameplay behavior is activated.
+Hoopa and Hoopa Ring use the combined Hyper 004 source sheet as one graphics entry, retaining all seven source images. The donor's original 20 visual AnimCmd sequences are ported and checked byte-for-byte. Animation 20 is a project-owned emergence presentation: ring frames, large open ring, then Hoopa. It finishes holding Hoopa rather than looping the reveal. The larger-form frame is retained in the same source sheet, with no separate character registration. No teleport, encounter or donor gameplay behavior is activated.

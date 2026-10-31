@@ -3,7 +3,6 @@
   "name": "Hoenn_Ruins_of_Decision",
   "layout": "LAYOUT_HYPERHOENN_35_83_RUINS_OF_DECISION",
   "music": "MUS_ROUTE104",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_HYPER_RUINS_OF_DECISION",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -39,5 +38,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

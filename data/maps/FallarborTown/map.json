@@ -3,7 +3,6 @@
   "name": "FallarborTown",
   "layout": "LAYOUT_FALLARBOR_TOWN",
   "music": "MUS_FALLARBOR",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_FALLARBOR_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -144,7 +143,7 @@
     },
     {
       "type": "sign",
-      "x": 16,
+      "x": 13,
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -153,7 +152,7 @@
     {
       "type": "sign",
       "x": 10,
-      "y": 11,
+      "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "FallarborTown_EventScript_TownSign"
@@ -182,5 +181,6 @@
       "item": "ITEM_NUGGET",
       "flag": "FLAG_HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }
