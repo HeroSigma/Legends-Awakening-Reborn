@@ -274,7 +274,7 @@ LegendsNextDoor_Text_2:
     .string "I'm Hazel. Birch meant to stay\nat the lab.\pThen he heard about more sightings.$"
 
 LegendsNextDoor_Text_3:
-    .string "I was sorting his field notes.\pHe's finding POKéMON missing from\nall his older records.$"
+    .string "I was sorting his field notes.\pHe's finding Pokémon missing from\nall his older records.$"
 
 LegendsNextDoor_Text_4:
     .string "These are our children, Brendan\nand May. They help with his surveys.$"
@@ -289,7 +289,7 @@ LegendsNextDoor_Text_7:
     .string "{COLOR GREEN}Those aren't mutually exclusive.$"
 
 LegendsNextDoor_Text_8:
-    .string "{COLOR RED}You saw the report, right?\pI wonder if those POKéMON\nare frightened.$"
+    .string "{COLOR RED}You saw the report, right?\pI wonder if those Pokémon\nare frightened.$"
 
 LegendsNextDoor_Text_9:
     .string "{COLOR RED}Strange places. Strange people.\pThey don't know what's happened\nto them either.$"
@@ -307,7 +307,7 @@ LegendsNextDoor_Text_13:
     .string "{COLOR RED}Good. Then that's one less person\nI have to talk out of something.$"
 
 LegendsNextDoor_Text_14:
-    .string "{COLOR GREEN}Speaking of which, when you get a\nPOKéMON, we should have a battle.$"
+    .string "{COLOR GREEN}Speaking of which, when you get a\nPokémon, we should have a battle.$"
 
 LegendsNextDoor_Text_15:
     .string "{COLOR RED}You'll have to battle me too.\pDon't let Brendan claim the only\nchallenge around here.$"
@@ -325,7 +325,7 @@ LegendsNextDoor_Text_19:
     .string "Birch shares his observations\nwith the research team.\pColress is coordinating their\ninvestigation.$"
 
 LegendsNextDoor_Text_20:
-    .string "Birch puts the POKéMON first.\pSomeone has to find out how\nthey're coping.$"
+    .string "Birch puts the Pokémon first.\pSomeone has to find out how\nthey're coping.$"
 
 LegendsNextDoor_Text_21:
     .string "{COLOR RED}Dad said he was checking Route 101.\pLet's finish up and get going.$"
@@ -334,7 +334,7 @@ LegendsNextDoor_Text_22:
     .string "{COLOR GREEN}Try the lab on your way.\pIf he's gone, take the path north\nto Route 101.$"
 
 LegendsNextDoor_Text_23:
-    .string "Stay on the path until you have\na POKéMON of your own.\pIf something looks wrong, get help.$"
+    .string "Stay on the path until you have\na Pokémon of your own.\pIf something looks wrong, get help.$"
 
 LegendsNextDoor_Text_24:
     .string "{COLOR LIGHT_BLUE}Find Birch. Stay on the path.\nNo exploring rifts.\pThat should be simple enough.$"
@@ -349,7 +349,7 @@ LegendsNextDoor_Text_BrendanReminder:
     .string "{COLOR GREEN}I'm checking Dad's survey notes.\pFind him first. Our battle can wait\nuntil you've got a partner.$"
 
 LegendsNextDoor_Text_MayReminder:
-    .string "{COLOR RED}If you see an unfamiliar POKéMON,\nwatch it from a safe distance.\pBeing lost doesn't make it dangerous.$"
+    .string "{COLOR RED}If you see an unfamiliar Pokémon,\nwatch it from a safe distance.\pBeing lost doesn't make it dangerous.$"
 
 LegendsNextDoor_HazelStepAside:
     walk_up

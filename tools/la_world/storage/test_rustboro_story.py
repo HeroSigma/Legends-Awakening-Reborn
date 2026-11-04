@@ -69,8 +69,8 @@ for name in ['LegendsRustboro_Text_BirchReport','LegendsTera_Text_Introduction',
   if v in (250,251,254):lines.append([])
   else:lines[-1].append(v)
  for j,line in enumerate(lines):
-  for k,v in enumerate(line+[255]):wr(0x0203fc00+k,v,1)
-  width=invoke('GetStringWidth',1,0x0203fc00,0)
+  for k,v in enumerate(line+[255]):wr(0x03007400+k,v,1)
+  width=invoke('GetStringWidth',1,0x03007400,0)
   check('dialogue_width_'+name+'_'+str(j),width<=208)
 lib.shutdown()
 out=R/'docs/story/rustboro';out.mkdir(parents=True,exist_ok=True)

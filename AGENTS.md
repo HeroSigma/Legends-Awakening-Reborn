@@ -17,3 +17,7 @@ Use the established dialogue colors: player LIGHT_BLUE, Brendan GREEN, May/Red R
 Evil-team field dialogue uses the central affiliation palette in src/field_name_box.c. Giovanni/Rocket crimson, Aqua deep blue, Magma burnt orange, Cyrus/Galactic violet, Triad/Plasma steel blue, Flare scarlet, Skull charcoal, Yell magenta, Star dark gold, Aether teal. Use the corresponding SP_NAME_TEAM_* speaker tags for future faction dialogue; restore SP_NAME_NONE after conversations. See docs/story/spoken_protagonist/faction-colors.md.
 
 Named rivals and professors use the central custom speaker palette; see docs/story/spoken_protagonist/character-colors.md. Birch uses forest green. Preserve established player/Brendan/May/Red/Wally colors. Use SP_NAME_<NAME> tags for newly authored character dialogue.
+
+## Story polish workflow
+
+Polish the completed story rather than bulk-editing untouched or future scenes. When adding a new scene, review its dialogue, line fit, speaker colors, staging and progression as part of that scene's work. Keep Aren/Aria speaking naturally and retain established character voices.

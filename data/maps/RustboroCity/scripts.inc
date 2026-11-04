@@ -1114,7 +1114,7 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Don't take my GOODS!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-	.string "{PLAYER}! You helped us in the woods!\pThose three took our recordings.\nNow TEAM AQUA has stolen our hardware!\pThat parcel contains components\nfor CAPT. STERN's research equipment.\pI don't know if the thefts are linked.\nPlease help me get the DEVON GOODS!$"
+	.string "{PLAYER}! You helped us in the woods!\pThose three took our recordings.\nNow Team Aqua has stolen our parts!\pThey're meant for Captain Stern's\nresearch equipment.\pI don't know if the thefts are linked.\nPlease help me get the parcel back!$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 	.string "The thief went toward RUSTURF TUNNEL.\nPlease be careful!$"
@@ -1258,26 +1258,13 @@ RustboroCity_Text_CuttersHouse:
 	.string "CUTTER'S HOUSE$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
-	.string "I've been developing an added feature\n"
-	.string "for the POKéNAV…\p"
-	.string "And it turned out great!\p"
-	.string "{PLAYER}, may I see that POKéNAV?\n"
-	.string "The one our PRESIDENT gave you?$"
+	.string "I've been developing an added feature\nfor the PokéNav…\pAnd it turned out great!\p{PLAYER}, may I see that PokéNav?\nThe one our president gave you?$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-	.string "There you go, {PLAYER}!\p"
-	.string "I added a new feature named\n"
-	.string "MATCH CALL to your POKéNAV.\p"
-	.string "Using the MATCH CALL feature,\n"
-	.string "you can chat with people who have\l"
-	.string "been registered in your POKéNAV.\p"
-	.string "{PLAYER}, our PRESIDENT STONE should\n"
-	.string "be registered in your POKéNAV.\p"
-	.string "Test it out.\n"
-	.string "Please give our PRESIDENT a call.$"
+	.string "There you go, {PLAYER}!\pI added a new feature named\nMatch Call to your PokéNav.\pUsing the Match Call feature,\nyou can chat with people who have\lbeen registered in your PokéNav.\p{PLAYER}, our president STONE should\nbe registered in your PokéNav.\pTest it out.\nPlease give our president a call.$"
 
 RustboroCity_Text_PleaseSelectPokenav:
-	.string "Please select the POKéNAV.$"
+	.string "Please select the PokéNav.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
 	.string "The call came through perfectly!\nI'd better get back to work.\pBefore you leave, visit our basement\nlaboratory when you have a chance.\pOne of our researchers has something\nyou might find useful.\pTake care, {PLAYER}!$"

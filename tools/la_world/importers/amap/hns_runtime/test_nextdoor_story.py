@@ -37,8 +37,8 @@ for gender in [0,1]:
   check('both_rivals_visible_'+suffix,all(i in actors and actors[i]['visible'] for i in [8,9]))
   check('distinct_rival_graphics_'+suffix,actors[8]['gfx']!=actors[9]['gfx'])
   for local,who in [(8,'Brendan'),(9,'May')]:
-   check('native_'+who.lower()+'_sprite_'+suffix,
-         rd(symbols['gObjectEventGraphicsInfoPointers']+actors[local]['gfx']*4)==symbols['gObjectEventGraphicsInfo_Rival'+who+'Normal'])
+   check('hyper_'+who.lower()+'_sprite_'+suffix,
+         rd(symbols['gObjectEventGraphicsInfoPointers']+actors[local]['gfx']*4)==symbols['gObjectEventGraphicsInfo_LaRoster'+who])
   before=(location(),pos())
   captured=set()
   for i in range(16000):

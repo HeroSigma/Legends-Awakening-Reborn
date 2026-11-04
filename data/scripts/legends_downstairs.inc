@@ -209,10 +209,10 @@ LegendsDownstairs_Text_Report5:
     .string "{COLOR LIGHT_BLUE}Places on the other side...?$"
 
 LegendsDownstairs_Text_Report6:
-    .string "Unusual POKéMON outbreaks have been\nreported near the affected areas.$"
+    .string "Unusual Pokémon outbreaks have been\nreported near the affected areas.$"
 
 LegendsDownstairs_Text_Report7:
-    .string "Some of these POKéMON are native\nto regions far beyond Hoenn.\pHow they arrived remains unknown.$"
+    .string "Some of these Pokémon are native\nto regions far beyond Hoenn.\pHow they arrived remains unknown.$"
 
 LegendsDownstairs_Text_Report8:
     .string "Scientists are investigating a link\nbetween the rifts and outbreaks.$"
@@ -236,7 +236,7 @@ LegendsDownstairs_Text_Report14:
     .string "We will bring you further updates as\ninformation is confirmed.$"
 
 LegendsDownstairs_Text_After0:
-    .string "{COLOR LIGHT_BLUE}Rifts, strange POKéMON...\nIs that what you wanted to tell me?$"
+    .string "{COLOR LIGHT_BLUE}Rifts, strange Pokémon...\nIs that what you wanted to tell me?$"
 
 LegendsDownstairs_Text_After1:
     .string "I wanted you to hear it before you\nwent outside.$"
@@ -251,7 +251,7 @@ LegendsDownstairs_Text_After4:
     .string "Then don't give me a reason to.$"
 
 LegendsDownstairs_Text_After5:
-    .string "{COLOR LIGHT_BLUE}What about the POKéMON?\nAre they all right?$"
+    .string "{COLOR LIGHT_BLUE}What about the Pokémon?\nAre they all right?$"
 
 LegendsDownstairs_Text_After6:
     .string "I hope so. Professor Birch has been\nlooking into the sightings too.$"

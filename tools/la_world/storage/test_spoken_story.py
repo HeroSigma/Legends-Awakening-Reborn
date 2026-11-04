@@ -83,8 +83,8 @@ for label in sorted(n for n in symbols if n.startswith('LegendsVoice_')):
   if value in (250,251,254):lines.append([])
   else:lines[-1].append(value)
  for line_id,line in enumerate(lines):
-  for i,value in enumerate(line+[255]):wr(0x0203fc00+i,value,1)
-  check('fits_'+label+'_'+str(line_id),invoke('GetStringWidth',1,0x0203fc00,0)<=208)
+  for i,value in enumerate(line+[255]):wr(0x03007400+i,value,1)
+  check('fits_'+label+'_'+str(line_id),invoke('GetStringWidth',1,0x03007400,0)<=208)
 lib.shutdown()
 (proof/'validation.json').write_text(json.dumps(dict(passed=True,assertions=len(checks),rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),battle_outcome='injected native win to check continuation, not difficulty',checks=checks),indent=2)+'\n')
 print('PASS',len(checks),'spoken story checks')

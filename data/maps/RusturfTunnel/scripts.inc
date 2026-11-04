@@ -463,7 +463,7 @@ RusturfTunnel_Text_ComeAndGetSome:
 	.string "Come and get some, then!$"
 
 RusturfTunnel_Text_Peeko:
-	.string "PEEKO: Pii pihyoh!$"
+	.string "Peeko: Pii pihyoh!$"
 
 RusturfTunnel_Text_GruntIntro:
 	.string "A dead end! You've got to be kidding!\nAnd now you followed me here?\pStay back! This parcel is AQUA's!$"
@@ -480,7 +480,7 @@ RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "Am I glad to see you're safe!$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-	.string "Come along, PEEKO.\nLet's get you home.$"
+	.string "Come along, Peeko.\nLet's get you home.$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"

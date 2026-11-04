@@ -1,0 +1,584 @@
+[
+  {
+    "file": "data/scripts/legends_downstairs.inc",
+    "label": "LegendsDownstairs_Text_Report6",
+    "before": "Unusual POKéMON outbreaks have been\\nreported near the affected areas.$",
+    "after": "Unusual Pokémon outbreaks have been\\nreported near the affected areas.$"
+  },
+  {
+    "file": "data/scripts/legends_downstairs.inc",
+    "label": "LegendsDownstairs_Text_Report7",
+    "before": "Some of these POKéMON are native\\nto regions far beyond Hoenn.\\pHow they arrived remains unknown.$",
+    "after": "Some of these Pokémon are native\\nto regions far beyond Hoenn.\\pHow they arrived remains unknown.$"
+  },
+  {
+    "file": "data/scripts/legends_downstairs.inc",
+    "label": "LegendsDownstairs_Text_After0",
+    "before": "{COLOR LIGHT_BLUE}Rifts, strange POKéMON...\\nIs that what you wanted to tell me?$",
+    "after": "{COLOR LIGHT_BLUE}Rifts, strange Pokémon...\\nIs that what you wanted to tell me?$"
+  },
+  {
+    "file": "data/scripts/legends_downstairs.inc",
+    "label": "LegendsDownstairs_Text_After5",
+    "before": "{COLOR LIGHT_BLUE}What about the POKéMON?\\nAre they all right?$",
+    "after": "{COLOR LIGHT_BLUE}What about the Pokémon?\\nAre they all right?$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_3",
+    "before": "I was sorting his field notes.\\pHe's finding POKéMON missing from\\nall his older records.$",
+    "after": "I was sorting his field notes.\\pHe's finding Pokémon missing from\\nall his older records.$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_8",
+    "before": "{COLOR RED}You saw the report, right?\\pI wonder if those POKéMON\\nare frightened.$",
+    "after": "{COLOR RED}You saw the report, right?\\pI wonder if those Pokémon\\nare frightened.$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_14",
+    "before": "{COLOR GREEN}Speaking of which, when you get a\\nPOKéMON, we should have a battle.$",
+    "after": "{COLOR GREEN}Speaking of which, when you get a\\nPokémon, we should have a battle.$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_20",
+    "before": "Birch puts the POKéMON first.\\pSomeone has to find out how\\nthey're coping.$",
+    "after": "Birch puts the Pokémon first.\\pSomeone has to find out how\\nthey're coping.$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_23",
+    "before": "Stay on the path until you have\\na POKéMON of your own.\\pIf something looks wrong, get help.$",
+    "after": "Stay on the path until you have\\na Pokémon of your own.\\pIf something looks wrong, get help.$"
+  },
+  {
+    "file": "data/scripts/legends_nextdoor.inc",
+    "label": "LegendsNextDoor_Text_MayReminder",
+    "before": "{COLOR RED}If you see an unfamiliar POKéMON,\\nwatch it from a safe distance.\\pBeing lost doesn't make it dangerous.$",
+    "after": "{COLOR RED}If you see an unfamiliar Pokémon,\\nwatch it from a safe distance.\\pBeing lost doesn't make it dangerous.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_BirchRecognizes",
+    "before": "Red?! I know that face anywhere!\\pBut how did you get to Hoenn?$",
+    "after": "Red?! I'd know that face anywhere!\\pBut how did you get to Hoenn?$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_PortalArrival",
+    "before": "{COLOR RED}Pikachu and I came through a portal.\\pOne moment we were travelling.\\pThe next, we were here.\\pI travelled through Hoenn before.\\pI remembered the road to your lab.$",
+    "after": "{COLOR RED}Pikachu and I came through a portal.\\pOne moment we were traveling.\\nThe next, we were here.\\pI've traveled through Hoenn before.\\nI remembered the way to your lab.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedIntroduction",
+    "before": "{COLOR RED}Red. Glad to meet you properly.\\pHow about a battle?\\pPikachu would be too much right now.\\pProfessor, may I raise a new\\npartner?$",
+    "after": "{COLOR RED}Red. Glad to meet you properly.\\pHow about a battle?\\pPikachu's a bit much for a first match.\\pProfessor, could I raise a new\\npartner?$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedCongratulates",
+    "before": "{COLOR RED}You held your own for a new trainer.\\pYou watched, and you kept trying.\\pExperience makes a difference.\\pKeep building trust with your\\npartner.$",
+    "after": "{COLOR RED}You held your own out there.\\pYou watched us closely and kept\\ntrying, even when it got tough.\\pKeep learning with your partner.\\nYou'll make a strong team.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_MegaRingFuture",
+    "before": "{COLOR RED}That is a Mega Ring.\\pIt will come in handy in the future.\\pWhen you find a matching Mega Stone,\\pyour bond can unlock more power.$",
+    "after": "{COLOR RED}That's a Mega Ring.\\pKeep it. It'll come in handy.\\pWith the right Mega Stone and a\\nstrong bond, your partner may\\lbe able to Mega Evolve.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedHeadsAhead",
+    "before": "{COLOR RED}I will go on ahead and find them.\\pCome on, Pikachu. Stay close.$",
+    "after": "{COLOR RED}I'll go ahead and find them.\\pCome on, Pikachu. Stay close.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedExplains",
+    "before": "{COLOR RED}That is where my journey began.\\pBut a title does not explain a rift.\\pI came through one with Pikachu.\\pNow I want to understand why.$",
+    "after": "{COLOR RED}That's where my journey began.\\pBut a title won't explain the rifts.\\pPikachu and I came through one.\\nI want to find out why.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_BrendanDoubleChallenge",
+    "before": "{COLOR GREEN}Then let us help with that!\\pMay and me against you two.\\pA double battle!$",
+    "after": "{COLOR GREEN}Then let's see what you've got!\\pMay and I will take on you two.\\nA double battle!$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_BrendanDefeat",
+    "before": "{COLOR GREEN}So that is fighting a Champion…$",
+    "after": "{COLOR GREEN}So that's what battling a Champion\\nfeels like…$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_MayAfterDouble",
+    "before": "{COLOR RED}Dad wants us back at the lab?\\pLet us go. We have plenty to tell\\nhim.$",
+    "after": "{COLOR RED}Dad wants us back at the lab?\\pLet's go. We've got plenty to tell him!$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedAfterDouble",
+    "before": "{COLOR RED}Well battled, all of you.\\pA new team still learns every day.\\pLet us bring the Professor his\\nnotes.$",
+    "after": "{COLOR RED}Well battled, all of you.\\pWe're still learning to work together.\\pLet's get back to the Professor.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_DoubleRetry",
+    "before": "{COLOR RED}Everyone needs practice together.\\pI have healed your partners.\\pSpeak to us when you want to try\\nagain.$",
+    "after": "{COLOR RED}It takes practice to battle together.\\pYour partners are healed.\\nCome back when you're ready\\lto try again.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_BirchResearch",
+    "before": "You have all seen what is happening.\\pPOKéMON from distant places…\\pAnd now, people crossing the rifts.\\pWe need careful records, not\\nguesses.$",
+    "after": "You have all seen what is happening.\\pPokémon from distant places…\\pAnd now, people crossing the rifts.\\pWe need careful records, not\\nguesses.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedResearch",
+    "before": "{COLOR RED}I will investigate what I can.\\pThere may be other travellers.\\pIf we share what we learn, it helps.$",
+    "after": "{COLOR RED}I'll investigate what I can.\\pThere may be other travelers.\\nWe should share what we learn.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_NationalDexGift",
+    "before": "{PLAYER}, this is your POKéDEX.\\pI have enabled its National records.\\pA Hoenn-only list is no longer\\nenough.$",
+    "after": "{PLAYER}, this is your Pokédex.\\pI've enabled the National records.\\pWith Pokémon arriving from afar,\\na Hoenn-only list isn't enough.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_DexNavGift",
+    "before": "I have also installed the DexNav.\\pIt helps you find and study POKéMON.\\pSearch the habitats around you.\\pDifferent times bring different\\nsights.$",
+    "after": "I've also installed the DexNav.\\pIt helps you find and study Pokémon\\nin the habitats around you.\\pTry searching at different times.\\nYou may find something new.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_MayPokeBalls",
+    "before": "{COLOR RED}Here. Take these POKé BALLS too.\\pLet your new partner make some\\nfriends!$",
+    "after": "{COLOR RED}Here. Take these Poké Balls too.\\pLet your new partner make some\\nfriends!$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_RedFarewell",
+    "before": "{COLOR RED}I will look for signs of the rifts.\\pThere is still a lot we do not know.\\pWe will meet again, {PLAYER}.\\pCome on, Pikachu.$",
+    "after": "{COLOR RED}I'll look for signs of the rifts.\\pThere's still a lot we don't know.\\pWe'll meet again, {PLAYER}.\\nCome on, Pikachu.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_PlayerTellsElara",
+    "before": "{COLOR LIGHT_BLUE}There was a strange POKéMON.\\pRed and Pikachu saved us.\\pHe said he came through a portal.\\pHe is a Champion from Kanto.\\pWe battled, and he gave me this\\nring.\\pBirch asked us to study the\\nsightings.$",
+    "after": "{COLOR LIGHT_BLUE}There was a strange Pokémon.\\pRed and Pikachu saved us.\\pHe said he came through a portal.\\pHe is a Champion from Kanto.\\pWe battled, and he gave me this\\nring.\\pBirch asked us to study the\\nsightings.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_ElaraAbsorbs",
+    "before": "A portal… And Red is here too…\\pThat is a lot for your first outing.$",
+    "after": "A portal… And Red is here too…\\pThat's a lot for your first day out.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_Companion",
+    "before": "{COLOR RED}There is always something new to\\nlearn.\\pPikachu and I are taking our time.$",
+    "after": "{COLOR RED}There's always something new to learn.\\pPikachu and I are taking our time.$"
+  },
+  {
+    "file": "data/scripts/legends_littleroot_arc.inc",
+    "label": "LegendsArc_Text_BrendanUnconventional",
+    "before": "{COLOR GREEN}{STR_VAR_1}? That's an unconventional\\nfirst partner!\\pI thought you'd pick Treecko,\\nTorchic, or Mudkip.$",
+    "after": "{COLOR GREEN}{STR_VAR_1}? That's not the usual\\nfirst partner!\\pI thought you'd pick Treecko,\\nTorchic, or Mudkip.$"
+  },
+  {
+    "file": "data/scripts/legends_petalburg.inc",
+    "label": "LegendsPetalburg_Text_Report",
+    "before": "{COLOR LIGHT_BLUE}Something happened in the woods.\\pI heard two men talking about\\nthe rifts. They took something.\\pThey said it could keep a portal\\nopen and let them control it.\\pThey didn't want the professors\\nor anyone finding out.$",
+    "after": "{COLOR LIGHT_BLUE}Something happened in the woods.\\pTwo men were talking about the rifts.\\nThey took an object they found there.\\pThey said it could hold a rift open\\nand help them control the crossings.\\pThey didn't want the professors\\nor anyone else to find out.$"
+  },
+  {
+    "file": "data/scripts/legends_petalburg.inc",
+    "label": "LegendsPetalburg_Text_Descriptions",
+    "before": "{COLOR LIGHT_BLUE}One had dark hair and a suit.\\nThere was an R on his clothes.\\pThe other had blue hair,\\nand wore a gray uniform.\\pHis clothes had a G on them.\\pI felt like I'd seen them before.\\nBut I can't remember where.$",
+    "after": "{COLOR LIGHT_BLUE}One had dark hair and wore a suit\\nwith an R on it.\\pThe other had blue hair and a gray\\nuniform with a G on it.\\pI felt like I'd seen them before.\\nBut I can't remember where.$"
+  },
+  {
+    "file": "data/scripts/legends_petalburg.inc",
+    "label": "LegendsPetalburg_Text_Relay",
+    "before": "Now, about those men.\\pI've relayed your account to Birch.\\nHe'll contact you soon.\\pYou did the right thing coming here.\\nLeave the investigation to us.\\pDon't follow those men alone.\\nIf you see them, find help.\\pAnd let Wally enjoy meeting his\\npartner. He needn't worry about this.$",
+    "after": "About those men…\\pI've passed your account on to Birch.\\nHe'll contact you soon.\\pYou did the right thing coming here.\\nLet us follow up on what you saw.\\pIf you see them again, find help.\\nDon't follow them alone.\\pAnd let Wally enjoy his new partner.\\nHe doesn't need to worry about this.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_DevonDirection",
+    "before": "Toward RUSTURF TUNNEL, to the east.\\nPlease be careful!$",
+    "after": "Toward Rusturf Tunnel, to the east.\\nPlease be careful!$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_ParcelRecovered",
+    "before": "I recovered your parcel. The thief\\nhad taken a man's WINGULL, too.\\pShe's safe now. What's in these parts\\nthat makes them worth stealing?$",
+    "after": "I've got your parcel. The thief had\\ntaken a man's Wingull, too.\\pShe's safe now. What makes these\\nparts worth stealing?$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_DevonUncertain",
+    "before": "They belong to our research shipment.\\nI don't know what AQUA wants with it.\\pThe PRESIDENT needs to hear\\nwhat happened.$",
+    "after": "They're components for our shipment.\\nI don't know why Team Aqua wants them.\\pOur president needs to hear\\nwhat happened.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_StoneEvidence",
+    "before": "That's one possibility. We need\\nevidence before we can be certain.\\pThe components you recovered help\\nus measure similar changes at sea.\\pWe can't assume every theft is linked.\\nBut we must take the risk seriously.\\pMy son STEVEN studies unusual stones.\\nHe may recognize the traces we found.$",
+    "after": "That's one possibility. We need\\nevidence before we can be certain.\\pThe components you recovered help\\nus measure similar changes at sea.\\pWe can't assume every theft is linked.\\nBut we must take the risk seriously.\\pMy son Steven studies unusual stones.\\nHe may recognize the traces we found.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_StoneOffer",
+    "before": "Then I'll speak to him. Where can\\nI find STEVEN?$",
+    "after": "Then I'll speak to him. Where can\\nI find Steven?$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_StoneLetter",
+    "before": "He's investigating near DEWFORD.\\nPlease deliver this LETTER to him.\\pAfterward, take the DEVON GOODS\\nto CAPT. STERN in SLATEPORT.$",
+    "after": "He's investigating near Dewford.\\nPlease deliver this letter to him.\\pAfterward, take the Devon Parts\\nto Captain Stern in Slateport.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BirchQuestion",
+    "before": "Professor, could that object be\\nopening the rifts?\\pI don't want to keep finding out\\nwhat they're doing after they've left.$",
+    "after": "Professor, could the object those men\\ntook be opening the rifts?\\pI keep hearing about their plans\\nonly after they've moved on.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BirchAnswer",
+    "before": "Neither do I. But we can't draw\\nthat conclusion from what we know.\\pThe SILPH researcher is comparing\\nour readings with reports from KANTO.\\pSTEVEN may help us understand the\\nobject. I'll coordinate the work here.\\pKeep your POKéNAV with you. If you\\nfind another rift, call us first.$",
+    "after": "Neither do I. But we can't draw\\nthat conclusion from what we know.\\pThe Silph researcher is comparing\\nour readings with reports from Kanto.\\pSteven may help us understand the\\nobject. I'll coordinate the work here.\\pKeep your PokéNav with you. If you\\nfind another rift, call us first.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_StoneDeparture",
+    "before": "Dewford first, then Slateport.\\nI'll let you know what STEVEN says.$",
+    "after": "Dewford first, then Slateport.\\nI'll let you know what Steven says.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_PeekoPromise",
+    "before": "He took your WINGULL? I saw someone\\nrunning toward the tunnel.\\pWait here. I'll see if I can\\nbring her back.$",
+    "after": "He took your Wingull? I saw someone\\nrunning toward the tunnel.\\pWait here. I'll see if I can\\nbring her back.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_ReleasePeeko",
+    "before": "Let the WINGULL go. She hasn't\\ndone anything to you.$",
+    "after": "Let the Wingull go. She hasn't\\ndone anything to you.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_GruntChallenge",
+    "before": "That parcel belongs to DEVON.\\nThe WINGULL is coming with me, too.$",
+    "after": "That parcel belongs to Devon.\\nThe Wingull is coming with me, too.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_GruntQuestion",
+    "before": "Who sent you? What does TEAM AQUA\\nwant with research equipment?$",
+    "after": "Who sent you? What does Team Aqua\\nwant with research equipment?$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BrineyIntroduction",
+    "before": "Thank you for bringing her back.\\nThey call me MR. BRINEY.\\pAnd what's your name?$",
+    "after": "Thank you for bringing her back.\\nThey call me Mr. Briney.\\pAnd what's your name?$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BrineyPassage",
+    "before": "I'll remember that, {PLAYER}.\\nIf you ever need a hand, come find me.\\pMy cottage is by the sea,\\njust south of PETALBURG WOODS.$",
+    "after": "I'll remember that, {PLAYER}.\\nIf you ever need a hand, come find me.\\pMy cottage is by the sea,\\njust south of Petalburg Woods.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_PeekoFarewell",
+    "before": "I'll remember. Get her home safely,\\nMR. BRINEY.$",
+    "after": "I will. Get her home safely,\\nMr. Briney.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BrineyRequest",
+    "before": "MR. BRINEY! Sorry to interrupt.\\nCould you help me reach DEWFORD?$",
+    "after": "Mr. Briney! Sorry to interrupt.\\nCould you help me reach Dewford?$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BrineyReason",
+    "before": "MR. STONE asked me to take a LETTER\\nto STEVEN, then a parcel to SLATEPORT.\\pThe shipment was stolen. I'd like to\\nget it to CAPT. STERN safely.$",
+    "after": "Mr. Stone asked me to take a letter\\nto Steven, then a parcel to Slateport.\\pThe shipment was stolen. I'd like to\\nget it to Captain Stern safely.$"
+  },
+  {
+    "file": "data/scripts/legends_spoken_dialogue.inc",
+    "label": "LegendsVoice_BrineyReady",
+    "before": "Dewford, please. Thank you for\\ntaking us, MR. BRINEY.$",
+    "after": "Dewford, please. Thank you for\\ntaking us, Mr. Briney.$"
+  },
+  {
+    "file": "data/maps/Route101/scripts.inc",
+    "label": "Route101_Text_PleaseHelp",
+    "before": "Hello! You over there!\\nPlease! Help!\\pIn my BAG!\\nThere's a POKé BALL!$",
+    "after": "Hello! You over there!\\nPlease! Help!\\pIn my BAG!\\nThere's a Poké Ball!$"
+  },
+  {
+    "file": "data/maps/Route101/scripts.inc",
+    "label": "Route101_Text_BirchThanksRed",
+    "before": "We're all right, thanks to you.\\pThat POKéMON… It doesn't belong\\nanywhere near Littleroot.$",
+    "after": "We're all right, thanks to you.\\pThat Pokémon… It doesn't belong\\nanywhere near Littleroot.$"
+  },
+  {
+    "file": "data/maps/Route102/scripts.inc",
+    "label": "Route102_Text_WatchMeCatchPokemon",
+    "before": "Wally: POKéMON hide in grass like\\nthis, don't they?\\pPlease stay with me.\\nI want to try catching a partner.$",
+    "after": "Pokémon hide in grass like this,\\ndon't they?\\pPlease stay with me.\\nI want to try catching a partner.$"
+  },
+  {
+    "file": "data/maps/Route102/scripts.inc",
+    "label": "Route102_Text_LetsGoBack",
+    "before": "{PLAYER}, thank you!\\nLet's go back to the GYM!$",
+    "after": "{PLAYER}, thank you!\\nLet's go back to the Gym!$"
+  },
+  {
+    "file": "data/maps/PetalburgWoods/scripts.inc",
+    "label": "LegendsWoods_Text_Challenge",
+    "before": "You felt the disturbance too.\\nThat is why you stopped.\\pStep aside. Or show me how far\\nthat curiosity will take you.$",
+    "after": "You felt the disturbance, didn't you?\\pIs that what brought you here?\\pStep aside. Or show me how far\\nthat curiosity will take you.$"
+  },
+  {
+    "file": "data/maps/PetalburgWoods/scripts.inc",
+    "label": "LegendsWoods_Text_Report",
+    "before": "We can't be certain. DEVON has the\\nequipment to compare our findings.\\pWe'll warn them and contact BIRCH.\\nPlease meet us in RUSTBORO.\\pTell reception you helped us here.\\nYour account could be important.$",
+    "after": "We can't be certain. Devon has the\\nequipment to compare our findings.\\pWe'll warn them and contact Birch.\\nPlease meet us in Rustboro.\\pTell reception you helped us here.\\nYour account could be important.$"
+  },
+  {
+    "file": "data/maps/RusturfTunnel/scripts.inc",
+    "label": "RusturfTunnel_Text_Peeko",
+    "before": "PEEKO: Pii pihyoh!$",
+    "after": "Peeko: Pii pihyoh!$"
+  },
+  {
+    "file": "data/maps/RusturfTunnel/scripts.inc",
+    "label": "RusturfTunnel_Text_ThankYouLetsGoHomePeeko",
+    "before": "Come along, PEEKO.\\nLet's get you home.$",
+    "after": "Come along, Peeko.\\nLet's get you home.$"
+  },
+  {
+    "file": "data/maps/Route116/scripts.inc",
+    "label": "Route116_Text_ScoundrelMadeOffWithPeeko",
+    "before": "Ohhh, what am I to do?\\pWe were on our walk, PEEKO and I, when\\nwe were jumped by an odd thug…\\pThe scoundrel made off with my\\ndarling PEEKO!\\pWrrrooooooaaaar! PEEKO!$",
+    "after": "Peeko! My poor Peeko…\\pWe were out for a walk when that\\nthug grabbed her and ran!\\pHe took her into the tunnel.\\nWhat am I going to do?$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_WaitUpPeeko",
+    "before": "Hold on, lass!\\nWait up, PEEKO!$",
+    "after": "Hold on, lass!\\nWait up, Peeko!$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford",
+    "before": "Of course. You brought PEEKO home.\\nWe're happy to help you, {PLAYER}.\\pWe'll go to DEWFORD first.\\nAre you ready to set sail?$",
+    "after": "Of course. You brought Peeko home.\\nWe're happy to help you, {PLAYER}.\\pWe'll go to Dewford first.\\nAre you ready to set sail?$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_SetSailForDewford",
+    "before": "DEWFORD it is, then!\\pAnchors aweigh!\\nPEEKO, we're setting sail, my darling!$",
+    "after": "Dewford it is, then!\\pAnchors aweigh!\\nPeeko, we're setting sail, my darling!$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford",
+    "before": "Ahoy!\\nI know exactly what you want to say!\\pYou're to deliver a LETTER to DEWFORD\\nand a package to SLATEPORT.\\pWhat you need me to do is no problem\\nat all--I'm the man for the job!\\pFirst, we'll set sail for DEWFORD.$",
+    "after": "Ahoy!\\nI know exactly what you want to say!\\pYou're to deliver a letter to Dewford\\nand a package to Slateport.\\pWhat you need me to do is no problem\\nat all--I'm the man for the job!\\pFirst, we'll set sail for Dewford.$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford",
+    "before": "Ahoy!\\nI know exactly what you want to say!\\pYou're to deliver a package to\\nCAPT. STERN in SLATEPORT.\\pWhat you need me to do is no problem\\nat all--I'm the man for the job!\\pFirst, we'll set sail for DEWFORD.$",
+    "after": "Ahoy!\\nI know exactly what you want to say!\\pYou're to deliver a package to\\nCaptain Stern in Slateport.\\pWhat you need me to do is no problem\\nat all--I'm the man for the job!\\pFirst, we'll set sail for Dewford.$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail",
+    "before": "Is that so?\\nWell, PEEKO owes her life to you.\\pYou just go on and tell me whenever\\nyou want to set sail!$",
+    "after": "Is that so?\\nWell, Peeko owes her life to you.\\pYou just go on and tell me whenever\\nyou want to set sail!$"
+  },
+  {
+    "file": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+    "label": "Route104_MrBrineysHouse_Text_Peeko",
+    "before": "PEEKO: Pii piihyoro!$",
+    "after": "Peeko: Pii piihyoro!$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor",
+    "before": "I'm MR. STONE, DEVON's PRESIDENT.\\nOur researchers told me what you did.\\pYou protected them in the woods\\nand recovered our shipment. Thank you.\\pThose stolen SILPH recordings\\nmeasured distortions near the rifts.$",
+    "after": "I'm Mr. Stone, Devon's president.\\nOur researchers told me what you did.\\pYou protected them in the woods\\nand recovered our shipment.\\pThank you, {PLAYER}.\\pThose stolen Silph recordings\\ncaptured distortions near the rifts.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_ReceivedPokenav",
+    "before": "{PLAYER} received a POKéNAV.$",
+    "after": "{PLAYER} received a PokéNav.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp",
+    "before": "That's a POKéNAV. It includes a map\\nof HOENN and a contact system.\\pYou'll be able to find DEWFORD\\nand SLATEPORT on its map.\\pBefore we discuss your journey,\\nlet's let your partners rest.$",
+    "after": "That's a PokéNav. It includes a map\\nof Hoenn and a contact system.\\pYou'll be able to find Dewford\\nand Slateport on its map.\\pBefore we discuss your journey,\\nlet's let your partners rest.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare",
+    "before": "I'll contact research teams outside\\nHOENN and compare their findings.\\pFor now, take the LETTER to STEVEN,\\nthen the DEVON GOODS to CAPT. STERN.\\pYou don't have to solve this alone,\\n{PLAYER}. Travel carefully.$",
+    "after": "I'll contact research teams outside\\nHoenn and compare their findings.\\pFor now, take the letter to Steven,\\nthen the Devon Parts to Captain Stern.\\pYou don't have to solve this alone,\\n{PLAYER}. Travel carefully.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_CountingOnYou",
+    "before": "MR. STONE: I'm counting on you!$",
+    "after": "I'm counting on you. Travel safely!$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere",
+    "before": "This is our PRESIDENT's office.\\nPlease wait here a moment.\\pOur SILPH colleague is checking the\\nreadings we managed to keep.\\pThe stolen parcel is meant for\\nCAPT. STERN in SLATEPORT.\\pWe still need it delivered safely.\\nI'll ask the PRESIDENT what to do.$",
+    "after": "This is our president's office.\\nPlease wait here a moment.\\pOur Silph colleague is checking the\\nreadings we managed to keep.\\pThe stolen parcel is meant for\\nCaptain Stern in Slateport.\\pWe still need it delivered safely.\\nI'll ask the president what to do.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe",
+    "before": "Our PRESIDENT would like to have\\na word with you.\\pPlease come with me.$",
+    "after": "Our president would like to have\\na word with you.\\pPlease come with me.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "LegendsRustboro_Text_BirchConnected",
+    "before": "One moment. PROFESSOR BIRCH is\\njoining us over the office line.$",
+    "after": "One moment. Professor Birch is\\njoining us over the office line.$"
+  },
+  {
+    "file": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "label": "LegendsRustboro_Text_BirchReport",
+    "before": "I'm glad you're safe, {PLAYER}.\\nNORMAN passed on your report.\\pThe men in the woods, the missing\\nobject, and now stolen research...$",
+    "after": "I'm glad you're safe, {PLAYER}.\\nNorman passed on your report.\\pTwo men, a missing object,\\nand now stolen research…$"
+  },
+  {
+    "file": "data/maps/RustboroCity/scripts.inc",
+    "label": "RustboroCity_Text_HelpMeIWasRobbed",
+    "before": "{PLAYER}! You helped us in the woods!\\pThose three took our recordings.\\nNow TEAM AQUA has stolen our hardware!\\pThat parcel contains components\\nfor CAPT. STERN's research equipment.\\pI don't know if the thefts are linked.\\nPlease help me get the DEVON GOODS!$",
+    "after": "{PLAYER}! You helped us in the woods!\\pThose three took our recordings.\\nNow Team Aqua has stolen our parts!\\pThey're meant for Captain Stern's\\nresearch equipment.\\pI don't know if the thefts are linked.\\nPlease help me get the parcel back!$"
+  },
+  {
+    "file": "data/maps/RustboroCity/scripts.inc",
+    "label": "RustboroCity_Text_DevelopedNewPokenavFeature",
+    "before": "I've been developing an added feature\\nfor the POKéNAV…\\pAnd it turned out great!\\p{PLAYER}, may I see that POKéNAV?\\nThe one our PRESIDENT gave you?$",
+    "after": "I've been developing an added feature\\nfor the PokéNav…\\pAnd it turned out great!\\p{PLAYER}, may I see that PokéNav?\\nThe one our president gave you?$"
+  },
+  {
+    "file": "data/maps/RustboroCity/scripts.inc",
+    "label": "RustboroCity_Text_AddedMatchCallPleaseCallMrStone",
+    "before": "There you go, {PLAYER}!\\pI added a new feature named\\nMATCH CALL to your POKéNAV.\\pUsing the MATCH CALL feature,\\nyou can chat with people who have\\lbeen registered in your POKéNAV.\\p{PLAYER}, our PRESIDENT STONE should\\nbe registered in your POKéNAV.\\pTest it out.\\nPlease give our PRESIDENT a call.$",
+    "after": "There you go, {PLAYER}!\\pI added a new feature named\\nMatch Call to your PokéNav.\\pUsing the Match Call feature,\\nyou can chat with people who have\\lbeen registered in your PokéNav.\\p{PLAYER}, our president STONE should\\nbe registered in your PokéNav.\\pTest it out.\\nPlease give our president a call.$"
+  },
+  {
+    "file": "data/maps/RustboroCity/scripts.inc",
+    "label": "RustboroCity_Text_PleaseSelectPokenav",
+    "before": "Please select the POKéNAV.$",
+    "after": "Please select the PokéNav.$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_WallyIdLikeAPokemon",
+    "before": "Um… I…\\nI'd like to get a POKéMON, please…$",
+    "after": "Um… I…\\nI'd like to get a Pokémon, please…$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon",
+    "before": "WALLY: I'm going to go stay with my\\nrelatives in VERDANTURF TOWN.\\pI thought I would be lonely by myself,\\nso I wanted to take a POKéMON along.\\pBut I've never caught a POKéMON before.\\nI don't know how…$",
+    "after": "I'm going to stay with my relatives\\nin Verdanturf Town.\\pI thought a Pokémon might keep me\\ncompany, so I wouldn't feel so alone.\\pBut I've never caught one before.\\nI don't know how…$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon",
+    "before": "WALLY, here, I'll loan you my POKéMON.\\pWALLY received a ZIGZAGOON!$",
+    "after": "WALLY, here, I'll loan you my Pokémon.\\pWALLY received a ZIGZAGOON!$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall",
+    "before": "WALLY: Oh, wow!\\nA POKéMON!\\pNORMAN: Hm. I'll give you a POKé BALL, too.\\nGo for it!\\pWALLY received a POKé BALL!$",
+    "after": "Wally received a Poké Ball!$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_WallyOhWowThankYou",
+    "before": "WALLY: Oh, wow!\\nThank you!$",
+    "after": "Thank you! I'll do my best.$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_DadSoDidItWorkOut",
+    "before": "NORMAN: So, did it work out?$",
+    "after": "So, how did it go?$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_WallyThankYouBye",
+    "before": "WALLY: Thank you, yes, it did.\\nHere's your POKéMON back.\\p{PLAYER}, thank you for coming along\\nwith me.\\pYou two are why I was able to catch\\nmy POKéMON.\\pI promise I'll take really good\\ncare of it.\\pOh! My mom's waiting for me,\\nso I have to go!\\pBye, {PLAYER}!$",
+    "after": "Yes! Ralts is coming with me.\\pHere's your Pokémon back, Norman.\\nThank you for lending it to me.\\pAnd thank you for coming along,\\n{PLAYER}. It helped having you there.\\pI promise I'll take good care of Ralts.\\pOh! Mom's waiting for me.\\nI'd better get going.\\pBye, {PLAYER}!$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_DadGoCollectBadges",
+    "before": "NORMAN: Now…\\p{PLAYER}, if you want to become a\\nstrong TRAINER, here's my advice.\\pHead for RUSTBORO CITY beyond this\\ntown.\\pThere, you should challenge\\nthe GYM LEADER, ROXANNE.\\pAfter her, go on to other POKéMON\\nGYMS and defeat their LEADERS.\\pCollect BADGES from them,\\nunderstood?\\pOf course, I'm a GYM LEADER, too.\\nWe'll battle one day, {PLAYER}.\\pBut that's only after you become\\nstronger.$",
+    "after": "If you'd like to test yourself,\\nhead west toward Rustboro City.\\pRoxanne runs the Gym there.\\nShe'll give you a good challenge.\\pEach Gym will teach you something\\nabout battling with your partners.\\pI'm a Gym Leader too, of course.\\nWe'll have our match one day.\\pShow me four Gym Badges first.\\nI'll be waiting.$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_NormanGoToRustboro",
+    "before": "NORMAN: Hm? Aren't you going to the\\nPOKéMON GYM in RUSTBORO CITY?\\pThere's no challenge for me to\\nbattle a greenhorn TRAINER.\\p{PLAYER}, I want you to challenge me\\nwhen you become a lot stronger.\\pI'll battle you, {PLAYER}, when you\\ncan show me four GYM BADGES, okay?$",
+    "after": "Have you visited Rustboro's Gym yet?\\pRoxanne is a good first challenge.\\nSee what you and your partner\\lcan learn from her.\\pEarn four Gym Badges, then come back.\\nWe'll have our battle.$"
+  },
+  {
+    "file": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "label": "PetalburgCity_Gym_Text_NormanGoToDewford",
+    "before": "NORMAN: I see… So, you've beaten\\nthe GYM LEADER in RUSTBORO CITY.\\pBut there are many more TRAINERS\\nwho are stronger than you, {PLAYER}.\\pAcross the sea in DEWFORD TOWN is a\\nGYM LEADER named BRAWLY.\\pYou should go challenge him.$",
+    "after": "You've earned Roxanne's badge?\\nWell done, {PLAYER}!\\pIf you're heading to Dewford,\\nlook for a Gym Leader named Brawly.\\pHis style is different from Roxanne's.\\nIt'll be a chance to try what\\lyou've learned.$"
+  },
+  {
+    "file": "data/scripts/legends_tera.inc",
+    "label": "LegendsTera_Text_Introduction",
+    "before": "You must be the TRAINER who helped\\nour researchers. Thank you!\\pWe're studying crystalline traces\\nfound around the rift disturbances.\\pWild POKéMON can leave Tera Shards\\nwhen defeated or caught.\\pThe shard matches the POKéMON's\\nprimary type.\\pOccasionally, you may also find a\\nrare Stellar Shard.\\pI'll calibrate your POKéNAV to collect\\nthese traces from now on.\\pCollection happens automatically.\\nYou won't need to stop after battles.\\pBring me 50 shards of one type,\\nand I can change a partner's Tera Type.\\pFor the Stellar type, I need\\n150 Stellar Shards instead.$",
+    "after": "You must be the Trainer who helped\\nour researchers. Thank you!\\pWe're studying crystalline traces\\nleft near the rift disturbances.\\pWild Pokémon can leave Tera Shards\\nwhen you defeat or catch them.\\pThe shard matches the Pokémon's\\nprimary type. You may also find\\la rare Stellar Shard.\\pI'll calibrate your PokéNav to\\ncollect those traces automatically.\\pBring me 50 shards of one type,\\nand I can change a partner's\\lTera type to match.\\pFor Stellar, I'll need\\n150 Stellar Shards instead.$"
+  },
+  {
+    "file": "data/scripts/legends_pokevial.inc",
+    "label": "LegendsPokevial_Text_Reward",
+    "before": "For protecting us in PETALBURG WOODS,\\nplease take this Pokévial.\\pIt's a joint DEVON and SILPH prototype\\nfor TRAINERS working far from town.$",
+    "after": "For protecting us in Petalburg Woods,\\nplease take this Pokévial.\\pIt's a Devon and Silph prototype\\nfor Trainers working far from town.$"
+  },
+  {
+    "file": "data/scripts/legends_pokevial.inc",
+    "label": "LegendsPokevial_Text_Explain",
+    "before": "One charge restores your whole party,\\nincluding fainted partners and PP.\\pIt holds three charges. A POKéMON\\nCENTER or rest stop will refill it.\\pUse it from your KEY ITEMS pocket,\\nor register it for quick access.\\pSave those charges for when you need\\nthem. It cannot be used in battle.$",
+    "after": "One charge restores your whole party,\\nincluding fainted partners and PP.\\pIt holds three charges. Healing at a\\nPokémon Center or rest stop refills it.\\pUse it from your Key Items pocket,\\nor register it for quick access.\\pKeep an eye on those charges.\\nThe vial can't be used in battle.$"
+  },
+  {
+    "file": "data/scripts/legends_pokevial.inc",
+    "label": "LegendsPokevial_Text_NoRoom",
+    "before": "Make room for a KEY ITEM, then speak\\nto reception at DEVON to collect it.$",
+    "after": "Make room for a Key Item, then ask\\nat Devon reception for your Pokévial.$"
+  }
+]

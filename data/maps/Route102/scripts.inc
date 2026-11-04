@@ -80,14 +80,13 @@ Route102_EventScript_AllenAfterBattle::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-	.string "Wally: POKéMON hide in grass like\nthis, don't they?\pPlease stay with me.\nI want to try catching a partner.$"
+	.string "Pokémon hide in grass like this,\ndon't they?\pPlease stay with me.\nI want to try catching a partner.$"
 
 Route102_Text_WallyIDidIt:
 	.string "I did it!\nRalts… My very first partner!\pThank you for trusting me.\nI promise to take care of you.$"
 
 Route102_Text_LetsGoBack:
-	.string "{PLAYER}, thank you!\n"
-	.string "Let's go back to the GYM!$"
+	.string "{PLAYER}, thank you!\nLet's go back to the Gym!$"
 
 Route102_Text_ImNotVeryTall:
 	.string "I'm…not very tall, so I sink right\n"

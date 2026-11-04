@@ -491,10 +491,7 @@ LegendsWoods_Text_Help:
 	.string "someone take these findings.$"
 
 LegendsWoods_Text_Challenge:
-	.string "You felt the disturbance too.\n"
-	.string "That is why you stopped.\p"
-	.string "Step aside. Or show me how far\n"
-	.string "that curiosity will take you.$"
+	.string "You felt the disturbance, didn't you?\pIs that what brought you here?\pStep aside. Or show me how far\nthat curiosity will take you.$"
 
 LegendsWoods_Text_Defeat:
 	.string "Enough. You have made your point.$"
@@ -539,7 +536,7 @@ LegendsWoods_Text_ThoughtUnknown:
 	.string "What device were they talking about?\nWhy would they need your recordings?$"
 
 LegendsWoods_Text_Report:
-	.string "We can't be certain. DEVON has the\nequipment to compare our findings.\pWe'll warn them and contact BIRCH.\nPlease meet us in RUSTBORO.\pTell reception you helped us here.\nYour account could be important.$"
+	.string "We can't be certain. Devon has the\nequipment to compare our findings.\pWe'll warn them and contact Birch.\nPlease meet us in Rustboro.\pTell reception you helped us here.\nYour account could be important.$"
 
 LegendsWoods_Text_NoRoom:
 	.string "Your Bag is full. Please do not\n"

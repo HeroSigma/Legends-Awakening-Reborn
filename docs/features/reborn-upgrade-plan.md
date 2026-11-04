@@ -50,3 +50,7 @@ BW action/move panels, health boxes, party summaries, ability popups and gimmick
 ## Repeat battle scenes
 
 Repeat-only skip prompts are integrated at safe boundaries in the Route 103, Woods Triad and Rusturf grunt introductions. First visits, battles and post-battle rewards remain mandatory; viewed state uses reserved existing flags. See docs/features/repeat-scenes. Next in the core pass: text and capitalization polish.
+
+## Completed-story polish
+
+The implemented early story has received a focused dialogue and capitalization pass, with progression preserved. See docs/story/completed-story-polish. Future scenes will be polished and reviewed as they are added; untouched later-story dialogue is outside this pass.

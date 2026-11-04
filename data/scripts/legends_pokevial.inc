@@ -52,8 +52,8 @@ LegendsPokevial_Text_Empty:
 LegendsPokevial_Text_Healthy:
     .string "Your party is already fully rested.\nNo charge was used.$"
 LegendsPokevial_Text_Reward:
-    .string "For protecting us in PETALBURG WOODS,\nplease take this Pokévial.\pIt's a joint DEVON and SILPH prototype\nfor TRAINERS working far from town.$"
+    .string "For protecting us in Petalburg Woods,\nplease take this Pokévial.\pIt's a Devon and Silph prototype\nfor Trainers working far from town.$"
 LegendsPokevial_Text_Explain:
-    .string "One charge restores your whole party,\nincluding fainted partners and PP.\pIt holds three charges. A POKéMON\nCENTER or rest stop will refill it.\pUse it from your KEY ITEMS pocket,\nor register it for quick access.\pSave those charges for when you need\nthem. It cannot be used in battle.$"
+    .string "One charge restores your whole party,\nincluding fainted partners and PP.\pIt holds three charges. Healing at a\nPokémon Center or rest stop refills it.\pUse it from your Key Items pocket,\nor register it for quick access.\pKeep an eye on those charges.\nThe vial can't be used in battle.$"
 LegendsPokevial_Text_NoRoom:
-    .string "Make room for a KEY ITEM, then speak\nto reception at DEVON to collect it.$"
+    .string "Make room for a Key Item, then ask\nat Devon reception for your Pokévial.$"

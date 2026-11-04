@@ -267,10 +267,7 @@ Route101_Text_HelpMe:
 	.string "H-help me!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "Hello! You over there!\nPlease! Help!\pIn my BAG!\nThere's a Poké Ball!$"
 
 Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
@@ -372,7 +369,7 @@ Route101_Text_RedOffscreen:
 Route101_Text_RedIntroduces:
     .string "{COLOR RED}Stay back. Pikachu's got this.\pI'm Red. Are either of you hurt?$"
 Route101_Text_BirchThanksRed:
-    .string "We're all right, thanks to you.\pThat POKéMON… It doesn't belong\nanywhere near Littleroot.$"
+    .string "We're all right, thanks to you.\pThat Pokémon… It doesn't belong\nanywhere near Littleroot.$"
 Route101_Text_RedReassures:
     .string "{COLOR RED}You stepped in to help. That took\ncourage. But you were outmatched.\pLook after your partner first.\nProfessor, get them back to your lab.$"
 

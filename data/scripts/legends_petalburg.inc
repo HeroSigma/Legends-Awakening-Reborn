@@ -91,18 +91,23 @@ LegendsPetalburg_RaltsStep:
 LegendsPetalburg_Text_Exit:
     .string "{COLOR LIGHT_BLUE}I can't just keep this to myself.\pProfessor Birch needs to know.\pPetalburg is close. Maybe Norman\ncan help me reach him.$"
 LegendsPetalburg_Text_Report:
-    .string "{COLOR LIGHT_BLUE}Something happened in the woods.\pI heard two men talking about\nthe rifts. They took something.\pThey said it could keep a portal\nopen and let them control it.\pThey didn't want the professors\nor anyone finding out.$"
+    .string "{COLOR LIGHT_BLUE}Something happened in the woods.\pTwo men were talking about the rifts.\nThey took an object they found there.\pThey said it could hold a rift open\nand help them control the crossings.\pThey didn't want the professors\nor anyone else to find out.$"
 LegendsPetalburg_Text_Listen:
     .string "Take a breath. You're safe here.\pTell me what they looked like.$"
 LegendsPetalburg_Text_Descriptions:
-    .string "{COLOR LIGHT_BLUE}One had dark hair and a suit.\nThere was an R on his clothes.\pThe other had blue hair,\nand wore a gray uniform.\pHis clothes had a G on them.\pI felt like I'd seen them before.\nBut I can't remember where.$"
+    .string "{COLOR LIGHT_BLUE}One had dark hair and wore a suit\nwith an R on it.\pThe other had blue hair and a gray\nuniform with a G on it.\pI felt like I'd seen them before.\nBut I can't remember where.$"
 LegendsPetalburg_Text_Recognizes:
     .string "A dark suit… Blue hair…\pThose descriptions…\nIf they're who I think they are…$"
 LegendsPetalburg_Text_Relay:
-    .string "Now, about those men.\pI've relayed your account to Birch.\nHe'll contact you soon.\pYou did the right thing coming here.\nLeave the investigation to us.\pDon't follow those men alone.\nIf you see them, find help.\pAnd let Wally enjoy meeting his\npartner. He needn't worry about this.$"
+    .string "About those men…\pI've passed your account on to Birch.\nHe'll contact you soon.\pYou did the right thing coming here.\nLet us follow up on what you saw.\pIf you see them again, find help.\nDon't follow them alone.\pAnd let Wally enjoy his new partner.\nHe doesn't need to worry about this.$"
 LegendsPetalburg_Text_RaltsUnease:
     .string "{COLOR LIGHT_BLUE}A Ralts… It's watching me.\pCan it feel what I'm feeling?\nI still can't shake those woods.$"
 LegendsPetalburg_Text_Reassure:
     .string "It's all right. We're not going\nto hurt you.\pI'm a little nervous, too.\nWe can take this slowly.$"
 LegendsPetalburg_Text_RaltsTrust:
     .string "It came closer…\pMaybe it's as lonely as I am.\nI'd really like to be its friend.$"
+
+LegendsPetalburg_Text_WallyBorrow:
+    .string "Oh, wow! Thank you!$"
+LegendsPetalburg_Text_NormanBall:
+    .string "You'll need a Poké Ball, too.\nTake this, and give it a try.$"

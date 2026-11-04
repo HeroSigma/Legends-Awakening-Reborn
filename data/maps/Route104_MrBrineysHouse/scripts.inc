@@ -114,16 +114,13 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "Hold on, lass!\n"
-	.string "Wait up, PEEKO!$"
+	.string "Hold on, lass!\nWait up, Peeko!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Of course. You brought PEEKO home.\nWe're happy to help you, {PLAYER}.\pWe'll go to DEWFORD first.\nAre you ready to set sail?$"
+	.string "Of course. You brought Peeko home.\nWe're happy to help you, {PLAYER}.\pWe'll go to Dewford first.\nAre you ready to set sail?$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "DEWFORD it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "Dewford it is, then!\pAnchors aweigh!\nPeeko, we're setting sail, my darling!$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 	.string "Is that so?\n"
@@ -132,22 +129,10 @@ Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a LETTER to DEWFORD\n"
-	.string "and a package to SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "Ahoy!\nI know exactly what you want to say!\pYou're to deliver a letter to Dewford\nand a package to Slateport.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for Dewford.$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "Ahoy!\nI know exactly what you want to say!\pYou're to deliver a package to\nCaptain Stern in Slateport.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for Dewford.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "Ahoy!\n"
@@ -155,11 +140,8 @@ Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "Now, my friend, where are we bound?$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
-	.string "Is that so?\n"
-	.string "Well, PEEKO owes her life to you.\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
+	.string "Is that so?\nWell, Peeko owes her life to you.\pYou just go on and tell me whenever\nyou want to set sail!$"
 
 Route104_MrBrineysHouse_Text_Peeko:
-	.string "PEEKO: Pii piihyoro!$"
+	.string "Peeko: Pii piihyoro!$"
 

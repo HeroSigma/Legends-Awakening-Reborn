@@ -310,10 +310,10 @@ LegendsArc_LabPikachuExit:
     step_end
 
 LegendsArc_Text_BirchRecognizes:
-    .string "Red?! I know that face anywhere!\pBut how did you get to Hoenn?$"
+    .string "Red?! I'd know that face anywhere!\pBut how did you get to Hoenn?$"
 
 LegendsArc_Text_PortalArrival:
-    .string "{COLOR RED}Pikachu and I came through a portal.\pOne moment we were travelling.\pThe next, we were here.\pI travelled through Hoenn before.\pI remembered the road to your lab.$"
+    .string "{COLOR RED}Pikachu and I came through a portal.\pOne moment we were traveling.\nThe next, we were here.\pI've traveled through Hoenn before.\nI remembered the way to your lab.$"
 
 LegendsArc_Text_KeepStarter:
     .string "Then the rifts carry people too…\pFor now, both of you are safe.\p{PLAYER}, keep the partner you\nchose.\pYou stood together when it mattered.$"
@@ -322,7 +322,7 @@ LegendsArc_Text_PlayerIntroduction:
     .string "{COLOR LIGHT_BLUE}We never introduced ourselves.\pMy name is {PLAYER}.\pThank you for saving us.$"
 
 LegendsArc_Text_RedIntroduction:
-    .string "{COLOR RED}Red. Glad to meet you properly.\pHow about a battle?\pPikachu would be too much right now.\pProfessor, may I raise a new\npartner?$"
+    .string "{COLOR RED}Red. Glad to meet you properly.\pHow about a battle?\pPikachu's a bit much for a first match.\pProfessor, could I raise a new\npartner?$"
 
 LegendsArc_Text_CharmanderGift:
     .string "Then I'll give you something\nyou're familiar with.\pThis Charmander was found near a\nrift.\pAn aide brought it to my lab.\nI've been helping it settle in.\pPerhaps a trainer from Kanto can\nhelp it feel at home.\pWhat do you say, Red?$"
@@ -337,16 +337,16 @@ LegendsArc_Text_RedVictory:
     .string "{COLOR RED}You held your ground. Well done.$"
 
 LegendsArc_Text_RedCongratulates:
-    .string "{COLOR RED}You held your own for a new trainer.\pYou watched, and you kept trying.\pExperience makes a difference.\pKeep building trust with your\npartner.$"
+    .string "{COLOR RED}You held your own out there.\pYou watched us closely and kept\ntrying, even when it got tough.\pKeep learning with your partner.\nYou'll make a strong team.$"
 
 LegendsArc_Text_MegaRingFuture:
-    .string "{COLOR RED}That is a Mega Ring.\pIt will come in handy in the future.\pWhen you find a matching Mega Stone,\pyour bond can unlock more power.$"
+    .string "{COLOR RED}That's a Mega Ring.\pKeep it. It'll come in handy.\pWith the right Mega Stone and a\nstrong bond, your partner may\lbe able to Mega Evolve.$"
 
 LegendsArc_Text_FindBothRivals:
     .string "Brendan and May are on Route 103.\pPlease call them back to the lab.\pI have research equipment for you.$"
 
 LegendsArc_Text_RedHeadsAhead:
-    .string "{COLOR RED}I will go on ahead and find them.\pCome on, Pikachu. Stay close.$"
+    .string "{COLOR RED}I'll go ahead and find them.\pCome on, Pikachu. Stay close.$"
 
 LegendsArc_Text_RingBagFull:
     .string "{COLOR RED}Make room for this ring first.\pI will keep it safe until you do.$"
@@ -361,7 +361,7 @@ LegendsArc_Text_PlayerChampionQuestion:
     .string "{COLOR LIGHT_BLUE}Champion…?\pYou are Kanto's Champion?$"
 
 LegendsArc_Text_RedExplains:
-    .string "{COLOR RED}That is where my journey began.\pBut a title does not explain a rift.\pI came through one with Pikachu.\pNow I want to understand why.$"
+    .string "{COLOR RED}That's where my journey began.\pBut a title won't explain the rifts.\pPikachu and I came through one.\nI want to find out why.$"
 
 LegendsArc_Text_MayRiftQuestion:
     .string "{COLOR RED}You came through a rift yourself?\pThen the sightings are only part of\nit.$"
@@ -370,13 +370,13 @@ LegendsArc_Text_RedFreshStart:
     .string "{COLOR RED}I know my way around Hoenn.\pThis time, I am starting fresh.\pNew partners. New things to learn.\pPikachu is still coming with me.$"
 
 LegendsArc_Text_BrendanDoubleChallenge:
-    .string "{COLOR GREEN}Then let us help with that!\pMay and me against you two.\pA double battle!$"
+    .string "{COLOR GREEN}Then let's see what you've got!\pMay and I will take on you two.\nA double battle!$"
 
 LegendsArc_Text_RedPartnerAdvice:
     .string "{COLOR RED}Ready, {PLAYER}? Watch both\nopponents.\pCharmander and I will back you up.\pPikachu, stay here and watch.$"
 
 LegendsArc_Text_BrendanDefeat:
-    .string "{COLOR GREEN}So that is fighting a Champion…$"
+    .string "{COLOR GREEN}So that's what battling a Champion\nfeels like…$"
 
 LegendsArc_Text_MayDefeat:
     .string "{COLOR RED}You two made a good team!$"
@@ -385,34 +385,34 @@ LegendsArc_Text_BrendanAfterDouble:
     .string "{COLOR GREEN}Even with a new partner… Wow.\p{PLAYER}, you kept up with him!$"
 
 LegendsArc_Text_MayAfterDouble:
-    .string "{COLOR RED}Dad wants us back at the lab?\pLet us go. We have plenty to tell\nhim.$"
+    .string "{COLOR RED}Dad wants us back at the lab?\pLet's go. We've got plenty to tell him!$"
 
 LegendsArc_Text_RedAfterDouble:
-    .string "{COLOR RED}Well battled, all of you.\pA new team still learns every day.\pLet us bring the Professor his\nnotes.$"
+    .string "{COLOR RED}Well battled, all of you.\pWe're still learning to work together.\pLet's get back to the Professor.$"
 
 LegendsArc_Text_DoubleRetry:
-    .string "{COLOR RED}Everyone needs practice together.\pI have healed your partners.\pSpeak to us when you want to try\nagain.$"
+    .string "{COLOR RED}It takes practice to battle together.\pYour partners are healed.\nCome back when you're ready\lto try again.$"
 
 LegendsArc_Text_BirchResearch:
-    .string "You have all seen what is happening.\pPOKéMON from distant places…\pAnd now, people crossing the rifts.\pWe need careful records, not\nguesses.$"
+    .string "You have all seen what is happening.\pPokémon from distant places…\pAnd now, people crossing the rifts.\pWe need careful records, not\nguesses.$"
 
 LegendsArc_Text_RedResearch:
-    .string "{COLOR RED}I will investigate what I can.\pThere may be other travellers.\pIf we share what we learn, it helps.$"
+    .string "{COLOR RED}I'll investigate what I can.\pThere may be other travelers.\nWe should share what we learn.$"
 
 LegendsArc_Text_NationalDexGift:
-    .string "{PLAYER}, this is your POKéDEX.\pI have enabled its National records.\pA Hoenn-only list is no longer\nenough.$"
+    .string "{PLAYER}, this is your Pokédex.\pI've enabled the National records.\pWith Pokémon arriving from afar,\na Hoenn-only list isn't enough.$"
 
 LegendsArc_Text_DexNavGift:
-    .string "I have also installed the DexNav.\pIt helps you find and study POKéMON.\pSearch the habitats around you.\pDifferent times bring different\nsights.$"
+    .string "I've also installed the DexNav.\pIt helps you find and study Pokémon\nin the habitats around you.\pTry searching at different times.\nYou may find something new.$"
 
 LegendsArc_Text_MayPokeBalls:
-    .string "{COLOR RED}Here. Take these POKé BALLS too.\pLet your new partner make some\nfriends!$"
+    .string "{COLOR RED}Here. Take these Poké Balls too.\pLet your new partner make some\nfriends!$"
 
 LegendsArc_Text_BrendanResearch:
     .string "{COLOR GREEN}And remember, we are rivals now.\pResearch does not cancel our\nbattles!$"
 
 LegendsArc_Text_RedFarewell:
-    .string "{COLOR RED}I will look for signs of the rifts.\pThere is still a lot we do not know.\pWe will meet again, {PLAYER}.\pCome on, Pikachu.$"
+    .string "{COLOR RED}I'll look for signs of the rifts.\pThere's still a lot we don't know.\pWe'll meet again, {PLAYER}.\nCome on, Pikachu.$"
 
 LegendsArc_Text_DexBagFull:
     .string "{COLOR RED}Your bag is full.\pMake room, then come back for these.$"
@@ -421,10 +421,10 @@ LegendsArc_Text_ElaraAsk:
     .string "There you are, {PLAYER}.\pYou have been gone quite a while.\pHow did meeting the Professor go?$"
 
 LegendsArc_Text_PlayerTellsElara:
-    .string "{COLOR LIGHT_BLUE}There was a strange POKéMON.\pRed and Pikachu saved us.\pHe said he came through a portal.\pHe is a Champion from Kanto.\pWe battled, and he gave me this\nring.\pBirch asked us to study the\nsightings.$"
+    .string "{COLOR LIGHT_BLUE}There was a strange Pokémon.\pRed and Pikachu saved us.\pHe said he came through a portal.\pHe is a Champion from Kanto.\pWe battled, and he gave me this\nring.\pBirch asked us to study the\nsightings.$"
 
 LegendsArc_Text_ElaraAbsorbs:
-    .string "A portal… And Red is here too…\pThat is a lot for your first outing.$"
+    .string "A portal… And Red is here too…\pThat's a lot for your first day out.$"
 
 LegendsArc_Text_ElaraThought:
     .string "Elara falls quiet for a moment.\pHer thoughts turn to Caelum.\p(Is this what you planned?)$"
@@ -436,7 +436,7 @@ LegendsArc_Text_ElaraTakeCare:
     .string "Hold B outside to run.\pCome home whenever you need to.\pTake care of yourself, {PLAYER}.\pAnd take care of your partner too.$"
 
 LegendsArc_Text_Companion:
-    .string "{COLOR RED}There is always something new to\nlearn.\pPikachu and I are taking our time.$"
+    .string "{COLOR RED}There's always something new to learn.\pPikachu and I are taking our time.$"
 
 LegendsArc_ClaimRing:
     lockall
@@ -603,7 +603,7 @@ LegendsArc_LabRedStepDown:
     step_end
 
 LegendsArc_Text_BrendanUnconventional:
-    .string "{COLOR GREEN}{STR_VAR_1}? That's an unconventional\nfirst partner!\pI thought you'd pick Treecko,\nTorchic, or Mudkip.$"
+    .string "{COLOR GREEN}{STR_VAR_1}? That's not the usual\nfirst partner!\pI thought you'd pick Treecko,\nTorchic, or Mudkip.$"
 LegendsArc_Text_MayUnconventional:
     .string "{COLOR RED}Dad let you choose {STR_VAR_1}?\pThat's different! I want to see\nwhat you two can do together.$"
 LegendsArc_Text_PlayerUnconventional:
