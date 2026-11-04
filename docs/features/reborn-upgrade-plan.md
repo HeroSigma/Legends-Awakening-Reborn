@@ -38,3 +38,7 @@ Skin/outfit/accent customization is available after gender selection and through
 ## Remaining core-feature pass: starter briefcase
 
 The Archie/Mudskip briefcase presentation is integrated while the native starter reward and rescue battle retain control. Three current starters, species/type previews, confirmation and cleanup pass 88 native checks. See docs/features/starter-case. Field mugshots are next in this pass, followed by the battle UI, repeat-cutscene skipping and text polish; those entries are not marked complete by this milestone.
+
+## Field portraits
+
+Automatic speaker portraits are integrated using existing character art, with dynamic player colors, dark-cave visibility and resource-safe fallback. Missing art keeps normal dialogue. See docs/features/field-mugshots for credits, coverage and native validation. Next in the core queue: BW battle UI, repeat-cutscene skipping and text polish.

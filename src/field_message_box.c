@@ -8,6 +8,7 @@
 #include "text_window.h"
 #include "script.h"
 #include "field_name_box.h"
+#include "field_mugshot.h"
 
 static EWRAM_DATA u8 sFieldMessageBoxMode = 0;
 EWRAM_DATA u8 gWalkAwayFromSignpostTimer = 0;
@@ -17,6 +18,7 @@ static void StartDrawFieldMessage(void);
 
 void InitFieldMessageBox(void)
 {
+    RemoveFieldMugshot();
     sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
     gTextFlags.canABSpeedUpPrint = FALSE;
     gTextFlags.useAlternateDownArrow = FALSE;
@@ -38,6 +40,7 @@ static void Task_DrawFieldMessage(u8 taskId)
         else
             LoadMessageBoxAndBorderGfx();
         ApplySpeakerDialoguePalette();
+        UpdateFieldMugshot();
         task->tState++;
         break;
     case 1:
@@ -145,6 +148,7 @@ static void StartDrawFieldMessage(void)
 
 void HideFieldMessageBox(void)
 {
+    RemoveFieldMugshot();
     DestroyTask_DrawFieldMessage();
     ClearDialogWindowAndFrame(0, TRUE);
     DestroyNamebox();
@@ -165,6 +169,7 @@ bool8 IsFieldMessageBoxHidden(void)
 
 static void UNUSED ReplaceFieldMessageWithFrame(void)
 {
+    RemoveFieldMugshot();
     DestroyTask_DrawFieldMessage();
     DrawStdWindowFrame(0, TRUE);
     sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
@@ -172,6 +177,7 @@ static void UNUSED ReplaceFieldMessageWithFrame(void)
 
 void StopFieldMessage(void)
 {
+    RemoveFieldMugshot();
     DestroyTask_DrawFieldMessage();
     sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
 }

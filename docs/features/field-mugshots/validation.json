@@ -1,0 +1,990 @@
+{
+  "rom_sha256": "d3644251dd93b6732130bf01b3b44180ca60f92cdd0ef82a39fb57a418c143c5",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "hidden_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_RED",
+      "passed": true
+    },
+    {
+      "test": "hidden_RED",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_RED",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_RED",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_WALLY",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_WALLY",
+      "passed": true
+    },
+    {
+      "test": "hidden_WALLY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_WALLY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_WALLY",
+      "passed": true
+    },
+    {
+      "test": "show_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "show_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "hidden_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "show_OAK",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_OAK",
+      "passed": true
+    },
+    {
+      "test": "hidden_OAK",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_OAK",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_OAK",
+      "passed": true
+    },
+    {
+      "test": "show_BLUE",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_BLUE",
+      "passed": true
+    },
+    {
+      "test": "hidden_BLUE",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BLUE",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BLUE",
+      "passed": true
+    },
+    {
+      "test": "show_GREEN",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_GREEN",
+      "passed": true
+    },
+    {
+      "test": "hidden_GREEN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_GREEN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_GREEN",
+      "passed": true
+    },
+    {
+      "test": "show_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "hidden_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "show_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "hidden_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "show_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "hidden_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "show_NONE",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_NONE",
+      "passed": true
+    },
+    {
+      "test": "hidden_NONE",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_NONE",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_NONE",
+      "passed": true
+    },
+    {
+      "test": "show_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "portrait_0_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "hidden_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "switch_active_RED",
+      "passed": true
+    },
+    {
+      "test": "show_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "switch_active_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "switch_active_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_NONE",
+      "passed": true
+    },
+    {
+      "test": "switch_active_NONE",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "switch_active_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "switch_active_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "hidden_switch_end",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_switch_end",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_switch_end",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "flash_mask_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_flash",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_flash",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_flash",
+      "passed": true
+    },
+    {
+      "test": "flash_window_restore_0",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "custom_player_palette_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_custom_player",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_custom_player",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_custom_player",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "rival_palette_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "palette_exhaustion_safe_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "sprite_exhaustion_safe_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_exhausted",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_exhausted",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_exhausted",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "hidden_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_RED",
+      "passed": true
+    },
+    {
+      "test": "hidden_RED",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_RED",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_RED",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_WALLY",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_WALLY",
+      "passed": true
+    },
+    {
+      "test": "hidden_WALLY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_WALLY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_WALLY",
+      "passed": true
+    },
+    {
+      "test": "show_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_NORMAN",
+      "passed": true
+    },
+    {
+      "test": "show_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "hidden_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_GIOVANNI",
+      "passed": true
+    },
+    {
+      "test": "show_OAK",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_OAK",
+      "passed": true
+    },
+    {
+      "test": "hidden_OAK",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_OAK",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_OAK",
+      "passed": true
+    },
+    {
+      "test": "show_BLUE",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_BLUE",
+      "passed": true
+    },
+    {
+      "test": "hidden_BLUE",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BLUE",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BLUE",
+      "passed": true
+    },
+    {
+      "test": "show_GREEN",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_GREEN",
+      "passed": true
+    },
+    {
+      "test": "hidden_GREEN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_GREEN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_GREEN",
+      "passed": true
+    },
+    {
+      "test": "show_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "hidden_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_SHADOW_TRIAD",
+      "passed": true
+    },
+    {
+      "test": "show_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "hidden_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_AQUA_GRUNT",
+      "passed": true
+    },
+    {
+      "test": "show_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "hidden_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_CYRUS",
+      "passed": true
+    },
+    {
+      "test": "show_NONE",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_NONE",
+      "passed": true
+    },
+    {
+      "test": "hidden_NONE",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_NONE",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_NONE",
+      "passed": true
+    },
+    {
+      "test": "show_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "portrait_1_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "hidden_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "switch_active_RED",
+      "passed": true
+    },
+    {
+      "test": "show_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "switch_active_BIRCH",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "switch_active_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_NONE",
+      "passed": true
+    },
+    {
+      "test": "switch_active_NONE",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "switch_active_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "switch_active_DEVON_RESEARCHER",
+      "passed": true
+    },
+    {
+      "test": "hidden_switch_end",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_switch_end",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_switch_end",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "flash_mask_1",
+      "passed": true
+    },
+    {
+      "test": "hidden_flash",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_flash",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_flash",
+      "passed": true
+    },
+    {
+      "test": "flash_window_restore_1",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "custom_player_palette_1",
+      "passed": true
+    },
+    {
+      "test": "hidden_custom_player",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_custom_player",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_custom_player",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "rival_palette_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "hidden_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_custom_rival",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "palette_exhaustion_safe_1",
+      "passed": true
+    },
+    {
+      "test": "hidden_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_palette_exhausted",
+      "passed": true
+    },
+    {
+      "test": "show_RED",
+      "passed": true
+    },
+    {
+      "test": "sprite_exhaustion_safe_1",
+      "passed": true
+    },
+    {
+      "test": "hidden_exhausted",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_exhausted",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_exhausted",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

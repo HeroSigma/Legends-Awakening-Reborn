@@ -6,6 +6,7 @@
 #include "dma3.h"
 #include "event_data.h"
 #include "field_name_box.h"
+#include "field_mugshot.h"
 #include "field_weather.h"
 #include "gpu_regs.h"
 #include "graphics.h"
@@ -141,6 +142,7 @@ static const struct MenuInfoIcon sMenuInfoIcons[] =
 
 void InitStandardTextBoxWindows(void)
 {
+    RemoveFieldMugshot();
     ResetNameboxData();
     InitWindows(sStandardTextBox_WindowTemplates);
     sStartMenuWindowId = WINDOW_NONE;
@@ -151,6 +153,7 @@ void InitStandardTextBoxWindows(void)
 
 void FreeAllOverworldWindowBuffers(void)
 {
+    RemoveFieldMugshot();
     FreeAllWindowBuffers();
 }
 
