@@ -42,3 +42,7 @@ The Archie/Mudskip briefcase presentation is integrated while the native starter
 ## Field portraits
 
 Automatic speaker portraits are integrated using existing character art, with dynamic player colors, dark-cave visibility and resource-safe fallback. Missing art keeps normal dialogue. See docs/features/field-mugshots for credits, coverage and native validation. Next in the core queue: BW battle UI, repeat-cutscene skipping and text polish.
+
+## BW battle interface
+
+BW action/move panels, health boxes, party summaries, ability popups and gimmick controls are adapted with a teal selection cursor. Existing battle mechanics, dynamic descriptions and bag/party integrations are preserved. See docs/features/bw-battle-ui for attribution and native reports. Next: repeat-cutscene skipping, then text polish.

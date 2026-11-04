@@ -1,0 +1,150 @@
+{
+  "rom_sha256": "48b66ad995c74013cbf2bbe2528255d9272ce5ce64d73c9e372188a82629c394",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_ready_normal",
+      "passed": true
+    },
+    {
+      "test": "choose_move_normal",
+      "passed": true
+    },
+    {
+      "test": "four_moves_normal",
+      "passed": true
+    },
+    {
+      "test": "move_cursor_1",
+      "passed": true
+    },
+    {
+      "test": "move_cursor_3",
+      "passed": true
+    },
+    {
+      "test": "move_cursor_2",
+      "passed": true
+    },
+    {
+      "test": "move_cursor_0",
+      "passed": true
+    },
+    {
+      "test": "back_to_actions",
+      "passed": true
+    },
+    {
+      "test": "preview_trigger_GIMMICK_DYNAMAX",
+      "passed": true
+    },
+    {
+      "test": "preview_trigger_GIMMICK_ULTRA_BURST",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_ready_mega",
+      "passed": true
+    },
+    {
+      "test": "choose_move_mega",
+      "passed": true
+    },
+    {
+      "test": "four_moves_mega",
+      "passed": true
+    },
+    {
+      "test": "gimmick_available_mega",
+      "passed": true
+    },
+    {
+      "test": "gimmick_selected_mega",
+      "passed": true
+    },
+    {
+      "test": "gimmick_deselected_mega",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_ready_zmove",
+      "passed": true
+    },
+    {
+      "test": "choose_move_zmove",
+      "passed": true
+    },
+    {
+      "test": "four_moves_zmove",
+      "passed": true
+    },
+    {
+      "test": "gimmick_available_zmove",
+      "passed": true
+    },
+    {
+      "test": "gimmick_selected_zmove",
+      "passed": true
+    },
+    {
+      "test": "gimmick_deselected_zmove",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_ready_tera",
+      "passed": true
+    },
+    {
+      "test": "choose_move_tera",
+      "passed": true
+    },
+    {
+      "test": "four_moves_tera",
+      "passed": true
+    },
+    {
+      "test": "gimmick_available_tera",
+      "passed": true
+    },
+    {
+      "test": "gimmick_selected_tera",
+      "passed": true
+    },
+    {
+      "test": "gimmick_deselected_tera",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

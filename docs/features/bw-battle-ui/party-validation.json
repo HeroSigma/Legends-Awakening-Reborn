@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "assertions": 16,
+  "rom_sha256": "48b66ad995c74013cbf2bbe2528255d9272ce5ce64d73c9e372188a82629c394",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "wild_battle_started_0",
+      "passed": true
+    },
+    {
+      "test": "battle_party_open_0",
+      "passed": true
+    },
+    {
+      "test": "cancel_returns_to_battle_0",
+      "passed": true
+    },
+    {
+      "test": "battle_party_reopens_0",
+      "passed": true
+    },
+    {
+      "test": "switch_returns_to_battle_0",
+      "passed": true
+    },
+    {
+      "test": "battle_uses_selected_slot_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "wild_battle_started_1",
+      "passed": true
+    },
+    {
+      "test": "battle_party_open_1",
+      "passed": true
+    },
+    {
+      "test": "cancel_returns_to_battle_1",
+      "passed": true
+    },
+    {
+      "test": "battle_party_reopens_1",
+      "passed": true
+    },
+    {
+      "test": "switch_returns_to_battle_1",
+      "passed": true
+    },
+    {
+      "test": "battle_uses_selected_slot_1",
+      "passed": true
+    }
+  ]
+}

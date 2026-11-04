@@ -12,7 +12,7 @@ with tempfile.TemporaryDirectory() as td:
  subprocess.run(['arm-none-eabi-objcopy','-O','binary','--only-section=.rodata',str(td/'c.o'),str(td/'c.bin')],check=True)
  c=dict(zip(fields+consts,struct.unpack('<'+'I'*len(fields+consts),(td/'c.bin').read_bytes())))
 start(0);invoke('ScriptContext_Init');invoke('UnlockPlayerFieldControls');invoke('ScriptGiveMon',25,20,0)
-scratch=0x0203fc00
+scratch=0x03007400
 wr(scratch,c['MOVE_FACADE'],2);invoke('SetMonData',symbols['gParties'],c['MON_DATA_MOVE1'],scratch)
 invoke('CreateScriptedWildMon',261,3,0);invoke('BattleSetup_StartWildBattle')
 for i in range(1600):

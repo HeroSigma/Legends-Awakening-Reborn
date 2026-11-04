@@ -1,4 +1,6 @@
 #include "global.h"
+#include "bw_battle_ui.h"
+#include "config/bw_battle_ui.h"
 #include "dynamic_palettes.h"
 #include "battle.h"
 #include "battle_ai_main.h"
@@ -2193,8 +2195,7 @@ static void Controller_HandleTrainerSlideBack(enum BattlerId battler)
 {
     if (gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].callback == SpriteCallbackDummy)
     {
-        if (!IsOnPlayerSide(battler))
-            FreeTrainerFrontPicPalette(gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].oam.affineParam);
+        FreeTrainerFrontPicPalette(gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].oam.affineParam);
         FreeSpriteOamMatrix(&gSprites[gBattleStruct->trainerSlideSpriteIds[battler]]);
         DestroySprite(&gSprites[gBattleStruct->trainerSlideSpriteIds[battler]]);
         BtlController_Complete(battler);
