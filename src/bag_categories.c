@@ -22,6 +22,10 @@ const u8 *const gBagCategoryNames[BAG_CATEGORIES_COUNT] = {
 
 u32 __attribute__((noinline)) GetItemBagCategory(enum Item item)
 {
+    // Legacy/cached slots may contain an invalid ID. Never pass one into
+    // item metadata or count it as a visible category entry.
+    if (item == ITEM_NONE || (u32)item >= ITEMS_COUNT)
+        return BAG_CATEGORIES_COUNT;
     u32 pocket = GetItemPocket(item);
     if (pocket != POCKET_ITEMS)
         return pocket;

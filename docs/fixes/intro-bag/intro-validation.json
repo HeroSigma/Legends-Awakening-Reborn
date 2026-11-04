@@ -1,0 +1,109 @@
+{
+  "rom_sha256": "b856c58ef18c5fd210f90f4cd13ee6f6b5e553547bbfddce59e644cf984dd160",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "creator_tilemap_cleared_0",
+      "passed": true
+    },
+    {
+      "test": "distinct_background_maps_0",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_0_128_5",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_0_64_6",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_0_128_7",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_0_64_8",
+      "passed": true
+    },
+    {
+      "test": "gender_saved_0",
+      "passed": true
+    },
+    {
+      "test": "default_name_0",
+      "passed": true
+    },
+    {
+      "test": "player_graphics_available_0",
+      "passed": true
+    },
+    {
+      "test": "blank_accept_uses_default_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "creator_tilemap_cleared_1",
+      "passed": true
+    },
+    {
+      "test": "distinct_background_maps_1",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_1_128_18",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_1_64_19",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_1_128_20",
+      "passed": true
+    },
+    {
+      "test": "gender_switch_1_64_21",
+      "passed": true
+    },
+    {
+      "test": "gender_saved_1",
+      "passed": true
+    },
+    {
+      "test": "default_name_1",
+      "passed": true
+    },
+    {
+      "test": "player_graphics_available_1",
+      "passed": true
+    },
+    {
+      "test": "blank_accept_uses_default_1",
+      "passed": true
+    }
+  ]
+}

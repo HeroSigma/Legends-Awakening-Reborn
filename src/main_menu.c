@@ -480,8 +480,8 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 };
 
 static const struct MenuAction sMenuActions_Gender[] = {
-    {sTextLegendsAren, {NULL}},
-    {sTextLegendsAria, {NULL}}
+    {COMPOUND_STRING("Boy"), {NULL}},
+    {COMPOUND_STRING("Girl"), {NULL}}
 };
 
 static const u8 *const sMalePresetNames[] = {
@@ -1334,7 +1334,13 @@ static void Task_LegendsCreator_Init(u8 taskId)
     HideBg(2);
     HideBg(3);
     FillPalette(RGB_BLACK, 0, PLTT_SIZE);
+    ResetBgsAndClearDma3BusyFlags(0);
+    InitBgsFromTemplates(0, sMainMenuBgTemplates, ARRAY_COUNT(sMainMenuBgTemplates));
     InitBgFromTemplate(&sBirchBgTemplate);
+    ChangeBgX(0, 0, BG_COORD_SET);
+    ChangeBgY(0, 0, BG_COORD_SET);
+    ChangeBgX(1, 0, BG_COORD_SET);
+    ChangeBgY(1, 0, BG_COORD_SET);
     InitWindows(sLegendsCreatorWindows);
     CpuFill16(0, (void *)BG_CHAR_ADDR(3), 32);
     FillBgTilemapBufferRect(0, 0, 0, 0, 32, 32, 0);
@@ -1368,15 +1374,20 @@ static void Task_LegendsCreator_Update(u8 taskId)
     case 1:
         if (!RunTextPrintersAndIsPrinter0Active())
         {
-            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_WHITE);
+            ClearWindowTilemap(0);
+            FillWindowPixelBuffer(0, PIXEL_FILL(0));
+            CopyWindowToVram(0, COPYWIN_FULL);
+            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
             gTasks[taskId].data[0] = 2;
         }
         break;
     case 2:
-        if (!gPaletteFade.active)
+        if (!gPaletteFade.active && !IsDma3ManagerBusyWithBgCopy())
         {
+            HideBg(0);
             FreeAllWindowBuffers();
-            sLegendsCreatorTransition = TRUE;
+            UnsetBgTilemapBuffer(0);
+            sLegendsCreatorTransition = FALSE;
             Task_NewGameBirchSpeech_Init(taskId);
         }
         break;
@@ -1395,6 +1406,10 @@ static void Task_NewGameBirchSpeech_Init(u8 taskId)
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
     SetGpuReg(REG_OFFSET_BLDALPHA, 0);
     SetGpuReg(REG_OFFSET_BLDY, 0);
+
+    DmaFill16(3, 0, (void *)BG_SCREEN_ADDR(30), BG_SCREEN_SIZE);
+    ChangeBgX(0, 0, BG_COORD_SET);
+    ChangeBgY(0, 0, BG_COORD_SET);
 
     DecompressDataWithHeaderVram(sBirchSpeechShadowGfx, (void *)VRAM);
     DecompressDataWithHeaderVram(sBirchSpeechBgMap, (void *)(BG_SCREEN_ADDR(7)));

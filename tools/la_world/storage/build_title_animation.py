@@ -4,8 +4,8 @@ from PIL import Image
 import struct
 R=Path(__file__).resolve().parents[3]
 D=R/'graphics/title_screen/legends_awakening'
-source=R/'docs/art/title_screen/rift_preview/concept-source.png'
-im=Image.open(source).convert('RGB').resize((240,160),Image.Resampling.LANCZOS)
+source=R/'docs/art/title_screen/clarity_revision/concept-source.png'
+im=Image.open(source).convert('RGB').resize((240,160),Image.Resampling.BOX)
 base=im.quantize(colors=192,dither=Image.Dither.NONE)
 pal=base.getpalette()[:576]+[0]*(768-576)
 pixels=bytearray(base.tobytes());groups=[[] for _ in range(56)]
