@@ -131,6 +131,8 @@ LegendsArc_Route103Meeting::
     msgbox LegendsArc_Text_MayRiftQuestion, MSGBOX_DEFAULT
     setspeaker SP_NAME_RED
     msgbox LegendsArc_Text_RedFreshStart, MSGBOX_DEFAULT
+    specialvar VAR_RESULT, IsNonstandardStarter
+    call_if_eq VAR_RESULT, TRUE, LegendsArc_UnconventionalStarter
     setspeaker SP_NAME_BRENDAN
     msgbox LegendsArc_Text_BrendanDoubleChallenge, MSGBOX_DEFAULT
     setspeaker SP_NAME_RED
@@ -143,6 +145,15 @@ LegendsArc_Route103Meeting::
     case 1, LegendsArc_Double1
     case 2, LegendsArc_Double2
     goto LegendsArc_Double0
+LegendsArc_UnconventionalStarter:
+    setspeaker SP_NAME_BRENDAN
+    msgbox LegendsArc_Text_BrendanUnconventional, MSGBOX_DEFAULT
+    setspeaker SP_NAME_MAY
+    msgbox LegendsArc_Text_MayUnconventional, MSGBOX_DEFAULT
+    setspeaker SP_NAME_PLAYER
+    msgbox LegendsArc_Text_PlayerUnconventional, MSGBOX_DEFAULT
+    return
+
 LegendsArc_Double0:
     multi_fixed_2_vs_2 TRAINER_LA_BRENDAN_ROUTE103_0, LegendsArc_Text_BrendanDefeat, TRAINER_LA_MAY_ROUTE103_0, LegendsArc_Text_MayDefeat, PARTNER_LA_RED_FRESH_START
     goto LegendsArc_AfterDouble
@@ -583,3 +594,10 @@ LegendsArc_LabRedStepDown:
     walk_down
     face_right
     step_end
+
+LegendsArc_Text_BrendanUnconventional:
+    .string "{COLOR GREEN}{STR_VAR_1}? That's an unconventional\nfirst partner!\pI thought you'd pick Treecko,\nTorchic, or Mudkip.$"
+LegendsArc_Text_MayUnconventional:
+    .string "{COLOR RED}Dad let you choose {STR_VAR_1}?\pThat's different! I want to see\nwhat you two can do together.$"
+LegendsArc_Text_PlayerUnconventional:
+    .string "{COLOR LIGHT_BLUE}Maybe it's not the usual choice.\pBut we chose each other.\nThat's a good place to start.$"

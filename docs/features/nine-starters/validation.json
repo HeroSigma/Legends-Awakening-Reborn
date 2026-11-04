@@ -1,0 +1,1221 @@
+{
+  "rom_sha256": "79e7a2b0444355f3ffc2cc2eb1030e0bd83a134eb47a076a92d4875ed0e2b369",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_id_safe_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_0",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_0",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_0",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_0",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_0",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_0",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_0",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_0",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_1",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_1",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_1",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_1",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_1",
+      "passed": true
+    },
+    {
+      "test": "navigation_1",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_1",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_1",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_1",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_2",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_2",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_2",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_2",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_2",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_2",
+      "passed": true
+    },
+    {
+      "test": "navigation_2",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_2",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_2",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_2",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_2",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_3",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_3",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_3",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_3",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_3",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_3",
+      "passed": true
+    },
+    {
+      "test": "navigation_3",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_3",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_3",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_3",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_3",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_4",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_4",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_4",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_4",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_4",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_4",
+      "passed": true
+    },
+    {
+      "test": "navigation_4",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_4",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_4",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_4",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_4",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_5",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_5",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_5",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_5",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_5",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_5",
+      "passed": true
+    },
+    {
+      "test": "navigation_5",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_5",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_5",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_5",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_5",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_6",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_6",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_6",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_6",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_6",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_6",
+      "passed": true
+    },
+    {
+      "test": "navigation_6",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_6",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_6",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_6",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_6",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_7",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_7",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_7",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_7",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_7",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_7",
+      "passed": true
+    },
+    {
+      "test": "navigation_7",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_7",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_7",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_7",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_7",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_8",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_8",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_8",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_8",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_8",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_8",
+      "passed": true
+    },
+    {
+      "test": "navigation_8",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_8",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_8",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_8",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_8",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_id_safe_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_0",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_0",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_0",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_0",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_0",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_0",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_0",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_0",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_1",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_1",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_1",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_1",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_1",
+      "passed": true
+    },
+    {
+      "test": "navigation_1",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_1",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_1",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_1",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_2",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_2",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_2",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_2",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_2",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_2",
+      "passed": true
+    },
+    {
+      "test": "navigation_2",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_2",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_2",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_2",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_2",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_3",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_3",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_3",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_3",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_3",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_3",
+      "passed": true
+    },
+    {
+      "test": "navigation_3",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_3",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_3",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_3",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_3",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_4",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_4",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_4",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_4",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_4",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_4",
+      "passed": true
+    },
+    {
+      "test": "navigation_4",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_4",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_4",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_4",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_4",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_5",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_5",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_5",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_5",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_5",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_5",
+      "passed": true
+    },
+    {
+      "test": "navigation_5",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_5",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_5",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_5",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_5",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_6",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_6",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_6",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_6",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_6",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_6",
+      "passed": true
+    },
+    {
+      "test": "navigation_6",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_6",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_6",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_6",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_6",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_7",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_7",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_7",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_7",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_7",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_7",
+      "passed": true
+    },
+    {
+      "test": "navigation_7",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_7",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_7",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_7",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_7",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_8",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_8",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_8",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_8",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_8",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_8",
+      "passed": true
+    },
+    {
+      "test": "navigation_8",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_8",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_8",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_8",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_8",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_0",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_0",
+      "passed": true
+    },
+    {
+      "test": "unconventional_0",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_1",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_1",
+      "passed": true
+    },
+    {
+      "test": "unconventional_1",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_1",
+      "passed": true
+    },
+    {
+      "test": "native_first_battle_ready",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_2",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_2",
+      "passed": true
+    },
+    {
+      "test": "unconventional_2",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_3",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_3",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_3",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_3",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_3",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_3",
+      "passed": true
+    },
+    {
+      "test": "unconventional_3",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_3",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_3",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_4",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_4",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_4",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_4",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_4",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_4",
+      "passed": true
+    },
+    {
+      "test": "unconventional_4",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_4",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_4",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_5",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_5",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_5",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_5",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_5",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_5",
+      "passed": true
+    },
+    {
+      "test": "unconventional_5",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_5",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_5",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_6",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_6",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_6",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_6",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_6",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_6",
+      "passed": true
+    },
+    {
+      "test": "unconventional_6",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_6",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_6",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_7",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_7",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_7",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_7",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_7",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_7",
+      "passed": true
+    },
+    {
+      "test": "unconventional_7",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_7",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_7",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "navigation_8",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_8",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_8",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_8",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_8",
+      "passed": true
+    },
+    {
+      "test": "actual_starter_8",
+      "passed": true
+    },
+    {
+      "test": "unconventional_8",
+      "passed": true
+    },
+    {
+      "test": "starter_in_party_8",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_8",
+      "passed": true
+    }
+  ]
+}

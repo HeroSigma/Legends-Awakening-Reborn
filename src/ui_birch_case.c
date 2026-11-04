@@ -33,7 +33,7 @@ struct StarterCase
 {
     MainCallback callback;
     u16 *caseMap, *barMap;
-    u8 selected, balls[3], hand, mon, phase;
+    u8 selected, balls[STARTER_CHOICES_COUNT], hand, mon, phase;
     bool8 confirming;
 };
 static EWRAM_DATA struct StarterCase *sStarterCase;
@@ -61,6 +61,27 @@ static const struct BgTemplate sBgs[]={
 static const struct WindowTemplate sWindows[]={
     {.bg=0,.tilemapLeft=0,.tilemapTop=14,.width=30,.height=6,.paletteNum=15,.baseBlock=1},DUMMY_WIN_TEMPLATE,
 };
+static const u8 sBallPositions[STARTER_CHOICES_COUNT][2]={
+    {40,36},{88,36},{152,36},{200,36},
+    {64,58},{120,58},{176,58},
+    {96,80},{144,80},
+};
+static u8 Case_Move(u8 selected, u16 keys)
+{
+    static const u8 starts[]={0,4,7},counts[]={4,3,2};
+    u32 row=selected<4?0:selected<7?1:2;
+    if (keys & (DPAD_LEFT|DPAD_RIGHT))
+        return starts[row]+(selected-starts[row]+((keys&DPAD_RIGHT)?1:counts[row]-1))%counts[row];
+    u32 next=(row+((keys&DPAD_DOWN)?1:2))%3;
+    u32 best=starts[next],distance=255;
+    for(u32 i=starts[next];i<starts[next]+counts[next];i++)
+    {
+        s32 difference=(s32)sBallPositions[i][0]-sBallPositions[selected][0];
+        u32 delta=difference<0?-difference:difference;
+        if(delta<distance) {best=i;distance=delta;}
+    }
+    return best;
+}
 static void Case_VBlank(void) {LoadOam();ProcessSpriteCopyRequests();TransferPlttBuffer();}
 static void Case_Main(void) {RunTasks();AnimateSprites();BuildOamBuffer();DoScheduledBgTilemapCopiesToVram();UpdatePaletteFade();}
 static void Case_Hand(struct Sprite *sprite)
@@ -88,15 +109,19 @@ static void Case_Text(void)
         StringCopy(text,gTypesInfo[type1].name);
         if (type2!=type1) {StringAppend(text,COMPOUND_STRING(" / "));StringAppend(text,gTypesInfo[type2].name);}
         AddTextPrinterParameterized4(0,FONT_SMALL,5,19,0,0,colors,TEXT_SKIP_DRAW,text);
-        AddTextPrinterParameterized4(0,FONT_SMALL,5,33,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING("Left/Right: browse   A: choose"));
+        AddTextPrinterParameterized4(0,FONT_SMALL,5,33,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING("D-pad: browse   A: choose"));
     }
     PutWindowTilemap(0);CopyWindowToVram(0,COPYWIN_FULL);
 }
 static void Case_Refresh(void)
 {
-    for (u32 i=0;i<3;i++)
+    for (u32 i=0;i<STARTER_CHOICES_COUNT;i++)
         if (sStarterCase->balls[i]<MAX_SPRITES) StartSpriteAnim(&gSprites[sStarterCase->balls[i]],i==sStarterCase->selected?1:0);
-    if (sStarterCase->hand<MAX_SPRITES) gSprites[sStarterCase->hand].x=64+sStarterCase->selected*56;
+    if (sStarterCase->hand<MAX_SPRITES)
+    {
+        gSprites[sStarterCase->hand].x=sBallPositions[sStarterCase->selected][0];
+        gSprites[sStarterCase->hand].y=sBallPositions[sStarterCase->selected][1]-6;
+    }
     if (sStarterCase->mon<MAX_SPRITES) FreeAndDestroyMonPicSprite(sStarterCase->mon);
     sStarterCase->mon=CreateMonPicSprite(GetStarterPokemon(sStarterCase->selected),FALSE,0x8000,TRUE,208,104,5,TAG_NONE);
     if (sStarterCase->mon<MAX_SPRITES) gSprites[sStarterCase->mon].oam.priority=0;
@@ -106,7 +131,7 @@ static void Case_Free(void)
 {
     if (!sStarterCase) return;
     if (sStarterCase->mon<MAX_SPRITES) FreeAndDestroyMonPicSprite(sStarterCase->mon);
-    for(u32 i=0;i<3;i++) if (sStarterCase->balls[i]<MAX_SPRITES) DestroySprite(&gSprites[sStarterCase->balls[i]]);
+    for(u32 i=0;i<STARTER_CHOICES_COUNT;i++) if (sStarterCase->balls[i]<MAX_SPRITES) DestroySprite(&gSprites[sStarterCase->balls[i]]);
     if (sStarterCase->hand<MAX_SPRITES) DestroySprite(&gSprites[sStarterCase->hand]);
     FreeSpriteTilesByTag(CASE_SPRITE_TAG);FreeSpritePaletteByTag(CASE_SPRITE_TAG);
     FreeAllWindowBuffers();UnsetBgTilemapBuffer(0);UnsetBgTilemapBuffer(1);UnsetBgTilemapBuffer(2);
@@ -137,9 +162,9 @@ static void Task_StarterCase(u8 taskId)
     {
         PlaySE(SE_SELECT);sStarterCase->confirming=FALSE;Case_Text();
     }
-    else if (!sStarterCase->confirming && JOY_NEW(DPAD_LEFT|DPAD_RIGHT))
+    else if (!sStarterCase->confirming && JOY_NEW(DPAD_LEFT|DPAD_RIGHT|DPAD_UP|DPAD_DOWN))
     {
-        PlaySE(SE_SELECT);sStarterCase->selected=(sStarterCase->selected+(JOY_NEW(DPAD_RIGHT)?1:2))%3;Case_Refresh();
+        PlaySE(SE_SELECT);sStarterCase->selected=Case_Move(sStarterCase->selected,gMain.newKeys);Case_Refresh();
     }
 }
 static void Case_Load(void)
@@ -157,8 +182,8 @@ static void Case_Load(void)
         LoadPalette(sCasePal,32,sizeof(sCasePal));LoadPalette(sBarPal,16,sizeof(sBarPal));
         LoadPalette(GetOverworldTextboxPalettePtr(),BG_PLTT_ID(15),PLTT_SIZE_4BPP);
         LoadCompressedSpriteSheet(&sSheet);LoadSpritePalette(&sPal);
-        for(u32 i=0;i<3;i++) sStarterCase->balls[i]=CreateSprite(&sTemplate,64+i*56,58,1);
-        sStarterCase->hand=CreateSprite(&sTemplate,120,52,0);
+        for(u32 i=0;i<STARTER_CHOICES_COUNT;i++) sStarterCase->balls[i]=CreateSprite(&sTemplate,sBallPositions[i][0],sBallPositions[i][1],1);
+        sStarterCase->hand=CreateSprite(&sTemplate,sBallPositions[1][0],sBallPositions[1][1]-6,0);
         if(sStarterCase->hand<MAX_SPRITES) {StartSpriteAnim(&gSprites[sStarterCase->hand],2);gSprites[sStarterCase->hand].callback=Case_Hand;}
         Case_Refresh();BeginNormalPaletteFade(PALETTES_ALL,0,16,0,RGB_BLACK);
         CreateTask(Task_StarterCase,0);SetVBlankCallback(Case_VBlank);SetMainCallback2(Case_Main);break;
@@ -172,7 +197,7 @@ void CB2_ChooseStarter(void)
     sStarterCase=AllocZeroed(sizeof(*sStarterCase));
     if (!sStarterCase) {gSpecialVar_Result=1;SetVBlankCallback(Case_VBlank);SetMainCallback2(next);return;}
     sStarterCase->callback=next;sStarterCase->selected=1;sStarterCase->hand=SPRITE_NONE;sStarterCase->mon=SPRITE_NONE;
-    for(u32 i=0;i<3;i++) sStarterCase->balls[i]=SPRITE_NONE;
+    for(u32 i=0;i<STARTER_CHOICES_COUNT;i++) sStarterCase->balls[i]=SPRITE_NONE;
     sStarterCase->caseMap=AllocZeroed(BG_SCREEN_SIZE);sStarterCase->barMap=AllocZeroed(BG_SCREEN_SIZE);
     if(!sStarterCase->caseMap || !sStarterCase->barMap) {gSpecialVar_Result=1;Case_Free();SetVBlankCallback(Case_VBlank);SetMainCallback2(next);return;}
     DmaFill16(3,0,(void *)VRAM,VRAM_SIZE);DmaFill32(3,0,(void *)OAM,OAM_SIZE);

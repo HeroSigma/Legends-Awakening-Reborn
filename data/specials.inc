@@ -656,3 +656,5 @@ gSpecials::
 	def_special LegendsPokevialGrant
 	def_special LegendsPokevialPrepare
 	def_special LegendsPokevialHeal
+
+	def_special IsNonstandardStarter

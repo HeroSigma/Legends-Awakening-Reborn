@@ -3,13 +3,13 @@ from pathlib import Path
 import json,hashlib,shutil,struct,tempfile,subprocess
 R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
-D=R/'docs/features/starter-case';D.mkdir(parents=True,exist_ok=True)
+D=R/'docs/features/nine-starters';D.mkdir(parents=True,exist_ok=True)
 checks=[]
 def check(n,v):
  checks.append(dict(test=n,passed=bool(v)));assert v,n
 def capture(n):shutil.copy2(shot('starter_case_'+n),D/(n+'.png'))
 def selection():return rd(rd(symbols['sStarterCase'])+12,1)
-def confirming():return rd(rd(symbols['sStarterCase'])+19,1)
+def confirming():return rd(rd(symbols['sStarterCase'])+25,1)
 def open_case():
  wr(symbols['gMain']+8,symbols['CB2_ReturnToField']|1)
  wr(symbols['gMain']+4,symbols['CB2_ChooseStarter']|1);wait('Task_StarterCase',1200);frames(80)
@@ -18,20 +18,24 @@ with tempfile.TemporaryDirectory() as td:
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
  subprocess.run(['arm-none-eabi-objcopy','-O','binary','--only-section=.rodata',str(td/'c.o'),str(td/'c.bin')],check=True)
  level_field,starter_var=struct.unpack('<2I',(td/'c.bin').read_bytes())
+paths={0:[32],1:[],2:[16],3:[16,16],4:[128],5:[128,16],6:[128,32],7:[64],8:[16,64]}
+groups=[0,1,2,0,2,1,0,1,2]
+def choose(chosen):
+ for key in paths[chosen]:tap(key)
+ check(f"navigation_{chosen}",selection()==chosen)
 for mode in [0,1]:
  start(0);invoke('StorageChangeMode',mode,1)
- check(f'invalid_id_safe_{mode}',invoke('GetStarterPokemon',3)==invoke('GetStarterPokemon',0))
- for chosen in range(3):
+ check(f'invalid_id_safe_{mode}',invoke('GetStarterPokemon',9)==invoke('GetStarterPokemon',0))
+ for chosen in range(9):
   open_case();check(f'default_fire_{mode}_{chosen}',selection()==1)
-  for _ in range(7):tap(16);frames(5)
-  check(f'right_wrap_{mode}_{chosen}',selection()==2)
-  for _ in range(7):tap(32);frames(5)
+  for _ in range(8):tap(16);frames(5)
+  check(f'right_wrap_{mode}_{chosen}',selection()==1)
+  for _ in range(8):tap(32);frames(5)
   check(f'left_wrap_{mode}_{chosen}',selection()==1)
   tap(2);check(f'cannot_skip_selection_{mode}_{chosen}',rd(symbols['sStarterCase'])!=0)
   tap(1);check(f'confirmation_{mode}_{chosen}',confirming())
   tap(2);check(f'decline_returns_{mode}_{chosen}',not confirming())
-  if chosen==0:tap(32)
-  elif chosen==2:tap(16)
+  choose(chosen)
   frames(20);capture(f'mode{mode}_choice{chosen}')
   tap(1);capture(f'mode{mode}_confirm{chosen}');tap(1)
   for i in range(1000):
@@ -45,12 +49,11 @@ for mode in [0,1]:
   check(f'storage_preserved_{mode}_{chosen}',invoke('GetStorageBoxCount')==(60 if mode else 14))
  lib.shutdown()
 # Exercise the real selection reward callback, not a custom give-mon path.
-for chosen in range(3):
+for chosen in range(9):
  start(0);invoke('CreateScriptedWildMon',261,100,0)
  invoke('ChooseStarter');wr(symbols['gMain']+4,symbols['CB2_ChooseStarter']|1)
  wait('Task_StarterCase',1200);frames(80)
- if chosen==0:tap(32)
- elif chosen==2:tap(16)
+ choose(chosen)
  tap(1);tap(1)
  for i in range(1400):
   if rd(symbols['gPartiesCount'],1)==1:break
@@ -59,7 +62,10 @@ for chosen in range(3):
  check(f'native_callback_party_{chosen}',rd(symbols['gPartiesCount'],1)==1)
  check(f'native_callback_species_{chosen}',invoke('GetMonData3',symbols['gParties'],18,0)==invoke('GetStarterPokemon',chosen))
  check(f'native_callback_level_{chosen}',invoke('GetMonData3',symbols['gParties'],level_field,0)==5)
- check(f'native_callback_var_{chosen}',invoke('VarGet',starter_var)==chosen)
+ check(f'native_callback_var_{chosen}',invoke('VarGet',starter_var)==groups[chosen])
+ check(f'actual_starter_{chosen}',invoke('GetChosenStarterChoice')==chosen)
+ check(f'unconventional_{chosen}',invoke('IsNonstandardStarter')==int(chosen>=3))
+ check(f'starter_in_party_{chosen}',invoke('IsStarterInParty')==1)
  check(f'native_callback_cleanup_{chosen}',rd(symbols['sStarterCase'])==0)
  if chosen==1:
   for i in range(2400):

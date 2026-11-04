@@ -44,9 +44,11 @@ def advance_arc(target,suffix,limit=22000):
      check('red_is_battle_partner_'+suffix,rd(symbols['gPartnerTrainerId'],2)==866)
      check('red_battles_with_charmander_not_pikachu_'+suffix,rd(symbols['gBattleMons']+280,2)==4)
   if flag(0x37) and rd(symbols['gBattleOutcome'],1)==2:loss=True
-  for key in ['BirchRecognizes','PortalArrival','PlayerIntroduction','KeepStarter','CharmanderGift','RedChallenge','RedCongratulates','BrendanRecognizes','NationalDexGift','DexNavGift','ElaraThought']:
+  for key in ['BirchRecognizes','PortalArrival','PlayerIntroduction','KeepStarter','CharmanderGift','RedChallenge','BrendanUnconventional','MayUnconventional','PlayerUnconventional','RedCongratulates','BrendanRecognizes','NationalDexGift','DexNavGift','ElaraThought']:
    label=symbols['LegendsArc_Text_'+key]
-   if key not in names and any(all(rd(symbols['gStringVar4']+offset+k,1)==rd(label+k,1) for k in range(10)) for offset in [0,3]):
+   offsets=range(3,32) if key=='BrendanUnconventional' else [0,3]
+   label_offset=5 if key=='BrendanUnconventional' else 0
+   if key not in names and any(all(rd(symbols['gStringVar4']+offset+k,1)==rd(label+label_offset+k,1) for k in range(10)) for offset in offsets):
     names.add(key);frames(120);capture(key+'_'+suffix)
     def actor(local):
      return next(symbols['gObjectEvents']+j*36 for j in range(16) if rd(symbols['gObjectEvents']+j*36,1)&1 and rd(symbols['gObjectEvents']+j*36+8,1)==local)
@@ -97,14 +99,14 @@ if os.environ.get('LA_TEST_COLLECTION') == '1':
   check('collection_enabled_'+str(gender),invoke('StorageChangeMode',1,1)==1 and invoke('GetStorageBoxCount')==60)
 
 for gender in [0,1]:
- for starter in [0,1,2]:
+ for starter in range(9) if os.environ.get("LA_TEST_ALL_STARTERS")=="1" else [0,1,2]:
   suffix=str(gender)+'_'+str(starter)
   if os.environ.get('LA_TEST_CASE') and os.environ['LA_TEST_CASE']!=suffix:continue
   start(gender)
   for f in [0x22,0x23,0x24,0x25,0x26,0x29,0x2c,0x52,0x860]:setflag(f)
   setflag(0x2d1,False)
-  var(0x4092,7);var(0x404e,3);var(0x4023,starter);var(0x4084,2);var(0x4060,3)
-  invoke('ScriptGiveMon',[252,255,258][starter],5,0)
+  var(0x4092,7);var(0x404e,3);invoke("RecordStarterChoice",starter);var(0x4084,2);var(0x4060,3)
+  invoke('ScriptGiveMon',invoke('GetStarterPokemon',starter),5,0)
   identity=rd(symbols['gParties']);cash=money()
   warp(1,4,6,5);frames(90)
   a=actors();check('red_and_encounter_pikachu_in_lab_'+suffix,a.get(8)==16409 and 7 in a)
@@ -122,6 +124,8 @@ for gender in [0,1]:
   move(64,1);frames(180)
   check("automatic_route_meeting_"+suffix,rd(symbols["sGlobalScriptContextStatus"],1)!=2)
   result=advance_arc(3,suffix)
+  for speaker in ['Brendan','May','Player']:
+   check('unconventional_'+speaker+'_'+suffix,(speaker+'Unconventional' in result['text'])==(starter>=3))
   check('route_double_won_'+suffix,result['multi'] and flag(0x34) and flag(0x82) and var(0x4084)==4)
   check('partner_never_added_to_player_party_'+suffix,rd(symbols['gParties'])==identity and rd(symbols['gPartiesCount'],1)==1)
   check('battle_flags_scoped_'+suffix,not flag(0x37) and not flag(0x38))

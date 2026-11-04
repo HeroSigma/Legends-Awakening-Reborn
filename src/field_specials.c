@@ -2,6 +2,7 @@
 #include "debug.h"
 #include "malloc.h"
 #include "battle.h"
+#include "battle_main.h"
 #include "battle_special.h"
 #include "cable_club.h"
 #include "data.h"
@@ -1539,10 +1540,23 @@ void LoadWallyZigzagoon(void)
     SetMonData(&gParties[B_TRAINER_PLAYER][0], MON_DATA_MOVE4, &monData);
 }
 
+bool8 IsNonstandardStarter(void)
+{
+    StringCopy(gStringVar1,GetSpeciesName(GetChosenStarterPokemon()));
+    return GetChosenStarterChoice()>=3;
+}
+
 bool8 IsStarterInParty(void)
 {
     u8 i;
-    u16 starter = GetStarterPokemon(VarGet(VAR_STARTER_MON));
+    u16 starter = GetChosenStarterPokemon();
+    StringCopy(gStringVar1,GetSpeciesName(starter));
+    StringCopy(gStringVar2,gTypesInfo[gSpeciesInfo[starter].types[0]].name);
+    if (gSpeciesInfo[starter].types[0]!=gSpeciesInfo[starter].types[1])
+    {
+        StringAppend(gStringVar2,COMPOUND_STRING(" / "));
+        StringAppend(gStringVar2,gTypesInfo[gSpeciesInfo[starter].types[1]].name);
+    }
     u8 partyCount = CalculatePlayerPartyCount();
     for (i = 0; i < partyCount; i++)
     {

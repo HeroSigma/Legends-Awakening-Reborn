@@ -1,0 +1,430 @@
+{
+  "rom_sha256": "79e7a2b0444355f3ffc2cc2eb1030e0bd83a134eb47a076a92d4875ed0e2b369",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_0_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_0_1",
+      "passed": true
+    },
+    {
+      "test": "legacy_0_2",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_0_65535",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_0_21257",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_0_4615",
+      "passed": true
+    },
+    {
+      "test": "record_0_0",
+      "passed": true
+    },
+    {
+      "test": "save_0_0",
+      "passed": true
+    },
+    {
+      "test": "load_0_0",
+      "passed": true
+    },
+    {
+      "test": "persist_0_0",
+      "passed": true
+    },
+    {
+      "test": "species_0_0",
+      "passed": true
+    },
+    {
+      "test": "record_0_1",
+      "passed": true
+    },
+    {
+      "test": "save_0_1",
+      "passed": true
+    },
+    {
+      "test": "load_0_1",
+      "passed": true
+    },
+    {
+      "test": "persist_0_1",
+      "passed": true
+    },
+    {
+      "test": "species_0_1",
+      "passed": true
+    },
+    {
+      "test": "record_0_2",
+      "passed": true
+    },
+    {
+      "test": "save_0_2",
+      "passed": true
+    },
+    {
+      "test": "load_0_2",
+      "passed": true
+    },
+    {
+      "test": "persist_0_2",
+      "passed": true
+    },
+    {
+      "test": "species_0_2",
+      "passed": true
+    },
+    {
+      "test": "record_0_3",
+      "passed": true
+    },
+    {
+      "test": "save_0_3",
+      "passed": true
+    },
+    {
+      "test": "load_0_3",
+      "passed": true
+    },
+    {
+      "test": "persist_0_3",
+      "passed": true
+    },
+    {
+      "test": "species_0_3",
+      "passed": true
+    },
+    {
+      "test": "record_0_4",
+      "passed": true
+    },
+    {
+      "test": "save_0_4",
+      "passed": true
+    },
+    {
+      "test": "load_0_4",
+      "passed": true
+    },
+    {
+      "test": "persist_0_4",
+      "passed": true
+    },
+    {
+      "test": "species_0_4",
+      "passed": true
+    },
+    {
+      "test": "record_0_5",
+      "passed": true
+    },
+    {
+      "test": "save_0_5",
+      "passed": true
+    },
+    {
+      "test": "load_0_5",
+      "passed": true
+    },
+    {
+      "test": "persist_0_5",
+      "passed": true
+    },
+    {
+      "test": "species_0_5",
+      "passed": true
+    },
+    {
+      "test": "record_0_6",
+      "passed": true
+    },
+    {
+      "test": "save_0_6",
+      "passed": true
+    },
+    {
+      "test": "load_0_6",
+      "passed": true
+    },
+    {
+      "test": "persist_0_6",
+      "passed": true
+    },
+    {
+      "test": "species_0_6",
+      "passed": true
+    },
+    {
+      "test": "record_0_7",
+      "passed": true
+    },
+    {
+      "test": "save_0_7",
+      "passed": true
+    },
+    {
+      "test": "load_0_7",
+      "passed": true
+    },
+    {
+      "test": "persist_0_7",
+      "passed": true
+    },
+    {
+      "test": "species_0_7",
+      "passed": true
+    },
+    {
+      "test": "record_0_8",
+      "passed": true
+    },
+    {
+      "test": "save_0_8",
+      "passed": true
+    },
+    {
+      "test": "load_0_8",
+      "passed": true
+    },
+    {
+      "test": "persist_0_8",
+      "passed": true
+    },
+    {
+      "test": "species_0_8",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_1_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_1_1",
+      "passed": true
+    },
+    {
+      "test": "legacy_1_2",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_1_65535",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_1_21257",
+      "passed": true
+    },
+    {
+      "test": "invalid_falls_back_1_4615",
+      "passed": true
+    },
+    {
+      "test": "record_1_0",
+      "passed": true
+    },
+    {
+      "test": "save_1_0",
+      "passed": true
+    },
+    {
+      "test": "load_1_0",
+      "passed": true
+    },
+    {
+      "test": "persist_1_0",
+      "passed": true
+    },
+    {
+      "test": "species_1_0",
+      "passed": true
+    },
+    {
+      "test": "record_1_1",
+      "passed": true
+    },
+    {
+      "test": "save_1_1",
+      "passed": true
+    },
+    {
+      "test": "load_1_1",
+      "passed": true
+    },
+    {
+      "test": "persist_1_1",
+      "passed": true
+    },
+    {
+      "test": "species_1_1",
+      "passed": true
+    },
+    {
+      "test": "record_1_2",
+      "passed": true
+    },
+    {
+      "test": "save_1_2",
+      "passed": true
+    },
+    {
+      "test": "load_1_2",
+      "passed": true
+    },
+    {
+      "test": "persist_1_2",
+      "passed": true
+    },
+    {
+      "test": "species_1_2",
+      "passed": true
+    },
+    {
+      "test": "record_1_3",
+      "passed": true
+    },
+    {
+      "test": "save_1_3",
+      "passed": true
+    },
+    {
+      "test": "load_1_3",
+      "passed": true
+    },
+    {
+      "test": "persist_1_3",
+      "passed": true
+    },
+    {
+      "test": "species_1_3",
+      "passed": true
+    },
+    {
+      "test": "record_1_4",
+      "passed": true
+    },
+    {
+      "test": "save_1_4",
+      "passed": true
+    },
+    {
+      "test": "load_1_4",
+      "passed": true
+    },
+    {
+      "test": "persist_1_4",
+      "passed": true
+    },
+    {
+      "test": "species_1_4",
+      "passed": true
+    },
+    {
+      "test": "record_1_5",
+      "passed": true
+    },
+    {
+      "test": "save_1_5",
+      "passed": true
+    },
+    {
+      "test": "load_1_5",
+      "passed": true
+    },
+    {
+      "test": "persist_1_5",
+      "passed": true
+    },
+    {
+      "test": "species_1_5",
+      "passed": true
+    },
+    {
+      "test": "record_1_6",
+      "passed": true
+    },
+    {
+      "test": "save_1_6",
+      "passed": true
+    },
+    {
+      "test": "load_1_6",
+      "passed": true
+    },
+    {
+      "test": "persist_1_6",
+      "passed": true
+    },
+    {
+      "test": "species_1_6",
+      "passed": true
+    },
+    {
+      "test": "record_1_7",
+      "passed": true
+    },
+    {
+      "test": "save_1_7",
+      "passed": true
+    },
+    {
+      "test": "load_1_7",
+      "passed": true
+    },
+    {
+      "test": "persist_1_7",
+      "passed": true
+    },
+    {
+      "test": "species_1_7",
+      "passed": true
+    },
+    {
+      "test": "record_1_8",
+      "passed": true
+    },
+    {
+      "test": "save_1_8",
+      "passed": true
+    },
+    {
+      "test": "load_1_8",
+      "passed": true
+    },
+    {
+      "test": "persist_1_8",
+      "passed": true
+    },
+    {
+      "test": "species_1_8",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}
