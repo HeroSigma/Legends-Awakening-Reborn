@@ -25,6 +25,10 @@
 #include "constants/trainers.h"
 
 #define COLOR_SIGNATURE 0xA000
+#define COLOR_WINDOW_WIDTH 11
+#define COLOR_WINDOW_HEIGHT 12
+#define COLOR_INTRO_BASE 0x6D
+STATIC_ASSERT(COLOR_INTRO_BASE + COLOR_WINDOW_WIDTH * COLOR_WINDOW_HEIGHT <= 0xF3, ColorPickerBeforeIntroFrames);
 static EWRAM_DATA u16 sIntroSelection;
 static EWRAM_DATA bool8 sInIntro;
 static EWRAM_DATA u16 ALIGNED(4) sPalette[16];
@@ -139,9 +143,9 @@ static void DrawMenu(void)
     for (u32 i=0;i<3;i++)
     {
         u32 value = (choice >> (i*4)) & 15;
-        AddTextPrinterParameterized4(win,FONT_SMALL,10,i*24,0,0,colors,TEXT_SKIP_DRAW,sLabels[i]);
-        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*24+10,0,0,colors,TEXT_SKIP_DRAW,i?sColorNames[value]:sSkinNames[value]);
-        if (sMenu->cursor==i) AddTextPrinterParameterized4(win,FONT_NORMAL,0,i*24+10,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING(">"));
+        AddTextPrinterParameterized4(win,FONT_SMALL,10,i*32,0,0,colors,TEXT_SKIP_DRAW,sLabels[i]);
+        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*32+14,0,0,colors,TEXT_SKIP_DRAW,i?sColorNames[value]:sSkinNames[value]);
+        if (sMenu->cursor==i) AddTextPrinterParameterized4(win,FONT_NORMAL,0,i*32+14,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING(">"));
     }
     CopyWindowToVram(win,COPYWIN_FULL);
     if (sMenu->preview < MAX_SPRITES)
@@ -185,7 +189,7 @@ static void Task_DynamicPalMenu(u8 taskId)
 }
 void DynamicPal_ShowMenu(u8 taskId, TaskFunc done, TaskFunc cancel, u8 previewSprite, bool32 field)
 {
-    struct WindowTemplate win={.bg=0,.tilemapLeft=2,.tilemapTop=1,.width=13,.height=10,.paletteNum=15,.baseBlock=field ? 0x230 : 0x6D};
+    struct WindowTemplate win={.bg=0,.tilemapLeft=2,.tilemapTop=1,.width=COLOR_WINDOW_WIDTH,.height=COLOR_WINDOW_HEIGHT,.paletteNum=15,.baseBlock=field ? 0x230 : COLOR_INTRO_BASE};
     if (sMenu) {gTasks[taskId].func=cancel;return;}
     sMenu=AllocZeroed(sizeof(*sMenu));
     if (!sMenu) {gTasks[taskId].func=cancel;return;}
