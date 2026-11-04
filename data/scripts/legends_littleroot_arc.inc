@@ -54,7 +54,7 @@ LegendsArc_LabIntro::
     turnobject LOCALID_LA_LAB_PIKACHU, DIR_EAST
     turnobject LOCALID_BIRCHS_LAB_BIRCH, DIR_WEST
     setspeaker SP_NAME_BIRCH
-    msgbox LegendsArc_Text_RioluGift, MSGBOX_DEFAULT
+    msgbox LegendsArc_Text_CharmanderGift, MSGBOX_DEFAULT
     call LegendsArc_LabFaceEachOther
     setspeaker SP_NAME_RED
     msgbox LegendsArc_Text_RedChallenge, MSGBOX_DEFAULT
@@ -306,11 +306,11 @@ LegendsArc_Text_PlayerIntroduction:
 LegendsArc_Text_RedIntroduction:
     .string "{COLOR RED}Red. Glad to meet you properly.\pHow about a battle?\pPikachu would be too much right now.\pProfessor, may I raise a new\npartner?$"
 
-LegendsArc_Text_RioluGift:
-    .string "This Riolu was found near a rift.\pIts species is native to Sinnoh.\nFinding one here was quite a surprise.\pAn aide brought it to my lab.\nI have been helping it settle in.\pIt needs more than observation.\nIt needs someone it can trust.\pIf it is willing, Red, I would like\nyou to travel together.$"
+LegendsArc_Text_CharmanderGift:
+    .string "Then I'll give you something\nyou're familiar with.\pThis Charmander was found near a\nrift.\pAn aide brought it to my lab.\nI've been helping it settle in.\pPerhaps a trainer from Kanto can\nhelp it feel at home.\pWhat do you say, Red?$"
 
 LegendsArc_Text_RedChallenge:
-    .string "{COLOR RED}All right, Riolu. A fresh start.\p{PLAYER}, show me how you and your\ppartner work together.$"
+    .string "{COLOR RED}Feels like I'm back in Kanto.\pAll right, Charmander.\nLet's make this a fresh start.\p{PLAYER}, show me how you and your\npartner work together.$"
 
 LegendsArc_Text_RedDefeated:
     .string "{COLOR RED}You surprised me. Well battled!$"
@@ -355,7 +355,7 @@ LegendsArc_Text_BrendanDoubleChallenge:
     .string "{COLOR GREEN}Then let us help with that!\pMay and me against you two.\pA double battle!$"
 
 LegendsArc_Text_RedPartnerAdvice:
-    .string "{COLOR RED}Ready, {PLAYER}? Watch both\nopponents.\pRiolu and I will back you up.\pPikachu, stay here and watch.$"
+    .string "{COLOR RED}Ready, {PLAYER}? Watch both\nopponents.\pCharmander and I will back you up.\pPikachu, stay here and watch.$"
 
 LegendsArc_Text_BrendanDefeat:
     .string "{COLOR GREEN}So that is fighting a Champion…$"

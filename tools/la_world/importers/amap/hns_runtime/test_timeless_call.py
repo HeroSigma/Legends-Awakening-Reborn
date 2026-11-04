@@ -39,7 +39,7 @@ def advance_arc(target,suffix,limit=22000):
     if 'lab' not in snap:
      frames(220);capture('lab_battle_'+suffix);snap.add('lab')
      check('lab_normal_trainer_not_birch_tutorial_'+suffix,not (rd(symbols['gBattleTypeFlags'])&16))
-     check('red_uses_riolu_level_10_'+suffix,rd(symbols['gBattleMons']+140,2)==447 and rd(symbols['gParties']+600+84,1)==10)
+     check('red_uses_charmander_level_10_'+suffix,rd(symbols['gBattleMons']+140,2)==4 and rd(symbols['gParties']+600+84,1)==10)
    if flag(0x38):
     multi=True
     if 'multi' not in snap:
@@ -47,16 +47,16 @@ def advance_arc(target,suffix,limit=22000):
      required=(1<<0)|(1<<6)|(1<<15)|(1<<22)
      check('true_four_trainer_battle_'+suffix,(rd(symbols['gBattleTypeFlags'])&required)==required and rd(symbols['gBattlersCount'],1)==4)
      check('red_is_battle_partner_'+suffix,rd(symbols['gPartnerTrainerId'],2)==866)
-     check('red_battles_with_riolu_not_pikachu_'+suffix,rd(symbols['gBattleMons']+280,2)==447)
+     check('red_battles_with_charmander_not_pikachu_'+suffix,rd(symbols['gBattleMons']+280,2)==4)
   if flag(0x37) and rd(symbols['gBattleOutcome'],1)==2:loss=True
-  for key in ['BirchRecognizes','PortalArrival','PlayerIntroduction','KeepStarter','RioluGift','RedCongratulates','BrendanRecognizes','NationalDexGift','DexNavGift','ElaraThought']:
+  for key in ['BirchRecognizes','PortalArrival','PlayerIntroduction','KeepStarter','CharmanderGift','RedCongratulates','BrendanRecognizes','NationalDexGift','DexNavGift','ElaraThought']:
    label=symbols['LegendsArc_Text_'+key]
    if key not in names and all(rd(symbols['gStringVar4']+k,1)==rd(label+k,1) for k in range(10)):
     names.add(key);frames(120);capture(key+'_'+suffix)
     def actor(local):
      return next(symbols['gObjectEvents']+j*36 for j in range(16) if rd(symbols['gObjectEvents']+j*36,1)&1 and rd(symbols['gObjectEvents']+j*36+8,1)==local)
-    if key in ['BirchRecognizes','PortalArrival','RioluGift','KeepStarter','NationalDexGift','DexNavGift']:
-     facing=3 if key in ['BirchRecognizes','PortalArrival','RioluGift'] else 1
+    if key in ['BirchRecognizes','PortalArrival','CharmanderGift','KeepStarter','NationalDexGift','DexNavGift']:
+     facing=3 if key in ['BirchRecognizes','PortalArrival','CharmanderGift'] else 1
      check('birch_faces_speaker_'+key+'_'+suffix,rd(actor(2)+24,1)&15==facing)
     if key=='BirchRecognizes':
      check('red_faces_birch_at_opening_'+suffix,rd(actor(7)+24,1)&15==4)

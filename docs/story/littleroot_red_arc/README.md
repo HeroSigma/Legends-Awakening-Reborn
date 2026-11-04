@@ -3,10 +3,10 @@
 ## Flow
 
 1. Preserve the selected Route 101 starter; Birch recognizes Red, who explains the portal and his earlier Hoenn travels. Player and Red exchange names. Optional starter naming remains available.
-2. Birch explains that an aide found Riolu near a rift, away from its native Sinnoh habitat. Red takes it as a fresh travelling partner, while Pikachu remains beside him.
-3. Red spars using level 10 Riolu against the new level 5 starter. Aerial Ace, trained stats and a Focus Sash make this a loss for all three normal starter choices. This is a normal trainer fight, not the Birch first-battle tutorial; native tutorial enemy replacement is explicitly excluded for this fight. The loss heals the player and never deducts money or triggers blackout.
+2. Birch offers Red a familiar partner: Charmander, found near a rift and brought to his lab by an aide. Red says it feels like being back in Kanto. Pikachu remains beside him.
+3. Red spars using level 10 Charmander against the new level 5 starter. Aerial Ace, trained stats and a Focus Sash make this a loss for all three normal starter choices. This is a normal trainer fight, not the Birch first-battle tutorial; native tutorial enemy replacement is explicitly excluded for this fight. The loss heals the player and never deducts money or triggers blackout.
 4. Red congratulates the player and gives the Mega Ring once. He and Pikachu walk down the lab aisle to leave together. Birch sends the player to call both children on Route 103.
-5. Brendan and May recognize Red as Kanto's Champion. The player learns his identity and reason for investigating rifts. Player + Red battle both rivals using the native four-trainer multi-battle system. Red uses Riolu; Pikachu watches. Each rival uses one of the other Hoenn starters. Defeat is healed and permits retry. Victory advances native Birch lab / Route 103 progression.
+5. Brendan and May recognize Red as Kanto's Champion. The player learns his identity and reason for investigating rifts. Player + Red battle both rivals using the native four-trainer multi-battle system. Red uses Charmander; Pikachu watches. Each rival uses one of the other Hoenn starters. Defeat is healed and permits retry. Victory advances native Birch lab / Route 103 progression.
 6. On return, Birch gives a National Pokédex and enables the actual DexNav start-menu flag. May gives five Poké Balls. Temporary Red and Pikachu actors leave together. Native adventure progression unlocks the standard running-shoes event.
 7. Elara hears the player's account, silently thinks of Caelum, then gives the running shoes and says goodbye. The player does not hear or answer the thought.
 

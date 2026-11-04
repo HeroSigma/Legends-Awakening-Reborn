@@ -46,25 +46,25 @@ Pikachu would be too much right now.
 
 Professor, may I raise a new partner?
 
-## RioluGift
+## CharmanderGift
 
-**BIRCH**: This Riolu was found near a rift.
+**BIRCH**: Then I'll give you something you're familiar with.
 
-Its species is native to Sinnoh. Finding one here was quite a surprise.
+This Charmander was found near a rift.
 
-An aide brought it to my lab. I have been helping it settle in.
+An aide brought it to my lab. I've been helping it settle in.
 
-It needs more than observation. It needs someone it can trust.
+Perhaps a trainer from Kanto can help it feel at home.
 
-If it is willing, Red, I would like you to travel together.
+What do you say, Red?
 
 ## RedChallenge
 
-**RED**: All right, Riolu. A fresh start.
+**RED**: Feels like I'm back in Kanto.
 
-{PLAYER}, show me how you and your
+All right, Charmander. Let's make this a fresh start.
 
-partner work together.
+{PLAYER}, show me how you and your partner work together.
 
 ## RedDefeated
 
@@ -170,7 +170,7 @@ A double battle!
 
 **RED**: Ready, {PLAYER}? Watch both opponents.
 
-Riolu and I will back you up.
+Charmander and I will back you up.
 
 Pikachu, stay here and watch.
 
