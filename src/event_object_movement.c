@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "hyper_assets.h"
 #include "preferred_follower.h"
 #include "pokeride.h"
@@ -3494,7 +3495,7 @@ void PatchObjectPalette(u16 paletteTag, u8 paletteSlot)
     // paletteTag is assumed to exist in sObjectEventSpritePalettes
     u8 paletteIndex = FindObjectEventPaletteIndexByTag(paletteTag);
 
-    LoadPalette(sObjectEventSpritePalettes[paletteIndex].data, OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
+    LoadPalette(DynamicPal_ObjectPalette(paletteTag, sObjectEventSpritePalettes[paletteIndex].data), OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
 }
 
 void PatchObjectPaletteRange(const u16 *paletteTags, u8 minSlot, u8 maxSlot)

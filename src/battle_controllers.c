@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "battle.h"
 #include "battle_ai_main.h"
 #include "battle_ai_util.h"
@@ -2502,7 +2503,7 @@ void BtlController_HandleDrawTrainerPic(enum BattlerId battler, enum TrainerPicI
         }
         else
         {
-            LoadSpritePaletteWithTag(GetTrainerBackPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, FALSE));
+            LoadSpritePaletteWithTag((GetBattlerPosition(battler) == B_POSITION_PLAYER_LEFT ? DynamicPal_TrainerPalette(trainerPicId, FALSE) : GetTrainerBackPicPalette(trainerPicId)), GetTrainerPicTag(trainerPicId, FALSE));
             SetMultiuseSpriteTemplateToTrainerBack(trainerPicId, GetBattlerPosition(battler));
             if (subpriority == -1)
                 subpriority = GetBattlerSpriteSubpriority(battler);
@@ -2532,7 +2533,7 @@ void BtlController_HandleTrainerSlide(enum BattlerId battler, enum TrainerPicID 
 {
     if (IsOnPlayerSide(battler))
     {
-        LoadSpritePaletteWithTag(GetTrainerBackPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, FALSE));
+        LoadSpritePaletteWithTag((GetBattlerPosition(battler) == B_POSITION_PLAYER_LEFT ? DynamicPal_TrainerPalette(trainerPicId, FALSE) : GetTrainerBackPicPalette(trainerPicId)), GetTrainerPicTag(trainerPicId, FALSE));
         SetMultiuseSpriteTemplateToTrainerBack(trainerPicId, GetBattlerPosition(battler));
         gBattleStruct->trainerSlideSpriteIds[battler] = CreateSprite(&gMultiuseSpriteTemplate,
                                                          80,

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "trainer_pokemon_sprites.h"
 #include "bg.h"
 #include "constants/rgb.h"
@@ -223,6 +224,7 @@ static void DrawMainMenuWindowBorder(const struct WindowTemplate *, u16);
 static void Task_HighlightSelectedMainMenuItem(u8);
 static void Task_NewGameBirchSpeech_WaitToShowGenderMenu(u8);
 static void Task_NewGameBirchSpeech_ChooseGender(u8);
+static void Task_NewGameBirchSpeech_ChooseColors(u8);
 static void NewGameBirchSpeech_ShowGenderMenu(void);
 static s8 NewGameBirchSpeech_ProcessGenderMenuInput(void);
 static void NewGameBirchSpeech_ClearGenderWindow(u8, u8);
@@ -1316,6 +1318,7 @@ static const struct WindowTemplate sLegendsCreatorWindows[] =
 
 static void Task_LegendsCreator_Init(u8 taskId)
 {
+    DynamicPal_BeginIntro();
     static const u16 colors[16] = {
         RGB_BLACK, RGB_WHITE, RGB(6,6,6), RGB(20,20,20),
         RGB(25,4,4), RGB(31,17,17), RGB(4,20,8), RGB(16,31,18),
@@ -1647,13 +1650,13 @@ static void Task_NewGameBirchSpeech_ChooseGender(u8 taskId)
         PlaySE(SE_SELECT);
         gSaveBlock2Ptr->playerGender = gender;
         NewGameBirchSpeech_ClearGenderWindow(1, 1);
-        gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseColors;
         break;
     case FEMALE:
         PlaySE(SE_SELECT);
         gSaveBlock2Ptr->playerGender = gender;
         NewGameBirchSpeech_ClearGenderWindow(1, 1);
-        gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseColors;
         break;
     default: //repeat task if nothing is selected
         break;
@@ -1709,6 +1712,14 @@ static void Task_NewGameBirchSpeech_SlideInNewGenderSprite(u8 taskId)
             gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseGender;
         }
     }
+}
+
+static void Task_NewGameBirchSpeech_ChooseColors(u8 taskId)
+{
+    NewGameBirchSpeech_ClearWindow(0);
+    StringCopy(gStringVar4, COMPOUND_STRING("Choose your colors.\nLeft/Right: change. A: done. B: back."));
+    AddTextPrinterWithCustomSpeedForMessage(FALSE,0);
+    DynamicPal_ShowMenu(taskId,Task_NewGameBirchSpeech_WhatsYourName,Task_NewGameBirchSpeech_BoyOrGirl,gTasks[taskId].tPlayerSpriteId,FALSE);
 }
 
 static void Task_NewGameBirchSpeech_WhatsYourName(u8 taskId)

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "clock.h"
 #include "new_game.h"
 #include "random.h"
@@ -204,6 +205,7 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
+    DynamicPal_CommitIntro();
     ClearTVShowData();
     ResetGabbyAndTy();
     ClearSecretBases();

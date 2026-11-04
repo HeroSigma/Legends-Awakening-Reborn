@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "ui_main_menu.h"
 #include "strings.h"
 #include "bg.h"
@@ -365,6 +366,7 @@ void Task_OpenMainMenu(u8 taskId)
 void MainMenu_Init(MainCallback callback)
 {
     u32 i = 0;
+    DynamicPal_EndIntro();
     if ((sMainMenuDataPtr = AllocZeroed(sizeof(struct MainMenuResources))) == NULL)
     {
         SetMainCallback2(callback);
@@ -652,7 +654,7 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
             LoadCompressedSpriteSheet(&sSpriteSheet_IconBox);
             LoadSpritePalette(&sSpritePal_IconBox);
             LoadCompressedSpriteSheet(&sSpriteSheet_BrendanMugshot);
-            LoadSpritePalette(&sSpritePal_BrendanMugshot);
+            LoadSpritePaletteWithTag(DynamicPal_MugshotPalette(sSpritePal_BrendanMugshot.data, MALE), TAG_MUGSHOT);
             LoadPalette(sMainBgPalette, 0, 32);
         }
         else
@@ -660,7 +662,7 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
             LoadCompressedSpriteSheet(&sSpriteSheet_IconBoxFem);
             LoadSpritePalette(&sSpritePal_IconBoxFem);
             LoadCompressedSpriteSheet(&sSpriteSheet_MayMugshot);
-            LoadSpritePalette(&sSpritePal_MayMugshot);
+            LoadSpritePaletteWithTag(DynamicPal_MugshotPalette(sSpritePal_MayMugshot.data, FEMALE), TAG_MUGSHOT);
             LoadPalette(sMainBgPaletteFem, 0, 32);
         }
         LoadPalette(sScrollBgPalette, 16, 32);

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "dynamic_move_info.h"
 #include "constants/rgb.h"
 #include "battle.h"
@@ -2258,7 +2259,7 @@ static void PlayerHandleOneReturnValue_Duplicate(enum BattlerId battler)
 static void PlayerHandleIntroTrainerBallThrow(enum BattlerId battler)
 {
     enum TrainerPicID trainerPicID = PlayerGetTrainerBackPicId();
-    const u16 *trainerPal = GetTrainerBackPicPalette(trainerPicID);
+    const u16 *trainerPal = DynamicPal_TrainerPalette(trainerPicID, FALSE);
     BtlController_HandleIntroTrainerBallThrow(battler, 0xD6F8, trainerPal, 31, Intro_TryShinyAnimShowHealthbox);
 }
 

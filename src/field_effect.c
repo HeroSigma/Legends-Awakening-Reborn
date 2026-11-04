@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "pokeride.h"
 #include "data.h"
 #include "decompress.h"
@@ -1002,7 +1003,7 @@ u8 CreateTrainerSprite(enum TrainerPicID trainerPicId, s16 x, s16 y, u8 subprior
     spriteSheet.size = TRAINER_PIC_SIZE;
     spriteSheet.tag = GetTrainerPicTag(trainerPicId, TRUE);
 
-    LoadSpritePaletteWithTag(GetTrainerFrontPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, TRUE));
+    LoadSpritePaletteWithTag(DynamicPal_IsIntro() ? DynamicPal_TrainerPalette(trainerPicId, TRUE) : GetTrainerFrontPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, TRUE));
     LoadCompressedSpriteSheetOverrideBuffer(&spriteSheet, buffer);
     if (alloced)
         Free(buffer);

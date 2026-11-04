@@ -30,3 +30,7 @@ Ground riding, native-Surf water mounts and Fly-gated low flight are implemented
 ## Completed UI milestones
 
 Supersedes the first milestone's pending UI list: SwSh party, storage, bag and message box are integrated on their named feature branches, with native regression reports. The Archie/Mudskip Continue menu is now adapted in `feature/main-menu-mugshot`; see `docs/features/main_menu_mugshot` for attribution, compatibility and validation. The in-game Custom Start Menu remains separate and unchanged. The deferred Rhythm feature list remains deferred.
+
+## Dynamic character palettes milestone
+
+Skin/outfit/accent customization is available after gender selection and through the player's PC, Appearance. A reserved variable replaces donor SaveBlock additions. Original colors are the default. Live previews, cancellation, naming/portrait/trainer/battle colors and 14/60-box saves are tested; see docs/features/dynamic-palettes. Hair/pants shapes and sprite artwork remain unchanged.
