@@ -34,3 +34,7 @@ Supersedes the first milestone's pending UI list: SwSh party, storage, bag and m
 ## Dynamic character palettes milestone
 
 Skin/outfit/accent customization is available after gender selection and through the player's PC, Appearance. A reserved variable replaces donor SaveBlock additions. Original colors are the default. Live previews, cancellation, naming/portrait/trainer/battle colors and 14/60-box saves are tested; see docs/features/dynamic-palettes. Hair/pants shapes and sprite artwork remain unchanged.
+
+## Remaining core-feature pass: starter briefcase
+
+The Archie/Mudskip briefcase presentation is integrated while the native starter reward and rescue battle retain control. Three current starters, species/type previews, confirmation and cleanup pass 88 native checks. See docs/features/starter-case. Field mugshots are next in this pass, followed by the battle UI, repeat-cutscene skipping and text polish; those entries are not marked complete by this milestone.
