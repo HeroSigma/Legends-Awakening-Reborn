@@ -1,0 +1,1335 @@
+{
+  "rom_sha256": "c238832ef6dde3788576705de8be24e6ea932cd6fdaa117f927dec5a499e578d",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_route",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_route",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_route",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_route",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(0, False, False)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(0, True, False)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(0, True, True)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_rusturf",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_rusturf",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_rusturf",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_rusturf",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_route",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_route",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_route",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_route",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_route",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_route",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_route",
+      "passed": true
+    },
+    {
+      "test": "battle_format_route",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_route",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_route",
+      "passed": true
+    },
+    {
+      "test": "route_completed",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(1, False, False)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(1, True, False)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_woods",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_woods",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_woods",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_woods",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_woods",
+      "passed": true
+    },
+    {
+      "test": "battle_format_woods",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_staging_(1, True, True)",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_woods",
+      "passed": true
+    },
+    {
+      "test": "woods_reward",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_rusturf",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_rusturf",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "correct_prompt_rusturf",
+      "passed": true
+    },
+    {
+      "test": "never_prompt_first_rusturf",
+      "passed": true
+    },
+    {
+      "test": "prompt_matches_seen_rusturf",
+      "passed": true
+    },
+    {
+      "test": "intro_matches_choice_rusturf",
+      "passed": true
+    },
+    {
+      "test": "seen_recorded_rusturf",
+      "passed": true
+    },
+    {
+      "test": "battle_format_rusturf",
+      "passed": true
+    },
+    {
+      "test": "no_early_parts_rusturf",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_rusturf",
+      "passed": true
+    },
+    {
+      "test": "parts_received",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "seen_persists",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "battle_outcomes": "Injected using native end handlers; this suite tests scene and reward state, not difficulty."
+}

@@ -22,6 +22,10 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 LegendsWoods_Begin:
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
+	goto_if_unset FLAG_LA_SEEN_WOODS_TRIAD_INTRO, LegendsWoods_WatchIntro
+	call LegendsScene_OfferSkip
+	goto_if_eq VAR_RESULT, YES, LegendsWoods_SkipIntro
+LegendsWoods_WatchIntro:
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_Readings, MSGBOX_DEFAULT
 	closemessage
@@ -65,6 +69,10 @@ LegendsWoods_Begin:
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsWoods_Text_Challenge, MSGBOX_DEFAULT
 	setspeaker SP_NAME_NONE
+LegendsWoods_StartBattle:
+	setflag FLAG_LA_SEEN_WOODS_TRIAD_INTRO
+	setspeaker SP_NAME_NONE
+	closemessage
 	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, LegendsWoods_Text_Defeat
 	closemessage
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, LegendsWoods_TriadBack
@@ -159,6 +167,19 @@ LegendsWoods_NoRoom:
 	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox LegendsWoods_Text_NoRoom, MSGBOX_DEFAULT
 	goto LegendsWoods_AfterReward
+
+@ Restore the same staging as the full introduction before starting combat.
+LegendsWoods_SkipIntro:
+	fadescreen FADE_TO_BLACK
+	setobjectxy LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, 36, 20
+	setobjectxy LOCALID_WOODS_SILPH, 36, 18
+	setobjectxy LOCALID_PETALBURG_WOODS_GRUNT, 35, 19
+	turnobject LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, DIR_WEST
+	turnobject LOCALID_WOODS_SILPH, DIR_WEST
+	turnobject LOCALID_PETALBURG_WOODS_GRUNT, DIR_SOUTH
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	fadescreen FADE_FROM_BLACK
+	goto LegendsWoods_StartBattle
 
 LegendsWoods_PlayerLeft:
 	walk_left

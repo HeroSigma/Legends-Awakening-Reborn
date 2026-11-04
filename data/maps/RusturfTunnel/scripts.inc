@@ -304,11 +304,19 @@ RusturfTunnel_EventScript_Grunt::
 	lock
 	faceplayer
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	goto_if_unset FLAG_LA_SEEN_RUSTURF_GRUNT_INTRO, LegendsRusturf_WatchGruntIntro
+	call LegendsScene_OfferSkip
+	goto_if_eq VAR_RESULT, YES, LegendsRusturf_StartGruntBattle
+LegendsRusturf_WatchGruntIntro:
 	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_GruntIntro, MSGBOX_DEFAULT
 	setspeaker SP_NAME_PLAYER
 	msgbox LegendsVoice_GruntChallenge, MSGBOX_DEFAULT
 	setspeaker SP_NAME_NONE
+LegendsRusturf_StartGruntBattle:
+	setflag FLAG_LA_SEEN_RUSTURF_GRUNT_INTRO
+	setspeaker SP_NAME_NONE
+	closemessage
 	trainerbattle_no_intro TRAINER_GRUNT_RUSTURF_TUNNEL, RusturfTunnel_Text_GruntDefeat
 	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_GruntTakePackage, MSGBOX_DEFAULT

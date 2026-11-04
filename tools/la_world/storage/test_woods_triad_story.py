@@ -26,7 +26,10 @@ def until(predicate,limit=24000):
   current=[bytes(rd(symbols["gStringVar4"]+offset+j,1) for j in range(12)) for offset in range(4)]
   spoken.update(n for n in voice_labels if bytes(rd(symbols[n]+j,1) for j in range(12)) in current)
   check_prompt=active('Task_HandleYesNoInput')
-  assert check_prompt is None, "Story battle must not offer Singles/Doubles"
+  if check_prompt is not None and location()==(c['MAP_GROUP(MAP_PETALBURG_WOODS)'],c['MAP_NUM(MAP_PETALBURG_WOODS)']):
+   # Only the repeat-scene prompt is allowed; battle-format prompts remain forbidden.
+   label=symbols['LegendsScene_Text_SkipConversation']
+   assert bytes(rd(label+j,1) for j in range(12)) in current, "Unexpected story battle prompt"
   if predicate():frames(15);return
   frames(1,1 if i%31<4 else 0)
  raise AssertionError(('timeout',state(),pos(),location(),hex(rd(symbols['sGlobalScriptContext']+8)),hex(rd(symbols['gMain']+4))))
@@ -43,7 +46,10 @@ def enter(x):
  warp(c['MAP_GROUP(MAP_PETALBURG_WOODS)'],c['MAP_NUM(MAP_PETALBURG_WOODS)'],x,21);frames(60)
  check('backup_initially_hidden_'+str(x),actor('LOCALID_WOODS_TRIAD_2') is None and actor('LOCALID_WOODS_TRIAD_3') is None)
  move(64,2)
-def battle():until(lambda:rd(symbols['gMain']+4)==symbols['BattleMainCB2']|1);frames(240)
+def battle():
+ until(lambda:rd(symbols['gMain']+4)==symbols['BattleMainCB2']|1)
+ until(lambda:rd(symbols['gBattleMainFunc'])==symbols['HandleTurnActionSelectionState']|1)
+ frames(40)
 def finish(outcome):
  wr(symbols['gBattleOutcome'],outcome,1)
  wr(symbols['gBattleMainFunc'],symbols['HandleEndTurn_BattleWon' if outcome==1 else 'HandleEndTurn_BattleLost']|1)
@@ -96,7 +102,12 @@ for gender,mode,x in [(0,0,35),(1,1,36)]:
 setup(0,0,False);enter(35);battle();finish(2)
 until(lambda:rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and location()!=(c['MAP_GROUP(MAP_PETALBURG_WOODS)'],c['MAP_NUM(MAP_PETALBURG_WOODS)']))
 for i in range(1800):frames(1,1 if i%31<4 else 0)
+until(lambda:rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and invoke('ArePlayerFieldControlsLocked')==0)
+check('whiteout_returns_control',True)
 check('loss_keeps_scene_pending',state()==0 and not fl('FLAG_LA_WOODS_TRIAD_COMPLETE') and not fl('FLAG_LA_WOODS_RIFT_RECORD_STOLEN'))
+# The fixture teleports directly after the completed whiteout; destination maps
+# must not inherit a completed Pokemon Center field callback.
+wr(symbols['gFieldCallback2'],0);wr(symbols['gFieldCallback'],0)
 enter(35);battle();check('retry_battle',True);finish(1)
 until(lambda:state()==1 and rd(symbols['sGlobalScriptContextStatus'],1)==2)
 check('retry_can_complete',fl('FLAG_LA_WOODS_TRIAD_COMPLETE')==1)

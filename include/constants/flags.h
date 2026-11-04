@@ -109,9 +109,12 @@
 #define FLAG_LA_TERA_RESEARCH_INTRO FLAG_UNUSED_0x044
 #define FLAG_UNUSED_0x045    0x45 // Reserved: Pokevial reward
 #define FLAG_LA_POKEVIAL_RECEIVED FLAG_UNUSED_0x045
-#define FLAG_UNUSED_0x046    0x46 // Unused Flag
-#define FLAG_UNUSED_0x047    0x47 // Unused Flag
-#define FLAG_UNUSED_0x048    0x48 // Unused Flag
+#define FLAG_UNUSED_0x046    0x46 // Reserved: viewed Route 103 pre-battle scene
+#define FLAG_LA_SEEN_ROUTE103_INTRO FLAG_UNUSED_0x046
+#define FLAG_UNUSED_0x047    0x47 // Reserved: viewed Woods pre-battle scene
+#define FLAG_LA_SEEN_WOODS_TRIAD_INTRO FLAG_UNUSED_0x047
+#define FLAG_UNUSED_0x048    0x48 // Reserved: viewed Rusturf pre-battle scene
+#define FLAG_LA_SEEN_RUSTURF_GRUNT_INTRO FLAG_UNUSED_0x048
 #define FLAG_UNUSED_0x049    0x49 // Unused Flag
 #define FLAG_UNUSED_0x04A    0x4A // Unused Flag
 #define FLAG_UNUSED_0x04B    0x4B // Unused Flag

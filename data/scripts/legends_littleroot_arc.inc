@@ -119,6 +119,10 @@ LegendsArc_Route103Meeting::
     turnobject LOCALID_LA_ROUTE103_PIKACHU, DIR_WEST
     turnobject LOCALID_LA_ROUTE103_BRENDAN, DIR_SOUTH
     turnobject LOCALID_LA_ROUTE103_MAY, DIR_SOUTH
+    goto_if_unset FLAG_LA_SEEN_ROUTE103_INTRO, LegendsArc_WatchRoute103Intro
+    call LegendsScene_OfferSkip
+    goto_if_eq VAR_RESULT, YES, LegendsArc_Route103StartBattle
+LegendsArc_WatchRoute103Intro:
     setspeaker SP_NAME_BRENDAN
     msgbox LegendsArc_Text_BrendanRecognizes, MSGBOX_DEFAULT
     setspeaker SP_NAME_MAY
@@ -137,6 +141,9 @@ LegendsArc_Route103Meeting::
     msgbox LegendsArc_Text_BrendanDoubleChallenge, MSGBOX_DEFAULT
     setspeaker SP_NAME_RED
     msgbox LegendsArc_Text_RedPartnerAdvice, MSGBOX_DEFAULT
+LegendsArc_Route103StartBattle:
+    setflag FLAG_LA_SEEN_ROUTE103_INTRO
+    setspeaker SP_NAME_NONE
     closemessage
     special HealPlayerParty
     setflag FLAG_LA_ROUTE103_PARTNER_BATTLE

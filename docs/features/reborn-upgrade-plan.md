@@ -46,3 +46,7 @@ Automatic speaker portraits are integrated using existing character art, with dy
 ## BW battle interface
 
 BW action/move panels, health boxes, party summaries, ability popups and gimmick controls are adapted with a teal selection cursor. Existing battle mechanics, dynamic descriptions and bag/party integrations are preserved. See docs/features/bw-battle-ui for attribution and native reports. Next: repeat-cutscene skipping, then text polish.
+
+## Repeat battle scenes
+
+Repeat-only skip prompts are integrated at safe boundaries in the Route 103, Woods Triad and Rusturf grunt introductions. First visits, battles and post-battle rewards remain mandatory; viewed state uses reserved existing flags. See docs/features/repeat-scenes. Next in the core pass: text and capitalization polish.

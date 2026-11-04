@@ -2684,6 +2684,7 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_downstairs.inc"
 	.include "data/scripts/legends_nextdoor.inc"
 
+	.include "data/scripts/legends_scene_skip.inc"
 	.include "data/scripts/legends_littleroot_arc.inc"
 
 	.include "data/scripts/legends_tera.inc"
