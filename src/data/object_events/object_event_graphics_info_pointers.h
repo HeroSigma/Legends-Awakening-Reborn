@@ -50,6 +50,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterJun
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterCynthia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterHoopaRing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTriad;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterSteven;
 /* LA_NPC_ROSTER_EXTERNS_END */
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperGiovanni;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperCyrus;
@@ -666,6 +667,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_LA_ROSTER_CYNTHIA] = &gObjectEventGraphicsInfo_LaRosterCynthia,
     [OBJ_EVENT_GFX_LA_ROSTER_HOOPARING] = &gObjectEventGraphicsInfo_LaRosterHoopaRing,
     [OBJ_EVENT_GFX_LA_ROSTER_SHADOWTRIAD] = &gObjectEventGraphicsInfo_LaRosterShadowTriad,
+    [OBJ_EVENT_GFX_LA_ROSTER_STEVEN] = &gObjectEventGraphicsInfo_LaRosterSteven,
+    [OBJ_EVENT_GFX_STEVEN] = &gObjectEventGraphicsInfo_LaRosterSteven,
 /* LA_NPC_ROSTER_POINTERS_END */
     [OBJ_EVENT_GFX_LA_HYPER_GIOVANNI] = &gObjectEventGraphicsInfo_LaHyperGiovanni,
     [OBJ_EVENT_GFX_LA_HYPER_CYRUS] = &gObjectEventGraphicsInfo_LaHyperCyrus,
@@ -929,7 +932,6 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_LIZA] =                     &gObjectEventGraphicsInfo_Liza,
     [OBJ_EVENT_GFX_TATE] =                     &gObjectEventGraphicsInfo_Tate,
     [OBJ_EVENT_GFX_WALLACE] =                  &gObjectEventGraphicsInfo_Wallace,
-    [OBJ_EVENT_GFX_STEVEN] =                   &gObjectEventGraphicsInfo_Steven,
     [OBJ_EVENT_GFX_LITTLE_BOY_3] =             &gObjectEventGraphicsInfo_RubySapphireLittleBoy,
     [OBJ_EVENT_GFX_BRENDAN_FISHING] =          &gObjectEventGraphicsInfo_BrendanFishing,
     [OBJ_EVENT_GFX_MAY_FISHING] =              &gObjectEventGraphicsInfo_MayFishing,

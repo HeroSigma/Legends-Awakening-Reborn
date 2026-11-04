@@ -4501,6 +4501,17 @@ static const struct SpriteFrameImage sPicTable_LaRosterShadowTriad[] = {
     overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 7),
     overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 8),
 };
+static const struct SpriteFrameImage sPicTable_LaRosterSteven[] = {
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 0),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 1),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 2),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 3),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 4),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 5),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 6),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 7),
+    overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 8),
+};
 /* LA_NPC_ROSTER_PICTURES_END */
 
 static const struct SpriteFrameImage sPicTable_BrendanRiding[] = {

@@ -1,5 +1,5 @@
 {
-  "selection_count": 41,
+  "selection_count": 42,
   "selection_status": "in_progress_user_selections",
   "npc_only": true,
   "new_map_placements": 0,
@@ -806,6 +806,27 @@
       "palette_sha256": "15a534000689d54762fafe710a691334f239d48146fd11f741797e389887b06e",
       "editor_sheet": "graphics/object_events/pics/people/la_roster/shadowtriad.png",
       "aliases": [],
+      "kind": "npc",
+      "emergence_animation": null,
+      "source_variant": null,
+      "source_variant_sha256": null
+    },
+    {
+      "name": "Steven",
+      "donor": "hyper",
+      "source_id": 134,
+      "source_sha256": "ce0080caf4da964336361f6c0f4578cf23bf7aa9bd4edef69af4fbc555f3322f",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_STEVEN",
+      "info_symbol": "gObjectEventGraphicsInfo_LaRosterSteven",
+      "frames": 9,
+      "width": 16,
+      "height": 32,
+      "palette_tag": 56134,
+      "palette_sha256": "e228f8e4cf5192e43fa385bb3c837cee762b91d8cef90b1a7f815320faa6f555",
+      "editor_sheet": "graphics/object_events/pics/people/la_roster/steven.png",
+      "aliases": [
+        "OBJ_EVENT_GFX_STEVEN"
+      ],
       "kind": "npc",
       "emergence_animation": null,
       "source_variant": null,

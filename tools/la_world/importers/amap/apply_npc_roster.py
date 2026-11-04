@@ -8,11 +8,16 @@ from PIL import Image,ImageDraw
 R=Path(__file__).resolve().parents[4]
 DOC=R/'docs/art/npc_roster';OUT=R/'graphics/object_events/pics/people/la_roster'
 HYPER={'Red':230,'Blue':79,'Green':231,'Brendan':0,'May':89,'Birch':64,'Silver':77,'Elio':115,'Wally':135,'Hilda':145,'Rosa':149,'Serena':150,'Lyra':151,'Kris':152,'Lucas':153,'Selene':144,'Hilbert':157,'Nate':158,'Hugh':159,'Calem':160,'Ash':161,'Alain':162,'Barry':164,'Gladion':165,'Zinnia':166,'Archie':195,'Maxie':196,'N':201,'Iris':202}
-SELECTION=[(n,'hyper',v) for n,v in HYPER.items()]+[(n,'swsh',v) for n,v in {'Gloria':7,'Bede':14,'Marnie':15,'Hop':72}.items()]+[('Cheren','bwa',72)]+[('Ethan','hyper_legacy_variants',76),('Oak','aestheticred',71),('RandomPortals','swsh',91),('Juniper','bwa',71),('Cynthia','hyper',183),('HoopaRing','hyper',4),('ShadowTriad','bwa',49)]
-ALIASES={'Ethan':['OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS'],'Oak':['OBJ_EVENT_GFX_PROF_OAK','OBJ_EVENT_GFX_HNS_PROF_OAK_HNS'],'Red':['OBJ_EVENT_GFX_RED','OBJ_EVENT_GFX_HNS_RED_NORMAL_HNS'],'Blue':['OBJ_EVENT_GFX_BLUE','OBJ_EVENT_GFX_HNS_BLUE_HNS'],'Brendan':['OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL'],'May':['OBJ_EVENT_GFX_RIVAL_MAY_NORMAL'],'Birch':['OBJ_EVENT_GFX_PROF_BIRCH'],'Silver':['OBJ_EVENT_GFX_HNS_SILVER_HNS'],'Kris':['OBJ_EVENT_GFX_HNS_KRIS_NORMAL_HNS'],'Wally':['OBJ_EVENT_GFX_WALLY'],'Archie':['OBJ_EVENT_GFX_ARCHIE'],'Maxie':['OBJ_EVENT_GFX_MAXIE']}
+SELECTION=[(n,'hyper',v) for n,v in HYPER.items()]+[(n,'swsh',v) for n,v in {'Gloria':7,'Bede':14,'Marnie':15,'Hop':72}.items()]+[('Cheren','bwa',72)]+[('Ethan','hyper_legacy_variants',76),('Oak','aestheticred',71),('RandomPortals','swsh',91),('Juniper','bwa',71),('Cynthia','hyper',183),('HoopaRing','hyper',4),('ShadowTriad','bwa',49),('Steven','hyper',134)]
+ALIASES={'Steven':['OBJ_EVENT_GFX_STEVEN'],'Ethan':['OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS'],'Oak':['OBJ_EVENT_GFX_PROF_OAK','OBJ_EVENT_GFX_HNS_PROF_OAK_HNS'],'Red':['OBJ_EVENT_GFX_RED','OBJ_EVENT_GFX_HNS_RED_NORMAL_HNS'],'Blue':['OBJ_EVENT_GFX_BLUE','OBJ_EVENT_GFX_HNS_BLUE_HNS'],'Brendan':['OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL'],'May':['OBJ_EVENT_GFX_RIVAL_MAY_NORMAL'],'Birch':['OBJ_EVENT_GFX_PROF_BIRCH'],'Silver':['OBJ_EVENT_GFX_HNS_SILVER_HNS'],'Kris':['OBJ_EVENT_GFX_HNS_KRIS_NORMAL_HNS'],'Wally':['OBJ_EVENT_GFX_WALLY'],'Archie':['OBJ_EVENT_GFX_ARCHIE'],'Maxie':['OBJ_EVENT_GFX_MAXIE']}
 def write(p,s):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s)
 def replace_block(path,start,end,content):
- p=R/path;s=p.read_text();s=re.sub(re.escape(start)+r'.*?'+re.escape(end)+'\n?','',s,flags=re.S);write(p,s.rstrip()+'\n\n'+start+'\n'+content+'\n'+end+'\n')
+ p=R/path;s=p.read_text();block=start+'\n'+content+'\n'+end+'\n'
+ pattern=re.escape(start)+r'.*?'+re.escape(end)+'\n?'
+ if re.search(pattern,s,flags=re.S):s=re.sub(pattern,lambda _:block,s,count=1,flags=re.S)
+ else:s=s.rstrip()+'\n\n'+block
+ write(p,s)
+
 def hoopa_animations(folder):
  """Port visual AnimCmds only; never donor scripts/callback addresses."""
  rom=Path('/mnt/c/Users/aadair/Downloads/tools/Donor Roms/HypEm v5.7 EN+QoL.gba').read_bytes()
@@ -89,12 +94,11 @@ def main():
   for alias in row['aliases']:
    s=re.sub(r'(?m)^\s*\['+re.escape(alias)+r'\]\s*=.*?\n','',s)
  p.write_text(s)
- p=R/'include/constants/event_objects.h';s=p.read_text();s=re.sub(r'(?m)^    OBJ_EVENT_GFX_LA_ROSTER_\w+,\n','',s);s=s.replace('    NUM_OBJ_EVENT_GFX,',''.join('    '+row['graphics_id']+',\n' for row in rows)+'    NUM_OBJ_EVENT_GFX,');p.write_text(s)
+ p=R/'include/constants/event_objects.h';s=p.read_text();s=s.replace('    NUM_OBJ_EVENT_GFX,',''.join('    '+row['graphics_id']+',\n' for row in rows if not re.search(r'\b'+row['graphics_id']+r'\b',s))+'    NUM_OBJ_EVENT_GFX,');p.write_text(s)
  for path,kind,body in [('src/data/object_events/object_event_graphics.h','GRAPHICS','\n'.join(graphics)),('src/data/object_events/object_event_pic_tables.h','PICTURES','\n'.join(pictures)),('src/data/object_events/object_event_graphics_info.h','INFO','\n'.join(infos))]:replace_block(path,'/* LA_NPC_ROSTER_'+kind+'_BEGIN */','/* LA_NPC_ROSTER_'+kind+'_END */',body)
  # Externs must precede the graphics pointer table; generated entries live inside it.
- p=R/'src/data/object_events/object_event_graphics_info_pointers.h';s=p.read_text();s=re.sub(r'/\* LA_NPC_ROSTER_EXTERNS_BEGIN \*/.*?/\* LA_NPC_ROSTER_EXTERNS_END \*/\n?','',s,flags=re.S);s=re.sub(r'/\* LA_NPC_ROSTER_POINTERS_BEGIN \*/.*?/\* LA_NPC_ROSTER_POINTERS_END \*/\n?','',s,flags=re.S)
- s='/* LA_NPC_ROSTER_EXTERNS_BEGIN */\n'+'\n'.join(externs)+'\n/* LA_NPC_ROSTER_EXTERNS_END */\n'+s
- s=s.replace('gObjectEventGraphicsInfoPointers[] = {','gObjectEventGraphicsInfoPointers[] = {\n/* LA_NPC_ROSTER_POINTERS_BEGIN */\n'+'\n'.join(pointers)+'\n/* LA_NPC_ROSTER_POINTERS_END */');p.write_text(s)
+ replace_block('src/data/object_events/object_event_graphics_info_pointers.h','/* LA_NPC_ROSTER_EXTERNS_BEGIN */','/* LA_NPC_ROSTER_EXTERNS_END */','\n'.join(externs))
+ replace_block('src/data/object_events/object_event_graphics_info_pointers.h','/* LA_NPC_ROSTER_POINTERS_BEGIN */','/* LA_NPC_ROSTER_POINTERS_END */','\n'.join(pointers))
  cases=[]
  for row in rows:
   for alias in row['aliases']:cases.append(f'    case {alias}: return &{row["info_symbol"]};')
@@ -110,7 +114,9 @@ def main():
 """
  if 'rosterGraphics = GetLaNpcRosterGraphics' not in s:s=s.replace('    if (graphicsId >= OBJ_EVENT_GFX_HNS_BASE',hook+'    if (graphicsId >= OBJ_EVENT_GFX_HNS_BASE',1)
  needle='#include "data/object_events/hyper_palettes.inc"';s=re.sub(r'/\* LA_NPC_ROSTER_PALETTES_BEGIN \*/.*?/\* LA_NPC_ROSTER_PALETTES_END \*/\n?','',s,flags=re.S);s=s.replace(needle,needle+'\n/* LA_NPC_ROSTER_PALETTES_BEGIN */\n'+'\n'.join(palentries)+'\n/* LA_NPC_ROSTER_PALETTES_END */');p.write_text(s)
- write(DOC/'manifest.json',json.dumps(dict(selection_count=len(rows),npc_only=True,new_map_placements=0,gameplay_imported=False,characters=rows),indent=2)+'\n')
+ metadata=json.loads((DOC/'manifest.json').read_text()) if (DOC/'manifest.json').exists() else {}
+ metadata.update(selection_count=len(rows),npc_only=True,new_map_placements=0,gameplay_imported=False,characters=rows)
+ write(DOC/'manifest.json',json.dumps(metadata,indent=2)+'\n')
  # Enlarged, labelled first-frame review sheet.
  canvas=Image.new('RGB',(680,((len(rows)+5)//6)*118),'#293b42');draw=ImageDraw.Draw(canvas)
  for i,row in enumerate(rows):

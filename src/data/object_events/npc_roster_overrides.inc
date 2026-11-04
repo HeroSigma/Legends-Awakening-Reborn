@@ -18,6 +18,7 @@ static const struct ObjectEventGraphicsInfo *GetLaNpcRosterGraphics(u16 graphics
     case OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS: return &gObjectEventGraphicsInfo_LaRosterEthan;
     case OBJ_EVENT_GFX_PROF_OAK: return &gObjectEventGraphicsInfo_LaRosterOak;
     case OBJ_EVENT_GFX_HNS_PROF_OAK_HNS: return &gObjectEventGraphicsInfo_LaRosterOak;
+    case OBJ_EVENT_GFX_STEVEN: return &gObjectEventGraphicsInfo_LaRosterSteven;
     default: return NULL;
     }
 }

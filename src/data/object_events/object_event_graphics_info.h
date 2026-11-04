@@ -10164,6 +10164,17 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTria
  .anims = sAnimTable_Standard, .images = sPicTable_LaRosterShadowTriad,
  .affineAnims = gDummySpriteAffineAnimTable,
 };
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterSteven = {
+ .tileTag = TAG_NONE, .paletteTag = 0xDB46,
+ .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+ .size = 256, .width = 16, .height = 32,
+ .paletteSlot = 5, .shadowSize = 1, .inanimate = FALSE,
+ .compressed = FALSE, .tracks = TRACKS_FOOT,
+ .oam = &gObjectEventBaseOam_16x32,
+ .subspriteTables = sOamTables_16x32,
+ .anims = sAnimTable_Standard, .images = sPicTable_LaRosterSteven,
+ .affineAnims = gDummySpriteAffineAnimTable,
+};
 /* LA_NPC_ROSTER_INFO_END */
 
 static const struct SpriteFrameImage sAquasFrames_GoldBall[] = {

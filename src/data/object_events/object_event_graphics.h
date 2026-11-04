@@ -899,6 +899,7 @@ const u32 gObjectEventPic_LaRosterCynthia[] = INCGFX_U32("graphics/object_events
 const u32 gObjectEventPic_LaRosterHoopaRing[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/hooparing.png", ".4bpp", "-mwidth 4 -mheight 4");
 const u16 gObjectEventPal_LaRoster18[] = INCBIN_U16("graphics/object_events/palettes/la_roster_18.gbapal");
 const u32 gObjectEventPic_LaRosterShadowTriad[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/shadowtriad.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gObjectEventPic_LaRosterSteven[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/steven.png", ".4bpp", "-mwidth 2 -mheight 4");
 /* LA_NPC_ROSTER_GRAPHICS_END */
 
 // Credited Team Aqua repository world assets.

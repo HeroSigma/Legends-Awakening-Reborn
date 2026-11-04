@@ -1,0 +1,130 @@
+{
+  "rom_sha256": "893522dc269cd2adcd52f3fc19b56c0f598c1d300148decca071327233c4b2d9",
+  "checks": [
+    {
+      "test": "all_existing_graphics_ids_preserved",
+      "passed": true
+    },
+    {
+      "test": "prior_roster_preserved",
+      "passed": true
+    },
+    {
+      "test": "selected_hyper_134",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "registered_steven",
+      "passed": true
+    },
+    {
+      "test": "existing_steven_role",
+      "passed": true
+    },
+    {
+      "test": "native_dimensions",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_0",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_0",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_1",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_1",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_2",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_2",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_3",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_3",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_4",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_4",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_5",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_5",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_6",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_6",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_7",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_7",
+      "passed": true
+    },
+    {
+      "test": "donor_pixels_8",
+      "passed": true
+    },
+    {
+      "test": "linked_frame_8",
+      "passed": true
+    },
+    {
+      "test": "role_override_(24, 10)",
+      "passed": true
+    },
+    {
+      "test": "role_override_(0, 33)",
+      "passed": true
+    },
+    {
+      "test": "role_override_(0, 35)",
+      "passed": true
+    },
+    {
+      "test": "role_override_(14, 7)",
+      "passed": true
+    },
+    {
+      "test": "native_sprite_created",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}
