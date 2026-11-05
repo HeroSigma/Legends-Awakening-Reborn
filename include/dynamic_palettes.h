@@ -3,6 +3,9 @@
 #include "task.h"
 #define DYNAMIC_PAL_SKIN_COUNT 4
 #define DYNAMIC_PAL_COLOR_COUNT 8
+u32 PlayerOutfit_Get(void);
+void PlayerOutfit_Set(u32 outfit);
+u32 PlayerOutfit_TrainerPic(u32 pic);
 void DynamicPal_BeginIntro(void);
 void DynamicPal_EndIntro(void);
 void DynamicPal_CommitIntro(void);

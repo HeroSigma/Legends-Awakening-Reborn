@@ -10370,3 +10370,5 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayRiding = {
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_MayRiding,
 };
+
+#include "player_outfit_info.h"

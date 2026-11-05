@@ -4537,3 +4537,5 @@ static const struct SpriteFrameImage sPicTable_MayRiding[] = {
     overworld_frame(gObjectEventPic_MayRiding, 2, 4, 2),
     overworld_frame(gObjectEventPic_MayRiding, 2, 4, 2),
 };
+
+#include "player_outfit_frames.h"

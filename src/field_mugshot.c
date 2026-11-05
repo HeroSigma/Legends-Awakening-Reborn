@@ -81,7 +81,7 @@ void UpdateFieldMugshot(void)
     if (!gSpeakerName || IsMatchCallTaskActive() || gMsgIsSignPost
         || FlagGet(OW_FLAG_SUPPRESS_NAME_BOX)) return;
     if (player)
-        pic = gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN;
+        pic = PlayerOutfit_TrainerPic(gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN);
     else
         for (u32 i = 0; i < ARRAY_COUNT(sPortraits); i++)
             if (gSpeakerName == gSpeakerNamesTable[sPortraits[i].speaker])

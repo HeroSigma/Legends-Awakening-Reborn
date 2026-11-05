@@ -455,7 +455,7 @@ void ReshowPlayerPC(u8 var)
 
 static void PlayerPC_Appearance(u8 taskId)
 {
-    DisplayItemMessageOnField(taskId, COMPOUND_STRING("Choose your colors.\nLeft/Right: change. A: done. B: back."), PlayerPC_AppearanceMenu);
+    DisplayItemMessageOnField(taskId, COMPOUND_STRING("Choose your look.\nLeft/Right: change. A: done. B: back."), PlayerPC_AppearanceMenu);
 }
 static void PlayerPC_AppearanceMenu(u8 taskId)
 {

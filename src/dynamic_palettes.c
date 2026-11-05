@@ -3,6 +3,9 @@
 #include "global.h"
 #include "dynamic_palettes.h"
 #include "data.h"
+#include "decompress.h"
+#include "event_object_movement.h"
+#include "pokeride.h"
 #include "event_data.h"
 #include "field_player_avatar.h"
 #include "field_weather.h"
@@ -25,11 +28,12 @@
 #include "constants/trainers.h"
 
 #define COLOR_SIGNATURE 0xA000
-#define COLOR_WINDOW_WIDTH 11
-#define COLOR_WINDOW_HEIGHT 12
+#define COLOR_WINDOW_WIDTH 10
+#define COLOR_WINDOW_HEIGHT 13
 #define COLOR_INTRO_BASE 0x6D
 STATIC_ASSERT(COLOR_INTRO_BASE + COLOR_WINDOW_WIDTH * COLOR_WINDOW_HEIGHT <= 0xF3, ColorPickerBeforeIntroFrames);
 static EWRAM_DATA u16 sIntroSelection;
+static EWRAM_DATA u8 sIntroOutfit;
 static EWRAM_DATA bool8 sInIntro;
 static EWRAM_DATA u16 ALIGNED(4) sPalette[16];
 struct PaletteMenu
@@ -37,6 +41,7 @@ struct PaletteMenu
     TaskFunc done, cancel;
     u16 original;
     u8 window, cursor, preview;
+    u8 originalOutfit, shownOutfit;
     bool8 field;
 };
 static EWRAM_DATA struct PaletteMenu *sMenu;
@@ -58,7 +63,25 @@ static const u16 sColors[][2] = {
 };
 static const u8 *const sSkinNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Light"),COMPOUND_STRING("Tan"),COMPOUND_STRING("Deep")};
 static const u8 *const sColorNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Blue"),COMPOUND_STRING("Red"),COMPOUND_STRING("Violet"),COMPOUND_STRING("Gold"),COMPOUND_STRING("White"),COMPOUND_STRING("Charcoal"),COMPOUND_STRING("Pink")};
-static const u8 *const sLabels[] = {COMPOUND_STRING("Skin tone"),COMPOUND_STRING("Outfit"),COMPOUND_STRING("Accent")};
+static const u8 *const sLabels[] = {COMPOUND_STRING("Skin tone"),COMPOUND_STRING("Clothes"),COMPOUND_STRING("Accent"),COMPOUND_STRING("Style")};
+
+static const u8 *const sOutfitNames[] = {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph")};
+u32 __attribute__((noinline, noclone)) PlayerOutfit_Get(void)
+{
+    return sInIntro ? sIntroOutfit : VarGet(VAR_LA_PLAYER_OUTFIT) == 0xC101;
+}
+void PlayerOutfit_Set(u32 outfit)
+{
+    if (sInIntro) sIntroOutfit = outfit == 1;
+    else VarSet(VAR_LA_PLAYER_OUTFIT, outfit == 1 ? 0xC101 : 0);
+}
+u32 PlayerOutfit_TrainerPic(u32 pic)
+{
+    if (!PlayerOutfit_Get()) return pic;
+    if (pic == TRAINER_PIC_BRENDAN) return TRAINER_PIC_RS_BRENDAN;
+    if (pic == TRAINER_PIC_MAY) return TRAINER_PIC_RS_MAY;
+    return pic;
+}
 
 static u16 Validate(u16 choice)
 {
@@ -79,14 +102,17 @@ void DynamicPal_SetSelection(u16 selection)
     if (sInIntro) sIntroSelection = selection;
     else VarSet(VAR_LA_PLAYER_COLORS, selection ? COLOR_SIGNATURE | selection : 0);
 }
-void DynamicPal_BeginIntro(void) {sInIntro = TRUE;sIntroSelection = 0;}
-void DynamicPal_EndIntro(void) {sInIntro = FALSE;sIntroSelection = 0;}
+void DynamicPal_BeginIntro(void) {sInIntro = TRUE;sIntroSelection = 0;sIntroOutfit = 0;}
+void DynamicPal_EndIntro(void) {sInIntro = FALSE;sIntroSelection = 0;sIntroOutfit = 0;}
 bool32 DynamicPal_IsIntro(void) {return sInIntro;}
 void DynamicPal_CommitIntro(void)
 {
     u16 selection = sInIntro ? sIntroSelection : 0;
+    u32 outfit = sInIntro ? sIntroOutfit : 0;
     sInIntro = FALSE;
     DynamicPal_SetSelection(selection);
+    PlayerOutfit_Set(outfit);
+    sIntroOutfit = 0;
     sIntroSelection = 0;
 }
 static const u16 *Build(const u16 *base, const u8 *skin, const u8 *outfit, const u8 *accent, u32 skinCount)
@@ -107,18 +133,30 @@ static const u16 *Standard(const u16 *base)
 }
 const u16 *DynamicPal_ObjectPalette(u16 tag, const u16 *base)
 {
+    if (PlayerOutfit_Get())
+    {
+        if (tag == OBJ_EVENT_PAL_TAG_AREN) base = gObjectEventPal_RubySapphireBrendan;
+        if (tag == OBJ_EVENT_PAL_TAG_ARIA) base = gObjectEventPal_RubySapphireMay;
+        if (tag == OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER)
+            base = gSaveBlock2Ptr->playerGender == FEMALE ? gObjectEventPal_RubySapphireMay : gObjectEventPal_RubySapphireBrendan;
+    }
     if (tag == OBJ_EVENT_PAL_TAG_AREN || tag == OBJ_EVENT_PAL_TAG_ARIA || tag == OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER)
         return Standard(base);
     return base;
 }
 const u16 *DynamicPal_TrainerPalette(u32 pic, bool32 front)
 {
-    const u16 *base = front ? GetTrainerFrontPicPalette(pic) : GetTrainerBackPicPalette(pic);
-    if ((pic == TRAINER_PIC_BRENDAN || pic == TRAINER_PIC_MAY)
-     && (sInIntro || pic == (gSaveBlock2Ptr->playerGender == MALE ? TRAINER_PIC_BRENDAN : TRAINER_PIC_MAY)))
-        return Standard(base);
-    return base;
+    bool32 player = pic == TRAINER_PIC_BRENDAN || pic == TRAINER_PIC_MAY
+        || pic == TRAINER_PIC_RS_BRENDAN || pic == TRAINER_PIC_RS_MAY;
+    u32 gender = pic == TRAINER_PIC_MAY || pic == TRAINER_PIC_RS_MAY;
+    if (player && (sInIntro || gender == gSaveBlock2Ptr->playerGender))
+    {
+        pic = PlayerOutfit_TrainerPic(pic);
+        return Standard(front ? GetTrainerFrontPicPalette(pic) : GetTrainerBackPicPalette(pic));
+    }
+    return front ? GetTrainerFrontPicPalette(pic) : GetTrainerBackPicPalette(pic);
 }
+
 const u16 *DynamicPal_MugshotPalette(const u16 *base, u32 gender)
 {
     static const u8 skin[2][3]={{4,6,7},{4,5,7}};
@@ -131,8 +169,29 @@ static void RefreshPlayer(void)
     u32 gender = gSaveBlock2Ptr->playerGender == FEMALE;
     u8 slot = gSprites[gPlayerAvatar.spriteId].oam.paletteNum;
     const u16 *base = gender ? gObjectEventPal_May : gObjectEventPal_Brendan;
-    LoadPalette(Standard(base),OBJ_PLTT_ID(slot),PLTT_SIZE_4BPP);
+    ObjectEventSetGraphicsId(&gObjectEvents[gPlayerAvatar.objectEventId], PokeRide_IsActive() ? PokeRide_PlayerGraphics(gender) : GetPlayerAvatarGraphicsIdByCurrentState());
+    // Graphics changes may allocate a different palette slot.
+    slot = gSprites[gPlayerAvatar.spriteId].oam.paletteNum;
+    LoadPalette(DynamicPal_ObjectPalette(gender ? OBJ_EVENT_PAL_TAG_ARIA : OBJ_EVENT_PAL_TAG_AREN,base),OBJ_PLTT_ID(slot),PLTT_SIZE_4BPP);
     UpdateSpritePaletteWithWeather(slot,FALSE);
+}
+static void RefreshPreview(void)
+{
+    if (sMenu->preview >= MAX_SPRITES) return;
+    u32 pic = PlayerOutfit_TrainerPic(gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN);
+    struct Sprite *sprite = &gSprites[sMenu->preview];
+    if (sMenu->shownOutfit != PlayerOutfit_Get())
+    {
+        if (sprite->images != NULL)
+        {
+            DecompressDataWithHeaderWram(GetTrainerFrontPicData(pic), (void *)sprite->images[0].data);
+            StartSpriteAnim(sprite, 0);
+        }
+        else
+            DecompressDataWithHeaderVram(GetTrainerFrontPicData(pic), (void *)(OBJ_VRAM0 + sprite->oam.tileNum * TILE_SIZE_4BPP));
+        sMenu->shownOutfit = PlayerOutfit_Get();
+    }
+    LoadPalette(DynamicPal_TrainerPalette(pic,TRUE),OBJ_PLTT_ID(sprite->oam.paletteNum),PLTT_SIZE_4BPP);
 }
 static void DrawMenu(void)
 {
@@ -140,19 +199,15 @@ static void DrawMenu(void)
     u8 win = sMenu->window;
     u16 choice = DynamicPal_GetSelection();
     FillWindowPixelBuffer(win,PIXEL_FILL(1));
-    for (u32 i=0;i<3;i++)
+    for (u32 i=0;i<4;i++)
     {
         u32 value = (choice >> (i*4)) & 15;
-        AddTextPrinterParameterized4(win,FONT_SMALL,10,i*32,0,0,colors,TEXT_SKIP_DRAW,sLabels[i]);
-        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*32+14,0,0,colors,TEXT_SKIP_DRAW,i?sColorNames[value]:sSkinNames[value]);
-        if (sMenu->cursor==i) AddTextPrinterParameterized4(win,FONT_NORMAL,0,i*32+14,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING(">"));
+        AddTextPrinterParameterized4(win,FONT_SMALL,10,i*24,0,0,colors,TEXT_SKIP_DRAW,sLabels[i]);
+        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*24+12,0,0,colors,TEXT_SKIP_DRAW,i==3?sOutfitNames[PlayerOutfit_Get()]:i?sColorNames[value]:sSkinNames[value]);
+        if (sMenu->cursor==i) AddTextPrinterParameterized4(win,FONT_NORMAL,0,i*24+12,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING(">"));
     }
     CopyWindowToVram(win,COPYWIN_FULL);
-    if (sMenu->preview < MAX_SPRITES)
-    {
-        u32 pic = gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN;
-        LoadPalette(DynamicPal_TrainerPalette(pic,TRUE),OBJ_PLTT_ID(gSprites[sMenu->preview].oam.paletteNum),PLTT_SIZE_4BPP);
-    }
+    RefreshPreview();
     if (sMenu->field) RefreshPlayer();
 }
 static void CloseMenu(u8 taskId, bool32 accepted)
@@ -161,8 +216,8 @@ static void CloseMenu(u8 taskId, bool32 accepted)
     if (!accepted)
     {
         DynamicPal_SetSelection(sMenu->original);
-        if (sMenu->preview < MAX_SPRITES)
-            LoadPalette(DynamicPal_TrainerPalette(gSaveBlock2Ptr->playerGender==FEMALE?TRAINER_PIC_MAY:TRAINER_PIC_BRENDAN,TRUE),OBJ_PLTT_ID(gSprites[sMenu->preview].oam.paletteNum),PLTT_SIZE_4BPP);
+        PlayerOutfit_Set(sMenu->originalOutfit);
+        RefreshPreview();
     }
     if (sMenu->field) RefreshPlayer();
     ClearStdWindowAndFrameToTransparent(sMenu->window,TRUE);
@@ -175,10 +230,15 @@ static void Task_DynamicPalMenu(u8 taskId)
 {
     if (JOY_NEW(B_BUTTON)) {PlaySE(SE_SELECT);CloseMenu(taskId,FALSE);return;}
     if (JOY_NEW(A_BUTTON | START_BUTTON)) {PlaySE(SE_SELECT);CloseMenu(taskId,TRUE);return;}
-    if (JOY_NEW(DPAD_UP)) {sMenu->cursor=(sMenu->cursor+2)%3;DrawMenu();}
-    else if (JOY_NEW(DPAD_DOWN)) {sMenu->cursor=(sMenu->cursor+1)%3;DrawMenu();}
+    if (JOY_NEW(DPAD_UP)) {sMenu->cursor=(sMenu->cursor+3)%4;DrawMenu();}
+    else if (JOY_NEW(DPAD_DOWN)) {sMenu->cursor=(sMenu->cursor+1)%4;DrawMenu();}
     else if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
     {
+        if (sMenu->cursor == 3)
+        {
+            PlayerOutfit_Set(!PlayerOutfit_Get());
+            PlaySE(SE_SELECT);DrawMenu();return;
+        }
         u32 shift=sMenu->cursor*4;
         u32 count=sMenu->cursor?DYNAMIC_PAL_COLOR_COUNT:DYNAMIC_PAL_SKIN_COUNT;
         u16 choice=DynamicPal_GetSelection();
@@ -195,10 +255,10 @@ void DynamicPal_ShowMenu(u8 taskId, TaskFunc done, TaskFunc cancel, u8 previewSp
     if (!sMenu) {gTasks[taskId].func=cancel;return;}
     sMenu->window=AddWindow(&win);
     if (sMenu->window==WINDOW_NONE) {FREE_AND_SET_NULL(sMenu);gTasks[taskId].func=cancel;return;}
-    sMenu->done=done;sMenu->cancel=cancel;sMenu->original=DynamicPal_GetSelection();sMenu->preview=previewSprite;sMenu->field=field;
+    sMenu->done=done;sMenu->cancel=cancel;sMenu->original=DynamicPal_GetSelection();sMenu->originalOutfit=PlayerOutfit_Get();sMenu->shownOutfit=0xFF;sMenu->preview=previewSprite;sMenu->field=field;
     if (field)
     {
-        u32 pic=gSaveBlock2Ptr->playerGender==FEMALE?TRAINER_PIC_MAY:TRAINER_PIC_BRENDAN;
+        u32 pic=PlayerOutfit_TrainerPic(gSaveBlock2Ptr->playerGender==FEMALE?TRAINER_PIC_MAY:TRAINER_PIC_BRENDAN);
         sMenu->preview=CreateTrainerPicSprite(pic,TRUE,184,62,0,GetTrainerPicTag(pic,TRUE));
     }
     if (field) SetStandardWindowBorderStyle(sMenu->window,FALSE);

@@ -992,6 +992,8 @@ u8 CreateTrainerSprite(enum TrainerPicID trainerPicId, s16 x, s16 y, u8 subprior
     struct SpriteTemplate spriteTemplate;
     bool32 alloced = FALSE;
 
+    if (DynamicPal_IsIntro()) trainerPicId = PlayerOutfit_TrainerPic(trainerPicId);
+
     // Allocate memory for buffer
     if (buffer == NULL)
     {

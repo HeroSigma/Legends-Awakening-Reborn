@@ -926,3 +926,5 @@ const u16 gAquasPal_ApricornBlack[] = INCGFX_U16("graphics/object_events/pics/aq
 
 const u32 gObjectEventPic_BrendanRiding[] = INCBIN_U32("graphics/object_events/pics/people/brendan/riding.4bpp");
 const u32 gObjectEventPic_MayRiding[] = INCBIN_U32("graphics/object_events/pics/people/may/riding.4bpp");
+
+#include "player_outfit_graphics.h"

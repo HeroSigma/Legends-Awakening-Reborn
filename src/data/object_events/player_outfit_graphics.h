@@ -1,0 +1,21 @@
+// Ruby/Sapphire outfits: Modern Emerald / resetes12. See docs/features/player-outfits.
+const u32 gOutfitRsPic_BrendanNormal[] = INCGFX_U32("graphics/player_outfits/rs/brendan/normal_running.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gOutfitRsPic_BrendanMachBike[] = INCGFX_U32("graphics/player_outfits/rs/brendan/mach_bike.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanAcroBike[] = INCGFX_U32("graphics/player_outfits/rs/brendan/acro_bike.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanSurfing[] = INCGFX_U32("graphics/player_outfits/rs/brendan/surfing.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanUnderwater[] = INCGFX_U32("graphics/player_outfits/rs/brendan/underwater.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanFieldMove[] = INCGFX_U32("graphics/player_outfits/rs/brendan/field_move.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanFishing[] = INCGFX_U32("graphics/player_outfits/rs/brendan/fishing.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanWatering[] = INCGFX_U32("graphics/player_outfits/rs/brendan/watering.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_BrendanDecorating[] = INCGFX_U32("graphics/player_outfits/rs/brendan/decorating.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gOutfitRsPic_BrendanRiding[] = INCGFX_U32("graphics/player_outfits/rs/brendan/riding.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gOutfitRsPic_MayNormal[] = INCGFX_U32("graphics/player_outfits/rs/may/normal_running.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gOutfitRsPic_MayMachBike[] = INCGFX_U32("graphics/player_outfits/rs/may/mach_bike.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayAcroBike[] = INCGFX_U32("graphics/player_outfits/rs/may/acro_bike.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MaySurfing[] = INCGFX_U32("graphics/player_outfits/rs/may/surfing.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayUnderwater[] = INCGFX_U32("graphics/player_outfits/rs/may/underwater.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayFieldMove[] = INCGFX_U32("graphics/player_outfits/rs/may/field_move.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayFishing[] = INCGFX_U32("graphics/player_outfits/rs/may/fishing.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayWatering[] = INCGFX_U32("graphics/player_outfits/rs/may/watering.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u32 gOutfitRsPic_MayDecorating[] = INCGFX_U32("graphics/player_outfits/rs/may/decorating.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gOutfitRsPic_MayRiding[] = INCGFX_U32("graphics/player_outfits/rs/may/riding.png", ".4bpp", "-mwidth 2 -mheight 4");

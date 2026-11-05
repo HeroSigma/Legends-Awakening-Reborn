@@ -1717,7 +1717,7 @@ static void Task_NewGameBirchSpeech_SlideInNewGenderSprite(u8 taskId)
 static void Task_NewGameBirchSpeech_ChooseColors(u8 taskId)
 {
     NewGameBirchSpeech_ClearWindow(0);
-    StringCopy(gStringVar4, COMPOUND_STRING("Choose your colors.\nLeft/Right: change. A: done. B: back."));
+    StringCopy(gStringVar4, COMPOUND_STRING("Choose your look.\nLeft/Right: change. A: done. B: back."));
     AddTextPrinterWithCustomSpeedForMessage(FALSE,0);
     DynamicPal_ShowMenu(taskId,Task_NewGameBirchSpeech_WhatsYourName,Task_NewGameBirchSpeech_BoyOrGirl,gTasks[taskId].tPlayerSpriteId,FALSE);
 }

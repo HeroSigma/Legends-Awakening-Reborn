@@ -3339,6 +3339,10 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
     if (graphicsId & OBJ_EVENT_MON)
         return SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
 
+    const struct ObjectEventGraphicsInfo *outfitGraphics = GetPlayerOutfitGraphics(graphicsId);
+    if (outfitGraphics != NULL)
+        return outfitGraphics;
+
     /* Selected NPC roles override old map-specific visual substitutions. */
     const struct ObjectEventGraphicsInfo *rosterGraphics = GetLaNpcRosterGraphics(graphicsId);
     if (rosterGraphics != NULL)

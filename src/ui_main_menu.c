@@ -665,6 +665,14 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
             LoadSpritePaletteWithTag(DynamicPal_MugshotPalette(sSpritePal_MayMugshot.data, FEMALE), TAG_MUGSHOT);
             LoadPalette(sMainBgPaletteFem, 0, 32);
         }
+        if (PlayerOutfit_Get())
+        {
+            u32 pic = PlayerOutfit_TrainerPic(gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN);
+            struct CompressedSpriteSheet sheet = {GetTrainerFrontPicData(pic), 0x800, TAG_MUGSHOT};
+            FreeSpriteTilesByTag(TAG_MUGSHOT);
+            LoadCompressedSpriteSheet(&sheet);
+            LoadSpritePaletteWithTag(DynamicPal_TrainerPalette(pic, TRUE), TAG_MUGSHOT);
+        }
         LoadPalette(sScrollBgPalette, 16, 32);
     }
         sMainMenuDataPtr->gfxLoadState++;

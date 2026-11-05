@@ -1,0 +1,174 @@
+{
+  "rom_sha256": "9c6fd81a394052e926ac7a99ca855c03d2ce7e9a3ca3d31d27b3e1a63dcc3ad9",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_0",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_1",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_2",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_3",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_4",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_5",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_6",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_7",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_8",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_9",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_10",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_11",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_12",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_13",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_14",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_15",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_16",
+      "passed": true
+    },
+    {
+      "test": "render_0_walking_running_tiles_17",
+      "passed": true
+    },
+    {
+      "test": "render_0_rs_battle_picture",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_0",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_1",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_2",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_3",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_4",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_5",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_6",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_7",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_8",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_9",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_10",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_11",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_12",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_13",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_14",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_15",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_16",
+      "passed": true
+    },
+    {
+      "test": "render_1_walking_running_tiles_17",
+      "passed": true
+    },
+    {
+      "test": "render_1_rs_battle_picture",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

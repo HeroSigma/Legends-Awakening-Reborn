@@ -1,0 +1,246 @@
+{
+  "rom_sha256": "9c6fd81a394052e926ac7a99ca855c03d2ce7e9a3ca3d31d27b3e1a63dcc3ad9",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_legacy_defaults_emerald",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_live_style",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_style_keeps_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_walking_changes",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_cancel_restores_style",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_accepted_style_and_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_NORMAL",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_MACH_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_ACRO_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_SURFING",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_UNDERWATER",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_FIELD_MOVE",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_FISHING",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_WATERING",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_alternate_DECORATING",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_player_front_and_back",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_save",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_load",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_persist_both",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_boxed_partner_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_mount_starts",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_mount_uses_rs",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_water_mount_uses_rs",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_dismount_keeps_rs",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_invalid_is_emerald",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_reopen_cancel_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_reopen_cancel_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_reopen_cancel_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_legacy_defaults_emerald",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_live_style",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_style_keeps_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_walking_changes",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_cancel_restores_style",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_accepted_style_and_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_NORMAL",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_MACH_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_ACRO_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_SURFING",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_UNDERWATER",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_FIELD_MOVE",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_FISHING",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_WATERING",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_alternate_DECORATING",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_player_front_and_back",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_save",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_load",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_persist_both",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_boxed_partner_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_mount_starts",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_mount_uses_rs",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_water_mount_uses_rs",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_dismount_keeps_rs",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_invalid_is_emerald",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_reopen_cancel_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_reopen_cancel_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_reopen_cancel_2",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

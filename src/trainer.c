@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "constants/trainers.h"
 
 static enum TrainerPicID GetEmeraldTrainerPic(enum Gender gender)
@@ -27,6 +28,6 @@ enum TrainerPicID GetPlayerTrainerPic(enum Gender gender, enum GameVersion versi
             return GetKantoTrainerPic(gender);
         case VERSION_EMERALD:
         default:
-            return GetEmeraldTrainerPic(gender);
+            return PlayerOutfit_TrainerPic(GetEmeraldTrainerPic(gender));
     }
 }
