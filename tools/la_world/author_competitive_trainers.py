@@ -213,6 +213,9 @@ for i in range(1,len(P),2):
  choice=bool(boss and boss not in ['WALLY','RED','LEAF','STEVEN'])
  if key=='TRAINER_GRUNT_PETALBURG_WOODS':
   team=['PAWNIARD','ZUBAT','KOFFING','SNEASEL','ZORUA','ABSOL'];weather='balance';level=16;major=True;choice=False
+ if key=='TRAINER_SILVER_RUSTBORO':
+  team='ZUBAT GASTLY MAGNEMITE ABRA SNEASEL TOTODILE'.split()
+  weather='balance';level=20;major=True;choice=False
  profiles[key]=dict(name=name,trainer_class=cls,species=team,theme=weather,level=level,shiny_ace=major,format_choice=choice)
  if context:profiles[key].update(location_theme=context[0],location_sources=[name for name,_ in context[2]])
  out.append('    ['+key+'] = {{'+','.join('SPECIES_'+sp for sp in team)+'}, '+str(level)+', THEME_'+weather.upper()+', '+str(int(major))+', '+str(int(choice))+'},')

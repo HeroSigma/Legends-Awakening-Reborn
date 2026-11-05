@@ -1,0 +1,350 @@
+{
+  "rom_sha256": "e88d6097cdf79e8fd7a41faac65a5a986fe9f5dccf38f19906dcf4f7a493ed92",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Accept_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Accept_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Admission_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Admission_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Admission_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Admission_3",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Admission_4",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_After_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_After_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Briney_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Briney_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Briney_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Briney_3",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Briney_4",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Challenge_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Challenge_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Challenge_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Challenge_3",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Farewell_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Farewell_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Hoenn_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Hoenn_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Introduce_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Introduce_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Johto_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Johto_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Johto_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Johto_3",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Leave_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Leave_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Leave_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_MayHeal_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_MayHeal_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_MayHeal_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_MayStartled_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Name_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Name_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Name_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Offer_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Offer_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Offer_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Offer_3",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Offscreen_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Partner_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Partner_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_PlayerNav_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_PlayerNav_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Report_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Report_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Retry_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Retry_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_RetryHeal_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_RetryHeal_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_RetryHeal_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Rift_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Rift_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Rift_2",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Totodile_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Totodile_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Where_0",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Where_1",
+      "passed": true
+    },
+    {
+      "test": "width_LegendsRustboroRivals_Text_Where_2",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayHiLetsRegister_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayHiLetsRegister_1",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayHiLetsRegister_2",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayImNotGoingToLose_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayImNotGoingToLose_1",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayImNotGoingToLose_2",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayMrBrineyHint_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayMrBrineyHint_1",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayMrBrineyHint_2",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayMrBrineyHint_3",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayOhHaventRaisedPokemonEnough_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayOhHaventRaisedPokemonEnough_1",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayPassedBrineyWantToBattle_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayPassedBrineyWantToBattle_1",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayPassedBrineyWantToBattle_2",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayPassedBrineyWantToBattle_3",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_MayWantToBattle_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_RegisteredMay_0",
+      "passed": true
+    },
+    {
+      "test": "width_RustboroCity_Text_RegisteredMay_1",
+      "passed": true
+    }
+  ],
+  "text_labels": 32,
+  "max_width": 208,
+  "player_name": "WWWWWWW",
+  "starter": "Rockruff",
+  "failures": []
+}

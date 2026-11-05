@@ -14271,6 +14271,22 @@
       "level": 75,
       "shiny_ace": true,
       "format_choice": false
+    },
+    "TRAINER_SILVER_RUSTBORO": {
+      "name": "Silver",
+      "trainer_class": "Rival",
+      "species": [
+        "ZUBAT",
+        "GASTLY",
+        "MAGNEMITE",
+        "ABRA",
+        "SNEASEL",
+        "TOTODILE"
+      ],
+      "theme": "balance",
+      "level": 20,
+      "shiny_ace": true,
+      "format_choice": false
     }
   },
   "excluded": {

@@ -765,7 +765,9 @@ static bool32 MatchCall_GetEnabled_Wally(match_call_t matchCall)
 
 static bool32 MatchCall_GetEnabled_Rival(match_call_t matchCall)
 {
-    if (matchCall.rival->playerGender != gSaveBlock2Ptr->playerGender)
+    // Both siblings are established rivals in the Legends opening chapter.
+    if (!FlagGet(FLAG_LA_MET_BRENDAN_AND_MAY)
+        && matchCall.rival->playerGender != gSaveBlock2Ptr->playerGender)
         return FALSE;
     if (matchCall.rival->flag == 0xFFFF)
         return TRUE;

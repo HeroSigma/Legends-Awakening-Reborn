@@ -1,3 +1,5 @@
+const u32 gTrainerFrontPic_SilverHns[] = INCGFX_U32("graphics/trainers/front_pics/silver_hns.png", ".4bpp.smol");
+const u16 gTrainerPalette_SilverHns[] = INCGFX_U16("graphics/trainers/palettes/silver_hns.pal", ".gbapal");
 #include "constants/trainers.h"
 #include "data.h"
 const u32 gTrainerFrontPic_ShadowTriad[] = INCGFX_U32("graphics/trainers/front_pics/shadow_triad.png", ".4bpp.smol");
@@ -680,6 +682,10 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     [TRAINER_PIC_HIKER] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Hiker, gTrainerPalette_Hiker),
+    },
+    [TRAINER_PIC_SILVER_HNS] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_SilverHns, gTrainerPalette_SilverHns),
     },
     [TRAINER_PIC_SHADOW_TRIAD] =
     {

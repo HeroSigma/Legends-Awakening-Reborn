@@ -1,0 +1,1315 @@
+{
+  "rom_sha256": "e88d6097cdf79e8fd7a41faac65a5a986fe9f5dccf38f19906dcf4f7a493ed92",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_0_12_3_may",
+      "passed": true
+    },
+    {
+      "test": "may_for_both_genders_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "both_contacts_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "north_entry_0_0_12_3_silver",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_0_0_12_3_silver",
+      "passed": true
+    },
+    {
+      "test": "may_win_preserved_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "silver_not_completed_before_win_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "fixed_single_battle_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "full_heal_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_0",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_0",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_0",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_1",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_1",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_1",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_2",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_2",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_2",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_3",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_3",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_3",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_4",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_4",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_4",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_0_12_3_5",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_0_12_3_5",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_0_12_3_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hns_portrait_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "two_heals_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_0_12_3_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hidden_after_win_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "controls_returned_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "all_dialogue_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "save_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "load_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "no_replay_0_0_12_3",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_1_19_8_may",
+      "passed": true
+    },
+    {
+      "test": "may_for_both_genders_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "both_contacts_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "north_entry_1_1_19_8_silver",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_1_1_19_8_silver",
+      "passed": true
+    },
+    {
+      "test": "may_win_preserved_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "silver_not_completed_before_win_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "fixed_single_battle_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "full_heal_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_0",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_0",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_0",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_1",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_1",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_1",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_2",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_2",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_2",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_3",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_3",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_3",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_4",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_4",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_4",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_1_19_8_5",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_1_19_8_5",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_1_19_8_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hns_portrait_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "two_heals_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_0",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_1",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_2",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_3",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_4",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_1_19_8_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hidden_after_win_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "controls_returned_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "all_dialogue_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "save_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "load_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "no_replay_1_1_19_8",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_0_1_19_5_may",
+      "passed": true
+    },
+    {
+      "test": "may_for_both_genders_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "both_contacts_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "north_entry_0_1_19_5_silver",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_0_1_19_5_silver",
+      "passed": true
+    },
+    {
+      "test": "may_win_preserved_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "silver_not_completed_before_win_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "fixed_single_battle_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "full_heal_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_0",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_0",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_0",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_1",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_1",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_1",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_2",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_2",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_2",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_3",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_3",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_3",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_4",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_4",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_4",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_0_1_19_5_5",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_0_1_19_5_5",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_0_1_19_5_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hns_portrait_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "two_heals_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_0",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_1",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_2",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_3",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_4",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_0_1_19_5_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hidden_after_win_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "controls_returned_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "all_dialogue_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "save_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "load_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "no_replay_0_1_19_5",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_1_0_12_4_may",
+      "passed": true
+    },
+    {
+      "test": "may_for_both_genders_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "both_contacts_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "north_entry_1_0_12_4_silver",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_1_0_12_4_silver",
+      "passed": true
+    },
+    {
+      "test": "may_win_preserved_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "silver_not_completed_before_win_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "fixed_single_battle_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "full_heal_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_0",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_0",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_0",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_1",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_1",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_1",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_2",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_2",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_2",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_3",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_3",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_3",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_4",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_4",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_4",
+      "passed": true
+    },
+    {
+      "test": "canonical_family_1_0_12_4_5",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_1_0_12_4_5",
+      "passed": true
+    },
+    {
+      "test": "perfect_ivs_1_0_12_4_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hns_portrait_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "two_heals_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_0",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_1",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_2",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_3",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_4",
+      "passed": true
+    },
+    {
+      "test": "legal_and_capped_1_0_12_4_5",
+      "passed": true
+    },
+    {
+      "test": "silver_hidden_after_win_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "controls_returned_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "all_dialogue_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "save_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "load_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "no_replay_1_0_12_4",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "only_may_acceptance_prompt_retry_may",
+      "passed": true
+    },
+    {
+      "test": "north_entry_retry_first",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_retry_first",
+      "passed": true
+    },
+    {
+      "test": "loss_keeps_may_win_and_silver_pending",
+      "passed": true
+    },
+    {
+      "test": "pending_save",
+      "passed": true
+    },
+    {
+      "test": "pending_load",
+      "passed": true
+    },
+    {
+      "test": "silver_waits_after_reload",
+      "passed": true
+    },
+    {
+      "test": "retry_heals",
+      "passed": true
+    },
+    {
+      "test": "retry_can_complete",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "north_entry_existing_may_win",
+      "passed": true
+    },
+    {
+      "test": "arrival_positions_existing_may_win",
+      "passed": true
+    },
+    {
+      "test": "existing_save_skips_may_fight",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "battle_outcomes": "Injected after native turn readiness; difficulty is not inferred."
+}
