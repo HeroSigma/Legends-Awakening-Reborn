@@ -1,0 +1,150 @@
+{
+  "rom_sha256": "0afdfb17a0401e4a1014e93bc950da003185b2df45fc41dde3611fbb5a0efb12",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_31_all",
+      "passed": true
+    },
+    {
+      "test": "0_damage_preserved",
+      "passed": true
+    },
+    {
+      "test": "0_ev_budget",
+      "passed": true
+    },
+    {
+      "test": "0_legal_ability",
+      "passed": true
+    },
+    {
+      "test": "0_nature_effects",
+      "passed": true
+    },
+    {
+      "test": "0_identity_and_tera_preserved",
+      "passed": true
+    },
+    {
+      "test": "0_cycles_to_second_mon",
+      "passed": true
+    },
+    {
+      "test": "0_fainted_stays_fainted",
+      "passed": true
+    },
+    {
+      "test": "0_return_index",
+      "passed": true
+    },
+    {
+      "test": "0_last_box_edited",
+      "passed": true
+    },
+    {
+      "test": "0_save",
+      "passed": true
+    },
+    {
+      "test": "0_reload",
+      "passed": true
+    },
+    {
+      "test": "0_box_edit_persisted",
+      "passed": true
+    },
+    {
+      "test": "0_party_edits_persisted",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "1_31_all",
+      "passed": true
+    },
+    {
+      "test": "1_damage_preserved",
+      "passed": true
+    },
+    {
+      "test": "1_ev_budget",
+      "passed": true
+    },
+    {
+      "test": "1_legal_ability",
+      "passed": true
+    },
+    {
+      "test": "1_nature_effects",
+      "passed": true
+    },
+    {
+      "test": "1_identity_and_tera_preserved",
+      "passed": true
+    },
+    {
+      "test": "1_cycles_to_second_mon",
+      "passed": true
+    },
+    {
+      "test": "1_fainted_stays_fainted",
+      "passed": true
+    },
+    {
+      "test": "1_return_index",
+      "passed": true
+    },
+    {
+      "test": "1_last_box_edited",
+      "passed": true
+    },
+    {
+      "test": "1_save",
+      "passed": true
+    },
+    {
+      "test": "1_reload",
+      "passed": true
+    },
+    {
+      "test": "1_box_edit_persisted",
+      "passed": true
+    },
+    {
+      "test": "1_party_edits_persisted",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "scientist_presets_retained",
+      "passed": true
+    },
+    {
+      "test": "scientist_level_retained",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

@@ -16,7 +16,8 @@
 #include "text.h"
 
 // Only transient script variables are used. No money, items or save fields.
-static const u8 *const sServices[] = {COMPOUND_STRING("Inspect build"), COMPOUND_STRING("EV training"), COMPOUND_STRING("Reset all EVs"), COMPOUND_STRING("IV adjustment"), COMPOUND_STRING("Nature effects"), COMPOUND_STRING("Ability"), COMPOUND_STRING("Level catch-up"), COMPOUND_STRING("EV presets"), COMPOUND_STRING("Done")};
+static const u8 *const sServices[] = {COMPOUND_STRING("Level catch-up"),COMPOUND_STRING("EV presets"),COMPOUND_STRING("Done")};
+static const u8 sServiceActions[] = {6,7,8};
 static const u8 *const sStats[] = {COMPOUND_STRING("HP"), COMPOUND_STRING("Attack"), COMPOUND_STRING("Defense"), COMPOUND_STRING("Sp. Attack"), COMPOUND_STRING("Sp. Defense"), COMPOUND_STRING("Speed")};
 static const u8 sEVFields[] = {MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
 static const u8 sIVFields[] = {MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
@@ -64,7 +65,7 @@ void LegendsTraining_Menu(void)
     struct ListMenuItem *items=AllocZeroed(sizeof(*items)*254);
     if (!items) {gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
     if (kind==0) {
-        for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],i);
+        for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],sServiceActions[i]);
     } else if (kind==8) {
         current=gSpecialVar_0x8007<ARRAY_COUNT(sEVPresets)?gSpecialVar_0x8007:0;
         for (u32 i=0;i<ARRAY_COUNT(sEVPresets);i++) MenuItem(items,count++,sEVPresetNames[i],i);

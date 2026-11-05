@@ -1,4 +1,6 @@
 #include "global.h"
+#include "stat_editor.h"
+#include "overworld.h"
 #include "main.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -489,11 +491,46 @@ static void TrySetInfoPageIcons(void);
 static void RunMonAnimTimer(void);
 static bool32 ShouldShowMoveRelearner(void);
 static bool32 ShouldShowRename(void);
+static bool32 CanOpenStatEditor(void);
+static struct BoxPokemon *GetCurrentBoxmon(void);
+static void CB2_OpenSummaryStatEditor(void);
 static void ShowCancelOrRenamePrompt(void);
 static void CB2_ReturnToSummaryScreenFromNamingScreen(void);
 static void CB2_PssChangePokemonNickname(void);
 static void UpdateMoveRelearnerState(void);
 static void PrintRightAlignedPrompt(u8, u8, const u8*, int, u8);
+
+struct StatEditorReturnContext
+{
+    void *mons;
+    MainCallback callback;
+    u8 maxIndex;
+    bool8 isBox;
+};
+static EWRAM_DATA struct StatEditorReturnContext *sStatEditorReturn;
+
+static bool32 CanOpenStatEditor(void)
+{
+    return !gMain.inBattle && !gReceivedRemoteLinkPlayers
+        && !sMonSummaryScreen->lockMovesFlag
+        && !sMonSummaryScreen->summary.isEgg
+        && !GetBoxMonData(GetCurrentBoxmon(), MON_DATA_SANITY_IS_BAD_EGG)
+        && sMonSummaryScreen->mode != SUMMARY_MODE_BOX_CURSOR
+        && !InBattleFactory() && !InSlateportBattleTent()
+        && (sMonSummaryScreen->isBoxMon || sMonSummaryScreen->monList.mons == gParties[B_TRAINER_PLAYER]);
+}
+static void CB2_OpenSummaryStatEditor(void)
+{
+    StatEditor_Init(StatEditor_ReturnToSummary);
+}
+void StatEditor_ReturnToSummary(void)
+{
+    if (!sStatEditorReturn) {SetMainCallback2(CB2_ReturnToField);return;}
+    struct StatEditorReturnContext context=*sStatEditorReturn;
+    FREE_AND_SET_NULL(sStatEditorReturn);
+    if (context.isBox) gSpecialVar_MonBoxPos=gLastViewedMonIndex;
+    ShowPokemonSummaryScreen(SUMMARY_MODE_STAT_EDITOR,context.mons,context.isBox?PC_MON_CHOSEN:gLastViewedMonIndex,context.maxIndex,context.callback);
+}
 
 // const rom data
 
@@ -1894,6 +1931,7 @@ void ShowPokemonSummaryScreen_SwSh(u8 mode, void *mons, u8 monIndex, u8 maxMonIn
     switch (mode)
     {
     case SUMMARY_MODE_NORMAL:
+    case SUMMARY_MODE_STAT_EDITOR:
     case SUMMARY_MODE_BOX:
     case SUMMARY_MODE_BOX_CURSOR:
     case SUMMARY_MODE_RELEARNER_BATTLE:
@@ -1913,7 +1951,9 @@ void ShowPokemonSummaryScreen_SwSh(u8 mode, void *mons, u8 monIndex, u8 maxMonIn
         break;
     }
 
-    if (mode == SUMMARY_MODE_RELEARNER_BATTLE)
+    if (mode == SUMMARY_MODE_STAT_EDITOR)
+        sMonSummaryScreen->currPageIndex = PSS_PAGE_SKILLS;
+    else if (mode == SUMMARY_MODE_RELEARNER_BATTLE)
         sMonSummaryScreen->currPageIndex = PSS_PAGE_BATTLE_MOVES;
     else if (mode == SUMMARY_MODE_RELEARNER_CONTEST)
         sMonSummaryScreen->currPageIndex = PSS_PAGE_CONTEST_MOVES;
@@ -2643,7 +2683,10 @@ static void DrawNextSkillsButtonPrompt(u8 mode)
     default:                text = sText_ViewStats; break;
     }
     FillWindowPixelBuffer(PSS_LABEL_WINDOW_PROMPT_IV_EV_STATS, PIXEL_FILL(0));
-    PrintRightAlignedPrompt(PSS_LABEL_WINDOW_PROMPT_IV_EV_STATS, BUTTON_A, text, 76, 1);
+    if (CanOpenStatEditor())
+        PrintRightAlignedPrompt(PSS_LABEL_WINDOW_PROMPT_IV_EV_STATS, BUTTON_START, COMPOUND_STRING("Edit"), 76, 1);
+    else
+        PrintRightAlignedPrompt(PSS_LABEL_WINDOW_PROMPT_IV_EV_STATS, BUTTON_A, text, 76, 1);
     ScheduleBgCopyTilemapToVram(0);
 }
 
@@ -2704,6 +2747,22 @@ static void Task_HandleInput(u8 taskId)
         }
         else if (JOY_NEW(START_BUTTON))
         {
+            if (sMonSummaryScreen->currPageIndex == PSS_PAGE_SKILLS && CanOpenStatEditor())
+            {
+                sStatEditorReturn=AllocZeroed(sizeof(*sStatEditorReturn));
+                if (!sStatEditorReturn) {PlaySE(SE_FAILURE);return;}
+                sStatEditorReturn->mons=sMonSummaryScreen->monList.mons;
+                sStatEditorReturn->callback=sMonSummaryScreen->callback;
+                sStatEditorReturn->maxIndex=sMonSummaryScreen->maxMonIndex;
+                sStatEditorReturn->isBox=sMonSummaryScreen->isBoxMon;
+                gSpecialVar_0x8004=sMonSummaryScreen->isBoxMon?PC_MON_CHOSEN:sMonSummaryScreen->curMonIndex;
+                gSpecialVar_MonBoxPos=sMonSummaryScreen->curMonIndex;
+                if (sMonSummaryScreen->isBoxMon) gSpecialVar_MonBoxId=StorageGetCurrentBox();
+                gLastViewedMonIndex=sMonSummaryScreen->curMonIndex;
+                sMonSummaryScreen->callback=CB2_OpenSummaryStatEditor;
+                StopPokemonAnimations();PlaySE(SE_SELECT);BeginCloseSummaryScreen(taskId);
+                return;
+            }
             if (sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO && ShouldShowRename())
             {
                 if (sMonSummaryScreen->isBoxMon)

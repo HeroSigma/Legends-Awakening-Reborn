@@ -19,38 +19,8 @@ LegendsTraining_Main:
     goto_if_ge VAR_RESULT, 8, LegendsTraining_End
     copyvar VAR_0x8008, VAR_RESULT
     goto_if_eq VAR_RESULT, 7, LegendsTraining_PresetsStart
-    goto_if_eq VAR_RESULT, 0, LegendsTraining_InspectBuild
-    goto_if_eq VAR_RESULT, 2, LegendsTraining_Reset
-    goto_if_eq VAR_RESULT, 4, LegendsTraining_Nature
-    goto_if_eq VAR_RESULT, 5, LegendsTraining_Ability
     goto_if_eq VAR_RESULT, 6, LegendsTraining_Level
-    setvar VAR_0x8006, 0
-LegendsTraining_Stats:
-    call_if_eq VAR_0x8008, 1, LegendsTraining_ShowEVBudget
-    setvar VAR_0x8005, 1
-    special LegendsTraining_Menu
-    goto_if_eq VAR_RESULT, 6, LegendsTraining_AllIVs
-    goto_if_ge VAR_RESULT, 6, LegendsTraining_Main
-    copyvar VAR_0x8006, VAR_RESULT
-    goto_if_eq VAR_0x8008, 3, LegendsTraining_IV
-    setvar VAR_0x8005, 2
-    special LegendsTraining_Menu
-    goto_if_ge VAR_RESULT, 4, LegendsTraining_Stats
-    goto_if_eq VAR_RESULT, 3, LegendsTraining_ExactEV
-    setvar VAR_0x8007, 252
-    goto_if_eq VAR_RESULT, 0, LegendsTraining_Confirm
-    setvar VAR_0x8007, 4
-    goto_if_eq VAR_RESULT, 1, LegendsTraining_Confirm
-    setvar VAR_0x8007, 0
-    goto LegendsTraining_Confirm
-LegendsTraining_ShowEVBudget:
-    special LegendsTraining_EVBudget
-    message gStringVar4
-    waitmessage
-    return
-LegendsTraining_ExactEV:
-    setvar VAR_0x8005, 5
-    goto LegendsTraining_Number
+    goto LegendsTraining_End
 LegendsTraining_PresetsStart:
     setvar VAR_0x8007, 0
 LegendsTraining_Presets:
@@ -60,14 +30,6 @@ LegendsTraining_Presets:
     setvar VAR_0x8008, 8
     copyvar VAR_0x8007, VAR_RESULT
     goto LegendsTraining_Confirm
-LegendsTraining_AllIVs:
-    setvar VAR_0x8006, 6
-    setvar VAR_0x8008, 7
-    setvar VAR_0x8007, 31
-    goto LegendsTraining_Confirm
-LegendsTraining_IV:
-    setvar VAR_0x8005, 6
-    goto LegendsTraining_Number
 LegendsTraining_Level:
     setvar VAR_0x8005, 7
 LegendsTraining_Number:
@@ -76,20 +38,6 @@ LegendsTraining_Number:
     copyvar VAR_0x8007, VAR_RESULT
     subvar VAR_0x8007, 256
     goto LegendsTraining_Confirm
-LegendsTraining_Reset:
-    setvar VAR_0x8007, 0
-    goto LegendsTraining_Confirm
-LegendsTraining_Nature:
-    setvar VAR_0x8005, 3
-    special LegendsTraining_Menu
-    goto_if_ge VAR_RESULT, NUM_NATURES, LegendsTraining_Main
-    copyvar VAR_0x8007, VAR_RESULT
-    goto LegendsTraining_Confirm
-LegendsTraining_Ability:
-    setvar VAR_0x8005, 4
-    special LegendsTraining_Menu
-    goto_if_ge VAR_RESULT, NUM_ABILITY_SLOTS, LegendsTraining_Main
-    copyvar VAR_0x8007, VAR_RESULT
 LegendsTraining_Confirm:
     special LegendsTraining_Prepare
     goto_if_eq VAR_RESULT, 1, LegendsTraining_Egg
@@ -109,20 +57,7 @@ LegendsTraining_Confirm:
     goto LegendsTraining_Main
 LegendsTraining_Return:
     closemessage
-    goto_if_eq VAR_0x8008, 1, LegendsTraining_Stats
-    goto_if_eq VAR_0x8008, 3, LegendsTraining_Stats
-    goto_if_eq VAR_0x8008, 7, LegendsTraining_ReturnIVs
-    goto_if_eq VAR_0x8008, 4, LegendsTraining_Nature
-    goto_if_eq VAR_0x8008, 5, LegendsTraining_Ability
     goto_if_eq VAR_0x8008, 8, LegendsTraining_Presets
-    goto LegendsTraining_Main
-LegendsTraining_ReturnIVs:
-    setvar VAR_0x8008, 3
-    goto LegendsTraining_Stats
-LegendsTraining_InspectBuild:
-    closemessage
-    special LegendsTraining_ShowBuild
-    goto_if_ne VAR_RESULT, 0, LegendsTraining_Egg
     goto LegendsTraining_Main
 LegendsTraining_EVLimit:
     msgbox LegendsTraining_Text_EVLimit, MSGBOX_DEFAULT
@@ -142,7 +77,7 @@ LegendsTraining_End:
     release
     end
 LegendsTraining_Text_Welcome:
-    .string "I help partners reach their potential.\nAll training here is free.\pChoose a POKéMON to get started.$"
+    .string "I offer free level catch-up and\nEV presets for your partners.\pFor individual stats, press START\non the summary's Stats page.\pChoose a POKéMON to train.$"
 LegendsTraining_Text_Done:
     .string "Your partner's training is complete!$"
 LegendsTraining_Text_Level:
