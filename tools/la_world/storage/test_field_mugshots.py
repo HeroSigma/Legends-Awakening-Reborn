@@ -51,7 +51,7 @@ for mode in [0,1]:
  check('custom_player_palette_'+str(mode),all(rd(symbols['gPlttBufferUnfaded']+(256+16*slot+i)*2,2)==rd(ptr+i*2,2) for i in range(16)))
  capture(f'mode{mode}_custom_PLAYER');clean('custom_player')
  rival='MAY' if mode else 'BRENDAN'
- show(rival);slot=invoke('IndexOfSpritePaletteTag',0xb75a);ptr=symbols['gTrainerPalette_May' if mode else 'gTrainerPalette_Brendan']
+ show(rival);slot=invoke('IndexOfSpritePaletteTag',0xb75a);ptr=symbols['gTrainerPalette_HyperRivalMay' if mode else 'gTrainerPalette_HyperRivalBrendan']
  check('rival_palette_unchanged_'+str(mode),all(rd(symbols['gPlttBufferUnfaded']+(256+16*slot+i)*2,2)==rd(ptr+i*2,2) for i in range(16)))
  clean('custom_rival');invoke('DynamicPal_SetSelection',0)
  # Palette exhaustion must not reclaim an encounter palette.

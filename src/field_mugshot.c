@@ -33,8 +33,8 @@ static const struct SpriteTemplate sFieldPortraitTemplate = {
     .affineAnims = gDummySpriteAffineAnimTable, .callback = PortraitCallback,
 };
 static const struct {u16 speaker, pic;} sPortraits[] = {
-    {SP_NAME_BRENDAN, TRAINER_PIC_BRENDAN},
-    {SP_NAME_MAY, TRAINER_PIC_MAY},
+    {SP_NAME_BRENDAN, TRAINER_PIC_HYPER_RIVAL_BRENDAN},
+    {SP_NAME_MAY, TRAINER_PIC_HYPER_RIVAL_MAY},
     {SP_NAME_RED, TRAINER_PIC_RED},
     {SP_NAME_SILVER, TRAINER_PIC_SILVER_HNS},
     {SP_NAME_WALLY, TRAINER_PIC_WALLY},
