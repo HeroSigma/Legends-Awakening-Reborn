@@ -192,7 +192,7 @@
 #define VAR_TRICK_HOUSE_BEING_WATCHED_STATE              0x40A5
 #define VAR_TRICK_HOUSE_FOUND_TRICK_MASTER               0x40A6
 #define VAR_TRICK_HOUSE_ENTRANCE_STATE                   0x40A7
-#define VAR_UNUSED_0x40A8                                0x40A8 // Unused Var
+#define VAR_LA_DIFFICULTY                                 0x40A8 // 0 defaults to Normal
 #define VAR_CYCLING_CHALLENGE_STATE                      0x40A9
 #define VAR_SLATEPORT_MUSEUM_1F_STATE                    0x40AA
 #define VAR_TRICK_HOUSE_PUZZLE_1_STATE                   0x40AB
@@ -208,10 +208,10 @@
 #define VAR_TRICK_HOUSE_ENTER_FROM_CORRIDOR              0x40B5
 #define VAR_TRICK_HOUSE_PUZZLE_7_STATE_2                 0x40B6 // Leftover from RS, never set
 #define VAR_SLATEPORT_FAN_CLUB_STATE                     0x40B7
-#define VAR_UNUSED_0x40B8                                0x40B8 // Unused Var
+#define VAR_LA_DEXNAV_CHAIN_SPECIES                       0x40B8
 #define VAR_MT_PYRE_STATE                                0x40B9
 #define VAR_NEW_MAUVILLE_STATE                           0x40BA
-#define VAR_UNUSED_0x40BB                                0x40BB // Unused Var
+#define VAR_LA_PARADIGM_ARC                              0x40BB // 0 rescue, 1 Wattson, 2 call, 3 family, 4 woods lead
 #define VAR_BRAVO_TRAINER_BATTLE_TOWER_ON                0x40BC
 #define VAR_JAGGED_PASS_ASH_WEATHER                      0x40BD
 #define VAR_GLASS_WORKSHOP_STATE                         0x40BE
@@ -243,12 +243,12 @@
 #define VAR_SOOTOPOLIS_WALLACE_STATE                     0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE                         0x40DA
-#define VAR_UNUSED_0x40DB                                0x40DB // Unused Var
-#define VAR_UNUSED_0x40DC                                0x40DC // Unused Var
+#define VAR_LA_POWERPLANT_STATE                          0x40DB // 0 arrival, 1 reactor, 2 Wattson, 3 Wally, 4 return
+#define VAR_LA_MAUVILLE_RIFT                             0x40DC // 0 unseen, 1 open, 2 returning, 3 resolved
 #define VAR_GIFT_PICHU_SLOT                              0x40DD
-#define VAR_GIFT_UNUSED_1                                0x40DE // Var is written to, but never read
-#define VAR_GIFT_UNUSED_2                                0x40DF // Var is written to, but never read
-#define VAR_GIFT_UNUSED_3                                0x40E0 // Var is written to, but never read
+#define VAR_GIFT_UNUSED_1                                0x40DE // Reserved: Legends Rift Tracker
+#define VAR_GIFT_UNUSED_2                                0x40DF // Reserved: Legends rift survey
+#define VAR_GIFT_UNUSED_3                                0x40E0 // Reserved: Oak gift and Blue introduction
 #define VAR_GIFT_UNUSED_4                                0x40E1 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_5                                0x40E2 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_6                                0x40E3 // Var is written to, but never read
@@ -369,3 +369,9 @@
 #define VAR_LA_FOLLOWER_OT_HI VAR_UNUSED_0x40FE
 
 #define VAR_LA_FOLLOWER_SPECIES VAR_UNUSED_0x40FF
+
+// Dedicated story slots repurposed from unused Mystery Gift fields; no save resizing.
+#define VAR_LA_RIFT_TRACKER VAR_GIFT_UNUSED_1 // 0 unknown, 1 lab invitation, 2 detector installed
+#define VAR_LA_RIFT_SURVEYED VAR_GIFT_UNUSED_2 // registry bitmask
+#define VAR_LA_OAK_STARTER VAR_GIFT_UNUSED_3 // 0 unknown; 1 offered; 2-4 gift choice; +8 met Blue
+#define VAR_LA_RIFT_RESOLVED VAR_LA_OAK_STARTER // legacy reserved alias; never written by rift gates

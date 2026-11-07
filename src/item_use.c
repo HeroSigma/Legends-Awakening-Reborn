@@ -1,6 +1,8 @@
 #include "global.h"
+#include "dexnav.h"
 #include "item_use.h"
 #include "battle.h"
+#include "battle_util.h"
 #include "battle_anim.h"
 #include "battle_stat_change.h"
 #include "battle_pyramid.h"
@@ -312,6 +314,9 @@ static void ItemUseOnFieldCB_Bike(u8 taskId)
 
 static bool32 CanFish(void)
 {
+    if (FlagGet(DN_FLAG_SEARCHING))
+        return FALSE;
+
     s16 x, y;
     u16 tileBehavior;
 
@@ -1138,6 +1143,9 @@ void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
 
 static u32 GetBallThrowableState(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return BALL_THROW_UNABLE_DISABLED_FLAG;
+
     if (IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT))
      && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT)))
         return BALL_THROW_UNABLE_TWO_MONS;

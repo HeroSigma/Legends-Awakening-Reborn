@@ -51,6 +51,23 @@ for mode in [0,1]:
    check('submenu_closed_'+str((mode,option,rapid)),active('Task_ShowStartMenu') is None)
    check('no_reset_'+str((mode,option,rapid)),rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and location()==expected_location)
    check('controls_released_'+str((mode,option,rapid)),invoke('ArePlayerFieldControlsLocked')==0)
+ # DexNav needs a route with encounters and must release the custom menu
+ # before the field windows are freed.
+ warp(0,17,10,12);frames(60)
+ for key in [2,8]:
+  wr(symbols['sStartMenuPage'],1,1)
+  wr(symbols['sStartMenuCursorPos'],0,1)
+  tap(8);frames(50)
+  expected_location=location()
+  tap(1);frames(120)
+  check('dexnav_open_'+str((mode,key)),active('Task_DexNavMain') is not None)
+  tap(2);frames(120)
+  check('dexnav_return_'+str((mode,key)),active('Task_ShowStartMenu') is not None)
+  tap(key);frames(40)
+  check('dexnav_close_'+str((mode,key)),rd(symbols['gMain']+4)==symbols['CB2_Overworld']|1 and location()==expected_location and invoke('ArePlayerFieldControlsLocked')==0)
+  tap(8);frames(40)
+  check('dexnav_reopen_'+str((mode,key)),active('Task_ShowStartMenu') is not None)
+  tap(2);frames(40)
  # Journal closes directly to the field.
  wr(symbols['sStartMenuPage'],1,1)
  wr(symbols['sStartMenuCursorPos'],0,1)

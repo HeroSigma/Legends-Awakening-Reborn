@@ -1,4 +1,5 @@
 #include "global.h"
+#include "random.h"
 #include "data.h"
 #include "event_data.h"
 #include "legends_trainers.h"
@@ -44,10 +45,51 @@ static EWRAM_DATA u16 sCachedIds[4] = {0};
 static EWRAM_DATA u8 sCachedCaps[4] = {0};
 static EWRAM_DATA u8 sCachedPlayerLevels[4] = {0};
 static EWRAM_DATA u8 sCachedFormats[4] = {0};
+static EWRAM_DATA u8 sCachedGimmicks[4] = {0};
 static EWRAM_DATA const struct Trainer *sCachedBases[4] = {0};
 static EWRAM_DATA u8 sNextCache = 0;
 static EWRAM_DATA u16 sFormatTrainer = 0;
 static EWRAM_DATA bool8 sDoubleFormat = FALSE;
+
+enum { TEAM_GIMMICK_TERA = 1, TEAM_GIMMICK_Z, TEAM_GIMMICK_DYNAMAX, TEAM_GIMMICK_MEGA };
+static EWRAM_DATA u16 sGymGimmickTrainer = TRAINER_NONE;
+static EWRAM_DATA u8 sGymGimmick = 0;
+
+static enum Item FindMegaStone(const struct TrainerMon *team, u32 count, u32 *slot)
+{
+    while (count > 0)
+    {
+        u32 index = --count;
+        enum Species species = team[index].species;
+        const struct FormChange *form = GetSpeciesFormChanges(species);
+
+        for (; form != NULL && form->method != FORM_CHANGE_TERMINATOR; form++)
+        {
+            if (form->method == FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM && form->targetSpecies != species)
+            {
+                *slot = index;
+                return form->param1;
+            }
+        }
+    }
+    return ITEM_NONE;
+}
+
+void LegendsTrainer_RollGymGimmick(u16 trainerId)
+{
+    sGymGimmickTrainer = TRAINER_NONE;
+    if (!LegendsTrainer_IsFormatChoice(trainerId))
+        return;
+
+    const struct Trainer *trainer = GetTrainerStructFromId(trainerId);
+    if (trainer->trainerClass != TRAINER_CLASS_LEADER && trainer->trainerClass != TRAINER_CLASS_LEADER_FRLG)
+        return;
+
+    u32 megaSlot;
+    u32 choices = FindMegaStone(trainer->party, trainer->partySize, &megaSlot) != ITEM_NONE ? 4 : 3;
+    sGymGimmick = TEAM_GIMMICK_TERA + Random() % choices;
+    sGymGimmickTrainer = trainerId;
+}
 
 static s32 Profile(u32 id)
 {
@@ -58,7 +100,10 @@ static s32 Profile(u32 id)
 
 u32 LegendsTrainer_Gimmick(u32 trainerId)
 {
-    // 1=Tera, 2=Z. Each authored team supports either, exclusively on its last mon.
+    if (trainerId != TRAINER_NONE && trainerId == sGymGimmickTrainer)
+        return sGymGimmick;
+
+    // Other trainer profiles keep their stable Tera or Z-Move assignment.
     u32 x=READ_OTID_FROM_SAVE ^ (trainerId*0x9e3779b9u);
     x ^= x>>16; x *= 0x7feb352du; x ^= x>>15;
     return 1+(x&1);
@@ -287,16 +332,35 @@ void LegendsTrainer_SelectFormat(void)
     gSpecialVar_Result=requested && !sDoubleFormat?2:0;
 }
 
-static void ApplyGimmick(u32 id,struct TrainerMon *team)
+static void ApplyGimmick(u32 gimmick,struct TrainerMon *team)
 {
+    if (gimmick == TEAM_GIMMICK_MEGA)
+    {
+        u32 slot;
+        enum Item stone = FindMegaStone(team, PARTY_SIZE, &slot);
+        if (stone != ITEM_NONE)
+            team[slot].heldItem = stone;
+        return;
+    }
+
     for (s32 slot=PARTY_SIZE-1;slot>=0;slot--) {
         for (u32 i=0;i<MAX_MON_MOVES;i++) {
             u32 move=team[slot].moves[i];
             if (!move || gMovesInfo[move].category==DAMAGE_CATEGORY_STATUS) continue;
             u32 type=gMovesInfo[move].type;
             if (type>=ARRAY_COUNT(sZCrystals) || !sZCrystals[type]) continue;
-            if (LegendsTrainer_Gimmick(id)==1) team[slot].teraType=type;
-            else team[slot].heldItem=sZCrystals[type];
+            if (gimmick == TEAM_GIMMICK_DYNAMAX)
+            {
+                enum Species species = GET_BASE_SPECIES_ID(team[slot].species);
+                if (species == SPECIES_ZACIAN || species == SPECIES_ZAMAZENTA || species == SPECIES_ETERNATUS)
+                    continue;
+                team[slot].shouldUseDynamax = TRUE;
+                team[slot].dynamaxLevel = 10;
+            }
+            else if (gimmick == TEAM_GIMMICK_TERA)
+                team[slot].teraType = type;
+            else
+                team[slot].heldItem = sZCrystals[type];
             return;
         }
     }
@@ -329,8 +393,9 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     u32 cap=GetCurrentLevelCap();
     u32 playerLevel=GetWildBadgeStage();
     bool32 doubles=LegendsTrainer_IsFormatChoice(trainerId)?(sFormatTrainer==trainerId && sDoubleFormat):base->battleType==TRAINER_BATTLE_TYPE_DOUBLES;
+    u32 gimmick = LegendsTrainer_Gimmick(trainerId);
     for (u32 i=0;i<4;i++)
-        if (sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
+        if (sCachedGimmicks[i]==gimmick && sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
     u32 index=sNextCache++%4;
     struct Trainer *trainer=&sTrainers[index];
     *trainer=*base;
@@ -350,7 +415,7 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     }
     for (u32 i=0;i<PARTY_SIZE;i++)
         BuildMember(&team[i],profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
-    ApplyGimmick(trainerId,team);
+    ApplyGimmick(gimmick,team);
     for (u32 i=0;i<PARTY_SIZE;i++)
         if (!LegendsTrainer_MemberLegal(&team[i])) return base;
     trainer->party=team;
@@ -365,6 +430,7 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     for (u32 i=0;i<MAX_TRAINER_ITEMS;i++) trainer->items[i]=ITEM_NONE;
     u32 item=cap<=26?ITEM_SUPER_POTION:cap<=49?ITEM_HYPER_POTION:ITEM_FULL_RESTORE;
     trainer->items[0]=item;trainer->items[1]=item;
+    sCachedGimmicks[index] = gimmick;
     sCachedIds[index]=trainerId;sCachedCaps[index]=cap; sCachedPlayerLevels[index]=playerLevel;sCachedFormats[index]=doubles;sCachedBases[index]=base;
     return trainer;
 }

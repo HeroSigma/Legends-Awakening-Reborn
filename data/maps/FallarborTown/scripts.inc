@@ -3,6 +3,8 @@ FallarborTown_MapScripts::
 	.byte 0
 
 FallarborTown_OnTransition:
+	setflag FLAG_TEMP_7
+	call_if_ge VAR_LA_OAK_STARTER, 2, RiftResearch_ShowBlue
 	setflag FLAG_VISITED_FALLARBOR_TOWN
 	setvar VAR_CONTEST_HALL_STATE, 0
 	clearflag FLAG_CONTEST_SKETCH_CREATED

@@ -202,6 +202,11 @@ static const u8 sText_PageServices[] = _("L/R 2/2");
 static const u8 sText_MenuStore[] = _("LEGENDS STORE");
 
 static const u8 sText_MenuJournal[] = _("JOURNAL");
+static const u8 sText_MenuRiftTracker[] = _("RIFT TRACKER");
+static const u8 *JournalMenuLabel(void)
+{
+    return VarGet(VAR_LA_RIFT_TRACKER) >= 2 ? sText_MenuRiftTracker : sText_MenuJournal;
+}
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
 
@@ -231,7 +236,7 @@ static void RefreshCustomStartMenu(void)
     if(sCurrentStartMenuActions[sStartMenuCursorPos]==MENU_ACTION_PLAYER)
         CustomStartMenu_Select(sStartMenuCursorPos,gSaveBlock2Ptr->playerName);
     else
-        CustomStartMenu_Select(sStartMenuCursorPos,sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text);
+        CustomStartMenu_Select(sStartMenuCursorPos,(sCurrentStartMenuActions[sStartMenuCursorPos] == MENU_ACTION_JOURNAL ? JournalMenuLabel() : sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text));
 }
 static bool32 OpenCustomStartMenu(void)
 {
@@ -248,7 +253,7 @@ static bool32 OpenCustomStartMenu(void)
         case MENU_ACTION_OPTION:case MENU_ACTION_DEBUG:icons[i]=6;break;
         default:icons[i]=14;break;
         }
-    return CustomStartMenu_Open(icons,sNumStartMenuActions,sStartMenuCursorPos,sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text,sStartMenuPage);
+    return CustomStartMenu_Open(icons,sNumStartMenuActions,sStartMenuCursorPos,(sCurrentStartMenuActions[sStartMenuCursorPos] == MENU_ACTION_JOURNAL ? JournalMenuLabel() : sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].text),sStartMenuPage);
 }
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -525,11 +530,11 @@ static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
     {
         if (sStartMenuItems[sCurrentStartMenuActions[index]].func.u8_void == StartMenuPlayerNameCallback)
         {
-            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, index * 16 + 9);
+            PrintPlayerNameOnWindow(GetStartMenuWindowId(), (sCurrentStartMenuActions[index] == MENU_ACTION_JOURNAL ? JournalMenuLabel() : sStartMenuItems[sCurrentStartMenuActions[index]].text), 8, index * 16 + 9);
         }
         else
         {
-            StringExpandPlaceholders(gStringVar4, sStartMenuItems[sCurrentStartMenuActions[index]].text);
+            StringExpandPlaceholders(gStringVar4, (sCurrentStartMenuActions[index] == MENU_ACTION_JOURNAL ? JournalMenuLabel() : sStartMenuItems[sCurrentStartMenuActions[index]].text));
             AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, index * 16 + 9, TEXT_SKIP_DRAW, NULL);
         }
 
@@ -1563,6 +1568,10 @@ void AppendToList(u8 *list, u8 *pos, u8 newEntry)
 
 static bool8 StartMenuDexNavCallback(void)
 {
+    if (gPaletteFade.active)
+        return FALSE;
+
+    RemoveExtraStartMenuWindows();
     CreateTask(Task_OpenDexNavFromStartMenu, 0);
     return TRUE;
 }

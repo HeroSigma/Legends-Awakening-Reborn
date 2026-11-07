@@ -23,7 +23,7 @@ User-approved direction (2026-10-28), saved for later implementation:
 - Blocked interaction can describe the visible destination and an unstable passage, without granting entry.
 - Intended progression: witness incidents, detect rifts, learn to stabilize them, then explore destinations as the story permits.
 
-This is a recorded plan; no journal replacement, detector unlock, rift placement, or travel activation has been implemented by saving these notes.
+Implemented in the post-Wattson Birch appointment. See docs/story/rift_network/README.md for the current detector, travel rifts and story-sealed natural wormholes.
 
 ## Legends Store and bag categories
 

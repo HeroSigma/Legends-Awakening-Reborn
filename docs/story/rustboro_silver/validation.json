@@ -1,5 +1,5 @@
 {
-  "rom_sha256": "e88d6097cdf79e8fd7a41faac65a5a986fe9f5dccf38f19906dcf4f7a493ed92",
+  "rom_sha256": "1d8453d370ef90dc91fb2391d98c8c669407ea9590859c320b2d5e0c2ba7cdc2",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -134,6 +134,10 @@
       "passed": true
     },
     {
+      "test": "may_staged_on_open_road_0_0_12_3_silver",
+      "passed": true
+    },
+    {
       "test": "arrival_positions_0_0_12_3_silver",
       "passed": true
     },
@@ -230,7 +234,7 @@
       "passed": true
     },
     {
-      "test": "silver_hns_portrait_0_0_12_3",
+      "test": "silver_donor_portrait_0_0_12_3",
       "passed": true
     },
     {
@@ -418,6 +422,10 @@
       "passed": true
     },
     {
+      "test": "may_staged_on_open_road_1_1_19_8_silver",
+      "passed": true
+    },
+    {
       "test": "arrival_positions_1_1_19_8_silver",
       "passed": true
     },
@@ -514,7 +522,7 @@
       "passed": true
     },
     {
-      "test": "silver_hns_portrait_1_1_19_8",
+      "test": "silver_donor_portrait_1_1_19_8",
       "passed": true
     },
     {
@@ -702,6 +710,10 @@
       "passed": true
     },
     {
+      "test": "may_staged_on_open_road_0_1_19_5_silver",
+      "passed": true
+    },
+    {
       "test": "arrival_positions_0_1_19_5_silver",
       "passed": true
     },
@@ -798,7 +810,7 @@
       "passed": true
     },
     {
-      "test": "silver_hns_portrait_0_1_19_5",
+      "test": "silver_donor_portrait_0_1_19_5",
       "passed": true
     },
     {
@@ -986,6 +998,10 @@
       "passed": true
     },
     {
+      "test": "may_staged_on_open_road_1_0_12_4_silver",
+      "passed": true
+    },
+    {
       "test": "arrival_positions_1_0_12_4_silver",
       "passed": true
     },
@@ -1082,7 +1098,7 @@
       "passed": true
     },
     {
-      "test": "silver_hns_portrait_1_0_12_4",
+      "test": "silver_donor_portrait_1_0_12_4",
       "passed": true
     },
     {
@@ -1262,6 +1278,10 @@
       "passed": true
     },
     {
+      "test": "may_staged_on_open_road_retry_first",
+      "passed": true
+    },
+    {
       "test": "arrival_positions_retry_first",
       "passed": true
     },
@@ -1299,6 +1319,10 @@
     },
     {
       "test": "north_entry_existing_may_win",
+      "passed": true
+    },
+    {
+      "test": "may_staged_on_open_road_existing_may_win",
       "passed": true
     },
     {

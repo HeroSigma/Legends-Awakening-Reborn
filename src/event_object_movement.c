@@ -624,6 +624,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_LaRoster17, 0xDB51},
     {gObjectEventPal_LaRoster18, 0xDB52},
 /* LA_NPC_ROSTER_PALETTES_END */
+    {gObjectEventPal_LaMiraidon, 0xDB7E},
+    {gObjectEventPal_LaRosterRowan, 0xDB7F},
     {gObjectEventPal_LaHyperBosses, OBJ_EVENT_PAL_TAG_LA_HYPER_BOSSES},
     {gHnsObjectPalette_a08041541f7cdf8b, 0xDA00},
     {gHnsObjectPalette_ca8a3523c5558aa3, 0xDA01},

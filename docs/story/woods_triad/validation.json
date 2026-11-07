@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 81,
-  "rom_sha256": "f313db2a84583ae2f730ec1973a45bf9f8002f18c0e128f038c958684e1a4050",
+  "assertions": 82,
+  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd",
   "battle_results": "injected through native end handlers; combat difficulty is not measured",
   "checks": [
     {
@@ -278,6 +278,10 @@
     },
     {
       "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "whiteout_returns_control",
       "passed": true
     },
     {

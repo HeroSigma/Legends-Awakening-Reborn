@@ -193,6 +193,14 @@
       "elevation": 3,
       "item": "ITEM_EVERSTONE",
       "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_2"
+    },
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 0,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RiftResearch_Natural_0"
     }
   ],
   "region": "REGION_HOENN"

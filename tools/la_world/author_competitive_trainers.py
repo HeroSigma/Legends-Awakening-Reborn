@@ -4,6 +4,9 @@ Runtime resolves evolutions and legal role moves at the encounter's capped level
 """
 from pathlib import Path
 import re,json
+from collections import defaultdict
+from itertools import combinations
+from zlib import crc32
 R=Path(__file__).resolve().parents[2]
 # Six-member cores. Native aces and native teammates take priority for ordinary trainers.
 CORES={
@@ -34,8 +37,8 @@ CORES={
 "Triathlete":"CROBAT MANECTRIC FLOATZEL DODRIO HITMONLEE SWELLOW",
 "Guitarist":"GALVANTULA MANECTRIC ROTOM MAGNEZONE TOXTRICITY AMPED_RAICHU",
 "Kindler":"NINETALES ARCANINE HOUNDOOM MAGCARGO TALONFLAME TORKOAL",
-"Black Belt":"HITMONTOP HARIYAMA BRELOOM MACHAMP MIENSHAO LUCARIO",
-"Battle Girl":"HITMONTOP MEDICHAM BRELOOM MIENSHAO HARIYAMA LUCARIO",
+"Black Belt":"HITMONTOP HARIYAMA BRELOOM MACHAMP MIENSHAO LUCARIO PRIMEAPE POLIWRATH HERACROSS PANGORO",
+"Battle Girl":"HITMONTOP MEDICHAM BRELOOM MIENSHAO HARIYAMA LUCARIO TOXICROAK HAWLUCHA HITMONLEE",
 "Expert":"HITMONTOP MIENSHAO SLOWBRO SKARMORY ARCANINE HARIYAMA",
 "Psychic":"MR_MIME GARDEVOIR BRONZONG SLOWBRO ESPEON ALAKAZAM",
 "Hex Maniac":"SABLEYE COFAGRIGUS MISMAGIUS SPIRITOMB BANETTE GENGAR",
@@ -89,7 +92,7 @@ GYM_CORES={
  'rock':('GOLEM ONIX PROBOPASS RHYDON CRADILY ARMALDO','sand'),
  'fighting':('MACHAMP MEDICHAM HERACROSS SCRAGGY HITMONTOP HARIYAMA','balance'),
  'electric':('RAICHU LANTURN MAGNEZONE ROTOM EELEKTROSS MANECTRIC','balance'),
- 'fire':('TORKOAL NINETALES MAGCARGO HOUNDOOM TALONFLAME CAMERUPT','sun'),
+ 'fire':('TORKOAL NINETALES MAGCARGO HOUNDOOM MAGMAR CAMERUPT','sun'),
  'normal':('LINOONE STOUTLAND FURRET PERSIAN TAUROS SLAKING','balance'),
  'flying':('PELIPPER SKARMORY SWELLOW NOCTOWL TROPIUS ALTARIA','rain'),
  'psychic':('BRONZONG CLAYDOL XATU SLOWBRO LUNATONE SOLROCK','trick'),
@@ -114,6 +117,24 @@ GYM_LOCATIONS={
  'EcruteakCity_Gym':'ghost','CianwoodGym':'fighting','OlivineCity_Gym':'steel',
  'MahoganyTown_Gym':'ice','BlackthornCity_Gym':'dragon',
 }
+GYM_EXTRAS={
+ 'rock':'GIGALITH AGGRON CRUSTLE CARBINK SOLROCK LUNATONE',
+ 'fighting':'PRIMEAPE PANGORO TOXICROAK LUCARIO FALINKS',
+ 'electric':'ELECTRODE AMPHAROS LUXRAY TOXTRICITY_AMPED GALVANTULA',
+ 'fire':'ARCANINE RAPIDASH CHARIZARD CENTISKORCH HEATMOR TURTONATOR',
+ 'normal':'PERSIAN KANGASKHAN SNORLAX AUDINO BIBAREL DUBWOOL',
+ 'flying':'NOCTOWL CROBAT PIDGEOT CORVIKNIGHT MANTINE',
+ 'psychic':'ALAKAZAM HYPNO CHIMECHO GARDEVOIR GRUMPIG',
+ 'water':'LANTURN FLOATZEL MILOTIC WHISCASH BARRASKEWDA',
+ 'grass':'VILEPLUME SHIFTRY CACTURNE TANGROWTH WHIMSICOTT',
+ 'poison':'ARBOK ROSERADE SKUNTANK TOXICROAK DRAGALGE',
+ 'ground':'DUGTRIO GASTRODON WHISCASH KROOKODILE MAMOSWINE',
+ 'bug':'DUSTOX BEAUTIFLY VESPIQUEN VOLCARONA GALVANTULA',
+ 'ghost':'SABLEYE MISMAGIUS SPIRITOMB DRIFBLIM JELLICENT',
+ 'steel':'SCIZOR METAGROSS MAWILE KLEFKI PERRSERKER',
+ 'ice':'CLOYSTER LAPRAS FROSLASS BEARTIC CRYOGONAL',
+ 'dragon':'DRAGALGE NOIVERN TURTONATOR KOMMO_O DRAMPA',
+}
 BIOME_CORES={
  'forest':('BUTTERFREE BEEDRILL BRELOOM ROSERADE SHIFTRY MASQUERAIN','balance'),
  'cave':('GOLEM GOLBAT SABLEYE PROBOPASS EXCADRILL AGGRON','balance'),
@@ -132,12 +153,20 @@ def location_theme(name):
  if any(x in name for x in ['Cave','Tunnel']):return 'cave'
  if name in ['Route105','Route106','Route107','Route108','Route109','Route124','Route125','Route126','Route127','Route128','Route129','Route130','Route131','Route132','Route133','Route134','DewfordTown']:return 'coast'
  return None
+wild_by_map=defaultdict(lambda:defaultdict(set))
+for group in json.loads((R/'src/data/wild_encounters.json').read_text())['wild_encounter_groups']:
+ if not group.get('for_maps'):continue
+ for encounter in group.get('encounters',[]):
+  for field in ('land_mons','water_mons','rock_smash_mons','fishing_mons'):
+   wild_by_map[encounter['map']][field].update(mon['species'].removeprefix('SPECIES_') for mon in encounter.get(field,{}).get('mons',[]) if mon['species']!='SPECIES_NONE')
 locations={}
+local_species=defaultdict(lambda:defaultdict(set))
 for path in sorted((R/'data/maps').glob('*/scripts.inc')):
  theme=location_theme(path.parent.name)
- if not theme:continue
+ map_id=json.loads(path.with_name('map.json').read_text())['id']
  for tid in set(tid for line in re.findall(r'^\s*trainerbattle_\w+[^\n]*',path.read_text(),re.M) for tid in re.findall(r'\bTRAINER_\w+',line)):
-  locations.setdefault(tid,[]).append((path.parent.name,theme))
+  if theme:locations.setdefault(tid,[]).append((path.parent.name,theme))
+  for field, species in wild_by_map[map_id].items():local_species[tid][field].update(species)
 LOCATION_CLASSES={'Youngster','Lass','School Kid','Camper','Picnicker','Cooltrainer','Cooltrainer 2','Pkmn Ranger','Hiker','Bug Catcher','Bug Maniac','Ruin Maniac','Ninja Boy','Bird Keeper','Fisherman','Swimmer M','Swimmer F','Sailor','Black Belt','Battle Girl','Hex Maniac','Psychic','Tuber M','Tuber F'}
 def context_core(key,cls):
  sources=locations.get(key,[])
@@ -173,6 +202,37 @@ def final_form(sp):
   if not options:break
   sp=min(options,key=lambda n:order.get(n,99999))
  return sp
+class_families=defaultdict(set)
+for key,body in zip(P[1::2],P[2::2]):
+ match=re.search(r'^Class: (.*)$',body,re.M)
+ if match:class_families[match[1]].update(final_form(sp) for sp in native.get(key,[]))
+
+species_types={}
+for path in sorted((R/'src/data/pokemon/species_info').glob('*.h')):
+ for species,types in re.findall(r'\[SPECIES_(\w+)\]\s*=\s*\{(?:(?!\[SPECIES_).)*?\.types\s*=\s*MON_TYPES\(([^)]+)\)',path.read_text(),re.S):
+  species_types[species]=set(re.findall(r'TYPE_(\w+)',types))
+
+def class_type_pool(core):
+ counts=defaultdict(int)
+ for species in core:
+  for kind in species_types.get(species,()):counts[kind]+=1
+ types={kind for kind,count in counts.items() if count>=3}
+ return sorted(species for species,kinds in species_types.items() if '_' not in species and kinds & types and species in order)
+
+used_rosters={}
+AQUATIC_CLASSES={'Fisherman','Swimmer M','Swimmer F','Sailor','Tuber M','Tuber F','Sis And Bro'}
+def distinct_team(key, identity, anchors, pool):
+ anchors=list(dict.fromkeys(anchors))
+ pool=[sp for sp in dict.fromkeys(pool) if sp not in anchors]
+ pool.sort(key=lambda sp:(crc32(f'{key}/{sp}'.encode()),sp))
+ for extra in combinations(pool,6-len(anchors)):
+  team=list(extra)+anchors
+  signature=frozenset(team)
+  if signature not in used_rosters or used_rosters[signature]==identity:
+   used_rosters[signature]=identity
+   return team
+ return None
+
 profiles={};excluded={};out=['// Generated by tools/la_world/author_competitive_trainers.py. Fixed identities, no RNG.','static const struct LegendsTeamProfile sFullProfiles[TRAINERS_COUNT] = {']
 for i in range(1,len(P),2):
  key,body=P[i:i+2]
@@ -203,19 +263,52 @@ for i in range(1,len(P),2):
   stage=next(j for j,v in enumerate(old) if original<=v);level=new[stage]
   weather='rain' if cls in ['Fisherman','Swimmer M','Swimmer F','Sailor','Team Aqua','Aqua Admin','Aqua Leader','Parasol Lady','Sis And Bro'] else 'sun' if cls in ['Kindler','Team Magma','Magma Admin','Magma Leader','Aroma Lady'] else 'sand' if cls=='Hiker' else 'trick' if cls in ['Old Couple','Ruin Maniac','Psychic'] else 'balance'
  context=None if boss or cls in ['Rival','RS Protag','Team Aqua','Team Magma','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'] or key=='TRAINER_GRUNT_PETALBURG_WOODS' else context_core(key,cls)
- if context:
+ if context and context[0].startswith('gym:'):
   location,(local_core,weather),sources=context
-  pool=local_core.split()
-  # Different students lead with different members; the entire roster stays thematic.
-  offset=sum(key.encode())%len(pool)
-  team=pool[offset:]+pool[:offset]
+  pool=(local_core+' '+GYM_EXTRAS[location[4:]]).split()
+  team=distinct_team(key,(cls,name),[],pool)
+ elif not boss and cls not in ['Rival','RS Protag','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'] and key not in ['TRAINER_GRUNT_PETALBURG_WOODS','TRAINER_SILVER_RUSTBORO']:
+  class_pool=CORES[cls].split()
+  fields=('water_mons','fishing_mons') if cls in AQUATIC_CLASSES else ('land_mons','rock_smash_mons')
+  local_pool=sorted({final_form(sp) for field in fields for sp in local_species[key][field]})
+  if context:
+   location,(local_core,weather),sources=context
+   local_pool=list(dict.fromkeys(local_core.split()+local_pool))
+  anchors=[ace]
+  # Keep class identity and nearby encounter families represented on the roster.
+  ranked_class=sorted((sp for sp in class_pool if sp!=ace),key=lambda sp:crc32(f'{key}/{sp}'.encode()))
+  anchors+=ranked_class[:2]
+  ranked_local=sorted((sp for sp in local_pool if sp not in anchors),key=lambda sp:crc32(f'{key}/{sp}'.encode()))
+  anchors+=ranked_local[:2]
+  candidates=local_pool+class_pool+species+sorted(class_families[cls])
+  for count in range(len(anchors),0,-1):
+   team=distinct_team(key,(cls,name),anchors[:count],candidates)
+   if team:break
+  if team is None:
+   team=distinct_team(key,(cls,name),anchors,candidates+class_type_pool(class_pool))
+ if team is None:raise ValueError(f'No distinct roster available for {key}')
  major=bool(boss or cls in ['Rival','RS Protag','Aqua Admin','Aqua Leader','Magma Admin','Magma Leader'])
  choice=bool(boss and boss not in ['WALLY','RED','LEAF','STEVEN'])
  if key=='TRAINER_GRUNT_PETALBURG_WOODS':
   team=['PAWNIARD','ZUBAT','KOFFING','SNEASEL','ZORUA','ABSOL'];weather='balance';level=16;major=True;choice=False
+ if key=='TRAINER_BARRY_ROUTE_110':
+  team='STARAPTOR ROSERADE RAPIDASH HERACROSS SNORLAX EMPOLEON'.split()
+  weather='balance';level=26;major=True;choice=False
  if key=='TRAINER_SILVER_RUSTBORO':
   team='ZUBAT GASTLY MAGNEMITE ABRA SNEASEL TOTODILE'.split()
   weather='balance';level=20;major=True;choice=False
+ signature=frozenset(team)
+ identity=(cls,name)
+ if signature in used_rosters and used_rosters[signature]!=identity:
+  if cls not in {'Rival','RS Protag'}:
+   raise ValueError(f'Duplicate authored roster for {key}')
+  # Preserve the rival's starter and most of their authored roster.
+  rival_pool='DELCATTY GARDEVOIR AZUMARILL ALTARIA ROSERADE' if name=='MAY' else 'MIGHTYENA SWELLOW BRELOOM AGGRON MANECTRIC'
+  team=distinct_team(key,identity,[team[-1]]+team[:4],rival_pool.split()+team)
+  if team is None:raise ValueError(f'No distinct rival roster available for {key}')
+  team.remove(ace)
+  team.append(ace)
+ used_rosters[frozenset(team)]=identity
  profiles[key]=dict(name=name,trainer_class=cls,species=team,theme=weather,level=level,shiny_ace=major,format_choice=choice)
  if context:profiles[key].update(location_theme=context[0],location_sources=[name for name,_ in context[2]])
  out.append('    ['+key+'] = {{'+','.join('SPECIES_'+sp for sp in team)+'}, '+str(level)+', THEME_'+weather.upper()+', '+str(int(major))+', '+str(int(choice))+'},')

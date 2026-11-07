@@ -91,12 +91,16 @@ bool32 CustomStartMenu_Open(const u8 *icons,u8 count,u8 cursor,const u8 *label,u
     LoadPalette(sPalettes[CustomStartMenu_GetTheme()],BG_PLTT_ID(14),PLTT_SIZE_4BPP);
     LoadPalette(gStandardMenuPalette,BG_PLTT_ID(15),PLTT_SIZE_4BPP);
     LoadCompressedSpriteSheet(&sSheet);LoadSpritePalette(&sPal);
-    if(GetSpriteTileStartByTag(ICON_TAG)==0xFFFF || IndexOfSpritePaletteTag(ICON_TAG)==0xFF){CustomStartMenu_Close();return FALSE;}
-    for(i=0;i<sCustomMenu->count;i++)
+    // Keep the custom panels and selection label if the field runs out of sprite resources.
+    if (GetSpriteTileStartByTag(ICON_TAG) != 0xFFFF && IndexOfSpritePaletteTag(ICON_TAG) != 0xFF)
     {
-        sCustomMenu->icons[i]=icons[i];
-        sCustomMenu->sprites[i]=CreateSprite(&sTemplate,224,12+i*17,0);
-        if(sCustomMenu->sprites[i]==MAX_SPRITES){CustomStartMenu_Close();return FALSE;}
+        for (i = 0; i < sCustomMenu->count; i++)
+        {
+            sCustomMenu->icons[i] = icons[i];
+            sCustomMenu->sprites[i] = CreateSprite(&sTemplate, 224, 12 + i * 17, 0);
+            if (sCustomMenu->sprites[i] == MAX_SPRITES)
+                break;
+        }
     }
     RtcCalcLocalTime();p=ConvertIntToDecimalStringN(time,gLocalTime.hours,STR_CONV_MODE_LEADING_ZEROS,2);*p++=CHAR_COLON;ConvertIntToDecimalStringN(p,gLocalTime.minutes,STR_CONV_MODE_LEADING_ZEROS,2);
     RestoreFooter(sCustomMenu->clock,0);

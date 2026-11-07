@@ -52,6 +52,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterHoo
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterShadowTriad;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterSteven;
 /* LA_NPC_ROSTER_EXTERNS_END */
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaMiraidon;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterRowan;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperGiovanni;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaHyperCyrus;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal;
@@ -670,6 +672,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[] =
     [OBJ_EVENT_GFX_LA_ROSTER_STEVEN] = &gObjectEventGraphicsInfo_LaRosterSteven,
     [OBJ_EVENT_GFX_STEVEN] = &gObjectEventGraphicsInfo_LaRosterSteven,
 /* LA_NPC_ROSTER_POINTERS_END */
+    [OBJ_EVENT_GFX_LA_MIRAIDON] = &gObjectEventGraphicsInfo_LaMiraidon,
+    [OBJ_EVENT_GFX_LA_ROSTER_ROWAN] = &gObjectEventGraphicsInfo_LaRosterRowan,
     [OBJ_EVENT_GFX_LA_HYPER_GIOVANNI] = &gObjectEventGraphicsInfo_LaHyperGiovanni,
     [OBJ_EVENT_GFX_LA_HYPER_CYRUS] = &gObjectEventGraphicsInfo_LaHyperCyrus,
     [OBJ_EVENT_GFX_HNS_FAT_MAN_HNS] = &gHnsRegionInfo_gObjectEventGraphicsInfo_FatMan_hns,

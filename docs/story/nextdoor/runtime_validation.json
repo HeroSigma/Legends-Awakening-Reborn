@@ -1,5 +1,5 @@
 {
-  "rom_sha256": "26fd151d3406fa8f8d59d8b1e3bfd2a6aa57324ad6a3b93df620e6e9fac261fd",
+  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -18,11 +18,11 @@
       "passed": true
     },
     {
-      "test": "native_brendan_sprite_0_0",
+      "test": "hyper_brendan_sprite_0_0",
       "passed": true
     },
     {
-      "test": "native_may_sprite_0_0",
+      "test": "hyper_may_sprite_0_0",
       "passed": true
     },
     {
@@ -110,11 +110,11 @@
       "passed": true
     },
     {
-      "test": "native_brendan_sprite_0_1",
+      "test": "hyper_brendan_sprite_0_1",
       "passed": true
     },
     {
-      "test": "native_may_sprite_0_1",
+      "test": "hyper_may_sprite_0_1",
       "passed": true
     },
     {
@@ -194,11 +194,11 @@
       "passed": true
     },
     {
-      "test": "native_brendan_sprite_1_0",
+      "test": "hyper_brendan_sprite_1_0",
       "passed": true
     },
     {
-      "test": "native_may_sprite_1_0",
+      "test": "hyper_may_sprite_1_0",
       "passed": true
     },
     {
@@ -286,11 +286,11 @@
       "passed": true
     },
     {
-      "test": "native_brendan_sprite_1_1",
+      "test": "hyper_brendan_sprite_1_1",
       "passed": true
     },
     {
-      "test": "native_may_sprite_1_1",
+      "test": "hyper_may_sprite_1_1",
       "passed": true
     },
     {

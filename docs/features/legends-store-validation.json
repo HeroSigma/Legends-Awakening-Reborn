@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 934,
-  "rom_sha256": "fd2a8e021d664fcdff14a159b5c3fc2f2dcc9dc09e49050ca86a6fba7b6b96e0",
+  "assertions": 940,
+  "rom_sha256": "054150ae55802829af4ae060a30ee4ebacddfcca1e5f388ed938d265563253f9",
   "examples": [
     {
       "item": "ITEM_POTION",
@@ -260,6 +260,10 @@
       "passed": true
     },
     {
+      "test": "tm_bulk_rejected_0",
+      "passed": true
+    },
+    {
       "test": "tm_single_0",
       "passed": true
     },
@@ -269,6 +273,14 @@
     },
     {
       "test": "tm_no_charge_0",
+      "passed": true
+    },
+    {
+      "test": "store_tm_in_pc_0",
+      "passed": true
+    },
+    {
+      "test": "pc_tm_sold_out_0",
       "passed": true
     },
     {
@@ -3672,6 +3684,10 @@
       "passed": true
     },
     {
+      "test": "tm_bulk_rejected_1",
+      "passed": true
+    },
+    {
       "test": "tm_single_1",
       "passed": true
     },
@@ -3681,6 +3697,14 @@
     },
     {
       "test": "tm_no_charge_1",
+      "passed": true
+    },
+    {
+      "test": "store_tm_in_pc_1",
+      "passed": true
+    },
+    {
+      "test": "pc_tm_sold_out_1",
       "passed": true
     },
     {

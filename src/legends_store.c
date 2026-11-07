@@ -4,6 +4,7 @@
 #include "event_object_lock.h"
 #include "field_player_avatar.h"
 #include "main.h"
+#include "international_string_util.h"
 #include "menu.h"
 #include "money.h"
 #include "malloc.h"
@@ -23,6 +24,8 @@ static const u8 sPrice[] = _("{STR_VAR_1}");
 static const u8 sFooter[] = _("Left/Right: pocket  L/R: page");
 static const u8 sBrowse[] = _("A: choose  B: exit");
 static const u8 sConfirm[] = _("Qty {STR_VAR_1}  Total {STR_VAR_2}\nLeft/Right: qty  A: buy  B: back");
+static const u8 sSingleConfirm[] = _("Total {STR_VAR_2}\nA: buy  B: back");
+static const u8 sSoldOut[] = _("SOLD OUT");
 static const u8 sBought[] = _("Delivered to your Bag!");
 static const u8 sPoor[] = _("You don't have enough money.");
 static const u8 sOwned[] = _("You already own this reusable item.");
@@ -96,12 +99,18 @@ u32 __attribute__((noinline)) LegendsStore_Price(enum Item item, u32 saleCategor
     return category == saleCategory ? base : (base * 5 + 3) / 4;
 }
 
+static bool32 IsStoreTMSoldOut(enum Item item)
+{
+    return GetItemPocket(item) == POCKET_TM_HM
+        && (CheckBagHasItem(item, 1) || CheckPCHasItem(item, 1));
+}
+
 // Atomic purchase: validate everything before changing inventory or money.
 // 0 success, 1 invalid selection, 2 insufficient funds, 3 no bag space.
 u32 __attribute__((noinline)) LegendsStore_Buy(enum Item item, u32 quantity, u32 saleCategory)
 {
     u32 price=LegendsStore_Price(item, saleCategory), total;
-    if (!price || !quantity || quantity > 99) return 1;
+    if (!price || !quantity || quantity > 99 || IsStoreTMSoldOut(item)) return 1;
     if ((GetItemImportance(item) || GetItemPocket(item) == POCKET_TM_HM)
         && (quantity != 1 || CheckBagHasItem(item, 1))) return 1;
     total=price*quantity;
@@ -148,15 +157,21 @@ static void Draw(u8 id)
         if (!item) break;
         if (index==d[2]) Print(win,gText_SelectorArrow2,0,42+row*12);
         CopyItemName(item,gStringVar1); StringExpandPlaceholders(buf,sRow); Print(win,buf,10,42+row*12);
-        ConvertIntToDecimalStringN(gStringVar1,LegendsStore_Price(item,d[4]),STR_CONV_MODE_RIGHT_ALIGN,6);
-        StringExpandPlaceholders(buf,sPrice); Print(win,buf,175,42+row*12);
+        if (IsStoreTMSoldOut(item))
+            Print(win, sSoldOut, GetStringRightAlignXOffset(FONT_SMALL, sSoldOut, 208), 42 + row * 12);
+        else
+        {
+            ConvertIntToDecimalStringN(gStringVar1,LegendsStore_Price(item,d[4]),STR_CONV_MODE_RIGHT_ALIGN,6);
+            StringExpandPlaceholders(buf,sPrice); Print(win,buf,175,42+row*12);
+        }
     }
     if (!ItemCount(d[1])) Print(win,sEmpty,2,42);
     if (d[3])
     {
         ConvertIntToDecimalStringN(gStringVar1,d[5],STR_CONV_MODE_LEFT_ALIGN,2);
         ConvertIntToDecimalStringN(gStringVar2,LegendsStore_Price(ItemAt(d[1],d[2]),d[4])*d[5],STR_CONV_MODE_LEFT_ALIGN,8);
-        StringExpandPlaceholders(buf,sConfirm); Print(win,buf,2,108);
+        StringExpandPlaceholders(buf, GetItemPocket(ItemAt(d[1],d[2])) == POCKET_TM_HM ? sSingleConfirm : sConfirm);
+        Print(win,buf,2,108);
     }
     else if (d[6]) Print(win,d[6]==1?sBought:d[6]==2?sPoor:d[6]==4?sOwned:sFull,2,108);
     else {Print(win,sFooter,2,108); Print(win,sBrowse,2,122);}
@@ -199,7 +214,16 @@ static void Task_LegendsStore(u8 id)
         else if (count && JOY_NEW(DPAD_DOWN)) d[2]=(d[2]+1)%count;
         else if (count && JOY_NEW(L_BUTTON)) d[2]=d[2]>=5?d[2]-5:0;
         else if (count && JOY_NEW(R_BUTTON)) d[2]=(d[2]+5<count?d[2]+5:count-1);
-        else if (count && JOY_NEW(A_BUTTON)) {d[3]=1;d[5]=1;}
+        else if (count && JOY_NEW(A_BUTTON))
+        {
+            if (IsStoreTMSoldOut(ItemAt(d[1],d[2])))
+                d[6] = 4;
+            else
+            {
+                d[3] = 1;
+                d[5] = 1;
+            }
+        }
         else return;
     }
     Draw(id);

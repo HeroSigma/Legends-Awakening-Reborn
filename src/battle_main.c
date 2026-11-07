@@ -5062,6 +5062,13 @@ static void RunTurnActionsFunctions(void)
 
 static void HandleEndTurn_BattleWon(void)
 {
+    if (FlagGet(FLAG_LA_MIRAIDON_BATTLE))
+    {
+        gBattleOutcome = B_OUTCOME_LOST;
+        HandleEndTurn_BattleLost();
+        return;
+    }
+
     gCurrentActionFuncId = 0;
 
     if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK))
@@ -5328,8 +5335,12 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void)
             IncrementDexNavChain();
             TryIncrementSpeciesSearchLevel();
         }
-        else
-            gSaveBlock3Ptr->dexNavChain = 0;
+        else if (!(gBattleTypeFlags & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED | BATTLE_TYPE_FRONTIER)))
+        {
+            CheckDexNavChainSpecies(GetMonData(&gParties[B_TRAINER_OPPONENT_A][0], MON_DATA_SPECIES));
+            if (WILD_DOUBLE_BATTLE)
+                CheckDexNavChainSpecies(GetMonData(&gParties[B_TRAINER_OPPONENT_A][1], MON_DATA_SPECIES));
+        }
 
         ClearCurrentTrainerWantRematchVsSeeker();
         gDexNavSpecies = SPECIES_NONE;

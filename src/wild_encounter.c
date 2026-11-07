@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dexnav.h"
 #include "wild_progression.h"
 #include "dynamic_encounters.h"
 #include "battle_setup.h"
@@ -520,7 +521,13 @@ void CreateWildMon(enum Species species, u8 level)
     ZeroEnemyPartyMons();
     u32 personality = GetMonPersonality(species, GetSynchronizedGender(WILDMON_ORIGIN, species), PickWildMonNature(species), RANDOM_UNOWN_LETTER);
     CreateMonWithIVs(&gParties[B_TRAINER_OPPONENT_A][0], species, level, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
-    GiveMonInitialMoveset(&gParties[B_TRAINER_OPPONENT_A][0]);
+    struct Pokemon *mon = &gParties[B_TRAINER_OPPONENT_A][0];
+    if (gDexNavSpecies == SPECIES_NONE)
+    {
+        bool8 shiny = ComputeRegularWildShinyOdds(personality, GetMonData(mon, MON_DATA_OT_ID));
+        SetMonData(mon, MON_DATA_IS_SHINY, &shiny);
+    }
+    GiveMonInitialMoveset(mon);
 }
 
 #ifdef BUGFIX
@@ -673,7 +680,7 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
     enum TimeOfDay timeOfDay;
     struct Roamer *roamer;
 
-    if (sWildEncountersDisabled == TRUE || CalculatePlayerPartyCount() == 0)
+    if (sWildEncountersDisabled || FlagGet(DN_FLAG_SEARCHING) || CalculatePlayerPartyCount() == 0)
         return FALSE;
 
     headerId = GetCurrentMapWildMonHeaderId();
@@ -815,6 +822,12 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
 
 void RockSmashWildEncounter(void)
 {
+    if (FlagGet(DN_FLAG_SEARCHING))
+    {
+        gSpecialVar_Result = FALSE;
+        return;
+    }
+
     u32 headerId = GetCurrentMapWildMonHeaderId();
     enum TimeOfDay timeOfDay;
 
@@ -857,6 +870,9 @@ void RockSmashWildEncounter(void)
 
 bool8 SweetScentWildEncounter(void)
 {
+    if (FlagGet(DN_FLAG_SEARCHING))
+        return FALSE;
+
     s16 x, y;
     u32 headerId;
     enum TimeOfDay timeOfDay;

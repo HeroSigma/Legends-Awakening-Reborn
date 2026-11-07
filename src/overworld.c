@@ -623,6 +623,9 @@ void ApplyCurrentWarp(void)
 {
     gLastUsedWarp = gSaveBlock1Ptr->location;
     gSaveBlock1Ptr->location = sWarpDestination;
+    if (gLastUsedWarp.mapGroup != gSaveBlock1Ptr->location.mapGroup
+     || gLastUsedWarp.mapNum != gSaveBlock1Ptr->location.mapNum)
+        ResetDexNavChain();
     sFixedDiveWarp = sDummyWarpData;
     sFixedHoleWarp = sDummyWarpData;
 }
@@ -3768,11 +3771,7 @@ void ScriptShowItemDescription(struct ScriptContext *ctx)
 
     SetWindowTemplateFields(&template, 0, 1, 1, 28, 3, 15, 8);
     sHeaderBoxWindowId = AddWindow(&template);
-    FillWindowPixelBuffer(sHeaderBoxWindowId, PIXEL_FILL(0));
-    PutWindowTilemap(sHeaderBoxWindowId);
-    CopyWindowToVram(sHeaderBoxWindowId, 3);
-    SetStandardWindowBorderStyle(sHeaderBoxWindowId, FALSE);
-    DrawStdFrameWithCustomTileAndPalette(sHeaderBoxWindowId, FALSE, 0x214, 14);
+    DrawStdWindowFrame(sHeaderBoxWindowId, FALSE);
 
     if (ReformatItemDescription(item, dst) == 1)
         textY = 4;
@@ -3780,7 +3779,8 @@ void ScriptShowItemDescription(struct ScriptContext *ctx)
         textY = 0;
 
     ShowItemIconSprite(item, TRUE, handleFlash);
-    AddTextPrinterParameterized(sHeaderBoxWindowId, 0, dst, ITEM_ICON_X + 2, textY, 0, NULL);
+    AddTextPrinterParameterized(sHeaderBoxWindowId, FONT_SMALL, dst, ITEM_ICON_X + 2, textY, TEXT_SKIP_DRAW, NULL);
+    CopyWindowToVram(sHeaderBoxWindowId, COPYWIN_FULL);
 }
 
 void ScriptHideItemDescription(struct ScriptContext *ctx)

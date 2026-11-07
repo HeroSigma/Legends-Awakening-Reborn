@@ -1184,8 +1184,21 @@ static const struct MenuAction MultichoiceList_LaTera3[] = {
     {gText_Cancel2},
 };
 
+static const struct MenuAction sMultichoiceList_GymFormat[] =
+{
+    {COMPOUND_STRING("Singles")},
+    {COMPOUND_STRING("Doubles")},
+};
+
+static const struct MenuAction sMultichoiceList_OakStarter[] = {
+    {COMPOUND_STRING("Bulbasaur")}, {COMPOUND_STRING("Charmander")},
+    {COMPOUND_STRING("Squirtle")}, {COMPOUND_STRING("Not yet")},
+};
+
 static const struct MultichoiceListStruct sMultichoiceLists[] =
 {
+    [MULTI_LA_OAK_STARTER] = MULTICHOICE(sMultichoiceList_OakStarter),
+    [MULTI_LA_GYM_FORMAT]             = MULTICHOICE(sMultichoiceList_GymFormat),
     [MULTI_LA_TERA_PAGE1] = MULTICHOICE(MultichoiceList_LaTera1),
     [MULTI_LA_TERA_PAGE2] = MULTICHOICE(MultichoiceList_LaTera2),
     [MULTI_LA_TERA_PAGE3] = MULTICHOICE(MultichoiceList_LaTera3),

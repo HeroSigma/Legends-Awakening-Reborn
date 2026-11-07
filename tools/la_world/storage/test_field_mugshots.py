@@ -26,7 +26,7 @@ for mode in [0,1]:
  start(mode);invoke('StorageChangeMode',mode,1)
  for n in speakers:
   show(n)
-  check(f'portrait_{mode}_{n}',bool(invoke('IsFieldMugshotActive'))==(n not in ['CYRUS','NONE','DEVON_RESEARCHER']))
+  check(f'portrait_{mode}_{n}',bool(invoke('IsFieldMugshotActive'))==(n not in ['NONE','DEVON_RESEARCHER']))
   if n in ['PLAYER','RED','BIRCH','GIOVANNI','WALLY','CYRUS']:capture(f'mode{mode}_{n}')
   clean(n)
  # Switching speakers while the previous textbox is still drawn.

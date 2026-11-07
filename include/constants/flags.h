@@ -76,8 +76,8 @@
 #define FLAG_LA_DEXNAV_RECEIVED FLAG_UNUSED_0x901
 #define FLAG_HIDE_LA_BIRCH_RESCUE_RED FLAG_UNUSED_0x02D
 #define FLAG_LA_BIRCH_RESCUE_BATTLE FLAG_UNUSED_0x02E
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
+#define FLAG_LA_MIRAIDON_BATTLE 0x27 // Power Plant scripted encounter
+#define FLAG_LA_KANTO_RIFT_ARRIVAL 0x28 // First arrival on Route 10
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
 #define FLAG_UNUSED_0x02A    0x2A // Unused Flag
 #define FLAG_UNUSED_0x02B    0x2B // Unused Flag
@@ -121,10 +121,10 @@
 #define FLAG_LA_MET_SILVER FLAG_UNUSED_0x04A
 #define FLAG_UNUSED_0x04B    0x4B // Rustboro Silver battle won
 #define FLAG_LA_DEFEATED_SILVER_RUSTBORO FLAG_UNUSED_0x04B
-#define FLAG_UNUSED_0x04C    0x4C // Unused Flag
-#define FLAG_UNUSED_0x04D    0x4D // Unused Flag
-#define FLAG_UNUSED_0x04E    0x4E // Unused Flag
-#define FLAG_UNUSED_0x04F    0x4F // Unused Flag
+#define FLAG_LA_PICKUP_NORMALIUM_Z    0x4C
+#define FLAG_LA_PICKUP_MANECTITE    0x4D
+#define FLAG_LA_PICKUP_FIRIUM_Z    0x4E
+#define FLAG_LA_PICKUP_ROCKIUM_Z    0x4F
 
 // Scripts
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
@@ -132,8 +132,8 @@
 #define FLAG_RESCUED_BIRCH                       0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 
-#define FLAG_UNUSED_0x054                    0x54  // Unused Flag
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
+#define FLAG_LA_PICKUP_SCEPTILITE                    0x54
+#define FLAG_LA_PICKUP_FLYINIUM_Z                    0x55
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
@@ -154,7 +154,7 @@
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_LA_PICKUP_ELECTRIUM_Z                    0x68
 
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
@@ -289,7 +289,7 @@
 #define FLAG_RECEIVED_TM_ROAR                0xE7
 #define FLAG_RECEIVED_TM_GIGA_DRAIN          0xE8
 
-#define FLAG_UNUSED_0x0E9                    0xE9 // Unused Flag
+#define FLAG_LA_PICKUP_CHARIZARDITE_X                    0xE9
 
 #define FLAG_RECEIVED_TM_REST                0xEA
 #define FLAG_RECEIVED_TM_ATTRACT             0xEB
@@ -494,8 +494,8 @@
 #define FLAG_REGISTERED_DRAKE                (TRAINER_REGISTERED_FLAGS_START + REMATCH_DRAKE)
 #define FLAG_REGISTERED_WALLACE              (TRAINER_REGISTERED_FLAGS_START + REMATCH_WALLACE)
 
-#define FLAG_UNUSED_0x1AA                    0x1AA // Unused Flag
-#define FLAG_UNUSED_0x1AB                    0x1AB // Unused Flag
+#define FLAG_LA_PICKUP_GARDEVOIRITE                    0x1AA
+#define FLAG_LA_PICKUP_BANETTITE                    0x1AB
 
 #define FLAG_DEFEATED_DEOXYS                 0x1AC
 #define FLAG_BATTLED_DEOXYS                  0x1AD
@@ -550,12 +550,12 @@
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_UNUSED_0x1DE                    0x1DE // Unused Flag
-#define FLAG_UNUSED_0x1DF                    0x1DF // Unused Flag
-#define FLAG_UNUSED_0x1E0                    0x1E0 // Unused Flag
-#define FLAG_UNUSED_0x1E1                    0x1E1 // Unused Flag
-#define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
+#define FLAG_LA_PICKUP_WATERIUM_Z                    0x1DE
+#define FLAG_LA_PICKUP_BLASTOISINITE                    0x1DF
+#define FLAG_LA_PICKUP_GRASSIUM_Z                    0x1E0
+#define FLAG_LA_PICKUP_AMPHAROSITE                    0x1E1
+#define FLAG_LA_PICKUP_BUGINIUM_Z                    0x1E2
+#define FLAG_LA_PICKUP_GROUNDIUM_Z                    0x1E3
 
 // Mystery Gift Flags (Unknown)
 #define FLAG_MYSTERY_GIFT_DONE               0x1E4
@@ -691,13 +691,13 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
 #define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
+#define FLAG_LA_PICKUP_LUCARIONITE  0x265
+#define FLAG_LA_PICKUP_ABOMASITE  0x266
+#define FLAG_LA_PICKUP_DARKINIUM_Z  0x267
+#define FLAG_LA_PICKUP_AUDINITE  0x268
+#define FLAG_LA_DEWFORD_HOOPA_SEEN          0x269
+#define FLAG_LA_HIDE_DEWFORD_DYNAMAX_BAND   0x26A
+#define FLAG_LA_HEARD_DEWFORD_HOOPA         0x26B
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
 #define FLAG_UNUSED_0x26E  0x26E // Unused Flag

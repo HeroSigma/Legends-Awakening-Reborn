@@ -11277,8 +11277,17 @@ void SetValuesOnFaint(enum BattlerId battler)
     }
 }
 
+bool32 IsStoryBattleCaptureBlocked(void)
+{
+    return (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+        && (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) || FlagGet(FLAG_LA_MIRAIDON_BATTLE));
+}
+
 bool32 IsVictoryCatch(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return FALSE;
+
     return gBattleTypeFlags & BATTLE_TYPE_RAID
         || FlagGet(B_FLAG_VICTORY_CATCH_RANDOM)
         || FlagGet(B_FLAG_VICTORY_CATCH_GUARANTEED);
@@ -11286,6 +11295,9 @@ bool32 IsVictoryCatch(void)
 
 bool32 IsVictoryCatchGuaranteed(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return FALSE;
+
     return gBattleTypeFlags & BATTLE_TYPE_RAID
         || FlagGet(B_FLAG_VICTORY_CATCH_GUARANTEED);
 }

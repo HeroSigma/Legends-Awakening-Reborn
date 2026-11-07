@@ -4058,6 +4058,17 @@ static void Cmd_getmoneyreward(void)
         money = GetTrainerMoneyToGive(TRAINER_BATTLE_PARAM.opponentA);
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
             money += GetTrainerMoneyToGive(TRAINER_BATTLE_PARAM.opponentB);
+        switch (GetCurrentDifficultyLevel())
+        {
+        case DIFFICULTY_NORMAL:
+            money += money / 4;
+            break;
+        case DIFFICULTY_HARD:
+            money += money / 2;
+            break;
+        default:
+            break;
+        }
         AddMoney(&gSaveBlock1Ptr->money, money);
     }
     else
@@ -8239,7 +8250,7 @@ static void Cmd_handleballthrow(void)
 
     gBattlerTarget = GetCatchingBattler();
 
-    if (gBattleTypeFlags & BATTLE_TYPE_GHOST)
+    if (IsStoryBattleCaptureBlocked() || gBattleTypeFlags & BATTLE_TYPE_GHOST)
     {
         BtlController_EmitBallThrowAnim(gBattlerAttacker, B_COMM_TO_CONTROLLER, BALL_GHOST_DODGE);
         MarkBattlerForControllerExec(gBattlerAttacker);
@@ -10332,6 +10343,7 @@ void BS_JumpIfNoWhiteOut(void)
     NATIVE_ARGS(const u8 *jumpInstr);
     if (FlagGet(B_FLAG_NO_WHITEOUT)
      || (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE && FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+     || FlagGet(FLAG_LA_MIRAIDON_BATTLE)
      || FlagGet(FLAG_LA_RED_LAB_BATTLE)
      || FlagGet(FLAG_LA_ROUTE103_PARTNER_BATTLE))
         gBattlescriptCurrInstr = cmd->jumpInstr;

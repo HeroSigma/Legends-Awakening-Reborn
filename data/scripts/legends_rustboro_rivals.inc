@@ -4,7 +4,7 @@ LegendsRustboro_SetupSilver:
     goto_if_unset FLAG_LA_MET_SILVER, LegendsRustboro_Return
     goto_if_set FLAG_LA_DEFEATED_SILVER_RUSTBORO, LegendsRustboro_Return
     clearflag FLAG_LA_HIDE_RUSTBORO_SILVER
-    setobjectxyperm LOCALID_LA_RUSTBORO_SILVER, 18, 54
+    setobjectxyperm LOCALID_LA_RUSTBORO_SILVER, 16, 54
 LegendsRustboro_Return:
     return
 
@@ -25,10 +25,10 @@ LegendsRustboro_SilverScene::
     closemessage
     special HealPlayerParty
     fadescreen FADE_TO_BLACK
-    setobjectxy LOCALID_PLAYER, 18, 55
-    setobjectxy LOCALID_RUSTBORO_RIVAL, 17, 54
+    setobjectxy LOCALID_PLAYER, 16, 55
+    call LegendsRustboro_PlaceMay
     clearflag FLAG_LA_HIDE_RUSTBORO_SILVER
-    setobjectxyperm LOCALID_LA_RUSTBORO_SILVER, 18, 48
+    setobjectxyperm LOCALID_LA_RUSTBORO_SILVER, 16, 48
     addobject LOCALID_LA_RUSTBORO_SILVER
     turnobject LOCALID_PLAYER, DIR_NORTH
     turnobject LOCALID_RUSTBORO_RIVAL, DIR_NORTH
@@ -70,9 +70,9 @@ LegendsRustboro_SilverRetry:
     msgbox LegendsRustboroRivals_Text_RetryHeal, MSGBOX_DEFAULT
     closemessage
     fadescreen FADE_TO_BLACK
-    setobjectxy LOCALID_PLAYER, 18, 55
-    setobjectxy LOCALID_RUSTBORO_RIVAL, 17, 54
-    setobjectxy LOCALID_LA_RUSTBORO_SILVER, 18, 54
+    setobjectxy LOCALID_PLAYER, 16, 55
+    call LegendsRustboro_PlaceMay
+    setobjectxy LOCALID_LA_RUSTBORO_SILVER, 16, 54
     turnobject LOCALID_PLAYER, DIR_NORTH
     turnobject LOCALID_RUSTBORO_RIVAL, DIR_EAST
     turnobject LOCALID_LA_RUSTBORO_SILVER, DIR_SOUTH
@@ -81,11 +81,14 @@ LegendsRustboro_SilverRetry:
     setspeaker SP_NAME_SILVER
     msgbox LegendsRustboroRivals_Text_Retry, MSGBOX_DEFAULT
 LegendsRustboro_SilverBattle:
+    copyobjectxytoperm LOCALID_LA_RUSTBORO_SILVER
     setspeaker SP_NAME_NONE
     closemessage
     special HealPlayerParty
     trainerbattle_no_intro TRAINER_SILVER_RUSTBORO, LegendsRustboroRivals_Text_Defeat
     setflag FLAG_LA_DEFEATED_SILVER_RUSTBORO
+    call LegendsRustboro_PlaceMay
+    turnobject LOCALID_RUSTBORO_RIVAL, DIR_EAST
     special HealPlayerParty
     setspeaker SP_NAME_SILVER
     msgbox LegendsRustboroRivals_Text_Admission, MSGBOX_DEFAULT
@@ -109,11 +112,18 @@ LegendsRustboro_SilverBattle:
     closemessage
     applymovement LOCALID_RUSTBORO_RIVAL, LegendsRustboro_MayReturn
     waitmovement 0
+    copyobjectxytoperm LOCALID_RUSTBORO_RIVAL
     call RustboroCity_EventScript_RestoreBgm
 LegendsRustboro_Release:
     setspeaker SP_NAME_NONE
     releaseall
     end
+
+LegendsRustboro_PlaceMay:
+    setobjectxyperm LOCALID_RUSTBORO_RIVAL, 15, 54
+    addobject LOCALID_RUSTBORO_RIVAL
+    setobjectxy LOCALID_RUSTBORO_RIVAL, 15, 54
+    return
 
 LegendsRustboro_SilverApproach:
     walk_down
@@ -135,7 +145,7 @@ LegendsRustboro_SilverExit:
 LegendsRustboro_MayReturn:
     walk_up
     walk_up
-    walk_left
+    walk_right
     face_down
     step_end
 

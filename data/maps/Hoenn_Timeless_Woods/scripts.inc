@@ -4,6 +4,9 @@ Hoenn_Timeless_Woods_MapScripts::
     .byte 0
 
 TimelessWoods_OnTransition:
+    setflag FLAG_TEMP_3
+    setflag FLAG_TEMP_4
+    call_if_ge VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_ShowWoodsSearch
     setvar VAR_TEMP_1, 0
     setvar VAR_TEMP_2, 0
     goto_if_unset FLAG_LA_TIMELESS_WOODS_CONSPIRACY_SEEN, TimelessWoods_CheckArrival
@@ -187,3 +190,67 @@ HyperHoenn_34_67_Timeless_Woods_EventScript_HyperConstruction_Registered1::
 HyperHoenn_34_67_Timeless_Woods_Text_HyperConstruction_Registered1:
 	.string "This area is under construction.\p"
 	.string "Please check back later!$"
+
+LegendsParadigm_ShowWoodsSearch::
+	clearflag FLAG_TEMP_3
+	goto_if_ne VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_WoodsSearchShown
+	clearflag FLAG_TEMP_4
+LegendsParadigm_WoodsSearchShown::
+	return
+
+LegendsParadigm_WoodsApproach::
+	lockall
+	applymovement LOCALID_PLAYER, LegendsParadigm_StepToClearing
+	waitmovement 0
+	goto LegendsParadigm_WoodsLead
+
+LegendsParadigm_StepToClearing:
+	walk_up
+	step_end
+
+LegendsParadigm_WoodsLead::
+	lockall
+	goto_if_ge VAR_LA_PARADIGM_ARC, 5, LegendsParadigm_WoodsRepeat
+	turnobject LOCALID_PLAYER, DIR_EAST
+	setspeaker SP_NAME_MAY
+	msgbox LegendsParadigm_Text_MayTracks, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsParadigm_Text_Scout, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsParadigm_Text_AskScout, MSGBOX_DEFAULT
+	setspeaker SP_NAME_SHADOW_TRIAD
+	msgbox LegendsParadigm_Text_ScoutWarning, MSGBOX_DEFAULT
+	closemessage
+	playse SE_M_TELEPORT
+	removeobject LOCALID_TIMELESS_PARADIGM_TRIAD
+	setflag FLAG_TEMP_4
+	setspeaker SP_NAME_MAY
+	msgbox LegendsParadigm_Text_NorthernLead, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsParadigm_Text_ReportBeforeCrossing, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	setvar VAR_LA_PARADIGM_ARC, 5
+	releaseall
+	end
+
+LegendsParadigm_WoodsRepeat::
+	setspeaker SP_NAME_MAY
+	msgbox LegendsParadigm_Text_NorthernLead, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	releaseall
+	end
+
+LegendsParadigm_Text_MayTracks:
+	.string "Fresh footprints, {PLAYER}.\nSomeone came back after those men.\pThat outfit… The attackers in\nPetalburg Woods dressed like that.$"
+LegendsParadigm_Text_Scout:
+	.string "The boy reached Kanto alive.\nYou already know that much.\pYet here you are, looking for a\ndevice you don't understand.$"
+LegendsParadigm_Text_AskScout:
+	.string "How do you know about Wally?\pWhere are the men with the\nR and G on their clothes?$"
+LegendsParadigm_Text_ScoutWarning:
+	.string "They have moved the device.\nWe are following them as well.\pWatch the northern opening.\nThey left something active there.\pIf you rush after them, your\nfriend won't be the last to vanish.$"
+LegendsParadigm_Text_NorthernLead:
+	.string "He knew about Wally before we\nsaid anything. Dad needs to hear.\pI'll watch the northern opening.\nLet's find out what they left.$"
+LegendsParadigm_Text_ReportBeforeCrossing:
+	.string "We tell Paradigm before anyone\nsteps through another rift.$"

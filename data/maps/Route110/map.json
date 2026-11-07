@@ -265,17 +265,17 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_LA_MEGA_STONE",
       "x": 30,
       "y": 69,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_DIRE_HIT",
+      "trainer_sight_or_berry_tree_id": "ITEM_MANECTITE",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_110_DIRE_HIT"
+      "flag": "FLAG_LA_PICKUP_MANECTITE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -384,7 +384,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE110_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_BARRY",
       "x": 34,
       "y": 54,
       "elevation": 3,
@@ -501,6 +501,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_ROUTE_110_BIRCH"
+    },
+    {
+      "local_id": "LOCALID_ROUTE110_ROWAN",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_ROWAN",
+      "x": 10,
+      "y": 79,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_TEMP_1"
     }
   ],
   "warp_events": [

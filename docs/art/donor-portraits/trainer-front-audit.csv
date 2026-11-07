@@ -1,0 +1,864 @@
+﻿Trainer entry,Name,Class,Portrait slot,Source,Portrait ID
+TRAINER_NONE,,Pkmn Trainer 1,Hiker,Hyper,set1_000
+TRAINER_SAWYER_1,SAWYER,Hiker,Hiker,Hyper,set1_000
+TRAINER_GRUNT_AQUA_HIDEOUT_1,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_AQUA_HIDEOUT_2,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_AQUA_HIDEOUT_3,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_AQUA_HIDEOUT_4,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_SEAFLOOR_CAVERN_1,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_SEAFLOOR_CAVERN_2,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_SEAFLOOR_CAVERN_3,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GABRIELLE_1,GABRIELLE,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_GRUNT_PETALBURG_WOODS,TRIAD,Pkmn Trainer 1,Shadow Triad,BWA,set1_099
+TRAINER_MARCEL,MARCEL,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_ALBERTO,ALBERTO,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ED,ED,Collector,Collector,Hyper,set1_005
+TRAINER_GRUNT_SEAFLOOR_CAVERN_4,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_DECLAN,DECLAN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_GRUNT_RUSTURF_TUNNEL,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_WEATHER_INST_1,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_WEATHER_INST_2,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_WEATHER_INST_3,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_MUSEUM_1,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_MUSEUM_2,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_SPACE_CENTER_1,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MT_PYRE_1,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_MT_PYRE_2,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_MT_PYRE_3,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_WEATHER_INST_4,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_GRUNT_AQUA_HIDEOUT_5,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_GRUNT_AQUA_HIDEOUT_6,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_FREDRICK,FREDRICK,Expert,Expert M,Hyper,set1_009
+TRAINER_MATT,MATT,Aqua Admin,Donor Aqua Matt,Hyper,set1_010
+TRAINER_ZANDER,ZANDER,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_SHELLY_WEATHER_INSTITUTE,SHELLY,Aqua Admin,Donor Aqua Shelly,Hyper,set1_012
+TRAINER_SHELLY_SEAFLOOR_CAVERN,SHELLY,Aqua Admin,Donor Aqua Shelly,Hyper,set1_012
+TRAINER_ARCHIE,ARCHIE,Aqua Leader,Donor Archie,Hyper,set1_013
+TRAINER_LEAH,LEAH,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_DAISY,DAISY,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_ROSE_1,ROSE,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_FELIX,FELIX,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_VIOLET,VIOLET,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_ROSE_2,ROSE,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_ROSE_3,ROSE,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_ROSE_4,ROSE,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_ROSE_5,ROSE,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_DUSTY_1,DUSTY,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_CHIP,CHIP,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_FOSTER,FOSTER,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_DUSTY_2,DUSTY,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_DUSTY_3,DUSTY,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_DUSTY_4,DUSTY,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_DUSTY_5,DUSTY,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_GABBY_AND_TY_1,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_GABBY_AND_TY_2,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_GABBY_AND_TY_3,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_GABBY_AND_TY_4,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_GABBY_AND_TY_5,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_GABBY_AND_TY_6,GABBY & TY,Interviewer,Interviewer,Hyper,set1_017
+TRAINER_LOLA_1,LOLA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_AUSTINA,AUSTINA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_GWEN,GWEN,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_LOLA_2,LOLA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_LOLA_3,LOLA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_LOLA_4,LOLA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_LOLA_5,LOLA,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_RICKY_1,RICKY,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_SIMON,SIMON,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_CHARLIE,CHARLIE,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_RICKY_2,RICKY,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_RICKY_3,RICKY,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_RICKY_4,RICKY,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_RICKY_5,RICKY,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_RANDALL,RANDALL,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_PARKER,PARKER,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_GEORGE,GEORGE,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_BERKE,BERKE,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_BRAXTON,BRAXTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_VINCENT,VINCENT,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_LEROY,LEROY,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WILTON_1,WILTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_EDGAR,EDGAR,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_ALBERT,ALBERT,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_SAMUEL,SAMUEL,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_VITO,VITO,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_OWEN,OWEN,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WILTON_2,WILTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WILTON_3,WILTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WILTON_4,WILTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WILTON_5,WILTON,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_WARREN,WARREN,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_MARY,MARY,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_ALEXIA,ALEXIA,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_JODY,JODY,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_WENDY,WENDY,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_KEIRA,KEIRA,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_BROOKE_1,BROOKE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_JENNIFER,JENNIFER,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_HOPE,HOPE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_SHANNON,SHANNON,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_MICHELLE,MICHELLE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_CAROLINE,CAROLINE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_JULIE,JULIE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_BROOKE_2,BROOKE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_BROOKE_3,BROOKE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_BROOKE_4,BROOKE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_BROOKE_5,BROOKE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_PATRICIA,PATRICIA,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_KINDRA,KINDRA,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_TAMMY,TAMMY,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_VALERIE_1,VALERIE,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_TASHA,TASHA,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_VALERIE_2,VALERIE,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_VALERIE_3,VALERIE,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_VALERIE_4,VALERIE,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_VALERIE_5,VALERIE,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_CINDY_1,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_DAPHNE,DAPHNE,Lady,Lady,Hyper,set1_021
+TRAINER_GRUNT_SPACE_CENTER_2,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_CINDY_2,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_BRIANNA,BRIANNA,Lady,Lady,Hyper,set1_021
+TRAINER_NAOMI,NAOMI,Lady,Lady,Hyper,set1_021
+TRAINER_CINDY_3,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_CINDY_4,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_CINDY_5,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_CINDY_6,CINDY,Lady,Lady,Hyper,set1_021
+TRAINER_MELISSA,MELISSA,Beauty,Beauty,Hyper,set1_022
+TRAINER_SHEILA,SHEILA,Beauty,Beauty,Hyper,set1_022
+TRAINER_SHIRLEY,SHIRLEY,Beauty,Beauty,Hyper,set1_022
+TRAINER_JESSICA_1,JESSICA,Beauty,Beauty,Hyper,set1_022
+TRAINER_CONNIE,CONNIE,Beauty,Beauty,Hyper,set1_022
+TRAINER_BRIDGET,BRIDGET,Beauty,Beauty,Hyper,set1_022
+TRAINER_OLIVIA,OLIVIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_TIFFANY,TIFFANY,Beauty,Beauty,Hyper,set1_022
+TRAINER_JESSICA_2,JESSICA,Beauty,Beauty,Hyper,set1_022
+TRAINER_JESSICA_3,JESSICA,Beauty,Beauty,Hyper,set1_022
+TRAINER_JESSICA_4,JESSICA,Beauty,Beauty,Hyper,set1_022
+TRAINER_JESSICA_5,JESSICA,Beauty,Beauty,Hyper,set1_022
+TRAINER_WINSTON_1,WINSTON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_MOLLIE,MOLLIE,Expert,Expert F,Hyper,set1_024
+TRAINER_GARRET,GARRET,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_WINSTON_2,WINSTON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_WINSTON_3,WINSTON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_WINSTON_4,WINSTON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_WINSTON_5,WINSTON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_STEVE_1,STEVE,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_THALIA_1,THALIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_MARK,MARK,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_GRUNT_MT_CHIMNEY_1,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_STEVE_2,STEVE,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_STEVE_3,STEVE,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_STEVE_4,STEVE,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_STEVE_5,STEVE,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_LUIS,LUIS,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DOMINIK,DOMINIK,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DOUGLAS,DOUGLAS,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DARRIN,DARRIN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TONY_1,TONY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_JEROME,JEROME,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_MATTHEW,MATTHEW,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DAVID,DAVID,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_SPENCER,SPENCER,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_ROLAND,ROLAND,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_NOLEN,NOLEN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_STAN,STAN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_BARRY,BARRY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DEAN,DEAN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_RODNEY,RODNEY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_RICHARD,RICHARD,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_HERMAN,HERMAN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_SANTIAGO,SANTIAGO,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_GILBERT,GILBERT,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_FRANKLIN,FRANKLIN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_KEVIN,KEVIN,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_JACK,JACK,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_DUDLEY,DUDLEY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_CHAD,CHAD,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TONY_2,TONY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TONY_3,TONY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TONY_4,TONY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TONY_5,TONY,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TAKAO,TAKAO,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_HITOSHI,HITOSHI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KIYO,KIYO,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KOICHI,KOICHI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_NOB_1,NOB,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_NOB_2,NOB,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_NOB_3,NOB,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_NOB_4,NOB,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_NOB_5,NOB,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_YUJI,YUJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_DAISUKE,DAISUKE,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_ATSUSHI,ATSUSHI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KIRK,KIRK,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_GRUNT_AQUA_HIDEOUT_7,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_GRUNT_AQUA_HIDEOUT_8,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_SHAWN,SHAWN,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_FERNANDO_1,FERNANDO,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DALTON_1,DALTON,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DALTON_2,DALTON,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DALTON_3,DALTON,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DALTON_4,DALTON,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DALTON_5,DALTON,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_COLE,COLE,Kindler,Kindler,Hyper,set1_028
+TRAINER_JEFF,JEFF,Kindler,Kindler,Hyper,set1_028
+TRAINER_AXLE,AXLE,Kindler,Kindler,Hyper,set1_028
+TRAINER_JACE,JACE,Kindler,Kindler,Hyper,set1_028
+TRAINER_KEEGAN,KEEGAN,Kindler,Kindler,Hyper,set1_028
+TRAINER_BERNIE_1,BERNIE,Kindler,Kindler,Hyper,set1_028
+TRAINER_BERNIE_2,BERNIE,Kindler,Kindler,Hyper,set1_028
+TRAINER_BERNIE_3,BERNIE,Kindler,Kindler,Hyper,set1_028
+TRAINER_BERNIE_4,BERNIE,Kindler,Kindler,Hyper,set1_028
+TRAINER_BERNIE_5,BERNIE,Kindler,Kindler,Hyper,set1_028
+TRAINER_DREW,DREW,Camper,Camper,Hyper,set1_029
+TRAINER_BEAU,BEAU,Camper,Camper,Hyper,set1_029
+TRAINER_LARRY,LARRY,Camper,Camper,Hyper,set1_029
+TRAINER_SHANE,SHANE,Camper,Camper,Hyper,set1_029
+TRAINER_JUSTIN,JUSTIN,Camper,Camper,Hyper,set1_029
+TRAINER_ETHAN_1,ETHAN,Camper,Camper,Hyper,set1_029
+TRAINER_AUTUMN,AUTUMN,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_TRAVIS,TRAVIS,Camper,Camper,Hyper,set1_029
+TRAINER_ETHAN_2,ETHAN,Camper,Camper,Hyper,set1_029
+TRAINER_ETHAN_3,ETHAN,Camper,Camper,Hyper,set1_029
+TRAINER_ETHAN_4,ETHAN,Camper,Camper,Hyper,set1_029
+TRAINER_ETHAN_5,ETHAN,Camper,Camper,Hyper,set1_029
+TRAINER_BRENT,BRENT,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_DONALD,DONALD,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_TAYLOR,TAYLOR,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_JEFFREY_1,JEFFREY,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_DEREK,DEREK,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_JEFFREY_2,JEFFREY,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_JEFFREY_3,JEFFREY,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_JEFFREY_4,JEFFREY,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_JEFFREY_5,JEFFREY,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_EDWARD,EDWARD,Psychic,Psychic M,Hyper,set1_033
+TRAINER_PRESTON,PRESTON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_VIRGIL,VIRGIL,Psychic,Psychic M,Hyper,set1_033
+TRAINER_BLAKE,BLAKE,Psychic,Psychic M,Hyper,set1_033
+TRAINER_WILLIAM,WILLIAM,Psychic,Psychic M,Hyper,set1_033
+TRAINER_JOSHUA,JOSHUA,Psychic,Psychic M,Hyper,set1_033
+TRAINER_CAMERON_1,CAMERON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_CAMERON_2,CAMERON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_CAMERON_3,CAMERON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_CAMERON_4,CAMERON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_CAMERON_5,CAMERON,Psychic,Psychic M,Hyper,set1_033
+TRAINER_JACLYN,JACLYN,Psychic,Psychic F,Hyper,set1_034
+TRAINER_HANNAH,HANNAH,Psychic,Psychic F,Hyper,set1_034
+TRAINER_SAMANTHA,SAMANTHA,Psychic,Psychic F,Hyper,set1_034
+TRAINER_MAURA,MAURA,Psychic,Psychic F,Hyper,set1_034
+TRAINER_KAYLA,KAYLA,Psychic,Psychic F,Hyper,set1_034
+TRAINER_ALEXIS,ALEXIS,Psychic,Psychic F,Hyper,set1_034
+TRAINER_JACKI_1,JACKI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_JACKI_2,JACKI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_JACKI_3,JACKI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_JACKI_4,JACKI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_JACKI_5,JACKI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_WALTER_1,WALTER,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_MICAH,MICAH,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_THOMAS,THOMAS,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_WALTER_2,WALTER,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_WALTER_3,WALTER,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_WALTER_4,WALTER,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_WALTER_5,WALTER,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_SIDNEY,SIDNEY,Elite Four,Elite Four Sidney,Hyper,set1_036
+TRAINER_PHOEBE,PHOEBE,Elite Four,Elite Four Phoebe,Hyper,set1_037
+TRAINER_GLACIA,GLACIA,Elite Four,Elite Four Glacia,Hyper,set1_038
+TRAINER_DRAKE,DRAKE,Elite Four,Elite Four Drake,Hyper,set1_039
+TRAINER_ROXANNE_1,ROXANNE,Leader,Leader Roxanne,Hyper,set1_040
+TRAINER_BRAWLY_1,BRAWLY,Leader,Leader Brawly,Hyper,set1_041
+TRAINER_WATTSON_1,WATTSON,Leader,Leader Wattson,Hyper,set1_042
+TRAINER_FLANNERY_1,FLANNERY,Leader,Leader Flannery,Hyper,set1_043
+TRAINER_NORMAN_1,NORMAN,Leader,Leader Norman,Hyper,set1_044
+TRAINER_WINONA_1,WINONA,Leader,Leader Winona,Hyper,set1_045
+TRAINER_TATE_AND_LIZA_1,TATE&LIZA,Leader,Leader Tate And Liza,Hyper,set1_046
+TRAINER_JUAN_1,JUAN,Leader,Leader Juan,Hyper,set1_047
+TRAINER_JERRY_1,JERRY,School Kid,School Kid M,Hyper,set1_048
+TRAINER_TED,TED,School Kid,School Kid M,Hyper,set1_048
+TRAINER_PAUL,PAUL,School Kid,School Kid M,Hyper,set1_048
+TRAINER_JERRY_2,JERRY,School Kid,School Kid M,Hyper,set1_048
+TRAINER_JERRY_3,JERRY,School Kid,School Kid M,Hyper,set1_048
+TRAINER_JERRY_4,JERRY,School Kid,School Kid M,Hyper,set1_048
+TRAINER_JERRY_5,JERRY,School Kid,School Kid M,Hyper,set1_048
+TRAINER_KAREN_1,KAREN,School Kid,School Kid F,Hyper,set1_049
+TRAINER_GEORGIA,GEORGIA,School Kid,School Kid F,Hyper,set1_049
+TRAINER_KAREN_2,KAREN,School Kid,School Kid F,Hyper,set1_049
+TRAINER_KAREN_3,KAREN,School Kid,School Kid F,Hyper,set1_049
+TRAINER_KAREN_4,KAREN,School Kid,School Kid F,Hyper,set1_049
+TRAINER_KAREN_5,KAREN,School Kid,School Kid F,Hyper,set1_049
+TRAINER_KATE_AND_JOY,KATE & JOY,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_ANNA_AND_MEG_1,ANNA & MEG,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_ANNA_AND_MEG_2,ANNA & MEG,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_ANNA_AND_MEG_3,ANNA & MEG,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_ANNA_AND_MEG_4,ANNA & MEG,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_ANNA_AND_MEG_5,ANNA & MEG,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_VICTOR,VICTOR,Winstrate,Pokefan M,Hyper,set1_051
+TRAINER_MIGUEL_1,MIGUEL,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_COLTON,COLTON,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_MIGUEL_2,MIGUEL,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_MIGUEL_3,MIGUEL,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_MIGUEL_4,MIGUEL,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_MIGUEL_5,MIGUEL,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_VICTORIA,VICTORIA,Winstrate,Pokefan F,Hyper,set1_052
+TRAINER_VANESSA,VANESSA,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_BETHANY,BETHANY,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_ISABEL_1,ISABEL,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_ISABEL_2,ISABEL,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_ISABEL_3,ISABEL,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_ISABEL_4,ISABEL,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_ISABEL_5,ISABEL,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_TIMOTHY_1,TIMOTHY,Expert,Expert M,Hyper,set1_009
+TRAINER_TIMOTHY_2,TIMOTHY,Expert,Expert M,Hyper,set1_009
+TRAINER_TIMOTHY_3,TIMOTHY,Expert,Expert M,Hyper,set1_009
+TRAINER_TIMOTHY_4,TIMOTHY,Expert,Expert M,Hyper,set1_009
+TRAINER_TIMOTHY_5,TIMOTHY,Expert,Expert M,Hyper,set1_009
+TRAINER_VICKY,VICKY,Winstrate,Expert F,Hyper,set1_024
+TRAINER_SHELBY_1,SHELBY,Expert,Expert F,Hyper,set1_024
+TRAINER_SHELBY_2,SHELBY,Expert,Expert F,Hyper,set1_024
+TRAINER_SHELBY_3,SHELBY,Expert,Expert F,Hyper,set1_024
+TRAINER_SHELBY_4,SHELBY,Expert,Expert F,Hyper,set1_024
+TRAINER_SHELBY_5,SHELBY,Expert,Expert F,Hyper,set1_024
+TRAINER_CALVIN_1,CALVIN,Youngster,Youngster,Hyper,set1_053
+TRAINER_BILLY,BILLY,Youngster,Youngster,Hyper,set1_053
+TRAINER_JOSH,JOSH,Youngster,Youngster,Hyper,set1_053
+TRAINER_TOMMY,TOMMY,Youngster,Youngster,Hyper,set1_053
+TRAINER_JOEY,JOEY,Youngster,Youngster,Hyper,set1_053
+TRAINER_BEN,BEN,Youngster,Youngster,Hyper,set1_053
+TRAINER_QUINCY,QUINCY,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_KATELYNN,KATELYNN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_JAYLEN,JAYLEN,Youngster,Youngster,Hyper,set1_053
+TRAINER_DILLON,DILLON,Youngster,Youngster,Hyper,set1_053
+TRAINER_CALVIN_2,CALVIN,Youngster,Youngster,Hyper,set1_053
+TRAINER_CALVIN_3,CALVIN,Youngster,Youngster,Hyper,set1_053
+TRAINER_CALVIN_4,CALVIN,Youngster,Youngster,Hyper,set1_053
+TRAINER_CALVIN_5,CALVIN,Youngster,Youngster,Hyper,set1_053
+TRAINER_EDDIE,EDDIE,Youngster,Youngster,Hyper,set1_053
+TRAINER_ALLEN,ALLEN,Youngster,Youngster,Hyper,set1_053
+TRAINER_TIMMY,TIMMY,Youngster,Youngster,Hyper,set1_053
+TRAINER_WALLACE,WALLACE,Champion,Champion Wallace,Hyper,set2_028
+TRAINER_ANDREW,ANDREW,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_IVAN,IVAN,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_CLAUDE,CLAUDE,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ELLIOT_1,ELLIOT,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_NED,NED,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_DALE,DALE,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_NOLAN,NOLAN,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_BARNY,BARNY,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_WADE,WADE,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_CARTER,CARTER,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ELLIOT_2,ELLIOT,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ELLIOT_3,ELLIOT,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ELLIOT_4,ELLIOT,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ELLIOT_5,ELLIOT,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_RONALD,RONALD,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_JACOB,JACOB,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_ANTHONY,ANTHONY,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_BENJAMIN_1,BENJAMIN,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_BENJAMIN_2,BENJAMIN,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_BENJAMIN_3,BENJAMIN,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_BENJAMIN_4,BENJAMIN,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_BENJAMIN_5,BENJAMIN,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_ABIGAIL_1,ABIGAIL,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_JASMINE,JASMINE,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_ABIGAIL_2,ABIGAIL,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_ABIGAIL_3,ABIGAIL,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_ABIGAIL_4,ABIGAIL,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_ABIGAIL_5,ABIGAIL,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_DYLAN_1,DYLAN,Triathlete,Running Triathlete M,Hyper,set1_060
+TRAINER_DYLAN_2,DYLAN,Triathlete,Running Triathlete M,Hyper,set1_060
+TRAINER_DYLAN_3,DYLAN,Triathlete,Running Triathlete M,Hyper,set1_060
+TRAINER_DYLAN_4,DYLAN,Triathlete,Running Triathlete M,Hyper,set1_060
+TRAINER_DYLAN_5,DYLAN,Triathlete,Running Triathlete M,Hyper,set1_060
+TRAINER_MARIA_1,MARIA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_MARIA_2,MARIA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_MARIA_3,MARIA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_MARIA_4,MARIA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_MARIA_5,MARIA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_CAMDEN,CAMDEN,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_DEMETRIUS,DEMETRIUS,Youngster,Youngster,Hyper,set1_053
+TRAINER_ISAIAH_1,ISAIAH,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_PABLO_1,PABLO,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_CHASE,CHASE,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_ISAIAH_2,ISAIAH,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_ISAIAH_3,ISAIAH,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_ISAIAH_4,ISAIAH,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_ISAIAH_5,ISAIAH,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_ISOBEL,ISOBEL,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_DONNY,DONNY,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_TALIA,TALIA,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_KATELYN_1,KATELYN,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_ALLISON,ALLISON,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_KATELYN_2,KATELYN,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_KATELYN_3,KATELYN,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_KATELYN_4,KATELYN,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_KATELYN_5,KATELYN,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_NICOLAS_1,NICOLAS,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_NICOLAS_2,NICOLAS,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_NICOLAS_3,NICOLAS,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_NICOLAS_4,NICOLAS,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_NICOLAS_5,NICOLAS,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_AARON,AARON,Dragon Tamer,Dragon Tamer,Hyper,set1_062
+TRAINER_PERRY,PERRY,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_HUGH,HUGH,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_PHIL,PHIL,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_JARED,JARED,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_HUMBERTO,HUMBERTO,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_PRESLEY,PRESLEY,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_EDWARDO,EDWARDO,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_COLIN,COLIN,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ROBERT_1,ROBERT,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_BENNY,BENNY,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_CHESTER,CHESTER,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ROBERT_2,ROBERT,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ROBERT_3,ROBERT,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ROBERT_4,ROBERT,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ROBERT_5,ROBERT,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_ALEX,ALEX,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_BECK,BECK,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_YASU,YASU,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_TAKASHI,TAKASHI,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_DIANNE,DIANNE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_JANI,JANI,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_LAO_1,LAO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_LUNG,LUNG,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_LAO_2,LAO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_LAO_3,LAO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_LAO_4,LAO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_LAO_5,LAO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_JOCELYN,JOCELYN,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_LAURA,LAURA,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CYNDY_1,CYNDY,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CORA,CORA,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_PAULA,PAULA,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CYNDY_2,CYNDY,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CYNDY_3,CYNDY,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CYNDY_4,CYNDY,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CYNDY_5,CYNDY,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_MADELINE_1,MADELINE,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_CLARISSA,CLARISSA,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_ANGELICA,ANGELICA,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_MADELINE_2,MADELINE,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_MADELINE_3,MADELINE,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_MADELINE_4,MADELINE,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_MADELINE_5,MADELINE,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_BEVERLY,BEVERLY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_IMANI,IMANI,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_KYLA,KYLA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_DENISE,DENISE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_BETH,BETH,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_TARA,TARA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_MISSY,MISSY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_ALICE,ALICE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_JENNY_1,JENNY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_GRACE,GRACE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_TANYA,TANYA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_SHARON,SHARON,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_NIKKI,NIKKI,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_BRENDA,BRENDA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_KATIE,KATIE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_SUSIE,SUSIE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_KARA,KARA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_DANA,DANA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_SIENNA,SIENNA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_DEBRA,DEBRA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_LINDA,LINDA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_KAYLEE,KAYLEE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_LAUREL,LAUREL,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_CARLEE,CARLEE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_JENNY_2,JENNY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_JENNY_3,JENNY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_JENNY_4,JENNY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_JENNY_5,JENNY,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_HEIDI,HEIDI,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_BECKY,BECKY,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_CAROL,CAROL,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_NANCY,NANCY,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_MARTHA,MARTHA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DIANA_1,DIANA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_CEDRIC,CEDRIC,Psychic,Psychic M,Hyper,set1_033
+TRAINER_IRENE,IRENE,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DIANA_2,DIANA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DIANA_3,DIANA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DIANA_4,DIANA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DIANA_5,DIANA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_AMY_AND_LIV_1,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_AMY_AND_LIV_2,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_GINA_AND_MIA_1,GINA & MIA,Twins,Twins,Hyper,set1_067
+TRAINER_MIU_AND_YUKI,MIU & YUKI,Twins,Twins,Hyper,set1_067
+TRAINER_AMY_AND_LIV_3,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_GINA_AND_MIA_2,GINA & MIA,Twins,Twins,Hyper,set1_067
+TRAINER_AMY_AND_LIV_4,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_AMY_AND_LIV_5,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_AMY_AND_LIV_6,AMY & LIV,Twins,Twins,Hyper,set1_067
+TRAINER_HUEY,HUEY,Sailor,Sailor,Hyper,set1_068
+TRAINER_EDMOND,EDMOND,Sailor,Sailor,Hyper,set1_068
+TRAINER_ERNEST_1,ERNEST,Sailor,Sailor,Hyper,set1_068
+TRAINER_DWAYNE,DWAYNE,Sailor,Sailor,Hyper,set1_068
+TRAINER_PHILLIP,PHILLIP,Sailor,Sailor,Hyper,set1_068
+TRAINER_LEONARD,LEONARD,Sailor,Sailor,Hyper,set1_068
+TRAINER_DUNCAN,DUNCAN,Sailor,Sailor,Hyper,set1_068
+TRAINER_ERNEST_2,ERNEST,Sailor,Sailor,Hyper,set1_068
+TRAINER_ERNEST_3,ERNEST,Sailor,Sailor,Hyper,set1_068
+TRAINER_ERNEST_4,ERNEST,Sailor,Sailor,Hyper,set1_068
+TRAINER_ERNEST_5,ERNEST,Sailor,Sailor,Hyper,set1_068
+TRAINER_ELI,ELI,Hiker,Hiker,Hyper,set1_000
+TRAINER_ANNIKA,ANNIKA,Pokefan,Pokefan F,Hyper,set1_052
+TRAINER_JAZMYN,JAZMYN,Cooltrainer 2,Cooltrainer F,Hyper,set1_020
+TRAINER_JONAS,JONAS,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_KAYLEY,KAYLEY,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_AURON,AURON,Expert,Expert M,Hyper,set1_009
+TRAINER_KELVIN,KELVIN,Sailor,Sailor,Hyper,set1_068
+TRAINER_MARLEY,MARLEY,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_REYNA,REYNA,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_HUDSON,HUDSON,Sailor,Sailor,Hyper,set1_068
+TRAINER_CONOR,CONOR,Expert,Expert M,Hyper,set1_009
+TRAINER_EDWIN_1,EDWIN,Collector,Collector,Hyper,set1_005
+TRAINER_HECTOR,HECTOR,Collector,Collector,Hyper,set1_005
+TRAINER_TABITHA_MOSSDEEP,TABITHA,Magma Admin,Donor Magma Tabitha,Hyper,set1_069
+TRAINER_EDWIN_2,EDWIN,Collector,Collector,Hyper,set1_005
+TRAINER_EDWIN_3,EDWIN,Collector,Collector,Hyper,set1_005
+TRAINER_EDWIN_4,EDWIN,Collector,Collector,Hyper,set1_005
+TRAINER_EDWIN_5,EDWIN,Collector,Collector,Hyper,set1_005
+TRAINER_WALLY_VR_1,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_BRENDAN_ROUTE_103_MUDKIP,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_110_MUDKIP,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_119_MUDKIP,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_103_TREECKO,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_110_TREECKO,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_119_TREECKO,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_103_TORCHIC,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_110_TORCHIC,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_ROUTE_119_TORCHIC,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_MAY_ROUTE_103_MUDKIP,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_110_MUDKIP,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_119_MUDKIP,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_103_TREECKO,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_110_TREECKO,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_119_TREECKO,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_103_TORCHIC,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_110_TORCHIC,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_ROUTE_119_TORCHIC,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_ISAAC_1,ISAAC,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_DAVIS,DAVIS,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_MITCHELL,MITCHELL,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_ISAAC_2,ISAAC,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_ISAAC_3,ISAAC,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_ISAAC_4,ISAAC,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_ISAAC_5,ISAAC,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_LYDIA_1,LYDIA,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_HALLE,HALLE,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_GARRISON,GARRISON,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_LYDIA_2,LYDIA,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_LYDIA_3,LYDIA,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_LYDIA_4,LYDIA,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_LYDIA_5,LYDIA,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_JACKSON_1,JACKSON,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_LORENZO,LORENZO,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_SEBASTIAN,SEBASTIAN,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_JACKSON_2,JACKSON,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_JACKSON_3,JACKSON,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_JACKSON_4,JACKSON,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_JACKSON_5,JACKSON,Pkmn Ranger,Pokemon Ranger M,Hyper,set1_074
+TRAINER_CATHERINE_1,CATHERINE,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_JENNA,JENNA,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_SOPHIA,SOPHIA,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_CATHERINE_2,CATHERINE,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_CATHERINE_3,CATHERINE,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_CATHERINE_4,CATHERINE,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_CATHERINE_5,CATHERINE,Pkmn Ranger,Pokemon Ranger F,Hyper,set1_075
+TRAINER_JULIO,JULIO,Triathlete,Cycling Triathlete M,Hyper,set1_056
+TRAINER_GRUNT_SEAFLOOR_CAVERN_5,GRUNT,Team Aqua,Donor Aqua Grunt Male,Hyper,set1_001
+TRAINER_GRUNT_UNUSED,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_GRUNT_MT_PYRE_4,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_GRUNT_JAGGED_PASS,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_MARC,MARC,Hiker,Hiker,Hyper,set1_000
+TRAINER_BRENDEN,BRENDEN,Sailor,Sailor,Hyper,set1_068
+TRAINER_LILITH,LILITH,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CRISTIAN,CRISTIAN,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_SYLVIA,SYLVIA,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_LEONARDO,LEONARDO,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_ATHENA,ATHENA,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_HARRISON,HARRISON,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_GRUNT_MT_CHIMNEY_2,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_CLARENCE,CLARENCE,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TERRY,TERRY,Psychic,Psychic F,Hyper,set1_034
+TRAINER_NATE,NATE,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_KATHLEEN,KATHLEEN,Hex Maniac,Hex Maniac,Hyper,set1_014
+TRAINER_CLIFFORD,CLIFFORD,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_NICHOLAS,NICHOLAS,Psychic,Psychic M,Hyper,set1_033
+TRAINER_GRUNT_SPACE_CENTER_3,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_GRUNT_SPACE_CENTER_4,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_SPACE_CENTER_5,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_SPACE_CENTER_6,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_SPACE_CENTER_7,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_MACEY,MACEY,Psychic,Psychic F,Hyper,set1_034
+TRAINER_BRENDAN_RUSTBORO_TREECKO,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_RUSTBORO_MUDKIP,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_PAXTON,PAXTON,Expert,Expert M,Hyper,set1_009
+TRAINER_ISABELLA,ISABELLA,Triathlete,Swimming Triathlete F,Hyper,set1_061
+TRAINER_GRUNT_WEATHER_INST_5,GRUNT,Team Aqua,Donor Aqua Grunt Female,Hyper,set1_006
+TRAINER_TABITHA_MT_CHIMNEY,TABITHA,Magma Admin,Donor Magma Tabitha,Hyper,set1_069
+TRAINER_JONATHAN,JONATHAN,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_BRENDAN_RUSTBORO_TORCHIC,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_MAY_RUSTBORO_MUDKIP,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAXIE_MAGMA_HIDEOUT,MAXIE,Magma Leader,Donor Maxie,Hyper,set1_076
+TRAINER_MAXIE_MT_CHIMNEY,MAXIE,Magma Leader,Donor Maxie,Hyper,set1_076
+TRAINER_TIANA,TIANA,Lass,Lass,Hyper,set1_077
+TRAINER_HALEY_1,HALEY,Lass,Lass,Hyper,set1_077
+TRAINER_JANICE,JANICE,Lass,Lass,Hyper,set1_077
+TRAINER_VIVI,VIVI,Winstrate,Lass,Hyper,set1_077
+TRAINER_HALEY_2,HALEY,Lass,Lass,Hyper,set1_077
+TRAINER_HALEY_3,HALEY,Lass,Lass,Hyper,set1_077
+TRAINER_HALEY_4,HALEY,Lass,Lass,Hyper,set1_077
+TRAINER_HALEY_5,HALEY,Lass,Lass,Hyper,set1_077
+TRAINER_SALLY,SALLY,Lass,Lass,Hyper,set1_077
+TRAINER_ROBIN,ROBIN,Lass,Lass,Hyper,set1_077
+TRAINER_ANDREA,ANDREA,Lass,Lass,Hyper,set1_077
+TRAINER_CRISSY,CRISSY,Lass,Lass,Hyper,set1_077
+TRAINER_RICK,RICK,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_LYLE,LYLE,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JOSE,JOSE,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_DOUG,DOUG,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_GREG,GREG,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_KENT,KENT,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JAMES_1,JAMES,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JAMES_2,JAMES,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JAMES_3,JAMES,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JAMES_4,JAMES,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_JAMES_5,JAMES,Bug Catcher,Bug Catcher,Hyper,set1_073
+TRAINER_BRICE,BRICE,Hiker,Hiker,Hyper,set1_000
+TRAINER_TRENT_1,TRENT,Hiker,Hiker,Hyper,set1_000
+TRAINER_LENNY,LENNY,Hiker,Hiker,Hyper,set1_000
+TRAINER_LUCAS_1,LUCAS,Hiker,Hiker,Hyper,set1_000
+TRAINER_ALAN,ALAN,Hiker,Hiker,Hyper,set1_000
+TRAINER_CLARK,CLARK,Hiker,Hiker,Hyper,set1_000
+TRAINER_ERIC,ERIC,Hiker,Hiker,Hyper,set1_000
+TRAINER_LUCAS_2,LUCAS,Hiker,Hiker,Hyper,set1_000
+TRAINER_MIKE_1,MIKE,Hiker,Hiker,Hyper,set1_000
+TRAINER_MIKE_2,MIKE,Hiker,Hiker,Hyper,set1_000
+TRAINER_TRENT_2,TRENT,Hiker,Hiker,Hyper,set1_000
+TRAINER_TRENT_3,TRENT,Hiker,Hiker,Hyper,set1_000
+TRAINER_TRENT_4,TRENT,Hiker,Hiker,Hyper,set1_000
+TRAINER_TRENT_5,TRENT,Hiker,Hiker,Hyper,set1_000
+TRAINER_DEZ_AND_LUKE,DEZ & LUKE,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_LEA_AND_JED,LEA & JED,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_KIRA_AND_DAN_1,KIRA & DAN,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_KIRA_AND_DAN_2,KIRA & DAN,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_KIRA_AND_DAN_3,KIRA & DAN,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_KIRA_AND_DAN_4,KIRA & DAN,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_KIRA_AND_DAN_5,KIRA & DAN,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_JOHANNA,JOHANNA,Beauty,Beauty,Hyper,set1_022
+TRAINER_GERALD,GERALD,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_VIVIAN,VIVIAN,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_DANIELLE,DANIELLE,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_HIDEO,HIDEO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_KEIGO,KEIGO,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_RILEY,RILEY,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_FLINT,FLINT,Camper,Camper,Hyper,set1_029
+TRAINER_ASHLEY,ASHLEY,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_WALLY_MAUVILLE,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_WALLY_VR_2,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_WALLY_VR_3,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_WALLY_VR_4,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_WALLY_VR_5,WALLY,Rival,Donor Wally,Hyper,set1_070
+TRAINER_BRENDAN_LILYCOVE_MUDKIP,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_LILYCOVE_TREECKO,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_BRENDAN_LILYCOVE_TORCHIC,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_MAY_LILYCOVE_MUDKIP,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_LILYCOVE_TREECKO,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_LILYCOVE_TORCHIC,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_JONAH,JONAH,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_HENRY,HENRY,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ROGER,ROGER,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_ALEXA,ALEXA,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_RUBEN,RUBEN,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_KOJI_1,KOJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_WAYNE,WAYNE,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_AIDAN,AIDAN,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_REED,REED,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_TISHA,TISHA,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_TORI_AND_TIA,TORI & TIA,Twins,Twins,Hyper,set1_067
+TRAINER_KIM_AND_IRIS,KIM & IRIS,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_TYRA_AND_IVY,TYRA & IVY,Sr And Jr,Sr And Jr,Hyper,set1_050
+TRAINER_MEL_AND_PAUL,MEL & PAUL,Young Couple,Young Couple,Hyper,set1_078
+TRAINER_JOHN_AND_JAY_1,JOHN & JAY,Old Couple,Old Couple,Hyper,set1_079
+TRAINER_JOHN_AND_JAY_2,JOHN & JAY,Old Couple,Old Couple,Hyper,set1_079
+TRAINER_JOHN_AND_JAY_3,JOHN & JAY,Old Couple,Old Couple,Hyper,set1_079
+TRAINER_JOHN_AND_JAY_4,JOHN & JAY,Old Couple,Old Couple,Hyper,set1_079
+TRAINER_JOHN_AND_JAY_5,JOHN & JAY,Old Couple,Old Couple,Hyper,set1_079
+TRAINER_RELI_AND_IAN,RELI & IAN,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LILA_AND_ROY_1,LILA & ROY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LILA_AND_ROY_2,LILA & ROY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LILA_AND_ROY_3,LILA & ROY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LILA_AND_ROY_4,LILA & ROY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LILA_AND_ROY_5,LILA & ROY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_LISA_AND_RAY,LISA & RAY,Sis And Bro,Sis And Bro,Hyper,set1_080
+TRAINER_CHRIS,CHRIS,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_DAWSON,DAWSON,Rich Boy,Rich Boy,Hyper,set1_023
+TRAINER_SARAH,SARAH,Lady,Lady,Hyper,set1_021
+TRAINER_DARIAN,DARIAN,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_HAILEY,HAILEY,Tuber F,Tuber F,Hyper,set1_018
+TRAINER_CHANDLER,CHANDLER,Tuber M,Tuber M,Hyper,set1_019
+TRAINER_KALEB,KALEB,Pokefan,Pokefan M,Hyper,set1_051
+TRAINER_JOSEPH,JOSEPH,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_ALYSSA,ALYSSA,Triathlete,Cycling Triathlete F,Hyper,set1_057
+TRAINER_MARCOS,MARCOS,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_RHETT,RHETT,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_TYRON,TYRON,Camper,Camper,Hyper,set1_029
+TRAINER_CELINA,CELINA,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_BIANCA,BIANCA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_HAYDEN,HAYDEN,Kindler,Kindler,Hyper,set1_028
+TRAINER_SOPHIE,SOPHIE,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_COBY,COBY,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_LAWRENCE,LAWRENCE,Camper,Camper,Hyper,set1_029
+TRAINER_WYATT,WYATT,Pokemaniac,Pokemaniac,Hyper,set1_025
+TRAINER_ANGELINA,ANGELINA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_KAI,KAI,Fisherman,Fisherman,Hyper,set1_055
+TRAINER_CHARLOTTE,CHARLOTTE,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_DEANDRE,DEANDRE,Youngster,Youngster,Hyper,set1_053
+TRAINER_GRUNT_MAGMA_HIDEOUT_1,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_2,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_3,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_4,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_5,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_6,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_7,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_8,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_9,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_10,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_11,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_12,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_13,GRUNT,Team Magma,Donor Magma Grunt Male,Hyper,set1_008
+TRAINER_GRUNT_MAGMA_HIDEOUT_14,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_GRUNT_MAGMA_HIDEOUT_15,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_GRUNT_MAGMA_HIDEOUT_16,GRUNT,Team Magma,Donor Magma Grunt Female,Hyper,set1_026
+TRAINER_TABITHA_MAGMA_HIDEOUT,TABITHA,Magma Admin,Donor Magma Tabitha,Hyper,set1_069
+TRAINER_DARCY,DARCY,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_MAXIE_MOSSDEEP,MAXIE,Magma Leader,Donor Maxie,Hyper,set1_076
+TRAINER_PETE,PETE,Swimmer M,Swimmer M,Hyper,set1_007
+TRAINER_ISABELLE,ISABELLE,Swimmer F,Swimmer F,Hyper,set1_066
+TRAINER_ANDRES_1,ANDRES,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_JOSUE,JOSUE,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_CAMRON,CAMRON,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_CORY_1,CORY,Sailor,Sailor,Hyper,set1_068
+TRAINER_CAROLINA,CAROLINA,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_ELIJAH,ELIJAH,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_CELIA,CELIA,Picnicker,Picnicker,Hyper,set1_030
+TRAINER_BRYAN,BRYAN,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_BRANDEN,BRANDEN,Camper,Camper,Hyper,set1_029
+TRAINER_BRYANT,BRYANT,Kindler,Kindler,Hyper,set1_028
+TRAINER_SHAYLA,SHAYLA,Aroma Lady,Aroma Lady,Hyper,set1_015
+TRAINER_KYRA,KYRA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_JAIDEN,JAIDEN,Ninja Boy,Ninja Boy,Hyper,set1_063
+TRAINER_ALIX,ALIX,Psychic,Psychic F,Hyper,set1_034
+TRAINER_HELENE,HELENE,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_MARLENE,MARLENE,Psychic,Psychic F,Hyper,set1_034
+TRAINER_DEVAN,DEVAN,Hiker,Hiker,Hyper,set1_000
+TRAINER_JOHNSON,JOHNSON,Youngster,Youngster,Hyper,set1_053
+TRAINER_MELINA,MELINA,Triathlete,Running Triathlete F,Hyper,set1_059
+TRAINER_BRANDI,BRANDI,Psychic,Psychic F,Hyper,set1_034
+TRAINER_AISHA,AISHA,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_MAKAYLA,MAKAYLA,Expert,Expert F,Hyper,set1_024
+TRAINER_FABIAN,FABIAN,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_DAYTON,DAYTON,Kindler,Kindler,Hyper,set1_028
+TRAINER_RACHEL,RACHEL,Parasol Lady,Parasol Lady,Hyper,set1_065
+TRAINER_LEONEL,LEONEL,Cooltrainer,Cooltrainer M,Hyper,set1_003
+TRAINER_CALLIE,CALLIE,Battle Girl,Battle Girl,Hyper,set1_064
+TRAINER_CALE,CALE,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_MYLES,MYLES,Pkmn Breeder,Pokemon Breeder M,Hyper,set1_032
+TRAINER_PAT,PAT,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_CRISTIN_1,CRISTIN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_MAY_RUSTBORO_TREECKO,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_MAY_RUSTBORO_TORCHIC,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_ROXANNE_2,ROXANNE,Leader,Leader Roxanne,Hyper,set1_040
+TRAINER_ROXANNE_3,ROXANNE,Leader,Leader Roxanne,Hyper,set1_040
+TRAINER_ROXANNE_4,ROXANNE,Leader,Leader Roxanne,Hyper,set1_040
+TRAINER_ROXANNE_5,ROXANNE,Leader,Leader Roxanne,Hyper,set1_040
+TRAINER_BRAWLY_2,BRAWLY,Leader,Leader Brawly,Hyper,set1_041
+TRAINER_BRAWLY_3,BRAWLY,Leader,Leader Brawly,Hyper,set1_041
+TRAINER_BRAWLY_4,BRAWLY,Leader,Leader Brawly,Hyper,set1_041
+TRAINER_BRAWLY_5,BRAWLY,Leader,Leader Brawly,Hyper,set1_041
+TRAINER_WATTSON_2,WATTSON,Leader,Leader Wattson,Hyper,set1_042
+TRAINER_WATTSON_3,WATTSON,Leader,Leader Wattson,Hyper,set1_042
+TRAINER_WATTSON_4,WATTSON,Leader,Leader Wattson,Hyper,set1_042
+TRAINER_WATTSON_5,WATTSON,Leader,Leader Wattson,Hyper,set1_042
+TRAINER_FLANNERY_2,FLANNERY,Leader,Leader Flannery,Hyper,set1_043
+TRAINER_FLANNERY_3,FLANNERY,Leader,Leader Flannery,Hyper,set1_043
+TRAINER_FLANNERY_4,FLANNERY,Leader,Leader Flannery,Hyper,set1_043
+TRAINER_FLANNERY_5,FLANNERY,Leader,Leader Flannery,Hyper,set1_043
+TRAINER_NORMAN_2,NORMAN,Leader,Leader Norman,Hyper,set1_044
+TRAINER_NORMAN_3,NORMAN,Leader,Leader Norman,Hyper,set1_044
+TRAINER_NORMAN_4,NORMAN,Leader,Leader Norman,Hyper,set1_044
+TRAINER_NORMAN_5,NORMAN,Leader,Leader Norman,Hyper,set1_044
+TRAINER_WINONA_2,WINONA,Leader,Leader Winona,Hyper,set1_045
+TRAINER_WINONA_3,WINONA,Leader,Leader Winona,Hyper,set1_045
+TRAINER_WINONA_4,WINONA,Leader,Leader Winona,Hyper,set1_045
+TRAINER_WINONA_5,WINONA,Leader,Leader Winona,Hyper,set1_045
+TRAINER_TATE_AND_LIZA_2,TATE&LIZA,Leader,Leader Tate And Liza,Hyper,set1_046
+TRAINER_TATE_AND_LIZA_3,TATE&LIZA,Leader,Leader Tate And Liza,Hyper,set1_046
+TRAINER_TATE_AND_LIZA_4,TATE&LIZA,Leader,Leader Tate And Liza,Hyper,set1_046
+TRAINER_TATE_AND_LIZA_5,TATE&LIZA,Leader,Leader Tate And Liza,Hyper,set1_046
+TRAINER_JUAN_2,JUAN,Leader,Leader Juan,Hyper,set1_047
+TRAINER_JUAN_3,JUAN,Leader,Leader Juan,Hyper,set1_047
+TRAINER_JUAN_4,JUAN,Leader,Leader Juan,Hyper,set1_047
+TRAINER_JUAN_5,JUAN,Leader,Leader Juan,Hyper,set1_047
+TRAINER_ANGELO,ANGELO,Bug Maniac,Bug Maniac,Hyper,set1_031
+TRAINER_DARIUS,DARIUS,Bird Keeper,Bird Keeper,Hyper,set1_004
+TRAINER_STEVEN,STEVEN,Rival,Donor Steven,Hyper,set1_081
+TRAINER_ANABEL,ANABEL,Salon Maiden,Salon Maiden Anabel,Hyper,set1_082
+TRAINER_TUCKER,TUCKER,Dome Ace,Dome Ace Tucker,Hyper,set1_083
+TRAINER_SPENSER,SPENSER,Palace Maven,Palace Maven Spenser,Hyper,set1_084
+TRAINER_GRETA,GRETA,Arena Tycoon,Arena Tycoon Greta,Hyper,set1_085
+TRAINER_NOLAND,NOLAND,Factory Head,Factory Head Noland,Hyper,set1_086
+TRAINER_LUCY,LUCY,Pike Queen,Pike Queen Lucy,Hyper,set1_087
+TRAINER_BRANDON,BRANDON,Pyramid King,Pyramid King Brandon,Hyper,set1_088
+TRAINER_ANDRES_2,ANDRES,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_ANDRES_3,ANDRES,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_ANDRES_4,ANDRES,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_ANDRES_5,ANDRES,Ruin Maniac,Ruin Maniac,Hyper,set1_016
+TRAINER_CORY_2,CORY,Sailor,Sailor,Hyper,set1_068
+TRAINER_CORY_3,CORY,Sailor,Sailor,Hyper,set1_068
+TRAINER_CORY_4,CORY,Sailor,Sailor,Hyper,set1_068
+TRAINER_CORY_5,CORY,Sailor,Sailor,Hyper,set1_068
+TRAINER_PABLO_2,PABLO,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_PABLO_3,PABLO,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_PABLO_4,PABLO,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_PABLO_5,PABLO,Triathlete,Swimming Triathlete M,Hyper,set1_060
+TRAINER_KOJI_2,KOJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KOJI_3,KOJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KOJI_4,KOJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_KOJI_5,KOJI,Black Belt,Black Belt,Hyper,set1_011
+TRAINER_CRISTIN_2,CRISTIN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_CRISTIN_3,CRISTIN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_CRISTIN_4,CRISTIN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_CRISTIN_5,CRISTIN,Cooltrainer,Cooltrainer F,Hyper,set1_020
+TRAINER_FERNANDO_2,FERNANDO,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_FERNANDO_3,FERNANDO,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_FERNANDO_4,FERNANDO,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_FERNANDO_5,FERNANDO,Guitarist,Guitarist,Hyper,set1_027
+TRAINER_SAWYER_2,SAWYER,Hiker,Hiker,Hyper,set1_000
+TRAINER_SAWYER_3,SAWYER,Hiker,Hiker,Hyper,set1_000
+TRAINER_SAWYER_4,SAWYER,Hiker,Hiker,Hyper,set1_000
+TRAINER_SAWYER_5,SAWYER,Hiker,Hiker,Hyper,set1_000
+TRAINER_GABRIELLE_2,GABRIELLE,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_GABRIELLE_3,GABRIELLE,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_GABRIELLE_4,GABRIELLE,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_GABRIELLE_5,GABRIELLE,Pkmn Breeder,Pokemon Breeder F,Hyper,set1_002
+TRAINER_THALIA_2,THALIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_THALIA_3,THALIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_THALIA_4,THALIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_THALIA_5,THALIA,Beauty,Beauty,Hyper,set1_022
+TRAINER_MARIELA,MARIELA,Psychic,Psychic F,Hyper,set1_034
+TRAINER_ALVARO,ALVARO,Psychic,Psychic M,Hyper,set1_033
+TRAINER_EVERETT,EVERETT,Gentleman,Gentleman,Hyper,set1_035
+TRAINER_RED,RED,Rival,Donor Red,Hyper,set2_044
+TRAINER_LEAF,LEAF,Rival,Leaf,Existing character artwork,Leaf
+TRAINER_BRENDAN_PLACEHOLDER,BRENDAN,RS Protag,RS Brendan,Existing character artwork,RS Brendan
+TRAINER_MAY_PLACEHOLDER,MAY,RS Protag,RS May,Existing character artwork,RS May
+TRAINER_LA_RED_FRESH_START,RED,Rival,Donor Red,Hyper,set2_044
+TRAINER_LA_BRENDAN_ROUTE103_0,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_LA_BRENDAN_ROUTE103_1,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_LA_BRENDAN_ROUTE103_2,BRENDAN,Rival,Hyper Rival Brendan,Hyper,set1_071
+TRAINER_LA_MAY_ROUTE103_0,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_LA_MAY_ROUTE103_1,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_LA_MAY_ROUTE103_2,MAY,Rival,Hyper Rival May,Hyper,set1_072
+TRAINER_SILVER_RUSTBORO,Silver,Rival,Donor Silver,Hyper,set2_004

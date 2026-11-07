@@ -10113,11 +10113,11 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterRandomPort
  .tileTag = TAG_NONE, .paletteTag = 0xDB4F,
  .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
  .size = 2048, .width = 64, .height = 64,
- .paletteSlot = 5, .shadowSize = 1, .inanimate = TRUE,
+ .paletteSlot = 5, .shadowSize = 1, .inanimate = FALSE,
  .compressed = FALSE, .tracks = TRACKS_NONE,
  .oam = &gObjectEventBaseOam_64x64,
  .subspriteTables = sOamTables_64x64,
- .anims = sAnimTable_Standard, .images = sPicTable_LaRosterRandomPortals,
+ .anims = sAnimTable_LaRiftPulse, .images = sPicTable_LaRosterRandomPortals,
  .affineAnims = gDummySpriteAffineAnimTable,
 };
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterJuniper = {
@@ -10176,6 +10176,35 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterSteven = {
  .affineAnims = gDummySpriteAffineAnimTable,
 };
 /* LA_NPC_ROSTER_INFO_END */
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaMiraidon = {
+    .tileTag = TAG_NONE,
+    .paletteTag = 0xDB7E,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 2048,
+    .width = 64,
+    .height = 64,
+    .paletteSlot = 5,
+    .shadowSize = 1,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_64x64,
+    .subspriteTables = sOamTables_64x64,
+    .anims = sAnimTable_Following,
+    .images = sPicTable_LaMiraidon,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterRowan = {
+ .tileTag = TAG_NONE, .paletteTag = 0xDB7F,
+ .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+ .size = 512, .width = 32, .height = 32,
+ .paletteSlot = 5, .shadowSize = 1, .inanimate = FALSE,
+ .compressed = FALSE, .tracks = TRACKS_FOOT,
+ .oam = &gObjectEventBaseOam_32x32,
+ .subspriteTables = sOamTables_32x32,
+ .anims = sAnimTable_Standard, .images = sPicTable_LaRosterRowan,
+ .affineAnims = gDummySpriteAffineAnimTable,
+};
 
 static const struct SpriteFrameImage sAquasFrames_GoldBall[] = {
     overworld_frame(gAquasPic_GoldBall, 2, 2, 0),
@@ -10199,7 +10228,7 @@ static const union AnimCmd *const sAquasAnims_MegaStone[] = {sAquasAnim_MegaSton
 const struct ObjectEventGraphicsInfo gAquasInfo_MegaStone = {
     .tileTag=TAG_NONE, .paletteTag=0xDC81, .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE,
     .size=128, .width=16, .height=16, .paletteSlot=PALSLOT_NPC_1,
-    .shadowSize=SHADOW_SIZE_NONE, .inanimate=TRUE, .compressed=FALSE, .tracks=TRACKS_NONE,
+    .shadowSize=SHADOW_SIZE_NONE, .inanimate=FALSE, .compressed=FALSE, .tracks=TRACKS_NONE,
     .oam=&gObjectEventBaseOam_16x16, .subspriteTables=sOamTables_16x16,
     .anims=sAquasAnims_MegaStone, .images=sAquasFrames_MegaStone,
 };

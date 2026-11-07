@@ -9,7 +9,7 @@ D=R/'docs/story/rustboro_silver';D.mkdir(parents=True,exist_ok=True)
 checks=[]
 def check(n,v):
  checks.append(dict(test=n,passed=bool(v)));assert v,n
-names=['offsetof(struct SaveBlock1,flags)','FLAG_LA_RED_DEX_GIFTS','FLAG_LA_MET_BRENDAN_AND_MAY','FLAG_BADGE01_GET','FLAG_HIDE_RUSTBORO_CITY_RIVAL','FLAG_MET_RIVAL_RUSTBORO','FLAG_DEFEATED_RIVAL_RUSTBORO','FLAG_ENABLE_RIVAL_MATCH_CALL','FLAG_LA_MET_SILVER','FLAG_LA_DEFEATED_SILVER_RUSTBORO','FLAG_LA_HIDE_RUSTBORO_SILVER','VAR_RUSTBORO_CITY_STATE','VAR_ROUTE104_STATE','TRAINER_SILVER_RUSTBORO','TRAINER_MAY_RUSTBORO_TREECKO','TRAINER_MAY_RUSTBORO_TORCHIC','TRAINER_MAY_RUSTBORO_MUDKIP','LOCALID_LA_RUSTBORO_SILVER','LOCALID_PLAYER','LOCALID_RUSTBORO_RIVAL','OBJ_EVENT_GFX_LA_ROSTER_MAY','OBJ_EVENT_GFX_LA_ROSTER_SILVER','TRAINER_PIC_SILVER_HNS','MC_HEADER_BRENDAN','MC_HEADER_MAY','sizeof(struct Trainer)','offsetof(struct Trainer,party)','offsetof(struct Trainer,items)','offsetof(struct Trainer,trainerPic)','sizeof(struct TrainerMon)','offsetof(struct TrainerMon,lvl)','MON_DATA_SPECIES','MON_DATA_IS_SHINY','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_STATUS','MON_DATA_HP_IV','MON_DATA_ATK_IV','MON_DATA_DEF_IV','MON_DATA_SPEED_IV','MON_DATA_SPATK_IV','MON_DATA_SPDEF_IV','SPECIES_ZUBAT','SPECIES_GASTLY','SPECIES_MAGNEMITE','SPECIES_ABRA','SPECIES_SNEASEL','SPECIES_TOTODILE','HEAL_LOCATION_OLDALE_TOWN','FONT_NORMAL','CHAR_W','MAX_TRAINERS_COUNT','TRAINERS_COUNT','DIFFICULTY_NORMAL']
+names=['offsetof(struct SaveBlock1,flags)','FLAG_LA_RED_DEX_GIFTS','FLAG_LA_MET_BRENDAN_AND_MAY','FLAG_BADGE01_GET','FLAG_HIDE_RUSTBORO_CITY_RIVAL','FLAG_MET_RIVAL_RUSTBORO','FLAG_DEFEATED_RIVAL_RUSTBORO','FLAG_ENABLE_RIVAL_MATCH_CALL','FLAG_LA_MET_SILVER','FLAG_LA_DEFEATED_SILVER_RUSTBORO','FLAG_LA_HIDE_RUSTBORO_SILVER','VAR_RUSTBORO_CITY_STATE','VAR_ROUTE104_STATE','TRAINER_SILVER_RUSTBORO','TRAINER_MAY_RUSTBORO_TREECKO','TRAINER_MAY_RUSTBORO_TORCHIC','TRAINER_MAY_RUSTBORO_MUDKIP','LOCALID_LA_RUSTBORO_SILVER','LOCALID_PLAYER','LOCALID_RUSTBORO_RIVAL','OBJ_EVENT_GFX_LA_ROSTER_MAY','OBJ_EVENT_GFX_LA_ROSTER_SILVER','TRAINER_PIC_DONOR_SILVER','MC_HEADER_BRENDAN','MC_HEADER_MAY','sizeof(struct Trainer)','offsetof(struct Trainer,party)','offsetof(struct Trainer,items)','offsetof(struct Trainer,trainerPic)','sizeof(struct TrainerMon)','offsetof(struct TrainerMon,lvl)','MON_DATA_SPECIES','MON_DATA_IS_SHINY','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_STATUS','MON_DATA_HP_IV','MON_DATA_ATK_IV','MON_DATA_DEF_IV','MON_DATA_SPEED_IV','MON_DATA_SPATK_IV','MON_DATA_SPDEF_IV','SPECIES_ZUBAT','SPECIES_GASTLY','SPECIES_MAGNEMITE','SPECIES_ABRA','SPECIES_SNEASEL','SPECIES_TOTODILE','HEAL_LOCATION_OLDALE_TOWN','FONT_NORMAL','CHAR_W','MAX_TRAINERS_COUNT','TRAINERS_COUNT','DIFFICULTY_NORMAL']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "data.h"\n#include "text.h"\n#include "pokenav.h"\n#include "constants/map_event_ids.h"\n#include "constants/event_objects.h"\n#include "constants/heal_locations.h"\n#include "constants/characters.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -36,9 +36,11 @@ def scene_advance(target,tag,limit=22000):
    if n not in observed and v in msg:
     observed.add(n)
     if n.endswith('_Offscreen'):
-     check('north_entry_'+tag,xy('LOCALID_LA_RUSTBORO_SILVER')==(18,48));capture(tag+'_north')
+     check('north_entry_'+tag,xy('LOCALID_LA_RUSTBORO_SILVER')==(16,48))
+     check('may_staged_on_open_road_'+tag,xy('LOCALID_RUSTBORO_RIVAL')==(15,54) and invoke('MapGridGetCollisionAt',22,61)==0)
+     capture(tag+'_north')
     if n.endswith('_Name'):
-     check('arrival_positions_'+tag,xy('LOCALID_LA_RUSTBORO_SILVER')==(18,54) and xy('LOCALID_PLAYER')==(18,55) and xy('LOCALID_RUSTBORO_RIVAL')==(17,54));capture(tag+'_introduction')
+     check('arrival_positions_'+tag,xy('LOCALID_LA_RUSTBORO_SILVER')==(16,54) and xy('LOCALID_PLAYER')==(16,55) and xy('LOCALID_RUSTBORO_RIVAL')==(15,54));capture(tag+'_introduction')
   if target():return
   if active('Task_HandleYesNoInput') is not None:
    check('only_may_acceptance_prompt_'+tag,not flag('FLAG_LA_MET_SILVER'))
@@ -75,7 +77,7 @@ for gender,mode,x,choice,badge in [(0,0,12,3,0),(1,1,19,8,1),(0,1,19,5,1),(1,0,1
   check('shiny_ace_'+tag+'_'+str(slot),invoke('GetMonData3',mon,c['MON_DATA_IS_SHINY'],0)==int(slot==5))
   check('perfect_ivs_'+tag+'_'+str(slot),all(invoke('GetMonData3',mon,c[f],0)==31 for f in ['MON_DATA_HP_IV','MON_DATA_ATK_IV','MON_DATA_DEF_IV','MON_DATA_SPEED_IV','MON_DATA_SPATK_IV','MON_DATA_SPDEF_IV']))
  base=symbols['gTrainers']+(c['DIFFICULTY_NORMAL']*c['TRAINERS_COUNT']+c['TRAINER_SILVER_RUSTBORO'])*c['sizeof(struct Trainer)'];t=invoke('LegendsTrainer_Get',c['TRAINER_SILVER_RUSTBORO'],base);team=rd(t+c['offsetof(struct Trainer,party)'])
- check('silver_hns_portrait_'+tag,rd(t+c['offsetof(struct Trainer,trainerPic)'],1)==c['TRAINER_PIC_SILVER_HNS'])
+ check('silver_donor_portrait_'+tag,rd(t+c['offsetof(struct Trainer,trainerPic)'],1)==c['TRAINER_PIC_DONOR_SILVER'])
  check('two_heals_'+tag,rd(t+c['offsetof(struct Trainer,items)'],2)!=0 and rd(t+c['offsetof(struct Trainer,items)']+2,2)!=0)
  for slot in range(6):check('legal_and_capped_'+tag+'_'+str(slot),invoke('LegendsTrainer_MemberLegal',team+slot*c['sizeof(struct TrainerMon)'])==1)
  finish(1);scene_advance(lambda:flag('FLAG_LA_DEFEATED_SILVER_RUSTBORO') and rd(symbols['sGlobalScriptContextStatus'],1)==2,tag+'_outro')
@@ -83,7 +85,7 @@ for gender,mode,x,choice,badge in [(0,0,12,3,0),(1,1,19,8,1),(0,1,19,5,1),(1,0,1
  check('controls_returned_'+tag,invoke('ArePlayerFieldControlsLocked')==0)
  check('all_dialogue_'+tag,all('LegendsRustboroRivals_Text_'+n in observed for n in ['Offscreen','Name','Johto','Partner','Accept','Admission','Offer','Farewell']))
  check('save_'+tag,invoke('TrySavingData',0)==1);invoke('FlagClear',c['FLAG_LA_DEFEATED_SILVER_RUSTBORO']);check('load_'+tag,invoke('LoadGameSave',0)==1)
- warp(0,3,18,55);frames(90);check('no_replay_'+tag,flag('FLAG_LA_DEFEATED_SILVER_RUSTBORO') and actor('LOCALID_LA_RUSTBORO_SILVER') is None and rd(symbols['sGlobalScriptContextStatus'],1)==2)
+ warp(0,3,16,55);frames(90);check('no_replay_'+tag,flag('FLAG_LA_DEFEATED_SILVER_RUSTBORO') and actor('LOCALID_LA_RUSTBORO_SILVER') is None and rd(symbols['sGlobalScriptContextStatus'],1)==2)
  lib.shutdown()
 # A loss preserves May's victory and resumes directly at Silver after whiteout.
 setup(0,1,12,3,1)
@@ -96,8 +98,8 @@ check('loss_keeps_may_win_and_silver_pending',flag('FLAG_DEFEATED_RIVAL_RUSTBORO
 check('pending_save',invoke('TrySavingData',0)==1)
 check('pending_load',invoke('LoadGameSave',0)==1)
 wr(symbols['gFieldCallback2'],0);wr(symbols['gFieldCallback'],0)
-warp(0,3,18,55);frames(90)
-check('silver_waits_after_reload',xy('LOCALID_LA_RUSTBORO_SILVER')==(18,54))
+warp(0,3,16,55);frames(90)
+check('silver_waits_after_reload',xy('LOCALID_LA_RUSTBORO_SILVER')==(16,54))
 move(64,0);tap(64);tap(1)
 scene_advance(lambda:battle_ready(c['TRAINER_SILVER_RUSTBORO']),'retry_only_silver')
 check('retry_heals',invoke('GetMonData3',symbols['gParties'],c['MON_DATA_HP'],0)==invoke('GetMonData3',symbols['gParties'],c['MON_DATA_MAX_HP'],0))

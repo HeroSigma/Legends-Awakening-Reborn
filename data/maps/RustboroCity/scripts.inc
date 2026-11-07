@@ -1150,7 +1150,7 @@ RustboroCity_Text_MayWantToBattle:
 	.string "Ready to have that battle?$"
 
 RustboroCity_Text_MayImNotGoingToLose:
-	.string "All right! We made a good team on\nRoute 103. Now let's see how we do\lon opposite sides!$"
+	.string "On Route 103, I had my rival with\nme and you had Red.\pThis time, it's just you and me!$"
 
 RustboroCity_Text_MayDefeat:
 	.string "You're getting stronger every time!$"

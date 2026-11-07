@@ -99,6 +99,7 @@ def inventory():
             if gi <= 34 or 75 <= gi <= 80:active=region=='REGION_HOENN'
             elif 98<=gi<=108:active=True
             elif name in hns:active=not hns[name]['reference_only']
+            elif name in rules.get('native_species',{}):active=bool(m.get('la_imported'))
             if not active:continue
             if name in hns:region=hns[name]['source_region']
             if 104<=gi<=108:region='REGION_UNOVA'
@@ -138,6 +139,7 @@ def inventory():
             # HnSTest is a validated canonical map prefix, not a debug-map designation.
             if name.startswith('HnSTest_'):excluded=False
             rows.append(dict(map=m['id'],name=name,group=gi,map_num=mi,region=region,
+                native_species=rules.get('native_species',{}).get(name,{}),
                 map_type=m['map_type'],land_cells=counts['land'],water_cells=counts['water'],
                 eligible=allowed and not excluded and region is not None and (
                     (counts['land'] and (not urban or 'land_mons' in original_methods)) or
@@ -149,6 +151,7 @@ def inventory():
 def biome(row):
     n=row['name'].lower()
     for b,terms in [
+        ('industrial',('powerplant','power_plant')),
         ('snow',('snow','acuity','217','216','shoal','icepath','ice_path','seafom','seafoam')),
         ('volcanic',('fiery','chimney','jagged','magma','stark','ember','scorched')),
         ('desert',('desert','miragetower','route111')),
@@ -162,6 +165,7 @@ def biome(row):
     if row['map_type']=='MAP_TYPE_UNDERWATER' or row['water_cells']>max(1,row['land_cells'])*3:return 'coast'
     return 'meadow'
 HABITAT_TYPES={
+ 'industrial':('ELECTRIC','STEEL','NORMAL','POISON'),
  'snow':('ICE','WATER','NORMAL','ROCK'),
  'volcanic':('FIRE','ROCK','GROUND','STEEL'),
  'desert':('GROUND','ROCK','FIRE','BUG'),
@@ -215,7 +219,8 @@ def author(species,maps):
             if row['water_cells'] and (not row['urban'] or 'water_mons' in row['original_methods'] or 'fishing_mons' in row['original_methods']):methods.extend([('water_mons',5,4),('fishing_mons',10,25)])
             if 'rock_smash_mons' in old[row['map']]:methods.append(('rock_smash_mons',5,20))
             for method,size,rate in methods:
-                choices=[(n,score(x,row,method,time)) for n,x in eligible.items()]
+                native=row.get('native_species',{}).get(method)
+                choices=[(n,score(x,row,method,time)) for n,x in eligible.items() if not native or n in native]
                 choices=[(n,v) for n,v in choices if v is not None]
                 assert choices,(row['name'],method)
                 # Stable ecological ranking; least-used eligible species fill rare slots

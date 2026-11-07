@@ -29,5 +29,49 @@
     "SnowpointCity",
     "SunyshoreCity"
   ],
-  "policy": "Safe settlements have no grass encounters. Listed settlement water areas require actual water tiles. Interior doors/gyms/shops remain excluded; source type labels alone are not sufficient."
+  "policy": "Safe settlements have no grass encounters. Listed settlement water areas require actual water tiles. Interior doors/gyms/shops remain excluded; source type labels alone are not sufficient.",
+  "native_species": {
+    "Kanto_Route10": {
+      "land_mons": [
+        "SPECIES_DITTO",
+        "SPECIES_DROWZEE",
+        "SPECIES_EKANS",
+        "SPECIES_ELECTABUZZ",
+        "SPECIES_NIDORAN_F",
+        "SPECIES_NIDORAN_M",
+        "SPECIES_PIDGEY",
+        "SPECIES_PIKACHU",
+        "SPECIES_RATTATA",
+        "SPECIES_SANDSHREW",
+        "SPECIES_SPEAROW",
+        "SPECIES_VOLTORB"
+      ],
+      "water_mons": [
+        "SPECIES_GOLDEEN",
+        "SPECIES_MAGIKARP",
+        "SPECIES_POLIWAG",
+        "SPECIES_PSYDUCK",
+        "SPECIES_TENTACOOL"
+      ],
+      "fishing_mons": [
+        "SPECIES_GOLDEEN",
+        "SPECIES_KRABBY",
+        "SPECIES_MAGIKARP",
+        "SPECIES_POLIWAG",
+        "SPECIES_PSYDUCK",
+        "SPECIES_TENTACOOL"
+      ]
+    },
+    "Kanto_PowerPlant": {
+      "land_mons": [
+        "SPECIES_DITTO",
+        "SPECIES_ELECTABUZZ",
+        "SPECIES_GRIMER",
+        "SPECIES_MAGNEMITE",
+        "SPECIES_PIKACHU",
+        "SPECIES_PORYGON",
+        "SPECIES_VOLTORB"
+      ]
+    }
+  }
 }

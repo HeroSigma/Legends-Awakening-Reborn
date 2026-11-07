@@ -257,6 +257,9 @@ gStdScripts_End::
 	.include "data/maps/SlateportCity_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/SlateportCity_Mart/scripts.inc"
 	.include "data/maps/MauvilleCity_Gym/scripts.inc"
+	.include "data/maps/Kanto_PowerPlant_Rift/scripts.inc"
+	.include "data/maps/Kanto_Route10/scripts.inc"
+	.include "data/maps/Kanto_PowerPlant/scripts.inc"
 	.include "data/maps/MauvilleCity_BikeShop/scripts.inc"
 	.include "data/maps/MauvilleCity_House1/scripts.inc"
 	.include "data/maps/MauvilleCity_GameCorner/scripts.inc"
@@ -2701,3 +2704,5 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_pokevial.inc"
 
 	.include "data/scripts/legends_spoken_dialogue.inc"
+
+	.include "data/scripts/legends_rift_research.inc"

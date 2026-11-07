@@ -1,7 +1,9 @@
 #include "global.h"
 #include "adventure_journal.h"
+#include "rift_tracker.h"
 #include "event_data.h"
 #include "event_object_lock.h"
+#include "event_object_movement.h"
 #include "field_player_avatar.h"
 #include "script.h"
 #include "main.h"
@@ -64,6 +66,11 @@ static void DrawJournal(u8 taskId)
     u32 i;
     u8 win = gTasks[taskId].data[0], page = gTasks[taskId].data[1];
     const struct JournalRow *rows = page == 0 ? sJourney : page == 1 ? sField : sStory;
+    if (RiftTracker_IsActive())
+    {
+        RiftTracker_Draw(win, page, gTasks[taskId].data[2]);
+        return;
+    }
     FillWindowPixelBuffer(win, PIXEL_FILL(1));
     AddTextPrinterParameterized(win, FONT_NORMAL, sTitles[page], 4, 0, TEXT_SKIP_DRAW, NULL);
     for (i = 0; i < 8; i++)
@@ -94,13 +101,19 @@ static void Task_AdventureJournal(u8 taskId)
         ScriptUnfreezeObjectEvents();
         UnlockPlayerFieldControls();
     }
-    else if (JOY_NEW(SELECT_BUTTON))
+    else if (JOY_NEW(SELECT_BUTTON) && !RiftTracker_IsActive())
     {
         u8 win = gTasks[taskId].data[0];
         ClearStdWindowAndFrame(win, TRUE);
         RemoveWindow(win);
         DestroyTask(taskId);
         ScriptContext_SetupScript(LegendsDaycare_Remote);
+    }
+    else if (RiftTracker_IsActive() && gTasks[taskId].data[1] == 1 && JOY_NEW(DPAD_UP | DPAD_DOWN))
+    {
+        u32 count = RiftTracker_Count();
+        gTasks[taskId].data[2] = (gTasks[taskId].data[2] + (JOY_NEW(DPAD_UP) ? count - 1 : 1)) % count;
+        DrawJournal(taskId);
     }
     else if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT | L_BUTTON | R_BUTTON))
     {
@@ -111,7 +124,10 @@ static void Task_AdventureJournal(u8 taskId)
 
 void AdventureJournal_Open(void)
 {
-    u8 win = AddWindow(&sJournalWindow);
+    u8 win;
+    LockPlayerFieldControls();
+    FreezeObjectEvents();
+    win = AddWindow(&sJournalWindow);
     u8 taskId;
     if (win == WINDOW_NONE)
     {

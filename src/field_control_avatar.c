@@ -1,4 +1,5 @@
 #include "global.h"
+#include "rift_tracker.h"
 #include "pokeride.h"
 #include "la_pc_features.h"
 #include "pokemon_storage_system.h"
@@ -416,7 +417,7 @@ static const u8 *GetInteractedObjectEventScript(struct MapPosition *position, u8
     if (PlayerHasFollowerNPC() && objectEventId == GetFollowerNPCObjectId())
         script = GetFollowerNPCScriptPointer();
     else if (IsOverworldWildEncounter(&gObjectEvents[objectEventId], OWE_ANY))
-        script = GetOverworlWildEncounterScript(objectEventId);
+        script = FlagGet(DN_FLAG_SEARCHING) ? NULL : GetOverworlWildEncounterScript(objectEventId);
     else if (gObjectEvents[objectEventId].localId == OBJ_EVENT_ID_FOLLOWER)
         script = EventScript_Follower;
     else if (InTrainerHill() == TRUE)
@@ -959,6 +960,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
 
     if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
     {
+        if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoWarp();
@@ -973,6 +975,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
             delay = 12;
         }
 
+        if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
         DoStairWarp(metatileBehavior, delay);
@@ -987,6 +990,7 @@ static bool8 TryStartWarpEventScript(struct MapPosition *position, u16 metatileB
 
     if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
     {
+        if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StoreInitialPlayerAvatarState();
         SetupWarp(&gMapHeader, warpEventId, position);
@@ -1139,7 +1143,8 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
             warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
             if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
             {
-                if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
+                if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
+        if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
                 StoreInitialPlayerAvatarState();
                 SetupWarp(&gMapHeader, warpEventId, position);
                 DoDoorWarp();

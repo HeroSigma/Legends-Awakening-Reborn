@@ -318,6 +318,7 @@ LegendsRusturf_StartGruntBattle:
 	setspeaker SP_NAME_NONE
 	closemessage
 	trainerbattle_no_intro TRAINER_GRUNT_RUSTURF_TUNNEL, RusturfTunnel_Text_GruntDefeat
+	lockall
 	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox RusturfTunnel_Text_GruntTakePackage, MSGBOX_DEFAULT
 	setspeaker SP_NAME_PLAYER

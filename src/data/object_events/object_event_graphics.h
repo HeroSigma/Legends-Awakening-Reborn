@@ -901,6 +901,11 @@ const u16 gObjectEventPal_LaRoster18[] = INCBIN_U16("graphics/object_events/pale
 const u32 gObjectEventPic_LaRosterShadowTriad[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/shadowtriad.png", ".4bpp", "-mwidth 4 -mheight 4");
 const u32 gObjectEventPic_LaRosterSteven[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/steven.png", ".4bpp", "-mwidth 2 -mheight 4");
 /* LA_NPC_ROSTER_GRAPHICS_END */
+// Use the regular overworld sheet with individual frames for this cutscene actor.
+const u32 gObjectEventPic_LaMiraidon[] = INCGFX_U32("graphics/pokemon/miraidon/overworld.png", ".4bpp", "-mwidth 8 -mheight 8");
+const u16 gObjectEventPal_LaMiraidon[] = INCBIN_U16("graphics/pokemon/miraidon/overworld_normal.gbapal");
+const u32 gObjectEventPic_LaRosterRowan[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/rowan.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_LaRosterRowan[] = INCBIN_U16("graphics/object_events/palettes/la_roster_rowan.gbapal");
 
 // Credited Team Aqua repository world assets.
 const u32 gAquasPic_GoldBall[] = INCGFX_U32("graphics/object_events/pics/aquas/gold_item_ball.png", ".4bpp", "-mwidth 2 -mheight 2");

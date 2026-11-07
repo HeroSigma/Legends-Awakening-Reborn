@@ -22,7 +22,9 @@ LittlerootTown_ProfessorBirchsLab_MapScripts::
 LittlerootTown_ProfessorBirchsLab_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
+	call_if_eq VAR_LA_RIFT_TRACKER, 1, ProfBirch_EventScript_MoveToLab
 	call LegendsArc_SetupLab
+	call RiftResearch_SetupOak
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout
 	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter
@@ -463,6 +465,10 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter::
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_Birch::
+	goto_if_unset FLAG_BADGE03_GET, RiftResearch_BirchNormal
+	goto_if_lt VAR_LA_RIFT_TRACKER, 2, RiftResearch_Briefing
+	goto_if_eq VAR_LA_OAK_STARTER, 0, RiftResearch_OakCatchUp
+RiftResearch_BirchNormal::
 	goto_if_eq VAR_LA_LITTLEROOT_ARC, 3, LegendsArc_ResumeDex
 	lock
 	faceplayer

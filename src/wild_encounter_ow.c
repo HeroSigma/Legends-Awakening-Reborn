@@ -17,6 +17,7 @@
 #include "random.h"
 #include "roamer.h"
 #include "script.h"
+#include "field_message_box.h"
 #include "script_movement.h"
 #include "sprite.h"
 #include "sound.h"
@@ -240,19 +241,25 @@ bool32 __attribute__((noinline)) HasRoomForGeneratedOWE(void)
     return freeSlots > OWE_RESERVED_OBJECT_SLOTS;
 }
 
+static bool32 IsOverworldEncounterBlocked(void)
+{
+    return ArePlayerFieldControlsLocked()
+        || ScriptContext_IsEnabled()
+        || !IsFieldMessageBoxHidden();
+}
+
 void UpdateOverworldWildEncounter(void)
 {
     //Check if possible to spawn.
 
     bool32 shouldSpawnWaterMons = ShouldSpawnWaterOWE();
     
-    if (ArePlayerFieldControlsLocked() || FlagGet(DN_FLAG_SEARCHING) || !CheckCurrentWildMonHeaderForOWE(shouldSpawnWaterMons))
+    if (IsOverworldEncounterBlocked() || FlagGet(DN_FLAG_SEARCHING) || !CheckCurrentWildMonHeaderForOWE(shouldSpawnWaterMons))
         return;
 
     if (!WE_OW_ENCOUNTERS
      || FlagGet(WE_OWE_FLAG_DISABLED)
      || FlagGet(WE_FLAG_NO_ENCOUNTER)
-     || FlagGet(DN_FLAG_SEARCHING)
      || (gMapHeader.mapLayoutId == LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS && !WE_OWE_BATTLE_PIKE)
      || (gMapHeader.mapLayoutId == LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR && !WE_OWE_BATTLE_PYRAMID)
      || InTrainerHillChallenge())
@@ -655,7 +662,8 @@ void SetMinimumOWESpawnTimer(void)
 
 void TryTriggerOverworldWildEncounter(struct ObjectEvent *obstacle, struct ObjectEvent *collider)
 {
-    if (WE_OWE_NO_REPEL_DEXNAV_COLLISION && (FlagGet(DN_FLAG_SEARCHING) || REPEL_STEP_COUNT))
+    if (IsOverworldEncounterBlocked() || FlagGet(DN_FLAG_SEARCHING)
+     || (WE_OWE_NO_REPEL_DEXNAV_COLLISION && REPEL_STEP_COUNT))
         return;
 
     bool32 playerFollowerIsColliderOWE = ((collider->isPlayer || collider->localId == OBJ_EVENT_ID_FOLLOWER)
@@ -1069,7 +1077,7 @@ bool32 IsOWEDespawnExempt(struct ObjectEvent *owe)
 
 bool32 DespawnOWEDueToNPCCollision(struct ObjectEvent *obstacle, struct ObjectEvent *activeObject)
 {
-    if (activeObject->isPlayer)
+    if (activeObject->isPlayer && !IsOverworldEncounterBlocked())
         return FALSE;
 
     if (IsOverworldWildEncounter(activeObject, OWE_ANY))

@@ -4,7 +4,7 @@ R=Path(__file__).resolve().parents[3]
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
 D=R/'.la_work/legends-store';D.mkdir(exist_ok=True)
 import tempfile,struct
-names=['ITEM_HM_CUT', 'ITEM_HM_FLY', 'ITEM_HM_SURF', 'ITEM_HM_STRENGTH', 'ITEM_HM_FLASH', 'ITEM_HM_ROCK_SMASH', 'ITEM_HM_WATERFALL', 'ITEM_HM_DIVE']+['ITEMS_COUNT','ITEM_NONE','ITEM_POTION','ITEM_POKE_BALL','ITEM_MASTER_BALL','ITEM_ABILITY_PATCH','ITEM_ABILITY_CAPSULE','ITEM_CHARIZARDITE_X','ITEM_NORMALIUM_Z','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE','ITEM_TM_FOCUS_PUNCH','BAG_TRAINING','BAG_MEDICINE','BAG_KEYS','BAG_TERA_SHARDS','BAG_CATEGORIES_COUNT','offsetof(struct SaveBlock1,money)','sizeof(struct ItemInfo)','offsetof(struct ItemInfo,price)','FLAG_SYS_POKEDEX_GET','FLAG_SYS_POKEMON_GET','FLAG_SYS_POKENAV_GET','DN_FLAG_DEXNAV_GET']
+names=['ITEM_HM_CUT', 'ITEM_HM_FLY', 'ITEM_HM_SURF', 'ITEM_HM_STRENGTH', 'ITEM_HM_FLASH', 'ITEM_HM_ROCK_SMASH', 'ITEM_HM_WATERFALL', 'ITEM_HM_DIVE']+['ITEMS_COUNT','ITEM_NONE','ITEM_POTION','ITEM_POKE_BALL','ITEM_MASTER_BALL','ITEM_ABILITY_PATCH','ITEM_ABILITY_CAPSULE','ITEM_CHARIZARDITE_X','ITEM_NORMALIUM_Z','ITEM_FIRE_TERA_SHARD','ITEM_MACH_BIKE','ITEM_TM_FOCUS_PUNCH','ITEM_TM_DRAGON_CLAW','BAG_TRAINING','BAG_MEDICINE','BAG_KEYS','BAG_TERA_SHARDS','BAG_CATEGORIES_COUNT','offsetof(struct SaveBlock1,money)','sizeof(struct ItemInfo)','offsetof(struct ItemInfo,price)','FLAG_SYS_POKEDEX_GET','FLAG_SYS_POKEMON_GET','FLAG_SYS_POKENAV_GET','DN_FLAG_DEXNAV_GET']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "item.h"\n#include "bag_categories.h"\n#include "dexnav.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],cwd=R,check=True)
@@ -40,10 +40,14 @@ for mode in [0,1]:
  check('full_'+str(mode),invoke('LegendsStore_Buy',item,1,99)==3)
  check('full_no_charge_'+str(mode),money()==999999 and quantity(item)==999)
  item=c['ITEM_TM_FOCUS_PUNCH']
+ check('tm_bulk_rejected_'+str(mode),invoke('LegendsStore_Buy',item,2,99)==1)
  check('tm_single_'+str(mode),invoke('LegendsStore_Buy',item,1,99)==0)
  before=money()
  check('tm_duplicate_'+str(mode),invoke('LegendsStore_Buy',item,1,99)==1)
  check('tm_no_charge_'+str(mode),money()==before and quantity(item)==1)
+ pc_tm=c['ITEM_TM_DRAGON_CLAW']
+ check('store_tm_in_pc_'+str(mode),invoke('AddPCItem',pc_tm,1)==1)
+ check('pc_tm_sold_out_'+str(mode),invoke('LegendsStore_Buy',pc_tm,1,99)==1 and money()==before and quantity(pc_tm)==0)
  check('save_'+str(mode),invoke('TrySavingData',0)==1)
  invoke('ClearBag');check('reload_'+str(mode),invoke('LoadGameSave',0)==1)
  check('purchases_persist_'+str(mode),quantity(c['ITEM_POTION'])==999 and quantity(item)==1 and money()==before)

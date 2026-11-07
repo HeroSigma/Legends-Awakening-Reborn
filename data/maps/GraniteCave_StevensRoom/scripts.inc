@@ -4,15 +4,25 @@ GraniteCave_StevensRoom_MapScripts::
 GraniteCave_StevensRoom_EventScript_Steven::
 	lock
 	faceplayer
+	setspeaker SP_NAME_STEVEN
 	msgbox GraniteCave_StevensRoom_Text_ImStevenLetterForMe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox GraniteCave_StevensRoom_Text_PlayerLetter, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setvar VAR_0x8004, ITEM_LETTER
 	call Common_EventScript_PlayerHandedOverTheItem
 	setflag FLAG_DELIVERED_STEVEN_LETTER
+	checkitem ITEM_DYNAMAX_BAND
+	call_if_eq VAR_RESULT, TRUE, GraniteCave_StevensRoom_EventScript_InspectBand
+	setspeaker SP_NAME_STEVEN
 	msgbox GraniteCave_StevensRoom_Text_ThankYouTakeThis, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	giveitem ITEM_TM_STEEL_WING
 	call_if_eq VAR_RESULT, FALSE, GraniteCave_StevensRoom_EventScript_BagFull
+	setspeaker SP_NAME_STEVEN
 	msgbox GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister, MSGBOX_DEFAULT
 	closemessage
+	setspeaker SP_NAME_NONE
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
 	msgbox GraniteCave_StevensRoom_Text_RegisteredSteven, MSGBOX_DEFAULT
@@ -20,8 +30,10 @@ GraniteCave_StevensRoom_EventScript_Steven::
 	closemessage
 	delay 30
 	setflag FLAG_REGISTERED_STEVEN_POKENAV
+	setspeaker SP_NAME_STEVEN
 	msgbox GraniteCave_StevensRoom_Text_IveGotToHurryAlong, MSGBOX_DEFAULT
 	closemessage
+	setspeaker SP_NAME_NONE
 	call_if_eq VAR_FACING, DIR_NORTH, GraniteCave_StevensRoom_EventScript_StevenExitNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, GraniteCave_StevensRoom_EventScript_StevenExitSouth
 	call_if_eq VAR_FACING, DIR_WEST, GraniteCave_StevensRoom_EventScript_StevenExitWestEast
@@ -30,6 +42,17 @@ GraniteCave_StevensRoom_EventScript_Steven::
 	removeobject LOCALID_GRANITE_CAVE_STEVEN
 	release
 	end
+
+GraniteCave_StevensRoom_EventScript_InspectBand:
+	setspeaker SP_NAME_PLAYER
+	msgbox GraniteCave_StevensRoom_Text_ShowBand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STEVEN
+	msgbox GraniteCave_StevensRoom_Text_RecognizeBand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox GraniteCave_StevensRoom_Text_RingClosed, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STEVEN
+	msgbox GraniteCave_StevensRoom_Text_RiftTraces, MSGBOX_DEFAULT
+	return
 
 GraniteCave_StevensRoom_EventScript_StevenExitNorth::
 	applymovement LOCALID_GRANITE_CAVE_STEVEN, GraniteCave_StevensRoom_Movement_StevenExit
@@ -86,8 +109,23 @@ GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
 	.string "Oh?\n"
 	.string "A LETTER for me?$"
 
+GraniteCave_StevensRoom_Text_PlayerLetter:
+	.string "Mr. Stone asked me to give this to\nyou. I came over with Mr. Briney.$"
+
+GraniteCave_StevensRoom_Text_ShowBand:
+	.string "Before you go, could you look at\nthis band?\pA Pokémon came out of a ring on\nthe beach and left it behind.$"
+
+GraniteCave_StevensRoom_Text_RecognizeBand:
+	.string "That's a Dynamax Band. They make\nthese in Galar.\pWhen that ring closed, did it leave\nanything behind besides the band?$"
+
+GraniteCave_StevensRoom_Text_RingClosed:
+	.string "No. It just folded shut. The sand\nwhere it opened looked untouched.$"
+
+GraniteCave_StevensRoom_Text_RiftTraces:
+	.string "The rifts I've studied leave marks\non the rock around them.\pA ring that closes that cleanly?\nI'd like to see it for myself.\pKeep the band. If you see that\nPokémon again, let me know.$"
+
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-	.string "STEVEN: Okay, thank you.\p"
+	.string "Thank you for bringing the letter.\p"
 	.string "You went through all this trouble to\n"
 	.string "deliver that. I need to thank you.\p"
 	.string "Let me see…\n"
@@ -96,7 +134,7 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
 	.string "STEEL WING.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-	.string "STEVEN: Your POKéMON appear quite\n"
+	.string "Your POKéMON appear quite\n"
 	.string "capable.\p"
 	.string "If you keep training, you could even\n"
 	.string "become the CHAMPION of the POKéMON\l"
@@ -111,7 +149,7 @@ GraniteCave_StevensRoom_Text_RegisteredSteven:
 	.string "in the POKéNAV.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-	.string "Now, I've got to hurry along.$"
+	.string "I should get going. If you're taking\nDevon's parts to Slateport,\lMr. Briney can sail you there.$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"

@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "assertions": 88,
-  "rom_sha256": "f313db2a84583ae2f730ec1973a45bf9f8002f18c0e128f038c958684e1a4050",
+  "assertions": 87,
+  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -244,14 +244,6 @@
       "passed": true
     },
     {
-      "test": "dialogue_width_LegendsTera_Text_Introduction_16",
-      "passed": true
-    },
-    {
-      "test": "dialogue_width_LegendsTera_Text_Introduction_17",
-      "passed": true
-    },
-    {
       "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_0",
       "passed": true
     },
@@ -273,6 +265,10 @@
     },
     {
       "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_5",
+      "passed": true
+    },
+    {
+      "test": "dialogue_width_RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor_6",
       "passed": true
     },
     {

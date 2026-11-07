@@ -166,7 +166,15 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
 
     if (!IS_FRLG && gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
     {
-        if (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+        if (FlagGet(FLAG_LA_MIRAIDON_BATTLE))
+        {
+            CreateWildMon(SPECIES_MIRAIDON, 70);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_ELECTRO_DRIFT, 0);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_DRAGON_PULSE, 1);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_FLASH_CANNON, 2);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_POWER_GEM, 3);
+        }
+        else if (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
         {
             // A fixed story opponent bypasses route/time/badge encounter pools.
             CreateWildMon(SPECIES_IRON_VALIANT, 100);

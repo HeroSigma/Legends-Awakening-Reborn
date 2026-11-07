@@ -1,4 +1,6 @@
 #include "global.h"
+#include "daycare.h"
+#include "dexnav.h"
 #include "legends_trainers.h"
 #include "data.h"
 #include "main.h"
@@ -393,8 +395,45 @@ void BattleSetup_StartBattlePikeWildBattle(void)
     DoBattlePikeWildBattle();
 }
 
+static void TryGiveShinyWildEggMove(struct Pokemon *mon)
+{
+    if (!IsMonShiny(mon) || Random() % 100 >= 25)
+        return;
+
+    const u16 *moves = GetSpeciesEggMoves(GetEggSpecies(GetMonData(mon, MON_DATA_SPECIES)));
+    enum Move choice = MOVE_NONE;
+    u32 eligible = 0;
+
+    for (; *moves != MOVE_UNAVAILABLE; moves++)
+    {
+        bool32 known = FALSE;
+        for (u32 slot = 0; slot < MAX_MON_MOVES; slot++)
+            if (GetMonData(mon, MON_DATA_MOVE1 + slot) == *moves)
+                known = TRUE;
+        if (!known && Random() % ++eligible == 0)
+            choice = *moves;
+    }
+
+    if (choice != MOVE_NONE)
+    {
+        u32 slot = MAX_MON_MOVES - 1;
+        for (u32 i = 0; i < MAX_MON_MOVES; i++)
+        {
+            if (GetMonData(mon, MON_DATA_MOVE1 + i) == MOVE_NONE)
+            {
+                slot = i;
+                break;
+            }
+        }
+        SetMonMoveSlot(mon, choice, slot);
+    }
+}
+
 static void DoStandardWildBattle(bool32 isDouble)
 {
+    TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
+    if (isDouble)
+        TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][1]);
     LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
@@ -490,6 +529,7 @@ static void DoBattlePikeWildBattle(void)
 
 static void DoTrainerBattle(void)
 {
+    LegendsTrainer_RollGymGimmick(TRAINER_BATTLE_PARAM.opponentA);
     CreateNPCTrainerParty(&gParties[B_TRAINER_OPPONENT_A][0], TRAINER_BATTLE_PARAM.opponentA);
     if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS && !BATTLE_TWO_VS_ONE_OPPONENT)
         CreateNPCTrainerParty(&gParties[B_TRAINER_OPPONENT_B][0], TRAINER_BATTLE_PARAM.opponentB);
@@ -532,9 +572,12 @@ void StartOldManTutorialBattle(void)
 
 void BattleSetup_StartScriptedWildBattle(void)
 {
+    if (gDexNavSpecies != SPECIES_NONE)
+        TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
+
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
-    gBattleTypeFlags = 0;
+    gBattleTypeFlags = FlagGet(FLAG_LA_MIRAIDON_BATTLE) ? BATTLE_TYPE_FIRST_BATTLE : 0;
     CreateBattleStartTask(GetWildBattleTransition(), 0);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
@@ -723,7 +766,7 @@ static void CB2_EndScriptedWildBattle(void)
 
     if (IsPlayerDefeated(gBattleOutcome) == TRUE)
     {
-        if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE)
+        if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE || FlagGet(FLAG_LA_MIRAIDON_BATTLE))
             SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         else
             SetMainCallback2(CB2_WhiteOut);
@@ -1220,6 +1263,21 @@ static void BattleSetup_ConfigureApproachingTrainerBattle(TrainerBattleParameter
     return;
 }
 
+static bool32 IsRichTrainerClass(u16 trainerId)
+{
+    switch (GetTrainerClassFromId(trainerId))
+    {
+    case TRAINER_CLASS_RICH_BOY:
+    case TRAINER_CLASS_LADY:
+    case TRAINER_CLASS_LADY_FRLG:
+    case TRAINER_CLASS_GENTLEMAN:
+    case TRAINER_CLASS_GENTLEMAN_FRLG:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battleParams, struct ScriptStack *scrStack)
 {
     SetMapVarsToTrainerA();
@@ -1230,7 +1288,12 @@ static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battlePar
 
     bool32 isTrainerDefeated = !battleParams->params.skipFlagCheck && GetTrainerFlag();
 
-    if ((isTrainerDefeated && !battleParams->params.isRematch)
+    bool32 isRichTrainerRematch = isTrainerDefeated
+                               && !battleParams->params.isRematch
+                               && battleParams->params.opponentB == 0
+                               && IsRichTrainerClass(battleParams->params.opponentA);
+
+    if ((isTrainerDefeated && !isRichTrainerRematch && !battleParams->params.isRematch)
     || (!IsTrainerReadyForRematch() && battleParams->params.isRematch)) {
         PUSH(EventSnippet_GotoPostBattleScript)
         return;
@@ -1256,8 +1319,16 @@ static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battlePar
     
     PUSH_IF_SET(EventSnippet_PlayTrainerEncounterMusic, battleParams->params.playMusicA)
     PUSH_IF_SET(EventSnippet_SetTrainerFacingDirection, battleParams->params.facePlayer);
-    PUSH(EventSnippet_LegendsChooseFormat)
+    if (isRichTrainerRematch)
+    {
+        PUSH(EventSnippet_OfferRichTrainerRematch)
+        PUSH(EventSnippet_DoTrainerBattle)
+        PUSH(EventSnippet_EndRichTrainerRematch)
+        return;
+    }
+
     PUSH_IF_SET(EventSnippet_ShowTrainerIntroMsg, battleParams->params.introTextA)
+    PUSH(EventSnippet_LegendsChooseFormat)
     PUSH_IF_ELSE(EventSnippet_DoRematchTrainerBattle, EventSnippet_DoTrainerBattle, battleParams->params.isRematch)
     PUSH_IF_ELSE(EventSnippet_GotoPostBattleScript, EventSnippet_EndTrainerBattle, battleParams->params.continueScript)
 

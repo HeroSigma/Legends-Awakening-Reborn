@@ -1,5 +1,5 @@
 {
-  "rom_sha256": "d8f8822fc5b8370d66bd0dfab3aa76aa1244da628817cd86de55cbf608072c78",
+  "rom_sha256": "2870ff8b3d50c7276ec91e6d13f297445262a4d8a806f4d19b5444fa3492d6ce",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -1123,6 +1123,10 @@
     },
     {
       "test": "g0_mode0_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_cancel_restores_entire_prompt",
       "passed": true
     },
     {
@@ -2251,6 +2255,10 @@
     },
     {
       "test": "g1_mode1_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_cancel_restores_entire_prompt",
       "passed": true
     },
     {

@@ -1,5 +1,8 @@
 #include "global.h"
 #include "pokemon.h"
+#include "daycare.h"
+#include "money.h"
+#include "move.h"
 #include "caps.h"
 #include "event_data.h"
 #include "script.h"
@@ -15,23 +18,13 @@
 #include "window.h"
 #include "text.h"
 
-// Only transient script variables are used. No money, items or save fields.
-static const u8 *const sServices[] = {COMPOUND_STRING("Level catch-up"),COMPOUND_STRING("EV presets"),COMPOUND_STRING("Done")};
-static const u8 sServiceActions[] = {6,7,8};
+#define EGG_MOVE_PRICE 2000
+static const u8 *const sServices[] = {COMPOUND_STRING("Level catch-up"),COMPOUND_STRING("Max Friendship"),COMPOUND_STRING("Egg Moves"),COMPOUND_STRING("Done")};
+static const u8 sServiceActions[] = {6,7,9,10};
 static const u8 *const sStats[] = {COMPOUND_STRING("HP"), COMPOUND_STRING("Attack"), COMPOUND_STRING("Defense"), COMPOUND_STRING("Sp. Attack"), COMPOUND_STRING("Sp. Defense"), COMPOUND_STRING("Speed")};
 static const u8 sEVFields[] = {MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
 static const u8 sIVFields[] = {MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
 static const u8 *const sEVChoices[] = {COMPOUND_STRING("Set to 252"),COMPOUND_STRING("Set to 4"),COMPOUND_STRING("Set to 0"),COMPOUND_STRING("Choose exact value"),COMPOUND_STRING("Back")};
-static const u8 sEVPresets[][6] = {
-    {6,252,0,0,0,252},
-    {6,0,0,252,0,252},
-    {252,0,252,0,6,0},
-    {252,0,6,0,252,0},
-};
-static const u8 *const sEVPresetNames[] = {
-    COMPOUND_STRING("Physical attacker"), COMPOUND_STRING("Special attacker"),
-    COMPOUND_STRING("Physical wall"), COMPOUND_STRING("Special wall"),
-};
 static EWRAM_DATA u16 sEvolutionSpecies = SPECIES_NONE;
 
 static struct Pokemon *SelectedMon(void)
@@ -51,6 +44,19 @@ u32 LegendsTraining_LevelCap(void)
 
 static void ResumeTraining(u8 taskId);
 
+static bool32 KnowsTrainingMove(struct Pokemon *mon, enum Move move)
+{
+    for (u32 slot = 0; slot < MAX_MON_MOVES; slot++)
+        if (GetMonData(mon, MON_DATA_MOVE1 + slot) == move)
+            return TRUE;
+    return FALSE;
+}
+
+static enum Species TrainingEggSpecies(struct Pokemon *mon)
+{
+    return GetEggSpecies(GetMonData(mon, MON_DATA_SPECIES));
+}
+
 static void MenuItem(struct ListMenuItem *items,u32 index,const u8 *name,u32 id)
 {
     u8 *copy=Alloc(StringLength(name)+1);
@@ -66,10 +72,23 @@ void LegendsTraining_Menu(void)
     if (!items) {gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
     if (kind==0) {
         for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],sServiceActions[i]);
-    } else if (kind==8) {
-        current=gSpecialVar_0x8007<ARRAY_COUNT(sEVPresets)?gSpecialVar_0x8007:0;
-        for (u32 i=0;i<ARRAY_COUNT(sEVPresets);i++) MenuItem(items,count++,sEVPresetNames[i],i);
-        MenuItem(items,count++,COMPOUND_STRING("Back"),255);
+    } else if (kind==8 && mon) {
+        const u16 *moves = GetSpeciesEggMoves(TrainingEggSpecies(mon));
+        for (; *moves != MOVE_UNAVAILABLE; moves++)
+            if (!KnowsTrainingMove(mon, *moves))
+                MenuItem(items, count++, GetMoveName(*moves), 256 + *moves);
+        if (!count)
+        {
+            Free(items);
+            gSpecialVar_Result = 254;
+            CreateTask(ResumeTraining, 0);
+            return;
+        }
+        MenuItem(items, count++, COMPOUND_STRING("Back"), 255);
+    } else if (kind==9 && mon) {
+        for (u32 slot = 0; slot < MAX_MON_MOVES; slot++)
+            MenuItem(items, count++, GetMoveName(GetMonData(mon, MON_DATA_MOVE1 + slot)), slot);
+        MenuItem(items, count++, COMPOUND_STRING("Back"), 255);
     } else if (kind==1) {
         current=gSpecialVar_0x8006<6?gSpecialVar_0x8006:gSpecialVar_0x8008==3?6:0;
         for (u32 i=0;i<6;i++) {
@@ -174,6 +193,48 @@ void LegendsTraining_Prepare(void)
     gSpecialVar_Result=1;
     if (!mon) return;
     gSpecialVar_Result=3;
+    if (action == 9)
+    {
+        if (value == MOVE_NONE || value >= MOVES_COUNT || !SpeciesHasEggMove(TrainingEggSpecies(mon), value))
+            return;
+        if (KnowsTrainingMove(mon, value))
+        {
+            gSpecialVar_Result = 4;
+            return;
+        }
+        if (!IsEnoughMoney(&gSaveBlock1Ptr->money, EGG_MOVE_PRICE))
+        {
+            gSpecialVar_Result = 5;
+            return;
+        }
+        if (stat >= MAX_MON_MOVES)
+        {
+            for (stat = 0; stat < MAX_MON_MOVES; stat++)
+                if (GetMonData(mon, MON_DATA_MOVE1 + stat) == MOVE_NONE)
+                    break;
+            if (stat == MAX_MON_MOVES)
+            {
+                gSpecialVar_Result = 6;
+                return;
+            }
+            gSpecialVar_0x8006 = stat;
+        }
+        GetMonData(mon, MON_DATA_NICKNAME, gStringVar1);
+        StringCopy(gStringVar4, COMPOUND_STRING("Teach "));
+        StringAppend(gStringVar4, GetMoveName(value));
+        StringAppend(gStringVar4, COMPOUND_STRING(" to\n"));
+        StringAppend(gStringVar4, gStringVar1);
+        StringAppend(gStringVar4, COMPOUND_STRING(" for ¥2,000?"));
+        old = GetMonData(mon, MON_DATA_MOVE1 + stat);
+        if (old != MOVE_NONE)
+        {
+            StringAppend(gStringVar4, COMPOUND_STRING("\pIt will replace "));
+            StringAppend(gStringVar4, GetMoveName(old));
+            StringAppend(gStringVar4, COMPOUND_STRING("."));
+        }
+        gSpecialVar_Result = 0;
+        return;
+    }
     if (action==1 || action==3) {
         if (stat>=6 || value>(action==1?252:31)) return;
         old=GetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat]);
@@ -183,11 +244,8 @@ void LegendsTraining_Prepare(void)
             if (total>510) {gSpecialVar_Result=2;return;}
         }
     } else if (action==8) {
-        if (value>=ARRAY_COUNT(sEVPresets)) return;
-        bool32 same=TRUE;
-        for (u32 i=0;i<6;i++) if (GetMonData(mon,sEVFields[i])!=sEVPresets[value][i]) same=FALSE;
-        if (same) {gSpecialVar_Result=4;return;}
-        old=value+1;
+        old = GetMonData(mon, MON_DATA_FRIENDSHIP);
+        value = MAX_FRIENDSHIP;
     } else if (action==7) {
         if (value!=31) return;
         for (u32 i=0;i<6;i++) old+=GetMonData(mon,sIVFields[i]);
@@ -215,14 +273,7 @@ void LegendsTraining_Prepare(void)
         StringAppend(gStringVar4,sStats[stat]);StringAppend(gStringVar4,action==1?COMPOUND_STRING(" EVs: "):COMPOUND_STRING(" IVs: "));
         AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);
     } else if (action==8) {
-        StringAppend(gStringVar4,sEVPresetNames[value]);
-        StringAppend(gStringVar4,COMPOUND_STRING("\pReplaces all current EVs."));
-        for (u32 i=0;i<6;i++) {
-            StringAppend(gStringVar4,i%2?COMPOUND_STRING("\n"):COMPOUND_STRING("\p"));
-            StringAppend(gStringVar4,sStats[i]);StringAppend(gStringVar4,COMPOUND_STRING(": "));
-            AppendNumber(gStringVar4,sEVPresets[value][i]);
-        }
-        StringAppend(gStringVar4,COMPOUND_STRING("\pTotal: 510 / 510"));
+        StringAppend(gStringVar4, COMPOUND_STRING("Max out friendship."));
     } else if (action==7) StringAppend(gStringVar4,COMPOUND_STRING("Set all six IVs to 31."));
     else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
     else if (action==4) {StringAppend(gStringVar4,COMPOUND_STRING("Nature effects: "));StringAppend(gStringVar4,gNaturesInfo[value].name);}
@@ -238,8 +289,18 @@ void LegendsTraining_Commit(void)
     if (gSpecialVar_Result) return;
     struct Pokemon *mon=SelectedMon();
     u32 action=gSpecialVar_0x8008,stat=gSpecialVar_0x8006,value=gSpecialVar_0x8007;
+    if (action == 9)
+    {
+        RemoveMonPPBonus(mon, stat);
+        SetMonMoveSlot(mon, value, stat);
+        RemoveMoney(&gSaveBlock1Ptr->money, EGG_MOVE_PRICE);
+        return;
+    }
     if (action==1 || action==3) SetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat],&value);
-    else if (action==8) {for (u32 i=0;i<6;i++) {u32 ev=sEVPresets[value][i];SetMonData(mon,sEVFields[i],&ev);}}
+    else if (action==8) {
+        u8 friendship = MAX_FRIENDSHIP;
+        SetMonData(mon, MON_DATA_FRIENDSHIP, &friendship);
+    }
     else if (action==7) {u32 max=31;for (u32 i=0;i<6;i++) SetMonData(mon,sIVFields[i],&max);}
     else if (action==2) {u32 zero=0;for (u32 i=0;i<6;i++) SetMonData(mon,sEVFields[i],&zero);}
     else if (action==4) SetMonData(mon,MON_DATA_HIDDEN_NATURE,&value);

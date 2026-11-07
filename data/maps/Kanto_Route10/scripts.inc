@@ -1,7 +1,4 @@
 Kanto_Route10_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PowerPlantRift_RouteTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PowerPlantRift_RouteFrame
 	.byte 0
-
-KantoAR_3_28_Route10_Inspect::
-	call KantoAR_InspectionPrompt
-	warp MAP_KANTOAR_3_29_ROUTE11, 37, 10
-	goto KantoAR_InspectionFinish

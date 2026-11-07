@@ -658,3 +658,5 @@ gSpecials::
 	def_special LegendsPokevialHeal
 
 	def_special IsNonstandardStarter
+
+	def_special RiftTracker_Check

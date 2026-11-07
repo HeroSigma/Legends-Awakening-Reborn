@@ -37,10 +37,20 @@ for title,double,moncount in [('singles',False,6),('doubles',True,6),('fallback'
  wr(symbols['gSelectedObjectEvent'],invoke('GetObjectEventIdByLocalIdAndMap',actor,mid,group),1)
  script='MossdeepCity_Gym_EventScript_TateAndLiza' if title=='tate_singles' else 'RustboroCity_Gym_EventScript_Roxanne'
  invoke('ScriptContext_SetupScript',symbols[script])
- wait_for(lambda:active_task('Task_HandleYesNoInput'))
+ wait_for(lambda:active_task('Task_HandleMultichoiceInput'))
  frames(15)
  shutil.copy2(shot('format_prompt_'+title),R/'docs/features'/('competitive-format-'+title+'.png'))
- if not double:tap(128)
+ if title=='singles':
+  tap(1)
+  wait_for(lambda:active_task('Task_HandleYesNoInput'),press=False)
+  frames(10)
+  tap(128);tap(1)
+  wait_for(lambda:active_task('Task_HandleMultichoiceInput'),press=False)
+  frames(10)
+ if double:tap(128)
+ tap(1)
+ wait_for(lambda:active_task('Task_HandleYesNoInput'),press=False)
+ frames(10)
  tap(1)
  wait_for(lambda:rd(symbols['gBattlersCount'],1) in [2,4],8000)
  wait_for(lambda:rd(symbols['gBattleMainFunc'])==symbols['HandleTurnActionSelectionState']|1,12000)
@@ -62,6 +72,7 @@ for title,double,moncount in [('singles',False,6),('doubles',True,6),('fallback'
   print('GIMMICK',title,expected_gimmick,'tera',invoke('GetBoxMonData3',opponent+500,c['MON_DATA_TERA_TYPE'],0),'zitem',invoke('GetBoxMonData3',opponent+500,c['MON_DATA_HELD_ITEM'],0),'pos',rd(symbols['gBattlerPositions']+1,1),'active',invoke('GetActiveGimmick',1),'teraEligible',invoke('CanTerastallize',1),'zEligible',invoke('CanUseZMove',1),flush=True)
   check(title+'_native_tera_eligibility',invoke('CanTerastallize',1)==int(expected_gimmick==1))
   check(title+'_native_z_eligibility',invoke('CanUseZMove',1)==int(expected_gimmick==2))
+  check(title+'_native_dynamax_eligibility',invoke('CanDynamax',1)==int(expected_gimmick==3))
   if expected_gimmick==2:
    t=invoke('LegendsTrainer_Get',c['TRAINER_ROXANNE_1'],symbols['gTrainers']+c['TRAINER_ROXANNE_1']*c['sizeof(struct Trainer)'])
    ace=rd(t+c['offsetof(struct Trainer,party)'])+5*c['sizeof(struct TrainerMon)']

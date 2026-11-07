@@ -4288,6 +4288,21 @@ static const struct SpriteFrameImage sPicTable_LaRosterOak[] = {
     overworld_frame(gObjectEventPic_LaRosterOak, 4, 4, 7),
     overworld_frame(gObjectEventPic_LaRosterOak, 4, 4, 8),
 };
+static const union AnimCmd sAnim_LaRiftPulse[] = {
+    ANIMCMD_FRAME(0, 9),
+    ANIMCMD_FRAME(1, 9),
+    ANIMCMD_FRAME(2, 9),
+    ANIMCMD_FRAME(1, 9),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd *const sAnimTable_LaRiftPulse[] = {
+    sAnim_LaRiftPulse,
+    sAnim_LaRiftPulse,
+    sAnim_LaRiftPulse,
+    sAnim_LaRiftPulse,
+};
+
 static const struct SpriteFrameImage sPicTable_LaRosterRandomPortals[] = {
     overworld_frame(gObjectEventPic_LaRosterRandomPortals, 8, 8, 0),
     overworld_frame(gObjectEventPic_LaRosterRandomPortals, 8, 8, 1),
@@ -4464,7 +4479,18 @@ static const union AnimCmd sLaHoopaEmerge[] = {
     ANIMCMD_FRAME(4, 5),
     ANIMCMD_FRAME(3, 5),
     ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(1, 12),
+    ANIMCMD_FRAME(2, 32),
+    ANIMCMD_END,
+};
+static const union AnimCmd sLaHoopaVanish[] = {
+    ANIMCMD_FRAME(2, 4),
+    ANIMCMD_FRAME(1, 4),
+    ANIMCMD_FRAME(0, 4),
+    ANIMCMD_FRAME(3, 4),
+    ANIMCMD_FRAME(4, 4),
+    ANIMCMD_FRAME(5, 4),
+    ANIMCMD_FRAME(6, 4),
     ANIMCMD_END,
 };
 static const union AnimCmd *const sAnimTable_LaHoopaCombined[] = {
@@ -4489,6 +4515,7 @@ static const union AnimCmd *const sAnimTable_LaHoopaCombined[] = {
     sLaHoopaDonorAnim18,
     sLaHoopaDonorAnim19,
     sLaHoopaEmerge,
+    sLaHoopaVanish,
 };
 static const struct SpriteFrameImage sPicTable_LaRosterShadowTriad[] = {
     overworld_frame(gObjectEventPic_LaRosterShadowTriad, 4, 4, 0),
@@ -4513,6 +4540,25 @@ static const struct SpriteFrameImage sPicTable_LaRosterSteven[] = {
     overworld_frame(gObjectEventPic_LaRosterSteven, 2, 4, 8),
 };
 /* LA_NPC_ROSTER_PICTURES_END */
+static const struct SpriteFrameImage sPicTable_LaMiraidon[] = {
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 0),
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 1),
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 2),
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 3),
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 4),
+    overworld_frame(gObjectEventPic_LaMiraidon, 8, 8, 5),
+};
+static const struct SpriteFrameImage sPicTable_LaRosterRowan[] = {
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 3),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 5),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 6),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 7),
+    overworld_frame(gObjectEventPic_LaRosterRowan, 4, 4, 8),
+};
 
 static const struct SpriteFrameImage sPicTable_BrendanRiding[] = {
     overworld_frame(gObjectEventPic_BrendanRiding, 2, 4, 0),

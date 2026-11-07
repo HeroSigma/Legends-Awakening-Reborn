@@ -866,6 +866,7 @@ static bool8 InitDexNavSearch(enum Species species, u32 environment)
         return TRUE;
     }
 
+    DespawnAllOverworldWildEncounters(OWE_GENERATED, 0);
     sDexNavSearchDataPtr->hiddenSearch = FALSE;
     SetUpDexNavSearch();
     return FALSE;
@@ -979,7 +980,6 @@ void EndDexNavSearch(void)
 
 static void EndDexNavSearchSetupScript(const u8 *script)
 {
-    gSaveBlock3Ptr->dexNavChain = 0;   //reset chain
     EndDexNavSearch();
     ScriptContext_SetupScript(script);
 }
@@ -1081,6 +1081,7 @@ bool32 OnStep_DexNavSearch(void)
     if (sDexNavSearchDataPtr->proximity < 1)
     {
         gDexNavSpecies = sDexNavSearchDataPtr->species;
+        CheckDexNavChainSpecies(gDexNavSpecies);
         CreateDexNavWildMon(sDexNavSearchDataPtr->species, sDexNavSearchDataPtr->potential, sDexNavSearchDataPtr->monLevel,
                             sDexNavSearchDataPtr->abilityNum, sDexNavSearchDataPtr->heldItem, sDexNavSearchDataPtr->moves);
 
@@ -1166,8 +1167,15 @@ static void CreateDexNavWildMon(enum Species species, u8 potential, u8 level, u8
 {
     struct Pokemon *mon = &gParties[B_TRAINER_OPPONENT_A][0];
 
-    CreateWildMon(species, level);  // shiny rate bonus handled in CreateBoxMon
-    SetBoxMonPerfectIVs(&mon->box, min(3, potential)); // Will not exceed 3 Perfect IVs
+    // Count the current encounter before the chain increments on a catch or win.
+    u32 encounterNumber = gSaveBlock3Ptr->dexNavChain + 1;
+    bool8 bonusShiny = encounterNumber <= 100 && Random() % 100 < 2;
+    bool32 perfectShiny = bonusShiny && encounterNumber > 50;
+
+    CreateWildMon(species, level);  // Standard shiny rolls still apply.
+    if (bonusShiny)
+        SetMonData(mon, MON_DATA_IS_SHINY, &bonusShiny);
+    SetBoxMonPerfectIVs(&mon->box, perfectShiny ? NUM_STATS : min(3, potential));
 
     //Set ability
     SetMonData(mon, MON_DATA_ABILITY_NUM, &abilityNum);
@@ -1822,7 +1830,6 @@ static void CB1_DexNavSearchCallback(void)
 
 static void Task_DexNavExitAndSearch(u8 taskId)
 {
-    DespawnAllOverworldWildEncounters(OWE_GENERATED, 0);
     DexNavGuiFreeResources();
     DestroyTask(taskId);
     SetMainCallback1(CB1_DexNavSearchCallback);
@@ -2569,6 +2576,8 @@ bool32 TryFindHiddenPokemon(void)
             return FALSE;
         }
 
+        DespawnAllOverworldWildEncounters(OWE_GENERATED, 0);
+
         // exclamation mark over player
         gFieldEffectArguments[0] = gSaveBlock1Ptr->pos.x;
         gFieldEffectArguments[1] = gSaveBlock1Ptr->pos.y;
@@ -2649,14 +2658,28 @@ void TryIncrementSpeciesSearchLevel()
 
 void ResetDexNavSearch(void)
 {
-    gSaveBlock3Ptr->dexNavChain = 0;    //reset dex nav chaining on new map
     VarSet(DN_VAR_STEP_COUNTER, 0); //reset hidden Pokémon step counter
     if (FlagGet(DN_FLAG_SEARCHING))
         EndDexNavSearch();   //moving to new map ends dexnav search
 }
 
+void ResetDexNavChain(void)
+{
+    gSaveBlock3Ptr->dexNavChain = 0;
+    VarSet(VAR_LA_DEXNAV_CHAIN_SPECIES, SPECIES_NONE);
+}
+
+void CheckDexNavChainSpecies(enum Species species)
+{
+    enum Species chainSpecies = VarGet(VAR_LA_DEXNAV_CHAIN_SPECIES);
+
+    if (species != SPECIES_NONE && chainSpecies != SPECIES_NONE && species != chainSpecies)
+        ResetDexNavChain();
+}
+
 void IncrementDexNavChain(void)
 {
+    VarSet(VAR_LA_DEXNAV_CHAIN_SPECIES, gDexNavSpecies);
     if (gSaveBlock3Ptr->dexNavChain < DEXNAV_CHAIN_MAX)
         gSaveBlock3Ptr->dexNavChain++;
 }

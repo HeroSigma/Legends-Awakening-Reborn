@@ -12,61 +12,71 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_KANTOAR_3_4_LAVENDERTOWN",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_KANTOAR_3_27_ROUTE9",
-      "offset": 0,
-      "direction": "left"
-    }
-  ],
+  "connections": [],
   "object_events": [
     {
-      "local_id": "LOCALID_KANTOAR_3_28_ROUTE10_SCIENTIST",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "local_id": "LOCALID_ROUTE10_RIFT_GATE",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_RANDOMPORTALS",
       "x": 11,
-      "y": 40,
+      "y": 44,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PowerPlantRift_Return",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "local_id": "LOCALID_ROUTE10_RIFT_WALLY",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_WALLY",
+      "x": 8,
+      "y": 44,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PowerPlantRift_Wally",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "local_id": "LOCALID_ROUTE10_RIFT_KIRLIA",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES_SHINY(KIRLIA)",
+      "x": 8,
+      "y": 43,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "KantoAR_3_28_Route10_Inspect",
-      "flag": "0"
+      "script": "PowerPlantRift_Wally",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "local_id": "LOCALID_ROUTE10_RIFT_WATTSON",
+      "graphics_id": "OBJ_EVENT_GFX_WATTSON",
+      "x": 12,
+      "y": 44,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PowerPlantRift_RouteWattson",
+      "flag": "FLAG_TEMP_2"
     }
   ],
   "warp_events": [
-    {
-      "x": 8,
-      "y": 19,
-      "elevation": 3,
-      "dest_map": "MAP_KANTOAR_1_81_ROCKTUNNEL_1F",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 8,
-      "y": 57,
-      "elevation": 3,
-      "dest_map": "MAP_KANTOAR_1_81_ROCKTUNNEL_1F",
-      "dest_warp_id": "5"
-    },
     {
       "x": 7,
       "y": 40,
       "elevation": 3,
       "dest_map": "MAP_KANTOAR_1_95_POWERPLANT",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 13,
-      "y": 20,
-      "elevation": 3,
-      "dest_map": "MAP_KANTOAR_21_0_ROUTE10_POKEMONCENTER_1F",
       "dest_warp_id": "1"
     },
     {
@@ -78,8 +88,17 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 42,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PowerPlantRift_ReadSign"
+    }
+  ],
   "region": "REGION_KANTO",
-  "la_imported": false,
-  "la_retired_for_hns": true
+  "la_imported": true,
+  "la_retired_for_hns": false
 }

@@ -867,7 +867,7 @@ void CreateMonWithIVs(struct Pokemon *mon, enum Species species, u8 level, u32 p
     CalculateMonStats(mon);
 }
 
-bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
+static bool32 ComputeShinyOdds(u32 personality, u32 value, bool32 regularWild)
 {
     if (FlagGet(P_FLAG_FORCE_NO_SHINY))
         return FALSE;
@@ -882,9 +882,15 @@ bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
         return FALSE;
 
     u32 totalRerolls = 0;
+    u32 threshold = regularWild ? 256 : SHINY_ODDS;
 
     if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
-        totalRerolls += I_SHINY_CHARM_ADDITIONAL_ROLLS;
+    {
+        if (regularWild)
+            threshold += 64; // 25% relative increase to the regular wild rate.
+        else
+            totalRerolls += I_SHINY_CHARM_ADDITIONAL_ROLLS;
+    }
 
     if (LURE_STEP_COUNT != 0)
         totalRerolls += 1;
@@ -894,13 +900,23 @@ bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
     if (gDexNavSpecies)
         totalRerolls += CalculateDexNavShinyRolls();
 
-    while (GET_SHINY_VALUE(value, personality) >= SHINY_ODDS && totalRerolls > 0)
+    while (GET_SHINY_VALUE(value, personality) >= threshold && totalRerolls > 0)
     {
         personality = Random32();
         totalRerolls--;
     }
 
-    return GET_SHINY_VALUE(value, personality) < SHINY_ODDS;
+    return GET_SHINY_VALUE(value, personality) < threshold;
+}
+
+bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
+{
+    return ComputeShinyOdds(personality, value, FALSE);
+}
+
+bool32 ComputeRegularWildShinyOdds(u32 personality, u32 value)
+{
+    return ComputeShinyOdds(personality, value, TRUE);
 }
 
 void SetBoxMonIVs(struct BoxPokemon *mon, u8 fixedIV)
