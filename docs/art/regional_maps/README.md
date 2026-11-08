@@ -33,3 +33,14 @@ The generated terrain-heavy Sinnoh preview was rejected by the user after in-ROM
 ## Sinnoh removed from atlas
 
 At user request, Sinnoh artwork, hover labels, region identification, and player-location lookup are removed from the playable world map. Its former area is open sea. Hoenn, Johto and Kanto remain. Source images and old experiments remain inactive reference files only.
+
+
+## Current hub restoration — 2026-11-08
+
+The active atlas now restores Hoenn from the rh-hideout/pokeemerald-expansion master graphics/pokenav/region_map map.png, map.bin and map.pal. Native Hoenn pixels and GBA colors are preserved exactly; the earlier region-wide sixteen-color quantization has been removed. All 38,400 Hoenn atlas pixels were compared with the source.
+
+The continuous 512x512 world has Sinnoh northwest, Johto/Kanto northeast and Hoenn southwest. Sinnoh now uses LiderMorti00/Sinnoh-pokeemerald-expansion source artwork and its authored map-section grid, not the previously rejected generated art. It has 122 hover cells and 73 location labels. Shared location names are matched within the current region for the player marker. Unsupported or unmatched current locations do not receive a fabricated marker.
+
+D-pad moves across the continuous map; L/R jumps the cursor between its four regions; B exits. Normal PokeNav Map and field/wall maps use the atlas. Fly remains on its existing gated interface: viewing a region does not enable travel or alter story/rift permissions. Unfinished Unova and other regions without adopted map art are not invented on this canvas. Older removal/preview notes above describe superseded versions.
+
+The exact-color tile pack uses five palette banks and 700 unique 4bpp tiles, retaining room for the UI and adding no save fields. Sources and hashes are in assets/regional_maps/sinnoh_native/source.json and data/world_map/build-report.json. The test uses disposable emulator SRAM; release saves are preserved.

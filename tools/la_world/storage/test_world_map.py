@@ -11,13 +11,13 @@ def check(n,v):
 start(0)
 invoke('ScriptContext_Init');invoke('UnlockPlayerFieldControls')
 text=(R/'src/data/world_map_locations.h').read_text()
-locs=re.findall(r'\{(\d+), (\d+), (\d+), (sWorldName\d+)\}',text)
+locs=re.findall(r'\{(\d+), (\d+), (\d+), ((?:sWorldName|sSinnohName)\d+)\}',text)
 for x,y,region,name in locs:
  check('location '+x+','+y,invoke('WorldMap_LocationAt',int(x),int(y))==symbols[name])
  check('region '+x+','+y,invoke('WorldMap_RegionAt',int(x),int(y))==int(region))
 for x in range(2,29):
- for y in range(3,24):
-  check('removed region '+str((x,y)),invoke('WorldMap_RegionAt',x,y)==0)
+ for y in range(3,23):
+  check('Sinnoh region '+str((x,y)),invoke('WorldMap_RegionAt',x,y)==4)
 check('open sea' ,invoke('WorldMap_RegionAt',2,25)==0)
 invoke('FieldInitRegionMap',symbols['CB2_ReturnToFieldWithOpenMenu']|1)
 wr(symbols['gMain']+4,symbols['WorldMap_Update']|1);frames(40)
@@ -28,13 +28,17 @@ check('all atlas palette banks loaded',all(rd(0x05000000+i,2)==int.from_bytes(pa
 check('world tilemap block24',rd(0x0400000c,2)>>8&31==24)
 shutil.copy2(shot('world_hoenn'),D/'hoenn.png')
 oldx=rd(state+5,1);frames(1,16);frames(3);check('right moves cursor',rd(state+5,1)==oldx+1)
-for region,name in [(2,'johto'),(1,'kanto')]:
+for region,name in [(2,'johto'),(1,'kanto'),(4,'sinnoh')]:
  x,y,_,_=next(v for v in locs if int(v[2])==region)
  wr(state+5,int(x),1);wr(state+6,int(y),1);invoke('WorldMap_Refresh');frames(4)
  shutil.copy2(shot('world_'+name),D/(name+'.png'))
  check(name+' label region',invoke('WorldMap_RegionAt',int(x),int(y))==region)
+# Region shortcuts move the same cursor across the continuous world canvas.
+for key,expected in [(256,3),(256,2),(256,1),(256,4),(512,1)]:
+ tap(key);frames(10)
+ check('region shortcut '+str((key,expected)),invoke('WorldMap_RegionAt',rd(state+5,1),rd(state+6,1))==expected)
 wr(state+5,16,1);wr(state+6,12,1);invoke('WorldMap_Refresh');frames(4)
-shutil.copy2(shot('world_open_sea'),D/'removed-sinnoh.png')
+shutil.copy2(shot('world_open_sea'),D/'world-center.png')
 wr(state+5,61,1);wr(state+6,47,1);frames(2);frames(1,16|128);frames(2)
 check('bottom right clamped',rd(state+5,1)==61 and rd(state+6,1)==47)
 frames(1,2);frames(60)
@@ -51,6 +55,18 @@ check('PokeNav resources freed before world',rd(symbols['gPokenavResources'])==0
 shutil.copy2(shot('world_pokenav'),D/'pokenav.png')
 frames(1,2);frames(60)
 check('PokeNav map returns cleanly',rd(symbols['sWorldMap'])==0)
+# Current-region matching must identify a real Sinnoh map, not a Hoenn alias.
+start(0)
+warp(98,17,8,8)
+invoke('ScriptContext_Init');invoke('UnlockPlayerFieldControls')
+invoke('FieldInitRegionMap',symbols['CB2_ReturnToFieldWithOpenMenu']|1)
+wr(symbols['gMain']+4,symbols['WorldMap_Update']|1)
+frames(40);state=rd(symbols['sWorldMap'])
+check('Sinnoh player marker recognized',rd(state+11,1)==1)
+check('Sinnoh player marker correct region',invoke('WorldMap_RegionAt',rd(state+7,1),rd(state+8,1))==4)
+shutil.copy2(shot('world_sinnoh_player'),D/'sinnoh-player.png')
+tap(2);frames(60)
+check('Sinnoh map returns cleanly',rd(symbols['sWorldMap'])==0)
 report={'passed':True,'checks':checks,'rom_sha256':hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest()}
 (D/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
 print('PASS',len(checks),'native checks')

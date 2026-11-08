@@ -22,6 +22,7 @@
 
 struct WorldLocation { u8 x, y, region; const u8 *name; };
 #include "data/world_map_locations.h"
+#include "data/world_map_region_groups.h"
 static const u8 sTiles[] = INCBIN_U8("data/world_map/tiles.bin");
 static const u16 sTilemap[] = INCBIN_U16("data/world_map/tilemap.bin");
 static const u16 sPalette[] = INCBIN_U16("data/world_map/palette.bin");
@@ -29,8 +30,9 @@ static const u8 sOcean[] = _("Open Sea");
 static const u8 sHoenn[] = _("Hoenn");
 static const u8 sJohto[] = _("Johto");
 static const u8 sKanto[] = _("Kanto");
+static const u8 sSinnoh[] = _("Sinnoh");
 static const u8 sWorld[] = _("World Map");
-static const u8 sHelp[] = _("D-Pad: Explore   B: Back");
+static const u8 sHelp[] = _("D-Pad: Move  L/R: Region  B: Back");
 static EWRAM_DATA struct {
     MainCallback callback;
     u8 state, x, y, playerX, playerY, cursor, player, playerKnown;
@@ -65,13 +67,14 @@ __attribute__((noinline)) u8 WorldMap_RegionAt(u16 x, u16 y)
         if(sWorldLocations[i].x==x && sWorldLocations[i].y==y) return sWorldLocations[i].region;
     if(x>=31 && x<61 && y>=3 && y<23) return x<48 ? 2 : 1;
     if(x>=2 && x<32 && y>=28 && y<48) return 3;
+    if(x>=2 && x<31 && y>=3 && y<23) return 4;
     return 0;
 }
 __attribute__((noinline)) static void WorldMap_Refresh(void)
 {
     s16 sx=sWorldMap->x*8-120, sy=sWorldMap->y*8-72;
     u8 r=WorldMap_RegionAt(sWorldMap->x,sWorldMap->y);
-    const u8 *region=r==1?sKanto:r==2?sJohto:r==3?sHoenn:sWorld;
+    const u8 *region=r==1?sKanto:r==2?sJohto:r==3?sHoenn:r==4?sSinnoh:sWorld;
     if(sx<0)sx=0;if(sx>256)sx=256;if(sy<0)sy=0;if(sy>240)sy=240;
     ChangeBgX(2,sx<<8,BG_COORD_SET);ChangeBgY(2,sy<<8,BG_COORD_SET);
     gSprites[sWorldMap->cursor].x=sWorldMap->x*8+4-sx;
@@ -106,6 +109,15 @@ static void WorldMap_Update(void)
         u8 x=sWorldMap->x,y=sWorldMap->y;
         if(JOY_NEW(B_BUTTON)) {BeginNormalPaletteFade(PALETTES_ALL,0,0,16,RGB_BLACK);sWorldMap->state=1;}
         else {
+            if(JOY_NEW(L_BUTTON | R_BUTTON))
+            {
+                static const u8 order[] = {3, 2, 1, 4};
+                u32 current=WorldMap_RegionAt(x,y), index=0;
+                for(u32 i=0;i<ARRAY_COUNT(order);i++)if(order[i]==current){index=i;break;}
+                index=(index+(JOY_NEW(R_BUTTON)?1:ARRAY_COUNT(order)-1))%ARRAY_COUNT(order);
+                for(u32 i=0;i<ARRAY_COUNT(sWorldLocations);i++)
+                    if(sWorldLocations[i].region==order[index]){x=sWorldLocations[i].x;y=sWorldLocations[i].y;break;}
+            }
             if(JOY_REPEAT(DPAD_LEFT) && x>1)x--;else if(JOY_REPEAT(DPAD_RIGHT) && x<61)x++;
             if(JOY_REPEAT(DPAD_UP) && y>3)y--;else if(JOY_REPEAT(DPAD_DOWN) && y<47)y++;
             if(x!=sWorldMap->x || y!=sWorldMap->y){sWorldMap->x=x;sWorldMap->y=y;WorldMap_Refresh();}
@@ -121,14 +133,16 @@ static void WorldMap_Update(void)
 }
 void WorldMap_Open(MainCallback callback)
 {
-    u32 i;u8 name[40];const u8 *current=RegionalMapDisplayName(&gMapHeader);
+    u32 i;u8 name[40];
+    u32 group=gSaveBlock1Ptr->location.mapGroup;
+    u32 currentRegion=group<ARRAY_COUNT(sWorldRegionByGroup)?sWorldRegionByGroup[group]:0;const u8 *current=RegionalMapDisplayName(&gMapHeader);
     SetVBlankCallback(NULL);SetGpuReg(REG_OFFSET_DISPCNT,0);
     sWorldMap=AllocZeroed(sizeof(*sWorldMap));
     if(!sWorldMap){SetMainCallback2(callback);return;}
     sWorldMap->callback=callback;sWorldMap->x=7;sWorldMap->y=41;
     if(!current){GetMapName(name,gMapHeader.regionMapSectionId,0);current=name;}
     for(i=0;i<ARRAY_COUNT(sWorldLocations);i++)
-        if(SameName(current,sWorldLocations[i].name)){sWorldMap->x=sWorldLocations[i].x;sWorldMap->y=sWorldLocations[i].y;sWorldMap->playerKnown=TRUE;break;}
+        if((!currentRegion || sWorldLocations[i].region==currentRegion) && SameName(current,sWorldLocations[i].name)){sWorldMap->x=sWorldLocations[i].x;sWorldMap->y=sWorldLocations[i].y;sWorldMap->playerKnown=TRUE;break;}
     sWorldMap->playerX=sWorldMap->x;sWorldMap->playerY=sWorldMap->y;
     ResetSpriteData();FreeAllSpritePalettes();ResetBgsAndClearDma3BusyFlags(0);InitBgsFromTemplates(0,sBgs,ARRAY_COUNT(sBgs));
     SetBgTilemapBuffer(0,sWorldMap->bg0);InitWindows(sWindows);DeactivateAllTextPrinters();
