@@ -75,3 +75,12 @@ line in audit_project_stairs.py, in addition to normal CSV CRLF handling.
 Native integration tests use hardcoded original-checkout paths and were not rerun
 against the isolated copy. Existing validation JSON/screenshots are transferred
 evidence from earlier work, not claimed as newly executed tests.
+
+## Final verification
+
+The isolated clean build completed successfully after restoring the missing
+palette sources. ROM and ELF outputs remain local and are not committed.
+A later read-only check found an additional concurrent active edit to
+data/maps/Route113/map.json: buried trainer moved from (29,6) to (37,5), hidden
+TM Double Team from (22,5) to (16,8). It was captured in a follow-up commit.
+All original 225 snapshot file hashes remained unchanged in the source checkout.
