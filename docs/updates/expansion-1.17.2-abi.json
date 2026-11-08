@@ -1,0 +1,24 @@
+{
+  "before": {
+    "sizeof(struct Pokemon)": 100,
+    "sizeof(struct BoxPokemon)": 80,
+    "sizeof(struct SaveBlock1)": 15568,
+    "sizeof(struct SaveBlock2)": 3884,
+    "sizeof(struct SaveBlock3)": 4,
+    "sizeof(struct PokemonStorage)": 56804,
+    "offsetof(struct SaveBlock1,flags)": 4720,
+    "offsetof(struct SaveBlock1,vars)": 5020,
+    "sizeof(struct BattleStruct)": 1192
+  },
+  "after": {
+    "sizeof(struct Pokemon)": 100,
+    "sizeof(struct BoxPokemon)": 80,
+    "sizeof(struct SaveBlock1)": 15568,
+    "sizeof(struct SaveBlock2)": 3884,
+    "sizeof(struct SaveBlock3)": 4,
+    "sizeof(struct PokemonStorage)": 56804,
+    "offsetof(struct SaveBlock1,flags)": 4720,
+    "offsetof(struct SaveBlock1,vars)": 5020,
+    "sizeof(struct BattleStruct)": 1192
+  }
+}

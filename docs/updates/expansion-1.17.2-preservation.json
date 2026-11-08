@@ -1,0 +1,27 @@
+{
+  "upstream_commits": 31,
+  "upstream_files": 196,
+  "custom_files": 62324,
+  "overlapping_files": [
+    "README.md",
+    "include/battle_util.h",
+    "include/constants/trainers.h",
+    "include/data.h",
+    "include/pokemon.h",
+    "src/battle_factory.c",
+    "src/battle_gfx_sfx_util.c",
+    "src/battle_main.c",
+    "src/battle_pyramid_bag.c",
+    "src/battle_script_commands.c",
+    "src/battle_setup.c",
+    "src/battle_util.c",
+    "src/data/pokemon/species_info/gen_1_families.h",
+    "src/daycare.c",
+    "src/event_object_movement.c",
+    "src/field_control_avatar.c",
+    "src/field_player_avatar.c",
+    "src/pokemon.c",
+    "src/scrcmd.c"
+  ],
+  "unexpected_custom_only_changes": []
+}

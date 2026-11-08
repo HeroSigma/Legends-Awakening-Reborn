@@ -12,3 +12,5 @@ This branch shares the compact PC expansion developed for Legends Awakening Rebo
 Read the [integration and porting notes](docs/compact-pc/README.md) before applying this to another project. The complete Reborn runtime passed testing; this extracted branch is a porting reference and still needs an independent build and ABI reconciliation. It is not a universal drop-in patch.
 
 No playable ROM or player save is supplied. Existing upstream licenses and credits continue to apply. See the original [pokeemerald-expansion project](https://github.com/rh-hideout/pokeemerald-expansion).
+
+Engine base: RHH pokeemerald-expansion **1.17.2**. See [update notes](docs/updates/expansion-1.17.2.md).

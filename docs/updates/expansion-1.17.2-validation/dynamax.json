@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "ordinary_trainers_support_three_gimmicks",
+      "passed": true
+    },
+    {
+      "test": "player_without_band_cannot_dynamax",
+      "passed": true
+    },
+    {
+      "test": "band_unlocks_player_without_arena_flag",
+      "passed": true
+    },
+    {
+      "test": "held_gimmick_blocks_dynamax_ITEM_CHARIZARDITE_X",
+      "passed": true
+    },
+    {
+      "test": "held_gimmick_blocks_dynamax_ITEM_NORMALIUM_Z",
+      "passed": true
+    },
+    {
+      "test": "removing_gimmick_item_restores_dynamax",
+      "passed": true
+    },
+    {
+      "test": "ordinary_first_mon_not_dynamax_ace",
+      "passed": true
+    },
+    {
+      "test": "actual_generated_trainer_ace_can_dynamax",
+      "passed": true
+    },
+    {
+      "test": "move_menu_starts_with_dynamax",
+      "passed": true
+    },
+    {
+      "test": "select_cycles_to_tera",
+      "passed": true
+    },
+    {
+      "test": "select_cycles_back_to_dynamax",
+      "passed": true
+    },
+    {
+      "test": "start_selects_dynamax",
+      "passed": true
+    }
+  ],
+  "rom_sha256": "ca5efea3208c55beadcd8323ee706a54f426011ce81191e3fcdd97fe2fd651b7",
+  "user_save_loaded": false
+}

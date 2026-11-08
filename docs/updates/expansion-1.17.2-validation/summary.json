@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "tools/la_world/storage/test_pc_integration.py",
+      "exit_code": 0,
+      "seconds": 6.7
+    },
+    {
+      "test": "tools/la_world/storage/test_dynamax_band.py",
+      "exit_code": 0,
+      "seconds": 2.1
+    },
+    {
+      "test": "tools/la_world/story/test_quests.py",
+      "exit_code": 0,
+      "seconds": 3.8
+    },
+    {
+      "test": "tools/la_world/story/test_villain_alliance.py",
+      "exit_code": 0,
+      "seconds": 22.6
+    },
+    {
+      "test": "tools/la_world/storage/test_existing_save.py",
+      "exit_code": 0,
+      "seconds": 1.6
+    },
+    {
+      "test": "tools/la_world/storage/test_owe_resource_pressure.py",
+      "exit_code": 0,
+      "seconds": 2.5
+    },
+    {
+      "test": "tools/la_world/story/test_ashes_silph.py",
+      "exit_code": 0,
+      "seconds": 23.0
+    },
+    {
+      "test": "tools/la_world/importers/amap/hns_runtime/test_legends_bedroom.py",
+      "exit_code": 0,
+      "seconds": 35.6
+    }
+  ],
+  "report_assertions": {
+    "storage": 2196,
+    "existing-save": 0,
+    "dynamax": 14,
+    "overworld-resources": 7,
+    "prologue": 42
+  },
+  "additional_assertions": {
+    "quests": 209,
+    "villain_alliance": 151,
+    "ashes_silph": 285
+  },
+  "rom_sha256": "ca5efea3208c55beadcd8323ee706a54f426011ce81191e3fcdd97fe2fd651b7",
+  "test_rom": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legend Test.gba",
+  "protected_files_unchanged": {
+    "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba": "0a38ae1839dc125404f896cc4931188287d20cd05b4a662c5cd3b3227613ae2e",
+    "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.sav": "e3f415bb26fab1aeb8cd7425ab0a25b78833f6d71123510b33f35d26916e6985",
+    "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legend Test.sav": "b85e531d9adecd653e9a1a387522dbb913e04af834ba8b117c6c691f59efc705"
+  },
+  "upstream": "79dd436920845ebc145577649de624f65298c209"
+}

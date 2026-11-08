@@ -1,7 +1,7 @@
 """Production PC/save/menu integration tests. Uses an isolated emulator battery."""
 from pathlib import Path
 import sys, json, hashlib, shutil, re
-R=Path('/home/allan/projects/Legends-Awakening-Reborn')
+R=Path(__file__).resolve().parents[3]
 H=R/'tools/la_world/importers/amap/hns_runtime'
 sys.path.insert(0,str(H))
 exec(compile((H/'test_legends_bedroom.py').read_text().split('for gender in [0,1]:')[0],'bedroom_helpers','exec'))

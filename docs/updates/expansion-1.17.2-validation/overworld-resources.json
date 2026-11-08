@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "resource_pressure_returns_tiles",
+      "passed": true
+    },
+    {
+      "test": "resource_pressure_returns_palettes",
+      "passed": true
+    },
+    {
+      "test": "resource_pressure_returns_both",
+      "passed": true
+    },
+    {
+      "test": "alolan_exeggutor_sprite_available",
+      "passed": true
+    },
+    {
+      "test": "route104_keeps_running",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "ca5efea3208c55beadcd8323ee706a54f426011ce81191e3fcdd97fe2fd651b7"
+}
