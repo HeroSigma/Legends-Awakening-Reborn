@@ -2710,6 +2710,8 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_quests.inc"
 
 	.include "data/scripts/legends_ashes.inc"
+	.include "data/scripts/legends_blue_chimney.inc"
+	.include "data/scripts/legends_silph_security.inc"
 
 	.include "data/maps/Kanto_SaffronCity/scripts.inc"
 
@@ -2730,6 +2732,7 @@ Text_LegacyFeatureDisabled:
 	.include "data/maps/Kanto_SilphCo_8F/scripts.inc"
 
 	.include "data/maps/Kanto_SilphCo_9F/scripts.inc"
+	.include "data/maps/Kanto_SilphCo_Elevator/scripts.inc"
 
 	.include "data/maps/Kanto_SilphCo_10F/scripts.inc"
 

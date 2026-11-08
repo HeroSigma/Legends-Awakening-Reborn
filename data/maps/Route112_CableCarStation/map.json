@@ -41,6 +41,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_LA_BLUE_CABLE",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_BLUE",
+      "x": 5,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsBlue_StationMeet",
+      "flag": "FLAG_TEMP_5"
     }
   ],
   "warp_events": [
@@ -59,6 +73,25 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_LA_ASHES_STATE",
+      "var_value": "2",
+      "script": "LegendsBlue_StationMeet"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_LA_ASHES_STATE",
+      "var_value": "2",
+      "script": "LegendsBlue_StationMeet"
+    }
+  ],
   "bg_events": []
 }

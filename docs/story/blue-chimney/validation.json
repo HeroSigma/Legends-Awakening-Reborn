@@ -1,0 +1,423 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_BeforeLeaving_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_BeforeLeaving_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CavernReport_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CavernReport_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CavernReport_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CavernReport_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CozmoLead_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CozmoLead_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_CozmoLead_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_GiovanniReport_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_GiovanniReport_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_GiovanniReport_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_GiovanniReport_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Perimeter_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Perimeter_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Perimeter_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Plan_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Plan_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Plan_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Plan_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerAgrees_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerAgrees_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerReport_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerReport_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerReturnsMeteorite_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_PlayerReturnsMeteorite_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Ready_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Ready_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Station_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_Station_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StationEvidence_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StationEvidence_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StationEvidence_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StationEvidence_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StayWithMay_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StayWithMay_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StayWithMay_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StayWithMay_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StolenSample_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StolenSample_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StolenSample_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_StolenSample_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitReport_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitReport_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitReport_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitReport_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitSplit_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_SummitSplit_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TakeSeriously_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TakeSeriously_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TakeSeriously_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TeamUp_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TeamUp_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TeamUp_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_TeamUp_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_WallyReport_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_WallyReport_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_WallyReport_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_BlueChimney_Text_WallyReport_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoIsSoHappy_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoIsSoHappy_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CrushedWithDisappointment_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_CrushedWithDisappointment_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_FeelSorryForCozmo_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_FeelSorryForCozmo_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_FeelSorryForCozmo_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt_4",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MayIHaveMeteorite_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MayIHaveMeteorite_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MayIHaveMeteorite_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MayIHaveMeteorite_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow_3",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_PleaseUseThisTM_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_PleaseUseThisTM_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch_0",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch_1",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch_2",
+      "passed": true
+    },
+    {
+      "test": "line_fit_FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch_3",
+      "passed": true
+    },
+    {
+      "test": "west_gate_keeps_player_in_town",
+      "passed": true
+    },
+    {
+      "test": "east_gate_keeps_player_in_town",
+      "passed": true
+    },
+    {
+      "test": "entering_fallarbor_not_blocked",
+      "passed": true
+    },
+    {
+      "test": "blue_briefing_saved",
+      "passed": true
+    },
+    {
+      "test": "oak_introduction_retained",
+      "passed": true
+    },
+    {
+      "test": "briefed_player_can_reach_edge",
+      "passed": true
+    },
+    {
+      "test": "station_scene_automatic",
+      "passed": true
+    },
+    {
+      "test": "blue_boarded_same_cable_car",
+      "passed": true
+    },
+    {
+      "test": "native_chimney_completion_preserved",
+      "passed": true
+    },
+    {
+      "test": "hoopa_aftermath_preserved",
+      "passed": true
+    },
+    {
+      "test": "blue_rejoins_at_summit",
+      "passed": true
+    },
+    {
+      "test": "completed_saves_not_locked",
+      "passed": true
+    },
+    {
+      "test": "legacy_blue_repeat_ends",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "7f15a808dd5c761cfaf70a59b5689454cf3224703b9888e15816048105ee9dac"
+}

@@ -67,3 +67,7 @@ non-story change. Story work may use main or a story/* branch. Keep main inclusi
 of completed work by merging finished branches after appropriate validation.
 Do not develop non-story features directly on main. Preserve existing branches.
 The current regional atlas work is tracked on feature/world-map-hub.
+
+## Silph chapter reserved state
+
+Reserve 0x26D–0x280 for the twenty independent past-Silph door flags, and 0x2AD–0x2B8 for Blue/Flannery/key/Porygon/loot state. Native FireRed door flags overlap Hoenn events and must not be used. See docs/story/silph-security/README.md for key and reward placement.

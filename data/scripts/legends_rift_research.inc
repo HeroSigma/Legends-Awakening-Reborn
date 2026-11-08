@@ -487,7 +487,10 @@ RiftResearch_Text_OakAfterBlue:
 	.string "Blue told me you met in Fallarbor.\nSharing evidence is a good start.\pI hope you'll keep looking out\nfor one another on your journeys.$"
 
 RiftResearch_ShowBlue::
+	goto_if_set FLAG_LA_BLUE_CHIMNEY_BRIEFED, RiftResearch_ShowBlueDone
 	clearflag FLAG_TEMP_7
+	return
+RiftResearch_ShowBlueDone::
 	return
 RiftResearch_Blue::
 	lockall
@@ -504,8 +507,11 @@ RiftResearch_Blue::
 	setspeaker SP_NAME_BLUE
 	msgbox RiftResearch_Text_BlueEvidence, MSGBOX_DEFAULT
 	addvar VAR_LA_OAK_STARTER, 8
-	goto RiftResearch_End
+	goto LegendsBlue_Briefing
 RiftResearch_BlueRepeat::
+	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, RiftResearch_BlueLegacyRepeat
+	goto_if_unset FLAG_LA_BLUE_CHIMNEY_BRIEFED, LegendsBlue_Briefing
+RiftResearch_BlueLegacyRepeat:
 	msgbox RiftResearch_Text_BlueRepeat, MSGBOX_DEFAULT
 	goto RiftResearch_End
 RiftResearch_Text_BlueFirst:

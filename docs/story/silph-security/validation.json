@@ -1,0 +1,511 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryAnswer_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryAnswer_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryAnswer_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryAnswer_3",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryChallenge_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryChallenge_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryChallenge_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryChallenge_3",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryVeteran_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryVeteran_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryVeteran_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryVeteran_3",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryWelcome_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryWelcome_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryWelcome_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_FlanneryWelcome_3",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_CardUsed_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_CardUsed_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Elevator_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Elevator_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_0_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_0_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_1_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_1_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_2_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_2_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_3_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_3_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_4_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_4_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_5_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_5_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_6_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_6_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_7_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Guard_7_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_KeyFound_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_KeyFound_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Locked_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Locked_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Open_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Panel_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Panel_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Porygon_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Porygon_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_Porygon_2",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_PorygonJoined_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_PorygonJoined_1",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_StorageFull_0",
+      "passed": true
+    },
+    {
+      "test": "fit_SilphSecurity_Text_StorageFull_1",
+      "passed": true
+    },
+    {
+      "test": "door_initial_0",
+      "passed": true
+    },
+    {
+      "test": "door_initial_1",
+      "passed": true
+    },
+    {
+      "test": "door_initial_2",
+      "passed": true
+    },
+    {
+      "test": "door_initial_3",
+      "passed": true
+    },
+    {
+      "test": "door_initial_4",
+      "passed": true
+    },
+    {
+      "test": "door_initial_5",
+      "passed": true
+    },
+    {
+      "test": "door_initial_6",
+      "passed": true
+    },
+    {
+      "test": "door_initial_7",
+      "passed": true
+    },
+    {
+      "test": "door_initial_8",
+      "passed": true
+    },
+    {
+      "test": "door_initial_9",
+      "passed": true
+    },
+    {
+      "test": "door_initial_10",
+      "passed": true
+    },
+    {
+      "test": "door_initial_11",
+      "passed": true
+    },
+    {
+      "test": "door_initial_12",
+      "passed": true
+    },
+    {
+      "test": "door_initial_13",
+      "passed": true
+    },
+    {
+      "test": "door_initial_14",
+      "passed": true
+    },
+    {
+      "test": "door_initial_15",
+      "passed": true
+    },
+    {
+      "test": "door_initial_16",
+      "passed": true
+    },
+    {
+      "test": "door_initial_17",
+      "passed": true
+    },
+    {
+      "test": "door_initial_18",
+      "passed": true
+    },
+    {
+      "test": "door_initial_19",
+      "passed": true
+    },
+    {
+      "test": "no_key_keeps_door_locked",
+      "passed": true
+    },
+    {
+      "test": "wally_hint_saved",
+      "passed": true
+    },
+    {
+      "test": "card_key_in_bag",
+      "passed": true
+    },
+    {
+      "test": "key_pickup_persistent",
+      "passed": true
+    },
+    {
+      "test": "elevator_returns_to_ninth",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_0",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_0",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_1",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_1",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_2",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_2",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_3",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_3",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_4",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_4",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_5",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_5",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_6",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_6",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_7",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_7",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_8",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_8",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_9",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_9",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_10",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_10",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_11",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_11",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_12",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_12",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_13",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_13",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_16",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_16",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_17",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_17",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_18",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_18",
+      "passed": true
+    },
+    {
+      "test": "key_unlocks_door_19",
+      "passed": true
+    },
+    {
+      "test": "door_stays_open_19",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_ALAKAZITE",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_MANECTITE",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_SCIZORITE",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_NORMALIUM_Z",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_ELECTRIUM_Z",
+      "passed": true
+    },
+    {
+      "test": "reward_in_bag_ITEM_PSYCHIUM_Z",
+      "passed": true
+    },
+    {
+      "test": "porygon_reward_saved",
+      "passed": true
+    },
+    {
+      "test": "full_party_porygon_sent_to_storage",
+      "passed": true
+    },
+    {
+      "test": "porygon_cannot_duplicate",
+      "passed": true
+    },
+    {
+      "test": "saving_security_state",
+      "passed": true
+    },
+    {
+      "test": "security_save_reloads",
+      "passed": true
+    },
+    {
+      "test": "card_and_porygon_flags_survive",
+      "passed": true
+    },
+    {
+      "test": "Hoenn_story_flags_unchanged",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "11328c8f62a2931b0df29b5a5e75f5b17e09f7d0de392d65edaec4d9ed6f9b10"
+}

@@ -125,6 +125,7 @@ enum SpeakerNames {
     SP_NAME_ARIANA,
     SP_NAME_COZMO,
     SP_NAME_PAST_GIOVANNI,
+    SP_NAME_FLANNERY,
     SP_NAME_COUNT
 };
 

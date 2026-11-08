@@ -335,6 +335,7 @@ static const struct {
     {SP_NAME_PETREL, RGB(22, 3, 6)},
     {SP_NAME_ARIANA, RGB(22, 3, 6)},
     {SP_NAME_COZMO, RGB(13, 8, 20)},
+    {SP_NAME_FLANNERY, RGB(23, 5, 2)},
     {SP_NAME_MAN_IN_SUIT, RGB(22, 3, 6)},
     {SP_NAME_ROCKET_CONTROL, RGB(22, 3, 6)},
     {SP_NAME_TEAM_ROCKET, RGB(22, 3, 6)},

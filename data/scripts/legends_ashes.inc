@@ -168,6 +168,7 @@ LegendsAshes_ReactorPreview::
     return
 
 LegendsAshes_ChimneyAftermath::
+    call LegendsBlue_SummitReport
     special LegendsAshes_SetGraphics
     setflag FLAG_LA_CHIMNEY_RESONANCE
     setvar VAR_LA_ASHES_STATE, 3
@@ -198,6 +199,7 @@ LegendsAshes_ChimneyAftermath::
     msgbox Ashes_Text_PortalPlan, MSGBOX_DEFAULT
     setspeaker SP_NAME_MAY
     msgbox Ashes_Text_MayStay, MSGBOX_DEFAULT
+    call LegendsBlue_StayWithMay
     return
 
 LegendsAshes_EnterPast::
@@ -319,7 +321,9 @@ LegendsAshes_TwoGiovannis::
     goto_if_unset FLAG_LA_SILPH_PETREL_DEFEATED, LegendsAshes_AdminGate
     goto_if_unset FLAG_LA_SILPH_ARIANA_DEFEATED, LegendsAshes_AdminGate
     goto_if_unset FLAG_LA_SILPH_WALLY_FOUND, LegendsAshes_AdminGate
-    turnobject LOCALID_PLAYER, DIR_NORTH
+    checkitem ITEM_CARD_KEY
+    goto_if_eq VAR_RESULT, FALSE, LegendsSilph_DoorLocked
+    turnobject LOCALID_PLAYER, DIR_WEST
     setspeaker SP_NAME_PAST_GIOVANNI
     msgbox Ashes_Text_PastGiovanni, MSGBOX_DEFAULT
     setspeaker SP_NAME_RAINBOW_ROCKET_GIOVANNI
@@ -388,27 +392,28 @@ LegendsAshes_TwoGiovannis::
     end
 Ashes_GiovanniPresentExit:
     walk_left
-    walk_down
     step_end
 Ashes_GiovanniPastExit:
     walk_right
-    walk_down
     step_end
 Ashes_MewtwoExit:
     walk_down
     walk_left
-    walk_down
+    walk_left
     step_end
 
 LegendsAshes_LavaridgeTransition::
     special LegendsAshes_SetGraphics
     setvar VAR_TEMP_6, 1
     setflag FLAG_TEMP_5
-    goto_if_unset FLAG_LA_WALLY_RESCUED, LegendsAshes_LavaCheckReturn
-    goto_if_set FLAG_BADGE04_GET, LegendsAshes_LavaCheckReturn
+    goto_if_eq VAR_LA_ASHES_STATE, 5, LegendsAshes_LavaStartReturn
+    goto_if_unset FLAG_LA_WALLY_RESCUED, LegendsAshes_Return
+    goto_if_set FLAG_BADGE04_GET, LegendsAshes_Return
+    goto_if_set FLAG_LA_FLANNERY_RETURNED_GYM, LegendsAshes_Return
     clearflag FLAG_TEMP_5
-LegendsAshes_LavaCheckReturn:
-    goto_if_ne VAR_LA_ASHES_STATE, 5, LegendsAshes_Return
+    return
+LegendsAshes_LavaStartReturn:
+    clearflag FLAG_TEMP_5
     setvar VAR_TEMP_6, 0
     return
 LegendsAshes_LavaridgeFrame:
@@ -428,14 +433,26 @@ LegendsAshes_Returned::
     msgbox Ashes_Text_BirchNext, MSGBOX_DEFAULT
     closemessage
     playse SE_POKENAV_HANG_UP
-    setspeaker SP_NAME_NONE
+    turnobject LOCALID_PLAYER, DIR_NORTH
+    turnobject LOCALID_ASHES_LAVA_FLANNERY, DIR_SOUTH
+    setspeaker SP_NAME_FLANNERY
     msgbox Ashes_Text_FlanneryWelcome, MSGBOX_DEFAULT
+    goto_if_set FLAG_BADGE04_GET, LegendsAshes_FlanneryVeteran
     setspeaker SP_NAME_PLAYER
     msgbox Ashes_Text_FlanneryAnswer, MSGBOX_DEFAULT
-    setspeaker SP_NAME_NONE
+    setspeaker SP_NAME_FLANNERY
     msgbox Ashes_Text_FlanneryChallenge, MSGBOX_DEFAULT
+LegendsAshes_FinishLavaReturn:
     setvar VAR_LA_ASHES_STATE, 6
+    call LegendsSilph_FlanneryToGym
     goto LegendsAshes_End
+
+LegendsAshes_FlanneryVeteran:
+    setspeaker SP_NAME_FLANNERY
+    msgbox Ashes_Text_FlanneryVeteran, MSGBOX_DEFAULT
+    goto LegendsAshes_FinishLavaReturn
+Ashes_Text_FlanneryVeteran:
+    .string "You already earned my Badge.\nI know you can handle a tough battle.\pI'm heading back to the Gym.\nTake care of your team, all right?$"
 
 LegendsAshes_HoopaInteract::
     lockall
@@ -486,11 +503,11 @@ Ashes_Text_MayLeave:
 Ashes_Text_MayCozmo:
     .string "There you are! Cozmo found something\nthat reacts to our recorded signal.$"
 Ashes_Text_Resonance:
-    .string "This meteorite produces a different\nsignal. Heat makes the two resonate.\pThink of one note making another\nobject vibrate.$"
+    .string "I compared May's recording with the\nresponse from this meteorite.\pThe pattern repeats when it's heated.\nThat gives us a signal to measure.$"
 Ashes_Text_Echo:
-    .string "Like an echo.\pCould that help us reach Wally?$"
+    .string "Could we use that signal to find\nthe rift that took Wally?$"
 Ashes_Text_Meteorite:
-    .string "Perhaps. But an uncontrolled response\ncould make his situation worse.\pTeam Magma asked for these results.\nI refused to hand them over.$"
+    .string "A matching signal is a lead,\nnot a safe passage.\pIf they force the reaction, they may\nopen something they cannot control.\pMagma demanded my sample and notes.\nI refused. They knew too much.$"
 Ashes_Text_TabithaTheft:
     .string "Your assistant was more cooperative.\nThe sample is already on its way.\pWe'll take the calibration notes,\ntoo. Stand aside.$"
 Ashes_Text_BlockTheft:
@@ -502,9 +519,9 @@ Ashes_Text_GruntDefeat:
 Ashes_Text_TabithaEscape:
     .string "Keep the victory. We have the data.\nMeteor Falls is our next stop.$"
 Ashes_Text_Calibration:
-    .string "The cavern contains matching mineral\nbeds. They can calibrate the sample.\pThen they'll take it to Mt. Chimney.\nPlease stop the experiment!$"
+    .string "Meteor Falls has the same minerals\nas the sample. They'll calibrate it.\pThe summit supplies the heat they\nneed to amplify the rift signal.\pI'll verify their work at the cavern.\nYou must stop the mountain test!$"
 Ashes_Text_MayPursue:
-    .string "I'll check the trail ahead.\nMeet me near the mountain.$"
+    .string "I'll follow their trail.\nTell Blue what happened here.\pWe need someone watching the approach\nwhile we deal with the relay.$"
 Ashes_Text_MaxieExpansion:
     .string "Our partners have supplied the data.\nThe meteorite will provide the energy.\pWhy accept the boundaries of one\nworld when we could reach beyond it?$"
 Ashes_Text_SummitFlicker:
@@ -536,15 +553,15 @@ Ashes_Text_InsideSilph:
 Ashes_Text_Lockdown:
     .string "Rocket has the streets locked down.\nWally's lead points to Silph.$"
 Ashes_Text_WallyReunion:
-    .string "{PLAYER}! Kirlia felt you coming!\pWe've been hiding from those people.\nThey watched her every time\lshe sensed another opening.$"
+    .string "{PLAYER}! Kirlia felt you coming!\pWe've been hiding here. The doors to\nthe beds were already open.\pRocket watched Kirlia whenever\nshe sensed a rift. I got us away.$"
 Ashes_Text_WallyPastHints:
     .string "The equipment here looks older than\nthe Silph gear we saw in Hoenn.\pSomething about this place is wrong.$"
 Ashes_Text_WallyCoverStairs:
-    .string "Kirlia won't go near the top floor.\nThere's something powerful up there.\pI'll watch the stairs with her.\nBe careful. We still need a way home.$"
+    .string "A guard dropped a Card Key inside\nthe elevator on this floor.\pThe lift won't move, but you can\ncheck the cabin. Use the eastern door.\pThat key opens the security doors.\nI'll watch the stairs with Kirlia.$"
 Ashes_Text_WallyWait:
-    .string "Your team's healed. I'll keep watch.\nCall if you find a way out.$"
+    .string "Your team's healed. The Card Key\nis in the ninth-floor elevator.\pKirlia won't go near the top floor.\nThere's something powerful up there.$"
 Ashes_Text_AdminGate:
-    .string "I need to find Wally and get past\nboth Rocket admins before going up.$"
+    .string "I need Wally's lead, the Card Key,\nand a way past both Rocket admins.$"
 Ashes_Text_Petrel:
     .string "Petrel. Remember the name.\pYou embarrassed our people downstairs.\nNow let's see how long that lasts.$"
 Ashes_Text_PetrelDefeat:
@@ -607,7 +624,7 @@ LegendsAshes_Grunt_0::
     faceplayer
     goto_if_set 0x290, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_0, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 1
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -622,7 +639,7 @@ LegendsAshes_Grunt_1::
     faceplayer
     goto_if_set 0x291, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_1, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 2
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -637,7 +654,7 @@ LegendsAshes_Grunt_2::
     faceplayer
     goto_if_set 0x292, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_2, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 3
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -652,7 +669,7 @@ LegendsAshes_Grunt_3::
     faceplayer
     goto_if_set 0x293, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_3, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 4
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -667,7 +684,7 @@ LegendsAshes_Grunt_4::
     faceplayer
     goto_if_set 0x294, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_4, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 5
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -682,7 +699,7 @@ LegendsAshes_Grunt_5::
     faceplayer
     goto_if_set 0x295, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_5, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 6
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -697,7 +714,7 @@ LegendsAshes_Grunt_6::
     faceplayer
     goto_if_set 0x296, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_6, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 7
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -712,7 +729,7 @@ LegendsAshes_Grunt_7::
     faceplayer
     goto_if_set 0x297, LegendsAshes_GruntDone
     setspeaker SP_NAME_TEAM_ROCKET
-    msgbox Ashes_Text_RocketGuard, MSGBOX_DEFAULT
+    msgbox SilphSecurity_Text_Guard_7, MSGBOX_DEFAULT
     closemessage
     setvar VAR_LA_SILPH_OPPONENT, 8
     cleartrainerflag TRAINER_GRUNT_UNUSED
@@ -738,15 +755,16 @@ Ashes_Text_MountainNext:
 LegendsAshes_FlanneryOutside::
     lockall
     faceplayer
-    setspeaker SP_NAME_NONE
+    setspeaker SP_NAME_FLANNERY
     msgbox Ashes_Text_FlanneryChallenge, MSGBOX_DEFAULT
+    call LegendsSilph_FlanneryToGym
     goto LegendsAshes_End
 Ashes_Text_FlanneryWelcome:
-    .string "Flannery: May called ahead. Then\nWattson. What a day you've had.\pI'm glad your friend's safe.\nCome catch your breath inside.$"
+    .string "May warned me about the trouble.\nThen I heard your call with Birch.\pYour friend's home. That's a relief.\nAre you all right?$"
 Ashes_Text_FlanneryAnswer:
-    .string "Thank you. But I still need to be\nready for whatever comes next.\pCan I challenge your Gym?$"
+    .string "I'm glad Wally's safe. But they\nused him to study the rifts.\pI need to be ready for what's next.\nWill you accept my Gym challenge?$"
 Ashes_Text_FlanneryChallenge:
-    .string "Flannery: You can. I won't go easy\non you, and I won't expect you to.\pCome inside when you're ready.$"
+    .string "Of course. Take a moment to recover.\nThen meet me inside the Gym.\pI'll give you a proper battle.\nWe can both learn from it.$"
 
 Ashes_GruntStepAside:
     walk_left

@@ -4,6 +4,7 @@ Route112_CableCarStation_MapScripts::
 	.byte 0
 
 Route112_CableCarStation_OnTransition:
+	call LegendsBlue_CableTransition
 	setescapewarp MAP_ROUTE112, 28, 28
 	call_if_eq VAR_CABLE_CAR_STATION_STATE, 2, Route112_CableCarStation_EventScript_MoveAttendantAside
 	end
@@ -31,6 +32,7 @@ Route112_CableCarStation_EventScript_ExitCableCar::
 Route112_CableCarStation_EventScript_Attendant::
 	lock
 	faceplayer
+	call LegendsBlue_CheckCableBriefing
 	msgbox Route112_CableCarStation_Text_CableCarReadyGetOn, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route112_CableCarStation_EventScript_RideCableCar
 	goto_if_eq VAR_RESULT, NO, Route112_CableCarStation_EventScript_DeclineRide
@@ -42,6 +44,7 @@ Route112_CableCarStation_EventScript_RideCableCar::
 	applymovement LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, Route112_CableCarStation_Movement_LeadPlayerToCableCar
 	applymovement LOCALID_PLAYER, Route112_CableCarStation_Movement_BoardCableCar
 	waitmovement 0
+	call LegendsBlue_Board
 	setvar VAR_0x8004, FALSE  @ Going up
 	setvar VAR_CABLE_CAR_STATION_STATE, 1
 	incrementgamestat GAME_STAT_RODE_CABLE_CAR

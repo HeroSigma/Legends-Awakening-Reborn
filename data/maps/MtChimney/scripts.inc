@@ -5,6 +5,7 @@ MtChimney_MapScripts::
 
 MtChimney_OnTransition:
 	call LegendsAshes_ChimneyTransition
+	call LegendsBlue_SummitTransition
 	setvar VAR_JAGGED_PASS_ASH_WEATHER, 1
 	end
 
@@ -58,6 +59,7 @@ MtChimney_EventScript_Maxie::
 	removeobject LOCALID_MT_CHIMNEY_TABITHA
 	removeobject LOCALID_MT_CHIMNEY_MAGMA_GRUNT_2
 	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA
+	call LegendsBlue_SummitReposition
 	fadescreenswapbuffers FADE_FROM_BLACK
 	setobjectxyperm LOCALID_MT_CHIMNEY_ARCHIE, 10, 12
 	addobject LOCALID_MT_CHIMNEY_ARCHIE

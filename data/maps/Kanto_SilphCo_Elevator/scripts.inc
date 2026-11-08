@@ -1,7 +1,3 @@
 Kanto_SilphCo_Elevator_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegendsAshes_SilphTransition
 	.byte 0
-
-KantoAR_1_58_SilphCo_Elevator_Inspect::
-	call KantoAR_InspectionPrompt
-	warp MAP_KANTOAR_1_59_POKEMONMANSION_1F, 19, 15
-	goto KantoAR_InspectionFinish
