@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "overworld.h"
 #include "field_effect.h"
@@ -7890,3 +7892,51 @@ static const struct SpritePalette sSlotMachineSpritePalettes[] =
 static const u32 sReelTimeGfx[] = INCGFX_U32("graphics/slot_machine/reel_time_gfx.4bpp", ".smol"); // reel_time_machine and reel_time_pikachu
 static const u16 sReelTimeWindow_Tilemap[] = INCBIN_U16("graphics/slot_machine/reel_time_window.bin");
 static const u16 sEmptyTilemap[] =  {0};
+
+#else
+#include "global.h"
+#include "overworld.h"
+#include "field_effect.h"
+#include "random.h"
+#include "sound.h"
+#include "main.h"
+#include "slot_machine.h"
+#include "string_util.h"
+#include "decompress.h"
+#include "trig.h"
+#include "graphics.h"
+#include "palette.h"
+#include "util.h"
+#include "text.h"
+#include "menu.h"
+#include "malloc.h"
+#include "bg.h"
+#include "gpu_regs.h"
+#include "coins.h"
+#include "strings.h"
+#include "tv.h"
+#include "text_window.h"
+#include "main_menu.h"
+#include "bg.h"
+#include "window.h"
+#include "constants/coins.h"
+#include "constants/rgb.h"
+#include "constants/slot_machine.h"
+#include "constants/songs.h"
+#include "script.h"
+#include "legacy_features.h"
+void PlaySlotMachine(u8 machineId, MainCallback exitCallback)
+{
+    if (exitCallback != NULL) SetMainCallback2(exitCallback);
+}
+
+s16 AdvanceSlotReelToNextSymbol(u8 reelIndex, s16 value)
+{
+    return 0;
+}
+
+s16 AdvanceReeltimeReelToNextSymbol(s16 value)
+{
+    return 0;
+}
+#endif

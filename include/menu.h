@@ -9,7 +9,7 @@
 #define DLG_WINDOW_BASE_TILE_NUM 0x200
 #define STD_WINDOW_PALETTE_NUM 14
 #define STD_WINDOW_PALETTE_SIZE PLTT_SIZEOF(10)
-#define STD_WINDOW_BASE_TILE_NUM 0x214
+#define STD_WINDOW_BASE_TILE_NUM 0x21A
 
 #define MENU_NOTHING_CHOSEN -2
 #define MENU_B_PRESSED -1
@@ -104,6 +104,7 @@ u8 Menu_MoveCursor(s8 cursorDelta);
 u8 Menu_MoveCursorNoWrapAround(s8 cursorDelta);
 void DrawStdWindowFrame(u8 windowId, bool8 copyToVram);
 u8 AddStartMenuWindow(u8 numActions);
+u8 AddPagedStartMenuWindow(void);
 u8 InitMenuNormal(u8 windowId, u8 fontId, u8 left, u8 top, u8 cursorHeight, u8 numChoices, u8 initialCursorPos);
 void LoadMessageBoxAndFrameGfx(u8 windowId, bool8 copyToVram);
 void RemoveStartMenuWindow(void);

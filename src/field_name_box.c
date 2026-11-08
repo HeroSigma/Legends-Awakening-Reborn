@@ -14,6 +14,8 @@
 #include "event_data.h"
 #include "match_call.h"
 #include "malloc.h"
+#include "palette.h"
+#include "constants/rgb.h"
 #include "constants/speaker_names.h"
 #include "data/speaker_names.h"
 
@@ -64,10 +66,10 @@ void PrepareNamebox(u32 tileNum)
     struct WindowTemplate template =
     {
         .bg = 0,
-        .tilemapLeft = 2,
-        .tilemapTop = 13,
+        .tilemapLeft = matchCall ? 2 : 3,
+        .tilemapTop = matchCall ? 13 : 12,
         .width = winWidth,
-        .height = OW_NAME_BOX_DEFAULT_HEIGHT,
+        .height = matchCall ? 2 : OW_NAME_BOX_DEFAULT_HEIGHT,
         .paletteNum = matchCall ? 14 : DLG_WINDOW_PALETTE_NUM,
         .baseBlock = tileNum,
     };
@@ -84,7 +86,7 @@ void PrepareNamebox(u32 tileNum)
     }
 
     union TextColor savedTextColors = SaveTextColors();
-    AddTextPrinterParameterized3(sNameboxWindowId, fontId, strX, 0, colors, TEXT_SKIP_DRAW, strbuf);
+    AddTextPrinterParameterized3(sNameboxWindowId, fontId, strX, matchCall ? 0 : 5, colors, TEXT_SKIP_DRAW, strbuf);
     RestoreTextColors(savedTextColors);
     Free(strbuf);
 }
@@ -131,6 +133,8 @@ static const u32 *GetNameboxGraphics(void)
 
 void FillNamebox(void)
 {
+    if (IsMatchCallTaskActive())
+    {
     u32 winSize = GetNameboxWidth();
     const u32 *gfx = GetNameboxGraphics();
 
@@ -141,13 +145,27 @@ void FillNamebox(void)
         CopyToWindowPixelBuffer(sNameboxWindowId, &gfx[TILE(4)], TILE_SIZE_4BPP, i + winSize);
         #undef TILE
     }
+
+        return;
+    }
+    u32 winSize = GetNameboxWidth();
+    const u32 *gfx = GetNameboxGraphics();
+
+    for (u32 i = 0; i < winSize; i++)
+    {
+        #define TILE(x) (8 * (x))
+        CopyToWindowPixelBuffer(sNameboxWindowId, &gfx[TILE(2)],  TILE_SIZE_4BPP, i);
+        CopyToWindowPixelBuffer(sNameboxWindowId, &gfx[TILE(7)],  TILE_SIZE_4BPP, i + winSize);
+        CopyToWindowPixelBuffer(sNameboxWindowId, &gfx[TILE(12)], TILE_SIZE_4BPP, i + winSize * 2);
+        #undef TILE
+    }
 }
 
 void DrawNamebox(u32 windowId, u32 tileNum, bool32 copyToVram)
 {
     // manual instead of using CallWindowFunction for extra tileNum param
     struct WindowTemplate *w = &gWindows[windowId].window;
-    u32 size = TILE_OFFSET_4BPP(NAME_BOX_BASE_TILES_TOTAL);
+    u32 size = TILE_OFFSET_4BPP(IsMatchCallTaskActive() ? 6 : NAME_BOX_BASE_TILES_TOTAL);
 
     LoadBgTiles(GetWindowAttribute(sNameboxWindowId, WINDOW_BG), GetNameboxGraphics(), size, tileNum);
     WindowFunc_DrawNamebox(w->bg, w->tilemapLeft, w->tilemapTop, w->width, w->height, w->paletteNum, tileNum);
@@ -166,6 +184,8 @@ void ClearNamebox(u32 windowId, bool32 copyToVram)
 
 static void WindowFunc_DrawNamebox(u32 bg, u32 L, u32 T, u32 w, u32 h, u32 p, u32 tileNum)
 {
+    if (h == 2)
+    {
     // left-most
     FillBgTilemapBufferRect(bg, tileNum,     L - 1, T,     1, 1, p);
     FillBgTilemapBufferRect(bg, tileNum + 3, L - 1, T + 1, 1, 1, p);
@@ -173,11 +193,35 @@ static void WindowFunc_DrawNamebox(u32 bg, u32 L, u32 T, u32 w, u32 h, u32 p, u3
     // right-most
     FillBgTilemapBufferRect(bg, tileNum + 2, L + w, T,     1, 1, p);
     FillBgTilemapBufferRect(bg, tileNum + 5, L + w, T + 1, 1, 1, p);
+
+        return;
+    }
+    // left edge (2 tiles wide, at L-2 and L-1)
+    FillBgTilemapBufferRect(bg, tileNum + 0,  L - 2, T,     1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 1,  L - 1, T,     1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 5,  L - 2, T + 1, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 6,  L - 1, T + 1, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 10, L - 2, T + 2, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 11, L - 1, T + 2, 1, 1, p);
+
+    // right edge (2 tiles wide, at L+w and L+w+1)
+    FillBgTilemapBufferRect(bg, tileNum + 3,  L + w,     T,     1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 4,  L + w + 1, T,     1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 8,  L + w,     T + 1, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 9,  L + w + 1, T + 1, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 13, L + w,     T + 2, 1, 1, p);
+    FillBgTilemapBufferRect(bg, tileNum + 14, L + w + 1, T + 2, 1, 1, p);
 }
 
 static void WindowFunc_ClearNamebox(u8 bg, u8 L, u8 T, u8 w, u8 h, u8 p)
 {
+    if (h == 2)
+    {
     FillBgTilemapBufferRect(bg, 0, L - 1, T, w + 2, h, 0); // palette doesn't matter
+
+        return;
+    }
+    FillBgTilemapBufferRect(bg, 0, L - 2, T, w + 4, h, 0); // clear window + 2 tiles on each side
 }
 
 void SetSpeaker(struct ScriptContext *ctx)
@@ -227,4 +271,135 @@ bool32 IsSpeakerBuffered(const u8 *str)
         res = TRUE;
 
     return res;
+}
+
+// One reserved foreground slot is refreshed after the dialogue frame palette loads.
+// This leaves the border, namebox, shadow and authored color controls intact.
+static const struct {
+    u16 speaker;
+    u16 color;
+} sCustomSpeakerColors[] = {
+    {SP_NAME_BIRCH, RGB(8, 14, 5)},
+    {SP_NAME_OAK, RGB(16, 10, 5)},
+    {SP_NAME_ELM, RGB(13, 8, 5)},
+    {SP_NAME_ROWAN, RGB(6, 10, 16)},
+    {SP_NAME_JUNIPER, RGB(7, 15, 8)},
+    {SP_NAME_SYCAMORE, RGB(7, 9, 18)},
+    {SP_NAME_KUKUI, RGB(2, 15, 13)},
+    {SP_NAME_BURNET, RGB(12, 8, 18)},
+    {SP_NAME_MAGNOLIA, RGB(15, 6, 16)},
+    {SP_NAME_SONIA, RGB(23, 9, 3)},
+    {SP_NAME_SADA, RGB(20, 8, 3)},
+    {SP_NAME_TURO, RGB(12, 7, 20)},
+    {SP_NAME_LAVENTON, RGB(13, 6, 19)},
+    {SP_NAME_BLUE, RGB(3, 8, 23)},
+    {SP_NAME_GREEN, RGB(3, 16, 7)},
+    {SP_NAME_SILVER, RGB(21, 4, 7)},
+    {SP_NAME_ETHAN, RGB(19, 12, 2)},
+    {SP_NAME_LYRA, RGB(20, 5, 8)},
+    {SP_NAME_KRIS, RGB(2, 14, 18)},
+    {SP_NAME_LUCAS, RGB(18, 4, 7)},
+    {SP_NAME_DAWN, RGB(21, 5, 13)},
+    {SP_NAME_BARRY, RGB(22, 10, 2)},
+    {SP_NAME_HILBERT, RGB(5, 10, 19)},
+    {SP_NAME_HILDA, RGB(20, 5, 12)},
+    {SP_NAME_CHEREN, RGB(5, 8, 15)},
+    {SP_NAME_BIANCA, RGB(6, 16, 8)},
+    {SP_NAME_NATE, RGB(3, 10, 21)},
+    {SP_NAME_ROSA, RGB(4, 15, 13)},
+    {SP_NAME_HUGH, RGB(7, 5, 18)},
+    {SP_NAME_CALEM, RGB(4, 8, 18)},
+    {SP_NAME_SERENA, RGB(21, 4, 9)},
+    {SP_NAME_TIERNO, RGB(16, 9, 3)},
+    {SP_NAME_TREVOR, RGB(22, 8, 3)},
+    {SP_NAME_SHAUNA, RGB(21, 5, 14)},
+    {SP_NAME_ELIO, RGB(4, 10, 20)},
+    {SP_NAME_SELENE, RGB(19, 6, 12)},
+    {SP_NAME_HAU, RGB(12, 15, 2)},
+    {SP_NAME_GLADION, RGB(11, 6, 16)},
+    {SP_NAME_GLORIA, RGB(19, 4, 10)},
+    {SP_NAME_VICTOR, RGB(7, 12, 17)},
+    {SP_NAME_HOP, RGB(6, 8, 20)},
+    {SP_NAME_BEDE, RGB(18, 6, 19)},
+    {SP_NAME_MARNIE, RGB(20, 4, 13)},
+    {SP_NAME_NEMONA, RGB(3, 15, 10)},
+    {SP_NAME_ARVEN, RGB(16, 11, 4)},
+    {SP_NAME_PENNY, RGB(12, 6, 18)},
+    {SP_NAME_ASH, RGB(4, 9, 21)},
+    {SP_NAME_ALAIN, RGB(6, 7, 13)},
+    {SP_NAME_N, RGB(5, 15, 8)},
+    {SP_NAME_IRIS, RGB(15, 6, 20)},
+    {SP_NAME_ZINNIA, RGB(13, 5, 19)},
+    {SP_NAME_GIOVANNI, RGB(22, 3, 6)},
+    {SP_NAME_TEAM_ROCKET, RGB(22, 3, 6)},
+    {SP_NAME_AQUA_GRUNT, RGB(3, 8, 23)},
+    {SP_NAME_TEAM_AQUA, RGB(3, 8, 23)},
+    {SP_NAME_TEAM_MAGMA, RGB(23, 8, 2)},
+    {SP_NAME_CYRUS, RGB(15, 5, 23)},
+    {SP_NAME_TEAM_GALACTIC, RGB(15, 5, 23)},
+    {SP_NAME_SHADOW_TRIAD, RGB(6, 12, 17)},
+    {SP_NAME_TEAM_PLASMA, RGB(6, 12, 17)},
+    {SP_NAME_TEAM_FLARE, RGB(26, 5, 2)},
+    {SP_NAME_TEAM_SKULL, RGB(5, 5, 7)},
+    {SP_NAME_TEAM_YELL, RGB(23, 3, 14)},
+    {SP_NAME_TEAM_STAR, RGB(17, 10, 2)},
+    {SP_NAME_AETHER_FOUNDATION, RGB(2, 15, 13)},
+};
+
+static bool32 GetCustomSpeakerColor(u16 *color)
+{
+    for (u32 i = 0; i < ARRAY_COUNT(sCustomSpeakerColors); i++)
+    {
+        if (gSpeakerName == gSpeakerNamesTable[sCustomSpeakerColors[i].speaker])
+        {
+            *color = sCustomSpeakerColors[i].color;
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
+void ApplySpeakerDialoguePalette(void)
+{
+    u16 color;
+    if (gStringVar4[0] == EXT_CTRL_CODE_BEGIN
+        && gStringVar4[1] == EXT_CTRL_CODE_COLOR
+        && gStringVar4[2] == TEXT_DYNAMIC_COLOR_1
+        && GetCustomSpeakerColor(&color))
+        LoadPalette(&color, BG_PLTT_ID(GetWindowAttribute(0, WINDOW_PALETTE_NUM)) + TEXT_DYNAMIC_COLOR_1, sizeof(color));
+}
+
+// Character defaults apply to ordinary field dialogue; explicit script colors win.
+void ApplySpeakerDialogueColor(void)
+{
+    u8 color = TEXT_COLOR_DARK_GRAY;
+    u16 customColor;
+    if (GetCustomSpeakerColor(&customColor))
+        color = TEXT_DYNAMIC_COLOR_1;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_PLAYER])
+        color = TEXT_COLOR_LIGHT_BLUE;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_WALLY])
+        color = TEXT_COLOR_LIGHT_GREEN;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_BRENDAN])
+        color = TEXT_COLOR_GREEN;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_RED]
+          || gSpeakerName == gSpeakerNamesTable[SP_NAME_MAY])
+        color = TEXT_COLOR_RED;
+    else if (gSpeakerName == gSpeakerNamesTable[SP_NAME_BRINEY])
+        color = TEXT_COLOR_BLUE;
+
+    if (color == TEXT_COLOR_DARK_GRAY
+        || (gStringVar4[0] == EXT_CTRL_CODE_BEGIN
+            && (gStringVar4[1] == EXT_CTRL_CODE_COLOR
+                || gStringVar4[1] == EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW
+                || gStringVar4[1] == EXT_CTRL_CODE_TEXT_COLORS)))
+        return;
+
+    u32 length = StringLength(gStringVar4);
+    if (length + 3 >= sizeof(gStringVar4)) return;
+    for (u32 i = length + 1; i; i--)
+        gStringVar4[i + 2] = gStringVar4[i - 1];
+    gStringVar4[0] = EXT_CTRL_CODE_BEGIN;
+    gStringVar4[1] = EXT_CTRL_CODE_COLOR;
+    gStringVar4[2] = color;
 }

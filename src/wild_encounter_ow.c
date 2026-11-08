@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_encounters.h"
 #include "wild_encounter_ow.h"
 #include "battle_setup.h"
 #include "battle_main.h"
@@ -16,6 +17,7 @@
 #include "random.h"
 #include "roamer.h"
 #include "script.h"
+#include "field_message_box.h"
 #include "script_movement.h"
 #include "sprite.h"
 #include "sound.h"
@@ -229,19 +231,35 @@ const struct FieldEffectInfoOWE gOverworldWildEncounterFieldEffectInfo[] =
 };
 
 
+// Leave room for followers, trainers and scripted actors on crowded maps.
+bool32 __attribute__((noinline)) HasRoomForGeneratedOWE(void)
+{
+    u32 freeSlots = 0;
+    for (u32 i = 0; i < OBJECT_EVENTS_COUNT; i++)
+        if (!gObjectEvents[i].active)
+            freeSlots++;
+    return freeSlots > OWE_RESERVED_OBJECT_SLOTS;
+}
+
+static bool32 IsOverworldEncounterBlocked(void)
+{
+    return ArePlayerFieldControlsLocked()
+        || ScriptContext_IsEnabled()
+        || !IsFieldMessageBoxHidden();
+}
+
 void UpdateOverworldWildEncounter(void)
 {
     //Check if possible to spawn.
 
     bool32 shouldSpawnWaterMons = ShouldSpawnWaterOWE();
     
-    if (ArePlayerFieldControlsLocked() || FlagGet(DN_FLAG_SEARCHING) || !CheckCurrentWildMonHeaderForOWE(shouldSpawnWaterMons))
+    if (IsOverworldEncounterBlocked() || FlagGet(DN_FLAG_SEARCHING) || !CheckCurrentWildMonHeaderForOWE(shouldSpawnWaterMons))
         return;
 
     if (!WE_OW_ENCOUNTERS
      || FlagGet(WE_OWE_FLAG_DISABLED)
      || FlagGet(WE_FLAG_NO_ENCOUNTER)
-     || FlagGet(DN_FLAG_SEARCHING)
      || (gMapHeader.mapLayoutId == LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS && !WE_OWE_BATTLE_PIKE)
      || (gMapHeader.mapLayoutId == LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR && !WE_OWE_BATTLE_PYRAMID)
      || InTrainerHillChallenge())
@@ -270,6 +288,12 @@ void UpdateOverworldWildEncounter(void)
         return;
 
     // Check for a valid tile.
+
+    if (!HasRoomForGeneratedOWE())
+    {
+        SetMinimumOWESpawnTimer();
+        return;
+    }
 
     u32 spawnSlot = GetNextOWESpawnSlot();
     s32 x, y;
@@ -312,11 +336,12 @@ void UpdateOverworldWildEncounter(void)
     };
     u32 objectEventId = GetObjectEventIdByLocalId(infoOWE.localId);
     struct ObjectEvent *owe = &gObjectEvents[objectEventId];
-    if (ShouldDespawnGeneratedForNewOWE(owe))
+    if (objectEventId < OBJECT_EVENTS_COUNT && ShouldDespawnGeneratedForNewOWE(owe))
         RemoveObjectEvent(owe);
     objectEventId = SpawnSpecialObjectEvent(&objectEventTemplate);
 
-    assertf(objectEventId < OBJECT_EVENTS_COUNT, "could not spawn generated overworld encounter. too many object events exist")
+    // Object/sprite exhaustion is an ordinary skipped spawn, not a fatal assertion.
+    if (objectEventId >= OBJECT_EVENTS_COUNT)
     {
         SetMinimumOWESpawnTimer();
         return;
@@ -468,13 +493,13 @@ static bool32 CreateEnemyPartyOWE(struct InfoOWE *info, s32 x, s32 y)
     {
         wildArea = WILD_AREA_WATER;
         timeOfDay = GetTimeOfDayForEncounters(headerId, wildArea);
-        wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo;
+        wildMonInfo = GetEffectiveWildEncounterTypes(headerId, timeOfDay)->waterMonsInfo;
     }
     else
     {
         wildArea = WILD_AREA_LAND;
         timeOfDay = GetTimeOfDayForEncounters(headerId, wildArea);
-        wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo;
+        wildMonInfo = GetEffectiveWildEncounterTypes(headerId, timeOfDay)->landMonsInfo;
     }
 
     if (wildMonInfo == NULL)
@@ -605,13 +630,13 @@ static bool32 StartWildBattleWithOWE_CheckDoubleBattle(struct ObjectEvent *owe, 
         {
             wildArea = WILD_AREA_WATER;
             timeOfDay = GetTimeOfDayForEncounters(headerId, wildArea);
-            wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo;
+            wildMonInfo = GetEffectiveWildEncounterTypes(headerId, timeOfDay)->waterMonsInfo;
         }
         else
         {
             wildArea = WILD_AREA_LAND;
             timeOfDay = GetTimeOfDayForEncounters(headerId, wildArea);
-            wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo;
+            wildMonInfo = GetEffectiveWildEncounterTypes(headerId, timeOfDay)->landMonsInfo;
         }
 
         if (TryGenerateWildMon(wildMonInfo, wildArea, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE))
@@ -637,7 +662,8 @@ void SetMinimumOWESpawnTimer(void)
 
 void TryTriggerOverworldWildEncounter(struct ObjectEvent *obstacle, struct ObjectEvent *collider)
 {
-    if (WE_OWE_NO_REPEL_DEXNAV_COLLISION && (FlagGet(DN_FLAG_SEARCHING) || REPEL_STEP_COUNT))
+    if (IsOverworldEncounterBlocked() || FlagGet(DN_FLAG_SEARCHING)
+     || (WE_OWE_NO_REPEL_DEXNAV_COLLISION && REPEL_STEP_COUNT))
         return;
 
     bool32 playerFollowerIsColliderOWE = ((collider->isPlayer || collider->localId == OBJ_EVENT_ID_FOLLOWER)
@@ -702,11 +728,11 @@ static bool32 CheckCurrentWildMonHeaderForOWE(bool32 shouldSpawnWaterMons)
     if (shouldSpawnWaterMons)
     {
         timeOfDay = GetTimeOfDayForEncounters(headerId, WILD_AREA_WATER);
-        return gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo != NULL;
+        return GetEffectiveWildEncounterTypes(headerId, timeOfDay)->waterMonsInfo != NULL;
     }
 
     timeOfDay = GetTimeOfDayForEncounters(headerId, WILD_AREA_LAND);
-    return gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo != NULL;
+    return GetEffectiveWildEncounterTypes(headerId, timeOfDay)->landMonsInfo != NULL;
 }
 
 static u32 GetOldestActiveOWESlot(bool32 forceRemove)
@@ -1051,7 +1077,7 @@ bool32 IsOWEDespawnExempt(struct ObjectEvent *owe)
 
 bool32 DespawnOWEDueToNPCCollision(struct ObjectEvent *obstacle, struct ObjectEvent *activeObject)
 {
-    if (activeObject->isPlayer)
+    if (activeObject->isPlayer && !IsOverworldEncounterBlocked())
         return FALSE;
 
     if (IsOverworldWildEncounter(activeObject, OWE_ANY))

@@ -1,0 +1,357 @@
+{
+  "rom_sha256": "e5a70bbfdb28c2e733a849a9fabe5c3729b2e696c1304394c729efe459747842",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_save",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_load",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_continue_default",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_location_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_selected_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_return_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_storage_after_options_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_selected_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_return_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_storage_after_options_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_selected_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_options_return_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_storage_after_options_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_continue_selected",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_party_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_continue_same_map",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_storage_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_back_frees_menu",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_party0_new_game_uses_legends_creator",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_enable",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_save",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_load",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_continue_default",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_location_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_selected_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_return_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_storage_after_options_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_selected_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_return_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_storage_after_options_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_selected_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_options_return_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_storage_after_options_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_continue_selected",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_party_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_continue_same_map",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_storage_preserved",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_back_frees_menu",
+      "passed": true
+    },
+    {
+      "test": "g0_mode1_party6_new_game_uses_legends_creator",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_save",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_load",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_continue_default",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_location_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_selected_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_return_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_storage_after_options_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_selected_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_return_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_storage_after_options_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_selected_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_options_return_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_storage_after_options_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_continue_selected",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_party_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_continue_same_map",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_storage_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_back_frees_menu",
+      "passed": true
+    },
+    {
+      "test": "g1_mode0_party1_new_game_uses_legends_creator",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_enable",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_save",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_load",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_continue_default",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_location_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_selected_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_return_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_storage_after_options_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_selected_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_return_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_storage_after_options_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_selected_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_options_return_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_storage_after_options_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_continue_selected",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_party_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_continue_same_map",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_storage_preserved",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_back_frees_menu",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_party6_new_game_uses_legends_creator",
+      "passed": true
+    },
+    {
+      "test": "no_save_uses_native_choices",
+      "passed": true
+    },
+    {
+      "test": "no_save_options_return",
+      "passed": true
+    }
+  ]
+}

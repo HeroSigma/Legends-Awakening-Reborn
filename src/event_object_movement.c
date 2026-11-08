@@ -1,5 +1,8 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "hyper_assets.h"
+#include "preferred_follower.h"
+#include "pokeride.h"
 #include "malloc.h"
 #include "battle_anim.h"
 #include "battle_pyramid.h"
@@ -496,8 +499,22 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/object_event_graphics_info.h"
 #include "data/object_events/object_event_graphics_info_followers.h"
 #include "data/object_events/hyper_assets.inc"
+#include "data/object_events/npc_roster_overrides.inc"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gAquasPal_GoldBall, 0xDC80},
+    {gAquasPal_MegaStone, 0xDC81},
+    {gAquasPal_TyrantrumExhibit, 0xDC82},
+    {gAquasPal_ApricornRed, 0xDC83},
+    {gAquasPal_ApricornBlue, 0xDC84},
+    {gAquasPal_ApricornYellow, 0xDC85},
+    {gAquasPal_ApricornGreen, 0xDC86},
+    {gAquasPal_ApricornPink, 0xDC87},
+    {gAquasPal_ApricornWhite, 0xDC88},
+    {gAquasPal_ApricornBlack, 0xDC89},
+
+    {gObjectEventPal_Brendan, OBJ_EVENT_PAL_TAG_AREN},
+    {gObjectEventPal_May, OBJ_EVENT_PAL_TAG_ARIA},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},
@@ -586,6 +603,76 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPaletteEmotes,             OBJ_EVENT_PAL_TAG_EMOTES},
     {gObjectEventPaletteNeonLight,          OBJ_EVENT_PAL_TAG_NEON_LIGHT},
 #include "data/object_events/hyper_palettes.inc"
+/* LA_NPC_ROSTER_PALETTES_BEGIN */
+    {gObjectEventPal_LaRoster00, 0xDB40},
+    {gObjectEventPal_LaRoster01, 0xDB41},
+    {gObjectEventPal_LaRoster02, 0xDB42},
+    {gObjectEventPal_LaRoster03, 0xDB43},
+    {gObjectEventPal_LaRoster04, 0xDB44},
+    {gObjectEventPal_LaRoster05, 0xDB45},
+    {gObjectEventPal_LaRoster06, 0xDB46},
+    {gObjectEventPal_LaRoster07, 0xDB47},
+    {gObjectEventPal_LaRoster08, 0xDB48},
+    {gObjectEventPal_LaRoster09, 0xDB49},
+    {gObjectEventPal_LaRoster10, 0xDB4A},
+    {gObjectEventPal_LaRoster11, 0xDB4B},
+    {gObjectEventPal_LaRoster12, 0xDB4C},
+    {gObjectEventPal_LaRoster13, 0xDB4D},
+    {gObjectEventPal_LaRoster14, 0xDB4E},
+    {gObjectEventPal_LaRoster15, 0xDB4F},
+    {gObjectEventPal_LaRoster16, 0xDB50},
+    {gObjectEventPal_LaRoster17, 0xDB51},
+    {gObjectEventPal_LaRoster18, 0xDB52},
+/* LA_NPC_ROSTER_PALETTES_END */
+    {gObjectEventPal_LaMiraidon, 0xDB7E},
+    {gObjectEventPal_LaRosterRowan, 0xDB7F},
+    {gObjectEventPal_LaHyperBosses, OBJ_EVENT_PAL_TAG_LA_HYPER_BOSSES},
+    {gHnsObjectPalette_a08041541f7cdf8b, 0xDA00},
+    {gHnsObjectPalette_ca8a3523c5558aa3, 0xDA01},
+    {gHnsObjectPalette_d2cdddb966e6f007, 0xDA02},
+    {gHnsObjectPalette_1437c15d61647432, 0xDA03},
+    {gHnsObjectPalette_32a16f0cde2dcd8b, 0xDA04},
+    {gHnsObjectPalette_18e26e1997d7b32b, 0xDA05},
+    {gHnsObjectPalette_6523ac5fa9c7d5cb, 0xDA06},
+    {gHnsObjectPalette_a886e173163d9560, 0xDA07},
+    {gHnsObjectPalette_9372153fd1a30c8b, 0xDA08},
+    {gHnsObjectPalette_d869f8b66fc5473a, 0xDA09},
+    {gHnsObjectPalette_30276a0b647c6947, 0xDA0A},
+    {gHnsObjectPalette_3bb5cad1a26da0bd, 0xDA0B},
+    {gHnsObjectPalette_737d214632e3fe21, 0xDA0C},
+    {gHnsObjectPalette_3bfa6a1bf19e7be4, 0xDA0D},
+    {gHnsObjectPalette_30f721f3807f90ac, 0xDA0E},
+    {gHnsObjectPalette_cb1f7d47a41b3fff, 0xDA0F},
+    {gHnsObjectPalette_69cba08a7378aaa9, 0xDA10},
+    {gHnsObjectPalette_d538883ee7713ff5, 0xDA11},
+    {gHnsObjectPalette_051c744f79b28c4f, 0xDA12},
+    {gHnsObjectPalette_0aed2dae46505ecf, 0xDA13},
+    {gHnsObjectPalette_7f40f77e926668d1, 0xDA14},
+    {gHnsObjectPalette_3aa6988e7be361a4, 0xDA15},
+    {gHnsObjectPalette_e406065567177532, 0xDA16},
+    {gHnsObjectPalette_7d4fb28c0c2f1e2d, 0xDA17},
+    {gHnsObjectPalette_e248a842abd9a561, 0xDA18},
+    {gHnsObjectPalette_53fe4e0645eb60c4, 0xDA19},
+    {gHnsObjectPalette_f8b2180ab280bbe3, 0xDA1A},
+    {gHnsObjectPalette_e6ea7db1d4eacff4, 0xDA1B},
+    {gHnsObjectPalette_76f829c2fd409c1d, 0xDA1C},
+    {gHnsObjectPalette_2ee26ade580958f9, 0xDA1D},
+    {gHnsObjectPalette_3a66111c5c8ea2bc, 0xDA1E},
+    {gHnsObjectPalette_2af36a8e926726b3, 0xDA1F},
+    {gHnsObjectPalette_ec7629ad6caca7b4, 0xDA20},
+    {gHnsObjectPalette_38b95ff19342a2ba, 0xDA21},
+    {gHnsObjectPalette_e228f8e4cf5192e4, 0xDA22},
+    {gHnsObjectPalette_a491484d8db3b1e2, 0xDA23},
+    {gHnsObjectPalette_68d38fb477af34c9, 0xDA24},
+    {gHnsObjectPalette_4bf6760c9120d0a1, 0xDA25},
+    {gHnsObjectPalette_9a7d62d35bee553e, 0xDA26},
+    {gHnsObjectPalette_a0cc726f73c5e2c9, 0xDA27},
+    {gHnsObjectPalette_6aec5a1db37e5cac, 0xDA28},
+    {gHnsObjectPalette_b180ff667ab7cc4b, 0xDA29},
+    {gHnsObjectPalette_3f8a1c94699742cf, 0xDA2A},
+    {gHnsObjectPalette_f5ae73fbc466686b, 0xDA2B},
+    {gHnsObjectPalette_e426f40355350022, 0xDA2C},
+
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
@@ -2104,10 +2191,15 @@ u8 CreateVirtualObject(u16 graphicsId, u8 virtualObjId, s16 x, s16 y, u8 elevati
 // Return address of first conscious party mon or NULL
 struct Pokemon *GetFirstLiveMon(void)
 {
-    u32 i;
-    for (i = 0; i < PARTY_SIZE; i++)
+    if (PreferredFollower_IsRecalled())
+        return NULL;
+    struct Pokemon *preferred = PreferredFollower_Get();
+    // Check the chosen companion first, then retain the normal eligible fallback.
+    for (u32 i = 0; i <= PARTY_SIZE; i++)
     {
-        struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][i];
+        struct Pokemon *mon = i == 0 ? preferred : &gParties[B_TRAINER_PLAYER][i - 1];
+        if (mon == NULL)
+            continue;
         enum Species species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG);
         if (species == SPECIES_NONE)
             continue;
@@ -2117,8 +2209,8 @@ struct Pokemon *GetFirstLiveMon(void)
          || (OW_FOLLOWERS_ALLOWED_MET_LOC && GetMonData(mon, MON_DATA_MET_LOCATION) != VarGet(OW_FOLLOWERS_ALLOWED_MET_LOC)))
             continue;
 
-        if (gParties[B_TRAINER_PLAYER][i].hp > 0 && !(gParties[B_TRAINER_PLAYER][i].box.isEgg || gParties[B_TRAINER_PLAYER][i].box.isBadEgg))
-            return &gParties[B_TRAINER_PLAYER][i];
+        if (mon->hp > 0 && !(mon->box.isEgg || mon->box.isBadEgg))
+            return mon;
     }
     return NULL;
 }
@@ -2338,6 +2430,8 @@ static bool8 GetMonInfo(struct Pokemon *mon, enum Species *species, bool32 *shin
 // Retrieve graphic information about the following Pokémon, if any
 bool8 GetFollowerInfo(enum Species *species, bool32 *shiny, bool32 *female)
 {
+    if (PokeRide_IsActive())
+        return FALSE;
     return GetMonInfo(GetFirstLiveMon(), species, shiny, female);
 }
 
@@ -2694,6 +2788,17 @@ void GetFollowerAction(struct ScriptContext *ctx) // Essentially a big switch fo
     {
         if (condEmotes[i].emotion == emotion && (Random() < 0x10000 / (j++)))  // Replace each item with 1/j chance
             multi = condEmotes[i].index;
+    }
+    // Project story locations take priority over random generic chatter.
+    {
+        const u8 *hint = LegendsFollower_EnvironmentalText(gMapHeader.mapLayoutId);
+        if (hint != NULL)
+        {
+            ObjectEventEmote(objEvent, FOLLOWER_EMOTION_CURIOUS);
+            ctx->data[0] = (u32)hint;
+            ScriptCall(ctx, gFollowerBasicMessages[FOLLOWER_EMOTION_CURIOUS].script);
+            return;
+        }
     }
     // (50% chance) Match *scripted* conditional messages, from follower_helper.c
     for (i = (Random() & 1) ? COND_MSG_COUNT : 0, j = 1; i < COND_MSG_COUNT; i++)
@@ -3155,12 +3260,38 @@ void ObjectEventTurnByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup, enum Dir
         ObjectEventTurn(&gObjectEvents[objectEventId], direction);
 }
 
+
+static const u16 sAquasBerryPal_cheri[] = INCGFX_U16("graphics/object_events/pics/berry_trees/cheri.png", ".gbapal");
+static const u16 sAquasBerryPal_chesto[] = INCGFX_U16("graphics/object_events/pics/berry_trees/chesto.png", ".gbapal");
+static const u16 sAquasBerryPal_pecha[] = INCGFX_U16("graphics/object_events/pics/berry_trees/pecha.png", ".gbapal");
+static const u16 sAquasBerryPal_rawst[] = INCGFX_U16("graphics/object_events/pics/berry_trees/rawst.png", ".gbapal");
+static const u16 sAquasBerryPal_aspear[] = INCGFX_U16("graphics/object_events/pics/berry_trees/aspear.png", ".gbapal");
+static const u16 sAquasBerryPal_leppa[] = INCGFX_U16("graphics/object_events/pics/berry_trees/leppa.png", ".gbapal");
+static const u16 sAquasBerryPal_oran[] = INCGFX_U16("graphics/object_events/pics/berry_trees/oran.png", ".gbapal");
+static const u16 sAquasBerryPal_persim[] = INCGFX_U16("graphics/object_events/pics/berry_trees/persim.png", ".gbapal");
+static const u16 sAquasBerryPal_lum[] = INCGFX_U16("graphics/object_events/pics/berry_trees/lum.png", ".gbapal");
+static const u16 sAquasBerryPal_sitrus[] = INCGFX_U16("graphics/object_events/pics/berry_trees/sitrus.png", ".gbapal");
+static const struct SpritePalette sAquasBerryPalettes[NUM_BERRIES + 1] = {
+    [BERRY_ID_CHERI] = {sAquasBerryPal_cheri, 0xDCC0},
+    [BERRY_ID_CHESTO] = {sAquasBerryPal_chesto, 0xDCC1},
+    [BERRY_ID_PECHA] = {sAquasBerryPal_pecha, 0xDCC2},
+    [BERRY_ID_RAWST] = {sAquasBerryPal_rawst, 0xDCC3},
+    [BERRY_ID_ASPEAR] = {sAquasBerryPal_aspear, 0xDCC4},
+    [BERRY_ID_LEPPA] = {sAquasBerryPal_leppa, 0xDCC5},
+    [BERRY_ID_ORAN] = {sAquasBerryPal_oran, 0xDCC6},
+    [BERRY_ID_PERSIM] = {sAquasBerryPal_persim, 0xDCC7},
+    [BERRY_ID_LUM] = {sAquasBerryPal_lum, 0xDCC8},
+    [BERRY_ID_SITRUS] = {sAquasBerryPal_sitrus, 0xDCC9},
+};
 static void SetBerryTreeGraphicsById(struct ObjectEvent *objectEvent, u8 berryId, u8 berryStage)
 {
     const u16 graphicsId = gBerryTreeObjectEventGraphicsIdTable[berryStage];
     const struct ObjectEventGraphicsInfo *graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
     struct Sprite *sprite = &gSprites[objectEvent->spriteId];
-    UpdateSpritePalette(&sObjectEventSpritePalettes[gBerries[berryId].berryTreePaletteSlotTable[berryStage] - 2], sprite);
+    if (berryStage >= 2 && sAquasBerryPalettes[berryId].data != NULL)
+        UpdateSpritePalette(&sAquasBerryPalettes[berryId], sprite);
+    else
+        UpdateSpritePalette(&sObjectEventSpritePalettes[gBerries[berryId].berryTreePaletteSlotTable[berryStage] - 2], sprite);
     sprite->oam.shape = graphicsInfo->oam->shape;
     sprite->oam.size = graphicsInfo->oam->size;
     sprite->images = gBerries[berryId].berryTreePicTable;
@@ -3209,6 +3340,18 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
 
     if (graphicsId & OBJ_EVENT_MON)
         return SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
+
+    const struct ObjectEventGraphicsInfo *outfitGraphics = GetPlayerOutfitGraphics(graphicsId);
+    if (outfitGraphics != NULL)
+        return outfitGraphics;
+
+    /* Selected NPC roles override old map-specific visual substitutions. */
+    const struct ObjectEventGraphicsInfo *rosterGraphics = GetLaNpcRosterGraphics(graphicsId);
+    if (rosterGraphics != NULL)
+        return rosterGraphics;
+
+    if (graphicsId >= OBJ_EVENT_GFX_HNS_BASE && graphicsId < OBJ_EVENT_GFX_HNS_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
 
     /* Visual-only opt-in after expansion dynamic/species resolution. */
     const struct ObjectEventGraphicsInfo *hyperGraphics = HyperAssets_GetCanonicalObjectGraphics(graphicsId);
@@ -3324,10 +3467,10 @@ u8 LoadPlayerObjectEventPalette(enum Gender gender)
     {
     default:
     case MALE:
-        paletteTag = OBJ_EVENT_PAL_TAG_BRENDAN;
+        paletteTag = OBJ_EVENT_PAL_TAG_AREN;
         break;
     case FEMALE:
-        paletteTag = OBJ_EVENT_PAL_TAG_MAY;
+        paletteTag = OBJ_EVENT_PAL_TAG_ARIA;
         break;
     }
     return LoadObjectEventPalette(paletteTag);
@@ -3358,7 +3501,7 @@ void PatchObjectPalette(u16 paletteTag, u8 paletteSlot)
     // paletteTag is assumed to exist in sObjectEventSpritePalettes
     u8 paletteIndex = FindObjectEventPaletteIndexByTag(paletteTag);
 
-    LoadPalette(sObjectEventSpritePalettes[paletteIndex].data, OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
+    LoadPalette(DynamicPal_ObjectPalette(paletteTag, sObjectEventSpritePalettes[paletteIndex].data), OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
 }
 
 void PatchObjectPaletteRange(const u16 *paletteTags, u8 minSlot, u8 maxSlot)
@@ -6816,6 +6959,7 @@ u8 ObjectEventGetHeldMovementActionId(struct ObjectEvent *objectEvent)
 
 void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sprite *sprite, bool8 (*callback)(struct ObjectEvent *, struct Sprite *))
 {
+    PokeRide_BeforeMovement(objectEvent, sprite);
     DoGroundEffects_OnSpawn(objectEvent, sprite);
     TryEnableObjectEventAnim(objectEvent, sprite);
 
@@ -6829,6 +6973,7 @@ void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sp
     UpdateObjectEventSpriteAnimPause(objectEvent, sprite);
     UpdateObjectEventVisibility(objectEvent, sprite);
     ObjectEventUpdateSubpriority(objectEvent, sprite);
+    PokeRide_AfterMovement(objectEvent, sprite);
 }
 
 #define dirn_to_anim(name, table)\

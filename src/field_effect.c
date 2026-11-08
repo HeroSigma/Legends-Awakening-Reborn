@@ -1,4 +1,6 @@
 #include "global.h"
+#include "dynamic_palettes.h"
+#include "pokeride.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -990,6 +992,8 @@ u8 CreateTrainerSprite(enum TrainerPicID trainerPicId, s16 x, s16 y, u8 subprior
     struct SpriteTemplate spriteTemplate;
     bool32 alloced = FALSE;
 
+    if (DynamicPal_IsIntro()) trainerPicId = PlayerOutfit_TrainerPic(trainerPicId);
+
     // Allocate memory for buffer
     if (buffer == NULL)
     {
@@ -1001,7 +1005,7 @@ u8 CreateTrainerSprite(enum TrainerPicID trainerPicId, s16 x, s16 y, u8 subprior
     spriteSheet.size = TRAINER_PIC_SIZE;
     spriteSheet.tag = GetTrainerPicTag(trainerPicId, TRUE);
 
-    LoadSpritePaletteWithTag(GetTrainerFrontPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, TRUE));
+    LoadSpritePaletteWithTag(DynamicPal_IsIntro() ? DynamicPal_TrainerPalette(trainerPicId, TRUE) : GetTrainerFrontPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, TRUE));
     LoadCompressedSpriteSheetOverrideBuffer(&spriteSheet, buffer);
     if (alloced)
         Free(buffer);
@@ -3425,6 +3429,7 @@ static void SurfFieldEffect_End(struct Task *task)
         if (followerObject)
             ObjectEventClearHeldMovementIfFinished(followerObject);
         SetSurfBlob_BobState(objectEvent->fieldEffectSpriteId, BOB_PLAYER_AND_MON);
+        PokeRide_BeginSurf(task->tMonId);
         UnfreezeObjectEvents();
         UnlockPlayerFieldControls();
         FieldEffectActiveListRemove(FLDEFF_USE_SURF);

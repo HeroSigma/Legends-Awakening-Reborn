@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePalaceCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceCorridor_OnFrame
 	.byte 0
@@ -147,3 +149,50 @@ BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
 	.string "Ah… I see a strong, heartfelt bond\n"
 	.string "between you and your POKéMON…$"
 
+
+#else
+BattleFrontier_BattlePalaceCorridor_MapScripts::
+	.byte 0
+BattleFrontier_BattlePalaceCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_WalkThroughCorridor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_WalkToOpenBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_WarpToBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_RandomComment1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_RandomComment2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_RandomComment3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_StreakComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_EventScript_LongStreakComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_EnterCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_AttendantWalkTo50BattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_PlayerWalkTo50BattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_AttendantWalkToOpenBattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_PlayerWalkToOpenBattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_PlayerEnterBattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
+	.string "This feature is disabled in this build.$"
+#endif

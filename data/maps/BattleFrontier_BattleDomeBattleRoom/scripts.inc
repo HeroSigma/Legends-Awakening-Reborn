@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_DOME_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
@@ -1176,3 +1178,282 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 	.string "It's TUCKER!\p"
 	.string "Congratulations! And thank you!\n"
 	.string "Let's hear it for the DOME ACE, TUCKER!$"
+
+#else
+BattleFrontier_BattleDomeBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleDomeBattleRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfxMale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnterForTucker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceReactToPlayer::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_BattleOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_Draw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_LostTourney::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWonDraw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerWonDraw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_WonTourney::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_WonLvOpenTourney::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_CelebrateWin::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWonDraw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayer::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerFirstAttempt::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerFirstAttemptRound1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerFirstAttemptRound2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerFirstAttemptSemifinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerFirstAttemptFinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerNeverWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerNeverWonRound1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerNeverWonRound2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerNeverWonSemifinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerNeverWonFinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampion::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampionNoTucker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampionRound1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampionRound2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampionSemifinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerChampionFinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerPreTuckerSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerPreTuckerGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerBrokenStreak::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerBrokenStreakRound1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerBrokenStreakRound2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerBrokenStreakSemifinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayerBrokenStreakFinal::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_GetRoundNum::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnounceTucker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnounceTuckerSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AnnounceTuckerGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_BattleTuckerSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerGoldIntro::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_BattleTuckerGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_DoTuckerBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_LostToTucker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerDraw::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_DoDomeBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_EndSetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_CallAddAudience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AddAudience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AddRound1Audience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AddRound2Audience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AddSemifinalAudience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AddFinalAudience::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_PlayerApproachAudience:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnterForTucker:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward2:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_OpponentStepForward:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisibleFacingUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_TuckerEnterAndDance:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerMoveForTuckerEntrance:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_TuckerStepForward:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_TuckerApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomePreBattleRoom_EventScript_WarpToLobbyDoubles::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_SetWalkingAudienceMemberPos::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_EventScript_TryDoAudienceMemberWalkToSeat::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_AudienceTwinJump:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_AudienceMemberWalkToSeat:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_RefereeEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerFaceLeft:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
+	.string "This feature is disabled in this build.$"
+#endif

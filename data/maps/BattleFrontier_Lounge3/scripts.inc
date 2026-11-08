@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge3_MapScripts::
 	.byte 0
 
@@ -466,3 +468,144 @@ BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
 	.string "Those TRAINERS…\n"
 	.string "What are they doing?\l"
 	.string "They should be taking challenges.$"
+
+#else
+BattleFrontier_Lounge3_MapScripts::
+	.byte 0
+BattleFrontier_Lounge3_EventScript_Gambler::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_AskToEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_ChooseBetAmount::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_Bet5::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_Bet10::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_Bet15::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_TryPlaceBet::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_PlaceBet::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_FinishBet::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_CountSilverSymbols::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_AddSilverSymbolCount::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_NotEnoughSilverSymbols::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_AlreadyMetGambler::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_CheckBetResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_RewardBet5::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_RewardBet10::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_RewardBet15::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_ChallengeNotAttempted::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_DeclineChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_CancelBet::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_PokefanF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_FatMan::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_EventScript_FaceOriginalDirection::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattleArena::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattlePike::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ThanksOffYouGo::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattleArena::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattlePike::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_GetToBattlePyramid::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_NotInterested::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_Oh::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_BackedWrongTrainer::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
+	.string "This feature is disabled in this build.$"
+#endif

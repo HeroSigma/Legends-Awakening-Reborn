@@ -158,12 +158,14 @@
 #define VAR_CONTEST_TYPE                                 0x4088
 #define VAR_SECRET_BASE_INITIALIZED                      0x4089
 #define VAR_CONTEST_PRIZE_PICKUP                         0x408A
+#define VAR_LA_TIMELESS_WOODS_CALL_STATE VAR_UNUSED_0x408B
 #define VAR_UNUSED_0x408B                                0x408B // Unused Var
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN              0x408C
 #define VAR_LITTLEROOT_RIVAL_STATE                       0x408D
 #define VAR_BOARD_BRINEY_BOAT_STATE                      0x408E
 #define VAR_DEVON_CORP_3F_STATE                          0x408F
 #define VAR_BRINEY_HOUSE_STATE                           0x4090
+#define VAR_LA_PETALBURG_ARC VAR_UNUSED_0x4091 // 0 pending; 1 reported; 2 Ralts caught; 3 Birch contacted
 #define VAR_UNUSED_0x4091                                0x4091 // Unused Var
 #define VAR_LITTLEROOT_INTRO_STATE                       0x4092
 #define VAR_MAUVILLE_GYM_STATE                           0x4093
@@ -174,20 +176,23 @@
 #define VAR_PETALBURG_WOODS_STATE                        0x4098
 #define VAR_LILYCOVE_CONTEST_LOBBY_STATE                 0x4099
 #define VAR_RUSTURF_TUNNEL_STATE                         0x409A
-#define VAR_UNUSED_0x409B                                0x409B // Unused Var
+#define VAR_UNUSED_0x409B                                0x409B // Reserved: character palette choices
+#define VAR_LA_PLAYER_COLORS VAR_UNUSED_0x409B
 #define VAR_ELITE_4_STATE                                0x409C
-#define VAR_UNUSED_0x409D                                0x409D // Unused Var
+#define VAR_UNUSED_0x409D                                0x409D // Reserved: signed starter choice
+#define VAR_LA_STARTER_CHOICE VAR_UNUSED_0x409D
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
 #define VAR_MOSSDEEP_SPACE_CENTER_STATE                  0x409F
 #define VAR_SLATEPORT_HARBOR_STATE                       0x40A0
-#define VAR_UNUSED_0x40A1                                0x40A1 // Unused var
+#define VAR_UNUSED_0x40A1                                0x40A1 // Signed player outfit selection
+#define VAR_LA_PLAYER_OUTFIT VAR_UNUSED_0x40A1
 #define VAR_SEAFLOOR_CAVERN_STATE                        0x40A2
 #define VAR_CABLE_CAR_STATION_STATE                      0x40A3
 #define VAR_SAFARI_ZONE_STATE                            0x40A4  // 0: In or out of SZ, 1: Player exiting SZ, 2: Player entering SZ
 #define VAR_TRICK_HOUSE_BEING_WATCHED_STATE              0x40A5
 #define VAR_TRICK_HOUSE_FOUND_TRICK_MASTER               0x40A6
 #define VAR_TRICK_HOUSE_ENTRANCE_STATE                   0x40A7
-#define VAR_UNUSED_0x40A8                                0x40A8 // Unused Var
+#define VAR_LA_DIFFICULTY                                 0x40A8 // 0 defaults to Normal
 #define VAR_CYCLING_CHALLENGE_STATE                      0x40A9
 #define VAR_SLATEPORT_MUSEUM_1F_STATE                    0x40AA
 #define VAR_TRICK_HOUSE_PUZZLE_1_STATE                   0x40AB
@@ -203,10 +208,10 @@
 #define VAR_TRICK_HOUSE_ENTER_FROM_CORRIDOR              0x40B5
 #define VAR_TRICK_HOUSE_PUZZLE_7_STATE_2                 0x40B6 // Leftover from RS, never set
 #define VAR_SLATEPORT_FAN_CLUB_STATE                     0x40B7
-#define VAR_UNUSED_0x40B8                                0x40B8 // Unused Var
+#define VAR_LA_DEXNAV_CHAIN_SPECIES                       0x40B8
 #define VAR_MT_PYRE_STATE                                0x40B9
 #define VAR_NEW_MAUVILLE_STATE                           0x40BA
-#define VAR_UNUSED_0x40BB                                0x40BB // Unused Var
+#define VAR_LA_PARADIGM_ARC                              0x40BB // 0 rescue, 1 Wattson, 2 call, 3 family, 4 woods lead
 #define VAR_BRAVO_TRAINER_BATTLE_TOWER_ON                0x40BC
 #define VAR_JAGGED_PASS_ASH_WEATHER                      0x40BD
 #define VAR_GLASS_WORKSHOP_STATE                         0x40BE
@@ -238,17 +243,18 @@
 #define VAR_SOOTOPOLIS_WALLACE_STATE                     0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE                         0x40DA
-#define VAR_UNUSED_0x40DB                                0x40DB // Unused Var
-#define VAR_UNUSED_0x40DC                                0x40DC // Unused Var
+#define VAR_LA_POWERPLANT_STATE                          0x40DB // 0 arrival, 1 reactor, 2 Wattson, 3 Wally, 4 return
+#define VAR_LA_MAUVILLE_RIFT                             0x40DC // 0 unseen, 1 open, 2 returning, 3 resolved
 #define VAR_GIFT_PICHU_SLOT                              0x40DD
-#define VAR_GIFT_UNUSED_1                                0x40DE // Var is written to, but never read
-#define VAR_GIFT_UNUSED_2                                0x40DF // Var is written to, but never read
-#define VAR_GIFT_UNUSED_3                                0x40E0 // Var is written to, but never read
+#define VAR_GIFT_UNUSED_1                                0x40DE // Reserved: Legends Rift Tracker
+#define VAR_GIFT_UNUSED_2                                0x40DF // Reserved: Legends rift survey
+#define VAR_GIFT_UNUSED_3                                0x40E0 // Reserved: Oak gift and Blue introduction
 #define VAR_GIFT_UNUSED_4                                0x40E1 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_5                                0x40E2 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_6                                0x40E3 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_7                                0x40E4 // var is written to, but never read
-#define VAR_UNUSED_0x40E5                                0x40E5 // Unused Var
+#define VAR_UNUSED_0x40E5                                0x40E5 // Reserved: Pokevial charges
+#define VAR_LA_POKEVIAL_CHARGES VAR_UNUSED_0x40E5
 #define VAR_DAILY_SLOTS                                  0x40E6
 #define VAR_DAILY_WILDS                                  0x40E7
 #define VAR_DAILY_BLENDER                                0x40E8
@@ -313,6 +319,16 @@
 // cutscenes nor call a wait command. Used for weather effects in vanilla.
 #define TRIGGER_RUN_IMMEDIATELY   0
 
+// Legends bedroom prologue uses the canonical Littleroot state slot.
+// Values 1-6 remain reserved for legacy truck saves; 7 resumes native Hoenn.
+#define LA_INTRO_WAKE_UP             10
+#define LA_INTRO_CHECK_PC            11
+#define LA_INTRO_SET_CLOCK           12
+#define LA_INTRO_PACKAGE             13
+#define LA_INTRO_TERA_ORB_RECEIVED   14
+#define LA_INTRO_COMPLETE             7
+#define LA_INTRO_RIFT_REPORT         15
+
 // Temp var aliases
 #define VAR_TEMP_CHALLENGE_STATUS  VAR_TEMP_0
 
@@ -339,3 +355,23 @@
 #endif // TESTING
 
 #endif // GUARD_CONSTANTS_VARS_H
+
+// Persistent chapter-local state: 0 unstarted, 1 battle, 2 Red rescue, 3 complete.
+#define VAR_LA_BIRCH_RESCUE_STATE VAR_UNUSED_0x404E
+
+#define VAR_LA_LITTLEROOT_ARC VAR_UNUSED_0x4083 // 0 lab pending; 1 spar; 2 Route 103; 3 dex pending; 4 farewell; 5 complete
+
+// Persistent follower identity; these previously unused vars do not resize saves.
+#define VAR_LA_FOLLOWER_MODE VAR_UNUSED_0x40FA
+#define VAR_LA_FOLLOWER_PID_LO VAR_UNUSED_0x40FB
+#define VAR_LA_FOLLOWER_PID_HI VAR_UNUSED_0x40FC
+#define VAR_LA_FOLLOWER_OT_LO VAR_UNUSED_0x40FD
+#define VAR_LA_FOLLOWER_OT_HI VAR_UNUSED_0x40FE
+
+#define VAR_LA_FOLLOWER_SPECIES VAR_UNUSED_0x40FF
+
+// Dedicated story slots repurposed from unused Mystery Gift fields; no save resizing.
+#define VAR_LA_RIFT_TRACKER VAR_GIFT_UNUSED_1 // 0 unknown, 1 lab invitation, 2 detector installed
+#define VAR_LA_RIFT_SURVEYED VAR_GIFT_UNUSED_2 // registry bitmask
+#define VAR_LA_OAK_STARTER VAR_GIFT_UNUSED_3 // 0 unknown; 1 offered; 2-4 gift choice; +8 met Blue
+#define VAR_LA_RIFT_RESOLVED VAR_LA_OAK_STARTER // legacy reserved alias; never written by rift gates

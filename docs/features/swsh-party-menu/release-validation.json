@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rom_sha256": "fded381066b88a4a76603cf04cd37ccb4a15e260721bd4ba3b46e82bc4ebe2b5",
+  "total": 687,
+  "checks": {
+    "party": 50,
+    "battle": 16,
+    "bulk_training": 79,
+    "ground_ride": 96,
+    "start_menu": 446
+  }
+}

@@ -1,0 +1,3775 @@
+{
+  "passed": true,
+  "assertions": 934,
+  "rom_sha256": "fd2a8e021d664fcdff14a159b5c3fc2f2dcc9dc09e49050ca86a6fba7b6b96e0",
+  "examples": [
+    {
+      "item": "ITEM_POTION",
+      "price": 250,
+      "sale": 200
+    },
+    {
+      "item": "ITEM_MASTER_BALL",
+      "price": 187500,
+      "sale": 150000
+    },
+    {
+      "item": "ITEM_ABILITY_PATCH",
+      "price": 37500,
+      "sale": 30000
+    },
+    {
+      "item": "ITEM_ABILITY_CAPSULE",
+      "price": 18750,
+      "sale": 15000
+    },
+    {
+      "item": "ITEM_CHARIZARDITE_X",
+      "price": 31250,
+      "sale": 25000
+    },
+    {
+      "item": "ITEM_NORMALIUM_Z",
+      "price": 25000,
+      "sale": 20000
+    }
+  ],
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_NONE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_NONE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_FIRE_TERA_SHARD')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_FIRE_TERA_SHARD')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(0, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(0, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(0, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "buy_(0, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(0, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "charged_(0, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "insufficient_0",
+      "passed": true
+    },
+    {
+      "test": "insufficient_no_item_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(0, 100)",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(0, 4294967295)",
+      "passed": true
+    },
+    {
+      "test": "invalid_no_charge_0",
+      "passed": true
+    },
+    {
+      "test": "full_0",
+      "passed": true
+    },
+    {
+      "test": "full_no_charge_0",
+      "passed": true
+    },
+    {
+      "test": "tm_single_0",
+      "passed": true
+    },
+    {
+      "test": "tm_duplicate_0",
+      "passed": true
+    },
+    {
+      "test": "tm_no_charge_0",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "reload_0",
+      "passed": true
+    },
+    {
+      "test": "purchases_persist_0",
+      "passed": true
+    },
+    {
+      "test": "classic_eight_rows_0",
+      "passed": true
+    },
+    {
+      "test": "store_open_0",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_store_0",
+      "passed": true
+    },
+    {
+      "test": "ui_purchase_quantity_0",
+      "passed": true
+    },
+    {
+      "test": "ui_purchase_charge_0",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 1)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 2)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 5)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 6)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 7)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 9)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 10)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 12)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "all_store_pockets_0",
+      "passed": true
+    },
+    {
+      "test": "store_closed_0",
+      "passed": true
+    },
+    {
+      "test": "controls_released_0",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_1",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_2",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_3",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_4",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_5",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_6",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_7",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_8",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_9",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_10",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_11",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_12",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_13",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_14",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_15",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_16",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_17",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_18",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_19",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_20",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_21",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_22",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_23",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_24",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_25",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_26",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_27",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_28",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_29",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_30",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_31",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_32",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_33",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_34",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_35",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_36",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_37",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_38",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_39",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_40",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_41",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_42",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_43",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_44",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_45",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_46",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_47",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_48",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_49",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_50",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_51",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_52",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_53",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_54",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_55",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_56",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_57",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_58",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_59",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_60",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_61",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_62",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_63",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_64",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_65",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_66",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_67",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_68",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_69",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_70",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_71",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_72",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_73",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_74",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_75",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_76",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_77",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_78",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_79",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_80",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_81",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_82",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_83",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_84",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_85",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_86",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_87",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_88",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_89",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_90",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_91",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_92",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_93",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_94",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_95",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_96",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_97",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_98",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_99",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_100",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_101",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_102",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_103",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_104",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_105",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_106",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_107",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_108",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_109",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_110",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_111",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_112",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_113",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_114",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_115",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_116",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_117",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_118",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_119",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_121",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_122",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_123",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_124",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_125",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_126",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_127",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_128",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_129",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_130",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_131",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_132",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_133",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_134",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_135",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_136",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_137",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_138",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_139",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_140",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_141",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_142",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_143",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_144",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_145",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_146",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_147",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_148",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_149",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_150",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_151",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_152",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_153",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_154",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_155",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_156",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_157",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_158",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_159",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_160",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_161",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_162",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_163",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_164",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_165",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_166",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_167",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_168",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_169",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_170",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_171",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_172",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_173",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_174",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_175",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_176",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_177",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_178",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_179",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_180",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_181",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_182",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_183",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_184",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_185",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_186",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_187",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_188",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_189",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_190",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_191",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_192",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_193",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_194",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_195",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_196",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_197",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_198",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_199",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_200",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_201",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_202",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_203",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_204",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_205",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_206",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_207",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_208",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_209",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_210",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_211",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_212",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_213",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_214",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_215",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_216",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_217",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_218",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_219",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_220",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_221",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_222",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_223",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_224",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_225",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_226",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_227",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_228",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_229",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_230",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_231",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_232",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_233",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_234",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_235",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_236",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_237",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_238",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_239",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_240",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_241",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_242",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_243",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_244",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_245",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_246",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_247",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_248",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_249",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_250",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_251",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_252",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_253",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_254",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_255",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_256",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_257",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_258",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_259",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_260",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_261",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_262",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_263",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_264",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_265",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_266",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_267",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_268",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_269",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_270",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_271",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_272",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_273",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_274",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_275",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_276",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_277",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_278",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_279",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_280",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_281",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_282",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_283",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_284",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_285",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_286",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_287",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_288",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_289",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_290",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_291",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_292",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_293",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_294",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_295",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_296",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_297",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_298",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_299",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_300",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_301",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_302",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_303",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_304",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_305",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_306",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_307",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_308",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_309",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_310",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_311",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_312",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_313",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_314",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_315",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_316",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_317",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_318",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_319",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_320",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_321",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_322",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_323",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_324",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_325",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_326",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_327",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_328",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_329",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_330",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_331",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_332",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_333",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_334",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_335",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_336",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_337",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_338",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_339",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_340",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_341",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_342",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_343",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_344",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_345",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_346",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_347",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_348",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_349",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_350",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_351",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_352",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_353",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_354",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_355",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_356",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_357",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_358",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_359",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_360",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_361",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_362",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_363",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_364",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_365",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_366",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_367",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_368",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_369",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_370",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_371",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_372",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_373",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_374",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_375",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_376",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_377",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_378",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_379",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_380",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_381",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_382",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_383",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_384",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_385",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_386",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_387",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_388",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_389",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_390",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_391",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_392",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_393",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_394",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_395",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_396",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_397",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_398",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_399",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_400",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_401",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_402",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_403",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_404",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_405",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_406",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_407",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_408",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_409",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_410",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_411",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_412",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_413",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_414",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_415",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_416",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_417",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_418",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_419",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_420",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_421",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_422",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_423",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_424",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_425",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_426",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_427",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_428",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_429",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_430",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_431",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_432",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_433",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_434",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_435",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_436",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_437",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_438",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_439",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_440",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_441",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_442",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_443",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_444",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_445",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_446",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_447",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_448",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_449",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_450",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_451",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_452",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_453",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_454",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_455",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_456",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_457",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_458",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_459",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_460",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_462",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_463",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_464",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_465",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_466",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_467",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_468",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_469",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_470",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_471",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_472",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_473",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_474",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_475",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_476",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_477",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_478",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_479",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_480",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_481",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_482",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_483",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_484",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_485",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_486",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_487",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_488",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_489",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_490",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_491",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_492",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_493",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_494",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_495",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_496",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_497",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_498",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_499",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_500",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_501",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_502",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_503",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_504",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_505",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_506",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_507",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_508",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_509",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_510",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_511",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_512",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_513",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_514",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_515",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_516",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_517",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_518",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_519",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_520",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_521",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_522",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_523",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_524",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_525",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_526",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_527",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_528",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_529",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_530",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_531",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_532",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_533",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_534",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_535",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_536",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_537",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_538",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_539",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_540",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_541",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_542",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_543",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_544",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_545",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_546",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_547",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_548",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_549",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_550",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_551",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_552",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_553",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_554",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_555",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_556",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_557",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_558",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_559",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_560",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_561",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_562",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_563",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_564",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_565",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_566",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_567",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_568",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_569",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_570",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_571",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_572",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_573",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_574",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_575",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_576",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_577",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_578",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_579",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_580",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_581",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_582",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_583",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_584",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_585",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_586",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_587",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_588",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_589",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_590",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_591",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_592",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_593",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_594",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_595",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_596",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_597",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_598",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_599",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_600",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_601",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_602",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_603",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_604",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_605",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_606",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_607",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_608",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_609",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_610",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_611",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_612",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_613",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_614",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_615",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_616",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_617",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_618",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_619",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_620",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_621",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_622",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_623",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_624",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_625",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_626",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_627",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_628",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_629",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_630",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_631",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_632",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_633",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_634",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_635",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_636",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_637",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_638",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_639",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_640",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_641",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_642",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_643",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_644",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_645",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_646",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_647",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_648",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_649",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_650",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_651",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_652",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_653",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_654",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_655",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_656",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_657",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_658",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_659",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_660",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_661",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_662",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_663",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_664",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_665",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_666",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_667",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_668",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_669",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_670",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_671",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_672",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_673",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_674",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_675",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_676",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_677",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_678",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_679",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_680",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_681",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_758",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_759",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_760",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_761",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_762",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_763",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_764",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_765",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_766",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_767",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_768",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_769",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_773",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_792",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_793",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_794",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_795",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_796",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_797",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_798",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_799",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_800",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_801",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_802",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_803",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_804",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_805",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_806",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_807",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_808",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_809",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_810",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_811",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_812",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_814",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_816",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_817",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_818",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_819",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_820",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_821",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_822",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_823",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_824",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_825",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_826",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_827",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_828",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_829",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_830",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_831",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_832",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_833",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_834",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_835",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_836",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_837",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_838",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_839",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_840",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_841",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_842",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_843",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_844",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_845",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_846",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_847",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_848",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_849",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_850",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_851",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_852",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_853",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_854",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_855",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_856",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_857",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_858",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_859",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_860",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_861",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_862",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_863",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_864",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_865",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_866",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_867",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_868",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_869",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_870",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_871",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_872",
+      "passed": true
+    },
+    {
+      "test": "catalog_price_873",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_NONE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_NONE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_FIRE_TERA_SHARD')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_FIRE_TERA_SHARD')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_MACH_BIKE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_CUT')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_FLY')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_SURF')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_STRENGTH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_FLASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_ROCK_SMASH')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_WATERFALL')",
+      "passed": true
+    },
+    {
+      "test": "excluded_(1, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "excluded_purchase_(1, 'ITEM_HM_DIVE')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_POTION')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_MASTER_BALL')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_ABILITY_PATCH')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_ABILITY_CAPSULE')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_CHARIZARDITE_X')",
+      "passed": true
+    },
+    {
+      "test": "positive_discount_(1, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "buy_(1, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "delivered_(1, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "charged_(1, 'ITEM_NORMALIUM_Z')",
+      "passed": true
+    },
+    {
+      "test": "insufficient_1",
+      "passed": true
+    },
+    {
+      "test": "insufficient_no_item_1",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(1, 100)",
+      "passed": true
+    },
+    {
+      "test": "invalid_quantity_(1, 4294967295)",
+      "passed": true
+    },
+    {
+      "test": "invalid_no_charge_1",
+      "passed": true
+    },
+    {
+      "test": "full_1",
+      "passed": true
+    },
+    {
+      "test": "full_no_charge_1",
+      "passed": true
+    },
+    {
+      "test": "tm_single_1",
+      "passed": true
+    },
+    {
+      "test": "tm_duplicate_1",
+      "passed": true
+    },
+    {
+      "test": "tm_no_charge_1",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "reload_1",
+      "passed": true
+    },
+    {
+      "test": "purchases_persist_1",
+      "passed": true
+    },
+    {
+      "test": "classic_eight_rows_1",
+      "passed": true
+    },
+    {
+      "test": "store_open_1",
+      "passed": true
+    },
+    {
+      "test": "cancel_keeps_store_1",
+      "passed": true
+    },
+    {
+      "test": "ui_purchase_quantity_1",
+      "passed": true
+    },
+    {
+      "test": "ui_purchase_charge_1",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 1)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 2)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 5)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 6)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 7)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 9)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 10)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 12)",
+      "passed": true
+    },
+    {
+      "test": "ui_allowed_pocket_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "all_store_pockets_1",
+      "passed": true
+    },
+    {
+      "test": "store_closed_1",
+      "passed": true
+    },
+    {
+      "test": "controls_released_1",
+      "passed": true
+    }
+  ]
+}

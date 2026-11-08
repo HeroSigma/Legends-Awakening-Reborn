@@ -235,7 +235,26 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_LITTLEROOT_INTRO_STATE",
+      "var_value": "11",
+      "script": "LegendsBedroom_BlockStairs"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_LITTLEROOT_INTRO_STATE",
+      "var_value": "12",
+      "script": "LegendsBedroom_BlockStairs"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",

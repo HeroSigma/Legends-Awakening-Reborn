@@ -1,0 +1,38 @@
+{
+  "confirmed": {
+    "maps": 56,
+    "new_maps": 47,
+    "new_tilesets": 17,
+    "layout_bytes": 217124,
+    "asset_bytes": 285300,
+    "travel_and_metadata_bytes": 9532,
+    "warps": 199,
+    "connections": 35,
+    "estimated_bytes": 511956,
+    "additional_free_needed": 0
+  },
+  "candidates": {
+    "maps": 484,
+    "new_maps": 475,
+    "new_tilesets": 56,
+    "layout_bytes": 1160648,
+    "asset_bytes": 884324,
+    "travel_and_metadata_bytes": 89904,
+    "warps": 1474,
+    "connections": 176,
+    "estimated_bytes": 2134876,
+    "additional_free_needed": 407488
+  },
+  "entire_donor": {
+    "maps": 701,
+    "new_maps": 692,
+    "new_tilesets": 62,
+    "layout_bytes": 1554370,
+    "asset_bytes": 976788,
+    "travel_and_metadata_bytes": 131220,
+    "warps": 2159,
+    "connections": 269,
+    "estimated_bytes": 2662378,
+    "additional_free_needed": 934990
+  }
+}

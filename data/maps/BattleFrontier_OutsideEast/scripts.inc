@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_OutsideEast_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideEast_OnTransition
@@ -434,3 +436,152 @@ BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "with a long tail up ahead!\p"
 	.string "It was hiding under a boulder, and\n"
 	.string "it kept staring at me!$"
+
+#else
+BattleFrontier_OutsideEast_MapScripts::
+	.byte 0
+BattleFrontier_OutsideEast_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_ShowSudowoodo::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BattleTowerSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BattlePalaceSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BattleArenaSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BattlePyramidSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_NinjaBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Man1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Hiker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_HexManiac::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BlackBelt1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Cook::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Zigzagoon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_RichBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_ExpertF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_TriathleteF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Twin::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Man2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_TriathleteM::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Sudowoodo::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_WaterSudowoodo::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_Movement_SudowoodoShake:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Maniac1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_PsychicM::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Man3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Woman1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Woman2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_BlackBelt2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Maniac2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Woman3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_RankingHallSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_ExchangeCornerSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Gentleman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_OldWoman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_EventScript_Camper::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideEast_Text_BattleTowerSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BattlePalaceSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BattleArenaSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BattlePyramidSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_RankingHallSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_ThriveInDarkness:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_GotWipedOut:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 FallarborTown_BattleTentCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentCorridor_OnFrame
 	.byte 0
@@ -66,3 +68,26 @@ FallarborTown_ContestHall_Text_SuperRankStage:
 	.string "POKéMON CONTESTS\n"
 	.string "SUPER RANK STAGE!$"
 
+
+#else
+FallarborTown_BattleTentCorridor_MapScripts::
+	.byte 0
+FallarborTown_BattleTentCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+FallarborTown_BattleTentCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+FallarborTown_BattleTentCorridor_Movement_WalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+FallarborTown_BattleTentCorridor_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
+	.string "This feature is disabled in this build.$"
+FallarborTown_ContestHall_Text_MonAllTheseRibbons:
+	.string "This feature is disabled in this build.$"
+FallarborTown_ContestHall_Text_CantWinEverywhere:
+	.string "This feature is disabled in this build.$"
+FallarborTown_ContestHall_Text_SuperRankStage:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleArenaLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleArenaLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleArenaLobby_OnWarp
@@ -578,3 +580,166 @@ BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
 	.string "My dear challenger, in recognition of\n"
 	.string "your indefatigable spirit, please\l"
 	.string "accept these Battle Point(s).$"
+
+#else
+BattleFrontier_BattleArenaLobby_MapScripts::
+	.byte 0
+BattleFrontier_BattleArenaLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_DefeatedTycoon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_GiveBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_SaveAfterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_RecordMatch::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_EndSaveAfterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_AskTakeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_EnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_NotEnoughValidMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_NotEnoughValidMonsLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_NotEnoughValidMonsLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_LoadPartyAndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_EndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToLeftDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToLeftDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToRightDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToRightDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_ShowResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_Youngster::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_Camper::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_BattleRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_MindRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_SkillRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_BodyRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_OkayToSave:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
+	.string "This feature is disabled in this build.$"
+#endif

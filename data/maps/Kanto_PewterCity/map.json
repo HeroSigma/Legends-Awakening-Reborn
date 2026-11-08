@@ -1,0 +1,99 @@
+{
+  "id": "MAP_KANTOAR_3_2_PEWTERCITY",
+  "name": "Kanto_PewterCity",
+  "layout": "LAYOUT_KANTOAR_3_2_PEWTERCITY",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KANTOAR_3_20_ROUTE2",
+      "offset": 12,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_KANTOAR_3_21_ROUTE3",
+      "offset": 10,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_3_2_PEWTERCITY_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 24,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_3_2_PewterCity_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_0_PEWTERCITY_MUSEUM_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_0_PEWTERCITY_MUSEUM_1F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_2_PEWTERCITY_GYM",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 28,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_3_PEWTERCITY_MART",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 33,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_4_PEWTERCITY_HOUSE1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_5_PEWTERCITY_POKEMONCENTER_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 29,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_6_7_PEWTERCITY_HOUSE2",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

@@ -1,0 +1,12 @@
+{
+  "source": "User-supplied codex-clipboard-756eac32-a138-4afb-91e9-bec732d07213.png",
+  "sha256": "9753b8f2880af282b1ba1b1d181bf267cd0e56b6129c5484937c52359c4a7927",
+  "dimensions": [
+    216,
+    168
+  ],
+  "processing": "Original pixel dimensions retained; atlas uses a dedicated 16-color bank. Locations authored in locations.json; towns and landmarks override route cells.",
+  "hyper_audit": "Prior compressed-asset candidate scan did not verify a complete Sinnoh town-map tiles/palette/layout set. No Hyper map claim is made.",
+  "geography_reference": "https://theroutepedia.com/pokemon-platinum/map/sinnoh",
+  "runtime_scope": "Hover labels only; no Fly destinations, warps, events, or story unlocks."
+}

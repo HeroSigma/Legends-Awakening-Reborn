@@ -1,0 +1,58 @@
+{
+  "id": "MAP_HYPERSINNOH_36_87_MT_CORONET",
+  "name": "Sinnoh_Mt_Coronet_Section_07",
+  "layout": "LAYOUT_HYPERSINNOH_36_87_MT_CORONET",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 37,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_87_MT_CORONET",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 7,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 40,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 35,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_87_MT_CORONET",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

@@ -1,4 +1,6 @@
 #include "global.h"
+#include "dynamic_move_info.h"
+#include "caps.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_anim_scripts.h"
@@ -5662,6 +5664,12 @@ enum Obedience GetAttackerObedienceForAction(void)
     if (FlagGet(FLAG_BADGE07_GET)) // Mind Badge
         obedienceLevel = 80;
 
+    // Obedience must never fall below the story's permitted training level.
+    // The opening uses the same level-16 limit as the training scientist.
+    u32 storyCap = FlagGet(FLAG_LA_RED_DEX_GIFTS) ? GetCurrentLevelCap() : 16;
+    if (obedienceLevel < storyCap)
+        obedienceLevel = storyCap;
+
     if (B_OBEDIENCE_MECHANICS >= GEN_8
      && !IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))
         levelReferenced = gBattleMons[gBattlerAttacker].metLevel;
@@ -6796,6 +6804,75 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageContext *ctx)
     }
 
     return uq4_12_multiply_by_int_half_down(modifier, basePower);
+}
+
+// Read-only move-menu estimate. Hidden enemy abilities/items are deliberately absent.
+void GetMoveDescriptionPreview(enum BattlerId battler, enum Move move, struct MoveDescriptionPreview *out)
+{
+    struct DamageContext ctx = {0};
+    struct BattleCalcValues cv = {0};
+    enum BattlerId savedPotential = gPotentialItemEffectBattler;
+    enum BattleMoveEffects effect;
+    u32 i;
+    move = (u32)move < MOVES_COUNT_ALL ? move : MOVE_NONE;
+    out->displayMove = move;
+    out->power = out->basePower = GetMovePower(move);
+    out->accuracy = out->baseAccuracy = GetMoveAccuracy(move);
+    out->category = GetMoveCategory(move);
+    if (battler >= gBattlersCount || move == MOVE_NONE || move == MOVE_UNAVAILABLE)
+        return;
+    if (GetActiveGimmick(battler) == GIMMICK_DYNAMAX || IsGimmickSelected(battler, GIMMICK_DYNAMAX))
+    {
+        out->displayMove = GetMaxMove(battler, move);
+        out->power = out->basePower = GetMaxMovePower(move, out->displayMove);
+        out->accuracy = out->baseAccuracy = 0;
+        if (IsBattleMoveStatus(move)) out->power = out->basePower = 0;
+        gPotentialItemEffectBattler = savedPotential;
+        return;
+    }
+    if (GetActiveGimmick(battler) == GIMMICK_Z_MOVE || IsGimmickSelected(battler, GIMMICK_Z_MOVE))
+        return; // Preserve baseline until a dedicated Z-move preview is supported.
+    ctx.battlerAtk = cv.battlerAtk = battler;
+    ctx.battlerDef = cv.battlerDef = GetOppositeBattler(battler);
+    if (!IsBattlerAlive(ctx.battlerDef))
+        ctx.battlerDef = cv.battlerDef = GetPartnerBattler(ctx.battlerDef);
+    ctx.move = ctx.chosenMove = ctx.baseMove = cv.move = move;
+    cv.moveEffect = effect = GetMoveEffect(move);
+    ctx.weather = gBattleWeather;
+    ctx.terrain = gFieldTimers.terrain;
+    for (i=0; i<gBattlersCount; i++)
+        if (GetBattlerSide(i) == GetBattlerSide(battler) && IsBattlerAlive(i))
+        {
+            ctx.abilities[i] = cv.abilities[i] = GetBattlerAbility(i);
+            ctx.holdEffects[i] = cv.holdEffects[i] = GetBattlerHoldEffect(i);
+        }
+    ctx.moveType = GetDynamicMoveType(GetBattlerMon(battler), move, battler, ctx.abilities[battler], ctx.holdEffects[battler], MON_IN_BATTLE);
+    // Random, target-dependent and turn-order power stays at its authored value.
+    // This avoids predictions based on hidden information or stale execution state.
+    switch (effect)
+    {
+    case EFFECT_MAGNITUDE: case EFFECT_PRESENT: case EFFECT_PLEDGE:
+    case EFFECT_REVENGE: case EFFECT_PURSUIT: case EFFECT_DOUBLE_POWER_ON_ARG_STATUS:
+    case EFFECT_POWER_BASED_ON_TARGET_HP: case EFFECT_ASSURANCE: case EFFECT_LOW_KICK:
+    case EFFECT_HEAT_CRASH: case EFFECT_PUNISHMENT: case EFFECT_ELECTRO_BALL:
+    case EFFECT_GYRO_BALL: case EFFECT_PAYBACK: case EFFECT_BOLT_BEAK:
+    case EFFECT_FUSION_COMBO: case EFFECT_ROUND: case EFFECT_BEAT_UP:
+    case EFFECT_FICKLE_BEAM: case EFFECT_KNOCK_OFF: case EFFECT_BRINE:
+    case EFFECT_DYNAMAX_DOUBLE_DMG:
+        break;
+    default:
+        if (IsBattleMoveStatus(move))
+            out->power = 0;
+        else if (ctx.abilities[battler] != ABILITY_ANALYTIC && ctx.abilities[battler] != ABILITY_RIVALRY)
+            out->power = min(999, CalcMoveBasePowerAfterModifiers(&ctx));
+        break;
+    }
+    if (effect == EFFECT_TERA_BLAST && GetActiveGimmick(battler) == GIMMICK_TERA)
+        out->category = gBattleMons[battler].attack > gBattleMons[battler].spAttack ? DAMAGE_CATEGORY_PHYSICAL : DAMAGE_CATEGORY_SPECIAL;
+    // The accuracy helper writes this scratch battler even in a dry run.
+    if (effect != EFFECT_OHKO)
+        out->accuracy = CanMoveSkipAccuracyCalc(&cv, gBattleWeather, CHECK_TRIGGER) ? 0 : min(100, GetTotalAccuracy(&cv, gBattleWeather));
+    gPotentialItemEffectBattler = savedPotential;
 }
 
 static bool32 IsRuinStatusActive(u32 fieldEffect)
@@ -9345,6 +9422,13 @@ bool32 CanStealItem(enum BattlerId battlerStealing, enum BattlerId battlerItem, 
         return FALSE;
     }
 
+    // Player theft from wild opponents can collect protected equipment.
+    // Keep Sticky Hold, empty-hand and damage checks in the native move handler.
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_LINK | BATTLE_TYPE_FRONTIER))
+     && stealerSide == B_SIDE_PLAYER && GetBattlerSide(battlerItem) == B_SIDE_OPPONENT
+     && (GetItemHoldEffect(item) == HOLD_EFFECT_MEGA_STONE || GetItemHoldEffect(item) == HOLD_EFFECT_Z_CRYSTAL))
+        return TRUE;
+
     if (!CanBattlerGetOrLoseItem(battlerItem, battlerStealing, item)  // Battler with item cannot have it stolen
      || !CanBattlerGetOrLoseItem(battlerStealing, battlerItem, item)) // Stealer cannot take the item
         return FALSE;
@@ -11193,8 +11277,17 @@ void SetValuesOnFaint(enum BattlerId battler)
     }
 }
 
+bool32 IsStoryBattleCaptureBlocked(void)
+{
+    return (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+        && (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) || FlagGet(FLAG_LA_MIRAIDON_BATTLE));
+}
+
 bool32 IsVictoryCatch(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return FALSE;
+
     return gBattleTypeFlags & BATTLE_TYPE_RAID
         || FlagGet(B_FLAG_VICTORY_CATCH_RANDOM)
         || FlagGet(B_FLAG_VICTORY_CATCH_GUARANTEED);
@@ -11202,6 +11295,9 @@ bool32 IsVictoryCatch(void)
 
 bool32 IsVictoryCatchGuaranteed(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return FALSE;
+
     return gBattleTypeFlags & BATTLE_TYPE_RAID
         || FlagGet(B_FLAG_VICTORY_CATCH_GUARANTEED);
 }

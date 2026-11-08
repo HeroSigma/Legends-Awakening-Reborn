@@ -1,0 +1,14 @@
+{
+  "released": true,
+  "rom_sha256": "c5f49008c8941134a0ec26d03a082d53af92db0a9668a2bcc4f9464d7f512596",
+  "save_preserved": true,
+  "save_sha256": "4bd214ef7181a43258fd5c96008066ce3ad7577493fc12af41a9319bd21e98de",
+  "checks": 2549,
+  "backup": "/home/allan/projects/Legends-Awakening-Reborn/.la_work/qol_features/release_backup/20261027_224348",
+  "feature": "feature/field-move-unlocks",
+  "test_branch": "test/qol-first-three",
+  "local_map_edits": {
+    "data/maps/Hoenn_Basement/map.json": "af88cd9509c329d7583f396a38cf2324d09690170721b63cbb1e9dcf61cda2c8",
+    "data/maps/RustboroCity_DevonCorp_1F/map.json": "542e1e31e9e332a09adc5c368b7fd6a528bb04561e27afb18a1bbf84c4961fda"
+  }
+}

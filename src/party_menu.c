@@ -15,6 +15,8 @@
 #include "easy_chat.h"
 #include "event_data.h"
 #include "event_object_movement.h"
+#include "preferred_follower.h"
+#include "pokeride.h"
 #include "evolution_scene.h"
 #include "field_control_avatar.h"
 #include "field_effect.h"
@@ -81,6 +83,7 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 
+#if !SWSH_PARTY_MENU
 enum {
     MENU_SUMMARY,
     MENU_SWITCH,
@@ -110,6 +113,14 @@ enum {
     MENU_CATALOG_MOWER,
     MENU_CHANGE_FORM,
     MENU_CHANGE_ABILITY,
+    MENU_FIELD_SKILLS,
+    MENU_FIELD_SKILLS_NEXT,
+    MENU_FIELD_SKILLS_BACK,
+    MENU_FOLLOWER,
+    MENU_FOLLOWER_SET,
+    MENU_RIDE,
+    MENU_FOLLOWER_RECALL,
+    MENU_FOLLOWER_AUTO,
     MENU_FIELD_MOVES
 };
 
@@ -185,7 +196,11 @@ struct PartyMenuInternal
     u32 spriteIdCancelPokeball:7;
     u32 messageId:14;
     u8 windowId[3];
-    u8 actions[8];
+    u8 actions[9];
+    u8 fieldSkillsPage;
+    u16 bulkCount, bulkMax;
+    TaskFunc bulkReturnTask;
+    bool8 bulkReady, bulkCandy;
     u8 numActions;
     // In vanilla Emerald, only the first 0xB0 hwords (0x160 bytes) are actually used.
     // However, a full 0x100 hwords (0x200 bytes) are allocated.
@@ -318,6 +333,9 @@ static void Task_CancelChooseMonYesNo(u8);
 static void PartyMenuDisplayYesNoMenu(void);
 static void Task_HandleCancelChooseMonYesNoInput(u8);
 static void Task_ReturnToChooseMonAfterText(u8);
+static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mon, bool32 candy);
+u32 TrainingItem_MaxQuantity(struct Pokemon *mon, enum Item item);
+u32 TrainingItem_Apply(struct Pokemon *mon, enum Item item, u32 slot, u32 count);
 static void UpdateCurrentPartySelection(s8 *, s8);
 static void UpdatePartySelectionSingleLayout(s8 *, s8);
 static void UpdatePartySelectionDoubleLayout(s8 *, s8);
@@ -455,6 +473,11 @@ static void ShiftMoveSlot(struct BoxPokemon *, u8, u8);
 static void BlitBitmapToPartyWindow_LeftColumn(u8, u8, u8, u8, u8, bool8);
 static void BlitBitmapToPartyWindow_RightColumn(u8, u8, u8, u8, u8, bool8);
 static void CursorCb_Summary(u8);
+static void CursorCb_Follower(u8);
+static void CursorCb_FollowerSet(u8);
+static void CursorCb_Ride(u8);
+static void CursorCb_FollowerRecall(u8);
+static void CursorCb_FollowerAuto(u8);
 static void CursorCb_Switch(u8);
 static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
@@ -474,6 +497,9 @@ static void CursorCb_Trade1(u8);
 static void CursorCb_Trade2(u8);
 static void CursorCb_Toss(u8);
 static void CursorCb_FieldMove(u8);
+static void CursorCb_FieldSkills(u8);
+static void CursorCb_FieldSkillsNext(u8);
+static void CursorCb_FieldSkillsBack(u8);
 static void CursorCb_CatalogBulb(u8);
 static void CursorCb_CatalogOven(u8);
 static void CursorCb_CatalogWashing(u8);
@@ -2959,7 +2985,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     {
         for (j = 0; j != FIELD_MOVES_COUNT; j++)
         {
-            if (!FieldMove_IsVisible(j))
+            if (FieldMove_IsSlotFree(j) || !FieldMove_IsVisible(j))
                 continue;
 
             if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == FieldMove_GetMoveId(j))
@@ -2970,6 +2996,8 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         }
     }
 
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS);
+
     if (!InBattlePike())
     {
         if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
@@ -2979,6 +3007,10 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         else
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_ITEM);
     }
+    // Keep the menu within nine rows. Fully occupied menus also expose this
+    // choice through FIELD SKILLS, without dropping a learned field move.
+    if (sPartyMenuInternal->numActions < 8)
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER);
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
 
@@ -3473,7 +3505,7 @@ static void CursorCb_Give(u8 taskId)
 static void CB2_SelectBagItemToGive(void)
 {
     if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE)
-        GoToBagMenu(ITEMMENULOCATION_PARTY, POCKETS_COUNT, CB2_GiveHoldItem);
+        GoToBagMenu(ITEMMENULOCATION_PARTY, BAG_CATEGORIES_COUNT, CB2_GiveHoldItem);
     else
         GoToBattlePyramidBagMenu(PYRAMIDBAG_LOC_PARTY, CB2_GiveHoldItem);
 }
@@ -4730,7 +4762,7 @@ void CB2_ShowPartyMenuForItemUse(void)
 static void CB2_ReturnToBagMenu(void)
 {
     if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE)
-        GoToBagMenu(ITEMMENULOCATION_LAST, POCKETS_COUNT, NULL);
+        GoToBagMenu(ITEMMENULOCATION_LAST, BAG_CATEGORIES_COUNT, NULL);
     else
         GoToBattlePyramidBagMenu(PYRAMIDBAG_LOC_PREV, gPyramidBagMenuState.exitCallback);
 }
@@ -4882,6 +4914,11 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     enum Item item = gSpecialVar_ItemId;
     bool8 canHeal, cannotUse;
     u32 oldStatus = GetMonData(mon, MON_DATA_STATUS);
+    if (TryBulkTrainingPrompt(taskId, task, mon, FALSE))
+        return;
+    u32 quantity = max(1, sPartyMenuInternal->bulkCount);
+    sPartyMenuInternal->bulkCount = 1;
+    u32 used = 0;
 
     if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
     {
@@ -4896,7 +4933,8 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
             if (hp == GetMonData(mon, MON_DATA_MAX_HP))
                 canHeal = FALSE;
         }
-        cannotUse = ExecuteTableBasedItemEffect(mon, item, gPartyMenu.slotId, 0);
+        used = TrainingItem_Apply(mon, item, gPartyMenu.slotId, quantity);
+        cannotUse = used == 0;
     }
 
     if (cannotUse != FALSE)
@@ -4917,7 +4955,7 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
         if (!IsItemFlute(item))
         {
             PlaySE(SE_USE_ITEM);
-            RemoveBagItem(item, 1);
+            RemoveBagItem(item, used);
         }
         else
         {
@@ -5825,11 +5863,18 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     bool8 cannotUseEffect;
     u8 holdEffectParam = GetItemHoldEffectParam(*itemPtr);
 
+    if (TryBulkTrainingPrompt(taskId, task, mon, TRUE))
+        return;
+    u32 quantity = max(1, ptr->bulkCount);
+    ptr->bulkCount = 1;
+    u32 used = 0;
+    u32 oldExp = GetMonData(mon, MON_DATA_EXP);
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
     if (!(B_RARE_CANDY_CAP && sInitialLevel >= GetCurrentLevelCap()))
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
-        cannotUseEffect = ExecuteTableBasedItemEffect(mon, *itemPtr, gPartyMenu.slotId, 0);
+        used = TrainingItem_Apply(mon, *itemPtr, gPartyMenu.slotId, quantity);
+        cannotUseEffect = used == 0;
         BufferMonStatsToTaskData(mon, &ptr->data[NUM_STATS]);
     }
     else
@@ -5876,7 +5921,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         sFinalLevel = GetMonData(mon, MON_DATA_LEVEL);
         gPartyMenuUseExitCallback = TRUE;
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
-        RemoveBagItem(gSpecialVar_ItemId, 1);
+        RemoveBagItem(gSpecialVar_ItemId, used);
         GetMonNickname(mon, gStringVar1);
         if (sFinalLevel > sInitialLevel)
         {
@@ -5888,7 +5933,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
             }
             else // Exp Candies
             {
-                ConvertIntToDecimalStringN(gStringVar2, sExpCandyExperienceTable[holdEffectParam - 1], STR_CONV_MODE_LEFT_ALIGN, 6);
+                ConvertIntToDecimalStringN(gStringVar2, (GetMonData(mon, MON_DATA_EXP) - oldExp), STR_CONV_MODE_LEFT_ALIGN, 6);
                 ConvertIntToDecimalStringN(gStringVar3, sFinalLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExpAndElevatedToLvVar3);
             }
@@ -5900,7 +5945,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         else
         {
             PlaySE(SE_USE_ITEM);
-            ConvertIntToDecimalStringN(gStringVar2, sExpCandyExperienceTable[holdEffectParam - 1], STR_CONV_MODE_LEFT_ALIGN, 6);
+            ConvertIntToDecimalStringN(gStringVar2, (GetMonData(mon, MON_DATA_EXP) - oldExp), STR_CONV_MODE_LEFT_ALIGN, 6);
             StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExp);
             DisplayPartyMenuMessage(gStringVar4, FALSE);
             ScheduleBgCopyTilemapToVram(2);
@@ -8624,3 +8669,155 @@ s8 Test_UpdatePartySelectionSingleLayout(s8 slotId, s8 movementDir, bool8 choose
     return slotId;
 }
 #endif
+
+// Six skills per page: at most eight rows including page navigation and Back.
+static void ShowFieldSkills(u8 taskId)
+{
+    static const u8 skills[] = {FIELD_MOVE_CUT, FIELD_MOVE_FLASH, FIELD_MOVE_ROCK_SMASH,
+        FIELD_MOVE_STRENGTH, FIELD_MOVE_SURF, FIELD_MOVE_FLY,
+        FIELD_MOVE_DIVE, FIELD_MOVE_WATERFALL, FIELD_MOVE_ROCK_CLIMB};
+    u32 i, first = sPartyMenuInternal->fieldSkillsPage ? 6 : 0;
+    u32 end = sPartyMenuInternal->fieldSkillsPage ? ARRAY_COUNT(skills) : 6;
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    sPartyMenuInternal->numActions = 0;
+    for (i = first; i < end; i++)
+        if (FieldMove_CanAssist(&gPlayerParty[gPartyMenu.slotId], skills[i]))
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_MOVES + skills[i]);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_NEXT);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void CursorCb_FieldSkills(u8 taskId)
+{
+    sPartyMenuInternal->fieldSkillsPage = 0;
+    ShowFieldSkills(taskId);
+}
+
+static void CursorCb_FieldSkillsNext(u8 taskId)
+{
+    sPartyMenuInternal->fieldSkillsPage ^= 1;
+    ShowFieldSkills(taskId);
+}
+
+static void CursorCb_FieldSkillsBack(u8 taskId)
+{
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    SetPartyMonFieldSelectionActions(gPlayerParty, gPartyMenu.slotId);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void CursorCb_Follower(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    sPartyMenuInternal->numActions = 0;
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_SET);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_RIDE);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_RECALL);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOWER_AUTO);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FIELD_SKILLS_BACK);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+static void FollowerMessage(u8 taskId, const u8 *text)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    DisplayPartyMenuMessage(text, TRUE);
+    gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
+}
+static void CursorCb_FollowerSet(u8 taskId)
+{
+    bool32 set = PreferredFollower_Set(gPartyMenu.slotId);
+    FollowerMessage(taskId, set ? COMPOUND_STRING("This Pokémon will follow you.")
+        : COMPOUND_STRING("Choose a healthy Pokémon first."));
+}
+static void CursorCb_FollowerRecall(u8 taskId)
+{
+    if (!PokeRide_CanDismount())
+    {
+        FollowerMessage(taskId, COMPOUND_STRING("Land before recalling your ride."));
+        return;
+    }
+    PokeRide_Stop();
+    PreferredFollower_Recall();
+    FollowerMessage(taskId, COMPOUND_STRING("Your companion will stay in its Ball."));
+}
+static void CursorCb_FollowerAuto(u8 taskId)
+{
+    PreferredFollower_Automatic();
+    FollowerMessage(taskId, COMPOUND_STRING("The first healthy Pokémon will follow."));
+}
+
+// Quantity selection adapted to the modern item engine without changing effects
+// or save structures. Only field training items use it; battle items stay single.
+static void PrintBulkTrainingPrompt(void)
+{
+    ConvertIntToDecimalStringN(gStringVar1, sPartyMenuInternal->bulkCount, STR_CONV_MODE_LEFT_ALIGN, 4);
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Use how many? {STR_VAR_1}\nA: Use   B: Cancel"));
+    DrawStdFrameWithCustomTileAndPalette(WIN_MSG, FALSE, 0x4F, 13);
+    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, gStringVar4, TEXT_SPEED_INSTANT,
+        NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    ScheduleBgCopyTilemapToVram(2);
+}
+static void Task_BulkTrainingInput(u8 taskId)
+{
+    if (IsPartyMenuTextPrinterActive())
+        return;
+    if (JOY_NEW(B_BUTTON))
+    {
+        sPartyMenuInternal->bulkCount = 1;
+        sPartyMenuInternal->bulkReady = FALSE;
+        ReturnToUseOnWhichMon(taskId);
+    }
+    else if (JOY_NEW(A_BUTTON))
+    {
+        sPartyMenuInternal->bulkReady = TRUE;
+        if (sPartyMenuInternal->bulkCandy)
+            ItemUseCB_RareCandy(taskId, sPartyMenuInternal->bulkReturnTask);
+        else
+            ItemUseCB_Medicine(taskId, sPartyMenuInternal->bulkReturnTask);
+    }
+    else if (AdjustQuantityAccordingToDPadInput((s16 *)&sPartyMenuInternal->bulkCount, sPartyMenuInternal->bulkMax))
+        PrintBulkTrainingPrompt();
+}
+static bool32 TryBulkTrainingPrompt(u8 taskId, TaskFunc task, struct Pokemon *mon, bool32 candy)
+{
+    if (sPartyMenuInternal->bulkReady)
+    {
+        sPartyMenuInternal->bulkReady = FALSE;
+        return FALSE;
+    }
+    sPartyMenuInternal->bulkCount = 1;
+    if (gPartyMenu.menuType != PARTY_MENU_TYPE_FIELD || gPartyMenu.slotId >= PARTY_SIZE)
+        return FALSE;
+    u32 maximum = TrainingItem_MaxQuantity(mon, gSpecialVar_ItemId);
+    if (maximum <= 1)
+        return FALSE;
+    sPartyMenuInternal->bulkMax = min(maximum, 9999);
+    sPartyMenuInternal->bulkCandy = candy;
+    sPartyMenuInternal->bulkReturnTask = task;
+    PrintBulkTrainingPrompt();
+    gTasks[taskId].func = Task_BulkTrainingInput;
+    return TRUE;
+}
+
+static void CursorCb_Ride(u8 taskId)
+{
+    bool32 mounted = PokeRide_Start(gPartyMenu.slotId);
+    FollowerMessage(taskId, mounted ? COMPOUND_STRING("Ready! L+R: off. Flying mounts: B.")
+        : COMPOUND_STRING("You can't ride this Pokémon here yet."));
+}
+
+#endif // !SWSH_PARTY_MENU

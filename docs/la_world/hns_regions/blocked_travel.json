@@ -1,0 +1,116 @@
+[
+  {
+    "map": "NewBarkTown_hns",
+    "index": 4,
+    "event": {
+      "x": 16,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_TEST_MAP1_HNS",
+      "dest_warp_id": "0"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "NewBarkTown_hns",
+    "index": 7,
+    "event": {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_TEST_MAP1_HNS",
+      "dest_warp_id": "0"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "EcruteakCity_hns",
+    "index": 14,
+    "event": {
+      "x": 39,
+      "y": 46,
+      "elevation": 0,
+      "dest_map": "MAP_TEST_MAP1_HNS",
+      "dest_warp_id": "0"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "MtSilver_1F_WaterfallRoom_hns",
+    "index": 7,
+    "event": {
+      "x": 43,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_SNOWSWEPT_CAVERN_HNS",
+      "dest_warp_id": "0"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "BattleColosseum_2P_hns",
+    "index": 0,
+    "event": {
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "WARP_ID_DYNAMIC"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "BattleColosseum_2P_hns",
+    "index": 1,
+    "event": {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "WARP_ID_DYNAMIC"
+    },
+    "reason": "Held source reference or out-of-scope destination"
+  },
+  {
+    "map": "FuchsiaCity_Route19_Gate_hns",
+    "index": 0,
+    "event": {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_FUCHSIA_CITY_HNS",
+      "dest_warp_id": "8"
+    },
+    "reason": "Source references nonexistent/held destination warp",
+    "destination": "FuchsiaCity_hns",
+    "destination_index": 8
+  },
+  {
+    "map": "FuchsiaCity_Route19_Gate_hns",
+    "index": 1,
+    "event": {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE19_HNS",
+      "dest_warp_id": "8"
+    },
+    "reason": "Source references nonexistent/held destination warp",
+    "destination": "Route19_hns",
+    "destination_index": 8
+  },
+  {
+    "map": "SSAqua_1F_hns",
+    "index": 0,
+    "event": {
+      "x": 29,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_OLIVINE_CITY_PORT_INSIDE_HNS",
+      "dest_warp_id": "1"
+    },
+    "reason": "Source references nonexistent/held destination warp",
+    "destination": "OlivineCity_PortInside_hns",
+    "destination_index": 1
+  }
+]

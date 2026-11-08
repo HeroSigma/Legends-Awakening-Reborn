@@ -1,4 +1,7 @@
 #include "global.h"
+#include "bw_battle_ui.h"
+#include "config/bw_battle_ui.h"
+#include "dynamic_palettes.h"
 #include "battle.h"
 #include "battle_ai_main.h"
 #include "battle_ai_util.h"
@@ -31,6 +34,8 @@
 #include "util.h"
 #include "wild_encounter.h"
 #include "constants/abilities.h"
+#include "constants/flags.h"
+#include "constants/moves.h"
 #include "constants/item_effects.h"
 #include "constants/songs.h"
 #include "test/battle.h"
@@ -160,7 +165,28 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     BattleAI_SetupFlags();
 
     if (!IS_FRLG && gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
-        CreateWildMon(SPECIES_ZIGZAGOON, 2);
+    {
+        if (FlagGet(FLAG_LA_MIRAIDON_BATTLE))
+        {
+            CreateWildMon(SPECIES_MIRAIDON, 70);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_ELECTRO_DRIFT, 0);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_DRAGON_PULSE, 1);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_FLASH_CANNON, 2);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_POWER_GEM, 3);
+        }
+        else if (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE))
+        {
+            // A fixed story opponent bypasses route/time/badge encounter pools.
+            CreateWildMon(SPECIES_IRON_VALIANT, 100);
+            SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_AERIAL_ACE, 0);
+            for (u32 i = 1; i < MAX_MON_MOVES; i++)
+                SetMonMoveSlot(&gParties[B_TRAINER_OPPONENT_A][0], MOVE_NONE, i);
+        }
+        else
+        {
+            CreateWildMon(SPECIES_ZIGZAGOON, 2);
+        }
+    }
 }
 
 void InitBattleControllers(void)
@@ -2177,8 +2203,7 @@ static void Controller_HandleTrainerSlideBack(enum BattlerId battler)
 {
     if (gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].callback == SpriteCallbackDummy)
     {
-        if (!IsOnPlayerSide(battler))
-            FreeTrainerFrontPicPalette(gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].oam.affineParam);
+        FreeTrainerFrontPicPalette(gSprites[gBattleStruct->trainerSlideSpriteIds[battler]].oam.affineParam);
         FreeSpriteOamMatrix(&gSprites[gBattleStruct->trainerSlideSpriteIds[battler]]);
         DestroySprite(&gSprites[gBattleStruct->trainerSlideSpriteIds[battler]]);
         BtlController_Complete(battler);
@@ -2487,7 +2512,7 @@ void BtlController_HandleDrawTrainerPic(enum BattlerId battler, enum TrainerPicI
         }
         else
         {
-            LoadSpritePaletteWithTag(GetTrainerBackPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, FALSE));
+            LoadSpritePaletteWithTag((GetBattlerPosition(battler) == B_POSITION_PLAYER_LEFT ? DynamicPal_TrainerPalette(trainerPicId, FALSE) : GetTrainerBackPicPalette(trainerPicId)), GetTrainerPicTag(trainerPicId, FALSE));
             SetMultiuseSpriteTemplateToTrainerBack(trainerPicId, GetBattlerPosition(battler));
             if (subpriority == -1)
                 subpriority = GetBattlerSpriteSubpriority(battler);
@@ -2517,7 +2542,7 @@ void BtlController_HandleTrainerSlide(enum BattlerId battler, enum TrainerPicID 
 {
     if (IsOnPlayerSide(battler))
     {
-        LoadSpritePaletteWithTag(GetTrainerBackPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, FALSE));
+        LoadSpritePaletteWithTag((GetBattlerPosition(battler) == B_POSITION_PLAYER_LEFT ? DynamicPal_TrainerPalette(trainerPicId, FALSE) : GetTrainerBackPicPalette(trainerPicId)), GetTrainerPicTag(trainerPicId, FALSE));
         SetMultiuseSpriteTemplateToTrainerBack(trainerPicId, GetBattlerPosition(battler));
         gBattleStruct->trainerSlideSpriteIds[battler] = CreateSprite(&gMultiuseSpriteTemplate,
                                                          80,

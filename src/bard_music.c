@@ -1,5 +1,29 @@
 #include "global.h"
 #include "bard_music.h"
+#include "constants/songs.h"
+#include "constants/moves.h"
+#if LA_FREE_SPACE
+const enum Species gNumBardWords_Species = NUM_SPECIES;
+const enum Move gNumBardWords_Moves = MOVES_COUNT;
+static const struct BardSoundTemplate sSilentWord[MAX_BARD_SOUNDS_PER_WORD] = {
+    { .songId = PHONEME_ID_NONE }, { .songId = PHONEME_ID_NONE },
+    { .songId = PHONEME_ID_NONE }, { .songId = PHONEME_ID_NONE },
+    { .songId = PHONEME_ID_NONE }, { .songId = PHONEME_ID_NONE },
+};
+const struct BardSoundTemplate *GetWordSoundTemplates(u16 easyChatWord)
+{
+    return sSilentWord;
+}
+void CalcWordSounds(struct BardSong *song, u16 pitchTableIndex)
+{
+    // The caller already skips words whose first template is PHONEME_ID_NONE.
+    song->length = 0;
+    song->soundIndex = 0;
+    song->voiceInflection = 0;
+}
+#else
+#include "global.h"
+#include "bard_music.h"
 #include "easy_chat.h"
 #include "constants/songs.h"
 
@@ -245,3 +269,5 @@ void CalcWordSounds(struct BardSong *song, u16 pitchTableIndex)
     song->soundIndex = 0;
     song->voiceInflection = 0;
 }
+
+#endif // !LA_FREE_SPACE

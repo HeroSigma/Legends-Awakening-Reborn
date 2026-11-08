@@ -1,0 +1,65 @@
+{
+  "note": "Heuristic reference queue, not proof that each doorway is missing a building. No map cells changed.",
+  "candidates": [
+    {
+      "donor_id": "3.7",
+      "name": "Fuchsia City",
+      "x": 9,
+      "y": 32,
+      "target": "11.3",
+      "grass_or_blank_cells": 10,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    },
+    {
+      "donor_id": "3.69",
+      "name": "Azalea Town",
+      "x": 36,
+      "y": 7,
+      "target": "47.4",
+      "grass_or_blank_cells": 10,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    },
+    {
+      "donor_id": "3.69",
+      "name": "Azalea Town",
+      "x": 24,
+      "y": 19,
+      "target": "47.1",
+      "grass_or_blank_cells": 11,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    },
+    {
+      "donor_id": "3.67",
+      "name": "Cherrygrove City",
+      "x": 26,
+      "y": 5,
+      "target": "45.1",
+      "grass_or_blank_cells": 11,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    },
+    {
+      "donor_id": "3.68",
+      "name": "Violet City",
+      "x": 34,
+      "y": 44,
+      "target": "46.4",
+      "grass_or_blank_cells": 11,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    },
+    {
+      "donor_id": "3.68",
+      "name": "Violet City",
+      "x": 23,
+      "y": 44,
+      "target": "46.3",
+      "grass_or_blank_cells": 10,
+      "total": 15,
+      "status": "VISUAL_FOOTPRINT_REVIEW_ONLY"
+    }
+  ]
+}

@@ -21,6 +21,18 @@ const u8 gQuestionMarksItemName[] = _("????????");
 
 const struct ItemInfo gItemsInfo[] =
 {
+    [ITEM_POKEVIAL] =
+    {
+        .name = ITEM_NAME("Pokévial"),
+        .price = 0,
+        .description = COMPOUND_STRING("Heals your party.\nThree charges; refill\nat a Pokémon Center."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pokevial,
+        .iconPic = gItemIcon_Pokevial9,
+        .iconPalette = gItemIconPalette_Pokevial,
+    },
     [ITEM_NONE] =
     {
         .name = gQuestionMarksItemName,

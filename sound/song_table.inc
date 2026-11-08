@@ -565,6 +565,11 @@ gSongTable::
 	song mus_rg_trainer_tower, MUSIC_PLAYER_BGM, 0
 	song mus_rg_slow_pallet, MUSIC_PLAYER_BGM, 0
 	song mus_rg_teachy_tv_menu, MUSIC_PLAYER_BGM, 0
+	.if LA_AUDIO_GC
+	.rept 51
+	song dummy_song_header, MUSIC_PLAYER_SE2, 2
+	.endr
+	.else
 	song ph_trap_blend, MUSIC_PLAYER_SE2, 2
 	song ph_trap_held, MUSIC_PLAYER_SE2, 2
 	song ph_trap_solo, MUSIC_PLAYER_SE2, 2
@@ -616,6 +621,7 @@ gSongTable::
 	song ph_nurse_blend, MUSIC_PLAYER_SE2, 2
 	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
 	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
+	.endif
 
 	.align 2
 dummy_song_header:

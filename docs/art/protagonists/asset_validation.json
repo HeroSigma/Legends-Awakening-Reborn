@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "test": "aren_walking_native_format_and_nine_nonempty_frames",
+      "passed": true
+    },
+    {
+      "test": "aren_running_native_format_and_nine_nonempty_frames",
+      "passed": true
+    },
+    {
+      "test": "aria_walking_native_format_and_nine_nonempty_frames",
+      "passed": true
+    },
+    {
+      "test": "aria_running_native_format_and_nine_nonempty_frames",
+      "passed": true
+    },
+    {
+      "test": "Brendan_ruby_rival_pointer_preserved",
+      "passed": true
+    },
+    {
+      "test": "May_ruby_rival_pointer_preserved",
+      "passed": true
+    }
+  ]
+}

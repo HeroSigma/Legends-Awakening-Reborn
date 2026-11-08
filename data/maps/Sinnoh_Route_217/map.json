@@ -1,0 +1,41 @@
+{
+  "id": "MAP_HYPERSINNOH_36_36_ROUTE_217",
+  "name": "Sinnoh_Route_217",
+  "layout": "LAYOUT_HYPERSINNOH_36_36_ROUTE_217",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_HYPERSINNOH_36_35_ROUTE_216"
+    },
+    {
+      "direction": "up",
+      "offset": 2,
+      "map": "MAP_HYPERSINNOH_36_48_ACUITY_LAKEFRONT"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 46,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_94_SINNOH_REGION",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

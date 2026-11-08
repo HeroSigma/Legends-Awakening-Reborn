@@ -1,0 +1,36 @@
+{
+  "id": "MAP_HYPERHOENN_34_59_MT_SILVER",
+  "name": "Hoenn_Mt_Silver_Section_02",
+  "layout": "LAYOUT_HYPERHOENN_34_59_MT_SILVER",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_MT_SILVER",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 33,
+      "elevation": 3,
+      "dest_map": "MAP_HYPERHOENN_34_58_MT_SILVER",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_HYPERHOENN_34_60_MT_SILVER",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

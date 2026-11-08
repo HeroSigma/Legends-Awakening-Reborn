@@ -1,0 +1,223 @@
+{
+  "grass": {
+    "sheet": "Nuvema.png",
+    "box": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      16,
+      16
+    ]
+  },
+  "path_source": {
+    "sheet": "Nuvema.png",
+    "box": [
+      64,
+      0,
+      112,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      48,
+      48
+    ]
+  },
+  "pool": {
+    "sheet": "Nuvema.png",
+    "box": [
+      56,
+      208,
+      104,
+      256
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      48,
+      48
+    ]
+  },
+  "water": {
+    "sheet": "Nuvema.png",
+    "box": [
+      72,
+      224,
+      88,
+      240
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      16,
+      16
+    ]
+  },
+  "beach": {
+    "sheet": "Nuvema.png",
+    "box": [
+      16,
+      224,
+      32,
+      256
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      16,
+      32
+    ]
+  },
+  "sign": {
+    "sheet": "Nuvema.png",
+    "box": [
+      17,
+      56,
+      33,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      16,
+      16
+    ]
+  },
+  "hedge": {
+    "sheet": "Nuvema.png",
+    "box": [
+      224,
+      81,
+      240,
+      128
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "size": [
+      16,
+      48
+    ]
+  },
+  "blue": {
+    "sheet": "Nuvema Second.png",
+    "box": [
+      0,
+      1,
+      70,
+      88
+    ],
+    "offset": [
+      1,
+      5
+    ],
+    "size": [
+      80,
+      96
+    ]
+  },
+  "lab": {
+    "sheet": "Nuvema Second.png",
+    "box": [
+      80,
+      1,
+      222,
+      111
+    ],
+    "offset": [
+      8,
+      0
+    ],
+    "size": [
+      160,
+      112
+    ]
+  },
+  "dock_rail": {
+    "sheet": "Nuvema.png",
+    "box": [
+      144,
+      136,
+      160,
+      152
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      16,
+      16
+    ]
+  },
+  "stairs_top": {
+    "sheet": "Nuvema.png",
+    "box": [
+      201,
+      208,
+      249,
+      216
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      48,
+      8
+    ]
+  },
+  "stairs_mid": {
+    "sheet": "Nuvema.png",
+    "box": [
+      201,
+      211,
+      249,
+      219
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      48,
+      8
+    ]
+  },
+  "stairs_base": {
+    "sheet": "Nuvema.png",
+    "box": [
+      201,
+      224,
+      249,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      48,
+      8
+    ]
+  }
+}

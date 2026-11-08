@@ -1,4 +1,6 @@
 #include "global.h"
+#include "dynamic_palettes.h"
+#include "main.h"
 #include "sprite.h"
 #include "window.h"
 #include "malloc.h"
@@ -96,12 +98,12 @@ static void LoadPicPaletteByTagOrSlot(u16 species, bool8 isShiny, u32 personalit
         if (paletteTag == TAG_NONE)
         {
             sCreatingSpriteTemplate.paletteTag = TAG_NONE;
-            LoadPalette(GetTrainerFrontPicPalette(species), OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
+            LoadPalette((gMain.inBattle ? GetTrainerFrontPicPalette(species) : DynamicPal_TrainerPalette(species, TRUE)), OBJ_PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
         }
         else
         {
             sCreatingSpriteTemplate.paletteTag = paletteTag;
-            LoadSpritePaletteWithTag(GetTrainerFrontPicPalette(species), GetTrainerPicTag(species, TRUE));
+            LoadSpritePaletteWithTag((gMain.inBattle ? GetTrainerFrontPicPalette(species) : DynamicPal_TrainerPalette(species, TRUE)), GetTrainerPicTag(species, TRUE));
         }
     }
 }
@@ -111,7 +113,7 @@ static void LoadPicPaletteBySlot(u16 species, bool8 isShiny, u32 personality, u8
     if (!isTrainer)
         LoadPalette(GetMonSpritePalFromSpeciesAndPersonality(species, isShiny, personality), PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
     else
-        LoadPalette(GetTrainerFrontPicPalette(species), PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
+        LoadPalette((gMain.inBattle ? GetTrainerFrontPicPalette(species) : DynamicPal_TrainerPalette(species, TRUE)), PLTT_ID(paletteSlot), PLTT_SIZE_4BPP);
 }
 
 static void AssignSpriteAnimsTable(bool8 isTrainer)

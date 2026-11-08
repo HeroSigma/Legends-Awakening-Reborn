@@ -379,6 +379,7 @@ void AddBagVisualSprite(u8 bagPocketId)
 
 void SetBagVisualPocketId(u8 bagPocketId, bool8 isSwitchingPockets)
 {
+    bagPocketId = BagCategory_StoragePocket(bagPocketId);
     struct Sprite *sprite = &gSprites[gBagMenu->spriteIds[ITEMMENUSPRITE_BAG]];
     if (isSwitchingPockets)
     {

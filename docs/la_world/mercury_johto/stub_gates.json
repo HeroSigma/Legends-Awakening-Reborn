@@ -1,0 +1,22 @@
+{
+  "registered_stubs": [
+    {
+      "source": "47.7",
+      "map": "Johto_Mercury_47_7_Azalea_Town",
+      "id": "MAP_JOHTO_MERCURY_47_7_AZALEA_TOWN"
+    }
+  ],
+  "construction_scientists": [],
+  "water_only_sectors_retained": [
+    "3.46",
+    "3.108",
+    "3.109",
+    "3.110",
+    "3.111",
+    "3.112",
+    "3.113",
+    "3.114",
+    "3.115"
+  ],
+  "reason": "47.7 is a forest connection-border filler, not an exploration destination. Nine checked water-only sectors retain native Surf geometry and connections."
+}

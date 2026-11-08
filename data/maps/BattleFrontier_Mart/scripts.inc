@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Mart_MapScripts::
 	.byte 0
 
@@ -63,3 +65,24 @@ BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
 	.string "That rule makes things tougher than\n"
 	.string "they already are!$"
 
+
+#else
+BattleFrontier_Mart_MapScripts::
+	.byte 0
+BattleFrontier_Mart_EventScript_Clerk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Mart_Pokemart:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Mart_EventScript_OldMan::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Mart_EventScript_OldWoman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Mart_EventScript_Boy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Mart_Text_ChaperonGrandson:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Mart_Text_ProteinMakeNiceGift:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
+	.string "This feature is disabled in this build.$"
+#endif

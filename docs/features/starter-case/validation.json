@@ -1,0 +1,357 @@
+{
+  "rom_sha256": "5555c225a6a2d661e53634067f46e04b65839a1a2ddc108dcbcc1fc96821934f",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_id_safe_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_0",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_0",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_0",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_0",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_0",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_0",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_0",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_0",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_1",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_1",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_1",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_1",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_1",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_1",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_1",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_1",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_0_2",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_0_2",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_0_2",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_0_2",
+      "passed": true
+    },
+    {
+      "test": "confirmation_0_2",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_0_2",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_0_2",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_0_2",
+      "passed": true
+    },
+    {
+      "test": "resources_released_0_2",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_0_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_id_safe_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_0",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_0",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_0",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_0",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_0",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_0",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_0",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_0",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_0",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_0",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_1",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_1",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_1",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_1",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_1",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_1",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_1",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_1",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_1",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_1",
+      "passed": true
+    },
+    {
+      "test": "default_fire_1_2",
+      "passed": true
+    },
+    {
+      "test": "right_wrap_1_2",
+      "passed": true
+    },
+    {
+      "test": "left_wrap_1_2",
+      "passed": true
+    },
+    {
+      "test": "cannot_skip_selection_1_2",
+      "passed": true
+    },
+    {
+      "test": "confirmation_1_2",
+      "passed": true
+    },
+    {
+      "test": "decline_returns_1_2",
+      "passed": true
+    },
+    {
+      "test": "correct_choice_1_2",
+      "passed": true
+    },
+    {
+      "test": "no_extra_gift_1_2",
+      "passed": true
+    },
+    {
+      "test": "resources_released_1_2",
+      "passed": true
+    },
+    {
+      "test": "storage_preserved_1_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_1",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_1",
+      "passed": true
+    },
+    {
+      "test": "native_first_battle_ready",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "native_callback_party_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_species_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_level_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_var_2",
+      "passed": true
+    },
+    {
+      "test": "native_callback_cleanup_2",
+      "passed": true
+    }
+  ]
+}

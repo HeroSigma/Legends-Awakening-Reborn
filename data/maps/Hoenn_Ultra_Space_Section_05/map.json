@@ -1,0 +1,57 @@
+{
+  "id": "MAP_HYPERHOENN_34_50_ULTRA_SPACE",
+  "name": "Hoenn_Ultra_Space_Section_05",
+  "layout": "LAYOUT_HYPERHOENN_34_50_ULTRA_SPACE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_ULTRA_SPACE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERWATER",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_35_27_TIMELESS_WOODS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_28_CRESCENT_ISLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_11_SPEAR_PILLAR",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

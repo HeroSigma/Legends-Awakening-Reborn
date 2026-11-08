@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge7_MapScripts::
 	.byte 0
 
@@ -491,3 +493,142 @@ BattleFrontier_Lounge7_Text_FirePunchDesc::
 	.string "A fiery punch\n"
 	.string "that may burn\n"
 	.string "the foe.$"
+
+#else
+BattleFrontier_Lounge7_MapScripts::
+	.byte 0
+BattleFrontier_Lounge7_EventScript_LeftMoveTutor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_AlreadyMetLeftTutor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ChooseLeftTutorMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ChooseNewLeftTutorMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Softboiled::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_SeismicToss::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_DreamEater::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_MegaPunch::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_MegaKick::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_BodySlam::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_RockSlide::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Counter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ThunderWave::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_SwordsDance::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_RightMoveTutor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_AlreadyMetRightTutor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ChooseRightTutorMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ChooseNewRightTutorMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_DefenseCurl::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Snore::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_MudSlap::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Swift::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_IcyWind::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Endure::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_PsychUp::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_IcePunch::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ThunderPunch::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_FirePunch::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ExitTutorMoveSelect::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_CancelChooseMon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_TeachTutorMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_ChooseNewMove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Sailor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_EventScript_Gentleman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge7_Text_LeftTutorIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_TeachWhichMove:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_YouDontWantTo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_RightTutorIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_SoftboiledDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_SeismicTossDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_DreamEaterDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_MegaPunchDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_MegaKickDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_BodySlamDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_RockSlideDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_CounterDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_ThunderWaveDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_SwordsDanceDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_DefenseCurlDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_SnoreDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_MudSlapDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_SwiftDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_IcyWindDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_EndureDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_PsychUpDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_IcePunchDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_ThunderPunchDesc::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge7_Text_FirePunchDesc::
+	.string "This feature is disabled in this build.$"
+#endif

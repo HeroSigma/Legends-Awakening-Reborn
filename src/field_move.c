@@ -1,5 +1,8 @@
 #include "global.h"
 #include "event_data.h"
+#include "item.h"
+#include "pokemon.h"
+#include "constants/items.h"
 #include "field_move.h"
 #include "fldeff.h"
 #include "fldeff_misc.h"
@@ -191,3 +194,63 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .hideIfLocked = TRUE,
     },
 };
+
+// Hoenn HM acquisition remains authoritative; older saves can use the owned HM.
+bool32 FieldMove_IsSlotFree(enum FieldMove move)
+{
+    return move <= FIELD_MOVE_WATERFALL || move == FIELD_MOVE_ROCK_CLIMB;
+}
+
+bool32 FieldMove_HasAcquisition(enum FieldMove move)
+{
+    static const u16 flags[] = {
+        FLAG_RECEIVED_HM_CUT, FLAG_RECEIVED_HM_FLASH, FLAG_RECEIVED_HM_ROCK_SMASH,
+        FLAG_RECEIVED_HM_STRENGTH, FLAG_RECEIVED_HM_SURF, FLAG_RECEIVED_HM_FLY,
+        FLAG_RECEIVED_HM_DIVE, FLAG_RECEIVED_HM_WATERFALL,
+    };
+    static const u16 items[] = {
+        ITEM_HM01, ITEM_HM05, ITEM_HM06, ITEM_HM04,
+        ITEM_HM03, ITEM_HM02, ITEM_HM07, ITEM_HM08,
+    };
+    if (move > FIELD_MOVE_WATERFALL)
+        return TRUE; // Preserve established Rock Climb/other field-move policy.
+    return (flags[move] != 0 && FlagGet(flags[move])) || CheckBagHasItem(items[move], 1);
+}
+
+static bool32 CanNaturallyLearnRockClimb(enum Species species)
+{
+    const struct LevelUpMove *levels = GetSpeciesLevelUpLearnset(species);
+    const u16 *eggs = GetSpeciesEggMoves(species);
+    u32 i;
+    for (i = 0; levels[i].move != LEVEL_UP_MOVE_END; i++)
+        if (levels[i].move == MOVE_ROCK_CLIMB)
+            return TRUE;
+    for (i = 0; eggs[i] != MOVE_UNAVAILABLE; i++)
+        if (eggs[i] == MOVE_ROCK_CLIMB)
+            return TRUE;
+    return FALSE;
+}
+
+bool32 FieldMove_CanAssist(struct Pokemon *mon, enum FieldMove move)
+{
+    enum Species species;
+    if (move >= FIELD_MOVES_COUNT)
+        return FALSE;
+    species = GetMonData(mon, MON_DATA_SPECIES);
+    if (species == SPECIES_NONE || GetMonData(mon, MON_DATA_IS_EGG))
+        return FALSE;
+    if (FieldMove_IsSlotFree(move))
+        return IsFieldMoveUnlocked(move)
+            && (MonKnowsMove(mon, FieldMove_GetMoveId(move)) || CanLearnTeachableMove(species, FieldMove_GetMoveId(move))
+             || (move == FIELD_MOVE_ROCK_CLIMB && CanNaturallyLearnRockClimb(species)));
+    return MonKnowsMove(mon, FieldMove_GetMoveId(move));
+}
+
+u32 FieldMove_FindUser(enum FieldMove move)
+{
+    u32 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+        if (FieldMove_CanAssist(&gPlayerParty[i], move))
+            return i;
+    return PARTY_SIZE;
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rom_sha256": "45be7a78f5bb375ce14f23799096ef159e6466bf4b8fd32e1a3256f2a72223b3",
+  "checks": {
+    "pokeride-air": 52,
+    "pokeride-water": 74,
+    "pokeride": 96,
+    "regular-protagonists": 28
+  },
+  "start_menu_checks": 446,
+  "total": 696
+}

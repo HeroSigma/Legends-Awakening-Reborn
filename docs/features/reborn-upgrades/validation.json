@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "assertions": 28,
+  "rom_sha256": "e1c6d2cac91d318356eb057972d006353650088fd292d75e54cb9a8ccee42cbb",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "restored_battle_sprite_0",
+      "passed": true
+    },
+    {
+      "test": "hyper_player_sheet_0",
+      "passed": true
+    },
+    {
+      "test": "hyper_player_palette_0",
+      "passed": true
+    },
+    {
+      "test": "swsh_tera_0",
+      "passed": true
+    },
+    {
+      "test": "swsh_mint_0",
+      "passed": true
+    },
+    {
+      "test": "summary_stays_open_0",
+      "passed": true
+    },
+    {
+      "test": "summary_returns_0",
+      "passed": true
+    },
+    {
+      "test": "tera_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_tera_0",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_mint_0",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_returns_0",
+      "passed": true
+    },
+    {
+      "test": "boxed_mon_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "restored_battle_sprite_1",
+      "passed": true
+    },
+    {
+      "test": "hyper_player_sheet_1",
+      "passed": true
+    },
+    {
+      "test": "hyper_player_palette_1",
+      "passed": true
+    },
+    {
+      "test": "swsh_tera_1",
+      "passed": true
+    },
+    {
+      "test": "swsh_mint_1",
+      "passed": true
+    },
+    {
+      "test": "summary_stays_open_1",
+      "passed": true
+    },
+    {
+      "test": "summary_returns_1",
+      "passed": true
+    },
+    {
+      "test": "tera_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_tera_1",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_mint_1",
+      "passed": true
+    },
+    {
+      "test": "boxed_summary_returns_1",
+      "passed": true
+    },
+    {
+      "test": "boxed_mon_preserved_1",
+      "passed": true
+    }
+  ]
+}

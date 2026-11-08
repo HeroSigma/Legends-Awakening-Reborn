@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "bg.h"
@@ -5209,3 +5211,49 @@ static bool32 LoadBgGfx(void)
     sGfx->loadState++;
     return FALSE;
 }
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "bg.h"
+#include "decompress.h"
+#include "dodrio_berry_picking.h"
+#include "dynamic_placeholder_text_util.h"
+#include "event_data.h"
+#include "gpu_regs.h"
+#include "international_string_util.h"
+#include "item.h"
+#include "link.h"
+#include "link_rfu.h"
+#include "m4a.h"
+#include "palette.h"
+#include "minigame_countdown.h"
+#include "random.h"
+#include "save.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "sound.h"
+#include "string_util.h"
+#include "strings.h"
+#include "task.h"
+#include "text_window.h"
+#include "window.h"
+#include "constants/items.h"
+#include "constants/songs.h"
+#include "script.h"
+#include "legacy_features.h"
+void StartDodrioBerryPicking(u16 partyId, MainCallback exitCallback)
+{
+    if (exitCallback != NULL) SetMainCallback2(exitCallback);
+}
+
+void IsDodrioInParty(void)
+{
+    gSpecialVar_Result = FALSE;
+}
+
+void ShowDodrioBerryPickingRecords(void)
+{
+    LegacyFeature_ResumeScript();
+}
+#endif

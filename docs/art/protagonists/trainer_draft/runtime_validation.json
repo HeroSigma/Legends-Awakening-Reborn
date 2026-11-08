@@ -1,0 +1,261 @@
+{
+  "rom_sha256": "26fd151d3406fa8f8d59d8b1e3bfd2a6aa57324ad6a3b93df620e6e9fac261fd",
+  "checks": [
+    {
+      "test": "aren_mach_bike_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_acro_bike_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_surfing_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_fishing_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_watering_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_field_move_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_underwater_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_decorating_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_mach_bike_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_acro_bike_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_surfing_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_fishing_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_watering_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_field_move_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_underwater_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aria_decorating_linked_art",
+      "passed": true
+    },
+    {
+      "test": "aren_Normal_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Normal_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_MachBike_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_MachBike_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_AcroBike_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_AcroBike_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_Surfing_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Surfing_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_Fishing_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Fishing_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_Watering_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Watering_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_FieldMove_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_FieldMove_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_Underwater_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Underwater_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_Decorating_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aren_Decorating_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_separate_front",
+      "passed": true
+    },
+    {
+      "test": "aren_separate_back",
+      "passed": true
+    },
+    {
+      "test": "aren_trainer_palette",
+      "passed": true
+    },
+    {
+      "test": "aren_native_rival_preserved",
+      "passed": true
+    },
+    {
+      "test": "aren_front_sprite_load",
+      "passed": true
+    },
+    {
+      "test": "aren_battle_controller_active",
+      "passed": true
+    },
+    {
+      "test": "aria_Normal_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Normal_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_MachBike_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_MachBike_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_AcroBike_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_AcroBike_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_Surfing_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Surfing_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_Fishing_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Fishing_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_Watering_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Watering_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_FieldMove_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_FieldMove_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_Underwater_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Underwater_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_Decorating_runtime_graphics",
+      "passed": true
+    },
+    {
+      "test": "aria_Decorating_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_separate_front",
+      "passed": true
+    },
+    {
+      "test": "aria_separate_back",
+      "passed": true
+    },
+    {
+      "test": "aria_trainer_palette",
+      "passed": true
+    },
+    {
+      "test": "aria_native_rival_preserved",
+      "passed": true
+    },
+    {
+      "test": "aria_front_sprite_load",
+      "passed": true
+    },
+    {
+      "test": "aria_battle_controller_active",
+      "passed": true
+    }
+  ]
+}

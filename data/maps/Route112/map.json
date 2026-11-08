@@ -3,7 +3,6 @@
   "name": "Route112",
   "layout": "LAYOUT_ROUTE112",
   "music": "MUS_ROUTE110",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_112",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -214,20 +213,6 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route112_EventScript_Shayla",
       "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE112_REGISTERED_CONSTRUCTION_1",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 7,
-      "y": 26,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route112_EventScript_HyperConstruction_Registered1",
-      "flag": "0"
     }
   ],
   "warp_events": [
@@ -293,8 +278,8 @@
     },
     {
       "type": "sign",
-      "x": 22,
-      "y": 37,
+      "x": 24,
+      "y": 38,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route112_EventScript_MtChimneyCableCarSign"
@@ -307,5 +292,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route112_EventScript_RouteSignLavaridge"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

@@ -3131,43 +3131,25 @@ const u16 gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4AAC[][16] =
 
 const u32 gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4AAC[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4aac/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_AMap_Primary_SWSH_082D4A94[][16] =
-{
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/primary/amap_primary_swsh_082d4a94/palettes/12.gbapal"),
-};
+#if !LA_FREE_SPACE
 
-const u32 gTilesetTiles_AMap_Primary_SWSH_082D4A94[] = INCBIN_U32("data/tilesets/primary/amap_primary_swsh_082d4a94/tiles.4bpp.lz");
+#endif // unused original Galar bank
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D504C[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/palettes/12.gbapal"),
-};
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D504C[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d504c/tiles.4bpp.lz");
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
 
 const u16 gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D504C[][16] =
 {
@@ -3245,100 +3227,55 @@ const u16 gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4B0C[][16] =
 
 const u32 gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AAC[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/palettes/12.gbapal"),
-};
+#if !LA_FREE_SPACE
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AAC[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4aac/tiles.4bpp.lz");
+#endif // unused original Galar bank
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4B0C[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/palettes/12.gbapal"),
-};
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4B0C[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4b0c/tiles.4bpp.lz");
+#if !LA_FREE_SPACE
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4AF4[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/palettes/12.gbapal"),
-};
+#endif // unused original Galar bank
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4AF4[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4af4/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4ADC[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/palettes/12.gbapal"),
-};
+#if !LA_FREE_SPACE
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4ADC[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4adc/tiles.4bpp.lz");
+#endif // unused original Galar bank
 
-const u16 gTilesetPalettes_AMap_Secondary_SWSH_P082D4A94S082D4DF4[][16] =
-{
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/palettes/12.gbapal"),
-};
 
-const u32 gTilesetTiles_AMap_Secondary_SWSH_P082D4A94S082D4DF4[] = INCBIN_U32("data/tilesets/secondary/amap_secondary_swsh_p082d4a94s082d4df4/tiles.4bpp.lz");
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
+
+#if !LA_FREE_SPACE
+
+#endif // unused original Galar bank
+
 
 /* Hyper definitions exposed directly for Porymap; same compiled assets. */
 /* Proven Hyper asset bank; no map registration or gameplay. */
@@ -6431,3 +6368,6700 @@ const u16 gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54_Pa
  INCBIN_U16("data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54/palettes/14.gbapal"),
  INCBIN_U16("data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S08A74F54/palettes/15.gbapal"),
 };
+
+const u32 gTileset_KantoAR_primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/tiles.4bpp.lz");
+
+
+const u32 gTileset_KantoAR_primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/tiles.4bpp.lz");
+
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/tiles.4bpp.lz");
+
+const u32 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Tiles[] = INCBIN_U32("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/tiles.4bpp.lz");
+
+const u16 gTileset_KantoAR_primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4A94/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/primary_f2e_AESTHETICRED_DS_NORMAL_V12_082D4BB4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AAC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AC4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4ADC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B0C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B24/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B3C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B54/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B6C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B9C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4D94/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DC4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E0C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E54/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5004/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D504C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D5064/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D507C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D50AC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BCC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4BE4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C2C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C44/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C5C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C74/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4C8C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CA4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CEC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D04/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D1C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D34/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D4C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D64/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4D7C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E6C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E84/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E9C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EB4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EE4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4EFC/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F14/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F2C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F44/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F5C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F74/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4F8C/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4FA4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5034/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D5094/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50C4/palettes/12.gbapal"),
+};
+
+const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Palettes[][16] = {
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/00.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/01.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/02.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/03.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/04.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/05.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/06.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/07.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/08.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/09.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/10.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/11.gbapal"),
+ INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/palettes/12.gbapal"),
+};
+
+// BEGIN WESLEY_UNOVA_GRAPHICS
+const u32 gTilesetTiles_UnovaGeneral_Primary[] = INCBIN_U32("data/tilesets/primary/unova_general/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaGeneral_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_general/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvema_Secondary[] = INCBIN_U32("data/tilesets/secondary/unova_nuvema/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvema_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema/palettes/15.gbapal"),
+};
+// END WESLEY_UNOVA_GRAPHICS
+
+// BEGIN NUVEMA_COMPLETE_ORIGINALS
+const u32 gTilesetTiles_UnovaNuvemaOriginal1_Primary[] = INCBIN_U32("data/tilesets/primary/unova_nuvema_original1/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal1_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvemaOriginal1_Secondary[] = INCBIN_U32("data/tilesets/secondary/unova_nuvema_original1/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal1_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvemaOriginal2_Primary[] = INCBIN_U32("data/tilesets/primary/unova_nuvema_original2/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal2_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvemaOriginal2_Secondary[] = INCBIN_U32("data/tilesets/secondary/unova_nuvema_original2/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal2_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvemaOriginal3_Primary[] = INCBIN_U32("data/tilesets/primary/unova_nuvema_original3/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal3_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_UnovaNuvemaOriginal3_Secondary[] = INCBIN_U32("data/tilesets/secondary/unova_nuvema_original3/tiles.4bpp.lz");
+const u16 gTilesetPalettes_UnovaNuvemaOriginal3_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/palettes/15.gbapal"),
+};
+// END NUVEMA_COMPLETE_ORIGINALS
+
+const u32 gTilesetTiles_AccumulaFullSheetTest_Primary[] = INCBIN_U32("data/tilesets/primary/accumula_fullsheet_test/tiles.4bpp.lz");
+const u16 ALIGNED(4) gTilesetPalettes_AccumulaFullSheetTest_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_AccumulaFullSheetTest_Secondary[] = INCBIN_U32("data/tilesets/secondary/accumula_fullsheet_test/tiles.4bpp.lz");
+const u16 ALIGNED(4) gTilesetPalettes_AccumulaFullSheetTest_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_NuvemaFullSheetTest_Primary[] = INCBIN_U32("data/tilesets/primary/nuvema_fullsheet_test/tiles.4bpp.lz");
+const u16 ALIGNED(4) gTilesetPalettes_NuvemaFullSheetTest_Primary[][16] = {
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/palettes/15.gbapal"),
+};
+
+const u32 gTilesetTiles_NuvemaFullSheetTest_Secondary[] = INCBIN_U32("data/tilesets/secondary/nuvema_fullsheet_test/tiles.4bpp.lz");
+const u16 ALIGNED(4) gTilesetPalettes_NuvemaFullSheetTest_Secondary[][16] = {
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/palettes/15.gbapal"),
+};
+
+// BEGIN MERCURY_JOHTO_GRAPHICS
+const u32 gMercury_Tiles_8dec85fd64d41a309191[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_8dec85fd64d41a309191/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_1f46eae24510bcb3d93a[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1f46eae24510bcb3d93a/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b2886fd9f2f1e8eba25a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b2886fd9f2f1e8eba25a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_f4f8371cee26f853374d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f4f8371cee26f853374d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f25b7209b6df1562428b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f25b7209b6df1562428b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_cebf428cee928610e59d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cebf428cee928610e59d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b2f115673dee97ff5f5f[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b2f115673dee97ff5f5f/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_9e12da51dec676559c0f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9e12da51dec676559c0f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_bf29d60dc5fae932d709[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_bf29d60dc5fae932d709/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_80a126a595847c564e64[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_80a126a595847c564e64/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1f56d2bd82cbf8888d23[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1f56d2bd82cbf8888d23/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c508ed672338bebd1e6c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c508ed672338bebd1e6c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_729bf3ec7a24b913ee44[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_729bf3ec7a24b913ee44/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e77caa2f0985ecc5a99b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77caa2f0985ecc5a99b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_d4847231fd7f7325ab4d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_d4847231fd7f7325ab4d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_78fda11bb5737192373d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_78fda11bb5737192373d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_110b678923502b584415[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_110b678923502b584415/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_db1a77d4077aa74cc707[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_db1a77d4077aa74cc707/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_8f02034cf4e6e7e5407b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_8f02034cf4e6e7e5407b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_b7b03128b6bf040425f7[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b7b03128b6bf040425f7/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_08f78acb76fe955f2b9c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_08f78acb76fe955f2b9c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_d45f34645e24512c957f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d45f34645e24512c957f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_9a574123e889d14f15fc[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_9a574123e889d14f15fc/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_2ae3421404f6b8cba89d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ae3421404f6b8cba89d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_6ca27adec2eb46db0159[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_6ca27adec2eb46db0159/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_1fa8026e6dba29f57c6a[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1fa8026e6dba29f57c6a/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_4547fb8f5c5e4a27c16a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_4547fb8f5c5e4a27c16a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_00b43fcbb1d4433d2147[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_00b43fcbb1d4433d2147/15.gbapal"),
+};
+
+const u16 gMercury_Palettes_93de1ff9c6fa056babc3[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_93de1ff9c6fa056babc3/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_20f7c20f959dd55b3b2a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_20f7c20f959dd55b3b2a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_a75db6a11fd7e57d2e33[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a75db6a11fd7e57d2e33/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_452a93a9a7e4d24a114b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_452a93a9a7e4d24a114b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_3066606e2d69b01063fc[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3066606e2d69b01063fc/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_a0a72c2794a69d42d163[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_a0a72c2794a69d42d163/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_ff433f09ff7a2f4b79c2[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff433f09ff7a2f4b79c2/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3f794dfb26f31ebef3fc[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3f794dfb26f31ebef3fc/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_597d84227696c95065be[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_597d84227696c95065be/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_073c3741d6a2b6e4047a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_073c3741d6a2b6e4047a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_6282421812dbaf801a2b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6282421812dbaf801a2b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1989835e9c2b90018f41[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1989835e9c2b90018f41/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c1af1f32472931e85063[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c1af1f32472931e85063/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_a3622260f4d7e522d2dd[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_a3622260f4d7e522d2dd/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_0d7ff272762d44518e66[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0d7ff272762d44518e66/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_d96b89f7d7f0724f7fdd[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_d96b89f7d7f0724f7fdd/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_66591f9d43f38bf53bb1[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_66591f9d43f38bf53bb1/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1c9d8f4f2d92e6ba0de5[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1c9d8f4f2d92e6ba0de5/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_ffe313c709b2cdc28292[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ffe313c709b2cdc28292/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1a4bdbabe1da10cdd06d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1a4bdbabe1da10cdd06d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e6110844ccf323261dcc[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e6110844ccf323261dcc/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b54359776351aa6f4913[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b54359776351aa6f4913/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_d6cf2379e8e72b332a1e[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d6cf2379e8e72b332a1e/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_54a72592cbca5e7dd3dc[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_54a72592cbca5e7dd3dc/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e18742b5d903319e07b5[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e18742b5d903319e07b5/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_cc98ceeda03349bb4b76[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_cc98ceeda03349bb4b76/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_2ca4df22029eee380375[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2ca4df22029eee380375/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1efe4927c9c50aa2902b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1efe4927c9c50aa2902b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_f9f1e592d1326d688962[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f9f1e592d1326d688962/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_350a7baedf223a3b3961[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_350a7baedf223a3b3961/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_94603736c428d77e0fc2[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94603736c428d77e0fc2/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_739a6efc0e63bc5af36f[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_739a6efc0e63bc5af36f/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_38cf958aa2bfad8a176b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_38cf958aa2bfad8a176b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_89ad87e74eefb3bbe971[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_89ad87e74eefb3bbe971/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_cfdb120306c49eedf817[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_cfdb120306c49eedf817/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_4f246501b8031da28682[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_4f246501b8031da28682/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_301a638a706c14987339[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_301a638a706c14987339/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_ff6c2469022faee69df5[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_ff6c2469022faee69df5/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_47db2ab45516f15eef05[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47db2ab45516f15eef05/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3ae3c6874003c0c880f8[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3ae3c6874003c0c880f8/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_480719e0bcd58b93e41f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_480719e0bcd58b93e41f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_c2373d361b3b1a248f35[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_c2373d361b3b1a248f35/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_4e69f3c5912fabdab074[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_4e69f3c5912fabdab074/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_42ad69c0f7116c1e9148[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_42ad69c0f7116c1e9148/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_74316ad682d7c5b23cca[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_74316ad682d7c5b23cca/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_2bebfe8bfe6c254192c5[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_2bebfe8bfe6c254192c5/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_5758c30c5d007242510d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5758c30c5d007242510d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_2098acbdf1b7c6f19716[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_2098acbdf1b7c6f19716/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e34b0b1b714a3a748ab3[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e34b0b1b714a3a748ab3/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_471dbe85c3f94b3c36e9[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_471dbe85c3f94b3c36e9/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_604bb521cd7df703ffc1[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_604bb521cd7df703ffc1/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_22ed46824d3be5d1a732[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_22ed46824d3be5d1a732/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_1e8fa8136336144d68aa[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_1e8fa8136336144d68aa/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5a8adc983e8ae9bf1726[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5a8adc983e8ae9bf1726/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c48f4a36ea5d62f8b045[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c48f4a36ea5d62f8b045/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3d93c5741ba7157f37cf[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3d93c5741ba7157f37cf/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_bb050bf929aaa9079953[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bb050bf929aaa9079953/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_411b1cee7f7be34d960e[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_411b1cee7f7be34d960e/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_6441a6923235581b39fc[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6441a6923235581b39fc/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_ec91abfadfba9874799e[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_ec91abfadfba9874799e/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_04485defdee49fae4714[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04485defdee49fae4714/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_8280fe6ca54fa918d5a5[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_8280fe6ca54fa918d5a5/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_7abbcb82b4f4a317b5d5[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7abbcb82b4f4a317b5d5/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_8ced17869a9d036437a2[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_8ced17869a9d036437a2/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_6b1075fc3fb9dcb25101[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_6b1075fc3fb9dcb25101/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_549b0e70430ee1ba24eb[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_549b0e70430ee1ba24eb/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e783d9a50de644895950[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e783d9a50de644895950/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f17ab37944d9f21efadb[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f17ab37944d9f21efadb/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c71817f68da1d5c51796[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c71817f68da1d5c51796/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5f81e83f8779ba023063[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5f81e83f8779ba023063/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_5804dc7b10f02df2f7c8[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_5804dc7b10f02df2f7c8/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f367de2a426d4cd7b5fa[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f367de2a426d4cd7b5fa/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e8c1ab140c66cc0f47d0[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8c1ab140c66cc0f47d0/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b5cf1881ea1ff162fa93[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b5cf1881ea1ff162fa93/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_13d8fdf0daacad2968ca[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_13d8fdf0daacad2968ca/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1243c870d6afab6da106[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1243c870d6afab6da106/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_95e2fe7aff523f182ca0[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_95e2fe7aff523f182ca0/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_0ac2708b253afdebe187[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_0ac2708b253afdebe187/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c3936fa6c5528083c22c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c3936fa6c5528083c22c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3b80e7379f6e079c36aa[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3b80e7379f6e079c36aa/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_7aa38284a60e2351e150[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7aa38284a60e2351e150/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_d41e26c76a0b7233cf0f[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_d41e26c76a0b7233cf0f/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_f39c2d79c57509957946[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f39c2d79c57509957946/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_e39e4940f2bf846dfa1f[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_e39e4940f2bf846dfa1f/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_0080cd66474cc7298428[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0080cd66474cc7298428/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_e0a419c37d6031aca55c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_e0a419c37d6031aca55c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_ddb48b4b7e9df7829d42[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ddb48b4b7e9df7829d42/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1eeeb83bdde1022e5a19[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1eeeb83bdde1022e5a19/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_04c04fe0726db5770651[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_04c04fe0726db5770651/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_389f8c27978f347a9b2e[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_389f8c27978f347a9b2e/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_386dbc6116e1d286ad7b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386dbc6116e1d286ad7b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_a88e0a944543f353b601[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_a88e0a944543f353b601/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_bd4b26b00f8339f51574[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_bd4b26b00f8339f51574/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3f6dc27cb75cb90deb4d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3f6dc27cb75cb90deb4d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_7918d47ca8ca358a0260[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_7918d47ca8ca358a0260/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_a941c12329ede92f988a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_a941c12329ede92f988a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_03b0f2f33d7860a5c59c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_03b0f2f33d7860a5c59c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_9b6f04c371431842f6e1[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_9b6f04c371431842f6e1/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_a0e6fbd4925c0be4a355[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a0e6fbd4925c0be4a355/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5d741e2af8c2ae76e836[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5d741e2af8c2ae76e836/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_386b66f7ef0cbc4802f2[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_386b66f7ef0cbc4802f2/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f51a1bb633abe328135a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f51a1bb633abe328135a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_626647fe238e7553baa5[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_626647fe238e7553baa5/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_7e1b22c1c195d7a601a4[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_7e1b22c1c195d7a601a4/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_24c0de4ff23fde30e44f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_24c0de4ff23fde30e44f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_40b0bb22bede9e90d490[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_40b0bb22bede9e90d490/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_19cef54770e41cd3eea3[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_19cef54770e41cd3eea3/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_4a5f04186d41e6d3a9ba[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_4a5f04186d41e6d3a9ba/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_0b3559be29a33b179ebd[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0b3559be29a33b179ebd/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_c6407ac88f74fed43abf[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_c6407ac88f74fed43abf/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_49aba72da66f189b376d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_49aba72da66f189b376d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_035b6463315a3b0c649c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_035b6463315a3b0c649c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e77fff934f5c1b94794d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e77fff934f5c1b94794d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f03ddd4aca9920f283ef[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f03ddd4aca9920f283ef/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_a00ea8dd6baf819cdf8a[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a00ea8dd6baf819cdf8a/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_773fa8f5c1dfaa37d24d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_773fa8f5c1dfaa37d24d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_62845107f3967632c871[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_62845107f3967632c871/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_17b7d1426da07eb59d4c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_17b7d1426da07eb59d4c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_dc79ea5607f91024727c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dc79ea5607f91024727c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_d16e249905817cd3f55c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_d16e249905817cd3f55c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_f8a96ffb5af14a2a5951[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_f8a96ffb5af14a2a5951/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_aa78b4530b3cd2f8bcc6[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_aa78b4530b3cd2f8bcc6/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e416dd8a071c18d8d493[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e416dd8a071c18d8d493/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_818fdeb80a96fc5b1e06[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_818fdeb80a96fc5b1e06/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_b67e8b283bf9dc2c29d1[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b67e8b283bf9dc2c29d1/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_4417998191ade053eba1[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_4417998191ade053eba1/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_2f952e536103ec887768[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2f952e536103ec887768/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_76bda885541a2be5929d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_76bda885541a2be5929d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_69aadc09585dca57d57c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_69aadc09585dca57d57c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5f8ab1e0dbfa034a8333[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5f8ab1e0dbfa034a8333/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_b820aea91d40dd20c1c7[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b820aea91d40dd20c1c7/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_50bd99f45bd59c55e779[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_50bd99f45bd59c55e779/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_96ca344aeabc86558a8c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_96ca344aeabc86558a8c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_0b83d53450fe825507e3[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_0b83d53450fe825507e3/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_ff7eb6e01d773d8da88b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ff7eb6e01d773d8da88b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_8499c2ada1d6d56e94bf[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_8499c2ada1d6d56e94bf/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_695b27c1242341932e41[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_695b27c1242341932e41/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5423b836b023dcece5aa[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5423b836b023dcece5aa/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_b4a6f9b17a2c385ca5df[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b4a6f9b17a2c385ca5df/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_2f051785720a16906ddb[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_2f051785720a16906ddb/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_0c9afadd97bb21d0e257[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0c9afadd97bb21d0e257/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_2fb5e789555c1faca67b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_2fb5e789555c1faca67b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_47693388f0aae4129c4a[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_47693388f0aae4129c4a/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b501884f898b618a324c[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b501884f898b618a324c/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_acaec8ef5e0761e062d7[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_acaec8ef5e0761e062d7/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_3aa258ad63508df4f219[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_3aa258ad63508df4f219/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_137890fb3bf2f9b1ede4[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_137890fb3bf2f9b1ede4/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_78013b6a6ba71878f5c9[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_78013b6a6ba71878f5c9/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_2273ca6cf5600912940f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2273ca6cf5600912940f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_4855a3f412dbec26b4f6[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_4855a3f412dbec26b4f6/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_d3892ffd238f994a23dd[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d3892ffd238f994a23dd/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_ddd83907162371028572[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_ddd83907162371028572/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_d772fba15b41e640fa05[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d772fba15b41e640fa05/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_6234e4c27dfa85ad1984[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_6234e4c27dfa85ad1984/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_0947f46e5a983ec12736[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_0947f46e5a983ec12736/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_67832602e049ef5fdf07[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_67832602e049ef5fdf07/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c38f16ec8f5d1a0a319c[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c38f16ec8f5d1a0a319c/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_c7c097c40d677f6daa28[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_c7c097c40d677f6daa28/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_9a3f8e5e88f0ce180c9b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9a3f8e5e88f0ce180c9b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_f199a853c11afb017691[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_f199a853c11afb017691/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_781d16eb8ac9b190b81d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_781d16eb8ac9b190b81d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_6aa041b7ab8d74d8efb4[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_6aa041b7ab8d74d8efb4/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c7023060652be311ac54[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c7023060652be311ac54/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b924ea3cb8e534a5e8f0[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b924ea3cb8e534a5e8f0/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_d67480a7572bc8f0b3f9[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_d67480a7572bc8f0b3f9/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_66981ee2b753af88ff2f[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_66981ee2b753af88ff2f/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_3a56e8e0ca7b593c4e52[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_3a56e8e0ca7b593c4e52/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_078279f1d118728962c1[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_078279f1d118728962c1/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_dcd33a115470d93c4428[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_dcd33a115470d93c4428/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_1dbd37d9b699f60b546a[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_1dbd37d9b699f60b546a/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_ca05c28d924003551cff[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_ca05c28d924003551cff/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_6063ca947f7abab1e4b5[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_6063ca947f7abab1e4b5/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_9b74385b1eb8e5ff2706[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_9b74385b1eb8e5ff2706/15.gbapal"),
+};
+
+const u16 gMercury_Palettes_fbc2eb00d0c34ca239f5[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_fbc2eb00d0c34ca239f5/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_b7075dc86da780bfa873[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_b7075dc86da780bfa873/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_e8beb77eb57a58f63f1a[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_e8beb77eb57a58f63f1a/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_314677efe3876b416083[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_314677efe3876b416083/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_89c6f530091627a6838f[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_89c6f530091627a6838f/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_5eca6ce6c96ab736efd6[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_5eca6ce6c96ab736efd6/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_a56b1990c01059f28704[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_a56b1990c01059f28704/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_eb9555b4b799ca8c96fa[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_eb9555b4b799ca8c96fa/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_953461f7f369a4d1ad88[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_953461f7f369a4d1ad88/15.gbapal"),
+};
+
+const u16 gMercury_Palettes_076a27c79e5ace2a3d47[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_076a27c79e5ace2a3d47/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_2f5a0f8fbc072228b3e7[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_2f5a0f8fbc072228b3e7/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_b8406d24def7b069749b[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_b8406d24def7b069749b/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_693cf39edf34ff216a99[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_693cf39edf34ff216a99/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_c380d7ea97b4df569ce4[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_c380d7ea97b4df569ce4/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_830c8dbee0f2949c2b4b[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_830c8dbee0f2949c2b4b/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_8be6ab52cd0a544236e9[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_8be6ab52cd0a544236e9/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_0e79921740ea54c0407d[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_0e79921740ea54c0407d/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_94efb0b74133da80154d[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_94efb0b74133da80154d/15.gbapal"),
+};
+
+const u32 gMercury_Tiles_819bbc40a3bfb21eb8b6[] = INCBIN_U32("data/mercury_johto_assets/shared/gMercury_Tiles_819bbc40a3bfb21eb8b6/tiles.4bpp.lz");
+
+const u16 gMercury_Palettes_2a2c6d5e6fdf30ef7013[][16] = {
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/00.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/01.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/02.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/03.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/04.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/05.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/06.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/07.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/08.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/09.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/10.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/11.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/12.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/13.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/14.gbapal"),
+ INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Palettes_2a2c6d5e6fdf30ef7013/15.gbapal"),
+};
+// END MERCURY_JOHTO_GRAPHICS
+
+// BEGIN HNS_CANARY
+const u32 gHnSCanary_Johto_General_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_General_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_General_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_General_Hns__NewBarkTown_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_General_Hns__NewBarkTown_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_General_Hns__CherrygroveCity_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_General_Hns__CherrygroveCity_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_Building_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_Building_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_Building_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_Building_Hns__Gate_Standard_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_Building_Hns__Gate_Standard_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_General_Hns__VioletCity_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_General_Hns__VioletCity_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_Building_Hns__JohtoMart_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_Building_Hns__JohtoMart_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns/palettes/15.gbapal"),
+};
+const u32 gHnSCanary_Johto_Building_Hns__EcruteakTheater_Hns_Tiles[] = INCBIN_U32("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/tiles.4bpp");
+const u16 gHnSCanary_Johto_Building_Hns__EcruteakTheater_Hns_Palettes[][16] = {
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/00.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/01.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/02.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/03.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/04.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/05.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/06.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/07.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/08.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/09.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/10.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/11.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/12.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/13.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/14.gbapal"),
+    INCBIN_U16("data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns/palettes/15.gbapal"),
+};
+// END HNS_CANARY
+
+/* HNS_REGION_GENERATED: visual assets only. */
+const u32 gHnsRegion_Tiles_bbc911ce3859ec85a4a9[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_bbc911ce3859ec85a4a9/tiles.4bpp.lz");
+const u16 gHnsRegion_Bea3d6307fbf5d9ae_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bea3d6307fbf5d9ae/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2b2355a6b0ee7b0f3f58[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2b2355a6b0ee7b0f3f58/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc3569b82be797477_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc3569b82be797477/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_1d734a7dc5bc3f59890b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_1d734a7dc5bc3f59890b/tiles.4bpp.lz");
+const u16 gHnsRegion_Bfab5bdd11d4b7fd3_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bfab5bdd11d4b7fd3/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_9fa504cd464d92371165[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_9fa504cd464d92371165/tiles.4bpp.lz");
+const u16 gHnsRegion_Bae1a0a70f9ed06c0_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bae1a0a70f9ed06c0/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_a0a1b33f1924171360c7[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_a0a1b33f1924171360c7/tiles.4bpp.lz");
+const u16 gHnsRegion_B8851c7de3e487b48_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8851c7de3e487b48/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e09d449894495b0d3499[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e09d449894495b0d3499/tiles.4bpp.lz");
+const u16 gHnsRegion_Bedbcd3552ce6b27a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bedbcd3552ce6b27a/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_7c6ac43e5f915c90d634[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_7c6ac43e5f915c90d634/tiles.4bpp.lz");
+const u16 gHnsRegion_B841268f5d91aa25a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B841268f5d91aa25a/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_c2a8877cf45c15406fb3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_c2a8877cf45c15406fb3/tiles.4bpp.lz");
+const u16 gHnsRegion_Be07abc4e083801ad_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be07abc4e083801ad/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_8d4fdb4c45c556f987b5[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_8d4fdb4c45c556f987b5/tiles.4bpp.lz");
+const u16 gHnsRegion_B391267b2dff5cd19_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B391267b2dff5cd19/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_b1d9aca5838ce9bb19f7[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_b1d9aca5838ce9bb19f7/tiles.4bpp.lz");
+const u16 gHnsRegion_Bd48986176a290035_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd48986176a290035/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2190290494d4d027840e[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2190290494d4d027840e/tiles.4bpp.lz");
+const u16 gHnsRegion_B124bbf28a106a847_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B124bbf28a106a847/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_8c1b9e90fee2fcac8fd7[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_8c1b9e90fee2fcac8fd7/tiles.4bpp.lz");
+const u16 gHnsRegion_B1bafd1ab9171af0c_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1bafd1ab9171af0c/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_fd4571fa41c8de2f8550[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_fd4571fa41c8de2f8550/tiles.4bpp.lz");
+const u16 gHnsRegion_B4cf3bdfa845b2705_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4cf3bdfa845b2705/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_98ae5e5b0b3943ffe38e[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_98ae5e5b0b3943ffe38e/tiles.4bpp.lz");
+const u16 gHnsRegion_Bde87427579a6ae29_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bde87427579a6ae29/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4c6a77c434bf2d91a054[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4c6a77c434bf2d91a054/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc12ee2c173c5e5c9_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc12ee2c173c5e5c9/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_8136d48a88de2fc08192[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_8136d48a88de2fc08192/tiles.4bpp.lz");
+const u16 gHnsRegion_Bbba80233bf7fcc03_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbba80233bf7fcc03/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e33c7a13fb12bd495f5a[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e33c7a13fb12bd495f5a/tiles.4bpp.lz");
+const u16 gHnsRegion_B4e6eace9dcadab57_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4e6eace9dcadab57/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_671b41354e6b9e55cd66[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_671b41354e6b9e55cd66/tiles.4bpp.lz");
+const u16 gHnsRegion_B49f73b4376e00393_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B49f73b4376e00393/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f3aead75f1f01d3f45ce[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f3aead75f1f01d3f45ce/tiles.4bpp.lz");
+const u16 gHnsRegion_Bdb30b4b0207c9f84_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdb30b4b0207c9f84/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B754f598944bdb84e_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B754f598944bdb84e/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0454b43c7b0d8d2aabfe[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0454b43c7b0d8d2aabfe/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc48f4ca8b100f913_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc48f4ca8b100f913/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_b9c41eda142ecd4a2cbc[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_b9c41eda142ecd4a2cbc/tiles.4bpp.lz");
+const u16 gHnsRegion_B925f687ed24cc4df_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B925f687ed24cc4df/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_bc26f808fde0c7511945[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_bc26f808fde0c7511945/tiles.4bpp.lz");
+const u16 gHnsRegion_Bd7d09951f9a8d459_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7d09951f9a8d459/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_cb9d58f6d965032b4d9b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_cb9d58f6d965032b4d9b/tiles.4bpp.lz");
+const u16 gHnsRegion_B869ef10cdc09e1c4_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B869ef10cdc09e1c4/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_5ff6fdece7b8fcf371f1[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_5ff6fdece7b8fcf371f1/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc1d5c323bc46eed1_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1d5c323bc46eed1/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4caabfbcbe58d56ae6ff[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4caabfbcbe58d56ae6ff/tiles.4bpp.lz");
+const u16 gHnsRegion_Bd7fff0140f3e0817_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd7fff0140f3e0817/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_7327ce6ccb8ed72fcbeb[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_7327ce6ccb8ed72fcbeb/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb6220cfc72613090_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb6220cfc72613090/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_01f032dd5332cd9115d0[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_01f032dd5332cd9115d0/tiles.4bpp.lz");
+const u16 gHnsRegion_Bd923aab956523e68_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd923aab956523e68/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_a7ee6db229098bdb890c[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_a7ee6db229098bdb890c/tiles.4bpp.lz");
+const u16 gHnsRegion_B7560f6d246f15724_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7560f6d246f15724/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_15b12f04bc1e99d50703[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_15b12f04bc1e99d50703/tiles.4bpp.lz");
+const u16 gHnsRegion_B0a73317edfd4895e_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0a73317edfd4895e/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_20a5ffed5d0c54de1a58[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_20a5ffed5d0c54de1a58/tiles.4bpp.lz");
+const u16 gHnsRegion_Baa2adf91d3c1aa9e_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baa2adf91d3c1aa9e/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B3985e9e680dd786f_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3985e9e680dd786f/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_de07d416dfa880f33e91[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_de07d416dfa880f33e91/tiles.4bpp.lz");
+const u16 gHnsRegion_B9f42aa7893290dc7_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f42aa7893290dc7/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_89ef29b633e6fb8ef25d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_89ef29b633e6fb8ef25d/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb1514df686bfafce_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb1514df686bfafce/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B01222de7a8227af6_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B01222de7a8227af6/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B3be54c96cc738e05_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3be54c96cc738e05/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Bc22c74b66e524fab_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc22c74b66e524fab/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_39bb83cf1f236f576982[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_39bb83cf1f236f576982/tiles.4bpp.lz");
+const u16 gHnsRegion_B25f3ca57455ea137_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B25f3ca57455ea137/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_fb2a4a6997190282bf81[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_fb2a4a6997190282bf81/tiles.4bpp.lz");
+const u16 gHnsRegion_Ba343f93335ab62c9_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba343f93335ab62c9/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f2d4015e0005513f4fc2[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f2d4015e0005513f4fc2/tiles.4bpp.lz");
+const u16 gHnsRegion_Becb40317f5488618_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Becb40317f5488618/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_3e835c5edfa52be315f3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_3e835c5edfa52be315f3/tiles.4bpp.lz");
+const u16 gHnsRegion_Bf201b5a84bc2a287_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf201b5a84bc2a287/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_cd6eb8ea9b3a9e9395d1[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_cd6eb8ea9b3a9e9395d1/tiles.4bpp.lz");
+const u16 gHnsRegion_B7843555bcb9138bb_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7843555bcb9138bb/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_d401f90c2eecdf19e7e8[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_d401f90c2eecdf19e7e8/tiles.4bpp.lz");
+const u16 gHnsRegion_Baf5e4ff4905df416_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Baf5e4ff4905df416/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f41d0e8450e21ff02bd9[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f41d0e8450e21ff02bd9/tiles.4bpp.lz");
+const u16 gHnsRegion_B8df4fb8ae430a655_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8df4fb8ae430a655/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6ccc0d86bd53874a6883[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6ccc0d86bd53874a6883/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb9201d5c9cf2b5f5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9201d5c9cf2b5f5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_21231faaa2d7c140c515[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_21231faaa2d7c140c515/tiles.4bpp.lz");
+const u16 gHnsRegion_B500ac35c5dce0677_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B500ac35c5dce0677/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2a0784bc2769bc6000f3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2a0784bc2769bc6000f3/tiles.4bpp.lz");
+const u16 gHnsRegion_Beb24fa724ced9c72_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb24fa724ced9c72/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_71872884a6c737139e79[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_71872884a6c737139e79/tiles.4bpp.lz");
+const u16 gHnsRegion_Bcc3b9ef3b8891ea9_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcc3b9ef3b8891ea9/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_c8e57d6d259d55e28f50[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_c8e57d6d259d55e28f50/tiles.4bpp.lz");
+const u16 gHnsRegion_B8022a8466bcb74f5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8022a8466bcb74f5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_570b6ce86af61e6abb0d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_570b6ce86af61e6abb0d/tiles.4bpp.lz");
+const u16 gHnsRegion_B84ccc30d19116867_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B84ccc30d19116867/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_96c93ccef4102b54851f[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_96c93ccef4102b54851f/tiles.4bpp.lz");
+const u16 gHnsRegion_B7b9b18841be114a1_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9b18841be114a1/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_aab356b45bfac4e050b2[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_aab356b45bfac4e050b2/tiles.4bpp.lz");
+const u16 gHnsRegion_B2477a1afeabab908_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2477a1afeabab908/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_05d736db31c68ab2a3a6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_05d736db31c68ab2a3a6/tiles.4bpp.lz");
+const u16 gHnsRegion_B36c6cf5648e027c3_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B36c6cf5648e027c3/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_044c60e4953c61fff1d2[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_044c60e4953c61fff1d2/tiles.4bpp.lz");
+const u16 gHnsRegion_B50cce5a934c981b2_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B50cce5a934c981b2/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_460f2938c1ed339a02dc[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_460f2938c1ed339a02dc/tiles.4bpp.lz");
+const u16 gHnsRegion_B30a11a12fa0e1604_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B30a11a12fa0e1604/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_5b1ea1626af268dee3b6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_5b1ea1626af268dee3b6/tiles.4bpp.lz");
+const u16 gHnsRegion_Ba8f52aa434624a31_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba8f52aa434624a31/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_fc21d2044b3fc9ffd6b1[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_fc21d2044b3fc9ffd6b1/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb9b85f2f8886d65c_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb9b85f2f8886d65c/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6a60d8f5cde35ad66352[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6a60d8f5cde35ad66352/tiles.4bpp.lz");
+const u16 gHnsRegion_B6559d938cd34b849_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6559d938cd34b849/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_fe6307513ee9428848a9[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_fe6307513ee9428848a9/tiles.4bpp.lz");
+const u16 gHnsRegion_B229c22bcd540738a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B229c22bcd540738a/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_ef477f928ec59f11ca4e[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_ef477f928ec59f11ca4e/tiles.4bpp.lz");
+const u16 gHnsRegion_B4a0adb33ec7e1342_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4a0adb33ec7e1342/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_ecf308ac4277d07686cb[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_ecf308ac4277d07686cb/tiles.4bpp.lz");
+const u16 gHnsRegion_B2471ba7fa36fea56_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2471ba7fa36fea56/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B45f1637b54228ff3_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45f1637b54228ff3/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_85c8c85e5f1b47e8eda1[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_85c8c85e5f1b47e8eda1/tiles.4bpp.lz");
+const u16 gHnsRegion_B0b77dab6d4d60f32_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0b77dab6d4d60f32/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6a403ec278d519a54841[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6a403ec278d519a54841/tiles.4bpp.lz");
+const u16 gHnsRegion_Bcea20eb5bb3320cb_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcea20eb5bb3320cb/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_b9f9020ff1ae52dfd276[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_b9f9020ff1ae52dfd276/tiles.4bpp.lz");
+const u16 gHnsRegion_B0c395c1e509cd021_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c395c1e509cd021/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_72348edf4a36cbf8b371[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_72348edf4a36cbf8b371/tiles.4bpp.lz");
+const u16 gHnsRegion_B3cac0b6286c1bc98_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3cac0b6286c1bc98/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_745d86cabccea7b0a622[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_745d86cabccea7b0a622/tiles.4bpp.lz");
+const u16 gHnsRegion_B3fed63a931138b81_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3fed63a931138b81/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e59973a7879e52b797ae[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e59973a7879e52b797ae/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc97b1d567c1ecd40_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc97b1d567c1ecd40/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_943ecc58b53923fb15be[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_943ecc58b53923fb15be/tiles.4bpp.lz");
+const u16 gHnsRegion_B7c87695a69777080_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c87695a69777080/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_eb6998287d2ca30c4a9c[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_eb6998287d2ca30c4a9c/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb5b4866511b8428c_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb5b4866511b8428c/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_7947961533de708c3a2b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_7947961533de708c3a2b/tiles.4bpp.lz");
+const u16 gHnsRegion_B4ff9d20a54ed52cb_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4ff9d20a54ed52cb/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B5bc59a533fa33b5b_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5bc59a533fa33b5b/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4785190f578766b11f88[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4785190f578766b11f88/tiles.4bpp.lz");
+const u16 gHnsRegion_B8c64fc8875ea6eb5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8c64fc8875ea6eb5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e4aafb00030e0914afd6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e4aafb00030e0914afd6/tiles.4bpp.lz");
+const u16 gHnsRegion_B8b986bdba8d1e22d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8b986bdba8d1e22d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_27b4ab34c4945ec9a93d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_27b4ab34c4945ec9a93d/tiles.4bpp.lz");
+const u16 gHnsRegion_B1c08da056689e24c_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c08da056689e24c/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_d5d4a65a16e4ad63a349[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_d5d4a65a16e4ad63a349/tiles.4bpp.lz");
+const u16 gHnsRegion_B83c4315cc5f8f9ee_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83c4315cc5f8f9ee/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f0e91121a69d3e991b9f[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f0e91121a69d3e991b9f/tiles.4bpp.lz");
+const u16 gHnsRegion_B24f746a286538444_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B24f746a286538444/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_3f0d9837a4053f02cc40[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_3f0d9837a4053f02cc40/tiles.4bpp.lz");
+const u16 gHnsRegion_B0c0364069f9bc896_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0c0364069f9bc896/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0c9c4dd4a6d8780c8a59[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0c9c4dd4a6d8780c8a59/tiles.4bpp.lz");
+const u16 gHnsRegion_B3c3d9753f08d9cb1_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3c3d9753f08d9cb1/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_3c1ecac4ef250541e07b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_3c1ecac4ef250541e07b/tiles.4bpp.lz");
+const u16 gHnsRegion_B777d367e01f89313_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B777d367e01f89313/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_b2c09779cd62eeaf740d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_b2c09779cd62eeaf740d/tiles.4bpp.lz");
+const u16 gHnsRegion_B1dfd9caadb3959a2_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1dfd9caadb3959a2/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_167ec95cb3924e31454d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_167ec95cb3924e31454d/tiles.4bpp.lz");
+const u16 gHnsRegion_B4d4ee66a2d5d8e35_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4d4ee66a2d5d8e35/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_650fd9d9f2fe0df9eb3f[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_650fd9d9f2fe0df9eb3f/tiles.4bpp.lz");
+const u16 gHnsRegion_Be37917998a930ab5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be37917998a930ab5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_694d81fd97bf9f375b08[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_694d81fd97bf9f375b08/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc26e5d71eb26ce06_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc26e5d71eb26ce06/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_d38317e7d137307a0ae0[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_d38317e7d137307a0ae0/tiles.4bpp.lz");
+const u16 gHnsRegion_B1453ffd31806c57d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1453ffd31806c57d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4b480ba4be41d62af25f[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4b480ba4be41d62af25f/tiles.4bpp.lz");
+const u16 gHnsRegion_B4af4dd65beb2ce26_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B4af4dd65beb2ce26/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_afbc24f89c2634fc8823[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_afbc24f89c2634fc8823/tiles.4bpp.lz");
+const u16 gHnsRegion_B5a1efd90c60f251b_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5a1efd90c60f251b/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_24d47a59efccb7febfcd[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_24d47a59efccb7febfcd/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc7ebf44ee878015a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc7ebf44ee878015a/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B64cea65d6cb904b5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B64cea65d6cb904b5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_5a17ace90f57769a2b04[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_5a17ace90f57769a2b04/tiles.4bpp.lz");
+const u16 gHnsRegion_B6897641db231e8a7_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6897641db231e8a7/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6d7693e68f5fb59b88fd[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6d7693e68f5fb59b88fd/tiles.4bpp.lz");
+const u16 gHnsRegion_Bd8cb73de210d06f3_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd8cb73de210d06f3/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_ed88f4bde19709f94dca[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_ed88f4bde19709f94dca/tiles.4bpp.lz");
+const u16 gHnsRegion_B7d2551229275359b_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7d2551229275359b/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_b619799fe59e50bc65b6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_b619799fe59e50bc65b6/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb94b5d5a2516d1b4_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb94b5d5a2516d1b4/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e13d79371c7d6d7039a5[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e13d79371c7d6d7039a5/tiles.4bpp.lz");
+const u16 gHnsRegion_B3da49c9dd45cd9e0_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3da49c9dd45cd9e0/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_7cc8997fdb16662d939a[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_7cc8997fdb16662d939a/tiles.4bpp.lz");
+const u16 gHnsRegion_B6663e152bf66b660_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6663e152bf66b660/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_cb5f1677274b47de68f6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_cb5f1677274b47de68f6/tiles.4bpp.lz");
+const u16 gHnsRegion_B1008cf802decd70a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1008cf802decd70a/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_78718127727724cc75f3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_78718127727724cc75f3/tiles.4bpp.lz");
+const u16 gHnsRegion_B82bcd45f4b45f9d9_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B82bcd45f4b45f9d9/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2f4ea03a1b32face411f[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2f4ea03a1b32face411f/tiles.4bpp.lz");
+const u16 gHnsRegion_B386becb11b294d92_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B386becb11b294d92/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e67a52e6aae9b0628493[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e67a52e6aae9b0628493/tiles.4bpp.lz");
+const u16 gHnsRegion_B163264dd5945fa70_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B163264dd5945fa70/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_5def763b2f717d25d31d[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_5def763b2f717d25d31d/tiles.4bpp.lz");
+const u16 gHnsRegion_Bf2138b66f21f8a2d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf2138b66f21f8a2d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_725b61e6e1cc930510fe[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_725b61e6e1cc930510fe/tiles.4bpp.lz");
+const u16 gHnsRegion_Ba1e84dfbd1bfab17_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba1e84dfbd1bfab17/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Bbc6e8a0c5e1568e5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bbc6e8a0c5e1568e5/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2940f19d9e79bb0f870b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2940f19d9e79bb0f870b/tiles.4bpp.lz");
+const u16 gHnsRegion_B7c746690d49100ff_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7c746690d49100ff/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_346afb31d98005293cab[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_346afb31d98005293cab/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb05f9136b9d5b660_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb05f9136b9d5b660/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B93edae2d8a8b0a22_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B93edae2d8a8b0a22/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_808d8f62a41e32a556fa[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_808d8f62a41e32a556fa/tiles.4bpp.lz");
+const u16 gHnsRegion_B03edf5e7c0aaa3af_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B03edf5e7c0aaa3af/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_c28d13c1065f0aa67530[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_c28d13c1065f0aa67530/tiles.4bpp.lz");
+const u16 gHnsRegion_Be04efa2f6eea9327_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be04efa2f6eea9327/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_9cdcfc75fedc7c2c49b6[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_9cdcfc75fedc7c2c49b6/tiles.4bpp.lz");
+const u16 gHnsRegion_B3454274f5a2ebc70_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B3454274f5a2ebc70/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0c18d84d5436143dc8eb[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0c18d84d5436143dc8eb/tiles.4bpp.lz");
+const u16 gHnsRegion_B8fe07f3b459833d2_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B8fe07f3b459833d2/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_9bb204729a0acde2f467[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_9bb204729a0acde2f467/tiles.4bpp.lz");
+const u16 gHnsRegion_B7cbe06fefcf898dc_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7cbe06fefcf898dc/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f86bda2a6a2b4a7d1670[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f86bda2a6a2b4a7d1670/tiles.4bpp.lz");
+const u16 gHnsRegion_B71c7c0285825d073_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B71c7c0285825d073/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6466cc5232853bea106b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6466cc5232853bea106b/tiles.4bpp.lz");
+const u16 gHnsRegion_Bcb2582e39b146b86_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bcb2582e39b146b86/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Bc6d5bb944c425c49_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc6d5bb944c425c49/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B5f2de6fd1e516824_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5f2de6fd1e516824/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_2b433dc0423dccc7e3d0[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_2b433dc0423dccc7e3d0/tiles.4bpp.lz");
+const u16 gHnsRegion_Bf254c761dddf8815_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bf254c761dddf8815/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_f14b1d5c61199d7f1226[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_f14b1d5c61199d7f1226/tiles.4bpp.lz");
+const u16 gHnsRegion_B5fdb4f3e6b671d8f_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B5fdb4f3e6b671d8f/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_bb2a3dc8dd51a42b6014[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_bb2a3dc8dd51a42b6014/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb141ecb8120771ab_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb141ecb8120771ab/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_1eb6bd8a7b424e91c048[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_1eb6bd8a7b424e91c048/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc2d3da8ae36ebe32_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc2d3da8ae36ebe32/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_46008390911156fdc7d2[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_46008390911156fdc7d2/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc71efc95bcdd95c8_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc71efc95bcdd95c8/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6e4d67800faa59f09ff3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6e4d67800faa59f09ff3/tiles.4bpp.lz");
+const u16 gHnsRegion_B66b714a02efb718e_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B66b714a02efb718e/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_7620def389b95bb0f7e7[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_7620def389b95bb0f7e7/tiles.4bpp.lz");
+const u16 gHnsRegion_B37af9eb04acd0e80_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B37af9eb04acd0e80/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_46b5c6f99a4b5bbdd494[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_46b5c6f99a4b5bbdd494/tiles.4bpp.lz");
+const u16 gHnsRegion_Bdf40c0fcc35879c0_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdf40c0fcc35879c0/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Bd596a532c31b7440_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bd596a532c31b7440/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Be763ab09b3243779_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be763ab09b3243779/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_620ec73df2305bf92b25[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_620ec73df2305bf92b25/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb06a056c9c2e6d6a_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb06a056c9c2e6d6a/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0093f5ab75fee754e0e3[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0093f5ab75fee754e0e3/tiles.4bpp.lz");
+const u16 gHnsRegion_B1c5fdd3c747bffef_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B1c5fdd3c747bffef/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_64e64b3684a272271c7a[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_64e64b3684a272271c7a/tiles.4bpp.lz");
+const u16 gHnsRegion_B6cdd18424415b56d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6cdd18424415b56d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4028d3b99d9a24a41d95[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4028d3b99d9a24a41d95/tiles.4bpp.lz");
+const u16 gHnsRegion_B34ef81d662697102_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B34ef81d662697102/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6c83915e011aa93c1a66[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6c83915e011aa93c1a66/tiles.4bpp.lz");
+const u16 gHnsRegion_Be5412f6eec33676d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be5412f6eec33676d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_32804cb7575fa397b790[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_32804cb7575fa397b790/tiles.4bpp.lz");
+const u16 gHnsRegion_Ba479ba0c773d39cd_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba479ba0c773d39cd/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_ae8235425688a06d1b21[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_ae8235425688a06d1b21/tiles.4bpp.lz");
+const u16 gHnsRegion_Bc1fd78e473c49f42_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bc1fd78e473c49f42/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0f1e6b40052a425570bf[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0f1e6b40052a425570bf/tiles.4bpp.lz");
+const u16 gHnsRegion_Bdddababb85e493f3_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bdddababb85e493f3/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Ba9465626b0777338_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Ba9465626b0777338/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_e76e5fd58eebc3173e75[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_e76e5fd58eebc3173e75/tiles.4bpp.lz");
+const u16 gHnsRegion_B0972bd2aa8d5d29d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0972bd2aa8d5d29d/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_997b12bdc453152fd7ef[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_997b12bdc453152fd7ef/tiles.4bpp.lz");
+const u16 gHnsRegion_B7e073bbc469dd70f_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7e073bbc469dd70f/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_09439e6faf19b1249f42[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_09439e6faf19b1249f42/tiles.4bpp.lz");
+const u16 gHnsRegion_B90b90846964877ca_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B90b90846964877ca/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_d34420d93ce1611e81af[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_d34420d93ce1611e81af/tiles.4bpp.lz");
+const u16 gHnsRegion_Bb2c29566f41a2027_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Bb2c29566f41a2027/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_88f7517c5a959feca476[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_88f7517c5a959feca476/tiles.4bpp.lz");
+const u16 gHnsRegion_Be6d7f54e98b5bbe5_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Be6d7f54e98b5bbe5/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_Beb6e38a41cdd99ae_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/Beb6e38a41cdd99ae/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_c641d8212a97eb88fa29[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_c641d8212a97eb88fa29/tiles.4bpp.lz");
+const u16 gHnsRegion_B7669cc4571757ae7_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7669cc4571757ae7/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_0ee41757ab8ef51d759e[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_0ee41757ab8ef51d759e/tiles.4bpp.lz");
+const u16 gHnsRegion_B405b72b962ee2778_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B405b72b962ee2778/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6b8c7a7db3ec6e341e51[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6b8c7a7db3ec6e341e51/tiles.4bpp.lz");
+const u16 gHnsRegion_B45dcfc5095a6a5ac_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B45dcfc5095a6a5ac/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B2e45090793953695_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B2e45090793953695/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_6685794ea7737912d128[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_6685794ea7737912d128/tiles.4bpp.lz");
+const u16 gHnsRegion_B348febbb165ee6e4_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B348febbb165ee6e4/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_5a4cedb2023e81850f36[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_5a4cedb2023e81850f36/tiles.4bpp.lz");
+const u16 gHnsRegion_B9f4db14c0d79af5d_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B9f4db14c0d79af5d/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B83bf468008f11017_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83bf468008f11017/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_852a8d5a7687de57cff8[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_852a8d5a7687de57cff8/tiles.4bpp.lz");
+const u16 gHnsRegion_B83331b4d1cc3c48c_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B83331b4d1cc3c48c/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_406867a2c01666ee5a1e[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_406867a2c01666ee5a1e/tiles.4bpp.lz");
+const u16 gHnsRegion_B7b9750a8fb870d04_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B7b9750a8fb870d04/palettes/15.gbapal"),
+};
+const u16 gHnsRegion_B0221ba93fc843062_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B0221ba93fc843062/palettes/15.gbapal"),
+};
+const u32 gHnsRegion_Tiles_4087dee305bb1159cb8b[] = INCBIN_U32("data/hns_region_assets/shared/gHnsRegion_Tiles_4087dee305bb1159cb8b/tiles.4bpp.lz");
+const u16 gHnsRegion_B6e495b230bb9a391_Palettes[][16] = {
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/00.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/01.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/02.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/03.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/04.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/05.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/06.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/07.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/08.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/09.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/10.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/11.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/12.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/13.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/14.gbapal"),
+ INCBIN_U16("data/hns_region_assets/banks/B6e495b230bb9a391/palettes/15.gbapal"),
+};
+

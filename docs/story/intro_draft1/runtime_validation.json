@@ -1,0 +1,34 @@
+{
+  "rom_sha256": "65f8e4a2a511928f116df870a234d1035779dd324c191e3a4022333db5fb493c",
+  "checks": [
+    {
+      "test": "complete_intro",
+      "gender": 0,
+      "actual_gender": 0,
+      "encoded_name": "bbccbfc8ff000000",
+      "passed": true
+    },
+    {
+      "test": "reject_name_returns_to_selection",
+      "passed": true
+    },
+    {
+      "test": "complete_intro",
+      "gender": 1,
+      "actual_gender": 1,
+      "encoded_name": "bbccc3bbff000000",
+      "passed": true
+    },
+    {
+      "test": "custom_seven_character_name_expands",
+      "passed": true
+    },
+    {
+      "test": "complete_intro",
+      "gender": 0,
+      "actual_gender": 0,
+      "encoded_name": "cac6bbd3bfccd2ff",
+      "passed": true
+    }
+  ]
+}

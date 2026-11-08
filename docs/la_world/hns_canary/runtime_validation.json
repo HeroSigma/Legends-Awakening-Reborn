@@ -1,0 +1,619 @@
+{
+  "passed": true,
+  "emulator": "mGBA 0.10 headless native core",
+  "rom_sha256": "751aeabb09951c6a3a53311a2defd47311433f4b66e1058e2332bd8ac55cbb72",
+  "checks": 30,
+  "results": [
+    {
+      "test": "new_game",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          0
+        ],
+        "pos": [
+          20,
+          19
+        ]
+      }
+    },
+    {
+      "test": "mart_entry",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          7
+        ],
+        "pos": [
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "test": "mart_exit",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          2
+        ],
+        "pos": [
+          41,
+          8
+        ]
+      }
+    },
+    {
+      "test": "gym_entry",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          8
+        ],
+        "pos": [
+          9,
+          19
+        ]
+      }
+    },
+    {
+      "test": "gym_exit",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          6
+        ],
+        "pos": [
+          23,
+          37
+        ]
+      }
+    },
+    {
+      "test": "stairs_up",
+      "passed": true,
+      "details": {
+        "before": [
+          24,
+          13
+        ],
+        "after": [
+          28,
+          11
+        ],
+        "trail": [
+          [
+            25,
+            12
+          ],
+          [
+            26,
+            11
+          ],
+          [
+            27,
+            11
+          ],
+          [
+            28,
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "test": "stairs_down",
+      "passed": true,
+      "details": {
+        "before": [
+          28,
+          11
+        ],
+        "after": [
+          24,
+          13
+        ],
+        "trail": [
+          [
+            27,
+            11
+          ],
+          [
+            26,
+            11
+          ],
+          [
+            25,
+            12
+          ],
+          [
+            24,
+            13
+          ]
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_NewBarkTown_HnSTest_Route29",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          1
+        ],
+        "pos": [
+          69,
+          18
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_Route29_HnSTest_CherrygroveCity",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          2
+        ],
+        "pos": [
+          64,
+          10
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_Route29_HnSTest_NewBarkTown",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          0
+        ],
+        "pos": [
+          0,
+          13
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_CherrygroveCity_HnSTest_Route29",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          1
+        ],
+        "pos": [
+          0,
+          16
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_CherrygroveCity_HnSTest_Route30",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          3
+        ],
+        "pos": [
+          25,
+          57
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_Route30_HnSTest_Route31",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          4
+        ],
+        "pos": [
+          33,
+          22
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_Route30_HnSTest_CherrygroveCity",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          2
+        ],
+        "pos": [
+          34,
+          1
+        ]
+      }
+    },
+    {
+      "test": "boundary_HnSTest_Route31_HnSTest_Route30",
+      "passed": true,
+      "details": {
+        "map": [
+          111,
+          3
+        ],
+        "pos": [
+          23,
+          1
+        ]
+      }
+    },
+    {
+      "test": "stairs_gender_0",
+      "passed": true,
+      "details": {
+        "high": [
+          28,
+          11
+        ],
+        "low": [
+          24,
+          13
+        ]
+      }
+    },
+    {
+      "test": "stairs_gender_1",
+      "passed": true,
+      "details": {
+        "high": [
+          28,
+          11
+        ],
+        "low": [
+          24,
+          13
+        ]
+      }
+    },
+    {
+      "test": "outdoor_flower_animation",
+      "passed": true,
+      "details": {
+        "before": "24a96f9c395563d122b4416de4d5b95001f527e5ede581270bb8c171eb5f3623",
+        "after": "b53e9c904ac8a2193120e448ca7695ff4aad0e302798e22d48f428f8b232fb1e"
+      }
+    },
+    {
+      "test": "gym_flower_animation",
+      "passed": true,
+      "details": {
+        "before": "94b785911d786751354a7e6a7f335456559f2b0071b7184ffd5230e511f4c7a7",
+        "after": "548360b208eba83ce33ced6d7f987ba224cefc6822c96e2d144098934db95e12"
+      }
+    },
+    {
+      "test": "shoreline_blocks_walking",
+      "passed": true,
+      "details": {
+        "start": [
+          51,
+          2
+        ],
+        "after": [
+          51,
+          2
+        ],
+        "key": 64
+      }
+    },
+    {
+      "test": "warp_HnSTest_CherrygroveCity_0",
+      "passed": true,
+      "destination": "HnSTest_CherrygroveCity_Mart",
+      "attempts": [
+        {
+          "from_cell": [
+            41,
+            8
+          ],
+          "map": [
+            111,
+            7
+          ],
+          "pos": [
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_Route31_0",
+      "passed": true,
+      "destination": "HnSTest_Gate_Route31_VioletCity",
+      "attempts": [
+        {
+          "from_cell": [
+            4,
+            11
+          ],
+          "map": [
+            111,
+            4
+          ],
+          "pos": [
+            4,
+            8
+          ]
+        },
+        {
+          "from_cell": [
+            5,
+            10
+          ],
+          "map": [
+            111,
+            5
+          ],
+          "pos": [
+            11,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_Gate_Route31_VioletCity_0",
+      "passed": true,
+      "destination": "HnSTest_Route31",
+      "attempts": [
+        {
+          "from_cell": [
+            11,
+            6
+          ],
+          "map": [
+            111,
+            5
+          ],
+          "pos": [
+            11,
+            3
+          ]
+        },
+        {
+          "from_cell": [
+            10,
+            5
+          ],
+          "map": [
+            111,
+            4
+          ],
+          "pos": [
+            4,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_Gate_Route31_VioletCity_1",
+      "passed": true,
+      "destination": "HnSTest_VioletCity",
+      "attempts": [
+        {
+          "from_cell": [
+            1,
+            6
+          ],
+          "map": [
+            111,
+            5
+          ],
+          "pos": [
+            1,
+            3
+          ]
+        },
+        {
+          "from_cell": [
+            2,
+            5
+          ],
+          "map": [
+            111,
+            6
+          ],
+          "pos": [
+            49,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_VioletCity_0",
+      "passed": true,
+      "destination": "HnSTest_Gate_Route31_VioletCity",
+      "attempts": [
+        {
+          "from_cell": [
+            49,
+            47
+          ],
+          "map": [
+            111,
+            6
+          ],
+          "pos": [
+            49,
+            44
+          ]
+        },
+        {
+          "from_cell": [
+            48,
+            46
+          ],
+          "map": [
+            111,
+            5
+          ],
+          "pos": [
+            1,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_VioletCity_1",
+      "passed": true,
+      "destination": "HnSTest_VioletCity_Gym",
+      "attempts": [
+        {
+          "from_cell": [
+            23,
+            37
+          ],
+          "map": [
+            111,
+            8
+          ],
+          "pos": [
+            9,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_CherrygroveCity_Mart_0",
+      "passed": true,
+      "destination": "HnSTest_CherrygroveCity",
+      "attempts": [
+        {
+          "from_cell": [
+            5,
+            7
+          ],
+          "map": [
+            111,
+            7
+          ],
+          "pos": [
+            0,
+            7
+          ]
+        },
+        {
+          "from_cell": [
+            3,
+            7
+          ],
+          "map": [
+            111,
+            7
+          ],
+          "pos": [
+            8,
+            7
+          ]
+        },
+        {
+          "from_cell": [
+            4,
+            6
+          ],
+          "map": [
+            111,
+            2
+          ],
+          "pos": [
+            41,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "test": "warp_HnSTest_VioletCity_Gym_0",
+      "passed": true,
+      "destination": "HnSTest_VioletCity",
+      "attempts": [
+        {
+          "from_cell": [
+            10,
+            19
+          ],
+          "map": [
+            111,
+            8
+          ],
+          "pos": [
+            5,
+            19
+          ]
+        },
+        {
+          "from_cell": [
+            8,
+            19
+          ],
+          "map": [
+            111,
+            8
+          ],
+          "pos": [
+            13,
+            19
+          ]
+        },
+        {
+          "from_cell": [
+            9,
+            18
+          ],
+          "map": [
+            111,
+            6
+          ],
+          "pos": [
+            23,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "test": "native_shop_purchase",
+      "passed": true,
+      "details": {
+        "before_money": 3000,
+        "after_money": 2800,
+        "cost": 200,
+        "item": "Poke Ball"
+      }
+    },
+    {
+      "test": "native_shop_cancel",
+      "passed": true,
+      "details": {
+        "before_position": [
+          4,
+          3
+        ],
+        "after_position": [
+          4,
+          4
+        ],
+        "control_returned": true
+      }
+    }
+  ],
+  "scope": "9-map HnS asset/travel canary; native new-game callback used after title screen; normal field input used for movement, warps and shop. Naming/intro menus, full story, battles, full-region migration and battery save compatibility are outside this test."
+}

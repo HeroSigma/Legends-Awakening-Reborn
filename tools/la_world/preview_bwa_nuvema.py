@@ -1,0 +1,3 @@
+from pathlib import Path
+import json,struct
+P=Path('/home/allan/projects/Legends-Awakening-Reborn');f=P/'tools/la_world/render_unova_wesley.py';s=f.read_text();ns={'__file__':str(f)};exec(s[:s.index('old=json.loads')],ns);l=next(v for v in json.loads((P/'data/layouts/layouts.json').read_text())['layouts'] if v['id']=='LAYOUT_AMAP_3_0_NUVEMA_TOWN_LAYOUT');cache=ns['load']([P/'data/tilesets/primary/amap_primary_bwa_082d4a94',P/'data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4aac']);raw=(P/l['blockdata_filepath']).read_bytes();out=Path('/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Nuvema-BWA-restored');out.mkdir(parents=True,exist_ok=True);ns['render'](cache,struct.unpack('<'+str(len(raw)//2)+'H',raw),l['width'],l['height'],out/'Nuvema-BWA.png')

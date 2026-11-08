@@ -50,6 +50,8 @@ struct FollowerMsgInfoExtended
     struct MsgCondition conditions[5];
 }; // size = 8 + 4 + 5*4 = 32, 0x20
 
+const u8 *LegendsFollower_EnvironmentalText(u32 layout);
+
 // Follower message conditions
 enum MessageCondition
 {

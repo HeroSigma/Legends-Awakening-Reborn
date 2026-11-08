@@ -4,7 +4,32 @@ DewfordTown_MapScripts::
 
 DewfordTown_OnTransition:
 	setflag FLAG_VISITED_DEWFORD_TOWN
+	goto_if_set FLAG_LA_HEARD_DEWFORD_HOOPA, DewfordTown_SkipHoopaCue
+	goto_if_set FLAG_LA_DEWFORD_HOOPA_SEEN, DewfordTown_SkipHoopaCue
 	end
+
+DewfordTown_SkipHoopaCue:
+	setvar VAR_TEMP_1, 1
+	end
+
+DewfordTown_EventScript_HoopaCue::
+	goto_if_set FLAG_LA_HEARD_DEWFORD_HOOPA, DewfordTown_SkipHoopaCue
+	goto_if_set FLAG_LA_DEWFORD_HOOPA_SEEN, DewfordTown_SkipHoopaCue
+	lockall
+	setvar VAR_TEMP_1, 1
+	turnobject LOCALID_PLAYER, DIR_WEST
+	playmoncry SPECIES_HOOPA, CRY_MODE_NORMAL
+	waitmoncry
+	setspeaker SP_NAME_PLAYER
+	msgbox DewfordTown_Text_HoopaCue, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	setflag FLAG_LA_HEARD_DEWFORD_HOOPA
+	releaseall
+	end
+
+DewfordTown_Text_HoopaCue:
+	.string "What was that sound?\pIt came from the beach west of\ntown. I'd better take a look.$"
 
 DewfordTown_EventScript_Briney::
 	lock

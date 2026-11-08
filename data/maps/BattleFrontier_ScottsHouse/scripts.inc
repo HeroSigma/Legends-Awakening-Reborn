@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_ScottsHouse_MapScripts::
 	.byte 0
 
@@ -345,3 +347,96 @@ BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
 	.string "Oops, well, if you have too much\n"
 	.string "stuff, come back for this later.$"
 
+
+#else
+BattleFrontier_ScottsHouse_MapScripts::
+	.byte 0
+BattleFrontier_ScottsHouse_EventScript_Scott::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckGiveItems::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckGiveShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckSilverSymbols::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckGoldSymbols::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_BerryPocketFull::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GivenBerry::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_RandomComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_FrontierBrainComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_ArtisanCaveComment::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckGiveSilverShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GiveSilverShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_NoRoomForShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GivenShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_CheckGiveGoldShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GiveGoldShield::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GivenBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_WelcomeToFrontier::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_Give4BattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_Give3BattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_Give2BattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_Give1BattlePoint::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_GiveBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_ScottFaceAwaySouth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayEast::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
+	.string "This feature is disabled in this build.$"
+#endif

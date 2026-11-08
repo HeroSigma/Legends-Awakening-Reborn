@@ -1,0 +1,44 @@
+{
+  "id": 963,
+  "key": "gfx_963",
+  "status": "extracted",
+  "graphics_pointer_table_entry": "0x09E0E9DC",
+  "graphics_info_pointer": "0x09E1C9A0",
+  "tile_tag": 65535,
+  "palette_tag": 7423,
+  "reflection_palette_tag": 4354,
+  "palette_pointer": null,
+  "palette_status": "fallback_grayscale",
+  "palette_raw": null,
+  "width": 32,
+  "height": 32,
+  "frame_size": 512,
+  "frame_count": 1,
+  "frame_sizes": [
+    512
+  ],
+  "frame_offsets": [
+    0
+  ],
+  "expected_frame_size": 512,
+  "standard_frame_stride": true,
+  "project_import_safe": false,
+  "project_oam_symbol": "gObjectEventBaseOam_32x32",
+  "project_subsprite_symbol": "sOamTables_32x32",
+  "palette_slot": 0,
+  "shadow_size": 1,
+  "inanimate": false,
+  "source_flag7": false,
+  "frames": [
+    "sprites/gfx_963/frames/frame_00.png"
+  ],
+  "preview": "sprites/gfx_963/preview.png",
+  "sheet": "sprites/gfx_963/sheet.png",
+  "images_table_pointer": "0x09E1D2A0",
+  "oam_pointer": "0x083A3718",
+  "subsprite_tables_pointer": "0x083A37F0",
+  "anims_pointer": "0x09DE0384",
+  "affine_anims_pointer": "0x08231CFC",
+  "packed_flags": 16,
+  "tracks": 1
+}

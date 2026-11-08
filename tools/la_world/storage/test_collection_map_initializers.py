@@ -12,7 +12,7 @@ group=next(i for i,g in enumerate(groups['group_order']) if name in groups[g])
 num=groups[groups['group_order'][group]].index(name)
 for mode in [0,1]:
  check('mode_'+str(mode),invoke('StorageChangeMode',mode,1)==1)
- for special in ['InitUnionRoom','SetLilycoveLadyGfx','Script_GetLilycoveLadyId']:
+ for special in ['InitUnionRoom','SetLilycoveLadyGfx','Script_GetLilycoveLadyId','PlayerNotAtTrainerHillEntrance','BufferUnionRoomPlayerName','HealPlayerParty','CountPlayerTrainerStars','IsPokerusInParty']:
   check('initializer_allowed_'+str(mode)+'_'+special,invoke('LaPcBlockedSpecial',symbols['SPECIAL_'+special])==0)
  for lady in range(3):
   save2=rd(symbols['gSaveBlock2Ptr'])

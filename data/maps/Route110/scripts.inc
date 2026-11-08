@@ -9,10 +9,19 @@ Route110_OnResume:
 	end
 
 Route110_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
-	call Common_EventScript_SetupRivalOnBikeGfxId
+	setflag FLAG_TEMP_1
+	call_if_eq VAR_REGISTER_BIRCH_STATE, 2, Route110_EventScript_CheckRowanGift
 	call_if_eq VAR_CYCLING_CHALLENGE_STATE, 1, Route110_EventScript_SaveCyclingMusic
 	end
+
+Route110_EventScript_CheckRowanGift::
+	checkitem ITEM_Z_POWER_RING
+	goto_if_eq VAR_RESULT, TRUE, Route110_EventScript_RowanReturn
+	setvar VAR_REGISTER_BIRCH_STATE, 1
+	return
+
+Route110_EventScript_RowanReturn::
+	return
 
 Route110_EventScript_SaveCyclingMusic::
 	savebgm MUS_CYCLING
@@ -370,24 +379,59 @@ Route110_EventScript_RivalTrigger3::
 
 Route110_EventScript_RivalScene::
 	lockall
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, Route110_EventScript_PlayMayMusic
-	call_if_eq VAR_RESULT, FEMALE, Route110_EventScript_PlayBrendanMusic
-	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
+	playse SE_PIN
 	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_Delay48
-	waitmovement 0
-	delay 30
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_RivalApproachPlayer1
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_RivalApproachPlayer2
 	call_if_eq VAR_0x8008, 3, Route110_EventScript_RivalApproachPlayer3
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, Route110_EventScript_MayBattle
-	goto_if_eq VAR_RESULT, FEMALE, Route110_EventScript_BrendanBattle
+	copyobjectxytoperm LOCALID_ROUTE110_RIVAL
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	setspeaker SP_NAME_BARRY
+	msgbox Route110_Text_BarryPhone, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox Route110_Text_PlayerAsksBarry, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BARRY
+	msgbox Route110_Text_BarryChallenge, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	closemessage
+	trainerbattle_no_intro TRAINER_BARRY_ROUTE_110, Route110_Text_BarryDefeat
+	lockall
+	setspeaker SP_NAME_BARRY
+	msgbox Route110_Text_BarryAfterBattle, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	closemessage
+	applymovement LOCALID_ROUTE110_RIVAL, Route110_Movement_BarryLeave
+	waitmovement 0
+	removeobject LOCALID_ROUTE110_RIVAL
+	setvar VAR_ROUTE110_STATE, 1
+	savebgm MUS_DUMMY
+	fadedefaultbgm
 	releaseall
 	end
+
+Route110_Movement_BarryLeave:
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+Route110_Text_BarryPhone:
+	.string "{PLAYER}! I found a phone at the\ndocks. Dad knows I'm okay.\pI told him I was in Hoenn and he\nmade me say it twice!$"
+
+Route110_Text_PlayerAsksBarry:
+	.string "I'm glad you reached him.\nWhat are you doing out here?$"
+
+Route110_Text_BarryChallenge:
+	.string "I can't sit around waiting for\nanother rift to open.\pI'm going to see how strong the\ntrainers here are. Starting with you!$"
+
+Route110_Text_BarryDefeat:
+	.string "What?! I was sure I had you!$"
+
+Route110_Text_BarryAfterBattle:
+	.string "Okay, now I know what to work on.\pRace you to Mauville! If you make\nme wait, I'm fining you!$"
 
 Route110_EventScript_PlayMayMusic::
 	playbgm MUS_ENCOUNTER_MAY, TRUE
@@ -572,26 +616,29 @@ Route110_Movement_RivalExit3:
 
 Route110_EventScript_BirchScene1::
 	lockall
-	setvar VAR_0x8008, 1
+	setvar VAR_TEMP_2, 1
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene2::
 	lockall
-	setvar VAR_0x8008, 2
+	setvar VAR_TEMP_2, 2
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene3::
 	lockall
-	setvar VAR_0x8008, 3
+	setvar VAR_TEMP_2, 3
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene4::
 	lockall
-	setvar VAR_0x8008, 4
+	setvar VAR_TEMP_2, 4
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene::
 	addobject LOCALID_ROUTE110_BIRCH
+	clearflag FLAG_TEMP_1
+	addobject LOCALID_ROUTE110_ROWAN
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_BirchEntrance
 	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchEntrance
 	waitmovement 0
 	playse SE_PIN
@@ -599,24 +646,74 @@ Route110_EventScript_BirchScene::
 	waitmovement 0
 	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_Delay48
 	waitmovement 0
-	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchApproachPlayer1
-	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchApproachPlayer2
-	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchApproachPlayer3
-	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchApproachPlayer4
-	msgbox Route110_Text_ImagineSeeingYouHere, MSGBOX_DEFAULT
+	call_if_eq VAR_TEMP_2, 1, Route110_EventScript_BirchApproachPlayer1
+	call_if_eq VAR_TEMP_2, 2, Route110_EventScript_BirchApproachPlayer2
+	call_if_eq VAR_TEMP_2, 3, Route110_EventScript_BirchApproachPlayer3
+	call_if_eq VAR_TEMP_2, 4, Route110_EventScript_BirchApproachPlayer4
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	setspeaker SP_NAME_BIRCH
+	msgbox Route110_Text_BirchIntroducesRowan, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ROWAN
+	msgbox Route110_Text_RowanReading, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox Route110_Text_PlayerMuseumReport, MSGBOX_DEFAULT
 	closemessage
-	delay 20
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterLeft
+	playse SE_PIN
+	applymovement LOCALID_ROUTE110_ROWAN, Common_Movement_ExclamationMark
 	waitmovement 0
-	delay 10
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	call_if_eq VAR_TEMP_2, 1, Route110_EventScript_RowanApproach1
+	call_if_eq VAR_TEMP_2, 2, Route110_EventScript_RowanApproach2
+	call_if_eq VAR_TEMP_2, 3, Route110_EventScript_RowanApproach3
+	call_if_eq VAR_TEMP_2, 4, Route110_EventScript_RowanApproach4
+	setspeaker SP_NAME_ROWAN
+	msgbox Route110_Text_RowanRecognizesBarry, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox Route110_Text_PlayerExplainsBarry, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ROWAN
+	msgbox Route110_Text_RowanComparesReadings, MSGBOX_DEFAULT
+	call Route110_EventScript_GiveRowanRing
+	call_if_unset FLAG_ENABLE_PROF_BIRCH_MATCH_CALL, Route110_EventScript_RegisterBirch
+	setspeaker SP_NAME_BIRCH
+	msgbox Route110_Text_BirchBarry, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_RowanLeave
 	waitmovement 0
-	delay 20
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	delay 30
+	removeobject LOCALID_ROUTE110_ROWAN
+	setflag FLAG_TEMP_1
+	call_if_eq VAR_TEMP_2, 1, Route110_EventScript_BirchExit1
+	call_if_eq VAR_TEMP_2, 2, Route110_EventScript_BirchExit2
+	call_if_eq VAR_TEMP_2, 3, Route110_EventScript_BirchExit3
+	call_if_eq VAR_TEMP_2, 4, Route110_EventScript_BirchExit4
+	removeobject LOCALID_ROUTE110_BIRCH
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
+	end
+
+Route110_Movement_RowanLeave:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+Route110_Text_BirchIntroducesRowan:
+	.string "{PLAYER}! Glad we caught you.\pThis is Professor Rowan. We just got\nback from checking New Mauville.$"
+
+Route110_Text_RowanReading:
+	.string "Good to meet you, {PLAYER}.\pBirch asked me to look at a reading\nfrom the old power station.\pThe surge began before the\ngenerators even came online.$"
+
+Route110_Text_PlayerMuseumReport:
+	.string "Archie said the sea split open\noff Slateport.\pAnd at the museum I met Barry.\nA rift brought him here from Sinnoh.$"
+
+Route110_Text_RowanComparesReadings:
+	.string "Of course he did. Even a rift\nwouldn't slow that boy down.\pI'm glad he's safe. I'll ask Stern\nwhen his crew first saw the rift.$"
+
+Route110_EventScript_RegisterBirch::
+	setspeaker SP_NAME_BIRCH
 	msgbox Route110_Text_HeardYouInstallMatchCall, MSGBOX_DEFAULT
 	closemessage
+	setspeaker SP_NAME_NONE
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
 	msgbox Route110_Text_RegisteredBirchInPokenav, MSGBOX_DEFAULT
@@ -624,16 +721,74 @@ Route110_EventScript_BirchScene::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
-	msgbox Route110_Text_KeepAnEyeOutForRival, MSGBOX_DEFAULT
+	return
+
+Route110_EventScript_GiveRowanRing::
+	checkitem ITEM_Z_POWER_RING
+	goto_if_eq VAR_RESULT, TRUE, Route110_EventScript_RowanReturn
+	setspeaker SP_NAME_ROWAN
+	msgbox Route110_Text_RowanRing, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchExit1
-	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchExit2
-	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchExit3
-	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchExit4
-	removeobject LOCALID_ROUTE110_BIRCH
-	setvar VAR_REGISTER_BIRCH_STATE, 2
-	releaseall
-	end
+	setspeaker SP_NAME_NONE
+	giveitem ITEM_Z_POWER_RING
+	closemessage
+	return
+
+Route110_Text_RowanRecognizesBarry:
+	.string "Barry?! Where is he now?$"
+
+Route110_Text_PlayerExplainsBarry:
+	.string "He helped me stop Team Aqua.\pThen he ran off to find a phone.\nHe wanted to call his dad.$"
+
+Route110_Text_RowanRing:
+	.string "We found this near the generator\nat New Mauville after the surge.\pIt's a Z-Power Ring. Pair it with\na matching Z-Crystal, and your\lPokémon can use a Z-Move.\pHere. It may come in handy if you\nrun into Team Aqua again.$"
+
+Route110_EventScript_RowanApproach1::
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_RowanApproach1
+	waitmovement 0
+	return
+
+Route110_Movement_RowanApproach1:
+	walk_down
+	walk_left
+	walk_left
+	walk_down
+	step_end
+
+Route110_EventScript_RowanApproach2::
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_RowanApproach2
+	waitmovement 0
+	return
+
+Route110_Movement_RowanApproach2:
+	walk_down
+	walk_left
+	walk_down
+	step_end
+
+Route110_EventScript_RowanApproach3::
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_RowanApproach3
+	waitmovement 0
+	return
+
+Route110_Movement_RowanApproach3:
+	walk_down
+	walk_down
+	step_end
+
+Route110_EventScript_RowanApproach4::
+	applymovement LOCALID_ROUTE110_ROWAN, Route110_Movement_RowanApproach4
+	waitmovement 0
+	return
+
+Route110_Movement_RowanApproach4:
+	walk_down
+	walk_left
+	walk_down
+	step_end
+
+Route110_Text_BirchBarry:
+	.string "If you see Barry again, tell him\nhe can call me if he needs help.\pAnd call me yourself if you see\nanother rift. We'll be in touch.$"
 
 Route110_EventScript_BirchApproachPlayer1::
 	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchApproachPlayer1
@@ -965,16 +1120,7 @@ Route110_Text_ImagineSeeingYouHere:
 	.string "And where might my {RIVAL} be?$"
 
 Route110_Text_HeardYouInstallMatchCall:
-	.string "Oh, I see!\n"
-	.string "You two are running separately.\l"
-	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your POKéNAV\n"
-	.string "had the MATCH CALL system installed.\p"
-	.string "Well, then, I should register you in\n"
-	.string "my POKéNAV as well.\p"
-	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.\p"
-	.string "… … … … … …$"
+	.string "Let's register each other in the\nPokéNav before we split up.\pIf you find anything else, you can\nreach me through Match Call.$"
 
 Route110_Text_RegisteredBirchInPokenav:
 	.string "Registered PROF. BIRCH\n"

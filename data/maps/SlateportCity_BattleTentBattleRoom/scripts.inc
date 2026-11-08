@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_SLATEPORT_TENT_BATTLE_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
@@ -101,3 +103,34 @@ SlateportCity_BattleTentBattleRoom_Movement_OpponentEnter:
 	walk_in_place_faster_left
 	step_end
 
+
+#else
+SlateportCity_BattleTentBattleRoom_MapScripts::
+	.byte 0
+SlateportCity_BattleTentBattleRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_SetPlayerGfx::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_SetPlayerGfxMale::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTent_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_EventScript_WarpToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_Movement_PlayerEnter:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentBattleRoom_Movement_OpponentEnter:
+	goto EventScript_LegacyFeatureDisabled
+#endif

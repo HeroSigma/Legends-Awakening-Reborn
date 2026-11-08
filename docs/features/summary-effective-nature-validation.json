@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "assertions": 18,
+  "rom_sha256": "b96cc7e3076ed0e9eb4cf7259c65acd324715da9aebfc94a28326e37671099cb",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "initial_effects_brave_0",
+      "passed": true
+    },
+    {
+      "test": "prepare_(4, 0, 10)",
+      "passed": true
+    },
+    {
+      "test": "commit_(4, 0, 10)",
+      "passed": true
+    },
+    {
+      "test": "effective_timid_0",
+      "passed": true
+    },
+    {
+      "test": "identity_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "summary_says_timid_0",
+      "passed": true
+    },
+    {
+      "test": "summary_returns_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "initial_effects_brave_1",
+      "passed": true
+    },
+    {
+      "test": "prepare_(4, 0, 10)",
+      "passed": true
+    },
+    {
+      "test": "commit_(4, 0, 10)",
+      "passed": true
+    },
+    {
+      "test": "effective_timid_1",
+      "passed": true
+    },
+    {
+      "test": "identity_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "summary_says_timid_1",
+      "passed": true
+    },
+    {
+      "test": "summary_returns_1",
+      "passed": true
+    }
+  ]
+}

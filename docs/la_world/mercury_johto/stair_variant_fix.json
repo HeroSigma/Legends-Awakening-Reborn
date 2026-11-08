@@ -1,0 +1,421 @@
+{
+  "changes": [
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 296,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 310,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S082D4BFC",
+      "index": 442,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 302,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 310,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4A94S08EF09AC",
+      "index": 441,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 152,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 153,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4B84",
+      "index": 480,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 162,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4BB4S08A0017C",
+      "index": 163,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 107,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 109,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 115,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 116,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4B6C",
+      "index": 117,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 203,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 304,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 339,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 441,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08EF09AC",
+      "index": 442,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 430,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5064",
+      "index": 438,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4E0C",
+      "index": 111,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D4E0C",
+      "index": 119,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08A75164",
+      "index": 341,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D5094",
+      "index": 391,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 296,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 302,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 304,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 312,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 441,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D4BFC",
+      "index": 442,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 120,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 121,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_08DB849C",
+      "index": 123,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS082D50AC",
+      "index": 287,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 174,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 176,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 177,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 178,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 202,
+      "source_behavior": 181,
+      "before": 75,
+      "after": 0,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 214,
+      "source_behavior": 178,
+      "before": 76,
+      "after": 0,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 258,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D4B6CS08D5B094",
+      "index": 263,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 194,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P08BF937CS08BF340C",
+      "index": 199,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 233,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 235,
+      "source_behavior": 181,
+      "before": 75,
+      "after": 0,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "primary_f2e_MERCURY_082D501C",
+      "index": 250,
+      "source_behavior": 181,
+      "before": 4171,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 484,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    },
+    {
+      "bank": "secondary_f2e_MERCURY_P082D50ACS082D4BFC",
+      "index": 486,
+      "source_behavior": 178,
+      "before": 4172,
+      "after": 4096,
+      "reason": "Donor variant 2 is not native diagonal-stair top; normal movement retains cell collision/elevation."
+    }
+  ],
+  "runtime_verified": false
+}

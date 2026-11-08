@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_encounters.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_setup.h"
@@ -1755,18 +1756,18 @@ static void PopulateSpeciesFromTrainerLocation(int matchCallId, u8 *destStr)
         {
             timeOfDay = GetTimeOfDayForEncounters(i, WILD_AREA_LAND);
             numSpecies = 0;
-            if (gWildMonHeaders[i].encounterTypes[timeOfDay].landMonsInfo)
+            if (GetEffectiveWildEncounterTypes(i, timeOfDay)->landMonsInfo)
             {
                 slot = GetLandEncounterSlotForMatchCall();
-                species[numSpecies] = gWildMonHeaders[i].encounterTypes[timeOfDay].landMonsInfo->wildPokemon[slot].species;
+                species[numSpecies] = GetEffectiveWildEncounterTypes(i, timeOfDay)->landMonsInfo->wildPokemon[slot].species;
                 numSpecies++;
             }
 
             timeOfDay = GetTimeOfDayForEncounters(i, WILD_AREA_WATER);
-            if (gWildMonHeaders[i].encounterTypes[timeOfDay].waterMonsInfo)
+            if (GetEffectiveWildEncounterTypes(i, timeOfDay)->waterMonsInfo)
             {
                 slot = GetWaterEncounterSlotForMatchCall();
-                species[numSpecies] = gWildMonHeaders[i].encounterTypes[timeOfDay].waterMonsInfo->wildPokemon[slot].species;
+                species[numSpecies] = GetEffectiveWildEncounterTypes(i, timeOfDay)->waterMonsInfo->wildPokemon[slot].species;
                 numSpecies++;
             }
 

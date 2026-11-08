@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeRoomFinal_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeRoomFinal_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeRoomFinal_OnWarp
@@ -38,3 +40,20 @@ BattleFrontier_BattlePikeRoomFinal_Text_CongratsThisWayPlease:
 	.string "Congratulations…\n"
 	.string "Now, this way, please…$"
 
+
+#else
+BattleFrontier_BattlePikeRoomFinal_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeRoomFinal_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomFinal_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomFinal_Movement_AttendantApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomFinal_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomFinal_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeRoomFinal_Text_CongratsThisWayPlease:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_PALACE_BATTLE_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
@@ -572,3 +574,166 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
 	.string "SPENSER: Gwahahah!\p"
 	.string "Come see me time and again!\n"
 	.string "My brethren and I will be waiting!$"
+
+#else
+BattleFrontier_BattlePalaceBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattlePalaceBattleRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_SetPlayerGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_SetPlayerGfxMale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_BeginChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_NextOpponentEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskReadyForOpponentNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskPauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ContinueChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_MavenUpNext::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskReadyForMaven::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_AskReadyForMavenNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_BattleSpenser::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_BattleSpenserSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_DefeatedSpenserSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_IntroSpenserGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_BattleSpenserGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_DefeatedSpenserGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_DoPalaceBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_SetUpRoomObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor2ndOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor3rdOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor4thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor5thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor6thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_ReadyFor7thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_PlayerEnterRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_FaceRight:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_FaceUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_PlayerReturnToChallenge:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_OpponentEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_OpponentExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_FaceDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_UnusedOpponentEnter1:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_UnusedOpponentEnter2:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_UnusedOpponentEnter3:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobbyDoubles::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_DusclopsEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_AzurillEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
+	.string "This feature is disabled in this build.$"
+#endif

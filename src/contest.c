@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "gpu_regs.h"
 #include "bg.h"
@@ -6146,3 +6148,318 @@ void StripPlayerAndMonNamesForLinkContest(struct ContestPokemon *mon, enum Langu
         name[PLAYER_NAME_LENGTH] = EOS;
     }
 }
+
+#else
+#include "global.h"
+#include "gpu_regs.h"
+#include "bg.h"
+#include "malloc.h"
+#include "battle.h"
+#include "battle_anim.h"
+#include "contest.h"
+#include "contest_link.h"
+#include "data.h"
+#include "decompress.h"
+#include "graphics.h"
+#include "image_processing_effects.h"
+#include "link.h"
+#include "m4a.h"
+#include "main.h"
+#include "menu.h"
+#include "overworld.h"
+#include "palette.h"
+#include "random.h"
+#include "new_game.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "sound.h"
+#include "sprite.h"
+#include "string_util.h"
+#include "task.h"
+#include "text.h"
+#include "tv.h"
+#include "scanline_effect.h"
+#include "util.h"
+#include "contest_util.h"
+#include "dma3.h"
+#include "battle_message.h"
+#include "event_scripts.h"
+#include "event_data.h"
+#include "strings.h"
+#include "contest_effect.h"
+#include "contest_link.h"
+#include "international_string_util.h"
+#include "data.h"
+#include "contest_ai.h"
+#include "constants/event_objects.h"
+#include "constants/items.h"
+#include "constants/moves.h"
+#include "constants/rgb.h"
+#include "constants/script_menu.h"
+#include "constants/songs.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+EWRAM_DATA struct ContestPokemon gContestMons[CONTESTANT_COUNT] = {0};
+EWRAM_DATA s16 gContestMonRound1Points[CONTESTANT_COUNT] = {0};
+EWRAM_DATA s16 gContestMonTotalPoints[CONTESTANT_COUNT] = {0};
+EWRAM_DATA s16 gContestMonAppealPointTotals[CONTESTANT_COUNT] = {0};
+EWRAM_DATA s16 gContestMonRound2Points[CONTESTANT_COUNT] = {0};
+EWRAM_DATA u8 gContestFinalStandings[CONTESTANT_COUNT] = {0};
+EWRAM_DATA u8 gContestMonPartyIndex = 0;
+EWRAM_DATA u8 gContestPlayerMonIndex = 0;
+EWRAM_DATA u8 gContestantTurnOrder[CONTESTANT_COUNT] = {0};
+EWRAM_DATA u8 gLinkContestFlags = 0;
+EWRAM_DATA u8 gContestLinkLeaderIndex = 0;
+EWRAM_DATA enum ContestCategories gSpecialVar_ContestCategory = 0;
+EWRAM_DATA u16 gSpecialVar_ContestRank = 0;
+EWRAM_DATA u8 gNumLinkContestPlayers = 0;
+EWRAM_DATA u8 gHighestRibbonRank = 0;
+EWRAM_DATA struct ContestResources *gContestResources = NULL;
+EWRAM_DATA struct ContestWinner gCurContestWinner = {0};
+EWRAM_DATA bool8 gCurContestWinnerIsForArtist = 0;
+EWRAM_DATA u8 gCurContestWinnerSaveIdx = 0;
+const u8 gText_LinkStandby4[] = _("Link standby!");
+const u8 gText_AppealNumWhichMoveWillBePlayed[] = _("Appeal no. {STR_VAR_1}!\nWhich move will be played?");
+const u8 gText_AppealNumButItCantParticipate[] = _("Appeal no. {STR_VAR_1}!\nBut it can't participate!");
+const u8 gText_MonAppealedWithMove[] = _("{STR_VAR_1} appealed with\n{STR_VAR_2}!");
+const u8 gText_MonWasWatchingOthers[] = _("{STR_VAR_1} was watching\nthe others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_AllOutOfAppealTime[] = _("We're all out of\nAppeal Time!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_JudgeLookedAtMonExpectantly[] = _("The JUDGE looked at\n{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_AppealComboWentOverWell[] = _("The appeal combo went\nover well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_AppealComboWentOverVeryWell[] = _("The appeal combo went\nover very well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_AppealComboWentOverExcellently[] = _("The appeal combo went\nover excellently.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonWasTooNervousToMove[] = _("{STR_VAR_1} was too\nnervous to move.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_CouldntImproveItsCondition[] = _("But it couldn't improve\nits condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_BadConditionResultedInWeakAppeal[] = _("Its bad condition\nresulted in a weak appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonWasUnaffected[] = _("{STR_VAR_1} was\nunaffected.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_RepeatedAppeal[] = _("{STR_VAR_1} disappointed\nby repeating an appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonsXWentOverGreat[] = _("{STR_VAR_1}'s {STR_VAR_3}\nwent over great.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonsXDidntGoOverWell[] = _("{STR_VAR_1}'s {STR_VAR_3}\ndidn't go over well here…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonsXGotTheCrowdGoing[] = _("{STR_VAR_1}'s {STR_VAR_3}\ngot the crowd going.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonCantAppealNextTurn[] = _("{STR_VAR_1} can't appeal\nnext turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_AttractedCrowdsAttention[] = _("It attracted the crowd's\nattention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_CrowdContinuesToWatchMon[] = _("The crowd continues to\nwatch {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const u8 gText_MonsMoveIsIgnored[] = _("{STR_VAR_1}'s\n{STR_VAR_2} is ignored.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}");
+const struct ContestCategory gContestCategoryInfo[CONTEST_CATEGORIES_COUNT + 1] =
+{
+    [CONTEST_CATEGORY_COOL] =
+    {
+        .name = COMPOUND_STRING("COOL"),
+        .condition = COMPOUND_STRING("coolness"),
+        .generic = COMPOUND_STRING("COOL Move"),
+        .negativeTrait = COMPOUND_STRING("shyness"),
+        .ribbon = MON_DATA_COOL_RIBBON,
+        .imageEffect = IMAGE_EFFECT_OUTLINE_COLORED,
+        .paintingTiles = NULL, // sPictureFrameTiles_Cool,
+        .paintingTilemap = NULL, // sPictureFrameTilemap_Cool,
+        .palette = 13,
+        .tile = 0x4040,
+        .resultsTilemap = gContestResultsTitle_Cool_Tilemap,
+        .stdString = STDSTRING_COOL,
+        .text = gText_Cool,
+        .tvShowState = CONTESTLIVE_STATE_COOL,
+        .tvShowStateExciting = CONTESTLIVE_STATE_VERY_COOL,
+    },
+
+    [CONTEST_CATEGORY_BEAUTY] =
+    {
+        .name = COMPOUND_STRING("BEAUTY"),
+        .condition = COMPOUND_STRING("beauty"),
+        .generic = COMPOUND_STRING("BEAUTY Move"),
+        .negativeTrait = COMPOUND_STRING("anxiety"),
+        .ribbon = MON_DATA_BEAUTY_RIBBON,
+        .imageEffect = IMAGE_EFFECT_SHIMMER,
+        .paintingTiles = NULL, // sPictureFrameTiles_Beauty,
+        .paintingTilemap = NULL, // sPictureFrameTilemap_Beauty,
+        .palette = 14,
+        .tile = 0x4045,
+        .resultsTilemap = gContestResultsTitle_Beauty_Tilemap,
+        .stdString = STDSTRING_BEAUTY,
+        .text = gText_Beauty,
+        .tvShowState = CONTESTLIVE_STATE_BEAUTIFUL,
+        .tvShowStateExciting = CONTESTLIVE_STATE_VERY_BEAUTIFUL,
+    },
+
+    [CONTEST_CATEGORY_CUTE] =
+    {
+        .name = COMPOUND_STRING("CUTE"),
+        .condition = COMPOUND_STRING("cuteness"),
+        .generic = COMPOUND_STRING("CUTE Move"),
+        .negativeTrait = COMPOUND_STRING("laziness"),
+        .ribbon = MON_DATA_CUTE_RIBBON,
+        .imageEffect = IMAGE_EFFECT_POINTILLISM,
+        .paintingTiles = NULL, // sPictureFrameTiles_Cute,
+        .paintingTilemap = NULL, // sPictureFrameTilemap_Cute,
+        .palette = 14,
+        .tile = 0x404A,
+        .resultsTilemap = gContestResultsTitle_Cute_Tilemap,
+        .stdString = STDSTRING_CUTE,
+        .text = gText_Cute,
+        .tvShowState = CONTESTLIVE_STATE_CUTE,
+        .tvShowStateExciting = CONTESTLIVE_STATE_VERY_CUTE,
+    },
+
+    [CONTEST_CATEGORY_SMART] =
+    {
+        .name = COMPOUND_STRING("SMART"),
+        .condition = COMPOUND_STRING("smartness"),
+        .generic = COMPOUND_STRING("SMART Move"),
+        .negativeTrait = COMPOUND_STRING("hesitancy"),
+        .ribbon = MON_DATA_SMART_RIBBON,
+        .imageEffect = IMAGE_EFFECT_CHARCOAL,
+        .paintingTiles = NULL, // sPictureFrameTiles_Smart,
+        .paintingTilemap = NULL, // sPictureFrameTilemap_Smart,
+        .palette = 15,
+        .tile = 0x406A,
+        .resultsTilemap = gContestResultsTitle_Smart_Tilemap,
+        .stdString = STDSTRING_SMART,
+        .text = gText_Smart,
+        .tvShowState = CONTESTLIVE_STATE_SMART,
+        .tvShowStateExciting = CONTESTLIVE_STATE_VERY_SMART,
+    },
+
+    [CONTEST_CATEGORY_TOUGH] =
+    {
+        .name = COMPOUND_STRING("TOUGH"),
+        .condition = COMPOUND_STRING("toughness"),
+        .generic = COMPOUND_STRING("TOUGH Move"),
+        .negativeTrait = COMPOUND_STRING("fear"),
+        .ribbon = MON_DATA_TOUGH_RIBBON,
+        .imageEffect = IMAGE_EFFECT_GRAYSCALE_LIGHT,
+        .paintingTiles = NULL, // sPictureFrameTiles_Tough,
+        .paintingTilemap = NULL, // sPictureFrameTilemap_Tough,
+        .palette = 13,
+        .tile = 0x408A,
+        .resultsTilemap = gContestResultsTitle_Tough_Tilemap,
+        .stdString = STDSTRING_TOUGH,
+        .text = gText_Tough,
+        .tvShowState = CONTESTLIVE_STATE_TOUGH,
+        .tvShowStateExciting = CONTESTLIVE_STATE_VERY_TOUGH,
+    },
+
+    [CONTEST_CATEGORIES_COUNT] =
+    {
+        .generic = COMPOUND_STRING("???"),
+    },
+};
+void ResetLinkContestBoolean(void)
+{
+
+}
+
+void LoadContestBgAfterMoveAnim(void)
+{
+
+}
+
+void CB2_StartContest(void)
+{
+    SetMainCallback2(CB2_ReturnToField);
+}
+
+void CreateContestMonFromParty(u8 partyIndex)
+{
+
+}
+
+void SetContestants(enum ContestCategories contestType, u8 rank)
+{
+
+}
+
+void SetLinkAIContestants(enum ContestCategories contestType, u8 rank, bool32 isPostgame)
+{
+
+}
+
+u8 GetContestEntryEligibility(struct Pokemon *pkmn)
+{
+    return CANT_ENTER_CONTEST;
+}
+
+void CalculateRound1Points(enum ContestCategories contestCategory)
+{
+
+}
+
+bool8 IsSpeciesNotUnown(enum Species species)
+{
+    return 0;
+}
+
+bool8 Contest_IsMonsTurnDisabled(u8 contestant)
+{
+    return 0;
+}
+
+void SaveLinkContestResults(void)
+{
+
+}
+
+void SortContestants(bool8 useRanking)
+{
+
+}
+
+void SetContestantEffectStringID(u8 contestant, u8 effectStringId)
+{
+
+}
+
+void SetContestantEffectStringID2(u8 contestant, u8 effectStringId)
+{
+
+}
+
+void SetStartledString(u8 contestant, u8 jam)
+{
+
+}
+
+void MakeContestantNervous(u8 p)
+{
+
+}
+
+s8 Contest_GetMoveExcitement(enum Move move)
+{
+    return 0;
+}
+
+bool8 IsContestantAllowedToCombo(u8 contestant)
+{
+    return 0;
+}
+
+void Contest_PrintTextToBg0WindowAt(u32 windowId, u8 *currChar, s32 x, s32 y, s32 fontId)
+{
+
+}
+
+void ResetContestLinkResults(void)
+{
+
+}
+
+bool8 SaveContestWinner(u8 rank)
+{
+    return 0;
+}
+
+u8 GetContestWinnerSaveIdx(u8 rank, bool8 shift)
+{
+    return 0;
+}
+
+void ClearContestWinnerPicsInContestHall(void)
+{
+
+}
+
+void StripPlayerAndMonNamesForLinkContest(struct ContestPokemon *mon, enum Language language)
+{
+
+}
+#endif

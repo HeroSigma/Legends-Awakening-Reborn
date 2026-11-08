@@ -1,0 +1,94 @@
+{
+  "id": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+  "name": "Hoenn_Desert_Ruins",
+  "layout": "LAYOUT_HYPERHOENN_34_45_DESERT_RUINS",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_DESERT_RUINS",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_50_ULTRA_SPACE",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 56,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_46_UNOWN_RUINS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 55,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 57,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_45_DESERT_RUINS",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 37,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_14_SOLACEON_RUINS",
+      "dest_warp_id": "25"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_14_SOLACEON_RUINS",
+      "dest_warp_id": "32"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RiftResearch_Natural_5"
+    }
+  ],
+  "region": "REGION_HOENN"
+}

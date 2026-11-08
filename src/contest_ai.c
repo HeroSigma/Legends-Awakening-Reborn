@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "battle.h"
 #include "contest.h"
@@ -1783,3 +1785,27 @@ static void ContestAICmd_if_user_doesnt_have_move(void)
     else
         gAIScriptPtr += 4;
 }
+
+#else
+#include "global.h"
+#include "battle.h"
+#include "contest.h"
+#include "random.h"
+#include "contest_ai.h"
+#include "contest_effect.h"
+#include "constants/moves.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+
+
+void ContestAI_ResetAI(u8 contestantAI)
+{
+
+}
+
+u8 ContestAI_GetActionToUse(void)
+{
+    return 0;
+}
+#endif

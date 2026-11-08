@@ -638,3 +638,25 @@ gSpecials::
 	def_special UpdateTrainerCardPhotoIcons
 	def_special StickerManGetBragFlags
 	def_special CheckAddCoins
+	def_special LegendsBirchRescueThunderbolt
+	def_special LegendsPrepareTeraChange
+	def_special LegendsCommitTeraChange
+
+	def_special LegendsTrainer_PrepareFormat
+	def_special LegendsTrainer_SelectFormat
+
+	def_special LegendsTraining_Menu, waitstate=1
+	def_special LegendsTraining_Inspect
+	def_special LegendsTraining_Prepare
+	def_special LegendsTraining_Commit
+	def_special LegendsTraining_Evolve, waitstate=1
+	def_special LegendsTraining_EVBudget
+	def_special LegendsTraining_ShowBuild, waitstate=1
+
+	def_special LegendsPokevialGrant
+	def_special LegendsPokevialPrepare
+	def_special LegendsPokevialHeal
+
+	def_special IsNonstandardStarter
+
+	def_special RiftTracker_Check

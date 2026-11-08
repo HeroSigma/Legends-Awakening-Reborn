@@ -1,0 +1,4 @@
+Kanto_Route10_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PowerPlantRift_RouteTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PowerPlantRift_RouteFrame
+	.byte 0

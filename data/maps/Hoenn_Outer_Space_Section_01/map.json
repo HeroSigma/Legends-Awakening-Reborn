@@ -1,0 +1,44 @@
+{
+  "id": "MAP_HYPERHOENN_26_58_OUTER_SPACE",
+  "name": "Hoenn_Outer_Space_Section_01",
+  "layout": "LAYOUT_HYPERHOENN_26_58_OUTER_SPACE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_OUTER_SPACE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERWATER",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 15,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_72_OUTER_SPACE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_72_OUTER_SPACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_65_OUTER_SPACE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

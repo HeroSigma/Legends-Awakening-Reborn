@@ -13,6 +13,11 @@
 	.endm
 
 	.macro voice_group label:req, starting_note
+	.ifdef LA_AUDIO_GC
+	.if LA_AUDIO_GC
+	.section .rodata.audio.voicegroup_\label, "a", %progbits
+	.endif
+	.endif
 	.align 2
 	.ifb \starting_note
 		.global voicegroup_\label
@@ -23,6 +28,11 @@
 	.endm
 
 	.macro keysplit label:req, starting_note
+	.ifdef LA_AUDIO_GC
+	.if LA_AUDIO_GC
+	.section .rodata.audio.keysplit_\label, "a", %progbits
+	.endif
+	.endif
 	.ifb \starting_note
 		.global keysplit_\label
 		keysplit_\label:

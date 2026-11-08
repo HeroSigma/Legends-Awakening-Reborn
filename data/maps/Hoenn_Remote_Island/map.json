@@ -1,0 +1,51 @@
+{
+  "id": "MAP_HYPERHOENN_35_56_REMOTE_ISLAND",
+  "name": "Hoenn_Remote_Island",
+  "layout": "LAYOUT_HYPERHOENN_35_56_REMOTE_ISLAND",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_REMOTE_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": -41,
+      "map": "MAP_HYPERHOENN_35_57_REMOTE_ISLAND"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 33,
+      "y": 44,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_35_64_REMOTE_ISLAND",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 24,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_35_55_ULTRA_SPACE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RiftResearch_Natural_9"
+    }
+  ]
+}

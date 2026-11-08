@@ -1,0 +1,43 @@
+{
+  "id": "MAP_HYPERSINNOH_36_49_SPRING_PATH",
+  "name": "Sinnoh_Spring_Path",
+  "layout": "LAYOUT_HYPERSINNOH_36_49_SPRING_PATH",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -62,
+      "map": "MAP_HYPERSINNOH_36_33_ROUTE_214"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_46_SENDOFF_SPRING",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 27,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_46_SENDOFF_SPRING",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

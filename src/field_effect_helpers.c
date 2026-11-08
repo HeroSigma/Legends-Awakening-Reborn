@@ -1,4 +1,5 @@
 #include "global.h"
+#include "pokeride.h"
 #include "event_object_movement.h"
 #include "field_camera.h"
 #include "field_effect.h"
@@ -1256,7 +1257,21 @@ void UpdateSurfBlobFieldEffect(struct Sprite *sprite)
     struct Sprite *playerSprite = &gSprites[playerObj->spriteId];
     SynchronizeSurfAnim(playerObj, sprite);
     SynchronizeSurfPosition(playerObj, sprite);
-    UpdateBobbingEffect(playerObj, playerSprite, sprite);
+    // The hidden native blob still owns shoreline/current/Surf lifecycle.
+    // Its bob callback must not overwrite the seated mount's offsets.
+    bool32 rideHidden = PokeRide_HidesSurfBlob();
+    if (rideHidden)
+    {
+        sprite->sBitfield |= 0x1000; // Own only this visibility change.
+        sprite->invisible = TRUE;
+    }
+    else if (sprite->sBitfield & 0x1000)
+    {
+        sprite->sBitfield &= ~0x1000;
+        sprite->invisible = playerSprite->invisible;
+    }
+    if (!rideHidden)
+        UpdateBobbingEffect(playerObj, playerSprite, sprite);
     sprite->oam.priority = playerSprite->oam.priority;
 }
 

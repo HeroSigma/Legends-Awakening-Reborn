@@ -3,7 +3,6 @@
   "name": "Route110",
   "layout": "LAYOUT_ROUTE110",
   "music": "MUS_ROUTE110",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_110",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -266,17 +265,17 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_LA_MEGA_STONE",
       "x": 30,
       "y": 69,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_DIRE_HIT",
+      "trainer_sight_or_berry_tree_id": "ITEM_MANECTITE",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_110_DIRE_HIT"
+      "flag": "FLAG_LA_PICKUP_MANECTITE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -385,7 +384,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE110_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_BARRY",
       "x": 34,
       "y": 54,
       "elevation": 3,
@@ -504,18 +503,18 @@
       "flag": "FLAG_HIDE_ROUTE_110_BIRCH"
     },
     {
-      "local_id": "LOCALID_ROUTE110_CONSTRUCTION_1",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 36,
-      "y": 11,
-      "elevation": 0,
+      "local_id": "LOCALID_ROUTE110_ROWAN",
+      "graphics_id": "OBJ_EVENT_GFX_LA_ROSTER_ROWAN",
+      "x": 10,
+      "y": 79,
+      "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route110_EventScript_HyperConstruction_1",
-      "flag": "0"
+      "script": "0x0",
+      "flag": "FLAG_TEMP_1"
     }
   ],
   "warp_events": [
@@ -787,5 +786,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route110_EventScript_CyclingRoadSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

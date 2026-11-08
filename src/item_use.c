@@ -1,6 +1,8 @@
 #include "global.h"
+#include "dexnav.h"
 #include "item_use.h"
 #include "battle.h"
+#include "battle_util.h"
 #include "battle_anim.h"
 #include "battle_stat_change.h"
 #include "battle_pyramid.h"
@@ -312,6 +314,9 @@ static void ItemUseOnFieldCB_Bike(u8 taskId)
 
 static bool32 CanFish(void)
 {
+    if (FlagGet(DN_FLAG_SEARCHING))
+        return FALSE;
+
     s16 x, y;
     u16 tileBehavior;
 
@@ -734,6 +739,23 @@ static void Task_OpenRegisteredPokeblockCase(u8 taskId)
     }
 }
 
+static void Task_UsePokevial(u8 taskId)
+{
+    ScriptContext_SetupScript(LegendsPokevial_Use);
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_Pokevial(u8 taskId)
+{
+    if (MenuHelpers_IsLinkActive())
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+    else
+    {
+        sItemUseOnFieldCB = Task_UsePokevial;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+}
+
 void ItemUseOutOfBattle_PokemonBoxLink(u8 taskId)
 {
     sItemUseOnFieldCB = Task_AccessPokemonBoxLink;
@@ -953,8 +975,8 @@ static void RemoveUsedItem(void)
     StringExpandPlaceholders(gStringVar4, gText_PlayerUsedVar2);
     if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE)
     {
-        UpdatePocketItemList(GetItemPocket(gSpecialVar_ItemId));
-        UpdatePocketListPosition(GetItemPocket(gSpecialVar_ItemId));
+        UpdatePocketItemList(GetItemBagCategory(gSpecialVar_ItemId));
+        UpdatePocketListPosition(GetItemBagCategory(gSpecialVar_ItemId));
     }
     else
     {
@@ -1121,6 +1143,9 @@ void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
 
 static u32 GetBallThrowableState(void)
 {
+    if (IsStoryBattleCaptureBlocked())
+        return BALL_THROW_UNABLE_DISABLED_FLAG;
+
     if (IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT))
      && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT)))
         return BALL_THROW_UNABLE_TWO_MONS;

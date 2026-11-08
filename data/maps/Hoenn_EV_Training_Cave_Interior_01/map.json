@@ -1,0 +1,45 @@
+{
+  "id": "MAP_HYPERHOENN_35_36_EV_TRAINING_CAVE",
+  "name": "Hoenn_EV_Training_Cave_Interior_01",
+  "layout": "LAYOUT_HYPERHOENN_35_36_EV_TRAINING_CAVE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_EV_TRAINING_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_32_ULTRA_SPACE_ZERO",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_35_70_REMOTE_ISLAND",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RiftResearch_Natural_7"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "MAP_HYPERSINNOH_37_86_CANALAVE_CITY",
+  "name": "Sinnoh_Canalave_City_Interior_04",
+  "layout": "LAYOUT_HYPERSINNOH_37_86_CANALAVE_CITY",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_11_CANALAVE_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_11_CANALAVE_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_89_CANALAVE_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_87_CANALAVE_CITY",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_89_CANALAVE_CITY",
+      "dest_warp_id": "9"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

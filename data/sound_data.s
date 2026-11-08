@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+	.equiv LA_AUDIO_GC, LA_FREE_SPACE
 	.section .rodata
 
 	.include "asm/macros.inc"
@@ -10,7 +12,9 @@
 	.include "sound/voice_groups.inc"
 	.include "sound/keysplit_tables.inc"
 	.include "sound/programmable_wave_data.inc"
+	.section .rodata.audio.player_table, "a", %progbits
 	.include "sound/music_player_table.inc"
+	.section .rodata.audio.song_table, "a", %progbits
 	.include "sound/song_table.inc"
 	.include "sound/direct_sound_data.inc"
 

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "assertions": 2616,
+  "rom_sha256": "69618d2d46ffe954b01ded2f7c3a7425f7bc9943f7fd204c248eb12c6fd16de9",
+  "save_sha256_unchanged": "4bd214ef7181a43258fd5c96008066ce3ad7577493fc12af41a9319bd21e98de",
+  "release_path": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba",
+  "reports": [
+    "docs/features/remaining-qol-validation.json",
+    "docs/features/field-move-unlocks-validation.json",
+    "docs/features/dexnav-equipment-chaining-validation.json",
+    "docs/features/automatic-fishing-validation.json",
+    "docs/features/adventure-journal-validation.json",
+    "docs/la_world/compact_pc/map_initializers/validation.json",
+    "docs/la_world/compact_pc/integration/validation.json"
+  ],
+  "preserved_user_map_hashes": {
+    "data/maps/Hoenn_Basement/map.json": "af88cd9509c329d7583f396a38cf2324d09690170721b63cbb1e9dcf61cda2c8",
+    "data/maps/RustboroCity_DevonCorp_1F/map.json": "542e1e31e9e332a09adc5c368b7fd6a528bb04561e27afb18a1bbf84c4961fda"
+  },
+  "features": [
+    "Box 1 egg nursery",
+    "Remote native daycare",
+    "Environmental follower hints",
+    "Optional berry replanting"
+  ],
+  "branch": "test/qol-first-three"
+}

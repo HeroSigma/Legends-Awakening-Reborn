@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Giovanni",
+    "donor": "hyper",
+    "graphics_id": 81,
+    "map": "35.4",
+    "object_local_id": 1,
+    "script_pointer_reference": "0x098046CC",
+    "text_pointer_reference": "0x0837A394",
+    "dialogue_summary": "I am Giovanni, leader of Team Rainbow Rocket.",
+    "confidence": "HIGH",
+    "evidence": "ROM-linked object script, boss appearance and donor locations; dialogue inspected as reference only"
+  },
+  {
+    "name": "Cyrus",
+    "donor": "hyper",
+    "graphics_id": 96,
+    "map": "35.4",
+    "object_local_id": 5,
+    "script_pointer_reference": "0x09804A14",
+    "text_pointer_reference": "0x0837F561",
+    "dialogue_summary": "I leave the present world to Giovanni; I shall create a universe of my own.",
+    "confidence": "HIGH",
+    "evidence": "ROM-linked object script, boss appearance and donor locations; dialogue inspected as reference only"
+  }
+]

@@ -1,0 +1,2269 @@
+{
+  "rom_sha256": "2870ff8b3d50c7276ec91e6d13f297445262a4d8a806f4d19b5444fa3492d6ce",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_old_save_default",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_default_exact",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_256",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_512",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_768",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1024",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1280",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1536",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1792",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_16",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_272",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_528",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_784",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1040",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1296",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1552",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1808",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_32",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_288",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_544",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_800",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1056",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1312",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1568",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1824",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_48",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_304",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_560",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_816",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1072",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1328",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1584",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1840",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_64",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_320",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_576",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_832",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1088",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1344",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1600",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1856",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_80",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_336",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_592",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_848",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1104",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1360",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1616",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1872",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_96",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_352",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_608",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_864",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1120",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1376",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1632",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1888",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_112",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_368",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_624",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_880",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1136",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1392",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1648",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1904",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_257",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_513",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_769",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1025",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1281",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1537",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1793",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_17",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_273",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_529",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_785",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1041",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1297",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1553",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1809",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_33",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_289",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_545",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_801",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1057",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1313",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1569",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1825",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_49",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_305",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_561",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_817",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1073",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1329",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1585",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1841",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_65",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_321",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_577",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_833",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1089",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1345",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1601",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1857",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_81",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_337",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_593",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_849",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1105",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1361",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1617",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1873",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_97",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_353",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_609",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_865",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1121",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1377",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1633",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1889",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_113",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_369",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_625",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_881",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1137",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1393",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1649",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1905",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_258",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_514",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_770",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1026",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1282",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1538",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1794",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_18",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_274",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_530",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_786",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1042",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1298",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1554",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1810",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_34",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_290",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_546",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_802",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1058",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1314",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1570",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1826",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_50",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_306",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_562",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_818",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1074",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1330",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1586",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1842",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_66",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_322",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_578",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_834",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1090",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1346",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1602",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1858",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_82",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_338",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_594",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_850",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1106",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1362",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1618",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1874",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_98",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_354",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_610",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_866",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1122",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1378",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1634",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1890",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_114",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_370",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_626",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_882",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1138",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1394",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1650",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1906",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_3",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_259",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_515",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_771",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1027",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1283",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1539",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1795",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_19",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_275",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_531",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_787",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1043",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1299",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1555",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1811",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_35",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_291",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_547",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_803",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1059",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1315",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1571",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1827",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_51",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_307",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_563",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_819",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1075",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1331",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1587",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1843",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_67",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_323",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_579",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_835",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1091",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1347",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1603",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1859",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_83",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_339",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_595",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_851",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1107",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1363",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1619",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1875",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_99",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_355",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_611",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_867",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1123",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1379",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1635",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1891",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_115",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_371",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_627",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_883",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1139",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1395",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1651",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_combination_1907",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_rival_unchanged",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_live_choices",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_cancel_restores",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_accepted",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_repeat_0",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_repeat_1",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_repeat_2",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_relocation",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_save",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_load",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_saved_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_saved_boxes",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_vial_kept",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_potions_kept",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_invalid_clamped",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_invalid_parts_clamped",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_save_again",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_reload_again",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_new_game_original",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_intro_live",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_cancel_restores_entire_prompt",
+      "passed": true
+    },
+    {
+      "test": "g0_mode0_intro_commits_to_new_save",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_old_save_default",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_default_exact",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_256",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_512",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_768",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1024",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1280",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1536",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1792",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_16",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_272",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_528",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_784",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1040",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1296",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1552",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1808",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_32",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_288",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_544",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_800",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1056",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1312",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1568",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1824",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_48",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_304",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_560",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_816",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1072",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1328",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1584",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1840",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_64",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_320",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_576",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_832",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1088",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1344",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1600",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1856",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_80",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_336",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_592",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_848",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1104",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1360",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1616",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1872",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_96",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_352",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_608",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_864",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1120",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1376",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1632",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1888",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_112",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_368",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_624",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_880",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1136",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1392",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1648",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1904",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_257",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_513",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_769",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1025",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1281",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1537",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1793",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_17",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_273",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_529",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_785",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1041",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1297",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1553",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1809",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_33",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_289",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_545",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_801",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1057",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1313",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1569",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1825",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_49",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_305",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_561",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_817",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1073",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1329",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1585",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1841",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_65",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_321",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_577",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_833",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1089",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1345",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1601",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1857",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_81",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_337",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_593",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_849",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1105",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1361",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1617",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1873",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_97",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_353",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_609",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_865",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1121",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1377",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1633",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1889",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_113",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_369",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_625",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_881",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1137",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1393",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1649",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1905",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_258",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_514",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_770",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1026",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1282",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1538",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1794",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_18",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_274",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_530",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_786",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1042",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1298",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1554",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1810",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_34",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_290",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_546",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_802",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1058",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1314",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1570",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1826",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_50",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_306",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_562",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_818",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1074",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1330",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1586",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1842",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_66",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_322",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_578",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_834",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1090",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1346",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1602",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1858",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_82",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_338",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_594",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_850",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1106",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1362",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1618",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1874",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_98",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_354",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_610",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_866",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1122",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1378",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1634",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1890",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_114",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_370",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_626",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_882",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1138",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1394",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1650",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1906",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_3",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_259",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_515",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_771",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1027",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1283",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1539",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1795",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_19",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_275",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_531",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_787",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1043",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1299",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1555",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1811",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_35",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_291",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_547",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_803",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1059",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1315",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1571",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1827",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_51",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_307",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_563",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_819",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1075",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1331",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1587",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1843",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_67",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_323",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_579",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_835",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1091",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1347",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1603",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1859",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_83",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_339",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_595",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_851",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1107",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1363",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1619",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1875",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_99",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_355",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_611",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_867",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1123",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1379",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1635",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1891",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_115",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_371",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_627",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_883",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1139",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1395",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1651",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_combination_1907",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_rival_unchanged",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_live_choices",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_cancel_restores",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_accepted",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_repeat_0",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_repeat_1",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_repeat_2",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_relocation",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_save",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_load",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_saved_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_saved_boxes",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_vial_kept",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_potions_kept",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_invalid_clamped",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_invalid_parts_clamped",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_save_again",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_reload_again",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_new_game_original",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_intro_live",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_cancel_restores_entire_prompt",
+      "passed": true
+    },
+    {
+      "test": "g1_mode1_intro_commits_to_new_save",
+      "passed": true
+    }
+  ]
+}

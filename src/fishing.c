@@ -62,7 +62,11 @@ static u32 CalculateFishingTimeOfDayBoost(void);
 #endif
 
 static const u8 sText_OhABite[] = _("Oh! A bite!");
+#if I_FISHING_AUTOMATIC
+static const u8 sText_PokemonOnHook[] = _("A POKéMON's on the hook!");
+#else
 static const u8 sText_PokemonOnHook[] = _("A POKéMON's on the hook!{PAUSE_UNTIL_PRESS}");
+#endif
 static const u8 sText_NotEvenANibble[] = _("Not even a nibble…{PAUSE_UNTIL_PRESS}");
 static const u8 sText_ItGotAway[] = _("It got away…{PAUSE_UNTIL_PRESS}");
 
@@ -148,6 +152,12 @@ void StartFishing(u8 rod)
 
 static void Task_Fishing(u8 taskId)
 {
+    // Cancel before the hook is committed; native cleanup restores avatar/control.
+    if (I_FISHING_AUTOMATIC && JOY_NEW(B_BUTTON)
+     && gTasks[taskId].tStep >= FISHING_WAIT_BEFORE_DOTS
+     && gTasks[taskId].tStep <= FISHING_MON_ON_HOOK)
+        gTasks[taskId].tStep = FISHING_NOT_EVEN_NIBBLE;
+
     while (sFishingStateFuncs[gTasks[taskId].tStep](&gTasks[taskId]))
         ;
 }
@@ -220,7 +230,7 @@ static bool32 Fishing_ShowDots(struct Task *task)
 
     AlignFishingAnimationFrames();
     task->tFrameCounter++;
-    if (JOY_NEW(A_BUTTON))
+    if (!I_FISHING_AUTOMATIC && JOY_NEW(A_BUTTON))
     {
         if (!DoesFishingMinigameAllowCancel())
             return FALSE;
@@ -266,6 +276,12 @@ static bool32 Fishing_CheckForBite(struct Task *task)
         return TRUE;
     }
 
+    if (I_FISHING_AUTOMATIC)
+    {
+        StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], GetFishingBiteDirectionAnimNum(GetPlayerFacingDirection()));
+        return TRUE;
+    }
+
     firstMonHasSuctionOrSticky = Fishing_DoesFirstMonInPartyHaveSuctionCupsOrStickyHold();
 
     if (firstMonHasSuctionOrSticky && I_FISHING_STICKY_BOOST < GEN_4)
@@ -294,6 +310,12 @@ static bool32 Fishing_GotBite(struct Task *task)
 
 static bool32 Fishing_ChangeMinigame(struct Task *task)
 {
+    if (I_FISHING_AUTOMATIC)
+    {
+        task->tStep = FISHING_MON_ON_HOOK;
+        return TRUE;
+    }
+
     switch (I_FISHING_MINIGAME)
     {
     case GEN_1:

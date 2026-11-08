@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 TrainerHill_Roof_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_OnFrame
@@ -60,3 +62,28 @@ TrainerHill_Roof_EventScript_AlreadyReceivedPrize::
 	release
 	end
 
+
+#else
+TrainerHill_Roof_MapScripts::
+	.byte 0
+TrainerHill_Roof_EventScript_Owner::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_Arrived::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_GivePrize::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_ReceivePrize::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_NoRoomForPrize::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_CheckFinalTime::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_NewRecord::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_NoNewRecord::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_EndSpeakToOwner::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Roof_EventScript_AlreadyReceivedPrize::
+	goto EventScript_LegacyFeatureDisabled
+#endif

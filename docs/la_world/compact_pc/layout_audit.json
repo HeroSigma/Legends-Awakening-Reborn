@@ -1,0 +1,188 @@
+{
+  "version": 2,
+  "sizes": {
+    "SaveBlock1": 15568,
+    "SaveBlock2": 3884,
+    "SaveBlock3": 4,
+    "PokemonStorage": 56804
+  },
+  "expanded_omissions": [
+    {
+      "block": "SaveBlock1",
+      "field": "pokeblocks",
+      "offset": 2120,
+      "size": 320
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "filler1",
+      "offset": 2440,
+      "size": 52
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "berryBlenderRecords",
+      "offset": 2492,
+      "size": 6
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "unused_9C2",
+      "offset": 2498,
+      "size": 2
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "tvShows",
+      "offset": 10188,
+      "size": 900
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "pokeNews",
+      "offset": 11088,
+      "size": 64
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "contestWinners",
+      "offset": 11920,
+      "size": 416
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "linkBattleRecords",
+      "offset": 12624,
+      "size": 88
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "enigmaBerry",
+      "offset": 12792,
+      "size": 52
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "mysteryGift",
+      "offset": 12844,
+      "size": 876
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "trainerHillTimes",
+      "offset": 13980,
+      "size": 16
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "ramScript",
+      "offset": 13996,
+      "size": 1004
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "recordMixingGift",
+      "offset": 15000,
+      "size": 16
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "trainerNameRecords",
+      "offset": 15080,
+      "size": 240
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "registeredTexts",
+      "offset": 15320,
+      "size": 210
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "trainerHill",
+      "offset": 15532,
+      "size": 12
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "secretBases",
+      "offset": 6812,
+      "size": 3200
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "playerRoomDecorations",
+      "offset": 10012,
+      "size": 12
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "playerRoomDecorationPositions",
+      "offset": 10024,
+      "size": 12
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationDesks",
+      "offset": 10036,
+      "size": 10
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationChairs",
+      "offset": 10046,
+      "size": 10
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationPlants",
+      "offset": 10056,
+      "size": 10
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationOrnaments",
+      "offset": 10066,
+      "size": 30
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationMats",
+      "offset": 10096,
+      "size": 30
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationPosters",
+      "offset": 10126,
+      "size": 10
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationDolls",
+      "offset": 10136,
+      "size": 40
+    },
+    {
+      "block": "SaveBlock1",
+      "field": "decorationCushions",
+      "offset": 10176,
+      "size": 10
+    },
+    {
+      "block": "SaveBlock2",
+      "field": "playerApprentice",
+      "offset": 176,
+      "size": 3708
+    }
+  ],
+  "story_bytes": 8096,
+  "pc_bytes": 56804,
+  "header_bytes": 64,
+  "sector_payload_bytes": 4072,
+  "slot_sectors": 16,
+  "slot_capacity": 65152,
+  "slot_used": 64968,
+  "slot_spare": 184,
+  "abi_sha256": "3a4ba074d71d7f2ea187dc5aa7af6561bdd007c6519fe7894b0c98f092403636"
+}

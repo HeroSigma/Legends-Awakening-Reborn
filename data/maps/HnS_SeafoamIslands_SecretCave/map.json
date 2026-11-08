@@ -1,0 +1,58 @@
+{
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "id": "MAP_HNS_REGION_SEAFOAMISLANDS_SECRETCAVE",
+  "name": "HnS_SeafoamIslands_SecretCave",
+  "layout": "LAYOUT_HNS_REGION_SEAFOAMISLANDS_SECRETCAVE",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(GROUDON)",
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnsRegion_Placeholder",
+      "flag": "0",
+      "localid": "LOCALID_SEAFOAMGROUDON",
+      "local_id": "LOCALID_HNS_SEAFOAMISLANDS_SECRETCAVE_1"
+    },
+    {
+      "local_id": "LOCALID_HNS_SEAFOAMISLANDS_SECRETCAVE_2",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 17,
+      "y": 13,
+      "elevation": 4,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "HnS_SeafoamIslands_SecretCave_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 16,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_HNS_REGION_SEAFOAMISLANDS_GYM",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

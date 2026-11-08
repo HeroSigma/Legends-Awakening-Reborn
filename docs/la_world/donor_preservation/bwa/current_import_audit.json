@@ -1,0 +1,39 @@
+{
+  "imported_bwa_maps": 26,
+  "selected_candidates_present": 25,
+  "missing_selected_candidates": [],
+  "existing_imports": {
+    "1.30": "BWA_1_30",
+    "3.4": "BWA_3_4",
+    "3.6": "BWA_3_6",
+    "3.20": "BWA_3_20",
+    "3.23": "BWA_3_23",
+    "3.24": "BWA_3_24",
+    "3.45": "BWA_3_45",
+    "3.46": "BWA_3_46",
+    "4.0": "BWA_4_0",
+    "4.1": "BWA_4_1",
+    "4.2": "BWA_4_2",
+    "4.5": "BWA_4_5",
+    "5.4": "BWA_5_4",
+    "6.2": "BWA_6_2",
+    "6.4": "BWA_6_4",
+    "6.5": "BWA_6_5",
+    "8.0": "BWA_8_0",
+    "39.0": "BWA_39_0",
+    "42.0": "BWA_42_0",
+    "3.3": "AMap_3_3_Nacrene_City",
+    "3.22": "AMap_3_22_Route_3",
+    "1.95": "AMap_1_95_Pinhweel_Forest",
+    "3.2": "AMap_3_2_Striaton_City",
+    "3.21": "AMap_3_21_Route_3",
+    "3.0": "AMap_3_0_Nuvema_Town",
+    "1.114": "AMap_1_114_Pinhweel_Forest"
+  },
+  "additional_unimported_transition_candidates": [
+    "1.0",
+    "17.1",
+    "18.0"
+  ],
+  "note": "Route 4 gate and shared desert revisions require visual/role review; no changes to maps or travel in this audit."
+}

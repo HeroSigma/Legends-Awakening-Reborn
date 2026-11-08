@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 VerdanturfTown_BattleTentLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentLobby_OnWarp
@@ -377,3 +379,110 @@ VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 	.string "SCOTT: I visit here regularly in hopes\n"
 	.string "of seeing tough TRAINERS in action\l"
 	.string "in whatever the situation.$"
+
+#else
+VerdanturfTown_BattleTentLobby_MapScripts::
+	.byte 0
+VerdanturfTown_BattleTentLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_GivePrize::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_NoRoomForPrize::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_PrizeWaiting::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_AskEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_EnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_NotEnoughValidMons::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_NotEnoughValidMonsLv50::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_NotEnoughValidMonsLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_LoadPartyCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_EndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_WalkToDoor::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_Movement_WalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_AttractGiver::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ReceivedAttract::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_Boy1::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_Boy2::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_Scott::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ScottAlreadySpokenTo::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_LittleBoy::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesLevel::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesBasics::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesNature::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesMoves::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesUnderpowered::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_RulesWhenInDanger::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "world_map.h"
 #include "bg.h"
 #include "event_data.h"
 #include "field_effect.h"
@@ -97,6 +98,8 @@ static const struct WindowTemplate sFieldRegionMapWindowTemplates[] =
 
 void FieldInitRegionMap(MainCallback callback)
 {
+    WorldMap_Open(callback);
+    return;
     SetVBlankCallback(NULL);
     sFieldRegionMapHandler = Alloc(sizeof(*sFieldRegionMapHandler));
     sFieldRegionMapHandler->state = 0;

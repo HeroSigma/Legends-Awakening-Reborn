@@ -1,0 +1,10 @@
+U=Image.open(SRC/'Nuvema.png').convert('RGBA')
+assets['tree']=U.crop((32,128,64,176))
+assets['tree_nature']=assets['tree']
+assets['cluster']=U.crop((0,112,32,176))
+assets['forest_interior']=assets['cluster'].crop((0,0,32,32))
+assets['mailbox']=U.crop((40,56,56,88))
+assets['board_sign']=U.crop((0,80,32,112))
+assets['flowers']=U.crop((16,0,32,16))
+assets['earth']=U.crop((160,0,208,48))
+active_assets=['grass','path_source','tree','tree_nature','cluster','forest_interior','mailbox','board_sign','hedge','flowers','blue','lab','water','beach','coastal_cliff','dock_rail','dock_back','dock_post','deck','sign','earth','pool','pinkflowers']

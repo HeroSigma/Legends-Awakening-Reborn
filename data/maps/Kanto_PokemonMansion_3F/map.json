@@ -1,0 +1,95 @@
+{
+  "id": "MAP_KANTOAR_1_61_POKEMONMANSION_3F",
+  "name": "Kanto_PokemonMansion_3F",
+  "layout": "LAYOUT_KANTOAR_1_61_POKEMONMANSION_3F",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_1_61_POKEMONMANSION_3F_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 19,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_1_61_PokemonMansion_3F_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 34,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_59_POKEMONMANSION_1F",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_59_POKEMONMANSION_1F",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_59_POKEMONMANSION_1F",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_1_60_POKEMONMANSION_2F",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

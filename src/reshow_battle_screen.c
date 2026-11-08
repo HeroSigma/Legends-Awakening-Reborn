@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "reshow_battle_screen.h"
 #include "battle.h"
 #include "palette.h"
@@ -286,7 +287,7 @@ static bool8 LoadBattlerSpriteGfx(enum BattlerId battler)
         else if (gBattleTypeFlags & BATTLE_TYPE_SAFARI && position == B_POSITION_PLAYER_LEFT)
         {
             enum TrainerPicID trainerPicId = GetPlayerTrainerPic(gSaveBlock2Ptr->playerGender, GAME_VERSION);
-            LoadSpritePaletteWithTag(GetTrainerBackPicPalette(trainerPicId), GetTrainerPicTag(trainerPicId, FALSE));
+            LoadSpritePaletteWithTag(DynamicPal_TrainerPalette(trainerPicId, FALSE), GetTrainerPicTag(trainerPicId, FALSE));
         }
         else if (gBattleTypeFlags & BATTLE_TYPE_CATCH_TUTORIAL && position == B_POSITION_PLAYER_LEFT)
             LoadSpritePaletteWithTag(GetTrainerBackPicPalette(CATCH_TUTORIAL_TRAINER_PIC), GetTrainerPicTag(CATCH_TUTORIAL_TRAINER_PIC, FALSE));

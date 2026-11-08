@@ -27,6 +27,7 @@ RustboroCity_DevonCorp_3F_OnFrame:
 
 RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	lockall
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_DEVON_CORP_3F_EMPLOYEE, RustboroCity_DevonCorp_3F_Movement_EmployeeWalkOffscreen
@@ -46,19 +47,55 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	applymovement LOCALID_DEVON_CORP_3F_EMPLOYEE, RustboroCity_DevonCorp_3F_Movement_EmployeeFaceDesk
 	applymovement LOCALID_PLAYER, RustboroCity_DevonCorp_3F_Movement_PlayerApproachDesk
 	waitmovement 0
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_STONE
+	msgbox LegendsVoice_StoneEvidence, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneOffer, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_STONE
+	msgbox LegendsVoice_StoneLetter, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	giveitem ITEM_LETTER
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_ContactQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_3F_Text_ReceivedPokenav
 	waitfanfare
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	call Common_EventScript_OutOfCenterPartyHeal
+	playse SE_PC_LOGIN
+	msgbox LegendsRustboro_Text_BirchConnected, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BIRCH
+	msgbox LegendsRustboro_Text_BirchReport, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_BirchQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_BIRCH
+	msgbox LegendsVoice_BirchAnswer, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_BirchPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_STONE
+	setspeaker SP_NAME_STONE
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_StoneDeparture, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDA
@@ -196,51 +233,22 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-	.string "I'm MR. STONE, the PRESIDENT of\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "I'd just got word about you!\p"
-	.string "You saved our staff not just once,\n"
-	.string "but twice!\p"
-	.string "I have a favor to ask of an amazing\n"
-	.string "person like you.\p"
-	.string "I understand that you're delivering\n"
-	.string "a package to SLATEPORT's SHIPYARD.\p"
-	.string "Well, on the way, could you stop off in\n"
-	.string "DEWFORD TOWN?\p"
-	.string "I was hoping that you'd deliver a\n"
-	.string "LETTER to STEVEN in DEWFORD.$"
+	.string "I'm Mr. Stone, Devon's president.\nOur researchers told me what you did.\pYou protected them in the woods\nand recovered our shipment.\pThank you, {PLAYER}.\pThose stolen Silph recordings\ncaptured distortions near the rifts.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
-	.string "MR. STONE: Now, you should know that\n"
-	.string "I am a great PRESIDENT.\p"
-	.string "So, I'd never be so cheap as to ask\n"
-	.string "a favor for nothing in return.\p"
-	.string "That's why I want you to have this!$"
+	.string "You'll need a reliable way to keep\nin touch while you're traveling.\pPlease take this, with our thanks.$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
-	.string "{PLAYER} received a POKéNAV.$"
+	.string "{PLAYER} received a PokéNav.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-	.string "MR. STONE: That device…\p"
-	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
-	.string "for short.\p"
-	.string "It's an indispensable tool for any\n"
-	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the HOENN region.\p"
-	.string "You can check the locations of\n"
-	.string "DEWFORD and SLATEPORT easily!\p"
-	.string "By the way, I've heard that sinister\n"
-	.string "criminals--MAGMA and AQUA, I believe--\l"
-	.string "have been making trouble far and wide.\p"
-	.string "I think it would be best if you rested\n"
-	.string "up before you go on your way.$"
+	.string "That's a PokéNav. It includes a map\nof Hoenn and a contact system.\pYou'll be able to find Dewford\nand Slateport on its map.\pBefore we discuss your journey,\nlet's let your partners rest.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
-	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
-	.string "go with caution and care!$"
+	.string "I'll contact research teams outside\nHoenn and compare their findings.\pFor now, take the letter to Steven,\nthen the Devon Parts to Captain Stern.\pYou don't have to solve this alone,\n{PLAYER}. Travel carefully.$"
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
-	.string "MR. STONE: I'm counting on you!$"
+	.string "I'm counting on you. Travel safely!$"
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "MR. STONE: You delivered my LETTER?\n"
@@ -266,27 +274,10 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "TRAINERS in the POKéMON LEAGUE?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-	.string "This is the DEVON CORPORATION's\n"
-	.string "third floor.\p"
-	.string "Our PRESIDENT's OFFICE is on\n"
-	.string "this floor.\p"
-	.string "Anyway, I can't tell you how much I'm\n"
-	.string "grateful for what you've done.\p"
-	.string "Um… By the way, that parcel\n"
-	.string "you got back for us…\p"
-	.string "Could I get you to deliver that to\n"
-	.string "the SHIPYARD in SLATEPORT?\p"
-	.string "It would be awful if those robbers\n"
-	.string "tried to take it again.\p"
-	.string "Uh… Hehehe, so, uh, could I count\n"
-	.string "on you to do that for me?\p"
-	.string "Oh, that's right.\n"
-	.string "Could you wait here a second?$"
+	.string "This is our president's office.\nPlease wait here a moment.\pOur Silph colleague is checking the\nreadings we managed to keep.\pThe stolen parcel is meant for\nCaptain Stern in Slateport.\pWe still need it delivered safely.\nI'll ask the president what to do.$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
-	.string "Our PRESIDENT would like to have\n"
-	.string "a word with you.\p"
-	.string "Please come with me.$"
+	.string "Our president would like to have\na word with you.\pPlease come with me.$"
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
 	.string "Please, go ahead.$"
@@ -304,3 +295,8 @@ RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 	.string "It's a collection of rare rocks and\n"
 	.string "stones assembled by the PRESIDENT.$"
 
+
+LegendsRustboro_Text_BirchConnected:
+    .string "One moment. Professor Birch is\njoining us over the office line.$"
+LegendsRustboro_Text_BirchReport:
+	.string "I'm glad you're safe, {PLAYER}.\nNorman passed on your report.\pTwo men, a missing object,\nand now stolen research…$"

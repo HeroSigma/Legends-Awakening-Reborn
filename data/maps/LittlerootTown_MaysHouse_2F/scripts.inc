@@ -1,14 +1,17 @@
 LittlerootTown_MaysHouse_2F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_MaysHouse_2F_OnTransition
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_MaysHouse_2F_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LegendsBedroom_OnFrame
 	.byte 0
 
 LittlerootTown_MaysHouse_2F_OnTransition:
+	call LegendsBedroom_OnTransition
 	call_if_lt VAR_LITTLEROOT_RIVAL_STATE, 2, LittlerootTown_MaysHouse_2F_EventScript_CheckSetReadyToMeetMay
 	call_if_ge VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_MaysHouse_2F_EventScript_CheckShouldUpdateMayPos
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 	call SecretBase_EventScript_SetDecorationFlags
 	setvar VAR_SECRET_BASE_INITIALIZED, 0
+	call LegendsNextDoor_SetupRoomMale
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_CheckShouldUpdateMayPos::
@@ -234,6 +237,7 @@ LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayEast:
 	step_end
 
 RivalsHouse_2F_EventScript_Rival::
+	call LegendsNextDoor_TryRoomTalk
 	lockall
 	goto_if_set FLAG_MET_RIVAL_LILYCOVE, RivalsHouse_2F_EventScript_RivalPostLilycove
 	checkplayergender
@@ -292,6 +296,7 @@ LittlerootTown_MaysHouse_2F_EventScript_CheckRivalsPC::
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_CheckPlayersPC::
+	goto_if_eq VAR_LITTLEROOT_INTRO_STATE, LA_INTRO_CHECK_PC, LegendsBedroom_ReadDelivery
 	setvar VAR_0x8004, PC_LOCATION_MAYS_HOUSE
 	special DoPCTurnOnEffect
 	playse SE_PC_ON

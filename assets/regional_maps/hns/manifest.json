@@ -1,0 +1,97 @@
+{
+  "donor": "PokemonHnS-Development/pokehns-expansion",
+  "commit": "167aa6d537b109bb229c231ddce4616974c4da71",
+  "files": [
+    {
+      "source": "graphics/pokenav/region_map/map_kanto.png",
+      "file": "assets/regional_maps/hns/pokenav/map_kanto.png",
+      "sha256": "cfcba70948def29cf5d7d0db9c467f2ffe9889f66e3a09ea9a9d662d2008c107"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_kanto.pal",
+      "file": "assets/regional_maps/hns/pokenav/map_kanto.pal",
+      "sha256": "0459ad47fa49ab81123696ce6a36495b66ed26a0165d1e56c93cd9a5bc0b9c6c"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_kanto.bin",
+      "file": "assets/regional_maps/hns/pokenav/map_kanto.bin",
+      "sha256": "b6bef7a47f14a8380775945408f91891be293a7ea4e5a7ccdf25cfd7f0f585f4"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_johto.png",
+      "file": "assets/regional_maps/hns/pokenav/map_johto.png",
+      "sha256": "8cf72765d1132137e0046ec6e4546e3f49abf3f7393c58f64cc50b57fc1a2384"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_johto.pal",
+      "file": "assets/regional_maps/hns/pokenav/map_johto.pal",
+      "sha256": "e5d0bef82e10e49644bc96a8b0d064ca370727b8e17bcab173e953c13c3d17e0"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_johto.bin",
+      "file": "assets/regional_maps/hns/pokenav/map_johto.bin",
+      "sha256": "ce624f29b03ab9edac01f3b2c4321094609b75878b98b826de8eb96a02477948"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_jk.png",
+      "file": "assets/regional_maps/hns/pokenav/map_jk.png",
+      "sha256": "e368084f9277fd6d11724f5dee8d4f26cd8750fd1bef0622d3d8204161f8e4fd"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_jk.pal",
+      "file": "assets/regional_maps/hns/pokenav/map_jk.pal",
+      "sha256": "e5d0bef82e10e49644bc96a8b0d064ca370727b8e17bcab173e953c13c3d17e0"
+    },
+    {
+      "source": "graphics/pokenav/region_map/map_jk.bin",
+      "file": "assets/regional_maps/hns/pokenav/map_jk.bin",
+      "sha256": "82d391f5de04a4f3a3a88cd522a1545d6ea8a17377cfe5cce56361974826f080"
+    },
+    {
+      "source": "graphics/pokedex/region_map_kanto.png",
+      "file": "assets/regional_maps/hns/pokedex/region_map_kanto.png",
+      "sha256": "1163a87cef546c19b224c6d905f758037db848ec01b5992fc594febb7acc7ba0"
+    },
+    {
+      "source": "graphics/pokedex/region_map_kanto.pal",
+      "file": "assets/regional_maps/hns/pokedex/region_map_kanto.pal",
+      "sha256": "0459ad47fa49ab81123696ce6a36495b66ed26a0165d1e56c93cd9a5bc0b9c6c"
+    },
+    {
+      "source": "graphics/pokedex/region_map_kanto.bin",
+      "file": "assets/regional_maps/hns/pokedex/region_map_kanto.bin",
+      "sha256": "4d849cdf419c3bfafcf6260dd381f4bff1ce3d114aed582d613dba8a64f24f4a"
+    },
+    {
+      "source": "graphics/pokedex/region_map_johto.png",
+      "file": "assets/regional_maps/hns/pokedex/region_map_johto.png",
+      "sha256": "2a6f3e69721a6f238744bd3f94ea8c85a4cb044873da95f7e7b8d83e3efe6289"
+    },
+    {
+      "source": "graphics/pokedex/region_map_johto.pal",
+      "file": "assets/regional_maps/hns/pokedex/region_map_johto.pal",
+      "sha256": "e5d0bef82e10e49644bc96a8b0d064ca370727b8e17bcab173e953c13c3d17e0"
+    },
+    {
+      "source": "graphics/pokedex/region_map_johto.bin",
+      "file": "assets/regional_maps/hns/pokedex/region_map_johto.bin",
+      "sha256": "a0e4d68ef617a67fa43f5020a8cd3a7bb2ee70ffd3d6267dfa5947bf2e75c7c1"
+    },
+    {
+      "source": "graphics/pokedex/region_map_jk.png",
+      "file": "assets/regional_maps/hns/pokedex/region_map_jk.png",
+      "sha256": "5d888df73122e6447e14e1a13b1d8ccaa7c6e1a04c5d7bf39ee25c3523323ae9"
+    },
+    {
+      "source": "graphics/pokedex/region_map_jk.pal",
+      "file": "assets/regional_maps/hns/pokedex/region_map_jk.pal",
+      "sha256": "e5d0bef82e10e49644bc96a8b0d064ca370727b8e17bcab173e953c13c3d17e0"
+    },
+    {
+      "source": "graphics/pokedex/region_map_jk.bin",
+      "file": "assets/regional_maps/hns/pokedex/region_map_jk.bin",
+      "sha256": "aff8af83968ad5e38ea5d661b6343efa4cb24ceac22a8d21e3089c9885df60a6"
+    }
+  ],
+  "validation": "18 source files copied byte-for-byte; three PokeNav affine layouts decoded with all 4096 tile indices in bounds. Pokedex assets preserved only. Not integrated into game."
+}

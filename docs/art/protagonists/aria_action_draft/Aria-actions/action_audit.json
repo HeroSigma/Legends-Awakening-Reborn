@@ -1,0 +1,645 @@
+[
+  {
+    "action": "running",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.262,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 3,
+        "head_match": 0.543,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.533,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 5,
+        "head_match": 0.935,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.935,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.262,
+        "direction": 2,
+        "mirrored": true,
+        "review": true
+      },
+      {
+        "frame": 8,
+        "head_match": 0.262,
+        "direction": 2,
+        "mirrored": true,
+        "review": true
+      }
+    ],
+    "frame_count": 9,
+    "frame_size": [
+      16,
+      32
+    ]
+  },
+  {
+    "action": "mach_bike",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.917,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.587,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.609,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 5,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 6,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.952,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.929,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      }
+    ],
+    "frame_count": 9,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "acro_bike",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.917,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.587,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.609,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 5,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 6,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 7,
+        "head_match": 0.952,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.929,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 9,
+        "head_match": 0.62,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 10,
+        "head_match": 0.62,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 11,
+        "head_match": 0.587,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 12,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 13,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 14,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 15,
+        "head_match": 0.804,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 16,
+        "head_match": 0.783,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 17,
+        "head_match": 0.679,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 18,
+        "head_match": 0.69,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 19,
+        "head_match": 0.69,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 20,
+        "head_match": 0.69,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 21,
+        "head_match": 0.62,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 22,
+        "head_match": 0.62,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 23,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 24,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 25,
+        "head_match": 0.679,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 26,
+        "head_match": 0.679,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      }
+    ],
+    "frame_count": 27,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "surfing",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.609,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 0.62,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 2,
+        "head_match": 0.696,
+        "direction": 1,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 3,
+        "head_match": 0.696,
+        "direction": 1,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.905,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.905,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      }
+    ],
+    "frame_count": 6,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "fishing",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.94,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 1,
+        "head_match": 0.952,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 2,
+        "head_match": 0.94,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 3,
+        "head_match": 0.952,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 4,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 5,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 6,
+        "head_match": 0.924,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 7,
+        "head_match": 1.0,
+        "direction": 1,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 8,
+        "head_match": 0.946,
+        "direction": 0,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 9,
+        "head_match": 1.0,
+        "direction": 0,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 10,
+        "head_match": 0.609,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 11,
+        "head_match": 0.989,
+        "direction": 0,
+        "mirrored": false,
+        "review": false
+      }
+    ],
+    "frame_count": 12,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "watering",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 0.598,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 2,
+        "head_match": 0.696,
+        "direction": 1,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 3,
+        "head_match": 0.696,
+        "direction": 1,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.917,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      },
+      {
+        "frame": 5,
+        "head_match": 0.917,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      }
+    ],
+    "frame_count": 6,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "field_move",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.533,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 0.543,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 2,
+        "head_match": 0.967,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 3,
+        "head_match": 0.739,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 4,
+        "head_match": 0.707,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      }
+    ],
+    "frame_count": 5,
+    "frame_size": [
+      32,
+      32
+    ]
+  },
+  {
+    "action": "decorating",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 1.0,
+        "direction": 2,
+        "mirrored": false,
+        "review": false
+      }
+    ],
+    "frame_count": 1,
+    "frame_size": [
+      16,
+      32
+    ]
+  },
+  {
+    "action": "underwater",
+    "frames": [
+      {
+        "frame": 0,
+        "head_match": 0.25,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 1,
+        "head_match": 0.239,
+        "direction": 0,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 2,
+        "head_match": 0.405,
+        "direction": 2,
+        "mirrored": false,
+        "review": true
+      },
+      {
+        "frame": 3,
+        "head_match": 0.405,
+        "direction": 2,
+        "mirrored": true,
+        "review": true
+      }
+    ],
+    "frame_count": 4,
+    "frame_size": [
+      32,
+      32
+    ]
+  }
+]

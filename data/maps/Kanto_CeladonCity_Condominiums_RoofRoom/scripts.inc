@@ -1,0 +1,7 @@
+Kanto_CeladonCity_Condominiums_RoofRoom_MapScripts::
+	.byte 0
+
+KantoAR_10_11_CeladonCity_Condominiums_RoofRoom_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_10_12_CELADONCITY_POKEMONCENTER_1F, 7, 5
+	goto KantoAR_InspectionFinish

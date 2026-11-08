@@ -18,7 +18,7 @@ for line in subprocess.check_output(['arm-none-eabi-nm',str(work/'adapter.elf')]
  if len(z)==3:symbols[z[2]]=int(z[0],16)
 enum=(R/'include/pokemon.h').read_text().split('enum MonData {')[1].split('};')[0]
 fields={name:i for i,name in enumerate(re.findall(r'\bMON_DATA_[A-Z0-9_]+\b',enum))}
-A,B,C,V=0x0203f000,0x0203f100,0x0203f200,0x0203f300
+A,B,C,V=0x0203fc00,0x0203f100,0x0203f200,0x0203f300
 checks=0
 decode_frames=[]
 def check(value,message):

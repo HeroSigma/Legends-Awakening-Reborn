@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_PokemonCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_PokemonCenter_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
@@ -57,3 +59,28 @@ BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
 	.string "SKITTY: Mya myaaah!$"
 
+
+#else
+BattleFrontier_PokemonCenter_1F_MapScripts::
+	.byte 0
+BattleFrontier_PokemonCenter_1F_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_EventScript_Nurse::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_EventScript_SchoolKid::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_EventScript_Picnicker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_PokemonCenter_1F_Text_Skitty:
+	.string "This feature is disabled in this build.$"
+#endif

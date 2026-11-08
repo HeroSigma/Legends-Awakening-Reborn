@@ -276,6 +276,8 @@ static inline u16 GetPartnerIdFromTrainerId(u16 trainerId)
     return (trainerId - TRAINER_PARTNER(PARTNER_NONE));
 }
 
+const struct Trainer *LegendsTrainer_Get(u16 trainerId, const struct Trainer *base);
+
 static inline const struct Trainer *GetTrainerStructFromId(u16 trainerId)
 {
     if (gIsDebugBattle) return GetDebugAiTrainer();
@@ -289,7 +291,7 @@ static inline const struct Trainer *GetTrainerStructFromId(u16 trainerId)
     else
     {
         difficulty = GetTrainerDifficultyLevel(trainerId);
-        return &gTrainers[difficulty][SanitizeTrainerId(trainerId)];
+        return LegendsTrainer_Get(trainerId, &gTrainers[difficulty][SanitizeTrainerId(trainerId)]);
     }
 }
 

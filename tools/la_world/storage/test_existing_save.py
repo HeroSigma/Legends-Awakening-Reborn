@@ -9,9 +9,21 @@ for sector in range(32):
  assert invoke('ProgramFlashSectorAndVerify',sector,symbols['gSaveDataBuffer'])==0
 status=invoke('LoadGameSave',0)
 check('legacy_battery_loads',status in [1,255])
-check('legacy_battery_normal_mode',invoke('GetStorageBoxCount')==14)
+check('legacy_battery_storage_mode',invoke('GetStorageBoxCount') in [14,60])
 check('legacy_battery_current_box_valid',invoke('StorageGetCurrentBox')<14)
 check('legacy_battery_party_count_valid',rd(symbols['gPartiesCount'],1)<=6)
+check('legacy_bag_migrated',invoke('ExpandedBag_Active')==1)
+from collections import Counter
+expected=Counter();key=rd(rd(symbols['gSaveBlock2Ptr'])+0xac,2)
+for pocket,capacity in enumerate([30,16,64,46,30]):
+ pointer=rd(symbols['gBagPockets']+pocket*8)
+ for slot in range(capacity):
+  item=rd(pointer+slot*4,2)
+  if item:expected[item]+=rd(pointer+slot*4+2,2)^key
+for item,quantity in expected.items():check('legacy_item_'+str(item),invoke('CountTotalItemQuantityInBag',item)==quantity)
+check('migrated_copy_saves',invoke('TrySavingData',0)==1)
+check('migrated_copy_reloads',invoke('LoadGameSave',0)==1)
+for item,quantity in expected.items():check('migrated_item_'+str(item),invoke('CountTotalItemQuantityInBag',item)==quantity)
 count=invoke('CountStorageNonEggMons')
 lib.shutdown()
 check('source_battery_unchanged',hashlib.sha256(source.read_bytes()).hexdigest()==before)

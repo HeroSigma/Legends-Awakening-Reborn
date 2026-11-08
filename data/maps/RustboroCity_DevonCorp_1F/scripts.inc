@@ -3,6 +3,7 @@ RustboroCity_DevonCorp_1F_MapScripts::
 	.byte 0
 
 RustboroCity_DevonCorp_1F_OnTransition:
+	call_if_set FLAG_RETURNED_DEVON_GOODS, LegendsTera_OpenBasement
 	call_if_unset FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_BlockStairs
 	end
 
@@ -53,6 +54,7 @@ RustboroCity_DevonCorp_1F_EventScript_GotRobbed::
 RustboroCity_DevonCorp_1F_EventScript_Greeter::
 	lock
 	faceplayer
+	call LegendsPokevial_Reward
 	goto_if_set FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_WelcomeToDevonCorp
 	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed
@@ -85,8 +87,7 @@ RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 	.string "medicine that enhance your life.$"
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
-	.string "One of our research staff stupidly\n"
-	.string "got robbed of an important parcel.$"
+	.string "A researcher was attacked outside.\nSomeone stole an equipment shipment.\pPlease give our security staff\nroom to work.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 	.string "Hey, those RUNNING SHOES!\n"
@@ -95,23 +96,17 @@ RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 	.string "using something we made.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
-	.string "anything that anyone can use.\p"
-	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.$"
+	.string "The parcel contains specialized\nresearch components.\pSomeone may know more about our\nwork than we'd like.$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string "It sounds like they've recovered\n"
 	.string "the ripped-off DEVON GOODS.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string "I'm sorry, only authorized people\n"
-	.string "are allowed to enter here.$"
+	.string "Our researchers are reviewing an\nincident in PETALBURG WOODS.\pThe upper floors are restricted.\nThe RUSTBORO GYM is still open.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
-	.string "It's beyond stupid.\n"
-	.string "How could we get robbed?$"
+	.string "First the recordings in the woods,\nand now an equipment shipment...\pWe're checking every entrance.$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
 	.string "Hi, there!\n"
@@ -145,6 +140,11 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 
 @ Project-owned reservation; no donor gameplay, flags or warp destination.
 RustboroCity_DevonCorp_1F_EventScript_HyperConstruction_1::
+	goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_EntranceLocked
+	goto_if_unset FLAG_RETURNED_DEVON_GOODS, LegendsTera_EntranceLocked
+	msgbox LegendsTera_Text_Entrance, MSGBOX_NPC
+	end
+LegendsTera_EntranceLocked:
 	lock
 	faceplayer
 	msgbox RustboroCity_DevonCorp_1F_Text_HyperConstruction_1, MSGBOX_DEFAULT
@@ -155,3 +155,19 @@ RustboroCity_DevonCorp_1F_Text_HyperConstruction_1:
 	.string "Basement is\n"
 	.string "under construction.\p"
 	.string "Please check back later!$"
+
+LegendsTera_OpenBasement:
+    goto_if_unset FLAG_RECEIVED_POKENAV, LegendsTera_BasementReturn
+    @ The construction scientist was removed in the current map edit.
+LegendsTera_BasementReturn:
+    return
+
+Devon_Exhibit_EventScript::
+    lockall
+    setspeaker SP_NAME_NONE
+    msgbox Devon_Exhibit_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+Devon_Exhibit_Text:
+    .string "A reconstructed Tyrantrum fossil.\nDevon's restoration technology\lbrings ancient Pokemon to life.\pThe display reads:\n'Understanding our past helps\lus prepare for the unknown.'$"

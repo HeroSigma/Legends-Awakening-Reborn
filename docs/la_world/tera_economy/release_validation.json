@@ -1,0 +1,33 @@
+{
+  "rom_sha256": "9b70813b92464766ade15cb348b3411f10b347f33d64308f9fbce43b73da5872",
+  "save_sha256_before": "e14274f68d797636594871aa0937be520180c68d5892110093f7d2d9eb594871",
+  "save_sha256_after": "e14274f68d797636594871aa0937be520180c68d5892110093f7d2d9eb594871",
+  "save_preserved": true,
+  "validation_logs": [
+    "legends_tera_runtime.log",
+    "legends_tera_ui_runtime.log",
+    "legends_tera_battle_runtime.log",
+    "legends_tera_capture_runtime.log",
+    "legends_tera_theft_runtime.log",
+    "legends_tera_story_regression.log",
+    "legends_tera_rescue_regression.log"
+  ],
+  "economy_checks": 31,
+  "scientist_ui_save_checks": 12,
+  "wild_victory_checks": 2,
+  "capture_checks": 3,
+  "theft_checks": 2,
+  "littleroot_chapter_checks": 42,
+  "rescue_checks": 108,
+  "all_passed": true,
+  "random_held_items": {
+    "samples": 2000,
+    "held": 102,
+    "configured_percent": 5
+  },
+  "stellar_bonus_percent": 1,
+  "shard_costs": {
+    "regular": 50,
+    "stellar": 150
+  }
+}

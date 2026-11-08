@@ -1,0 +1,457 @@
+{
+  "source_repository": "https://github.com/PokemonHnS-Development/pokehns-expansion",
+  "source_commit": "167aa6d537b109bb229c231ddce4616974c4da71",
+  "maps": [
+    {
+      "name": "HnSTest_NewBarkTown",
+      "id": "MAP_HNS_TEST_NEWBARKTOWN",
+      "source_name": "NewBarkTown_hns",
+      "source_id": "MAP_NEW_BARK_TOWN_HNS",
+      "layout": "LAYOUT_HNS_TEST_NEWBARKTOWN",
+      "width": 30,
+      "height": 39,
+      "objects": 1,
+      "warps": 0,
+      "connections": 1,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_Route29",
+      "id": "MAP_HNS_TEST_ROUTE29",
+      "source_name": "Route29_hns",
+      "source_id": "MAP_ROUTE29_HNS",
+      "layout": "LAYOUT_HNS_TEST_ROUTE29",
+      "width": 70,
+      "height": 32,
+      "objects": 1,
+      "warps": 0,
+      "connections": 2,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_CherrygroveCity",
+      "id": "MAP_HNS_TEST_CHERRYGROVECITY",
+      "source_name": "CherrygroveCity_hns",
+      "source_id": "MAP_CHERRYGROVE_CITY_HNS",
+      "layout": "LAYOUT_HNS_TEST_CHERRYGROVECITY",
+      "width": 65,
+      "height": 42,
+      "objects": 1,
+      "warps": 1,
+      "connections": 2,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_Route30",
+      "id": "MAP_HNS_TEST_ROUTE30",
+      "source_name": "Route30_hns",
+      "source_id": "MAP_ROUTE30_HNS",
+      "layout": "LAYOUT_HNS_TEST_ROUTE30",
+      "width": 58,
+      "height": 58,
+      "objects": 1,
+      "warps": 0,
+      "connections": 2,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_Route31",
+      "id": "MAP_HNS_TEST_ROUTE31",
+      "source_name": "Route31_hns",
+      "source_id": "MAP_ROUTE31_HNS",
+      "layout": "LAYOUT_HNS_TEST_ROUTE31",
+      "width": 60,
+      "height": 23,
+      "objects": 1,
+      "warps": 1,
+      "connections": 2,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_Gate_Route31_VioletCity",
+      "id": "MAP_HNS_TEST_GATE_ROUTE31_VIOLETCITY",
+      "source_name": "Gate_Route31_VioletCity_hns",
+      "source_id": "MAP_GATE_ROUTE31_VIOLET_CITY_HNS",
+      "layout": "LAYOUT_HNS_TEST_GATE_ROUTE31_VIOLETCITY",
+      "width": 13,
+      "height": 9,
+      "objects": 1,
+      "warps": 2,
+      "connections": 0,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_VioletCity",
+      "id": "MAP_HNS_TEST_VIOLETCITY",
+      "source_name": "VioletCity_hns",
+      "source_id": "MAP_VIOLET_CITY_HNS",
+      "layout": "LAYOUT_HNS_TEST_VIOLETCITY",
+      "width": 54,
+      "height": 55,
+      "objects": 1,
+      "warps": 2,
+      "connections": 1,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_CherrygroveCity_Mart",
+      "id": "MAP_HNS_TEST_CHERRYGROVECITY_MART",
+      "source_name": "CherrygroveCity_Mart_hns",
+      "source_id": "MAP_CHERRYGROVE_CITY_MART_HNS",
+      "layout": "LAYOUT_HNS_TEST_CHERRYGROVECITY_MART",
+      "width": 14,
+      "height": 9,
+      "objects": 2,
+      "warps": 1,
+      "connections": 0,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    },
+    {
+      "name": "HnSTest_VioletCity_Gym",
+      "id": "MAP_HNS_TEST_VIOLETCITY_GYM",
+      "source_name": "VioletCity_Gym_hns",
+      "source_id": "MAP_VIOLET_CITY_GYM_HNS",
+      "layout": "LAYOUT_HNS_TEST_VIOLETCITY_GYM",
+      "width": 19,
+      "height": 21,
+      "objects": 1,
+      "warps": 1,
+      "connections": 0,
+      "script_owner": "PROJECT_TEST_ONLY",
+      "donor_gameplay_imported": false
+    }
+  ],
+  "banks": {
+    "Johto_General_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_General_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_General_Hns",
+      "primary": "gTileset_Johto_General_Hns",
+      "secondary": null
+    },
+    "Johto_General_Hns__NewBarkTown_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_General_Hns__NewBarkTown_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_General_Hns__NewBarkTown_Hns",
+      "primary": "gTileset_Johto_General_Hns",
+      "secondary": "gTileset_NewBarkTown_Hns"
+    },
+    "Johto_General_Hns__CherrygroveCity_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_General_Hns__CherrygroveCity_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_General_Hns__CherrygroveCity_Hns",
+      "primary": "gTileset_Johto_General_Hns",
+      "secondary": "gTileset_CherrygroveCity_Hns"
+    },
+    "Johto_Building_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_Building_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_Building_Hns",
+      "primary": "gTileset_Johto_Building_Hns",
+      "secondary": null
+    },
+    "Johto_Building_Hns__Gate_Standard_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_Building_Hns__Gate_Standard_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_Building_Hns__Gate_Standard_Hns",
+      "primary": "gTileset_Johto_Building_Hns",
+      "secondary": "gTileset_Gate_Standard_Hns"
+    },
+    "Johto_General_Hns__VioletCity_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_General_Hns__VioletCity_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_General_Hns__VioletCity_Hns",
+      "primary": "gTileset_Johto_General_Hns",
+      "secondary": "gTileset_VioletCity_Hns"
+    },
+    "Johto_Building_Hns__JohtoMart_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_Building_Hns__JohtoMart_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_Building_Hns__JohtoMart_Hns",
+      "primary": "gTileset_Johto_Building_Hns",
+      "secondary": "gTileset_JohtoMart_Hns"
+    },
+    "Johto_Building_Hns__EcruteakTheater_Hns": {
+      "symbol": "gTileset_HnSCanary_Johto_Building_Hns__EcruteakTheater_Hns",
+      "path": "data/hns_canary_assets/tilesets/Johto_Building_Hns__EcruteakTheater_Hns",
+      "primary": "gTileset_Johto_Building_Hns",
+      "secondary": "gTileset_EcruteakTheater_Hns"
+    }
+  },
+  "behavior_translations": [
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 5,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 438,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 439,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 471,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 554,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_General_Hns",
+      "index": 555,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 51,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 52,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 229,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 230,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 278,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 393,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Johto_Building_Hns",
+      "index": 609,
+      "source": "MB_SHOP_SHELF_DEPARTMENT_FORWARD",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Gate_Standard_Hns",
+      "index": 92,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_Gate_Standard_Hns",
+      "index": 93,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 0,
+      "source": "MB_BOOKSHELF_GREEN",
+      "target": "MB_BOOKSHELF",
+      "native": 225,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 15,
+      "source": "MB_SHOP_SHELF_DEPARTMENT_FORWARD",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 46,
+      "source": "MB_SHOP_SHELF_DEPARTMENT",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 47,
+      "source": "MB_SHOP_SHELF_DEPARTMENT",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 65,
+      "source": "MB_SHOP_SHELF_DEPARTMENT_FORWARD",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 66,
+      "source": "MB_SHOP_SHELF_DEPARTMENT_FORWARD",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_JohtoMart_Hns",
+      "index": 98,
+      "source": "MB_SHOP_SHELF_DEPARTMENT",
+      "target": "MB_SHOP_SHELF",
+      "native": 229,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_EcruteakTheater_Hns",
+      "index": 179,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_EcruteakTheater_Hns",
+      "index": 346,
+      "source": "MB_HEADBUTT_TREE",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_EcruteakTheater_Hns",
+      "index": 349,
+      "source": "UNUSED_PADDING_252",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    },
+    {
+      "bank": "gTileset_EcruteakTheater_Hns",
+      "index": 353,
+      "source": "UNUSED_PADDING_255",
+      "target": "MB_NORMAL",
+      "native": 0,
+      "note": "Asset/travel test alias; donor special gameplay excluded"
+    }
+  ],
+  "arrivals": [
+    {
+      "name": "HnSTest_NewBarkTown",
+      "id": "MAP_HNS_TEST_NEWBARKTOWN",
+      "x": 20,
+      "y": 19
+    },
+    {
+      "name": "HnSTest_Route29",
+      "id": "MAP_HNS_TEST_ROUTE29",
+      "x": 61,
+      "y": 17
+    },
+    {
+      "name": "HnSTest_CherrygroveCity",
+      "id": "MAP_HNS_TEST_CHERRYGROVECITY",
+      "x": 57,
+      "y": 9
+    },
+    {
+      "name": "HnSTest_Route30",
+      "id": "MAP_HNS_TEST_ROUTE30",
+      "x": 26,
+      "y": 32
+    },
+    {
+      "name": "HnSTest_Route31",
+      "id": "MAP_HNS_TEST_ROUTE31",
+      "x": 23,
+      "y": 18
+    },
+    {
+      "name": "HnSTest_Gate_Route31_VioletCity",
+      "id": "MAP_HNS_TEST_GATE_ROUTE31_VIOLETCITY",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "HnSTest_VioletCity",
+      "id": "MAP_HNS_TEST_VIOLETCITY",
+      "x": 32,
+      "y": 49
+    },
+    {
+      "name": "HnSTest_CherrygroveCity_Mart",
+      "id": "MAP_HNS_TEST_CHERRYGROVECITY_MART",
+      "x": 3,
+      "y": 6
+    },
+    {
+      "name": "HnSTest_VioletCity_Gym",
+      "id": "MAP_HNS_TEST_VIOLETCITY_GYM",
+      "x": 9,
+      "y": 5
+    }
+  ],
+  "donor_gameplay_imported": false,
+  "runtime_verified": true,
+  "runtime_evidence": "runtime_validation.json",
+  "notes": [
+    "Isolated 9-map test group; no Mercury map geometry replaced.",
+    "Current Mercury/GS Johto and Aesthetic Red Kanto are retired from ROM; reference files and numeric slots retained.",
+    "Native project shop counter added; no donor story, trainer, flag/var, encounter or save ownership imported.",
+    "Unsupported donor Headbutt and shelf interactions are neutral/reference only in this asset/travel test."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "MAP_HYPERSINNOH_37_101_SINNOH_REGION",
+  "name": "Sinnoh_Sinnoh_Region_Interior_02",
+  "layout": "LAYOUT_HYPERSINNOH_37_101_SINNOH_REGION",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_64_IRON_ISLAND",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_64_IRON_ISLAND",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_35_ROUTE_216",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_35_ROUTE_216",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleFactoryLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleFactoryLobby_OnWarp
@@ -549,3 +551,176 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
 	.string "In the Open Level, the rental POKéMON\n"
 	.string "and the opposing TRAINERS' POKéMON\l"
 	.string "are all Level 100.$"
+
+#else
+BattleFrontier_BattleFactoryLobby_MapScripts::
+	.byte 0
+BattleFrontier_BattleFactoryLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_DefeatedFactoryHead::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_GiveBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_AskRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_EndRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_SinglesAttendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_DoublesAttendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_AskTakeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_EnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TalkedToSinglesAttendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TalkedToDoublesAttendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_LoadPartyAndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_WelcomeForSingleBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_WelcomeForDoubleBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TakeSinglesChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_TakeDoublesChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ExplainSinglesChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ExplainDoublesChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ShowSinglesResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ShowDoublesResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_Camper::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_Picnicker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_FatMan::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesBasics::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesSwapPartner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesSwapNumber::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesSwapNotes::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_RulesOpenLv::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,4 +1,6 @@
 #include "global.h"
+#include "dynamic_palettes.h"
+#include "pokeride.h"
 #include "sprite.h"
 #include "main.h"
 #include "overworld.h"
@@ -275,6 +277,7 @@ EWRAM_DATA bool8 gAffineAnimsDisabled = FALSE;
 
 void ResetSpriteData(void)
 {
+    PokeRide_ResetSprites();
     ResetOamRange(0, 128);
     sOamDummyIndex = 0;
     ResetAllSprites();
@@ -1665,7 +1668,7 @@ u32 LoadSpritePalette(const struct SpritePalette *palette)
     }
 
     sSpritePaletteTags[index] = palette->tag;
-    DoLoadSpritePalette(palette->data, PLTT_ID(index));
+    DoLoadSpritePalette(DynamicPal_ObjectPalette(palette->tag, palette->data), PLTT_ID(index));
     return index;
 }
 
@@ -1689,7 +1692,7 @@ u8 LoadSpritePaletteInSlot(const struct SpritePalette *palette, u8 paletteNum)
 {
     paletteNum = min(15, paletteNum);
     sSpritePaletteTags[paletteNum] = palette->tag;
-    DoLoadSpritePalette(palette->data, paletteNum * 16);
+    DoLoadSpritePalette(DynamicPal_ObjectPalette(palette->tag, palette->data), paletteNum * 16);
     return paletteNum;
 }
 

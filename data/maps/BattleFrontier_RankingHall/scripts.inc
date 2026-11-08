@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_RankingHall_MapScripts::
 	.byte 0
 
@@ -132,3 +134,56 @@ BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
 	.string "Well, it's only natural since I haven't\n"
 	.string "taken any challenges yet.$"
 
+
+#else
+BattleFrontier_RankingHall_MapScripts::
+	.byte 0
+BattleFrontier_RankingHall_EventScript_TowerSinglesRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_TowerDoublesRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_TowerMultisRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_TowerLinkRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_ArenaRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_PalaceRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_FactoryRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_DomeRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_PikeRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_PyramidRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_ShowRecords::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_DomePikeFactoryRecordsSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_PalaceArenaPyramidRecordsSIgn::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_NinjaBoy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_NinjaBoyNameOnList::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_EventScript_Boy::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_RankingHall_Text_ExplainRankingHall:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_WowThatsSuper:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
+	.string "This feature is disabled in this build.$"
+#endif

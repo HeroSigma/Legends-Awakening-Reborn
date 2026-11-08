@@ -1,0 +1,53 @@
+{
+  "id": "MAP_KANTOAR_2_0_NAVELROCK_EXTERIOR",
+  "name": "Kanto_NavelRock_Exterior",
+  "layout": "LAYOUT_KANTOAR_2_0_NAVELROCK_EXTERIOR",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_2_0_NAVELROCK_EXTERIOR_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 10,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_2_0_NavelRock_Exterior_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_2_36_NAVELROCK_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_2_59_NAVELROCK_HARBOR",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

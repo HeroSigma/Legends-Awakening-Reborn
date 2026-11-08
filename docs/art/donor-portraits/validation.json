@@ -1,0 +1,131 @@
+{
+  "portrait_count": 1223,
+  "back_sprite_count": 56,
+  "user_labels": 73,
+  "all_referenced_images_exist": true,
+  "coverage": [
+    {
+      "donor": "hyper",
+      "status": "EXTRACTED",
+      "count": 250,
+      "back_count": 12,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x101be90",
+          "palette": "0x101c660",
+          "entries": 93
+        },
+        {
+          "front": "0x101c178",
+          "palette": "0x101c948",
+          "entries": 60
+        },
+        {
+          "front": "0x101c358",
+          "palette": "0x101cb28",
+          "entries": 97
+        }
+      ],
+      "sha256": "73d6faeb29bcc15e1627a6f237e99e11ddea8429ed31ec30057560ee069a546f",
+      "errors": []
+    },
+    {
+      "donor": "bwa",
+      "status": "EXTRACTED",
+      "count": 148,
+      "back_count": 6,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x23957c",
+          "palette": "0x239a1c",
+          "entries": 148
+        }
+      ],
+      "sha256": "12a2e11285b5a4c57ede151d78ad3308b9a96b406b0d41fdade6f6da57b3fef4",
+      "errors": []
+    },
+    {
+      "donor": "swsh",
+      "status": "EXTRACTED",
+      "count": 148,
+      "back_count": 6,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x23957c",
+          "palette": "0x239a1c",
+          "entries": 148
+        }
+      ],
+      "sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+      "errors": []
+    },
+    {
+      "donor": "aestheticred",
+      "status": "EXTRACTED",
+      "count": 148,
+      "back_count": 6,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x23957c",
+          "palette": "0x239a1c",
+          "entries": 148
+        }
+      ],
+      "sha256": "01f0ae917a9de97b3459f68b4a6d08c03ce09f8e1fef5675d71edc610b12821e",
+      "errors": []
+    },
+    {
+      "donor": "mercury",
+      "status": "EXTRACTED",
+      "count": 147,
+      "back_count": 6,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x23957c",
+          "palette": "0x239a1c",
+          "entries": 148
+        }
+      ],
+      "sha256": "9a99dae504cc971fd9686ff4327d2e05716c0aa5b3d4b6446bd2ccec131bf764",
+      "errors": [
+        {
+          "table": "0x23957c",
+          "index": 118,
+          "error": "size"
+        }
+      ]
+    },
+    {
+      "donor": "stone_dragon_3",
+      "status": "EXTRACTED",
+      "count": 148,
+      "back_count": 6,
+      "back_errors": [],
+      "tables": [
+        {
+          "front": "0x23957c",
+          "palette": "0x239a1c",
+          "entries": 148
+        }
+      ],
+      "sha256": "85ed991e748ba7c7fe3c1317731f4954e40e7fa71cb576a22dd3c99f094e5b9e",
+      "errors": []
+    },
+    {
+      "donor": "hns",
+      "status": "SOURCE_ART",
+      "count": 234
+    },
+    {
+      "donor": "gs_chronicles",
+      "status": "SOURCE_MISSING",
+      "reason": "Exported maps remain, but original ROM is unavailable; portraits cannot be recovered from those map exports."
+    }
+  ],
+  "linked_into_rom": false
+}

@@ -189,9 +189,58 @@ EventSnippet_EndTrainerBattle::
 	releaseall
 	end
 
+EventSnippet_OfferRichTrainerRematch::
+	msgbox Text_RichTrainerRematch, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventSnippet_EndRichTrainerRematch
+	return
+
+EventSnippet_EndRichTrainerRematch::
+	releaseall
+	end
+
+Text_RichTrainerRematch:
+	.string "Care for another battle?$"
+
 EventSnippet_NotEnoughMonsForDoubleBattle::
 	special ShowTrainerCantBattleSpeech
 	waitmessage
 	waitbuttonpress
 	release
 	end
+
+EventSnippet_LegendsChooseFormat::
+	special LegendsTrainer_PrepareFormat
+	goto_if_eq VAR_RESULT, FALSE, EventSnippet_LegendsFormatDone
+EventSnippet_LegendsFormatPrompt:
+	message LegendsTrainer_Text_Format
+	waitmessage
+	multichoice 17, 7, MULTI_LA_GYM_FORMAT, TRUE
+	goto_if_eq VAR_RESULT, 1, EventSnippet_LegendsConfirmDoubles
+	msgbox LegendsTrainer_Text_ConfirmSingles, MSGBOX_YESNO
+	goto_if_ne VAR_RESULT, YES, EventSnippet_LegendsFormatPrompt
+	setvar VAR_RESULT, 0
+	goto EventSnippet_LegendsApplyFormat
+EventSnippet_LegendsConfirmDoubles:
+	msgbox LegendsTrainer_Text_ConfirmDoubles, MSGBOX_YESNO
+	goto_if_ne VAR_RESULT, YES, EventSnippet_LegendsFormatPrompt
+	setvar VAR_RESULT, 1
+EventSnippet_LegendsApplyFormat:
+	closemessage
+	special LegendsTrainer_SelectFormat
+	goto_if_eq VAR_RESULT, 2, EventSnippet_LegendsFormatFallback
+	return
+EventSnippet_LegendsFormatDone:
+	return
+EventSnippet_LegendsFormatFallback:
+	msgbox LegendsTrainer_Text_FormatFallback, MSGBOX_DEFAULT
+	return
+LegendsTrainer_Text_Format:
+	.string "Before we begin, how would you\n"
+	.string "like to battle?$"
+LegendsTrainer_Text_ConfirmSingles:
+	.string "Singles it is. Are you sure?$"
+LegendsTrainer_Text_ConfirmDoubles:
+	.string "Doubles it is. Are you sure?$"
+LegendsTrainer_Text_FormatFallback:
+	.string "You need two able POKéMON.\n"
+	.string "We'll battle in Singles this time.$"

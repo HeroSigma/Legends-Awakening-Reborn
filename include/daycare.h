@@ -25,6 +25,7 @@ void RejectEggFromDayCare(void);
 void CreateEgg(struct Pokemon *mon, enum Species species, bool8 setHotSpringsLocation);
 void GiveEggFromDaycare(void);
 bool8 ShouldEggHatch(void);
+void LegendsNursery_AdvanceCycle(u32 cycles);
 enum Species GetSelectedMonNicknameAndSpecies(void);
 void GetDaycareMonNicknames(void);
 u8 GetDaycareState(void);

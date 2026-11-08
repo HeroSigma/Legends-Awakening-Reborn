@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 VerdanturfTown_BattleTentCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentCorridor_OnFrame
 	.byte 0
@@ -72,3 +74,26 @@ VerdanturfTown_ContestHall_Text_NormalRankStage:
 	.string "POKéMON CONTESTS\n"
 	.string "NORMAL RANK STAGE!$"
 
+
+#else
+VerdanturfTown_BattleTentCorridor_MapScripts::
+	.byte 0
+VerdanturfTown_BattleTentCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentCorridor_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_ContestHall_Text_MyMonRules:
+	.string "This feature is disabled in this build.$"
+VerdanturfTown_ContestHall_Text_NormalRankStage:
+	.string "This feature is disabled in this build.$"
+#endif

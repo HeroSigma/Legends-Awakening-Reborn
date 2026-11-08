@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "assertions": 36,
+  "rom_sha256": "55a6fd0a93983839b4f72d8ca0bc0729fc78e56cc58c51c1135e2d2ebdb2c24a",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "last_box_0",
+      "passed": true
+    },
+    {
+      "test": "picked_up_0",
+      "passed": true
+    },
+    {
+      "test": "holding_wrap_0",
+      "passed": true
+    },
+    {
+      "test": "placed_first_box_0",
+      "passed": true
+    },
+    {
+      "test": "source_stays_empty_0",
+      "passed": true
+    },
+    {
+      "test": "summary_open_0",
+      "passed": true
+    },
+    {
+      "test": "summary_return_0",
+      "passed": true
+    },
+    {
+      "test": "withdraw_clears_box_0",
+      "passed": true
+    },
+    {
+      "test": "withdraw_grows_party_0",
+      "passed": true
+    },
+    {
+      "test": "save_0",
+      "passed": true
+    },
+    {
+      "test": "reload_0",
+      "passed": true
+    },
+    {
+      "test": "profile_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "party_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate_0",
+      "passed": true
+    },
+    {
+      "test": "pc_item_cleared_0",
+      "passed": true
+    },
+    {
+      "test": "pc_item_to_bag_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "last_box_1",
+      "passed": true
+    },
+    {
+      "test": "picked_up_1",
+      "passed": true
+    },
+    {
+      "test": "holding_wrap_1",
+      "passed": true
+    },
+    {
+      "test": "placed_first_box_1",
+      "passed": true
+    },
+    {
+      "test": "source_stays_empty_1",
+      "passed": true
+    },
+    {
+      "test": "summary_open_1",
+      "passed": true
+    },
+    {
+      "test": "summary_return_1",
+      "passed": true
+    },
+    {
+      "test": "withdraw_clears_box_1",
+      "passed": true
+    },
+    {
+      "test": "withdraw_grows_party_1",
+      "passed": true
+    },
+    {
+      "test": "save_1",
+      "passed": true
+    },
+    {
+      "test": "reload_1",
+      "passed": true
+    },
+    {
+      "test": "profile_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "party_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate_1",
+      "passed": true
+    },
+    {
+      "test": "pc_item_cleared_1",
+      "passed": true
+    },
+    {
+      "test": "pc_item_to_bag_1",
+      "passed": true
+    }
+  ]
+}

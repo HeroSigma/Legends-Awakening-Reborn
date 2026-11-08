@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 TrainerHill_Entrance_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_Entrance_OnResume
 	map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, TrainerHill_Entrance_OnReturn
@@ -448,3 +450,144 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
 TrainerHill_Elevator_Text_ReturnToReception:
 	.string "Would you like to return to\n"
 	.string "the reception counter?$"
+
+#else
+TrainerHill_Entrance_MapScripts::
+	.byte 0
+TrainerHill_Entrance_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_TryFaceAttendant::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_PlayerDontFaceAttendant::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_OnReturn:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_OnLoad:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_OpenCounterDoor::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ExitElevator::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ExitChallenge::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ExitChallengeLost::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ExitChallengeECard::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_PlayerExitChallenge::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_EndExitChallenge::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Nurse::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ThanksForPlaying::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_AttendantEnd::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_EntryTrigger::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_AllFloorsUsed::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_AskChallengeTrainers::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Info::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ChooseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_CancelEntry::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_SaveGame::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_SaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Closed::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Movement_PlayerFaceAttendant:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Movement_PushPlayerBackFromCounter:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Movement_FaceUp:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Movement_PlayerExitElevator:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Records::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ManTrainerHillClosed::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_GirlTrainerHillClosed::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_Clerk::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Pokemart_Basic:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_EventScript_ExpandedPokemart::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Pokemart_Expanded:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Entrance_Text_StillGettingReady:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_WelcomeToTrainerHill:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_SaveGameBeforeEnter:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_TrainersUpToFloorX:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_TrainersInEveryRoom:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_LikeToChallengeTrainers:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_TimeProgessGetSetGo:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_PleaseVisitUsAgain:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_TooBadTremendousEffort:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_ThankYouForPlaying:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_ExplainTrainerHill:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_YouFinallyCameBravo:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_YouWerentVeryQuick:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_ArriveZippierNextTime:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_ChallengeTime:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
+	.string "This feature is disabled in this build.$"
+TrainerHill_Elevator_Text_ReturnToReception:
+	.string "This feature is disabled in this build.$"
+#endif

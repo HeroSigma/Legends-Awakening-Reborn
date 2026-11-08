@@ -1,5 +1,7 @@
 MauvilleCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, MauvilleCity_Gym_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleRift_GymTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, MauvilleRift_GymFrame
 	.byte 0
 
 MauvilleCity_Gym_OnLoad:
@@ -74,6 +76,10 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 	end
 
 MauvilleCity_Gym_EventScript_Wattson::
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleRift_WattsonBattle
+	goto_if_ne VAR_LA_MAUVILLE_RIFT, 3, MauvilleCity_Gym_EventScript_GymGuide
+MauvilleRift_WattsonBattle::
+	call_if_eq VAR_LA_PARADIGM_ARC, 0, MauvilleRift_WattsonExplains
 	trainerbattle_single TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_Gym_EventScript_WattsonRematch
@@ -89,7 +95,7 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis, MSGBOX_DEFAULT
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
 	addvar VAR_PETALBURG_GYM_STATE, 1
@@ -108,6 +114,8 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_WATTSON_MATCH_CALL
+	call LegendsParadigm_QueueWallyCall
+	call RiftResearch_Invite
 	release
 	end
 
@@ -225,6 +233,8 @@ MauvilleCity_Gym_EventScript_GymGuide::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_GymGuidePostVictory
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 0, MauvilleRift_Guide
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 1, MauvilleRift_Wally
 	msgbox MauvilleCity_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
 	release
 	end
@@ -333,17 +343,7 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
 	.string "forehead. It makes me happy!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-	.string "I've given up on my plans to convert\n"
-	.string "the city, I have.\p"
-	.string "And so, I put my time into making\n"
-	.string "door traps in my GYM.\p"
-	.string "Oh? Now, what are you doing here?\p"
-	.string "What's that? You say you've gotten\n"
-	.string "past all my rigged doors?\p"
-	.string "Wahahahah!\n"
-	.string "Now, that is amusing!\p"
-	.string "Then, I, WATTSON, the LEADER of\n"
-	.string "MAUVILLE GYM, shall electrify you!$"
+	.string "Show me what you and your partners\ncan do, {PLAYER}!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Wahahahah!\n"
@@ -374,8 +374,7 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
-	.string "I swell with optimism, seeing a promising\n"
-	.string "young TRAINER like you!$"
+	.string "I'll keep watching the power lines.\nKeep your PokéNav close, {PLAYER}.$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Wahahahah!\n"
@@ -419,3 +418,270 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 	.string "Come see me with two or more\n"
 	.string "POKéMON, all right?$"
 
+
+MauvilleRift_GymTransition::
+	setflag FLAG_TEMP_1
+	setflag FLAG_TEMP_2
+	setflag FLAG_TEMP_3
+	setvar VAR_TEMP_4, 0
+	setvar VAR_TEMP_6, 0
+	call_if_set FLAG_BADGE03_GET, RiftResearch_QueueExistingSave
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleRift_TransitionDone
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 3, MauvilleRift_ShowWattson
+	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	call_if_eq VAR_LA_MAUVILLE_RIFT, 0, MauvilleRift_QueueEntrance
+	goto_if_ne VAR_LA_MAUVILLE_RIFT, 1, MauvilleRift_TransitionDone
+	clearflag FLAG_TEMP_1
+	clearflag FLAG_TEMP_2
+MauvilleRift_TransitionDone::
+	end
+
+MauvilleRift_QueueEntrance::
+	goto_if_unset FLAG_DEFEATED_WALLY_MAUVILLE, MauvilleRift_QueueEntranceDone
+	setvar VAR_TEMP_4, 1
+MauvilleRift_QueueEntranceDone::
+	return
+
+MauvilleRift_ShowWattson::
+	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	end
+
+MauvilleRift_GymFrame:
+	map_script_2 VAR_TEMP_6, 1, RiftResearch_InviteExistingSave
+	map_script_2 VAR_LA_MAUVILLE_RIFT, 2, MauvilleRift_AfterReturn
+	map_script_2 VAR_TEMP_4, 1, MauvilleRift_AutoEntrance
+	.2byte 0
+
+MauvilleRift_AutoEntrance::
+	lockall
+	setvar VAR_TEMP_4, 0
+	turnobject LOCALID_PLAYER, DIR_EAST
+	msgbox MauvilleRift_Text_Guide, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, MauvilleRift_Movement_PlayerApproach
+	waitmovement 0
+	goto MauvilleRift_Open
+
+MauvilleRift_Movement_PlayerApproach:
+	walk_up
+	walk_up
+	step_end
+
+MauvilleRift_Guide::
+	goto_if_unset FLAG_DEFEATED_WALLY_MAUVILLE, MauvilleRift_WaitForWally
+	msgbox MauvilleRift_Text_Guide, MSGBOX_DEFAULT
+	closemessage
+MauvilleRift_Open::
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	clearflag FLAG_TEMP_2
+	addobject LOCALID_MAUVILLE_RIFT_WALLY
+	addobject LOCALID_MAUVILLE_RIFT_KIRLIA
+	playmoncry SPECIES_KIRLIA, CRY_MODE_NORMAL
+	setspeaker SP_NAME_WALLY
+	msgbox MauvilleRift_Text_KirliaFoundIt, MSGBOX_DEFAULT
+	closemessage
+	playse SE_THUNDER
+	clearflag FLAG_TEMP_1
+	addobject LOCALID_MAUVILLE_RIFT_GATE
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_PlayerConnectsSurge, MSGBOX_DEFAULT
+	setvar VAR_LA_MAUVILLE_RIFT, 1
+	goto MauvilleRift_End
+
+MauvilleRift_WaitForWally::
+	msgbox MauvilleRift_Text_WaitForWally, MSGBOX_DEFAULT
+	goto MauvilleRift_End
+
+MauvilleRift_Wally::
+	lockall
+	setspeaker SP_NAME_WALLY
+	msgbox MauvilleRift_Text_KirliaFoundIt, MSGBOX_DEFAULT
+	goto MauvilleRift_End
+
+MauvilleRift_Enter::
+	lockall
+	msgbox MauvilleRift_Text_Enter, MSGBOX_YESNO
+	goto_if_ne VAR_RESULT, YES, MauvilleRift_End
+	closemessage
+	applymovement LOCALID_MAUVILLE_RIFT_KIRLIA, MauvilleRift_Movement_KirliaEnter
+	waitmovement 0
+	removeobject LOCALID_MAUVILLE_RIFT_KIRLIA
+	applymovement LOCALID_MAUVILLE_RIFT_WALLY, MauvilleRift_Movement_WallyEnter
+	waitmovement 0
+	removeobject LOCALID_MAUVILLE_RIFT_WALLY
+	warp MAP_KANTOAR_3_28_ROUTE10, 9, 44
+	waitstate
+	end
+
+MauvilleRift_Movement_KirliaEnter:
+	walk_left
+	walk_left
+	step_end
+
+MauvilleRift_Movement_WallyEnter:
+	walk_up
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+MauvilleRift_AfterReturn::
+	lockall
+	setflag FLAG_TEMP_2
+	clearflag FLAG_TEMP_3
+	addobject LOCALID_MAUVILLE_RIFT_WATTSON
+	setobjectxy LOCALID_MAUVILLE_RIFT_WATTSON, 4, 19
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_WallyMissing, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_WattsonMissing, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_CallBirch, MSGBOX_DEFAULT
+	closemessage
+	playse SE_POKENAV_CALL
+	delay 30
+	setspeaker SP_NAME_BIRCH
+	msgbox MauvilleRift_Text_BirchReport, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_ReportMissing, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BIRCH
+	msgbox MauvilleRift_Text_BirchConnects, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ROWAN
+	msgbox MauvilleRift_Text_RowanQuestion, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_ReportMiraidon, MSGBOX_DEFAULT
+	@ Burnet is unfamiliar to the player. Keep her name and portrait hidden.
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_BurnetRift, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_KirliaReport, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_WattsonEvidence, MSGBOX_DEFAULT
+	@ The remaining Paradigm members are unfamiliar voices.
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_ElmKirlia, MSGBOX_DEFAULT
+	msgbox MauvilleRift_Text_JuniperReadings, MSGBOX_DEFAULT
+	msgbox MauvilleRift_Text_SycamoreDetails, MSGBOX_DEFAULT
+	msgbox MauvilleRift_Text_KukuiHelp, MSGBOX_DEFAULT
+	msgbox MauvilleRift_Text_OakSearch, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BIRCH
+	msgbox MauvilleRift_Text_BirchSearch, MSGBOX_DEFAULT
+	closemessage
+	playse SE_POKENAV_HANG_UP
+	delay 20
+	turnobject LOCALID_PLAYER, DIR_WEST
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_WattsonClue, MSGBOX_DEFAULT
+	closemessage
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	applymovement LOCALID_MAUVILLE_RIFT_WATTSON, MauvilleRift_Movement_WattsonNorth
+	waitmovement 0
+	removeobject LOCALID_MAUVILLE_RIFT_WATTSON
+	setflag FLAG_TEMP_3
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_ENABLE_FIRST_WALLY_POKENAV_CALL
+	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	addobject LOCALID_MAUVILLE_GYM_WATTSON
+	setvar VAR_LA_MAUVILLE_RIFT, 3
+	goto MauvilleRift_End
+
+MauvilleRift_End::
+	closemessage
+	setspeaker SP_NAME_NONE
+	releaseall
+	end
+
+MauvilleRift_Text_Guide:
+	.string "Wattson went to check a surge by\nthe maintenance door.\pThe lights haven't stopped\nflickering since he left.$"
+MauvilleRift_Text_WaitForWally:
+	.string "Wattson's checking a power surge.\pYour friend Wally is waiting just\noutside if you're looking for him.$"
+MauvilleRift_Text_KirliaFoundIt:
+	.string "Kirlia, is that where the sound\nwas coming from?$"
+MauvilleRift_Text_PlayerConnectsSurge:
+	.string "The lights are pulsing with it.\nIs this what Rowan picked up?$"
+MauvilleRift_Text_Enter:
+	.string "Step through the rift with\nWally and Kirlia?$"
+MauvilleRift_Text_WallyMissing:
+	.string "Wally? Kirlia?\pThey went through right ahead of\nus. Where did they go?$"
+MauvilleRift_Text_WattsonMissing:
+	.string "Wattson: Stay back. The opening\nhas closed.\pI saw them enter too. They should\nhave come out here with us.$"
+MauvilleRift_Text_ReportMissing:
+	.string "We're back in Mauville Gym.\nBut Wally and Kirlia are missing.\pThey entered the rift together,\nright ahead of us.\pWattson and I followed them.\nThey never came out here.$"
+MauvilleRift_Text_BirchSearch:
+	.string "We'll check the readings and\nlet Wally's family know.\pKeep your PokéNav close, {PLAYER}.\nWe'll call as soon as we know more.\pIf Wally contacts you, tell us\nwhere he is immediately.$"
+MauvilleRift_Text_BirchReport:
+	.string "{PLAYER}? Birch speaking.\nAre you with Wattson?$"
+MauvilleRift_Text_WattsonClue:
+	.string "Wattson: I'll send those readings\nfrom the control desk.\pCome find me when you're ready.\nWe'll work out what to do next.$"
+
+MauvilleRift_Text_CallBirch:
+	.string "Birch needs to know they're missing.\nI'm calling him now.$"
+
+MauvilleRift_Text_RowanQuestion:
+	.string "It's Rowan, {PLAYER}. Where did\nyou find yourselves?$"
+
+MauvilleRift_Text_ReportMiraidon:
+	.string "Route 10, near Kanto's Power Plant.\nWattson was holding a relay inside.\pThe reactor was running with\nits main breaker switched off.\pWhen I shut it down, a huge\nviolet Pokémon approached us.\pMy Pokédex identified Miraidon.\nElectricity covered its body.\pI tried to hold it off, but my\nteam didn't stand a chance.$"
+
+MauvilleRift_Text_BurnetRift:
+	.string "A voice on the call:\nDid Kirlia sense a change?$"
+
+MauvilleRift_Text_WattsonEvidence:
+	.string "Wattson: They went through together.\nWe followed seconds later.\pOnly {PLAYER} and I came out here.\nThen the opening closed.$"
+
+MauvilleRift_Text_OakSearch:
+	.string "Another voice:\nWe'll trace both ends together.\pWe should contact the Trainers\nwe've worked with as well.\pTheir friends and rivals can\nhelp search across the regions.$"
+
+MauvilleRift_Text_ElmKirlia:
+	.string "Another voice:\nThen those two may still be together.$"
+
+MauvilleRift_Text_JuniperReadings:
+	.string "A voice on the call:\nSend us the times and readings.\pWe'll check for a matching surge\nin our own regions.$"
+
+MauvilleRift_Text_SycamoreDetails:
+	.string "Another voice:\nKeep the details about Miraidon.\pIts reaction to the reactor\nmay help explain the disturbance.$"
+
+MauvilleRift_Text_KukuiHelp:
+	.string "A voice on the call:\nYou got yourself and Wattson home.\pTake a breath. We'll help you\nfind your friend.$"
+
+MauvilleRift_WattsonExplains::
+	lock
+	faceplayer
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_AskWattson, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_WattsonAccount, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox MauvilleRift_Text_PlayerResolve, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	msgbox MauvilleRift_Text_WattsonChallenge, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_LA_PARADIGM_ARC, 1
+	return
+
+MauvilleRift_Text_AskWattson:
+	.string "Before we battle… How did you\nend up at that Power Plant?$"
+MauvilleRift_Text_WattsonAccount:
+	.string "Wattson: I traced a surge to the\nmaintenance room behind the Gym.\pThe air split open. Beyond it\nwas a place I didn't recognize.\pI stepped through to investigate.\nThe hum led me into that plant.\pIts reactor was running with\nthe main breaker switched off.\pBy the time I found the way back,\nthe opening was shrinking.\pThat's when you and Wally arrived.\nI wish I'd kept him closer.$"
+MauvilleRift_Text_PlayerResolve:
+	.string "He chose to help us. So did Kirlia.\pWe'll find them. I need to be\nready for whatever's out there.$"
+MauvilleRift_Text_WattsonChallenge:
+	.string "Wattson: Then let's see how you\nand your partners work together.\pTake your time, clear your head,\nand give me your best battle.$"
+
+MauvilleRift_Text_BirchConnects:
+	.string "Stay with Wattson. Rowan and I\nare on a call with six colleagues.\pWe're The Paradigm Society.\nParadigm, for short.\pI'm putting you on with everyone.\nTell us where the rift took you.$"
+
+MauvilleRift_Text_KirliaReport:
+	.string "Wally said she felt something\nbefore Miraidon appeared.\pShe was still beside him when\nthey stepped through the rift.$"
+
+MauvilleRift_Movement_WattsonNorth:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	step_end

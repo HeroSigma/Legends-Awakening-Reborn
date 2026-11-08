@@ -1,0 +1,37 @@
+{
+  "id": "MAP_HYPERSINNOH_35_82_CROWN_SHRINE",
+  "name": "Sinnoh_Crown_Shrine_Interior_01",
+  "layout": "LAYOUT_HYPERSINNOH_35_82_CROWN_SHRINE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_81_CROWN_SHRINE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_35_81_CROWN_SHRINE",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

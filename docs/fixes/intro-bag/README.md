@@ -1,0 +1,9 @@
+# New-game intro, naming sprite and bag repairs
+
+Boy/Girl are selection labels; AREN/ARIA remain the defaults when naming is accepted without text. Custom names are still supported. The creator scene now resets the background layout inherited from the mugshot Continue UI, preventing the shifted second gender window. Creator text is cleared while its window still exists, pending graphics transfers finish before those buffers are released, and the text screen block is cleared before Birch appears. Naming uses playable-avatar graphics instead of rival graphics.
+
+The reported invalid bag item ID was 8249. Bag classification now rejects ITEM_NONE and out-of-range IDs before accessing item metadata, preventing this path from entering the item assertion screen. Malformed entries are not classified as ordinary items. Valid inventory and Pokévial behavior remain intact. The current user save did not reproduce the earlier error; all 13 categories were also opened successfully on a disposable emulator copy of that save. This is targeted invalid-ID protection rather than evidence that Pokévial caused the original corruption. The user's battery save is never edited by tests.
+
+Native tests cover both genders, a saved-menu New Game start, the erased creator tilemap before Birch, distinct background screen blocks, repeated gender switches, naming sprite screenshots, and default names. Bag tests include the exact invalid ID, other boundary IDs, a simulated malformed legacy slot, both storage modes, all categories, inventory actions, Pokévial use/persistence and field-menu returns. Reports in this folder share the final ROM SHA-256.
+
+Title artwork was refined separately for clearer pixel clusters and logo/silhouette readability while retaining 240x160 native resolution and the existing localized light animation. See `docs/art/title_screen/clarity_revision` for the generated source and prompt description. Previous title art remains archived in the repository.

@@ -1,0 +1,17 @@
+{
+  "donor_map": "3.19",
+  "project_map": "BWA_3_19_Route_1",
+  "dimensions": [
+    41,
+    80
+  ],
+  "original_blockdata_preserved": true,
+  "original_shared_tilesets": true,
+  "connections": {
+    "south": "AMap_3_0_Nuvema_Town",
+    "north": "pending Accumula Town exterior"
+  },
+  "region": "Unova",
+  "popup": "Route 1",
+  "donor_scripts_imported": false
+}

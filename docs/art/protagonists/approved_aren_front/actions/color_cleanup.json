@@ -1,0 +1,56 @@
+{
+  "changes": [
+    {
+      "action": "walking",
+      "clothing_pixels_fixed": 7,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "running",
+      "clothing_pixels_fixed": 12,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "mach_bike",
+      "clothing_pixels_fixed": 15,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "acro_bike",
+      "clothing_pixels_fixed": 52,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "surfing",
+      "clothing_pixels_fixed": 20,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "fishing",
+      "clothing_pixels_fixed": 20,
+      "intentional_red_pixels_retained": 12
+    },
+    {
+      "action": "watering",
+      "clothing_pixels_fixed": 46,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "field_move",
+      "clothing_pixels_fixed": 9,
+      "intentional_red_pixels_retained": 10
+    },
+    {
+      "action": "underwater",
+      "clothing_pixels_fixed": 0,
+      "intentional_red_pixels_retained": 0
+    },
+    {
+      "action": "decorating",
+      "clothing_pixels_fixed": 6,
+      "intentional_red_pixels_retained": 0
+    }
+  ],
+  "approved_front_unchanged": true,
+  "rom_changed": false
+}

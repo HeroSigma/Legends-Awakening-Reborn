@@ -1,0 +1,43 @@
+{
+  "id": "MAP_HYPERSINNOH_37_60_GREAT_MARSH",
+  "name": "Sinnoh_Great_Marsh_Section_02",
+  "layout": "LAYOUT_HYPERSINNOH_37_60_GREAT_MARSH",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_HYPERSINNOH_37_59_GREAT_MARSH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 33,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_62_PASTORIA_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 34,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_62_PASTORIA_CITY",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

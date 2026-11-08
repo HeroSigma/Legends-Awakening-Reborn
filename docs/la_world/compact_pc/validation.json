@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "scope": "Isolated component tests; production integration is validated separately",
+  "codec": {
+    "passed": true,
+    "assertions": 455894,
+    "random_roundtrips": 30000,
+    "populated_slots": 1800,
+    "record_bytes": 31,
+    "payload_bytes": 55800
+  },
+  "adapter": {
+    "passed": true,
+    "assertions": 1354,
+    "specimens": 27,
+    "bank_assertions": 14455,
+    "bank_populated_slots": 1800,
+    "record_bytes": 31,
+    "base_rom_sha256": "b7e8ee7fab5908263d28d57b30080bee77e820ea27752a5199f8471604fd2f42",
+    "adapter_sha256": "d9d5c0893fe8cc5a7721a636b5b28dc4c6f22b76afdc522c74ed1da9783a8793",
+    "decode_frames": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "scope": "Isolated adapter/bank validation; no player battery opened"
+  },
+  "save_format": {
+    "passed": true,
+    "assertions": 432,
+    "stored_slots": 1800,
+    "record_bytes": 31,
+    "image_bytes": 131072,
+    "slot_capacity": 65152,
+    "slot_used": 64968,
+    "slot_spare": 184,
+    "scope": "Synthetic host-side format; production save integration is tested separately"
+  },
+  "guarded_files_unchanged": true,
+  "guarded_file_hashes": {
+    "/home/allan/projects/Legends-Awakening-Reborn/pokeemerald.gba": "b7e8ee7fab5908263d28d57b30080bee77e820ea27752a5199f8471604fd2f42",
+    "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba": "d0dbec6ec7292bb04e65eee17f2cbcea17236440545059ef8f9d127fa0a16191",
+    "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.sav": "4bd214ef7181a43258fd5c96008066ce3ad7577493fc12af41a9319bd21e98de"
+  }
+}

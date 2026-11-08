@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "contest.h"
 #include "decompress.h"
@@ -560,3 +562,94 @@ void Task_LinkContest_CommunicateTurnOrder(u8 taskId)
         break;
     }
 }
+
+#else
+#include "global.h"
+#include "contest.h"
+#include "decompress.h"
+#include "event_data.h"
+#include "link.h"
+#include "pokemon.h"
+#include "random.h"
+#include "task.h"
+#include "contest_link.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+
+
+bool32 LinkContest_SendBlock(void *src, u16 size)
+{
+    return 0;
+}
+
+bool8 LinkContest_GetBlockReceived(u8 flag)
+{
+    return 0;
+}
+
+bool8 LinkContest_GetBlockReceivedFromAllPlayers(void)
+{
+    return 0;
+}
+
+void Task_LinkContest_Init(u8 taskId)
+{
+
+}
+
+bool32 LinkContest_TryLinkStandby(s16 *state)
+{
+    return 0;
+}
+
+void Task_LinkContest_CommunicateMonsRS(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateRngRS(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateCategoryRS(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateMonIdxs(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateMoveSelections(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateFinalStandings(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateAppealsState(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateLeaderIdsRS(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateRound1Points(u8 taskId)
+{
+
+}
+
+void Task_LinkContest_CommunicateTurnOrder(u8 taskId)
+{
+
+}
+#endif

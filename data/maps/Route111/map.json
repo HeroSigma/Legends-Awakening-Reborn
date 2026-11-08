@@ -3,7 +3,6 @@
   "name": "Route111",
   "layout": "LAYOUT_ROUTE111",
   "music": "MUS_ROUTE110",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_111",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -260,8 +259,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 33,
-      "y": 104,
+      "x": 30,
+      "y": 102,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -640,34 +639,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route111_EventScript_RockSmashTipFatMan",
       "flag": "FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY"
-    },
-    {
-      "local_id": "LOCALID_ROUTE111_REGISTERED_CONSTRUCTION_1",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 35,
-      "y": 45,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route111_EventScript_HyperConstruction_Registered1",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_ROUTE111_REGISTERED_CONSTRUCTION_2",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 33,
-      "y": 104,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route111_EventScript_HyperConstruction_Registered2",
-      "flag": "0"
     }
   ],
   "warp_events": [
@@ -1056,8 +1027,8 @@
     },
     {
       "type": "sign",
-      "x": 13,
-      "y": 6,
+      "x": 12,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route111_EventScript_RouteSign113"
@@ -1166,5 +1137,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route111_EventScript_TrainerHillSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

@@ -1,0 +1,7 @@
+Kanto_SevenIsland_TanobyRuins_MoneanChamber_MapScripts::
+	.byte 0
+
+KantoAR_2_27_SevenIsland_TanobyRuins_MoneanChamber_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_2_28_SEVENISLAND_TANOBYRUINS_LIPTOOCHAMBER, 9, 8
+	goto KantoAR_InspectionFinish

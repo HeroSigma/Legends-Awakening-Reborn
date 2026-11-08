@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePyramidFloor_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidFloor_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidFloor_OnFrame
@@ -728,3 +730,302 @@ BattlePyramid_Text_OneTrainersRemaining6::
 BattlePyramid_Text_ZeroTrainersRemaining6::
 	.string "There aren't any TRAINERS left that\n"
 	.string "can take you on now…$"
+
+#else
+BattleFrontier_BattlePyramidFloor_MapScripts::
+	.byte 0
+BattleFrontier_BattlePyramidFloor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_UpdateLight::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_UpdateLightLoop::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_ShowMapName::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_PlayPyramidMusic::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_ResetParty::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramid_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramid_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_ReadyChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePyramidFloor_EventScript_SetLightRadius::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_WarpToNextFloor::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_WarpToTop::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_TrainerBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_FindItemBall::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_FindItemBallEnd::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_Retire::
+	goto EventScript_LegacyFeatureDisabled
+BattleFacility_TrainerBattle_PlaceholderText:
+	goto EventScript_LegacyFeatureDisabled
+gText_BattlePyramidConfirmRest::
+	goto EventScript_LegacyFeatureDisabled
+gText_BattlePyramidConfirmRetire::
+	goto EventScript_LegacyFeatureDisabled
+BattlePyramid_Text_ExitHintUp1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintUp2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintUp3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintUp4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintUp5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintUp6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintLeft6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintRight6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ExitHintDown6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_EightItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneItemRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroItemsRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining1::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining2::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining3::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining4::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining5::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SevenTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_SixTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FiveTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_FourTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ThreeTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_TwoTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_OneTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+BattlePyramid_Text_ZeroTrainersRemaining6::
+	.string "This feature is disabled in this build.$"
+#endif

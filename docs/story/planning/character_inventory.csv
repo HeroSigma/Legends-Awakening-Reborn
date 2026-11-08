@@ -1,0 +1,223 @@
+﻿name,region,role,story,availability,front,overworld,overworld_status,back,confidence,note
+Aren,Hoenn,Speaking protagonist,Introduced in custom story,Both art types available,native/brendan player art,Native Brendan/May base with player palettes,Native,hyper/back_000; hns/brendan,Native player art,Native Brendan-based player; chosen name remains editable.
+Aria,Hoenn,Speaking protagonist,Introduced in custom story,Both art types available,native/may player art,Native Brendan/May base with player palettes,Native,hyper/back_001; hns/may,Native player art,Native May-based player; chosen name remains editable.
+Red,Kanto,Protagonist and Champion,Introduced in custom story,Both art types available,hyper/set2_044,hyper/gfx_230,Registered,hyper/back_002; hns/red,Named or mapped,Charmander is his fresh partner; Pikachu stays with him.
+Blue,Kanto,Rival Champion and Gym Leader,Introduced in custom story,Both art types available,hyper/set2_000,hyper/gfx_079,Registered,No verified back sheet,Named or mapped,Oak sends the player to meet him in Fallarbor.
+Green or Leaf,Kanto,Female protagonist,Not introduced,Both art types available,hyper/set2_002,hyper/gfx_231,Registered,hyper/back_003; hns/leaf,Named or mapped,Green is the roster label; Leaf names the back art. Choose one story identity.
+Ethan or Gold,Johto,Protagonist,Not introduced,Both art types available,hyper/set2_003,hyper_legacy_variants/gfx_076,Registered,hns/gold_hns,Named or mapped,Same person alias for planning; legacy overworld variant is selected.
+Kris,Johto,Protagonist,Not introduced,Both art types available,hyper/set2_005,hyper/gfx_152,Registered,hns/kris_hns,Named or mapped,
+Lyra,Johto,Protagonist,Not introduced,Both art types available,hyper/set2_006,hyper/gfx_151,Registered,No verified back sheet,Named or mapped,
+Silver,Johto,Rival,Not introduced,Both art types available,hyper/set2_004,hyper/gfx_077,Registered,hns/silver_hns,Named or mapped,Rustboro encounter is written; HnS has a verified back sheet.
+Brendan,Hoenn,Rival and protagonist,Introduced in custom story,Both art types available,hyper/set2_052,hyper/gfx_000,Registered,hyper/back_000; hns/brendan,Named or mapped,Rival uses selected Hyper art; distinct from player base.
+May,Hoenn,Rival and protagonist,Introduced in custom story,Both art types available,hyper/set2_051,hyper/gfx_089,Registered,hyper/back_001; hns/may,Named or mapped,Investigates Timeless Woods after the family report.
+Wally,Hoenn,Rival,Introduced in custom story,Both art types available,hyper/set1_070,hyper/gfx_135,Registered,hyper/back_006; hns/wally,Named or mapped,Shiny Kirlia; stranded in Kanto after the Power Plant incident.
+Lucas,Sinnoh,Protagonist,Not introduced,Both art types available,hyper/set2_010,hyper/gfx_153,Registered,No verified back sheet,Named or mapped,
+Dawn,Sinnoh,Protagonist,Not introduced,Portrait available,hyper/set2_008,Not matched,Not matched,No verified back sheet,Named or mapped,Overworld needs a named match.
+Barry,Sinnoh,Rival,Introduced in custom story,Both art types available,hyper/set2_009,hyper/gfx_164,Registered,No verified back sheet,Named or mapped,No verified back sprite; museum uses parallel singles.
+Hilbert,Unova,Protagonist,Not introduced,Both art types available,hyper/set2_011,hyper/gfx_157,Registered,No verified back sheet,Named or mapped,Black in donor records; tentative Hyper back requires review.
+Hilda,Unova,Protagonist,Not introduced,Both art types available,hyper/set2_012,hyper/gfx_145,Registered,No verified back sheet,Named or mapped,
+Nate,Unova,Protagonist,Not introduced,Both art types available,hyper/set2_014,hyper/gfx_158,Registered,No verified back sheet,Named or mapped,Blake in donor records.
+Rosa,Unova,Protagonist,Not introduced,Both art types available,hyper/set2_015,hyper/gfx_149,Registered,No verified back sheet,Named or mapped,
+Cheren,Unova,Rival and Gym Leader,Not introduced,Both art types available,hyper/set3_051,bwa/gfx_072,Registered,No verified back sheet,Named or mapped,Selected overworld is BWA gfx_072.
+Hugh,Unova,Rival,Not introduced,Both art types available,hyper/set2_016,hyper/gfx_159,Registered,No verified back sheet,Named or mapped,
+Calem,Kalos,Protagonist and rival,Not introduced,Both art types available,hyper/set2_018,hyper/gfx_160,Registered,No verified back sheet,Named or mapped,X in donor records.
+Serena,Kalos,Protagonist and rival,Not introduced,Both art types available,hyper/set2_019,hyper/gfx_150,Registered,No verified back sheet,Named or mapped,
+Elio,Alola,Protagonist,Not introduced,Both art types available,hyper/set2_020,hyper/gfx_115,Registered,No verified back sheet,Named or mapped,
+Selene,Alola,Protagonist,Not introduced,Both art types available,hyper/set2_021,hyper/gfx_144,Registered,No verified back sheet,Named or mapped,
+Hau,Alola,Rival,Not introduced,Portrait available,hyper/set3_071,Not matched,Not matched,No verified back sheet,Named or mapped,User label Hao.
+Gladion,Alola,Rival and Aether connection,Not introduced,Both art types available,hyper/set2_046,hyper/gfx_165,Registered,No verified back sheet,Named or mapped,
+Victor,Galar,Protagonist,Not introduced,Portrait available,hyper/set2_047,Not matched,Not matched,No verified back sheet,Named or mapped,User-identified front; overworld not matched.
+Gloria,Galar,Protagonist,Not introduced,Both art types available,hyper/set2_048,swsh/gfx_007,Registered,No verified back sheet,Named or mapped,Registered SWSH overworld.
+Hop,Galar,Rival,Not introduced,Both art types available,swsh/set1_106,swsh/gfx_072,Registered,No verified back sheet,Named or mapped,User-identified front; registered SWSH overworld.
+Bede,Galar,Rival and Fairy Gym Leader,Not introduced,Both art types available,swsh/set1_100,swsh/gfx_014,Registered,No verified back sheet,Named or mapped,Front visually matched; Hyper set3_091 is a candidate alternate.
+Marnie,Galar,Rival and Gym Leader,Not introduced,Both art types available,hyper/set3_095,swsh/gfx_015,Registered,No verified back sheet,Named or mapped,
+Klara,Galar,Isle of Armor rival,Not introduced,Portrait available,hyper/set1_089,Not matched,Not matched,No verified back sheet,Named or mapped,Named trainer-record mapping.
+Avery,Galar,Isle of Armor rival,Not introduced,Portrait available,hyper/set1_090,Not matched,Not matched,No verified back sheet,Named or mapped,Named trainer-record mapping.
+Rei,Hisui,Protagonist,Not introduced,Portrait available,hyper/set1_054,Not matched,Not matched,No verified back sheet,Named or mapped,User-identified portrait; overworld match pending.
+Akari,Hisui,Protagonist,Not introduced,Portrait available,hyper/set2_027,Not matched,Not matched,No verified back sheet,Named or mapped,User-identified portrait; overworld match pending.
+Elaine,Kanto,Lets Go protagonist,Not introduced,Portrait available,hyper/set3_001,Not matched,Not matched,No verified back sheet,Named or mapped,Named trainer-record mapping; not the same entry as Leaf.
+Trace,Kanto,Lets Go rival,Not introduced,Portrait available,hyper/set3_072,Not matched,Not matched,No verified back sheet,Named or mapped,Named trainer-record mapping.
+Ash,Anime,Trainer and protagonist,Not introduced,Both art types available,hyper/set2_022,hyper/gfx_161,Registered,No verified back sheet,Named or mapped,"Hyper back_010 is tentative, not approved for partner battles."
+Alain,Anime,Rival,Not introduced,Both art types available,hyper/set2_023,hyper/gfx_162,Registered,No verified back sheet,Named or mapped,User label Alaine.
+Paul,Anime,Rival,Not introduced,Portrait available,hyper/set2_024,Not matched,Not matched,No verified back sheet,Named or mapped,Named trainer-record mapping; overworld not matched.
+Zinnia,Hoenn,Lorekeeper,Not introduced,Both art types available,hyper/set2_007,hyper/gfx_166,Registered,No verified back sheet,Named or mapped,Registered Hyper overworld; suitable for lore or rift investigation.
+Brock,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_brock_hns; hyper/set3_005,hns/brock; hns/gym_leaders/brock_hns,Named source,No verified back sheet,Named or mapped,
+Misty,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_misty_hns; hyper/set3_006,hns/misty; hns/gym_leaders/misty_hns,Named source,No verified back sheet,Named or mapped,
+Lt Surge,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_surge_hns; hyper/set3_007,hns/lt_surge,Named source,No verified back sheet,Named or mapped,
+Erika,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_erika_hns; hyper/set3_008,hns/erika; hns/gym_leaders/erika_hns,Named source,No verified back sheet,Named or mapped,
+Koga,Kanto,Gym Leader and Johto Elite Four,Not introduced,Both art types available,hns/elite_four_koga_hns; hyper/set3_023,hns/koga; hns/elite_four/koga_hns,Named source,No verified back sheet,Named or mapped,
+Sabrina,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_sabrina_hns; hyper/set3_009,hns/sabrina; hns/gym_leaders/sabrina_hns,Named source,No verified back sheet,Named or mapped,
+Blaine,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_blaine_hns; hyper/set3_011,hns/blaine; hns/gym_leaders/blaine_hns,Named source,No verified back sheet,Named or mapped,
+Janine,Kanto,Gym Leader,Not introduced,Both art types available,hns/leader_janine_hns,hns/gym_leaders/janine_hns,Named source,No verified back sheet,Named or mapped,
+Lorelei,Kanto,Elite Four,Not introduced,Both art types available,hns/elite_four_lorelei_frlg; hyper/set3_056,hns/lorelei,Named source,No verified back sheet,Named or mapped,
+Bruno,Kanto,Elite Four,Not introduced,Both art types available,hns/elite_four_bruno_hns; hyper/set3_012,hns/bruno; hns/elite_four/bruno_hns,Named source,No verified back sheet,Named or mapped,
+Agatha,Kanto,Elite Four,Not introduced,Both art types available,hns/elite_four_agatha_frlg; hyper/set3_013,hns/agatha,Named source,No verified back sheet,Named or mapped,
+Lance,Kanto and Johto,Elite Four and Champion,Not introduced,Both art types available,hns/champion_lance_hns; hyper/set2_026,hns/lance; hns/elite_four/lance_hns,Named source,hns/lance_hns,Named or mapped,
+Falkner,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_falkner_hns; hyper/set3_014,hns/gym_leaders/falkner_hns,Named source,No verified back sheet,Named or mapped,
+Bugsy,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_bugsy_hns; hyper/set3_015,hns/gym_leaders/bugsy_hns,Named source,No verified back sheet,Named or mapped,
+Whitney,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_whitney_hns; hyper/set3_016,hns/gym_leaders/whitney_hns,Named source,No verified back sheet,Named or mapped,
+Morty,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_morty_hns; hyper/set3_017,hns/gym_leaders/morty_hns,Named source,No verified back sheet,Named or mapped,
+Chuck,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_chuck_hns; hyper/set3_018,hns/gym_leaders/chuck_hns,Named source,No verified back sheet,Named or mapped,
+Jasmine,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_jasmine_hns; hyper/set3_019,hns/gym_leaders/jasmine_hns,Named source,No verified back sheet,Named or mapped,
+Pryce,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_pryce_hns; hyper/set3_020,hns/gym_leaders/pryce_hns,Named source,No verified back sheet,Named or mapped,
+Clair,Johto,Gym Leader,Not introduced,Both art types available,hns/leader_clair_hns; hyper/set3_021,hns/gym_leaders/clair_hns,Named source,No verified back sheet,Named or mapped,
+Will,Johto,Elite Four,Not introduced,Both art types available,hns/elite_four_will_hns; hyper/set3_022,hns/elite_four/will_hns,Named source,No verified back sheet,Named or mapped,
+Karen,Johto,Elite Four,Not introduced,Both art types available,hns/elite_four_karen_hns; hyper/set3_024,hns/elite_four/karen_hns,Named source,No verified back sheet,Named or mapped,
+Roxanne,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_040,hns/gym_leaders/roxanne,Named source,No verified back sheet,Named or mapped,
+Brawly,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_041,hns/gym_leaders/brawly,Named source,No verified back sheet,Named or mapped,
+Wattson,Hoenn,Gym Leader,Introduced in custom story,Both art types available,hyper/set1_042,hns/gym_leaders/wattson,Named source,No verified back sheet,Named or mapped,
+Flannery,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_043,hns/gym_leaders/flannery,Named source,No verified back sheet,Named or mapped,
+Norman,Hoenn,Gym Leader and mentor,Introduced in custom story,Both art types available,hyper/set1_044,hns/gym_leaders/norman,Named source,No verified back sheet,Named or mapped,
+Winona,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_045,hns/gym_leaders/winona,Named source,No verified back sheet,Named or mapped,
+Tate,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_046,hns/gym_leaders/tate,Named source,No verified back sheet,Named or mapped,Tate and Liza share the combined battle portrait.
+Liza,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_046,hns/gym_leaders/liza,Named source,No verified back sheet,Named or mapped,Tate and Liza share the combined battle portrait.
+Juan,Hoenn,Gym Leader,Native role present,Both art types available,hyper/set1_047,hns/gym_leaders/juan,Named source,No verified back sheet,Named or mapped,
+Sidney,Hoenn,Elite Four,Native role present,Both art types available,hyper/set1_036,hns/elite_four/sidney,Named source,No verified back sheet,Named or mapped,
+Phoebe,Hoenn,Elite Four,Native role present,Both art types available,hyper/set1_037,hns/elite_four/phoebe,Named source,No verified back sheet,Named or mapped,
+Glacia,Hoenn,Elite Four,Native role present,Both art types available,hyper/set1_038,hns/elite_four/glacia,Named source,No verified back sheet,Named or mapped,
+Drake,Hoenn,Elite Four,Native role present,Both art types available,hyper/set1_039,hns/elite_four/drake,Named source,No verified back sheet,Named or mapped,
+Steven,Hoenn,Champion,Introduced in custom story,Both art types available,hyper/set1_081,hyper/gfx_134,Registered,hyper/back_007; hns/steven,Named or mapped,
+Wallace,Hoenn,Gym Leader and Champion,Native role present,Both art types available,hyper/set2_028,hns/wallace,Named source,No verified back sheet,Named or mapped,
+Roark,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_025,Not matched,Not matched,No verified back sheet,Named or mapped,
+Gardenia,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_026,Not matched,Not matched,No verified back sheet,Named or mapped,
+Maylene,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_027,Not matched,Not matched,No verified back sheet,Named or mapped,
+Crasher Wake,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_028,Not matched,Not matched,No verified back sheet,Named or mapped,
+Fantina,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_029,Not matched,Not matched,No verified back sheet,Named or mapped,
+Byron,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_030,Not matched,Not matched,No verified back sheet,Named or mapped,
+Candice,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_031,Not matched,Not matched,No verified back sheet,Named or mapped,
+Volkner,Sinnoh,Gym Leader,Not introduced,Portrait available,hyper/set3_032,Not matched,Not matched,No verified back sheet,Named or mapped,
+Aaron,Sinnoh,Elite Four,Not introduced,Portrait available,hyper/set3_033,Not matched,Not matched,No verified back sheet,Named or mapped,
+Bertha,Sinnoh,Elite Four,Not introduced,Portrait available,hyper/set3_034,Not matched,Not matched,No verified back sheet,Named or mapped,
+Flint,Sinnoh,Elite Four,Not introduced,Portrait available,hyper/set3_035,Not matched,Not matched,No verified back sheet,Named or mapped,
+Lucian,Sinnoh,Elite Four,Not introduced,Portrait available,hyper/set3_036,Not matched,Not matched,No verified back sheet,Named or mapped,
+Cynthia,Sinnoh,Champion,Not introduced,Both art types available,bwa/set1_104; hyper/set2_029,hyper/gfx_183,Registered,No verified back sheet,Named or mapped,
+Cilan,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_037,Not matched,Not matched,No verified back sheet,Named or mapped,
+Chili,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_038,Not matched,Not matched,No verified back sheet,Named or mapped,
+Cress,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_039,Not matched,Not matched,No verified back sheet,Named or mapped,
+Lenora,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_040,Not matched,Not matched,No verified back sheet,Named or mapped,
+Burgh,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_041,Not matched,Not matched,No verified back sheet,Named or mapped,
+Clay,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_043,Not matched,Not matched,No verified back sheet,Named or mapped,
+Skyla,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_044,Not matched,Not matched,No verified back sheet,Named or mapped,
+Brycen,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_045,Not matched,Not matched,No verified back sheet,Named or mapped,
+Drayden,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_046,Not matched,Not matched,No verified back sheet,Named or mapped,
+Roxie,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_052,Not matched,Not matched,No verified back sheet,Named or mapped,
+Marlon,Unova,Gym Leader,Not introduced,Portrait available,hyper/set3_053,Not matched,Not matched,No verified back sheet,Named or mapped,
+Grimsley,Unova,Elite Four,Not introduced,Portrait available,hyper/set3_047,Not matched,Not matched,No verified back sheet,Named or mapped,
+Marshal,Unova,Elite Four,Not introduced,Portrait available,hyper/set3_048; hyper/set3_054,Not matched,Not matched,No verified back sheet,Named or mapped,
+Shauntal,Unova,Elite Four,Not introduced,Portrait available,hyper/set3_049,Not matched,Not matched,No verified back sheet,Named or mapped,
+Caitlin,Unova,Elite Four,Not introduced,Portrait available,hyper/set3_050,Not matched,Not matched,No verified back sheet,Named or mapped,
+Alder,Unova,Champion,Not introduced,Portrait available,hyper/set2_030,Not matched,Not matched,No verified back sheet,Named or mapped,
+Iris,Unova,Gym Leader and Champion,Not introduced,Both art types available,hyper/set2_031,hyper/gfx_202,Registered,No verified back sheet,Named or mapped,
+Viola,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_055,Not matched,Not matched,No verified back sheet,Named or mapped,
+Grant,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_057,Not matched,Not matched,No verified back sheet,Named or mapped,
+Korrina,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_059,Not matched,Not matched,No verified back sheet,Named or mapped,
+Ramos,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_058,Not matched,Not matched,No verified back sheet,Named or mapped,
+Clemont,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_060,Not matched,Not matched,No verified back sheet,Named or mapped,
+Valerie,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_061,Not matched,Not matched,No verified back sheet,Named or mapped,
+Olympia,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_062,Not matched,Not matched,No verified back sheet,Named or mapped,
+Wulfric,Kalos,Gym Leader,Not introduced,Portrait available,hyper/set3_063,Not matched,Not matched,No verified back sheet,Named or mapped,
+Malva,Kalos,Elite Four and Flare connection,Not introduced,Portrait available,hyper/set3_064,Not matched,Not matched,No verified back sheet,Named or mapped,
+Drasna,Kalos,Elite Four,Not introduced,Portrait available,hyper/set3_065,Not matched,Not matched,No verified back sheet,Named or mapped,
+Wikstrom,Kalos,Elite Four,Not introduced,Portrait available,hyper/set3_066,Not matched,Not matched,No verified back sheet,Named or mapped,
+Siebold,Kalos,Elite Four,Not introduced,Portrait available,hyper/set3_067,Not matched,Not matched,No verified back sheet,Named or mapped,
+Diantha,Kalos,Champion,Not introduced,Portrait available,hyper/set2_032,Not matched,Not matched,No verified back sheet,Named or mapped,
+Hala,Alola,Island Kahuna,Not introduced,Portrait available,hyper/set3_004,Not matched,Not matched,No verified back sheet,Named or mapped,
+Olivia,Alola,Island Kahuna and Elite Four,Not introduced,Portrait available,hyper/set3_002,Not matched,Not matched,No verified back sheet,Named or mapped,
+Nanu,Alola,Island Kahuna,Not introduced,Portrait available,hyper/set2_056,Not matched,Not matched,No verified back sheet,Named or mapped,
+Hapu,Alola,Island Kahuna,Not introduced,Portrait available,hyper/set3_003,Not matched,Not matched,No verified back sheet,Named or mapped,
+Milo,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_085,Not matched,Not matched,No verified back sheet,Named or mapped,
+Nessa,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_086,Not matched,Not matched,No verified back sheet,Named or mapped,
+Kabu,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_087,Not matched,Not matched,No verified back sheet,Named or mapped,
+Bea,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_088,Not matched,Not matched,No verified back sheet,Named or mapped,
+Allister,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_089,Not matched,Not matched,No verified back sheet,Named or mapped,
+Opal,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_090,Not matched,Not matched,No verified back sheet,Named or mapped,
+Gordie,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_092,Not matched,Not matched,No verified back sheet,Named or mapped,
+Melony,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_093,Not matched,Not matched,No verified back sheet,Named or mapped,
+Piers,Galar,Gym Leader and Team Yell connection,Not introduced,Portrait available,hyper/set3_094,Not matched,Not matched,No verified back sheet,Named or mapped,
+Raihan,Galar,Gym Leader,Not introduced,Portrait available,hyper/set3_096,Not matched,Not matched,No verified back sheet,Named or mapped,
+Leon,Galar,Champion,Not introduced,Portrait available,hyper/set3_073,Not matched,Not matched,No verified back sheet,Named or mapped,
+Birch,Hoenn,Paradigm professor,Introduced in custom story,Overworld available,Not matched,hyper/gfx_064,Registered,No verified back sheet,Named or mapped,Met in person; active lab host.
+Oak,Kanto,Paradigm professor,Introduced in custom story,Both art types available,hns/professor_oak_frlg,aestheticred/gfx_071,Registered,No verified back sheet,Named or mapped,Met in tracker lab visit; gives one Kanto starter and sends us to Blue.
+Rowan,Sinnoh,Paradigm professor,Introduced in custom story,Overworld available,Not matched,graphics/object_events/pics/people/la_roster/rowan.png,Registered,No verified back sheet,Named or mapped,Met on Route 110; imported overworld from the shared asset repository. No named front matched in this audit.
+Elm,Johto,Paradigm professor,Paradigm voice only,Overworld available,Not matched,hns/special/elm_hns,Named source,No verified back sheet,Named or mapped,HnS has a named overworld; call voice remains anonymous until met.
+Juniper,Unova,Paradigm professor,Paradigm voice only,Overworld available,Not matched,bwa/gfx_071,Registered,No verified back sheet,Named or mapped,BWA gfx_071 is registered; call voice is anonymous.
+Sycamore,Kalos,Paradigm professor,Paradigm voice only,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Call role is implemented; dedicated body artwork remains unmatched.
+Kukui,Alola,Paradigm professor,Paradigm voice only,Portrait available,hyper/set3_074,Not matched,Not matched,No verified back sheet,Named or mapped,Portrait exists; physical NPC match still needed.
+Burnet,Alola,Paradigm professor,Paradigm voice only,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Call role is implemented; dedicated body artwork remains unmatched.
+Samson Oak,Alola,Regional researcher,Not introduced,Both art types available,hns/samson_oak_hns,hns/alola_oak_hns,Named source,No verified back sheet,Named or mapped,HnS includes named overworld and front art.
+Colress,Unova,Researcher and Plasma connection,Not introduced,Portrait available,hyper/set3_078,Not matched,Not matched,No verified back sheet,Named or mapped,Named in the opening TV report; his relationship to Paradigm needs a story decision.
+Lillie,Alola,Aether story character,Not introduced,Portrait available,hyper/set3_077,Not matched,Not matched,No verified back sheet,Named or mapped,User label Lily.
+Lusamine,Alola,Aether leader,Not introduced,Portrait available,hyper/set3_000; hyper/set2_053,Not matched,Not matched,No verified back sheet,Named or mapped,Normal and corrupted appearances are alternate versions of the same identity.
+Faba,Alola,Aether executive,Not introduced,Portrait available,hyper/set2_041,Not matched,Not matched,No verified back sheet,Named or mapped,
+Volo,Hisui,Antagonist and lore character,Not introduced,Portrait available,hyper/set2_049,Not matched,Not matched,No verified back sheet,Named or mapped,User-identified front; overworld not matched.
+Giovanni,Kanto,Rocket leader,Introduced in custom story,Both art types available,hyper/set2_034; hyper/set2_035,hns/giovanni; hns/rockets/giovanni_hns,Named source,No verified back sheet,Named or mapped,Main Timeless Woods villain. Rainbow Rocket is an alternate outfit/version.
+Archie,Hoenn,Aqua leader,Introduced in custom story,Both art types available,hyper/set1_013; hyper/set2_037,hyper/gfx_195,Registered,No verified back sheet,Named or mapped,Museum dialogue links Aqua to a sea rift. Past appearance is an alternate.
+Matt,Hoenn,Aqua admin,Native role present,Portrait available,hyper/set1_010,Not matched,Not matched,No verified back sheet,Named or mapped,Only Matt and Shelly are intended named Aqua admins.
+Shelly,Hoenn,Aqua admin,Native role present,Portrait available,hyper/set1_012,Not matched,Not matched,No verified back sheet,Named or mapped,
+Maxie,Hoenn,Magma leader,Native role present,Both art types available,hyper/set1_076; hyper/set2_036,hyper/gfx_196,Registered,No verified back sheet,Named or mapped,
+Tabitha,Hoenn,Magma admin,Native role present,Portrait available,hyper/set1_069,Not matched,Not matched,No verified back sheet,Named or mapped,
+Courtney,Hoenn,Magma admin,Native role present,Portrait available,hyper/set2_055,Not matched,Not matched,No verified back sheet,Named or mapped,
+Cyrus,Sinnoh,Galactic leader,Introduced in custom story,Both art types available,hyper/set2_038,hyper/gfx_096,Registered,No verified back sheet,Named or mapped,Takes part in the Timeless Woods conspiracy.
+N,Unova,Plasma and rival role,Not introduced,Both art types available,hyper/set2_013,hyper/gfx_201,Registered,No verified back sheet,Named or mapped,Registered Hyper overworld.
+Ghetsis,Unova,Plasma leader,Not introduced,Portrait available,hyper/set2_039; hyper/set2_043,Not matched,Not matched,No verified back sheet,Named or mapped,Two named donor versions.
+Lysandre,Kalos,Flare leader,Not introduced,Portrait available,hyper/set2_040,Not matched,Not matched,No verified back sheet,Named or mapped,
+Shadow Triad,Unova,Plasma agents,Introduced in custom story,Both art types available,bwa/set1_099,bwa/gfx_049,Registered,No verified back sheet,Named or mapped,Single costume supports three members; active Woods thieves and later scout.
+Archer,Kanto and Johto,Rocket executive,Not introduced,Both art types available,hns/archer_hns,hns/rockets/archer_hns,Named source,No verified back sheet,Named or mapped,Hyper records also reuse grunt art; use named HnS portraits for a distinct executive.
+Ariana,Kanto and Johto,Rocket executive,Not introduced,Both art types available,hns/ariana_hns,hns/rockets/ariana_hns,Named source,No verified back sheet,Named or mapped,
+Petrel,Johto,Rocket executive,Not introduced,Both art types available,hns/petrel_hns,hns/rockets/petrel_hns,Named source,No verified back sheet,Named or mapped,
+Proton,Johto,Rocket executive,Not introduced,Both art types available,hns/proton_hns,hns/rockets/proton_hns,Named source,No verified back sheet,Named or mapped,
+Mars,Sinnoh,Galactic commander,Not introduced,Shared grunt art only,hyper/set3_080,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Jupiter,Sinnoh,Galactic commander,Not introduced,Shared grunt art only,hyper/set3_080,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Saturn,Sinnoh,Galactic commander,Not introduced,Shared grunt art only,hyper/set3_079,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Zinzolin,Unova,Plasma sage,Not introduced,Shared grunt art only,hyper/set3_081,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Bronius,Unova,Plasma sage,Not introduced,Shared grunt art only,hyper/set3_081,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Giallo,Unova,Plasma sage,Not introduced,Shared grunt art only,hyper/set3_081,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Gorm,Unova,Plasma sage,Not introduced,Shared grunt art only,hyper/set3_081,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Ryoku,Unova,Plasma sage,Not introduced,Shared grunt art only,hyper/set3_081,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Xerosic,Kalos,Flare scientist,Not introduced,Shared grunt art only,hyper/set3_083,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Aliana,Kalos,Flare scientist,Not introduced,Shared grunt art only,hyper/set3_084,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Bryony,Kalos,Flare scientist,Not introduced,Shared grunt art only,hyper/set3_084,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Celosia,Kalos,Flare scientist,Not introduced,Shared grunt art only,hyper/set3_084,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Mable,Kalos,Flare scientist,Not introduced,Shared grunt art only,hyper/set3_084,Not matched,Not matched,No verified back sheet,Shared donor art only,Donor trainer records use a shared grunt portrait. This does NOT verify a unique named portrait or overworld.
+Aqua grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set1_001; hyper/set1_006,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Magma grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set1_008; hyper/set1_026,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Rocket grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set2_058; hyper/set2_059,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Rainbow Rocket grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set3_075; hyper/set3_076,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Galactic grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set3_079; hyper/set3_080,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Plasma grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set3_081; hyper/set3_082,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Flare grunts,Multiple regions,Faction enemy pool,Not introduced,Portrait available,hyper/set3_083; hyper/set3_084,Not matched,Not matched,No verified back sheet,Named or mapped,Male/female pairs where listed. Generic outfits are not extra named admins.
+Noland,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/factory_head_noland; hyper/set1_086,hns/frontier_brains/noland_hns; hns/frontier_brains/noland,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Greta,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/arena_tycoon_greta; hyper/set1_085,hns/frontier_brains/greta_hns; hns/frontier_brains/greta,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Tucker,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/dome_ace_tucker,hns/frontier_brains/tucker_hns; hns/frontier_brains/tucker,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Lucy,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/pike_queen_lucy; hyper/set1_087,hns/frontier_brains/lucy; hns/frontier_brains/lucy_hns,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Spenser,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/palace_maven_spenser,hns/frontier_brains/spenser_hns; hns/frontier_brains/spenser,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Brandon,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/pyramid_king_brandon; hyper/set1_088,hns/frontier_brains/brandon; hns/frontier_brains/brandon_hns,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Anabel,Hoenn,Frontier Brain,Not introduced,Both art types available,hns/salon_maiden_anabel; hyper/set2_045,hns/frontier_brains/anabel; hns/frontier_brains/anabel_hns,Named source,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Palmer,Sinnoh,Battle Tower Tycoon and Barry father,Not introduced,Portrait available,hyper/set2_025,Not matched,Not matched,No verified back sheet,Named or mapped,Can be reused for a World Tournament without retaining the old facility.
+Eusine,Kanto and Johto,Legendary researcher,Not introduced,Both art types available,hns/eusine_hns,hns/special/eusine_hns,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Bill,Kanto and Johto,Researcher,Not introduced,Overworld available,Not matched,hns/bill; hns/special/bill_hns,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Kurt,Kanto and Johto,Apricorn craftsman,Not introduced,Overworld available,Not matched,hns/special/kurt_hns,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Daisy,Kanto and Johto,Kanto supporting character,Not introduced,Overworld available,Not matched,hns/daisy,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Mr Fuji,Kanto and Johto,Kanto supporting character,Not introduced,Overworld available,Not matched,hns/mr_fuji,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Celio,Kanto and Johto,Sevii network researcher,Not introduced,Overworld available,Not matched,hns/celio,Named source,No verified back sheet,Named or mapped,Named HnS overworld is available.
+Bianca,Unova,Rival,Not introduced,Candidate needs visual approval,Not matched,bwa/gfx_073,Visual candidate,No verified back sheet,Review,BWA gfx_073 looks suitable; front identity still needs matching.
+Sonia,Galar,Researcher,Not introduced,Candidate needs visual approval,swsh/set1_135,swsh/gfx_075,Visual candidate,No verified back sheet,Review,Visually recognizable candidate; approve the donor match before assigning.
+Rose,Galar,League chairman and antagonist,Not introduced,Candidate needs visual approval,swsh/set1_108,Not matched,Not matched,No verified back sheet,Review,Visual candidate; donor record identity not yet cross-checked.
+Oleana,Galar,Macro Cosmos executive,Not introduced,Candidate needs visual approval,swsh/set1_127,Not matched,Not matched,No verified back sheet,Review,Visual candidate; donor record identity not yet cross-checked.
+Magnolia,Galar,Professor,Not introduced,Candidate needs visual approval,swsh/set1_123,Not matched,Not matched,No verified back sheet,Review,Visual candidate; dedicated overworld match pending.
+Peony,Galar,Explorer and former Champion,Not introduced,Candidate needs visual approval,swsh/set1_107,Not matched,Not matched,No verified back sheet,Review,Visual candidate; verify outfit before assigning.
+Cogita,Hisui,Lore character,Not introduced,Candidate needs visual approval,hyper/set2_017,Not matched,Not matched,No verified back sheet,Review,Visual candidate in the unlabeled archive.
+Lisia,Hoenn,Contest performer,Not introduced,Candidate needs visual approval,hyper/set2_054,Not matched,Not matched,No verified back sheet,Review,Visual candidate in the unlabeled archive.
+Elara,Hoenn,Story supporting cast,Introduced in custom story,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Present from the prologue; keeps her knowledge of Caelum private.
+Hazel,Hoenn,Story supporting cast,Introduced in custom story,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Next-door family scene; relationship details follow the current scripts.
+Caelum,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Elara thinks of this name; no confirmed physical appearance assigned.
+Mr Stone,Hoenn,Story supporting cast,Introduced in custom story,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Rustboro research briefing and assignments.
+Briney,Hoenn,Story supporting cast,Introduced in custom story,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Peeko rescue and sailing progression.
+Captain Stern,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Slateport museum and scanner parts.
+Devon researcher,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Rescued from the Triad; links the player to Devon.
+Silph researcher,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Scope recordings are stolen by the Triad.
+Wally family,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Verdanturf receives the player report that Wally is safe.
+Professor Cozmo,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Native Hoenn role remains available; new rift role has not been authored.
+Lanette,Hoenn,Story supporting cast,Not introduced,No dedicated art matched,Not matched,Not matched,Not matched,No verified back sheet,Named or mapped,Native Hoenn supporting role remains available.
+Scott,Hoenn,Story supporting cast,Native role present,Overworld available,Not matched,hns/scott; hns/scott_hns,Named source,No verified back sheet,Named or mapped,Mauville interruption removed; character art remains reusable.
+Hoopa,Hoenn,Story supporting cast,Introduced in custom story,Overworld available,Not matched,hyper/gfx_004 HoopaRing,Registered,No verified back sheet,Named or mapped,Combined Hoopa-and-ring sprite; Dewford scene leaves the Dynamax Band.

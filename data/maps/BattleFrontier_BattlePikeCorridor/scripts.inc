@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeCorridor_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeCorridor_OnWarp
@@ -58,3 +60,24 @@ BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun:
 	.string "Your Battle Choice challenge\n"
 	.string "has now begun…$"
 
+
+#else
+BattleFrontier_BattlePikeCorridor_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_EventScript_EnterCorridor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_Movement_PlayerEnterCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_Movement_PlayerExitCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_Movement_AttendantEnterCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun:
+	.string "This feature is disabled in this build.$"
+#endif

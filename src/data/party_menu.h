@@ -793,6 +793,14 @@ struct
     TaskFunc func;
 } static const sCursorOptions[MENU_FIELD_MOVES] =
 {
+    [MENU_FIELD_SKILLS]      = {COMPOUND_STRING("FIELD SKILLS"), CursorCb_FieldSkills},
+    [MENU_FIELD_SKILLS_NEXT] = {COMPOUND_STRING("NEXT PAGE"), CursorCb_FieldSkillsNext},
+    [MENU_FIELD_SKILLS_BACK] = {COMPOUND_STRING("BACK"), CursorCb_FieldSkillsBack},
+    [MENU_FOLLOWER]        = {COMPOUND_STRING("FOLLOWER"), CursorCb_Follower},
+    [MENU_RIDE]           = {COMPOUND_STRING("RIDE"), CursorCb_Ride},
+    [MENU_FOLLOWER_SET]    = {COMPOUND_STRING("FOLLOW ME"), CursorCb_FollowerSet},
+    [MENU_FOLLOWER_RECALL] = {COMPOUND_STRING("RECALL"), CursorCb_FollowerRecall},
+    [MENU_FOLLOWER_AUTO]   = {COMPOUND_STRING("AUTOMATIC"), CursorCb_FollowerAuto},
     [MENU_SUMMARY]         = {COMPOUND_STRING("SUMMARY"),         CursorCb_Summary},
     [MENU_SWITCH]          = {COMPOUND_STRING("SWITCH"),          CursorCb_Switch},
     [MENU_CANCEL1]         = {gText_Cancel2,                      CursorCb_Cancel1},

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_ARENA_BATTLE_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
@@ -627,3 +629,188 @@ BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
 	.string "This is so infuriating!\p"
 	.string "If we ever battle again, I won't lose!\n"
 	.string "Don't you forget it! Bye-bye!$"
+
+#else
+BattleFrontier_BattleArenaBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleArenaBattleRoom_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfxMale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DeclareOpponentWinner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskReadyForOpponentNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskPauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ContinueChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor2ndOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor3rdOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor4thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor5thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor6thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_ReadyFor7thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_TycoonUpNext::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskReadyForTycoon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_AskReadyForTycoonNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGretaSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_IntroGretaGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGretaGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_StartArenaBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DoArenaBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_DeclarePlayerWinner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_PlayerEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForwardLong:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForward:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_PlayerWalkBackToLine:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceLeft:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_OpponentEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_GretaEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_OpponentExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceDown:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight2:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_EventScript_SetUpRoomObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_GretaLookAroundPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
+	.string "This feature is disabled in this build.$"
+#endif

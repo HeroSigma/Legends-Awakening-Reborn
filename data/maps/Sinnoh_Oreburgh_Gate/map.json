@@ -1,0 +1,44 @@
+{
+  "id": "MAP_HYPERSINNOH_36_58_OREBURGH_GATE",
+  "name": "Sinnoh_Oreburgh_Gate",
+  "layout": "LAYOUT_HYPERSINNOH_36_58_OREBURGH_GATE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_18_ROUTE_203",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_3_OREBURGH_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_59_OREBURGH_GATE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

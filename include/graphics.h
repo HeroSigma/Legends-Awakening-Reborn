@@ -2025,6 +2025,8 @@ extern const u32 gCategoryIcons_Gfx[];
 
 extern const u32 gShopMenu_Gfx[];
 extern const u32 gShopMenu_Tilemap[];
+extern const u32 gShopMenu_ScrollGfx[];
+extern const u32 gShopMenu_ScrollTilemap[];
 extern const u16 gShopMenu_Pal[];
 extern const u32 gShopMenuMoney_Gfx[];
 
@@ -3438,5 +3440,11 @@ extern const u16 gBattleIcons_Pal2[];
 
 extern const u32 gGhostFrontPic[];
 extern const u16 gGhostPalette[];
+
+extern const u32 gItemIcon_Pokevial0[];
+extern const u32 gItemIcon_Pokevial3[];
+extern const u32 gItemIcon_Pokevial6[];
+extern const u32 gItemIcon_Pokevial9[];
+extern const u16 gItemIconPalette_Pokevial[];
 
 #endif //GUARD_GRAPHICS_H

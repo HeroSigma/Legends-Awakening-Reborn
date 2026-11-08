@@ -1,0 +1,110 @@
+{
+  "save_sha256_before": "6bbf5e6055c1e838c47472dead192aed973c3daaa71247d11be0c9d9e235642f",
+  "assets": [
+    {
+      "character": "aren",
+      "action": "walking",
+      "sha256": "3c4d49f80638592bdae12ef1756cb04b49c70f06950556134bed0e39e447f056"
+    },
+    {
+      "character": "aren",
+      "action": "running",
+      "sha256": "6dc006b62638019d1235cc8d0912b660dabd9a430e5c50345710f4c3705d83fd"
+    },
+    {
+      "character": "aren",
+      "action": "mach_bike",
+      "sha256": "b62b39157da45174841f0c90d10cbad8f9cc692fc6e58502feed13cdf632c932"
+    },
+    {
+      "character": "aren",
+      "action": "acro_bike",
+      "sha256": "2e36de5c59941b6f3d856366fa5f44d0da5c72f9a9a148e5d104cf1af18db182"
+    },
+    {
+      "character": "aren",
+      "action": "surfing",
+      "sha256": "1e034f25e1475485c6e44fd606a910499f3c96ed5af47078a4cf87c2d830aac6"
+    },
+    {
+      "character": "aren",
+      "action": "fishing",
+      "sha256": "21a72db568f3872cd0e9f945a1b76807e89da2e8addc7ebdfa0ebe23257334b0"
+    },
+    {
+      "character": "aren",
+      "action": "watering",
+      "sha256": "c9d7ab5014d396d4b19bcf226adb52c932e4a85ca71aa23135ac4ecbb4913978"
+    },
+    {
+      "character": "aren",
+      "action": "field_move",
+      "sha256": "c5e6e545ddebd17f4d18102f083c3afc9fa03c7e57957f50b135252b27246545"
+    },
+    {
+      "character": "aren",
+      "action": "underwater",
+      "sha256": "50857fbaf88d51016dd356212f4e61896949cfd4a65812a98dd25cadc146439d"
+    },
+    {
+      "character": "aren",
+      "action": "decorating",
+      "sha256": "dcebf81024e8351f16de118e217a81c3277bdc38885d6cc05257affcace6cd30"
+    },
+    {
+      "character": "aria",
+      "action": "walking",
+      "sha256": "a7c591af9eae492e21e02880cefe314d289ffd8d30c1a4ac18f6ea6e588eb410"
+    },
+    {
+      "character": "aria",
+      "action": "running",
+      "sha256": "3825fbaf0634c3e7390fd84483794b47a7354b8b4971581a73db27cba2d362d8"
+    },
+    {
+      "character": "aria",
+      "action": "mach_bike",
+      "sha256": "8e45da3d3b7a2cde05884e8d627c9afa4ac42ff7bd17539ec1edd39d1b022e87"
+    },
+    {
+      "character": "aria",
+      "action": "acro_bike",
+      "sha256": "fb7e28cf42260de5f0750f15a6172ba9061752964e5f61aa1abbdf16cdcf09fa"
+    },
+    {
+      "character": "aria",
+      "action": "surfing",
+      "sha256": "c402343bcf68962052a39b277d483ff395ce95827113d417f820f2ad282765d7"
+    },
+    {
+      "character": "aria",
+      "action": "fishing",
+      "sha256": "cdd4788181b05e5a68f28bc53218ebc13b4983ac44936277ef88d65557c19afe"
+    },
+    {
+      "character": "aria",
+      "action": "watering",
+      "sha256": "670c45b61be5527c358dba0eb0b844b0948ea4ab0cf59792a1425eead7067406"
+    },
+    {
+      "character": "aria",
+      "action": "field_move",
+      "sha256": "cf0ce2c6cd01e7b4e544b835281d4d344537e5eb24355c513e8526dad2beb780"
+    },
+    {
+      "character": "aria",
+      "action": "underwater",
+      "sha256": "f6d259fd9686975adda26a4a725254b32845cff2350cffd0ce535ffdb92c5d0d"
+    },
+    {
+      "character": "aria",
+      "action": "decorating",
+      "sha256": "8b28ae5ee3383588e1a81c2d016033216fd34620b3a6b4acb203ff494b17ead3"
+    }
+  ],
+  "rom_sha256": "91bfe06f3608af129da355203b863d77e4f1ffa7447b4b7c452cb6253b028784",
+  "runtime_checks": 64,
+  "normal_running_linked_bytes_verified": true,
+  "save_preserved": true,
+  "release": "/mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legends-Awakening-Reborn.gba"
+}

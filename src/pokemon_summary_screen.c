@@ -1,4 +1,5 @@
 #include "global.h"
+#include "swsh_summary_screen.h"
 #include "main.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -779,6 +780,7 @@ static const u8 sMovesPPLayout[] = _("{PP}{DYNAMIC 0}/{DYNAMIC 1}");
 #define TAG_MOVE_SELECTOR 30000
 #define TAG_MON_STATUS 30001
 #define TAG_MOVE_TYPES 30002
+#define TAG_TERA_TYPES 30005
 #define TAG_MON_MARKINGS 30003
 #define TAG_CATEGORY_ICONS 30004
 
@@ -991,6 +993,10 @@ const struct CompressedSpriteSheet gSpriteSheet_MoveTypes =
     .size = (NUMBER_OF_MON_TYPES + CONTEST_CATEGORIES_COUNT) * 0x100,
     .tag = TAG_MOVE_TYPES
 };
+static const u32 sTeraTypesGfx[] = INCGFX_U32("graphics/types/tera_icons.png", ".4bpp.smol");
+static const struct CompressedSpriteSheet sTeraTypesSheet = {
+    .data=sTeraTypesGfx, .size=NUMBER_OF_MON_TYPES * 0x100, .tag=TAG_TERA_TYPES,
+};
 const struct SpriteTemplate gSpriteTemplate_MoveTypes =
 {
     .tileTag = TAG_MOVE_TYPES,
@@ -1191,6 +1197,12 @@ u32 GetAdjustedIvData(struct Pokemon *mon, u32 stat)
 
 void ShowPokemonSummaryScreen(u8 mode, void *mons, u8 monIndex, u8 maxMonIndex, void (*callback)(void))
 {
+    if (SWSH_SUMMARY_SCREEN)
+    {
+        ShowPokemonSummaryScreen_SwSh(mode, mons, monIndex, maxMonIndex, callback);
+        return;
+    }
+
     sMonSummaryScreen = AllocZeroed(sizeof(*sMonSummaryScreen));
     sMonSummaryScreen->mode = mode;
     if (monIndex == PC_MON_CHOSEN)
@@ -1258,6 +1270,12 @@ void ShowPokemonSummaryScreen(u8 mode, void *mons, u8 monIndex, u8 maxMonIndex, 
 
 void ShowSelectMovePokemonSummaryScreen(struct Pokemon *mons, u8 monIndex, void (*callback)(void), u16 newMove)
 {
+    if (SWSH_SUMMARY_SCREEN)
+    {
+        ShowSelectMovePokemonSummaryScreen_SwSh(mons, monIndex, callback, newMove);
+        return;
+    }
+
     ShowPokemonSummaryScreen(SUMMARY_MODE_SELECT_MOVE, mons, monIndex, gPartiesCount[B_TRAINER_PLAYER] - 1, callback);
     sMonSummaryScreen->newMove = newMove;
 }
@@ -1469,6 +1487,7 @@ static bool8 DecompressGraphics(void)
         break;
     case 7:
         LoadCompressedSpriteSheet(&gSpriteSheet_MoveTypes);
+        LoadCompressedSpriteSheet(&sTeraTypesSheet);
         sMonSummaryScreen->switchCounter++;
         break;
     case 8:
@@ -2752,6 +2771,7 @@ static void Task_HandleInputCantForgetHMsMoves(u8 taskId)
 
 u8 GetMoveSlotToReplace(void)
 {
+    if (SWSH_SUMMARY_SCREEN) return GetMoveSlotToReplace_SwSh();
     return sMoveSlotToReplace;
 }
 
@@ -3596,7 +3616,7 @@ static void PrintMonTrainerMemo(void)
 static void BufferNatureString(void)
 {
     struct PokemonSummaryScreenData *sumStruct = sMonSummaryScreen;
-    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, gNaturesInfo[sumStruct->summary.nature].name);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, gNaturesInfo[sumStruct->summary.mintNature].name);
     DynamicPlaceholderTextUtil_SetPlaceholderPtr(5, gText_EmptyString5);
 }
 
@@ -4324,6 +4344,7 @@ static void CreateMoveTypeIcons(void)
 void SetTypeSpritePosAndPal(enum Type typeId, u8 x, u8 y, u8 spriteArrayId)
 {
     struct Sprite *sprite = &gSprites[sMonSummaryScreen->spriteIds[spriteArrayId]];
+    sprite->sheetTileStart = GetSpriteTileStartByTag(sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO && spriteArrayId == SPRITE_ARR_ID_TYPE + 2 ? TAG_TERA_TYPES : TAG_MOVE_TYPES);
     StartSpriteAnim(sprite, typeId);
     if (typeId < NUMBER_OF_MON_TYPES)
         sprite->oam.paletteNum = gTypesInfo[typeId].palette;
@@ -4341,6 +4362,7 @@ static void SetMonTypeIcons(void)
     {
         SetTypeSpritePosAndPal(TYPE_MYSTERY, 120, 48, SPRITE_ARR_ID_TYPE);
         SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 1, TRUE);
+        SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 2, TRUE);
     }
     else
     {
@@ -4562,6 +4584,12 @@ static void SpriteCB_Pokemon(struct Sprite *sprite)
 // Normally destroys itself but it can be interrupted before the animation starts
 void SummaryScreen_SetAnimDelayTaskId(u8 taskId)
 {
+    if (SWSH_SUMMARY_SCREEN)
+    {
+        SummaryScreen_SetAnimDelayTaskId_SwSh(taskId);
+        return;
+    }
+
     sAnimDelayTaskId = taskId;
 }
 

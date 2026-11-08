@@ -1,0 +1,770 @@
+[
+  {
+    "file": "src/chooseboxmon.c",
+    "line": 111,
+    "kind": "direct_boxes",
+    "text": "u32 pcMonStart = (u32)&gPokemonStoragePtr->boxes;"
+  },
+  {
+    "file": "src/chooseboxmon.c",
+    "line": 112,
+    "kind": "fixed_box_count",
+    "text": "u32 pcMonEnd = pcMonStart + sizeof(struct BoxPokemon) * TOTAL_BOXES_COUNT * IN_BOX_COUNT;"
+  },
+  {
+    "file": "src/chooseboxmon.c",
+    "line": 228,
+    "kind": "pointer_accessor",
+    "text": "boxmon = GetBoxedMonPtr(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos);"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 2937,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 2941,
+    "kind": "direct_boxes",
+    "text": "if (GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 2943,
+    "kind": "direct_boxes",
+    "text": "species = GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SPECIES);"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3644,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3648,
+    "kind": "direct_boxes",
+    "text": "if (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3654,
+    "kind": "direct_boxes",
+    "text": "gPokemonStoragePtr->boxes[boxId][boxPosition] = boxMon;"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3673,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3677,
+    "kind": "direct_boxes",
+    "text": "if (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))"
+  },
+  {
+    "file": "src/debug.c",
+    "line": 3684,
+    "kind": "direct_boxes",
+    "text": "gPokemonStoragePtr->boxes[boxId][boxPosition] = boxMon;"
+  },
+  {
+    "file": "src/field_specials.c",
+    "line": 3493,
+    "kind": "pointer_accessor",
+    "text": "if (GetBoxMonData(GetBoxedMonPtr(box, i), MON_DATA_SPECIES, 0) == SPECIES_NONE)"
+  },
+  {
+    "file": "src/field_specials.c",
+    "line": 3502,
+    "kind": "fixed_box_count",
+    "text": "if (++box == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 73,
+    "kind": "fixed_box_count",
+    "text": "box = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 84,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 88,
+    "kind": "direct_boxes",
+    "text": "if (GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SPECIES) != SPECIES_NONE &&"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 89,
+    "kind": "direct_boxes",
+    "text": "!GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_IS_EGG))"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 91,
+    "kind": "direct_boxes",
+    "text": "u32 otId = GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_OT_ID);"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 108,
+    "kind": "fixed_box_count",
+    "text": "if (box == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/lottery_corner.c",
+    "line": 116,
+    "kind": "direct_boxes",
+    "text": "GetBoxMonData(&gPokemonStoragePtr->boxes[box][slot], MON_DATA_NICKNAME, gStringVar1);"
+  },
+  {
+    "file": "src/menu_specialized.c",
+    "line": 880,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT) // Party mon."
+  },
+  {
+    "file": "src/menu_specialized.c",
+    "line": 921,
+    "kind": "fixed_box_count",
+    "text": "if (box == TOTAL_BOXES_COUNT) // Party mon."
+  },
+  {
+    "file": "src/menu_specialized.c",
+    "line": 928,
+    "kind": "pointer_accessor",
+    "text": "boxMon = GetBoxedMonPtr(box, mon);"
+  },
+  {
+    "file": "src/menu_specialized.c",
+    "line": 1019,
+    "kind": "fixed_box_count",
+    "text": "if (box == TOTAL_BOXES_COUNT) // Party mon."
+  },
+  {
+    "file": "src/pokemon.c",
+    "line": 2976,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *checkingMon = GetBoxedMonPtr(boxNo, boxPos);"
+  },
+  {
+    "file": "src/pokemon.c",
+    "line": 2991,
+    "kind": "fixed_box_count",
+    "text": "if (boxNo == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon.c",
+    "line": 3172,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokemon.c",
+    "line": 6634,
+    "kind": "pointer_accessor",
+    "text": "boxmon = GetBoxedMonPtr(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 1706,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 1711,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 1717,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 1882,
+    "kind": "fixed_box_count",
+    "text": "if (++sChooseBoxMenu->curBox >= TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 1889,
+    "kind": "fixed_box_count",
+    "text": "sChooseBoxMenu->curBox = (sChooseBoxMenu->curBox == 0 ? TOTAL_BOXES_COUNT - 1 : sChooseBoxMenu->curBox - 1);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 2298,
+    "kind": "fixed_box_count",
+    "text": "if (sStorage->newCurrBoxId >= TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 2315,
+    "kind": "fixed_box_count",
+    "text": "sStorage->newCurrBoxId = TOTAL_BOXES_COUNT - 1;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 3809,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS_ItemHold(&gPokemonStoragePtr->boxes[StorageGetCurrentBox()][pos]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 4466,
+    "kind": "pointer_accessor",
+    "text": "&& IsBoxMonExcluded(GetBoxedMonPtr(boxId, boxPosition)))"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 4997,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT) // party mon"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 5015,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT) // party mon"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 5379,
+    "kind": "fixed_box_count",
+    "text": "if (currentBox >= TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 5383,
+    "kind": "fixed_box_count",
+    "text": "return (i < TOTAL_BOXES_COUNT / 2) ? 1 : -1;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6302,
+    "kind": "fixed_box_count",
+    "text": "sStorage->shiftBoxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6385,
+    "kind": "fixed_box_count",
+    "text": "SetMovingMonData(TOTAL_BOXES_COUNT, sCursorPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6409,
+    "kind": "fixed_box_count",
+    "text": "SetPlacedMonData(TOTAL_BOXES_COUNT, sCursorPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6410,
+    "kind": "fixed_box_count",
+    "text": "SetPlacedMonSprite(TOTAL_BOXES_COUNT, sCursorPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6418,
+    "kind": "direct_boxes",
+    "text": "UpdateSpeciesSpritePSS(&gPokemonStoragePtr->boxes[boxId][sCursorPosition]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6434,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6455,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6466,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS(&gPokemonStoragePtr->boxes[boxId][position], FORM_CHANGE_DEPOSIT);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6472,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6480,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6506,
+    "kind": "fixed_box_count",
+    "text": "SetMovingMonData(TOTAL_BOXES_COUNT, sCursorPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6566,
+    "kind": "fixed_box_count",
+    "text": "boxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6648,
+    "kind": "fixed_box_count",
+    "text": "sStorage->releaseBoxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6692,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6723,
+    "kind": "fixed_box_count",
+    "text": "if (sStorage->releaseBoxId != TOTAL_BOXES_COUNT || sStorage->releaseBoxPos != i)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6768,
+    "kind": "fixed_box_count",
+    "text": "if (++sStorage->releaseCheckBoxId >= TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6796,
+    "kind": "fixed_box_count",
+    "text": "if (sMovingMonOrigBoxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6822,
+    "kind": "pointer_accessor",
+    "text": "sStorage->summaryMon.box = GetBoxedMonPtr(StorageGetCurrentBox(), 0);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 6957,
+    "kind": "pointer_accessor",
+    "text": "SetDisplayMonData(GetBoxedMonPtr(StorageGetCurrentBox(), sCursorPosition), MODE_BOX);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 8651,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *boxMon = GetBoxedMonPtr(boxId, boxPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 8961,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS_ItemHold(&gPokemonStoragePtr->boxes[StorageGetCurrentBox()][cursorPos]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9003,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS_ItemHold(&gPokemonStoragePtr->boxes[StorageGetCurrentBox()][cursorPos]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9033,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS_ItemHold(&gPokemonStoragePtr->boxes[StorageGetCurrentBox()][cursorPos]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9060,
+    "kind": "direct_boxes",
+    "text": "SetMonFormPSS_ItemHold(&gPokemonStoragePtr->boxes[StorageGetCurrentBox()][cursorPos]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9534,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9544,
+    "kind": "pointer_accessor",
+    "text": "boxmon = GetBoxedMonPtr(StorageGetCurrentBox(), sCursorPosition);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9550,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9551,
+    "kind": "direct_boxes",
+    "text": "return GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], request);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9558,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9559,
+    "kind": "direct_boxes",
+    "text": "SetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], request, value);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9574,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9575,
+    "kind": "direct_boxes",
+    "text": "return GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], request, dst);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9582,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9583,
+    "kind": "direct_boxes",
+    "text": "gPokemonStoragePtr->boxes[boxId][boxPosition] = *src;"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9588,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9589,
+    "kind": "direct_boxes",
+    "text": "ZeroBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition]);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9594,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9595,
+    "kind": "direct_boxes",
+    "text": "BoxMonToMon(&gPokemonStoragePtr->boxes[boxId][boxPosition], dst);"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9598,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *GetBoxedMonPtr(u8 boxId, u8 boxPosition)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9600,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && boxPosition < IN_BOX_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9601,
+    "kind": "direct_boxes",
+    "text": "return &gPokemonStoragePtr->boxes[boxId][boxPosition];"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9608,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9616,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9624,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT && wallpaperId < WALLPAPER_COUNT)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9662,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9666,
+    "kind": "direct_boxes",
+    "text": "if (!GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SANITY_HAS_SPECIES))"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9676,
+    "kind": "fixed_box_count",
+    "text": "if (boxId < TOTAL_BOXES_COUNT"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9678,
+    "kind": "direct_boxes",
+    "text": "&& GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9679,
+    "kind": "direct_boxes",
+    "text": "&& !GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_IS_EGG)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9680,
+    "kind": "direct_boxes",
+    "text": "&& !GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_IS_BAD_EGG))"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9691,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9695,
+    "kind": "direct_boxes",
+    "text": "if (GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SANITY_HAS_SPECIES)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9696,
+    "kind": "direct_boxes",
+    "text": "&& !GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SANITY_IS_EGG))"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9709,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9713,
+    "kind": "direct_boxes",
+    "text": "if (GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SANITY_HAS_SPECIES)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9714,
+    "kind": "direct_boxes",
+    "text": "&& !GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_SANITY_IS_EGG)"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 9715,
+    "kind": "direct_boxes",
+    "text": "&& GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_KNOWN_MOVES, (u8 *)moves))"
+  },
+  {
+    "file": "src/pokemon_storage_system.c",
+    "line": 10089,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *boxmon = GetBoxedMonPtr(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos);"
+  },
+  {
+    "file": "src/pokemon_summary_screen.c",
+    "line": 1198,
+    "kind": "pointer_accessor",
+    "text": "sMonSummaryScreen->monList.boxMons = GetBoxedMonPtr(gSpecialVar_MonBoxId, 0);"
+  },
+  {
+    "file": "src/pokenav.c",
+    "line": 402,
+    "kind": "fixed_box_count",
+    "text": "for (j = 0; j < TOTAL_BOXES_COUNT; j++)"
+  },
+  {
+    "file": "src/pokenav_conditions.c",
+    "line": 138,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions.c",
+    "line": 360,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions.c",
+    "line": 367,
+    "kind": "pointer_accessor",
+    "text": "boxMon = GetBoxedMonPtr(boxId, monId);"
+  },
+  {
+    "file": "src/pokenav_conditions.c",
+    "line": 449,
+    "kind": "fixed_box_count",
+    "text": "if (boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions.c",
+    "line": 477,
+    "kind": "fixed_box_count",
+    "text": "monListPtr->monData[count].boxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokenav_conditions_search_results.c",
+    "line": 280,
+    "kind": "fixed_box_count",
+    "text": "item.boxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokenav_conditions_search_results.c",
+    "line": 313,
+    "kind": "fixed_box_count",
+    "text": "while (boxId < TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions_search_results.c",
+    "line": 326,
+    "kind": "fixed_box_count",
+    "text": "if (boxCount > TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions_search_results.c",
+    "line": 712,
+    "kind": "fixed_box_count",
+    "text": "if (item->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_conditions_search_results.c",
+    "line": 722,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *mon = GetBoxedMonPtr(item->boxId, item->monId);"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 256,
+    "kind": "fixed_box_count",
+    "text": "item.boxId = TOTAL_BOXES_COUNT;"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 293,
+    "kind": "fixed_box_count",
+    "text": "while (boxId < TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 310,
+    "kind": "fixed_box_count",
+    "text": "if (boxCount > TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 360,
+    "kind": "fixed_box_count",
+    "text": "for (i = 0; i < TOTAL_BOXES_COUNT; i++)"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 708,
+    "kind": "fixed_box_count",
+    "text": "if (item->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_list.c",
+    "line": 718,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *mon = GetBoxedMonPtr(item->boxId, item->monId);"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 387,
+    "kind": "fixed_box_count",
+    "text": "if (monInfo->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 398,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *boxMon = GetBoxedMonPtr(monInfo->boxId, monInfo->monId);"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 412,
+    "kind": "fixed_box_count",
+    "text": "if (monInfo->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 423,
+    "kind": "pointer_accessor",
+    "text": "struct BoxPokemon *boxMon = GetBoxedMonPtr(monInfo->boxId, monInfo->monId);"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 436,
+    "kind": "fixed_box_count",
+    "text": "if (monInfo->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/pokenav_ribbons_summary.c",
+    "line": 449,
+    "kind": "fixed_box_count",
+    "text": "if (monInfo->boxId == TOTAL_BOXES_COUNT)"
+  },
+  {
+    "file": "src/script_pokemon_util.c",
+    "line": 56,
+    "kind": "fixed_box_count",
+    "text": "for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)"
+  },
+  {
+    "file": "src/script_pokemon_util.c",
+    "line": 60,
+    "kind": "direct_boxes",
+    "text": "boxMon = &gPokemonStoragePtr->boxes[boxId][boxPosition];"
+  },
+  {
+    "file": "src/use_pokeblock.c",
+    "line": 82,
+    "kind": "fixed_box_count",
+    "text": "u8 boxId; // Because this screen is never used for the PC this is always set to TOTAL_BOXES_COUNT to refer to party"
+  },
+  {
+    "file": "src/use_pokeblock.c",
+    "line": 1162,
+    "kind": "fixed_box_count",
+    "text": "sMenu->party[numMons].boxId = TOTAL_BOXES_COUNT;"
+  }
+]

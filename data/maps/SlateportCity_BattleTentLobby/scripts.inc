@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 SlateportCity_BattleTentLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentLobby_OnWarp
@@ -305,3 +307,96 @@ SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
 	.string "Wouldn't it be nice if they had more of\n"
 	.string "a selection?$"
 
+
+#else
+SlateportCity_BattleTentLobby_MapScripts::
+	.byte 0
+SlateportCity_BattleTentLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_GivePrize::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_NoRoomForPrize::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_EndGivePrize::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_ResumeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_AskEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_EnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_WalkToDoor::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Movement_AttendantWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Movement_AttendantEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Movement_PlayerWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_LoadPartyCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Movement_UnusedEnterDoor::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_TormentGiver::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_ReceivedTorment::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_Man::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_Woman::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesBasics::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesSwapPartner::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesSwapNumber::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesSwapNotes::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_RulesMons::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
+	.string "This feature is disabled in this build.$"
+SlateportCity_BattleTentLobby_Text_ExplainTorment:
+	.string "This feature is disabled in this build.$"
+SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
+	.string "This feature is disabled in this build.$"
+SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
+	.string "This feature is disabled in this build.$"
+SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleTowerBattleRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerBattleRoom_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerBattleRoom_OnWarp
@@ -559,3 +561,170 @@ BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
 	.string "so enjoyable before…\p"
 	.string "I wish I could battle with you again…$"
 
+
+#else
+BattleFrontier_BattleTowerBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleTowerBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_SetUpObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_OpponentEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTower_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskReadyForOpponentNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskRecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_RecordBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskPauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskRetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ContinueChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_PauseChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyForOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor2ndOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor3rdOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor4thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor5thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor6thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_ReadyFor7thOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_EventScript_IncrementWinStreak::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_SecondAttendantEnter::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_MaidenUpNext::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskReadyForMaiden::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AskReadyForMaidenNoRecord::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_BattleAnabel::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_BattleAnabelSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_DefeatedAnabelSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_AnabelGoldIntro::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_BattleAnabelGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_DefeatedAnabelGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_DoTowerBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_EndTowerBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_EventScript_SetBrainObjectGfx::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_PlayerEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_PlayerFaceAttendant:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_PlayerFaceBattle:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_OpponentEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_OpponentExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_AttendantApproachPlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_AttendantReturnToPos:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_SetInvisible:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantDelay:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_AttendantFaceSecondAttendant:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Movement_AnabelEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobbyDoubles::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobbyMultis::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobbyLinkMultis::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
+	.string "This feature is disabled in this build.$"
+#endif

@@ -1,0 +1,392 @@
+#include "global.h"
+#include "pokemon.h"
+#include "daycare.h"
+#include "money.h"
+#include "move.h"
+#include "caps.h"
+#include "event_data.h"
+#include "script.h"
+#include "script_menu.h"
+#include "malloc.h"
+#include "string_util.h"
+#include "task.h"
+#include "main.h"
+#include "overworld.h"
+#include "evolution_scene.h"
+#include "constants/flags.h"
+#include "menu.h"
+#include "window.h"
+#include "text.h"
+
+#define EGG_MOVE_PRICE 2000
+static const u8 *const sServices[] = {COMPOUND_STRING("Level catch-up"),COMPOUND_STRING("Max Friendship"),COMPOUND_STRING("Egg Moves"),COMPOUND_STRING("Done")};
+static const u8 sServiceActions[] = {6,7,9,10};
+static const u8 *const sStats[] = {COMPOUND_STRING("HP"), COMPOUND_STRING("Attack"), COMPOUND_STRING("Defense"), COMPOUND_STRING("Sp. Attack"), COMPOUND_STRING("Sp. Defense"), COMPOUND_STRING("Speed")};
+static const u8 sEVFields[] = {MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
+static const u8 sIVFields[] = {MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
+static const u8 *const sEVChoices[] = {COMPOUND_STRING("Set to 252"),COMPOUND_STRING("Set to 4"),COMPOUND_STRING("Set to 0"),COMPOUND_STRING("Choose exact value"),COMPOUND_STRING("Back")};
+static EWRAM_DATA u16 sEvolutionSpecies = SPECIES_NONE;
+
+static struct Pokemon *SelectedMon(void)
+{
+    u32 slot=gSpecialVar_0x8009;
+    if (slot>=gPartiesCount[B_TRAINER_PLAYER]) return NULL;
+    struct Pokemon *mon=&gParties[B_TRAINER_PLAYER][slot];
+    if (!GetMonData(mon,MON_DATA_SPECIES) || GetMonData(mon,MON_DATA_IS_EGG) || GetMonData(mon,MON_DATA_SANITY_IS_BAD_EGG)) return NULL;
+    return mon;
+}
+
+u32 LegendsTraining_LevelCap(void)
+{
+    // Before the Dex milestone, do not bypass the introductory story with Lv100.
+    return FlagGet(FLAG_LA_RED_DEX_GIFTS)?GetCurrentLevelCap():16;
+}
+
+static void ResumeTraining(u8 taskId);
+
+static bool32 KnowsTrainingMove(struct Pokemon *mon, enum Move move)
+{
+    for (u32 slot = 0; slot < MAX_MON_MOVES; slot++)
+        if (GetMonData(mon, MON_DATA_MOVE1 + slot) == move)
+            return TRUE;
+    return FALSE;
+}
+
+static enum Species TrainingEggSpecies(struct Pokemon *mon)
+{
+    return GetEggSpecies(GetMonData(mon, MON_DATA_SPECIES));
+}
+
+static void MenuItem(struct ListMenuItem *items,u32 index,const u8 *name,u32 id)
+{
+    u8 *copy=Alloc(StringLength(name)+1);
+    StringCopy(copy,name);
+    items[index]=(struct ListMenuItem){copy,id};
+}
+
+void LegendsTraining_Menu(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    u32 kind=gSpecialVar_0x8005,count=0,current=0;
+    struct ListMenuItem *items=AllocZeroed(sizeof(*items)*254);
+    if (!items) {gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
+    if (kind==0) {
+        for (u32 i=0;i<ARRAY_COUNT(sServices);i++) MenuItem(items,count++,sServices[i],sServiceActions[i]);
+    } else if (kind==8 && mon) {
+        const u16 *moves = GetSpeciesEggMoves(TrainingEggSpecies(mon));
+        for (; *moves != MOVE_UNAVAILABLE; moves++)
+            if (!KnowsTrainingMove(mon, *moves))
+                MenuItem(items, count++, GetMoveName(*moves), 256 + *moves);
+        if (!count)
+        {
+            Free(items);
+            gSpecialVar_Result = 254;
+            CreateTask(ResumeTraining, 0);
+            return;
+        }
+        MenuItem(items, count++, COMPOUND_STRING("Back"), 255);
+    } else if (kind==9 && mon) {
+        for (u32 slot = 0; slot < MAX_MON_MOVES; slot++)
+            MenuItem(items, count++, GetMoveName(GetMonData(mon, MON_DATA_MOVE1 + slot)), slot);
+        MenuItem(items, count++, COMPOUND_STRING("Back"), 255);
+    } else if (kind==1) {
+        current=gSpecialVar_0x8006<6?gSpecialVar_0x8006:gSpecialVar_0x8008==3?6:0;
+        for (u32 i=0;i<6;i++) {
+            u8 text[40], number[8];
+            StringCopy(text,sStats[i]);
+            if (mon) {
+                StringAppend(text,COMPOUND_STRING(": "));
+                ConvertIntToDecimalStringN(number,GetMonData(mon,gSpecialVar_0x8008==3?sIVFields[i]:sEVFields[i]),STR_CONV_MODE_LEFT_ALIGN,3);
+                StringAppend(text,number);
+                StringAppend(text,gSpecialVar_0x8008==3?COMPOUND_STRING(" IV"):COMPOUND_STRING(" EV"));
+            }
+            MenuItem(items,count++,text,i);
+        }
+        if (gSpecialVar_0x8008==3) MenuItem(items,count++,COMPOUND_STRING("31 All"),6);
+        MenuItem(items,count++,COMPOUND_STRING("Back"),255);
+    } else if (kind==2) {
+        for (u32 i=0;i<ARRAY_COUNT(sEVChoices);i++) MenuItem(items,count++,sEVChoices[i],i);
+    } else if (kind==3) {
+        if (mon) current=GetMonData(mon,MON_DATA_HIDDEN_NATURE);
+        for (u32 i=0;i<NUM_NATURES;i++) MenuItem(items,count++,gNaturesInfo[i].name,i);
+        MenuItem(items,count++,COMPOUND_STRING("Back"),255);
+    } else if (kind==4 && mon) {
+        const struct SpeciesInfo *info=&gSpeciesInfo[GetMonData(mon,MON_DATA_SPECIES)];
+        for (u32 i=0;i<NUM_ABILITY_SLOTS;i++) {
+            u32 ability=info->abilities[i];
+            if (!ability) continue;
+            bool32 duplicate=FALSE;
+            for (u32 j=0;j<i;j++) if (info->abilities[j]==ability) duplicate=TRUE;
+            if (!duplicate) {
+                if (GetMonData(mon,MON_DATA_ABILITY_NUM)==i) current=count;
+                MenuItem(items,count++,gAbilitiesInfo[ability].name,i);
+            }
+        }
+        MenuItem(items,count++,COMPOUND_STRING("Back"),255);
+    } else if (kind>=5 && kind<=7 && mon) {
+        u32 stat=gSpecialVar_0x8006;
+        if (stat>=6 && kind!=7) {Free(items);gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
+        u32 lo=kind==7?GetMonData(mon,MON_DATA_LEVEL):0;
+        u32 hi=kind==5?252:kind==6?31:LegendsTraining_LevelCap();
+        if (lo>hi) hi=lo; // Existing over-cap specimens cannot gain another level.
+        if (kind!=7) current=GetMonData(mon,kind==5?sEVFields[stat]:sIVFields[stat]);
+        for (u32 value=lo;value<=hi;value++) {
+            u8 text[12];ConvertIntToDecimalStringN(text,value,STR_CONV_MODE_LEFT_ALIGN,3);
+            MenuItem(items,count++,text,256+value);
+        }
+    }
+    if (!count) {Free(items);gSpecialVar_Result=127;CreateTask(ResumeTraining,0);return;}
+    if (!ScriptMenu_MultichoiceDynamic(0,0,count,items,FALSE,6,current,0)) CreateTask(ResumeTraining,0);
+}
+
+static void AppendNumber(u8 *dst,u32 number)
+{
+    u8 text[12];ConvertIntToDecimalStringN(text,number,STR_CONV_MODE_LEFT_ALIGN,3);StringAppend(dst,text);
+}
+
+void LegendsTraining_EVBudget(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    u32 total=0;
+    if (!mon) {gSpecialVar_Result=1;return;}
+    for (u32 i=0;i<6;i++) total+=GetMonData(mon,sEVFields[i]);
+    StringCopy(gStringVar4,COMPOUND_STRING("EV points used: "));
+    AppendNumber(gStringVar4,total);
+    StringAppend(gStringVar4,COMPOUND_STRING(" / 510\nAvailable: "));
+    AppendNumber(gStringVar4,total<510?510-total:0);
+    gSpecialVar_Result=0;
+}
+
+void LegendsTraining_Inspect(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    gSpecialVar_Result=mon?0:1;
+    if (!mon) return;
+    GetMonData(mon,MON_DATA_NICKNAME,gStringVar1);
+    StringCopy(gStringVar4,gStringVar1);StringAppend(gStringVar4,COMPOUND_STRING("\nLevel: "));AppendNumber(gStringVar4,GetMonData(mon,MON_DATA_LEVEL));
+    StringAppend(gStringVar4,COMPOUND_STRING("\pNature effects: "));StringAppend(gStringVar4,gNaturesInfo[GetMonData(mon,MON_DATA_HIDDEN_NATURE)].name);
+    StringAppend(gStringVar4,COMPOUND_STRING("\nAbility: "));StringAppend(gStringVar4,gAbilitiesInfo[GetMonAbility(mon)].name);
+    u32 evTotal=0;
+    for (u32 i=0;i<6;i++) evTotal+=GetMonData(mon,sEVFields[i]);
+    StringAppend(gStringVar4,COMPOUND_STRING("\pEV points used: "));AppendNumber(gStringVar4,evTotal);
+    StringAppend(gStringVar4,COMPOUND_STRING(" / 510\nAvailable: "));AppendNumber(gStringVar4,evTotal<510?510-evTotal:0);
+    for (u32 kind=0;kind<2;kind++) {
+        StringAppend(gStringVar4,kind?COMPOUND_STRING("\pIVs"):COMPOUND_STRING("\pEVs"));
+        for (u32 i=0;i<6;i++) {
+            StringAppend(gStringVar4,i%2==0?COMPOUND_STRING("\n"):COMPOUND_STRING(" / "));
+            if (i==2 || i==4) {
+                // New pages keep every pair within the two-line text box.
+                u32 n=StringLength(gStringVar4);gStringVar4[n-1]=CHAR_PROMPT_CLEAR;
+            }
+            StringAppend(gStringVar4,sStats[i]);StringAppend(gStringVar4,COMPOUND_STRING(": "));
+            AppendNumber(gStringVar4,GetMonData(mon,kind?sIVFields[i]:sEVFields[i]));
+        }
+    }
+}
+
+// Results: 0 ready, 1 invalid/egg, 2 total EV limit, 3 cap/illegal choice,
+// 4 unchanged. A cancelled prompt never calls Commit.
+void LegendsTraining_Prepare(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    u32 action=gSpecialVar_0x8008,stat=gSpecialVar_0x8006,value=gSpecialVar_0x8007,old=0;
+    gSpecialVar_Result=1;
+    if (!mon) return;
+    gSpecialVar_Result=3;
+    if (action == 9)
+    {
+        if (value == MOVE_NONE || value >= MOVES_COUNT || !SpeciesHasEggMove(TrainingEggSpecies(mon), value))
+            return;
+        if (KnowsTrainingMove(mon, value))
+        {
+            gSpecialVar_Result = 4;
+            return;
+        }
+        if (!IsEnoughMoney(&gSaveBlock1Ptr->money, EGG_MOVE_PRICE))
+        {
+            gSpecialVar_Result = 5;
+            return;
+        }
+        if (stat >= MAX_MON_MOVES)
+        {
+            for (stat = 0; stat < MAX_MON_MOVES; stat++)
+                if (GetMonData(mon, MON_DATA_MOVE1 + stat) == MOVE_NONE)
+                    break;
+            if (stat == MAX_MON_MOVES)
+            {
+                gSpecialVar_Result = 6;
+                return;
+            }
+            gSpecialVar_0x8006 = stat;
+        }
+        GetMonData(mon, MON_DATA_NICKNAME, gStringVar1);
+        StringCopy(gStringVar4, COMPOUND_STRING("Teach "));
+        StringAppend(gStringVar4, GetMoveName(value));
+        StringAppend(gStringVar4, COMPOUND_STRING(" to\n"));
+        StringAppend(gStringVar4, gStringVar1);
+        StringAppend(gStringVar4, COMPOUND_STRING(" for ¥2,000?"));
+        old = GetMonData(mon, MON_DATA_MOVE1 + stat);
+        if (old != MOVE_NONE)
+        {
+            StringAppend(gStringVar4, COMPOUND_STRING("\pIt will replace "));
+            StringAppend(gStringVar4, GetMoveName(old));
+            StringAppend(gStringVar4, COMPOUND_STRING("."));
+        }
+        gSpecialVar_Result = 0;
+        return;
+    }
+    if (action==1 || action==3) {
+        if (stat>=6 || value>(action==1?252:31)) return;
+        old=GetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat]);
+        if (action==1) {
+            u32 total=value;
+            for (u32 i=0;i<6;i++) if (i!=stat) total+=GetMonData(mon,sEVFields[i]);
+            if (total>510) {gSpecialVar_Result=2;return;}
+        }
+    } else if (action==8) {
+        old = GetMonData(mon, MON_DATA_FRIENDSHIP);
+        value = MAX_FRIENDSHIP;
+    } else if (action==7) {
+        if (value!=31) return;
+        for (u32 i=0;i<6;i++) old+=GetMonData(mon,sIVFields[i]);
+        value=186;
+    } else if (action==2) {
+        for (u32 i=0;i<6;i++) old+=GetMonData(mon,sEVFields[i]);
+        value=0;
+    } else if (action==4) {
+        if (value>=NUM_NATURES) return;
+        old=GetMonData(mon,MON_DATA_HIDDEN_NATURE);
+    } else if (action==5) {
+        if (value>=NUM_ABILITY_SLOTS || !gSpeciesInfo[GetMonData(mon,MON_DATA_SPECIES)].abilities[value]) return;
+        old=GetMonData(mon,MON_DATA_ABILITY_NUM);
+    } else if (action==6) {
+        old=GetMonData(mon,MON_DATA_LEVEL);
+        if (value<old || value>LegendsTraining_LevelCap()) return;
+    } else return;
+    if (old==value) {
+        bool32 canStop=TRUE;
+        if (action!=6 || GetEvolutionTargetSpecies(mon,EVO_MODE_NORMAL,ITEM_NONE,NULL,&canStop,CHECK_EVO)==SPECIES_NONE) {gSpecialVar_Result=4;return;}
+    }
+    GetMonData(mon,MON_DATA_NICKNAME,gStringVar1);
+    StringCopy(gStringVar4,COMPOUND_STRING("For "));StringAppend(gStringVar4,gStringVar1);StringAppend(gStringVar4,COMPOUND_STRING(":\n"));
+    if (action==1 || action==3) {
+        StringAppend(gStringVar4,sStats[stat]);StringAppend(gStringVar4,action==1?COMPOUND_STRING(" EVs: "):COMPOUND_STRING(" IVs: "));
+        AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);
+    } else if (action==8) {
+        StringAppend(gStringVar4, COMPOUND_STRING("Max out friendship."));
+    } else if (action==7) StringAppend(gStringVar4,COMPOUND_STRING("Set all six IVs to 31."));
+    else if (action==2) StringAppend(gStringVar4,COMPOUND_STRING("Reset all EVs to zero."));
+    else if (action==4) {StringAppend(gStringVar4,COMPOUND_STRING("Nature effects: "));StringAppend(gStringVar4,gNaturesInfo[value].name);}
+    else if (action==5) {StringAppend(gStringVar4,COMPOUND_STRING("Ability: "));StringAppend(gStringVar4,gAbilitiesInfo[gSpeciesInfo[GetMonData(mon,MON_DATA_SPECIES)].abilities[value]].name);}
+    else {StringAppend(gStringVar4,COMPOUND_STRING("Level "));AppendNumber(gStringVar4,old);StringAppend(gStringVar4,COMPOUND_STRING(" to "));AppendNumber(gStringVar4,value);}
+    StringAppend(gStringVar4,COMPOUND_STRING("\pApply this change?\nAll training is free."));
+    gSpecialVar_Result=0;
+}
+
+void LegendsTraining_Commit(void)
+{
+    LegendsTraining_Prepare();
+    if (gSpecialVar_Result) return;
+    struct Pokemon *mon=SelectedMon();
+    u32 action=gSpecialVar_0x8008,stat=gSpecialVar_0x8006,value=gSpecialVar_0x8007;
+    if (action == 9)
+    {
+        RemoveMonPPBonus(mon, stat);
+        SetMonMoveSlot(mon, value, stat);
+        RemoveMoney(&gSaveBlock1Ptr->money, EGG_MOVE_PRICE);
+        return;
+    }
+    if (action==1 || action==3) SetMonData(mon,action==1?sEVFields[stat]:sIVFields[stat],&value);
+    else if (action==8) {
+        u8 friendship = MAX_FRIENDSHIP;
+        SetMonData(mon, MON_DATA_FRIENDSHIP, &friendship);
+    }
+    else if (action==7) {u32 max=31;for (u32 i=0;i<6;i++) SetMonData(mon,sIVFields[i],&max);}
+    else if (action==2) {u32 zero=0;for (u32 i=0;i<6;i++) SetMonData(mon,sEVFields[i],&zero);}
+    else if (action==4) SetMonData(mon,MON_DATA_HIDDEN_NATURE,&value);
+    else if (action==5) SetMonData(mon,MON_DATA_ABILITY_NUM,&value);
+    else if (action==6) {
+        u32 exp=gExperienceTables[gSpeciesInfo[GetMonData(mon,MON_DATA_SPECIES)].growthRate][value];
+        SetMonData(mon,MON_DATA_EXP,&exp);
+    }
+    CalculateMonStats(mon);
+}
+
+static void ResumeTraining(u8 taskId)
+{
+    DestroyTask(taskId);ScriptContext_Enable();
+}
+static void AfterTrainingEvolution(void);
+static bool32 StartTrainingEvolution(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    if (!mon) return FALSE;
+    bool32 canStop=TRUE;
+    u32 target=GetEvolutionTargetSpecies(mon,EVO_MODE_NORMAL,ITEM_NONE,NULL,&canStop,CHECK_EVO);
+    if (target==SPECIES_NONE) return FALSE;
+    sEvolutionSpecies=GetMonData(mon,MON_DATA_SPECIES);
+    GetEvolutionTargetSpecies(mon,EVO_MODE_NORMAL,ITEM_NONE,NULL,&canStop,DO_EVO);
+    gCB2_AfterEvolution=AfterTrainingEvolution;
+    BeginEvolutionScene(mon,target,canStop,gSpecialVar_0x8009);
+    return TRUE;
+}
+static void AfterTrainingEvolution(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    if (mon && GetMonData(mon,MON_DATA_SPECIES)!=sEvolutionSpecies && StartTrainingEvolution()) return;
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+void LegendsTraining_Evolve(void)
+{
+    if (!StartTrainingEvolution()) CreateTask(ResumeTraining,0);
+}
+
+static const struct WindowTemplate sBuildWindow = {
+    .bg=0, .tilemapLeft=1, .tilemapTop=1, .width=28, .height=18,
+    .paletteNum=15, .baseBlock=1,
+};
+static void BuildPrint(u8 win,const u8 *text,u32 x,u32 y)
+{
+    AddTextPrinterParameterized(win,FONT_SMALL,text,x,y,TEXT_SKIP_DRAW,NULL);
+}
+static void Task_TrainingBuild(u8 taskId)
+{
+    if (gTasks[taskId].data[1]) {gTasks[taskId].data[1]--;return;}
+    if (!JOY_NEW(A_BUTTON | B_BUTTON)) return;
+    u8 win=gTasks[taskId].data[0];
+    ClearStdWindowAndFrame(win,TRUE);
+    RemoveWindow(win);
+    DestroyTask(taskId);
+    ScriptContext_Enable();
+}
+void LegendsTraining_ShowBuild(void)
+{
+    struct Pokemon *mon=SelectedMon();
+    gSpecialVar_Result=1;
+    if (!mon) {CreateTask(ResumeTraining,0);return;}
+    u8 win=AddWindow(&sBuildWindow),text[100];
+    if (win==WINDOW_NONE) {CreateTask(ResumeTraining,0);return;}
+    PutWindowTilemap(win);DrawStdWindowFrame(win,FALSE);
+    FillWindowPixelBuffer(win,PIXEL_FILL(1));
+    GetMonData(mon,MON_DATA_NICKNAME,text);BuildPrint(win,text,4,0);
+    StringCopy(text,COMPOUND_STRING("Lv. "));AppendNumber(text,GetMonData(mon,MON_DATA_LEVEL));BuildPrint(win,text,160,0);
+    StringCopy(text,COMPOUND_STRING("Nature: "));StringAppend(text,gNaturesInfo[GetMonData(mon,MON_DATA_HIDDEN_NATURE)].name);BuildPrint(win,text,4,12);
+    StringCopy(text,COMPOUND_STRING("Ability: "));StringAppend(text,gAbilitiesInfo[GetMonAbility(mon)].name);BuildPrint(win,text,4,24);
+    BuildPrint(win,COMPOUND_STRING("STAT"),4,36);
+    BuildPrint(win,COMPOUND_STRING("IV"),116,36);
+    BuildPrint(win,COMPOUND_STRING("EV"),170,36);
+    u32 total=0;
+    for (u32 i=0;i<6;i++) {
+        BuildPrint(win,sStats[i],4,48+i*12);
+        ConvertIntToDecimalStringN(text,GetMonData(mon,sIVFields[i]),STR_CONV_MODE_RIGHT_ALIGN,3);BuildPrint(win,text,108,48+i*12);
+        u32 ev=GetMonData(mon,sEVFields[i]);total+=ev;
+        ConvertIntToDecimalStringN(text,ev,STR_CONV_MODE_RIGHT_ALIGN,3);BuildPrint(win,text,162,48+i*12);
+    }
+    StringCopy(text,COMPOUND_STRING("EVs: "));AppendNumber(text,total);
+    StringAppend(text,COMPOUND_STRING("/510   Available: "));AppendNumber(text,total<510?510-total:0);BuildPrint(win,text,4,122);
+    BuildPrint(win,COMPOUND_STRING("A/B: back to training"),4,134);
+    CopyWindowToVram(win,COPYWIN_FULL);
+    u8 task=CreateTask(Task_TrainingBuild,0);
+    gTasks[task].data[0]=win;gTasks[task].data[1]=8;
+    gSpecialVar_Result=0;
+}

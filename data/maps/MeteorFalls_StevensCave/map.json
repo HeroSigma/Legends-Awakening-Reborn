@@ -28,62 +28,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MeteorFalls_StevensCave_EventScript_Steven",
       "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_METEOR_FALLS__STEVENS_CAVE_REGISTERED_CONSTRUCTION_1",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 3,
-      "y": 13,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered1",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_METEOR_FALLS__STEVENS_CAVE_REGISTERED_CONSTRUCTION_2",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 11,
-      "y": 7,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered2",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_METEOR_FALLS__STEVENS_CAVE_REGISTERED_CONSTRUCTION_3",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 23,
-      "y": 12,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered3",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_METEOR_FALLS__STEVENS_CAVE_REGISTERED_CONSTRUCTION_4",
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 23,
-      "y": 8,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "MeteorFalls_StevensCave_EventScript_HyperConstruction_Registered4",
-      "flag": "0"
     }
   ],
   "warp_events": [

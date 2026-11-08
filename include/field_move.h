@@ -32,6 +32,12 @@ struct FieldMoveInfo
 extern const struct FieldMoveInfo gFieldMoveInfo[];
 extern const struct FieldMoveUnlock gFieldMoveUnlocks[];
 
+struct Pokemon;
+bool32 FieldMove_IsSlotFree(enum FieldMove fieldMove);
+bool32 FieldMove_HasAcquisition(enum FieldMove fieldMove);
+bool32 FieldMove_CanAssist(struct Pokemon *mon, enum FieldMove fieldMove);
+u32 FieldMove_FindUser(enum FieldMove fieldMove);
+
 static inline bool32 SetUpFieldMove(enum FieldMove fieldMove)
 {
     return gFieldMoveInfo[fieldMove].fieldMoveFunc();
@@ -39,7 +45,9 @@ static inline bool32 SetUpFieldMove(enum FieldMove fieldMove)
 
 static inline bool32 IsFieldMoveUnlocked(enum FieldMove fieldMove)
 {
-    return gFieldMoveUnlocks[gFieldMoveInfo[fieldMove].unlockType].isUnlockedFunc(fieldMove);
+    return fieldMove < FIELD_MOVES_COUNT
+        && gFieldMoveUnlocks[gFieldMoveInfo[fieldMove].unlockType].isUnlockedFunc(fieldMove)
+        && FieldMove_HasAcquisition(fieldMove);
 }
 
 static inline const u8 *FieldMove_GetLockedMessage(enum FieldMove fieldMove)

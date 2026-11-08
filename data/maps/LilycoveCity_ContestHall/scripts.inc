@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ All the LOCALID constants used in this file are essentially redundant.
 @ They're all used to have the NPC the player talked to turn back so they're facing
 @ their original direction (because they're watching/participating in the contests).
@@ -511,3 +513,150 @@ LilycoveCity_ContestHall_Text_SmartContestStage:
 	.string "SMARTNESS CONTEST STAGE\n"
 	.string "BE IMPRESSED BY SMART POKéMON!$"
 
+
+#else
+LilycoveCity_ContestHall_MapScripts::
+	.byte 0
+LilycoveCity_ContestHall_EventScript_Boy1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_Boy2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_Sailor::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestMC::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestJudge::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestant1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestant2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestant3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestant4::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestAudience1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestAudience2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestAudience3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartContestAudience4::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestMC::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestJudge::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestant1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestant2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestant3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestant4::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestAudience1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestAudience2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyContestAudience3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestMC::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestJudge::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestant1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestant2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestant3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestant4::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestAudience1::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestAudience2::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteContestAudience3::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_BeautyStageSign::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_CuteStageSign::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_EventScript_SmartStageSign::
+	goto EventScript_LegacyFeatureDisabled
+LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_EnteredWrongContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_OverdidGrooming:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_MyChildIsInContest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_ComeOnDear:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_BeautyContestStage:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_CuteContestStage:
+	.string "This feature is disabled in this build.$"
+LilycoveCity_ContestHall_Text_SmartContestStage:
+	.string "This feature is disabled in this build.$"
+#endif

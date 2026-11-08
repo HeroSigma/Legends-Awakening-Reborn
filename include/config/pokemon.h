@@ -1,6 +1,8 @@
 #ifndef GUARD_CONFIG_POKEMON_H
 #define GUARD_CONFIG_POKEMON_H
 
+#include "config/free_space.h"
+
 // Species data settings
 #define P_UPDATED_TYPES             GEN_LATEST  // Some Pokémon have received type updates after their introduction.
 #define P_UPDATED_STATS             GEN_LATEST  // Some Pokémon have received base stat updates after their introduction.
@@ -52,7 +54,7 @@
 #define P_CRIES_ENABLED                  TRUE        // If TRUE, Pokémon will have cries. Disabling this saves around a LOT of ROM space (over 25%!), but instead we recommend disabling individual unused Pokémon families in include/config/species_enabled.h.
 #define P_LEGENDARY_PERFECT_IVS          GEN_LATEST  // Since Gen 6, Legendaries, Mythicals and Ultra Beasts found in the wild or given through gifts have at least 3 perfect IVs.
 #define P_EV_CAP                         GEN_LATEST  // Since Gen 6, the max EVs per stat is 252 instead of 255.
-#define P_SHOW_TERA_TYPE                 GEN_8       // Since Gen 9, the Tera Type is shown on the summary screen.
+#define P_SHOW_TERA_TYPE                 GEN_9       // Since Gen 9, the Tera Type is shown on the summary screen.
 #define P_TM_LITERACY                    GEN_LATEST  // Since Gen 6, TM illiterate Pokémon can learn TMs that teach moves that are in their level-up learnsets.
 #define P_CAN_FORGET_HIDDEN_MOVE         FALSE       // If TRUE, Pokémon can forget any move, even if it is an HM.
 #define P_ASK_MOVE_CONFIRMATION          FALSE       // If FALSE, when a player decides not to learn a move, the game does not ask the player for confirmation.
@@ -77,7 +79,11 @@
 #include "constants/sound.h"
 
 // Sound related settings
+#if LA_FREE_SPACE
+#define P_MODIFIED_MEGA_CRIES            FALSE
+#else
 #define P_MODIFIED_MEGA_CRIES            P_MEGA_EVOLUTIONS  // If TRUE, will use the extra separate Mega Cries (approx. 3% space of ROM). if FALSE, will use the same cry for all Mega Evolutions except modified with P_MODIFIED_MEGA_CRY_MODE. By default, this is set based on if mega evolutions are enabled.
+#endif
 #define P_MODIFIED_MEGA_CRY_MODE         CRY_MODE_HIGH_PITCH
 
 // Pokédex

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "full_sheet_stream.h"
 #include "crt0.h"
 #include "malloc.h"
 #include "link.h"
@@ -367,6 +368,7 @@ static void VBlankIntr(void)
     gMain.vblankCounter2++;
 
     CopyBufferedValuesToGpuRegs();
+    FullSheetStreamVBlank();
     ProcessDma3Requests();
 
     gPcmDmaCounter = gSoundInfo.pcmDmaCounter;

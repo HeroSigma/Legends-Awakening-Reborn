@@ -1,0 +1,92 @@
+{
+  "id": "MAP_HYPERHOENN_34_30_TEST_OF_HEART",
+  "name": "Hoenn_Test_of_Heart",
+  "layout": "LAYOUT_HYPERHOENN_34_30_TEST_OF_HEART",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_TEST_OF_HEART",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 85,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_30_TEST_OF_HEART",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 8,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 18,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 22,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 73,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 65,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_30_TEST_OF_HEART",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

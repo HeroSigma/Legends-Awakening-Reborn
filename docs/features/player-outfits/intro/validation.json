@@ -1,0 +1,70 @@
+{
+  "rom_sha256": "9c6fd81a394052e926ac7a99ca855c03d2ce7e9a3ca3d31d27b3e1a63dcc3ad9",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "intro_0_save_setup",
+      "passed": true
+    },
+    {
+      "test": "intro_0_new_game_original",
+      "passed": true
+    },
+    {
+      "test": "intro_0_intro_live",
+      "passed": true
+    },
+    {
+      "test": "intro_0_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "intro_0_cancel_restores_entire_prompt",
+      "passed": true
+    },
+    {
+      "test": "intro_0_intro_commits_to_new_save",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "intro_1_save_setup",
+      "passed": true
+    },
+    {
+      "test": "intro_1_new_game_original",
+      "passed": true
+    },
+    {
+      "test": "intro_1_intro_live",
+      "passed": true
+    },
+    {
+      "test": "intro_1_intro_cancel",
+      "passed": true
+    },
+    {
+      "test": "intro_1_cancel_restores_entire_prompt",
+      "passed": true
+    },
+    {
+      "test": "intro_1_intro_commits_to_new_save",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

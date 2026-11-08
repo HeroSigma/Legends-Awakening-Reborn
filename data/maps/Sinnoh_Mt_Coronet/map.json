@@ -1,0 +1,37 @@
+{
+  "id": "MAP_HYPERSINNOH_36_80_MT_CORONET",
+  "name": "Sinnoh_Mt_Coronet",
+  "layout": "LAYOUT_HYPERSINNOH_36_80_MT_CORONET",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 16,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_83_MT_CORONET",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 2,
+      "y": 49,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_91_MT_CORONET",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

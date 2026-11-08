@@ -1,0 +1,7 @@
+Kanto_SevenIsland_TanobyRuins_ViapoisChamber_MapScripts::
+	.byte 0
+
+KantoAR_2_33_SevenIsland_TanobyRuins_ViapoisChamber_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_2_34_THREEISLAND_DUNSPARCETUNNEL, 4, 3
+	goto KantoAR_InspectionFinish

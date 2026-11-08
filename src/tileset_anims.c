@@ -1433,3 +1433,1019 @@ void InitTilesetAnim_CeladonGym(void)
 }
 
 #include "hyper_tileset_anims.inc"
+
+#include "unova_tileset_anims.inc"
+
+#include "hns_canary_anims.inc"
+
+/* HNS_REGION_GENERATED: visual assets only. */
+/* Graphical callbacks only, recovered from pinned HnS source. */
+static void HnsRegion512_BlendAnimPalette_BattleDome_FloorLights(u16 timer);
+static void HnsRegion512_BlendAnimPalette_BattleDome_FloorLightsNoBlend(u16 timer);
+void HnsRegion512_InitTilesetAnim_BattleDome(void);
+void HnsRegion512_InitTilesetAnim_BattleFrontierOutsideEast(void);
+void HnsRegion512_InitTilesetAnim_BattleFrontierOutsideWest(void);
+void HnsRegion512_InitTilesetAnim_BattlePyramid(void);
+void HnsRegion512_InitTilesetAnim_Building(void);
+void HnsRegion512_InitTilesetAnim_Cave(void);
+void HnsRegion512_InitTilesetAnim_Dewford(void);
+void HnsRegion512_InitTilesetAnim_Fortree(void);
+void HnsRegion512_InitTilesetAnim_General(void);
+void HnsRegion512_InitTilesetAnim_JohtoGeneral(void);
+void HnsRegion512_InitTilesetAnim_Rustboro(void);
+static void HnsRegion512_QueueAnimTiles_BattleFrontierOutsideEast_Flag(u16 timer);
+static void HnsRegion512_QueueAnimTiles_BattleFrontierOutsideWest_Flag(u16 timer);
+static void HnsRegion512_QueueAnimTiles_BattlePyramid_StatueShadow(u16 timer);
+static void HnsRegion512_QueueAnimTiles_BattlePyramid_Torch(u16 timer);
+static void HnsRegion512_QueueAnimTiles_Building_TVTurnedOn(u16 timer);
+static void HnsRegion512_QueueAnimTiles_Cave_Lava(u16 timer);
+static void HnsRegion512_QueueAnimTiles_Dewford_Flag(u16 timer);
+static void HnsRegion512_QueueAnimTiles_General_Flower(u16 timer);
+static void HnsRegion512_QueueAnimTiles_General_LandWaterEdge(u16 timer);
+static void HnsRegion512_QueueAnimTiles_General_SandWaterEdge(u16 timer);
+static void HnsRegion512_QueueAnimTiles_General_Water(u16 timer);
+static void HnsRegion512_QueueAnimTiles_General_Waterfall(u16 timer);
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_Flower(u16 timer);
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_LandWaterEdge(u16 timer);
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_SandWaterEdge(u16 timer);
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_Waterfall(u16 timer);
+static void HnsRegion512_QueueAnimTiles_Rustboro_Fountain(u16 timer);
+static void HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(u16 timer_div, u8 timer_mod);
+static void HnsRegion512_TilesetAnim_BattleDome(u16 timer);
+static void HnsRegion512_TilesetAnim_BattleDome2(u16 timer);
+static void HnsRegion512_TilesetAnim_BattleFrontierOutsideEast(u16 timer);
+static void HnsRegion512_TilesetAnim_BattleFrontierOutsideWest(u16 timer);
+static void HnsRegion512_TilesetAnim_BattlePyramid(u16 timer);
+static void HnsRegion512_TilesetAnim_Building(u16 timer);
+static void HnsRegion512_TilesetAnim_Cave(u16 timer);
+static void HnsRegion512_TilesetAnim_Dewford(u16 timer);
+static void HnsRegion512_TilesetAnim_General(u16 timer);
+static void HnsRegion512_TilesetAnim_JohtoGeneral(u16 timer);
+static void HnsRegion512_TilesetAnim_Rustboro(u16 timer);
+const u16 HnsRegion512_gTilesetAnims_BattleDomePals0_3[] = INCBIN_U16("data/hns_region_assets/animations/graphics/battle_frontier/dome_anim4.gbapal");
+const u16 HnsRegion512_gTilesetAnims_BattleDomePals0_0[] = INCBIN_U16("data/hns_region_assets/animations/graphics/battle_frontier/dome_anim1.gbapal");
+const u16 HnsRegion512_gTilesetAnims_BattleDomePals0_2[] = INCBIN_U16("data/hns_region_assets/animations/graphics/battle_frontier/dome_anim3.gbapal");
+const u16 HnsRegion512_gTilesetAnims_BattleDomePals0_1[] = INCBIN_U16("data/hns_region_assets/animations/graphics/battle_frontier/dome_anim2.gbapal");
+static const u16 *const HnsRegion512_sTilesetAnims_BattleDomeFloorLightPals[] = {
+    HnsRegion512_gTilesetAnims_BattleDomePals0_0,
+    HnsRegion512_gTilesetAnims_BattleDomePals0_1,
+    HnsRegion512_gTilesetAnims_BattleDomePals0_2,
+    HnsRegion512_gTilesetAnims_BattleDomePals0_3,
+};
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_east/anim/flag/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_east/anim/flag/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_east/anim/flag/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_east/anim/flag/1.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag[] = {
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame0,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame1,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame2,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag_Frame3
+};
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_west/anim/flag/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_west/anim/flag/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_west/anim/flag/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_frontier_outside_west/anim/flag/2.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag[] = {
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame0,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame1,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame2,
+    HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag_Frame3
+};
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/statue_shadow/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/statue_shadow/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/statue_shadow/2.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow[] = {
+    HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame0,
+    HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame1,
+    HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow_Frame2
+};
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/torch/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/torch/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/battle_pyramid/anim/torch/2.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_BattlePyramid_Torch[] = {
+    HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame0,
+    HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame1,
+    HnsRegion512_gTilesetAnims_BattlePyramid_Torch_Frame2
+};
+const u16 HnsRegion512_gTilesetAnims_Building_TvTurnedOn_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/building/anim/tv_turned_on/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Building_TvTurnedOn_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/building/anim/tv_turned_on/1.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_Building_TvTurnedOn[] = {
+    HnsRegion512_gTilesetAnims_Building_TvTurnedOn_Frame0,
+    HnsRegion512_gTilesetAnims_Building_TvTurnedOn_Frame1
+};
+const u16 HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/0.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava[] = {
+    HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame0,
+    HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame1,
+    HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame2,
+    HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava_Frame3
+};
+const u16 HnsRegion512_gTilesetAnims_Dewford_Flag_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/dewford/anim/flag/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Dewford_Flag_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/dewford/anim/flag/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Dewford_Flag_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/dewford/anim/flag/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Dewford_Flag_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/dewford/anim/flag/0.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_Dewford_Flag[] = {
+    HnsRegion512_gTilesetAnims_Dewford_Flag_Frame0,
+    HnsRegion512_gTilesetAnims_Dewford_Flag_Frame1,
+    HnsRegion512_gTilesetAnims_Dewford_Flag_Frame2,
+    HnsRegion512_gTilesetAnims_Dewford_Flag_Frame3
+};
+const u16 HnsRegion512_gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/0.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_General_Flower[] = {
+    HnsRegion512_gTilesetAnims_General_Flower_Frame0,
+    HnsRegion512_gTilesetAnims_General_Flower_Frame1,
+    HnsRegion512_gTilesetAnims_General_Flower_Frame0,
+    HnsRegion512_gTilesetAnims_General_Flower_Frame2
+};
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/4.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/5.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/6.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_General_SandWaterEdge[] = {
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame0,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame1,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame2,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame3,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame4,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame5,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame6,
+    HnsRegion512_gTilesetAnims_General_SandWaterEdge_Frame0
+};
+const u16 HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/2.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_General_LandWaterEdge[] = {
+    HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame0,
+    HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame1,
+    HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame2,
+    HnsRegion512_gTilesetAnims_General_LandWaterEdge_Frame3
+};
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/5.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/4.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/6.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/7.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Water_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/0.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_General_Water[] = {
+    HnsRegion512_gTilesetAnims_General_Water_Frame0,
+    HnsRegion512_gTilesetAnims_General_Water_Frame1,
+    HnsRegion512_gTilesetAnims_General_Water_Frame2,
+    HnsRegion512_gTilesetAnims_General_Water_Frame3,
+    HnsRegion512_gTilesetAnims_General_Water_Frame4,
+    HnsRegion512_gTilesetAnims_General_Water_Frame5,
+    HnsRegion512_gTilesetAnims_General_Water_Frame6,
+    HnsRegion512_gTilesetAnims_General_Water_Frame7
+};
+const u16 HnsRegion512_gTilesetAnims_General_Waterfall_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Waterfall_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Waterfall_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/1.4bpp");
+const u16 HnsRegion512_gTilesetAnims_General_Waterfall_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/3.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_General_Waterfall[] = {
+    HnsRegion512_gTilesetAnims_General_Waterfall_Frame0,
+    HnsRegion512_gTilesetAnims_General_Waterfall_Frame1,
+    HnsRegion512_gTilesetAnims_General_Waterfall_Frame2,
+    HnsRegion512_gTilesetAnims_General_Waterfall_Frame3
+};
+static const u16 HnsRegion512_sJohtoGeneral_Flower_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/4.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/0.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_Flower_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/3.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/2.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/1.4bpp");
+static const u16 *const HnsRegion512_sJohtoGeneral_Flower[] = {
+    HnsRegion512_sJohtoGeneral_Flower_Frame0,
+    HnsRegion512_sJohtoGeneral_Flower_Frame1,
+    HnsRegion512_sJohtoGeneral_Flower_Frame2,
+    HnsRegion512_sJohtoGeneral_Flower_Frame3,
+    HnsRegion512_sJohtoGeneral_Flower_Frame4
+};
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/1.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/0.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/6.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/5.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/2.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/3.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/7.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/4.4bpp");
+static const u16 *const HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge[] = {
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame0,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame1,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame2,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame3,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame4,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame5,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame6,
+    HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame7
+};
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/1.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/4.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/5.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/0.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/7.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/3.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/2.4bpp");
+static const u16 HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/6.4bpp");
+static const u16 *const HnsRegion512_sJohtoGeneral_SandWatersEdge[] = {
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame0,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame1,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame2,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame3,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame4,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame5,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame6,
+    HnsRegion512_sJohtoGeneral_SandWatersEdge_Frame7
+};
+const u16 HnsRegion512_gTilesetAnims_Rustboro_Fountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/fountain/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_Fountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/fountain/1.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_Rustboro_Fountain[] = {
+    HnsRegion512_gTilesetAnims_Rustboro_Fountain_Frame0,
+    HnsRegion512_gTilesetAnims_Rustboro_Fountain_Frame1
+};
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/3.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/0.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/5.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/7.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/4.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/2.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/6.4bpp");
+const u16 HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/rustboro/anim/windy_water/1.4bpp");
+const u16 *const HnsRegion512_gTilesetAnims_Rustboro_WindyWater[] = {
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame0,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame1,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame2,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame3,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame4,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame5,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame6,
+    HnsRegion512_gTilesetAnims_Rustboro_WindyWater_Frame7
+};
+void HnsRegion512_InitTilesetAnim_General(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion512_TilesetAnim_General;
+}
+void HnsRegion512_InitTilesetAnim_Building(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion512_TilesetAnim_Building;
+}
+static void HnsRegion512_TilesetAnim_General(u16 timer)
+{
+    if (timer % 16 == 0)
+        HnsRegion512_QueueAnimTiles_General_Flower(timer / 16);
+    if (timer % 16 == 1)
+        HnsRegion512_QueueAnimTiles_General_Water(timer / 16);
+    if (timer % 16 == 2)
+        HnsRegion512_QueueAnimTiles_General_SandWaterEdge(timer / 16);
+    if (timer % 16 == 3)
+        HnsRegion512_QueueAnimTiles_General_Waterfall(timer / 16);
+    if (timer % 16 == 4)
+        HnsRegion512_QueueAnimTiles_General_LandWaterEdge(timer / 16);
+}
+static void HnsRegion512_TilesetAnim_Building(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion512_QueueAnimTiles_Building_TVTurnedOn(timer / 8);
+}
+static void HnsRegion512_QueueAnimTiles_General_Flower(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_General_Flower);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_General_Flower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_General_Water(u16 timer)
+{
+    u8 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_General_Water);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(432)), 30 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_General_SandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_General_SandWaterEdge);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_General_SandWaterEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 10 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_General_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_General_Waterfall);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
+}
+void HnsRegion512_InitTilesetAnim_Rustboro(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_Rustboro;
+}
+void HnsRegion512_InitTilesetAnim_Dewford(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_Dewford;
+}
+void HnsRegion512_InitTilesetAnim_Fortree(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = NULL;
+}
+void HnsRegion512_InitTilesetAnim_BattleFrontierOutsideWest(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_BattleFrontierOutsideWest;
+}
+void HnsRegion512_InitTilesetAnim_BattleFrontierOutsideEast(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_BattleFrontierOutsideEast;
+}
+void HnsRegion512_InitTilesetAnim_Cave(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_Cave;
+}
+void HnsRegion512_InitTilesetAnim_BattlePyramid(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_BattlePyramid;
+}
+void HnsRegion512_InitTilesetAnim_BattleDome(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_BattleDome;
+}
+static void HnsRegion512_TilesetAnim_Rustboro(u16 timer)
+{
+    if (timer % 8 == 0)
+    {
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 0);
+        HnsRegion512_QueueAnimTiles_Rustboro_Fountain(timer / 8);
+    }
+    if (timer % 8 == 1)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 1);
+    if (timer % 8 == 2)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 2);
+    if (timer % 8 == 3)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 3);
+    if (timer % 8 == 4)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 4);
+    if (timer % 8 == 5)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 5);
+    if (timer % 8 == 6)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 6);
+    if (timer % 8 == 7)
+        HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(timer / 8, 7);
+}
+static void HnsRegion512_TilesetAnim_Dewford(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion512_QueueAnimTiles_Dewford_Flag(timer / 8);
+}
+static void HnsRegion512_TilesetAnim_Cave(u16 timer)
+{
+    if (timer % 16 == 1)
+        HnsRegion512_QueueAnimTiles_Cave_Lava(timer / 16);
+}
+static void HnsRegion512_TilesetAnim_BattleFrontierOutsideWest(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion512_QueueAnimTiles_BattleFrontierOutsideWest_Flag(timer / 8);
+}
+static void HnsRegion512_TilesetAnim_BattleFrontierOutsideEast(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion512_QueueAnimTiles_BattleFrontierOutsideEast_Flag(timer / 8);
+}
+static void HnsRegion512_QueueAnimTiles_General_LandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_General_LandWaterEdge);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_General_LandWaterEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(480)), 10 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_Rustboro_WindyWater(u16 timer_div, u8 timer_mod)
+{
+    timer_div -= timer_mod;
+    timer_div %= ARRAY_COUNT(HnsRegion512_gTilesetAnims_Rustboro_WindyWater);
+    if (HnsRegion512_gTilesetAnims_Rustboro_WindyWater[timer_div])
+        AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_Rustboro_WindyWater[timer_div], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 128 + timer_mod * 4)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_Rustboro_Fountain(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_Rustboro_Fountain);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_Rustboro_Fountain[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 448)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_Cave_Lava(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_Lavaridge_Cave_Lava[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 416)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_Dewford_Flag(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_Dewford_Flag);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_Dewford_Flag[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 170)), 6 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_BattleFrontierOutsideWest_Flag(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_BattleFrontierOutsideWest_Flag[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 218)), 6 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_BattleFrontierOutsideEast_Flag(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_BattleFrontierOutsideEast_Flag[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 218)), 6 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_TilesetAnim_BattlePyramid(u16 timer)
+{
+    if (timer % 8 == 0)
+    {
+        HnsRegion512_QueueAnimTiles_BattlePyramid_Torch(timer / 8);
+        HnsRegion512_QueueAnimTiles_BattlePyramid_StatueShadow(timer / 8);
+    }
+}
+static void HnsRegion512_TilesetAnim_BattleDome(u16 timer)
+{
+    if (timer % 4 == 0)
+        HnsRegion512_BlendAnimPalette_BattleDome_FloorLights(timer / 4);
+}
+static void HnsRegion512_TilesetAnim_BattleDome2(u16 timer)
+{
+    if (timer % 4 == 0)
+        HnsRegion512_BlendAnimPalette_BattleDome_FloorLightsNoBlend(timer / 4);
+}
+static void HnsRegion512_QueueAnimTiles_Building_TVTurnedOn(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_Building_TvTurnedOn);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_Building_TvTurnedOn[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_BattlePyramid_Torch(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_BattlePyramid_Torch);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_BattlePyramid_Torch[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 151)), 8 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_BattlePyramid_StatueShadow(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow);
+    AppendTilesetAnimToBuffer(HnsRegion512_gTilesetAnims_BattlePyramid_StatueShadow[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(512 + 135)), 8 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_BlendAnimPalette_BattleDome_FloorLights(u16 timer)
+{
+    CpuCopy16(HnsRegion512_sTilesetAnims_BattleDomeFloorLightPals[timer % ARRAY_COUNT(HnsRegion512_sTilesetAnims_BattleDomeFloorLightPals)], &gPlttBufferUnfaded[BG_PLTT_ID(8)], PLTT_SIZE_4BPP);
+    BlendPalette(BG_PLTT_ID(8), 16, gPaletteFade.y, gPaletteFade.blendColor & 0x7FFF);
+    if ((u8)FindTaskIdByFunc(Task_BattleTransition_Intro) != TASK_NONE)
+    {
+        sSecondaryTilesetAnimCallback = HnsRegion512_TilesetAnim_BattleDome2;
+        sSecondaryTilesetAnimCounterMax = 32;
+    }
+}
+static void HnsRegion512_BlendAnimPalette_BattleDome_FloorLightsNoBlend(u16 timer)
+{
+    CpuCopy16(HnsRegion512_sTilesetAnims_BattleDomeFloorLightPals[timer % ARRAY_COUNT(HnsRegion512_sTilesetAnims_BattleDomeFloorLightPals)], &gPlttBufferUnfaded[BG_PLTT_ID(8)], PLTT_SIZE_4BPP);
+    if ((u8)FindTaskIdByFunc(Task_BattleTransition_Intro) == TASK_NONE)
+    {
+        BlendPalette(BG_PLTT_ID(8), 16, gPaletteFade.y, gPaletteFade.blendColor & 0x7FFF);
+        if (!--sSecondaryTilesetAnimCounterMax)
+            sSecondaryTilesetAnimCallback = NULL;
+    }
+}
+void HnsRegion512_InitTilesetAnim_JohtoGeneral(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion512_TilesetAnim_JohtoGeneral;
+}
+static void HnsRegion512_TilesetAnim_JohtoGeneral(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion512_QueueAnimTiles_JohtoGeneral_SandWaterEdge(timer >> 3);
+    if (timer % 16 == 1)
+        HnsRegion512_QueueAnimTiles_JohtoGeneral_LandWaterEdge(timer >> 4);
+    if (timer % 16 == 2)
+        HnsRegion512_QueueAnimTiles_JohtoGeneral_Flower(timer >> 4);
+    if (timer % 16 == 3)
+        HnsRegion512_QueueAnimTiles_JohtoGeneral_Waterfall(timer / 16);
+}
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_Flower(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_sJohtoGeneral_Flower);
+    AppendTilesetAnimToBuffer(HnsRegion512_sJohtoGeneral_Flower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_SandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_sJohtoGeneral_SandWatersEdge);
+    AppendTilesetAnimToBuffer(HnsRegion512_sJohtoGeneral_SandWatersEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 18 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge);
+    const u16 *frame = HnsRegion512_sJohtoGeneral_WaterCurrentLandWatersEdge[i];
+    const u16 *src = frame + (34 * (TILE_SIZE_4BPP / 2));
+    AppendTilesetAnimToBuffer(src, (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(450)), 12 * TILE_SIZE_4BPP);
+}
+static void HnsRegion512_QueueAnimTiles_JohtoGeneral_LandWaterEdge(u16 timer)
+{
+    return;
+}
+void HnsRegion640_InitTilesetAnim_AzaleaTownGym(void);
+void HnsRegion640_InitTilesetAnim_BlackthornGym(void);
+void HnsRegion640_InitTilesetAnim_CeladonCity_Hns(void);
+void HnsRegion640_InitTilesetAnim_CeruleanCity_Hns(void);
+void HnsRegion640_InitTilesetAnim_EcruteakTheater(void);
+void HnsRegion640_InitTilesetAnim_General(void);
+void HnsRegion640_InitTilesetAnim_JohtoGeneral(void);
+void HnsRegion640_InitTilesetAnim_MtSilverExp(void);
+void HnsRegion640_InitTilesetAnim_NationalPark(void);
+void HnsRegion640_InitTilesetAnim_SilphCo_Hns(void);
+static void HnsRegion640_QueueAnimTiles_AzaleaTownGym_Flower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_BlackthornGym_Lava(u16 timer);
+static void HnsRegion640_QueueAnimTiles_CeladonCity_Hns_Fountain(u16 timer);
+static void HnsRegion640_QueueAnimTiles_CeruleanCity_Hns_Fountain(u16 timer);
+static void HnsRegion640_QueueAnimTiles_EcruteakTheater_Flower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_General_Flower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_General_LandWaterEdge(u16 timer);
+static void HnsRegion640_QueueAnimTiles_General_SandWaterEdge(u16 timer);
+static void HnsRegion640_QueueAnimTiles_General_Water(u16 timer);
+static void HnsRegion640_QueueAnimTiles_General_Waterfall(u16 timer);
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_Flower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_LandWaterEdge(u16 timer);
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_SandWaterEdge(u16 timer);
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_Waterfall(u16 timer);
+static void HnsRegion640_QueueAnimTiles_MtSilverExp_Steam(u16 timer);
+static void HnsRegion640_QueueAnimTiles_NationalPark_LargeFountain(u16 timer);
+static void HnsRegion640_QueueAnimTiles_NationalPark_RedFlower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_NationalPark_SmallFountain(u16 timer);
+static void HnsRegion640_QueueAnimTiles_NationalPark_YellowFlower(u16 timer);
+static void HnsRegion640_QueueAnimTiles_SilphCo_Hns_Fountain(u16 timer);
+static void HnsRegion640_TilesetAnim_AzaleaTownGym(u16 timer);
+static void HnsRegion640_TilesetAnim_BlackthornGym(u16 timer);
+static void HnsRegion640_TilesetAnim_CeladonCity_Hns(u16 timer);
+static void HnsRegion640_TilesetAnim_CeruleanCity_Hns(u16 timer);
+static void HnsRegion640_TilesetAnim_EcruteakTheater(u16 timer);
+static void HnsRegion640_TilesetAnim_General(u16 timer);
+static void HnsRegion640_TilesetAnim_JohtoGeneral(u16 timer);
+static void HnsRegion640_TilesetAnim_MtSilverExp(u16 timer);
+static void HnsRegion640_TilesetAnim_NationalPark(u16 timer);
+static void HnsRegion640_TilesetAnim_SilphCo_Hns(u16 timer);
+static const u16 HnsRegion640_sAzaleaTownGym_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/azalea_town_gym_hns/anim/yellow_flower/2.4bpp");
+static const u16 HnsRegion640_sAzaleaTownGym_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/azalea_town_gym_hns/anim/yellow_flower/1.4bpp");
+static const u16 HnsRegion640_sAzaleaTownGym_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/azalea_town_gym_hns/anim/yellow_flower/0.4bpp");
+static const u16 *const HnsRegion640_sAzaleaTownGym_Flower[] = {
+    HnsRegion640_sAzaleaTownGym_Flower_Frame0,
+    HnsRegion640_sAzaleaTownGym_Flower_Frame1,
+    HnsRegion640_sAzaleaTownGym_Flower_Frame2,
+    HnsRegion640_sAzaleaTownGym_Flower_Frame1
+};
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/2.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/3.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cave/anim/lava/0.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava[] = {
+    HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame0,
+    HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame1,
+    HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame2,
+    HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava_Frame3
+};
+static const u16 HnsRegion640_sCeladonCityHns_Fountain_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/celadon_city_hns/anim/fountain/2.4bpp");
+static const u16 HnsRegion640_sCeladonCityHns_Fountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/celadon_city_hns/anim/fountain/0.4bpp");
+static const u16 HnsRegion640_sCeladonCityHns_Fountain_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/celadon_city_hns/anim/fountain/4.4bpp");
+static const u16 HnsRegion640_sCeladonCityHns_Fountain_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/celadon_city_hns/anim/fountain/3.4bpp");
+static const u16 HnsRegion640_sCeladonCityHns_Fountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/celadon_city_hns/anim/fountain/1.4bpp");
+static const u16 *const HnsRegion640_sCeladonCityHns_Fountain[] = {
+    HnsRegion640_sCeladonCityHns_Fountain_Frame0,
+    HnsRegion640_sCeladonCityHns_Fountain_Frame1,
+    HnsRegion640_sCeladonCityHns_Fountain_Frame2,
+    HnsRegion640_sCeladonCityHns_Fountain_Frame3,
+    HnsRegion640_sCeladonCityHns_Fountain_Frame4
+};
+static const u16 HnsRegion640_sCeruleanCityHns_Fountain_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cerulean_city_hns/anim/fountain/3.4bpp");
+static const u16 HnsRegion640_sCeruleanCityHns_Fountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cerulean_city_hns/anim/fountain/0.4bpp");
+static const u16 HnsRegion640_sCeruleanCityHns_Fountain_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cerulean_city_hns/anim/fountain/4.4bpp");
+static const u16 HnsRegion640_sCeruleanCityHns_Fountain_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cerulean_city_hns/anim/fountain/2.4bpp");
+static const u16 HnsRegion640_sCeruleanCityHns_Fountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/cerulean_city_hns/anim/fountain/1.4bpp");
+static const u16 *const HnsRegion640_sCeruleanCityHns_Fountain[] = {
+    HnsRegion640_sCeruleanCityHns_Fountain_Frame0,
+    HnsRegion640_sCeruleanCityHns_Fountain_Frame1,
+    HnsRegion640_sCeruleanCityHns_Fountain_Frame2,
+    HnsRegion640_sCeruleanCityHns_Fountain_Frame3,
+    HnsRegion640_sCeruleanCityHns_Fountain_Frame4
+};
+static const u16 HnsRegion640_sEcruteakTheater_Flower_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/ecruteak_theater_hns/anim/flower/3.4bpp");
+static const u16 HnsRegion640_sEcruteakTheater_Flower_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/ecruteak_theater_hns/anim/flower/4.4bpp");
+static const u16 HnsRegion640_sEcruteakTheater_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/ecruteak_theater_hns/anim/flower/1.4bpp");
+static const u16 HnsRegion640_sEcruteakTheater_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/ecruteak_theater_hns/anim/flower/0.4bpp");
+static const u16 HnsRegion640_sEcruteakTheater_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/ecruteak_theater_hns/anim/flower/2.4bpp");
+static const u16 *const HnsRegion640_sEcruteakTheater_Flower[] = {
+    HnsRegion640_sEcruteakTheater_Flower_Frame0,
+    HnsRegion640_sEcruteakTheater_Flower_Frame1,
+    HnsRegion640_sEcruteakTheater_Flower_Frame2,
+    HnsRegion640_sEcruteakTheater_Flower_Frame3,
+    HnsRegion640_sEcruteakTheater_Flower_Frame4
+};
+const u16 HnsRegion640_gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/2.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/flower/0.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_General_Flower[] = {
+    HnsRegion640_gTilesetAnims_General_Flower_Frame0,
+    HnsRegion640_gTilesetAnims_General_Flower_Frame1,
+    HnsRegion640_gTilesetAnims_General_Flower_Frame0,
+    HnsRegion640_gTilesetAnims_General_Flower_Frame2
+};
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/4.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/0.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/5.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/2.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/3.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/sand_water_edge/6.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_General_SandWaterEdge[] = {
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame0,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame1,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame2,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame3,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame4,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame5,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame6,
+    HnsRegion640_gTilesetAnims_General_SandWaterEdge_Frame0
+};
+const u16 HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/0.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/3.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/land_water_edge/2.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_General_LandWaterEdge[] = {
+    HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame0,
+    HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame1,
+    HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame2,
+    HnsRegion640_gTilesetAnims_General_LandWaterEdge_Frame3
+};
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/3.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/5.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/2.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/4.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/6.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/7.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Water_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/water/0.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_General_Water[] = {
+    HnsRegion640_gTilesetAnims_General_Water_Frame0,
+    HnsRegion640_gTilesetAnims_General_Water_Frame1,
+    HnsRegion640_gTilesetAnims_General_Water_Frame2,
+    HnsRegion640_gTilesetAnims_General_Water_Frame3,
+    HnsRegion640_gTilesetAnims_General_Water_Frame4,
+    HnsRegion640_gTilesetAnims_General_Water_Frame5,
+    HnsRegion640_gTilesetAnims_General_Water_Frame6,
+    HnsRegion640_gTilesetAnims_General_Water_Frame7
+};
+const u16 HnsRegion640_gTilesetAnims_General_Waterfall_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/0.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Waterfall_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/2.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Waterfall_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_General_Waterfall_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/general/anim/waterfall/3.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_General_Waterfall[] = {
+    HnsRegion640_gTilesetAnims_General_Waterfall_Frame0,
+    HnsRegion640_gTilesetAnims_General_Waterfall_Frame1,
+    HnsRegion640_gTilesetAnims_General_Waterfall_Frame2,
+    HnsRegion640_gTilesetAnims_General_Waterfall_Frame3
+};
+static const u16 HnsRegion640_sJohtoGeneral_Flower_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/4.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_Flower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/0.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_Flower_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/3.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_Flower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/2.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_Flower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/flower/1.4bpp");
+static const u16 *const HnsRegion640_sJohtoGeneral_Flower[] = {
+    HnsRegion640_sJohtoGeneral_Flower_Frame0,
+    HnsRegion640_sJohtoGeneral_Flower_Frame1,
+    HnsRegion640_sJohtoGeneral_Flower_Frame2,
+    HnsRegion640_sJohtoGeneral_Flower_Frame3,
+    HnsRegion640_sJohtoGeneral_Flower_Frame4
+};
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/1.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/0.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/6.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/5.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/2.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/3.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/7.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/water_current_landwatersedge/4.4bpp");
+static const u16 *const HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge[] = {
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame0,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame1,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame2,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame3,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame4,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame5,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame6,
+    HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge_Frame7
+};
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/1.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/4.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame5[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/5.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/0.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame7[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/7.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/3.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/2.4bpp");
+static const u16 HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame6[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/primary/johto_general_hns/anim/sandwatersedge/6.4bpp");
+static const u16 *const HnsRegion640_sJohtoGeneral_SandWatersEdge[] = {
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame0,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame1,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame2,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame3,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame4,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame5,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame6,
+    HnsRegion640_sJohtoGeneral_SandWatersEdge_Frame7
+};
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/lavaridge/anim/steam/1.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/lavaridge/anim/steam/3.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/lavaridge/anim/steam/0.4bpp");
+const u16 HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/lavaridge/anim/steam/2.4bpp");
+const u16 *const HnsRegion640_gTilesetAnims_Lavaridge_Steam[] = {
+    HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame0,
+    HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame1,
+    HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame2,
+    HnsRegion640_gTilesetAnims_Lavaridge_Steam_Frame3
+};
+static const u16 HnsRegion640_sNationalPark_RedFlower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/red_flower/0.4bpp");
+static const u16 HnsRegion640_sNationalPark_RedFlower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/red_flower/1.4bpp");
+static const u16 HnsRegion640_sNationalPark_RedFlower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/red_flower/2.4bpp");
+static const u16 *const HnsRegion640_sNationalPark_RedFlower[] = {
+    HnsRegion640_sNationalPark_RedFlower_Frame0,
+    HnsRegion640_sNationalPark_RedFlower_Frame1,
+    HnsRegion640_sNationalPark_RedFlower_Frame2,
+    HnsRegion640_sNationalPark_RedFlower_Frame1
+};
+static const u16 HnsRegion640_sNationalPark_LargeFountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/large_fountain/0.4bpp");
+static const u16 HnsRegion640_sNationalPark_LargeFountain_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/large_fountain/2.4bpp");
+static const u16 HnsRegion640_sNationalPark_LargeFountain_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/large_fountain/3.4bpp");
+static const u16 HnsRegion640_sNationalPark_LargeFountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/large_fountain/1.4bpp");
+static const u16 *const HnsRegion640_sNationalPark_LargeFountain[] = {
+    HnsRegion640_sNationalPark_LargeFountain_Frame0,
+    HnsRegion640_sNationalPark_LargeFountain_Frame1,
+    HnsRegion640_sNationalPark_LargeFountain_Frame2,
+    HnsRegion640_sNationalPark_LargeFountain_Frame3
+};
+static const u16 HnsRegion640_sNationalPark_YellowFlower_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/yellow_flower/2.4bpp");
+static const u16 HnsRegion640_sNationalPark_YellowFlower_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/yellow_flower/0.4bpp");
+static const u16 HnsRegion640_sNationalPark_YellowFlower_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/yellow_flower/1.4bpp");
+static const u16 *const HnsRegion640_sNationalPark_YellowFlower[] = {
+    HnsRegion640_sNationalPark_YellowFlower_Frame2,
+    HnsRegion640_sNationalPark_YellowFlower_Frame1,
+    HnsRegion640_sNationalPark_YellowFlower_Frame0,
+    HnsRegion640_sNationalPark_YellowFlower_Frame1
+};
+static const u16 HnsRegion640_sNationalPark_SmallFountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/small_fountain/1.4bpp");
+static const u16 HnsRegion640_sNationalPark_SmallFountain_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/small_fountain/2.4bpp");
+static const u16 HnsRegion640_sNationalPark_SmallFountain_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/small_fountain/3.4bpp");
+static const u16 HnsRegion640_sNationalPark_SmallFountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/small_fountain/0.4bpp");
+static const u16 HnsRegion640_sNationalPark_SmallFountain_Frame4[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/national_park_hns/anim/small_fountain/4.4bpp");
+static const u16 *const HnsRegion640_sNationalPark_SmallFountain[] = {
+    HnsRegion640_sNationalPark_SmallFountain_Frame0,
+    HnsRegion640_sNationalPark_SmallFountain_Frame1,
+    HnsRegion640_sNationalPark_SmallFountain_Frame2,
+    HnsRegion640_sNationalPark_SmallFountain_Frame3,
+    HnsRegion640_sNationalPark_SmallFountain_Frame4
+};
+static const u16 HnsRegion640_sSilphCoHns_Fountain_Frame2[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/silph_co_hns/anim/fountain/2.4bpp");
+static const u16 HnsRegion640_sSilphCoHns_Fountain_Frame3[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/silph_co_hns/anim/fountain/3.4bpp");
+static const u16 HnsRegion640_sSilphCoHns_Fountain_Frame1[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/silph_co_hns/anim/fountain/1.4bpp");
+static const u16 HnsRegion640_sSilphCoHns_Fountain_Frame0[] = INCBIN_U16("data/hns_region_assets/animations/data/tilesets/secondary/silph_co_hns/anim/fountain/0.4bpp");
+static const u16 *const HnsRegion640_sSilphCoHns_Fountain[] = {
+    HnsRegion640_sSilphCoHns_Fountain_Frame0,
+    HnsRegion640_sSilphCoHns_Fountain_Frame1,
+    HnsRegion640_sSilphCoHns_Fountain_Frame2,
+    HnsRegion640_sSilphCoHns_Fountain_Frame3
+};
+void HnsRegion640_InitTilesetAnim_General(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion640_TilesetAnim_General;
+}
+static void HnsRegion640_TilesetAnim_General(u16 timer)
+{
+    if (timer % 16 == 0)
+        HnsRegion640_QueueAnimTiles_General_Flower(timer / 16);
+    if (timer % 16 == 1)
+        HnsRegion640_QueueAnimTiles_General_Water(timer / 16);
+    if (timer % 16 == 2)
+        HnsRegion640_QueueAnimTiles_General_SandWaterEdge(timer / 16);
+    if (timer % 16 == 3)
+        HnsRegion640_QueueAnimTiles_General_Waterfall(timer / 16);
+    if (timer % 16 == 4)
+        HnsRegion640_QueueAnimTiles_General_LandWaterEdge(timer / 16);
+}
+static void HnsRegion640_QueueAnimTiles_General_Flower(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_General_Flower);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_General_Flower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_General_Water(u16 timer)
+{
+    u8 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_General_Water);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(432)), 30 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_General_SandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_General_SandWaterEdge);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_General_SandWaterEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 10 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_General_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_General_Waterfall);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_General_LandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_General_LandWaterEdge);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_General_LandWaterEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(480)), 10 * TILE_SIZE_4BPP);
+}
+void HnsRegion640_InitTilesetAnim_JohtoGeneral(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion640_TilesetAnim_JohtoGeneral;
+}
+static void HnsRegion640_TilesetAnim_JohtoGeneral(u16 timer)
+{
+    if (timer % 8 == 0)
+        HnsRegion640_QueueAnimTiles_JohtoGeneral_SandWaterEdge(timer >> 3);
+    if (timer % 16 == 1)
+        HnsRegion640_QueueAnimTiles_JohtoGeneral_LandWaterEdge(timer >> 4);
+    if (timer % 16 == 2)
+        HnsRegion640_QueueAnimTiles_JohtoGeneral_Flower(timer >> 4);
+    if (timer % 16 == 3)
+        HnsRegion640_QueueAnimTiles_JohtoGeneral_Waterfall(timer / 16);
+}
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_Flower(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_sJohtoGeneral_Flower);
+    AppendTilesetAnimToBuffer(HnsRegion640_sJohtoGeneral_Flower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_SandWaterEdge(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_sJohtoGeneral_SandWatersEdge);
+    AppendTilesetAnimToBuffer(HnsRegion640_sJohtoGeneral_SandWatersEdge[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 18 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge);
+    const u16 *frame = HnsRegion640_sJohtoGeneral_WaterCurrentLandWatersEdge[i];
+    const u16 *src = frame + (34 * (TILE_SIZE_4BPP / 2));
+    AppendTilesetAnimToBuffer(src, (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(450)), 12 * TILE_SIZE_4BPP);
+}
+static void HnsRegion640_QueueAnimTiles_JohtoGeneral_LandWaterEdge(u16 timer)
+{
+    return;
+}
+void HnsRegion640_InitTilesetAnim_NationalPark(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 960;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_NationalPark;
+}
+static void HnsRegion640_TilesetAnim_NationalPark(u16 timer)
+{
+    if (timer % 10 == 0)
+        HnsRegion640_QueueAnimTiles_NationalPark_LargeFountain(timer / 10);
+    if (timer % 12 == 1)
+        HnsRegion640_QueueAnimTiles_NationalPark_SmallFountain(timer / 12);
+    if (timer % 16 == 2)
+        HnsRegion640_QueueAnimTiles_NationalPark_RedFlower(timer / 16);
+    if (timer % 16 == 12)
+        HnsRegion640_QueueAnimTiles_NationalPark_YellowFlower(timer / 16);
+}
+static void HnsRegion640_QueueAnimTiles_NationalPark_LargeFountain(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sNationalPark_LargeFountain[timer % ARRAY_COUNT(HnsRegion640_sNationalPark_LargeFountain)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 88)), 0x100);
+}
+static void HnsRegion640_QueueAnimTiles_NationalPark_SmallFountain(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sNationalPark_SmallFountain[timer % ARRAY_COUNT(HnsRegion640_sNationalPark_SmallFountain)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 104)), 0x100);
+}
+static void HnsRegion640_QueueAnimTiles_NationalPark_RedFlower(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sNationalPark_RedFlower[timer % ARRAY_COUNT(HnsRegion640_sNationalPark_RedFlower)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 96)), 0x80);
+}
+static void HnsRegion640_QueueAnimTiles_NationalPark_YellowFlower(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sNationalPark_YellowFlower[timer % ARRAY_COUNT(HnsRegion640_sNationalPark_YellowFlower)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 100)), 0x80);
+}
+void HnsRegion640_InitTilesetAnim_EcruteakTheater(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 960;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_EcruteakTheater;
+}
+static void HnsRegion640_TilesetAnim_EcruteakTheater(u16 timer)
+{
+    if (timer % 10 == 0)
+        HnsRegion640_QueueAnimTiles_EcruteakTheater_Flower(timer / 10);
+}
+static void HnsRegion640_QueueAnimTiles_EcruteakTheater_Flower(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sEcruteakTheater_Flower[timer % ARRAY_COUNT(HnsRegion640_sEcruteakTheater_Flower)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 104)), 0x80);
+}
+void HnsRegion640_InitTilesetAnim_AzaleaTownGym(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 960;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_AzaleaTownGym;
+}
+static void HnsRegion640_TilesetAnim_AzaleaTownGym(u16 timer)
+{
+    if (timer % 10 == 0)
+        HnsRegion640_QueueAnimTiles_AzaleaTownGym_Flower(timer / 10);
+}
+static void HnsRegion640_QueueAnimTiles_AzaleaTownGym_Flower(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sAzaleaTownGym_Flower[timer % ARRAY_COUNT(HnsRegion640_sAzaleaTownGym_Flower)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 99)), 0x80);
+}
+void HnsRegion640_InitTilesetAnim_CeladonCity_Hns(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 120;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_CeladonCity_Hns;
+}
+static void HnsRegion640_TilesetAnim_CeladonCity_Hns(u16 timer)
+{
+    if (timer % 12 == 0)
+        HnsRegion640_QueueAnimTiles_CeladonCity_Hns_Fountain(timer / 12);
+}
+static void HnsRegion640_QueueAnimTiles_CeladonCity_Hns_Fountain(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sCeladonCityHns_Fountain[timer % ARRAY_COUNT(HnsRegion640_sCeladonCityHns_Fountain)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(744)), 8 * TILE_SIZE_4BPP);
+}
+void HnsRegion640_InitTilesetAnim_CeruleanCity_Hns(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 120;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_CeruleanCity_Hns;
+}
+static void HnsRegion640_TilesetAnim_CeruleanCity_Hns(u16 timer)
+{
+    if (timer % 12 == 0)
+        HnsRegion640_QueueAnimTiles_CeruleanCity_Hns_Fountain(timer / 12);
+}
+static void HnsRegion640_QueueAnimTiles_CeruleanCity_Hns_Fountain(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sCeruleanCityHns_Fountain[timer % ARRAY_COUNT(HnsRegion640_sCeruleanCityHns_Fountain)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(840)), 8 * TILE_SIZE_4BPP);
+}
+void HnsRegion640_InitTilesetAnim_SilphCo_Hns(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 160;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_SilphCo_Hns;
+}
+static void HnsRegion640_TilesetAnim_SilphCo_Hns(u16 timer)
+{
+    if (timer % 10 == 0)
+        HnsRegion640_QueueAnimTiles_SilphCo_Hns_Fountain(timer / 10);
+}
+static void HnsRegion640_QueueAnimTiles_SilphCo_Hns_Fountain(u16 timer)
+{
+    AppendTilesetAnimToBuffer(HnsRegion640_sSilphCoHns_Fountain[timer % ARRAY_COUNT(HnsRegion640_sSilphCoHns_Fountain)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(976)), 8 * TILE_SIZE_4BPP);
+}
+void HnsRegion640_InitTilesetAnim_BlackthornGym(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = 160;
+    sSecondaryTilesetAnimCallback = HnsRegion640_TilesetAnim_BlackthornGym;
+}
+static void HnsRegion640_TilesetAnim_BlackthornGym(u16 timer)
+{
+    if (timer % 16 == 1)
+        HnsRegion640_QueueAnimTiles_BlackthornGym_Lava(timer / 16);
+}
+static void HnsRegion640_QueueAnimTiles_BlackthornGym_Lava(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_Lavaridge_Cave_Lava[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(640 + 321)), 4 * TILE_SIZE_4BPP);
+}
+void HnsRegion640_InitTilesetAnim_MtSilverExp(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = HnsRegion640_TilesetAnim_MtSilverExp;
+}
+static void HnsRegion640_TilesetAnim_MtSilverExp(u16 timer)
+{
+    HnsRegion640_TilesetAnim_JohtoGeneral(timer);
+    if (timer % 16 == 4)
+        HnsRegion640_QueueAnimTiles_MtSilverExp_Steam(timer / 16);
+}
+static void HnsRegion640_QueueAnimTiles_MtSilverExp_Steam(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(HnsRegion640_gTilesetAnims_Lavaridge_Steam);
+    AppendTilesetAnimToBuffer(HnsRegion640_gTilesetAnims_Lavaridge_Steam[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(492)), 4 * TILE_SIZE_4BPP);
+}
+

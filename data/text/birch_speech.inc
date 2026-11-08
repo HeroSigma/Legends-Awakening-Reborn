@@ -1,61 +1,47 @@
-gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
-	.string "$"
+@ Legends Rewake opening draft 1. Page breaks keep text within the native two-line box.
 
-gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
-	.string "\n"
-	.string "$"
+gText_Birch_Welcome::
+	.string "{COLOR GREEN}Hey there!\nWelcome to the world of POKéMON!\p"
+	.string "My name is Birch.\nProfessor Birch.\p"
+	.string "I study POKéMON in their natural\nhabitats…\p"
+	.string "which means I spend considerably\nless time in my lab than my\p"
+	.string "assistants would prefer.$"
 
 gText_Birch_MainSpeech::
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "We humans live alongside POKéMON,\n"
-	.string "at times as friendly playmates, and\l"
-	.string "at times as cooperative workmates.\p"
-	.string "And sometimes, we band together\n"
-	.string "and battle others like us.\p"
-	.string "But despite our closeness, we don't\n"
-	.string "know everything about POKéMON.\p"
-	.string "In fact, there are many, many\n"
-	.string "secrets surrounding POKéMON.\p"
-	.string "To unravel POKéMON mysteries,\n"
-	.string "I've been undertaking research.\l"
-	.string "That's what I do.\p"
-	.string "$"
+	.string "{COLOR GREEN}People live alongside them in all\nsorts of ways.\p"
+	.string "Some keep them as companions.\nSome raise them for battle.\p"
+	.string "Some study them.\p"
+	.string "And some spend their whole lives\ntrying to understand them.\p"
+	.string "Lately, that last part has become\na little more complicated.\p"
+	.string "But…\nwe’ll get to that another time.$"
 
 gText_Birch_AndYouAre::
-	.string "And you are?$"
+	.string "{COLOR GREEN}First, let’s talk about you.$"
 
 gText_Birch_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "{COLOR GREEN}So…\nwhich one are you?$"
 
 gText_Birch_WhatsYourName::
-	.string "All right.\n"
-	.string "What's your name?$"
+	.string "{COLOR GREEN}Got it.\nAnd your name?$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's {PLAYER}{KUN}?$"
+	.string "{COLOR GREEN}So you’re…\n{PLAYER}?$"
 
 gText_Birch_YourePlayer::
-	.string "Ah, okay!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
-	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!\p"
-	.string "$"
+	.string "{COLOR GREEN}…{PAUSE 48}\p"
+	.string "{PLAYER}.\nRight.{PAUSE 32}\p"
+	.string "I’ve heard that name before.\p"
+	.string "Nothing you need to worry about.\nNot today, anyway.\p"
+	.string "Besides… I imagine we’ll have\nplenty of time to talk once we\p"
+	.string "meet properly.\p"
+	.string "Your home is in Littleroot Town.\nQuiet place. Small. Good people.\p"
+	.string "Though lately… Hoenn hasn’t been\nquite as quiet as it used to be.\p"
+	.string "Get some rest, {PLAYER}.\nTomorrow might be more interesting\p"
+	.string "than you expect.$"
 
 gText_Birch_AreYouReady::
-	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
-	.string "$"
+	.string "{COLOR GREEN}I’ll see you soon.$"
+
+gText_Birch_Pokemon::
+	.string "{COLOR GREEN}These creatures are called\nPOKéMON.$"
+

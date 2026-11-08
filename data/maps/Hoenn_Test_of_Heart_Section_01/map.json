@@ -1,0 +1,29 @@
+{
+  "id": "MAP_HYPERHOENN_34_31_TEST_OF_HEART",
+  "name": "Hoenn_Test_of_Heart_Section_01",
+  "layout": "LAYOUT_HYPERHOENN_34_31_TEST_OF_HEART",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_TEST_OF_HEART",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 15,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_30_TEST_OF_HEART",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,854 @@
+{
+  "rom_sha256": "109ab4bb8b8f4785dd5a5bf9b6709db690589b5177c346ffeadae180d9c44122",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_0_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_0_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_0_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_0_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_0_0_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_0_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_0_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_0_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_0_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_0_0_291",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_1_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_1_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_1_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_1_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_0_1_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_1_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_1_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_0_1_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_0_1_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_0_1_291",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_103_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_110_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_119_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_103_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_110_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_119_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_103_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_110_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_ROUTE_119_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_103_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_110_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_119_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_103_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_110_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_119_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_103_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_110_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_ROUTE_119_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_RUSTBORO_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_RUSTBORO_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_RUSTBORO_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_RUSTBORO_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_LILYCOVE_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_LILYCOVE_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_BRENDAN_LILYCOVE_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_LILYCOVE_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_LILYCOVE_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_LILYCOVE_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_RUSTBORO_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_MAY_RUSTBORO_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_BRENDAN_ROUTE103_0",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_BRENDAN_ROUTE103_1",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_BRENDAN_ROUTE103_2",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_MAY_ROUTE103_0",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_MAY_ROUTE103_1",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_0_TRAINER_LA_MAY_ROUTE103_2",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_0_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_0_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_0_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_0_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_1_0_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_0_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_0_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_0_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_0_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_1_0_291",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_1_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_1_0_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_1_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_1_0_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_1_1_0",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "show_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_1_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_1_291_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "hidden_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_BRENDAN",
+      "passed": true
+    },
+    {
+      "test": "show_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_pixels_1_1_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hyper_palette_1_1_291_MAY",
+      "passed": true
+    },
+    {
+      "test": "hidden_MAY",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_MAY",
+      "passed": true
+    },
+    {
+      "test": "show_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "player_palette_separate_1_1_291",
+      "passed": true
+    },
+    {
+      "test": "hidden_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "palette_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "tiles_freed_PLAYER",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_103_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_110_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_119_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_103_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_110_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_119_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_103_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_110_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_ROUTE_119_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_103_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_110_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_119_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_103_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_110_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_119_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_103_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_110_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_ROUTE_119_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_RUSTBORO_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_RUSTBORO_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_RUSTBORO_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_RUSTBORO_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_LILYCOVE_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_LILYCOVE_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_BRENDAN_LILYCOVE_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_LILYCOVE_MUDKIP",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_LILYCOVE_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_LILYCOVE_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_RUSTBORO_TREECKO",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_MAY_RUSTBORO_TORCHIC",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_BRENDAN_ROUTE103_0",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_BRENDAN_ROUTE103_1",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_BRENDAN_ROUTE103_2",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_MAY_ROUTE103_0",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_MAY_ROUTE103_1",
+      "passed": true
+    },
+    {
+      "test": "battle_portrait_1_TRAINER_LA_MAY_ROUTE103_2",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

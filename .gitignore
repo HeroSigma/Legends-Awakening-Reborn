@@ -66,3 +66,9 @@ tools/aif2pcm/aif2pcm
 *.smolTM
 __pycache__
 .map_version
+
+# Local build transcripts and generated runtime probes
+/*.log
+.la_work/
+*.sav
+*.srm

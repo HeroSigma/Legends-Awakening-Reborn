@@ -1,4 +1,5 @@
 #include "global.h"
+#include "full_sheet_stream.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -40,6 +41,7 @@
 #include "malloc.h"
 #include "m4a.h"
 #include "map_name_popup.h"
+#include "regional_map_names.h"
 #include "map_preview_screen.h"
 #include "match_call.h"
 #include "menu.h"
@@ -224,6 +226,7 @@ EWRAM_DATA static struct WarpData sWarpDestination = {0};  // new warp position
 EWRAM_DATA static struct WarpData sFixedDiveWarp = {0};
 EWRAM_DATA static struct WarpData sFixedHoleWarp = {0};
 EWRAM_DATA static mapsec_u16_t sLastMapSectionId = 0;
+EWRAM_DATA static const u8 *sLastRegionalMapName = NULL;
 EWRAM_DATA static struct InitialPlayerAvatarState sInitialPlayerAvatarState = {0};
 EWRAM_DATA static enum Species sAmbientCrySpecies = SPECIES_NONE;
 EWRAM_DATA static bool8 sIsAmbientCryWaterMon = FALSE;
@@ -620,6 +623,9 @@ void ApplyCurrentWarp(void)
 {
     gLastUsedWarp = gSaveBlock1Ptr->location;
     gSaveBlock1Ptr->location = sWarpDestination;
+    if (gLastUsedWarp.mapGroup != gSaveBlock1Ptr->location.mapGroup
+     || gLastUsedWarp.mapNum != gSaveBlock1Ptr->location.mapNum)
+        ResetDexNavChain();
     sFixedDiveWarp = sDummyWarpData;
     sFixedHoleWarp = sDummyWarpData;
 }
@@ -668,6 +674,7 @@ struct MapHeader const *const GetDestinationWarpMapHeader(void)
 static void LoadCurrentMapData(void)
 {
     sLastMapSectionId = gMapHeader.regionMapSectionId;
+    sLastRegionalMapName = RegionalMapDisplayName(&gMapHeader);
     gMapHeader = *Overworld_GetMapHeaderByGroupAndId(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum);
     gSaveBlock1Ptr->mapLayoutId = gMapHeader.mapLayoutId;
     gMapHeader.mapLayout = GetMapLayout(gMapHeader.mapLayoutId);
@@ -927,7 +934,8 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
 
     if (OW_HIDE_REPEAT_MAP_POPUP)
     {
-        if (gMapHeader.regionMapSectionId != sLastMapSectionId)
+        if (gMapHeader.showMapName && (gMapHeader.regionMapSectionId != sLastMapSectionId
+         || RegionalMapDisplayName(&gMapHeader) != sLastRegionalMapName))
             ShowMapNamePopup();
     }
     else
@@ -1941,6 +1949,14 @@ static bool8 RunFieldCallback(void)
     return TRUE;
 }
 
+// Start the bedroom dream with the map palette preserved behind black.
+static void FieldCB_LegendsBedroom(void)
+{
+    extern const u8 LegendsBedroom_Wake[];
+    BlendPalettes(PALETTES_ALL, 16, RGB_BLACK);
+    ScriptContext_SetupScript(LegendsBedroom_Wake);
+}
+
 void CB2_NewGame(void)
 {
     FieldClearVBlankHBlankCallbacks();
@@ -1951,7 +1967,9 @@ void CB2_NewGame(void)
     PlayTimeCounter_Start();
     ScriptContext_Init();
     UnlockPlayerFieldControls();
-    if (IS_FRLG)
+    if (FlagGet(FLAG_LA_INTRO_ACTIVE))
+        gFieldCallback = FieldCB_LegendsBedroom;
+    else if (IS_FRLG || FullSheetStreamOwnsTileset(gMapHeader.mapLayout->primaryTileset))
         gFieldCallback = FieldCB_WarpExitFadeFromBlack;
     else
         gFieldCallback = ExecuteTruckSequence;
@@ -3753,11 +3771,7 @@ void ScriptShowItemDescription(struct ScriptContext *ctx)
 
     SetWindowTemplateFields(&template, 0, 1, 1, 28, 3, 15, 8);
     sHeaderBoxWindowId = AddWindow(&template);
-    FillWindowPixelBuffer(sHeaderBoxWindowId, PIXEL_FILL(0));
-    PutWindowTilemap(sHeaderBoxWindowId);
-    CopyWindowToVram(sHeaderBoxWindowId, 3);
-    SetStandardWindowBorderStyle(sHeaderBoxWindowId, FALSE);
-    DrawStdFrameWithCustomTileAndPalette(sHeaderBoxWindowId, FALSE, 0x214, 14);
+    DrawStdWindowFrame(sHeaderBoxWindowId, FALSE);
 
     if (ReformatItemDescription(item, dst) == 1)
         textY = 4;
@@ -3765,7 +3779,8 @@ void ScriptShowItemDescription(struct ScriptContext *ctx)
         textY = 0;
 
     ShowItemIconSprite(item, TRUE, handleFlash);
-    AddTextPrinterParameterized(sHeaderBoxWindowId, 0, dst, ITEM_ICON_X + 2, textY, 0, NULL);
+    AddTextPrinterParameterized(sHeaderBoxWindowId, FONT_SMALL, dst, ITEM_ICON_X + 2, textY, TEXT_SKIP_DRAW, NULL);
+    CopyWindowToVram(sHeaderBoxWindowId, COPYWIN_FULL);
 }
 
 void ScriptHideItemDescription(struct ScriptContext *ctx)

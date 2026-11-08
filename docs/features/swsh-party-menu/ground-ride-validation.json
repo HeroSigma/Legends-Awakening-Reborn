@@ -1,0 +1,391 @@
+{
+  "passed": true,
+  "assertions": 96,
+  "rom_sha256": "fded381066b88a4a76603cf04cd37ccb4a15e260721bd4ba3b46e82bc4ebe2b5",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "supported_venusaur_0",
+      "passed": true
+    },
+    {
+      "test": "unsupported_pikachu_0",
+      "passed": true
+    },
+    {
+      "test": "indoor_refused_0",
+      "passed": true
+    },
+    {
+      "test": "story_gate_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_slot_0",
+      "passed": true
+    },
+    {
+      "test": "unsupported_refused_0",
+      "passed": true
+    },
+    {
+      "test": "egg_refused_0",
+      "passed": true
+    },
+    {
+      "test": "mount_start_0",
+      "passed": true
+    },
+    {
+      "test": "mount_stays_active_0",
+      "passed": true
+    },
+    {
+      "test": "mounted_graphics_0",
+      "passed": true
+    },
+    {
+      "test": "sprite_created_0",
+      "passed": true
+    },
+    {
+      "test": "native_flags_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(0, 16)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(0, 32)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(0, 64)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(0, 128)",
+      "passed": true
+    },
+    {
+      "test": "actually_moves_0",
+      "passed": true
+    },
+    {
+      "test": "start_return_keeps_mount_0",
+      "passed": true
+    },
+    {
+      "test": "shoulders_dismount_0",
+      "passed": true
+    },
+    {
+      "test": "dismount_controls_released_0",
+      "passed": true
+    },
+    {
+      "test": "sprite_removed_0",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 2, 23)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 2, 24)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 3, 25)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 3, 26)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 0, 27)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 0, 28)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 2, 29)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 2, 30)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 3, 31)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 3, 32)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(0, 0, 33)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(0, 0, 34)",
+      "passed": true
+    },
+    {
+      "test": "party_open_0",
+      "passed": true
+    },
+    {
+      "test": "party_return_keeps_mount_0",
+      "passed": true
+    },
+    {
+      "test": "party_return_sprite_0",
+      "passed": true
+    },
+    {
+      "test": "ride_menu_selects_0",
+      "passed": true
+    },
+    {
+      "test": "ride_menu_return_0",
+      "passed": true
+    },
+    {
+      "test": "field_ready_for_battle_0",
+      "passed": true
+    },
+    {
+      "test": "battle_entered_0",
+      "passed": true
+    },
+    {
+      "test": "battle_returns_to_field_0",
+      "passed": true
+    },
+    {
+      "test": "battle_controls_released_0",
+      "passed": true
+    },
+    {
+      "test": "save_while_mounted_0",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_unchanged_0",
+      "passed": true
+    },
+    {
+      "test": "indoor_dismount_0",
+      "passed": true
+    },
+    {
+      "test": "underwater_bit_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "supported_venusaur_1",
+      "passed": true
+    },
+    {
+      "test": "unsupported_pikachu_1",
+      "passed": true
+    },
+    {
+      "test": "indoor_refused_1",
+      "passed": true
+    },
+    {
+      "test": "story_gate_1",
+      "passed": true
+    },
+    {
+      "test": "invalid_slot_1",
+      "passed": true
+    },
+    {
+      "test": "unsupported_refused_1",
+      "passed": true
+    },
+    {
+      "test": "egg_refused_1",
+      "passed": true
+    },
+    {
+      "test": "mount_start_1",
+      "passed": true
+    },
+    {
+      "test": "mount_stays_active_1",
+      "passed": true
+    },
+    {
+      "test": "mounted_graphics_1",
+      "passed": true
+    },
+    {
+      "test": "sprite_created_1",
+      "passed": true
+    },
+    {
+      "test": "native_flags_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(1, 16)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(1, 32)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(1, 64)",
+      "passed": true
+    },
+    {
+      "test": "walks_without_dismount_(1, 128)",
+      "passed": true
+    },
+    {
+      "test": "actually_moves_1",
+      "passed": true
+    },
+    {
+      "test": "start_return_keeps_mount_1",
+      "passed": true
+    },
+    {
+      "test": "shoulders_dismount_1",
+      "passed": true
+    },
+    {
+      "test": "dismount_controls_released_1",
+      "passed": true
+    },
+    {
+      "test": "sprite_removed_1",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 2, 71)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 2, 72)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 3, 73)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 3, 74)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 0, 75)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 0, 76)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 2, 77)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 2, 78)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 3, 79)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 3, 80)",
+      "passed": true
+    },
+    {
+      "test": "switch_mount_(1, 0, 81)",
+      "passed": true
+    },
+    {
+      "test": "switch_sprite_(1, 0, 82)",
+      "passed": true
+    },
+    {
+      "test": "party_open_1",
+      "passed": true
+    },
+    {
+      "test": "party_return_keeps_mount_1",
+      "passed": true
+    },
+    {
+      "test": "party_return_sprite_1",
+      "passed": true
+    },
+    {
+      "test": "ride_menu_selects_1",
+      "passed": true
+    },
+    {
+      "test": "ride_menu_return_1",
+      "passed": true
+    },
+    {
+      "test": "field_ready_for_battle_1",
+      "passed": true
+    },
+    {
+      "test": "battle_entered_1",
+      "passed": true
+    },
+    {
+      "test": "battle_returns_to_field_1",
+      "passed": true
+    },
+    {
+      "test": "battle_controls_released_1",
+      "passed": true
+    },
+    {
+      "test": "save_while_mounted_1",
+      "passed": true
+    },
+    {
+      "test": "storage_mode_unchanged_1",
+      "passed": true
+    },
+    {
+      "test": "indoor_dismount_1",
+      "passed": true
+    },
+    {
+      "test": "underwater_bit_preserved_1",
+      "passed": true
+    }
+  ]
+}

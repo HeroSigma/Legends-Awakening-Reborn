@@ -1,0 +1,65 @@
+{
+  "id": "MAP_HYPERSINNOH_37_37_CELESTIC_TOWN",
+  "name": "Sinnoh_Celestic_Town_Interior_01",
+  "layout": "LAYOUT_HYPERSINNOH_37_37_CELESTIC_TOWN",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 4,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_10_CELESTIC_TOWN",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

@@ -1,0 +1,92 @@
+{
+  "id": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+  "name": "Hoenn_Couriway_Town_Interior_01",
+  "layout": "LAYOUT_HYPERHOENN_34_61_COURIWAY_TOWN",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_COURIWAY_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_40_COURIWAY_TOWN",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 19,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_40_COURIWAY_TOWN",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 31,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 32,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 8,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 29,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_61_COURIWAY_TOWN",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_37_102_COURIWAY_TOWN",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_35_52_COURIWAY_TOWN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

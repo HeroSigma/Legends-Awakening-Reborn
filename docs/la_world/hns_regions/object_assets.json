@@ -1,0 +1,2719 @@
+{
+  "assets": [
+    {
+      "source": "OBJ_EVENT_GFX_FAT_MAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_FAT_MAN_HNS",
+      "number": 12288,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_FatMan_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_FatMan_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/e379f95e371e5f33.4bpp",
+          "sha256": "e379f95e371e5f33ffdb0b87140b8f78c438761633c3a3d163281936d95c3ded"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LASS_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LASS_HNS",
+      "number": 12289,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Lass_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Lass_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/491ce84f1ee6f273.4bpp",
+          "sha256": "491ce84f1ee6f273922c0ee4848aa42d1ddcf57019e4b7b6fe406d4ed3f07f09"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SILVER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SILVER_HNS",
+      "number": 12290,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Silver_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55810,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Silver_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/e12a089388365c7f.4bpp",
+          "sha256": "e12a089388365c7fa3378e6bd52e7de638012d4264c66283f2cfcb0c643c5cde"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_OLD_MAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_OLD_MAN_HNS",
+      "number": 12291,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_OldMan_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_OldMan_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/a01238d8b5a7c155.4bpp",
+          "sha256": "a01238d8b5a7c1555bb47844909e337d88a5d362fa52b98b3b9b604dfb69d583"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_FISHERMAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_FISHERMAN_HNS",
+      "number": 12292,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Fisherman_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Fisherman_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/eea1ad0329c9fb10.4bpp",
+          "sha256": "eea1ad0329c9fb1092872b4c3105c829ab44a4c954dd6f6022beb1ed3155b10a"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BOY_2_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BOY_2_HNS",
+      "number": 12293,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Boy2_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Boy2_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/0e764f45102d8ec7.4bpp",
+          "sha256": "0e764f45102d8ec732150265e393d0a58dbac0d3fef32a8e9faa86c2be6006ca"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WOMAN_2_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WOMAN_2_HNS",
+      "number": 12294,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Woman2_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Woman2_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/d31eabb8811f4b91.4bpp",
+          "sha256": "d31eabb8811f4b91353f6a161b6201fdc03fe1adcbdb5b14cbcb27cd1f103ea2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_OLD_MAN_2_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_OLD_MAN_2_HNS",
+      "number": 12295,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_OldMan2_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_OldMan2_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/fc08ee6e8249f333.4bpp",
+          "sha256": "fc08ee6e8249f3335a9df06858ac677f16326eb5deeb1c88a39d5cf3a61d1a34"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SUPER_NERD_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SUPER_NERD_HNS",
+      "number": 12296,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SuperNerd_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SuperNerd_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/2297d189b5a1768b.4bpp",
+          "sha256": "2297d189b5a1768bfa7ef57c8129208fbe7a2852a14daf12c3be711778f117ef"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_YOUNGSTER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_YOUNGSTER_HNS",
+      "number": 12297,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Youngster_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Youngster_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/f4fb595251566d44.4bpp",
+          "sha256": "f4fb595251566d44a5f04d0d8a1f2a61812ae88ef3f97b04e176dfa898946558"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_POKE_BALL",
+      "identifier": "OBJ_EVENT_GFX_HNS_POKE_BALL",
+      "number": 12298,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_PokeBall",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55813,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_PokeBall",
+          "frames": 5,
+          "path": "data/hns_region_assets/objects/pictures/8d9676d1c3669240.4bpp",
+          "sha256": "8d9676d1c36692404604a1580eb4ebd67770098c60019a61f19f405da675a66e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CUTTABLE_TREE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CUTTABLE_TREE_HNS",
+      "number": 12299,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_CuttableTree_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_CuttableTree_hns",
+          "frames": 4,
+          "path": "data/hns_region_assets/objects/pictures/f2b10abb7c9442ee.4bpp",
+          "sha256": "f2b10abb7c9442eef356825d8cfce123677aa99d56dc55528515ae4352f23bfb"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BERRY_TREE",
+      "identifier": "OBJ_EVENT_GFX_HNS_BERRY_TREE",
+      "number": 12300,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BerryTree",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55814,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BerryTreeDirtPile",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/acab43747c7f755d.4bpp",
+          "sha256": "acab43747c7f755d78bfbacc829af8e88c0630dec4c83747a8464e99aad5f3a4"
+        },
+        {
+          "source": "gObjectEventPic_BerryTreeSprout",
+          "frames": 2,
+          "path": "data/hns_region_assets/objects/pictures/43b14f7b2795103b.4bpp",
+          "sha256": "43b14f7b2795103b3c9d362d18c5cb89a0c8e8be23feddc388ca3162c927e160"
+        },
+        {
+          "source": "gObjectEventPic_PechaBerryTree",
+          "frames": 6,
+          "path": "data/hns_region_assets/objects/pictures/b6fae43b5c70ef87.4bpp",
+          "sha256": "b6fae43b5c70ef878691c7e2cb2a49eeb00223264897e0e287beb85a4b5299cf"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KIMONO_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+      "number": 12301,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Kimono_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55815,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Kimono_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6c9438ddfa254593.4bpp",
+          "sha256": "6c9438ddfa2545934f44795871b26acf9f9f30b78a1a69c82daa6c1ebb8821ca"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SMALL_LIGHT_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SMALL_LIGHT_HNS",
+      "number": 12302,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SmallLight_Hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55816,
+      "picture_data": [
+        {
+          "source": "gFieldEffectObjectPic_SmallLight_Hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/491ace27aa0dd35c.4bpp",
+          "sha256": "491ace27aa0dd35cd7749846d4d6eb5c80b6d9431906ab653f8fc27882548a90"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ROCKET_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ROCKET_M_HNS",
+      "number": 12303,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_RocketM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_RocketM_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/7134b9a394f4587c.4bpp",
+          "sha256": "7134b9a394f4587c91b12cb5c8278e4962429d18d0ddb3ab906b15325119dd22"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_NO_TAIL_SLOWPOKE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_NO_TAIL_SLOWPOKE_HNS",
+      "number": 12304,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_NoTailSlowpoke_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55817,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_NoTailSlowpoke_hns",
+          "frames": 6,
+          "path": "data/hns_region_assets/objects/pictures/8eb7814e0c6171f3.4bpp",
+          "sha256": "8eb7814e0c6171f34999615ffed1e74adcc33798c95d47ade76e5a280eef27cc"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KURT_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KURT_HNS",
+      "number": 12305,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Kurt_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Kurt_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/932fcd68f23e113c.4bpp",
+          "sha256": "932fcd68f23e113c736039dc8f51ac0ad4a13e11021a70e799fe060095bfa6aa"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_HIKER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_HIKER_HNS",
+      "number": 12306,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Hiker_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Hiker_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/29a7da3cca71f593.4bpp",
+          "sha256": "29a7da3cca71f5939b537d3ea606fc88673ea885d7e602133a71ab541d3fc46e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ROCKET_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ROCKET_F_HNS",
+      "number": 12307,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_RocketF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_RocketF_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6ac76a01d34f502a.4bpp",
+          "sha256": "6ac76a01d34f502aea5fabf2750edc892e348045a228ba7fb936ded59660dd5f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BATTLE_GIRL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BATTLE_GIRL_HNS",
+      "number": 12308,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BattleGirl_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BattleGirl_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/d508aacd1fe0314e.4bpp",
+          "sha256": "d508aacd1fe0314e1f89eb1550cd76d41a84071bef899d6413e42fd03b68707c"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BEAUTY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BEAUTY_HNS",
+      "number": 12309,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Beauty_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Beauty_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/d84ff5c2123e11d5.4bpp",
+          "sha256": "d84ff5c2123e11d55cd4ab62883e6e84aa220c16293e2edd731d99296d181f47"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SAGE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SAGE_HNS",
+      "number": 12310,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Sage_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55818,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Sage_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/3390191bed63ce2f.4bpp",
+          "sha256": "3390191bed63ce2f224f76a2d80385e20435e7b59e0b5333022ccd94bba2817c"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WOMAN_1_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WOMAN_1_HNS",
+      "number": 12311,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Woman1_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Woman1_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/25940b0e67bbfd0e.4bpp",
+          "sha256": "25940b0e67bbfd0e0e3feb3739d1b8807ddf673c4890f422803412c49c2113c2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SAILOR_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SAILOR_HNS",
+      "number": 12312,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Sailor_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Sailor_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/7e17a5b89c62d7fa.4bpp",
+          "sha256": "7e17a5b89c62d7faaa0fb1c0e070e9645a9909abf350be6ae1a950bcace21751"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ITEM_BALL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ITEM_BALL_HNS",
+      "number": 12313,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ItemBall_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55813,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_PokeBall",
+          "frames": 5,
+          "path": "data/hns_region_assets/objects/pictures/8d9676d1c3669240.4bpp",
+          "sha256": "8d9676d1c36692404604a1580eb4ebd67770098c60019a61f19f405da675a66e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ATTENDANT_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ATTENDANT_F_HNS",
+      "number": 12314,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_AttendantF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_AttendantF_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/12c2f55beca8e81b.4bpp",
+          "sha256": "12c2f55beca8e81b860f328e5f3778e2eac8b6e772722ff02046374c2334c148"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_TWIN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_TWIN_HNS",
+      "number": 12315,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Twin_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Twin_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/e3aac3d6c61b25fd.4bpp",
+          "sha256": "e3aac3d6c61b25fd7886bf978bc695e1685524aaf4902f44c227e07476f5be41"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_EUSINE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_EUSINE_HNS",
+      "number": 12316,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Eusine_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55819,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Eusine_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/cfba5f6e20993d4b.4bpp",
+          "sha256": "cfba5f6e20993d4b434d0dd3aa135444bd5ccb2173b5301b245e4171eb4cb7db"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WOMAN_3_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WOMAN_3_HNS",
+      "number": 12317,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Woman3_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Woman3_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6b01c8947ad930c3.4bpp",
+          "sha256": "6b01c8947ad930c3a2c272fa4373f119eaa915fe539ecfb3e7ffd72daa41f452"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BREAKABLE_ROCK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+      "number": 12318,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BreakableRock_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BreakableRock_hns",
+          "frames": 4,
+          "path": "data/hns_region_assets/objects/pictures/bc7c36d5598aeb27.4bpp",
+          "sha256": "bc7c36d5598aeb275b199017defa3cdfd4c75dbdfa0adceee7026e648cfc5305"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ENGINEER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ENGINEER_HNS",
+      "number": 12319,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Engineer_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Engineer_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/464928f5002d33a5.4bpp",
+          "sha256": "464928f5002d33a50bc2e0d77c7477cffba758aa052472de60a72fc4241c3fb3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WORKER_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WORKER_M_HNS",
+      "number": 12320,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_WorkerM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_WorkerM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/ab7d544576ab022c.4bpp",
+          "sha256": "ab7d544576ab022cb4c32a38ac7287c0f913257884666d877fa2775f6b7c03b1"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BALDING_MAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BALDING_MAN_HNS",
+      "number": 12321,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BaldingMan_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BaldingMan_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/892a6cd8ab31a381.4bpp",
+          "sha256": "892a6cd8ab31a381e2056e2877cd4f32382f7105f39311dece4dfaa82dfd685d"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_COOLTRAINER_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_COOLTRAINER_F_HNS",
+      "number": 12322,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_CooltrainerF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_CooltrainerF_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/a133a20f2b7395ff.4bpp",
+          "sha256": "a133a20f2b7395ff725465c6aafba67d43c43a68791652b4c44029dab4cce37f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BLACK_BELT_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BLACK_BELT_HNS",
+      "number": 12323,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BlackBelt_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BlackBelt_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/bf44eb3f8c95f553.4bpp",
+          "sha256": "bf44eb3f8c95f5534f1b8dbdb89defee88f59e8eb9dc8aa93e0baac8cd3ba7aa"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LITTLE_BOY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LITTLE_BOY_HNS",
+      "number": 12324,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_LittleBoy_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_LittleBoy_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/24438e3b71787f95.4bpp",
+          "sha256": "24438e3b71787f959fbdd8298f79b118ae51cb9ad8898a4e7491c074ddb819cf"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BUG_CATCHER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BUG_CATCHER_HNS",
+      "number": 12325,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BugCatcher_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BugCatcher_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/e58d6ed4ec837869.4bpp",
+          "sha256": "e58d6ed4ec83786937eece7b692e15e5827a1bddc1530dc1a871097484d318d7"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PICNICKER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PICNICKER_HNS",
+      "number": 12326,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Picnicker_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Picnicker_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/39e03d383127bf74.4bpp",
+          "sha256": "39e03d383127bf74d922b64e95e8648dab1ac50e8a807596923c15a4b0595a1b"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CAMPER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CAMPER_HNS",
+      "number": 12327,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Camper_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Camper_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/11dedee83310c438.4bpp",
+          "sha256": "11dedee83310c4388f227ce076e5f1a623cfb24fac1f51c35b5ee619adbea974"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ROCKER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ROCKER_HNS",
+      "number": 12328,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Rocker_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Rocker_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/d2c4800ecec313df.4bpp",
+          "sha256": "d2c4800ecec313df764bf02ea494f2c19af16b3b25e976716032c68c216255b3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_COOLTRAINER_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_COOLTRAINER_M_HNS",
+      "number": 12329,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_CooltrainerM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_CooltrainerM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/2138162aca68a3fe.4bpp",
+          "sha256": "2138162aca68a3feeea9b142dbcc159c5c8c7745bc0929d23fc6849a635328df"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_OFFICER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_OFFICER_HNS",
+      "number": 12330,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Officer_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Officer_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/cc963ddeaa440aa2.4bpp",
+          "sha256": "cc963ddeaa440aa2f5c64c94f1892bef0e5e8bdbbdb35e9e88046557dd3a8356"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_FIREBREATHER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_FIREBREATHER_HNS",
+      "number": 12331,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Firebreather_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Firebreather_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/b4098a7c816a2520.4bpp",
+          "sha256": "b4098a7c816a2520ca1d59e75de4a2a5800cd2b8169b481e68d4917c1ad4e6c1"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_JUGGLER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_JUGGLER_HNS",
+      "number": 12332,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Juggler_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Juggler_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/602f73b073e441b2.4bpp",
+          "sha256": "602f73b073e441b217b162487a46f9bcae6c8c0e6037a67484a8b5674609c641"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PSYCHIC_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PSYCHIC_M_HNS",
+      "number": 12333,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_PsychicM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_PsychicM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/6d86940ffc15f232.4bpp",
+          "sha256": "6d86940ffc15f232da10a67d0fb5d2d932438f6c04f150a1302d5b0220e00c94"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GENTLEMAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GENTLEMAN_HNS",
+      "number": 12334,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Gentleman_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Gentleman_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/1c21fef5244ef8b9.4bpp",
+          "sha256": "1c21fef5244ef8b92e7f9a6dc0afd04da0d32b240d55200d6a4c8d32c5eb44c0"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LEGENDARY_SHADOW_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LEGENDARY_SHADOW_HNS",
+      "number": 12335,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_LegendaryShadow_hns",
+      "width": 88,
+      "height": 32,
+      "palette_tag": 55820,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_LegendaryShadow_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/ba28d9a6a7dcd08b.4bpp",
+          "sha256": "ba28d9a6a7dcd08b27db0fdb5538190a82f34425a51a14bb45c2ee56e7408c1c"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SWIMMER_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SWIMMER_F_HNS",
+      "number": 12336,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SwimmerF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SwimmerF_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/0d183bdb0e61d0d7.4bpp",
+          "sha256": "0d183bdb0e61d0d71c535ee21df2270439f81d4dc0542c6c62e77d6c320576fc"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SWIMMER_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SWIMMER_M_HNS",
+      "number": 12337,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SwimmerM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SwimmerM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/340e8a8d4982acd5.4bpp",
+          "sha256": "340e8a8d4982acd5e865c632d60a8e3bbe760659fa5fee7dbf7057ebb53728ee"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WHIRLPOOL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WHIRLPOOL_HNS",
+      "number": 12338,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Whirlpool_hns",
+      "width": 64,
+      "height": 64,
+      "palette_tag": 55821,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Whirlpool_hns",
+          "frames": 5,
+          "path": "data/hns_region_assets/objects/pictures/b4deadd24e1dfa45.4bpp",
+          "sha256": "b4deadd24e1dfa45223d9c883754cc96f2c1b961cf6bd87230355a572f781fb8"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ARCHER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ARCHER_HNS",
+      "number": 12339,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Archer_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55822,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Archer_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d5d5f61e8752d8d0.4bpp",
+          "sha256": "d5d5f61e8752d8d0ea50bb05c320715d0a697c9d37bc91b785c965d893724bac"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WORKER_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WORKER_F_HNS",
+      "number": 12340,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_WorkerF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_WorkerF_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/210944b224d8c7c3.4bpp",
+          "sha256": "210944b224d8c7c375115258813acdf6138d91051aa2f62a2958f868e8856bf4"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_FISHER",
+      "identifier": "OBJ_EVENT_GFX_HNS_FISHER",
+      "number": 12341,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Fisher",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Fisher",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/eea1ad0329c9fb10.4bpp",
+          "sha256": "eea1ad0329c9fb1092872b4c3105c829ab44a4c954dd6f6022beb1ed3155b10a"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SLEEPING_SNORLAX_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SLEEPING_SNORLAX_HNS",
+      "number": 12342,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SleepingSnorlax_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55823,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SleepingSnorlax_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/ce69f353b36e138f.4bpp",
+          "sha256": "ce69f353b36e138f870179e0f8ba84d022e477d4624c5e493e1237843fceadaa"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_STEVEN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_STEVEN_HNS",
+      "number": 12343,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Steven_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55824,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Steven_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/72456f0299e1208c.4bpp",
+          "sha256": "72456f0299e1208cdf8d56e6d6e94004da0f1a262938c232d628b44844c952c9"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ALOLA_OAK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ALOLA_OAK_HNS",
+      "number": 12344,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_AlolaOak_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55825,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_AlolaOak_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/0a0d66a3f25ff30f.4bpp",
+          "sha256": "0a0d66a3f25ff30fbb0122d1820004f79a9daec55a65a3dd548a152b5a1cc4ca"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ERIKA_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ERIKA_HNS",
+      "number": 12345,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Erika_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Erika_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/be5f59c823e00f24.4bpp",
+          "sha256": "be5f59c823e00f2498a51fc8addb828cea791eae1fdbd30993ee2480faa2299f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BLUE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BLUE_HNS",
+      "number": 12346,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Blue_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Blue_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/76d07d4b2c042721.4bpp",
+          "sha256": "76d07d4b2c042721fd53c1a769bf773b21a224c9f42f579da8efcf7f6f5ceae7"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BLAINE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BLAINE_HNS",
+      "number": 12347,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Blaine_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Blaine_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/cb9011adfa99aecf.4bpp",
+          "sha256": "cb9011adfa99aecf25f56f65edc73a0382af01517a6dcc508c2e3474eaba44ff"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BIKER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BIKER_HNS",
+      "number": 12348,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Biker_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Biker_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/eed7c70193aa1f5b.4bpp",
+          "sha256": "eed7c70193aa1f5b02cd88af8471b904a2684db10a363212ef1e722c1377eff2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SURGE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SURGE_HNS",
+      "number": 12349,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Surge_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Surge_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6dd21b2f65a59bd6.4bpp",
+          "sha256": "6dd21b2f65a59bd6668c9647a75fc4e557c71f1bae071828f5f2c5549b3870c3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PUSHABLE_BOULDER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+      "number": 12350,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_PushableBoulder_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_PushableBoulder_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/587b0fc7b39ec775.4bpp",
+          "sha256": "587b0fc7b39ec7753af0bb0f76839571a936da80fe99c45e0e589c3e0674af71"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SS_AQUA_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SS_AQUA_HNS",
+      "number": 12351,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SsAqua_hns",
+      "width": 96,
+      "height": 40,
+      "palette_tag": 55826,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SsAqua_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/225e75899f6db363.4bpp",
+          "sha256": "225e75899f6db3634e206e790a6db181e21d6c5ea136075d542b33c3171cb946"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CAPTAIN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CAPTAIN_HNS",
+      "number": 12352,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Captain_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Captain_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/77612765c1389706.4bpp",
+          "sha256": "77612765c13897066bf323a3fa4c586d7f054e66e7154f41716ceb07aadb4214"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ITEM_BALL",
+      "identifier": "OBJ_EVENT_GFX_HNS_ITEM_BALL",
+      "number": 12353,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_PokeBall",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55813,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_PokeBall",
+          "frames": 5,
+          "path": "data/hns_region_assets/objects/pictures/8d9676d1c3669240.4bpp",
+          "sha256": "8d9676d1c36692404604a1580eb4ebd67770098c60019a61f19f405da675a66e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GIOVANNI_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GIOVANNI_HNS",
+      "number": 12354,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Giovanni_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Giovanni_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/97faa39af3d4fa27.4bpp",
+          "sha256": "97faa39af3d4fa27d5ce777c44d185845a0cf8807c99df6ed214f8ab0c1589cd"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MISTY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MISTY_HNS",
+      "number": 12355,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Misty_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Misty_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/cf1a06a2f895f2bb.4bpp",
+          "sha256": "cf1a06a2f895f2bb1525adac7f1af78c729649ded4687927c652f44449387952"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SCIENTIST_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SCIENTIST_F_HNS",
+      "number": 12356,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ScientistF_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55827,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_ScientistF_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/9a3acda57c36287e.4bpp",
+          "sha256": "9a3acda57c36287e63d9251393346d610e984d63d07444695f8827798358a969"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SCIENTIST_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SCIENTIST_M_HNS",
+      "number": 12357,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ScientistM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_ScientistM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/976639b784b4a46e.4bpp",
+          "sha256": "976639b784b4a46e8e0bd37f1878b26c9ba721131873a8fb00a3024677099f12"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ELM_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ELM_HNS",
+      "number": 12358,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Elm_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55828,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Elm_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/cd55e8b5202217c2.4bpp",
+          "sha256": "cd55e8b5202217c29719423366d0dda41d9bf4d126d6b2a161b08642f56c914a"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MOM_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MOM_HNS",
+      "number": 12359,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Mom_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Mom_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/7cfefaa83389d32b.4bpp",
+          "sha256": "7cfefaa83389d32b2caf5838df498daf3696875c79499744510bbcb4175a2377"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_NURSE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_NURSE_HNS",
+      "number": 12360,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Nurse_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Nurse_hns",
+          "frames": 4,
+          "path": "data/hns_region_assets/objects/pictures/4eb737ef495a9a85.4bpp",
+          "sha256": "4eb737ef495a9a8525cbb80894dc3fd61f350c898b14aa732de9e6c16cb5d83f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_NURSE_CHANSEY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_NURSE_CHANSEY_HNS",
+      "number": 12361,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_NurseChansey_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_NurseChansey_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/0526c9d41d8072b1.4bpp",
+          "sha256": "0526c9d41d8072b1bd95933e409f96844d48bcfaf32750f5c37efbe98ff0dad1"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MART_EMPLOYEE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MART_EMPLOYEE_HNS",
+      "number": 12362,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_MartEmployee_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_MartEmployee_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/9114ad48c00afe4a.4bpp",
+          "sha256": "9114ad48c00afe4a85e277a411c61e348e6c099df57fd3a3e22ccfe54807ddc3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GAMEBOY_KID_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GAMEBOY_KID_HNS",
+      "number": 12363,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_GameboyKid_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_GameboyKid_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/e300658ae8cc95e0.4bpp",
+          "sha256": "e300658ae8cc95e0631a96fc6d891418b86a453b338367bb9f9c198bae5daf6f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_OLD_WOMAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_OLD_WOMAN_HNS",
+      "number": 12364,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_OldWoman_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_OldWoman_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/717bf018a4ee52b6.4bpp",
+          "sha256": "717bf018a4ee52b66558549a1981263f288e9497e97b379c8ef7a45d8b4e2b17"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_FALKNER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_FALKNER_HNS",
+      "number": 12365,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Falkner_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55829,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Falkner_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/247b928b56feb5e9.4bpp",
+          "sha256": "247b928b56feb5e9918124c9b243990fc15689344bf9bc9bcd42d1beb0b22bdb"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GYM_GUY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GYM_GUY_HNS",
+      "number": 12366,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_GymGuy_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_GymGuy_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/51a6d8907fb7172a.4bpp",
+          "sha256": "51a6d8907fb7172a73702a9235c5d4e190f9b2be800c1d4228688f09a34b76f0"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BUGSY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BUGSY_HNS",
+      "number": 12367,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Bugsy_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55830,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Bugsy_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/2051ce6162310370.4bpp",
+          "sha256": "2051ce6162310370187e3ecaa5bec6cf88135f2b42c0316ef5facec67cc5cb01"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LINK_RECEPTIONIST_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LINK_RECEPTIONIST_HNS",
+      "number": 12368,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_LinkReceptionist_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_LinkReceptionist_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/8f1dbae95004feb7.4bpp",
+          "sha256": "8f1dbae95004feb76a0a0bca5b29bdce8e1f263a4e3d8cca4256348f57ea77d3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BURGLAR_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BURGLAR_HNS",
+      "number": 12369,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Burglar_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Burglar_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/2d63d0b04f536044.4bpp",
+          "sha256": "2d63d0b04f53604497ca4c1bbf64bed118f1c9a919f8b8bcd441313b335c29bd"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WHITNEY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WHITNEY_HNS",
+      "number": 12370,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Whitney_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55831,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Whitney_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d4c0ac866aac7fe2.4bpp",
+          "sha256": "d4c0ac866aac7fe232295080a7309d119945d27aeb45d7be8cfee0cc035dabb2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GIRL_1_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GIRL_1_HNS",
+      "number": 12371,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Girl1_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Girl1_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/7c1d3cea5539c615.4bpp",
+          "sha256": "7c1d3cea5539c615c147d8910b0f6d2357c5b58ee0d5f7592f25f2cc2f0861e3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BILL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BILL_HNS",
+      "number": 12372,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Bill_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Bill_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/fd544022ce6c1a0d.4bpp",
+          "sha256": "fd544022ce6c1a0daf8ea23f08fad99fdef27c780615bd4156ae1dd32bc535c6"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ATTENDANT_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ATTENDANT_M_HNS",
+      "number": 12373,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_AttendantM_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_AttendantM_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/a2ee59eed4007116.4bpp",
+          "sha256": "a2ee59eed4007116328e16f1d5e0b0a4b1259221fcde64e551fc7e629707e983"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_TRAIN_EAST_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_TRAIN_EAST_HNS",
+      "number": 12374,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_TrainEast_hns",
+      "width": 64,
+      "height": 64,
+      "palette_tag": 55832,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_TrainEast_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/e83250681646199d.4bpp",
+          "sha256": "e83250681646199d4c70d8a781ebe4e1213181eb1254de91a23f2dded5801675"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PROTON_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PROTON_HNS",
+      "number": 12375,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Proton_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55822,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Proton_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/a886116c33a03c26.4bpp",
+          "sha256": "a886116c33a03c26237fbb3952db57ef7c371ebdf9b790ffbcc65d8c91b3cedd"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_ARIANA_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_ARIANA_HNS",
+      "number": 12376,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Ariana_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55833,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Ariana_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/e548c1d1f61873b4.4bpp",
+          "sha256": "e548c1d1f61873b46db25d057116e476b07cc84b08c549f988648b45f5f03c56"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PETREL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PETREL_HNS",
+      "number": 12377,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Petrel_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55834,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Petrel_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/eac903f0d8c34339.4bpp",
+          "sha256": "eac903f0d8c34339565c81fc1dfd9420ea80c6a8c38c3b148d1a94295cd0d818"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MORTY_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MORTY_HNS",
+      "number": 12378,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Morty_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55835,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Morty_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/832df70c0876ec1a.4bpp",
+          "sha256": "832df70c0876ec1ad8b41fe7470ef8992fdbf8f46ef7ee47b94798be3b26f35f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CHANNELER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CHANNELER_HNS",
+      "number": 12379,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Channeler_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Channeler_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/9f1b10aee84a7313.4bpp",
+          "sha256": "9f1b10aee84a73136252e5d425af21017aeecbba14b599006e64d0722118c983"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_JASMINE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_JASMINE_HNS",
+      "number": 12380,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Jasmine_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55836,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Jasmine_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/c2ea009548867277.4bpp",
+          "sha256": "c2ea00954886727799a03fe1409378f49cae438d91ef2add282068ddc2dd5ddb"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SABRINA_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SABRINA_HNS",
+      "number": 12381,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Sabrina_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Sabrina_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/f74b5367532af010.4bpp",
+          "sha256": "f74b5367532af010ce6308e35190744b72b8a25696df221aa2371ef440899fc3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PROF_OAK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PROF_OAK_HNS",
+      "number": 12382,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ProfOak_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_ProfOak_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/be47d666d6a342b1.4bpp",
+          "sha256": "be47d666d6a342b13f45dd6b25819cd360e5465ecd0f6245c148adb01fd4dbda"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CHUCK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CHUCK_HNS",
+      "number": 12383,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Chuck_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55837,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Chuck_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/7f1c97067d96d199.4bpp",
+          "sha256": "7f1c97067d96d199b54e56ad6b58ddebc32f9215adaaf057a15ceae5c7b87476"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SKIER_F_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SKIER_F_HNS",
+      "number": 12384,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SkierF_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SkierF_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/330da833043d8f95.4bpp",
+          "sha256": "330da833043d8f95ef01ddc2be112422369f7b93371745aafb95a88600acb9c5"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SKIER_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SKIER_M_HNS",
+      "number": 12385,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SkierM_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SkierM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/33e7f8c51f6b0c63.4bpp",
+          "sha256": "33e7f8c51f6b0c6321297749cd7f4d0740c868d4d325565a4bdecbca3eafed34"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_PRYCE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_PRYCE_HNS",
+      "number": 12386,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Pryce_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55838,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Pryce_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/23e491927726209d.4bpp",
+          "sha256": "23e491927726209d168801ed939e9c4d3e3bdb0d0d0dc17b69b8f131aaf3a674"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LANCE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LANCE_HNS",
+      "number": 12387,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Lance_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55839,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Lance_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6c30c2a0bf2eca58.4bpp",
+          "sha256": "6c30c2a0bf2eca58e86565ef49900f0b6f88c8021f83bffdbff5493ea562feef"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CLAIR_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_CLAIR_HNS",
+      "number": 12388,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Clair_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55840,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Clair_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d91203d44ee3afea.4bpp",
+          "sha256": "d91203d44ee3afeaceeb76e88c606c09e4bef0a0cbea3d818945b6c83c57ca4d"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BROCK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BROCK_HNS",
+      "number": 12389,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Brock_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Brock_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/9bee1a456d63fdb4.4bpp",
+          "sha256": "9bee1a456d63fdb4b8ea55cbc0ef51f63f9b766380a6157894202c781dec2ab8"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_FOSSIL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_FOSSIL_HNS",
+      "number": 12390,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Fossil_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Fossil_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/1c449eaed81a5ab3.4bpp",
+          "sha256": "1c449eaed81a5ab3938ed9b42cdb365a3bcd33f53ca0114c2ac5e021308672ba"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CLEFAIRY_DOLL",
+      "identifier": "OBJ_EVENT_GFX_HNS_CLEFAIRY_DOLL",
+      "number": 12391,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ClefairyDoll",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55814,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_ClefairyDoll",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/61a780f3dfba6ee3.4bpp",
+          "sha256": "61a780f3dfba6ee3e683a79e6cec8dbdbad435acc3a58ff9e67fa4a091c93f8d"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SAGE_ELDER_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SAGE_ELDER_HNS",
+      "number": 12392,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SageElder_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SageElder_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/daeab4e96312dba9.4bpp",
+          "sha256": "daeab4e96312dba9d7ec0b8e63595ea4b28fdafdc8396167d7214f7ea50a58e2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_COOK_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_COOK_HNS",
+      "number": 12393,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Cook_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Cook_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d43352cb7d9cd2c0.4bpp",
+          "sha256": "d43352cb7d9cd2c04df1009f2f8c3595cab3a619acff39b3e94821fda0b995c5"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_TRAIN_WEST_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_TRAIN_WEST_HNS",
+      "number": 12394,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_TrainWest_hns",
+      "width": 64,
+      "height": 64,
+      "palette_tag": 55832,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_TrainWest_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/e40b41c91b28cdd1.4bpp",
+          "sha256": "e40b41c91b28cdd12c530be3d93f59336ed73742192c50827563d0555d048a62"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_JANINE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_JANINE_HNS",
+      "number": 12395,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Janine_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55841,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Janine_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/079478d7597af9f3.4bpp",
+          "sha256": "079478d7597af9f3a6326e91c34df1ec4fec094518fc006aa572a671a482257b"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_DITTO_DOLL",
+      "identifier": "OBJ_EVENT_GFX_HNS_DITTO_DOLL",
+      "number": 12396,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_DittoDoll",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55842,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_DittoDoll",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/a4034013a7fc7d9e.4bpp",
+          "sha256": "a4034013a7fc7d9ec05f0f229e4dbed6f7a2aa9481287c32e5224ac7fae5eb2f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_CYNDAQUIL_DOLL",
+      "identifier": "OBJ_EVENT_GFX_HNS_CYNDAQUIL_DOLL",
+      "number": 12397,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_CyndaquilDoll",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55842,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_CyndaquilDoll",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/7700b1d6a1ba86bc.4bpp",
+          "sha256": "7700b1d6a1ba86bcac6ded2c186904bdbd9b1159f1c01946f7c27728ba6e9a52"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KRIS_NORMAL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KRIS_NORMAL_HNS",
+      "number": 12398,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_KrisNormal_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55843,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_KrisNormalRunning_hns",
+          "frames": 18,
+          "path": "data/hns_region_assets/objects/pictures/6331ff7dfde70110.4bpp",
+          "sha256": "6331ff7dfde7011049c84c4286b2e16cc34921d41e9e490068993166e8e998e9"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_GOLD_NORMAL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS",
+      "number": 12399,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_GoldNormal_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55844,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_GoldNormalRunning_hns",
+          "frames": 18,
+          "path": "data/hns_region_assets/objects/pictures/97c0d14107b90a9d.4bpp",
+          "sha256": "97c0d14107b90a9de017df83be3d0a60ad9d3ce55f93d5fbee373ba1a2fbd92f"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_WILL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_WILL_HNS",
+      "number": 12400,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Will_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55845,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Will_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/3dade6b56bd88c59.4bpp",
+          "sha256": "3dade6b56bd88c59f5283ed73861abde838bc6fda8537810d85d888d8758373b"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KOGA_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KOGA_HNS",
+      "number": 12401,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Koga_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Koga_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/ed99eb84ae6caeae.4bpp",
+          "sha256": "ed99eb84ae6caeae5669730f5e2cb90663f081ebd9dd21afe3c7e2562c1880a2"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BRUNO_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BRUNO_HNS",
+      "number": 12402,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Bruno_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Bruno_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/4f3284c25f784fec.4bpp",
+          "sha256": "4f3284c25f784fec096cfa12125bf9fdb6acccc053c954530c019b28198a0152"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KAREN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KAREN_HNS",
+      "number": 12403,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Karen_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55846,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Karen_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d1b0676abfcce6ad.4bpp",
+          "sha256": "d1b0676abfcce6ad5def170f7240016e01f5e2a38962fdab2bd5f3559cda318d"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MYSTERY_EVENT_DELIVERYMAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MYSTERY_EVENT_DELIVERYMAN_HNS",
+      "number": 12404,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_MysteryEventDeliveryman_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55812,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_MysteryEventDeliveryman_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/735d62b15e7d9358.4bpp",
+          "sha256": "735d62b15e7d9358ff55743ccc5c96ac4e6dba74858381900f1f10f695dbf548"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_TOWER_BEAM_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_TOWER_BEAM_HNS",
+      "number": 12405,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_TowerBeam_hns",
+      "width": 64,
+      "height": 64,
+      "palette_tag": 55847,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_TowerBeam_hns",
+          "frames": 5,
+          "path": "data/hns_region_assets/objects/pictures/a61d6c6886348175.4bpp",
+          "sha256": "a61d6c68863481757075a67783d86c298988149510ea10788d396bc53c29868d"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SWIMMING_LAPRAS_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SWIMMING_LAPRAS_HNS",
+      "number": 12406,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SwimmingLapras_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55848,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SwimmingLapras_hns",
+          "frames": 6,
+          "path": "data/hns_region_assets/objects/pictures/4754d1ff8c5b9e10.4bpp",
+          "sha256": "4754d1ff8c5b9e105b7e84f8651b14d225e6ac94935b9c1ae6c18a44835cc5b4"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_KURT_LYING_DOWN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_KURT_LYING_DOWN_HNS",
+      "number": 12407,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_KurtLyingDown_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_KurtLyingDown_hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/8f1b87e734e6556f.4bpp",
+          "sha256": "8f1b87e734e6556f5bbcd9c9b253b6225c8f476da112740d98e3544801c82e44"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SHINY_GYARADOS_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SHINY_GYARADOS_HNS",
+      "number": 12408,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_ShinyGyarados_hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55849,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_ShinyGyarados_hns",
+          "frames": 6,
+          "path": "data/hns_region_assets/objects/pictures/e3be87b3399d7472.4bpp",
+          "sha256": "e3be87b3399d747206cd0620612b10b561d586a3549376690093605e49b2d037"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_RED_NORMAL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_RED_NORMAL_HNS",
+      "number": 12409,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_RedNormal_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55850,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_RedNormal_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/f953f71004640898.4bpp",
+          "sha256": "f953f710046408988ed76e6d307cd13ac0248f49297641e2d0c7ad794f81a8d3"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LITTLE_GIRL_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LITTLE_GIRL_HNS",
+      "number": 12410,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_LittleGirl_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55811,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_LittleGirl_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/b594f28c604301fb.4bpp",
+          "sha256": "b594f28c604301fb3b71a9d18e3ae04c2b1aa204b97e616d8be93d8a03dcc7bd"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MAN_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_MAN_HNS",
+      "number": 12411,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Man_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Man_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/ef313a5bdbe08398.4bpp",
+          "sha256": "ef313a5bdbe08398c5739f4e22a8aca8803007da255a35875be33e7950d90ee1"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BATTLE_TOWER_TRAINER_DUDE_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_BATTLE_TOWER_TRAINER_DUDE_HNS",
+      "number": 12412,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BattleTowerTrainerDude_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55808,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BattleTowerTrainerDude_hns",
+          "frames": 3,
+          "path": "data/hns_region_assets/objects/pictures/9511660a4bdc7641.4bpp",
+          "sha256": "9511660a4bdc764153e469d7cc8374098e12dd665553f9325b51e377453e3fb7"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_TUBER_M_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_TUBER_M_HNS",
+      "number": 12413,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_TuberM_hns",
+      "width": 16,
+      "height": 16,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_TuberM_hns",
+          "frames": 10,
+          "path": "data/hns_region_assets/objects/pictures/8b09f23adbbe01c7.4bpp",
+          "sha256": "8b09f23adbbe01c75d0689239ec9a3d6d9819455fcf959330c74bf9ba9ea117a"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SAILOR",
+      "identifier": "OBJ_EVENT_GFX_HNS_SAILOR",
+      "number": 12414,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Sailor",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55814,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Sailor",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/63eeacb650051978.4bpp",
+          "sha256": "63eeacb650051978fe469a9c0e16065bee49287cb530200e878d0668ff83380a"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SS_TIDAL",
+      "identifier": "OBJ_EVENT_GFX_HNS_SS_TIDAL",
+      "number": 12415,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_SSTidal",
+      "width": 96,
+      "height": 40,
+      "palette_tag": 55826,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_SSTidal",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/225e75899f6db363.4bpp",
+          "sha256": "225e75899f6db3634e206e790a6db181e21d6c5ea136075d542b33c3171cb946"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_MEW",
+      "identifier": "OBJ_EVENT_GFX_HNS_MEW",
+      "number": 12416,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Mew",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55814,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_MewOld",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/6053b7f0b388f8d3.4bpp",
+          "sha256": "6053b7f0b388f8d3cf0ec932f267b108eaaae06341dc19bb1fdea313995cb2f9"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+      "identifier": "OBJ_EVENT_GFX_HNS_DEOXYS_TRIANGLE",
+      "number": 12417,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BirthIslandStone",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55851,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_BirthIslandStone",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/0480831a525e70a2.4bpp",
+          "sha256": "0480831a525e70a29fc8219dd39736a42eb146c5311bbb4452828e87d89690dc"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_DEOXYS",
+      "identifier": "OBJ_EVENT_GFX_HNS_DEOXYS",
+      "number": 12418,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Deoxys",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55852,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_DeoxysOld",
+          "frames": 2,
+          "path": "data/hns_region_assets/objects/pictures/ffb6faed0ae4dff6.4bpp",
+          "sha256": "ffb6faed0ae4dff6fdd1a00544ff75dbe4eb018370879c34813241456044eb9e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_LIGHT_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_LIGHT_HNS",
+      "number": 12419,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_BallLight_Hns",
+      "width": 32,
+      "height": 32,
+      "palette_tag": 55816,
+      "picture_data": [
+        {
+          "source": "gFieldEffectObjectPic_BallLight_Hns",
+          "frames": 1,
+          "path": "data/hns_region_assets/objects/pictures/a1e4deae69540361.4bpp",
+          "sha256": "a1e4deae695403616ed480739fdb33d6f5ad35aa98d3ef1ec1b9483e21001b9e"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_BOY_1",
+      "identifier": "OBJ_EVENT_GFX_HNS_BOY_1",
+      "number": 12420,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Boy1",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55813,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Boy1",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/bfd02e224be18ae2.4bpp",
+          "sha256": "bfd02e224be18ae2dbbd40dba6680bf490f48c4cfc7b64a36ca49584ef8e3857"
+        }
+      ]
+    },
+    {
+      "source": "OBJ_EVENT_GFX_SCOTT_HNS",
+      "identifier": "OBJ_EVENT_GFX_HNS_SCOTT_HNS",
+      "number": 12421,
+      "info": "gHnsRegionInfo_gObjectEventGraphicsInfo_Scott_hns",
+      "width": 16,
+      "height": 32,
+      "palette_tag": 55809,
+      "picture_data": [
+        {
+          "source": "gObjectEventPic_Scott_hns",
+          "frames": 9,
+          "path": "data/hns_region_assets/objects/pictures/d1336768288b48f9.4bpp",
+          "sha256": "d1336768288b48f96cf87af9aa927132215e56ef6004bcb38851e50c9fed39c9"
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "OBJ_EVENT_GFX_FAT_MAN_HNS": "OBJ_EVENT_GFX_HNS_FAT_MAN_HNS",
+    "OBJ_EVENT_GFX_LASS_HNS": "OBJ_EVENT_GFX_HNS_LASS_HNS",
+    "OBJ_EVENT_GFX_SILVER_HNS": "OBJ_EVENT_GFX_HNS_SILVER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WOOPER": "OBJ_EVENT_GFX_SPECIES(WOOPER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PINECO": "OBJ_EVENT_GFX_SPECIES(PINECO)",
+    "OBJ_EVENT_GFX_OLD_MAN_HNS": "OBJ_EVENT_GFX_HNS_OLD_MAN_HNS",
+    "OBJ_EVENT_GFX_FISHERMAN_HNS": "OBJ_EVENT_GFX_HNS_FISHERMAN_HNS",
+    "OBJ_EVENT_GFX_BOY_2_HNS": "OBJ_EVENT_GFX_HNS_BOY_2_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CORSOLA": "OBJ_EVENT_GFX_SPECIES(CORSOLA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_STARYU": "OBJ_EVENT_GFX_SPECIES(STARYU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KRABBY": "OBJ_EVENT_GFX_SPECIES(KRABBY)",
+    "OBJ_EVENT_GFX_WOMAN_2_HNS": "OBJ_EVENT_GFX_HNS_WOMAN_2_HNS",
+    "OBJ_EVENT_GFX_OLD_MAN_2_HNS": "OBJ_EVENT_GFX_HNS_OLD_MAN_2_HNS",
+    "OBJ_EVENT_GFX_SUPER_NERD_HNS": "OBJ_EVENT_GFX_HNS_SUPER_NERD_HNS",
+    "OBJ_EVENT_GFX_YOUNGSTER_HNS": "OBJ_EVENT_GFX_HNS_YOUNGSTER_HNS",
+    "OBJ_EVENT_GFX_POKE_BALL": "OBJ_EVENT_GFX_HNS_POKE_BALL",
+    "OBJ_EVENT_GFX_CUTTABLE_TREE_HNS": "OBJ_EVENT_GFX_HNS_CUTTABLE_TREE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BELLSPROUT": "OBJ_EVENT_GFX_SPECIES(BELLSPROUT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_POLIWAG": "OBJ_EVENT_GFX_SPECIES(POLIWAG)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HOOTHOOT": "OBJ_EVENT_GFX_SPECIES(HOOTHOOT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PIDGEOTTO": "OBJ_EVENT_GFX_SPECIES(PIDGEOTTO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GASTLY": "OBJ_EVENT_GFX_SPECIES(GASTLY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HAUNTER": "OBJ_EVENT_GFX_SPECIES(HAUNTER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PICHU": "OBJ_EVENT_GFX_SPECIES(PICHU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SPEAROW": "OBJ_EVENT_GFX_SPECIES(SPEAROW)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RATTATA": "OBJ_EVENT_GFX_SPECIES(RATTATA)",
+    "OBJ_EVENT_GFX_BERRY_TREE": "OBJ_EVENT_GFX_HNS_BERRY_TREE",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MISDREAVUS": "OBJ_EVENT_GFX_SPECIES(MISDREAVUS)",
+    "OBJ_EVENT_GFX_KIMONO_HNS": "OBJ_EVENT_GFX_HNS_KIMONO_HNS",
+    "OBJ_EVENT_GFX_SMALL_LIGHT_HNS": "OBJ_EVENT_GFX_HNS_SMALL_LIGHT_HNS",
+    "OBJ_EVENT_GFX_ROCKET_M_HNS": "OBJ_EVENT_GFX_HNS_ROCKET_M_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_EKANS": "OBJ_EVENT_GFX_SPECIES(EKANS)",
+    "OBJ_EVENT_GFX_NO_TAIL_SLOWPOKE_HNS": "OBJ_EVENT_GFX_HNS_NO_TAIL_SLOWPOKE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SCYTHER": "OBJ_EVENT_GFX_SPECIES(SCYTHER)",
+    "OBJ_EVENT_GFX_KURT_HNS": "OBJ_EVENT_GFX_HNS_KURT_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HERACROSS": "OBJ_EVENT_GFX_SPECIES(HERACROSS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SLOWPOKE": "OBJ_EVENT_GFX_SPECIES(SLOWPOKE)",
+    "OBJ_EVENT_GFX_HIKER_HNS": "OBJ_EVENT_GFX_HNS_HIKER_HNS",
+    "OBJ_EVENT_GFX_ROCKET_F_HNS": "OBJ_EVENT_GFX_HNS_ROCKET_F_HNS",
+    "OBJ_EVENT_GFX_BATTLE_GIRL_HNS": "OBJ_EVENT_GFX_HNS_BATTLE_GIRL_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNUBBULL": "OBJ_EVENT_GFX_SPECIES(SNUBBULL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PIDGEY": "OBJ_EVENT_GFX_SPECIES(PIDGEY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CLEFAIRY": "OBJ_EVENT_GFX_SPECIES(CLEFAIRY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GRIMER": "OBJ_EVENT_GFX_SPECIES(GRIMER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MR_MIME": "OBJ_EVENT_GFX_SPECIES(MR_MIME)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HYPNO": "OBJ_EVENT_GFX_SPECIES(HYPNO)",
+    "OBJ_EVENT_GFX_BEAUTY_HNS": "OBJ_EVENT_GFX_HNS_BEAUTY_HNS",
+    "OBJ_EVENT_GFX_SAGE_HNS": "OBJ_EVENT_GFX_HNS_SAGE_HNS",
+    "OBJ_EVENT_GFX_WOMAN_1_HNS": "OBJ_EVENT_GFX_HNS_WOMAN_1_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VULPIX": "OBJ_EVENT_GFX_SPECIES(VULPIX)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NOCTOWL": "OBJ_EVENT_GFX_SPECIES(NOCTOWL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GENGAR": "OBJ_EVENT_GFX_SPECIES(GENGAR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_POLIWHIRL": "OBJ_EVENT_GFX_SPECIES(POLIWHIRL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_EEVEE": "OBJ_EVENT_GFX_SPECIES(EEVEE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MISMAGIUS": "OBJ_EVENT_GFX_SPECIES(MISMAGIUS)",
+    "OBJ_EVENT_GFX_SAILOR_HNS": "OBJ_EVENT_GFX_HNS_SAILOR_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TENTACOOL": "OBJ_EVENT_GFX_SPECIES(TENTACOOL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MACHOKE": "OBJ_EVENT_GFX_SPECIES(MACHOKE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FURRET": "OBJ_EVENT_GFX_SPECIES(FURRET)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SKARMORY": "OBJ_EVENT_GFX_SPECIES(SKARMORY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SENTRET": "OBJ_EVENT_GFX_SPECIES(SENTRET)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MACHOP": "OBJ_EVENT_GFX_SPECIES(MACHOP)",
+    "OBJ_EVENT_GFX_ITEM_BALL_HNS": "OBJ_EVENT_GFX_HNS_ITEM_BALL_HNS",
+    "OBJ_EVENT_GFX_ATTENDANT_F_HNS": "OBJ_EVENT_GFX_HNS_ATTENDANT_F_HNS",
+    "OBJ_EVENT_GFX_TWIN_HNS": "OBJ_EVENT_GFX_HNS_TWIN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SUICUNE": "OBJ_EVENT_GFX_SPECIES(SUICUNE)",
+    "OBJ_EVENT_GFX_EUSINE_HNS": "OBJ_EVENT_GFX_HNS_EUSINE_HNS",
+    "OBJ_EVENT_GFX_WOMAN_3_HNS": "OBJ_EVENT_GFX_HNS_WOMAN_3_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SHUCKLE": "OBJ_EVENT_GFX_SPECIES(SHUCKLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GEODUDE": "OBJ_EVENT_GFX_SPECIES(GEODUDE)",
+    "OBJ_EVENT_GFX_BREAKABLE_ROCK_HNS": "OBJ_EVENT_GFX_HNS_BREAKABLE_ROCK_HNS",
+    "OBJ_EVENT_GFX_ENGINEER_HNS": "OBJ_EVENT_GFX_HNS_ENGINEER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BUTTERFREE": "OBJ_EVENT_GFX_SPECIES(BUTTERFREE)",
+    "OBJ_EVENT_GFX_WORKER_M_HNS": "OBJ_EVENT_GFX_HNS_WORKER_M_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KANGASKHAN": "OBJ_EVENT_GFX_SPECIES(KANGASKHAN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_JIGGLYPUFF": "OBJ_EVENT_GFX_SPECIES(JIGGLYPUFF)",
+    "OBJ_EVENT_GFX_BALDING_MAN_HNS": "OBJ_EVENT_GFX_HNS_BALDING_MAN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_AIPOM": "OBJ_EVENT_GFX_SPECIES(AIPOM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DELIBIRD": "OBJ_EVENT_GFX_SPECIES(DELIBIRD)",
+    "OBJ_EVENT_GFX_COOLTRAINER_F_HNS": "OBJ_EVENT_GFX_HNS_COOLTRAINER_F_HNS",
+    "OBJ_EVENT_GFX_BLACK_BELT_HNS": "OBJ_EVENT_GFX_HNS_BLACK_BELT_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DRAGONAIR": "OBJ_EVENT_GFX_SPECIES(DRAGONAIR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GRAVELER": "OBJ_EVENT_GFX_SPECIES(GRAVELER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GLIGAR": "OBJ_EVENT_GFX_SPECIES(GLIGAR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_URSARING": "OBJ_EVENT_GFX_SPECIES(URSARING)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DONPHAN": "OBJ_EVENT_GFX_SPECIES(DONPHAN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HORSEA": "OBJ_EVENT_GFX_SPECIES(HORSEA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_REMORAID": "OBJ_EVENT_GFX_SPECIES(REMORAID)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HOPPIP": "OBJ_EVENT_GFX_SPECIES(HOPPIP)",
+    "OBJ_EVENT_GFX_LITTLE_BOY_HNS": "OBJ_EVENT_GFX_HNS_LITTLE_BOY_HNS",
+    "OBJ_EVENT_GFX_BUG_CATCHER_HNS": "OBJ_EVENT_GFX_HNS_BUG_CATCHER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CATERPIE": "OBJ_EVENT_GFX_SPECIES(CATERPIE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WEEDLE": "OBJ_EVENT_GFX_SPECIES(WEEDLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SPINARAK": "OBJ_EVENT_GFX_SPECIES(SPINARAK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LEDYBA": "OBJ_EVENT_GFX_SPECIES(LEDYBA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ZUBAT": "OBJ_EVENT_GFX_SPECIES(ZUBAT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAREEP": "OBJ_EVENT_GFX_SPECIES(MAREEP)",
+    "OBJ_EVENT_GFX_PICNICKER_HNS": "OBJ_EVENT_GFX_HNS_PICNICKER_HNS",
+    "OBJ_EVENT_GFX_CAMPER_HNS": "OBJ_EVENT_GFX_HNS_CAMPER_HNS",
+    "OBJ_EVENT_GFX_ROCKER_HNS": "OBJ_EVENT_GFX_HNS_ROCKER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_QUAGSIRE": "OBJ_EVENT_GFX_SPECIES(QUAGSIRE)",
+    "OBJ_EVENT_GFX_COOLTRAINER_M_HNS": "OBJ_EVENT_GFX_HNS_COOLTRAINER_M_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LAPRAS": "OBJ_EVENT_GFX_SPECIES(LAPRAS)",
+    "OBJ_EVENT_GFX_OFFICER_HNS": "OBJ_EVENT_GFX_HNS_OFFICER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DITTO": "OBJ_EVENT_GFX_SPECIES(DITTO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MANKEY": "OBJ_EVENT_GFX_SPECIES(MANKEY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DROWZEE": "OBJ_EVENT_GFX_SPECIES(DROWZEE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ABRA": "OBJ_EVENT_GFX_SPECIES(ABRA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TENTACRUEL": "OBJ_EVENT_GFX_SPECIES(TENTACRUEL)",
+    "OBJ_EVENT_GFX_FIREBREATHER_HNS": "OBJ_EVENT_GFX_HNS_FIREBREATHER_HNS",
+    "OBJ_EVENT_GFX_JUGGLER_HNS": "OBJ_EVENT_GFX_HNS_JUGGLER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE": "OBJ_EVENT_GFX_SPECIES(GROWLITHE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_YANMA": "OBJ_EVENT_GFX_SPECIES(YANMA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PSYDUCK": "OBJ_EVENT_GFX_SPECIES(PSYDUCK)",
+    "OBJ_EVENT_GFX_PSYCHIC_M_HNS": "OBJ_EVENT_GFX_HNS_PSYCHIC_M_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SUDOWOODO": "OBJ_EVENT_GFX_SPECIES(SUDOWOODO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HOUNDOUR": "OBJ_EVENT_GFX_SPECIES(HOUNDOUR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LEDIAN": "OBJ_EVENT_GFX_SPECIES(LEDIAN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_STANTLER": "OBJ_EVENT_GFX_SPECIES(STANTLER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARIADOS": "OBJ_EVENT_GFX_SPECIES(ARIADOS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MEOWTH": "OBJ_EVENT_GFX_SPECIES(MEOWTH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DODUO": "OBJ_EVENT_GFX_SPECIES(DODUO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TAUROS": "OBJ_EVENT_GFX_SPECIES(TAUROS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RATICATE": "OBJ_EVENT_GFX_SPECIES(RATICATE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGNEMITE": "OBJ_EVENT_GFX_SPECIES(MAGNEMITE)",
+    "OBJ_EVENT_GFX_GENTLEMAN_HNS": "OBJ_EVENT_GFX_HNS_GENTLEMAN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MILTANK": "OBJ_EVENT_GFX_SPECIES(MILTANK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PONYTA": "OBJ_EVENT_GFX_SPECIES(PONYTA)",
+    "OBJ_EVENT_GFX_LEGENDARY_SHADOW_HNS": "OBJ_EVENT_GFX_HNS_LEGENDARY_SHADOW_HNS",
+    "OBJ_EVENT_GFX_SWIMMER_F_HNS": "OBJ_EVENT_GFX_HNS_SWIMMER_F_HNS",
+    "OBJ_EVENT_GFX_SWIMMER_M_HNS": "OBJ_EVENT_GFX_HNS_SWIMMER_M_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TEDDIURSA": "OBJ_EVENT_GFX_SPECIES(TEDDIURSA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SHELLDER": "OBJ_EVENT_GFX_SPECIES(SHELLDER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHINCHOU": "OBJ_EVENT_GFX_SPECIES(CHINCHOU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LANTURN": "OBJ_EVENT_GFX_SPECIES(LANTURN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MANTINE": "OBJ_EVENT_GFX_SPECIES(MANTINE)",
+    "OBJ_EVENT_GFX_WHIRLPOOL_HNS": "OBJ_EVENT_GFX_HNS_WHIRLPOOL_HNS",
+    "OBJ_EVENT_GFX_ARCHER_HNS": "OBJ_EVENT_GFX_HNS_ARCHER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FEAROW": "OBJ_EVENT_GFX_SPECIES(FEAROW)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARBOK": "OBJ_EVENT_GFX_SPECIES(ARBOK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VENOMOTH": "OBJ_EVENT_GFX_SPECIES(VENOMOTH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VENONAT": "OBJ_EVENT_GFX_SPECIES(VENONAT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GIRAFARIG": "OBJ_EVENT_GFX_SPECIES(GIRAFARIG)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FARFETCHD": "OBJ_EVENT_GFX_SPECIES(FARFETCHD)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FLAAFFY": "OBJ_EVENT_GFX_SPECIES(FLAAFFY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TANGELA": "OBJ_EVENT_GFX_SPECIES(TANGELA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ELECTABUZZ": "OBJ_EVENT_GFX_SPECIES(ELECTABUZZ)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LICKITUNG": "OBJ_EVENT_GFX_SPECIES(LICKITUNG)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WEEPINBELL": "OBJ_EVENT_GFX_SPECIES(WEEPINBELL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PHANPY": "OBJ_EVENT_GFX_SPECIES(PHANPY)",
+    "OBJ_EVENT_GFX_WORKER_F_HNS": "OBJ_EVENT_GFX_HNS_WORKER_F_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SEEL": "OBJ_EVENT_GFX_SPECIES(SEEL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHANSEY": "OBJ_EVENT_GFX_SPECIES(CHANSEY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GLOOM": "OBJ_EVENT_GFX_SPECIES(GLOOM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SKIPLOOM": "OBJ_EVENT_GFX_SPECIES(SKIPLOOM)",
+    "OBJ_EVENT_GFX_FISHER": "OBJ_EVENT_GFX_HNS_FISHER",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SLOWBRO": "OBJ_EVENT_GFX_SPECIES(SLOWBRO)",
+    "OBJ_EVENT_GFX_SLEEPING_SNORLAX_HNS": "OBJ_EVENT_GFX_HNS_SLEEPING_SNORLAX_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RAICHU": "OBJ_EVENT_GFX_SPECIES(RAICHU)",
+    "OBJ_EVENT_GFX_STEVEN_HNS": "OBJ_EVENT_GFX_HNS_STEVEN_HNS",
+    "OBJ_EVENT_GFX_ALOLA_OAK_HNS": "OBJ_EVENT_GFX_HNS_ALOLA_OAK_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_POLIWRATH": "OBJ_EVENT_GFX_SPECIES(POLIWRATH)",
+    "OBJ_EVENT_GFX_ERIKA_HNS": "OBJ_EVENT_GFX_HNS_ERIKA_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KABUTO": "OBJ_EVENT_GFX_SPECIES(KABUTO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DRATINI": "OBJ_EVENT_GFX_SPECIES(DRATINI)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CUBONE": "OBJ_EVENT_GFX_SPECIES(CUBONE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_OMANYTE": "OBJ_EVENT_GFX_SPECIES(OMANYTE)",
+    "OBJ_EVENT_GFX_BLUE_HNS": "OBJ_EVENT_GFX_HNS_BLUE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGCARGO": "OBJ_EVENT_GFX_SPECIES(MAGCARGO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SLUGMA": "OBJ_EVENT_GFX_SPECIES(SLUGMA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KOFFING": "OBJ_EVENT_GFX_SPECIES(KOFFING)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WEEZING": "OBJ_EVENT_GFX_SPECIES(WEEZING)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGMAR": "OBJ_EVENT_GFX_SPECIES(MAGMAR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGBY": "OBJ_EVENT_GFX_SPECIES(MAGBY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TORKOAL": "OBJ_EVENT_GFX_SPECIES(TORKOAL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WAILMER": "OBJ_EVENT_GFX_SPECIES(WAILMER)",
+    "OBJ_EVENT_GFX_BLAINE_HNS": "OBJ_EVENT_GFX_HNS_BLAINE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_POOCHYENA": "OBJ_EVENT_GFX_SPECIES(POOCHYENA)",
+    "OBJ_EVENT_MON+SPECIES_RATTATA+OBJ_EVENT_MON_SHINY": "OBJ_EVENT_GFX_SPECIES_SHINY(RATTATA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ZIGZAGOON": "OBJ_EVENT_GFX_SPECIES(ZIGZAGOON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SKITTY": "OBJ_EVENT_GFX_SPECIES(SKITTY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SANDSHREW": "OBJ_EVENT_GFX_SPECIES(SANDSHREW)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NINCADA": "OBJ_EVENT_GFX_SPECIES(NINCADA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SEVIPER": "OBJ_EVENT_GFX_SPECIES(SEVIPER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ZANGOOSE": "OBJ_EVENT_GFX_SPECIES(ZANGOOSE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SPINDA": "OBJ_EVENT_GFX_SPECIES(SPINDA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GRANBULL": "OBJ_EVENT_GFX_SPECIES(GRANBULL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PLUSLE": "OBJ_EVENT_GFX_SPECIES(PLUSLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MINUN": "OBJ_EVENT_GFX_SPECIES(MINUN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RALTS": "OBJ_EVENT_GFX_SPECIES(RALTS)",
+    "OBJ_EVENT_GFX_BIKER_HNS": "OBJ_EVENT_GFX_HNS_BIKER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KADABRA": "OBJ_EVENT_GFX_SPECIES(KADABRA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DUSKULL": "OBJ_EVENT_GFX_SPECIES(DUSKULL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAROWAK": "OBJ_EVENT_GFX_SPECIES(MAROWAK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARON": "OBJ_EVENT_GFX_SPECIES(ARON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ZAPDOS": "OBJ_EVENT_GFX_SPECIES(ZAPDOS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLTORB": "OBJ_EVENT_GFX_SPECIES(VOLTORB)",
+    "OBJ_EVENT_GFX_SURGE_HNS": "OBJ_EVENT_GFX_HNS_SURGE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ELECTRIKE": "OBJ_EVENT_GFX_SPECIES(ELECTRIKE)",
+    "OBJ_EVENT_GFX_PUSHABLE_BOULDER_HNS": "OBJ_EVENT_GFX_HNS_PUSHABLE_BOULDER_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SLAKOTH": "OBJ_EVENT_GFX_SPECIES(SLAKOTH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CARVANHA": "OBJ_EVENT_GFX_SPECIES(CARVANHA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGIKARP": "OBJ_EVENT_GFX_SPECIES(MAGIKARP)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NIDORINO": "OBJ_EVENT_GFX_SPECIES(NIDORINO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NIDORINA": "OBJ_EVENT_GFX_SPECIES(NIDORINA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SEEDOT": "OBJ_EVENT_GFX_SPECIES(SEEDOT)",
+    "OBJ_EVENT_GFX_SS_AQUA_HNS": "OBJ_EVENT_GFX_HNS_SS_AQUA_HNS",
+    "OBJ_EVENT_GFX_CAPTAIN_HNS": "OBJ_EVENT_GFX_HNS_CAPTAIN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SHROOMISH": "OBJ_EVENT_GFX_SPECIES(SHROOMISH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLBEAT": "OBJ_EVENT_GFX_SPECIES(VOLBEAT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ILLUMISE": "OBJ_EVENT_GFX_SPECIES(ILLUMISE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MURKROW": "OBJ_EVENT_GFX_SPECIES(MURKROW)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SHUPPET": "OBJ_EVENT_GFX_SPECIES(SHUPPET)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ROSELIA": "OBJ_EVENT_GFX_SPECIES(ROSELIA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GULPIN": "OBJ_EVENT_GFX_SPECIES(GULPIN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KECLEON": "OBJ_EVENT_GFX_SPECIES(KECLEON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DODRIO": "OBJ_EVENT_GFX_SPECIES(DODRIO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KINGLER": "OBJ_EVENT_GFX_SPECIES(KINGLER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WINGULL": "OBJ_EVENT_GFX_SPECIES(WINGULL)",
+    "OBJ_EVENT_GFX_ITEM_BALL": "OBJ_EVENT_GFX_HNS_ITEM_BALL",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DEWGONG": "OBJ_EVENT_GFX_SPECIES(DEWGONG)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CLAMPERL": "OBJ_EVENT_GFX_SPECIES(CLAMPERL)",
+    "OBJ_EVENT_MON+SPECIES_MAGIKARP+OBJ_EVENT_MON_SHINY": "OBJ_EVENT_GFX_SPECIES_SHINY(MAGIKARP)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CORPHISH": "OBJ_EVENT_GFX_SPECIES(CORPHISH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TAILLOW": "OBJ_EVENT_GFX_SPECIES(TAILLOW)",
+    "OBJ_EVENT_GFX_GIOVANNI_HNS": "OBJ_EVENT_GFX_HNS_GIOVANNI_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SURSKIT": "OBJ_EVENT_GFX_SPECIES(SURSKIT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SPOINK": "OBJ_EVENT_GFX_SPECIES(SPOINK)",
+    "OBJ_EVENT_GFX_MISTY_HNS": "OBJ_EVENT_GFX_HNS_MISTY_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SWABLU": "OBJ_EVENT_GFX_SPECIES(SWABLU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LUVDISC": "OBJ_EVENT_GFX_SPECIES(LUVDISC)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BULBASAUR": "OBJ_EVENT_GFX_SPECIES(BULBASAUR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SQUIRTLE": "OBJ_EVENT_GFX_SPECIES(SQUIRTLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHARMANDER": "OBJ_EVENT_GFX_SPECIES(CHARMANDER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RAPIDASH": "OBJ_EVENT_GFX_SPECIES(RAPIDASH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHIKORITA": "OBJ_EVENT_GFX_SPECIES(CHIKORITA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CYNDAQUIL": "OBJ_EVENT_GFX_SPECIES(CYNDAQUIL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TOTODILE": "OBJ_EVENT_GFX_SPECIES(TOTODILE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GOLBAT": "OBJ_EVENT_GFX_SPECIES(GOLBAT)",
+    "OBJ_EVENT_GFX_SCIENTIST_F_HNS": "OBJ_EVENT_GFX_HNS_SCIENTIST_F_HNS",
+    "OBJ_EVENT_GFX_SCIENTIST_M_HNS": "OBJ_EVENT_GFX_HNS_SCIENTIST_M_HNS",
+    "OBJ_EVENT_GFX_ELM_HNS": "OBJ_EVENT_GFX_HNS_ELM_HNS",
+    "OBJ_EVENT_GFX_MOM_HNS": "OBJ_EVENT_GFX_HNS_MOM_HNS",
+    "OBJ_EVENT_GFX_NURSE_HNS": "OBJ_EVENT_GFX_HNS_NURSE_HNS",
+    "OBJ_EVENT_GFX_NURSE_CHANSEY_HNS": "OBJ_EVENT_GFX_HNS_NURSE_CHANSEY_HNS",
+    "OBJ_EVENT_GFX_MART_EMPLOYEE_HNS": "OBJ_EVENT_GFX_HNS_MART_EMPLOYEE_HNS",
+    "OBJ_EVENT_GFX_GAMEBOY_KID_HNS": "OBJ_EVENT_GFX_HNS_GAMEBOY_KID_HNS",
+    "OBJ_EVENT_GFX_OLD_WOMAN_HNS": "OBJ_EVENT_GFX_HNS_OLD_WOMAN_HNS",
+    "OBJ_EVENT_GFX_FALKNER_HNS": "OBJ_EVENT_GFX_HNS_FALKNER_HNS",
+    "OBJ_EVENT_GFX_GYM_GUY_HNS": "OBJ_EVENT_GFX_HNS_GYM_GUY_HNS",
+    "OBJ_EVENT_GFX_BUGSY_HNS": "OBJ_EVENT_GFX_HNS_BUGSY_HNS",
+    "OBJ_EVENT_GFX_LINK_RECEPTIONIST_HNS": "OBJ_EVENT_GFX_HNS_LINK_RECEPTIONIST_HNS",
+    "OBJ_EVENT_GFX_BURGLAR_HNS": "OBJ_EVENT_GFX_HNS_BURGLAR_HNS",
+    "OBJ_EVENT_GFX_WHITNEY_HNS": "OBJ_EVENT_GFX_HNS_WHITNEY_HNS",
+    "OBJ_EVENT_GFX_GIRL_1_HNS": "OBJ_EVENT_GFX_HNS_GIRL_1_HNS",
+    "OBJ_EVENT_GFX_BILL_HNS": "OBJ_EVENT_GFX_HNS_BILL_HNS",
+    "OBJ_EVENT_GFX_ATTENDANT_M_HNS": "OBJ_EVENT_GFX_HNS_ATTENDANT_M_HNS",
+    "OBJ_EVENT_GFX_TRAIN_EAST_HNS": "OBJ_EVENT_GFX_HNS_TRAIN_EAST_HNS",
+    "OBJ_EVENT_GFX_PROTON_HNS": "OBJ_EVENT_GFX_HNS_PROTON_HNS",
+    "OBJ_EVENT_GFX_ARIANA_HNS": "OBJ_EVENT_GFX_HNS_ARIANA_HNS",
+    "OBJ_EVENT_GFX_PETREL_HNS": "OBJ_EVENT_GFX_HNS_PETREL_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_POLITOED": "OBJ_EVENT_GFX_SPECIES(POLITOED)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WYRDEER": "OBJ_EVENT_GFX_SPECIES(WYRDEER)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HOUNDOOM": "OBJ_EVENT_GFX_SPECIES(HOUNDOOM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PIDGEOT": "OBJ_EVENT_GFX_SPECIES(PIDGEOT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ANNIHILAPE": "OBJ_EVENT_GFX_SPECIES(ANNIHILAPE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NINETALES": "OBJ_EVENT_GFX_SPECIES(NINETALES)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FARIGIRAF": "OBJ_EVENT_GFX_SPECIES(FARIGIRAF)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HITMONTOP": "OBJ_EVENT_GFX_SPECIES(HITMONTOP)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ESPEON": "OBJ_EVENT_GFX_SPECIES(ESPEON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_UMBREON": "OBJ_EVENT_GFX_SPECIES(UMBREON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HONCHKROW": "OBJ_EVENT_GFX_SPECIES(HONCHKROW)",
+    "OBJ_EVENT_GFX_MORTY_HNS": "OBJ_EVENT_GFX_HNS_MORTY_HNS",
+    "OBJ_EVENT_GFX_CHANNELER_HNS": "OBJ_EVENT_GFX_HNS_CHANNELER_HNS",
+    "OBJ_EVENT_GFX_JASMINE_HNS": "OBJ_EVENT_GFX_HNS_JASMINE_HNS",
+    "OBJ_EVENT_GFX_SABRINA_HNS": "OBJ_EVENT_GFX_HNS_SABRINA_HNS",
+    "OBJ_EVENT_GFX_PROF_OAK_HNS": "OBJ_EVENT_GFX_HNS_PROF_OAK_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_AMPHAROS": "OBJ_EVENT_GFX_SPECIES(AMPHAROS)",
+    "OBJ_EVENT_GFX_CHUCK_HNS": "OBJ_EVENT_GFX_HNS_CHUCK_HNS",
+    "OBJ_EVENT_GFX_SKIER_F_HNS": "OBJ_EVENT_GFX_HNS_SKIER_F_HNS",
+    "OBJ_EVENT_GFX_SKIER_M_HNS": "OBJ_EVENT_GFX_HNS_SKIER_M_HNS",
+    "OBJ_EVENT_GFX_PRYCE_HNS": "OBJ_EVENT_GFX_HNS_PRYCE_HNS",
+    "OBJ_EVENT_GFX_LANCE_HNS": "OBJ_EVENT_GFX_HNS_LANCE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DRAGONITE": "OBJ_EVENT_GFX_SPECIES(DRAGONITE)",
+    "OBJ_EVENT_GFX_CLAIR_HNS": "OBJ_EVENT_GFX_HNS_CLAIR_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHARIZARD": "OBJ_EVENT_GFX_SPECIES(CHARIZARD)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NIDORAN_M": "OBJ_EVENT_GFX_SPECIES(NIDORAN_M)",
+    "OBJ_EVENT_GFX_BROCK_HNS": "OBJ_EVENT_GFX_HNS_BROCK_HNS",
+    "OBJ_EVENT_GFX_FOSSIL_HNS": "OBJ_EVENT_GFX_HNS_FOSSIL_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DIGLETT": "OBJ_EVENT_GFX_SPECIES(DIGLETT)",
+    "OBJ_EVENT_GFX_CLEFAIRY_DOLL": "OBJ_EVENT_GFX_HNS_CLEFAIRY_DOLL",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BAYLEEF": "OBJ_EVENT_GFX_SPECIES(BAYLEEF)",
+    "OBJ_EVENT_GFX_SAGE_ELDER_HNS": "OBJ_EVENT_GFX_HNS_SAGE_ELDER_HNS",
+    "OBJ_EVENT_GFX_COOK_HNS": "OBJ_EVENT_GFX_HNS_COOK_HNS",
+    "OBJ_EVENT_GFX_TRAIN_WEST_HNS": "OBJ_EVENT_GFX_HNS_TRAIN_WEST_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LICKILICKY": "OBJ_EVENT_GFX_SPECIES(LICKILICKY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MACHAMP": "OBJ_EVENT_GFX_SPECIES(MACHAMP)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_STEELIX": "OBJ_EVENT_GFX_SPECIES(STEELIX)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ALAKAZAM": "OBJ_EVENT_GFX_SPECIES(ALAKAZAM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SLOWKING": "OBJ_EVENT_GFX_SPECIES(SLOWKING)",
+    "OBJ_EVENT_GFX_JANINE_HNS": "OBJ_EVENT_GFX_HNS_JANINE_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KINGDRA": "OBJ_EVENT_GFX_SPECIES(KINGDRA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_STARMIE": "OBJ_EVENT_GFX_SPECIES(STARMIE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VICTREEBEL": "OBJ_EVENT_GFX_SPECIES(VICTREEBEL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SCIZOR": "OBJ_EVENT_GFX_SPECIES(SCIZOR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ONIX": "OBJ_EVENT_GFX_SPECIES(ONIX)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MUK": "OBJ_EVENT_GFX_SPECIES(MUK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BLISSEY": "OBJ_EVENT_GFX_SPECIES(BLISSEY)",
+    "OBJ_EVENT_GFX_DITTO_DOLL": "OBJ_EVENT_GFX_HNS_DITTO_DOLL",
+    "OBJ_EVENT_GFX_CYNDAQUIL_DOLL": "OBJ_EVENT_GFX_HNS_CYNDAQUIL_DOLL",
+    "OBJ_EVENT_GFX_KRIS_NORMAL_HNS": "OBJ_EVENT_GFX_HNS_KRIS_NORMAL_HNS",
+    "OBJ_EVENT_GFX_GOLD_NORMAL_HNS": "OBJ_EVENT_GFX_HNS_GOLD_NORMAL_HNS",
+    "OBJ_EVENT_GFX_WILL_HNS": "OBJ_EVENT_GFX_HNS_WILL_HNS",
+    "OBJ_EVENT_GFX_KOGA_HNS": "OBJ_EVENT_GFX_HNS_KOGA_HNS",
+    "OBJ_EVENT_GFX_BRUNO_HNS": "OBJ_EVENT_GFX_HNS_BRUNO_HNS",
+    "OBJ_EVENT_GFX_KAREN_HNS": "OBJ_EVENT_GFX_HNS_KAREN_HNS",
+    "OBJ_EVENT_GFX_MYSTERY_EVENT_DELIVERYMAN_HNS": "OBJ_EVENT_GFX_HNS_MYSTERY_EVENT_DELIVERYMAN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DUNSPARCE": "OBJ_EVENT_GFX_SPECIES(DUNSPARCE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LARVITAR": "OBJ_EVENT_GFX_SPECIES(LARVITAR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WOBBUFFET": "OBJ_EVENT_GFX_SPECIES(WOBBUFFET)",
+    "OBJ_EVENT_GFX_TOWER_BEAM_HNS": "OBJ_EVENT_GFX_HNS_TOWER_BEAM_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_UNOWN": "OBJ_EVENT_GFX_SPECIES(UNOWN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NATU": "OBJ_EVENT_GFX_SPECIES(NATU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SMEARGLE": "OBJ_EVENT_GFX_SPECIES(SMEARGLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MARILL": "OBJ_EVENT_GFX_SPECIES(MARILL)",
+    "OBJ_EVENT_GFX_SWIMMING_LAPRAS_HNS": "OBJ_EVENT_GFX_HNS_SWIMMING_LAPRAS_HNS",
+    "OBJ_EVENT_GFX_KURT_LYING_DOWN_HNS": "OBJ_EVENT_GFX_HNS_KURT_LYING_DOWN_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CELEBI": "OBJ_EVENT_GFX_SPECIES(CELEBI)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PARAS": "OBJ_EVENT_GFX_SPECIES(PARAS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ODDISH": "OBJ_EVENT_GFX_SPECIES(ODDISH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KAKUNA": "OBJ_EVENT_GFX_SPECIES(KAKUNA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_METAPOD": "OBJ_EVENT_GFX_SPECIES(METAPOD)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GOLDUCK": "OBJ_EVENT_GFX_SPECIES(GOLDUCK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_EXEGGCUTE": "OBJ_EVENT_GFX_SPECIES(EXEGGCUTE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BEEDRILL": "OBJ_EVENT_GFX_SPECIES(BEEDRILL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PERSIAN": "OBJ_EVENT_GFX_SPECIES(PERSIAN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SUNKERN": "OBJ_EVENT_GFX_SPECIES(SUNKERN)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NIDORAN_F": "OBJ_EVENT_GFX_SPECIES(NIDORAN_F)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PINSIR": "OBJ_EVENT_GFX_SPECIES(PINSIR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ENTEI": "OBJ_EVENT_GFX_SPECIES(ENTEI)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RAIKOU": "OBJ_EVENT_GFX_SPECIES(RAIKOU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RHYHORN": "OBJ_EVENT_GFX_SPECIES(RHYHORN)",
+    "OBJ_EVENT_GFX_SHINY_GYARADOS_HNS": "OBJ_EVENT_GFX_HNS_SHINY_GYARADOS_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SWINUB": "OBJ_EVENT_GFX_SPECIES(SWINUB)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL": "OBJ_EVENT_GFX_SPECIES(SNEASEL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_JYNX": "OBJ_EVENT_GFX_SPECIES(JYNX)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SEADRA": "OBJ_EVENT_GFX_SPECIES(SEADRA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MANTYKE": "OBJ_EVENT_GFX_SPECIES(MANTYKE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_XATU": "OBJ_EVENT_GFX_SPECIES(XATU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LUGIA": "OBJ_EVENT_GFX_SPECIES(LUGIA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_HO_OH": "OBJ_EVENT_GFX_SPECIES(HO_OH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RHYDON": "OBJ_EVENT_GFX_SPECIES(RHYDON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GOLEM": "OBJ_EVENT_GFX_SPECIES(GOLEM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SANDSLASH": "OBJ_EVENT_GFX_SPECIES(SANDSLASH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WURMPLE": "OBJ_EVENT_GFX_SPECIES(WURMPLE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PIKACHU": "OBJ_EVENT_GFX_SPECIES(PIKACHU)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PICHU_SPIKY_EARED": "OBJ_EVENT_GFX_SPECIES(PICHU_SPIKY_EARED)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SOLROCK": "OBJ_EVENT_GFX_SPECIES(SOLROCK)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LUNATONE": "OBJ_EVENT_GFX_SPECIES(LUNATONE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_JIRACHI": "OBJ_EVENT_GFX_SPECIES(JIRACHI)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SABLEYE": "OBJ_EVENT_GFX_SPECIES(SABLEYE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAWILE": "OBJ_EVENT_GFX_SPECIES(MAWILE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PARASECT": "OBJ_EVENT_GFX_SPECIES(PARASECT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PRIMEAPE": "OBJ_EVENT_GFX_SPECIES(PRIMEAPE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGNETON": "OBJ_EVENT_GFX_SPECIES(MAGNETON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ELECTRODE": "OBJ_EVENT_GFX_SPECIES(ELECTRODE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAGNEZONE": "OBJ_EVENT_GFX_SPECIES(MAGNEZONE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CROBAT": "OBJ_EVENT_GFX_SPECIES(CROBAT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MEWTWO": "OBJ_EVENT_GFX_SPECIES(MEWTWO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DUGTRIO": "OBJ_EVENT_GFX_SPECIES(DUGTRIO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SMOOCHUM": "OBJ_EVENT_GFX_SPECIES(SMOOCHUM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNORUNT": "OBJ_EVENT_GFX_SPECIES(SNORUNT)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARTICUNO": "OBJ_EVENT_GFX_SPECIES(ARTICUNO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PILOSWINE": "OBJ_EVENT_GFX_SPECIES(PILOSWINE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_SPHEAL": "OBJ_EVENT_GFX_SPECIES(SPHEAL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROUDON": "OBJ_EVENT_GFX_SPECIES(GROUDON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VENUSAUR": "OBJ_EVENT_GFX_SPECIES(VENUSAUR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BLASTOISE": "OBJ_EVENT_GFX_SPECIES(BLASTOISE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_PUPITAR": "OBJ_EVENT_GFX_SPECIES(PUPITAR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MOLTRES": "OBJ_EVENT_GFX_SPECIES(MOLTRES)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAMOSWINE": "OBJ_EVENT_GFX_SPECIES(MAMOSWINE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WEAVILE": "OBJ_EVENT_GFX_SPECIES(WEAVILE)",
+    "OBJ_EVENT_GFX_RED_NORMAL_HNS": "OBJ_EVENT_GFX_HNS_RED_NORMAL_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RAYQUAZA": "OBJ_EVENT_GFX_SPECIES(RAYQUAZA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KYOGRE": "OBJ_EVENT_GFX_SPECIES(KYOGRE)",
+    "OBJ_EVENT_GFX_LITTLE_GIRL_HNS": "OBJ_EVENT_GFX_HNS_LITTLE_GIRL_HNS",
+    "OBJ_EVENT_GFX_MAN_HNS": "OBJ_EVENT_GFX_HNS_MAN_HNS",
+    "OBJ_EVENT_GFX_BATTLE_TOWER_TRAINER_DUDE_HNS": "OBJ_EVENT_GFX_HNS_BATTLE_TOWER_TRAINER_DUDE_HNS",
+    "OBJ_EVENT_GFX_TUBER_M_HNS": "OBJ_EVENT_GFX_HNS_TUBER_M_HNS",
+    "OBJ_EVENT_GFX_SAILOR": "OBJ_EVENT_GFX_HNS_SAILOR",
+    "OBJ_EVENT_GFX_SS_TIDAL": "OBJ_EVENT_GFX_HNS_SS_TIDAL",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LATIOS": "OBJ_EVENT_GFX_SPECIES(LATIOS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LATIAS": "OBJ_EVENT_GFX_SPECIES(LATIAS)",
+    "OBJ_EVENT_GFX_MEW": "OBJ_EVENT_GFX_HNS_MEW",
+    "OBJ_EVENT_GFX_DEOXYS_TRIANGLE": "OBJ_EVENT_GFX_HNS_DEOXYS_TRIANGLE",
+    "OBJ_EVENT_GFX_DEOXYS": "OBJ_EVENT_GFX_HNS_DEOXYS",
+    "OBJ_EVENT_GFX_LIGHT_HNS": "OBJ_EVENT_GFX_HNS_LIGHT_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MILOTIC": "OBJ_EVENT_GFX_SPECIES(MILOTIC)",
+    "OBJ_EVENT_GFX_BOY_1": "OBJ_EVENT_GFX_HNS_BOY_1",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_AZURILL": "OBJ_EVENT_GFX_SPECIES(AZURILL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_KIRLIA": "OBJ_EVENT_GFX_SPECIES(KIRLIA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_AZUMARILL": "OBJ_EVENT_GFX_SPECIES(AZUMARILL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_DUSCLOPS": "OBJ_EVENT_GFX_SPECIES(DUSCLOPS)",
+    "OBJ_EVENT_GFX_SCOTT_HNS": "OBJ_EVENT_GFX_HNS_SCOTT_HNS",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MAKUHITA": "OBJ_EVENT_GFX_SPECIES(MAKUHITA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LOMBRE": "OBJ_EVENT_GFX_SPECIES(LOMBRE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TRAPINCH": "OBJ_EVENT_GFX_SPECIES(TRAPINCH)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BELDUM": "OBJ_EVENT_GFX_SPECIES(BELDUM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_LOTAD": "OBJ_EVENT_GFX_SPECIES(LOTAD)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_VIBRAVA": "OBJ_EVENT_GFX_SPECIES(VIBRAVA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CACNEA": "OBJ_EVENT_GFX_SPECIES(CACNEA)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_TROPIUS": "OBJ_EVENT_GFX_SPECIES(TROPIUS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CHIMECHO": "OBJ_EVENT_GFX_SPECIES(CHIMECHO)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_ABSOL": "OBJ_EVENT_GFX_SPECIES(ABSOL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_CASTFORM": "OBJ_EVENT_GFX_SPECIES(CASTFORM)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BALTOY": "OBJ_EVENT_GFX_SPECIES(BALTOY)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NUMEL": "OBJ_EVENT_GFX_SPECIES(NUMEL)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_MEDITITE": "OBJ_EVENT_GFX_SPECIES(MEDITITE)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_FEEBAS": "OBJ_EVENT_GFX_SPECIES(FEEBAS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_NOSEPASS": "OBJ_EVENT_GFX_SPECIES(NOSEPASS)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_BAGON": "OBJ_EVENT_GFX_SPECIES(BAGON)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_WHISMUR": "OBJ_EVENT_GFX_SPECIES(WHISMUR)",
+    "OBJ_EVENT_GFX_MON_BASE+SPECIES_RELICANTH": "OBJ_EVENT_GFX_SPECIES(RELICANTH)"
+  }
+}

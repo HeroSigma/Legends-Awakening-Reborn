@@ -10,6 +10,7 @@
 #include "strings.h"
 #include "constants/region_map_sections.h"
 #include "constants/trainers.h"
+#include "constants/vars.h"
 
 
 // NPC below means non-trainer character (no rematch or check page)
@@ -206,7 +207,7 @@ static const struct MatchCallStructTrainer sNormanMatchCallHeader =
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_NORMAN,
     .desc = COMPOUND_STRING("RELIABLE ONE"),
-    .name = COMPOUND_STRING("DAD"),
+    .name = COMPOUND_STRING("NORMAN"),
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Norman1,                  FLAG_ENABLE_NORMAN_MATCH_CALL, NO_FLAG_TO_SET },
         { MatchCall_Text_Norman2,                  FLAG_DEFEATED_DEWFORD_GYM,     NO_FLAG_TO_SET },
@@ -765,7 +766,9 @@ static bool32 MatchCall_GetEnabled_Wally(match_call_t matchCall)
 
 static bool32 MatchCall_GetEnabled_Rival(match_call_t matchCall)
 {
-    if (matchCall.rival->playerGender != gSaveBlock2Ptr->playerGender)
+    // Both siblings are established rivals in the Legends opening chapter.
+    if (!FlagGet(FLAG_LA_MET_BRENDAN_AND_MAY)
+        && matchCall.rival->playerGender != gSaveBlock2Ptr->playerGender)
         return FALSE;
     if (matchCall.rival->flag == 0xFFFF)
         return TRUE;
@@ -801,6 +804,8 @@ static mapsec_u8_t MatchCall_GetMapSec_Trainer(match_call_t matchCall)
 
 static mapsec_u8_t MatchCall_GetMapSec_Wally(match_call_t matchCall)
 {
+    if (VarGet(VAR_LA_PARADIGM_ARC) >= 3 && FlagGet(FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY))
+        return MAPSEC_KANTO_AR;
     s32 i;
 
     for (i = 0; matchCall.wally->locationData[i].flag != 0xFFFF; i++)
@@ -965,6 +970,11 @@ static void MatchCall_GetMessage_Trainer(match_call_t matchCall, u8 *dest)
 
 static void MatchCall_GetMessage_Wally(match_call_t matchCall, u8 *dest)
 {
+    if (VarGet(VAR_LA_PARADIGM_ARC) >= 3 && FlagGet(FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY))
+    {
+        StringCopy(dest, COMPOUND_STRING("The signal is too weak to connect.\pWally and Kirlia are searching\nfor a way home from Kanto."));
+        return;
+    }
     MatchCall_BufferCallMessageText(matchCall.wally->textData, dest);
 }
 

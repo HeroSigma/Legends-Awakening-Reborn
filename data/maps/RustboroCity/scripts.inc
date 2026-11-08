@@ -6,6 +6,7 @@ RustboroCity_MapScripts::
 RustboroCity_OnTransition:
 	setflag FLAG_VISITED_RUSTBORO_CITY
 	call Common_EventScript_SetupRivalGfxId
+	call LegendsRustboro_SetupSilver
 	call_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_HideMapNamePopup
 	getplayerxy VAR_TEMP_0, VAR_TEMP_1
 	goto_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_PositionScientistForExit
@@ -317,7 +318,14 @@ RustboroCity_EventScript_ShadyCharacterTookOff::
 
 @ Unused
 RustboroCity_EventScript_YouGotItThankYou::
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_ParcelRecovered, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsVoice_DevonUncertain, MSGBOX_DEFAULT
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	return
 
 @ Unknown, unused employee movements. Based on the differences in movement theyre for approaching an object (probably the player) in different positions
@@ -501,7 +509,14 @@ RustboroCity_EventScript_EmployeeAskToGetGoods::
 	setflag FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN
 	setvar VAR_RUSTBORO_CITY_STATE, 3
 	copyobjectxytoperm LOCALID_RUSTBORO_DEVON_EMPLOYEE
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_HelpMeIWasRobbed, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_DevonPromise, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	setspeaker SP_NAME_DEVON_RESEARCHER
+	msgbox LegendsVoice_DevonDirection, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	releaseall
 	end
 
@@ -593,7 +608,11 @@ RustboroCity_EventScript_ReturnGoods::
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
 	giveitem ITEM_GREAT_BALL
 	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
+	setspeaker SP_NAME_DEVON_RESEARCHER
 	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsVoice_DevonAccept, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	setflag FLAG_RETURNED_DEVON_GOODS
 	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
@@ -676,10 +695,7 @@ RustboroCity_EventScript_Rival::
 	goto RustboroCity_EventScript_RivalEncounter
 
 RustboroCity_EventScript_PlayRivalMusic::
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_PlayMayMusic
-	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_PlayBrendanMusic
-	return
+	goto RustboroCity_EventScript_PlayMayMusic
 
 RustboroCity_EventScript_PlayMayMusic::
 	playbgm MUS_ENCOUNTER_MAY, TRUE
@@ -818,20 +834,25 @@ RustboroCity_EventScript_RivalTrigger7::
 	goto RustboroCity_EventScript_RivalEncounter
 
 RustboroCity_EventScript_RivalEncounter::
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_MayEncounter
-	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_BrendanEncounter
-	end
+	setspeaker SP_NAME_MAY
+	goto_if_set FLAG_LA_MET_SILVER, LegendsRustboro_CheckSilverRetry
+	goto RustboroCity_EventScript_MayEncounter
 
 RustboroCity_EventScript_MayEncounter::
+	setspeaker SP_NAME_MAY
 	goto_if_set FLAG_DEFEATED_RIVAL_RUSTBORO, RustboroCity_EventScript_MayBrineyHint
 	goto_if_set FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_MayAskToBattle
 	setflag FLAG_MET_RIVAL_RUSTBORO
 	msgbox RustboroCity_Text_MayHiLetsRegister, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsRustboroRivals_Text_PlayerNav, MSGBOX_DEFAULT
+	setspeaker SP_NAME_MAY
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
+	setspeaker SP_NAME_NONE
 	msgbox RustboroCity_Text_RegisteredMay, MSGBOX_DEFAULT
+	setspeaker SP_NAME_MAY
 	waitfanfare
 	closemessage
 	delay 30
@@ -863,6 +884,8 @@ RustboroCity_EventScript_BattleMay::
 	end
 
 RustboroCity_EventScript_MayBrineyHint::
+	goto_if_unset FLAG_LA_MET_SILVER, LegendsRustboro_SilverScene
+	setspeaker SP_NAME_MAY
 	msgbox RustboroCity_Text_MayMrBrineyHint, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, RustboroCity_EventScript_RestoreBgm
 	releaseall
@@ -876,19 +899,19 @@ RustboroCity_EventScript_RestoreBgm::
 RustboroCity_EventScript_BattleMayTreecko::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
-	goto RustboroCity_EventScript_MayBrineyHint
+	goto LegendsRustboro_SilverScene
 	end
 
 RustboroCity_EventScript_BattleMayTorchic::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
-	goto RustboroCity_EventScript_MayBrineyHint
+	goto LegendsRustboro_SilverScene
 	end
 
 RustboroCity_EventScript_BattleMayMudkip::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
-	goto RustboroCity_EventScript_MayBrineyHint
+	goto LegendsRustboro_SilverScene
 	end
 
 RustboroCity_EventScript_BrendanEncounter::
@@ -1096,81 +1119,44 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Don't take my GOODS!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-	.string "Oh, it's you!\p"
-	.string "You're that fantastic TRAINER who\n"
-	.string "helped me in PETALBURG WOODS!\p"
-	.string "Help me! I was robbed by TEAM AQUA!\n"
-	.string "I have to get the DEVON GOODS back!\p"
-	.string "If I don't…\n"
-	.string "I'm going to be in serious trouble.$"
+	.string "{PLAYER}! You helped us in the woods!\pThose three took our recordings.\nNow Team Aqua has stolen our parts!\pThey're meant for Captain Stern's\nresearch equipment.\pI don't know if the thefts are linked.\nPlease help me get the parcel back!$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
-	.string "That shady character, I think he took\n"
-	.string "off towards the tunnel over there.$"
+	.string "The thief went toward RUSTURF TUNNEL.\nPlease be careful!$"
 
 RustboroCity_Text_YouGotItThankYou:
-	.string "Oh! How did it go?\n"
-	.string "The DEVON GOODS?\p"
-	.string "You did!\n"
-	.string "You got them back!\p"
-	.string "You really are a great TRAINER!\p"
-	.string "I know! As my thanks, I'll give you\n"
-	.string "another GREAT BALL!$"
+	.string "You recovered the DEVON GOODS!\nAnd everyone is safe? Thank goodness!\pAfter what happened in the woods,\nI couldn't bear another disaster.\pPlease take this GREAT BALL\nas a small thank-you.$"
 
 RustboroCity_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
 
 RustboroCity_Text_PleaseComeWithMe:
-	.string "Excuse me, please!\n"
-	.string "Please come with me!$"
+	.string "PRESIDENT STONE has heard about you.\nHe wants to discuss the disturbances.\pPlease come with me.$"
 
 RustboroCity_Text_MayHiLetsRegister:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV!\p"
-	.string "Let's register each other so we can\n"
-	.string "contact one another anytime!\p"
-	.string "… … … … … …$"
+	.string "Hi, {PLAYER}! Is that a PokéNav?\pDad said Mr. Stone wanted to see you.\nHow did it go?$"
 
 RustboroCity_Text_RegisteredMay:
-	.string "Registered MAY\n"
-	.string "in the POKéNAV.$"
+	.string "May and Brendan were registered\nin the PokéNav.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
-	.string "MAY: Oh, by the way, I passed\n"
-	.string "MR. BRINEY in PETALBURG WOODS.\p"
-	.string "I guess he's on his way home to his\n"
-	.string "cottage by the sea.\p"
-	.string "How's your POKéDEX coming along,\n"
-	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "Brendan and I can both take your\ncalls now. Let us know how you're doing!\pBefore you go, how about a battle?\nI want to see how your team's grown.$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
-	.string "MAY: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "Not just yet? That's all right.\nCome back when your team's ready.$"
 
 RustboroCity_Text_MayWantToBattle:
-	.string "MAY: So, what do you think?\n"
-	.string "How about a little battle here?$"
+	.string "Ready to have that battle?$"
 
 RustboroCity_Text_MayImNotGoingToLose:
-	.string "MAY: You just became a TRAINER,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "On Route 103, I had my rival with\nme and you had Red.\pThis time, it's just you and me!$"
 
 RustboroCity_Text_MayDefeat:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "You're getting stronger every time!$"
 
 RustboroCity_Text_MayMrBrineyHint:
-	.string "MAY: Oh, by the way, MR. BRINEY, who\n"
-	.string "I just passed…\p"
-	.string "{PLAYER}{KUN}, you just moved here so you\n"
-	.string "might not know this, but MR. BRINEY\l"
-	.string "was once a revered seafarer.$"
+	.string "Mr. Briney's cottage is just south\nof Petalburg Woods.\pHe knows these seas better than\nanyone. Have a safe trip!$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
@@ -1254,30 +1240,16 @@ RustboroCity_Text_CuttersHouse:
 	.string "CUTTER'S HOUSE$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
-	.string "I've been developing an added feature\n"
-	.string "for the POKéNAV…\p"
-	.string "And it turned out great!\p"
-	.string "{PLAYER}, may I see that POKéNAV?\n"
-	.string "The one our PRESIDENT gave you?$"
+	.string "I've been developing an added feature\nfor the PokéNav…\pAnd it turned out great!\p{PLAYER}, may I see that PokéNav?\nThe one our president gave you?$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-	.string "There you go, {PLAYER}!\p"
-	.string "I added a new feature named\n"
-	.string "MATCH CALL to your POKéNAV.\p"
-	.string "Using the MATCH CALL feature,\n"
-	.string "you can chat with people who have\l"
-	.string "been registered in your POKéNAV.\p"
-	.string "{PLAYER}, our PRESIDENT STONE should\n"
-	.string "be registered in your POKéNAV.\p"
-	.string "Test it out.\n"
-	.string "Please give our PRESIDENT a call.$"
+	.string "There you go, {PLAYER}!\pI added a new feature named\nMatch Call to your PokéNav.\pUsing the Match Call feature,\nyou can chat with people who have\lbeen registered in your PokéNav.\p{PLAYER}, our president STONE should\nbe registered in your PokéNav.\pTest it out.\nPlease give our president a call.$"
 
 RustboroCity_Text_PleaseSelectPokenav:
-	.string "Please select the POKéNAV.$"
+	.string "Please select the PokéNav.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
-	.string "Okay, I'd better get back to work.\n"
-	.string "Please take care, {PLAYER}!$"
+	.string "The call came through perfectly!\nI'd better get back to work.\pBefore you leave, visit our basement\nlaboratory when you have a chance.\pOne of our researchers has something\nyou might find useful.\pTake care, {PLAYER}!$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
 	.string "Did you know this?\p"

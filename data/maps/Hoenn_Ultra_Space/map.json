@@ -1,0 +1,43 @@
+{
+  "id": "MAP_HYPERHOENN_34_15_ULTRA_SPACE",
+  "name": "Hoenn_Ultra_Space",
+  "layout": "LAYOUT_HYPERHOENN_34_15_ULTRA_SPACE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_ULTRA_SPACE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERWATER",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERHOENN_34_0_TIMELESS_WOODS",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

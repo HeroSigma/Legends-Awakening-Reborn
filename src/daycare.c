@@ -1127,6 +1127,28 @@ static u32 GetEggCyclesToSubtract(void)
     return result;
 }
 
+// Box 1 doubles as a nursery; use storage accessors for both save formats.
+// Eggs stay eggs until withdrawn, so native hatch effects and ownership run once.
+void LegendsNursery_AdvanceCycle(u32 cycles)
+{
+    u32 slot;
+    if (!FlagGet(FLAG_RETURNED_DEVON_GOODS) || !FlagGet(FLAG_RECEIVED_POKENAV))
+        return;
+    for (slot = 0; slot < IN_BOX_COUNT; slot++)
+    {
+        u32 left;
+        if (!GetBoxMonDataAt(0, slot, MON_DATA_SANITY_HAS_SPECIES)
+            || !GetBoxMonDataAt(0, slot, MON_DATA_IS_EGG)
+            || GetBoxMonDataAt(0, slot, MON_DATA_SANITY_IS_BAD_EGG))
+            continue;
+        left = GetBoxMonDataAt(0, slot, MON_DATA_FRIENDSHIP);
+        if (left == 0)
+            continue;
+        left = left > cycles ? left - cycles : 0;
+        SetBoxMonDataAt(0, slot, MON_DATA_FRIENDSHIP, &left);
+    }
+}
+
 static bool32 TryToHatchEgg(struct DayCare *daycare)
 {
     daycare->stepCounter++;
@@ -1136,6 +1158,8 @@ static bool32 TryToHatchEgg(struct DayCare *daycare)
 
     u32 eggCycles;
     u8 toSub = GetEggCyclesToSubtract();
+
+    LegendsNursery_AdvanceCycle(toSub);
 
     for (u32 i = 0; i < gPartiesCount[B_TRAINER_PLAYER]; i++)
     {

@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 TrainerHill_Elevator_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Elevator_OnFrame
 	.byte 0
@@ -85,3 +87,34 @@ TrainerHill_Elevator_Movement_AttendantFaceDown:
 	face_down
 	step_end
 
+
+#else
+TrainerHill_Elevator_MapScripts::
+	.byte 0
+TrainerHill_Elevator_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_ExitToRoof::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_EnterElevator::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_ExitFloorSelect::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_CloseFloorSelect::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_EventScript_MoveElevator::
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_PlayerMoveToCenterOfElevator:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_PlayerApproachAttendant:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_PlayerExitElevator:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_PlayerExitElevatorToRoof:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_AttendantFacePlayer:
+	goto EventScript_LegacyFeatureDisabled
+TrainerHill_Elevator_Movement_AttendantFaceDown:
+	goto EventScript_LegacyFeatureDisabled
+#endif

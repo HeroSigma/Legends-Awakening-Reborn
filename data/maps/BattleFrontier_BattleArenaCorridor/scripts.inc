@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleArenaCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleArenaCorridor_OnFrame
 	.byte 0
@@ -88,3 +90,24 @@ BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn:
 	.string "Your battles shall be waged in\n"
 	.string "the next room. Please step in!$"
 
+
+#else
+BattleFrontier_BattleArenaCorridor_MapScripts::
+	.byte 0
+BattleFrontier_BattleArenaCorridor_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_EventScript_WalkToBattleRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Movement_PlayerWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Movement_PlayerEnterDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Movement_AttendantWalkToDoor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Movement_AttendantFacePlayer:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn:
+	.string "This feature is disabled in this build.$"
+#endif

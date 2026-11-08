@@ -1,4 +1,5 @@
 #include "global.h"
+#include "dynamic_palettes.h"
 #include "constants/songs.h"
 #include "bg.h"
 #include "decoration.h"
@@ -35,6 +36,7 @@
 enum {
     MENU_ITEMSTORAGE,
     MENU_MAILBOX,
+    MENU_APPEARANCE,
     MENU_DECORATION,
     MENU_TURNOFF
 };
@@ -102,6 +104,8 @@ static void PlayerPC_ItemStorage(u8);
 static void PlayerPC_Mailbox(u8);
 static void PlayerPC_Decoration(u8);
 static void PlayerPC_TurnOff(u8);
+static void PlayerPC_Appearance(u8);
+static void PlayerPC_AppearanceMenu(u8);
 
 static void Mailbox_DoMailMoveToBag(u8);
 static void Mailbox_DoMailRead(u8);
@@ -191,13 +195,15 @@ static const struct MenuAction sPlayerPCMenuActions[] =
     [MENU_ITEMSTORAGE] = { COMPOUND_STRING("ITEM STORAGE"), {PlayerPC_ItemStorage} },
     [MENU_MAILBOX]     = { sText_Mailbox,                   {PlayerPC_Mailbox} },
     [MENU_DECORATION]  = { COMPOUND_STRING("DECORATION"),   {PlayerPC_Decoration} },
-    [MENU_TURNOFF]     = { COMPOUND_STRING("TURN OFF"),     {PlayerPC_TurnOff} }
+    [MENU_TURNOFF]     = { COMPOUND_STRING("TURN OFF"),     {PlayerPC_TurnOff} },
+    [MENU_APPEARANCE]  = { COMPOUND_STRING("APPEARANCE"),   {PlayerPC_Appearance} }
 };
 
 static const u8 sBedroomPC_OptionOrder[] =
 {
     MENU_ITEMSTORAGE,
     MENU_MAILBOX,
+    MENU_APPEARANCE,
     MENU_DECORATION,
     MENU_TURNOFF
 };
@@ -207,6 +213,7 @@ static const u8 sPlayerPC_OptionOrder[] =
 {
     MENU_ITEMSTORAGE,
     MENU_MAILBOX,
+    MENU_APPEARANCE,
     MENU_TURNOFF
 };
 #define NUM_PLAYER_PC_OPTIONS ARRAY_COUNT(sPlayerPC_OptionOrder)
@@ -240,7 +247,7 @@ static const struct WindowTemplate sWindowTemplates_MainMenus[] =
         .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 9,
-        .height = 6,
+        .height = 8,
         .paletteNum = 15,
         .baseBlock = 1
     },
@@ -249,7 +256,7 @@ static const struct WindowTemplate sWindowTemplates_MainMenus[] =
         .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 9,
-        .height = 8,
+        .height = 10,
         .paletteNum = 15,
         .baseBlock = 1
     },
@@ -444,6 +451,15 @@ static void PlayerPCProcessMenuInput(u8 taskId)
 void ReshowPlayerPC(u8 var)
 {
     DisplayItemMessageOnField(var, gText_WhatWouldYouLike, InitPlayerPCMenu);
+}
+
+static void PlayerPC_Appearance(u8 taskId)
+{
+    DisplayItemMessageOnField(taskId, COMPOUND_STRING("Choose your look.\nLeft/Right: change. A: done. B: back."), PlayerPC_AppearanceMenu);
+}
+static void PlayerPC_AppearanceMenu(u8 taskId)
+{
+    DynamicPal_ShowMenu(taskId, ReshowPlayerPC, ReshowPlayerPC, SPRITE_NONE, TRUE);
 }
 
 static void PlayerPC_ItemStorage(u8 taskId)

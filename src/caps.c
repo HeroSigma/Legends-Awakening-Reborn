@@ -7,17 +7,20 @@
 
 u32 GetCurrentLevelCap(void)
 {
+    if (!FlagGet(FLAG_LA_RED_DEX_GIFTS))
+        return MAX_LEVEL;
+
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET, 15},
-        {FLAG_BADGE02_GET, 19},
-        {FLAG_BADGE03_GET, 24},
-        {FLAG_BADGE04_GET, 29},
-        {FLAG_BADGE05_GET, 31},
-        {FLAG_BADGE06_GET, 33},
-        {FLAG_BADGE07_GET, 42},
-        {FLAG_BADGE08_GET, 46},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_BADGE01_GET, 16},
+        {FLAG_BADGE02_GET, 20},
+        {FLAG_BADGE03_GET, 26},
+        {FLAG_BADGE04_GET, 32},
+        {FLAG_BADGE05_GET, 37},
+        {FLAG_BADGE06_GET, 43},
+        {FLAG_BADGE07_GET, 49},
+        {FLAG_BADGE08_GET, 56},
+        {FLAG_IS_CHAMPION, 65},
     };
 
     u32 i;

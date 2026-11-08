@@ -1,0 +1,37 @@
+{
+  "id": "MAP_HYPERSINNOH_37_30_VEILSTONE_CITY",
+  "name": "Sinnoh_Veilstone_City_Interior_05",
+  "layout": "LAYOUT_HYPERSINNOH_37_30_VEILSTONE_CITY",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_29_VEILSTONE_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_31_VEILSTONE_CITY",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

@@ -34,11 +34,9 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	end
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
-	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType
-	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
-	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
-	release
-	end
+    msgbox PetalburgCity_PokemonCenter_1F_Text_ChosenStarterType, MSGBOX_DEFAULT
+    release
+    end
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType::
 	msgbox PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType, MSGBOX_DEFAULT
@@ -92,3 +90,6 @@ PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
 	.string "But, it's weak against GRASS-type\n"
 	.string "and ELECTRIC-type POKéMON.$"
 
+
+PetalburgCity_PokemonCenter_1F_Text_ChosenStarterType:
+    .string "Your {STR_VAR_1}'s typing is\n{STR_VAR_2}.\pTry different moves and teammates\nto cover each other's weaknesses.$"

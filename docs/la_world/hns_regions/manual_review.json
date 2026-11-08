@@ -1,0 +1,182 @@
+[
+  {
+    "map": "PokemonLeague_HallOfFame_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "MANUAL_REVIEW_DONOR_FLOOR_BEHAVIORS"
+  },
+  {
+    "map": "SlowpokeWell_B2F_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "CliffEdgeGate_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "MtMortar_2F_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "DragonsDen_Entrance_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "WhirlIslands_B1F_Inner_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "WhirlIslands_LugiaChamber_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "TinTower_RoofDay_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "TinTower_RoofNight_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "TohjoFalls_GiovanniRoom_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "RockTunnel_B1F_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "RockTunnel_1F_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "DiglettsCave_EntranceNorth_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "DiglettsCave_Tunnel_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "MtSilver_3F_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "CliffEdgeCave_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "UnusedContestHall1_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "UnusedContestHall2_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "UnusedContestHall3_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "UnusedContestHall4_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "UnusedContestHall5_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "UnusedContestHall6_hns",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "HELD_REFERENCE_MAP"
+  },
+  {
+    "map": "ArtisanCave_1F",
+    "issue": "No plain floor arrival; source warp fallback requires review",
+    "status": "RESOLVED_REVIEWED_ARRIVAL"
+  },
+  {
+    "map": "GoldenrodCity_DepartmentStoreElevator_hns",
+    "issue": "Dynamic exit replaced with project static return",
+    "destination": "GoldenrodCity_DepartmentStore_1F_hns",
+    "status": "RESOLVED_PROJECT_STATIC_RETURN"
+  },
+  {
+    "map": "NewBarkTown_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 4
+  },
+  {
+    "map": "NewBarkTown_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 7
+  },
+  {
+    "map": "EcruteakCity_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 14
+  },
+  {
+    "map": "MtSilver_1F_WaterfallRoom_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 7
+  },
+  {
+    "map": "BattleColosseum_2P_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 0
+  },
+  {
+    "map": "BattleColosseum_2P_hns",
+    "issue": "Held source reference or out-of-scope destination",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 1
+  },
+  {
+    "map": "FuchsiaCity_Route19_Gate_hns",
+    "issue": "Source references nonexistent/held destination warp",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 0
+  },
+  {
+    "map": "FuchsiaCity_Route19_Gate_hns",
+    "issue": "Source references nonexistent/held destination warp",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 1
+  },
+  {
+    "map": "SSAqua_1F_hns",
+    "issue": "Source references nonexistent/held destination warp",
+    "status": "HELD_TRAVEL",
+    "source_warp_index": 0
+  },
+  {
+    "map": "BellchimeTrail_hns",
+    "issue": "Donor falling-leaf weather held; native WEATHER_NONE used",
+    "status": "DEFERRED_VISUAL_WEATHER"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "MAP_HYPERSINNOH_36_31_ROUTE_213",
+  "name": "Sinnoh_Route_213",
+  "layout": "LAYOUT_HYPERSINNOH_36_31_ROUTE_213",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 6,
+      "map": "MAP_HYPERSINNOH_36_62_PASTORIA_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_HYPERSINNOH_36_32_ROUTE_213"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

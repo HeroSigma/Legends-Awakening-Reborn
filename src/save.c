@@ -1,4 +1,5 @@
 #include "global.h"
+#include "expanded_bag.h"
 #include "agb_flash.h"
 #include "gba/flash_internal.h"
 #include "fieldmap.h"
@@ -206,9 +207,10 @@ static u8 HandleWriteSector(u16 sectorId, const struct SaveSectorLocation *locat
     else
         for (i = 0; i < size; i++) gReadWriteSector->data[i] = data[i];
 
+    ExpandedBag_WriteSector(sectorId, gReadWriteSector->data, size);
     CopyFromSaveBlock3(sectorId, gReadWriteSector);
 
-    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, size);
+    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, ExpandedBag_SectorSize(sectorId, gReadWriteSector->data, size));
 
     return TryWriteSector(sector, gReadWriteSector->data);
 }
@@ -344,9 +346,10 @@ static u8 HandleReplaceSector(u16 sectorId, const struct SaveSectorLocation *loc
     else
         for (i = 0; i < size; i++) gReadWriteSector->data[i] = data[i];
 
+    ExpandedBag_WriteSector(sectorId, gReadWriteSector->data, size);
     CopyFromSaveBlock3(sectorId, gReadWriteSector);
 
-    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, size);
+    gReadWriteSector->checksum = CalculateChecksum(gReadWriteSector->data, ExpandedBag_SectorSize(sectorId, gReadWriteSector->data, size));
 
     // Erase old save data
     EraseFlashSector(sector);
@@ -508,7 +511,7 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         if (id == 0)
             gLastWrittenSector = i;
 
-        checksum = CalculateChecksum(gReadWriteSector->data, locations[id].size);
+        checksum = CalculateChecksum(gReadWriteSector->data, ExpandedBag_SectorSize(id, gReadWriteSector->data, locations[id].size));
 
         // Only copy data for sectors whose signature and checksum fields are correct
         if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->checksum == checksum)
@@ -519,6 +522,7 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
             else
                 for (j = 0; j < locations[id].size; j++) ((u8 *)locations[id].data)[j] = gReadWriteSector->data[j];
             CopyToSaveBlock3(id, gReadWriteSector);
+            ExpandedBag_ReadSector(id, gReadWriteSector->data, locations[id].size);
         }
     }
 
@@ -543,7 +547,7 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
         if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
-            checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
+            checksum = CalculateChecksum(gReadWriteSector->data, ExpandedBag_SectorSize(gReadWriteSector->id, gReadWriteSector->data, locations[gReadWriteSector->id].size));
             if (gReadWriteSector->checksum == checksum)
             {
                 if (validSectorFlags && saveSlot1Counter != gReadWriteSector->counter) { validSectorFlags = 0; break; }
@@ -576,7 +580,7 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
         if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
-            checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
+            checksum = CalculateChecksum(gReadWriteSector->data, ExpandedBag_SectorSize(gReadWriteSector->id, gReadWriteSector->data, locations[gReadWriteSector->id].size));
             if (gReadWriteSector->checksum == checksum)
             {
                 if (validSectorFlags && saveSlot2Counter != gReadWriteSector->counter) { validSectorFlags = 0; break; }
@@ -966,6 +970,7 @@ u8 LoadGameSave(u8 saveType)
         return SAVE_STATUS_ERROR;
     }
 
+    if(saveType==SAVE_NORMAL)ExpandedBag_BeginLoad();
     UpdateSaveAddresses();
     switch (saveType)
     {
@@ -986,6 +991,8 @@ u8 LoadGameSave(u8 saveType)
             }
             StorageInvalidateCache();
         }
+        if(!ExpandedBag_Active())ExpandedBag_ImportLegacy();
+        SetBagItemsPointers();
         CopyPartyAndObjectsFromSave();
         gSaveFileStatus = status;
         gGameContinueCallback = NULL;

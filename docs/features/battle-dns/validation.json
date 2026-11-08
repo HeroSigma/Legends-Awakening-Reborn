@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "assertions": 47,
+  "rom_sha256": "48b66ad995c74013cbf2bbe2528255d9272ce5ce64d73c9e372188a82629c394",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(12, 3)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(12, 3)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(12, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(12, 8)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(12, 8)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(12, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(12, 4)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(12, 4)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(12, 4)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(6, 3)",
+      "passed": true
+    },
+    {
+      "test": "outdoor_tinted_6",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(6, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(6, 8)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(6, 8)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(6, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(6, 4)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(6, 4)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(6, 4)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(20, 3)",
+      "passed": true
+    },
+    {
+      "test": "outdoor_tinted_20",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(20, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(20, 8)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(20, 8)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(20, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(20, 4)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(20, 4)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(20, 4)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(23, 3)",
+      "passed": true
+    },
+    {
+      "test": "outdoor_tinted_23",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(23, 3)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(23, 8)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(23, 8)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(23, 8)",
+      "passed": true
+    },
+    {
+      "test": "ui_sprites_untouched_(23, 4)",
+      "passed": true
+    },
+    {
+      "test": "normal_colors_(23, 4)",
+      "passed": true
+    },
+    {
+      "test": "no_compounding_(23, 4)",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "outdoor_map_12",
+      "passed": true
+    },
+    {
+      "test": "battle_running_12",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "outdoor_map_23",
+      "passed": true
+    },
+    {
+      "test": "battle_running_23",
+      "passed": true
+    },
+    {
+      "test": "real_night_background_differs",
+      "passed": true
+    }
+  ]
+}

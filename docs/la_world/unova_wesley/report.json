@@ -1,0 +1,847 @@
+{
+  "tilesets": [
+    "gTileset_UnovaGeneral_Primary",
+    "gTileset_UnovaNuvema_Secondary"
+  ],
+  "map_dimensions": [
+    40,
+    40
+  ],
+  "primary_graphics_tiles": 107,
+  "secondary_graphics_tiles": 300,
+  "primary_graphics_free": 405,
+  "secondary_graphics_free": 212,
+  "primary_metatiles": 158,
+  "secondary_metatiles": 118,
+  "primary_metatiles_free": 354,
+  "secondary_metatiles_free": 394,
+  "palettes": {
+    "0": "grass/accent",
+    "1": "dark trees",
+    "2": "grass/dirt",
+    "3": "earth/cliffs",
+    "4": "ocean/foam",
+    "5": "stone/stairs/fences",
+    "6": "blue roofs",
+    "7": "orange roofs",
+    "8": "wood/windows",
+    "9": "metal/mailboxes",
+    "10": "boardwalk wood",
+    "11": "hedges/flowers",
+    "12": "white fence/signs"
+  },
+  "path_blob_states": 47,
+  "stair_bands": {
+    "top": [
+      288,
+      40,
+      336,
+      48
+    ],
+    "middle": [
+      288,
+      48,
+      336,
+      56
+    ],
+    "base": [
+      288,
+      56,
+      336,
+      64
+    ],
+    "assembly": "TopMiddle, MiddleMiddle, MiddleBase: 16px metatiles; middle repeatable. Side panels remain separate native 16x48 assets."
+  },
+  "water_animation": {
+    "frames": 4,
+    "tiles": 16,
+    "destination": 384,
+    "ticks_per_frame": 16
+  },
+  "event_moves": [
+    {
+      "local_id": "LOCALID_AMAP_3_0_NUVEMA_TOWN_3",
+      "old": [
+        12,
+        2
+      ],
+      "new": [
+        13,
+        8
+      ]
+    },
+    {
+      "local_id": "LOCALID_AMAP_3_0_NUVEMA_TOWN_4",
+      "old": [
+        18,
+        15
+      ],
+      "new": [
+        18,
+        17
+      ]
+    },
+    {
+      "local_id": "LOCALID_AMAP_3_0_NUVEMA_TOWN_5",
+      "old": [
+        21,
+        22
+      ],
+      "new": [
+        20,
+        22
+      ]
+    },
+    {
+      "local_id": "LOCALID_AMAP_3_0_NUVEMA_TOWN_6",
+      "old": [
+        8,
+        12
+      ],
+      "new": [
+        13,
+        12
+      ]
+    }
+  ],
+  "active_warps": 0,
+  "pending_donor_warps_activated": false,
+  "route_offsets": [
+    3,
+    -3
+  ],
+  "vehicle_assets": {
+    "Castelia_BoatBlue": [
+      123,
+      25,
+      240,
+      88
+    ],
+    "Castelia_BoatBlack": [
+      127,
+      91,
+      240,
+      151
+    ],
+    "Castelia_BoatYellow": [
+      129,
+      159,
+      238,
+      224
+    ],
+    "Driftveil_Truck": [
+      273,
+      24,
+      427,
+      87
+    ],
+    "Driftveil_Loader": [
+      7,
+      110,
+      88,
+      180
+    ],
+    "Mistralton_Aircraft": [
+      266,
+      106,
+      407,
+      235
+    ],
+    "Castelia_CargoShipHorizontal": [
+      553,
+      20,
+      760,
+      121
+    ],
+    "Castelia_CargoShipVertical": [
+      450,
+      24,
+      542,
+      227
+    ]
+  },
+  "source_crops": {
+    "Grass": {
+      "sheet": "nature",
+      "box": [
+        104,
+        64,
+        120,
+        80
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "Path_3x3": {
+      "sheet": "nature",
+      "box": [
+        121,
+        64,
+        169,
+        112
+      ],
+      "native_size": [
+        48,
+        48
+      ]
+    },
+    "TreeNature": {
+      "sheet": "nature",
+      "box": [
+        40,
+        16,
+        72,
+        64
+      ],
+      "native_size": [
+        32,
+        48
+      ]
+    },
+    "TownForestEdge": {
+      "sheet": "nuvema_reference",
+      "box": [
+        1,
+        433,
+        33,
+        481
+      ],
+      "native_size": [
+        32,
+        48
+      ]
+    },
+    "TownForestInterior": {
+      "sheet": "nuvema_reference",
+      "box": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "native_size": [
+        32,
+        32
+      ]
+    },
+    "TownForestCluster": {
+      "sheet": "nuvema_reference",
+      "box": [
+        1,
+        417,
+        33,
+        481
+      ],
+      "native_size": [
+        32,
+        64
+      ]
+    },
+    "Earth_Cliff": {
+      "sheet": "nature",
+      "box": [
+        216,
+        64,
+        264,
+        112
+      ],
+      "native_size": [
+        48,
+        48
+      ]
+    },
+    "RockyShore_3x3": {
+      "sheet": "nature",
+      "box": [
+        265,
+        64,
+        313,
+        112
+      ],
+      "native_size": [
+        48,
+        48
+      ]
+    },
+    "TownOcean": {
+      "sheet": "nuvema_reference",
+      "box": [
+        161,
+        529,
+        177,
+        545
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "TownSandyShore": {
+      "sheet": "nuvema_reference",
+      "box": [
+        33,
+        497,
+        49,
+        529
+      ],
+      "native_size": [
+        16,
+        32
+      ]
+    },
+    "TownCoastalCliff": {
+      "sheet": "nuvema_reference",
+      "box": [
+        33,
+        465,
+        49,
+        497
+      ],
+      "native_size": [
+        16,
+        32
+      ]
+    },
+    "StoneSign": {
+      "sheet": "nature",
+      "box": [
+        122,
+        48,
+        138,
+        64
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "TownSign": {
+      "sheet": "nature",
+      "box": [
+        138,
+        42,
+        169,
+        64
+      ],
+      "native_size": [
+        31,
+        22
+      ]
+    },
+    "Mailbox": {
+      "sheet": "nature",
+      "box": [
+        106,
+        34,
+        122,
+        64
+      ],
+      "native_size": [
+        16,
+        30
+      ]
+    },
+    "Hedge": {
+      "sheet": "nature",
+      "box": [
+        89,
+        17,
+        105,
+        64
+      ],
+      "native_size": [
+        16,
+        47
+      ]
+    },
+    "WhiteFlowers": {
+      "sheet": "nature",
+      "box": [
+        92,
+        64,
+        108,
+        80
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "PinkFlowers": {
+      "sheet": "nature",
+      "box": [
+        72,
+        72,
+        88,
+        96
+      ],
+      "native_size": [
+        16,
+        24
+      ]
+    },
+    "NuvemaBlueHouse": {
+      "sheet": "buildings",
+      "box": [
+        14,
+        10,
+        84,
+        97
+      ],
+      "native_size": [
+        70,
+        87
+      ]
+    },
+    "NuvemaLaboratory": {
+      "sheet": "buildings",
+      "box": [
+        95,
+        11,
+        237,
+        121
+      ],
+      "native_size": [
+        142,
+        110
+      ]
+    },
+    "TownBoardwalkFront": {
+      "sheet": "nuvema_reference",
+      "box": [
+        257,
+        481,
+        273,
+        497
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "TownBoardwalkBack": {
+      "sheet": "nuvema_reference",
+      "box": [
+        257,
+        465,
+        273,
+        481
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "TownBoardwalkSupport": {
+      "sheet": "nuvema_reference",
+      "box": [
+        169,
+        497,
+        185,
+        513
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "WoodenDeck": {
+      "sheet": "nature",
+      "box": [
+        464,
+        1008,
+        496,
+        1040
+      ],
+      "native_size": [
+        32,
+        32
+      ]
+    },
+    "RailingHorizontal": {
+      "sheet": "nature",
+      "box": [
+        198,
+        52,
+        214,
+        64
+      ],
+      "native_size": [
+        16,
+        12
+      ]
+    },
+    "RailingVertical": {
+      "sheet": "nature",
+      "box": [
+        190,
+        32,
+        198,
+        48
+      ],
+      "native_size": [
+        8,
+        16
+      ]
+    },
+    "WhiteFence": {
+      "sheet": "nature",
+      "box": [
+        704,
+        338,
+        736,
+        354
+      ],
+      "native_size": [
+        32,
+        16
+      ]
+    },
+    "CoastalRock": {
+      "sheet": "nature",
+      "box": [
+        384,
+        766,
+        416,
+        798
+      ],
+      "native_size": [
+        32,
+        32
+      ]
+    },
+    "StairTread_Top_48x8": {
+      "sheet": "nature",
+      "box": [
+        288,
+        40,
+        336,
+        48
+      ],
+      "native_size": [
+        48,
+        8
+      ]
+    },
+    "StairTread_Middle_48x8": {
+      "sheet": "nature",
+      "box": [
+        288,
+        48,
+        336,
+        56
+      ],
+      "native_size": [
+        48,
+        8
+      ]
+    },
+    "StairTread_Base_48x8": {
+      "sheet": "nature",
+      "box": [
+        288,
+        56,
+        336,
+        64
+      ],
+      "native_size": [
+        48,
+        8
+      ]
+    },
+    "StairLeftSide_16x48": {
+      "sheet": "nature",
+      "box": [
+        168,
+        16,
+        184,
+        64
+      ],
+      "native_size": [
+        16,
+        48
+      ]
+    },
+    "StairLeftPost_8x32": {
+      "sheet": "nature",
+      "box": [
+        280,
+        32,
+        288,
+        64
+      ],
+      "native_size": [
+        8,
+        32
+      ]
+    },
+    "StairRightPost_8x32": {
+      "sheet": "nature",
+      "box": [
+        336,
+        32,
+        344,
+        64
+      ],
+      "native_size": [
+        8,
+        32
+      ]
+    },
+    "StairRightSide_16x48": {
+      "sheet": "nature",
+      "box": [
+        344,
+        16,
+        360,
+        64
+      ],
+      "native_size": [
+        16,
+        48
+      ]
+    },
+    "Castelia_BoatBlue": {
+      "sheet": "vehicles",
+      "box": [
+        123,
+        25,
+        240,
+        88
+      ],
+      "native_size": [
+        117,
+        63
+      ]
+    },
+    "Castelia_BoatBlack": {
+      "sheet": "vehicles",
+      "box": [
+        127,
+        91,
+        240,
+        151
+      ],
+      "native_size": [
+        113,
+        60
+      ]
+    },
+    "Castelia_BoatYellow": {
+      "sheet": "vehicles",
+      "box": [
+        129,
+        159,
+        238,
+        224
+      ],
+      "native_size": [
+        109,
+        65
+      ]
+    },
+    "Driftveil_Truck": {
+      "sheet": "vehicles",
+      "box": [
+        273,
+        24,
+        427,
+        87
+      ],
+      "native_size": [
+        154,
+        63
+      ]
+    },
+    "Driftveil_Loader": {
+      "sheet": "vehicles",
+      "box": [
+        7,
+        110,
+        88,
+        180
+      ],
+      "native_size": [
+        81,
+        70
+      ]
+    },
+    "Mistralton_Aircraft": {
+      "sheet": "vehicles",
+      "box": [
+        266,
+        106,
+        407,
+        235
+      ],
+      "native_size": [
+        141,
+        129
+      ]
+    },
+    "Castelia_CargoShipHorizontal": {
+      "sheet": "vehicles",
+      "box": [
+        553,
+        20,
+        760,
+        121
+      ],
+      "native_size": [
+        207,
+        101
+      ]
+    },
+    "Castelia_CargoShipVertical": {
+      "sheet": "vehicles",
+      "box": [
+        450,
+        24,
+        542,
+        227
+      ],
+      "native_size": [
+        92,
+        203
+      ]
+    },
+    "grass": {
+      "sheet": "Nuvema.png",
+      "box": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "path_source": {
+      "sheet": "Nuvema.png",
+      "box": [
+        64,
+        0,
+        112,
+        48
+      ],
+      "native_size": [
+        48,
+        48
+      ]
+    },
+    "pool": {
+      "sheet": "Nuvema.png",
+      "box": [
+        56,
+        208,
+        104,
+        256
+      ],
+      "native_size": [
+        48,
+        48
+      ]
+    },
+    "sign": {
+      "sheet": "Nuvema.png",
+      "box": [
+        17,
+        56,
+        33,
+        72
+      ],
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    "hedge": {
+      "sheet": "Nuvema.png",
+      "box": [
+        224,
+        81,
+        240,
+        128
+      ],
+      "native_size": [
+        16,
+        48
+      ]
+    },
+    "blue": {
+      "sheet": "Nuvema Second.png",
+      "box": [
+        0,
+        1,
+        70,
+        88
+      ],
+      "native_size": [
+        80,
+        96
+      ]
+    },
+    "lab": {
+      "sheet": "Nuvema Second.png",
+      "box": [
+        80,
+        1,
+        222,
+        111
+      ],
+      "native_size": [
+        160,
+        112
+      ]
+    }
+  },
+  "limitations": [
+    "Source colours are preserved after the required RGB888-to-RGB555 hardware conversion; no palette reduction or nearest-colour substitution for packed Nuvema art.",
+    "Original reference shoreline and repeating boardwalk supply pieces missing from the user sheet.",
+    "Unused city stairs, fences, rocks and other previous prefabs are not packed in the Nuvema pair; original source sheets remain intact.",
+    "Interior warps are not yet activated."
+  ],
+  "porymap_prefabs": 46,
+  "building_sections": {
+    "BlueHouse_RoofTop": 1,
+    "BlueHouse_RoofMiddle": 2,
+    "BlueHouse_Eaves": 1,
+    "BlueHouse_WindowsWalls": 1,
+    "BlueHouse_DoorBase": 1,
+    "Laboratory_ChimneyRoofTop": 2,
+    "Laboratory_RoofMiddle": 2,
+    "Laboratory_DormerEaves": 1,
+    "Laboratory_WindowsWalls": 1,
+    "Laboratory_EntranceBase": 1,
+    "StairLeftTop": 1,
+    "StairLeftMiddle": 1,
+    "StairLeftBase": 1,
+    "StairRightTop": 1,
+    "StairRightMiddle": 1,
+    "StairRightBase": 1
+  },
+  "scientist_arrival": [
+    19,
+    23
+  ],
+  "prop_polish": {
+    "hedge": "Full 16x47 native crop, 1px top padding; all original hedge colors retained after RGB5 conversion.",
+    "mailbox": "All ten original opaque source colors prioritized in palette 9.",
+    "map_files_preserved": true
+  },
+  "exact_user_art": {
+    "source_sheets": [
+      "Nuvema.png",
+      "Nuvema Second.png"
+    ],
+    "palettes": 11,
+    "checked_8x8_tiles": 932,
+    "colour_reduction": false,
+    "colour_conversion": "RGB888 to GBA RGB555 only; no nearest-colour replacement.",
+    "unused_previous_prefabs": "Blanked; only Nuvema-used assemblies are packed."
+  }
+}

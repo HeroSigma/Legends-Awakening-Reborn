@@ -1,4 +1,17 @@
 #include "global.h"
+#if LA_FREE_SPACE
+#include "main.h"
+#include "overworld.h"
+void ShowFrontierPass(void (*callback)(void))
+{
+    SetMainCallback2(callback);
+}
+void CB2_ReshowFrontierPass(void)
+{
+    SetMainCallback2(CB2_ReturnToField);
+}
+#else
+#include "global.h"
 #include "gpu_regs.h"
 #include "main.h"
 #include "trainer_card.h"
@@ -1761,3 +1774,5 @@ static void HandleFrontierMapCursorMove(u8 direction)
     CopyBgTilemapBufferToVram(0);
     PlaySE(SE_DEX_SCROLL);
 }
+
+#endif // !LA_FREE_SPACE

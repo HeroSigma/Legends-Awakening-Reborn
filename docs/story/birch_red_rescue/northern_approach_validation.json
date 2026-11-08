@@ -1,0 +1,82 @@
+{
+  "method": "Check every path cell against canonical Route 101 block collision bits; no blocked/tree cells",
+  "paths": {
+    "LOCALID_ROUTE101_RED": [
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        12
+      ]
+    ],
+    "LOCALID_ROUTE101_RED_PIKACHU": [
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ]
+    ]
+  },
+  "pikachu_graphics": "OBJ_EVENT_GFX_SPECIES(PIKACHU)"
+}

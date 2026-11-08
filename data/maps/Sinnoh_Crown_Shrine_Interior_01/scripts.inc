@@ -1,0 +1,12 @@
+Sinnoh_Crown_Shrine_Interior_01_MapScripts::
+	.byte 0
+
+@ Project asset/travel notice.
+HyperSinnoh_35_82_Crown_Shrine_EventScript_Construction::
+	lock
+	faceplayer
+	msgbox HyperSinnoh_35_82_Crown_Shrine_EventScript_Construction_Text, MSGBOX_DEFAULT
+	release
+	end
+HyperSinnoh_35_82_Crown_Shrine_EventScript_Construction_Text:
+	.string "This area is under construction.\pPlease check back later!$"

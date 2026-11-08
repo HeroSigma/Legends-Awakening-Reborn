@@ -1,0 +1,25 @@
+{
+  "donor": "HypEm v5.7 EN+QoL.gba",
+  "donor_sha256": "73d6faeb29bcc15e1627a6f237e99e11ddea8429ed31ec30057560ee069a546f",
+  "front_table": "0x101be90",
+  "palette_table": "0x101c660",
+  "graphics_only": true,
+  "portraits": [
+    {
+      "character": "brendan",
+      "donor_index": 71,
+      "picture_offset": "0x36be40",
+      "palette_offset": "0x305b60",
+      "raw_sha256": "938bdb65dd153d66dff15bc0793a68fd39d8abe4427a3092a39109b3c669cea7",
+      "palette_sha256": "e2c9c67aa487e73208b0c9a938cd0d649200713600cffb5c0de288a121df9786"
+    },
+    {
+      "character": "may",
+      "donor_index": 72,
+      "picture_offset": "0x302578",
+      "palette_offset": "0x3021e0",
+      "raw_sha256": "ec08892f3fc846e76674ba7e58ce9a2ec58ea7f14826492a09c9c3f488a6bf8e",
+      "palette_sha256": "11ca9f71064608da044849c4c8ac3750362eed1a19ddfa8b616375f4a9d332f5"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "test": "aren_walking_format",
+      "passed": true
+    },
+    {
+      "test": "aren_running_format",
+      "passed": true
+    },
+    {
+      "test": "aren_mach_bike_format",
+      "passed": true
+    },
+    {
+      "test": "aren_acro_bike_format",
+      "passed": true
+    },
+    {
+      "test": "aren_surfing_format",
+      "passed": true
+    },
+    {
+      "test": "aren_fishing_format",
+      "passed": true
+    },
+    {
+      "test": "aren_watering_format",
+      "passed": true
+    },
+    {
+      "test": "aren_field_move_format",
+      "passed": true
+    },
+    {
+      "test": "aren_underwater_format",
+      "passed": true
+    },
+    {
+      "test": "aren_decorating_format",
+      "passed": true
+    },
+    {
+      "test": "aren_front_pics_format",
+      "passed": true
+    },
+    {
+      "test": "aren_back_pics_format",
+      "passed": true
+    },
+    {
+      "test": "aren_approved_action_pixels_and_palettes_preserved",
+      "passed": true
+    },
+    {
+      "test": "aria_walking_format",
+      "passed": true
+    },
+    {
+      "test": "aria_running_format",
+      "passed": true
+    },
+    {
+      "test": "aria_mach_bike_format",
+      "passed": true
+    },
+    {
+      "test": "aria_acro_bike_format",
+      "passed": true
+    },
+    {
+      "test": "aria_surfing_format",
+      "passed": true
+    },
+    {
+      "test": "aria_fishing_format",
+      "passed": true
+    },
+    {
+      "test": "aria_watering_format",
+      "passed": true
+    },
+    {
+      "test": "aria_field_move_format",
+      "passed": true
+    },
+    {
+      "test": "aria_underwater_format",
+      "passed": true
+    },
+    {
+      "test": "aria_decorating_format",
+      "passed": true
+    },
+    {
+      "test": "aria_front_pics_format",
+      "passed": true
+    },
+    {
+      "test": "aria_back_pics_format",
+      "passed": true
+    },
+    {
+      "test": "aria_approved_action_pixels_and_palettes_preserved",
+      "passed": true
+    }
+  ]
+}

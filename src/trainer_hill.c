@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "battle.h"
@@ -1120,3 +1122,178 @@ static enum Item GetPrizeItemId(void)
     return prizeList[id];
 }
 #endif //FREE_TRAINER_HILL
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "battle.h"
+#include "battle_tower.h"
+#include "battle_setup.h"
+#include "ereader_helpers.h"
+#include "event_data.h"
+#include "event_scripts.h"
+#include "frontier_util.h"
+#include "fieldmap.h"
+#include "field_message_box.h"
+#include "international_string_util.h"
+#include "item.h"
+#include "main.h"
+#include "menu.h"
+#include "overworld.h"
+#include "palette.h"
+#include "pokemon.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "string_util.h"
+#include "strings.h"
+#include "text.h"
+#include "trainer_hill.h"
+#include "window.h"
+#include "util.h"
+#include "constants/battle_ai.h"
+#include "constants/event_object_movement.h"
+#include "constants/event_objects.h"
+#include "constants/items.h"
+#include "constants/layouts.h"
+#include "constants/moves.h"
+#include "constants/trainers.h"
+#include "constants/trainer_hill.h"
+#include "constants/trainer_types.h"
+#include "script.h"
+#include "legacy_features.h"
+EWRAM_DATA u32 *gTrainerHillVBlankCounter = NULL;
+void CallTrainerHillFunction(void)
+{
+    LegacyFeature_ResumeScript();
+}
+
+void ResetTrainerHillResults(void)
+{
+
+}
+
+enum TrainerClassID GetTrainerHillOpponentClass(u16 trainerId)
+{
+    return 0;
+}
+
+void GetTrainerHillTrainerName(u8 *dst, u16 trainerId)
+{
+
+}
+
+u8 GetTrainerHillTrainerFrontSpriteId(u16 trainerId)
+{
+    return 0;
+}
+
+void InitTrainerHillBattleStruct(void)
+{
+
+}
+
+void FreeTrainerHillBattleStruct(void)
+{
+
+}
+
+void CopyTrainerHillTrainerText(u8 which, u16 localId)
+{
+
+}
+
+bool8 InTrainerHillChallenge(void)
+{
+    return 0;
+}
+
+void PrintOnTrainerHillRecordsWindow(void)
+{
+
+}
+
+void LoadTrainerHillObjectEventTemplates(void)
+{
+
+}
+
+bool32 LoadTrainerHillFloorObjectEventScripts(void)
+{
+    return 0;
+}
+
+void GenerateTrainerHillFloorLayout(u16 *mapArg)
+{
+
+}
+
+bool32 InTrainerHill(void)
+{
+    return 0;
+}
+
+u8 GetCurrentTrainerHillMapId(void)
+{
+    return 0;
+}
+
+const struct WarpEvent* SetWarpDestinationTrainerHill4F(void)
+{
+    return 0;
+}
+
+const struct WarpEvent* SetWarpDestinationTrainerHillFinalFloor(u8 warpEventId)
+{
+    return 0;
+}
+
+u16 LocalIdToHillTrainerId(u8 localId)
+{
+    return 0;
+}
+
+bool8 GetHillTrainerFlag(u8 objectEventId)
+{
+    return 0;
+}
+
+void SetHillTrainerFlag(void)
+{
+
+}
+
+const u8 *GetTrainerHillTrainerScript(void)
+{
+    return 0;
+}
+
+void FillHillTrainerParty(void)
+{
+
+}
+
+void FillHillTrainersParties(void)
+{
+
+}
+
+u8 GetTrainerEncounterMusicIdInTrainerHill(u16 trainerId)
+{
+    return 0;
+}
+
+u8 GetNumFloorsInTrainerHillChallenge(void)
+{
+    return 0;
+}
+
+void TryLoadTrainerHillEReaderPalette(void)
+{
+
+}
+
+bool32 OnTrainerHillEReaderChallengeFloor(void)
+{
+    return 0;
+}
+#endif

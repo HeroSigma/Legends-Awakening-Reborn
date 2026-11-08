@@ -1,0 +1,56 @@
+# Requested feature upgrade pass
+
+User choices: Sword & Shield summary (rather than BW summary), PokéRide included, theme-compatible UI recolored to teal/green where practical; otherwise retain original styling. Preserve custom story scripts, six-member legal competitive trainer teams, badge caps, expanded bag categories, scientist Tera changes and 60-box collection mode. Restore playable Hyper Brendan/May visuals without changing chosen names or story identities.
+
+Requested review/integration queue: stat editor; main-menu mugshot UI; custom starter briefcase UI; field mugshots; BW battle UI; SwSh summary, party, PC, bag and message box; dynamic scaling; preferred follower; multiuse candies/EV items; battle DNS; upgradable rod; repeat cutscene skip; dynamic palettes; seasons if feasible; dynamic move descriptions; Ditto faces; encounter text; mid-battle evolution; connected multiregion map; decapitalization; quest icons; color variants; PokéRide.
+
+Sources are the user-provided feature links; locally inspected donor branches live under .la_work/feature-review. Do not blindly merge old branch saves or vanilla story files. Record exact adopted commits and compatibility decisions as work proceeds. This file records remaining work, not a claim that the listed features are already implemented.
+
+## First integration milestone
+
+Implemented and built:
+- Playable Hyper roster Brendan/May walking sheets; native Brendan/May action palettes, action sheets and battle pictures restored. Story names remain chosen by the player.
+- Sword & Shield summary adapted from montmoguri/pokeemerald-expansion `swsh_summary_screen`, commit b1e4c0d9. Credits to Monty and contributors documented in that project; original source attribution remains in the imported files. Teal accent palette, visible Tera, mint nature, IV/EV and existing move relearning support. Contest pages disabled. Native animation and boxed storage adapters retained.
+- Party-relative ordinary trainer scaling adapted from GraionDilach/spinarakgreen `dynamic-scaling-on-113`, commit 7838db7a: raise the authored baseline to the highest eligible player party level, bounded by the badge cap. Regenerate legal species and moves at the resulting level; include party level in cache invalidation. Authored gym teams and protected scripted fights remain on their own levels. Wild badge progression remains independent.
+
+Validation: 28 protagonist/summary checks including the final normal and compact PC boxes; 17 scaling boundary/cache checks; 17,963 full competitive roster checks; 446 Start menu return checks. Reports include the exact tested ROM hash. Native emulator tests use disposable saves.
+
+Not yet implemented: PokéRide and all other entries in the requested queue. Donor checkouts are review material, not completed integrations. In particular, SwSh party/bag/storage/message UI is not enabled merely because the SwSh summary is enabled. Only the first milestone above is ready for playtesting.
+
+Compatibility constraints: EWRAM uses 261,320/262,144 bytes and ROM 32,637,696/33,554,432 bytes after this milestone. Further features require a memory budget, especially ride state, palette effects and replacement storage UI. Do not change SaveBlock layouts or bypass compact storage to fit donor code.
+
+## Route-scaling correction
+
+Supersedes party-relative ordinary trainer scaling above. Ordinary trainers now use their original location/team maximum plus two levels, limited by their authored profile baseline; this rises by two per earned Hoenn badge and stays at least two levels below the next gym cap. The highest player party level is no longer an input. Gym/League profiles keep authored milestone levels. Story exclusions, legality, themes and six-member teams remain enforced.
+
+## PokeRide milestone
+
+Ground riding, native-Surf water mounts and Fly-gated low flight are implemented on their feature branches. Original avatar/underwater flags and save layouts remain intact. Unrestricted free flight and reverse-ledge climbing remain disabled; native route collision/story barriers and existing Surf/Fly/Dive progression remain authoritative. See docs/features/pokeride-water and pokeride-air for scope and ROM-hashed validation.
+
+## Completed UI milestones
+
+Supersedes the first milestone's pending UI list: SwSh party, storage, bag and message box are integrated on their named feature branches, with native regression reports. The Archie/Mudskip Continue menu is now adapted in `feature/main-menu-mugshot`; see `docs/features/main_menu_mugshot` for attribution, compatibility and validation. The in-game Custom Start Menu remains separate and unchanged. The deferred Rhythm feature list remains deferred.
+
+## Dynamic character palettes milestone
+
+Skin/outfit/accent customization is available after gender selection and through the player's PC, Appearance. A reserved variable replaces donor SaveBlock additions. Original colors are the default. Live previews, cancellation, naming/portrait/trainer/battle colors and 14/60-box saves are tested; see docs/features/dynamic-palettes. Hair/pants shapes and sprite artwork remain unchanged.
+
+## Remaining core-feature pass: starter briefcase
+
+The Archie/Mudskip briefcase presentation is integrated while the native starter reward and rescue battle retain control. Three current starters, species/type previews, confirmation and cleanup pass 88 native checks. See docs/features/starter-case. Field mugshots are next in this pass, followed by the battle UI, repeat-cutscene skipping and text polish; those entries are not marked complete by this milestone.
+
+## Field portraits
+
+Automatic speaker portraits are integrated using existing character art, with dynamic player colors, dark-cave visibility and resource-safe fallback. Missing art keeps normal dialogue. See docs/features/field-mugshots for credits, coverage and native validation. Next in the core queue: BW battle UI, repeat-cutscene skipping and text polish.
+
+## BW battle interface
+
+BW action/move panels, health boxes, party summaries, ability popups and gimmick controls are adapted with a teal selection cursor. Existing battle mechanics, dynamic descriptions and bag/party integrations are preserved. See docs/features/bw-battle-ui for attribution and native reports. Next: repeat-cutscene skipping, then text polish.
+
+## Repeat battle scenes
+
+Repeat-only skip prompts are integrated at safe boundaries in the Route 103, Woods Triad and Rusturf grunt introductions. First visits, battles and post-battle rewards remain mandatory; viewed state uses reserved existing flags. See docs/features/repeat-scenes. Next in the core pass: text and capitalization polish.
+
+## Completed-story polish
+
+The implemented early story has received a focused dialogue and capitalization pass, with progression preserved. See docs/story/completed-story-polish. Future scenes will be polished and reviewed as they are added; untouched later-story dialogue is outside this pass.

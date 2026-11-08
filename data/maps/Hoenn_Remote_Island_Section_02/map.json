@@ -1,0 +1,32 @@
+{
+  "id": "MAP_HYPERHOENN_35_57_REMOTE_ISLAND",
+  "name": "Hoenn_Remote_Island_Section_02",
+  "layout": "LAYOUT_HYPERHOENN_35_57_REMOTE_ISLAND",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_HYPER_REMOTE_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "down",
+      "offset": 41,
+      "map": "MAP_HYPERHOENN_35_56_REMOTE_ISLAND"
+    },
+    {
+      "direction": "up",
+      "offset": -46,
+      "map": "MAP_HYPERHOENN_35_59_REMOTE_ISLAND"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

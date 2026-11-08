@@ -5,11 +5,7 @@
 @ Presents a list of destinations (menu defined in src/data/script_menu.h,
 @ slot MULTI_UNUSED_19) and warps the player to the chosen one.
 @
-@ Destinations:
-@   Nuvema Town   -> (16,22)
-@   Postwick      -> (15,24)
-@   Striaton City -> (52,25)
-@   Motostoke     -> (31,24)
+@ Galar retired; destinations are Unova, Johto and Kanto.
 
 LA_TeleportScientist::
 	lock
@@ -17,12 +13,11 @@ LA_TeleportScientist::
 	msgbox LA_Text_TeleportScientistIntro, MSGBOX_DEFAULT
 	multichoice 4, 0, MULTI_UNUSED_19, FALSE
 	goto_if_eq VAR_RESULT, 0, LA_TeleportScientist_WarpNuvema
-	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpPostwick
-	goto_if_eq VAR_RESULT, 2, LA_TeleportScientist_WarpStriaton
-	goto_if_eq VAR_RESULT, 3, LA_TeleportScientist_WarpMotostoke
-	goto_if_eq VAR_RESULT, 4, LA_TeleportScientist_WarpBWABatch
-	goto_if_eq VAR_RESULT, 5, LA_TeleportScientist_WarpJohto
-	@ 6 = CANCEL (or B button): just end the conversation.
+	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpStriaton
+	goto_if_eq VAR_RESULT, 2, LA_TeleportScientist_WarpBWABatch
+	goto_if_eq VAR_RESULT, 3, LA_TeleportScientist_WarpJohto
+	goto_if_eq VAR_RESULT, 4, LA_TeleportScientist_WarpKantoAR
+	@ 5 = CANCEL (or B button): just end the conversation.
 	goto LA_TeleportScientist_Cancel
 
 LA_TeleportScientist_WarpNuvema::
@@ -32,12 +27,6 @@ LA_TeleportScientist_WarpNuvema::
 	release
 	end
 
-LA_TeleportScientist_WarpPostwick::
-	closemessage
-	warp MAP_AMAP_3_0_POSTWICK, 15, 24
-	waitstate
-	release
-	end
 
 LA_TeleportScientist_WarpStriaton::
 	closemessage
@@ -46,12 +35,6 @@ LA_TeleportScientist_WarpStriaton::
 	release
 	end
 
-LA_TeleportScientist_WarpMotostoke::
-	closemessage
-	warp MAP_AMAP_6_10_MOTOSTOKE, 31, 24
-	waitstate
-	release
-	end
 
 LA_TeleportScientist_Cancel::
 	closemessage
@@ -74,7 +57,17 @@ LA_TeleportScientist_WarpBWABatch::
 
 LA_TeleportScientist_WarpJohto::
 	closemessage
-	warp MAP_GSJOHTO_3_0_NEW_BARK_TOWN, 10, 12
+	warp MAP_HNS_TEST_NEWBARKTOWN, 20, 19
 	waitstate
 	release
 	end
+
+LA_TeleportScientist_WarpKantoAR::
+	warp MAP_HNS_REGION_PALLETTOWN, 12, 10
+	waitstate
+	release
+	end
+
+LA_Text_HnsKantoPending:
+	.string "Kanto is being prepared for the\n"
+	.string "Heart & Soul migration.$"

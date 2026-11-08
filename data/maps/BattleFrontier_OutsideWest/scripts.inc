@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_OutsideWest_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideWest_OnTransition
 	.byte 0
@@ -515,3 +517,180 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "Oh, challenges can wait. I feel driven\n"
 	.string "to find the delightful creature!$"
 
+
+#else
+BattleFrontier_OutsideWest_MapScripts::
+	.byte 0
+BattleFrontier_OutsideWest_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FerryAttendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_ChooseFerryDestination::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_NoSSTicket::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FerryToSlateport::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FerryToLilycove::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_ChooseNewFerryDestination::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_BoardFerry::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_CancelFerrySelect::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_BattleDomeSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_BattleFactorySign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_BattlePikeSign::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_UnusedNPC1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_UnusedNPC2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Boy1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Fisherman2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Man1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Maniac1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Maniac2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Camper::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_CamperFaceFactory::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_CamperAlreadyFacingFactory::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Girl::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_GirlShudderNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_GirlShudderSouth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_GirlShudderWest::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_GirlShudderEast::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_Movement_GirlShudderNorth:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_Movement_GirlShudderSouth:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_Movement_GirlShudderWest:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_Movement_GirlShudderEast:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Woman2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_WomanWonRockPaperScissors::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_WomanLostRockPaperScissors::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Fisherman1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_UnusedNPC3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Gentleman::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Lass::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_ExpertM::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Man2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Woman1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FatMan1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_FatMan2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Woman3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Boy2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_OldMan::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_Man4::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_EventScript_PokefanF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_OutsideWest_Text_BattleDomeSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_BattleFactorySign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_BattlePikeSign:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_SlateportItIs:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_LilycoveItIs:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_CantFindBattleTower:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_DomeAceIsMine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
+	.string "This feature is disabled in this build.$"
+#endif

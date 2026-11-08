@@ -1,0 +1,125 @@
+{
+  "id": "MAP_GSJOHTO_3_7_OLIVINE_CITY",
+  "name": "Johto_Olivine_City_Section_01",
+  "layout": "LAYOUT_GSJOHTO_3_7_OLIVINE_CITY",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_GS_JOHTO",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 5,
+      "map": "MAP_GSJOHTO_3_29_ROUTE_39"
+    },
+    {
+      "direction": "left",
+      "offset": 27,
+      "map": "MAP_GSJOHTO_3_30_ROUTE_40"
+    },
+    {
+      "direction": "down",
+      "offset": 41,
+      "map": "MAP_JOHTO_MERCURY_3_109_ROUTE_40"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_GSJOHTO_3_7_OLIVINE_CITY_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 13,
+      "y": 25,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "GSJohto_3_7_Olivine_City_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 24,
+      "y": 43,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_6_OLIVINE_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 20,
+      "y": 48,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_6_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_3_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_4_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 32,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_96_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 38,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_8_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 32,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_2_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 33,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_9_OLIVINE_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 32,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_11_7_OLIVINE_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 47,
+      "y": 33,
+      "elevation": 3,
+      "dest_map": "MAP_GSJOHTO_1_63_LIGHTHOUSE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_JOHTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

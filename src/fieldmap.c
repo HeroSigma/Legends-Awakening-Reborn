@@ -2,6 +2,7 @@
 #include "battle_pyramid.h"
 #include "bg.h"
 #include "fieldmap.h"
+#include "full_sheet_stream.h"
 #include "fldeff.h"
 #include "fldeff_misc.h"
 #include "frontier_util.h"
@@ -20,6 +21,7 @@
 #include "constants/metatile_behaviors.h"
 #include "constants/metatile_behaviors_frlg.h"
 #include "wild_encounter.h"
+
 
 struct ConnectionFlags
 {
@@ -984,7 +986,7 @@ static bool8 SkipCopyingMetatileFromSavedMap(u16 *mapBlock, u16 mapWidth, u8 yMo
 
 static void CopyTilesetToVram(struct Tileset const *tileset, u16 numTiles, u16 offset)
 {
-    if (tileset)
+    if (tileset && !FullSheetStreamOwnsTileset(tileset))
     {
         if (!tileset->isCompressed)
             LoadBgTiles(2, tileset->tiles, numTiles * 32, offset);
@@ -995,7 +997,7 @@ static void CopyTilesetToVram(struct Tileset const *tileset, u16 numTiles, u16 o
 
 static void CopyTilesetToVramUsingHeap(struct Tileset const *tileset, u16 numTiles, u16 offset)
 {
-    if (tileset)
+    if (tileset && !FullSheetStreamOwnsTileset(tileset))
     {
         if (!tileset->isCompressed)
             LoadBgTiles(2, tileset->tiles, numTiles * 32, offset);
@@ -1047,7 +1049,8 @@ static void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u1
 
 void CopyPrimaryTilesetToVram(struct MapLayout const *mapLayout)
 {
-    CopyTilesetToVram(mapLayout->primaryTileset, GetNumTilesInPrimary(mapLayout), 0);
+    if (!FullSheetStreamLoad(mapLayout))
+        CopyTilesetToVram(mapLayout->primaryTileset, GetNumTilesInPrimary(mapLayout), 0);
 }
 
 void CopySecondaryTilesetToVram(struct MapLayout const *mapLayout)
@@ -1072,7 +1075,7 @@ void LoadSecondaryTilesetPalette(struct MapLayout const *mapLayout, bool8 skipFa
 
 void CopyMapTilesetsToVram(struct MapLayout const *mapLayout)
 {
-    if (mapLayout)
+    if (mapLayout && !FullSheetStreamLoad(mapLayout))
     {
         CopyTilesetToVramUsingHeap(mapLayout->primaryTileset, GetNumTilesInPrimary(mapLayout), 0);
         CopyTilesetToVramUsingHeap(mapLayout->secondaryTileset, NUM_TILES_TOTAL - GetNumTilesInPrimary(mapLayout), GetNumTilesInPrimary(mapLayout));

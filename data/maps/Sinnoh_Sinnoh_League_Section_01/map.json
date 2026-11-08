@@ -1,0 +1,57 @@
+{
+  "id": "MAP_HYPERSINNOH_36_14_SINNOH_LEAGUE",
+  "name": "Sinnoh_Sinnoh_League_Section_01",
+  "layout": "LAYOUT_HYPERSINNOH_36_14_SINNOH_LEAGUE",
+  "music": "MUS_ROUTE104",
+  "region": "REGION_SINNOH",
+  "region_map_section": "MAPSEC_SINNOH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "down",
+      "offset": -2,
+      "map": "MAP_HYPERSINNOH_36_42_ROUTE_223"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_37_49_SINNOH_LEAGUE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 17,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_71_VICTORY_ROAD",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_36_71_VICTORY_ROAD",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_HYPERSINNOH_34_37_SINNOH_LEAGUE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "la_imported": true
+}

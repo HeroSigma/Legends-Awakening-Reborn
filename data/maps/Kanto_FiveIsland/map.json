@@ -1,0 +1,78 @@
+{
+  "id": "MAP_KANTOAR_3_16_FIVEISLAND",
+  "name": "Kanto_FiveIsland",
+  "layout": "LAYOUT_KANTOAR_3_16_FIVEISLAND",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_KANTO_AR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KANTOAR_3_55_FIVEISLAND_WATERLABYRINTH",
+      "offset": -48,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_KANTOAR_3_56_FIVEISLAND_MEADOW",
+      "offset": 0,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_KANTOAR_3_16_FIVEISLAND_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KantoAR_3_16_FiveIsland_Inspect",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_36_2_FIVEISLAND_HARBOR",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_36_0_FIVEISLAND_POKEMONCENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_36_3_FIVEISLAND_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_KANTOAR_36_4_FIVEISLAND_HOUSE2",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO",
+  "la_imported": false,
+  "la_retired_for_hns": true
+}

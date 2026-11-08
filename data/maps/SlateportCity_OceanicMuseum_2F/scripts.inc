@@ -1,9 +1,17 @@
 SlateportCity_OceanicMuseum_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, SlateportMuseum_HideBarry
 	.byte 0
+
+SlateportMuseum_HideBarry:
+	setflag FLAG_TEMP_1
+	end
 
 SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	lock
 	faceplayer
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_Delivery, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	msgbox SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_AQUA, TRUE
@@ -18,41 +26,66 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	waitmovement 0
 	call_if_eq VAR_FACING, DIR_SOUTH, SlateportCity_OceanicMuseum_2F_EventScript_PlayerFaceGrunts
 	call_if_eq VAR_FACING, DIR_EAST, SlateportCity_OceanicMuseum_2F_EventScript_PlayerFaceGrunts
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	call_if_ne VAR_FACING, DIR_EAST, SlateportCity_OceanicMuseum_2F_EventScript_SternFaceGrunts
 	msgbox SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou, MSGBOX_DEFAULT
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
+	call SlateportMuseum_BarryArrives
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_2, SlateportCity_OceanicMuseum_2F_Movement_GruntApproachToBattle
 	waitmovement 0
 	call_if_eq VAR_FACING, DIR_SOUTH, SlateportCity_OceanicMuseum_2F_EventScript_PlayerApproachGruntSouth
 	call_if_eq VAR_FACING, DIR_WEST, SlateportCity_OceanicMuseum_2F_EventScript_PlayerApproachGruntWest
 	trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_1, SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat
+	lockall
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_2, SlateportCity_OceanicMuseum_2F_Movement_GruntDefeated
 	waitmovement 0
-	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, SlateportCity_OceanicMuseum_2F_Movement_GruntApproachToBattle
+	playse SE_PIN
+	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, Common_Movement_ExclamationMark
 	waitmovement 0
-	msgbox SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_2, SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat
-	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, SlateportCity_OceanicMuseum_2F_Movement_GruntDefeated
-	waitmovement 0
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarryWins, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	closemessage
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_2, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
+	setspeaker SP_NAME_AQUA_GRUNT
 	msgbox SlateportCity_OceanicMuseum_2F_Text_MeddlingKid, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	delay 35
 	addobject LOCALID_OCEANIC_MUSEUM_2F_ARCHIE
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_ARCHIE, SlateportCity_OceanicMuseum_2F_Movement_ArchieEnter
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_2, SlateportCity_OceanicMuseum_2F_Movement_GruntMoveForArchie
 	waitmovement 0
-	msgbox SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_OCEANIC_MUSEUM_2F_ARCHIE, SlateportCity_OceanicMuseum_2F_Movement_ArchieApproachPlayer
+	applymovement LOCALID_OCEANIC_MUSEUM_2F_ARCHIE, SlateportMuseum_Movement_ArchieFaceBarry
 	waitmovement 0
+	turnobject LOCALID_OCEANIC_MUSEUM_2F_BARRY, DIR_SOUTH
+	turnobject LOCALID_PLAYER, DIR_WEST
+	setspeaker SP_NAME_ARCHIE
+	msgbox SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarryChallengesArchie, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ARCHIE
+	msgbox SlateportMuseum_Text_ArchieAnswersBarry, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_OCEANIC_MUSEUM_2F_ARCHIE, SlateportMuseum_Movement_ArchieFacePlayer
+	waitmovement 0
+	turnobject LOCALID_OCEANIC_MUSEUM_2F_BARRY, DIR_EAST
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_PlayerQuestionsArchie, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ARCHIE
 	msgbox SlateportCity_OceanicMuseum_2F_Text_ArchieWarning, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
 	closemessage
 	savebgm MUS_DUMMY
 	fadedefaultbgm
@@ -63,6 +96,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	fadescreen FADE_FROM_BLACK
 	delay 30
 	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
+	call SlateportMuseum_BarryConversation
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	msgbox SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs, MSGBOX_DEFAULT
@@ -85,6 +119,97 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	fadescreen FADE_FROM_BLACK
 	release
 	end
+
+SlateportMuseum_BarryArrives:
+	playse SE_PIN
+	clearflag FLAG_TEMP_1
+	addobject LOCALID_OCEANIC_MUSEUM_2F_BARRY
+	applymovement LOCALID_OCEANIC_MUSEUM_2F_BARRY, SlateportMuseum_Movement_BarryRunsIn
+	waitmovement 0
+	copyobjectxytoperm LOCALID_OCEANIC_MUSEUM_2F_BARRY
+	turnobject LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, DIR_WEST
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarryIntervenes, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_PlayerProtectStern, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	closemessage
+	return
+
+SlateportMuseum_BarryConversation:
+	turnobject LOCALID_PLAYER, DIR_WEST
+	turnobject LOCALID_OCEANIC_MUSEUM_2F_BARRY, DIR_EAST
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarryPhone, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_PlayerHoenn, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarrySinnoh, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_PlayerOfferHelp, MSGBOX_DEFAULT
+	setspeaker SP_NAME_BARRY
+	msgbox SlateportMuseum_Text_BarryRushesOff, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_OCEANIC_MUSEUM_2F_BARRY, SlateportMuseum_Movement_BarryRunsOut
+	waitmovement 0
+	removeobject LOCALID_OCEANIC_MUSEUM_2F_BARRY
+	setflag FLAG_TEMP_1
+	setspeaker SP_NAME_PLAYER
+	msgbox SlateportMuseum_Text_PlayerAfterBarry, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	return
+
+SlateportMuseum_Movement_BarryRunsIn:
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	face_right
+	step_end
+
+SlateportMuseum_Movement_BarryRunsOut:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+SlateportMuseum_Text_Delivery:
+	.string "Captain Stern? Devon sent me.\nI've got the parts you ordered.$"
+
+SlateportMuseum_Text_BarryIntervenes:
+	.string "Hey! Leave them alone!\pI'll battle this one!\nYou take the other!$"
+
+SlateportMuseum_Text_BarryWins:
+	.string "And that's the match!\pWhat, you thought I'd go easy\non you just because I'm lost?$"
+
+SlateportMuseum_Text_PlayerProtectStern:
+	.string "I've got it. Captain Stern,\nstay behind me!$"
+
+SlateportMuseum_Text_BarryPhone:
+	.string "Phew! All I wanted was a phone!\pI saw a line outside and figured\nsomeone here could help.\pI got tired of waiting. How was I\nsupposed to know who they were?$"
+
+SlateportMuseum_Text_PlayerHoenn:
+	.string "You're in Slateport City.\nThis is Hoenn. Where are you from?$"
+
+SlateportMuseum_Text_BarrySinnoh:
+	.string "Hoenn?! I'm Barry, from Sinnoh!\pI was on my way home when this\nbright crack opened in the road.\pThen I was here. Dad's going to\nwonder where I've gone!$"
+
+SlateportMuseum_Text_PlayerOfferHelp:
+	.string "A rift brought you here. I know\nsomeone who might be able to help…$"
+
+SlateportMuseum_Text_BarryRushesOff:
+	.string "Wait! If this is a port, somebody\ndown at the docks must have a phone!\pThanks! I'll see you around!$"
+
+SlateportMuseum_Text_PlayerAfterBarry:
+	.string "He's already gone. I bet rushing in\nis how he got caught up in all this.$"
 
 SlateportCity_OceanicMuseum_2F_EventScript_ReadyRegisterBirch::
 	setvar VAR_REGISTER_BIRCH_STATE, 1
@@ -140,8 +265,15 @@ SlateportCity_OceanicMuseum_2F_Movement_Unused:
 	delay_8
 	step_end
 
-SlateportCity_OceanicMuseum_2F_Movement_ArchieApproachPlayer:
+SlateportMuseum_Movement_ArchieFaceBarry:
+	walk_left
+	face_up
+	step_end
+
+SlateportMuseum_Movement_ArchieFacePlayer:
 	walk_right
+	walk_right
+	face_right
 	step_end
 
 SlateportCity_OceanicMuseum_2F_Movement_ArchieEnter:
@@ -312,54 +444,25 @@ SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
 	.string "with by some meddling kid!$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-	.string "I came to see what was taking so\n"
-	.string "long to snatch some parts, and you\l"
-	.string "simps are held up by a mere child?$"
+	.string "I sent two of my crew to collect\na crate. What's the holdup?\pYou there. Why are you standing\nbetween my crew and the stairs?$"
+
+SlateportMuseum_Text_BarryChallengesArchie:
+	.string "Your crew? They tried to rob him!\pIf you're their boss, tell them to\nleave Captain Stern alone!$"
+
+SlateportMuseum_Text_ArchieAnswersBarry:
+	.string "Name's Archie. I lead Team Aqua.\pYou've got nerve, kid. Now step\nback. I need a word with your friend.$"
+
+SlateportMuseum_Text_PlayerQuestionsArchie:
+	.string "The parts are for Captain Stern.\nWhat does Team Aqua want with them?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "We are TEAM AQUA,\n"
-	.string "and we love the sea!\p"
-	.string "And I am TEAM AQUA's leader,\n"
-	.string "ARCHIE!\p"
-	.string "What makes you interfere with us?\p"
-	.string "…No! You can't be!\n"
-	.string "You're not one of TEAM MAGMA?\p"
-	.string "Wait, that can't be right.\n"
-	.string "You're not dressed for the part.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "POKéMON, people… All life depends on\n"
-	.string "the sea.\p"
-	.string "So, TEAM AQUA is dedicated to\n"
-	.string "the expansion of the sea.\p"
-	.string "Don't you agree? What we are doing\n"
-	.string "is a magnificent undertaking.\p"
-	.string "Ah, fine…\n"
-	.string "You're still too young to understand\l"
-	.string "our noble objective.\p"
-	.string "But, I warn you, don't even consider\n"
-	.string "interfering with our plans again.\p"
-	.string "The consequences will cost you\n"
-	.string "dearly!\p"
-	.string "And don't you forget it!$"
+	.string "My crew saw the sea split open\noff Slateport. Then it closed.\pStern's equipment could tell us\nwhat happened under the surface.\pThe sea keeps this world alive.\nI won't wait for Devon's permission\lto find out what's happening to it.\pCrew, back to the docks. We'll\nfind another way to get a reading.\pAnd you two. Stay out of my way\nif we meet again.$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-	.string "CAPT. STERN: You're…\n"
-	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
-	.string "Anyway, that was a tense situation!\n"
-	.string "Thank you for saving us!\p"
-	.string "Oh, yes, I almost forgot that you\n"
-	.string "even brought the parts from DEVON!$"
+	.string "CAPT. STERN: Thank you, {PLAYER}.\pYou and that boy kept them away\nfrom the parts. May I see them?$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-	.string "CAPT. STERN: Whoops!\n"
-	.string "There's no time to lose!\p"
-	.string "We have to set out on our ocean-floor\n"
-	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
-	.string "to go!\p"
-	.string "Feel free to wander around and check\n"
-	.string "out our facilities, though.$"
+	.string "CAPT. STERN: These will seal the\npressure housing on our scanner.\pI hadn't heard about the sea\nsplitting open. I'll have the crew\lcheck our readings before we sail.\pI'll get word to Devon. You've\ndone plenty for us today.$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"

@@ -1,0 +1,336 @@
+{
+  "passed": true,
+  "assertions": 82,
+  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd",
+  "battle_results": "injected through native end handlers; combat difficulty is not measured",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "silph_joins_conversation_35",
+      "passed": true
+    },
+    {
+      "test": "fixed_singles_35",
+      "passed": true
+    },
+    {
+      "test": "correct_opponent_35",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_35",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_35",
+      "passed": true
+    },
+    {
+      "test": "triad_portrait_35",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(35, 5)",
+      "passed": true
+    },
+    {
+      "test": "silph_returns_to_recording_35",
+      "passed": true
+    },
+    {
+      "test": "all_three_present_35",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(35, 'LOCALID_PETALBURG_WOODS_GRUNT')",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(35, 'LOCALID_WOODS_TRIAD_2')",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(35, 'LOCALID_WOODS_TRIAD_3')",
+      "passed": true
+    },
+    {
+      "test": "completed_35",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsStand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsDemand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsConcern",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_35_WoodsAgree",
+      "passed": true
+    },
+    {
+      "test": "pokevial_reward_35",
+      "passed": true
+    },
+    {
+      "test": "one_reward_35",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_35",
+      "passed": true
+    },
+    {
+      "test": "actors_removed_35",
+      "passed": true
+    },
+    {
+      "test": "save_35",
+      "passed": true
+    },
+    {
+      "test": "load_35",
+      "passed": true
+    },
+    {
+      "test": "no_replay_35",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_36",
+      "passed": true
+    },
+    {
+      "test": "silph_joins_conversation_36",
+      "passed": true
+    },
+    {
+      "test": "fixed_singles_36",
+      "passed": true
+    },
+    {
+      "test": "correct_opponent_36",
+      "passed": true
+    },
+    {
+      "test": "six_opponents_36",
+      "passed": true
+    },
+    {
+      "test": "shiny_ace_36",
+      "passed": true
+    },
+    {
+      "test": "triad_portrait_36",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 0)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 1)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 2)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 3)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 4)",
+      "passed": true
+    },
+    {
+      "test": "legal_team_(36, 5)",
+      "passed": true
+    },
+    {
+      "test": "silph_returns_to_recording_36",
+      "passed": true
+    },
+    {
+      "test": "all_three_present_36",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(36, 'LOCALID_PETALBURG_WOODS_GRUNT')",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(36, 'LOCALID_WOODS_TRIAD_2')",
+      "passed": true
+    },
+    {
+      "test": "triad_on_walkable_ground_(36, 'LOCALID_WOODS_TRIAD_3')",
+      "passed": true
+    },
+    {
+      "test": "completed_36",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsQuestion",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsStand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsDemand",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsConcern",
+      "passed": true
+    },
+    {
+      "test": "player_speaks_36_WoodsAgree",
+      "passed": true
+    },
+    {
+      "test": "pokevial_reward_36",
+      "passed": true
+    },
+    {
+      "test": "one_reward_36",
+      "passed": true
+    },
+    {
+      "test": "controls_restored_36",
+      "passed": true
+    },
+    {
+      "test": "actors_removed_36",
+      "passed": true
+    },
+    {
+      "test": "save_36",
+      "passed": true
+    },
+    {
+      "test": "load_36",
+      "passed": true
+    },
+    {
+      "test": "no_replay_36",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "whiteout_returns_control",
+      "passed": true
+    },
+    {
+      "test": "loss_keeps_scene_pending",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "retry_battle",
+      "passed": true
+    },
+    {
+      "test": "retry_can_complete",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "backup_initially_hidden_35",
+      "passed": true
+    },
+    {
+      "test": "full_bag_scene_completes",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_completed_no_new_actors",
+      "passed": true
+    },
+    {
+      "test": "legacy_does_not_invent_theft",
+      "passed": true
+    }
+  ]
+}

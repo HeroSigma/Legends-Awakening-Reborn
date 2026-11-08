@@ -1,0 +1,14 @@
+{
+  "source_tag": "la-v0.5.0",
+  "source_commit": "01d51631f3aaefa9f271948978768d444aea1960",
+  "active_override_maps": 0,
+  "active_override_profiles": 0,
+  "trainer_engine_matches_source": true,
+  "sha256": {
+    "src/data/wild_encounters.json": "e0f695fc6cbd6bb8ceddf83c76ad69ca2a4f529d8c95167e228dc5e9812b9f18",
+    "src/data/trainers.party": "d08e7a008df0f9eeaf58bbddf66d8a2d0a9cfc269d34d5f25d3fdb4042942e85",
+    "src/trainer_pools.c": "d6fec66257a3efe3d7d63ee6ffe3ee59d944f22e61c55e854b3befc63df9fa0f",
+    "include/trainer_pools.h": "34553645935d8b79ac5d6e4943bb5d79cd6931d9378a62107e32df031985d9bd",
+    "src/data/battle_pool_rules.h": "7fba2505cd8a68252afb6c0d390b4bbe2683377d972f2565d8e67b12fe192709"
+  }
+}

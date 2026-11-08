@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "assertions": 42,
+  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "exit_thought_0",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(0, 5, 5)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(0, 5, 6)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(0, 6, 5)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(0, 7, 5)",
+      "passed": true
+    },
+    {
+      "test": "report_saved_0",
+      "passed": true
+    },
+    {
+      "test": "full_outing_completed_0",
+      "passed": true
+    },
+    {
+      "test": "ralts_bond_0",
+      "passed": true
+    },
+    {
+      "test": "birch_contacted_0",
+      "passed": true
+    },
+    {
+      "test": "wally_leaves_0",
+      "passed": true
+    },
+    {
+      "test": "party_restored_0",
+      "passed": true
+    },
+    {
+      "test": "story_save_0",
+      "passed": true
+    },
+    {
+      "test": "story_load_0",
+      "passed": true
+    },
+    {
+      "test": "story_persisted_0",
+      "passed": true
+    },
+    {
+      "test": "no_tutorial_repeat_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "exit_thought_1",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(1, 5, 5)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(1, 5, 6)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(1, 6, 5)",
+      "passed": true
+    },
+    {
+      "test": "tutorial_cell_(1, 7, 5)",
+      "passed": true
+    },
+    {
+      "test": "report_saved_1",
+      "passed": true
+    },
+    {
+      "test": "full_outing_completed_1",
+      "passed": true
+    },
+    {
+      "test": "ralts_bond_1",
+      "passed": true
+    },
+    {
+      "test": "birch_contacted_1",
+      "passed": true
+    },
+    {
+      "test": "wally_leaves_1",
+      "passed": true
+    },
+    {
+      "test": "party_restored_1",
+      "passed": true
+    },
+    {
+      "test": "story_save_1",
+      "passed": true
+    },
+    {
+      "test": "story_load_1",
+      "passed": true
+    },
+    {
+      "test": "story_persisted_1",
+      "passed": true
+    },
+    {
+      "test": "no_tutorial_repeat_1",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "east_gate_no_exit_thought",
+      "passed": true
+    },
+    {
+      "test": "unseen_meeting_no_exit_thought",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "late_report_supported",
+      "passed": true
+    },
+    {
+      "test": "late_report_does_not_invent_capture",
+      "passed": true
+    }
+  ]
+}

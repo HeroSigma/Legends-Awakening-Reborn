@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleTowerMultiPartnerRoom_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiPartnerRoom_OnTransition
@@ -1804,3 +1806,764 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject::
 	.string "If we meet again, you have to team up\n"
 	.string "with me. You'll do that, right?$"
 
+
+#else
+BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleTowerMultiPartnerRoom_OnResume:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_ChosePartner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_ExitRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PlayerEnterRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_AttendantBlockExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_QuitChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_EnterElevator::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_MoveToElevator::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_MoveToElevatorEast:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_MoveToElevatorWest:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PlayerEnterElevator:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PlayerEnterElevatorEast:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PlayerEnterElevatorWest:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_AttendantEnterElevator:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_TalkToPotentialPartner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_RejectPartner::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_PartnerExit::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_PartnerExitSouth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PartnerExit:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Movement_PartnerExitSouth:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner4::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner5::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner6::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner7::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Intro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Accept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject::
+	.string "This feature is disabled in this build.$"
+#endif

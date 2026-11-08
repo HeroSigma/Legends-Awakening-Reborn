@@ -1,0 +1,50 @@
+{
+  "id": "primary_f2e_MERCURY_082D4B6C",
+  "role": "primary",
+  "source_engine": "firered",
+  "normalized_engine": "emerald",
+  "normalization": "frlg_640_384_to_rse_512_512_global_ids_preserved",
+  "tile_count": 512,
+  "metatile_count": 512,
+  "palette_banks": [
+    {
+      "slot": 0,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/00.pal"
+    },
+    {
+      "slot": 1,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/01.pal"
+    },
+    {
+      "slot": 2,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/02.pal"
+    },
+    {
+      "slot": 3,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/03.pal"
+    },
+    {
+      "slot": 4,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/04.pal"
+    },
+    {
+      "slot": 5,
+      "path": "tilesets/primary_f2e_MERCURY_082D4B6C/palettes/05.pal"
+    }
+  ],
+  "source": {
+    "primary_tileset_struct": "0x082D4B6C",
+    "tiles_pointer": "0x08BA1350",
+    "palette_pointer": "0x08273358",
+    "metatiles_pointer": "0x0894CFC0",
+    "attributes_pointer": "0x0894F7C0",
+    "compression_mode": "gba_lz77"
+  },
+  "behavior_ids_over_255_truncated_in_rse_compat_attrs": 0,
+  "raw_frlg_attributes": "tilesets/primary_f2e_MERCURY_082D4B6C/source_frlg_metatile_attributes.bin",
+  "sha256": {
+    "tiles_4bpp": "301eea9d39f704aa84888eae1f5ff3a1a1f779ac0cab6100e9b03f285039f01f",
+    "metatiles_bvd": "a67608be5abf80dacdb92ddfb33bcc1db742e730bd0480ec379426d5f55d259c",
+    "raw_frlg_attributes": "fd49d1e3939b3b2b86a4b17287b092e9bca96a7042b8b6cbe48eb8e2f585e4a6"
+  }
+}

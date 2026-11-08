@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('/home/allan/projects/Legends-Awakening-Reborn');f=p/'tools/la_world/audit_exact_nuvema.py';s=f.read_text();s=s.replace("sets=[];bad=[]", "exec((P/'tools/la_world/nuvema_exact_assets.py').read_text(),ns)\nsets=[];bad=[]".replace('P/','p/'));s=s.replace("for n,im in ns['assets'].items():", "for n,im in ns['assets'].items():\n if n not in ns['active_assets']:continue");f.write_text(s)

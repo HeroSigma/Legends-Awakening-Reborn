@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_Lounge2_MapScripts::
 	.byte 0
 
@@ -367,3 +369,116 @@ BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
 	.string "…What is this place?\n"
 	.string "It's scaring me…$"
 
+
+#else
+BattleFrontier_Lounge2_MapScripts::
+	.byte 0
+BattleFrontier_Lounge2_EventScript_FrontierManiac::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_AlreadyMetManiac::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_GiveAdvice::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BattleTowerNews::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_FacilityNews::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferSingle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferDouble::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferMulti::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferMultiLink::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattleDome::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattleFactory::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattlePalace::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattleArena::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattlePike::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_BufferBattlePyramid::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_Maniac1::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_Maniac2::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_Maniac3::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_EventScript_TriathleteF::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_Lounge2_Text_FrontierManiacIntro::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_FacilityIsHottest::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DomeAceIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DomeAceSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DomeAceGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PikeQueenIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PyramidKingIsThere::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_MultiBattleAdvice::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_NewsGatheringPower::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_AmazingPowersOfObservation::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
+	.string "This feature is disabled in this build.$"
+BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
+	.string "This feature is disabled in this build.$"
+#endif

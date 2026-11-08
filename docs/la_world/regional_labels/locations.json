@@ -1,0 +1,5576 @@
+[
+  {
+    "map": "Unova_NuvemaTown",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_AMAP_3_0_NUVEMA_TOWN_LAYOUT"
+  },
+  {
+    "map": "Unova_StriatonCity",
+    "region": "Unova",
+    "location": "Striaton City",
+    "layout": "LAYOUT_AMAP_3_2_STRIATON_CITY_LAYOUT"
+  },
+  {
+    "map": "Unova_NacreneCity",
+    "region": "Unova",
+    "location": "Nacrene City",
+    "layout": "LAYOUT_AMAP_3_3_NACRENE_CITY_LAYOUT"
+  },
+  {
+    "map": "Unova_CasteliaCity_North",
+    "region": "Unova",
+    "location": "Castelia City",
+    "layout": "LAYOUT_BWA_1_30"
+  },
+  {
+    "map": "Unova_CasteliaCity",
+    "region": "Unova",
+    "location": "Castelia City",
+    "layout": "LAYOUT_BWA_3_4"
+  },
+  {
+    "map": "Unova_DriftveilCity",
+    "region": "Unova",
+    "location": "Driftveil City",
+    "layout": "LAYOUT_BWA_3_6"
+  },
+  {
+    "map": "Unova_Route2",
+    "region": "Unova",
+    "location": "Route 2",
+    "layout": "LAYOUT_BWA_3_20"
+  },
+  {
+    "map": "Unova_Route4_Desert",
+    "region": "Unova",
+    "location": "Route 4",
+    "layout": "LAYOUT_BWA_3_23"
+  },
+  {
+    "map": "Unova_Route5",
+    "region": "Unova",
+    "location": "Route 5",
+    "layout": "LAYOUT_BWA_3_24"
+  },
+  {
+    "map": "Unova_CasteliaCity_Docks",
+    "region": "Unova",
+    "location": "Castelia Docks",
+    "layout": "LAYOUT_BWA_3_45"
+  },
+  {
+    "map": "Unova_CasteliaCity_Waterfront",
+    "region": "Unova",
+    "location": "Castelia Waterfront",
+    "layout": "LAYOUT_BWA_3_46"
+  },
+  {
+    "map": "Unova_NuvemaTown_Interior_01",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_BWA_4_0"
+  },
+  {
+    "map": "Unova_NuvemaTown_Interior_02",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_BWA_4_1"
+  },
+  {
+    "map": "Unova_NuvemaTown_Interior_03",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_BWA_4_2"
+  },
+  {
+    "map": "Unova_NuvemaTown_Interior_04",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_BWA_4_5"
+  },
+  {
+    "map": "Unova_AccumulaTown_PokemonCenter",
+    "region": "Unova",
+    "location": "Accumula Town",
+    "layout": "LAYOUT_BWA_5_4"
+  },
+  {
+    "map": "Unova_StriatonCity_Interior_01",
+    "region": "Unova",
+    "location": "Striaton City",
+    "layout": "LAYOUT_BWA_6_2"
+  },
+  {
+    "map": "Unova_StriatonCity_Interior_02",
+    "region": "Unova",
+    "location": "Striaton City",
+    "layout": "LAYOUT_BWA_6_4"
+  },
+  {
+    "map": "Unova_StriatonCity_Interior_03",
+    "region": "Unova",
+    "location": "Striaton City",
+    "layout": "LAYOUT_BWA_6_5"
+  },
+  {
+    "map": "Unova_CasteliaCity_PokemonCenter",
+    "region": "Unova",
+    "location": "Castelia City",
+    "layout": "LAYOUT_BWA_8_0"
+  },
+  {
+    "map": "Unova_Dreamyard",
+    "region": "Unova",
+    "location": "Dreamyard",
+    "layout": "LAYOUT_BWA_39_0"
+  },
+  {
+    "map": "Unova_NuvemaTown_Interior_05",
+    "region": "Unova",
+    "location": "Nuvema Town",
+    "layout": "LAYOUT_BWA_42_0"
+  },
+  {
+    "map": "Johto_Ilex_Forest",
+    "region": "Johto",
+    "location": "Ilex Forest",
+    "layout": "LAYOUT_GSJOHTO_1_0_ILEX_FOREST"
+  },
+  {
+    "map": "Johto_Dark_Cave",
+    "region": "Johto",
+    "location": "Dark Cave",
+    "layout": "LAYOUT_GSJOHTO_1_1_DARK_CAVE"
+  },
+  {
+    "map": "Johto_Dark_Cave_Section_01",
+    "region": "Johto",
+    "location": "Dark Cave",
+    "layout": "LAYOUT_GSJOHTO_1_2_DARK_CAVE"
+  },
+  {
+    "map": "Johto_Cianwood_City",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_1_3_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_S_S_Anne",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_4_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_01",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_5_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_02",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_6_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_03",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_7_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_04",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_8_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_05",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_9_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_06",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_10_S_S_ANNE"
+  },
+  {
+    "map": "Johto_New_Bark_Town",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_1_11_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_National_Park",
+    "region": "Johto",
+    "location": "National Park",
+    "layout": "LAYOUT_GSJOHTO_1_12_NATIONAL_PARK"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_07",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_13_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_08",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_14_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_09",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_15_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_10",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_16_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_11",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_17_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_12",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_18_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_13",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_19_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_14",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_20_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_15",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_21_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_16",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_22_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_17",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_23_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_18",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_24_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_19",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_25_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_20",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_26_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_21",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_27_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_22",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_28_S_S_ANNE"
+  },
+  {
+    "map": "Johto_S_S_Anne_Interior_23",
+    "region": "Johto",
+    "location": "S.S. Anne",
+    "layout": "LAYOUT_GSJOHTO_1_29_S_S_ANNE"
+  },
+  {
+    "map": "Johto_Union_Cave",
+    "region": "Johto",
+    "location": "Union Cave",
+    "layout": "LAYOUT_GSJOHTO_1_30_UNION_CAVE"
+  },
+  {
+    "map": "Johto_Union_Cave_Section_01",
+    "region": "Johto",
+    "location": "Union Cave",
+    "layout": "LAYOUT_GSJOHTO_1_31_UNION_CAVE"
+  },
+  {
+    "map": "Johto_Slowpoke_Well",
+    "region": "Johto",
+    "location": "Slowpoke Well",
+    "layout": "LAYOUT_GSJOHTO_1_32_SLOWPOKE_WELL"
+  },
+  {
+    "map": "Johto_Ice_Path",
+    "region": "Johto",
+    "location": "Ice Path",
+    "layout": "LAYOUT_GSJOHTO_1_33_ICE_PATH"
+  },
+  {
+    "map": "Johto_Ice_Path_Section_01",
+    "region": "Johto",
+    "location": "Ice Path",
+    "layout": "LAYOUT_GSJOHTO_1_34_ICE_PATH"
+  },
+  {
+    "map": "Johto_Ice_Path_Section_02",
+    "region": "Johto",
+    "location": "Ice Path",
+    "layout": "LAYOUT_GSJOHTO_1_35_ICE_PATH"
+  },
+  {
+    "map": "Johto_Route_36",
+    "region": "Johto",
+    "location": "Route 36",
+    "layout": "LAYOUT_GSJOHTO_1_36_ROUTE_36"
+  },
+  {
+    "map": "Johto_Sprout_Tower",
+    "region": "Johto",
+    "location": "Sprout Tower",
+    "layout": "LAYOUT_GSJOHTO_1_37_SPROUT_TOWER"
+  },
+  {
+    "map": "Johto_National_Park_Section_01",
+    "region": "Johto",
+    "location": "National Park",
+    "layout": "LAYOUT_GSJOHTO_1_38_NATIONAL_PARK"
+  },
+  {
+    "map": "Johto_Victory_Road",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_39_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_Victory_Road_Section_01",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_40_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_Victory_Road_Section_02",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_41_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_Victory_Road_Section_03",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_42_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_Victory_Road_Section_04",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_43_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_Victory_Road_Section_05",
+    "region": "Johto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_GSJOHTO_1_44_VICTORY_ROAD"
+  },
+  {
+    "map": "Johto_UnidentifiedArea",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_45_MAP_01_45"
+  },
+  {
+    "map": "Johto_Cliff_Cave",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_1_46_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_47_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower_Interior_01",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_48_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower_Interior_02",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_49_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower_Interior_03",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_50_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower_Interior_04",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_51_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_City",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_1_52_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_01",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_1_53_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_02",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_1_54_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_Tower_Interior_05",
+    "region": "Johto",
+    "location": "Goldenrod Tower",
+    "layout": "LAYOUT_GSJOHTO_1_55_GOLDENROD_TOWER"
+  },
+  {
+    "map": "Johto_Rocket_HQ",
+    "region": "Johto",
+    "location": "Rocket HQ",
+    "layout": "LAYOUT_GSJOHTO_1_56_ROCKET_HQ"
+  },
+  {
+    "map": "Johto_Rocket_HQ_Interior_01",
+    "region": "Johto",
+    "location": "Rocket HQ",
+    "layout": "LAYOUT_GSJOHTO_1_57_ROCKET_HQ"
+  },
+  {
+    "map": "Johto_Rocket_HQ_Interior_02",
+    "region": "Johto",
+    "location": "Rocket HQ",
+    "layout": "LAYOUT_GSJOHTO_1_58_ROCKET_HQ"
+  },
+  {
+    "map": "Johto_Burned_Tower",
+    "region": "Johto",
+    "location": "Burned Tower",
+    "layout": "LAYOUT_GSJOHTO_1_59_BURNED_TOWER"
+  },
+  {
+    "map": "Johto_Burned_Tower_Section_01",
+    "region": "Johto",
+    "location": "Burned Tower",
+    "layout": "LAYOUT_GSJOHTO_1_60_BURNED_TOWER"
+  },
+  {
+    "map": "Johto_Lighthouse",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_61_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_01",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_62_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_02",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_63_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_03",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_64_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_04",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_65_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_05",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_1_66_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Ice_Path_Section_03",
+    "region": "Johto",
+    "location": "Ice Path",
+    "layout": "LAYOUT_GSJOHTO_1_67_ICE_PATH"
+  },
+  {
+    "map": "Johto_National_Park_Interior_01",
+    "region": "Johto",
+    "location": "National Park",
+    "layout": "LAYOUT_GSJOHTO_1_71_NATIONAL_PARK"
+  },
+  {
+    "map": "Johto_Mt_Mortar",
+    "region": "Johto",
+    "location": "Mt. Mortar",
+    "layout": "LAYOUT_GSJOHTO_1_72_MT_MORTAR"
+  },
+  {
+    "map": "Johto_Mt_Mortar_Section_01",
+    "region": "Johto",
+    "location": "Mt. Mortar",
+    "layout": "LAYOUT_GSJOHTO_1_73_MT_MORTAR"
+  },
+  {
+    "map": "Johto_Mt_Mortar_Section_02",
+    "region": "Johto",
+    "location": "Mt. Mortar",
+    "layout": "LAYOUT_GSJOHTO_1_74_MT_MORTAR"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_01",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_75_MAP_01_75"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_02",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_76_MAP_01_76"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_03",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_77_MAP_01_77"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Section_01",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_78_MAP_01_78"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_04",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_79_MAP_01_79"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_05",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_1_80_MAP_01_80"
+  },
+  {
+    "map": "Johto_Union_Cave_Section_02",
+    "region": "Johto",
+    "location": "Union Cave",
+    "layout": "LAYOUT_GSJOHTO_1_81_UNION_CAVE"
+  },
+  {
+    "map": "Johto_Union_Cave_Section_03",
+    "region": "Johto",
+    "location": "Union Cave",
+    "layout": "LAYOUT_GSJOHTO_1_82_UNION_CAVE"
+  },
+  {
+    "map": "Johto_Whirl_Islands",
+    "region": "Johto",
+    "location": "Whirl Islands",
+    "layout": "LAYOUT_GSJOHTO_1_83_WHIRL_ISLANDS"
+  },
+  {
+    "map": "Johto_Whirl_Islands_Section_01",
+    "region": "Johto",
+    "location": "Whirl Islands",
+    "layout": "LAYOUT_GSJOHTO_1_84_WHIRL_ISLANDS"
+  },
+  {
+    "map": "Johto_Whirl_Islands_Section_02",
+    "region": "Johto",
+    "location": "Whirl Islands",
+    "layout": "LAYOUT_GSJOHTO_1_85_WHIRL_ISLANDS"
+  },
+  {
+    "map": "Johto_Whirl_Islands_Section_03",
+    "region": "Johto",
+    "location": "Whirl Islands",
+    "layout": "LAYOUT_GSJOHTO_1_86_WHIRL_ISLANDS"
+  },
+  {
+    "map": "Johto_Mt_Mortar_Section_03",
+    "region": "Johto",
+    "location": "Mt. Mortar",
+    "layout": "LAYOUT_GSJOHTO_1_87_MT_MORTAR"
+  },
+  {
+    "map": "Johto_Ruins_of_Alph",
+    "region": "Johto",
+    "location": "Ruins of Alph",
+    "layout": "LAYOUT_GSJOHTO_1_88_RUINS_OF_ALPH"
+  },
+  {
+    "map": "Johto_Ruins_of_Alph_Interior_01",
+    "region": "Johto",
+    "location": "Ruins of Alph",
+    "layout": "LAYOUT_GSJOHTO_1_89_RUINS_OF_ALPH"
+  },
+  {
+    "map": "Johto_Ruins_of_Alph_Section_01",
+    "region": "Johto",
+    "location": "Ruins of Alph",
+    "layout": "LAYOUT_GSJOHTO_1_90_RUINS_OF_ALPH"
+  },
+  {
+    "map": "Johto_Slowpoke_Well_Section_01",
+    "region": "Johto",
+    "location": "Slowpoke Well",
+    "layout": "LAYOUT_GSJOHTO_1_91_SLOWPOKE_WELL"
+  },
+  {
+    "map": "Johto_Union_Cave_Section_04",
+    "region": "Johto",
+    "location": "Union Cave",
+    "layout": "LAYOUT_GSJOHTO_1_92_UNION_CAVE"
+  },
+  {
+    "map": "Johto_Bell_Tower",
+    "region": "Johto",
+    "location": "Bell Tower",
+    "layout": "LAYOUT_GSJOHTO_1_93_BELL_TOWER"
+  },
+  {
+    "map": "Johto_Bell_Tower_Section_01",
+    "region": "Johto",
+    "location": "Bell Tower",
+    "layout": "LAYOUT_GSJOHTO_1_94_BELL_TOWER"
+  },
+  {
+    "map": "Johto_Goldenrod_Sewers",
+    "region": "Johto",
+    "location": "Goldenrod Sewers",
+    "layout": "LAYOUT_GSJOHTO_1_95_GOLDENROD_SEWERS"
+  },
+  {
+    "map": "Johto_Olivine_City",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_1_96_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Dragon_s_Den",
+    "region": "Johto",
+    "location": "Dragon's Den",
+    "layout": "LAYOUT_GSJOHTO_1_97_DRAGON_S_DEN"
+  },
+  {
+    "map": "Kanto_BattleColosseum_2P",
+    "region": "Kanto",
+    "location": "Battle Colosseum",
+    "layout": "LAYOUT_KANTOAR_0_0_BATTLECOLOSSEUM_2P"
+  },
+  {
+    "map": "Kanto_TradeCenter",
+    "region": "Kanto",
+    "location": "Trade Center",
+    "layout": "LAYOUT_KANTOAR_0_1_TRADECENTER"
+  },
+  {
+    "map": "Kanto_RecordCorner",
+    "region": "Kanto",
+    "location": "Record Corner",
+    "layout": "LAYOUT_KANTOAR_0_2_RECORDCORNER"
+  },
+  {
+    "map": "Kanto_BattleColosseum_4P",
+    "region": "Kanto",
+    "location": "Battle Colosseum",
+    "layout": "LAYOUT_KANTOAR_0_3_BATTLECOLOSSEUM_4P"
+  },
+  {
+    "map": "Kanto_UnionRoom",
+    "region": "Kanto",
+    "location": "Union Room",
+    "layout": "LAYOUT_KANTOAR_0_4_UNIONROOM"
+  },
+  {
+    "map": "Kanto_ViridianForest",
+    "region": "Kanto",
+    "location": "Viridian Forest",
+    "layout": "LAYOUT_KANTOAR_1_0_VIRIDIANFOREST"
+  },
+  {
+    "map": "Kanto_MtMoon_1F",
+    "region": "Kanto",
+    "location": "Mt Moon",
+    "layout": "LAYOUT_KANTOAR_1_1_MTMOON_1F"
+  },
+  {
+    "map": "Unova_PinwheelForest_Approach",
+    "region": "Unova",
+    "location": "Pinwheel Forest",
+    "layout": "LAYOUT_AMAP_1_95_PINHWEEL_FOREST_LAYOUT"
+  },
+  {
+    "map": "Unova_PinwheelForest_Interior",
+    "region": "Unova",
+    "location": "Pinwheel Forest",
+    "layout": "LAYOUT_AMAP_1_114_PINHWEEL_FOREST_LAYOUT"
+  },
+  {
+    "map": "Johto_Route_29",
+    "region": "Johto",
+    "location": "Route 29",
+    "layout": "LAYOUT_GSJOHTO_1_98_ROUTE_29"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Section_01",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_3_0_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_Cherrygrove_City",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_3_1_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Violet_City",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_3_2_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Azalea_Town",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_3_3_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Mahogany_Town",
+    "region": "Johto",
+    "location": "Mahogany Town",
+    "layout": "LAYOUT_GSJOHTO_3_4_MAHOGANY_TOWN"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Section_01",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_3_5_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_3_6_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Section_01",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_3_7_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Section_01",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_3_8_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Section_02",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_3_9_MAP_03_09"
+  },
+  {
+    "map": "Johto_Blackthorn_City",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_3_10_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Lake_of_Rage",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_3_11_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Route_29_Section_01",
+    "region": "Johto",
+    "location": "Route 29",
+    "layout": "LAYOUT_GSJOHTO_3_19_ROUTE_29"
+  },
+  {
+    "map": "Johto_Route_30",
+    "region": "Johto",
+    "location": "Route 30",
+    "layout": "LAYOUT_GSJOHTO_3_20_ROUTE_30"
+  },
+  {
+    "map": "Johto_Route_31",
+    "region": "Johto",
+    "location": "Route 31",
+    "layout": "LAYOUT_GSJOHTO_3_21_ROUTE_31"
+  },
+  {
+    "map": "Johto_Route_32",
+    "region": "Johto",
+    "location": "Route 32",
+    "layout": "LAYOUT_GSJOHTO_3_22_ROUTE_32"
+  },
+  {
+    "map": "Johto_Route_33",
+    "region": "Johto",
+    "location": "Route 33",
+    "layout": "LAYOUT_GSJOHTO_3_23_ROUTE_33"
+  },
+  {
+    "map": "Johto_Route_34",
+    "region": "Johto",
+    "location": "Route 34",
+    "layout": "LAYOUT_GSJOHTO_3_24_ROUTE_34"
+  },
+  {
+    "map": "Johto_Route_35",
+    "region": "Johto",
+    "location": "Route 35",
+    "layout": "LAYOUT_GSJOHTO_3_25_ROUTE_35"
+  },
+  {
+    "map": "Johto_Route_36_Section_01",
+    "region": "Johto",
+    "location": "Route 36",
+    "layout": "LAYOUT_GSJOHTO_3_26_ROUTE_36"
+  },
+  {
+    "map": "Johto_Route_37",
+    "region": "Johto",
+    "location": "Route 37",
+    "layout": "LAYOUT_GSJOHTO_3_27_ROUTE_37"
+  },
+  {
+    "map": "Johto_Route_38",
+    "region": "Johto",
+    "location": "Route 38",
+    "layout": "LAYOUT_GSJOHTO_3_28_ROUTE_38"
+  },
+  {
+    "map": "Johto_Route_39",
+    "region": "Johto",
+    "location": "Route 39",
+    "layout": "LAYOUT_GSJOHTO_3_29_ROUTE_39"
+  },
+  {
+    "map": "Johto_Route_40",
+    "region": "Johto",
+    "location": "Route 40",
+    "layout": "LAYOUT_GSJOHTO_3_30_ROUTE_40"
+  },
+  {
+    "map": "Johto_Route_41",
+    "region": "Johto",
+    "location": "Route 41",
+    "layout": "LAYOUT_GSJOHTO_3_31_ROUTE_41"
+  },
+  {
+    "map": "Johto_Route_42",
+    "region": "Johto",
+    "location": "Route 42",
+    "layout": "LAYOUT_GSJOHTO_3_32_ROUTE_42"
+  },
+  {
+    "map": "Johto_Route_43",
+    "region": "Johto",
+    "location": "Route 43",
+    "layout": "LAYOUT_GSJOHTO_3_33_ROUTE_43"
+  },
+  {
+    "map": "Johto_Route_44",
+    "region": "Johto",
+    "location": "Route 44",
+    "layout": "LAYOUT_GSJOHTO_3_34_ROUTE_44"
+  },
+  {
+    "map": "Johto_Route_45",
+    "region": "Johto",
+    "location": "Route 45",
+    "layout": "LAYOUT_GSJOHTO_3_35_ROUTE_45"
+  },
+  {
+    "map": "Johto_Route_46",
+    "region": "Johto",
+    "location": "Route 46",
+    "layout": "LAYOUT_GSJOHTO_3_36_ROUTE_46"
+  },
+  {
+    "map": "Johto_Route_47",
+    "region": "Johto",
+    "location": "Route 47",
+    "layout": "LAYOUT_GSJOHTO_3_37_ROUTE_47"
+  },
+  {
+    "map": "Johto_Route_48",
+    "region": "Johto",
+    "location": "Route 48",
+    "layout": "LAYOUT_GSJOHTO_3_38_ROUTE_48"
+  },
+  {
+    "map": "Johto_Route_27",
+    "region": "Johto",
+    "location": "Route 27",
+    "layout": "LAYOUT_GSJOHTO_3_39_ROUTE_27"
+  },
+  {
+    "map": "Johto_Route_27_Section_01",
+    "region": "Johto",
+    "location": "Route 27",
+    "layout": "LAYOUT_GSJOHTO_3_40_ROUTE_27"
+  },
+  {
+    "map": "Johto_Tohjo_Falls",
+    "region": "Johto",
+    "location": "Tohjo Falls",
+    "layout": "LAYOUT_GSJOHTO_3_41_TOHJO_FALLS"
+  },
+  {
+    "map": "Johto_Route_28",
+    "region": "Johto",
+    "location": "Route 28",
+    "layout": "LAYOUT_GSJOHTO_3_42_ROUTE_28"
+  },
+  {
+    "map": "Johto_Sinjoh_Ruins",
+    "region": "Johto",
+    "location": "Sinjoh Ruins",
+    "layout": "LAYOUT_GSJOHTO_3_43_SINJOH_RUINS"
+  },
+  {
+    "map": "Johto_Mt_Silver",
+    "region": "Johto",
+    "location": "Mt. Silver",
+    "layout": "LAYOUT_GSJOHTO_3_44_MT_SILVER"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Section_02",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_3_66_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_01",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_4_0_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_02",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_4_1_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_03",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_4_2_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_04",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_4_3_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_Cherrygrove_City_Interior_01",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_5_0_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Mahogany_Town_Interior_01",
+    "region": "Johto",
+    "location": "Mahogany Town",
+    "layout": "LAYOUT_GSJOHTO_5_1_MAHOGANY_TOWN"
+  },
+  {
+    "map": "Johto_Cherrygrove_City_Interior_02",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_5_2_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Cherrygrove_City_Interior_03",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_5_3_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Cherrygrove_City_Interior_04",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_5_4_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_01",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_0_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_02",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_1_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_03",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_2_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_04",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_3_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Ruins_of_Alph_Interior_02",
+    "region": "Johto",
+    "location": "Ruins of Alph",
+    "layout": "LAYOUT_GSJOHTO_6_4_RUINS_OF_ALPH"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_05",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_5_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_06",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_6_7_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_01",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_0_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_02",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_1_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Violet_City_Interior_07",
+    "region": "Johto",
+    "location": "Violet City",
+    "layout": "LAYOUT_GSJOHTO_7_2_VIOLET_CITY"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_03",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_3_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_04",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_5_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_05",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_6_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_06",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_7_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_01",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_7_8_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Azalea_Town_Interior_07",
+    "region": "Johto",
+    "location": "Azalea Town",
+    "layout": "LAYOUT_GSJOHTO_7_9_AZALEA_TOWN"
+  },
+  {
+    "map": "Johto_Mahogany_Town_Interior_02",
+    "region": "Johto",
+    "location": "Mahogany Town",
+    "layout": "LAYOUT_GSJOHTO_8_0_MAHOGANY_TOWN"
+  },
+  {
+    "map": "Johto_Route_43_Interior_01",
+    "region": "Johto",
+    "location": "Route 43",
+    "layout": "LAYOUT_GSJOHTO_8_1_ROUTE_43"
+  },
+  {
+    "map": "Johto_Mahogany_Town_Interior_03",
+    "region": "Johto",
+    "location": "Mahogany Town",
+    "layout": "LAYOUT_GSJOHTO_8_2_MAHOGANY_TOWN"
+  },
+  {
+    "map": "Johto_Mahogany_Town_Interior_04",
+    "region": "Johto",
+    "location": "Mahogany Town",
+    "layout": "LAYOUT_GSJOHTO_8_3_MAHOGANY_TOWN"
+  },
+  {
+    "map": "Johto_Route_43_Interior_02",
+    "region": "Johto",
+    "location": "Route 43",
+    "layout": "LAYOUT_GSJOHTO_8_4_ROUTE_43"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_01",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_8_5_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_03",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_0_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_04",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_1_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_05",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_2_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_06",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_3_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_02",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_9_4_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_01",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_9_5_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_07",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_6_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_08",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_9_7_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_09",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_10_0_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_Sewers_Interior_01",
+    "region": "Johto",
+    "location": "Goldenrod Sewers",
+    "layout": "LAYOUT_GSJOHTO_10_1_GOLDENROD_SEWERS"
+  },
+  {
+    "map": "Johto_Goldenrod_Sewers_Interior_02",
+    "region": "Johto",
+    "location": "Goldenrod Sewers",
+    "layout": "LAYOUT_GSJOHTO_10_2_GOLDENROD_SEWERS"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_10",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_10_3_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_11",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_10_4_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Goldenrod_City_Interior_12",
+    "region": "Johto",
+    "location": "Goldenrod City",
+    "layout": "LAYOUT_GSJOHTO_10_5_GOLDENROD_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_02",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_6_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_03",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_7_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_04",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_8_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_05",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_9_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_06",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_10_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_07",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_11_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_08",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_12_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_09",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_13_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Section_01",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_14_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_10",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_15_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_11",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_16_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_12",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_17_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_13",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_18_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Ecruteak_City_Interior_14",
+    "region": "Johto",
+    "location": "Ecruteak City",
+    "layout": "LAYOUT_GSJOHTO_10_19_ECRUTEAK_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_01",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_0_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_02",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_1_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_03",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_2_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_04",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_3_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_05",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_4_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_06",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_5_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_07",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_6_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_08",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_7_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_09",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_8_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Olivine_City_Interior_10",
+    "region": "Johto",
+    "location": "Olivine City",
+    "layout": "LAYOUT_GSJOHTO_11_9_OLIVINE_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_03",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_0_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Route_42_Section_01",
+    "region": "Johto",
+    "location": "Route 42",
+    "layout": "LAYOUT_GSJOHTO_12_1_ROUTE_42"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_04",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_2_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_05",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_3_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_06",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_4_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_07",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_5_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_08",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_12_6_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Route_48_Interior_01",
+    "region": "Johto",
+    "location": "Route 48",
+    "layout": "LAYOUT_GSJOHTO_12_7_ROUTE_48"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_06",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_13_0_MAP_13_00"
+  },
+  {
+    "map": "Kanto_MtMoon_B1F",
+    "region": "Kanto",
+    "location": "Mt Moon",
+    "layout": "LAYOUT_KANTOAR_1_2_MTMOON_B1F"
+  },
+  {
+    "map": "Kanto_MtMoon_B2F",
+    "region": "Kanto",
+    "location": "Mt Moon",
+    "layout": "LAYOUT_KANTOAR_1_3_MTMOON_B2F"
+  },
+  {
+    "map": "Kanto_SSAnne_Exterior",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_4_SSANNE_EXTERIOR"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Corridor",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_5_SSANNE_1F_CORRIDOR"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Corridor",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_6_SSANNE_2F_CORRIDOR"
+  },
+  {
+    "map": "Kanto_SSAnne_3F_Corridor",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_7_SSANNE_3F_CORRIDOR"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Corridor",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_8_SSANNE_B1F_CORRIDOR"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_07",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_13_1_MAP_13_01"
+  },
+  {
+    "map": "Johto_Cianwood_City_Interior_09",
+    "region": "Johto",
+    "location": "Cianwood City",
+    "layout": "LAYOUT_GSJOHTO_14_0_CIANWOOD_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_01",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_1_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Dragon_s_Den_Interior_01",
+    "region": "Johto",
+    "location": "Dragon's Den",
+    "layout": "LAYOUT_GSJOHTO_14_2_DRAGON_S_DEN"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_02",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_3_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_03",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_4_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_04",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_5_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_05",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_6_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_06",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_8_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Blackthorn_City_Interior_07",
+    "region": "Johto",
+    "location": "Blackthorn City",
+    "layout": "LAYOUT_GSJOHTO_14_9_BLACKTHORN_CITY"
+  },
+  {
+    "map": "Johto_Cherrygrove_City_Interior_05",
+    "region": "Johto",
+    "location": "Cherrygrove City",
+    "layout": "LAYOUT_GSJOHTO_15_0_CHERRYGROVE_CITY"
+  },
+  {
+    "map": "Johto_Route_30_Interior_01",
+    "region": "Johto",
+    "location": "Route 30",
+    "layout": "LAYOUT_GSJOHTO_15_1_ROUTE_30"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_05",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_15_2_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_06",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_15_3_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_Route_34_Interior_01",
+    "region": "Johto",
+    "location": "Route 34",
+    "layout": "LAYOUT_GSJOHTO_16_0_ROUTE_34"
+  },
+  {
+    "map": "Johto_Route_33_Interior_01",
+    "region": "Johto",
+    "location": "Route 33",
+    "layout": "LAYOUT_GSJOHTO_16_1_ROUTE_33"
+  },
+  {
+    "map": "Johto_Route_34_Interior_02",
+    "region": "Johto",
+    "location": "Route 34",
+    "layout": "LAYOUT_GSJOHTO_17_0_ROUTE_34"
+  },
+  {
+    "map": "Johto_Route_29_Interior_01",
+    "region": "Johto",
+    "location": "Route 29",
+    "layout": "LAYOUT_GSJOHTO_17_1_ROUTE_29"
+  },
+  {
+    "map": "Johto_Route_32_Interior_01",
+    "region": "Johto",
+    "location": "Route 32",
+    "layout": "LAYOUT_GSJOHTO_18_0_ROUTE_32"
+  },
+  {
+    "map": "Johto_Route_35_Interior_01",
+    "region": "Johto",
+    "location": "Route 35",
+    "layout": "LAYOUT_GSJOHTO_18_1_ROUTE_35"
+  },
+  {
+    "map": "Johto_Route_35_Interior_02",
+    "region": "Johto",
+    "location": "Route 35",
+    "layout": "LAYOUT_GSJOHTO_19_0_ROUTE_35"
+  },
+  {
+    "map": "Johto_Route_42_Interior_01",
+    "region": "Johto",
+    "location": "Route 42",
+    "layout": "LAYOUT_GSJOHTO_20_0_ROUTE_42"
+  },
+  {
+    "map": "Johto_Route_48_Interior_02",
+    "region": "Johto",
+    "location": "Route 48",
+    "layout": "LAYOUT_GSJOHTO_21_0_ROUTE_48"
+  },
+  {
+    "map": "Johto_UnidentifiedArea_Interior_08",
+    "region": "Johto",
+    "location": "Johto Area",
+    "layout": "LAYOUT_GSJOHTO_22_0_MAP_22_00"
+  },
+  {
+    "map": "Johto_Route_39_Interior_01",
+    "region": "Johto",
+    "location": "Route 39",
+    "layout": "LAYOUT_GSJOHTO_22_1_ROUTE_39"
+  },
+  {
+    "map": "Johto_Route_36_Interior_01",
+    "region": "Johto",
+    "location": "Route 36",
+    "layout": "LAYOUT_GSJOHTO_23_0_ROUTE_36"
+  },
+  {
+    "map": "Johto_Route_40_Interior_01",
+    "region": "Johto",
+    "location": "Route 40",
+    "layout": "LAYOUT_GSJOHTO_23_1_ROUTE_40"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_07",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_23_2_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_Route_31_Interior_01",
+    "region": "Johto",
+    "location": "Route 31",
+    "layout": "LAYOUT_GSJOHTO_24_0_ROUTE_31"
+  },
+  {
+    "map": "Johto_Route_43_Interior_03",
+    "region": "Johto",
+    "location": "Route 43",
+    "layout": "LAYOUT_GSJOHTO_24_1_ROUTE_43"
+  },
+  {
+    "map": "Johto_Route_36_Interior_02",
+    "region": "Johto",
+    "location": "Route 36",
+    "layout": "LAYOUT_GSJOHTO_25_1_ROUTE_36"
+  },
+  {
+    "map": "Johto_Route_44_Interior_01",
+    "region": "Johto",
+    "location": "Route 44",
+    "layout": "LAYOUT_GSJOHTO_25_2_ROUTE_44"
+  },
+  {
+    "map": "Johto_New_Bark_Town_Interior_08",
+    "region": "Johto",
+    "location": "New Bark Town",
+    "layout": "LAYOUT_GSJOHTO_26_1_NEW_BARK_TOWN"
+  },
+  {
+    "map": "Johto_Route_47_Interior_01",
+    "region": "Johto",
+    "location": "Route 47",
+    "layout": "LAYOUT_GSJOHTO_27_0_ROUTE_47"
+  },
+  {
+    "map": "Johto_Route_48_Section_01",
+    "region": "Johto",
+    "location": "Route 48",
+    "layout": "LAYOUT_GSJOHTO_28_0_ROUTE_48"
+  },
+  {
+    "map": "Johto_Route_28_Interior_01",
+    "region": "Johto",
+    "location": "Route 28",
+    "layout": "LAYOUT_GSJOHTO_29_0_ROUTE_28"
+  },
+  {
+    "map": "Johto_Mt_Silver_Interior_01",
+    "region": "Johto",
+    "location": "Mt. Silver",
+    "layout": "LAYOUT_GSJOHTO_30_0_MT_SILVER"
+  },
+  {
+    "map": "Johto_Cliff_Cave_Interior_01",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_32_0_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Cliff_Cave_Interior_02",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_32_1_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Cliff_Cave_Interior_03",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_32_2_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Cliff_Cave_Interior_04",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_32_3_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Cliff_Cave_Interior_05",
+    "region": "Johto",
+    "location": "Cliff Cave",
+    "layout": "LAYOUT_GSJOHTO_32_4_CLIFF_CAVE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_06",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_33_0_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_07",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_33_1_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lighthouse_Interior_08",
+    "region": "Johto",
+    "location": "Lighthouse",
+    "layout": "LAYOUT_GSJOHTO_33_4_LIGHTHOUSE"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_02",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_34_0_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_03",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_34_4_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_04",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_34_5_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_05",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_34_6_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_06",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_34_7_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Route_34_Interior_03",
+    "region": "Johto",
+    "location": "Route 34",
+    "layout": "LAYOUT_GSJOHTO_35_0_ROUTE_34"
+  },
+  {
+    "map": "Johto_Lake_of_Rage_Interior_07",
+    "region": "Johto",
+    "location": "Lake of Rage",
+    "layout": "LAYOUT_GSJOHTO_35_3_LAKE_OF_RAGE"
+  },
+  {
+    "map": "Johto_Route_38_Interior_01",
+    "region": "Johto",
+    "location": "Route 38",
+    "layout": "LAYOUT_GSJOHTO_35_4_ROUTE_38"
+  },
+  {
+    "map": "Kanto_SSAnne_Deck",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_9_SSANNE_DECK"
+  },
+  {
+    "map": "Kanto_MtEmber_SummitPath_3F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_100_MTEMBER_SUMMITPATH_3F"
+  },
+  {
+    "map": "Kanto_MtEmber_Summit",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_101_MTEMBER_SUMMIT"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B5F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_102_MTEMBER_RUBYPATH_B5F"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_1F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_103_MTEMBER_RUBYPATH_1F"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B1F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_104_MTEMBER_RUBYPATH_B1F"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B2F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_105_MTEMBER_RUBYPATH_B2F"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B3F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_106_MTEMBER_RUBYPATH_B3F"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B1F_Stairs",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_107_MTEMBER_RUBYPATH_B1F_STAIRS"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B2F_Stairs",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_108_MTEMBER_RUBYPATH_B2F_STAIRS"
+  },
+  {
+    "map": "Kanto_ThreeIsland_BerryForest",
+    "region": "Kanto",
+    "location": "Berry Forest",
+    "layout": "LAYOUT_KANTOAR_1_109_THREEISLAND_BERRYFOREST"
+  },
+  {
+    "map": "Kanto_SSAnne_Kitchen",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_10_SSANNE_KITCHEN"
+  },
+  {
+    "map": "Kanto_FourIsland_IcefallCave_Entrance",
+    "region": "Kanto",
+    "location": "Icefall Cave",
+    "layout": "LAYOUT_KANTOAR_1_110_FOURISLAND_ICEFALLCAVE_ENTRANCE"
+  },
+  {
+    "map": "Kanto_FourIsland_IcefallCave_1F",
+    "region": "Kanto",
+    "location": "Icefall Cave",
+    "layout": "LAYOUT_KANTOAR_1_111_FOURISLAND_ICEFALLCAVE_1F"
+  },
+  {
+    "map": "Kanto_FourIsland_IcefallCave_B1F",
+    "region": "Kanto",
+    "location": "Icefall Cave",
+    "layout": "LAYOUT_KANTOAR_1_112_FOURISLAND_ICEFALLCAVE_B1F"
+  },
+  {
+    "map": "Kanto_FourIsland_IcefallCave_Back",
+    "region": "Kanto",
+    "location": "Icefall Cave",
+    "layout": "LAYOUT_KANTOAR_1_113_FOURISLAND_ICEFALLCAVE_BACK"
+  },
+  {
+    "map": "Kanto_FiveIsland_RocketWarehouse",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_1_114_FIVEISLAND_ROCKETWAREHOUSE"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_1F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_115_SIXISLAND_DOTTEDHOLE_1F"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_B1F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_116_SIXISLAND_DOTTEDHOLE_B1F"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_B2F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_117_SIXISLAND_DOTTEDHOLE_B2F"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_B3F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_118_SIXISLAND_DOTTEDHOLE_B3F"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_B4F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_119_SIXISLAND_DOTTEDHOLE_B4F"
+  },
+  {
+    "map": "Kanto_SSAnne_CaptainsOffice",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_11_SSANNE_CAPTAINSOFFICE"
+  },
+  {
+    "map": "Kanto_SixIsland_DottedHole_SapphireRoom",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_120_SIXISLAND_DOTTEDHOLE_SAPPHIREROOM"
+  },
+  {
+    "map": "Kanto_SixIsland_PatternBush",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_121_SIXISLAND_PATTERNBUSH"
+  },
+  {
+    "map": "Kanto_SixIsland_AlteringCave",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_1_122_SIXISLAND_ALTERINGCAVE"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room1",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_12_SSANNE_1F_ROOM1"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room2",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_13_SSANNE_1F_ROOM2"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room3",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_14_SSANNE_1F_ROOM3"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room4",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_15_SSANNE_1F_ROOM4"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room5",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_16_SSANNE_1F_ROOM5"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room7",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_17_SSANNE_1F_ROOM7"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room1",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_18_SSANNE_2F_ROOM1"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room2",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_19_SSANNE_2F_ROOM2"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room3",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_20_SSANNE_2F_ROOM3"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room4",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_21_SSANNE_2F_ROOM4"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room5",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_22_SSANNE_2F_ROOM5"
+  },
+  {
+    "map": "Kanto_SSAnne_2F_Room6",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_23_SSANNE_2F_ROOM6"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Room1",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_24_SSANNE_B1F_ROOM1"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Room2",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_25_SSANNE_B1F_ROOM2"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Room3",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_26_SSANNE_B1F_ROOM3"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Room4",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_27_SSANNE_B1F_ROOM4"
+  },
+  {
+    "map": "Kanto_SSAnne_B1F_Room5",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_28_SSANNE_B1F_ROOM5"
+  },
+  {
+    "map": "Kanto_SSAnne_1F_Room6",
+    "region": "Kanto",
+    "location": "SSAnne",
+    "layout": "LAYOUT_KANTOAR_1_29_SSANNE_1F_ROOM6"
+  },
+  {
+    "map": "Kanto_UndergroundPath_NorthEntrance",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_30_UNDERGROUNDPATH_NORTHENTRANCE"
+  },
+  {
+    "map": "Kanto_UndergroundPath_NorthSouthTunnel",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_31_UNDERGROUNDPATH_NORTHSOUTHTUNNEL"
+  },
+  {
+    "map": "Kanto_UndergroundPath_SouthEntrance",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_32_UNDERGROUNDPATH_SOUTHENTRANCE"
+  },
+  {
+    "map": "Kanto_UndergroundPath_WestEntrance",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_33_UNDERGROUNDPATH_WESTENTRANCE"
+  },
+  {
+    "map": "Kanto_UndergroundPath_EastWestTunnel",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_34_UNDERGROUNDPATH_EASTWESTTUNNEL"
+  },
+  {
+    "map": "Kanto_UndergroundPath_EastEntrance",
+    "region": "Kanto",
+    "location": "Underground Path",
+    "layout": "LAYOUT_KANTOAR_1_35_UNDERGROUNDPATH_EASTENTRANCE"
+  },
+  {
+    "map": "Kanto_DiglettsCave_NorthEntrance",
+    "region": "Kanto",
+    "location": "Digletts Cave",
+    "layout": "LAYOUT_KANTOAR_1_36_DIGLETTSCAVE_NORTHENTRANCE"
+  },
+  {
+    "map": "Kanto_DiglettsCave_B1F",
+    "region": "Kanto",
+    "location": "Digletts Cave",
+    "layout": "LAYOUT_KANTOAR_1_37_DIGLETTSCAVE_B1F"
+  },
+  {
+    "map": "Kanto_DiglettsCave_SouthEntrance",
+    "region": "Kanto",
+    "location": "Digletts Cave",
+    "layout": "LAYOUT_KANTOAR_1_38_DIGLETTSCAVE_SOUTHENTRANCE"
+  },
+  {
+    "map": "Kanto_VictoryRoad_1F",
+    "region": "Kanto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_KANTOAR_1_39_VICTORYROAD_1F"
+  },
+  {
+    "map": "Kanto_VictoryRoad_2F",
+    "region": "Kanto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_KANTOAR_1_40_VICTORYROAD_2F"
+  },
+  {
+    "map": "Kanto_VictoryRoad_3F",
+    "region": "Kanto",
+    "location": "Victory Road",
+    "layout": "LAYOUT_KANTOAR_1_41_VICTORYROAD_3F"
+  },
+  {
+    "map": "Kanto_RocketHideout_B1F",
+    "region": "Kanto",
+    "location": "Rocket Hideout",
+    "layout": "LAYOUT_KANTOAR_1_42_ROCKETHIDEOUT_B1F"
+  },
+  {
+    "map": "Kanto_RocketHideout_B2F",
+    "region": "Kanto",
+    "location": "Rocket Hideout",
+    "layout": "LAYOUT_KANTOAR_1_43_ROCKETHIDEOUT_B2F"
+  },
+  {
+    "map": "Kanto_RocketHideout_B3F",
+    "region": "Kanto",
+    "location": "Rocket Hideout",
+    "layout": "LAYOUT_KANTOAR_1_44_ROCKETHIDEOUT_B3F"
+  },
+  {
+    "map": "Kanto_RocketHideout_B4F",
+    "region": "Kanto",
+    "location": "Rocket Hideout",
+    "layout": "LAYOUT_KANTOAR_1_45_ROCKETHIDEOUT_B4F"
+  },
+  {
+    "map": "Kanto_RocketHideout_Elevator",
+    "region": "Kanto",
+    "location": "Rocket Hideout",
+    "layout": "LAYOUT_KANTOAR_1_46_ROCKETHIDEOUT_ELEVATOR"
+  },
+  {
+    "map": "Kanto_SilphCo_1F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_47_SILPHCO_1F"
+  },
+  {
+    "map": "Kanto_SilphCo_2F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_48_SILPHCO_2F"
+  },
+  {
+    "map": "Kanto_SilphCo_3F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_49_SILPHCO_3F"
+  },
+  {
+    "map": "Kanto_SilphCo_4F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_50_SILPHCO_4F"
+  },
+  {
+    "map": "Kanto_SilphCo_5F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_51_SILPHCO_5F"
+  },
+  {
+    "map": "Kanto_SilphCo_6F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_52_SILPHCO_6F"
+  },
+  {
+    "map": "Kanto_SilphCo_7F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_53_SILPHCO_7F"
+  },
+  {
+    "map": "Kanto_SilphCo_8F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_54_SILPHCO_8F"
+  },
+  {
+    "map": "Kanto_SilphCo_9F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_55_SILPHCO_9F"
+  },
+  {
+    "map": "Kanto_SilphCo_10F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_56_SILPHCO_10F"
+  },
+  {
+    "map": "Kanto_SilphCo_11F",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_57_SILPHCO_11F"
+  },
+  {
+    "map": "Kanto_SilphCo_Elevator",
+    "region": "Kanto",
+    "location": "Silph Co",
+    "layout": "LAYOUT_KANTOAR_1_58_SILPHCO_ELEVATOR"
+  },
+  {
+    "map": "Kanto_PokemonMansion_1F",
+    "region": "Kanto",
+    "location": "Pokemon Mansion",
+    "layout": "LAYOUT_KANTOAR_1_59_POKEMONMANSION_1F"
+  },
+  {
+    "map": "Kanto_PokemonMansion_2F",
+    "region": "Kanto",
+    "location": "Pokemon Mansion",
+    "layout": "LAYOUT_KANTOAR_1_60_POKEMONMANSION_2F"
+  },
+  {
+    "map": "Kanto_PokemonMansion_3F",
+    "region": "Kanto",
+    "location": "Pokemon Mansion",
+    "layout": "LAYOUT_KANTOAR_1_61_POKEMONMANSION_3F"
+  },
+  {
+    "map": "Kanto_PokemonMansion_B1F",
+    "region": "Kanto",
+    "location": "Pokemon Mansion",
+    "layout": "LAYOUT_KANTOAR_1_62_POKEMONMANSION_B1F"
+  },
+  {
+    "map": "Kanto_SafariZone_Center",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_63_SAFARIZONE_CENTER"
+  },
+  {
+    "map": "Kanto_SafariZone_East",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_64_SAFARIZONE_EAST"
+  },
+  {
+    "map": "Kanto_SafariZone_North",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_65_SAFARIZONE_NORTH"
+  },
+  {
+    "map": "Kanto_SafariZone_West",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_66_SAFARIZONE_WEST"
+  },
+  {
+    "map": "Kanto_SafariZone_Center_RestHouse",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_67_SAFARIZONE_CENTER_RESTHOUSE"
+  },
+  {
+    "map": "Kanto_SafariZone_East_RestHouse",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_68_SAFARIZONE_EAST_RESTHOUSE"
+  },
+  {
+    "map": "Kanto_SafariZone_North_RestHouse",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_69_SAFARIZONE_NORTH_RESTHOUSE"
+  },
+  {
+    "map": "Kanto_SafariZone_West_RestHouse",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_70_SAFARIZONE_WEST_RESTHOUSE"
+  },
+  {
+    "map": "Kanto_SafariZone_SecretHouse",
+    "region": "Kanto",
+    "location": "Safari Zone",
+    "layout": "LAYOUT_KANTOAR_1_71_SAFARIZONE_SECRETHOUSE"
+  },
+  {
+    "map": "Kanto_CeruleanCave_1F",
+    "region": "Kanto",
+    "location": "Cerulean Cave",
+    "layout": "LAYOUT_KANTOAR_1_72_CERULEANCAVE_1F"
+  },
+  {
+    "map": "Kanto_CeruleanCave_2F",
+    "region": "Kanto",
+    "location": "Cerulean Cave",
+    "layout": "LAYOUT_KANTOAR_1_73_CERULEANCAVE_2F"
+  },
+  {
+    "map": "Kanto_CeruleanCave_B1F",
+    "region": "Kanto",
+    "location": "Cerulean Cave",
+    "layout": "LAYOUT_KANTOAR_1_74_CERULEANCAVE_B1F"
+  },
+  {
+    "map": "Kanto_PokemonLeague_LoreleisRoom",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_75_POKEMONLEAGUE_LORELEISROOM"
+  },
+  {
+    "map": "Kanto_PokemonLeague_BrunosRoom",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_76_POKEMONLEAGUE_BRUNOSROOM"
+  },
+  {
+    "map": "Kanto_PokemonLeague_AgathasRoom",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_77_POKEMONLEAGUE_AGATHASROOM"
+  },
+  {
+    "map": "Kanto_PokemonLeague_LancesRoom",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_78_POKEMONLEAGUE_LANCESROOM"
+  },
+  {
+    "map": "Kanto_PokemonLeague_ChampionsRoom",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_79_POKEMONLEAGUE_CHAMPIONSROOM"
+  },
+  {
+    "map": "Kanto_PokemonLeague_HallOfFame",
+    "region": "Kanto",
+    "location": "Pokemon League",
+    "layout": "LAYOUT_KANTOAR_1_80_POKEMONLEAGUE_HALLOFFAME"
+  },
+  {
+    "map": "Kanto_RockTunnel_1F",
+    "region": "Kanto",
+    "location": "Rock Tunnel",
+    "layout": "LAYOUT_KANTOAR_1_81_ROCKTUNNEL_1F"
+  },
+  {
+    "map": "Kanto_RockTunnel_B1F",
+    "region": "Kanto",
+    "location": "Rock Tunnel",
+    "layout": "LAYOUT_KANTOAR_1_82_ROCKTUNNEL_B1F"
+  },
+  {
+    "map": "Kanto_SeafoamIslands_1F",
+    "region": "Kanto",
+    "location": "Seafoam Islands",
+    "layout": "LAYOUT_KANTOAR_1_83_SEAFOAMISLANDS_1F"
+  },
+  {
+    "map": "Kanto_SeafoamIslands_B1F",
+    "region": "Kanto",
+    "location": "Seafoam Islands",
+    "layout": "LAYOUT_KANTOAR_1_84_SEAFOAMISLANDS_B1F"
+  },
+  {
+    "map": "Kanto_SeafoamIslands_B2F",
+    "region": "Kanto",
+    "location": "Seafoam Islands",
+    "layout": "LAYOUT_KANTOAR_1_85_SEAFOAMISLANDS_B2F"
+  },
+  {
+    "map": "Kanto_SeafoamIslands_B3F",
+    "region": "Kanto",
+    "location": "Seafoam Islands",
+    "layout": "LAYOUT_KANTOAR_1_86_SEAFOAMISLANDS_B3F"
+  },
+  {
+    "map": "Kanto_SeafoamIslands_B4F",
+    "region": "Kanto",
+    "location": "Seafoam Islands",
+    "layout": "LAYOUT_KANTOAR_1_87_SEAFOAMISLANDS_B4F"
+  },
+  {
+    "map": "Kanto_PokemonTower_1F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_88_POKEMONTOWER_1F"
+  },
+  {
+    "map": "Kanto_PokemonTower_2F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_89_POKEMONTOWER_2F"
+  },
+  {
+    "map": "Kanto_PokemonTower_3F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_90_POKEMONTOWER_3F"
+  },
+  {
+    "map": "Kanto_PokemonTower_4F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_91_POKEMONTOWER_4F"
+  },
+  {
+    "map": "Kanto_PokemonTower_5F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_92_POKEMONTOWER_5F"
+  },
+  {
+    "map": "Kanto_PokemonTower_6F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_93_POKEMONTOWER_6F"
+  },
+  {
+    "map": "Kanto_PokemonTower_7F",
+    "region": "Kanto",
+    "location": "Pokemon Tower",
+    "layout": "LAYOUT_KANTOAR_1_94_POKEMONTOWER_7F"
+  },
+  {
+    "map": "Kanto_PowerPlant",
+    "region": "Kanto",
+    "location": "Power Plant",
+    "layout": "LAYOUT_KANTOAR_1_95_POWERPLANT"
+  },
+  {
+    "map": "Kanto_MtEmber_RubyPath_B4F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_96_MTEMBER_RUBYPATH_B4F"
+  },
+  {
+    "map": "Kanto_MtEmber_Exterior",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_97_MTEMBER_EXTERIOR"
+  },
+  {
+    "map": "Kanto_MtEmber_SummitPath_1F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_98_MTEMBER_SUMMITPATH_1F"
+  },
+  {
+    "map": "Kanto_MtEmber_SummitPath_2F",
+    "region": "Kanto",
+    "location": "Mt Ember",
+    "layout": "LAYOUT_KANTOAR_1_99_MTEMBER_SUMMITPATH_2F"
+  },
+  {
+    "map": "Kanto_NavelRock_Exterior",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_0_NAVELROCK_EXTERIOR"
+  },
+  {
+    "map": "Kanto_TrainerTower_1F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_1_TRAINERTOWER_1F"
+  },
+  {
+    "map": "Kanto_TrainerTower_2F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_2_TRAINERTOWER_2F"
+  },
+  {
+    "map": "Kanto_TrainerTower_3F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_3_TRAINERTOWER_3F"
+  },
+  {
+    "map": "Kanto_TrainerTower_4F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_4_TRAINERTOWER_4F"
+  },
+  {
+    "map": "Kanto_TrainerTower_5F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_5_TRAINERTOWER_5F"
+  },
+  {
+    "map": "Kanto_TrainerTower_6F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_6_TRAINERTOWER_6F"
+  },
+  {
+    "map": "Kanto_TrainerTower_7F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_7_TRAINERTOWER_7F"
+  },
+  {
+    "map": "Kanto_TrainerTower_8F",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_8_TRAINERTOWER_8F"
+  },
+  {
+    "map": "Kanto_TrainerTower_Roof",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_9_TRAINERTOWER_ROOF"
+  },
+  {
+    "map": "Kanto_TrainerTower_Lobby",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_10_TRAINERTOWER_LOBBY"
+  },
+  {
+    "map": "Kanto_TrainerTower_Elevator",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_2_11_TRAINERTOWER_ELEVATOR"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Entrance",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_12_FIVEISLAND_LOSTCAVE_ENTRANCE"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room1",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_13_FIVEISLAND_LOSTCAVE_ROOM1"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room2",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_14_FIVEISLAND_LOSTCAVE_ROOM2"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room3",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_15_FIVEISLAND_LOSTCAVE_ROOM3"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room4",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_16_FIVEISLAND_LOSTCAVE_ROOM4"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room5",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_17_FIVEISLAND_LOSTCAVE_ROOM5"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room6",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_18_FIVEISLAND_LOSTCAVE_ROOM6"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room7",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_19_FIVEISLAND_LOSTCAVE_ROOM7"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room8",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_20_FIVEISLAND_LOSTCAVE_ROOM8"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room9",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_21_FIVEISLAND_LOSTCAVE_ROOM9"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room10",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_22_FIVEISLAND_LOSTCAVE_ROOM10"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room11",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_23_FIVEISLAND_LOSTCAVE_ROOM11"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room12",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_24_FIVEISLAND_LOSTCAVE_ROOM12"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room13",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_25_FIVEISLAND_LOSTCAVE_ROOM13"
+  },
+  {
+    "map": "Kanto_FiveIsland_LostCave_Room14",
+    "region": "Kanto",
+    "location": "Lost Cave",
+    "layout": "LAYOUT_KANTOAR_2_26_FIVEISLAND_LOSTCAVE_ROOM14"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_MoneanChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_27_SEVENISLAND_TANOBYRUINS_MONEANCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_LiptooChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_28_SEVENISLAND_TANOBYRUINS_LIPTOOCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_WeepthChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_29_SEVENISLAND_TANOBYRUINS_WEEPTHCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_DilfordChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_30_SEVENISLAND_TANOBYRUINS_DILFORDCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_ScufibChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_31_SEVENISLAND_TANOBYRUINS_SCUFIBCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_RixyChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_32_SEVENISLAND_TANOBYRUINS_RIXYCHAMBER"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins_ViapoisChamber",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_2_33_SEVENISLAND_TANOBYRUINS_VIAPOISCHAMBER"
+  },
+  {
+    "map": "Kanto_ThreeIsland_DunsparceTunnel",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_2_34_THREEISLAND_DUNSPARCETUNNEL"
+  },
+  {
+    "map": "Kanto_SevenIsland_SevaultCanyon_TanobyKey",
+    "region": "Kanto",
+    "location": "Sevault Canyon",
+    "layout": "LAYOUT_KANTOAR_2_35_SEVENISLAND_SEVAULTCANYON_TANOBYKEY"
+  },
+  {
+    "map": "Kanto_NavelRock_1F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_36_NAVELROCK_1F"
+  },
+  {
+    "map": "Kanto_NavelRock_Summit",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_37_NAVELROCK_SUMMIT"
+  },
+  {
+    "map": "Kanto_NavelRock_Base",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_38_NAVELROCK_BASE"
+  },
+  {
+    "map": "Kanto_NavelRock_SummitPath_2F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_39_NAVELROCK_SUMMITPATH_2F"
+  },
+  {
+    "map": "Kanto_NavelRock_SummitPath_3F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_40_NAVELROCK_SUMMITPATH_3F"
+  },
+  {
+    "map": "Kanto_NavelRock_SummitPath_4F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_41_NAVELROCK_SUMMITPATH_4F"
+  },
+  {
+    "map": "Kanto_NavelRock_SummitPath_5F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_42_NAVELROCK_SUMMITPATH_5F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B1F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_43_NAVELROCK_BASEPATH_B1F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B2F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_44_NAVELROCK_BASEPATH_B2F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B3F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_45_NAVELROCK_BASEPATH_B3F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B4F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_46_NAVELROCK_BASEPATH_B4F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B5F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_47_NAVELROCK_BASEPATH_B5F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B6F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_48_NAVELROCK_BASEPATH_B6F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B7F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_49_NAVELROCK_BASEPATH_B7F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B8F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_50_NAVELROCK_BASEPATH_B8F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B9F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_51_NAVELROCK_BASEPATH_B9F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B10F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_52_NAVELROCK_BASEPATH_B10F"
+  },
+  {
+    "map": "Kanto_NavelRock_BasePath_B11F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_53_NAVELROCK_BASEPATH_B11F"
+  },
+  {
+    "map": "Kanto_NavelRock_B1F",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_54_NAVELROCK_B1F"
+  },
+  {
+    "map": "Kanto_NavelRock_Fork",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_55_NAVELROCK_FORK"
+  },
+  {
+    "map": "Kanto_BirthIsland_Exterior",
+    "region": "Kanto",
+    "location": "Birth Island",
+    "layout": "LAYOUT_KANTOAR_2_56_BIRTHISLAND_EXTERIOR"
+  },
+  {
+    "map": "Kanto_OneIsland_KindleRoad_EmberSpa",
+    "region": "Kanto",
+    "location": "Kindle Road",
+    "layout": "LAYOUT_KANTOAR_2_57_ONEISLAND_KINDLEROAD_EMBERSPA"
+  },
+  {
+    "map": "Kanto_BirthIsland_Harbor",
+    "region": "Kanto",
+    "location": "Birth Island",
+    "layout": "LAYOUT_KANTOAR_2_58_BIRTHISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_NavelRock_Harbor",
+    "region": "Kanto",
+    "location": "Navel Rock",
+    "layout": "LAYOUT_KANTOAR_2_59_NAVELROCK_HARBOR"
+  },
+  {
+    "map": "Kanto_PalletTown",
+    "region": "Kanto",
+    "location": "Pallet Town",
+    "layout": "LAYOUT_KANTOAR_3_0_PALLETTOWN"
+  },
+  {
+    "map": "Kanto_ViridianCity",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_3_1_VIRIDIANCITY"
+  },
+  {
+    "map": "Kanto_PewterCity",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_3_2_PEWTERCITY"
+  },
+  {
+    "map": "Kanto_CeruleanCity",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_3_3_CERULEANCITY"
+  },
+  {
+    "map": "Kanto_LavenderTown",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_3_4_LAVENDERTOWN"
+  },
+  {
+    "map": "Kanto_VermilionCity",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_3_5_VERMILIONCITY"
+  },
+  {
+    "map": "Kanto_CeladonCity",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_3_6_CELADONCITY"
+  },
+  {
+    "map": "Kanto_FuchsiaCity",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_3_7_FUCHSIACITY"
+  },
+  {
+    "map": "Kanto_CinnabarIsland",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_3_8_CINNABARISLAND"
+  },
+  {
+    "map": "Kanto_IndigoPlateau_Exterior",
+    "region": "Kanto",
+    "location": "Indigo Plateau",
+    "layout": "LAYOUT_KANTOAR_3_9_INDIGOPLATEAU_EXTERIOR"
+  },
+  {
+    "map": "Kanto_SaffronCity",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_3_10_SAFFRONCITY"
+  },
+  {
+    "map": "Kanto_SaffronCity_Connection",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_3_11_SAFFRONCITY_CONNECTION"
+  },
+  {
+    "map": "Kanto_OneIsland",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_3_12_ONEISLAND"
+  },
+  {
+    "map": "Kanto_TwoIsland",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_3_13_TWOISLAND"
+  },
+  {
+    "map": "Kanto_ThreeIsland",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_3_14_THREEISLAND"
+  },
+  {
+    "map": "Kanto_FourIsland",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_3_15_FOURISLAND"
+  },
+  {
+    "map": "Kanto_FiveIsland",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_3_16_FIVEISLAND"
+  },
+  {
+    "map": "Kanto_SevenIsland",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_3_17_SEVENISLAND"
+  },
+  {
+    "map": "Kanto_SixIsland",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_3_18_SIXISLAND"
+  },
+  {
+    "map": "Kanto_Route1",
+    "region": "Kanto",
+    "location": "Route1",
+    "layout": "LAYOUT_KANTOAR_3_19_ROUTE1"
+  },
+  {
+    "map": "Kanto_Route2",
+    "region": "Kanto",
+    "location": "Route2",
+    "layout": "LAYOUT_KANTOAR_3_20_ROUTE2"
+  },
+  {
+    "map": "Kanto_Route3",
+    "region": "Kanto",
+    "location": "Route3",
+    "layout": "LAYOUT_KANTOAR_3_21_ROUTE3"
+  },
+  {
+    "map": "Kanto_Route4",
+    "region": "Kanto",
+    "location": "Route4",
+    "layout": "LAYOUT_KANTOAR_3_22_ROUTE4"
+  },
+  {
+    "map": "Kanto_Route5",
+    "region": "Kanto",
+    "location": "Route5",
+    "layout": "LAYOUT_KANTOAR_3_23_ROUTE5"
+  },
+  {
+    "map": "Kanto_Route6",
+    "region": "Kanto",
+    "location": "Route6",
+    "layout": "LAYOUT_KANTOAR_3_24_ROUTE6"
+  },
+  {
+    "map": "Kanto_Route7",
+    "region": "Kanto",
+    "location": "Route7",
+    "layout": "LAYOUT_KANTOAR_3_25_ROUTE7"
+  },
+  {
+    "map": "Kanto_Route8",
+    "region": "Kanto",
+    "location": "Route8",
+    "layout": "LAYOUT_KANTOAR_3_26_ROUTE8"
+  },
+  {
+    "map": "Kanto_Route9",
+    "region": "Kanto",
+    "location": "Route9",
+    "layout": "LAYOUT_KANTOAR_3_27_ROUTE9"
+  },
+  {
+    "map": "Kanto_Route10",
+    "region": "Kanto",
+    "location": "Route10",
+    "layout": "LAYOUT_KANTOAR_3_28_ROUTE10"
+  },
+  {
+    "map": "Kanto_Route11",
+    "region": "Kanto",
+    "location": "Route11",
+    "layout": "LAYOUT_KANTOAR_3_29_ROUTE11"
+  },
+  {
+    "map": "Kanto_Route12",
+    "region": "Kanto",
+    "location": "Route12",
+    "layout": "LAYOUT_KANTOAR_3_30_ROUTE12"
+  },
+  {
+    "map": "Kanto_Route13",
+    "region": "Kanto",
+    "location": "Route13",
+    "layout": "LAYOUT_KANTOAR_3_31_ROUTE13"
+  },
+  {
+    "map": "Kanto_Route14",
+    "region": "Kanto",
+    "location": "Route14",
+    "layout": "LAYOUT_KANTOAR_3_32_ROUTE14"
+  },
+  {
+    "map": "Kanto_Route15",
+    "region": "Kanto",
+    "location": "Route15",
+    "layout": "LAYOUT_KANTOAR_3_33_ROUTE15"
+  },
+  {
+    "map": "Kanto_Route16",
+    "region": "Kanto",
+    "location": "Route16",
+    "layout": "LAYOUT_KANTOAR_3_34_ROUTE16"
+  },
+  {
+    "map": "Kanto_Route17",
+    "region": "Kanto",
+    "location": "Route17",
+    "layout": "LAYOUT_KANTOAR_3_35_ROUTE17"
+  },
+  {
+    "map": "Kanto_Route18",
+    "region": "Kanto",
+    "location": "Route18",
+    "layout": "LAYOUT_KANTOAR_3_36_ROUTE18"
+  },
+  {
+    "map": "Kanto_Route19",
+    "region": "Kanto",
+    "location": "Route19",
+    "layout": "LAYOUT_KANTOAR_3_37_ROUTE19"
+  },
+  {
+    "map": "Kanto_Route20",
+    "region": "Kanto",
+    "location": "Route20",
+    "layout": "LAYOUT_KANTOAR_3_38_ROUTE20"
+  },
+  {
+    "map": "Kanto_Route21_North",
+    "region": "Kanto",
+    "location": "Route21",
+    "layout": "LAYOUT_KANTOAR_3_39_ROUTE21_NORTH"
+  },
+  {
+    "map": "Kanto_Route21_South",
+    "region": "Kanto",
+    "location": "Route21",
+    "layout": "LAYOUT_KANTOAR_3_40_ROUTE21_SOUTH"
+  },
+  {
+    "map": "Kanto_Route22",
+    "region": "Kanto",
+    "location": "Route22",
+    "layout": "LAYOUT_KANTOAR_3_41_ROUTE22"
+  },
+  {
+    "map": "Kanto_Route23",
+    "region": "Kanto",
+    "location": "Route23",
+    "layout": "LAYOUT_KANTOAR_3_42_ROUTE23"
+  },
+  {
+    "map": "Kanto_Route24",
+    "region": "Kanto",
+    "location": "Route24",
+    "layout": "LAYOUT_KANTOAR_3_43_ROUTE24"
+  },
+  {
+    "map": "Kanto_Route25",
+    "region": "Kanto",
+    "location": "Route25",
+    "layout": "LAYOUT_KANTOAR_3_44_ROUTE25"
+  },
+  {
+    "map": "Kanto_OneIsland_KindleRoad",
+    "region": "Kanto",
+    "location": "Kindle Road",
+    "layout": "LAYOUT_KANTOAR_3_45_ONEISLAND_KINDLEROAD"
+  },
+  {
+    "map": "Kanto_OneIsland_TreasureBeach",
+    "region": "Kanto",
+    "location": "Treasure Beach",
+    "layout": "LAYOUT_KANTOAR_3_46_ONEISLAND_TREASUREBEACH"
+  },
+  {
+    "map": "Kanto_TwoIsland_CapeBrink",
+    "region": "Kanto",
+    "location": "Cape Brink",
+    "layout": "LAYOUT_KANTOAR_3_47_TWOISLAND_CAPEBRINK"
+  },
+  {
+    "map": "Kanto_ThreeIsland_BondBridge",
+    "region": "Kanto",
+    "location": "Bond Bridge",
+    "layout": "LAYOUT_KANTOAR_3_48_THREEISLAND_BONDBRIDGE"
+  },
+  {
+    "map": "Kanto_ThreeIsland_Port",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_3_49_THREEISLAND_PORT"
+  },
+  {
+    "map": "Kanto_Prototype_SeviiIsle_6",
+    "region": "Kanto",
+    "location": "Prototype",
+    "layout": "LAYOUT_KANTOAR_3_50_PROTOTYPE_SEVIIISLE_6"
+  },
+  {
+    "map": "Kanto_Prototype_SeviiIsle_7",
+    "region": "Kanto",
+    "location": "Prototype",
+    "layout": "LAYOUT_KANTOAR_3_51_PROTOTYPE_SEVIIISLE_7"
+  },
+  {
+    "map": "Kanto_Prototype_SeviiIsle_8",
+    "region": "Kanto",
+    "location": "Prototype",
+    "layout": "LAYOUT_KANTOAR_3_52_PROTOTYPE_SEVIIISLE_8"
+  },
+  {
+    "map": "Kanto_Prototype_SeviiIsle_9",
+    "region": "Kanto",
+    "location": "Prototype",
+    "layout": "LAYOUT_KANTOAR_3_53_PROTOTYPE_SEVIIISLE_9"
+  },
+  {
+    "map": "Kanto_FiveIsland_ResortGorgeous",
+    "region": "Kanto",
+    "location": "Resort Gorgeous",
+    "layout": "LAYOUT_KANTOAR_3_54_FIVEISLAND_RESORTGORGEOUS"
+  },
+  {
+    "map": "Kanto_FiveIsland_WaterLabyrinth",
+    "region": "Kanto",
+    "location": "Water Labyrinth",
+    "layout": "LAYOUT_KANTOAR_3_55_FIVEISLAND_WATERLABYRINTH"
+  },
+  {
+    "map": "Kanto_FiveIsland_Meadow",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_3_56_FIVEISLAND_MEADOW"
+  },
+  {
+    "map": "Kanto_FiveIsland_MemorialPillar",
+    "region": "Kanto",
+    "location": "Memorial Pillar",
+    "layout": "LAYOUT_KANTOAR_3_57_FIVEISLAND_MEMORIALPILLAR"
+  },
+  {
+    "map": "Kanto_SixIsland_OutcastIsland",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_3_58_SIXISLAND_OUTCASTISLAND"
+  },
+  {
+    "map": "Kanto_SixIsland_GreenPath",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_3_59_SIXISLAND_GREENPATH"
+  },
+  {
+    "map": "Kanto_SixIsland_WaterPath",
+    "region": "Kanto",
+    "location": "Water Path",
+    "layout": "LAYOUT_KANTOAR_3_60_SIXISLAND_WATERPATH"
+  },
+  {
+    "map": "Kanto_SixIsland_RuinValley",
+    "region": "Kanto",
+    "location": "Ruin Valley",
+    "layout": "LAYOUT_KANTOAR_3_61_SIXISLAND_RUINVALLEY"
+  },
+  {
+    "map": "Kanto_SevenIsland_TrainerTower",
+    "region": "Kanto",
+    "location": "Trainer Tower",
+    "layout": "LAYOUT_KANTOAR_3_62_SEVENISLAND_TRAINERTOWER"
+  },
+  {
+    "map": "Kanto_SevenIsland_SevaultCanyon_Entrance",
+    "region": "Kanto",
+    "location": "Sevault Canyon",
+    "layout": "LAYOUT_KANTOAR_3_63_SEVENISLAND_SEVAULTCANYON_ENTRANCE"
+  },
+  {
+    "map": "Kanto_SevenIsland_SevaultCanyon",
+    "region": "Kanto",
+    "location": "Sevault Canyon",
+    "layout": "LAYOUT_KANTOAR_3_64_SEVENISLAND_SEVAULTCANYON"
+  },
+  {
+    "map": "Kanto_SevenIsland_TanobyRuins",
+    "region": "Kanto",
+    "location": "Tanoby Ruins",
+    "layout": "LAYOUT_KANTOAR_3_65_SEVENISLAND_TANOBYRUINS"
+  },
+  {
+    "map": "Kanto_PalletTown_PlayersHouse_1F",
+    "region": "Kanto",
+    "location": "Pallet Town",
+    "layout": "LAYOUT_KANTOAR_4_0_PALLETTOWN_PLAYERSHOUSE_1F"
+  },
+  {
+    "map": "Kanto_PalletTown_PlayersHouse_2F",
+    "region": "Kanto",
+    "location": "Pallet Town",
+    "layout": "LAYOUT_KANTOAR_4_1_PALLETTOWN_PLAYERSHOUSE_2F"
+  },
+  {
+    "map": "Kanto_PalletTown_RivalsHouse",
+    "region": "Kanto",
+    "location": "Pallet Town",
+    "layout": "LAYOUT_KANTOAR_4_2_PALLETTOWN_RIVALSHOUSE"
+  },
+  {
+    "map": "Kanto_PalletTown_ProfessorOaksLab",
+    "region": "Kanto",
+    "location": "Pallet Town",
+    "layout": "LAYOUT_KANTOAR_4_3_PALLETTOWN_PROFESSOROAKSLAB"
+  },
+  {
+    "map": "Kanto_ViridianCity_House",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_0_VIRIDIANCITY_HOUSE"
+  },
+  {
+    "map": "Kanto_ViridianCity_Gym",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_1_VIRIDIANCITY_GYM"
+  },
+  {
+    "map": "Kanto_ViridianCity_School",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_2_VIRIDIANCITY_SCHOOL"
+  },
+  {
+    "map": "Kanto_ViridianCity_Mart",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_3_VIRIDIANCITY_MART"
+  },
+  {
+    "map": "Kanto_ViridianCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_4_VIRIDIANCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_ViridianCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Viridian City",
+    "layout": "LAYOUT_KANTOAR_5_5_VIRIDIANCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_PewterCity_Museum_1F",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_0_PEWTERCITY_MUSEUM_1F"
+  },
+  {
+    "map": "Kanto_PewterCity_Museum_2F",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_1_PEWTERCITY_MUSEUM_2F"
+  },
+  {
+    "map": "Kanto_PewterCity_Gym",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_2_PEWTERCITY_GYM"
+  },
+  {
+    "map": "Kanto_PewterCity_Mart",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_3_PEWTERCITY_MART"
+  },
+  {
+    "map": "Kanto_PewterCity_House1",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_4_PEWTERCITY_HOUSE1"
+  },
+  {
+    "map": "Kanto_PewterCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_5_PEWTERCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_PewterCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_6_PEWTERCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_PewterCity_House2",
+    "region": "Kanto",
+    "location": "Pewter City",
+    "layout": "LAYOUT_KANTOAR_6_7_PEWTERCITY_HOUSE2"
+  },
+  {
+    "map": "Kanto_CeruleanCity_House1",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_0_CERULEANCITY_HOUSE1"
+  },
+  {
+    "map": "Kanto_CeruleanCity_House2",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_1_CERULEANCITY_HOUSE2"
+  },
+  {
+    "map": "Kanto_CeruleanCity_House3",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_2_CERULEANCITY_HOUSE3"
+  },
+  {
+    "map": "Kanto_CeruleanCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_3_CERULEANCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_CeruleanCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_4_CERULEANCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_CeruleanCity_Gym",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_5_CERULEANCITY_GYM"
+  },
+  {
+    "map": "Kanto_CeruleanCity_BikeShop",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_6_CERULEANCITY_BIKESHOP"
+  },
+  {
+    "map": "Kanto_CeruleanCity_Mart",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_7_CERULEANCITY_MART"
+  },
+  {
+    "map": "Kanto_CeruleanCity_House4",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_8_CERULEANCITY_HOUSE4"
+  },
+  {
+    "map": "Kanto_CeruleanCity_House5",
+    "region": "Kanto",
+    "location": "Cerulean City",
+    "layout": "LAYOUT_KANTOAR_7_9_CERULEANCITY_HOUSE5"
+  },
+  {
+    "map": "Kanto_LavenderTown_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_0_LAVENDERTOWN_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_LavenderTown_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_1_LAVENDERTOWN_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_LavenderTown_VolunteerPokemonHouse",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_2_LAVENDERTOWN_VOLUNTEERPOKEMONHOUSE"
+  },
+  {
+    "map": "Kanto_LavenderTown_House1",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_3_LAVENDERTOWN_HOUSE1"
+  },
+  {
+    "map": "Kanto_LavenderTown_House2",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_4_LAVENDERTOWN_HOUSE2"
+  },
+  {
+    "map": "Kanto_LavenderTown_Mart",
+    "region": "Kanto",
+    "location": "Lavender Town",
+    "layout": "LAYOUT_KANTOAR_8_5_LAVENDERTOWN_MART"
+  },
+  {
+    "map": "Kanto_VermilionCity_House1",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_0_VERMILIONCITY_HOUSE1"
+  },
+  {
+    "map": "Kanto_VermilionCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_1_VERMILIONCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_VermilionCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_2_VERMILIONCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_VermilionCity_PokemonFanClub",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_3_VERMILIONCITY_POKEMONFANCLUB"
+  },
+  {
+    "map": "Kanto_VermilionCity_House2",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_4_VERMILIONCITY_HOUSE2"
+  },
+  {
+    "map": "Kanto_VermilionCity_Mart",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_5_VERMILIONCITY_MART"
+  },
+  {
+    "map": "Kanto_VermilionCity_Gym",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_6_VERMILIONCITY_GYM"
+  },
+  {
+    "map": "Kanto_VermilionCity_House3",
+    "region": "Kanto",
+    "location": "Vermilion City",
+    "layout": "LAYOUT_KANTOAR_9_7_VERMILIONCITY_HOUSE3"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_1F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_0_CELADONCITY_DEPARTMENTSTORE_1F"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_2F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_1_CELADONCITY_DEPARTMENTSTORE_2F"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_3F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_2_CELADONCITY_DEPARTMENTSTORE_3F"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_4F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_3_CELADONCITY_DEPARTMENTSTORE_4F"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_5F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_4_CELADONCITY_DEPARTMENTSTORE_5F"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_Roof",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_5_CELADONCITY_DEPARTMENTSTORE_ROOF"
+  },
+  {
+    "map": "Kanto_CeladonCity_DepartmentStore_Elevator",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_6_CELADONCITY_DEPARTMENTSTORE_ELEVATOR"
+  },
+  {
+    "map": "Kanto_CeladonCity_Condominiums_1F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_7_CELADONCITY_CONDOMINIUMS_1F"
+  },
+  {
+    "map": "Kanto_CeladonCity_Condominiums_2F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_8_CELADONCITY_CONDOMINIUMS_2F"
+  },
+  {
+    "map": "Kanto_CeladonCity_Condominiums_3F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_9_CELADONCITY_CONDOMINIUMS_3F"
+  },
+  {
+    "map": "Kanto_CeladonCity_Condominiums_Roof",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_10_CELADONCITY_CONDOMINIUMS_ROOF"
+  },
+  {
+    "map": "Kanto_CeladonCity_Condominiums_RoofRoom",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_11_CELADONCITY_CONDOMINIUMS_ROOFROOM"
+  },
+  {
+    "map": "Kanto_CeladonCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_12_CELADONCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_CeladonCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_13_CELADONCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_CeladonCity_GameCorner",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_14_CELADONCITY_GAMECORNER"
+  },
+  {
+    "map": "Kanto_CeladonCity_GameCorner_PrizeRoom",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_15_CELADONCITY_GAMECORNER_PRIZEROOM"
+  },
+  {
+    "map": "Kanto_CeladonCity_Gym",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_16_CELADONCITY_GYM"
+  },
+  {
+    "map": "Kanto_CeladonCity_Restaurant",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_17_CELADONCITY_RESTAURANT"
+  },
+  {
+    "map": "Kanto_CeladonCity_House1",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_18_CELADONCITY_HOUSE1"
+  },
+  {
+    "map": "Kanto_CeladonCity_Hotel",
+    "region": "Kanto",
+    "location": "Celadon City",
+    "layout": "LAYOUT_KANTOAR_10_19_CELADONCITY_HOTEL"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_SafariZone_Entrance",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_0_FUCHSIACITY_SAFARIZONE_ENTRANCE"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_Mart",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_1_FUCHSIACITY_MART"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_SafariZone_Office",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_2_FUCHSIACITY_SAFARIZONE_OFFICE"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_Gym",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_3_FUCHSIACITY_GYM"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_House1",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_4_FUCHSIACITY_HOUSE1"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_5_FUCHSIACITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_6_FUCHSIACITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_WardensHouse",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_7_FUCHSIACITY_WARDENSHOUSE"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_House2",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_8_FUCHSIACITY_HOUSE2"
+  },
+  {
+    "map": "Kanto_FuchsiaCity_House3",
+    "region": "Kanto",
+    "location": "Fuchsia City",
+    "layout": "LAYOUT_KANTOAR_11_9_FUCHSIACITY_HOUSE3"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_Gym",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_0_CINNABARISLAND_GYM"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonLab_Entrance",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_1_CINNABARISLAND_POKEMONLAB_ENTRANCE"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonLab_Lounge",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_2_CINNABARISLAND_POKEMONLAB_LOUNGE"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonLab_ResearchRoom",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_3_CINNABARISLAND_POKEMONLAB_RESEARCHROOM"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonLab_ExperimentRoom",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_4_CINNABARISLAND_POKEMONLAB_EXPERIMENTROOM"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_5_CINNABARISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_6_CINNABARISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_CinnabarIsland_Mart",
+    "region": "Kanto",
+    "location": "Cinnabar Island",
+    "layout": "LAYOUT_KANTOAR_12_7_CINNABARISLAND_MART"
+  },
+  {
+    "map": "Kanto_IndigoPlateau_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Indigo Plateau",
+    "layout": "LAYOUT_KANTOAR_13_0_INDIGOPLATEAU_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_IndigoPlateau_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Indigo Plateau",
+    "layout": "LAYOUT_KANTOAR_13_1_INDIGOPLATEAU_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_SaffronCity_CopycatsHouse_1F",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_0_SAFFRONCITY_COPYCATSHOUSE_1F"
+  },
+  {
+    "map": "Kanto_SaffronCity_CopycatsHouse_2F",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_1_SAFFRONCITY_COPYCATSHOUSE_2F"
+  },
+  {
+    "map": "Kanto_SaffronCity_Dojo",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_2_SAFFRONCITY_DOJO"
+  },
+  {
+    "map": "Kanto_SaffronCity_Gym",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_3_SAFFRONCITY_GYM"
+  },
+  {
+    "map": "Kanto_SaffronCity_House",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_4_SAFFRONCITY_HOUSE"
+  },
+  {
+    "map": "Kanto_SaffronCity_Mart",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_5_SAFFRONCITY_MART"
+  },
+  {
+    "map": "Kanto_SaffronCity_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_6_SAFFRONCITY_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_SaffronCity_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_7_SAFFRONCITY_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_SaffronCity_MrPsychicsHouse",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_8_SAFFRONCITY_MRPSYCHICSHOUSE"
+  },
+  {
+    "map": "Kanto_SaffronCity_PokemonTrainerFanClub",
+    "region": "Kanto",
+    "location": "Saffron City",
+    "layout": "LAYOUT_KANTOAR_14_9_SAFFRONCITY_POKEMONTRAINERFANCLUB"
+  },
+  {
+    "map": "Kanto_Route2_ViridianForest_SouthEntrance",
+    "region": "Kanto",
+    "location": "Route2",
+    "layout": "LAYOUT_KANTOAR_15_0_ROUTE2_VIRIDIANFOREST_SOUTHENTRANCE"
+  },
+  {
+    "map": "Kanto_Route2_House",
+    "region": "Kanto",
+    "location": "Route2",
+    "layout": "LAYOUT_KANTOAR_15_1_ROUTE2_HOUSE"
+  },
+  {
+    "map": "Kanto_Route2_EastBuilding",
+    "region": "Kanto",
+    "location": "Route2",
+    "layout": "LAYOUT_KANTOAR_15_2_ROUTE2_EASTBUILDING"
+  },
+  {
+    "map": "Kanto_Route2_ViridianForest_NorthEntrance",
+    "region": "Kanto",
+    "location": "Route2",
+    "layout": "LAYOUT_KANTOAR_15_3_ROUTE2_VIRIDIANFOREST_NORTHENTRANCE"
+  },
+  {
+    "map": "Kanto_Route4_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Route4",
+    "layout": "LAYOUT_KANTOAR_16_0_ROUTE4_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_Route4_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Route4",
+    "layout": "LAYOUT_KANTOAR_16_1_ROUTE4_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_Route5_PokemonDayCare",
+    "region": "Kanto",
+    "location": "Route5",
+    "layout": "LAYOUT_KANTOAR_17_0_ROUTE5_POKEMONDAYCARE"
+  },
+  {
+    "map": "Kanto_Route5_SouthEntrance",
+    "region": "Kanto",
+    "location": "Route5",
+    "layout": "LAYOUT_KANTOAR_17_1_ROUTE5_SOUTHENTRANCE"
+  },
+  {
+    "map": "Kanto_Route6_NorthEntrance",
+    "region": "Kanto",
+    "location": "Route6",
+    "layout": "LAYOUT_KANTOAR_18_0_ROUTE6_NORTHENTRANCE"
+  },
+  {
+    "map": "Kanto_Route6_UnusedHouse",
+    "region": "Kanto",
+    "location": "Route6",
+    "layout": "LAYOUT_KANTOAR_18_1_ROUTE6_UNUSEDHOUSE"
+  },
+  {
+    "map": "Kanto_Route7_EastEntrance",
+    "region": "Kanto",
+    "location": "Route7",
+    "layout": "LAYOUT_KANTOAR_19_0_ROUTE7_EASTENTRANCE"
+  },
+  {
+    "map": "Kanto_Route8_WestEntrance",
+    "region": "Kanto",
+    "location": "Route8",
+    "layout": "LAYOUT_KANTOAR_20_0_ROUTE8_WESTENTRANCE"
+  },
+  {
+    "map": "Kanto_Route10_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Route10",
+    "layout": "LAYOUT_KANTOAR_21_0_ROUTE10_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_Route10_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Route10",
+    "layout": "LAYOUT_KANTOAR_21_1_ROUTE10_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_Route11_EastEntrance_1F",
+    "region": "Kanto",
+    "location": "Route11",
+    "layout": "LAYOUT_KANTOAR_22_0_ROUTE11_EASTENTRANCE_1F"
+  },
+  {
+    "map": "Kanto_Route11_EastEntrance_2F",
+    "region": "Kanto",
+    "location": "Route11",
+    "layout": "LAYOUT_KANTOAR_22_1_ROUTE11_EASTENTRANCE_2F"
+  },
+  {
+    "map": "Kanto_Route12_NorthEntrance_1F",
+    "region": "Kanto",
+    "location": "Route12",
+    "layout": "LAYOUT_KANTOAR_23_0_ROUTE12_NORTHENTRANCE_1F"
+  },
+  {
+    "map": "Kanto_Route12_NorthEntrance_2F",
+    "region": "Kanto",
+    "location": "Route12",
+    "layout": "LAYOUT_KANTOAR_23_1_ROUTE12_NORTHENTRANCE_2F"
+  },
+  {
+    "map": "Kanto_Route12_FishingHouse",
+    "region": "Kanto",
+    "location": "Route12",
+    "layout": "LAYOUT_KANTOAR_23_2_ROUTE12_FISHINGHOUSE"
+  },
+  {
+    "map": "Kanto_Route15_WestEntrance_1F",
+    "region": "Kanto",
+    "location": "Route15",
+    "layout": "LAYOUT_KANTOAR_24_0_ROUTE15_WESTENTRANCE_1F"
+  },
+  {
+    "map": "Kanto_Route15_WestEntrance_2F",
+    "region": "Kanto",
+    "location": "Route15",
+    "layout": "LAYOUT_KANTOAR_24_1_ROUTE15_WESTENTRANCE_2F"
+  },
+  {
+    "map": "Kanto_Route16_House",
+    "region": "Kanto",
+    "location": "Route16",
+    "layout": "LAYOUT_KANTOAR_25_0_ROUTE16_HOUSE"
+  },
+  {
+    "map": "Kanto_Route16_NorthEntrance_1F",
+    "region": "Kanto",
+    "location": "Route16",
+    "layout": "LAYOUT_KANTOAR_25_1_ROUTE16_NORTHENTRANCE_1F"
+  },
+  {
+    "map": "Kanto_Route16_NorthEntrance_2F",
+    "region": "Kanto",
+    "location": "Route16",
+    "layout": "LAYOUT_KANTOAR_25_2_ROUTE16_NORTHENTRANCE_2F"
+  },
+  {
+    "map": "Kanto_Route18_EastEntrance_1F",
+    "region": "Kanto",
+    "location": "Route18",
+    "layout": "LAYOUT_KANTOAR_26_0_ROUTE18_EASTENTRANCE_1F"
+  },
+  {
+    "map": "Kanto_Route18_EastEntrance_2F",
+    "region": "Kanto",
+    "location": "Route18",
+    "layout": "LAYOUT_KANTOAR_26_1_ROUTE18_EASTENTRANCE_2F"
+  },
+  {
+    "map": "Kanto_Route19_UnusedHouse",
+    "region": "Kanto",
+    "location": "Route19",
+    "layout": "LAYOUT_KANTOAR_27_0_ROUTE19_UNUSEDHOUSE"
+  },
+  {
+    "map": "Kanto_Route22_NorthEntrance",
+    "region": "Kanto",
+    "location": "Route22",
+    "layout": "LAYOUT_KANTOAR_28_0_ROUTE22_NORTHENTRANCE"
+  },
+  {
+    "map": "Kanto_Route23_UnusedHouse",
+    "region": "Kanto",
+    "location": "Route23",
+    "layout": "LAYOUT_KANTOAR_29_0_ROUTE23_UNUSEDHOUSE"
+  },
+  {
+    "map": "Kanto_Route25_SeaCottage",
+    "region": "Kanto",
+    "location": "Route25",
+    "layout": "LAYOUT_KANTOAR_30_0_ROUTE25_SEACOTTAGE"
+  },
+  {
+    "map": "Kanto_SevenIsland_House_Room1",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_0_SEVENISLAND_HOUSE_ROOM1"
+  },
+  {
+    "map": "Kanto_SevenIsland_House_Room2",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_1_SEVENISLAND_HOUSE_ROOM2"
+  },
+  {
+    "map": "Kanto_SevenIsland_Mart",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_2_SEVENISLAND_MART"
+  },
+  {
+    "map": "Kanto_SevenIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_3_SEVENISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_SevenIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_4_SEVENISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_SevenIsland_UnusedHouse",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_5_SEVENISLAND_UNUSEDHOUSE"
+  },
+  {
+    "map": "Kanto_SevenIsland_Harbor",
+    "region": "Kanto",
+    "location": "Seven Island",
+    "layout": "LAYOUT_KANTOAR_31_6_SEVENISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_OneIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_32_0_ONEISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_OneIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_32_1_ONEISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_OneIsland_House1",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_32_2_ONEISLAND_HOUSE1"
+  },
+  {
+    "map": "Kanto_OneIsland_House2",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_32_3_ONEISLAND_HOUSE2"
+  },
+  {
+    "map": "Kanto_OneIsland_Harbor",
+    "region": "Kanto",
+    "location": "One Island",
+    "layout": "LAYOUT_KANTOAR_32_4_ONEISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_TwoIsland_JoyfulGameCorner",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_33_0_TWOISLAND_JOYFULGAMECORNER"
+  },
+  {
+    "map": "Kanto_TwoIsland_House",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_33_1_TWOISLAND_HOUSE"
+  },
+  {
+    "map": "Kanto_TwoIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_33_2_TWOISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_TwoIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_33_3_TWOISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_TwoIsland_Harbor",
+    "region": "Kanto",
+    "location": "Two Island",
+    "layout": "LAYOUT_KANTOAR_33_4_TWOISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_ThreeIsland_House1",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_0_THREEISLAND_HOUSE1"
+  },
+  {
+    "map": "Kanto_ThreeIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_1_THREEISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_ThreeIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_2_THREEISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_ThreeIsland_Mart",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_3_THREEISLAND_MART"
+  },
+  {
+    "map": "Kanto_ThreeIsland_House2",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_4_THREEISLAND_HOUSE2"
+  },
+  {
+    "map": "Kanto_ThreeIsland_House3",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_5_THREEISLAND_HOUSE3"
+  },
+  {
+    "map": "Kanto_ThreeIsland_House4",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_6_THREEISLAND_HOUSE4"
+  },
+  {
+    "map": "Kanto_ThreeIsland_House5",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_34_7_THREEISLAND_HOUSE5"
+  },
+  {
+    "map": "Kanto_FourIsland_PokemonDayCare",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_0_FOURISLAND_POKEMONDAYCARE"
+  },
+  {
+    "map": "Kanto_FourIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_1_FOURISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_FourIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_2_FOURISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_FourIsland_House1",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_3_FOURISLAND_HOUSE1"
+  },
+  {
+    "map": "Kanto_FourIsland_LoreleisHouse",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_4_FOURISLAND_LORELEISHOUSE"
+  },
+  {
+    "map": "Kanto_FourIsland_Harbor",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_5_FOURISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_FourIsland_House2",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_6_FOURISLAND_HOUSE2"
+  },
+  {
+    "map": "Kanto_FourIsland_Mart",
+    "region": "Kanto",
+    "location": "Four Island",
+    "layout": "LAYOUT_KANTOAR_35_7_FOURISLAND_MART"
+  },
+  {
+    "map": "Kanto_FiveIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_36_0_FIVEISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_FiveIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_36_1_FIVEISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_FiveIsland_Harbor",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_36_2_FIVEISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_FiveIsland_House1",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_36_3_FIVEISLAND_HOUSE1"
+  },
+  {
+    "map": "Kanto_FiveIsland_House2",
+    "region": "Kanto",
+    "location": "Five Island",
+    "layout": "LAYOUT_KANTOAR_36_4_FIVEISLAND_HOUSE2"
+  },
+  {
+    "map": "Kanto_SixIsland_PokemonCenter_1F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_37_0_SIXISLAND_POKEMONCENTER_1F"
+  },
+  {
+    "map": "Kanto_SixIsland_PokemonCenter_2F",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_37_1_SIXISLAND_POKEMONCENTER_2F"
+  },
+  {
+    "map": "Kanto_SixIsland_Harbor",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_37_2_SIXISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_SixIsland_House",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_37_3_SIXISLAND_HOUSE"
+  },
+  {
+    "map": "Kanto_SixIsland_Mart",
+    "region": "Kanto",
+    "location": "Six Island",
+    "layout": "LAYOUT_KANTOAR_37_4_SIXISLAND_MART"
+  },
+  {
+    "map": "Kanto_ThreeIsland_Harbor",
+    "region": "Kanto",
+    "location": "Three Island",
+    "layout": "LAYOUT_KANTOAR_38_0_THREEISLAND_HARBOR"
+  },
+  {
+    "map": "Kanto_FiveIsland_ResortGorgeous_House",
+    "region": "Kanto",
+    "location": "Resort Gorgeous",
+    "layout": "LAYOUT_KANTOAR_39_0_FIVEISLAND_RESORTGORGEOUS_HOUSE"
+  },
+  {
+    "map": "Kanto_TwoIsland_CapeBrink_House",
+    "region": "Kanto",
+    "location": "Cape Brink",
+    "layout": "LAYOUT_KANTOAR_40_0_TWOISLAND_CAPEBRINK_HOUSE"
+  },
+  {
+    "map": "Kanto_SixIsland_WaterPath_House1",
+    "region": "Kanto",
+    "location": "Water Path",
+    "layout": "LAYOUT_KANTOAR_41_0_SIXISLAND_WATERPATH_HOUSE1"
+  },
+  {
+    "map": "Kanto_SixIsland_WaterPath_House2",
+    "region": "Kanto",
+    "location": "Water Path",
+    "layout": "LAYOUT_KANTOAR_41_1_SIXISLAND_WATERPATH_HOUSE2"
+  },
+  {
+    "map": "Kanto_SevenIsland_SevaultCanyon_House",
+    "region": "Kanto",
+    "location": "Sevault Canyon",
+    "layout": "LAYOUT_KANTOAR_42_0_SEVENISLAND_SEVAULTCANYON_HOUSE"
+  },
+  {
+    "map": "Sinnoh_Canalave_City",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_26_67_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Section_01",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_36_11_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_40_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_41_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_42_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_86_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_87_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_88_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_89_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_08",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_97_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_09",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_98_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Canalave_City_Interior_10",
+    "region": "Sinnoh",
+    "location": "Canalave City",
+    "layout": "LAYOUT_HYPERSINNOH_37_99_CANALAVE_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_218",
+    "region": "Sinnoh",
+    "location": "Route 218",
+    "layout": "LAYOUT_HYPERSINNOH_36_37_ROUTE_218"
+  },
+  {
+    "map": "Sinnoh_Iron_Island",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_64_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_01",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_65_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_02",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_66_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_03",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_67_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_04",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_68_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_05",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_69_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Iron_Island_Section_06",
+    "region": "Sinnoh",
+    "location": "Iron Island",
+    "layout": "LAYOUT_HYPERSINNOH_36_70_IRON_ISLAND"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_League",
+    "region": "Sinnoh",
+    "location": "Sinnoh League",
+    "layout": "LAYOUT_HYPERSINNOH_34_37_SINNOH_LEAGUE"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_League_Section_01",
+    "region": "Sinnoh",
+    "location": "Sinnoh League",
+    "layout": "LAYOUT_HYPERSINNOH_36_14_SINNOH_LEAGUE"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_League_Interior_01",
+    "region": "Sinnoh",
+    "location": "Sinnoh League",
+    "layout": "LAYOUT_HYPERSINNOH_37_49_SINNOH_LEAGUE"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_36_13_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_37_46_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_37_47_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_37_48_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_37_92_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Sunyshore_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Sunyshore City",
+    "layout": "LAYOUT_HYPERSINNOH_37_115_SUNYSHORE_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_222",
+    "region": "Sinnoh",
+    "location": "Route 222",
+    "layout": "LAYOUT_HYPERSINNOH_36_41_ROUTE_222"
+  },
+  {
+    "map": "Sinnoh_Route_223",
+    "region": "Sinnoh",
+    "location": "Route 223",
+    "layout": "LAYOUT_HYPERSINNOH_36_42_ROUTE_223"
+  },
+  {
+    "map": "Sinnoh_Victory_Road",
+    "region": "Sinnoh",
+    "location": "Victory Road",
+    "layout": "LAYOUT_HYPERSINNOH_36_71_VICTORY_ROAD"
+  },
+  {
+    "map": "Sinnoh_Victory_Road_Section_01",
+    "region": "Sinnoh",
+    "location": "Victory Road",
+    "layout": "LAYOUT_HYPERSINNOH_36_72_VICTORY_ROAD"
+  },
+  {
+    "map": "Sinnoh_Victory_Road_Section_02",
+    "region": "Sinnoh",
+    "location": "Victory Road",
+    "layout": "LAYOUT_HYPERSINNOH_36_73_VICTORY_ROAD"
+  },
+  {
+    "map": "Sinnoh_Spear_Pillar",
+    "region": "Sinnoh",
+    "location": "Spear Pillar",
+    "layout": "LAYOUT_HYPERSINNOH_35_11_SPEAR_PILLAR"
+  },
+  {
+    "map": "Sinnoh_Spear_Pillar_Section_01",
+    "region": "Sinnoh",
+    "location": "Spear Pillar",
+    "layout": "LAYOUT_HYPERSINNOH_36_95_SPEAR_PILLAR"
+  },
+  {
+    "map": "Sinnoh_Spear_Pillar_Interior_01",
+    "region": "Sinnoh",
+    "location": "Spear Pillar",
+    "layout": "LAYOUT_HYPERSINNOH_36_96_SPEAR_PILLAR"
+  },
+  {
+    "map": "Sinnoh_Sendoff_Spring",
+    "region": "Sinnoh",
+    "location": "Sendoff Spring",
+    "layout": "LAYOUT_HYPERSINNOH_36_46_SENDOFF_SPRING"
+  },
+  {
+    "map": "Sinnoh_Spring_Path",
+    "region": "Sinnoh",
+    "location": "Spring Path",
+    "layout": "LAYOUT_HYPERSINNOH_36_49_SPRING_PATH"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_80_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_01",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_81_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_02",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_82_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_03",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_83_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_04",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_84_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_05",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_85_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_06",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_86_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_07",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_87_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_08",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_88_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_09",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_89_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_10",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_90_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_11",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_91_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Interior_01",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_92_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Mt_Coronet_Section_12",
+    "region": "Sinnoh",
+    "location": "Mt. Coronet",
+    "layout": "LAYOUT_HYPERSINNOH_36_94_MT_CORONET"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Ruins",
+    "region": "Sinnoh",
+    "location": "Solaceon Ruins",
+    "layout": "LAYOUT_HYPERSINNOH_35_14_SOLACEON_RUINS"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Town",
+    "region": "Sinnoh",
+    "location": "Solaceon Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_8_SOLACEON_TOWN"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Town_Interior_01",
+    "region": "Sinnoh",
+    "location": "Solaceon Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_22_SOLACEON_TOWN"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Town_Interior_02",
+    "region": "Sinnoh",
+    "location": "Solaceon Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_23_SOLACEON_TOWN"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Town_Interior_03",
+    "region": "Sinnoh",
+    "location": "Solaceon Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_24_SOLACEON_TOWN"
+  },
+  {
+    "map": "Sinnoh_Solaceon_Town_Interior_04",
+    "region": "Sinnoh",
+    "location": "Solaceon Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_25_SOLACEON_TOWN"
+  },
+  {
+    "map": "Sinnoh_Route_210",
+    "region": "Sinnoh",
+    "location": "Route 210",
+    "layout": "LAYOUT_HYPERSINNOH_35_16_ROUTE_210"
+  },
+  {
+    "map": "Sinnoh_Route_210_Section_01",
+    "region": "Sinnoh",
+    "location": "Route 210",
+    "layout": "LAYOUT_HYPERSINNOH_36_26_ROUTE_210"
+  },
+  {
+    "map": "Sinnoh_Route_210_Section_02",
+    "region": "Sinnoh",
+    "location": "Route 210",
+    "layout": "LAYOUT_HYPERSINNOH_36_27_ROUTE_210"
+  },
+  {
+    "map": "Sinnoh_Celestic_Town",
+    "region": "Sinnoh",
+    "location": "Celestic Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_10_CELESTIC_TOWN"
+  },
+  {
+    "map": "Sinnoh_Celestic_Town_Interior_01",
+    "region": "Sinnoh",
+    "location": "Celestic Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_37_CELESTIC_TOWN"
+  },
+  {
+    "map": "Sinnoh_Celestic_Town_Section_01",
+    "region": "Sinnoh",
+    "location": "Celestic Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_38_CELESTIC_TOWN"
+  },
+  {
+    "map": "Sinnoh_Celestic_Town_Interior_02",
+    "region": "Sinnoh",
+    "location": "Celestic Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_39_CELESTIC_TOWN"
+  },
+  {
+    "map": "Sinnoh_Route_211",
+    "region": "Sinnoh",
+    "location": "Route 211",
+    "layout": "LAYOUT_HYPERSINNOH_36_28_ROUTE_211"
+  },
+  {
+    "map": "Sinnoh_Lost_Tower",
+    "region": "Sinnoh",
+    "location": "Lost Tower",
+    "layout": "LAYOUT_HYPERSINNOH_35_29_LOST_TOWER"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_36_9_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_26_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_27_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_28_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_29_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_30_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_31_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_32_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Section_01",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_66_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Section_02",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_67_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_08",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_68_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_09",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_69_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_10",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_70_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_11",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_71_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_12",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_72_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Veilstone_City_Interior_13",
+    "region": "Sinnoh",
+    "location": "Veilstone City",
+    "layout": "LAYOUT_HYPERSINNOH_37_93_VEILSTONE_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_209",
+    "region": "Sinnoh",
+    "location": "Route 209",
+    "layout": "LAYOUT_HYPERSINNOH_36_25_ROUTE_209"
+  },
+  {
+    "map": "Sinnoh_Route_214",
+    "region": "Sinnoh",
+    "location": "Route 214",
+    "layout": "LAYOUT_HYPERSINNOH_36_33_ROUTE_214"
+  },
+  {
+    "map": "Sinnoh_Route_215",
+    "region": "Sinnoh",
+    "location": "Route 215",
+    "layout": "LAYOUT_HYPERSINNOH_36_34_ROUTE_215"
+  },
+  {
+    "map": "Sinnoh_Crown_Shrine",
+    "region": "Sinnoh",
+    "location": "Crown Shrine",
+    "layout": "LAYOUT_HYPERSINNOH_35_81_CROWN_SHRINE"
+  },
+  {
+    "map": "Sinnoh_Crown_Shrine_Interior_01",
+    "region": "Sinnoh",
+    "location": "Crown Shrine",
+    "layout": "LAYOUT_HYPERSINNOH_35_82_CROWN_SHRINE"
+  },
+  {
+    "map": "Sinnoh_Snowpoint_City",
+    "region": "Sinnoh",
+    "location": "Snowpoint City",
+    "layout": "LAYOUT_HYPERSINNOH_36_12_SNOWPOINT_CITY"
+  },
+  {
+    "map": "Sinnoh_Snowpoint_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Snowpoint City",
+    "layout": "LAYOUT_HYPERSINNOH_37_43_SNOWPOINT_CITY"
+  },
+  {
+    "map": "Sinnoh_Snowpoint_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Snowpoint City",
+    "layout": "LAYOUT_HYPERSINNOH_37_44_SNOWPOINT_CITY"
+  },
+  {
+    "map": "Sinnoh_Snowpoint_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Snowpoint City",
+    "layout": "LAYOUT_HYPERSINNOH_37_45_SNOWPOINT_CITY"
+  },
+  {
+    "map": "Sinnoh_Snowpoint_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Snowpoint City",
+    "layout": "LAYOUT_HYPERSINNOH_37_90_SNOWPOINT_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_216",
+    "region": "Sinnoh",
+    "location": "Route 216",
+    "layout": "LAYOUT_HYPERSINNOH_36_35_ROUTE_216"
+  },
+  {
+    "map": "Sinnoh_Route_217",
+    "region": "Sinnoh",
+    "location": "Route 217",
+    "layout": "LAYOUT_HYPERSINNOH_36_36_ROUTE_217"
+  },
+  {
+    "map": "Sinnoh_Lake_Acuity",
+    "region": "Sinnoh",
+    "location": "Lake Acuity",
+    "layout": "LAYOUT_HYPERSINNOH_36_45_LAKE_ACUITY"
+  },
+  {
+    "map": "Sinnoh_Lake_Acuity_Section_01",
+    "region": "Sinnoh",
+    "location": "Lake Acuity",
+    "layout": "LAYOUT_HYPERSINNOH_36_52_LAKE_ACUITY"
+  },
+  {
+    "map": "Sinnoh_Acuity_Lakefront",
+    "region": "Sinnoh",
+    "location": "Acuity Lakefront",
+    "layout": "LAYOUT_HYPERSINNOH_36_48_ACUITY_LAKEFRONT"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_74_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple_Section_01",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_75_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple_Section_02",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_76_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple_Section_03",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_77_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple_Section_04",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_78_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Regigigas_Temple_Section_05",
+    "region": "Sinnoh",
+    "location": "Regigigas Temple",
+    "layout": "LAYOUT_HYPERSINNOH_36_79_REGIGIGAS_TEMPLE"
+  },
+  {
+    "map": "Sinnoh_Desert_Ruins",
+    "region": "Sinnoh",
+    "location": "Desert Ruins",
+    "layout": "LAYOUT_HYPERSINNOH_35_88_DESERT_RUINS"
+  },
+  {
+    "map": "Sinnoh_Route_213",
+    "region": "Sinnoh",
+    "location": "Route 213",
+    "layout": "LAYOUT_HYPERSINNOH_36_31_ROUTE_213"
+  },
+  {
+    "map": "Sinnoh_Route_213_Section_01",
+    "region": "Sinnoh",
+    "location": "Route 213",
+    "layout": "LAYOUT_HYPERSINNOH_36_32_ROUTE_213"
+  },
+  {
+    "map": "Sinnoh_Lake_Valor",
+    "region": "Sinnoh",
+    "location": "Lake Valor",
+    "layout": "LAYOUT_HYPERSINNOH_36_44_LAKE_VALOR"
+  },
+  {
+    "map": "Sinnoh_Lake_Valor_Section_01",
+    "region": "Sinnoh",
+    "location": "Lake Valor",
+    "layout": "LAYOUT_HYPERSINNOH_36_51_LAKE_VALOR"
+  },
+  {
+    "map": "Sinnoh_Valor_Lakefront",
+    "region": "Sinnoh",
+    "location": "Valor Lakefront",
+    "layout": "LAYOUT_HYPERSINNOH_36_47_VALOR_LAKEFRONT"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_36_62_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_37_33_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_37_34_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_37_35_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_37_91_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Pastoria_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Pastoria City",
+    "layout": "LAYOUT_HYPERSINNOH_37_117_PASTORIA_CITY"
+  },
+  {
+    "map": "Sinnoh_Great_Marsh",
+    "region": "Sinnoh",
+    "location": "Great Marsh",
+    "layout": "LAYOUT_HYPERSINNOH_37_58_GREAT_MARSH"
+  },
+  {
+    "map": "Sinnoh_Great_Marsh_Section_01",
+    "region": "Sinnoh",
+    "location": "Great Marsh",
+    "layout": "LAYOUT_HYPERSINNOH_37_59_GREAT_MARSH"
+  },
+  {
+    "map": "Sinnoh_Great_Marsh_Section_02",
+    "region": "Sinnoh",
+    "location": "Great Marsh",
+    "layout": "LAYOUT_HYPERSINNOH_37_60_GREAT_MARSH"
+  },
+  {
+    "map": "Sinnoh_Twinleaf_Town",
+    "region": "Sinnoh",
+    "location": "Twinleaf Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_0_TWINLEAF_TOWN"
+  },
+  {
+    "map": "Sinnoh_Twinleaf_Town_Interior_01",
+    "region": "Sinnoh",
+    "location": "Twinleaf Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_1_TWINLEAF_TOWN"
+  },
+  {
+    "map": "Sinnoh_Route_201",
+    "region": "Sinnoh",
+    "location": "Route 201",
+    "layout": "LAYOUT_HYPERSINNOH_36_15_ROUTE_201"
+  },
+  {
+    "map": "Sinnoh_Verity_Lakefront",
+    "region": "Sinnoh",
+    "location": "Verity Lakefront",
+    "layout": "LAYOUT_HYPERSINNOH_36_16_VERITY_LAKEFRONT"
+  },
+  {
+    "map": "Sinnoh_Lake_Verity",
+    "region": "Sinnoh",
+    "location": "Lake Verity",
+    "layout": "LAYOUT_HYPERSINNOH_36_43_LAKE_VERITY"
+  },
+  {
+    "map": "Sinnoh_Lake_Verity_Section_01",
+    "region": "Sinnoh",
+    "location": "Lake Verity",
+    "layout": "LAYOUT_HYPERSINNOH_36_50_LAKE_VERITY"
+  },
+  {
+    "map": "Sinnoh_Sandgem_Town",
+    "region": "Sinnoh",
+    "location": "Sandgem Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_1_SANDGEM_TOWN"
+  },
+  {
+    "map": "Sinnoh_Sandgem_Town_Interior_01",
+    "region": "Sinnoh",
+    "location": "Sandgem Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_2_SANDGEM_TOWN"
+  },
+  {
+    "map": "Sinnoh_Sandgem_Town_Interior_02",
+    "region": "Sinnoh",
+    "location": "Sandgem Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_3_SANDGEM_TOWN"
+  },
+  {
+    "map": "Sinnoh_Sandgem_Town_Interior_03",
+    "region": "Sinnoh",
+    "location": "Sandgem Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_4_SANDGEM_TOWN"
+  },
+  {
+    "map": "Sinnoh_Sandgem_Town_Interior_04",
+    "region": "Sinnoh",
+    "location": "Sandgem Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_5_SANDGEM_TOWN"
+  },
+  {
+    "map": "Sinnoh_Route_202",
+    "region": "Sinnoh",
+    "location": "Route 202",
+    "layout": "LAYOUT_HYPERSINNOH_36_17_ROUTE_202"
+  },
+  {
+    "map": "Sinnoh_Route_219",
+    "region": "Sinnoh",
+    "location": "Route 219",
+    "layout": "LAYOUT_HYPERSINNOH_36_38_ROUTE_219"
+  },
+  {
+    "map": "Sinnoh_Route_220",
+    "region": "Sinnoh",
+    "location": "Route 220",
+    "layout": "LAYOUT_HYPERSINNOH_36_39_ROUTE_220"
+  },
+  {
+    "map": "Sinnoh_Route_221",
+    "region": "Sinnoh",
+    "location": "Route 221",
+    "layout": "LAYOUT_HYPERSINNOH_36_40_ROUTE_221"
+  },
+  {
+    "map": "Sinnoh_Pal_Park",
+    "region": "Sinnoh",
+    "location": "Pal Park",
+    "layout": "LAYOUT_HYPERSINNOH_36_57_PAL_PARK"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_36_2_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_75_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_76_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_77_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_78_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_79_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_80_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_81_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Jubilife_City_Interior_08",
+    "region": "Sinnoh",
+    "location": "Jubilife City",
+    "layout": "LAYOUT_HYPERSINNOH_37_109_JUBILIFE_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_204",
+    "region": "Sinnoh",
+    "location": "Route 204",
+    "layout": "LAYOUT_HYPERSINNOH_36_19_ROUTE_204"
+  },
+  {
+    "map": "Sinnoh_Ravaged_Path",
+    "region": "Sinnoh",
+    "location": "Ravaged Path",
+    "layout": "LAYOUT_HYPERSINNOH_36_63_RAVAGED_PATH"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_Region",
+    "region": "Sinnoh",
+    "location": "Sinnoh Region",
+    "layout": "LAYOUT_HYPERSINNOH_37_94_SINNOH_REGION"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_Region_Interior_01",
+    "region": "Sinnoh",
+    "location": "Sinnoh Region",
+    "layout": "LAYOUT_HYPERSINNOH_37_95_SINNOH_REGION"
+  },
+  {
+    "map": "Sinnoh_Sinnoh_Region_Interior_02",
+    "region": "Sinnoh",
+    "location": "Sinnoh Region",
+    "layout": "LAYOUT_HYPERSINNOH_37_101_SINNOH_REGION"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_36_3_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Section_01",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_36_60_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_6_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_7_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_8_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_74_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_82_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_112_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Oreburgh City",
+    "layout": "LAYOUT_HYPERSINNOH_37_116_OREBURGH_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_203",
+    "region": "Sinnoh",
+    "location": "Route 203",
+    "layout": "LAYOUT_HYPERSINNOH_36_18_ROUTE_203"
+  },
+  {
+    "map": "Sinnoh_Route_207",
+    "region": "Sinnoh",
+    "location": "Route 207",
+    "layout": "LAYOUT_HYPERSINNOH_36_23_ROUTE_207"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_Gate",
+    "region": "Sinnoh",
+    "location": "Oreburgh Gate",
+    "layout": "LAYOUT_HYPERSINNOH_36_58_OREBURGH_GATE"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_Gate_Section_01",
+    "region": "Sinnoh",
+    "location": "Oreburgh Gate",
+    "layout": "LAYOUT_HYPERSINNOH_36_59_OREBURGH_GATE"
+  },
+  {
+    "map": "Sinnoh_Oreburgh_Mine",
+    "region": "Sinnoh",
+    "location": "Oreburgh Mine",
+    "layout": "LAYOUT_HYPERSINNOH_36_61_OREBURGH_MINE"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_4_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Section_01",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_36_5_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_01",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_9_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_02",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_10_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_03",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_11_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_04",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_12_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_05",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_110_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Floaroma_Town_Interior_06",
+    "region": "Sinnoh",
+    "location": "Floaroma Town",
+    "layout": "LAYOUT_HYPERSINNOH_37_111_FLOAROMA_TOWN"
+  },
+  {
+    "map": "Sinnoh_Route_205",
+    "region": "Sinnoh",
+    "location": "Route 205",
+    "layout": "LAYOUT_HYPERSINNOH_36_20_ROUTE_205"
+  },
+  {
+    "map": "Sinnoh_Route_205_Section_01",
+    "region": "Sinnoh",
+    "location": "Route 205",
+    "layout": "LAYOUT_HYPERSINNOH_36_21_ROUTE_205"
+  },
+  {
+    "map": "Sinnoh_Valley_Windworks",
+    "region": "Sinnoh",
+    "location": "Valley Windworks",
+    "layout": "LAYOUT_HYPERSINNOH_36_54_VALLEY_WINDWORKS"
+  },
+  {
+    "map": "Sinnoh_Valley_Windworks_Interior_01",
+    "region": "Sinnoh",
+    "location": "Valley Windworks",
+    "layout": "LAYOUT_HYPERSINNOH_37_53_VALLEY_WINDWORKS"
+  },
+  {
+    "map": "Sinnoh_Fuego_Ironworks",
+    "region": "Sinnoh",
+    "location": "Fuego Ironworks",
+    "layout": "LAYOUT_HYPERSINNOH_36_55_FUEGO_IRONWORKS"
+  },
+  {
+    "map": "Sinnoh_Fuego_Ironworks_Interior_01",
+    "region": "Sinnoh",
+    "location": "Fuego Ironworks",
+    "layout": "LAYOUT_HYPERSINNOH_37_52_FUEGO_IRONWORKS"
+  },
+  {
+    "map": "Sinnoh_Eterna_City",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_36_6_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_13_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_14_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_15_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_16_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_61_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Section_01",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_62_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Section_02",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_63_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Section_03",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_64_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_65_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_83_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_08",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_113_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Eterna_City_Interior_09",
+    "region": "Sinnoh",
+    "location": "Eterna City",
+    "layout": "LAYOUT_HYPERSINNOH_37_114_ETERNA_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_206",
+    "region": "Sinnoh",
+    "location": "Route 206",
+    "layout": "LAYOUT_HYPERSINNOH_36_22_ROUTE_206"
+  },
+  {
+    "map": "Sinnoh_Eterna_Forest",
+    "region": "Sinnoh",
+    "location": "Eterna Forest",
+    "layout": "LAYOUT_HYPERSINNOH_36_53_ETERNA_FOREST"
+  },
+  {
+    "map": "Sinnoh_Eterna_Forest_Section_01",
+    "region": "Sinnoh",
+    "location": "Eterna Forest",
+    "layout": "LAYOUT_HYPERSINNOH_36_93_ETERNA_FOREST"
+  },
+  {
+    "map": "Sinnoh_Old_Chateau",
+    "region": "Sinnoh",
+    "location": "Old Chateau",
+    "layout": "LAYOUT_HYPERSINNOH_37_54_OLD_CHATEAU"
+  },
+  {
+    "map": "Sinnoh_Old_Chateau_Interior_01",
+    "region": "Sinnoh",
+    "location": "Old Chateau",
+    "layout": "LAYOUT_HYPERSINNOH_37_55_OLD_CHATEAU"
+  },
+  {
+    "map": "Sinnoh_Old_Chateau_Interior_02",
+    "region": "Sinnoh",
+    "location": "Old Chateau",
+    "layout": "LAYOUT_HYPERSINNOH_37_56_OLD_CHATEAU"
+  },
+  {
+    "map": "Sinnoh_Old_Chateau_Interior_03",
+    "region": "Sinnoh",
+    "location": "Old Chateau",
+    "layout": "LAYOUT_HYPERSINNOH_37_57_OLD_CHATEAU"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_36_7_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_01",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_17_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_02",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_18_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_03",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_19_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_04",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_20_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_05",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_21_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_06",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_73_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_07",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_84_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_08",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_85_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Hearthome_City_Interior_09",
+    "region": "Sinnoh",
+    "location": "Hearthome City",
+    "layout": "LAYOUT_HYPERSINNOH_37_100_HEARTHOME_CITY"
+  },
+  {
+    "map": "Sinnoh_Route_208",
+    "region": "Sinnoh",
+    "location": "Route 208",
+    "layout": "LAYOUT_HYPERSINNOH_36_24_ROUTE_208"
+  },
+  {
+    "map": "Sinnoh_Route_212",
+    "region": "Sinnoh",
+    "location": "Route 212",
+    "layout": "LAYOUT_HYPERSINNOH_36_29_ROUTE_212"
+  },
+  {
+    "map": "Sinnoh_Route_212_Section_01",
+    "region": "Sinnoh",
+    "location": "Route 212",
+    "layout": "LAYOUT_HYPERSINNOH_36_30_ROUTE_212"
+  },
+  {
+    "map": "Sinnoh_Amity_Square",
+    "region": "Sinnoh",
+    "location": "Amity Square",
+    "layout": "LAYOUT_HYPERSINNOH_36_56_AMITY_SQUARE"
+  },
+  {
+    "map": "Unova_Route3_West",
+    "region": "Unova",
+    "location": "Route 3",
+    "layout": "LAYOUT_AMAP_3_21_ROUTE_3_LAYOUT"
+  },
+  {
+    "map": "Unova_Route3_East",
+    "region": "Unova",
+    "location": "Route 3",
+    "layout": "LAYOUT_AMAP_3_22_ROUTE_3_LAYOUT"
+  }
+]

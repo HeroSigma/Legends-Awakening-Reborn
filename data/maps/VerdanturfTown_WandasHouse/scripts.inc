@@ -1,4 +1,5 @@
 VerdanturfTown_WandasHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegendsParadigm_FamilyTransition
 	.byte 0
 
 VerdanturfTown_WandasHouse_EventScript_Wally::
@@ -18,6 +19,9 @@ VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech::
 VerdanturfTown_WandasHouse_EventScript_WallysUncle::
 	lock
 	faceplayer
+	goto_if_eq VAR_LA_PARADIGM_ARC, 3, LegendsParadigm_TellFamily
+	goto_if_ge VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_UncleInformed
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 3, LegendsParadigm_UncleWaiting
 	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff
 	msgbox VerdanturfTown_WandasHouse_Text_WallysNextDoor, MSGBOX_DEFAULT
@@ -41,6 +45,8 @@ VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend::
 VerdanturfTown_WandasHouse_EventScript_Wanda::
 	lock
 	faceplayer
+	goto_if_ge VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_FamilyInformed
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 3, LegendsParadigm_FamilyWaiting
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WandaDontWorry
 	goto_if_set FLAG_DEFEATED_WALLY_MAUVILLE, VerdanturfTown_WandasHouse_EventScript_MeetWanda
 	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
@@ -60,6 +66,8 @@ VerdanturfTown_WandasHouse_EventScript_WandaDontWorry::
 VerdanturfTown_WandasHouse_EventScript_WallysAunt::
 	lock
 	faceplayer
+	goto_if_ge VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_FamilyInformed
+	goto_if_eq VAR_LA_MAUVILLE_RIFT, 3, LegendsParadigm_FamilyWaiting
 	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened
 	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen
@@ -178,3 +186,93 @@ VerdanturfTown_WandasHouse_EventScript_HyperConstruction_Registered1::
 VerdanturfTown_WandasHouse_Text_HyperConstruction_Registered1:
 	.string "This area is under construction.\p"
 	.string "Please check back later!$"
+
+LegendsParadigm_FamilyTransition::
+	setflag FLAG_TEMP_1
+	goto_if_ne VAR_LA_MAUVILLE_RIFT, 3, LegendsParadigm_FamilyTransitionEnd
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+LegendsParadigm_FamilyTransitionEnd::
+	end
+
+LegendsParadigm_TellFamily::
+	lockall
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsParadigm_Text_TellUncle, MSGBOX_DEFAULT
+	setspeaker SP_NAME_NONE
+	msgbox LegendsParadigm_Text_UncleRelief, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsParadigm_Text_PromiseFamily, MSGBOX_DEFAULT
+	closemessage
+	playse SE_DOOR
+	clearflag FLAG_TEMP_1
+	addobject LOCALID_VERDANTURF_PARADIGM_MAY
+	applymovement LOCALID_VERDANTURF_PARADIGM_MAY, LegendsParadigm_MayApproach
+	waitmovement 0
+	turnobject LOCALID_PLAYER, DIR_SOUTH
+	setspeaker SP_NAME_MAY
+	msgbox LegendsParadigm_Text_MaySearch, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox LegendsParadigm_Text_RecallVillains, MSGBOX_DEFAULT
+	setspeaker SP_NAME_MAY
+	msgbox LegendsParadigm_Text_WoodsLead, MSGBOX_DEFAULT
+	closemessage
+	setspeaker SP_NAME_NONE
+	applymovement LOCALID_VERDANTURF_PARADIGM_MAY, LegendsParadigm_MayLeave
+	waitmovement 0
+	removeobject LOCALID_VERDANTURF_PARADIGM_MAY
+	setflag FLAG_TEMP_1
+	setvar VAR_LA_PARADIGM_ARC, 4
+	releaseall
+	end
+
+LegendsParadigm_MayApproach:
+	walk_up
+	walk_up
+	step_end
+
+LegendsParadigm_MayLeave:
+	walk_down
+	walk_down
+	step_end
+
+LegendsParadigm_UncleInformed::
+	msgbox LegendsParadigm_Text_UncleInformed, MSGBOX_DEFAULT
+	goto LegendsParadigm_FamilyEnd
+
+LegendsParadigm_UncleWaiting::
+	msgbox LegendsParadigm_Text_UncleWaiting, MSGBOX_DEFAULT
+	goto LegendsParadigm_FamilyEnd
+
+LegendsParadigm_FamilyInformed::
+	msgbox LegendsParadigm_Text_FamilyInformed, MSGBOX_DEFAULT
+	goto LegendsParadigm_FamilyEnd
+
+LegendsParadigm_FamilyWaiting::
+	msgbox LegendsParadigm_Text_FamilyWaiting, MSGBOX_DEFAULT
+LegendsParadigm_FamilyEnd::
+	closemessage
+	setspeaker SP_NAME_NONE
+	releaseall
+	end
+
+LegendsParadigm_Text_TellUncle:
+	.string "I heard from Wally. He's safe.\nKirlia is with him.\pThe rift sent them to Kanto.\nShe's helping him find a way back.$"
+LegendsParadigm_Text_UncleRelief:
+	.string "Kanto… So far from home?\pThank you for coming to tell us.\nWe've been waiting for news.\pIf he calls again, tell him he\nhas nothing to prove.\pTell him to come home when\nit's safe to travel.$"
+LegendsParadigm_Text_PromiseFamily:
+	.string "I will. Professor Birch and the\nothers are helping us look too.$"
+LegendsParadigm_Text_MaySearch:
+	.string "{PLAYER}! Dad told us about Wally.\nRed and Brendan are helping search.\pI came to check on his family.\nI'm glad he managed to call.$"
+LegendsParadigm_Text_RecallVillains:
+	.string "Those men in Timeless Woods had\nsomething that could steady rifts.\pOne had an R on his clothes.\nThe other had a G.\pIf they can control a crossing,\nmaybe they know where Wally went.$"
+LegendsParadigm_Text_WoodsLead:
+	.string "Then we should check where you\nsaw them. I'll meet you there.\pDad's sharing the descriptions\nwith Paradigm.\pWe need a clue they can follow.$"
+LegendsParadigm_Text_UncleInformed:
+	.string "May went to Timeless Woods.\pThank you for telling us about\nWally. Please keep us informed.$"
+LegendsParadigm_Text_UncleWaiting:
+	.string "Birch told us Wally went missing.\nHave you heard anything from him?$"
+LegendsParadigm_Text_FamilyWaiting:
+	.string "We keep listening for the phone.\nPlease tell us if Wally calls.$"
+LegendsParadigm_Text_FamilyInformed:
+	.string "At least he has Kirlia with him.\nThank you for bringing us news.$"

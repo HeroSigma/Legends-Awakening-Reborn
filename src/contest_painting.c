@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 #include "global.h"
 #include "malloc.h"
 #include "battle.h"
@@ -496,3 +498,42 @@ static void CreateContestPaintingPicture(u8 contestWinnerId, bool8 isForArtist)
     InitPaintingMonOamData(contestWinnerId);
     LoadContestPaintingFrame(contestWinnerId, isForArtist);
 }
+
+#else
+#include "global.h"
+#include "malloc.h"
+#include "battle.h"
+#include "battle_gfx_sfx_util.h"
+#include "bg.h"
+#include "contest.h"
+#include "contest_painting.h"
+#include "data.h"
+#include "decompress.h"
+#include "gpu_regs.h"
+#include "image_processing_effects.h"
+#include "international_string_util.h"
+#include "main.h"
+#include "lilycove_lady.h"
+#include "palette.h"
+#include "random.h"
+#include "scanline_effect.h"
+#include "string_util.h"
+#include "strings.h"
+#include "text.h"
+#include "window.h"
+#include "constants/rgb.h"
+#include "script.h"
+#include "legacy_features.h"
+#include "overworld.h"
+
+const u8 gContestHallPaintingCaption[] = _("{STR_VAR_1}\n{STR_VAR_2}'s {STR_VAR_3}");
+void SetContestWinnerForPainting(int contestWinnerId)
+{
+
+}
+
+void CB2_ContestPainting(void)
+{
+    SetMainCallback2(CB2_ReturnToField);
+}
+#endif

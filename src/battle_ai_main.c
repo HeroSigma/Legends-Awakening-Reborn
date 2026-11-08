@@ -1,4 +1,6 @@
 #include "global.h"
+#include "constants/flags.h"
+#include "event_data.h"
 #include "main.h"
 #include "malloc.h"
 #include "battle.h"
@@ -276,6 +278,8 @@ static u64 GetAiFlags(u16 trainerId, enum BattlerId battler)
             flags = AI_FLAG_SAFARI;
         else if (gBattleTypeFlags & BATTLE_TYPE_ROAMER)
             flags = AI_FLAG_ROAMING;
+        else if (FlagGet(FLAG_LA_MIRAIDON_BATTLE))
+            flags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT;
         else if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
             flags = AI_FLAG_FIRST_BATTLE;
         else if (gBattleTypeFlags & BATTLE_TYPE_FACTORY)
@@ -6724,7 +6728,7 @@ static s32 AI_Safari(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
 // First battle logic
 static s32 AI_FirstBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, s32 score)
 {
-    if (!IS_FRLG && gAiLogicData->hpPercents[battlerDef] <= 20)
+    if (!IS_FRLG && !FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) && gAiLogicData->hpPercents[battlerDef] <= 20)
         AI_Flee();
 
     return score;

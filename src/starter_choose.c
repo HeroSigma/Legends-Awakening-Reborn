@@ -114,11 +114,17 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
 #define FIRE_STARTER  (IS_FRLG ? SPECIES_CHARMANDER : SPECIES_TORCHIC)
 #define WATER_STARTER (IS_FRLG ? SPECIES_SQUIRTLE   : SPECIES_MUDKIP )
 
-static const u16 sStarterMon[STARTER_MON_COUNT] =
+static const u16 sStarterMon[STARTER_CHOICES_COUNT] =
 {
     GRASS_STARTER,
     FIRE_STARTER,
     WATER_STARTER,
+    SPECIES_RIOLU,
+    SPECIES_SHINX,
+    SPECIES_RALTS,
+    SPECIES_GIBLE,
+    SPECIES_EEVEE,
+    SPECIES_ROCKRUFF,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -349,7 +355,7 @@ static const struct SpriteTemplate sSpriteTemplate_StarterCircle =
 // .text
 u16 GetStarterPokemon(u16 chosenStarterId)
 {
-    if (chosenStarterId > STARTER_MON_COUNT)
+    if (chosenStarterId >= STARTER_CHOICES_COUNT)
         chosenStarterId = 0;
     return sStarterMon[chosenStarterId];
 }
@@ -370,7 +376,30 @@ static void VblankCB_StarterChoose(void)
 #define sTaskId data[0]
 #define sBallId data[1]
 
-void CB2_ChooseStarter(void)
+// Keep the stock 0-2 rival branches and old saves intact; remember the actual
+// briefcase choice separately for species-dependent dialogue and credits.
+#define STARTER_CHOICE_SIGNATURE 0x5300
+u16 GetChosenStarterChoice(void)
+{
+    u16 stored=VarGet(VAR_LA_STARTER_CHOICE);
+    if ((stored & 0xFF00)==STARTER_CHOICE_SIGNATURE && (stored & 0xFF)<STARTER_CHOICES_COUNT)
+        return stored & 0xFF;
+    u16 legacy=VarGet(VAR_STARTER_MON);
+    return legacy<3?legacy:0;
+}
+u16 GetChosenStarterPokemon(void)
+{
+    return GetStarterPokemon(GetChosenStarterChoice());
+}
+void RecordStarterChoice(u16 choice)
+{
+    static const u8 rivalGroups[STARTER_CHOICES_COUNT]={0,1,2,0,2,1,0,1,2};
+    if (choice>=STARTER_CHOICES_COUNT) choice=0;
+    VarSet(VAR_LA_STARTER_CHOICE,STARTER_CHOICE_SIGNATURE|choice);
+    VarSet(VAR_STARTER_MON,rivalGroups[choice]);
+}
+
+static void UNUSED CB2_ChooseStarterLegacy(void)
 {
     u8 taskId;
     u8 spriteId;

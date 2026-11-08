@@ -55,6 +55,8 @@ extern const u8 EventSnippet_GotoPostBattleScript[];
 extern const u8 EventSnippet_DoTrainerBattle[];
 extern const u8 EventSnippet_DoRematchTrainerBattle[];
 extern const u8 EventSnippet_EndTrainerBattle[];
+extern const u8 EventSnippet_OfferRichTrainerRematch[];
+extern const u8 EventSnippet_EndRichTrainerRematch[];
 extern const u8 EventSnippet_NotEnoughMonsForDoubleBattle[];
 
 extern const u8 BerryTreeScript[];
@@ -805,5 +807,9 @@ extern const u8 EventScript_Questionnaire[];
 extern const u8 CableClub_EventScript_ShowBattleRecords_Frlg[];
 extern const u8 EventScript_Indigo_UltimateGoal[];
 extern const u8 EventScript_Indigo_HighestAuthority[];
+
+extern const u8 EventSnippet_LegendsChooseFormat[];
+
+extern const u8 LegendsPokevial_Use[];
 
 #endif // GUARD_EVENT_SCRIPTS_H

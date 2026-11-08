@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
 @ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_FACTORY_BATTLE_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_F.
@@ -308,3 +310,92 @@ BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
 	.string "I lose to you!\p"
 	.string "We have to do this again, hey?$"
 
+
+#else
+BattleFrontier_BattleFactoryBattleRoom_MapScripts::
+	.byte 0
+BattleFrontier_BattleFactoryBattleRoom_OnTransition:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_SetUpFactoryHeadObj::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_HideObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_EndHideObjects::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_SetPlayerGfxMale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_SetPlayerGfxFemale::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoomFactoryHeadBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoom::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobbyLost::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedOpponent::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_IncrementWinStreak::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_IncrementBattleNum::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobbyWon::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleNoland::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleNolandSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedNolandSilver::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_IntroNolandGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleNolandGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedNolandGold::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_DoNolandBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedNoland::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerApproachNoland:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_Movement_OpponentEnter:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_Movement_NolandMoveToBattle:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobby::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobbyDoubles::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
+	.string "This feature is disabled in this build.$"
+#endif

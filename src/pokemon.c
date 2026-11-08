@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_tera.h"
 #include "malloc.h"
 #include "apprentice.h"
 #include "battle.h"
@@ -866,7 +867,7 @@ void CreateMonWithIVs(struct Pokemon *mon, enum Species species, u8 level, u32 p
     CalculateMonStats(mon);
 }
 
-bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
+static bool32 ComputeShinyOdds(u32 personality, u32 value, bool32 regularWild)
 {
     if (FlagGet(P_FLAG_FORCE_NO_SHINY))
         return FALSE;
@@ -881,9 +882,15 @@ bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
         return FALSE;
 
     u32 totalRerolls = 0;
+    u32 threshold = regularWild ? 256 : SHINY_ODDS;
 
     if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
-        totalRerolls += I_SHINY_CHARM_ADDITIONAL_ROLLS;
+    {
+        if (regularWild)
+            threshold += 64; // 25% relative increase to the regular wild rate.
+        else
+            totalRerolls += I_SHINY_CHARM_ADDITIONAL_ROLLS;
+    }
 
     if (LURE_STEP_COUNT != 0)
         totalRerolls += 1;
@@ -893,13 +900,23 @@ bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
     if (gDexNavSpecies)
         totalRerolls += CalculateDexNavShinyRolls();
 
-    while (GET_SHINY_VALUE(value, personality) >= SHINY_ODDS && totalRerolls > 0)
+    while (GET_SHINY_VALUE(value, personality) >= threshold && totalRerolls > 0)
     {
         personality = Random32();
         totalRerolls--;
     }
 
-    return GET_SHINY_VALUE(value, personality) < SHINY_ODDS;
+    return GET_SHINY_VALUE(value, personality) < threshold;
+}
+
+bool32 ComputePlayerShinyOdds(u32 personality, u32 value)
+{
+    return ComputeShinyOdds(personality, value, FALSE);
+}
+
+bool32 ComputeRegularWildShinyOdds(u32 personality, u32 value)
+{
+    return ComputeShinyOdds(personality, value, TRUE);
 }
 
 void SetBoxMonIVs(struct BoxPokemon *mon, u8 fixedIV)
@@ -1014,7 +1031,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, enum Species species, u8 level, u32
     SetBoxMonData(boxMon, MON_DATA_OT_GENDER, &gSaveBlock2Ptr->playerGender);
 
     value = boxMon->personality & 0x1;
-    enum Type teraType = value == 0 ? GetSpeciesType(species, 0) : GetSpeciesType(species, 1);
+    enum Type teraType = GetSpeciesType(species, 0);
     SetBoxMonData(boxMon, MON_DATA_TERA_TYPE, &teraType);
     //using gen 3-4 ability formula, it was changed in later gens
     if (GetSpeciesAbility(species, 1))
@@ -2406,10 +2423,9 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
                 {
                     retVal = gSpeciesInfo[substruct0->species].forceTeraType;
                 }
-                else if (substruct0->teraType == TYPE_NONE) // Tera Type hasn't been modified so we can just use the personality
+                else if (substruct0->teraType == TYPE_NONE) // Unassigned Tera types follow the primary species type
                 {
-                    const enum Type *types = gSpeciesInfo[substruct0->species].types;
-                    retVal = (boxMon->personality & 0x1) == 0 ? types[0] : types[1];
+                    retVal = GetSpeciesType(substruct0->species, 0);
                 }
                 else
                 {
@@ -5385,59 +5401,24 @@ static inline bool32 CanFirstMonBoostHeldItemRarity(void)
 
 void SetWildMonHeldItem(void)
 {
-    u16 rnd;
-    enum Species species;
-    u16 count = (WILD_DOUBLE_BATTLE) ? 2 : 1;
-    u16 i;
-    bool32 itemHeldBoost = CanFirstMonBoostHeldItemRarity();
-    u16 chanceNoItem = itemHeldBoost ? 20 : 45;
-    u16 chanceNotRare = itemHeldBoost ? 80 : 95;
-
+    u32 i, count = WILD_DOUBLE_BATTLE ? 2 : 1;
     for (i = 0; i < count; i++)
     {
-        if (GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM) != ITEM_NONE)
-            continue; // prevent overwriting previously set item
-
-        rnd = Random() % 100;
-        species = GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_SPECIES, 0);
+        struct Pokemon *mon = &gParties[B_TRAINER_OPPONENT_A][i];
+        u16 species, item;
+        if (GetMonData(mon, MON_DATA_HELD_ITEM) != ITEM_NONE)
+            continue; // Explicit scripted/DexNav items remain authoritative.
+        if (Random() % 100 >= 5)
+            continue;
+        species = GetMonData(mon, MON_DATA_SPECIES);
+        item = LegendsChooseWildHeldItem(species);
         if (gMapHeader.mapLayoutId == LAYOUT_ALTERING_CAVE)
         {
-            s32 alteringCaveId = GetWildMonTableIdInAlteringCave(species);
-            if (alteringCaveId != 0)
-            {
-                // In active Altering Cave, use special item list
-                if (rnd < chanceNotRare)
-                    continue;
-                SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &sAlteringCaveWildMonHeldItems[alteringCaveId].item);
-            }
-            else
-            {
-                // In inactive Altering Cave, use normal items
-                if (rnd < chanceNoItem)
-                    continue;
-                if (rnd < chanceNotRare)
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-                else
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemRare);
-            }
+            s32 id = GetWildMonTableIdInAlteringCave(species);
+            if (id != 0)
+                item = sAlteringCaveWildMonHeldItems[id].item;
         }
-        else
-        {
-            if (gSpeciesInfo[species].itemCommon == gSpeciesInfo[species].itemRare && gSpeciesInfo[species].itemCommon != ITEM_NONE)
-            {
-                // Both held items are the same, 100% chance to hold item
-                SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-            }
-            else
-            {
-                if (rnd < chanceNoItem)
-                    continue;
-                if (rnd < chanceNotRare)
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemCommon);
-                else
-                    SetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_HELD_ITEM, &gSpeciesInfo[species].itemRare);
-            }
-        }
+        SetMonData(mon, MON_DATA_HELD_ITEM, &item);
     }
 }
 

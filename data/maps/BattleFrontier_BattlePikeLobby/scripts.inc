@@ -1,3 +1,5 @@
+#include "config/free_space.h"
+#if !LA_FREE_SPACE
 BattleFrontier_BattlePikeLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeLobby_OnWarp
@@ -435,3 +437,134 @@ BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
 	.string "The sequence must be set before\n"
 	.string "starting your challenge.$"
 
+
+#else
+BattleFrontier_BattlePikeLobby_MapScripts::
+	.byte 0
+BattleFrontier_BattlePikeLobby_OnFrame:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_OnWarp:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_TurnPlayerNorth::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_GetChallengeStatus::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_QuitWithoutSaving::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_WonChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_DefeatedQueen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_GiveBattlePoints::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_LostChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_Attendant::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_AskTakeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_TryEnterChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_SaveBeforeChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_ExplainChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_NotEnoughValidMons::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_NotEnoughValidMonsLv50::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_NotEnoughValidMonsLvOpen::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_CancelChallengeSaveFailed::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_LoadPartyAndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_CancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_EndCancelChallenge::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_ShowResults::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_WalkToCorridor::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_Movement_PlayerWalkToCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_Movement_AttendantWalkToCorridor:
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_Hiker::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_Twin::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_Beauty::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_RulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_ReadRulesBoard::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_RulesPokenavBag::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_RulesHeldItems::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_RulesMonOrder::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_EventScript_ExitRules::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePike_EventScript_CloseCurtain::
+	goto EventScript_LegacyFeatureDisabled
+BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsEnd:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_StepThisWay:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
+	.string "This feature is disabled in this build.$"
+BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
+	.string "This feature is disabled in this build.$"
+#endif

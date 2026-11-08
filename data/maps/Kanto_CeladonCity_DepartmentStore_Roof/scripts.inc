@@ -1,0 +1,7 @@
+Kanto_CeladonCity_DepartmentStore_Roof_MapScripts::
+	.byte 0
+
+KantoAR_10_5_CeladonCity_DepartmentStore_Roof_Inspect::
+	call KantoAR_InspectionPrompt
+	warp MAP_KANTOAR_10_6_CELADONCITY_DEPARTMENTSTORE_ELEVATOR, 1, 4
+	goto KantoAR_InspectionFinish

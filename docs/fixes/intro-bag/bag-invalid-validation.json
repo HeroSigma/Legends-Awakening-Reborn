@@ -1,0 +1,301 @@
+{
+  "rom_sha256": "b856c58ef18c5fd210f90f4cd13ee6f6b5e553547bbfddce59e644cf984dd160",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_0_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_0_8249",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_0_65535",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_0_875",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "legacy_invalid_does_not_reset_0",
+      "passed": true
+    },
+    {
+      "test": "vial_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(2, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(3, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(4, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(5, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(6, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(7, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(8, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(9, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(10, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(11, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(12, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "vial_still_preserved_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_1_0",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_1_8249",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_1_65535",
+      "passed": true
+    },
+    {
+      "test": "invalid_category_1_875",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "legacy_invalid_does_not_reset_1",
+      "passed": true
+    },
+    {
+      "test": "vial_preserved_1",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(0, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(1, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(2, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(3, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(4, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(5, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(6, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(7, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(8, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(9, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(10, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(11, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "bag_open_(12, 0)",
+      "passed": true
+    },
+    {
+      "test": "bag_closed",
+      "passed": true
+    },
+    {
+      "test": "vial_still_preserved_1",
+      "passed": true
+    }
+  ]
+}

@@ -26,7 +26,7 @@
 #include "config/general.h"
 #include "config/overworld.h"
 
-#include "hyper_sinnoh_display_names.inc"
+#include "regional_map_names.h"
 
 // enums
 enum MapPopUp_Themes
@@ -568,8 +568,8 @@ u8 *GetPopUpMapName(u8 *dest, const struct MapHeader *mapHeader)
     if (IsCeladonDeptStore(mapHeader))
         StringCopy(dest, COMPOUND_STRING("CELADON DEPT."));
     else
-        if (mapHeader->regionMapSectionId == MAPSEC_SINNOH && HyperSinnoh_CurrentDisplayName() != NULL)
-            StringCopy(dest, HyperSinnoh_CurrentDisplayName());
+        if (RegionalMapDisplayName(mapHeader) != NULL)
+            StringCopy(dest, RegionalMapDisplayName(mapHeader));
         else
             GetMapName(dest, mapHeader->regionMapSectionId, 0);
     if (mapHeader->floorNumber == 0)

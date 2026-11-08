@@ -1,0 +1,155 @@
+{
+  "report": [
+    [
+      "NEWS",
+      "We interrupt our scheduled Petalburg Gym report with a developing story."
+    ],
+    [
+      "NEWS",
+      "Unstable openings have appeared\nacross Hoenn.\n\nScientists are calling them rifts."
+    ],
+    [
+      "NEWS",
+      "Witnesses describe distant cities\nand unfamiliar mountains.\n\nThese places do not match the\nsurrounding landscape."
+    ],
+    [
+      "NEWS",
+      "The views vanish as the rifts close.\n\nWhere they lead remains unknown."
+    ],
+    [
+      "NEWS",
+      "None of the rifts have stayed stable.\n\nDo not approach or enter them."
+    ],
+    [
+      "PLAYER",
+      "Places on the other side...?"
+    ],
+    [
+      "NEWS",
+      "Unusual POKéMON outbreaks have been\nreported near the affected areas."
+    ],
+    [
+      "NEWS",
+      "Some of these POKéMON are native\nto regions far beyond Hoenn.\n\nHow they arrived remains unknown."
+    ],
+    [
+      "NEWS",
+      "Scientists are investigating a link\nbetween the rifts and outbreaks."
+    ],
+    [
+      "NEWS",
+      "Lead scientist Colress is overseeing\nthe investigation.\n\nLocal researchers are assisting him."
+    ],
+    [
+      "ELARA",
+      "(quietly) Colress...?\nWhat is he doing here...?"
+    ],
+    [
+      "PLAYER",
+      "You know him?"
+    ],
+    [
+      "ELARA",
+      "I recognize the name.\nThat's all."
+    ],
+    [
+      "NEWS",
+      "Report any unusual sightings to the\nresearch team.\n\nKeep a safe distance from all rifts."
+    ],
+    [
+      "NEWS",
+      "We will bring you further updates as information is confirmed."
+    ]
+  ],
+  "after_report": [
+    [
+      "PLAYER",
+      "Rifts, strange POKéMON...\nIs that what you wanted to tell me?"
+    ],
+    [
+      "ELARA",
+      "I wanted you to hear it before you went outside."
+    ],
+    [
+      "ELARA",
+      "Whatever those things are, they aren't somewhere to go exploring."
+    ],
+    [
+      "PLAYER",
+      "You don't have to look at me like that."
+    ],
+    [
+      "ELARA",
+      "Then don't give me a reason to."
+    ],
+    [
+      "PLAYER",
+      "What about the POKéMON?\nAre they all right?"
+    ],
+    [
+      "ELARA",
+      "I hope so. Professor Birch has been looking into the sightings too."
+    ],
+    [
+      "PLAYER",
+      "Maybe he'll know what's going on."
+    ],
+    [
+      "ELARA",
+      "Try the house next door first. His family should know where he's working."
+    ],
+    [
+      "PLAYER",
+      "And Colress?"
+    ],
+    [
+      "ELARA",
+      "Leave the scientists to their work.\n\nIf you see a rift, keep your distance."
+    ],
+    [
+      "PLAYER",
+      "I'll be careful."
+    ],
+    [
+      "ELARA",
+      "That's not quite what I asked."
+    ],
+    [
+      "ELARA",
+      "Go on. And keep that package with you. We still don't know who sent it."
+    ]
+  ],
+  "other": {
+    "ComeLook": "{PLAYER}, come here a moment.\nYou should see this.",
+    "Reminder": "Try the house next door for Professor Birch. And stay away from those rifts.",
+    "Report0": "We interrupt our scheduled Petalburg Gym report with a developing story.",
+    "Report1": "Unstable openings have appeared\nacross Hoenn.\n\nScientists are calling them rifts.",
+    "Report2": "Witnesses describe distant cities\nand unfamiliar mountains.\n\nThese places do not match the\nsurrounding landscape.",
+    "Report3": "The views vanish as the rifts close.\n\nWhere they lead remains unknown.",
+    "Report4": "None of the rifts have stayed stable.\n\nDo not approach or enter them.",
+    "Report5": "Places on the other side...?",
+    "Report6": "Unusual POKéMON outbreaks have been\nreported near the affected areas.",
+    "Report7": "Some of these POKéMON are native\nto regions far beyond Hoenn.\n\nHow they arrived remains unknown.",
+    "Report8": "Scientists are investigating a link\nbetween the rifts and outbreaks.",
+    "Report9": "Lead scientist Colress is overseeing\nthe investigation.\n\nLocal researchers are assisting him.",
+    "Report10": "(quietly) Colress...?\nWhat is he doing here...?",
+    "Report11": "You know him?",
+    "Report12": "I recognize the name.\nThat's all.",
+    "Report13": "Report any unusual sightings to the\nresearch team.\n\nKeep a safe distance from all rifts.",
+    "Report14": "We will bring you further updates as information is confirmed.",
+    "After0": "Rifts, strange Pokemon...\nIs that what you wanted to tell me?",
+    "After1": "I wanted you to hear it before you went outside.",
+    "After2": "Whatever those things are, they aren't somewhere to go exploring.",
+    "After3": "You don't have to look at me like that.",
+    "After4": "Then don't give me a reason to.",
+    "After5": "What about the Pokemon?\nAre they all right?",
+    "After6": "I hope so. Professor Birch has been looking into the sightings too.",
+    "After7": "Maybe he'll know what's going on.",
+    "After8": "Try the house next door first. His family should know where he's working.",
+    "After9": "And Colress?",
+    "After10": "Leave the scientists to their work.\n\nIf you see a rift, keep your distance.",
+    "After11": "I'll be careful.",
+    "After12": "That's not quite what I asked.",
+    "After13": "Go on. And keep that package with you. We still don't know who sent it."
+  }
+}

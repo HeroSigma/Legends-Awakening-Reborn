@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "assertions": 26,
+  "rom_sha256": "a399c0e909d92e8c7babec5020921d4a3e3b86c80d5765f486576acb12e7de6c",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "early_route_below_gym",
+      "passed": true
+    },
+    {
+      "test": "party_does_not_raise_route_1",
+      "passed": true
+    },
+    {
+      "test": "party_does_not_raise_route_5",
+      "passed": true
+    },
+    {
+      "test": "party_does_not_raise_route_16",
+      "passed": true
+    },
+    {
+      "test": "party_does_not_raise_route_100",
+      "passed": true
+    },
+    {
+      "test": "gym_keeps_level",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_0",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_0",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_1",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_1",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_2",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_2",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_3",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_3",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_4",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_4",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_5",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_5",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_6",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_6",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_7",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_7",
+      "passed": true
+    },
+    {
+      "test": "route_badge_progression_8",
+      "passed": true
+    },
+    {
+      "test": "general_baseline_8",
+      "passed": true
+    }
+  ]
+}

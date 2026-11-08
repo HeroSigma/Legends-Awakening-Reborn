@@ -1,0 +1,45 @@
+{
+  "rom_sha256": "d8f8822fc5b8370d66bd0dfab3aa76aa1244da628817cd86de55cbf608072c78",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "battle_palette_custom_0",
+      "passed": true
+    },
+    {
+      "test": "battle_loads_chosen_colors_0",
+      "passed": true
+    },
+    {
+      "test": "bag_return_keeps_choice_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "battle_palette_custom_1",
+      "passed": true
+    },
+    {
+      "test": "battle_loads_chosen_colors_1",
+      "passed": true
+    },
+    {
+      "test": "bag_return_keeps_choice_1",
+      "passed": true
+    }
+  ]
+}

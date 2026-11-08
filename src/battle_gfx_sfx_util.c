@@ -1,4 +1,6 @@
 #include "global.h"
+#include "bw_battle_ui.h"
+#include "config/bw_battle_ui.h"
 #include "battle.h"
 #include "battle_controllers.h"
 #include "battle_ai_main.h"
@@ -711,6 +713,13 @@ void FreeTrainerFrontPicPalette(enum TrainerPicID trainerPicId)
 
 bool8 BattleLoadAllHealthBoxesGfx(u8 state)
 {
+    // start bwBattleUI
+    if (BW_BATTLE_UI && BW_BATTLE_UI_HEALTHBOX)
+    {
+        return BattleUI_LoadAllHealthboxGfx(state);
+    }
+    // end bwBattleUI
+
     bool8 retVal = FALSE;
 
     if (state != 0)
