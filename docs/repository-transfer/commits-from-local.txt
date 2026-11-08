@@ -1,0 +1,125 @@
+53de886a76fd3bb39bf2282dc48ba832b85aa90e 2026-10-27 18:18:04 -0500 Preserve complete Legends Awakening Reborn project snapshot
+4db6b2729c7603caf1201a0bc3cc7fc58134b695 2026-10-27 18:40:52 -0500 Fix collection-mode gates interrupting Pokemon Center setup
+fbf0b61ea17af3e6d2138f7021f76c94d94b1e6d 2026-10-27 19:05:18 -0500 Plan DexNav equipment chaining
+7795970ffec29baf375d11446e444078ba9ecd21 2026-10-27 19:05:21 -0500 Plan Automatic fishing
+96bc9284d20f27c2debd5cc89bd7a6991f8c90c6 2026-10-27 19:05:24 -0500 Plan Adventure journal
+3c765d765df7925dc049a568f59880368cb75d9f 2026-10-27 19:05:26 -0500 Plan Passive egg nursery
+40e2f8d2654074e7c42195c5157e91b6f3d0e791 2026-10-27 19:05:29 -0500 Plan Portable breeding service
+54c252dd976a75ee1090ae54db8c4b856593c8dd 2026-10-27 19:05:32 -0500 Plan Field moves without move-slot costs
+80b5fd3c0cd482e82ba876c35ed2af857e47dc4b 2026-10-27 19:05:36 -0500 Plan Follower environmental interactions
+17b8daae84f063a043be3b83dedef26a52a80483 2026-10-27 19:05:40 -0500 Plan Renewable gathering resources
+f2a0e4de390f2e11125819023f5c531fe3abc0e1 2026-10-27 19:09:09 -0500 Reward caught DexNav chains with species-family equipment
+778c67cfe48528f8729ad3ee82902f8ed1db9648 2026-10-27 19:11:53 -0500 Automate fishing bites and reeling while preserving rod encounters
+2e0e878f2192eeea9661ef52ef5ec0ef5f023e44 2026-10-27 19:20:41 -0500 Add read-only adventure journal with saved statistics and story notes
+22b83ce84cd392bd251d3978c307b021483bab45 2026-10-27 22:17:44 -0500 Integrate DexNav equipment chaining for combined runtime testing
+7272b0aaf1add1d0fcce567b11cf1de97a0ca82a 2026-10-27 22:17:45 -0500 Integrate automatic fishing for combined runtime testing
+8fffb358d933ecf072d47e34226ad48385a29116 2026-10-27 22:17:46 -0500 Integrate adventure journal for combined runtime testing
+3ab99122ce86c6ceffe55077939cd847661f2995 2026-10-27 22:20:08 -0500 Validate combined DexNav, fishing and journal test build
+bf8b7df38bcb3aa45a9f7b94514f8bdf7f18f74d 2026-10-27 22:42:21 -0500 Unlock native field skills without occupying battle move slots
+273cc2d12d70a852eb6c71eeed09a98ef9b430e2 2026-10-27 22:42:24 -0500 Integrate field skills into the combined QoL runtime test branch
+5a93e40ead630740ec483279c54d0de26f75919e 2026-10-27 22:43:50 -0500 Validate field skills alongside the three QoL test features
+0f2d5eeded43e04cdb47874c7de6fd2c3a35cc5c 2026-10-27 22:53:31 -0500 Merge branch 'test/qol-first-three' into feature/egg-nursery
+0a330831b7858983cf4ef47c1a6b2deeb66f89d8 2026-10-27 22:54:00 -0500 Add Devon-unlocked walking egg nursery in PC Box 1
+9e7c42f23c694712bc796060d15999634c96dca5 2026-10-27 22:54:01 -0500 Merge branch 'test/qol-first-three' into feature/portable-breeding
+653e93c1b73b6eed771de19e1da5fa89ba596a07 2026-10-27 22:54:36 -0500 Add story-unlocked remote native daycare through the journal
+f0d4e49723ccd19cb8b4bbee9ac9b4ce7aad61f2 2026-10-27 22:54:36 -0500 Merge branch 'test/qol-first-three' into feature/follower-interactions
+be0036a769d8f28eecd0e429d943d99e33b22b3d 2026-10-27 22:55:12 -0500 Add contextual follower hints in Timeless Woods and Devon
+a5655182c32e50ba28fdd4b997aead3392cae1bd 2026-10-27 22:55:13 -0500 Merge branch 'test/qol-first-three' into feature/renewable-resources
+7bab6c18a80828dadaa350840b545da764194caf 2026-10-27 23:02:40 -0500 Offer one-berry replanting after successful harvests
+c3a8917858310802d99d48e17c99f1ff214e3547 2026-10-27 23:05:33 -0500 Validate remaining QoL features together and document permanent ROM update
+66382806a6c6b065628229f2da3b71be18d4931b 2026-10-27 23:14:01 -0500 Let DexNav targets be approached freely without holding A or breaking chains
+7408660c066c4878aa87a49fd70d16e9c0a0d114 2026-10-27 23:29:36 -0500 Continue Hoenn story with Norman rift report and Wally Ralts bond
+71784a67b20ce28cec849bc134ff4efb561adccf 2026-10-27 23:34:58 -0500 Clarify the Woods report with R and G insignia descriptions
+3c3ae3b2d37c6aea67a538e9e1789d845d042803 2026-10-27 23:48:49 -0500 Show Ralts on Route 102 during Wally cutscene above the dialogue window
+d6a5dfde662b54bb8e773bb7ce5183dfcb8c817a 2026-10-28 05:24:57 -0500 Add legal six-Pokemon Route 102 teams and story-gated Hoenn level caps
+48af3dbd1e84b9a1478396225658181286037f3a 2026-10-28 07:55:21 -0500 Expand competitive trainer teams and Gym/League battle format choices
+d34e741a1ab9ad5ba4354e0d446c5dd994d8126a 2026-10-28 08:42:35 -0500 Add free Pokemon training scientists to working Center upstairs rooms
+c362a8f43209e38ead9326ed59cc3af2d296bf75 2026-10-28 09:10:59 -0500 Fix Nurse Joy healing in 60-box mode and bind activity gates by name
+a1a93266b704beb92de19cbaf411900f7ac8f8f8 2026-10-28 09:27:33 -0500 Fix invisible training scientists and support legacy saved sprite IDs
+b2676a827bb20b9328a48e840aaacedeaae44b09 2026-10-28 09:37:13 -0500 test: cover Start menu returns and document stale-state reset
+ae002d5328916b06ae9fa0bde0cb3c128aa52e88 2026-10-28 09:49:07 -0500 fix: align Pokemon obedience with story level caps
+ac19114ce03b1a7bd16e01c13afc9f2861705f86 2026-10-28 10:53:00 -0500 fix: show effective trained nature in Pokemon summary
+66741e5077d1539aeecf441b66b9fbb7a190b13a 2026-10-28 11:41:40 -0500 feat: organize bag into thirteen save-compatible item categories
+c1bf38248609c8819835af5914ef8acc33ce261d 2026-10-28 11:45:36 -0500 fix: remove clipping bag pocket indicator dots
+7f3ebf51b48613a13594c0c07789338219988264 2026-10-28 11:47:07 -0500 fix: keep bag background clearing inside item list border
+d0b69bcabdaeead5fd14213bfa11fcd42508d373 2026-10-28 12:51:04 -0500 fix: expand bag storage and stop debug PC fills at the final species
+cfda4cbb5821281b1c078acc67f2a89ed4d8ba84 2026-10-28 14:13:10 -0500 Route Ability Patch and Capsule to the Training pocket
+1851e8edf79f9640c6252f3ae8c912cfb55e6e31 2026-10-28 15:38:09 -0500 Add Legends Store with categorized shopping and daily RTC sales
+b35ccb931816ce8561424e6d79a526ff2f820f76 2026-10-28 15:42:03 -0500 Polish Start menu with Adventure and Services pages
+af4ef8892fc273f36a40d904f900a554d653b116 2026-10-28 15:46:06 -0500 Exclude all HMs from Legends Store while retaining TMs
+cef289122c9ddbcaf00dd5dbee75193bd19667af 2026-10-28 15:47:00 -0500 Rename Equipment pocket to Held Items and route X Items to Items
+d6e4bb15f1c2d94a6f6d80ad4ef517cbe573e0fd 2026-10-28 16:26:01 -0500 Add Devon and Silph research encounter with Shadow Triad in Petalburg Woods
+42c79fb0e0eab9bdfc56ffec80cd4ff9d74ebea6 2026-10-28 16:41:30 -0500 Stage Silph researcher movement throughout the Woods encounter
+6c5c31ab97f792eae9a255506444f9715d86ef95 2026-10-28 16:54:23 -0500 Record release of tested Silph researcher movement
+fc479f9e1b8eb4dbb25d55070befe17349deeed1 2026-10-28 16:58:29 -0500 Generate level-five Pokemon in both Fill PC options
+fd5a722093899708e1a1acfb74a4bf5ab0aaa34f 2026-10-28 17:20:26 -0500 Rename debug Fill Equipment action to Fill Held Items
+c329ed301bc74c563954036cf251937141640f25 2026-10-28 17:26:47 -0500 Add confirmed 31 All IV option to the training scientist
+65057be9f7bfcf0c1082b07e4dfcc4c86b3b357c 2026-10-28 17:40:11 -0500 Show current training stats and live EV budget at the scientist
+412623ed77374ff9a14b1da84ac2bf45e9b69f9b 2026-10-28 17:43:07 -0500 Add confirmed attacker and wall EV presets to training scientist
+d8a20f5805eeed9b009916e64e9c74d7eb476a14 2026-10-28 17:45:18 -0500 Use the full 510 EV budget in training presets
+3d8c70d1ce07603047df99679d759356d8b6cfe8 2026-10-28 17:51:02 -0500 Keep training menus and selected stats after edits and cancellations
+e8ba41ef4bf35267f4e9b15220ee793af8b100e9 2026-10-28 17:56:25 -0500 Replace paged training inspection with a compact read-only build panel
+1fc211799e98544c229b9c48be6fce92976668f6 2026-10-28 18:12:33 -0500 Prevent format prompts in fixed story battles while preserving Gym choices
+59266118c51f9e690abb172126d91e08a1a0ff2d 2026-10-28 19:13:20 -0500 Connect Rustboro Devon rescue to rift research and unlock shards through scientist onboarding
+e9eebc40342f9b6699831c2827452d471d2a0e97 2026-10-28 19:26:01 -0500 Replace Norman father references in PokeNav and Dewford departure dialogue
+0fa6a43ccaf1fb8c8254c96b615ba9bad58c0c39 2026-10-28 19:37:34 -0500 Allow read-only Pyramid location checks so collection-mode pickups close correctly
+50e687634a76f0d53bf32627bfae1168f408e4d7 2026-10-28 20:08:58 -0500 Theme Gym students and environmental trainer rosters by map location
+1297ae94b83141ebd43369cc0361b9e825c41689 2026-10-28 21:21:08 -0500 Award a three-charge Pokevial for the Woods rescue with compatible save migration
+9ea93136b92f8100a5a7b09a5affd8e69188cb75 2026-10-28 21:28:45 -0500 Remove temporary construction and Littleroot warp scientists while preserving working map edits
+952963b4b150e0e3bc24f5798ac4584c952ddec6 2026-10-28 22:34:59 -0500 Give the protagonist spoken research and rescue exchanges with consistent character colors
+cb38e45540516e94f4e1957e9e99650955de4d24 2026-10-28 22:56:36 -0500 Give evil teams distinct dialogue colors and reusable faction speakers
+9b42f48e2de8c5db4e5c7175903c7ed056a6de31 2026-10-28 22:59:57 -0500 Give rivals and professors character-inspired dialogue colors
+811f324c927b1ac797440aab03e4ebabc4993ac4 2026-10-29 05:24:17 -0500 Limit overworld spawns and remove unassigned debug machines
+8aaf701fee6cf416c330a156cf8048e7cc81e489 2026-10-29 08:34:03 -0500 Adapt wild overworld spawns to available object slots
+5df5cc4b5cb7f2ac4cf7f331b61bdc14044726e7 2026-10-29 10:41:00 -0500 Default new Pokemon to primary Tera types and show summary badge
+3056a5372c18db79f6c68da5ef9f60b7436f1ff7 2026-10-29 12:13:06 -0500 Restore classic Start menu style with L/R list cycling
+c2ea129a70f841af8a2c6044c5b40c9396b503eb 2026-10-29 12:54:10 -0500 Integrate credited Aqua repository UI and overworld artwork
+04cf0bddf0778a640d8c7e643e8e245191e0735c 2026-10-29 13:58:38 -0500 Restore Hyper protagonists and integrate themed SwSh summary with capped dynamic trainers
+f2ad7301f95dec41049d7895f02ef51587954bfa 2026-10-29 14:14:21 -0500 Add persistent party-menu follower selection without changing battle order
+6d1ba72df60dfca2a25f7061ac1265ae255fb51e 2026-10-29 14:22:41 -0500 Disambiguate preferred followers with colliding personality and trainer IDs
+7e8168db5fee7b0b78a04d6c5c18a8ace907f482 2026-10-29 14:33:51 -0500 Scale ordinary trainer levels by route baseline and badge progress
+400f8c27c35ada612d4edf288bb475e45c3ad260 2026-10-29 14:33:51 -0500 Add capped quantity selection for candies and EV training items
+36311ae79ebf1769e905433a27e9756f0d568d10 2026-10-29 15:03:53 -0500 Match outdoor battle backgrounds to overworld day and night lighting
+db658f9baf93e9a4ec8a652f1e5ef14f457fca66 2026-10-29 15:36:36 -0500 Add ground PokeRide with seated protagonists and native progression gates
+3a309d2b8e99ca7dd7acdb2916e3120074e4743b 2026-10-29 15:40:24 -0500 Restore native Emerald Brendan and May playable walking and running sprites
+1edf074bc71b27df796e9c38cc32ba30ff97ea7c 2026-10-29 16:38:46 -0500 Add Surf-gated water mounts with safe shoreline and menu transitions
+94efc3a51593c02b7384004595f10e6e012993fb 2026-10-29 16:51:25 -0500 Add Fly-gated low flight while retaining native route and story collision
+f58e758a31fd943cef40f14cbf33cf7abd3b6b4f 2026-10-29 19:25:45 -0500 Add connected Hoenn Johto and Kanto atlas with hover locations
+f1b7071709505ca687de86381c2bd785f8a2ba6b 2026-10-29 19:31:27 -0500 Add interactive Sinnoh artwork and location labels to world atlas
+be9a15f471a0b42f63f2067fab32bde7430ede62 2026-10-29 19:39:53 -0500 Preview Hoenn-style Sinnoh redraw in connected world map
+5b170a42def61208bebd9889aa4983b740cc36b3 2026-10-29 19:43:55 -0500 Restore original atlas art after Sinnoh style preview
+28d3daa59b421666cb77b944c6c6dc98e197b500 2026-10-29 19:46:26 -0500 Remove Sinnoh artwork and hover locations from world atlas
+4b15e88d28919b857c1770d00138d6e4230a9897 2026-10-29 20:01:26 -0500 Show live modified power and accuracy in battle move descriptions
+16019f4862d285d354c39317edc70f2c3ab6ae2e 2026-10-29 20:38:48 -0500 Add Vol-style icon Start menu and saved palette choices
+76eada975121f6a8b5d5828c26f3838afb8fad5d 2026-10-29 20:46:04 -0500 Fit menu footer text to artwork without oversized white windows
+07728ee2779215d9e5853f111cd94d538c0ee061 2026-10-29 20:49:44 -0500 Remove white footer panels from custom Start menu
+04ccf2dd21ded264a8e4f6b0e3bcf21606795a6e 2026-10-29 20:55:45 -0500 Restore Vol's original Start menu frame and contain footer text
+3a1424d389b1a57db9cce107393476d3151344cc 2026-10-29 21:31:40 -0500 Add teal Sword and Shield party menu with follower and ride support
+86296a04d605b7d6594b3fea2b1e9f0a4af86f5b 2026-10-29 22:11:21 -0500 Add teal Sword and Shield storage interface for 14 and 60 boxes
+813a6842c158bc150848898d971ecfbd39a15f27 2026-10-30 00:49:15 -0500 Add teal Sword and Shield Bag menu with all 13 item categories
+3d4a933382dc8ad44f666b0beb0d7d082437776b 2026-10-30 04:45:38 -0500 Add teal Sword and Shield dialogue frames while retaining speaker colors
+e11e9835f918de3ba808439b35a647dfcf61bab0 2026-10-30 05:25:38 -0500 Add teal Continue menu with protagonist mugshot and party preview
+2e78e2efc2601ac2e44809ff044b001684b244f7 2026-10-30 05:54:06 -0500 Preview Legends Awakening rift artwork on the native title screen
+493a8ee1a19ad0d5a47cbaba2f357690df0919a6 2026-10-30 05:54:31 -0500 Include native title palette for reproducible builds
+ae894e11ccf4f684d29d2efe376eea63a3877896 2026-10-30 07:08:09 -0500 Animate title lettering and rift with localized traveling light
+d4778f2883f9f161c9a093152b7978295df7d66b 2026-10-31 09:17:52 -0500 Update Hoenn maps and validation captures
+ec6eb0d7477dfc513e4dcee4755ff01aa31fb790 2026-11-04 07:41:51 -0500 Fix new-game windows and naming sprite, guard invalid bag IDs, sharpen title art
+034aa553e773309023d5da1678291a9517e5ba63 2026-11-04 08:16:54 -0500 Add saved dynamic character colors with live intro and PC previews
+313552787ce88d8ab0e0ac440c2954c32a23a162 2026-11-04 08:47:42 -0500 Clear palette Back prompt fully and separate selector labels and values
+a9e11de563aa4a0e5a9ff635c9266dfb1a99e17f 2026-11-04 11:30:34 -0500 Add starter briefcase previews while preserving native rescue rewards
+8a72ef973806fe4dfcdd77cfb3c2cdc18c2ec916 2026-11-04 11:56:06 -0500 Give Red Charmander and a familiar Kanto fresh-start exchange
+0c81b912f0086b5afcb536e77d23ddf2ca6cc808 2026-11-04 11:57:20 -0500 Pin the compact-mode chapter report from its correct output folder
+124f6ab8e421585f377655c5e0e2308ec0810dfc 2026-11-04 12:52:16 -0500 Add nine starter choices and rival recognition on Route 103
+31e5773b6811ee60b119687e0d96784d6c872d34 2026-11-04 13:04:38 -0500 Add automatic speaker portraits to field dialogue
+b4a8657ff75d0132c68012e29e376d33fc9b1fa3 2026-11-04 13:24:05 -0500 Adapt BW battle interface with Legends Awakening accents
+4b4d20d2e3a62f86b5fe745e3608e82ccc010111 2026-11-04 13:43:02 -0500 Offer conversation skips for repeated story battles
+8c1c173ce3a2dee6e337a6a6222fcc05b9b3724c 2026-11-04 14:02:16 -0500 Polish the completed early-story dialogue
+676e55eaae6e7ddaa4ca2d2bffae9498f29c7e0b 2026-11-04 14:08:36 -0500 Use Hyper Emerald gfx_134 for Steven overworld appearances
+002131e4d864af6537ec13ac5358838897866d27 2026-11-04 19:37:30 -0500 Add Silver encounter after May in Rustboro with HnS portrait
+d863f968028d45c4891202273a2764d76c47fb23 2026-11-04 19:53:49 -0500 Add Emerald and Ruby/Sapphire player outfit selection
+44b038a66c8c2fbb18532a4c099e157997ae38cb 2026-11-04 20:33:55 -0500 Use Hyper Emerald portraits for Brendan and May rivals
+b6ff7520f97dbf532fce1a8fdf4880d3b0b390c9 2026-11-04 20:43:40 -0500 Archive available donor trainer portraits in a searchable gallery
+8f18c7af8fb898c8476f8151651a474e1527fe14 2026-11-05 04:45:26 -0500 Label donor portraits and archive matching back-sprite sheets
+1374553c73cd19883e812485edd2f41c69d2913c 2026-11-05 04:46:15 -0500 Move stat editing into the Pokémon summary screen
+c5a0b902f1cd1652f39cca82d3d09cf73f795e70 2026-11-07 12:34:06 -0500 Advance Legends Awakening story through the Paradigm investigation
+15b474aef700c8d6cde3b69b7d9e79646f31a6f1 2026-11-07 12:57:46 -0500 Document the implemented story and donor character planning scope
