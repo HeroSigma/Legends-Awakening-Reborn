@@ -12,7 +12,7 @@ Runtime party construction resolves legal evolutionary stages for the actual enc
 
 Every Pokémon has six 31 IVs and a legal 508-point EV spread, with a matching nature and useful held item. Trick Room attackers use HP/investment and a Speed-lowering nature while retaining the requested perfect IVs. Trainers have at least two usable healing items; their gimmick held item is separate. Major characters have exactly one guaranteed shiny, their last/signature Pokémon. Ordinary trainers have no guaranteed shiny.
 
-Each trainer gets one supported Tera or Z-Move user. The choice derives from player Trainer ID and opponent identity; resetting or changing battle format does not reroll it. The selected Pokémon has a compatible attack, and other members cannot use another gimmick. Mega/Dynamax variants are not added by this ruleset.
+Each ordinary trainer gets one supported Tera, Z-Move or Dynamax user. The choice derives from player Trainer ID and opponent identity; resetting or changing battle format does not reroll it. The selected Pokémon has a compatible attack, and other members cannot use another gimmick. Gym leaders reroll Tera, Z-Moves or Dynamax on each attempt, with Mega Evolution also available when their team has an eligible species.
 
 The existing native Smart AI handles switching, viability, setup and battle choices. These are themed competitive RPG teams, not a claim of optimal play in every matchup or enforcement of all official VGC tournament clauses.
 

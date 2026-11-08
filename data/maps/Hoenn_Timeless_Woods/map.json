@@ -147,6 +147,33 @@
       "var": "VAR_LA_PARADIGM_ARC",
       "var_value": "4",
       "script": "LegendsParadigm_WoodsApproach"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_LA_ASHES_STATE",
+      "var_value": "0",
+      "script": "LegendsAshes_WoodsDeparture"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_LA_ASHES_STATE",
+      "var_value": "0",
+      "script": "LegendsAshes_WoodsDeparture"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_LA_ASHES_STATE",
+      "var_value": "0",
+      "script": "LegendsAshes_WoodsDeparture"
     }
   ],
   "bg_events": [

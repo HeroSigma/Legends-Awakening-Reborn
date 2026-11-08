@@ -3,6 +3,7 @@ VerdanturfTown_WandasHouse_MapScripts::
 	.byte 0
 
 VerdanturfTown_WandasHouse_EventScript_Wally::
+	goto_if_set FLAG_LA_WALLY_RESCUED, LegendsAshes_WallyHome
 	lock
 	faceplayer
 	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
@@ -17,6 +18,7 @@ VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech::
 	end
 
 VerdanturfTown_WandasHouse_EventScript_WallysUncle::
+	goto_if_set FLAG_LA_WALLY_RESCUED, LegendsAshes_FamilySafe
 	lock
 	faceplayer
 	goto_if_eq VAR_LA_PARADIGM_ARC, 3, LegendsParadigm_TellFamily

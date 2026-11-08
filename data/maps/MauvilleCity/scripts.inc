@@ -548,11 +548,11 @@ LegendsParadigm_WallyCall::
 	end
 
 LegendsParadigm_Text_WallyKanto:
-	.string "{PLAYER}? It's Wally!\nCan you hear me?\pKirlia and I are safe. We're still\nin Kanto, near the Power Plant.\pWe stepped through after you\ncalled us over.\pWe ended up on Route 10 again.\nThe opening to the Gym was gone.$"
+	.string "{PLAYER}? It's Wally!\nCan you hear me?\pKirlia and I are safe. There's a\nSilph sign outside. Saffron City.\pPeople in black uniforms have an R\non their clothes. We hid upstairs.\pI thought we were going back to\nthe Gym. How did we end up here?$"
 LegendsParadigm_Text_PlayerAnswer:
 	.string "Wally! We thought you'd come\nthrough with us.\pBirch and the others are looking\nfor you. Are you hurt?$"
 LegendsParadigm_Text_WallyFamily:
-	.string "We're all right. Kirlia can sense\nwhere we came from.\pShe's helping me look for a\nway home. I'll stay with her.\pCould you tell my family too?\nThey're in Verdanturf.\pMy uncle gave me this PokéNav,\nbut the signal keeps dropping.\pTell them we're safe, {PLAYER}.\nI'll call again when I can.$"
+	.string "Kirlia keeps finding a connection,\nthen losing it again.\pWhenever she senses an opening,\nthe people downstairs start moving.\pWe're staying together. Could you\ntell my family we're safe?\pMy uncle gave me this PokéNav,\nbut the signal keeps dropping.\pI'll call again when I can.$"
 LegendsParadigm_Text_GoVerdanturf:
 	.string "He's safe… I should tell his\nuncle in Verdanturf right away.$"
 

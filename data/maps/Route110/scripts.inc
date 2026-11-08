@@ -730,7 +730,9 @@ Route110_EventScript_GiveRowanRing::
 	msgbox Route110_Text_RowanRing, MSGBOX_DEFAULT
 	closemessage
 	setspeaker SP_NAME_NONE
-	giveitem ITEM_Z_POWER_RING
+	setvar VAR_0x8004, 6
+	setvar VAR_0x8000, ITEM_Z_POWER_RING
+	call LegendsQuest_StoryReward
 	closemessage
 	return
 

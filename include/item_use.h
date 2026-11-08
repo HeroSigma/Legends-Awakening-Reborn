@@ -71,4 +71,6 @@ enum ItemTMHMOrEvolutionStone
 
 void ItemUseOutOfBattle_Pokevial(u8 taskId);
 
+void ItemUseOutOfBattle_RiftTracker(u8 taskId);
+
 #endif // GUARD_ITEM_USE_H

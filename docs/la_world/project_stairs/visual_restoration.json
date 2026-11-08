@@ -1,0 +1,564 @@
+{
+  "definitions": 102,
+  "tilesets": [
+    {
+      "symbol": "gTileset_Hyper_Final_AlteringCave_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_ArtisanCave_1F_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_ArtisanCave_B1F_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_BattleFrontier_BattlePalaceBattleRoom_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_FarawayIsland_Entrance_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_FarawayIsland_Interior_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_InsideOfTruck_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_B1F_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Down02_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Down04_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Down06_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Down08_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Down10_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Entrance_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Exterior_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Fork_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Up2_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_NavelRock_Up4_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_SSTidalCorridor_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_SSTidalLowerDeck_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_SSTidalRooms_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_SouthernIsland_Exterior_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Final_SouthernIsland_Interior_0",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Primary_083DF704",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 191,
+          "reference_index": 191
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Hyper_Primary_Route105",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsVisualAttrs_aeb5f086e042e8f36902.bin",
+      "changes": [
+        {
+          "index": 25,
+          "reference_index": 25
+        },
+        {
+          "index": 175,
+          "reference_index": 175
+        },
+        {
+          "index": 183,
+          "reference_index": 183
+        },
+        {
+          "index": 191,
+          "reference_index": 191
+        },
+        {
+          "index": 207,
+          "reference_index": 207
+        }
+      ]
+    }
+  ],
+  "policy": "Exact 4bpp layer/flip pattern match to five visually reviewed stair definitions; preserve non-normal behaviors and all map geometry."
+}

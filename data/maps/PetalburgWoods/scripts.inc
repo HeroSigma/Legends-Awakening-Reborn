@@ -507,8 +507,8 @@ LegendsWoods_Text_Three:
 LegendsWoods_Text_Confirmed:
 	.string "The signatures match.\n"
 	.string "Take the Scope recording.\p"
-	.string "The device they recovered needs\n"
-	.string "a stable point of reference.$"
+	.string "Command needs these images to\n"
+	.string "calibrate the recovered device.$"
 
 LegendsWoods_Text_Stolen:
 	.string "The backup drive!\n"

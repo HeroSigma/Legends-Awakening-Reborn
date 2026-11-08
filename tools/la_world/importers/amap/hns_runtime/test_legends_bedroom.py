@@ -14,10 +14,11 @@ def stage():
 def flag(n):
  return bool(rd(rd(symbols['gSaveBlock1Ptr'])+0x1270+n//8,1)&(1<<(n%8)))
 def tera_count():
- pocket=symbols['gBagPockets']+4*8
- ptr=rd(pocket);capacity=rd(pocket+4,1)
- key=rd(rd(symbols['gSaveBlock2Ptr'])+0xac,2)
- return sum(rd(ptr+i*4+2,2)^key for i in range(capacity) if rd(ptr+i*4,2)==772)
+ # General/key-item storage now uses the expanded packed bag.
+ bit=(772-1)*10
+ ptr=symbols['gExpandedBagData']+bit//8
+ return (rd(ptr,2)>>(bit%8))&1023
+
 def location():
  p=rd(symbols['gSaveBlock1Ptr']);return rd(p+4,1),rd(p+5,1)
 def tap(k):

@@ -1,3 +1,7 @@
+# Current regional policy
+
+See [regional-distribution.md](regional-distribution.md) and regional_assignment_validation.json for the current family-based distribution. The following is the historical initial ecology pass; its counts and measured Gym ceilings describe that earlier build.
+
 # Regional wild pools
 
 This pass authors 424 intended encounter maps, 1696 explicit

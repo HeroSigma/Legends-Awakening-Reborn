@@ -18,3 +18,6 @@ Ordinary field dialogue uses a faction foreground while retaining the existing n
 For future scenes, set the matching speaker before the message and restore SP_NAME_NONE after the conversation. Generic faction speakers are available now; this does not automatically identify untagged legacy dialogue or add new story encounters. Named members can be added to the central affiliation table as scenes are written. Explicit authored color controls take priority. Existing speaker IDs and save data are unchanged.
 
 A single dynamic text foreground slot is loaded after each message-frame palette, so successive factions and neutral dialogue do not inherit stale colors. The native speaker-color test checks every affiliation and existing character defaults; screenshots show current story speakers.
+
+Anonymous MAN IN SUIT and ROCKET CONTROL use Rocket crimson; BLUE-HAIRED MAN uses
+Galactic violet. These aliases hide early identities without losing faction colors.

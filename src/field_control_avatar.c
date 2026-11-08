@@ -1,5 +1,6 @@
 #include "global.h"
 #include "rift_tracker.h"
+#include "legends_ashes.h"
 #include "pokeride.h"
 #include "la_pc_features.h"
 #include "pokemon_storage_system.h"
@@ -960,6 +961,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
 
     if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
     {
+        if (LegendsAshes_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
@@ -975,6 +977,7 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, en
             delay = 12;
         }
 
+        if (LegendsAshes_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StorePlayerStateAndSetupWarp(position, warpEventId);
@@ -990,6 +993,7 @@ static bool8 TryStartWarpEventScript(struct MapPosition *position, u16 metatileB
 
     if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
     {
+        if (LegendsAshes_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
         StoreInitialPlayerAvatarState();
@@ -1143,7 +1147,8 @@ static bool8 TryDoorWarp(struct MapPosition *position, u16 metatileBehavior, enu
             warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
             if (warpEventId != WARP_ID_NONE && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
             {
-                if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
+                if (LegendsAshes_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
+        if (RiftTracker_BlockWarp(&gMapHeader, warpEventId)) return TRUE;
         if (LaPcBlockWarp(&gMapHeader, warpEventId)) return TRUE;
                 StoreInitialPlayerAvatarState();
                 SetupWarp(&gMapHeader, warpEventId, position);

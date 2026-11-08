@@ -25,6 +25,7 @@ def catalog():
         '-Wno-trigraphs', '-DMODERN=1', '-DTESTING=0', '-DEMERALD', '-std=gnu17',
         'src/pokemon.c'], cwd=ROOT, text=True)
     entries={};dex_names={}
+    dex_order={n:i for i,n in enumerate(re.findall(r'\bNATIONAL_DEX_(\w+)\s*,',(ROOT/'include/constants/pokedex.h').read_text()))}
     for name,body in blocks(text,r'\[(SPECIES_\w+)\]\s*=\s*\{'):
         dex=re.search(r'\.natDexNum\s*=\s*NATIONAL_DEX_(\w+)',body)
         if not dex or dex[1]=='NONE':continue
@@ -32,7 +33,7 @@ def catalog():
         types=re.search(r'\.types\s*=\s*\{([^}]+)',body)
         evo=re.findall(r'\{\s*EVO_LEVEL\s*,\s*(\d+)\s*,\s*(SPECIES_\w+)',body)
         targets=re.findall(r'\{\s*EVO_(\w+)\s*,\s*([^,{}]+)\s*,\s*(SPECIES_\w+)',body)
-        value=dict(species=name,types=re.findall(r'TYPE_(\w+)',types[1]) if types else [],
+        value=dict(species=name,national_dex=dex_order[dex[1]],types=re.findall(r'TYPE_(\w+)',types[1]) if types else [],
             excluded=bool(flags) and name!='SPECIES_POIPOLE',exclusion_flags=flags,
             evolution_targets=[dict(method=m,param=p.strip(),species=t) for m,p,t in targets],
             level_evolutions=[dict(level=int(l),species=t) for l,t in evo])
@@ -56,7 +57,134 @@ def catalog():
         while root in lineage and root not in seen:
             seen.add(root);root=lineage[root]
         x['family_root_types']=ALL_SPECIES.get(root,x)['types']
+    assign_regions(entries)
+    add_regional_forms(entries)
     return entries
+
+def assign_regions(entries):
+    # Join national entries through every ordinary form/evolution, including babies
+    # introduced later. A family has one distribution policy, never one per stage.
+    parent={n:n for n in entries}
+    by_dex={x['national_dex']:n for n,x in entries.items()}
+    def find(n):
+        while parent[n]!=n:
+            parent[n]=parent[parent[n]];n=parent[n]
+        return n
+    for n,x in ALL_SPECIES.items():
+        a=by_dex.get(x['national_dex'])
+        for e in x['evolution_targets']:
+            target=ALL_SPECIES.get(e['species'])
+            b=by_dex.get(target['national_dex']) if target else None
+            if a and b:parent[find(b)]=find(a)
+    families=collections.defaultdict(list)
+    for n in entries:families[find(n)].append(n)
+    # Deliberate ecological homes for imported families; the remaining families
+    # use root typing, with stable variety for common woodland/grassland types.
+    overrides={
+      'KANTO':'PATRAT LILLIPUP PIDOVE WOOBAT DRILBUR TIMBURR TRUBBISH MINCCINO GOTHITA KLINK TYNAMO ELGYEM PAWNIARD BOUFFALANT FLETCHLING LITLEO HONEDGE INKAY HELIOPTILE YUNGOOS GRUBBIN TOGEDEMARU ROOKIDEE NICKIT YAMPER ROLYCOLY TOXEL TANDEMAUS SQUAWKABILLY VAROOM ORTHWORM',
+      'JOHTO':'SNIVY PURRLOIN PANSAGE PANSEAR PANPOUR MUNNA SEWADDLE VENIPEDE COTTONEE PETILIL SOLOSIS DEERLING EMOLGA FOONGUS JOLTIK MIENFOO DURANT CHESPIN FENNEKIN SCATTERBUG FLABEBE SKIDDO SPRITZEE SWIRLIX PHANTUMP ROWLET CUTIEFLY MORELULL ORANGURU GROOKEY BLIPBUG GOSSIFLEUR SINISTEA HATENNA IMPIDIMP SPRIGATITO TAROUNTULA SMOLIV FIDOUGH MASCHIFF SHROODLE TOEDSCOOL BRAMBLIN POLTCHAGEIST',
+      'HOENN':'TEPIG OSHAWOTT BLITZLE ROGGENROLA AUDINO TYMPOLE THROH SAWK BASCULIN SANDILE DARUMAKA MARACTUS DWEBBLE SCRAGGY SIGILYPH YAMASK TIRTOUGA ARCHEN DUCKLETT FRILLISH ALOMOMOLA FERROSEED AXEW STUNFISK DRUDDIGON HEATMOR LARVESTA FROAKIE PANCHAM BINACLE SKRELP CLAUNCHER HAWLUCHA GOOMY NOIBAT LITTEN POPPLIO PIKIPEK CRABRAWLER MAREANIE MUDBRAY DEWPIDER FOMANTIS SALANDIT STUFFUL BOUNSWEET WIMPOD SANDYGAST PYUKUMUKU KOMALA TURTONATOR BRUXISH JANGMO_O SCORBUNNY SOBBLE CHEWTLE CRAMORANT ARROKUDA SILICOBRA SIZZLIPEDE CLOBBOPUS PINCURCHIN DREEPY FUECOCO QUAXLY WATTREL NACLI CHARCADET KLAWF CAPSAKID RELLOR FLITTLE WIGLETT FINIZEN GLIMMET FLAMIGO VELUZA DONDOZO TATSUGIRI',
+      'SINNOH':'VANILLITE KARRABLAST CRYOGONAL SHELMET GOLETT RUFFLET VULLABY DEINO ESPURR TYRUNT AMAURA DEDENNE CARBINK KLEFKI PUMPKABOO BERGMITE ROCKRUFF PASSIMIAN TYPE_NULL MINIOR MIMIKYU DRAMPA SKWOVET WOOLOO APPLIN MILCERY FALINKS SNOM STONJOURNER EISCUE INDEEDEE MORPEKO CUFANT DURALUDON LECHONK NYMBLE PAWMI TINKATINK BOMBIRDIER FRIGIBAX GREAVARD CETODDLE',
+    }
+    lookup={ 'SPECIES_'+n:region for region,names in overrides.items() for n in names.split() }
+    result=[]
+    for members in families.values():
+        root=min(members,key=lambda n:entries[n]['national_dex'])
+        dex=entries[root]['national_dex'];types=entries[root]['types']
+        if dex<=151:regions=['KANTO','JOHTO']
+        elif dex<=251:regions=['JOHTO']
+        elif dex<=386:regions=['HOENN']
+        elif dex<=493:regions=['SINNOH']
+        else:
+            region=lookup.get(root)
+            if region is None:
+                if 'ICE' in types:region='SINNOH'
+                elif any(t in types for t in ('WATER','FIRE','GROUND')):region='HOENN'
+                elif any(t in types for t in ('STEEL','ELECTRIC','POISON')):region='KANTO'
+                elif any(t in types for t in ('GHOST','PSYCHIC','FAIRY','GRASS','BUG')):region='JOHTO'
+                else:region=['KANTO','JOHTO','HOENN','SINNOH'][digest(root)%4]
+            regions=[region]
+        for n in members:
+            entries[n]['family_root']=root
+            entries[n]['native_regions']=['REGION_'+x for x in regions]
+        result.append(dict(family=root,members=members,regions=regions))
+    (OUT/'regional_families.json').write_text(json.dumps(sorted(result,key=lambda x:x['family']),indent=2)+'\n')
+
+
+def wild_ancestry():
+    parents={}
+    for n,x in ALL_SPECIES.items():
+        if x['excluded']:continue
+        for e in x['evolution_targets']:
+            if e['species'] in ALL_SPECIES and not ALL_SPECIES[e['species']]['excluded']:
+                level=int(e['param']) if e['method']=='LEVEL' and e['param'].isdigit() and int(e['param'])>1 else None
+                parents[e['species']]=(n,level)
+    def depth(n,seen=()):
+        if n not in parents or n in seen:return 0
+        return 1+depth(parents[n][0],seen+(n,))
+    # Species without a natural level requirement receive explicit wild-availability
+    # gates; this does not grant their evolution to player-owned Pokemon.
+    parents={n:(p,level or (20 if depth(n)==1 else 36 if depth(n)==2 else 50))
+             for n,(p,level) in parents.items()}
+    def minimum(n,seen=()):
+        if n not in parents or n in seen:return 0
+        p,level=parents[n]
+        return max(level,minimum(p,seen+(n,)))
+    parents={n:(p,minimum(n)) for n,(p,level) in parents.items()}
+    return parents
+
+def add_regional_forms(entries):
+    # Explicit regional forms only: cap Pikachu, Totems, Zen Mode and legendary
+    # birds are not ordinary regional variants for this distribution.
+    policy={}
+    def put(names,region,habitats):
+        for n in names.split():policy['SPECIES_'+n]=(region,habitats.split())
+    put('RATTATA_ALOLA RATICATE_ALOLA MEOWTH_ALOLA PERSIAN_ALOLA','HOENN','forest haunted meadow')
+    put('RAICHU_ALOLA EXEGGUTOR_ALOLA','HOENN','coast forest')
+    put('SANDSHREW_ALOLA SANDSLASH_ALOLA VULPIX_ALOLA NINETALES_ALOLA','SINNOH','snow')
+    put('DIGLETT_ALOLA DUGTRIO_ALOLA GEODUDE_ALOLA GRAVELER_ALOLA GOLEM_ALOLA','HOENN','volcanic mountain cave')
+    put('GRIMER_ALOLA MUK_ALOLA','HOENN','marsh coast')
+    put('MAROWAK_ALOLA','HOENN','haunted volcanic')
+    put('MEOWTH_GALAR WEEZING_GALAR STUNFISK_GALAR','KANTO','industrial cave marsh')
+    put('PONYTA_GALAR RAPIDASH_GALAR FARFETCHD_GALAR ZIGZAGOON_GALAR LINOONE_GALAR','JOHTO','forest meadow')
+    put('SLOWPOKE_GALAR SLOWBRO_GALAR SLOWKING_GALAR','HOENN','coast marsh')
+    put('MR_MIME_GALAR DARUMAKA_GALAR DARMANITAN_GALAR_STANDARD','SINNOH','snow')
+    put('CORSOLA_GALAR','JOHTO','coast haunted')
+    put('YAMASK_GALAR','JOHTO','cave haunted')
+    put('GROWLITHE_HISUI ARCANINE_HISUI SNEASEL_HISUI BRAVIARY_HISUI AVALUGG_HISUI','SINNOH','mountain cave snow')
+    put('VOLTORB_HISUI ELECTRODE_HISUI LILLIGANT_HISUI DECIDUEYE_HISUI','SINNOH','forest meadow')
+    put('TYPHLOSION_HISUI ZORUA_HISUI ZOROARK_HISUI','SINNOH','haunted forest')
+    put('QWILFISH_HISUI SAMUROTT_HISUI','SINNOH','coast marsh')
+    put('SLIGGOO_HISUI GOODRA_HISUI','SINNOH','marsh mountain')
+    put('TAUROS_PALDEA_COMBAT','KANTO','meadow')
+    put('TAUROS_PALDEA_BLAZE','HOENN','volcanic desert')
+    put('TAUROS_PALDEA_AQUA WOOPER_PALDEA','HOENN','marsh coast')
+    bases={x['national_dex']:x for x in entries.values()}
+    additions={}
+    for n,(region,habitats) in policy.items():
+        x=dict(ALL_SPECIES[n]);assert not x['excluded'],n
+        base=bases[x['national_dex']]
+        x.update(native_regions=['REGION_'+region],family_root=base['family_root'],regional_form=True,allowed_biomes=habitats)
+        additions[n]=x
+        # At low wild levels the runtime may use an ancestor of this form.
+        # Its shared family must therefore also be native to this region.
+        for a in entries.values():
+            if a['family_root']==base['family_root'] and 'REGION_'+region not in a['native_regions']:
+                a['native_regions'].append('REGION_'+region)
+    entries.update(additions)
+    ancestry=wild_ancestry()
+    for n,x in additions.items():x['wild_min_level']=ancestry.get(n,(None,1))[1]
+    # These distinct Dex species evolve exclusively from a regional form. Their
+    # encounter homes follow that branch rather than the standard-form family.
+    for n,region in {'PERRSERKER':'KANTO','SIRFETCHD':'JOHTO','CURSOLA':'JOHTO',
+                     'OBSTAGOON':'JOHTO','RUNERIGUS':'JOHTO','MR_RIME':'SINNOH',
+                     'OVERQWIL':'SINNOH','SNEASLER':'SINNOH','CLODSIRE':'HOENN'}.items():
+        entries['SPECIES_'+n]['native_regions']=['REGION_'+region]
+    (OUT/'regional_forms.json').write_text(json.dumps(additions,indent=2)+'\n')
+    families=collections.defaultdict(list)
+    for n,x in entries.items():families[x['family_root']].append(n)
+    (OUT/'regional_families.json').write_text(json.dumps([dict(family=root,members=members,member_regions={n:entries[n]['native_regions'] for n in members}) for root,members in sorted(families.items())],indent=2)+'\n')
+
 def terrain_sources():
     # Resolve the exact attributes referenced by the editable layout, including donor banks.
     text = '\n'.join(p.read_text() for p in (ROOT/'src/data/tilesets').glob('*.h'))
@@ -170,14 +298,16 @@ HABITAT_TYPES={
  'volcanic':('FIRE','ROCK','GROUND','STEEL'),
  'desert':('GROUND','ROCK','FIRE','BUG'),
  'haunted':('GHOST','DARK','PSYCHIC','POISON'),
- 'forest':('GRASS','BUG','FAIRY','FLYING','NORMAL'),
+ 'forest':('GRASS','BUG','FAIRY','FLYING','NORMAL','POISON'),
  'mountain':('ROCK','GROUND','STEEL','DRAGON','FIGHTING'),
  'cave':('ROCK','GROUND','POISON','DARK','STEEL','FIGHTING'),
  'marsh':('WATER','GRASS','BUG','POISON','GROUND'),
  'coast':('WATER','FLYING','ROCK','NORMAL'),
- 'meadow':('NORMAL','FLYING','GRASS','BUG','ELECTRIC','FAIRY','FIGHTING','PSYCHIC')}
+ 'meadow':('NORMAL','FLYING','GRASS','BUG','ELECTRIC','FAIRY','FIGHTING','PSYCHIC','FIRE')}
 def score(species,row,method,time):
+    if row['region'] not in species['native_regions']:return None
     types=species['types']; habitat=row['biome']
+    if species.get('allowed_biomes') and habitat not in species['allowed_biomes']:return None
     night_types=species.get('family_root_types',types)
     if species['species']=='SPECIES_POIPOLE' and (habitat not in ('forest','haunted') or time!='Night'):return None
     aquatic='WATER' in types
@@ -186,7 +316,7 @@ def score(species,row,method,time):
         value=5
     else:
         if aquatic and not any(t in types for t in ('GRASS','GROUND','BUG','FLYING','FIGHTING','POISON','ICE')):return None
-        value=sum(t in HABITAT_TYPES[habitat] for t in types)
+        value=3 if species.get('regional_form') else sum(t in HABITAT_TYPES[habitat] for t in types)
         if time=='Night' and any(t in night_types for t in ('DARK','GHOST')):value+=3
         if not value:return None
     if time=='Night':
@@ -198,6 +328,7 @@ def score(species,row,method,time):
     return value
 def digest(*parts):
     return int(hashlib.sha256('|'.join(map(str,parts)).encode()).hexdigest(),16)
+STARTER_ROOTS={'SPECIES_'+n for n in 'BULBASAUR CHARMANDER SQUIRTLE CHIKORITA CYNDAQUIL TOTODILE TREECKO TORCHIC MUDKIP TURTWIG CHIMCHAR PIPLUP SNIVY TEPIG OSHAWOTT CHESPIN FENNEKIN FROAKIE ROWLET LITTEN POPPLIO GROOKEY SCORBUNNY SOBBLE SPRIGATITO FUECOCO QUAXLY'.split()}
 def author(species,maps):
     path=ROOT/'src/data/wild_encounters.json'
     backup=Path(__file__).with_name('baseline_wild_encounters.json')
@@ -207,7 +338,7 @@ def author(species,maps):
     for e in group['encounters']:
         for method in ('land_mons','water_mons','rock_smash_mons','fishing_mons'):
             if method in e:old[e['map']][method]=e[method]
-    rows=[dict(x,biome=biome(x)) for x in maps if x['eligible'] and x['region'] is not None]
+    rows=[dict(x,biome=biome(x)) for x in maps if x['eligible'] and x['region'] in ('REGION_HOENN','REGION_KANTO','REGION_JOHTO','REGION_SINNOH')]
     eligible={n:x for n,x in species.items() if not x['excluded']}
     counts=collections.Counter()
     records=[];entries=[]
@@ -225,17 +356,17 @@ def author(species,maps):
                 assert choices,(row['name'],method)
                 # Stable ecological ranking; least-used eligible species fill rare slots
                 # so every permitted National Dex species has a documented home.
-                local=sorted([x for x in choices if x[0]!='SPECIES_POIPOLE'],key=lambda nv:(-nv[1],digest(row['map'],time,method,nv[0])))
+                local=sorted([x for x in choices if x[0]!='SPECIES_POIPOLE' and eligible[x[0]]['family_root'] not in STARTER_ROOTS],key=lambda nv:(-nv[1],digest(row['map'],time,method,nv[0])))
                 mons=[]
                 existing=old[row['map']].get(method,{}).get('mons',[])
                 for slot in range(size):
                     native=existing[slot%len(existing)] if existing else None
-                    if slot<min(3,size) and native and native['species'] in eligible and (time!='Night' or any(t in eligible[native['species']]['types'] for t in ('DARK','GHOST'))):
+                    if slot<min(3,size) and native and native['species'] in dict(choices) and eligible[native['species']]['family_root'] not in STARTER_ROOTS and (time!='Night' or any(t in eligible[native['species']]['types'] for t in ('DARK','GHOST'))):
                         n=native['species']
                     elif time=='Night' and slot<min(4,size):
                         n=local[slot%len(local)][0]
                     elif slot>=size-3:
-                        n=min(choices,key=lambda nv:(counts[nv[0]],-nv[1],digest(row['map'],time,slot,nv[0])))[0]
+                        n=min([nv for nv in choices if slot>=size-2 or eligible[nv[0]]['family_root'] not in STARTER_ROOTS],key=lambda nv:(counts[nv[0]],-nv[1],digest(row['map'],time,slot,nv[0])))[0]
                     else:
                         n=local[(digest(row['map'],time,method,slot)%min(45,len(local)))][0]
                     counts[n]+=1
@@ -246,6 +377,8 @@ def author(species,maps):
                     lo=base.get('min_level',8 if row['biome']=='meadow' else 15)
                     hi=base.get('max_level',lo+3)
                     if row['name']=='Route101':lo,hi=2,3
+                    if eligible[n].get('regional_form'):
+                        lo=max(lo,eligible[n]['wild_min_level']);hi=max(lo,hi)
                     mons.append(dict(min_level=lo,max_level=max(lo,hi),species=n))
                     records.append(dict(map=row['map'],name=row['name'],region=row['region'],biome=row['biome'],
                         time=time,method=method,slot=slot,species=n,min_level=lo,max_level=max(lo,hi)))
@@ -254,27 +387,12 @@ def author(species,maps):
     missing=sorted(set(eligible)-set(counts))
     # A missing habitat must be fixed explicitly, never silently put a fish in grass.
     assert not missing, 'Unplaced species: '+','.join(missing)
-    group['encounters']=entries
+    # Unfinished Unova tables remain as-is and cannot satisfy regional coverage.
+    unova_ids={x['map'] for x in maps if x['region']=='REGION_UNOVA'}
+    current=json.loads(path.read_text())['wild_encounter_groups'][0]['encounters']
+    group['encounters']=entries+[x for x in current if x['map'] in unova_ids]
     path.write_text(json.dumps(data,indent=2)+'\n')
-    parents={}
-    for n,x in ALL_SPECIES.items():
-        if x['excluded']:continue
-        for e in x['evolution_targets']:
-            if e['species'] in ALL_SPECIES and not ALL_SPECIES[e['species']]['excluded']:
-                level=int(e['param']) if e['method']=='LEVEL' and e['param'].isdigit() and int(e['param'])>1 else None
-                parents[e['species']]=(n,level)
-    def depth(n,seen=()):
-        if n not in parents or n in seen:return 0
-        return 1+depth(parents[n][0],seen+(n,))
-    # Species without a natural level requirement receive explicit wild-availability
-    # gates; this does not grant their evolution to player-owned Pokemon.
-    parents={n:(p,level or (20 if depth(n)==1 else 36 if depth(n)==2 else 50))
-             for n,(p,level) in parents.items()}
-    def minimum(n,seen=()):
-        if n not in parents or n in seen:return 0
-        p,level=parents[n]
-        return max(level,minimum(p,seen+(n,)))
-    parents={n:(p,minimum(n)) for n,(p,level) in parents.items()}
+    parents=wild_ancestry()
     (ROOT/'src/data/wild_level_parents.h').write_text(
         '// Generated by tools/la_world/encounters/author_pools.py; Wild availability ancestry. Special evolutions use authored 20/36/50 level gates.\n'
         'static const struct WildLevelParent sWildLevelParents[NUM_SPECIES] = {\n'
@@ -284,7 +402,7 @@ def author(species,maps):
     summary=dict(policy='all active regions follow Hoenn badges temporarily',maps=len(rows),
         time_tables=len(entries),slots=len(records),eligible_species=len(eligible),unplaced=missing,
         regional_maps=dict(collections.Counter(x['region'] for x in rows)),
-        form_policy='One ordinary representative per National Dex entry; battle-only forms excluded.',
+        form_policy='Standard National Dex representatives plus explicitly placed ordinary regional forms; battle-only forms excluded.',
         source_sha256=hashlib.sha256(path.read_bytes()).hexdigest())
     (OUT/'coverage.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary))

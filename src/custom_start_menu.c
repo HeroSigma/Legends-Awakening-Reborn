@@ -24,13 +24,13 @@ static const u16 sPalettes[][16] = {
     INCGFX_U16("graphics/legends_start_menu/bg2.pal", ".gbapal"),
     INCGFX_U16("graphics/legends_start_menu/bg3.pal", ".gbapal"),
 };
-static const struct CompressedSpriteSheet sSheet={sIcons,8192,ICON_TAG};
+static const struct CompressedSpriteSheet sSheet={sIcons,11264,ICON_TAG};
 static const struct SpritePalette sPal={sIconPalette,ICON_TAG};
 static const struct OamData sOam={.shape=SPRITE_SHAPE(32x32),.size=SPRITE_SIZE(32x32),.priority=0};
 #define ANIM(i) static const union AnimCmd sAnim##i[]={ANIMCMD_FRAME((i)*16,0),ANIMCMD_END};
 ANIM(0) ANIM(1) ANIM(2) ANIM(3) ANIM(4) ANIM(5) ANIM(6) ANIM(7)
-ANIM(8) ANIM(9) ANIM(10) ANIM(11) ANIM(12) ANIM(13) ANIM(14) ANIM(15)
-static const union AnimCmd *const sAnims[]={sAnim0,sAnim1,sAnim2,sAnim3,sAnim4,sAnim5,sAnim6,sAnim7,sAnim8,sAnim9,sAnim10,sAnim11,sAnim12,sAnim13,sAnim14,sAnim15};
+ANIM(8) ANIM(9) ANIM(10) ANIM(11) ANIM(12) ANIM(13) ANIM(14) ANIM(15) ANIM(16) ANIM(17) ANIM(18) ANIM(19) ANIM(20) ANIM(21)
+static const union AnimCmd *const sAnims[]={sAnim0,sAnim1,sAnim2,sAnim3,sAnim4,sAnim5,sAnim6,sAnim7,sAnim8,sAnim9,sAnim10,sAnim11,sAnim12,sAnim13,sAnim14,sAnim15,sAnim16,sAnim17,sAnim18,sAnim19,sAnim20,sAnim21};
 static const struct SpriteTemplate sTemplate={.tileTag=ICON_TAG,.paletteTag=ICON_TAG,.oam=&sOam,.anims=sAnims,.images=NULL,.affineAnims=gDummySpriteAffineAnimTable,.callback=SpriteCallbackDummy};
 static EWRAM_DATA struct {u8 sprites[8],icons[8],count,clock,label;u16 backdrops[2][36];} *sCustomMenu=NULL;
 static const struct WindowTemplate sClockWin={.bg=0,.tilemapLeft=2,.tilemapTop=17,.width=12,.height=2,.paletteNum=14,.baseBlock=0x30};
@@ -68,7 +68,7 @@ void CustomStartMenu_Select(u8 cursor,const u8 *label)
     if(!sCustomMenu)return;
     for(i=0;i<sCustomMenu->count;i++)
         if(sCustomMenu->sprites[i]!=MAX_SPRITES)
-            StartSpriteAnim(&gSprites[sCustomMenu->sprites[i]],sCustomMenu->icons[i]+(i==cursor?0:sCustomMenu->icons[i]==14?1:7));
+            StartSpriteAnim(&gSprites[sCustomMenu->sprites[i]],sCustomMenu->icons[i]+(i==cursor?0:sCustomMenu->icons[i]>=14?1:7));
     // Keep the long store name inside Vol's original seven-tile panel.
     if(!StringCompare(label,COMPOUND_STRING("LEGENDS STORE")))label=COMPOUND_STRING("STORE");
     RestoreFooter(sCustomMenu->label,1);

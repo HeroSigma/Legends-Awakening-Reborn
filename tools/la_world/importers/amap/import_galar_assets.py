@@ -33,7 +33,7 @@ def main():
   subprocess.run([str(R/'tools/gbagfx/gbagfx'),str(target/'tiles.4bpp'),str(target/'tiles.4bpp.lz')],check=True)
   raw=(target/'source_frlg_metatile_attributes.bin').read_bytes();attrs=bytearray((target/'metatile_attributes.bin').read_bytes());tiles=bytearray((target/'metatiles.bin').read_bytes())
   for slot in range(512):
-   b=struct.unpack_from('<I',raw,4*slot)[0]&511;name=donor.get(b);name={'MB_ROCK_STAIRS':'MB_NORMAL','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING'}.get(name,name)
+   b=struct.unpack_from('<I',raw,4*slot)[0]&511;name=donor.get(b);name={'MB_ROCK_STAIRS':'MB_ROCK_STAIRS','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING'}.get(name,name)
    if name and any(w in name for w in ['WARP','DOOR','LADDER']):name='MB_NORMAL'
    if name not in native:translations.append({'bank':key,'metatile':slot,'source_behavior':b});name='MB_NORMAL'
    old=struct.unpack_from('<H',attrs,2*slot)[0];struct.pack_into('<H',attrs,2*slot,(old&0xf000)|native[name])

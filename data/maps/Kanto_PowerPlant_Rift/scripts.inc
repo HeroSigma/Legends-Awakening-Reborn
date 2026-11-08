@@ -110,6 +110,7 @@ PowerPlantRift_Console::
 	msgbox PowerPlantRift_Text_Console, MSGBOX_YESNO
 	goto_if_ne VAR_RESULT, YES, PowerPlantRift_End
 	closemessage
+	call_if_unset FLAG_LA_HEARD_GIOVANNI, PowerPlantRift_InterceptTransmission
 	playse SE_THUNDER
 	msgbox PowerPlantRift_Text_Shutdown, MSGBOX_DEFAULT
 	closemessage
@@ -267,3 +268,44 @@ PowerPlantRift_WattsonLeftExit:
 	walk_left
 	walk_down
 	step_end
+
+@ The plant is a shared relay in Giovanni's operation, not an unrelated experiment.
+@ Only reveal the coordinator's name here; the coalition's full roster comes later.
+PowerPlantRift_InterceptTransmission::
+    playse SE_POKENAV_CALL
+    delay 20
+    setspeaker SP_NAME_NONE
+    msgbox PowerPlantRift_Text_RadioCrackle, MSGBOX_DEFAULT
+    setspeaker SP_NAME_ROCKET_CONTROL
+    msgbox PowerPlantRift_Text_GiovanniOrders, MSGBOX_DEFAULT
+    setspeaker SP_NAME_PLAYER
+    msgbox PowerPlantRift_Text_WhoIsGiovanni, MSGBOX_DEFAULT
+    setspeaker SP_NAME_ROCKET_CONTROL
+    msgbox PowerPlantRift_Text_UnknownVoices, MSGBOX_DEFAULT
+    setspeaker SP_NAME_NONE
+    msgbox PowerPlantRift_Text_WattsonInterrupts, MSGBOX_DEFAULT
+    setspeaker SP_NAME_ROCKET_CONTROL
+    msgbox PowerPlantRift_Text_DoNotDisconnect, MSGBOX_DEFAULT
+    closemessage
+    playse SE_PC_OFF
+    setflag FLAG_LA_HEARD_GIOVANNI
+    setspeaker SP_NAME_PLAYER
+    msgbox PowerPlantRift_Text_StopRelay, MSGBOX_DEFAULT
+    closemessage
+    setspeaker SP_NAME_NONE
+    return
+
+PowerPlantRift_Text_RadioCrackle:
+    .string "A speaker above the relay crackles.\nA voice cuts through the static.$"
+PowerPlantRift_Text_GiovanniOrders:
+    .string "Control to the Kanto station.\nGiovanni wants the readings secured.\pThe other teams are waiting.\nKeep the channel open.$"
+PowerPlantRift_Text_WhoIsGiovanni:
+    .string "Giovanni?\nWho's using this plant?$"
+PowerPlantRift_Text_UnknownVoices:
+    .string "Unregistered voices on the line.\nWho is at the relay?$"
+PowerPlantRift_Text_WattsonInterrupts:
+    .string "Wattson: Visitors. And we're\nending your little experiment.$"
+PowerPlantRift_Text_DoNotDisconnect:
+    .string "Keep your hands off that breaker!\nThe supply must remain…$"
+PowerPlantRift_Text_StopRelay:
+    .string "They know about the rift.\nI'm shutting this down.$"

@@ -76,6 +76,8 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 	end
 
 MauvilleCity_Gym_EventScript_Wattson::
+	setvar VAR_0x8004, 12
+	call LegendsQuest_GymReward
 	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleRift_WattsonBattle
 	goto_if_ne VAR_LA_MAUVILLE_RIFT, 3, MauvilleCity_Gym_EventScript_GymGuide
 MauvilleRift_WattsonBattle::
@@ -98,6 +100,8 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
+	setvar VAR_0x8004, 12
+	call LegendsQuest_GymReward
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 3
@@ -550,6 +554,7 @@ MauvilleRift_AfterReturn::
 	msgbox MauvilleRift_Text_RowanQuestion, MSGBOX_DEFAULT
 	setspeaker SP_NAME_PLAYER
 	msgbox MauvilleRift_Text_ReportMiraidon, MSGBOX_DEFAULT
+	call_if_set FLAG_LA_HEARD_GIOVANNI, MauvilleRift_ReportGiovanni
 	@ Burnet is unfamiliar to the player. Keep her name and portrait hidden.
 	setspeaker SP_NAME_NONE
 	msgbox MauvilleRift_Text_BurnetRift, MSGBOX_DEFAULT
@@ -685,3 +690,18 @@ MauvilleRift_Movement_WattsonNorth:
 	walk_up
 	walk_up
 	step_end
+
+MauvilleRift_ReportGiovanni::
+    setspeaker SP_NAME_PLAYER
+    msgbox MauvilleRift_Text_GiovanniReport, MSGBOX_DEFAULT
+    setspeaker SP_NAME_BIRCH
+    msgbox MauvilleRift_Text_GiovanniConnection, MSGBOX_DEFAULT
+    setspeaker SP_NAME_ROWAN
+    msgbox MauvilleRift_Text_SharedOperation, MSGBOX_DEFAULT
+    return
+MauvilleRift_Text_GiovanniReport:
+    .string "A voice on the plant's radio gave\norders in Giovanni's name.\pIt said the other teams were\nwaiting for the readings.\pCould he be the man with the R\nI saw in Timeless Woods?$"
+MauvilleRift_Text_GiovanniConnection:
+    .string "Giovanni… That fits Norman's\nreport about the man in the suit.\pWattson, preserve the radio log.\nWe'll compare it with the thefts.\pWe still don't know how many\npeople are working with him.$"
+MauvilleRift_Text_SharedOperation:
+    .string "A shared channel and shared data.\nThese incidents may be connected.\pWe need to warn our colleagues.$"

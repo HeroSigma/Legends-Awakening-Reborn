@@ -1,7 +1,4 @@
 Kanto_SaffronCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegendsAshes_SaffronTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LegendsAshes_SaffronFrame
 	.byte 0
-
-KantoAR_3_10_SaffronCity_Inspect::
-	call KantoAR_InspectionPrompt
-	warp MAP_KANTOAR_3_11_SAFFRONCITY_CONNECTION, 24, 25
-	goto KantoAR_InspectionFinish

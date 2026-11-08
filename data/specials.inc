@@ -660,3 +660,14 @@ gSpecials::
 	def_special IsNonstandardStarter
 
 	def_special RiftTracker_Check
+
+    def_special LegendsQuest_Claim
+    def_special LegendsQuest_Accept
+    def_special LegendsQuest_TradeRalts
+
+    def_special LegendsQuest_StoryPrepare
+    def_special LegendsQuest_StoryFinish
+
+    def_special LegendsAshes_SetGraphics
+    def_special LegendsAshes_HoopaPrepare
+    def_special LegendsAshes_HoopaGranted

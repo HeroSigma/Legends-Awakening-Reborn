@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_ashes.h"
 #include "dynamic_palettes.h"
 #include "hyper_assets.h"
 #include "preferred_follower.h"
@@ -3804,7 +3805,12 @@ void SetObjectEventDirection(struct ObjectEvent *objectEvent, enum Direction dir
 
 static const u8 *GetObjectEventScriptPointerByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
-    return GetObjectEventTemplateByLocalIdAndMap(localId, mapNum, mapGroup)->script;
+    if (localId == LA_HOOPA_LOCAL_ID && FlagGet(FLAG_LA_HOOPA_COMPANION)) {
+        extern const u8 LegendsAshes_HoopaInteract[];
+        return LegendsAshes_HoopaInteract;
+    }
+    const struct ObjectEventTemplate *template = GetObjectEventTemplateByLocalIdAndMap(localId, mapNum, mapGroup);
+    return template != NULL ? template->script : NULL;
 }
 
 const u8 *GetObjectEventScriptPointerByObjectEventId(u8 objectEventId)
@@ -3814,6 +3820,7 @@ const u8 *GetObjectEventScriptPointerByObjectEventId(u8 objectEventId)
 
 u16 GetObjectEventFlagIdByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
+    if (localId == LA_HOOPA_LOCAL_ID) return 0;
     const struct ObjectEventTemplate *obj = GetObjectEventTemplateByLocalIdAndMap(localId, mapNum, mapGroup);
 #ifdef UBFIX
     // BUG: The function may return NULL, and attempting to read from NULL may freeze the game using modern compilers.
@@ -6675,7 +6682,7 @@ u32 GetObjectObjectCollidesWith(struct ObjectEvent *objectEvent, s16 x, s16 y, b
     u8 i;
     struct ObjectEvent *curObject;
 
-    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER)
+    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER || (objectEvent->localId == LA_HOOPA_LOCAL_ID && FlagGet(FLAG_LA_HOOPA_COMPANION)))
         return OBJECT_EVENTS_COUNT; // follower cannot collide with other objects, but they can collide with it
 
     if (addCoords)
@@ -6687,6 +6694,7 @@ u32 GetObjectObjectCollidesWith(struct ObjectEvent *objectEvent, s16 x, s16 y, b
     for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
     {
         curObject = &gObjectEvents[i];
+        if (curObject->localId == LA_HOOPA_LOCAL_ID && FlagGet(FLAG_LA_HOOPA_COMPANION)) continue;
         if (curObject->active && (curObject->movementType != MOVEMENT_TYPE_FOLLOW_PLAYER || objectEvent != &gObjectEvents[gPlayerAvatar.objectEventId]) && curObject != objectEvent
          && !FollowerNPC_IsCollisionExempt(curObject, objectEvent)
          )

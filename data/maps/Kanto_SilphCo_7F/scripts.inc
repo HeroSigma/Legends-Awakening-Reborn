@@ -1,7 +1,3 @@
 Kanto_SilphCo_7F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegendsAshes_SilphTransition
 	.byte 0
-
-KantoAR_1_53_SilphCo_7F_Inspect::
-	call KantoAR_InspectionPrompt
-	warp MAP_KANTOAR_1_54_SILPHCO_8F, 15, 9
-	goto KantoAR_InspectionFinish

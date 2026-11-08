@@ -4,6 +4,7 @@ MtChimney_MapScripts::
 	.byte 0
 
 MtChimney_OnTransition:
+	call LegendsAshes_ChimneyTransition
 	setvar VAR_JAGGED_PASS_ASH_WEATHER, 1
 	end
 
@@ -12,6 +13,7 @@ MtChimney_OnResume:
 	end
 
 MtChimney_EventScript_Archie::
+	setspeaker SP_NAME_ARCHIE
 	lock
 	faceplayer
 	call_if_unset FLAG_EVIL_LEADER_PLEASE_STOP, MtChimney_EventScript_ArchieGoStopTeamMagma
@@ -20,6 +22,7 @@ MtChimney_EventScript_Archie::
 	applymovement LOCALID_MT_CHIMNEY_ARCHIE, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	setflag FLAG_EVIL_LEADER_PLEASE_STOP
+	setspeaker SP_NAME_NONE
 	release
 	end
 
@@ -33,6 +36,8 @@ MtChimney_EventScript_ArchieBusyFighting::
 
 MtChimney_EventScript_Maxie::
 	lockall
+	setspeaker SP_NAME_MAXIE
+	call LegendsAshes_ReactorPreview
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 	msgbox MtChimney_Text_MeteoriteWillActivateVolcano, MSGBOX_DEFAULT
 	applymovement LOCALID_MT_CHIMNEY_MAXIE, Common_Movement_FacePlayer
@@ -60,6 +65,7 @@ MtChimney_EventScript_Maxie::
 	call_if_eq VAR_FACING, DIR_NORTH, MtChimney_EventScript_ArchieApproachPlayerNorth
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
+	setspeaker SP_NAME_ARCHIE
 	msgbox MtChimney_Text_ArchieThankYou, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_EAST, MtChimney_EventScript_ArchieExitEast
@@ -70,6 +76,7 @@ MtChimney_EventScript_Maxie::
 	clearflag FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO
 	setflag FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO
 	clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
+	call LegendsAshes_ChimneyAftermath
 	releaseall
 	end
 
@@ -394,49 +401,71 @@ MtChimney_Movement_Unused15:
 	step_end
 
 MtChimney_EventScript_BusyAquaGrunt1::
+	setspeaker SP_NAME_TEAM_AQUA
 	msgbox MtChimney_Text_MagmaOutnumbersUs, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyAquaGrunt2::
+	setspeaker SP_NAME_TEAM_AQUA
 	msgbox MtChimney_Text_LessHabitatForWaterPokemon, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyAquaGrunt3::
+	setspeaker SP_NAME_TEAM_AQUA
 	msgbox MtChimney_Text_MagmasNameSimilar, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_Tabitha::
 	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
+	setspeaker SP_NAME_MAGMA_TABITHA
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_Grunt2::
 	trainerbattle_single TRAINER_GRUNT_MT_CHIMNEY_2, MtChimney_Text_Grunt2Intro, MtChimney_Text_Grunt2Defeat
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt1::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_TeamAquaAlwaysMessingWithPlans, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt2::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_MeteoritesPackAmazingPower, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt3::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_YouBetterNotMessWithUs, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt4::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_AquasNameSimilar, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt5::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_DouseThemInFire, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_BusyMagmaGrunt6::
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_KeepMakingMoreLand, MSGBOX_SIGN
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_MagmaPoochyena::
@@ -517,7 +546,9 @@ MtChimney_EventScript_Shirley::
 
 MtChimney_EventScript_Grunt1::
 	trainerbattle_single TRAINER_GRUNT_MT_CHIMNEY_1, MtChimney_Text_Grunt1Intro, MtChimney_Text_Grunt1Defeat
+	setspeaker SP_NAME_TEAM_MAGMA
 	msgbox MtChimney_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	setspeaker SP_NAME_NONE
 	end
 
 MtChimney_EventScript_Sawyer::
@@ -542,171 +573,83 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
-	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
-	.string "activity will instantly intensify…\p"
-	.string "Its energy will grow deep inside\n"
-	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "Steady. The meteorite is resonating.\nThe destination trace is forming.$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
-	.string "Who are you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
-	.string "who's been meddling in TEAM AQUA's\l"
-	.string "affairs.\p"
-	.string "It must be you he meant.\p"
-	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, TEAM MAGMA?\p"
-	.string "Now you listen.\n"
-	.string "Long ago, living things used the\l"
-	.string "land to live and grow.\p"
-	.string "That is why land is all important!\n"
-	.string "It is the cradle of all!\p"
-	.string "That is why TEAM MAGMA is dedicated\n"
-	.string "to the expansion of the land mass.\p"
-	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
-	.string "And for that, we need the power of\n"
-	.string "what sleeps within this mountain…\p"
-	.string "Oh! There was no need for you to\n"
-	.string "learn that much.\p"
-	.string "But, no matter!\n"
-	.string "I'll teach you the consequences of\l"
-	.string "meddling in our grand design!$"
+	.string "Rifts could give humanity new land,\nnew resources, entire new frontiers.\pWe are learning to control them.\nYour interference ends here.$"
 
 MtChimney_Text_MaxieDefeat:
 	.string "What?!\p"
 	.string "I, MAXIE, was caught off guard?!$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
-	.string "I will back off this time.\p"
-	.string "But don't think that this is the last\n"
-	.string "you've seen of TEAM MAGMA.\p"
-	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "The reaction occurred, but not as\nour model predicted.\pNo. Something responded.\nAnd the readings were transmitted.$"
 
 MtChimney_Text_TabithaIntro:
-	.string "Hehehe!\p"
-	.string "So you've come all the way here!\p"
-	.string "But you're too late!\n"
-	.string "I've already delivered the METEORITE\l"
-	.string "from METEOR FALLS to the BOSS!$"
+	.string "You followed us from Meteor Falls.\nPersistent, aren't you?\pAqua has secured the approaches.\nMaxie is calibrating the relay.\pAnd you aren't taking another step!$"
 
 MtChimney_Text_TabithaDefeat:
-	.string "Hehehe…\p"
-	.string "Even though I've lost, if our leader\n"
-	.string "awakens that thing…$"
+	.string "The relay is already charging!$"
 
 MtChimney_Text_TabithaPostBattle:
-	.string "BOSS, hurry!\n"
-	.string "Give it the METEORITE's energy!\p"
-	.string "Hehehe…$"
+	.string "Maxie only needs a little longer.\nThe readings must reach our allies.$"
 
 MtChimney_Text_Grunt2Intro:
-	.string "We of TEAM MAGMA are working hard for\n"
-	.string "everyone's sake.\p"
-	.string "Like, if that thing's power made more\n"
-	.string "land, there'd be more places to live.\p"
-	.string "Everyone'd be happy!$"
+	.string "This is a joint operation!\nMagma runs the summit equipment.\pAqua brought the coastal readings.\nMy job is keeping you out!$"
 
 MtChimney_Text_Grunt2Defeat:
-	.string "Hunh?\n"
-	.string "What do you mean I lost?$"
+	.string "I couldn't hold the checkpoint!$"
 
 MtChimney_Text_Grunt2PostBattle:
-	.string "Our BOSS says, “It will make everyone\n"
-	.string "happy.”\p"
-	.string "But why does everyone keep getting\n"
-	.string "in our way?$"
+	.string "Those readings came from rifts\nall over Hoenn.\pOne lost battle won't erase them.$"
 
 MtChimney_Text_Grunt1Intro:
-	.string "If there were more land, I'd be able\n"
-	.string "to get a big house of my own!\p"
-	.string "I'm going to build it on hardened lava!$"
+	.string "Aqua has the lower trail covered.\nI'm guarding the relay approach.\pYou're not getting near that machine!$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "My dream of a big house…$"
+	.string "The checkpoint's been breached!$"
 
 MtChimney_Text_Grunt1PostBattle:
-	.string "A kid like you, you ought to be\n"
-	.string "splashing about in the waves!$"
+	.string "We were told to expect interference.\nI should have taken that seriously.$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
-	.string "That annoying TEAM AQUA…\n"
-	.string "They always mess with our plans!$"
+	.string "Aqua is holding the lower perimeter.\nWe're keeping the relay stable.$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "METEORITES pack amazing power!$"
+	.string "The meteorite amplifies the signal.\nMagma's equipment controls the heat.$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
-	.string "You'd better not mess with us!\p"
-	.string "We're trying to awaken that thing\n"
-	.string "for the benefit of everyone!$"
+	.string "Stay behind the safety line.\nWe're matching two sets of readings.$"
 
 MtChimney_Text_AquasNameSimilar:
-	.string "We're TEAM MAGMA!\p"
-	.string "They're TEAM AQUA!\p"
-	.string "It totally annoys me that they'd\n"
-	.string "use a name like ours!$"
+	.string "Different uniforms. Same orders.\nAqua watches the water; we watch this.$"
 
 MtChimney_Text_DouseThemInFire:
-	.string "Yeah!\n"
-	.string "Douse them in fire!$"
+	.string "Hold your position!\nDon't let anyone reach the relay!$"
 
 MtChimney_Text_KeepMakingMoreLand:
-	.string "We're going to keep making more land!$"
+	.string "Maxie wants a stable route through\nthe rifts. We're testing the signal.$"
 
 MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "ARCHIE: Grr, {PLAYER}!\n"
-	.string "I should've guessed you'd show up!\p"
-	.string "See for yourself what the fanatics\n"
-	.string "of TEAM MAGMA are up to!\p"
-	.string "They're trying to inject the stolen\n"
-	.string "METEORITE's power into the volcano!\p"
-	.string "Doing something like that will cause\n"
-	.string "the volcano's eruption!$"
+	.string "Our people are securing the relay.\nStay out of the summit machinery.$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "ARCHIE: Grrr…\p"
-	.string "I want to stop that MAXIE,\n"
-	.string "but I can't!\p"
-	.string "Not when I have my hands full battling\n"
-	.string "three opponents at once!$"
+	.string "Magma handles the heat. We supplied\nthe coastal readings. Keep moving.$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "ARCHIE: {PLAYER}!\n"
-	.string "Thank you!\p"
-	.string "With your help, we thwarted TEAM\n"
-	.string "MAGMA's destructive plan!\p"
-	.string "But… You…\n"
-	.string "Whose side are you on?\p"
-	.string "Ah, it doesn't matter.\p"
-	.string "We will remain vigilant and keep up\n"
-	.string "our pursuit of TEAM MAGMA.\p"
-	.string "{PLAYER}, we shall meet again!$"
+	.string "You shut down our relay.\nGiovanni will hear about this.\pWe still have the data. This wasn't\nour only operation. Remember that.$"
 
 MtChimney_Text_MagmaOutnumbersUs:
-	.string "Darn… TEAM MAGMA outnumbers us!\n"
-	.string "We can't keep up with them!$"
+	.string "Magma has more people at the summit.\nOur crew is securing the lower trail.$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-	.string "If they expand the land, there'll be\n"
-	.string "less habitats for WATER POKéMON!$"
+	.string "Our coastal readings complete\nMagma's measurements from the summit.\pThat's why we're here together.$"
 
 MtChimney_Text_MagmasNameSimilar:
-	.string "We're TEAM AQUA!\p"
-	.string "They're TEAM MAGMA!\p"
-	.string "It burns me up that they'd use such\n"
-	.string "a confusing name!$"
+	.string "Magma handles the heat up there.\nWe keep this approach clear.\pNow turn around. This trail is closed.$"
 
 MtChimney_Text_Bushaa:
 	.string "Bushaa!$"

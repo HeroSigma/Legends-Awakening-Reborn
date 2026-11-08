@@ -24,3 +24,11 @@ The two new native graphics IDs are appended before NUM_OBJ_EVENT_GFX, preservin
 ## Runtime review
 
 Re-enter Timeless Woods from your current save. Check the arrival thought, then walk onto (16,13). Watch the facing, item pickup and departures; revisit and save/reload to confirm the event remains completed. Automated native checks exercise both player genders using disposable saves only.
+
+## Alliance continuity correction
+
+The early speaker boxes are now MAN IN SUIT and BLUE-HAIRED MAN, with Rocket crimson
+and Galactic violet retained. Giovanni's name is first spoken during the Kanto
+Power Plant radio interruption. The Woods conversation hints at the teams sharing
+data; the later scout is guarding their operation, not following them as an enemy.
+See ../villain_alliance/canon.md for the full reveal order.

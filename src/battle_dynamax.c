@@ -85,8 +85,7 @@ bool32 CanDynamax(enum BattlerId battler)
     {
         if (!CheckBagHasItem(ITEM_DYNAMAX_BAND, 1))
             return FALSE;
-        if (B_FLAG_DYNAMAX_BATTLE == 0 || (B_FLAG_DYNAMAX_BATTLE != 0 && !FlagGet(B_FLAG_DYNAMAX_BATTLE)))
-            return FALSE;
+        // Legends Awakening: the Band is the story unlock, without arena flags.
     }
 
     // Check if species isn't allowed to Dynamax.

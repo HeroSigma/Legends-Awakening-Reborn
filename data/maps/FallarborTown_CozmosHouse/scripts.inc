@@ -1,4 +1,6 @@
 FallarborTown_CozmosHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegendsAshes_CozmoTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LegendsAshes_CozmoFrame
 	.byte 0
 
 FallarborTown_CozmosHouse_EventScript_ProfCozmo::

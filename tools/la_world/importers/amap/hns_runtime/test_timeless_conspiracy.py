@@ -8,6 +8,9 @@ checks=[]
 groups=json.loads((R/'data/maps/map_groups.json').read_text())
 GROUP=groups['group_order'].index('gMapGroup_Hoenn_Forests');MID=groups['gMapGroup_Hoenn_Forests'].index('Hoenn_Timeless_Woods')
 ENTERED,SEEN,TAKEN=0x3a,0x3b,0x3c
+import re
+speaker_ids={name:i for i,name in enumerate(re.findall(r'^\s*(SP_NAME_\w+)\s*(?:=\s*0)?\s*[,\n]',(R/'include/constants/speaker_names.h').read_text(),re.M))}
+
 def actor(local):
  for i in range(16):
   p=symbols['gObjectEvents']+i*36
@@ -31,11 +34,14 @@ def run_scene(gender):
    if name not in seen and any(message[offset:offset+12]==expected for offset in range(4)):
     seen.add(name)
     if name=='Discovery':
+     check('giovanni_name_hidden_'+str(gender),rd(symbols['gSpeakerName'])==rd(symbols['gSpeakerNamesTable']+4*speaker_ids['SP_NAME_MAN_IN_SUIT']))
      check('camera_at_meeting_'+str(gender),axy(127)==(24,12))
      check('giovanni_position_and_facing_'+str(gender),axy(1)==(25,12) and facing(1)==3)
      check('cyrus_position_and_facing_'+str(gender),axy(2)==(23,12) and facing(2)==4)
      check('ball_between_them_'+str(gender),axy(3)==(24,12))
      frames(240);capture('meeting_'+str(gender))
+    if name=='Resonance':
+     check('cyrus_name_hidden_'+str(gender),rd(symbols['gSpeakerName'])==rd(symbols['gSpeakerNamesTable']+4*speaker_ids['SP_NAME_BLUE_HAIRED_MAN']))
     if name=='Stabilize':
      check('giovanni_picks_up_ball_'+str(gender),not actor(3) and flag(TAKEN) and axy(1)==(24,12))
      frames(240);capture('item_taken_'+str(gender))

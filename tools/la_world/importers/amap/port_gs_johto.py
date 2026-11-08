@@ -30,7 +30,7 @@ def main():
  protected.update({str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (R/'data/maps').glob('*/scripts.inc')})
  ls=load(R/'data/layouts/layouts.json');groups=load(R/'data/maps/map_groups.json');before=json.loads(json.dumps(groups));sections=load(R/'src/data/region_map/region_map_sections.json');assert len(sections['map_sections'])<252
  sections['map_sections'].append(dict(id='MAPSEC_GS_JOHTO',name='Johto',x=0,y=0,width=1,height=1))
- native=enums(R/'include/constants/metatile_behaviors.h');donor_mb={int(v,16):n for n,v in re.findall(r'#define (MB_\w+) (0x[0-9A-Fa-f]+)',(R/'.la_work/amap/firered_behaviors_reference.h').read_text())};alias={'MB_ROCK_STAIRS':'MB_NORMAL','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_WARP_DOOR':'MB_ANIMATED_DOOR','MB_CAVE_DOOR':'MB_NON_ANIMATED_DOOR','MB_REGULAR_WARP':'MB_NON_ANIMATED_DOOR'}
+ native=enums(R/'include/constants/metatile_behaviors.h');donor_mb={int(v,16):n for n,v in re.findall(r'#define (MB_\w+) (0x[0-9A-Fa-f]+)',(R/'.la_work/amap/firered_behaviors_reference.h').read_text())};alias={'MB_ROCK_STAIRS':'MB_ROCK_STAIRS','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_WARP_DOOR':'MB_ANIMATED_DOOR','MB_CAVE_DOOR':'MB_NON_ANIMATED_DOOR','MB_REGULAR_WARP':'MB_NON_ANIMATED_DOOR'}
  keys=sorted({d[k] for d in donors.values() for k in ['primary_tileset','secondary_tileset']});graphics=[];metas=[];headers=[];attrs={};translation=[]
  for key in keys:
   src=S/'tilesets'/key;dest=R/'data/gs_johto_assets/tilesets'/key;shutil.copytree(src,dest,dirs_exist_ok=True);sy='gTileset_GSJohto_'+key;meta=load(src/'tileset.json');raw=(src/'source_frlg_metatile_attributes.bin').read_bytes();compat=(src/'metatile_attributes.bin').read_bytes();values=[]

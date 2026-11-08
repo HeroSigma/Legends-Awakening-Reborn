@@ -2422,3 +2422,41 @@ const u16 gHnsRegion_Attributes_bd7b09e47d0874d273a0[] = INCBIN_U16("data/hns_re
 const u16 gHnsRegion_Metatiles_093e142296b06a0bc35a[] = INCBIN_U16("data/hns_region_assets/shared/gHnsRegion_Metatiles_093e142296b06a0bc35a/data.bin");
 const u16 gHnsRegion_Attributes_72ac9775fc95d55c3f55[] = INCBIN_U16("data/hns_region_assets/shared/gHnsRegion_Attributes_72ac9775fc95d55c3f55/data.bin");
 
+
+/* Native stair behaviors restored from preserved donor metadata. */
+const u16 gProjectStairsAttrs_009bd0da3ad1b383503e[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_009bd0da3ad1b383503e.bin");
+const u16 gProjectStairsAttrs_086b4a619ed368bb8e0a[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_086b4a619ed368bb8e0a.bin");
+const u16 gProjectStairsAttrs_2189a9293b966c5f04a1[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_2189a9293b966c5f04a1.bin");
+const u16 gProjectStairsAttrs_2bd2491fad389d25c440[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_2bd2491fad389d25c440.bin");
+const u16 gProjectStairsAttrs_309666b30f38f6971ff3[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_309666b30f38f6971ff3.bin");
+const u16 gProjectStairsAttrs_3106b07a28e7a877bf8a[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_3106b07a28e7a877bf8a.bin");
+const u16 gProjectStairsAttrs_37f4851879e6fc5e58ef[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_37f4851879e6fc5e58ef.bin");
+const u16 gProjectStairsAttrs_3b91bbb5f67793cc02bf[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_3b91bbb5f67793cc02bf.bin");
+const u16 gProjectStairsAttrs_3f9cd9a4a83ff2511bff[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_3f9cd9a4a83ff2511bff.bin");
+const u16 gProjectStairsAttrs_4ba0f49123d845f8ce3f[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_4ba0f49123d845f8ce3f.bin");
+const u16 gProjectStairsAttrs_51684d280a27d43dc3da[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_51684d280a27d43dc3da.bin");
+const u16 gProjectStairsAttrs_51805d9bdd2d19a22632[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_51805d9bdd2d19a22632.bin");
+const u16 gProjectStairsAttrs_55ee78ee43b7d2779aa6[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_55ee78ee43b7d2779aa6.bin");
+const u16 gProjectStairsAttrs_5ccce144bf27f02305db[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_5ccce144bf27f02305db.bin");
+const u16 gProjectStairsAttrs_77a1727e912592a5132d[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_77a1727e912592a5132d.bin");
+const u16 gProjectStairsAttrs_7bdde46e75a153a9582d[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_7bdde46e75a153a9582d.bin");
+const u16 gProjectStairsAttrs_80a693747903d06760a1[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_80a693747903d06760a1.bin");
+const u16 gProjectStairsAttrs_85b8f544ca2086d8e0ae[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_85b8f544ca2086d8e0ae.bin");
+const u16 gProjectStairsAttrs_871a725807a9a992a011[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_871a725807a9a992a011.bin");
+const u16 gProjectStairsAttrs_8d872a8d9caf4046d488[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_8d872a8d9caf4046d488.bin");
+const u16 gProjectStairsAttrs_a621dbf214c42b3476d4[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_a621dbf214c42b3476d4.bin");
+const u16 gProjectStairsAttrs_a8c0bca320c7c343a084[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_a8c0bca320c7c343a084.bin");
+const u16 gProjectStairsAttrs_c3105ac71a077c19c87e[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_c3105ac71a077c19c87e.bin");
+const u16 gProjectStairsAttrs_cdcc878e46a0031716d6[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_cdcc878e46a0031716d6.bin");
+const u16 gProjectStairsAttrs_ce441c026d1e6b888d11[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_ce441c026d1e6b888d11.bin");
+const u16 gProjectStairsAttrs_d2f4cc269f893a7e5f71[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_d2f4cc269f893a7e5f71.bin");
+const u16 gProjectStairsAttrs_de1d708b36e2d3f06404[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_de1d708b36e2d3f06404.bin");
+const u16 gProjectStairsAttrs_e7042078ee03695f7f39[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_e7042078ee03695f7f39.bin");
+const u16 gProjectStairsAttrs_efed302a589ebcf7c731[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_efed302a589ebcf7c731.bin");
+const u16 gProjectStairsAttrs_f8093e65795e469f62a3[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_f8093e65795e469f62a3.bin");
+
+
+/* Exact graphics matches to reviewed Hoenn vertical stair tiles. */
+const u16 gProjectStairsVisualAttrs_33c6da98237c9f794e7a[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin");
+const u16 gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab.bin");
+const u16 gProjectStairsVisualAttrs_aeb5f086e042e8f36902[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_aeb5f086e042e8f36902.bin");

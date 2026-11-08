@@ -1,3 +1,7 @@
+const u32 gTrainerFrontPic_LaPetrel[] = INCGFX_U32("graphics/trainers/front_pics/la_petrel.png", ".4bpp.smol");
+const u16 gTrainerPalette_LaPetrel[] = INCGFX_U16("graphics/trainers/palettes/la_petrel.pal", ".gbapal");
+const u32 gTrainerFrontPic_LaAriana[] = INCGFX_U32("graphics/trainers/front_pics/la_ariana.png", ".4bpp.smol");
+const u16 gTrainerPalette_LaAriana[] = INCGFX_U16("graphics/trainers/palettes/la_ariana.pal", ".gbapal");
 const u32 gTrainerFrontPic_HyperRivalBrendan[] = INCGFX_U32("graphics/trainers/front_pics/hyper_rival_brendan.png", ".4bpp.smol");
 const u16 gTrainerPalette_HyperRivalBrendan[] = INCGFX_U16("graphics/trainers/front_pics/hyper_rival_brendan.png", ".gbapal");
 const u32 gTrainerFrontPic_HyperRivalMay[] = INCGFX_U32("graphics/trainers/front_pics/hyper_rival_may.png", ".4bpp.smol");
@@ -775,6 +779,8 @@ const u16 gTrainerPalette_HyperClass53[] = INCGFX_U16("graphics/trainers/front_p
 const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
 {
 #include "donor_front_portrait_entries.h"
+    [TRAINER_PIC_LA_PETREL] = {.frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_LaPetrel, gTrainerPalette_LaPetrel)},
+    [TRAINER_PIC_LA_ARIANA] = {.frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_LaAriana, gTrainerPalette_LaAriana)},
     [TRAINER_PIC_AREN] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Aren, gTrainerPalette_Aren),

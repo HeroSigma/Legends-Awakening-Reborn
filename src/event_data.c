@@ -132,8 +132,7 @@ void ClearMysteryGiftVars(void)
 {
     VarSet(VAR_GIFT_PICHU_SLOT, 0);
     // Former unused gift slots 1-3 now hold persistent Legends story state.
-    VarSet(VAR_GIFT_UNUSED_4, 0);
-    VarSet(VAR_GIFT_UNUSED_5, 0);
+    // Gift slots 4/5 now hold the Ashes/Silph story and opponent index.
     VarSet(VAR_GIFT_UNUSED_6, 0);
     VarSet(VAR_GIFT_UNUSED_7, 0);
 }

@@ -469,6 +469,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Birch::
 	goto_if_lt VAR_LA_RIFT_TRACKER, 2, RiftResearch_Briefing
 	goto_if_eq VAR_LA_OAK_STARTER, 0, RiftResearch_OakCatchUp
 RiftResearch_BirchNormal::
+	call_if_eq VAR_LA_RIFT_TRACKER, 2, LegendsQuest_EnsureTracker
 	goto_if_eq VAR_LA_LITTLEROOT_ARC, 3, LegendsArc_ResumeDex
 	lock
 	faceplayer

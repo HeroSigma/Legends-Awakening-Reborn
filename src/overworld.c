@@ -1,5 +1,6 @@
 #include "global.h"
 #include "full_sheet_stream.h"
+#include "legends_ashes.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -1870,6 +1871,7 @@ u8 UpdateSpritePaletteWithTime(u8 paletteNum)
 static void OverworldBasic(void)
 {
     ScriptContext_RunScript();
+    LegendsAshes_Update();
     RunTasks();
     AnimateSprites();
     CameraUpdate();

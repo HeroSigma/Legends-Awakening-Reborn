@@ -2706,3 +2706,31 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_spoken_dialogue.inc"
 
 	.include "data/scripts/legends_rift_research.inc"
+
+	.include "data/scripts/legends_quests.inc"
+
+	.include "data/scripts/legends_ashes.inc"
+
+	.include "data/maps/Kanto_SaffronCity/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_1F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_2F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_3F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_4F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_5F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_6F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_7F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_8F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_9F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_10F/scripts.inc"
+
+	.include "data/maps/Kanto_SilphCo_11F/scripts.inc"

@@ -54,9 +54,9 @@ TimelessWoods_EventScript_Conspiracy::
     applymovement LOCALID_CAMERA, TimelessWoods_FaceUpStep
     waitmovement 0
     delay 24
-    setspeaker SP_NAME_GIOVANNI
+    setspeaker SP_NAME_MAN_IN_SUIT
     msgbox TimelessWoods_Text_Discovery, MSGBOX_DEFAULT
-    setspeaker SP_NAME_CYRUS
+    setspeaker SP_NAME_BLUE_HAIRED_MAN
     msgbox TimelessWoods_Text_Resonance, MSGBOX_DEFAULT
     closemessage
     applymovement 1, TimelessWoods_FaceLeft
@@ -68,11 +68,11 @@ TimelessWoods_EventScript_Conspiracy::
     waitse
     applymovement 1, TimelessWoods_PickUp
     waitmovement 0
-    setspeaker SP_NAME_GIOVANNI
+    setspeaker SP_NAME_MAN_IN_SUIT
     msgbox TimelessWoods_Text_Stabilize, MSGBOX_DEFAULT
-    setspeaker SP_NAME_CYRUS
+    setspeaker SP_NAME_BLUE_HAIRED_MAN
     msgbox TimelessWoods_Text_Plan, MSGBOX_DEFAULT
-    setspeaker SP_NAME_GIOVANNI
+    setspeaker SP_NAME_MAN_IN_SUIT
     msgbox TimelessWoods_Text_Secrecy, MSGBOX_DEFAULT
     closemessage
     applymovement 1, TimelessWoods_LeaveGiovanni
@@ -171,9 +171,9 @@ TimelessWoods_Text_Resonance:
 TimelessWoods_Text_Stabilize:
     .string "Then this little item may be the\nkey to stabilizing the rifts.\pNo more waiting for a portal\nto open by chance.$"
 TimelessWoods_Text_Plan:
-    .string "Stable passage would let us\nmove between worlds at will.\pFirst, we must learn how to\ncontrol the destination.$"
+    .string "Each team will supply its data.\nI will resolve the destination.\pOnce the device is calibrated,\nwe can choose where to cross.$"
 TimelessWoods_Text_Secrecy:
-    .string "The professors must not find it.\pAnd keep those children out of\nour way. All of them.\pBy the time anyone understands,\nwe'll control the crossings.$"
+    .string "Tell the others to keep their\noperations quiet.\pThe professors must not find it.\nKeep those children away, too.\pBy the time anyone understands,\nwe'll control the crossings.$"
 TimelessWoods_Text_Recognition:
     .string "{COLOR LIGHT_BLUE}Those two…\nI've seen them before.\pBut where?\pI need to tell Professor Birch\nwhat I heard.\pWhere did they go?\nI need to know more.$"
 TimelessWoods_Text_Distant:
@@ -192,6 +192,7 @@ HyperHoenn_34_67_Timeless_Woods_Text_HyperConstruction_Registered1:
 	.string "Please check back later!$"
 
 LegendsParadigm_ShowWoodsSearch::
+	goto_if_set FLAG_LA_ASHES_WOODS_DEPARTURE, LegendsParadigm_WoodsSearchShown
 	clearflag FLAG_TEMP_3
 	goto_if_ne VAR_LA_PARADIGM_ARC, 4, LegendsParadigm_WoodsSearchShown
 	clearflag FLAG_TEMP_4
@@ -217,7 +218,7 @@ LegendsParadigm_WoodsLead::
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsParadigm_Text_Scout, MSGBOX_DEFAULT
 	setspeaker SP_NAME_PLAYER
-	msgbox LegendsParadigm_Text_AskScout, MSGBOX_DEFAULT
+	call LegendsParadigm_AskScout
 	setspeaker SP_NAME_SHADOW_TRIAD
 	msgbox LegendsParadigm_Text_ScoutWarning, MSGBOX_DEFAULT
 	closemessage
@@ -235,6 +236,9 @@ LegendsParadigm_WoodsLead::
 	end
 
 LegendsParadigm_WoodsRepeat::
+	goto_if_lt VAR_LA_RIFT_TRACKER, 2, LegendsParadigm_WoodsRepeatLegacy
+	goto_if_unset FLAG_LA_ASHES_WOODS_DEPARTURE, LegendsAshes_WoodsDeparture
+LegendsParadigm_WoodsRepeatLegacy:
 	setspeaker SP_NAME_MAY
 	msgbox LegendsParadigm_Text_NorthernLead, MSGBOX_DEFAULT
 	closemessage
@@ -249,8 +253,18 @@ LegendsParadigm_Text_Scout:
 LegendsParadigm_Text_AskScout:
 	.string "How do you know about Wally?\pWhere are the men with the\nR and G on their clothes?$"
 LegendsParadigm_Text_ScoutWarning:
-	.string "They have moved the device.\nWe are following them as well.\pWatch the northern opening.\nThey left something active there.\pIf you rush after them, your\nfriend won't be the last to vanish.$"
+	.string "The device is already in transit.\nWe are securing their route.\pThe northern opening is restricted.\nTurn back while you still can.\pYour friend's crossing was\nrecorded. So was yours.$"
 LegendsParadigm_Text_NorthernLead:
 	.string "He knew about Wally before we\nsaid anything. Dad needs to hear.\pI'll watch the northern opening.\nLet's find out what they left.$"
 LegendsParadigm_Text_ReportBeforeCrossing:
 	.string "We tell Paradigm before anyone\nsteps through another rift.$"
+
+LegendsParadigm_AskScout::
+    goto_if_set FLAG_LA_HEARD_GIOVANNI, LegendsParadigm_AskScoutByName
+    msgbox LegendsParadigm_Text_AskScout, MSGBOX_DEFAULT
+    return
+LegendsParadigm_AskScoutByName:
+    msgbox LegendsParadigm_Text_AskGiovanni, MSGBOX_DEFAULT
+    return
+LegendsParadigm_Text_AskGiovanni:
+    .string "How do you know about Wally?\pIs Giovanni the man in the suit?\nWhere did you take that device?$"

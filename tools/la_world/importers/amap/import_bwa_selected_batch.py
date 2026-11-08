@@ -12,7 +12,7 @@ def main():
  manifest=json.loads((R/'.la_work/amap/bwa_selected_assets/selected_asset_manifest.json').read_text());rows=manifest['maps'];assert len(rows)==19
  protected={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest() for root in ['data/maps','data/layouts','data/tilesets'] for p in (R/root).rglob('*') if p.is_file() and ('AMap' in str(p) or 'amap_' in str(p))}
  native=enums(R/'include/constants/metatile_behaviors.h');ref=R/'.la_work/amap/firered_behaviors_reference.h';donor={int(v,16):n for n,v in re.findall(r'#define (MB_\w+) (0x[0-9A-Fa-f]+)',ref.read_text())}
- aliases={'MB_ROCK_STAIRS':'MB_NORMAL','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_POWER_PLANT_MACHINE':'MB_NORMAL','MB_BLINKING_LIGHTS':'MB_NORMAL'}
+ aliases={'MB_ROCK_STAIRS':'MB_ROCK_STAIRS','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_POWER_PLANT_MACHINE':'MB_NORMAL','MB_BLINKING_LIGHTS':'MB_NORMAL'}
  # Visual mechanics without donor script ownership. Unwired warp behaviors are ordinary terrain during inspection.
  def translate(b):
   n=donor.get(b);n=aliases.get(n,n)

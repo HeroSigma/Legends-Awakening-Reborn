@@ -35,6 +35,25 @@ void AssignUsableGimmicks(void)
     }
 }
 
+// Keep unrestricted gimmicks selectable when the player owns multiple devices.
+bool32 CycleUsableGimmick(enum BattlerId battler)
+{
+    enum Gimmick current = gBattleStruct->gimmick.usableGimmick[battler];
+    for (u32 offset = 1; offset < GIMMICKS_COUNT; offset++)
+    {
+        enum Gimmick next = (current + offset) % GIMMICKS_COUNT;
+        if (next != GIMMICK_NONE && CanActivateGimmick(battler, next))
+        {
+            gBattleStruct->gimmick.playerSelect = FALSE;
+            DestroyGimmickTriggerSprite();
+            gBattleStruct->gimmick.usableGimmick[battler] = next;
+            CreateGimmickTriggerSprite(battler);
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
 // Returns whether a battler is able to use a gimmick. Checks consumption and gimmick specific functions.
 bool32 CanActivateGimmick(enum BattlerId battler, enum Gimmick gimmick)
 {

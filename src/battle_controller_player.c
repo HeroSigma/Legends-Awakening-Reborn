@@ -898,6 +898,15 @@ void HandleInputChooseMove(enum BattlerId battler)
             TryChangeZTrigger(battler, gMoveSelectionCursor[battler]);
         }
     }
+    else if (B_MOVE_REARRANGEMENT_IN_BATTLE >= GEN_4 && JOY_NEW(SELECT_BUTTON)
+             && !gBattleStruct->descriptionSubmenu)
+    {
+        if (CycleUsableGimmick(battler))
+        {
+            ReloadMoveNames(battler);
+            PlaySE(SE_SELECT);
+        }
+    }
     else if (B_MOVE_REARRANGEMENT_IN_BATTLE < GEN_4 && JOY_NEW(SELECT_BUTTON) && !gBattleStruct->zmove.viewing && !gBattleStruct->descriptionSubmenu)
     {
         if (gNumberOfMovesToChoose > 1 && !(gBattleTypeFlags & BATTLE_TYPE_LINK))
