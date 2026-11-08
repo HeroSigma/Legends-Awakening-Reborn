@@ -4,6 +4,7 @@ LavaridgeTown_MapScripts::
 	.byte 0
 
 LavaridgeTown_OnTransition:
+	call LegendsAshes_LavaridgeTransition
 	setflag FLAG_VISITED_LAVARIDGE_TOWN
 	call_if_set FLAG_WHITEOUT_TO_LAVARIDGE, LavaridgeTown_EventScript_ClearLavaridgeWhiteOut
 	call_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, LavaridgeTown_EventScript_ShowMtChimneyTrainers
@@ -38,6 +39,7 @@ LavaridgeTown_EventScript_HideMapNamePopup::
 	return
 
 LavaridgeTown_OnFrame:
+	map_script_2 VAR_TEMP_6, 0, LegendsAshes_Returned
 	map_script_2 VAR_LAVARIDGE_TOWN_STATE, 1, LavaridgeTown_EventScript_RivalGiveGoGoggles
 	.2byte 0
 

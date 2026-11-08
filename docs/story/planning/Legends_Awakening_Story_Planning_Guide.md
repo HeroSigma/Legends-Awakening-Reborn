@@ -23,7 +23,7 @@ Elara is the player's mother. Norman is an established ally and mentor, not the 
 
 Characters displaced from another region do not automatically know they are in Hoenn. Introductions and regional discoveries should happen on screen. The player does not know the names of unfamiliar professors merely because their voices joined a call.
 
-Villain factions may investigate the same rifts for different reasons. The story has not established that Aqua, Plasma, Rocket and Galactic are a single alliance. Their actions should not be treated as proof of cooperation without a scene that establishes it.
+Giovanni has united the villain factions. Their different ambitions and methods support a coordinated operation. Early scenes hint at shared data and orders; the Kanto Power Plant transmission first explicitly names Giovanni. The player does not yet know the full coalition roster. See ../villain_alliance/canon.md for the current reveal order.
 
 New chapters should review dialogue, facing, entrances, exits, camera movement, text color, rewards and recovery after losing. Story battles do not ask Singles or Doubles. That choice belongs to Gym and League battles outside fixed story encounters.
 
@@ -113,7 +113,7 @@ Roxanne remains the first Rustboro milestone and has a level-16 cap. The Devon t
 
 Aqua steals research hardware. The player pursues the thief into Rusturf Tunnel, protects Peeko, recovers the package and meets Briney. Spoken exchanges replace silent assumptions about why the player is helping.
 
-The Aqua theft acknowledges the earlier research incident without asserting an alliance with the Triad.
+The Aqua theft acknowledges the earlier research incident. Both thefts support the alliance, although the player has not yet established that connection.
 
 ### Devon and the basement researcher
 
@@ -165,7 +165,9 @@ The player, Wally and Kirlia enter the Gym-style travel rift. They arrive at the
 
 Wattson is inside holding the breaker situation under control, facing the box at X2 Y9 from X2 Y10. The reactor interaction is at X8 Y11.
 
-### Miraidon and the separated return
+### The Rocket transmission, Miraidon and the separated return
+
+After the player agrees to shut down the reactor, Rocket Control interrupts over the relay radio. It cites Giovanni's orders and says the other teams await the readings. The player questions the voice, Wattson answers, and they cut the channel. This sets FLAG_LA_HEARD_GIOVANNI; declining the shutdown reveals nothing.
 
 Shutting down the reactor draws Miraidon toward the player. Its regular Pokemon overworld sprite is used. The level-70 battle is a forced loss and capture is blocked.
 
@@ -175,7 +177,7 @@ Only the player and Wattson arrive in Mauville Gym. **Wally and Kirlia do not re
 
 ### Paradigm and Wattson's Gym
 
-The player calls Birch and reports Route 10, the Power Plant, Miraidon and the missing pair. Birch and Rowan are on a joint call with six colleagues.
+The player calls Birch and reports Route 10, the Power Plant, Miraidon and the missing pair. Birch and Rowan are on a joint call with six colleagues. If the player heard the transmission, they report Giovanni's name and the shared readings. Birch connects the name to Norman's description; Rowan recognizes a coordinated operation. Older completed-rescue saves without the knowledge flag skip this report.
 
 The Paradigm Society consists of **Birch, Elm, Rowan, Oak, Juniper, Sycamore, Kukui and Burnet**. Paradigm is the short name. Unfamiliar voices remain unnamed to the player until properly introduced.
 
@@ -191,15 +193,15 @@ The uncle receives the report. May joins the search. Wally remains absent from t
 
 ### Returning to Timeless Woods
 
-May meets the player at the old device clearing. A Triad scout knows that Wally reached Kanto and says the device has moved. The scout claims to be following Giovanni and Cyrus as well.
+May meets the player at the old device clearing. A Triad scout knows that Wally reached Kanto and says the device has moved. The scout is securing the route used to transport the device, not pursuing Giovanni and Cyrus as enemies. A player who heard the radio can ask about Giovanni by name; other saves retain the R/G description.
 
-The scout warns that something was left active near the northern opening. May stays to watch the area. The player insists on informing Paradigm before another crossing.
+The scout warns that the northern opening is restricted and that the alliance recorded both crossings. May stays to watch the area. The player insists on informing Paradigm before another crossing.
 
 **Current planning edge:** This is an investigation lead, not permission to enter the natural Ultra Space wormhole before the League.
 
 ### Birch Oak and the Rift Tracker
 
-After Wattson's first defeat, Birch calls and asks the player to visit the Littleroot lab with the PokeNav and Journal. Wally's family can be helped first.
+After Wattson's first defeat, Birch calls and asks the player to visit the Littleroot lab with the PokeNav. Wally's family can be helped first.
 
 Oak is with Birch. Birch introduces him as Professor Oak from Kanto and one of the earlier call's voices. Oak introduces himself as Samuel Oak and responds to the player's concern for Wally.
 
@@ -250,8 +252,8 @@ The remaining natural-wormhole encounter stories are not authored yet. The Leagu
 2. Establish how the player updates Birch after learning Wally is safe. Avoid leaving a spoken promise unresolved.
 3. Explain why Wally and Kirlia reached Route 10 again while the player and Wattson returned to the Gym.
 4. Decide what the scout meant by the northern opening without unlocking the natural Ultra Space route before the League.
-5. Give Giovanni and Cyrus separate motivations for the device and decide whether their cooperation lasts.
-6. Define the Triad's employer and its relationship to Colress, N and Ghetsis. Their involvement is not yet established.
+5. Develop each leader's personal stake within Giovanni's alliance. Any later betrayal must be explicitly authored; their current cooperation is established canon.
+6. Develop the Triad's reporting chain within the alliance, and reveal how Ghetsis and Colress contribute. Do not automatically treat N or other former members as villains.
 7. Continue Archie's sea-rift thread and choose when Magma enters the custom story.
 8. Resolve Colress's opening-news role versus the Paradigm Society's research role.
 9. Decide which rivals receive full regional arcs and which remain tournament or side-story guests.
@@ -266,7 +268,7 @@ These are planning options, not implemented scenes.
 - **Kanto response:** Blue, Oak, Red and Green or Leaf can connect the player to the Kanto displacement problem. Lance and the named Rocket executives have strong HnS support.
 - **Johto investigation:** Elm, Ethan, Silver, Kris, Lyra, Eusine and Kurt provide a natural group for legends, unusual signals and practical research.
 - **Sinnoh evidence:** Rowan, Barry, Lucas, Dawn and Cynthia can examine the rifts and Cyrus. Palmer also creates a personal connection to Barry.
-- **Unova research conflict:** Juniper, Cheren, N, Colress, Ghetsis and the Triad provide several distinct viewpoints. Do not introduce them as a united faction by default.
+- **Unova research conflict:** Juniper, Cheren, N, Colress, Ghetsis and the Triad provide several distinct viewpoints. The villain members serve Giovanni's alliance; Juniper, Cheren, N and other non-villain characters are not automatically members.
 - **Kalos energy specialists:** Sycamore's physical art still needs matching. Most Kalos Gym and Elite Four battle portraits are available, while their overworld matches are less complete.
 - **Alola and Ultra Space:** Kukui, Burnet, Lillie, Gladion, Lusamine and Faba are strong thematic candidates. Many physical NPC matches still need work before scenes can be staged.
 - **Galar Dynamax follow-up:** Gloria, Hop, Bede and Marnie already have selected overworld sprites. Leon and the Gym cast have battle art. This can pay off the Band found after Hoopa.

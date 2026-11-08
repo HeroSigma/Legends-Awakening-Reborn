@@ -14,7 +14,7 @@ def main():
  shared={"data/layouts/layouts.json","data/maps/map_groups.json","data/event_scripts.s","src/data/region_map/region_map_sections.json","src/data/tilesets/headers.h","src/data/tilesets/graphics.h","src/data/tilesets/metatiles.h"}
  protected={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest() for root in ["data","src","include"] for p in (R/root).rglob("*") if p.is_file() and str(p.relative_to(R)) not in shared}
  native=enums(R/"include/constants/metatile_behaviors.h");donor={int(v,16):n for n,v in re.findall(r"#define (MB_\w+) (0x[0-9A-Fa-f]+)",(R/".la_work/amap/firered_behaviors_reference.h").read_text())}
- aliases={"MB_ROCK_STAIRS":"MB_NORMAL","MB_SAND_CAVE":"MB_CAVE","MB_RUNNING_DISALLOWED":"MB_NO_RUNNING"}
+ aliases={"MB_ROCK_STAIRS":"MB_ROCK_STAIRS","MB_SAND_CAVE":"MB_CAVE","MB_RUNNING_DISALLOWED":"MB_NO_RUNNING"}
  declarations={k:[] for k in ["headers","graphics","metatiles"]};labels={};behaviors=[]
  for folder in sorted((source/"tilesets").iterdir()):
   meta=json.loads((folder/"tileset.json").read_text());key=meta["id"];label="gTileset_KantoAR_"+key;labels[key]=label

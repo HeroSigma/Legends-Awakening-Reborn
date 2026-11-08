@@ -5,6 +5,7 @@
 #include "legends_trainers.h"
 #include "pokemon.h"
 #include "caps.h"
+#include "legends_ashes.h"
 #include "wild_progression.h"
 #include "move.h"
 #include "battle_setup.h"
@@ -14,6 +15,7 @@
 #include "constants/flags.h"
 #include "constants/opponents.h"
 #include "constants/pokeball.h"
+#include "constants/maps.h"
 
 struct WildLevelParent { enum Species species; u8 level; };
 #include "data/wild_level_parents.h"
@@ -41,6 +43,41 @@ struct LegendsTeamProfile {
     u8 level, theme, shinyAce, formatChoice;
 };
 #include "data/legends_trainer_profiles.h"
+static const struct LegendsTeamProfile sSilphProfiles[] = {
+    {{SPECIES_RATICATE,SPECIES_GOLBAT,SPECIES_GRIMER,SPECIES_DROWZEE,SPECIES_MAGNEMITE,SPECIES_ARBOK}, 27, THEME_BALANCE, 0, 0},
+    {{SPECIES_GOLBAT,SPECIES_GROWLITHE,SPECIES_PERSIAN,SPECIES_KOFFING,SPECIES_DROWZEE,SPECIES_RATICATE}, 28, THEME_BALANCE, 0, 0},
+    {{SPECIES_MAGNEMITE,SPECIES_VOLTORB,SPECIES_GRIMER,SPECIES_GOLBAT,SPECIES_RATICATE,SPECIES_HYPNO}, 29, THEME_BALANCE, 0, 0},
+    {{SPECIES_ARBOK,SPECIES_KOFFING,SPECIES_PERSIAN,SPECIES_MAGNEMITE,SPECIES_DITTO,SPECIES_GOLBAT}, 30, THEME_BALANCE, 0, 0},
+    {{SPECIES_DROWZEE,SPECIES_GOLBAT,SPECIES_RATICATE,SPECIES_GRIMER,SPECIES_VOLTORB,SPECIES_PERSIAN}, 27, THEME_BALANCE, 0, 0},
+    {{SPECIES_KOFFING,SPECIES_ARBOK,SPECIES_HYPNO,SPECIES_DITTO,SPECIES_GROWLITHE,SPECIES_RATICATE}, 28, THEME_BALANCE, 0, 0},
+    {{SPECIES_PERSIAN,SPECIES_MAGNEMITE,SPECIES_GOLBAT,SPECIES_KOFFING,SPECIES_GRIMER,SPECIES_ARBOK}, 29, THEME_BALANCE, 0, 0},
+    {{SPECIES_GROWLITHE,SPECIES_RATICATE,SPECIES_DITTO,SPECIES_VOLTORB,SPECIES_HYPNO,SPECIES_GOLBAT}, 30, THEME_BALANCE, 0, 0},
+    {{SPECIES_RATICATE,SPECIES_KOFFING,SPECIES_GRIMER,SPECIES_ARBOK,SPECIES_DITTO,SPECIES_GOLBAT}, 32, THEME_BALANCE, 1, 0},
+    {{SPECIES_ARBOK,SPECIES_HYPNO,SPECIES_MURKROW,SPECIES_HOUNDOUR,SPECIES_VILEPLUME,SPECIES_GOLBAT}, 32, THEME_BALANCE, 1, 0},
+    {{SPECIES_NUMEL,SPECIES_POOCHYENA,SPECIES_ZUBAT,SPECIES_KOFFING,SPECIES_SANDSHREW,SPECIES_MIGHTYENA}, 32, THEME_BALANCE, 0, 0},
+};
+static const struct Trainer sSilphBases[] = {
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("PETREL"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_LA_PETREL, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("ARIANA"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_LA_ARIANA, .gender = TRAINER_GENDER_FEMALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_MAGMA, .trainerPic = TRAINER_PIC_DONOR_MAGMA_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+};
+static s32 SilphProfileIndex(u32 id)
+{
+    if (id != TRAINER_GRUNT_UNUSED) return -1;
+    u32 n = VarGet(VAR_LA_SILPH_OPPONENT);
+    if (LegendsAshes_IsSilph() && n >= 1 && n <= 10) return n - 1;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FALLARBOR_TOWN_COZMOS_HOUSE)
+        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FALLARBOR_TOWN_COZMOS_HOUSE) && n == 11) return 10;
+    return -1;
+}
 static EWRAM_DATA u16 sCachedIds[4] = {0};
 static EWRAM_DATA u8 sCachedCaps[4] = {0};
 static EWRAM_DATA u8 sCachedPlayerLevels[4] = {0};
@@ -103,10 +140,11 @@ u32 LegendsTrainer_Gimmick(u32 trainerId)
     if (trainerId != TRAINER_NONE && trainerId == sGymGimmickTrainer)
         return sGymGimmick;
 
-    // Other trainer profiles keep their stable Tera or Z-Move assignment.
+    // Ordinary trainers can use Tera, Z-Moves or Dynamax. Assignment stays
+    // stable per trainer/save; Gym leaders reroll on each attempt.
     u32 x=READ_OTID_FROM_SAVE ^ (trainerId*0x9e3779b9u);
     x ^= x>>16; x *= 0x7feb352du; x ^= x>>15;
-    return 1+(x&1);
+    return TEAM_GIMMICK_TERA + x % 3;
 }
 
 bool32 LegendsTrainer_MoveLegal(u32 species,u32 level,u32 move)
@@ -310,7 +348,7 @@ static void BuildMember(struct TrainerMon *mon,enum Species desired,u32 level,u3
 
 bool32 LegendsTrainer_HasProfile(u32 id)
 {
-    return id<TRAINERS_COUNT && sFullProfiles[id].species[0]!=SPECIES_NONE;
+    return SilphProfileIndex(id) >= 0 || (id<TRAINERS_COUNT && sFullProfiles[id].species[0]!=SPECIES_NONE);
 }
 
 bool32 LegendsTrainer_IsFormatChoice(u32 id)
@@ -390,6 +428,8 @@ u32 __attribute__((noinline)) LegendsTrainer_ScaledLevel(u32 authoredLevel)
 const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *base)
 {
     if (!FlagGet(FLAG_LA_RED_DEX_GIFTS) || !LegendsTrainer_HasProfile(trainerId)) return base;
+    s32 storyIndex = SilphProfileIndex(trainerId);
+    if (storyIndex >= 0) base = &sSilphBases[storyIndex];
     u32 cap=GetCurrentLevelCap();
     u32 playerLevel=GetWildBadgeStage();
     bool32 doubles=LegendsTrainer_IsFormatChoice(trainerId)?(sFormatTrainer==trainerId && sDoubleFormat):base->battleType==TRAINER_BATTLE_TYPE_DOUBLES;
@@ -400,9 +440,10 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     struct Trainer *trainer=&sTrainers[index];
     *trainer=*base;
     struct TrainerMon *team=sMembers[index];
-    const struct LegendsTeamProfile *profile=&sFullProfiles[trainerId];
+    const struct LegendsTeamProfile *profile=storyIndex >= 0 ? &sSilphProfiles[storyIndex] : &sFullProfiles[trainerId];
     u32 level;
-    if (profile->formatChoice)
+    if (storyIndex >= 0) level = min(cap, profile->level);
+    else if (profile->formatChoice)
         level = min(cap, profile->level); // Gym/League milestones retain authored levels.
     else
     {

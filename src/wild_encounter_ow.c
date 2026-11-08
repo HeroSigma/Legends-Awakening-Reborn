@@ -906,15 +906,11 @@ static u32 GetGraphicsIdForOWE(const struct InfoOWE *info)
 
 static bool32 CheckCanLoadOWE(enum Species speciesId, bool32 isFemale, bool32 isShiny, s32 x, s32 y)
 {
-    assertf(CheckCanLoadOWE_Palette(speciesId, isFemale, isShiny, x, y), "could not load palette for overworld encounter\nspecies: %d\nfemale: %d\nshiny: %d\ncoords: %d %d", speciesId, isFemale, isShiny, x, y)
-    {
+    // Palette/tile pressure is expected on populated maps, especially for large
+    // regional sprites. The caller defers spawning and retries on its timer.
+    if (!CheckCanLoadOWE_Palette(speciesId, isFemale, isShiny, x, y)
+     || !CheckCanLoadOWE_Tiles(speciesId, isFemale, isShiny, x, y))
         return FALSE;
-    }
-
-    assertf(CheckCanLoadOWE_Tiles(speciesId, isFemale, isShiny, x, y), "could not load sprite tiles for overworld encounter\nspecies: %d\nfemale: %d\nshiny: %d\ncoords: %d %d", speciesId, isFemale, isShiny, x, y)
-    {
-        return FALSE;
-    }
 
     return TRUE;
 }

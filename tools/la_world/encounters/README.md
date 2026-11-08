@@ -12,3 +12,5 @@ All active regions temporarily follow Hoenn badges. Legendary/mythical/Paradox/
 Ultra Beast pools are excluded except Poipole; Naganadel remains evolution-only.
 
 See docs/la_world/wild_pools/review.md for rules, limits and native validation.
+
+Regional homes are authored per evolution family. Gen 5 and later imports are split between Kanto, Johto, Hoenn and Sinnoh. Unova is preserved but cannot satisfy species coverage. See docs/la_world/wild_pools/regional-distribution.md and run test_regional_assignment.py after rebuilding.

@@ -228,7 +228,9 @@ LegendsBedroom_Conversation:
     goto_if_set FLAG_LA_RECEIVED_TERA_ORB, LegendsBedroom_AfterItem
     checkitem ITEM_TERA_ORB
     goto_if_eq VAR_RESULT, TRUE, LegendsBedroom_ItemAlreadyPresent
-    giveitem ITEM_TERA_ORB
+    setvar VAR_0x8004, 0
+	setvar VAR_0x8000, ITEM_TERA_ORB
+	call LegendsQuest_StoryReward
     goto_if_eq VAR_RESULT, FALSE, LegendsBedroom_ItemFull
 LegendsBedroom_ItemAlreadyPresent:
     setflag FLAG_LA_RECEIVED_TERA_ORB

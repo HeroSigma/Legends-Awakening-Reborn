@@ -69,7 +69,9 @@ LegendsArc_LabIntro::
     setspeaker SP_NAME_RED
     msgbox LegendsArc_Text_RedCongratulates, MSGBOX_DEFAULT
     goto_if_set FLAG_LA_RECEIVED_RED_MEGA_RING, LegendsArc_AfterMegaRing
-    giveitem ITEM_MEGA_RING
+    setvar VAR_0x8004, 1
+	setvar VAR_0x8000, ITEM_MEGA_RING
+	call LegendsQuest_StoryReward
     goto_if_eq VAR_RESULT, FALSE, LegendsArc_RingBagFull
     setflag FLAG_LA_RECEIVED_RED_MEGA_RING
 LegendsArc_AfterMegaRing:
@@ -440,7 +442,9 @@ LegendsArc_Text_Companion:
 
 LegendsArc_ClaimRing:
     lockall
-    giveitem ITEM_MEGA_RING
+    setvar VAR_0x8004, 1
+	setvar VAR_0x8000, ITEM_MEGA_RING
+	call LegendsQuest_StoryReward
     goto_if_eq VAR_RESULT, FALSE, LegendsArc_RingBagFull
     setflag FLAG_LA_RECEIVED_RED_MEGA_RING
     goto LegendsArc_AfterMegaRing

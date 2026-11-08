@@ -1,6 +1,7 @@
 #include "global.h"
 #include "custom_start_menu.h"
 #include "adventure_journal.h"
+#include "legends_quests.h"
 #include "legends_store.h"
 #include "config/save.h"
 #include "battle_pike.h"
@@ -74,6 +75,7 @@ enum
     MENU_ACTION_DEXNAV,
     MENU_ACTION_JOURNAL,
     MENU_ACTION_STORE,
+    MENU_ACTION_QUESTS,
 };
 
 // Save status
@@ -119,6 +121,7 @@ static bool8 StartMenuBattlePyramidBagCallback(void);
 static bool8 StartMenuDebugCallback(void);
 static bool8 StartMenuDexNavCallback(void);
 static bool8 StartMenuJournalCallback(void);
+static bool8 StartMenuQuestsCallback(void);
 static bool8 StartMenuStoreCallback(void);
 
 // Menu callbacks
@@ -201,11 +204,12 @@ static const u8 sText_PageServices[] = _("L/R 2/2");
 
 static const u8 sText_MenuStore[] = _("LEGENDS STORE");
 
-static const u8 sText_MenuJournal[] = _("JOURNAL");
+static const u8 sText_MenuJournal[] = _("RIFT TRACKER");
+static const u8 sText_MenuQuests[] = _("QUESTS");
 static const u8 sText_MenuRiftTracker[] = _("RIFT TRACKER");
 static const u8 *JournalMenuLabel(void)
 {
-    return VarGet(VAR_LA_RIFT_TRACKER) >= 2 ? sText_MenuRiftTracker : sText_MenuJournal;
+    return sText_MenuRiftTracker;
 }
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
@@ -227,6 +231,7 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
     [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
     [MENU_ACTION_STORE]           = {sText_MenuStore, {.u8_void = StartMenuStoreCallback}},
+    [MENU_ACTION_QUESTS] = {sText_MenuQuests, {.u8_void = StartMenuQuestsCallback}},
     [MENU_ACTION_JOURNAL]         = {sText_MenuJournal, {.u8_void = StartMenuJournalCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
 };
@@ -246,10 +251,14 @@ static bool32 OpenCustomStartMenu(void)
         {
         case MENU_ACTION_POKEDEX:icons[i]=1;break;
         case MENU_ACTION_POKEMON:icons[i]=2;break;
-        case MENU_ACTION_BAG:case MENU_ACTION_STORE:icons[i]=3;break;
-        case MENU_ACTION_POKENAV:case MENU_ACTION_DEXNAV:icons[i]=0;break;
+        case MENU_ACTION_BAG:icons[i]=3;break;
+        case MENU_ACTION_STORE:icons[i]=16;break;
+        case MENU_ACTION_JOURNAL:icons[i]=18;break;
+        case MENU_ACTION_DEXNAV:icons[i]=20;break;
+        case MENU_ACTION_QUESTS:icons[i]=5;break;
+        case MENU_ACTION_POKENAV:icons[i]=0;break;
         case MENU_ACTION_PLAYER:icons[i]=4;break;
-        case MENU_ACTION_SAVE:case MENU_ACTION_JOURNAL:icons[i]=5;break;
+        case MENU_ACTION_SAVE:icons[i]=5;break;
         case MENU_ACTION_OPTION:case MENU_ACTION_DEBUG:icons[i]=6;break;
         default:icons[i]=14;break;
         }
@@ -387,7 +396,8 @@ static void BuildNormalStartMenu(void)
     else
     {
         if (DN_FLAG_DEXNAV_GET != 0 && FlagGet(DN_FLAG_DEXNAV_GET)) AddStartMenuAction(MENU_ACTION_DEXNAV);
-        AddStartMenuAction(MENU_ACTION_JOURNAL);
+        AddStartMenuAction(MENU_ACTION_QUESTS);
+        if (VarGet(VAR_LA_RIFT_TRACKER) >= 2) AddStartMenuAction(MENU_ACTION_JOURNAL);
         AddStartMenuAction(MENU_ACTION_STORE);
     }
     AddStartMenuAction(MENU_ACTION_EXIT);
@@ -717,6 +727,7 @@ static bool8 HandleStartMenuInput(void)
 
         if (gMenuCallback != StartMenuSaveCallback
             && gMenuCallback != StartMenuStoreCallback
+            && gMenuCallback != StartMenuQuestsCallback
             && gMenuCallback != StartMenuJournalCallback
             && gMenuCallback != StartMenuExitCallback
             && gMenuCallback != StartMenuDebugCallback
@@ -1597,5 +1608,13 @@ static bool8 StartMenuStoreCallback(void)
     RemoveExtraStartMenuWindows();
     HideStartMenuDebug();
     LegendsStore_Open();
+    return TRUE;
+}
+
+static bool8 StartMenuQuestsCallback(void)
+{
+    RemoveExtraStartMenuWindows();
+    HideStartMenuDebug();
+    LegendsQuests_Open();
     return TRUE;
 }

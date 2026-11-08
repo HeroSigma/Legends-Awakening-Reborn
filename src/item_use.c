@@ -1606,3 +1606,20 @@ void ItemUseOutOfBattle_TownMap(u8 taskId)
 }
 
 #undef tUsingRegisteredKeyItem
+
+static void Task_UseRiftTracker(u8 taskId)
+{
+    extern void AdventureJournal_Open(void);
+    AdventureJournal_Open();
+    DestroyTask(taskId);
+}
+void ItemUseOutOfBattle_RiftTracker(u8 taskId)
+{
+    if (MenuHelpers_IsLinkActive() || VarGet(VAR_LA_RIFT_TRACKER) != 2)
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].data[3]);
+    else
+    {
+        sItemUseOnFieldCB = Task_UseRiftTracker;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+}

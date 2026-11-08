@@ -1,5 +1,6 @@
 #include "global.h"
 #include "rift_tracker.h"
+#include "legends_quests.h"
 #include "event_data.h"
 #include "battle.h"
 #include "string_util.h"
@@ -51,6 +52,7 @@ static const u16 sBadgeFlags[] = {
 };
 bool32 RiftTracker_IsActive(void) { return VarGet(VAR_LA_RIFT_TRACKER) == 2; }
 u32 RiftTracker_Count(void) { return ARRAY_COUNT(sSites); }
+const u8 *RiftTracker_SiteName(u32 id) { return id < ARRAY_COUNT(sSites) ? sSites[id].name : COMPOUND_STRING("Unknown signal"); }
 
 // Shared by the UI and field interaction. Discovery never bypasses either gate.
 static u32 SiteState(u32 id)
@@ -58,7 +60,7 @@ static u32 SiteState(u32 id)
     u32 i;
     if (id >= ARRAY_COUNT(sSites) || !RiftTracker_IsActive()) return 0;
     if (!sSites[id].travel)
-        return FlagGet(FLAG_SYS_GAME_CLEAR) ? 2 : 5; // League victory, then the individual story seal.
+        return !FlagGet(FLAG_SYS_GAME_CLEAR) ? 5 : LegendsQuest_RiftAllowed(id) ? 3 : 2; // League victory, then the individual story seal.
     for (i = 0; i < sSites[id].badges; i++)
         if (!FlagGet(sBadgeFlags[i])) return 1;
     if (sSites[id].travel && VarGet(VAR_LA_PARADIGM_ARC) < 5) return 2;
@@ -71,6 +73,7 @@ void RiftTracker_Check(void)
     if (id < ARRAY_COUNT(sSites) && RiftTracker_IsActive())
     {
         if (id < 16) VarSet(VAR_LA_RIFT_SURVEYED, VarGet(VAR_LA_RIFT_SURVEYED) | (1 << id));
+        LegendsQuest_SurveyRift(id);
         StringCopy(gStringVar1, sSites[id].name);
     }
 }
@@ -84,7 +87,9 @@ bool32 RiftTracker_BlockWarp(const struct MapHeader *map, u32 warpId)
         if (sSites[i].travel || sSites[i].mapGroup != gSaveBlock1Ptr->location.mapGroup
             || sSites[i].mapNum != gSaveBlock1Ptr->location.mapNum || sSites[i].warpId != warpId)
             continue;
+        LegendsQuest_SurveyRift(i);
         state = SiteState(i);
+        if (state == 3) return FALSE;
         ScriptContext_SetupScript(state == 0 ? RiftResearch_BlockNoDetector
             : state == 1 ? RiftResearch_BlockRepelled
             : state == 5 ? RiftResearch_BlockLeague : RiftResearch_BlockSealed);
@@ -99,12 +104,15 @@ static void Print(u8 win, const u8 *text, u8 x, u8 y)
 }
 static const u8 *Lead(void)
 {
+    if (FlagGet(FLAG_LA_WALLY_RESCUED)) return COMPOUND_STRING("Wally and Kirlia are home.\nSilph's past connects to the alliance.\nAwait Paradigm; keep training.");
+    if (FlagGet(FLAG_LA_CHIMNEY_RESONANCE)) return COMPOUND_STRING("Hoopa opened a controlled crossing.\nFollow its ring on Mt. Chimney.\nWally's signal points to Saffron.");
+    if (FlagGet(FLAG_LA_ASHES_WOODS_DEPARTURE)) return COMPOUND_STRING("The matching pulse points north.\nMeet May at Cozmo's house\nin Fallarbor Town.");
     switch (VarGet(VAR_LA_PARADIGM_ARC))
     {
     case 2: return COMPOUND_STRING("Wally and Kirlia are missing.\nKeep your PokeNav ready for a call.\nParadigm is checking the readings.");
     case 3: return COMPOUND_STRING("Wally called from Kanto.\nVisit his family in Verdanturf.\nTell them he and Kirlia are safe.");
     case 4: return COMPOUND_STRING("May is following the Woods lead.\nMeet her at the clearing in\nTimeless Woods.");
-    default: return COMPOUND_STRING("The scout followed the same signal.\nInvestigate the northern opening\nin Timeless Woods with May.");
+    default: return COMPOUND_STRING("The scout was guarding their route.\nInvestigate the northern opening\nin Timeless Woods with May.");
     }
 }
 static const u8 *const sStatus[] = {
@@ -121,7 +129,7 @@ void RiftTracker_Draw(u8 win, u8 page, u8 selected)
         Print(win, COMPOUND_STRING("CURRENT INVESTIGATION"), 4, 20);
         Print(win, Lead(), 4, 36);
         Print(win, COMPOUND_STRING("LAST CONFIRMED INCIDENT"), 4, 84);
-        Print(win, COMPOUND_STRING("Mauville Gym / Kanto Power Plant\nWally and Kirlia crossed together.\nTheir return did not reach the Gym."), 4, 96);
+        Print(win, FlagGet(FLAG_LA_WALLY_RESCUED) ? COMPOUND_STRING("Past Saffron / Silph Co.\nTwo Giovannis met over shared data.\nHoopa brought everyone home.") : COMPOUND_STRING("Mauville Gym / Kanto Power Plant\nWally and Kirlia crossed together.\nTheir return did not reach the Gym."), 4, 96);
     }
     else if (page == 1)
     {

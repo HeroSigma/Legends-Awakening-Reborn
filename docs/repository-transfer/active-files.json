@@ -1,0 +1,1127 @@
+[
+  {
+    "path": "AGENTS.md",
+    "size": 4831,
+    "sha256": "d138bd4839b3494f1b6544bb2716b6aae7c75203c2db833151942520133d0029"
+  },
+  {
+    "path": "data/event_scripts.s",
+    "size": 130873,
+    "sha256": "aadb27096a6c1a9c0f1996435a57b6cf01fac5bafebe41d7bcb4d5d9448a2a46"
+  },
+  {
+    "path": "data/hyper_assets/canary5_layouts/Route117/map.bin",
+    "size": 2400,
+    "sha256": "14e2dd9c9b16fcded3171aa8c1b2915355545edb16cfff2f69711d4ab514dd27"
+  },
+  {
+    "path": "data/kanto_ar_assets/layouts/KantoAR_1_57_SilphCo_11F/map.bin",
+    "size": 680,
+    "sha256": "f70c276be62ad2bad3811c76f7e28bbd481024ef1be0e9c0f4c18e868cac81d2"
+  },
+  {
+    "path": "data/layouts/Accumula_FullSheetTest_Layout/map.bin",
+    "size": 2516,
+    "sha256": "5a8361ab42ba5d8f9e7edaa578a48f858eb988cb200df77da17c563d7235ce64"
+  },
+  {
+    "path": "data/layouts/Nuvema_FullSheetTest_Layout/border.bin",
+    "size": 8,
+    "sha256": "41ad41bdaf8acfabbbcf8603b5afae7ec990e16bd56ba568cf95f6c9b5bdad31"
+  },
+  {
+    "path": "data/layouts/layouts.json",
+    "size": 1463729,
+    "sha256": "0546f2e49979a54ea6f4dbb011a74727cff57255ca33951593649252c6f6c7a3"
+  },
+  {
+    "path": "data/maps/DewfordTown_Gym/scripts.inc",
+    "size": 15185,
+    "sha256": "f48f5affe5a6a042706ad1274d9660e9e28504d66286369d487824ac79983221"
+  },
+  {
+    "path": "data/maps/FallarborTown_CozmosHouse/map.json",
+    "size": 2941,
+    "sha256": "fa9ece3738b6a2cc3418215cdeefd65eaa489c12d3d387114d280fbad8569117"
+  },
+  {
+    "path": "data/maps/FallarborTown_CozmosHouse/scripts.inc",
+    "size": 4414,
+    "sha256": "04fdc1dfedc72a4dd45d467f29fa6b008ed40703dc2e052e17416f0f01fad1ec"
+  },
+  {
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "size": 10921,
+    "sha256": "6ada563c223f03629745fb06f3998732b542554cc854358deaec8556081067bf"
+  },
+  {
+    "path": "data/maps/Hoenn_Timeless_Woods/map.json",
+    "size": 4823,
+    "sha256": "8d06573970dd3b2861d3d029498e91a182a72c9a014bf83de7ecfa70f951c3fc"
+  },
+  {
+    "path": "data/maps/Hoenn_Timeless_Woods/scripts.inc",
+    "size": 8774,
+    "sha256": "915225e94ac686e02bbe5cc9786476f707c0697cf723bf32686e04c5b52541e4"
+  },
+  {
+    "path": "data/maps/Kanto_PowerPlant_Rift/scripts.inc",
+    "size": 10395,
+    "sha256": "437f73faddd2a26ec8e2cffd65f2fc83b06165c3f927ab1a13819f39f1ffdf46"
+  },
+  {
+    "path": "data/maps/Kanto_SaffronCity/map.json",
+    "size": 3721,
+    "sha256": "25b137b2edba057e2cc1e74cd30cb18206a096230a23770557f7a758f66c6e98"
+  },
+  {
+    "path": "data/maps/Kanto_SaffronCity/scripts.inc",
+    "size": 174,
+    "sha256": "3e0dc6dff14cb501b1f687d7ed7a0ef547981d934d689c05ec18f28c6af4072a"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_10F/map.json",
+    "size": 1320,
+    "sha256": "cc51548d00bb35cfdad923233ce72a802df2478d808ae38d7c0767c5c754f26f"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_10F/scripts.inc",
+    "size": 107,
+    "sha256": "d829851b99c285ef1b12ac07364150f61b959990ef9a418206f6c7483b1ec980"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_11F/map.json",
+    "size": 4909,
+    "sha256": "d4dc0d9f8b419ae849736e21f53e7523fb1eafbfce9bc174cd1cb8cdc9d2a94c"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_11F/scripts.inc",
+    "size": 106,
+    "sha256": "eeee00e290a7f1b06fdbb0fc8fe8a56b8a4ad3bfeecc9a805768924bafbf226f"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_1F/map.json",
+    "size": 1180,
+    "sha256": "43d7800a370df14a873d0c52c482fce407c36909b6a9670aad96b833683b2ebf"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_1F/scripts.inc",
+    "size": 106,
+    "sha256": "bcd6bba316ecf94a852bf1d4d96d6ef5cba8afdac30d005569828897c1fbbf77"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_2F/map.json",
+    "size": 1883,
+    "sha256": "c4905c1ae7af9427ca0d6d33c8c1eacf2e9b39ed3fe27112c341b0a5237e50a0"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_2F/scripts.inc",
+    "size": 106,
+    "sha256": "f23bb766062d1e761b187b7779fbe5dcfcd79421db2f81562bc6988670b8252f"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_3F/map.json",
+    "size": 2302,
+    "sha256": "a776a1cc92512bfa792d7b38e9ea2fcec429de2a356ebee14c227ce9929e6ef4"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_3F/scripts.inc",
+    "size": 106,
+    "sha256": "99ff7636dd2310a03e367c12d9bd9c7cb1395b837425779a42b32ca63eb25fbe"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_4F/map.json",
+    "size": 1887,
+    "sha256": "dc3e48fd7ce98f647e0be69de002cc28450156cb2ec5b0a6a4618641c562e868"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_4F/scripts.inc",
+    "size": 106,
+    "sha256": "29a96b4d1ac894ebf44cc68311f14ed4bab1871740fed7e3052601950652e955"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_5F/map.json",
+    "size": 1884,
+    "sha256": "e3a075c38b2cfc2c5759c83299966cb3e97318ba25411bbb896905761281f5de"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_5F/scripts.inc",
+    "size": 106,
+    "sha256": "a8c6f6674267f679c20df1b496d2ebe10952c442cb1bd57ab9f71d3735b09beb"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_6F/map.json",
+    "size": 1604,
+    "sha256": "4cf86333b369176773fd756e00b64be6589523077da12544b087f2fb7852334d"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_6F/scripts.inc",
+    "size": 106,
+    "sha256": "9269c5e8bc8ce9a0e2f6005e4c5ac9ba6323729b3654454a3e9a1c2d8171d646"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_7F/map.json",
+    "size": 1744,
+    "sha256": "cc5acafb4644bb7f31a55c8f9be0639ba90755b4752a18adffae69c1dfe564f6"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_7F/scripts.inc",
+    "size": 106,
+    "sha256": "47d8ae4eaaa708ea3f4e998e76c337ab83c9d17c6df0ba36c812cebe225a6b18"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_8F/map.json",
+    "size": 1884,
+    "sha256": "59c90a93ec41568056d432e15136c180b21adb4b1fe74affc3fafffdab67617f"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_8F/scripts.inc",
+    "size": 106,
+    "sha256": "8f9f3ae0a675f9346a4b4b0216271894f3cc60e0e2dbb33b8d7c56929eef0a9f"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_9F/map.json",
+    "size": 2483,
+    "sha256": "f264da160fff0dade0bdf929d46ff7446f35fd877ff11d7c4e6af91034b43851"
+  },
+  {
+    "path": "data/maps/Kanto_SilphCo_9F/scripts.inc",
+    "size": 106,
+    "sha256": "a2fe651b860a11bf4e719fd1345a6d5fade67f40b41defaa7637b261332c098c"
+  },
+  {
+    "path": "data/maps/LavaridgeTown/map.json",
+    "size": 7275,
+    "sha256": "b694ac5b159ad3b1e43c54a02925f2ba455a4a1f9a722409d3fae5f29c930dae"
+  },
+  {
+    "path": "data/maps/LavaridgeTown/scripts.inc",
+    "size": 12787,
+    "sha256": "fbf3947a00000f872f81f36ab0d10a6ed7fb6cdca32a3f88a1df1e8636e829fd"
+  },
+  {
+    "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+    "size": 15209,
+    "sha256": "35871ec7277ce3db99e35deb8c4b5e88483a80e1bee1e7482d56366b4f4b48ca"
+  },
+  {
+    "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+    "size": 40901,
+    "sha256": "df32ae2d0785aba3e808a10001d6a3a05381d7eba40fd47610a51a76d603d070"
+  },
+  {
+    "path": "data/maps/MauvilleCity/scripts.inc",
+    "size": 17023,
+    "sha256": "727a9e3f62044e2aae3ad2323997c916084bcc67b442af2363168095d9d0f17b"
+  },
+  {
+    "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+    "size": 26174,
+    "sha256": "b79d21e3315f7f8bc70bde35eeca90ef8b2c7b359e97a6b213db4d5acba4b281"
+  },
+  {
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "size": 8818,
+    "sha256": "05dc52ea87dbb0b617fd1f9742ed246d9e488d86ad35ea7f7380145a27c2d607"
+  },
+  {
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "size": 22642,
+    "sha256": "c2d5f31f235de37515121dcd592529ce55d3eab35af5245593a836c6fc65ab26"
+  },
+  {
+    "path": "data/maps/MtChimney/map.json",
+    "size": 15071,
+    "sha256": "0b9ec3ef5eeddb36fc0807a1d68173f77a18c156a9f60c119bbd03d71a859de0"
+  },
+  {
+    "path": "data/maps/MtChimney/scripts.inc",
+    "size": 20313,
+    "sha256": "292fb3fa11639160343356cfb03af8710fdc005031bc5cb2636c769a08e12aa1"
+  },
+  {
+    "path": "data/maps/OldaleTown/map.json",
+    "size": 5205,
+    "sha256": "5dd42a5bc1eeee114825a1176033d79b1e20feb6197aa171680de55d2d5f37d2"
+  },
+  {
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "size": 53752,
+    "sha256": "06c845e55e3a5be6c67730e536226d00246f1f59b86c2106becf4f244ed7c628"
+  },
+  {
+    "path": "data/maps/PetalburgWoods/scripts.inc",
+    "size": 17701,
+    "sha256": "29f31725b5ad180c877e4436bc29241859aa27e310a11dafcb64d24980451137"
+  },
+  {
+    "path": "data/maps/Route110/scripts.inc",
+    "size": 34281,
+    "sha256": "7483f356811c03389a08b8c6f71026ac6ddeae81dd5738cfb5a81a796ed4c30e"
+  },
+  {
+    "path": "data/maps/Route111/map.json",
+    "size": 30463,
+    "sha256": "cd227e8471a77a0d1d01f9c2b11baf7f755fd13225156db9b6ea4fe492860cb0"
+  },
+  {
+    "path": "data/maps/RustboroCity/map.json",
+    "size": 16334,
+    "sha256": "fee05e848133026a19d30f69207468857f466f232a6ae6906fac9e8ba67fa941"
+  },
+  {
+    "path": "data/maps/RustboroCity_Gym/scripts.inc",
+    "size": 10058,
+    "sha256": "f82c136f574468ee659d1a1d93e7b2ffcfebb79073bcac5307f80de151b40ded"
+  },
+  {
+    "path": "data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc",
+    "size": 18757,
+    "sha256": "ab64a1d7132620f23085e1eccb4b3df65a45e9a6245c60cf440b7cfdcf1a7500"
+  },
+  {
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "size": 11952,
+    "sha256": "3ee2b926aadd6b54e780b1996cfc1e4f99a008f516e8c480dbfc500384abdd56"
+  },
+  {
+    "path": "data/maps/VerdanturfTown_WandasHouse/scripts.inc",
+    "size": 10634,
+    "sha256": "2fb0f0781e23022231697872f801779df0eb3a0a28fcdd5170c047bf90e45440"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_009bd0da3ad1b383503e.bin",
+    "size": 1024,
+    "sha256": "009bd0da3ad1b383503e7aca5cc2bf2396b2e59bba58fda346686b8a20ec6863"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_086b4a619ed368bb8e0a.bin",
+    "size": 1024,
+    "sha256": "086b4a619ed368bb8e0a75cd87046b684a389ad1ab7f7d28bade4ecfa94ad373"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_2189a9293b966c5f04a1.bin",
+    "size": 1024,
+    "sha256": "2189a9293b966c5f04a1c218bf998b0fed88c679e1529eb8272a904e39075b2a"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_2bd2491fad389d25c440.bin",
+    "size": 1024,
+    "sha256": "2bd2491fad389d25c440796715b115691d3f61fd079403c466412a35d71e56b0"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_309666b30f38f6971ff3.bin",
+    "size": 1024,
+    "sha256": "309666b30f38f6971ff3b41b6c5360a757b6dbabbeebf954c66ef5ad39d98560"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_3106b07a28e7a877bf8a.bin",
+    "size": 1024,
+    "sha256": "3106b07a28e7a877bf8ae38fb8232a8fb62cca9dfec6a34b28bd3604da4d400b"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_37f4851879e6fc5e58ef.bin",
+    "size": 1024,
+    "sha256": "37f4851879e6fc5e58ef59edd36e86b8b8efe17554727eff81039eebe64058dd"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_3b91bbb5f67793cc02bf.bin",
+    "size": 1024,
+    "sha256": "3b91bbb5f67793cc02bfd01a598683e43c656e88eecba24bd4ed6390f0835b2f"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_3f9cd9a4a83ff2511bff.bin",
+    "size": 1024,
+    "sha256": "3f9cd9a4a83ff2511bff17df64e5c244372685a936895f92d71f7a58bb718266"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_4ba0f49123d845f8ce3f.bin",
+    "size": 1024,
+    "sha256": "4ba0f49123d845f8ce3f3b6ab500a096d001113d32bf7a380f5ca2103e8c4a1f"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_51684d280a27d43dc3da.bin",
+    "size": 1024,
+    "sha256": "51684d280a27d43dc3daa86ff7e7033f508087647eaeebd658cfa9e20a907e8c"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_51805d9bdd2d19a22632.bin",
+    "size": 1024,
+    "sha256": "51805d9bdd2d19a2263229e32563eb47dec6dccb80e35562cec5573a6cb81c0c"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_55ee78ee43b7d2779aa6.bin",
+    "size": 1024,
+    "sha256": "55ee78ee43b7d2779aa68f755f927b2281334016bad261455cca75da885eac01"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_5ccce144bf27f02305db.bin",
+    "size": 1024,
+    "sha256": "5ccce144bf27f02305db8ad09d2ecc08c1b7c8b83f4982e373d68291be149397"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_77a1727e912592a5132d.bin",
+    "size": 1024,
+    "sha256": "77a1727e912592a5132dcbe5f476679ef956052e93f6ddd897af91a1771540a3"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_7bdde46e75a153a9582d.bin",
+    "size": 1024,
+    "sha256": "7bdde46e75a153a9582dddb5b01f27ddedbe202a8626f7eafc5b591186c2861f"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_80a693747903d06760a1.bin",
+    "size": 1024,
+    "sha256": "80a693747903d06760a166f08dcb4270089437d59d2bde56f3713c57208b3630"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_85b8f544ca2086d8e0ae.bin",
+    "size": 1024,
+    "sha256": "85b8f544ca2086d8e0aea24ea5e09c00f516b9f241b5c492daeca0cf3787dc84"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_871a725807a9a992a011.bin",
+    "size": 1024,
+    "sha256": "871a725807a9a992a01170db6a476e01497d7e92240a97484cde4a5e6fb6f4e6"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_8d872a8d9caf4046d488.bin",
+    "size": 1024,
+    "sha256": "8d872a8d9caf4046d48816af857889227e19ba715c3d30eafb301a2cbb8f4a62"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_a621dbf214c42b3476d4.bin",
+    "size": 1024,
+    "sha256": "a621dbf214c42b3476d418be4e8edc075b4f87b2df4e2954532cb14cba9dee01"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_a8c0bca320c7c343a084.bin",
+    "size": 1024,
+    "sha256": "a8c0bca320c7c343a0849cea1a39c4149ce0d8d81e6af9a20d52417467e3df72"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_c3105ac71a077c19c87e.bin",
+    "size": 1024,
+    "sha256": "c3105ac71a077c19c87eea0c42ba01deae6b90759fd469fd46e7d2e60348b2f5"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_cdcc878e46a0031716d6.bin",
+    "size": 1024,
+    "sha256": "cdcc878e46a0031716d633aeb8d004608fd118725357b201bbd13c37926a2f57"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_ce441c026d1e6b888d11.bin",
+    "size": 1024,
+    "sha256": "ce441c026d1e6b888d1188bff558c0893f9f9900417ec5f63fc022f3ddf71c0b"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_d2f4cc269f893a7e5f71.bin",
+    "size": 1024,
+    "sha256": "d2f4cc269f893a7e5f719b37bc100fd5697109d1b821bb0dca1365e2d18388b7"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_de1d708b36e2d3f06404.bin",
+    "size": 1024,
+    "sha256": "de1d708b36e2d3f06404f16cb9022a60b0be257ff5cc5b6cb8bb03d90a0794d5"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_e7042078ee03695f7f39.bin",
+    "size": 1024,
+    "sha256": "e7042078ee03695f7f399036d9aad811a54d467f2e7535cc1a061cc1e7e9090a"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_efed302a589ebcf7c731.bin",
+    "size": 1024,
+    "sha256": "efed302a589ebcf7c7319daabc11fe4e4eebf6ca26b80c385ffbd7417670078f"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsAttrs_f8093e65795e469f62a3.bin",
+    "size": 1024,
+    "sha256": "f8093e65795e469f62a3e4fe8717df12612648e416084514f1ac8cc35b9675c7"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin",
+    "size": 1024,
+    "sha256": "33c6da98237c9f794e7a79b8a3a9e2661b56bb68efedcfd5bce8c84b4827170a"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab.bin",
+    "size": 1024,
+    "sha256": "4a4f89fcf2957601f1ab50287b7bb38151aab1aaae250e0d9b429c2f951809ea"
+  },
+  {
+    "path": "data/project_stairs/attributes/gProjectStairsVisualAttrs_aeb5f086e042e8f36902.bin",
+    "size": 1024,
+    "sha256": "aeb5f086e042e8f36902df8f946a6dac66b93ecdd07422b5bffea632223f7948"
+  },
+  {
+    "path": "data/scripts/legends_ashes.inc",
+    "size": 27807,
+    "sha256": "0cba027d9d6f540bd7f0058f7c2b050a106e1a1b1b56310797a300f8e126efed"
+  },
+  {
+    "path": "data/scripts/legends_bedroom.inc",
+    "size": 14256,
+    "sha256": "ed2af1b7bb603d34799fe7ad4cb13b8717bb7605a7ec931ab48d178c7e8905b4"
+  },
+  {
+    "path": "data/scripts/legends_littleroot_arc.inc",
+    "size": 22442,
+    "sha256": "a0d58390a03989a48d69fbfa27da886be7a2ed282f0b5f2c9a1a403a3212087f"
+  },
+  {
+    "path": "data/scripts/legends_pokevial.inc",
+    "size": 2810,
+    "sha256": "87393fba35924c611b2231ade3fc67ea88c2d797ba81871c20dde2d3461c29dd"
+  },
+  {
+    "path": "data/scripts/legends_quests.inc",
+    "size": 4125,
+    "sha256": "cf53815974a5bafab3c937a34ad0664cc160ceb28a3a8e9a50d55b8cc92dceac"
+  },
+  {
+    "path": "data/scripts/legends_rift_research.inc",
+    "size": 19787,
+    "sha256": "6c3779de8d1b76a08f9e0c9920733934848f9d902085c7e73e27ec4bfd7df3e3"
+  },
+  {
+    "path": "data/specials.inc",
+    "size": 26260,
+    "sha256": "3ff8e78c2cba270c8277f158acb5050ab3f9b860cf149bdbafff255265a93d71"
+  },
+  {
+    "path": "data/tilesets/primary/accumula_fullsheet_test/metatiles.extended.bin",
+    "size": 24576,
+    "sha256": "98d45dfe3c2ce2e62a55805ecba5d3118781bf9e63f3e8bef9bac124817df8a0"
+  },
+  {
+    "path": "data/tilesets/secondary/accumula_fullsheet_test/metatile_attributes.bin",
+    "size": 54,
+    "sha256": "50c925363131e2b20a6b24650f1d666e2482e0275bd0bb70f8c828602a502759"
+  },
+  {
+    "path": "data/tilesets/secondary/accumula_fullsheet_test/metatiles.bin",
+    "size": 648,
+    "sha256": "f4bd841308415de6ed2727462cd66a7333ac8155b4e8e95de0220355189c785c"
+  },
+  {
+    "path": "data/tilesets/secondary/accumula_fullsheet_test/metatiles.extended.bin",
+    "size": 1296,
+    "sha256": "7d59da123ff4b99cb42281fa6f2a379518623bc417cccffde5fcfe2c3c36590e"
+  },
+  {
+    "path": "docs/features/competitive-trainers.md",
+    "size": 4775,
+    "sha256": "4233ae0db9cb5c5cbe2c469e588efeae1b1fbef48dc87e40c83f5929dcf65753"
+  },
+  {
+    "path": "docs/features/deferred-rhythm-features.md",
+    "size": 3287,
+    "sha256": "c06f3fa0e8d01e9c7e8bcaaa27f70ddb85c14979e5d146f76e07615ff3620612"
+  },
+  {
+    "path": "docs/features/dynamax-band-validation.json",
+    "size": 1344,
+    "sha256": "b554ec60ee11481eaee7a27378cc964666e87bffaaba6c93604e0c0a28a02ab3"
+  },
+  {
+    "path": "docs/features/dynamax-band.md",
+    "size": 1180,
+    "sha256": "b6572e4f2901d206b714585748ab12886e02b802a0b0712bfbf88eff45483ee4"
+  },
+  {
+    "path": "docs/features/owe-resource-pressure.md",
+    "size": 884,
+    "sha256": "47aa2984c063df6e53de457fce6951caa8fa09da43163a6b18d35affacfa6f1a"
+  },
+  {
+    "path": "docs/features/owe-resource-validation.json",
+    "size": 715,
+    "sha256": "4c90c62aa4796e8252132a8ec105939e69abe1da8f58276e2f997afe2a2d8981"
+  },
+  {
+    "path": "docs/features/quests/README.md",
+    "size": 4711,
+    "sha256": "40f705ed548a548e6a21c158b18799d74d2291c737ad8f5af64d3a1a75487e1a"
+  },
+  {
+    "path": "docs/features/raids/cfru-feasibility.md",
+    "size": 3912,
+    "sha256": "8dd89a291f041ed6cb30fd6f6050dd6f7abb72c7a4505f6586ce16f429e5ebcc"
+  },
+  {
+    "path": "docs/features/raids/expansion-pr-review.md",
+    "size": 1368,
+    "sha256": "df0a0120296a89d6b6f9c4235ae69b92f9bacf29a3389e4d7300a74f74aae117"
+  },
+  {
+    "path": "docs/la_world/project_stairs/README.md",
+    "size": 2977,
+    "sha256": "ed5a73e1f90997d1aed4f771e676c7f453eee0a63d7bd0e888ab00d30e6fb3a3"
+  },
+  {
+    "path": "docs/la_world/project_stairs/coverage.json",
+    "size": 198467,
+    "sha256": "0019aa967c0d3fd8254bc0c8c4539615a7a295dddf4ae3c4219ab2e792feb9b4"
+  },
+  {
+    "path": "docs/la_world/project_stairs/restoration.json",
+    "size": 22299,
+    "sha256": "8cb06d87bb6564c58c7bce643aaac1f45b5ab158a28db43119c8edad9ec769bb"
+  },
+  {
+    "path": "docs/la_world/project_stairs/runtime_validation.json",
+    "size": 4879,
+    "sha256": "60ffcbcd79b02481cd3b1cb263250fd21a0ddd9f8db9b4c64f7b978445f7d945"
+  },
+  {
+    "path": "docs/la_world/project_stairs/visual_restoration.json",
+    "size": 13257,
+    "sha256": "62182c1362b2dea4f33227cd97262c8cb5b16df1dfbbd2058e24889e5e55c433"
+  },
+  {
+    "path": "docs/la_world/wild_pools/all_species_catalog.json",
+    "size": 723037,
+    "sha256": "903b73920fd061499ccc863cf230166a489c12cd11b11c4fad3241af7f00e83e"
+  },
+  {
+    "path": "docs/la_world/wild_pools/awake_0.png",
+    "size": 4009,
+    "sha256": "145ee237b1b4cce43ae292d246bbedaef9885684ba4a10f0429832c00aee7a60"
+  },
+  {
+    "path": "docs/la_world/wild_pools/coverage.json",
+    "size": 515,
+    "sha256": "40339243ce507568bde48955130b92fc099a7d181bbe5d06ef898ccd6333dc57"
+  },
+  {
+    "path": "docs/la_world/wild_pools/dream_0.png",
+    "size": 2729,
+    "sha256": "1d2487e99247aaee37f375731145fae488db580b395a23aab9df8502952fcdb5"
+  },
+  {
+    "path": "docs/la_world/wild_pools/encounter_slots.csv",
+    "size": 3417424,
+    "sha256": "5ff3c3fd407d04a6a5baf10b57eb95c3acbb4ae393b80c182dac8ed6add44ff4"
+  },
+  {
+    "path": "docs/la_world/wild_pools/map_inventory.csv",
+    "size": 273344,
+    "sha256": "4bfda74207c1ed9c52c4857aac27c1046b8631f10e84e09c38cb09c9bad71dec"
+  },
+  {
+    "path": "docs/la_world/wild_pools/map_inventory.json",
+    "size": 685184,
+    "sha256": "edbbc9d9605255114ecb4a48c43ca33d450a2d4bec9c6118d158f58ef9c77b20"
+  },
+  {
+    "path": "docs/la_world/wild_pools/regional-distribution.md",
+    "size": 3702,
+    "sha256": "b6275dd7ebfa139e32cc7cab98af12074ab484c55b7bb3da3c2c7693cc0a9bd4"
+  },
+  {
+    "path": "docs/la_world/wild_pools/regional_assignment_validation.json",
+    "size": 380,
+    "sha256": "fc26cde39c681093ec7932c2250f9b7b8f6045d8b3d9da1e24b814bc7edb2775"
+  },
+  {
+    "path": "docs/la_world/wild_pools/regional_families.json",
+    "size": 151227,
+    "sha256": "e9249dc7d6e89c7d326e6eb34db837a80bdd36d78873c3177c254937b7648f61"
+  },
+  {
+    "path": "docs/la_world/wild_pools/regional_form_locations.csv",
+    "size": 163337,
+    "sha256": "a1ad8b849f7c7bfbd85032005174f7e0e175326ba9f5ac1af282f156191235c4"
+  },
+  {
+    "path": "docs/la_world/wild_pools/regional_forms.json",
+    "size": 33507,
+    "sha256": "484c9aec98c38f0b44c8b40789bdf99102ba7d225438f65f41f1c3f9d1bdf970"
+  },
+  {
+    "path": "docs/la_world/wild_pools/review.md",
+    "size": 5262,
+    "sha256": "d0beac584c506841a9706b4fe9226035af542afc1719dfa1df1a04e849972d7a"
+  },
+  {
+    "path": "docs/la_world/wild_pools/species_catalog.json",
+    "size": 554927,
+    "sha256": "785efb6b2ed4a83a7774a3a545fc112a986832518e266958a5f75d82bd59a8b6"
+  },
+  {
+    "path": "docs/story/ashes-and-past-silph.md",
+    "size": 1955,
+    "sha256": "1db2a8baa7f61ae93f7dc5617c1a65014b601c29b3fda669237ebb5a9069e5fb"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/runtime_validation.json",
+    "size": 3351,
+    "sha256": "9a3234a4b65603c1c38839e1b90cc0309fa136f470037385c88f338c40421420"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/awake_0.png",
+    "size": 4009,
+    "sha256": "145ee237b1b4cce43ae292d246bbedaef9885684ba4a10f0429832c00aee7a60"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/awake_1.png",
+    "size": 3976,
+    "sha256": "6ca9f67c36d4c7dc9f81aa0e834aed42c4b945cfa384455599d79fcc07487a99"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/dream_0.png",
+    "size": 2729,
+    "sha256": "1d2487e99247aaee37f375731145fae488db580b395a23aab9df8502952fcdb5"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/dream_1.png",
+    "size": 2829,
+    "sha256": "55e46c2e4265efc47aefdc2b102f0625e7ff63a0fbd3ebef03a1fbd072cf7476"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/normal_pc_0.png",
+    "size": 4183,
+    "sha256": "df9f647f5012a2ae4105bcf34242500836c78717d65e1cc08a7c64a97fc2d9e9"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/normal_pc_1.png",
+    "size": 4227,
+    "sha256": "69512888dab07710896c405748b866c4b591e6916b6da5eeaf61b09979a664b2"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/package_complete_0.png",
+    "size": 4107,
+    "sha256": "521e657b6b3b52f55fe106081f398ab29fe88952415dda605368e208990d5df7"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/package_complete_1.png",
+    "size": 4094,
+    "sha256": "5003c3c4dfe6adb8f19deea93ebdd9c4a055c688d88b63be90cc312fd6ba8b44"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/pc_read_0.png",
+    "size": 3839,
+    "sha256": "9228a710faf777be45a29f8ef8f363e42e84eaf132cceee4a6e0977f7c5111d6"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/pc_read_1.png",
+    "size": 3839,
+    "sha256": "35c1c5ef03d7676e9bd2d2ae1ee0c91039b3bb426999582440b21d65dbad3f02"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/reloaded_0.png",
+    "size": 4910,
+    "sha256": "2b813d92f9b32505e66a31e6bc8af55588cad3f7d20cb430dbdb65a2da7ba248"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/reloaded_1.png",
+    "size": 5018,
+    "sha256": "5202d68c893450899bdaecc9b1c52ca28cd0f48682305f42d66d04d5237d8d8e"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/returned_0.png",
+    "size": 4151,
+    "sha256": "f36ed42d682f28fcfd45a08fc59c77d8a338115cd7082b805c2d5c1fd861d107"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/returned_1.png",
+    "size": 4168,
+    "sha256": "75d8fc1acf1fa004344b7e6231648403f3833f5955310894434a0ebb0e6d2336"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/rift_report_0.png",
+    "size": 4684,
+    "sha256": "ad3c8b8f80bda8ad8f3d93c40d9fb2c7edb2a55ecf35005aa879a2cf0da2111f"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/rift_report_1.png",
+    "size": 4833,
+    "sha256": "92ab40b40d9404727202a84d88810ebef0a3ad587f5f9338779ee9e3da140d17"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/rift_report_complete_0.png",
+    "size": 4855,
+    "sha256": "f442edbd50d5710a3b11d0705692bb4a85789fa43369b8715c2f8a9490589234"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/rift_report_complete_1.png",
+    "size": 4978,
+    "sha256": "3da40076db5ae92ebbf33b4a4060d7d6542d7a48d5a3e34a3e4d9baeeae6c4fd"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/saved_0.png",
+    "size": 4485,
+    "sha256": "79bd6325dfabbc9e7405cd94c3f4eaeecb38c54c21929a51b164cd4234ec1596"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/saved_1.png",
+    "size": 4619,
+    "sha256": "2159c75821a39044d20b20dd78291c68ab057856533c99c77305713b6ff5f058"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/stairs_block_0.png",
+    "size": 4187,
+    "sha256": "d4c192205251aee54f378584374036fda2b8290bc2fd69a5b27a4db97cd48837"
+  },
+  {
+    "path": "docs/story/bedroom_prologue/screenshots/stairs_block_1.png",
+    "size": 4095,
+    "sha256": "6defd9ba35c76d4ed33d3d3a87a3c39a4349741c6543e4198e68f87088c752e1"
+  },
+  {
+    "path": "docs/story/planning/Legends_Awakening_Story_Planning_Guide.md",
+    "size": 44184,
+    "sha256": "667325d4e305195e52d0c7a213130293baf6c73e039b8743eb3aede442cc618c"
+  },
+  {
+    "path": "docs/story/planning/README.md",
+    "size": 1188,
+    "sha256": "f7ca1e837f5c418e456bdff2cc30f6b151eeaa5b3f6012eb139a40c9e44a1bbe"
+  },
+  {
+    "path": "docs/story/spoken_protagonist/faction-colors.md",
+    "size": 1653,
+    "sha256": "bec6cc5addad0064c9e3004226f5973ce837b16955febe5108ea3e8f48cb9b28"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/README.md",
+    "size": 2893,
+    "sha256": "f153af54460c00cad77c884e6bf9cb6987c131bc774d522e836381c6ad8e52d4"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/runtime_validation.json",
+    "size": 3510,
+    "sha256": "dbfc2953abc9fbcfa0cafca1571a08a700100a16ffad6a1a0b8bc53dc9024215"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/item_taken_0.png",
+    "size": 11675,
+    "sha256": "7cedb45e9eebacd2b054670a0f97ad50959f16d3d7519a7d9cd9bddd7bcde38b"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/item_taken_1.png",
+    "size": 11675,
+    "sha256": "7cedb45e9eebacd2b054670a0f97ad50959f16d3d7519a7d9cd9bddd7bcde38b"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/meeting_0.png",
+    "size": 11584,
+    "sha256": "200e536ca2f2d458df0f9ee52ad43437cd747fde443399977c75c613d72e9e3e"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/meeting_1.png",
+    "size": 11584,
+    "sha256": "200e536ca2f2d458df0f9ee52ad43437cd747fde443399977c75c613d72e9e3e"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/player_recognition_0.png",
+    "size": 11825,
+    "sha256": "df5368f925c5a09a47fabb95c938d84d55d92b2b3050a711187f5ca1b4490345"
+  },
+  {
+    "path": "docs/story/timeless_woods_conspiracy/screenshots/player_recognition_1.png",
+    "size": 11728,
+    "sha256": "83c0e6c4b8298977262b4a51a7a18bf6dc39e550938b6f82028a5afda6056cbf"
+  },
+  {
+    "path": "docs/story/villain_alliance/canon.md",
+    "size": 3124,
+    "sha256": "3d40ef78913f08e354a41ddd37164819d9c52ec036f2aae9f1be96f6cb75ea4f"
+  },
+  {
+    "path": "docs/story/villain_alliance/validation.json",
+    "size": 249,
+    "sha256": "c575063f5b32107d1efa508acded8fce19de14164a6cf0dcd54f815c73e6fc37"
+  },
+  {
+    "path": "graphics/legends_start_menu/icons.png",
+    "size": 2514,
+    "sha256": "e2a58d28c7c1fdd79d99fba7581297995c78dfb39e9133cb966278f5c57f5a8d"
+  },
+  {
+    "path": "graphics/quests/unbound_menu.pal",
+    "size": 187,
+    "sha256": "d3a7775b00744cdda70955a76cc311a15fb15d7f0d2efe33ff7d37412bb57a07"
+  },
+  {
+    "path": "graphics/quests/unbound_menu.png",
+    "size": 1276,
+    "sha256": "dbede069bf5ac1d825797f996d88aec00613350cb67502dafce48895780340a0"
+  },
+  {
+    "path": "graphics/trainers/front_pics/la_ariana.png",
+    "size": 853,
+    "sha256": "0a04e469c28474676921b525b541515ed57a4b78a08634aea1ca2686d0b8191a"
+  },
+  {
+    "path": "graphics/trainers/front_pics/la_petrel.png",
+    "size": 804,
+    "sha256": "f1fcc4832c6a94f08fae9cefc47a18f57f53d7c47b4a99e2c38806c1c0e063ab"
+  },
+  {
+    "path": "graphics/trainers/palettes/la_ariana.pal",
+    "size": 183,
+    "sha256": "5bd3a2b6433a42e95c79944a3b6f7f36c8f611414fbed107ec2fbc37eb8e92f9"
+  },
+  {
+    "path": "graphics/trainers/palettes/la_petrel.pal",
+    "size": 187,
+    "sha256": "7e66c51ff0eb381b9a181734cac131a8802c9f27fcf730533a2fc15c61507ada"
+  },
+  {
+    "path": "include/battle_gimmick.h",
+    "size": 1994,
+    "sha256": "0a51681e9299f8aaf511b739ae0d4f75e3fada207028e459755034b8031c0994"
+  },
+  {
+    "path": "include/constants/flags.h",
+    "size": 168962,
+    "sha256": "067c3c7830b23c921ab9a321bea5e0fe97624f39169e05e93d28f2dc65206ae6"
+  },
+  {
+    "path": "include/constants/items.h",
+    "size": 30704,
+    "sha256": "a86d6bd21e4f856ba0a02ab5cb2717255856473d1dcf7089973477a3d3d2aacf"
+  },
+  {
+    "path": "include/constants/speaker_names.h",
+    "size": 2856,
+    "sha256": "169cac7ae4e680015c96a8885e29311f5ee63fdc162865268fa47aac93f76741"
+  },
+  {
+    "path": "include/constants/trainers.h",
+    "size": 21419,
+    "sha256": "c735792af0ddebe94fd447abd7db0b9c62abb6ecc0791e4a27aa93415cd1662e"
+  },
+  {
+    "path": "include/constants/vars.h",
+    "size": 23543,
+    "sha256": "071f0ce7ed0b4c97ba041b484cbab351c5d7cde70c462628e05823896943e0f6"
+  },
+  {
+    "path": "include/item_use.h",
+    "size": 2901,
+    "sha256": "468db1b8d494bfc3f2855a8687bc9d2da6e325911ff6263f47b53ef713da1dad"
+  },
+  {
+    "path": "include/legends_ashes.h",
+    "size": 390,
+    "sha256": "65340ddd16d45c67d01ec57f416da5fdd8cfe40e94510ff81f3ed0a210b41877"
+  },
+  {
+    "path": "include/legends_quests.h",
+    "size": 405,
+    "sha256": "9f13fda55094d7214020b0752e6d85d2365bffa03169eca2df347c4f6daf2625"
+  },
+  {
+    "path": "include/rift_tracker.h",
+    "size": 341,
+    "sha256": "e8155bb40240e975ef1cfa0c3b0638f161e293299b80f75a909f771bdae81fe7"
+  },
+  {
+    "path": "src/adventure_journal.c",
+    "size": 2010,
+    "sha256": "031b54492ff78620a7a63a77c16a646ec7d1055d2b35980b533326309cc2a18c"
+  },
+  {
+    "path": "src/battle_controller_player.c",
+    "size": 101618,
+    "sha256": "533f998024c0caa6f4a68d5b951072f77f913cb29141228d7269decc8af734b8"
+  },
+  {
+    "path": "src/battle_dynamax.c",
+    "size": 15769,
+    "sha256": "b1a6c679138aed8a668723f5da2945bcd9a49e50df8d2e982516144f5af56b42"
+  },
+  {
+    "path": "src/battle_gimmick.c",
+    "size": 15681,
+    "sha256": "cdc71954125473b4f298de1e4114eef932c568c2fccf69e762a91edb563e9d3e"
+  },
+  {
+    "path": "src/custom_start_menu.c",
+    "size": 7121,
+    "sha256": "bc760d184f7987f74e2ac36ba63bc078acaa151fe3c7c9afd1461cdec86003b8"
+  },
+  {
+    "path": "src/data/graphics/trainers.h",
+    "size": 87998,
+    "sha256": "4a8fb81f4fb25d4dc40956002043c44caaf60d09e12830de0028fa694de3abd2"
+  },
+  {
+    "path": "src/data/items.h",
+    "size": 507005,
+    "sha256": "5a94624099b1359063d0bdc44dfa60edaad72324c32e4f8fb32ebdaf3a9bfbb8"
+  },
+  {
+    "path": "src/data/legends_quests.h",
+    "size": 6111,
+    "sha256": "03d8b2372cad61f1781a64c9273741e9589f37c856d29d288480478b2df0b584"
+  },
+  {
+    "path": "src/data/speaker_names.h",
+    "size": 6592,
+    "sha256": "f141cf079e67b4131c552fa55c165eedcb4f85e4d79aed837dc1ca7e75cefca7"
+  },
+  {
+    "path": "src/data/tilesets/headers.h",
+    "size": 320759,
+    "sha256": "6a062a141603f3cb1885f32ddef231494e629b7360feec11db48fabe5e883158"
+  },
+  {
+    "path": "src/data/tilesets/metatiles.h",
+    "size": 255156,
+    "sha256": "d732f4b40b2ddfa42b88025468f5c4fdb6aa53e4ff429a49bd0461ed46ff22c4"
+  },
+  {
+    "path": "src/data/wild_encounters.json",
+    "size": 5189306,
+    "sha256": "f70aff92764b22b61f98a347afdb507a0042bcf99caee2941f87a7c3d70e413c"
+  },
+  {
+    "path": "src/event_data.c",
+    "size": 6234,
+    "sha256": "d673f889240264f617aca300efba7f8381fe4a94aec0da85e8dafff8bfd01b3e"
+  },
+  {
+    "path": "src/event_object_movement.c",
+    "size": 454965,
+    "sha256": "21fff7f8ec1400061c7cacb09069da5bb8dc329bc97a2251fdcd67d320d6f413"
+  },
+  {
+    "path": "src/field_control_avatar.c",
+    "size": 51521,
+    "sha256": "ba017c1d84bb4f7a896d0293c670971b749966cea4b6bc74df006a9321a82914"
+  },
+  {
+    "path": "src/field_mugshot.c",
+    "size": 8622,
+    "sha256": "869e24229af69c71830b2f76f78d0073b6b1d6da3d58fb6f3c7e9e2c0b6010ef"
+  },
+  {
+    "path": "src/field_name_box.c",
+    "size": 13114,
+    "sha256": "e8516acfbbb9b6f5e4261b94274b280599b85c4dcdde1b8828fd19ee6b3d62a9"
+  },
+  {
+    "path": "src/item_use.c",
+    "size": 51687,
+    "sha256": "ea7b4b3697a4ce48f64ab097bc72009d99c95e57117b1f43e8380815b833beb8"
+  },
+  {
+    "path": "src/legends_ashes.c",
+    "size": 5527,
+    "sha256": "b674398ac55c9d338c88ce386a5b5b35a8afd4885b360373b9ee738ef70fd644"
+  },
+  {
+    "path": "src/legends_quests.c",
+    "size": 17705,
+    "sha256": "df119de65c1e7a7f77e0132de79fd7591c39655b9915af4153602537713ed41b"
+  },
+  {
+    "path": "src/legends_trainers.c",
+    "size": 24578,
+    "sha256": "6c065897e4d322cd0e17cce1ea19e82a89ad1f8348ac7dc439afb9ff258d9832"
+  },
+  {
+    "path": "src/overworld.c",
+    "size": 122995,
+    "sha256": "a24f87e3c3873a985ffcfdc086ec66c49b69718735496825c582dfaf1495fba2"
+  },
+  {
+    "path": "src/rift_tracker.c",
+    "size": 10239,
+    "sha256": "9bae72243ba413d15ff4b6b745b531dfc62ff8f5c28ddd717f53809d8122685b"
+  },
+  {
+    "path": "src/start_menu.c",
+    "size": 45173,
+    "sha256": "48a513fd1c3d4735c6943c507bf855afb4e89336f3a4c7734764a95b4a486808"
+  },
+  {
+    "path": "src/wild_encounter_ow.c",
+    "size": 61971,
+    "sha256": "48a87ead6189f027a13ded9925d2be4847b58e1faf8021e609994ef15980c924"
+  },
+  {
+    "path": "tools/la_world/audit_project_stairs.py",
+    "size": 2647,
+    "sha256": "4c9bc5d14e2397eedb0ed754e5da017741818c34ded114dad0a8b465241bcc04"
+  },
+  {
+    "path": "tools/la_world/encounters/README.md",
+    "size": 1083,
+    "sha256": "f3ad217306d0e0ecf61eb325ae4e2787d5b22c5a0f8f2314637eeefe26bf76ac"
+  },
+  {
+    "path": "tools/la_world/encounters/author_pools.py",
+    "size": 27877,
+    "sha256": "02eee4e1142a527756ac4fb1f32070c8800fa5ce63eb968f52391894ec0015f4"
+  },
+  {
+    "path": "tools/la_world/encounters/test_regional_assignment.py",
+    "size": 4412,
+    "sha256": "41be831791932e0fd691299b65110f2fea79a0144af2071b190b99b4843beca0"
+  },
+  {
+    "path": "tools/la_world/importers/amap/hns_runtime/test_legends_bedroom.py",
+    "size": 6472,
+    "sha256": "d82243a83dfc627b82505accd1ce86646068281e0f9c88d0f9d4e81a293fe5ba"
+  },
+  {
+    "path": "tools/la_world/importers/amap/hns_runtime/test_timeless_conspiracy.py",
+    "size": 5385,
+    "sha256": "7f0f3efa877635865309334930c0da8d8e655e9a040fc0a31d0327fa3f93ea7f"
+  },
+  {
+    "path": "tools/la_world/importers/amap/import_aestheticred_assets.py",
+    "size": 7437,
+    "sha256": "4ac5a460288b809c3085d7d18afc403dbebca9d892598a41c6df715e88fede0e"
+  },
+  {
+    "path": "tools/la_world/importers/amap/import_bwa_selected_batch.py",
+    "size": 9623,
+    "sha256": "c06383527853e6181407afbb5435c1787caf44814d9349d9efea0a330fd069ce"
+  },
+  {
+    "path": "tools/la_world/importers/amap/import_galar_assets.py",
+    "size": 16045,
+    "sha256": "bce898a944a075a6142afd03ae7ebc4c09eea9d56c8acb3f66fd2b5616382dcc"
+  },
+  {
+    "path": "tools/la_world/importers/amap/port_gs_johto.py",
+    "size": 12080,
+    "sha256": "aecc9a9ac904b6be86f8c714aec1c538d31465eed1c7e02124dc264553ae10ec"
+  },
+  {
+    "path": "tools/la_world/importers/amap/replace_johto_mercury.py",
+    "size": 22196,
+    "sha256": "40bc8949f5720ff69b7ec9e37dc466d19ba09cf4529c22b49813ac06c32dde8d"
+  },
+  {
+    "path": "tools/la_world/storage/test_dynamax_band.py",
+    "size": 3849,
+    "sha256": "0e3428da8f229df7f7bd6c664ef8ef84f8abd2123cde63c62a8ad4fd43c9ff1c"
+  },
+  {
+    "path": "tools/la_world/storage/test_owe_resource_pressure.py",
+    "size": 2917,
+    "sha256": "762e5ddbd7fcb1b7e5301dd4df3706eb820cf6bfa1d2bfb6fb0184868ab41310"
+  },
+  {
+    "path": "tools/la_world/story/test_ashes_silph.py",
+    "size": 9959,
+    "sha256": "7faafcfa0c22a025707fd8de1406b43e1ed82b0a6ebe45fdb10b3c8d899f47ec"
+  },
+  {
+    "path": "tools/la_world/story/test_quests.py",
+    "size": 9611,
+    "sha256": "528c664771cb1834aedd8578f45b72c117d73fe8f8936a8d8bf78ec1ceaa6e58"
+  },
+  {
+    "path": "tools/la_world/story/test_villain_alliance.py",
+    "size": 9851,
+    "sha256": "b2bdc927025d1802392704efabce271f6de674796264e38e07cf1015813ca6c6"
+  }
+]

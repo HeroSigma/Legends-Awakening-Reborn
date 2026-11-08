@@ -52,6 +52,7 @@ RiftResearch_Briefing::
 	msgbox RiftResearch_Text_Upgrade, MSGBOX_DEFAULT
 	waitfanfare
 	setvar VAR_LA_RIFT_TRACKER, 2
+	call LegendsQuest_EnsureTracker
 	setspeaker SP_NAME_PLAYER
 	msgbox RiftResearch_Text_Resolve, MSGBOX_DEFAULT
 	setspeaker SP_NAME_BIRCH
@@ -82,7 +83,7 @@ RiftResearch_End::
 
 RiftResearch_Text_Invite:
 	.string "{PLAYER}, it's Birch. Wattson sent\nhis readings. You've earned his Badge!\pRowan and I have found two\ndifferent rift signatures.\pCome to my lab in Littleroot.\nI have something that may help us."
-	.string "\pBring your PokéNav and Journal.$"
+	.string "\pBring your PokéNav. We'll explain\nour findings in person.$"
 RiftResearch_Text_Answer:
 	.string "A way to find Wally?\nI'll come and hear what you found.$"
 RiftResearch_Text_Priority:
@@ -96,9 +97,9 @@ RiftResearch_Text_Signatures:
 RiftResearch_Text_Strength:
 	.string "Then why do some openings\npush me away when I get close?$"
 RiftResearch_Text_Explain:
-	.string "Your partners must withstand\nthe energy with you. Gym training\phelps them handle stronger rifts.\nThe detector uses your Badges\pas a safety guide. Even then,\na passage may still be unstable.\pYour Journal will become a Rift\nTracker. It will show signals,\psafety checks, our findings,\nand your current investigation.\pA signal is a lead, {PLAYER}.\nIt isn't a promise of safe travel.$"
+	.string "Your partners must withstand\nthe energy with you. Gym training\phelps them handle stronger rifts.\nThe detector uses your Badges\pas a safety guide. Even then,\na passage may still be unstable.\pThis is your Rift Tracker.\nIt will show signals,\psafety checks, our findings,\nand your current investigation.\pA signal is a lead, {PLAYER}.\nIt isn't a promise of safe travel.$"
 RiftResearch_Text_Upgrade:
-	.string "The Journal became the Rift Tracker!\nThe Rift Detector is now installed.$"
+	.string "{PLAYER} received the Rift Tracker!\nThe detector is ready to use.$"
 RiftResearch_Text_Resolve:
 	.string "Then I'll keep a record of what\nwe find. Wally isn't just a reading.\pWe're bringing him and Kirlia home.$"
 RiftResearch_Text_LastAdvice:
@@ -108,7 +109,7 @@ RiftResearch_Text_NoDetector:
 RiftResearch_Text_Repelled:
 	.string "You feel a strange energy\npushing you away.\pYour partners cannot withstand\nthis rift yet. More Gym training\pmay help you approach safely.$"
 RiftResearch_Text_Sealed:
-	.string "The detector recognizes a passage,\nbut its far end is unstable.\pParadigm needs more evidence\nbefore this route can be used.$"
+	.string "The detector recognizes a passage,\nbut its far end is unstable.\pSurvey it after the League, then\nreturn to Birch for its own permit.$"
 RiftResearch_Text_Quiet:
 	.string "The wormhole is quiet.\nIts Pokémon signal has faded.$"
 RiftResearch_Text_Encounter:
@@ -139,6 +140,7 @@ RiftResearch_Natural_0::
 	setvar VAR_0x8004, 0
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -147,6 +149,7 @@ RiftResearch_Natural_1::
 	setvar VAR_0x8004, 1
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -155,6 +158,7 @@ RiftResearch_Natural_2::
 	setvar VAR_0x8004, 2
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -163,6 +167,7 @@ RiftResearch_Natural_3::
 	setvar VAR_0x8004, 3
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -171,6 +176,7 @@ RiftResearch_Natural_4::
 	setvar VAR_0x8004, 4
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -179,6 +185,7 @@ RiftResearch_Natural_5::
 	setvar VAR_0x8004, 5
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -187,6 +194,7 @@ RiftResearch_Natural_6::
 	setvar VAR_0x8004, 6
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -195,6 +203,7 @@ RiftResearch_Natural_7::
 	setvar VAR_0x8004, 7
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -203,6 +212,7 @@ RiftResearch_Natural_8::
 	setvar VAR_0x8004, 8
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -211,6 +221,7 @@ RiftResearch_Natural_9::
 	setvar VAR_0x8004, 9
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -219,6 +230,7 @@ RiftResearch_Natural_10::
 	setvar VAR_0x8004, 10
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -227,6 +239,7 @@ RiftResearch_Natural_11::
 	setvar VAR_0x8004, 11
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -235,6 +248,7 @@ RiftResearch_Natural_12::
 	setvar VAR_0x8004, 12
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -243,6 +257,7 @@ RiftResearch_Natural_13::
 	setvar VAR_0x8004, 13
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -251,6 +266,7 @@ RiftResearch_Natural_14::
 	setvar VAR_0x8004, 14
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -259,6 +275,7 @@ RiftResearch_Natural_15::
 	setvar VAR_0x8004, 15
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -267,6 +284,7 @@ RiftResearch_Natural_16::
 	setvar VAR_0x8004, 16
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -275,6 +293,7 @@ RiftResearch_Natural_17::
 	setvar VAR_0x8004, 17
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -283,6 +302,7 @@ RiftResearch_Natural_18::
 	setvar VAR_0x8004, 18
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -291,6 +311,7 @@ RiftResearch_Natural_19::
 	setvar VAR_0x8004, 19
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -299,6 +320,7 @@ RiftResearch_Natural_20::
 	setvar VAR_0x8004, 20
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -307,6 +329,7 @@ RiftResearch_Natural_21::
 	setvar VAR_0x8004, 21
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -315,6 +338,7 @@ RiftResearch_Natural_22::
 	setvar VAR_0x8004, 22
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -323,6 +347,7 @@ RiftResearch_Natural_23::
 	setvar VAR_0x8004, 23
 	special RiftTracker_Check
 	goto_if_eq VAR_RESULT, 0, RiftResearch_NoDetector
+	goto_if_eq VAR_RESULT, 3, RiftResearch_PermitReady
 	goto_if_eq VAR_RESULT, 5, RiftResearch_BlockLeague
 	goto RiftResearch_Sealed
 
@@ -495,3 +520,9 @@ RiftResearch_Text_BlueEvidence:
 	.string "Different tracks after every\nashfall. Pokémon that don't\pbelong here. I'm checking which\nreports have evidence behind them.\pIf we're going to help your friend,\nwe need a route we can trust.\pKeep your tracker handy. I'll\ncompare what I find with Paradigm.$"
 RiftResearch_Text_BlueRepeat:
 	.string "A strange sighting isn't proof\nof a stable passage.\pCheck the tracks, the time and\nthe weather. Then compare reports.$"
+
+RiftResearch_PermitReady::
+    msgbox RiftResearch_Text_PermitReady, MSGBOX_DEFAULT
+    goto RiftResearch_End
+RiftResearch_Text_PermitReady:
+    .string "The passage is stable.\nYour permit matches this wormhole.\pStep into it when you are ready.$"

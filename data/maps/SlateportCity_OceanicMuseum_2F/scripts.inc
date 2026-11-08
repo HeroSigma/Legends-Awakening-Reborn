@@ -456,7 +456,7 @@ SlateportMuseum_Text_PlayerQuestionsArchie:
 	.string "The parts are for Captain Stern.\nWhat does Team Aqua want with them?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "My crew saw the sea split open\noff Slateport. Then it closed.\pStern's equipment could tell us\nwhat happened under the surface.\pThe sea keeps this world alive.\nI won't wait for Devon's permission\lto find out what's happening to it.\pCrew, back to the docks. We'll\nfind another way to get a reading.\pAnd you two. Stay out of my way\nif we meet again.$"
+	.string "My crew saw the sea split open\noff Slateport. Then it closed.\pThose readings are part of a\nlarger operation.\pStern's equipment could tell us\nwhat happened under the surface.\pThe sea keeps this world alive.\nI won't wait for Devon's permission\lto get the data we need.\pCrew, back to the docks. We'll\nfind another way to get a reading.\pAnd you two. Stay out of my way\nif we meet again.$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
 	.string "CAPT. STERN: Thank you, {PLAYER}.\pYou and that boy kept them away\nfrom the parts. May I see them?$"

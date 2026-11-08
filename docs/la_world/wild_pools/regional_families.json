@@ -1,0 +1,8357 @@
+[
+  {
+    "family": "SPECIES_ABRA",
+    "members": [
+      "SPECIES_ABRA",
+      "SPECIES_KADABRA",
+      "SPECIES_ALAKAZAM"
+    ],
+    "member_regions": {
+      "SPECIES_ABRA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KADABRA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ALAKAZAM": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ABSOL",
+    "members": [
+      "SPECIES_ABSOL"
+    ],
+    "member_regions": {
+      "SPECIES_ABSOL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AERODACTYL",
+    "members": [
+      "SPECIES_AERODACTYL"
+    ],
+    "member_regions": {
+      "SPECIES_AERODACTYL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AIPOM",
+    "members": [
+      "SPECIES_AIPOM",
+      "SPECIES_AMBIPOM"
+    ],
+    "member_regions": {
+      "SPECIES_AIPOM": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_AMBIPOM": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ALOMOMOLA",
+    "members": [
+      "SPECIES_ALOMOMOLA"
+    ],
+    "member_regions": {
+      "SPECIES_ALOMOMOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AMAURA",
+    "members": [
+      "SPECIES_AMAURA",
+      "SPECIES_AURORUS"
+    ],
+    "member_regions": {
+      "SPECIES_AMAURA": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_AURORUS": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ANORITH",
+    "members": [
+      "SPECIES_ANORITH",
+      "SPECIES_ARMALDO"
+    ],
+    "member_regions": {
+      "SPECIES_ANORITH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ARMALDO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_APPLIN",
+    "members": [
+      "SPECIES_APPLIN",
+      "SPECIES_FLAPPLE",
+      "SPECIES_APPLETUN",
+      "SPECIES_DIPPLIN",
+      "SPECIES_HYDRAPPLE"
+    ],
+    "member_regions": {
+      "SPECIES_APPLIN": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_FLAPPLE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_APPLETUN": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DIPPLIN": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_HYDRAPPLE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARCEUS_NORMAL",
+    "members": [
+      "SPECIES_ARCEUS_NORMAL"
+    ],
+    "member_regions": {
+      "SPECIES_ARCEUS_NORMAL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARCHEN",
+    "members": [
+      "SPECIES_ARCHEN",
+      "SPECIES_ARCHEOPS"
+    ],
+    "member_regions": {
+      "SPECIES_ARCHEN": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ARCHEOPS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARCTOVISH",
+    "members": [
+      "SPECIES_ARCTOVISH"
+    ],
+    "member_regions": {
+      "SPECIES_ARCTOVISH": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARCTOZOLT",
+    "members": [
+      "SPECIES_ARCTOZOLT"
+    ],
+    "member_regions": {
+      "SPECIES_ARCTOZOLT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARON",
+    "members": [
+      "SPECIES_ARON",
+      "SPECIES_LAIRON",
+      "SPECIES_AGGRON"
+    ],
+    "member_regions": {
+      "SPECIES_ARON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LAIRON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_AGGRON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARROKUDA",
+    "members": [
+      "SPECIES_ARROKUDA",
+      "SPECIES_BARRASKEWDA"
+    ],
+    "member_regions": {
+      "SPECIES_ARROKUDA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BARRASKEWDA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ARTICUNO",
+    "members": [
+      "SPECIES_ARTICUNO"
+    ],
+    "member_regions": {
+      "SPECIES_ARTICUNO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AUDINO",
+    "members": [
+      "SPECIES_AUDINO"
+    ],
+    "member_regions": {
+      "SPECIES_AUDINO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AXEW",
+    "members": [
+      "SPECIES_AXEW",
+      "SPECIES_FRAXURE",
+      "SPECIES_HAXORUS"
+    ],
+    "member_regions": {
+      "SPECIES_AXEW": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_FRAXURE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_HAXORUS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_AZELF",
+    "members": [
+      "SPECIES_AZELF"
+    ],
+    "member_regions": {
+      "SPECIES_AZELF": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BAGON",
+    "members": [
+      "SPECIES_BAGON",
+      "SPECIES_SHELGON",
+      "SPECIES_SALAMENCE"
+    ],
+    "member_regions": {
+      "SPECIES_BAGON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SHELGON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SALAMENCE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BALTOY",
+    "members": [
+      "SPECIES_BALTOY",
+      "SPECIES_CLAYDOL"
+    ],
+    "member_regions": {
+      "SPECIES_BALTOY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CLAYDOL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BARBOACH",
+    "members": [
+      "SPECIES_BARBOACH",
+      "SPECIES_WHISCASH"
+    ],
+    "member_regions": {
+      "SPECIES_BARBOACH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_WHISCASH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BASCULIN_RED_STRIPED",
+    "members": [
+      "SPECIES_BASCULIN_RED_STRIPED",
+      "SPECIES_BASCULEGION_M"
+    ],
+    "member_regions": {
+      "SPECIES_BASCULIN_RED_STRIPED": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BASCULEGION_M": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BELDUM",
+    "members": [
+      "SPECIES_BELDUM",
+      "SPECIES_METANG",
+      "SPECIES_METAGROSS"
+    ],
+    "member_regions": {
+      "SPECIES_BELDUM": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_METANG": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_METAGROSS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BELLSPROUT",
+    "members": [
+      "SPECIES_BELLSPROUT",
+      "SPECIES_WEEPINBELL",
+      "SPECIES_VICTREEBEL"
+    ],
+    "member_regions": {
+      "SPECIES_BELLSPROUT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WEEPINBELL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VICTREEBEL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BERGMITE",
+    "members": [
+      "SPECIES_BERGMITE",
+      "SPECIES_AVALUGG",
+      "SPECIES_AVALUGG_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_BERGMITE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_AVALUGG": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_AVALUGG_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BIDOOF",
+    "members": [
+      "SPECIES_BIDOOF",
+      "SPECIES_BIBAREL"
+    ],
+    "member_regions": {
+      "SPECIES_BIDOOF": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BIBAREL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BINACLE",
+    "members": [
+      "SPECIES_BINACLE",
+      "SPECIES_BARBARACLE"
+    ],
+    "member_regions": {
+      "SPECIES_BINACLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BARBARACLE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BLACEPHALON",
+    "members": [
+      "SPECIES_BLACEPHALON"
+    ],
+    "member_regions": {
+      "SPECIES_BLACEPHALON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BLIPBUG",
+    "members": [
+      "SPECIES_BLIPBUG",
+      "SPECIES_DOTTLER",
+      "SPECIES_ORBEETLE"
+    ],
+    "member_regions": {
+      "SPECIES_BLIPBUG": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DOTTLER": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ORBEETLE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BLITZLE",
+    "members": [
+      "SPECIES_BLITZLE",
+      "SPECIES_ZEBSTRIKA"
+    ],
+    "member_regions": {
+      "SPECIES_BLITZLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ZEBSTRIKA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BOMBIRDIER",
+    "members": [
+      "SPECIES_BOMBIRDIER"
+    ],
+    "member_regions": {
+      "SPECIES_BOMBIRDIER": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BOUFFALANT",
+    "members": [
+      "SPECIES_BOUFFALANT"
+    ],
+    "member_regions": {
+      "SPECIES_BOUFFALANT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BOUNSWEET",
+    "members": [
+      "SPECIES_BOUNSWEET",
+      "SPECIES_STEENEE",
+      "SPECIES_TSAREENA"
+    ],
+    "member_regions": {
+      "SPECIES_BOUNSWEET": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_STEENEE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TSAREENA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BRAMBLIN",
+    "members": [
+      "SPECIES_BRAMBLIN",
+      "SPECIES_BRAMBLEGHAST"
+    ],
+    "member_regions": {
+      "SPECIES_BRAMBLIN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BRAMBLEGHAST": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BRONZOR",
+    "members": [
+      "SPECIES_BRONZOR",
+      "SPECIES_BRONZONG"
+    ],
+    "member_regions": {
+      "SPECIES_BRONZOR": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BRONZONG": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BRUTE_BONNET",
+    "members": [
+      "SPECIES_BRUTE_BONNET"
+    ],
+    "member_regions": {
+      "SPECIES_BRUTE_BONNET": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BRUXISH",
+    "members": [
+      "SPECIES_BRUXISH"
+    ],
+    "member_regions": {
+      "SPECIES_BRUXISH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BUIZEL",
+    "members": [
+      "SPECIES_BUIZEL",
+      "SPECIES_FLOATZEL"
+    ],
+    "member_regions": {
+      "SPECIES_BUIZEL": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_FLOATZEL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BULBASAUR",
+    "members": [
+      "SPECIES_BULBASAUR",
+      "SPECIES_IVYSAUR",
+      "SPECIES_VENUSAUR"
+    ],
+    "member_regions": {
+      "SPECIES_BULBASAUR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_IVYSAUR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VENUSAUR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BUNEARY",
+    "members": [
+      "SPECIES_BUNEARY",
+      "SPECIES_LOPUNNY"
+    ],
+    "member_regions": {
+      "SPECIES_BUNEARY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LOPUNNY": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BUNNELBY",
+    "members": [
+      "SPECIES_BUNNELBY",
+      "SPECIES_DIGGERSBY"
+    ],
+    "member_regions": {
+      "SPECIES_BUNNELBY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DIGGERSBY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BURMY_PLANT",
+    "members": [
+      "SPECIES_BURMY_PLANT",
+      "SPECIES_WORMADAM_PLANT",
+      "SPECIES_MOTHIM_PLANT"
+    ],
+    "member_regions": {
+      "SPECIES_BURMY_PLANT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_WORMADAM_PLANT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MOTHIM_PLANT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_BUZZWOLE",
+    "members": [
+      "SPECIES_BUZZWOLE"
+    ],
+    "member_regions": {
+      "SPECIES_BUZZWOLE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CACNEA",
+    "members": [
+      "SPECIES_CACNEA",
+      "SPECIES_CACTURNE"
+    ],
+    "member_regions": {
+      "SPECIES_CACNEA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CACTURNE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CALYREX",
+    "members": [
+      "SPECIES_CALYREX"
+    ],
+    "member_regions": {
+      "SPECIES_CALYREX": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CAPSAKID",
+    "members": [
+      "SPECIES_CAPSAKID",
+      "SPECIES_SCOVILLAIN"
+    ],
+    "member_regions": {
+      "SPECIES_CAPSAKID": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SCOVILLAIN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CARBINK",
+    "members": [
+      "SPECIES_CARBINK"
+    ],
+    "member_regions": {
+      "SPECIES_CARBINK": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CARNIVINE",
+    "members": [
+      "SPECIES_CARNIVINE"
+    ],
+    "member_regions": {
+      "SPECIES_CARNIVINE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CARVANHA",
+    "members": [
+      "SPECIES_CARVANHA",
+      "SPECIES_SHARPEDO"
+    ],
+    "member_regions": {
+      "SPECIES_CARVANHA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SHARPEDO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CASTFORM_NORMAL",
+    "members": [
+      "SPECIES_CASTFORM_NORMAL"
+    ],
+    "member_regions": {
+      "SPECIES_CASTFORM_NORMAL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CATERPIE",
+    "members": [
+      "SPECIES_CATERPIE",
+      "SPECIES_METAPOD",
+      "SPECIES_BUTTERFREE"
+    ],
+    "member_regions": {
+      "SPECIES_CATERPIE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_METAPOD": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BUTTERFREE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CELEBI",
+    "members": [
+      "SPECIES_CELEBI"
+    ],
+    "member_regions": {
+      "SPECIES_CELEBI": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CELESTEELA",
+    "members": [
+      "SPECIES_CELESTEELA"
+    ],
+    "member_regions": {
+      "SPECIES_CELESTEELA": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CETODDLE",
+    "members": [
+      "SPECIES_CETODDLE",
+      "SPECIES_CETITAN"
+    ],
+    "member_regions": {
+      "SPECIES_CETODDLE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_CETITAN": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHANSEY",
+    "members": [
+      "SPECIES_HAPPINY",
+      "SPECIES_CHANSEY",
+      "SPECIES_BLISSEY"
+    ],
+    "member_regions": {
+      "SPECIES_HAPPINY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CHANSEY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BLISSEY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHARCADET",
+    "members": [
+      "SPECIES_CHARCADET",
+      "SPECIES_ARMAROUGE",
+      "SPECIES_CERULEDGE"
+    ],
+    "member_regions": {
+      "SPECIES_CHARCADET": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ARMAROUGE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CERULEDGE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHARMANDER",
+    "members": [
+      "SPECIES_CHARMANDER",
+      "SPECIES_CHARMELEON",
+      "SPECIES_CHARIZARD"
+    ],
+    "member_regions": {
+      "SPECIES_CHARMANDER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CHARMELEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CHARIZARD": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHATOT",
+    "members": [
+      "SPECIES_CHATOT"
+    ],
+    "member_regions": {
+      "SPECIES_CHATOT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHERUBI",
+    "members": [
+      "SPECIES_CHERUBI",
+      "SPECIES_CHERRIM_OVERCAST"
+    ],
+    "member_regions": {
+      "SPECIES_CHERUBI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_CHERRIM_OVERCAST": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHESPIN",
+    "members": [
+      "SPECIES_CHESPIN",
+      "SPECIES_QUILLADIN",
+      "SPECIES_CHESNAUGHT"
+    ],
+    "member_regions": {
+      "SPECIES_CHESPIN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_QUILLADIN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CHESNAUGHT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHEWTLE",
+    "members": [
+      "SPECIES_CHEWTLE",
+      "SPECIES_DREDNAW"
+    ],
+    "member_regions": {
+      "SPECIES_CHEWTLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DREDNAW": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHIEN_PAO",
+    "members": [
+      "SPECIES_CHIEN_PAO"
+    ],
+    "member_regions": {
+      "SPECIES_CHIEN_PAO": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHIKORITA",
+    "members": [
+      "SPECIES_CHIKORITA",
+      "SPECIES_BAYLEEF",
+      "SPECIES_MEGANIUM"
+    ],
+    "member_regions": {
+      "SPECIES_CHIKORITA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BAYLEEF": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MEGANIUM": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHIMCHAR",
+    "members": [
+      "SPECIES_CHIMCHAR",
+      "SPECIES_MONFERNO",
+      "SPECIES_INFERNAPE"
+    ],
+    "member_regions": {
+      "SPECIES_CHIMCHAR": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MONFERNO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_INFERNAPE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHIMECHO",
+    "members": [
+      "SPECIES_CHINGLING",
+      "SPECIES_CHIMECHO"
+    ],
+    "member_regions": {
+      "SPECIES_CHINGLING": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CHIMECHO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHINCHOU",
+    "members": [
+      "SPECIES_CHINCHOU",
+      "SPECIES_LANTURN"
+    ],
+    "member_regions": {
+      "SPECIES_CHINCHOU": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LANTURN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CHI_YU",
+    "members": [
+      "SPECIES_CHI_YU"
+    ],
+    "member_regions": {
+      "SPECIES_CHI_YU": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CLAMPERL",
+    "members": [
+      "SPECIES_CLAMPERL",
+      "SPECIES_HUNTAIL",
+      "SPECIES_GOREBYSS"
+    ],
+    "member_regions": {
+      "SPECIES_CLAMPERL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_HUNTAIL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GOREBYSS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CLAUNCHER",
+    "members": [
+      "SPECIES_CLAUNCHER",
+      "SPECIES_CLAWITZER"
+    ],
+    "member_regions": {
+      "SPECIES_CLAUNCHER": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CLAWITZER": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CLEFAIRY",
+    "members": [
+      "SPECIES_CLEFFA",
+      "SPECIES_CLEFAIRY",
+      "SPECIES_CLEFABLE"
+    ],
+    "member_regions": {
+      "SPECIES_CLEFFA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CLEFAIRY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CLEFABLE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CLOBBOPUS",
+    "members": [
+      "SPECIES_CLOBBOPUS",
+      "SPECIES_GRAPPLOCT"
+    ],
+    "member_regions": {
+      "SPECIES_CLOBBOPUS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRAPPLOCT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_COBALION",
+    "members": [
+      "SPECIES_COBALION"
+    ],
+    "member_regions": {
+      "SPECIES_COBALION": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_COMBEE",
+    "members": [
+      "SPECIES_COMBEE",
+      "SPECIES_VESPIQUEN"
+    ],
+    "member_regions": {
+      "SPECIES_COMBEE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_VESPIQUEN": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_COMFEY",
+    "members": [
+      "SPECIES_COMFEY"
+    ],
+    "member_regions": {
+      "SPECIES_COMFEY": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CORPHISH",
+    "members": [
+      "SPECIES_CORPHISH",
+      "SPECIES_CRAWDAUNT"
+    ],
+    "member_regions": {
+      "SPECIES_CORPHISH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CRAWDAUNT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CORSOLA",
+    "members": [
+      "SPECIES_CORSOLA",
+      "SPECIES_CURSOLA",
+      "SPECIES_CORSOLA_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_CORSOLA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CURSOLA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CORSOLA_GALAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_COSMOG",
+    "members": [
+      "SPECIES_COSMOG",
+      "SPECIES_COSMOEM",
+      "SPECIES_SOLGALEO",
+      "SPECIES_LUNALA"
+    ],
+    "member_regions": {
+      "SPECIES_COSMOG": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_COSMOEM": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SOLGALEO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LUNALA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_COTTONEE",
+    "members": [
+      "SPECIES_COTTONEE",
+      "SPECIES_WHIMSICOTT"
+    ],
+    "member_regions": {
+      "SPECIES_COTTONEE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WHIMSICOTT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CRABRAWLER",
+    "members": [
+      "SPECIES_CRABRAWLER",
+      "SPECIES_CRABOMINABLE"
+    ],
+    "member_regions": {
+      "SPECIES_CRABRAWLER": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CRABOMINABLE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CRAMORANT",
+    "members": [
+      "SPECIES_CRAMORANT"
+    ],
+    "member_regions": {
+      "SPECIES_CRAMORANT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CRANIDOS",
+    "members": [
+      "SPECIES_CRANIDOS",
+      "SPECIES_RAMPARDOS"
+    ],
+    "member_regions": {
+      "SPECIES_CRANIDOS": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_RAMPARDOS": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CRESSELIA",
+    "members": [
+      "SPECIES_CRESSELIA"
+    ],
+    "member_regions": {
+      "SPECIES_CRESSELIA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CROAGUNK",
+    "members": [
+      "SPECIES_CROAGUNK",
+      "SPECIES_TOXICROAK"
+    ],
+    "member_regions": {
+      "SPECIES_CROAGUNK": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TOXICROAK": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CRYOGONAL",
+    "members": [
+      "SPECIES_CRYOGONAL"
+    ],
+    "member_regions": {
+      "SPECIES_CRYOGONAL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CUBCHOO",
+    "members": [
+      "SPECIES_CUBCHOO",
+      "SPECIES_BEARTIC"
+    ],
+    "member_regions": {
+      "SPECIES_CUBCHOO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BEARTIC": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CUBONE",
+    "members": [
+      "SPECIES_CUBONE",
+      "SPECIES_MAROWAK",
+      "SPECIES_MAROWAK_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_CUBONE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_MAROWAK": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_MAROWAK_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CUFANT",
+    "members": [
+      "SPECIES_CUFANT",
+      "SPECIES_COPPERAJAH"
+    ],
+    "member_regions": {
+      "SPECIES_CUFANT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_COPPERAJAH": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CUTIEFLY",
+    "members": [
+      "SPECIES_CUTIEFLY",
+      "SPECIES_RIBOMBEE"
+    ],
+    "member_regions": {
+      "SPECIES_CUTIEFLY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RIBOMBEE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CYCLIZAR",
+    "members": [
+      "SPECIES_CYCLIZAR"
+    ],
+    "member_regions": {
+      "SPECIES_CYCLIZAR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_CYNDAQUIL",
+    "members": [
+      "SPECIES_CYNDAQUIL",
+      "SPECIES_QUILAVA",
+      "SPECIES_TYPHLOSION",
+      "SPECIES_TYPHLOSION_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_CYNDAQUIL": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_QUILAVA": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TYPHLOSION": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TYPHLOSION_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DARKRAI",
+    "members": [
+      "SPECIES_DARKRAI"
+    ],
+    "member_regions": {
+      "SPECIES_DARKRAI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DARUMAKA",
+    "members": [
+      "SPECIES_DARUMAKA",
+      "SPECIES_DARMANITAN_STANDARD",
+      "SPECIES_DARUMAKA_GALAR",
+      "SPECIES_DARMANITAN_GALAR_STANDARD"
+    ],
+    "member_regions": {
+      "SPECIES_DARUMAKA": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DARMANITAN_STANDARD": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DARUMAKA_GALAR": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DARMANITAN_GALAR_STANDARD": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DEDENNE",
+    "members": [
+      "SPECIES_DEDENNE"
+    ],
+    "member_regions": {
+      "SPECIES_DEDENNE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DEERLING_SPRING",
+    "members": [
+      "SPECIES_DEERLING_SPRING",
+      "SPECIES_SAWSBUCK_SPRING"
+    ],
+    "member_regions": {
+      "SPECIES_DEERLING_SPRING": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SAWSBUCK_SPRING": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DEINO",
+    "members": [
+      "SPECIES_DEINO",
+      "SPECIES_ZWEILOUS",
+      "SPECIES_HYDREIGON"
+    ],
+    "member_regions": {
+      "SPECIES_DEINO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ZWEILOUS": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_HYDREIGON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DELIBIRD",
+    "members": [
+      "SPECIES_DELIBIRD"
+    ],
+    "member_regions": {
+      "SPECIES_DELIBIRD": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DEOXYS_NORMAL",
+    "members": [
+      "SPECIES_DEOXYS_NORMAL"
+    ],
+    "member_regions": {
+      "SPECIES_DEOXYS_NORMAL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DEWPIDER",
+    "members": [
+      "SPECIES_DEWPIDER",
+      "SPECIES_ARAQUANID"
+    ],
+    "member_regions": {
+      "SPECIES_DEWPIDER": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ARAQUANID": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DHELMISE",
+    "members": [
+      "SPECIES_DHELMISE"
+    ],
+    "member_regions": {
+      "SPECIES_DHELMISE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DIALGA",
+    "members": [
+      "SPECIES_DIALGA"
+    ],
+    "member_regions": {
+      "SPECIES_DIALGA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DIANCIE",
+    "members": [
+      "SPECIES_DIANCIE"
+    ],
+    "member_regions": {
+      "SPECIES_DIANCIE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DIGLETT",
+    "members": [
+      "SPECIES_DIGLETT",
+      "SPECIES_DUGTRIO",
+      "SPECIES_DIGLETT_ALOLA",
+      "SPECIES_DUGTRIO_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_DIGLETT": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_DUGTRIO": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_DIGLETT_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DUGTRIO_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DITTO",
+    "members": [
+      "SPECIES_DITTO"
+    ],
+    "member_regions": {
+      "SPECIES_DITTO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DODUO",
+    "members": [
+      "SPECIES_DODUO",
+      "SPECIES_DODRIO"
+    ],
+    "member_regions": {
+      "SPECIES_DODUO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DODRIO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DONDOZO",
+    "members": [
+      "SPECIES_DONDOZO"
+    ],
+    "member_regions": {
+      "SPECIES_DONDOZO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRACOVISH",
+    "members": [
+      "SPECIES_DRACOVISH"
+    ],
+    "member_regions": {
+      "SPECIES_DRACOVISH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRACOZOLT",
+    "members": [
+      "SPECIES_DRACOZOLT"
+    ],
+    "member_regions": {
+      "SPECIES_DRACOZOLT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRAMPA",
+    "members": [
+      "SPECIES_DRAMPA"
+    ],
+    "member_regions": {
+      "SPECIES_DRAMPA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRATINI",
+    "members": [
+      "SPECIES_DRATINI",
+      "SPECIES_DRAGONAIR",
+      "SPECIES_DRAGONITE"
+    ],
+    "member_regions": {
+      "SPECIES_DRATINI": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DRAGONAIR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DRAGONITE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DREEPY",
+    "members": [
+      "SPECIES_DREEPY",
+      "SPECIES_DRAKLOAK",
+      "SPECIES_DRAGAPULT"
+    ],
+    "member_regions": {
+      "SPECIES_DREEPY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DRAKLOAK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DRAGAPULT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRIFLOON",
+    "members": [
+      "SPECIES_DRIFLOON",
+      "SPECIES_DRIFBLIM"
+    ],
+    "member_regions": {
+      "SPECIES_DRIFLOON": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DRIFBLIM": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRILBUR",
+    "members": [
+      "SPECIES_DRILBUR",
+      "SPECIES_EXCADRILL"
+    ],
+    "member_regions": {
+      "SPECIES_DRILBUR": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_EXCADRILL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DROWZEE",
+    "members": [
+      "SPECIES_DROWZEE",
+      "SPECIES_HYPNO"
+    ],
+    "member_regions": {
+      "SPECIES_DROWZEE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HYPNO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DRUDDIGON",
+    "members": [
+      "SPECIES_DRUDDIGON"
+    ],
+    "member_regions": {
+      "SPECIES_DRUDDIGON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DUCKLETT",
+    "members": [
+      "SPECIES_DUCKLETT",
+      "SPECIES_SWANNA"
+    ],
+    "member_regions": {
+      "SPECIES_DUCKLETT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SWANNA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DUNSPARCE",
+    "members": [
+      "SPECIES_DUNSPARCE",
+      "SPECIES_DUDUNSPARCE_TWO_SEGMENT"
+    ],
+    "member_regions": {
+      "SPECIES_DUNSPARCE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DUDUNSPARCE_TWO_SEGMENT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DURALUDON",
+    "members": [
+      "SPECIES_DURALUDON",
+      "SPECIES_ARCHALUDON"
+    ],
+    "member_regions": {
+      "SPECIES_DURALUDON": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ARCHALUDON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DURANT",
+    "members": [
+      "SPECIES_DURANT"
+    ],
+    "member_regions": {
+      "SPECIES_DURANT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DUSKULL",
+    "members": [
+      "SPECIES_DUSKULL",
+      "SPECIES_DUSCLOPS",
+      "SPECIES_DUSKNOIR"
+    ],
+    "member_regions": {
+      "SPECIES_DUSKULL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DUSCLOPS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DUSKNOIR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_DWEBBLE",
+    "members": [
+      "SPECIES_DWEBBLE",
+      "SPECIES_CRUSTLE"
+    ],
+    "member_regions": {
+      "SPECIES_DWEBBLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CRUSTLE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_EEVEE",
+    "members": [
+      "SPECIES_EEVEE",
+      "SPECIES_VAPOREON",
+      "SPECIES_JOLTEON",
+      "SPECIES_FLAREON",
+      "SPECIES_ESPEON",
+      "SPECIES_UMBREON",
+      "SPECIES_LEAFEON",
+      "SPECIES_GLACEON",
+      "SPECIES_SYLVEON"
+    ],
+    "member_regions": {
+      "SPECIES_EEVEE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VAPOREON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_JOLTEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FLAREON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ESPEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_UMBREON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LEAFEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GLACEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SYLVEON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_EISCUE_ICE",
+    "members": [
+      "SPECIES_EISCUE_ICE"
+    ],
+    "member_regions": {
+      "SPECIES_EISCUE_ICE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_EKANS",
+    "members": [
+      "SPECIES_EKANS",
+      "SPECIES_ARBOK"
+    ],
+    "member_regions": {
+      "SPECIES_EKANS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ARBOK": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ELECTABUZZ",
+    "members": [
+      "SPECIES_ELEKID",
+      "SPECIES_ELECTABUZZ",
+      "SPECIES_ELECTIVIRE"
+    ],
+    "member_regions": {
+      "SPECIES_ELEKID": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ELECTABUZZ": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ELECTIVIRE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ELECTRIKE",
+    "members": [
+      "SPECIES_ELECTRIKE",
+      "SPECIES_MANECTRIC"
+    ],
+    "member_regions": {
+      "SPECIES_ELECTRIKE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MANECTRIC": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ELGYEM",
+    "members": [
+      "SPECIES_ELGYEM",
+      "SPECIES_BEHEEYEM"
+    ],
+    "member_regions": {
+      "SPECIES_ELGYEM": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_BEHEEYEM": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_EMOLGA",
+    "members": [
+      "SPECIES_EMOLGA"
+    ],
+    "member_regions": {
+      "SPECIES_EMOLGA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ENAMORUS_INCARNATE",
+    "members": [
+      "SPECIES_ENAMORUS_INCARNATE"
+    ],
+    "member_regions": {
+      "SPECIES_ENAMORUS_INCARNATE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ENTEI",
+    "members": [
+      "SPECIES_ENTEI"
+    ],
+    "member_regions": {
+      "SPECIES_ENTEI": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ESPURR",
+    "members": [
+      "SPECIES_ESPURR",
+      "SPECIES_MEOWSTIC_M"
+    ],
+    "member_regions": {
+      "SPECIES_ESPURR": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MEOWSTIC_M": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ETERNATUS",
+    "members": [
+      "SPECIES_ETERNATUS"
+    ],
+    "member_regions": {
+      "SPECIES_ETERNATUS": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_EXEGGCUTE",
+    "members": [
+      "SPECIES_EXEGGCUTE",
+      "SPECIES_EXEGGUTOR",
+      "SPECIES_EXEGGUTOR_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_EXEGGCUTE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_EXEGGUTOR": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_EXEGGUTOR_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FALINKS",
+    "members": [
+      "SPECIES_FALINKS"
+    ],
+    "member_regions": {
+      "SPECIES_FALINKS": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FARFETCHD",
+    "members": [
+      "SPECIES_FARFETCHD",
+      "SPECIES_SIRFETCHD",
+      "SPECIES_FARFETCHD_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_FARFETCHD": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SIRFETCHD": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FARFETCHD_GALAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FEEBAS",
+    "members": [
+      "SPECIES_FEEBAS",
+      "SPECIES_MILOTIC"
+    ],
+    "member_regions": {
+      "SPECIES_FEEBAS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MILOTIC": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FENNEKIN",
+    "members": [
+      "SPECIES_FENNEKIN",
+      "SPECIES_BRAIXEN",
+      "SPECIES_DELPHOX"
+    ],
+    "member_regions": {
+      "SPECIES_FENNEKIN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BRAIXEN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DELPHOX": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FERROSEED",
+    "members": [
+      "SPECIES_FERROSEED",
+      "SPECIES_FERROTHORN"
+    ],
+    "member_regions": {
+      "SPECIES_FERROSEED": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_FERROTHORN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FEZANDIPITI",
+    "members": [
+      "SPECIES_FEZANDIPITI"
+    ],
+    "member_regions": {
+      "SPECIES_FEZANDIPITI": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FIDOUGH",
+    "members": [
+      "SPECIES_FIDOUGH",
+      "SPECIES_DACHSBUN"
+    ],
+    "member_regions": {
+      "SPECIES_FIDOUGH": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DACHSBUN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FINIZEN",
+    "members": [
+      "SPECIES_FINIZEN",
+      "SPECIES_PALAFIN_ZERO"
+    ],
+    "member_regions": {
+      "SPECIES_FINIZEN": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PALAFIN_ZERO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FINNEON",
+    "members": [
+      "SPECIES_FINNEON",
+      "SPECIES_LUMINEON"
+    ],
+    "member_regions": {
+      "SPECIES_FINNEON": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LUMINEON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FLABEBE_RED",
+    "members": [
+      "SPECIES_FLABEBE_RED",
+      "SPECIES_FLOETTE_RED",
+      "SPECIES_FLORGES_RED"
+    ],
+    "member_regions": {
+      "SPECIES_FLABEBE_RED": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FLOETTE_RED": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FLORGES_RED": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FLAMIGO",
+    "members": [
+      "SPECIES_FLAMIGO"
+    ],
+    "member_regions": {
+      "SPECIES_FLAMIGO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FLETCHLING",
+    "members": [
+      "SPECIES_FLETCHLING",
+      "SPECIES_FLETCHINDER",
+      "SPECIES_TALONFLAME"
+    ],
+    "member_regions": {
+      "SPECIES_FLETCHLING": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_FLETCHINDER": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_TALONFLAME": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FLITTLE",
+    "members": [
+      "SPECIES_FLITTLE",
+      "SPECIES_ESPATHRA"
+    ],
+    "member_regions": {
+      "SPECIES_FLITTLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ESPATHRA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FLUTTER_MANE",
+    "members": [
+      "SPECIES_FLUTTER_MANE"
+    ],
+    "member_regions": {
+      "SPECIES_FLUTTER_MANE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FOMANTIS",
+    "members": [
+      "SPECIES_FOMANTIS",
+      "SPECIES_LURANTIS"
+    ],
+    "member_regions": {
+      "SPECIES_FOMANTIS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LURANTIS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FOONGUS",
+    "members": [
+      "SPECIES_FOONGUS",
+      "SPECIES_AMOONGUSS"
+    ],
+    "member_regions": {
+      "SPECIES_FOONGUS": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_AMOONGUSS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FRIGIBAX",
+    "members": [
+      "SPECIES_FRIGIBAX",
+      "SPECIES_ARCTIBAX",
+      "SPECIES_BAXCALIBUR"
+    ],
+    "member_regions": {
+      "SPECIES_FRIGIBAX": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ARCTIBAX": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BAXCALIBUR": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FRILLISH",
+    "members": [
+      "SPECIES_FRILLISH",
+      "SPECIES_JELLICENT"
+    ],
+    "member_regions": {
+      "SPECIES_FRILLISH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_JELLICENT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FROAKIE",
+    "members": [
+      "SPECIES_FROAKIE",
+      "SPECIES_FROGADIER",
+      "SPECIES_GRENINJA"
+    ],
+    "member_regions": {
+      "SPECIES_FROAKIE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_FROGADIER": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRENINJA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FUECOCO",
+    "members": [
+      "SPECIES_FUECOCO",
+      "SPECIES_CROCALOR",
+      "SPECIES_SKELEDIRGE"
+    ],
+    "member_regions": {
+      "SPECIES_FUECOCO": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CROCALOR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SKELEDIRGE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_FURFROU_NATURAL",
+    "members": [
+      "SPECIES_FURFROU_NATURAL"
+    ],
+    "member_regions": {
+      "SPECIES_FURFROU_NATURAL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GASTLY",
+    "members": [
+      "SPECIES_GASTLY",
+      "SPECIES_HAUNTER",
+      "SPECIES_GENGAR"
+    ],
+    "member_regions": {
+      "SPECIES_GASTLY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HAUNTER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GENGAR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GENESECT",
+    "members": [
+      "SPECIES_GENESECT"
+    ],
+    "member_regions": {
+      "SPECIES_GENESECT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GEODUDE",
+    "members": [
+      "SPECIES_GEODUDE",
+      "SPECIES_GRAVELER",
+      "SPECIES_GOLEM",
+      "SPECIES_GEODUDE_ALOLA",
+      "SPECIES_GRAVELER_ALOLA",
+      "SPECIES_GOLEM_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_GEODUDE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRAVELER": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_GOLEM": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_GEODUDE_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRAVELER_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GOLEM_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GIBLE",
+    "members": [
+      "SPECIES_GIBLE",
+      "SPECIES_GABITE",
+      "SPECIES_GARCHOMP"
+    ],
+    "member_regions": {
+      "SPECIES_GIBLE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GABITE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GARCHOMP": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GIMMIGHOUL_CHEST",
+    "members": [
+      "SPECIES_GIMMIGHOUL_CHEST",
+      "SPECIES_GHOLDENGO"
+    ],
+    "member_regions": {
+      "SPECIES_GIMMIGHOUL_CHEST": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GHOLDENGO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GIRAFARIG",
+    "members": [
+      "SPECIES_GIRAFARIG",
+      "SPECIES_FARIGIRAF"
+    ],
+    "member_regions": {
+      "SPECIES_GIRAFARIG": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FARIGIRAF": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GIRATINA_ALTERED",
+    "members": [
+      "SPECIES_GIRATINA_ALTERED"
+    ],
+    "member_regions": {
+      "SPECIES_GIRATINA_ALTERED": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GLAMEOW",
+    "members": [
+      "SPECIES_GLAMEOW",
+      "SPECIES_PURUGLY"
+    ],
+    "member_regions": {
+      "SPECIES_GLAMEOW": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_PURUGLY": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GLASTRIER",
+    "members": [
+      "SPECIES_GLASTRIER"
+    ],
+    "member_regions": {
+      "SPECIES_GLASTRIER": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GLIGAR",
+    "members": [
+      "SPECIES_GLIGAR",
+      "SPECIES_GLISCOR"
+    ],
+    "member_regions": {
+      "SPECIES_GLIGAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GLISCOR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GLIMMET",
+    "members": [
+      "SPECIES_GLIMMET",
+      "SPECIES_GLIMMORA"
+    ],
+    "member_regions": {
+      "SPECIES_GLIMMET": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GLIMMORA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOLDEEN",
+    "members": [
+      "SPECIES_GOLDEEN",
+      "SPECIES_SEAKING"
+    ],
+    "member_regions": {
+      "SPECIES_GOLDEEN": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SEAKING": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOLETT",
+    "members": [
+      "SPECIES_GOLETT",
+      "SPECIES_GOLURK"
+    ],
+    "member_regions": {
+      "SPECIES_GOLETT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GOLURK": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOOMY",
+    "members": [
+      "SPECIES_GOOMY",
+      "SPECIES_SLIGGOO",
+      "SPECIES_GOODRA",
+      "SPECIES_SLIGGOO_HISUI",
+      "SPECIES_GOODRA_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_GOOMY": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SLIGGOO": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GOODRA": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SLIGGOO_HISUI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GOODRA_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOSSIFLEUR",
+    "members": [
+      "SPECIES_GOSSIFLEUR",
+      "SPECIES_ELDEGOSS"
+    ],
+    "member_regions": {
+      "SPECIES_GOSSIFLEUR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ELDEGOSS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOTHITA",
+    "members": [
+      "SPECIES_GOTHITA",
+      "SPECIES_GOTHORITA",
+      "SPECIES_GOTHITELLE"
+    ],
+    "member_regions": {
+      "SPECIES_GOTHITA": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_GOTHORITA": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_GOTHITELLE": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GOUGING_FIRE",
+    "members": [
+      "SPECIES_GOUGING_FIRE"
+    ],
+    "member_regions": {
+      "SPECIES_GOUGING_FIRE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GREAT_TUSK",
+    "members": [
+      "SPECIES_GREAT_TUSK"
+    ],
+    "member_regions": {
+      "SPECIES_GREAT_TUSK": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GREAVARD",
+    "members": [
+      "SPECIES_GREAVARD",
+      "SPECIES_HOUNDSTONE"
+    ],
+    "member_regions": {
+      "SPECIES_GREAVARD": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_HOUNDSTONE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GRIMER",
+    "members": [
+      "SPECIES_GRIMER",
+      "SPECIES_MUK",
+      "SPECIES_GRIMER_ALOLA",
+      "SPECIES_MUK_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_GRIMER": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_MUK": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRIMER_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MUK_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GROOKEY",
+    "members": [
+      "SPECIES_GROOKEY",
+      "SPECIES_THWACKEY",
+      "SPECIES_RILLABOOM"
+    ],
+    "member_regions": {
+      "SPECIES_GROOKEY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_THWACKEY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RILLABOOM": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GROUDON",
+    "members": [
+      "SPECIES_GROUDON"
+    ],
+    "member_regions": {
+      "SPECIES_GROUDON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GROWLITHE",
+    "members": [
+      "SPECIES_GROWLITHE",
+      "SPECIES_ARCANINE",
+      "SPECIES_GROWLITHE_HISUI",
+      "SPECIES_ARCANINE_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_GROWLITHE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ARCANINE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GROWLITHE_HISUI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ARCANINE_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GRUBBIN",
+    "members": [
+      "SPECIES_GRUBBIN",
+      "SPECIES_CHARJABUG",
+      "SPECIES_VIKAVOLT"
+    ],
+    "member_regions": {
+      "SPECIES_GRUBBIN": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CHARJABUG": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_VIKAVOLT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GULPIN",
+    "members": [
+      "SPECIES_GULPIN",
+      "SPECIES_SWALOT"
+    ],
+    "member_regions": {
+      "SPECIES_GULPIN": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SWALOT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_GUZZLORD",
+    "members": [
+      "SPECIES_GUZZLORD"
+    ],
+    "member_regions": {
+      "SPECIES_GUZZLORD": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HATENNA",
+    "members": [
+      "SPECIES_HATENNA",
+      "SPECIES_HATTREM",
+      "SPECIES_HATTERENE"
+    ],
+    "member_regions": {
+      "SPECIES_HATENNA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HATTREM": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HATTERENE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HAWLUCHA",
+    "members": [
+      "SPECIES_HAWLUCHA"
+    ],
+    "member_regions": {
+      "SPECIES_HAWLUCHA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HEATMOR",
+    "members": [
+      "SPECIES_HEATMOR"
+    ],
+    "member_regions": {
+      "SPECIES_HEATMOR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HEATRAN",
+    "members": [
+      "SPECIES_HEATRAN"
+    ],
+    "member_regions": {
+      "SPECIES_HEATRAN": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HELIOPTILE",
+    "members": [
+      "SPECIES_HELIOPTILE",
+      "SPECIES_HELIOLISK"
+    ],
+    "member_regions": {
+      "SPECIES_HELIOPTILE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_HELIOLISK": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HERACROSS",
+    "members": [
+      "SPECIES_HERACROSS"
+    ],
+    "member_regions": {
+      "SPECIES_HERACROSS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HIPPOPOTAS",
+    "members": [
+      "SPECIES_HIPPOPOTAS",
+      "SPECIES_HIPPOWDON"
+    ],
+    "member_regions": {
+      "SPECIES_HIPPOPOTAS": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_HIPPOWDON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HITMONLEE",
+    "members": [
+      "SPECIES_TYROGUE",
+      "SPECIES_HITMONLEE",
+      "SPECIES_HITMONCHAN",
+      "SPECIES_HITMONTOP"
+    ],
+    "member_regions": {
+      "SPECIES_TYROGUE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HITMONLEE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HITMONCHAN": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HITMONTOP": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HONEDGE",
+    "members": [
+      "SPECIES_HONEDGE",
+      "SPECIES_DOUBLADE",
+      "SPECIES_AEGISLASH_SHIELD"
+    ],
+    "member_regions": {
+      "SPECIES_HONEDGE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_DOUBLADE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_AEGISLASH_SHIELD": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HOOPA_CONFINED",
+    "members": [
+      "SPECIES_HOOPA_CONFINED"
+    ],
+    "member_regions": {
+      "SPECIES_HOOPA_CONFINED": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HOOTHOOT",
+    "members": [
+      "SPECIES_HOOTHOOT",
+      "SPECIES_NOCTOWL"
+    ],
+    "member_regions": {
+      "SPECIES_HOOTHOOT": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_NOCTOWL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HOPPIP",
+    "members": [
+      "SPECIES_HOPPIP",
+      "SPECIES_SKIPLOOM",
+      "SPECIES_JUMPLUFF"
+    ],
+    "member_regions": {
+      "SPECIES_HOPPIP": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SKIPLOOM": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_JUMPLUFF": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HORSEA",
+    "members": [
+      "SPECIES_HORSEA",
+      "SPECIES_SEADRA",
+      "SPECIES_KINGDRA"
+    ],
+    "member_regions": {
+      "SPECIES_HORSEA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SEADRA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KINGDRA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HOUNDOUR",
+    "members": [
+      "SPECIES_HOUNDOUR",
+      "SPECIES_HOUNDOOM"
+    ],
+    "member_regions": {
+      "SPECIES_HOUNDOUR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HOUNDOOM": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_HO_OH",
+    "members": [
+      "SPECIES_HO_OH"
+    ],
+    "member_regions": {
+      "SPECIES_HO_OH": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ILLUMISE",
+    "members": [
+      "SPECIES_ILLUMISE"
+    ],
+    "member_regions": {
+      "SPECIES_ILLUMISE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IMPIDIMP",
+    "members": [
+      "SPECIES_IMPIDIMP",
+      "SPECIES_MORGREM",
+      "SPECIES_GRIMMSNARL"
+    ],
+    "member_regions": {
+      "SPECIES_IMPIDIMP": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MORGREM": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GRIMMSNARL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_INDEEDEE_M",
+    "members": [
+      "SPECIES_INDEEDEE_M"
+    ],
+    "member_regions": {
+      "SPECIES_INDEEDEE_M": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_INKAY",
+    "members": [
+      "SPECIES_INKAY",
+      "SPECIES_MALAMAR"
+    ],
+    "member_regions": {
+      "SPECIES_INKAY": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_MALAMAR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_BOULDER",
+    "members": [
+      "SPECIES_IRON_BOULDER"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_BOULDER": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_BUNDLE",
+    "members": [
+      "SPECIES_IRON_BUNDLE"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_BUNDLE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_CROWN",
+    "members": [
+      "SPECIES_IRON_CROWN"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_CROWN": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_HANDS",
+    "members": [
+      "SPECIES_IRON_HANDS"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_HANDS": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_JUGULIS",
+    "members": [
+      "SPECIES_IRON_JUGULIS"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_JUGULIS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_LEAVES",
+    "members": [
+      "SPECIES_IRON_LEAVES"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_LEAVES": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_MOTH",
+    "members": [
+      "SPECIES_IRON_MOTH"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_MOTH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_THORNS",
+    "members": [
+      "SPECIES_IRON_THORNS"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_THORNS": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_TREADS",
+    "members": [
+      "SPECIES_IRON_TREADS"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_TREADS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_IRON_VALIANT",
+    "members": [
+      "SPECIES_IRON_VALIANT"
+    ],
+    "member_regions": {
+      "SPECIES_IRON_VALIANT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_JANGMO_O",
+    "members": [
+      "SPECIES_JANGMO_O",
+      "SPECIES_HAKAMO_O",
+      "SPECIES_KOMMO_O"
+    ],
+    "member_regions": {
+      "SPECIES_JANGMO_O": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_HAKAMO_O": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_KOMMO_O": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_JIGGLYPUFF",
+    "members": [
+      "SPECIES_IGGLYBUFF",
+      "SPECIES_JIGGLYPUFF",
+      "SPECIES_WIGGLYTUFF"
+    ],
+    "member_regions": {
+      "SPECIES_IGGLYBUFF": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_JIGGLYPUFF": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WIGGLYTUFF": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_JIRACHI",
+    "members": [
+      "SPECIES_JIRACHI"
+    ],
+    "member_regions": {
+      "SPECIES_JIRACHI": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_JOLTIK",
+    "members": [
+      "SPECIES_JOLTIK",
+      "SPECIES_GALVANTULA"
+    ],
+    "member_regions": {
+      "SPECIES_JOLTIK": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GALVANTULA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_JYNX",
+    "members": [
+      "SPECIES_SMOOCHUM",
+      "SPECIES_JYNX"
+    ],
+    "member_regions": {
+      "SPECIES_SMOOCHUM": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_JYNX": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KABUTO",
+    "members": [
+      "SPECIES_KABUTO",
+      "SPECIES_KABUTOPS"
+    ],
+    "member_regions": {
+      "SPECIES_KABUTO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KABUTOPS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KANGASKHAN",
+    "members": [
+      "SPECIES_KANGASKHAN"
+    ],
+    "member_regions": {
+      "SPECIES_KANGASKHAN": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KARRABLAST",
+    "members": [
+      "SPECIES_KARRABLAST",
+      "SPECIES_ESCAVALIER"
+    ],
+    "member_regions": {
+      "SPECIES_KARRABLAST": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ESCAVALIER": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KARTANA",
+    "members": [
+      "SPECIES_KARTANA"
+    ],
+    "member_regions": {
+      "SPECIES_KARTANA": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KECLEON",
+    "members": [
+      "SPECIES_KECLEON"
+    ],
+    "member_regions": {
+      "SPECIES_KECLEON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KELDEO_ORDINARY",
+    "members": [
+      "SPECIES_KELDEO_ORDINARY"
+    ],
+    "member_regions": {
+      "SPECIES_KELDEO_ORDINARY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KLAWF",
+    "members": [
+      "SPECIES_KLAWF"
+    ],
+    "member_regions": {
+      "SPECIES_KLAWF": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KLEFKI",
+    "members": [
+      "SPECIES_KLEFKI"
+    ],
+    "member_regions": {
+      "SPECIES_KLEFKI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KLINK",
+    "members": [
+      "SPECIES_KLINK",
+      "SPECIES_KLANG",
+      "SPECIES_KLINKLANG"
+    ],
+    "member_regions": {
+      "SPECIES_KLINK": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_KLANG": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_KLINKLANG": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KOFFING",
+    "members": [
+      "SPECIES_KOFFING",
+      "SPECIES_WEEZING",
+      "SPECIES_WEEZING_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_KOFFING": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WEEZING": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WEEZING_GALAR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KOMALA",
+    "members": [
+      "SPECIES_KOMALA"
+    ],
+    "member_regions": {
+      "SPECIES_KOMALA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KORAIDON",
+    "members": [
+      "SPECIES_KORAIDON"
+    ],
+    "member_regions": {
+      "SPECIES_KORAIDON": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KRABBY",
+    "members": [
+      "SPECIES_KRABBY",
+      "SPECIES_KINGLER"
+    ],
+    "member_regions": {
+      "SPECIES_KRABBY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KINGLER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KRICKETOT",
+    "members": [
+      "SPECIES_KRICKETOT",
+      "SPECIES_KRICKETUNE"
+    ],
+    "member_regions": {
+      "SPECIES_KRICKETOT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_KRICKETUNE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KUBFU",
+    "members": [
+      "SPECIES_KUBFU",
+      "SPECIES_URSHIFU_SINGLE_STRIKE"
+    ],
+    "member_regions": {
+      "SPECIES_KUBFU": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_URSHIFU_SINGLE_STRIKE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KYOGRE",
+    "members": [
+      "SPECIES_KYOGRE"
+    ],
+    "member_regions": {
+      "SPECIES_KYOGRE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_KYUREM",
+    "members": [
+      "SPECIES_KYUREM"
+    ],
+    "member_regions": {
+      "SPECIES_KYUREM": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LANDORUS_INCARNATE",
+    "members": [
+      "SPECIES_LANDORUS_INCARNATE"
+    ],
+    "member_regions": {
+      "SPECIES_LANDORUS_INCARNATE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LAPRAS",
+    "members": [
+      "SPECIES_LAPRAS"
+    ],
+    "member_regions": {
+      "SPECIES_LAPRAS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LARVESTA",
+    "members": [
+      "SPECIES_LARVESTA",
+      "SPECIES_VOLCARONA"
+    ],
+    "member_regions": {
+      "SPECIES_LARVESTA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_VOLCARONA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LARVITAR",
+    "members": [
+      "SPECIES_LARVITAR",
+      "SPECIES_PUPITAR",
+      "SPECIES_TYRANITAR"
+    ],
+    "member_regions": {
+      "SPECIES_LARVITAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PUPITAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TYRANITAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LATIAS",
+    "members": [
+      "SPECIES_LATIAS"
+    ],
+    "member_regions": {
+      "SPECIES_LATIAS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LATIOS",
+    "members": [
+      "SPECIES_LATIOS"
+    ],
+    "member_regions": {
+      "SPECIES_LATIOS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LECHONK",
+    "members": [
+      "SPECIES_LECHONK",
+      "SPECIES_OINKOLOGNE_M"
+    ],
+    "member_regions": {
+      "SPECIES_LECHONK": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_OINKOLOGNE_M": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LEDYBA",
+    "members": [
+      "SPECIES_LEDYBA",
+      "SPECIES_LEDIAN"
+    ],
+    "member_regions": {
+      "SPECIES_LEDYBA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LEDIAN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LICKITUNG",
+    "members": [
+      "SPECIES_LICKITUNG",
+      "SPECIES_LICKILICKY"
+    ],
+    "member_regions": {
+      "SPECIES_LICKITUNG": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LICKILICKY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LILEEP",
+    "members": [
+      "SPECIES_LILEEP",
+      "SPECIES_CRADILY"
+    ],
+    "member_regions": {
+      "SPECIES_LILEEP": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CRADILY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LILLIPUP",
+    "members": [
+      "SPECIES_LILLIPUP",
+      "SPECIES_HERDIER",
+      "SPECIES_STOUTLAND"
+    ],
+    "member_regions": {
+      "SPECIES_LILLIPUP": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_HERDIER": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_STOUTLAND": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LITLEO",
+    "members": [
+      "SPECIES_LITLEO",
+      "SPECIES_PYROAR"
+    ],
+    "member_regions": {
+      "SPECIES_LITLEO": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_PYROAR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LITTEN",
+    "members": [
+      "SPECIES_LITTEN",
+      "SPECIES_TORRACAT",
+      "SPECIES_INCINEROAR"
+    ],
+    "member_regions": {
+      "SPECIES_LITTEN": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TORRACAT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_INCINEROAR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LITWICK",
+    "members": [
+      "SPECIES_LITWICK",
+      "SPECIES_LAMPENT",
+      "SPECIES_CHANDELURE"
+    ],
+    "member_regions": {
+      "SPECIES_LITWICK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LAMPENT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CHANDELURE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LOTAD",
+    "members": [
+      "SPECIES_LOTAD",
+      "SPECIES_LOMBRE",
+      "SPECIES_LUDICOLO"
+    ],
+    "member_regions": {
+      "SPECIES_LOTAD": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LOMBRE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LUDICOLO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LUGIA",
+    "members": [
+      "SPECIES_LUGIA"
+    ],
+    "member_regions": {
+      "SPECIES_LUGIA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LUNATONE",
+    "members": [
+      "SPECIES_LUNATONE"
+    ],
+    "member_regions": {
+      "SPECIES_LUNATONE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_LUVDISC",
+    "members": [
+      "SPECIES_LUVDISC"
+    ],
+    "member_regions": {
+      "SPECIES_LUVDISC": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MACHOP",
+    "members": [
+      "SPECIES_MACHOP",
+      "SPECIES_MACHOKE",
+      "SPECIES_MACHAMP"
+    ],
+    "member_regions": {
+      "SPECIES_MACHOP": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MACHOKE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MACHAMP": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAGEARNA",
+    "members": [
+      "SPECIES_MAGEARNA"
+    ],
+    "member_regions": {
+      "SPECIES_MAGEARNA": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAGIKARP",
+    "members": [
+      "SPECIES_MAGIKARP",
+      "SPECIES_GYARADOS"
+    ],
+    "member_regions": {
+      "SPECIES_MAGIKARP": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GYARADOS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAGMAR",
+    "members": [
+      "SPECIES_MAGBY",
+      "SPECIES_MAGMAR",
+      "SPECIES_MAGMORTAR"
+    ],
+    "member_regions": {
+      "SPECIES_MAGBY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAGMAR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAGMORTAR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAGNEMITE",
+    "members": [
+      "SPECIES_MAGNEMITE",
+      "SPECIES_MAGNETON",
+      "SPECIES_MAGNEZONE"
+    ],
+    "member_regions": {
+      "SPECIES_MAGNEMITE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAGNETON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAGNEZONE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAKUHITA",
+    "members": [
+      "SPECIES_MAKUHITA",
+      "SPECIES_HARIYAMA"
+    ],
+    "member_regions": {
+      "SPECIES_MAKUHITA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_HARIYAMA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MANAPHY",
+    "members": [
+      "SPECIES_MANAPHY"
+    ],
+    "member_regions": {
+      "SPECIES_MANAPHY": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MANKEY",
+    "members": [
+      "SPECIES_MANKEY",
+      "SPECIES_PRIMEAPE",
+      "SPECIES_ANNIHILAPE"
+    ],
+    "member_regions": {
+      "SPECIES_MANKEY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PRIMEAPE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ANNIHILAPE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MANTINE",
+    "members": [
+      "SPECIES_MANTYKE",
+      "SPECIES_MANTINE"
+    ],
+    "member_regions": {
+      "SPECIES_MANTYKE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MANTINE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MARACTUS",
+    "members": [
+      "SPECIES_MARACTUS"
+    ],
+    "member_regions": {
+      "SPECIES_MARACTUS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAREANIE",
+    "members": [
+      "SPECIES_MAREANIE",
+      "SPECIES_TOXAPEX"
+    ],
+    "member_regions": {
+      "SPECIES_MAREANIE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TOXAPEX": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAREEP",
+    "members": [
+      "SPECIES_MAREEP",
+      "SPECIES_FLAAFFY",
+      "SPECIES_AMPHAROS"
+    ],
+    "member_regions": {
+      "SPECIES_MAREEP": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FLAAFFY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_AMPHAROS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MARILL",
+    "members": [
+      "SPECIES_AZURILL",
+      "SPECIES_MARILL",
+      "SPECIES_AZUMARILL"
+    ],
+    "member_regions": {
+      "SPECIES_AZURILL": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MARILL": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_AZUMARILL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MARSHADOW",
+    "members": [
+      "SPECIES_MARSHADOW"
+    ],
+    "member_regions": {
+      "SPECIES_MARSHADOW": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MASCHIFF",
+    "members": [
+      "SPECIES_MASCHIFF",
+      "SPECIES_MABOSSTIFF"
+    ],
+    "member_regions": {
+      "SPECIES_MASCHIFF": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MABOSSTIFF": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MAWILE",
+    "members": [
+      "SPECIES_MAWILE"
+    ],
+    "member_regions": {
+      "SPECIES_MAWILE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MEDITITE",
+    "members": [
+      "SPECIES_MEDITITE",
+      "SPECIES_MEDICHAM"
+    ],
+    "member_regions": {
+      "SPECIES_MEDITITE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MEDICHAM": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MELMETAL",
+    "members": [
+      "SPECIES_MELMETAL"
+    ],
+    "member_regions": {
+      "SPECIES_MELMETAL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MELOETTA_ARIA",
+    "members": [
+      "SPECIES_MELOETTA_ARIA"
+    ],
+    "member_regions": {
+      "SPECIES_MELOETTA_ARIA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MELTAN",
+    "members": [
+      "SPECIES_MELTAN"
+    ],
+    "member_regions": {
+      "SPECIES_MELTAN": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MEOWTH",
+    "members": [
+      "SPECIES_MEOWTH",
+      "SPECIES_PERSIAN",
+      "SPECIES_PERRSERKER",
+      "SPECIES_MEOWTH_ALOLA",
+      "SPECIES_PERSIAN_ALOLA",
+      "SPECIES_MEOWTH_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_MEOWTH": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_PERSIAN": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_PERRSERKER": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_MEOWTH_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PERSIAN_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MEOWTH_GALAR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MESPRIT",
+    "members": [
+      "SPECIES_MESPRIT"
+    ],
+    "member_regions": {
+      "SPECIES_MESPRIT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MEW",
+    "members": [
+      "SPECIES_MEW"
+    ],
+    "member_regions": {
+      "SPECIES_MEW": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MEWTWO",
+    "members": [
+      "SPECIES_MEWTWO"
+    ],
+    "member_regions": {
+      "SPECIES_MEWTWO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MIENFOO",
+    "members": [
+      "SPECIES_MIENFOO",
+      "SPECIES_MIENSHAO"
+    ],
+    "member_regions": {
+      "SPECIES_MIENFOO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MIENSHAO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MILCERY",
+    "members": [
+      "SPECIES_MILCERY",
+      "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM"
+    ],
+    "member_regions": {
+      "SPECIES_MILCERY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MILTANK",
+    "members": [
+      "SPECIES_MILTANK"
+    ],
+    "member_regions": {
+      "SPECIES_MILTANK": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MIMIKYU_DISGUISED",
+    "members": [
+      "SPECIES_MIMIKYU_DISGUISED"
+    ],
+    "member_regions": {
+      "SPECIES_MIMIKYU_DISGUISED": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MINCCINO",
+    "members": [
+      "SPECIES_MINCCINO",
+      "SPECIES_CINCCINO"
+    ],
+    "member_regions": {
+      "SPECIES_MINCCINO": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CINCCINO": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MINIOR_METEOR_RED",
+    "members": [
+      "SPECIES_MINIOR_METEOR_RED"
+    ],
+    "member_regions": {
+      "SPECIES_MINIOR_METEOR_RED": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MINUN",
+    "members": [
+      "SPECIES_MINUN"
+    ],
+    "member_regions": {
+      "SPECIES_MINUN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MIRAIDON",
+    "members": [
+      "SPECIES_MIRAIDON"
+    ],
+    "member_regions": {
+      "SPECIES_MIRAIDON": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MISDREAVUS",
+    "members": [
+      "SPECIES_MISDREAVUS",
+      "SPECIES_MISMAGIUS"
+    ],
+    "member_regions": {
+      "SPECIES_MISDREAVUS": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MISMAGIUS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MOLTRES",
+    "members": [
+      "SPECIES_MOLTRES"
+    ],
+    "member_regions": {
+      "SPECIES_MOLTRES": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MORELULL",
+    "members": [
+      "SPECIES_MORELULL",
+      "SPECIES_SHIINOTIC"
+    ],
+    "member_regions": {
+      "SPECIES_MORELULL": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SHIINOTIC": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MORPEKO_FULL_BELLY",
+    "members": [
+      "SPECIES_MORPEKO_FULL_BELLY"
+    ],
+    "member_regions": {
+      "SPECIES_MORPEKO_FULL_BELLY": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MR_MIME",
+    "members": [
+      "SPECIES_MIME_JR",
+      "SPECIES_MR_MIME",
+      "SPECIES_MR_RIME",
+      "SPECIES_MR_MIME_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_MIME_JR": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MR_MIME": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MR_RIME": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MR_MIME_GALAR": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MUDBRAY",
+    "members": [
+      "SPECIES_MUDBRAY",
+      "SPECIES_MUDSDALE"
+    ],
+    "member_regions": {
+      "SPECIES_MUDBRAY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MUDSDALE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MUDKIP",
+    "members": [
+      "SPECIES_MUDKIP",
+      "SPECIES_MARSHTOMP",
+      "SPECIES_SWAMPERT"
+    ],
+    "member_regions": {
+      "SPECIES_MUDKIP": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MARSHTOMP": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SWAMPERT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MUNKIDORI",
+    "members": [
+      "SPECIES_MUNKIDORI"
+    ],
+    "member_regions": {
+      "SPECIES_MUNKIDORI": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MUNNA",
+    "members": [
+      "SPECIES_MUNNA",
+      "SPECIES_MUSHARNA"
+    ],
+    "member_regions": {
+      "SPECIES_MUNNA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MUSHARNA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_MURKROW",
+    "members": [
+      "SPECIES_MURKROW",
+      "SPECIES_HONCHKROW"
+    ],
+    "member_regions": {
+      "SPECIES_MURKROW": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_HONCHKROW": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NACLI",
+    "members": [
+      "SPECIES_NACLI",
+      "SPECIES_NACLSTACK",
+      "SPECIES_GARGANACL"
+    ],
+    "member_regions": {
+      "SPECIES_NACLI": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_NACLSTACK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GARGANACL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NATU",
+    "members": [
+      "SPECIES_NATU",
+      "SPECIES_XATU"
+    ],
+    "member_regions": {
+      "SPECIES_NATU": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_XATU": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NECROZMA",
+    "members": [
+      "SPECIES_NECROZMA"
+    ],
+    "member_regions": {
+      "SPECIES_NECROZMA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NICKIT",
+    "members": [
+      "SPECIES_NICKIT",
+      "SPECIES_THIEVUL"
+    ],
+    "member_regions": {
+      "SPECIES_NICKIT": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_THIEVUL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NIDORAN_F",
+    "members": [
+      "SPECIES_NIDORAN_F",
+      "SPECIES_NIDORINA",
+      "SPECIES_NIDOQUEEN"
+    ],
+    "member_regions": {
+      "SPECIES_NIDORAN_F": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_NIDORINA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_NIDOQUEEN": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NIDORAN_M",
+    "members": [
+      "SPECIES_NIDORAN_M",
+      "SPECIES_NIDORINO",
+      "SPECIES_NIDOKING"
+    ],
+    "member_regions": {
+      "SPECIES_NIDORAN_M": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_NIDORINO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_NIDOKING": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NIHILEGO",
+    "members": [
+      "SPECIES_NIHILEGO"
+    ],
+    "member_regions": {
+      "SPECIES_NIHILEGO": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NINCADA",
+    "members": [
+      "SPECIES_NINCADA",
+      "SPECIES_NINJASK",
+      "SPECIES_SHEDINJA"
+    ],
+    "member_regions": {
+      "SPECIES_NINCADA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_NINJASK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SHEDINJA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NOIBAT",
+    "members": [
+      "SPECIES_NOIBAT",
+      "SPECIES_NOIVERN"
+    ],
+    "member_regions": {
+      "SPECIES_NOIBAT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_NOIVERN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NOSEPASS",
+    "members": [
+      "SPECIES_NOSEPASS",
+      "SPECIES_PROBOPASS"
+    ],
+    "member_regions": {
+      "SPECIES_NOSEPASS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PROBOPASS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NUMEL",
+    "members": [
+      "SPECIES_NUMEL",
+      "SPECIES_CAMERUPT"
+    ],
+    "member_regions": {
+      "SPECIES_NUMEL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CAMERUPT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_NYMBLE",
+    "members": [
+      "SPECIES_NYMBLE",
+      "SPECIES_LOKIX"
+    ],
+    "member_regions": {
+      "SPECIES_NYMBLE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LOKIX": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ODDISH",
+    "members": [
+      "SPECIES_ODDISH",
+      "SPECIES_GLOOM",
+      "SPECIES_VILEPLUME",
+      "SPECIES_BELLOSSOM"
+    ],
+    "member_regions": {
+      "SPECIES_ODDISH": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GLOOM": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VILEPLUME": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BELLOSSOM": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_OGERPON_TEAL",
+    "members": [
+      "SPECIES_OGERPON_TEAL"
+    ],
+    "member_regions": {
+      "SPECIES_OGERPON_TEAL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_OKIDOGI",
+    "members": [
+      "SPECIES_OKIDOGI"
+    ],
+    "member_regions": {
+      "SPECIES_OKIDOGI": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_OMANYTE",
+    "members": [
+      "SPECIES_OMANYTE",
+      "SPECIES_OMASTAR"
+    ],
+    "member_regions": {
+      "SPECIES_OMANYTE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_OMASTAR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ONIX",
+    "members": [
+      "SPECIES_ONIX",
+      "SPECIES_STEELIX"
+    ],
+    "member_regions": {
+      "SPECIES_ONIX": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_STEELIX": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ORANGURU",
+    "members": [
+      "SPECIES_ORANGURU"
+    ],
+    "member_regions": {
+      "SPECIES_ORANGURU": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ORICORIO_BAILE",
+    "members": [
+      "SPECIES_ORICORIO_BAILE"
+    ],
+    "member_regions": {
+      "SPECIES_ORICORIO_BAILE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ORTHWORM",
+    "members": [
+      "SPECIES_ORTHWORM"
+    ],
+    "member_regions": {
+      "SPECIES_ORTHWORM": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_OSHAWOTT",
+    "members": [
+      "SPECIES_OSHAWOTT",
+      "SPECIES_DEWOTT",
+      "SPECIES_SAMUROTT",
+      "SPECIES_SAMUROTT_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_OSHAWOTT": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DEWOTT": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SAMUROTT": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SAMUROTT_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PACHIRISU",
+    "members": [
+      "SPECIES_PACHIRISU"
+    ],
+    "member_regions": {
+      "SPECIES_PACHIRISU": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PALKIA",
+    "members": [
+      "SPECIES_PALKIA"
+    ],
+    "member_regions": {
+      "SPECIES_PALKIA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PANCHAM",
+    "members": [
+      "SPECIES_PANCHAM",
+      "SPECIES_PANGORO"
+    ],
+    "member_regions": {
+      "SPECIES_PANCHAM": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PANGORO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PANPOUR",
+    "members": [
+      "SPECIES_PANPOUR",
+      "SPECIES_SIMIPOUR"
+    ],
+    "member_regions": {
+      "SPECIES_PANPOUR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SIMIPOUR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PANSAGE",
+    "members": [
+      "SPECIES_PANSAGE",
+      "SPECIES_SIMISAGE"
+    ],
+    "member_regions": {
+      "SPECIES_PANSAGE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SIMISAGE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PANSEAR",
+    "members": [
+      "SPECIES_PANSEAR",
+      "SPECIES_SIMISEAR"
+    ],
+    "member_regions": {
+      "SPECIES_PANSEAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SIMISEAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PARAS",
+    "members": [
+      "SPECIES_PARAS",
+      "SPECIES_PARASECT"
+    ],
+    "member_regions": {
+      "SPECIES_PARAS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PARASECT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PASSIMIAN",
+    "members": [
+      "SPECIES_PASSIMIAN"
+    ],
+    "member_regions": {
+      "SPECIES_PASSIMIAN": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PATRAT",
+    "members": [
+      "SPECIES_PATRAT",
+      "SPECIES_WATCHOG"
+    ],
+    "member_regions": {
+      "SPECIES_PATRAT": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_WATCHOG": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PAWMI",
+    "members": [
+      "SPECIES_PAWMI",
+      "SPECIES_PAWMO",
+      "SPECIES_PAWMOT"
+    ],
+    "member_regions": {
+      "SPECIES_PAWMI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_PAWMO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_PAWMOT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PAWNIARD",
+    "members": [
+      "SPECIES_PAWNIARD",
+      "SPECIES_BISHARP",
+      "SPECIES_KINGAMBIT"
+    ],
+    "member_regions": {
+      "SPECIES_PAWNIARD": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_BISHARP": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_KINGAMBIT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PECHARUNT",
+    "members": [
+      "SPECIES_PECHARUNT"
+    ],
+    "member_regions": {
+      "SPECIES_PECHARUNT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PETILIL",
+    "members": [
+      "SPECIES_PETILIL",
+      "SPECIES_LILLIGANT",
+      "SPECIES_LILLIGANT_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_PETILIL": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LILLIGANT": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LILLIGANT_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PHANPY",
+    "members": [
+      "SPECIES_PHANPY",
+      "SPECIES_DONPHAN"
+    ],
+    "member_regions": {
+      "SPECIES_PHANPY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DONPHAN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PHANTUMP",
+    "members": [
+      "SPECIES_PHANTUMP",
+      "SPECIES_TREVENANT"
+    ],
+    "member_regions": {
+      "SPECIES_PHANTUMP": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TREVENANT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PHEROMOSA",
+    "members": [
+      "SPECIES_PHEROMOSA"
+    ],
+    "member_regions": {
+      "SPECIES_PHEROMOSA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PHIONE",
+    "members": [
+      "SPECIES_PHIONE"
+    ],
+    "member_regions": {
+      "SPECIES_PHIONE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PIDGEY",
+    "members": [
+      "SPECIES_PIDGEY",
+      "SPECIES_PIDGEOTTO",
+      "SPECIES_PIDGEOT"
+    ],
+    "member_regions": {
+      "SPECIES_PIDGEY": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PIDGEOTTO": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PIDGEOT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PIDOVE",
+    "members": [
+      "SPECIES_PIDOVE",
+      "SPECIES_TRANQUILL",
+      "SPECIES_UNFEZANT"
+    ],
+    "member_regions": {
+      "SPECIES_PIDOVE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_TRANQUILL": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_UNFEZANT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PIKACHU",
+    "members": [
+      "SPECIES_PICHU",
+      "SPECIES_PIKACHU",
+      "SPECIES_RAICHU",
+      "SPECIES_RAICHU_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_PICHU": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_PIKACHU": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_RAICHU": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_RAICHU_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PIKIPEK",
+    "members": [
+      "SPECIES_PIKIPEK",
+      "SPECIES_TRUMBEAK",
+      "SPECIES_TOUCANNON"
+    ],
+    "member_regions": {
+      "SPECIES_PIKIPEK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TRUMBEAK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TOUCANNON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PINCURCHIN",
+    "members": [
+      "SPECIES_PINCURCHIN"
+    ],
+    "member_regions": {
+      "SPECIES_PINCURCHIN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PINECO",
+    "members": [
+      "SPECIES_PINECO",
+      "SPECIES_FORRETRESS"
+    ],
+    "member_regions": {
+      "SPECIES_PINECO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FORRETRESS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PINSIR",
+    "members": [
+      "SPECIES_PINSIR"
+    ],
+    "member_regions": {
+      "SPECIES_PINSIR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PIPLUP",
+    "members": [
+      "SPECIES_PIPLUP",
+      "SPECIES_PRINPLUP",
+      "SPECIES_EMPOLEON"
+    ],
+    "member_regions": {
+      "SPECIES_PIPLUP": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_PRINPLUP": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_EMPOLEON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PLUSLE",
+    "members": [
+      "SPECIES_PLUSLE"
+    ],
+    "member_regions": {
+      "SPECIES_PLUSLE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_POIPOLE",
+    "members": [
+      "SPECIES_POIPOLE",
+      "SPECIES_NAGANADEL"
+    ],
+    "member_regions": {
+      "SPECIES_POIPOLE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_NAGANADEL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_POLIWAG",
+    "members": [
+      "SPECIES_POLIWAG",
+      "SPECIES_POLIWHIRL",
+      "SPECIES_POLIWRATH",
+      "SPECIES_POLITOED"
+    ],
+    "member_regions": {
+      "SPECIES_POLIWAG": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_POLIWHIRL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_POLIWRATH": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_POLITOED": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_POLTCHAGEIST_COUNTERFEIT",
+    "members": [
+      "SPECIES_POLTCHAGEIST_COUNTERFEIT",
+      "SPECIES_SINISTCHA_UNREMARKABLE"
+    ],
+    "member_regions": {
+      "SPECIES_POLTCHAGEIST_COUNTERFEIT": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SINISTCHA_UNREMARKABLE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PONYTA",
+    "members": [
+      "SPECIES_PONYTA",
+      "SPECIES_RAPIDASH",
+      "SPECIES_PONYTA_GALAR",
+      "SPECIES_RAPIDASH_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_PONYTA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RAPIDASH": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PONYTA_GALAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RAPIDASH_GALAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_POOCHYENA",
+    "members": [
+      "SPECIES_POOCHYENA",
+      "SPECIES_MIGHTYENA"
+    ],
+    "member_regions": {
+      "SPECIES_POOCHYENA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MIGHTYENA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_POPPLIO",
+    "members": [
+      "SPECIES_POPPLIO",
+      "SPECIES_BRIONNE",
+      "SPECIES_PRIMARINA"
+    ],
+    "member_regions": {
+      "SPECIES_POPPLIO": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BRIONNE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PRIMARINA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PORYGON",
+    "members": [
+      "SPECIES_PORYGON",
+      "SPECIES_PORYGON2",
+      "SPECIES_PORYGON_Z"
+    ],
+    "member_regions": {
+      "SPECIES_PORYGON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PORYGON2": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PORYGON_Z": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PSYDUCK",
+    "members": [
+      "SPECIES_PSYDUCK",
+      "SPECIES_GOLDUCK"
+    ],
+    "member_regions": {
+      "SPECIES_PSYDUCK": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GOLDUCK": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PUMPKABOO_AVERAGE",
+    "members": [
+      "SPECIES_PUMPKABOO_AVERAGE",
+      "SPECIES_GOURGEIST_AVERAGE"
+    ],
+    "member_regions": {
+      "SPECIES_PUMPKABOO_AVERAGE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GOURGEIST_AVERAGE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PURRLOIN",
+    "members": [
+      "SPECIES_PURRLOIN",
+      "SPECIES_LIEPARD"
+    ],
+    "member_regions": {
+      "SPECIES_PURRLOIN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LIEPARD": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_PYUKUMUKU",
+    "members": [
+      "SPECIES_PYUKUMUKU"
+    ],
+    "member_regions": {
+      "SPECIES_PYUKUMUKU": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_QUAXLY",
+    "members": [
+      "SPECIES_QUAXLY",
+      "SPECIES_QUAXWELL",
+      "SPECIES_QUAQUAVAL"
+    ],
+    "member_regions": {
+      "SPECIES_QUAXLY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_QUAXWELL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_QUAQUAVAL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_QWILFISH",
+    "members": [
+      "SPECIES_QWILFISH",
+      "SPECIES_OVERQWIL",
+      "SPECIES_QWILFISH_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_QWILFISH": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_OVERQWIL": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_QWILFISH_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RAGING_BOLT",
+    "members": [
+      "SPECIES_RAGING_BOLT"
+    ],
+    "member_regions": {
+      "SPECIES_RAGING_BOLT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RAIKOU",
+    "members": [
+      "SPECIES_RAIKOU"
+    ],
+    "member_regions": {
+      "SPECIES_RAIKOU": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RALTS",
+    "members": [
+      "SPECIES_RALTS",
+      "SPECIES_KIRLIA",
+      "SPECIES_GARDEVOIR",
+      "SPECIES_GALLADE"
+    ],
+    "member_regions": {
+      "SPECIES_RALTS": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_KIRLIA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GARDEVOIR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GALLADE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RATTATA",
+    "members": [
+      "SPECIES_RATTATA",
+      "SPECIES_RATICATE",
+      "SPECIES_RATTATA_ALOLA",
+      "SPECIES_RATICATE_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_RATTATA": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_RATICATE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_RATTATA_ALOLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_RATICATE_ALOLA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RAYQUAZA",
+    "members": [
+      "SPECIES_RAYQUAZA"
+    ],
+    "member_regions": {
+      "SPECIES_RAYQUAZA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGICE",
+    "members": [
+      "SPECIES_REGICE"
+    ],
+    "member_regions": {
+      "SPECIES_REGICE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGIDRAGO",
+    "members": [
+      "SPECIES_REGIDRAGO"
+    ],
+    "member_regions": {
+      "SPECIES_REGIDRAGO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGIELEKI",
+    "members": [
+      "SPECIES_REGIELEKI"
+    ],
+    "member_regions": {
+      "SPECIES_REGIELEKI": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGIGIGAS",
+    "members": [
+      "SPECIES_REGIGIGAS"
+    ],
+    "member_regions": {
+      "SPECIES_REGIGIGAS": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGIROCK",
+    "members": [
+      "SPECIES_REGIROCK"
+    ],
+    "member_regions": {
+      "SPECIES_REGIROCK": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REGISTEEL",
+    "members": [
+      "SPECIES_REGISTEEL"
+    ],
+    "member_regions": {
+      "SPECIES_REGISTEEL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RELICANTH",
+    "members": [
+      "SPECIES_RELICANTH"
+    ],
+    "member_regions": {
+      "SPECIES_RELICANTH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RELLOR",
+    "members": [
+      "SPECIES_RELLOR",
+      "SPECIES_RABSCA"
+    ],
+    "member_regions": {
+      "SPECIES_RELLOR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_RABSCA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_REMORAID",
+    "members": [
+      "SPECIES_REMORAID",
+      "SPECIES_OCTILLERY"
+    ],
+    "member_regions": {
+      "SPECIES_REMORAID": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_OCTILLERY": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RESHIRAM",
+    "members": [
+      "SPECIES_RESHIRAM"
+    ],
+    "member_regions": {
+      "SPECIES_RESHIRAM": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RHYHORN",
+    "members": [
+      "SPECIES_RHYHORN",
+      "SPECIES_RHYDON",
+      "SPECIES_RHYPERIOR"
+    ],
+    "member_regions": {
+      "SPECIES_RHYHORN": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RHYDON": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RHYPERIOR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RIOLU",
+    "members": [
+      "SPECIES_RIOLU",
+      "SPECIES_LUCARIO"
+    ],
+    "member_regions": {
+      "SPECIES_RIOLU": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LUCARIO": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROARING_MOON",
+    "members": [
+      "SPECIES_ROARING_MOON"
+    ],
+    "member_regions": {
+      "SPECIES_ROARING_MOON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROCKRUFF",
+    "members": [
+      "SPECIES_ROCKRUFF",
+      "SPECIES_LYCANROC_MIDDAY"
+    ],
+    "member_regions": {
+      "SPECIES_ROCKRUFF": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LYCANROC_MIDDAY": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROGGENROLA",
+    "members": [
+      "SPECIES_ROGGENROLA",
+      "SPECIES_BOLDORE",
+      "SPECIES_GIGALITH"
+    ],
+    "member_regions": {
+      "SPECIES_ROGGENROLA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BOLDORE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GIGALITH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROLYCOLY",
+    "members": [
+      "SPECIES_ROLYCOLY",
+      "SPECIES_CARKOL",
+      "SPECIES_COALOSSAL"
+    ],
+    "member_regions": {
+      "SPECIES_ROLYCOLY": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CARKOL": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_COALOSSAL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROOKIDEE",
+    "members": [
+      "SPECIES_ROOKIDEE",
+      "SPECIES_CORVISQUIRE",
+      "SPECIES_CORVIKNIGHT"
+    ],
+    "member_regions": {
+      "SPECIES_ROOKIDEE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CORVISQUIRE": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CORVIKNIGHT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROSELIA",
+    "members": [
+      "SPECIES_BUDEW",
+      "SPECIES_ROSELIA",
+      "SPECIES_ROSERADE"
+    ],
+    "member_regions": {
+      "SPECIES_BUDEW": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ROSELIA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ROSERADE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROTOM",
+    "members": [
+      "SPECIES_ROTOM"
+    ],
+    "member_regions": {
+      "SPECIES_ROTOM": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ROWLET",
+    "members": [
+      "SPECIES_ROWLET",
+      "SPECIES_DARTRIX",
+      "SPECIES_DECIDUEYE",
+      "SPECIES_DECIDUEYE_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_ROWLET": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DARTRIX": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DECIDUEYE": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DECIDUEYE_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_RUFFLET",
+    "members": [
+      "SPECIES_RUFFLET",
+      "SPECIES_BRAVIARY",
+      "SPECIES_BRAVIARY_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_RUFFLET": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BRAVIARY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BRAVIARY_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SABLEYE",
+    "members": [
+      "SPECIES_SABLEYE"
+    ],
+    "member_regions": {
+      "SPECIES_SABLEYE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SALANDIT",
+    "members": [
+      "SPECIES_SALANDIT",
+      "SPECIES_SALAZZLE"
+    ],
+    "member_regions": {
+      "SPECIES_SALANDIT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SALAZZLE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SANDILE",
+    "members": [
+      "SPECIES_SANDILE",
+      "SPECIES_KROKOROK",
+      "SPECIES_KROOKODILE"
+    ],
+    "member_regions": {
+      "SPECIES_SANDILE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_KROKOROK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_KROOKODILE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SANDSHREW",
+    "members": [
+      "SPECIES_SANDSHREW",
+      "SPECIES_SANDSLASH",
+      "SPECIES_SANDSHREW_ALOLA",
+      "SPECIES_SANDSLASH_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_SANDSHREW": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SANDSLASH": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SANDSHREW_ALOLA": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SANDSLASH_ALOLA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SANDYGAST",
+    "members": [
+      "SPECIES_SANDYGAST",
+      "SPECIES_PALOSSAND"
+    ],
+    "member_regions": {
+      "SPECIES_SANDYGAST": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PALOSSAND": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SANDY_SHOCKS",
+    "members": [
+      "SPECIES_SANDY_SHOCKS"
+    ],
+    "member_regions": {
+      "SPECIES_SANDY_SHOCKS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SAWK",
+    "members": [
+      "SPECIES_SAWK"
+    ],
+    "member_regions": {
+      "SPECIES_SAWK": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SCATTERBUG_ICY_SNOW",
+    "members": [
+      "SPECIES_SCATTERBUG_ICY_SNOW",
+      "SPECIES_SPEWPA_ICY_SNOW",
+      "SPECIES_VIVILLON_ICY_SNOW"
+    ],
+    "member_regions": {
+      "SPECIES_SCATTERBUG_ICY_SNOW": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SPEWPA_ICY_SNOW": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VIVILLON_ICY_SNOW": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SCORBUNNY",
+    "members": [
+      "SPECIES_SCORBUNNY",
+      "SPECIES_RABOOT",
+      "SPECIES_CINDERACE"
+    ],
+    "member_regions": {
+      "SPECIES_SCORBUNNY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_RABOOT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CINDERACE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SCRAGGY",
+    "members": [
+      "SPECIES_SCRAGGY",
+      "SPECIES_SCRAFTY"
+    ],
+    "member_regions": {
+      "SPECIES_SCRAGGY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SCRAFTY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SCREAM_TAIL",
+    "members": [
+      "SPECIES_SCREAM_TAIL"
+    ],
+    "member_regions": {
+      "SPECIES_SCREAM_TAIL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SCYTHER",
+    "members": [
+      "SPECIES_SCYTHER",
+      "SPECIES_SCIZOR",
+      "SPECIES_KLEAVOR"
+    ],
+    "member_regions": {
+      "SPECIES_SCYTHER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SCIZOR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KLEAVOR": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SEEDOT",
+    "members": [
+      "SPECIES_SEEDOT",
+      "SPECIES_NUZLEAF",
+      "SPECIES_SHIFTRY"
+    ],
+    "member_regions": {
+      "SPECIES_SEEDOT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_NUZLEAF": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SHIFTRY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SEEL",
+    "members": [
+      "SPECIES_SEEL",
+      "SPECIES_DEWGONG"
+    ],
+    "member_regions": {
+      "SPECIES_SEEL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DEWGONG": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SENTRET",
+    "members": [
+      "SPECIES_SENTRET",
+      "SPECIES_FURRET"
+    ],
+    "member_regions": {
+      "SPECIES_SENTRET": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FURRET": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SEVIPER",
+    "members": [
+      "SPECIES_SEVIPER"
+    ],
+    "member_regions": {
+      "SPECIES_SEVIPER": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SEWADDLE",
+    "members": [
+      "SPECIES_SEWADDLE",
+      "SPECIES_SWADLOON",
+      "SPECIES_LEAVANNY"
+    ],
+    "member_regions": {
+      "SPECIES_SEWADDLE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SWADLOON": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LEAVANNY": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHAYMIN_LAND",
+    "members": [
+      "SPECIES_SHAYMIN_LAND"
+    ],
+    "member_regions": {
+      "SPECIES_SHAYMIN_LAND": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHELLDER",
+    "members": [
+      "SPECIES_SHELLDER",
+      "SPECIES_CLOYSTER"
+    ],
+    "member_regions": {
+      "SPECIES_SHELLDER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CLOYSTER": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHELLOS_WEST",
+    "members": [
+      "SPECIES_SHELLOS_WEST",
+      "SPECIES_GASTRODON_WEST"
+    ],
+    "member_regions": {
+      "SPECIES_SHELLOS_WEST": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GASTRODON_WEST": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHELMET",
+    "members": [
+      "SPECIES_SHELMET",
+      "SPECIES_ACCELGOR"
+    ],
+    "member_regions": {
+      "SPECIES_SHELMET": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ACCELGOR": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHIELDON",
+    "members": [
+      "SPECIES_SHIELDON",
+      "SPECIES_BASTIODON"
+    ],
+    "member_regions": {
+      "SPECIES_SHIELDON": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_BASTIODON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHINX",
+    "members": [
+      "SPECIES_SHINX",
+      "SPECIES_LUXIO",
+      "SPECIES_LUXRAY"
+    ],
+    "member_regions": {
+      "SPECIES_SHINX": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LUXIO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_LUXRAY": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHROODLE",
+    "members": [
+      "SPECIES_SHROODLE",
+      "SPECIES_GRAFAIAI"
+    ],
+    "member_regions": {
+      "SPECIES_SHROODLE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GRAFAIAI": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHROOMISH",
+    "members": [
+      "SPECIES_SHROOMISH",
+      "SPECIES_BRELOOM"
+    ],
+    "member_regions": {
+      "SPECIES_SHROOMISH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BRELOOM": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHUCKLE",
+    "members": [
+      "SPECIES_SHUCKLE"
+    ],
+    "member_regions": {
+      "SPECIES_SHUCKLE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SHUPPET",
+    "members": [
+      "SPECIES_SHUPPET",
+      "SPECIES_BANETTE"
+    ],
+    "member_regions": {
+      "SPECIES_SHUPPET": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BANETTE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SIGILYPH",
+    "members": [
+      "SPECIES_SIGILYPH"
+    ],
+    "member_regions": {
+      "SPECIES_SIGILYPH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SILICOBRA",
+    "members": [
+      "SPECIES_SILICOBRA",
+      "SPECIES_SANDACONDA"
+    ],
+    "member_regions": {
+      "SPECIES_SILICOBRA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SANDACONDA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SINISTEA_PHONY",
+    "members": [
+      "SPECIES_SINISTEA_PHONY",
+      "SPECIES_POLTEAGEIST_PHONY"
+    ],
+    "member_regions": {
+      "SPECIES_SINISTEA_PHONY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_POLTEAGEIST_PHONY": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SIZZLIPEDE",
+    "members": [
+      "SPECIES_SIZZLIPEDE",
+      "SPECIES_CENTISKORCH"
+    ],
+    "member_regions": {
+      "SPECIES_SIZZLIPEDE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CENTISKORCH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKARMORY",
+    "members": [
+      "SPECIES_SKARMORY"
+    ],
+    "member_regions": {
+      "SPECIES_SKARMORY": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKIDDO",
+    "members": [
+      "SPECIES_SKIDDO",
+      "SPECIES_GOGOAT"
+    ],
+    "member_regions": {
+      "SPECIES_SKIDDO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GOGOAT": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKITTY",
+    "members": [
+      "SPECIES_SKITTY",
+      "SPECIES_DELCATTY"
+    ],
+    "member_regions": {
+      "SPECIES_SKITTY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DELCATTY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKORUPI",
+    "members": [
+      "SPECIES_SKORUPI",
+      "SPECIES_DRAPION"
+    ],
+    "member_regions": {
+      "SPECIES_SKORUPI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DRAPION": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKRELP",
+    "members": [
+      "SPECIES_SKRELP",
+      "SPECIES_DRAGALGE"
+    ],
+    "member_regions": {
+      "SPECIES_SKRELP": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DRAGALGE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SKWOVET",
+    "members": [
+      "SPECIES_SKWOVET",
+      "SPECIES_GREEDENT"
+    ],
+    "member_regions": {
+      "SPECIES_SKWOVET": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GREEDENT": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SLAKOTH",
+    "members": [
+      "SPECIES_SLAKOTH",
+      "SPECIES_VIGOROTH",
+      "SPECIES_SLAKING"
+    ],
+    "member_regions": {
+      "SPECIES_SLAKOTH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_VIGOROTH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLAKING": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SLITHER_WING",
+    "members": [
+      "SPECIES_SLITHER_WING"
+    ],
+    "member_regions": {
+      "SPECIES_SLITHER_WING": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SLOWPOKE",
+    "members": [
+      "SPECIES_SLOWPOKE",
+      "SPECIES_SLOWBRO",
+      "SPECIES_SLOWKING",
+      "SPECIES_SLOWPOKE_GALAR",
+      "SPECIES_SLOWBRO_GALAR",
+      "SPECIES_SLOWKING_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_SLOWPOKE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLOWBRO": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLOWKING": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLOWPOKE_GALAR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLOWBRO_GALAR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SLOWKING_GALAR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SLUGMA",
+    "members": [
+      "SPECIES_SLUGMA",
+      "SPECIES_MAGCARGO"
+    ],
+    "member_regions": {
+      "SPECIES_SLUGMA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAGCARGO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SMEARGLE",
+    "members": [
+      "SPECIES_SMEARGLE"
+    ],
+    "member_regions": {
+      "SPECIES_SMEARGLE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SMOLIV",
+    "members": [
+      "SPECIES_SMOLIV",
+      "SPECIES_DOLLIV",
+      "SPECIES_ARBOLIVA"
+    ],
+    "member_regions": {
+      "SPECIES_SMOLIV": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DOLLIV": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ARBOLIVA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNEASEL",
+    "members": [
+      "SPECIES_SNEASEL",
+      "SPECIES_WEAVILE",
+      "SPECIES_SNEASLER",
+      "SPECIES_SNEASEL_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_SNEASEL": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_WEAVILE": [
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SNEASLER": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SNEASEL_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNIVY",
+    "members": [
+      "SPECIES_SNIVY",
+      "SPECIES_SERVINE",
+      "SPECIES_SERPERIOR"
+    ],
+    "member_regions": {
+      "SPECIES_SNIVY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SERVINE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SERPERIOR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNOM",
+    "members": [
+      "SPECIES_SNOM",
+      "SPECIES_FROSMOTH"
+    ],
+    "member_regions": {
+      "SPECIES_SNOM": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_FROSMOTH": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNORLAX",
+    "members": [
+      "SPECIES_MUNCHLAX",
+      "SPECIES_SNORLAX"
+    ],
+    "member_regions": {
+      "SPECIES_MUNCHLAX": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SNORLAX": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNORUNT",
+    "members": [
+      "SPECIES_SNORUNT",
+      "SPECIES_GLALIE",
+      "SPECIES_FROSLASS"
+    ],
+    "member_regions": {
+      "SPECIES_SNORUNT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GLALIE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_FROSLASS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNOVER",
+    "members": [
+      "SPECIES_SNOVER",
+      "SPECIES_ABOMASNOW"
+    ],
+    "member_regions": {
+      "SPECIES_SNOVER": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ABOMASNOW": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SNUBBULL",
+    "members": [
+      "SPECIES_SNUBBULL",
+      "SPECIES_GRANBULL"
+    ],
+    "member_regions": {
+      "SPECIES_SNUBBULL": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GRANBULL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SOBBLE",
+    "members": [
+      "SPECIES_SOBBLE",
+      "SPECIES_DRIZZILE",
+      "SPECIES_INTELEON"
+    ],
+    "member_regions": {
+      "SPECIES_SOBBLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DRIZZILE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_INTELEON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SOLOSIS",
+    "members": [
+      "SPECIES_SOLOSIS",
+      "SPECIES_DUOSION",
+      "SPECIES_REUNICLUS"
+    ],
+    "member_regions": {
+      "SPECIES_SOLOSIS": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_DUOSION": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_REUNICLUS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SOLROCK",
+    "members": [
+      "SPECIES_SOLROCK"
+    ],
+    "member_regions": {
+      "SPECIES_SOLROCK": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPEAROW",
+    "members": [
+      "SPECIES_SPEAROW",
+      "SPECIES_FEAROW"
+    ],
+    "member_regions": {
+      "SPECIES_SPEAROW": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FEAROW": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPECTRIER",
+    "members": [
+      "SPECIES_SPECTRIER"
+    ],
+    "member_regions": {
+      "SPECIES_SPECTRIER": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPHEAL",
+    "members": [
+      "SPECIES_SPHEAL",
+      "SPECIES_SEALEO",
+      "SPECIES_WALREIN"
+    ],
+    "member_regions": {
+      "SPECIES_SPHEAL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SEALEO": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_WALREIN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPINARAK",
+    "members": [
+      "SPECIES_SPINARAK",
+      "SPECIES_ARIADOS"
+    ],
+    "member_regions": {
+      "SPECIES_SPINARAK": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ARIADOS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPINDA",
+    "members": [
+      "SPECIES_SPINDA"
+    ],
+    "member_regions": {
+      "SPECIES_SPINDA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPIRITOMB",
+    "members": [
+      "SPECIES_SPIRITOMB"
+    ],
+    "member_regions": {
+      "SPECIES_SPIRITOMB": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPOINK",
+    "members": [
+      "SPECIES_SPOINK",
+      "SPECIES_GRUMPIG"
+    ],
+    "member_regions": {
+      "SPECIES_SPOINK": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GRUMPIG": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPRIGATITO",
+    "members": [
+      "SPECIES_SPRIGATITO",
+      "SPECIES_FLORAGATO",
+      "SPECIES_MEOWSCARADA"
+    ],
+    "member_regions": {
+      "SPECIES_SPRIGATITO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FLORAGATO": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MEOWSCARADA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SPRITZEE",
+    "members": [
+      "SPECIES_SPRITZEE",
+      "SPECIES_AROMATISSE"
+    ],
+    "member_regions": {
+      "SPECIES_SPRITZEE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_AROMATISSE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SQUAWKABILLY_GREEN",
+    "members": [
+      "SPECIES_SQUAWKABILLY_GREEN"
+    ],
+    "member_regions": {
+      "SPECIES_SQUAWKABILLY_GREEN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SQUIRTLE",
+    "members": [
+      "SPECIES_SQUIRTLE",
+      "SPECIES_WARTORTLE",
+      "SPECIES_BLASTOISE"
+    ],
+    "member_regions": {
+      "SPECIES_SQUIRTLE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WARTORTLE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BLASTOISE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STAKATAKA",
+    "members": [
+      "SPECIES_STAKATAKA"
+    ],
+    "member_regions": {
+      "SPECIES_STAKATAKA": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STANTLER",
+    "members": [
+      "SPECIES_STANTLER",
+      "SPECIES_WYRDEER"
+    ],
+    "member_regions": {
+      "SPECIES_STANTLER": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WYRDEER": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STARLY",
+    "members": [
+      "SPECIES_STARLY",
+      "SPECIES_STARAVIA",
+      "SPECIES_STARAPTOR"
+    ],
+    "member_regions": {
+      "SPECIES_STARLY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_STARAVIA": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_STARAPTOR": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STARYU",
+    "members": [
+      "SPECIES_STARYU",
+      "SPECIES_STARMIE"
+    ],
+    "member_regions": {
+      "SPECIES_STARYU": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_STARMIE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STONJOURNER",
+    "members": [
+      "SPECIES_STONJOURNER"
+    ],
+    "member_regions": {
+      "SPECIES_STONJOURNER": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STUFFUL",
+    "members": [
+      "SPECIES_STUFFUL",
+      "SPECIES_BEWEAR"
+    ],
+    "member_regions": {
+      "SPECIES_STUFFUL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BEWEAR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STUNFISK",
+    "members": [
+      "SPECIES_STUNFISK",
+      "SPECIES_STUNFISK_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_STUNFISK": [
+        "REGION_HOENN",
+        "REGION_KANTO"
+      ],
+      "SPECIES_STUNFISK_GALAR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_STUNKY",
+    "members": [
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK"
+    ],
+    "member_regions": {
+      "SPECIES_STUNKY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SKUNTANK": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SUDOWOODO",
+    "members": [
+      "SPECIES_BONSLY",
+      "SPECIES_SUDOWOODO"
+    ],
+    "member_regions": {
+      "SPECIES_BONSLY": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SUDOWOODO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SUICUNE",
+    "members": [
+      "SPECIES_SUICUNE"
+    ],
+    "member_regions": {
+      "SPECIES_SUICUNE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SUNKERN",
+    "members": [
+      "SPECIES_SUNKERN",
+      "SPECIES_SUNFLORA"
+    ],
+    "member_regions": {
+      "SPECIES_SUNKERN": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SUNFLORA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SURSKIT",
+    "members": [
+      "SPECIES_SURSKIT",
+      "SPECIES_MASQUERAIN"
+    ],
+    "member_regions": {
+      "SPECIES_SURSKIT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_MASQUERAIN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SWABLU",
+    "members": [
+      "SPECIES_SWABLU",
+      "SPECIES_ALTARIA"
+    ],
+    "member_regions": {
+      "SPECIES_SWABLU": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_ALTARIA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SWINUB",
+    "members": [
+      "SPECIES_SWINUB",
+      "SPECIES_PILOSWINE",
+      "SPECIES_MAMOSWINE"
+    ],
+    "member_regions": {
+      "SPECIES_SWINUB": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_PILOSWINE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_MAMOSWINE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_SWIRLIX",
+    "members": [
+      "SPECIES_SWIRLIX",
+      "SPECIES_SLURPUFF"
+    ],
+    "member_regions": {
+      "SPECIES_SWIRLIX": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SLURPUFF": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TADBULB",
+    "members": [
+      "SPECIES_TADBULB",
+      "SPECIES_BELLIBOLT"
+    ],
+    "member_regions": {
+      "SPECIES_TADBULB": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_BELLIBOLT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAILLOW",
+    "members": [
+      "SPECIES_TAILLOW",
+      "SPECIES_SWELLOW"
+    ],
+    "member_regions": {
+      "SPECIES_TAILLOW": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SWELLOW": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TANDEMAUS",
+    "members": [
+      "SPECIES_TANDEMAUS",
+      "SPECIES_MAUSHOLD_THREE"
+    ],
+    "member_regions": {
+      "SPECIES_TANDEMAUS": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_MAUSHOLD_THREE": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TANGELA",
+    "members": [
+      "SPECIES_TANGELA",
+      "SPECIES_TANGROWTH"
+    ],
+    "member_regions": {
+      "SPECIES_TANGELA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TANGROWTH": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAPU_BULU",
+    "members": [
+      "SPECIES_TAPU_BULU"
+    ],
+    "member_regions": {
+      "SPECIES_TAPU_BULU": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAPU_FINI",
+    "members": [
+      "SPECIES_TAPU_FINI"
+    ],
+    "member_regions": {
+      "SPECIES_TAPU_FINI": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAPU_KOKO",
+    "members": [
+      "SPECIES_TAPU_KOKO"
+    ],
+    "member_regions": {
+      "SPECIES_TAPU_KOKO": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAPU_LELE",
+    "members": [
+      "SPECIES_TAPU_LELE"
+    ],
+    "member_regions": {
+      "SPECIES_TAPU_LELE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAROUNTULA",
+    "members": [
+      "SPECIES_TAROUNTULA",
+      "SPECIES_SPIDOPS"
+    ],
+    "member_regions": {
+      "SPECIES_TAROUNTULA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SPIDOPS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TATSUGIRI_CURLY",
+    "members": [
+      "SPECIES_TATSUGIRI_CURLY"
+    ],
+    "member_regions": {
+      "SPECIES_TATSUGIRI_CURLY": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TAUROS",
+    "members": [
+      "SPECIES_TAUROS",
+      "SPECIES_TAUROS_PALDEA_COMBAT",
+      "SPECIES_TAUROS_PALDEA_BLAZE",
+      "SPECIES_TAUROS_PALDEA_AQUA"
+    ],
+    "member_regions": {
+      "SPECIES_TAUROS": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_TAUROS_PALDEA_COMBAT": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_TAUROS_PALDEA_BLAZE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_TAUROS_PALDEA_AQUA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TEDDIURSA",
+    "members": [
+      "SPECIES_TEDDIURSA",
+      "SPECIES_URSARING",
+      "SPECIES_URSALUNA"
+    ],
+    "member_regions": {
+      "SPECIES_TEDDIURSA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_URSARING": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_URSALUNA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TENTACOOL",
+    "members": [
+      "SPECIES_TENTACOOL",
+      "SPECIES_TENTACRUEL"
+    ],
+    "member_regions": {
+      "SPECIES_TENTACOOL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TENTACRUEL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TEPIG",
+    "members": [
+      "SPECIES_TEPIG",
+      "SPECIES_PIGNITE",
+      "SPECIES_EMBOAR"
+    ],
+    "member_regions": {
+      "SPECIES_TEPIG": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PIGNITE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_EMBOAR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TERAPAGOS_NORMAL",
+    "members": [
+      "SPECIES_TERAPAGOS_NORMAL"
+    ],
+    "member_regions": {
+      "SPECIES_TERAPAGOS_NORMAL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TERRAKION",
+    "members": [
+      "SPECIES_TERRAKION"
+    ],
+    "member_regions": {
+      "SPECIES_TERRAKION": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_THROH",
+    "members": [
+      "SPECIES_THROH"
+    ],
+    "member_regions": {
+      "SPECIES_THROH": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_THUNDURUS_INCARNATE",
+    "members": [
+      "SPECIES_THUNDURUS_INCARNATE"
+    ],
+    "member_regions": {
+      "SPECIES_THUNDURUS_INCARNATE": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TIMBURR",
+    "members": [
+      "SPECIES_TIMBURR",
+      "SPECIES_GURDURR",
+      "SPECIES_CONKELDURR"
+    ],
+    "member_regions": {
+      "SPECIES_TIMBURR": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_GURDURR": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_CONKELDURR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TING_LU",
+    "members": [
+      "SPECIES_TING_LU"
+    ],
+    "member_regions": {
+      "SPECIES_TING_LU": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TINKATINK",
+    "members": [
+      "SPECIES_TINKATINK",
+      "SPECIES_TINKATUFF",
+      "SPECIES_TINKATON"
+    ],
+    "member_regions": {
+      "SPECIES_TINKATINK": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TINKATUFF": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TINKATON": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TIRTOUGA",
+    "members": [
+      "SPECIES_TIRTOUGA",
+      "SPECIES_CARRACOSTA"
+    ],
+    "member_regions": {
+      "SPECIES_TIRTOUGA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CARRACOSTA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TOEDSCOOL",
+    "members": [
+      "SPECIES_TOEDSCOOL",
+      "SPECIES_TOEDSCRUEL"
+    ],
+    "member_regions": {
+      "SPECIES_TOEDSCOOL": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TOEDSCRUEL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TOGEDEMARU",
+    "members": [
+      "SPECIES_TOGEDEMARU"
+    ],
+    "member_regions": {
+      "SPECIES_TOGEDEMARU": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TOGEPI",
+    "members": [
+      "SPECIES_TOGEPI",
+      "SPECIES_TOGETIC",
+      "SPECIES_TOGEKISS"
+    ],
+    "member_regions": {
+      "SPECIES_TOGEPI": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TOGETIC": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_TOGEKISS": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TORCHIC",
+    "members": [
+      "SPECIES_TORCHIC",
+      "SPECIES_COMBUSKEN",
+      "SPECIES_BLAZIKEN"
+    ],
+    "member_regions": {
+      "SPECIES_TORCHIC": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_COMBUSKEN": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BLAZIKEN": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TORKOAL",
+    "members": [
+      "SPECIES_TORKOAL"
+    ],
+    "member_regions": {
+      "SPECIES_TORKOAL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TORNADUS_INCARNATE",
+    "members": [
+      "SPECIES_TORNADUS_INCARNATE"
+    ],
+    "member_regions": {
+      "SPECIES_TORNADUS_INCARNATE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TOTODILE",
+    "members": [
+      "SPECIES_TOTODILE",
+      "SPECIES_CROCONAW",
+      "SPECIES_FERALIGATR"
+    ],
+    "member_regions": {
+      "SPECIES_TOTODILE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CROCONAW": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_FERALIGATR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TOXEL",
+    "members": [
+      "SPECIES_TOXEL",
+      "SPECIES_TOXTRICITY_AMPED"
+    ],
+    "member_regions": {
+      "SPECIES_TOXEL": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_TOXTRICITY_AMPED": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TRAPINCH",
+    "members": [
+      "SPECIES_TRAPINCH",
+      "SPECIES_VIBRAVA",
+      "SPECIES_FLYGON"
+    ],
+    "member_regions": {
+      "SPECIES_TRAPINCH": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_VIBRAVA": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_FLYGON": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TREECKO",
+    "members": [
+      "SPECIES_TREECKO",
+      "SPECIES_GROVYLE",
+      "SPECIES_SCEPTILE"
+    ],
+    "member_regions": {
+      "SPECIES_TREECKO": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GROVYLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SCEPTILE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TROPIUS",
+    "members": [
+      "SPECIES_TROPIUS"
+    ],
+    "member_regions": {
+      "SPECIES_TROPIUS": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TRUBBISH",
+    "members": [
+      "SPECIES_TRUBBISH",
+      "SPECIES_GARBODOR"
+    ],
+    "member_regions": {
+      "SPECIES_TRUBBISH": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_GARBODOR": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TURTONATOR",
+    "members": [
+      "SPECIES_TURTONATOR"
+    ],
+    "member_regions": {
+      "SPECIES_TURTONATOR": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TURTWIG",
+    "members": [
+      "SPECIES_TURTWIG",
+      "SPECIES_GROTLE",
+      "SPECIES_TORTERRA"
+    ],
+    "member_regions": {
+      "SPECIES_TURTWIG": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_GROTLE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TORTERRA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TYMPOLE",
+    "members": [
+      "SPECIES_TYMPOLE",
+      "SPECIES_PALPITOAD",
+      "SPECIES_SEISMITOAD"
+    ],
+    "member_regions": {
+      "SPECIES_TYMPOLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PALPITOAD": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SEISMITOAD": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TYNAMO",
+    "members": [
+      "SPECIES_TYNAMO",
+      "SPECIES_EELEKTRIK",
+      "SPECIES_EELEKTROSS"
+    ],
+    "member_regions": {
+      "SPECIES_TYNAMO": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_EELEKTRIK": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_EELEKTROSS": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TYPE_NULL",
+    "members": [
+      "SPECIES_TYPE_NULL",
+      "SPECIES_SILVALLY_NORMAL"
+    ],
+    "member_regions": {
+      "SPECIES_TYPE_NULL": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_SILVALLY_NORMAL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_TYRUNT",
+    "members": [
+      "SPECIES_TYRUNT",
+      "SPECIES_TYRANTRUM"
+    ],
+    "member_regions": {
+      "SPECIES_TYRUNT": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_TYRANTRUM": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_UNOWN",
+    "members": [
+      "SPECIES_UNOWN"
+    ],
+    "member_regions": {
+      "SPECIES_UNOWN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_UXIE",
+    "members": [
+      "SPECIES_UXIE"
+    ],
+    "member_regions": {
+      "SPECIES_UXIE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VANILLITE",
+    "members": [
+      "SPECIES_VANILLITE",
+      "SPECIES_VANILLISH",
+      "SPECIES_VANILLUXE"
+    ],
+    "member_regions": {
+      "SPECIES_VANILLITE": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_VANILLISH": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_VANILLUXE": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VAROOM",
+    "members": [
+      "SPECIES_VAROOM",
+      "SPECIES_REVAVROOM"
+    ],
+    "member_regions": {
+      "SPECIES_VAROOM": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_REVAVROOM": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VELUZA",
+    "members": [
+      "SPECIES_VELUZA"
+    ],
+    "member_regions": {
+      "SPECIES_VELUZA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VENIPEDE",
+    "members": [
+      "SPECIES_VENIPEDE",
+      "SPECIES_WHIRLIPEDE",
+      "SPECIES_SCOLIPEDE"
+    ],
+    "member_regions": {
+      "SPECIES_VENIPEDE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WHIRLIPEDE": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_SCOLIPEDE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VENONAT",
+    "members": [
+      "SPECIES_VENONAT",
+      "SPECIES_VENOMOTH"
+    ],
+    "member_regions": {
+      "SPECIES_VENONAT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_VENOMOTH": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VICTINI",
+    "members": [
+      "SPECIES_VICTINI"
+    ],
+    "member_regions": {
+      "SPECIES_VICTINI": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VIRIZION",
+    "members": [
+      "SPECIES_VIRIZION"
+    ],
+    "member_regions": {
+      "SPECIES_VIRIZION": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VOLBEAT",
+    "members": [
+      "SPECIES_VOLBEAT"
+    ],
+    "member_regions": {
+      "SPECIES_VOLBEAT": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VOLCANION",
+    "members": [
+      "SPECIES_VOLCANION"
+    ],
+    "member_regions": {
+      "SPECIES_VOLCANION": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VOLTORB",
+    "members": [
+      "SPECIES_VOLTORB",
+      "SPECIES_ELECTRODE",
+      "SPECIES_VOLTORB_HISUI",
+      "SPECIES_ELECTRODE_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_VOLTORB": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ELECTRODE": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_VOLTORB_HISUI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ELECTRODE_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VULLABY",
+    "members": [
+      "SPECIES_VULLABY",
+      "SPECIES_MANDIBUZZ"
+    ],
+    "member_regions": {
+      "SPECIES_VULLABY": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_MANDIBUZZ": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_VULPIX",
+    "members": [
+      "SPECIES_VULPIX",
+      "SPECIES_NINETALES",
+      "SPECIES_VULPIX_ALOLA",
+      "SPECIES_NINETALES_ALOLA"
+    ],
+    "member_regions": {
+      "SPECIES_VULPIX": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_NINETALES": [
+        "REGION_KANTO",
+        "REGION_JOHTO",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_VULPIX_ALOLA": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_NINETALES_ALOLA": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WAILMER",
+    "members": [
+      "SPECIES_WAILMER",
+      "SPECIES_WAILORD"
+    ],
+    "member_regions": {
+      "SPECIES_WAILMER": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_WAILORD": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WALKING_WAKE",
+    "members": [
+      "SPECIES_WALKING_WAKE"
+    ],
+    "member_regions": {
+      "SPECIES_WALKING_WAKE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WATTREL",
+    "members": [
+      "SPECIES_WATTREL",
+      "SPECIES_KILOWATTREL"
+    ],
+    "member_regions": {
+      "SPECIES_WATTREL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_KILOWATTREL": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WEEDLE",
+    "members": [
+      "SPECIES_WEEDLE",
+      "SPECIES_KAKUNA",
+      "SPECIES_BEEDRILL"
+    ],
+    "member_regions": {
+      "SPECIES_WEEDLE": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_KAKUNA": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_BEEDRILL": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WHISMUR",
+    "members": [
+      "SPECIES_WHISMUR",
+      "SPECIES_LOUDRED",
+      "SPECIES_EXPLOUD"
+    ],
+    "member_regions": {
+      "SPECIES_WHISMUR": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_LOUDRED": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_EXPLOUD": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WIGLETT",
+    "members": [
+      "SPECIES_WIGLETT",
+      "SPECIES_WUGTRIO"
+    ],
+    "member_regions": {
+      "SPECIES_WIGLETT": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_WUGTRIO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WIMPOD",
+    "members": [
+      "SPECIES_WIMPOD",
+      "SPECIES_GOLISOPOD"
+    ],
+    "member_regions": {
+      "SPECIES_WIMPOD": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_GOLISOPOD": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WINGULL",
+    "members": [
+      "SPECIES_WINGULL",
+      "SPECIES_PELIPPER"
+    ],
+    "member_regions": {
+      "SPECIES_WINGULL": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_PELIPPER": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WISHIWASHI_SOLO",
+    "members": [
+      "SPECIES_WISHIWASHI_SOLO"
+    ],
+    "member_regions": {
+      "SPECIES_WISHIWASHI_SOLO": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WOBBUFFET",
+    "members": [
+      "SPECIES_WYNAUT",
+      "SPECIES_WOBBUFFET"
+    ],
+    "member_regions": {
+      "SPECIES_WYNAUT": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_WOBBUFFET": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WOOBAT",
+    "members": [
+      "SPECIES_WOOBAT",
+      "SPECIES_SWOOBAT"
+    ],
+    "member_regions": {
+      "SPECIES_WOOBAT": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_SWOOBAT": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WOOLOO",
+    "members": [
+      "SPECIES_WOOLOO",
+      "SPECIES_DUBWOOL"
+    ],
+    "member_regions": {
+      "SPECIES_WOOLOO": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_DUBWOOL": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WOOPER",
+    "members": [
+      "SPECIES_WOOPER",
+      "SPECIES_QUAGSIRE",
+      "SPECIES_CLODSIRE",
+      "SPECIES_WOOPER_PALDEA"
+    ],
+    "member_regions": {
+      "SPECIES_WOOPER": [
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_QUAGSIRE": [
+        "REGION_JOHTO",
+        "REGION_HOENN"
+      ],
+      "SPECIES_CLODSIRE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_WOOPER_PALDEA": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WO_CHIEN",
+    "members": [
+      "SPECIES_WO_CHIEN"
+    ],
+    "member_regions": {
+      "SPECIES_WO_CHIEN": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_WURMPLE",
+    "members": [
+      "SPECIES_WURMPLE",
+      "SPECIES_SILCOON",
+      "SPECIES_BEAUTIFLY",
+      "SPECIES_CASCOON",
+      "SPECIES_DUSTOX"
+    ],
+    "member_regions": {
+      "SPECIES_WURMPLE": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_SILCOON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_BEAUTIFLY": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_CASCOON": [
+        "REGION_HOENN"
+      ],
+      "SPECIES_DUSTOX": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_XERNEAS_NEUTRAL",
+    "members": [
+      "SPECIES_XERNEAS_NEUTRAL"
+    ],
+    "member_regions": {
+      "SPECIES_XERNEAS_NEUTRAL": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_XURKITREE",
+    "members": [
+      "SPECIES_XURKITREE"
+    ],
+    "member_regions": {
+      "SPECIES_XURKITREE": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_YAMASK",
+    "members": [
+      "SPECIES_YAMASK",
+      "SPECIES_COFAGRIGUS",
+      "SPECIES_RUNERIGUS",
+      "SPECIES_YAMASK_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_YAMASK": [
+        "REGION_HOENN",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_COFAGRIGUS": [
+        "REGION_HOENN",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_RUNERIGUS": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_YAMASK_GALAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_YAMPER",
+    "members": [
+      "SPECIES_YAMPER",
+      "SPECIES_BOLTUND"
+    ],
+    "member_regions": {
+      "SPECIES_YAMPER": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_BOLTUND": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_YANMA",
+    "members": [
+      "SPECIES_YANMA",
+      "SPECIES_YANMEGA"
+    ],
+    "member_regions": {
+      "SPECIES_YANMA": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_YANMEGA": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_YUNGOOS",
+    "members": [
+      "SPECIES_YUNGOOS",
+      "SPECIES_GUMSHOOS"
+    ],
+    "member_regions": {
+      "SPECIES_YUNGOOS": [
+        "REGION_KANTO"
+      ],
+      "SPECIES_GUMSHOOS": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_YVELTAL",
+    "members": [
+      "SPECIES_YVELTAL"
+    ],
+    "member_regions": {
+      "SPECIES_YVELTAL": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZACIAN_HERO",
+    "members": [
+      "SPECIES_ZACIAN_HERO"
+    ],
+    "member_regions": {
+      "SPECIES_ZACIAN_HERO": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZAMAZENTA_HERO",
+    "members": [
+      "SPECIES_ZAMAZENTA_HERO"
+    ],
+    "member_regions": {
+      "SPECIES_ZAMAZENTA_HERO": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZANGOOSE",
+    "members": [
+      "SPECIES_ZANGOOSE"
+    ],
+    "member_regions": {
+      "SPECIES_ZANGOOSE": [
+        "REGION_HOENN"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZAPDOS",
+    "members": [
+      "SPECIES_ZAPDOS"
+    ],
+    "member_regions": {
+      "SPECIES_ZAPDOS": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZARUDE",
+    "members": [
+      "SPECIES_ZARUDE"
+    ],
+    "member_regions": {
+      "SPECIES_ZARUDE": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZEKROM",
+    "members": [
+      "SPECIES_ZEKROM"
+    ],
+    "member_regions": {
+      "SPECIES_ZEKROM": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZERAORA",
+    "members": [
+      "SPECIES_ZERAORA"
+    ],
+    "member_regions": {
+      "SPECIES_ZERAORA": [
+        "REGION_KANTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZIGZAGOON",
+    "members": [
+      "SPECIES_ZIGZAGOON",
+      "SPECIES_LINOONE",
+      "SPECIES_OBSTAGOON",
+      "SPECIES_ZIGZAGOON_GALAR",
+      "SPECIES_LINOONE_GALAR"
+    ],
+    "member_regions": {
+      "SPECIES_ZIGZAGOON": [
+        "REGION_HOENN",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LINOONE": [
+        "REGION_HOENN",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_OBSTAGOON": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_ZIGZAGOON_GALAR": [
+        "REGION_JOHTO"
+      ],
+      "SPECIES_LINOONE_GALAR": [
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZORUA",
+    "members": [
+      "SPECIES_ZORUA",
+      "SPECIES_ZOROARK",
+      "SPECIES_ZORUA_HISUI",
+      "SPECIES_ZOROARK_HISUI"
+    ],
+    "member_regions": {
+      "SPECIES_ZORUA": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ZOROARK": [
+        "REGION_HOENN",
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ZORUA_HISUI": [
+        "REGION_SINNOH"
+      ],
+      "SPECIES_ZOROARK_HISUI": [
+        "REGION_SINNOH"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZUBAT",
+    "members": [
+      "SPECIES_ZUBAT",
+      "SPECIES_GOLBAT",
+      "SPECIES_CROBAT"
+    ],
+    "member_regions": {
+      "SPECIES_ZUBAT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_GOLBAT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ],
+      "SPECIES_CROBAT": [
+        "REGION_KANTO",
+        "REGION_JOHTO"
+      ]
+    }
+  },
+  {
+    "family": "SPECIES_ZYGARDE_50",
+    "members": [
+      "SPECIES_ZYGARDE_50"
+    ],
+    "member_regions": {
+      "SPECIES_ZYGARDE_50": [
+        "REGION_HOENN"
+      ]
+    }
+  }
+]

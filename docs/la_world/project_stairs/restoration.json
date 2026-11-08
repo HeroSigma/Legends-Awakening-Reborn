@@ -1,0 +1,620 @@
+{
+  "restored_definitions": 71,
+  "restored_tilesets": 30,
+  "tilesets": [
+    {
+      "symbol": "gTileset_BWABatch_primary_f2e_BWA_082D4A94",
+      "original_attr": "data/bwa_assets/tilesets/primary_f2e_BWA_082D4A94/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_7bdde46e75a153a9582d.bin",
+      "source": "data/bwa_assets/tilesets/primary_f2e_BWA_082D4A94/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 113,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 181,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 182,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 183,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 189,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 190,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 191,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4",
+      "original_attr": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4AC4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_871a725807a9a992a011.bin",
+      "source": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4AC4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 377,
+          "before": 8192,
+          "after": 8271
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC",
+      "original_attr": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4DDC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_80a693747903d06760a1.bin",
+      "source": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4DDC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 177,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 185,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 396,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 486,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C",
+      "original_attr": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S0873D82C/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_55ee78ee43b7d2779aa6.bin",
+      "source": "data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S0873D82C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 506,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_009bd0da3ad1b383503e.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4AF4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 70,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 86,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 94,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_309666b30f38f6971ff3.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B6C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 333,
+          "before": 8192,
+          "after": 8271
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_8d872a8d9caf4046d488.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4B84/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 83,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 84,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 85,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 86,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 87,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_3b91bbb5f67793cc02bf.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BCC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 511,
+          "before": 8192,
+          "after": 8271
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_086b4a619ed368bb8e0a.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BE4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 477,
+          "before": 12288,
+          "after": 12367
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_2bd2491fad389d25c440.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4BFC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 173,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 288,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 289,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 290,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_f8093e65795e469f62a3.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4A94S082D4C5C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 429,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_de1d708b36e2d3f06404.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4BE4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 477,
+          "before": 12288,
+          "after": 12367
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_cdcc878e46a0031716d6.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D4E6C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 258,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 264,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 265,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 271,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 358,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 359,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 360,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 361,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 365,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 366,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 367,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 368,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_GSJohto_secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC",
+      "original_attr": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_3f9cd9a4a83ff2511bff.bin",
+      "source": "data/gs_johto_assets/tilesets/secondary_f2e_GS_CHRONICLES_276_P082D4BB4S082D50DC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 390,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_3106b07a28e7a877bf8a.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4AF4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 221,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_51805d9bdd2d19a22632.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4B84/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 211,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 212,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 213,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 214,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 215,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 402,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_85b8f544ca2086d8e0ae.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4BFC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_c3105ac71a077c19c87e.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4DF4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_37f4851879e6fc5e58ef.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4E24/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_77a1727e912592a5132d.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D4FEC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_e7042078ee03695f7f39.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4A94S082D501C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 258,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_a8c0bca320c7c343a084.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4CBC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 232,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24",
+      "original_attr": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/metatile_attributes.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_5ccce144bf27f02305db.bin",
+      "source": "data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4E24/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_primary_f2e_MERCURY_082D4A94",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_7e7a7719bd0bcdb974c8.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_a621dbf214c42b3476d4.bin",
+      "source": "data/mercury_johto_assets/tilesets/primary_f2e_MERCURY_082D4A94/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 116,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_primary_f2e_MERCURY_082D50AC",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_8b19a7c97d66074acf0f.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_ce441c026d1e6b888d11.bin",
+      "source": "data/mercury_johto_assets/tilesets/primary_f2e_MERCURY_082D50AC/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 511,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_secondary_f2e_MERCURY_P082D4B6CS082D4F8C",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_b00b8e7fee1edad9fb43.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_4ba0f49123d845f8ce3f.bin",
+      "source": "data/mercury_johto_assets/tilesets/secondary_f2e_MERCURY_P082D4B6CS082D4F8C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 214,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 222,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_secondary_f2e_MERCURY_P082D4F5CS082D4D64",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_0e11a60b4d0bee380209.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_2189a9293b966c5f04a1.bin",
+      "source": "data/mercury_johto_assets/tilesets/secondary_f2e_MERCURY_P082D4F5CS082D4D64/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 465,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_secondary_f2e_MERCURY_P082D501CS08A2A6D4",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_6dae6f6472536d704e70.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_d2f4cc269f893a7e5f71.bin",
+      "source": "data/mercury_johto_assets/tilesets/secondary_f2e_MERCURY_P082D501CS08A2A6D4/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 214,
+          "before": 4096,
+          "after": 4175
+        },
+        {
+          "index": 222,
+          "before": 4096,
+          "after": 4175
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_secondary_f2e_MERCURY_P08A7A00CS08A27014",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_c027a6792221633d1659.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_efed302a589ebcf7c731.bin",
+      "source": "data/mercury_johto_assets/tilesets/secondary_f2e_MERCURY_P08A7A00CS08A27014/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 258,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 368,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    },
+    {
+      "symbol": "gTileset_Mercury_secondary_f2e_MERCURY_P08BC7F3CS08BC7F9C",
+      "original_attr": "data/mercury_johto_assets/shared/gMercury_Attributes_1f5675d0f1fd2dc3dda0.bin",
+      "override_attr": "data/project_stairs/attributes/gProjectStairsAttrs_51684d280a27d43dc3da.bin",
+      "source": "data/mercury_johto_assets/tilesets/secondary_f2e_MERCURY_P08BC7F3CS08BC7F9C/source_frlg_metatile_attributes.bin",
+      "changes": [
+        {
+          "index": 132,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 258,
+          "before": 0,
+          "after": 79
+        },
+        {
+          "index": 368,
+          "before": 0,
+          "after": 79
+        }
+      ]
+    }
+  ],
+  "importers_updated": [
+    "tools/la_world/importers/amap/import_bwa_selected_batch.py",
+    "tools/la_world/importers/amap/import_galar_assets.py",
+    "tools/la_world/importers/amap/replace_johto_mercury.py",
+    "tools/la_world/importers/amap/import_aestheticred_assets.py",
+    "tools/la_world/importers/amap/port_gs_johto.py"
+  ],
+  "accumula_test_data": [
+    "data/layouts/Accumula_FullSheetTest_Layout/map.bin",
+    "data/layouts/Accumula_FullSheetTest_Layout/border.bin",
+    "data/tilesets/primary/accumula_fullsheet_test/metatiles.bin",
+    "data/tilesets/primary/accumula_fullsheet_test/metatiles.extended.bin",
+    "data/tilesets/primary/accumula_fullsheet_test/metatile_attributes.bin",
+    "data/tilesets/secondary/accumula_fullsheet_test/metatiles.bin",
+    "data/tilesets/secondary/accumula_fullsheet_test/metatiles.extended.bin",
+    "data/tilesets/secondary/accumula_fullsheet_test/metatile_attributes.bin"
+  ],
+  "other_map_geometry_changed": false,
+  "coverage_note": "Source-identified vertical stair restoration; existing sideways behavior preserved. Decorative/unlabelled stairs still require visual classification and per-map elevation review."
+}

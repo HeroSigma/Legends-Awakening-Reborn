@@ -110,6 +110,9 @@ static const struct {u16 speaker, pic;} sPortraits[] = {
     {SP_NAME_FLARE_FEMALE, TRAINER_PIC_DONOR_FLARE_FEMALE},
     {SP_NAME_CYNTHIA, TRAINER_PIC_DONOR_CYNTHIA},
     {SP_NAME_HOP, TRAINER_PIC_DONOR_HOP},
+    {SP_NAME_PETREL, TRAINER_PIC_LA_PETREL},
+    {SP_NAME_ARIANA, TRAINER_PIC_LA_ARIANA},
+    {SP_NAME_PAST_GIOVANNI, TRAINER_PIC_DONOR_GIOVANNI},
 };
 
 bool32 __attribute__((noinline)) IsFieldMugshotActive(void)

@@ -83,7 +83,7 @@ def main():
    q=B/rel;q.parent.mkdir(parents=True,exist_ok=True);assert not q.exists(),('Backup already exists',q);shutil.copy2(p,q);backups[rel]=sha(p)
  dump(B/'before.json',dict(backups=backups,protected=protected,groups=beforegroups))
  native=enums(R/'include/constants/metatile_behaviors.h');fr={int(v,16):n for n,v in re.findall(r'#define (MB_\w+) (0x[0-9A-Fa-f]+)',(R/'.la_work/amap/firered_behaviors_reference.h').read_text())}
- alias={'MB_ROCK_STAIRS':'MB_NORMAL','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_WARP_DOOR':'MB_NON_ANIMATED_DOOR','MB_CAVE_DOOR':'MB_NON_ANIMATED_DOOR','MB_REGULAR_WARP':'MB_NON_ANIMATED_DOOR'}
+ alias={'MB_ROCK_STAIRS':'MB_ROCK_STAIRS','MB_SAND_CAVE':'MB_CAVE','MB_RUNNING_DISALLOWED':'MB_NO_RUNNING','MB_WARP_DOOR':'MB_NON_ANIMATED_DOOR','MB_CAVE_DOOR':'MB_NON_ANIMATED_DOOR','MB_REGULAR_WARP':'MB_NON_ANIMATED_DOOR'}
  folders={load(p)['id']:p.parent for p in (S/'maps').glob('*/map.json')};keys=sorted({src[k][f] for k in selected for f in ['primary_tileset','secondary_tileset']});banks={};translations=[];used={k:set() for k in keys}
  for key in keys:
   folder=S/'tilesets'/key;target=R/'data/mercury_johto_assets/tilesets'/key;shutil.copytree(folder,target);raw=(folder/'source_frlg_metatile_attributes.bin').read_bytes();attrs=bytearray((folder/'metatile_attributes.bin').read_bytes());tiles=bytearray((folder/'metatiles.bin').read_bytes())

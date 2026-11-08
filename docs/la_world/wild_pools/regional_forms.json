@@ -1,0 +1,1674 @@
+{
+  "SPECIES_RATTATA_ALOLA": {
+    "species": "SPECIES_RATTATA_ALOLA",
+    "national_dex": 19,
+    "types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "20",
+        "species": "SPECIES_RATICATE_ALOLA"
+      },
+      {
+        "method": "NONE",
+        "param": "0",
+        "species": "SPECIES_RATICATE_ALOLA_TOTEM"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 20,
+        "species": "SPECIES_RATICATE_ALOLA"
+      }
+    ],
+    "family_root_types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_RATTATA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "haunted",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_RATICATE_ALOLA": {
+    "species": "SPECIES_RATICATE_ALOLA",
+    "national_dex": 20,
+    "types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_RATTATA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "haunted",
+      "meadow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_MEOWTH_ALOLA": {
+    "species": "SPECIES_MEOWTH_ALOLA",
+    "national_dex": 52,
+    "types": [
+      "DARK",
+      "DARK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "0",
+        "species": "SPECIES_PERSIAN_ALOLA"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 0,
+        "species": "SPECIES_PERSIAN_ALOLA"
+      }
+    ],
+    "family_root_types": [
+      "DARK",
+      "DARK"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_MEOWTH",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "haunted",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_PERSIAN_ALOLA": {
+    "species": "SPECIES_PERSIAN_ALOLA",
+    "national_dex": 53,
+    "types": [
+      "DARK",
+      "DARK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "DARK",
+      "DARK"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_MEOWTH",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "haunted",
+      "meadow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_RAICHU_ALOLA": {
+    "species": "SPECIES_RAICHU_ALOLA",
+    "national_dex": 26,
+    "types": [
+      "ELECTRIC",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ELECTRIC",
+      "ELECTRIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_PIKACHU",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "forest"
+    ],
+    "wild_min_level": 36
+  },
+  "SPECIES_EXEGGUTOR_ALOLA": {
+    "species": "SPECIES_EXEGGUTOR_ALOLA",
+    "national_dex": 103,
+    "types": [
+      "GRASS",
+      "DRAGON"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GRASS",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_EXEGGCUTE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "forest"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_SANDSHREW_ALOLA": {
+    "species": "SPECIES_SANDSHREW_ALOLA",
+    "national_dex": 27,
+    "types": [
+      "ICE",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_ICE_STONE",
+        "species": "SPECIES_SANDSLASH_ALOLA"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_SANDSHREW",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_SANDSLASH_ALOLA": {
+    "species": "SPECIES_SANDSLASH_ALOLA",
+    "national_dex": 28,
+    "types": [
+      "ICE",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_SANDSHREW",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_VULPIX_ALOLA": {
+    "species": "SPECIES_VULPIX_ALOLA",
+    "national_dex": 37,
+    "types": [
+      "ICE",
+      "ICE"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_ICE_STONE",
+        "species": "SPECIES_NINETALES_ALOLA"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "ICE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_VULPIX",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_NINETALES_ALOLA": {
+    "species": "SPECIES_NINETALES_ALOLA",
+    "national_dex": 38,
+    "types": [
+      "ICE",
+      "FAIRY"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "ICE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_VULPIX",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_DIGLETT_ALOLA": {
+    "species": "SPECIES_DIGLETT_ALOLA",
+    "national_dex": 50,
+    "types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "26",
+        "species": "SPECIES_DUGTRIO_ALOLA"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 26,
+        "species": "SPECIES_DUGTRIO_ALOLA"
+      }
+    ],
+    "family_root_types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_DIGLETT",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "mountain",
+      "cave"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_DUGTRIO_ALOLA": {
+    "species": "SPECIES_DUGTRIO_ALOLA",
+    "national_dex": 51,
+    "types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_DIGLETT",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "mountain",
+      "cave"
+    ],
+    "wild_min_level": 26
+  },
+  "SPECIES_GEODUDE_ALOLA": {
+    "species": "SPECIES_GEODUDE_ALOLA",
+    "national_dex": 74,
+    "types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "25",
+        "species": "SPECIES_GRAVELER_ALOLA"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 25,
+        "species": "SPECIES_GRAVELER_ALOLA"
+      }
+    ],
+    "family_root_types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_GEODUDE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "mountain",
+      "cave"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_GRAVELER_ALOLA": {
+    "species": "SPECIES_GRAVELER_ALOLA",
+    "national_dex": 75,
+    "types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "TRADE",
+        "param": "0",
+        "species": "SPECIES_GOLEM_ALOLA"
+      },
+      {
+        "method": "ITEM",
+        "param": "ITEM_LINKING_CORD",
+        "species": "SPECIES_GOLEM_ALOLA"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_GEODUDE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "mountain",
+      "cave"
+    ],
+    "wild_min_level": 25
+  },
+  "SPECIES_GOLEM_ALOLA": {
+    "species": "SPECIES_GOLEM_ALOLA",
+    "national_dex": 76,
+    "types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ROCK",
+      "ELECTRIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_GEODUDE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "mountain",
+      "cave"
+    ],
+    "wild_min_level": 36
+  },
+  "SPECIES_GRIMER_ALOLA": {
+    "species": "SPECIES_GRIMER_ALOLA",
+    "national_dex": 88,
+    "types": [
+      "POISON",
+      "DARK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "38",
+        "species": "SPECIES_MUK_ALOLA"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 38,
+        "species": "SPECIES_MUK_ALOLA"
+      }
+    ],
+    "family_root_types": [
+      "POISON",
+      "DARK"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_GRIMER",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "coast"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_MUK_ALOLA": {
+    "species": "SPECIES_MUK_ALOLA",
+    "national_dex": 89,
+    "types": [
+      "POISON",
+      "DARK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "POISON",
+      "DARK"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_GRIMER",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "coast"
+    ],
+    "wild_min_level": 38
+  },
+  "SPECIES_MAROWAK_ALOLA": {
+    "species": "SPECIES_MAROWAK_ALOLA",
+    "national_dex": 105,
+    "types": [
+      "FIRE",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GROUND",
+      "GROUND"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_CUBONE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "haunted",
+      "volcanic"
+    ],
+    "wild_min_level": 28
+  },
+  "SPECIES_MEOWTH_GALAR": {
+    "species": "SPECIES_MEOWTH_GALAR",
+    "national_dex": 52,
+    "types": [
+      "STEEL",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "28",
+        "species": "SPECIES_PERRSERKER"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 28,
+        "species": "SPECIES_PERRSERKER"
+      }
+    ],
+    "family_root_types": [
+      "STEEL",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_KANTO"
+    ],
+    "family_root": "SPECIES_MEOWTH",
+    "regional_form": true,
+    "allowed_biomes": [
+      "industrial",
+      "cave",
+      "marsh"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_WEEZING_GALAR": {
+    "species": "SPECIES_WEEZING_GALAR",
+    "national_dex": 110,
+    "types": [
+      "POISON",
+      "FAIRY"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "POISON",
+      "POISON"
+    ],
+    "native_regions": [
+      "REGION_KANTO"
+    ],
+    "family_root": "SPECIES_KOFFING",
+    "regional_form": true,
+    "allowed_biomes": [
+      "industrial",
+      "cave",
+      "marsh"
+    ],
+    "wild_min_level": 35
+  },
+  "SPECIES_STUNFISK_GALAR": {
+    "species": "SPECIES_STUNFISK_GALAR",
+    "national_dex": 618,
+    "types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GROUND",
+      "STEEL"
+    ],
+    "native_regions": [
+      "REGION_KANTO"
+    ],
+    "family_root": "SPECIES_STUNFISK",
+    "regional_form": true,
+    "allowed_biomes": [
+      "industrial",
+      "cave",
+      "marsh"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_PONYTA_GALAR": {
+    "species": "SPECIES_PONYTA_GALAR",
+    "national_dex": 77,
+    "types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "40",
+        "species": "SPECIES_RAPIDASH_GALAR"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 40,
+        "species": "SPECIES_RAPIDASH_GALAR"
+      }
+    ],
+    "family_root_types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_PONYTA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_RAPIDASH_GALAR": {
+    "species": "SPECIES_RAPIDASH_GALAR",
+    "national_dex": 78,
+    "types": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_PONYTA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 40
+  },
+  "SPECIES_FARFETCHD_GALAR": {
+    "species": "SPECIES_FARFETCHD_GALAR",
+    "national_dex": 83,
+    "types": [
+      "FIGHTING",
+      "FIGHTING"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "BATTLE_END",
+        "param": "0",
+        "species": "SPECIES_SIRFETCHD"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIGHTING",
+      "FIGHTING"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_FARFETCHD",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_ZIGZAGOON_GALAR": {
+    "species": "SPECIES_ZIGZAGOON_GALAR",
+    "national_dex": 263,
+    "types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "20",
+        "species": "SPECIES_LINOONE_GALAR"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 20,
+        "species": "SPECIES_LINOONE_GALAR"
+      }
+    ],
+    "family_root_types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_ZIGZAGOON",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_LINOONE_GALAR": {
+    "species": "SPECIES_LINOONE_GALAR",
+    "national_dex": 264,
+    "types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "35",
+        "species": "SPECIES_OBSTAGOON"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 35,
+        "species": "SPECIES_OBSTAGOON"
+      }
+    ],
+    "family_root_types": [
+      "DARK",
+      "NORMAL"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_ZIGZAGOON",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_SLOWPOKE_GALAR": {
+    "species": "SPECIES_SLOWPOKE_GALAR",
+    "national_dex": 79,
+    "types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_GALARICA_CUFF",
+        "species": "SPECIES_SLOWBRO_GALAR"
+      },
+      {
+        "method": "ITEM",
+        "param": "ITEM_GALARICA_WREATH",
+        "species": "SPECIES_SLOWKING_GALAR"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_SLOWPOKE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "marsh"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_SLOWBRO_GALAR": {
+    "species": "SPECIES_SLOWBRO_GALAR",
+    "national_dex": 80,
+    "types": [
+      "POISON",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_SLOWPOKE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "marsh"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_SLOWKING_GALAR": {
+    "species": "SPECIES_SLOWKING_GALAR",
+    "national_dex": 199,
+    "types": [
+      "POISON",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "PSYCHIC",
+      "PSYCHIC"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_SLOWPOKE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "marsh"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_MR_MIME_GALAR": {
+    "species": "SPECIES_MR_MIME_GALAR",
+    "national_dex": 122,
+    "types": [
+      "ICE",
+      "PSYCHIC"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "42",
+        "species": "SPECIES_MR_RIME"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 42,
+        "species": "SPECIES_MR_RIME"
+      }
+    ],
+    "family_root_types": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_MR_MIME",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_DARUMAKA_GALAR": {
+    "species": "SPECIES_DARUMAKA_GALAR",
+    "national_dex": 554,
+    "types": [
+      "ICE",
+      "ICE"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_ICE_STONE",
+        "species": "SPECIES_DARMANITAN_GALAR_STANDARD"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "ICE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_DARUMAKA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_DARMANITAN_GALAR_STANDARD": {
+    "species": "SPECIES_DARMANITAN_GALAR_STANDARD",
+    "national_dex": 555,
+    "types": [
+      "ICE",
+      "ICE"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "ICE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_DARUMAKA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "snow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_CORSOLA_GALAR": {
+    "species": "SPECIES_CORSOLA_GALAR",
+    "national_dex": 222,
+    "types": [
+      "GHOST",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "38",
+        "species": "SPECIES_CURSOLA"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 38,
+        "species": "SPECIES_CURSOLA"
+      }
+    ],
+    "family_root_types": [
+      "GHOST",
+      "GHOST"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_CORSOLA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "haunted"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_YAMASK_GALAR": {
+    "species": "SPECIES_YAMASK_GALAR",
+    "national_dex": 562,
+    "types": [
+      "GROUND",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "SCRIPT_TRIGGER",
+        "param": "EVO_TRIGGER_TABLET_CURSE",
+        "species": "SPECIES_RUNERIGUS"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GROUND",
+      "GHOST"
+    ],
+    "native_regions": [
+      "REGION_JOHTO"
+    ],
+    "family_root": "SPECIES_YAMASK",
+    "regional_form": true,
+    "allowed_biomes": [
+      "cave",
+      "haunted"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_GROWLITHE_HISUI": {
+    "species": "SPECIES_GROWLITHE_HISUI",
+    "national_dex": 58,
+    "types": [
+      "FIRE",
+      "ROCK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_FIRE_STONE",
+        "species": "SPECIES_ARCANINE_HISUI"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIRE",
+      "ROCK"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_GROWLITHE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "mountain",
+      "cave",
+      "snow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_ARCANINE_HISUI": {
+    "species": "SPECIES_ARCANINE_HISUI",
+    "national_dex": 59,
+    "types": [
+      "FIRE",
+      "ROCK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIRE",
+      "ROCK"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_GROWLITHE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "mountain",
+      "cave",
+      "snow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_SNEASEL_HISUI": {
+    "species": "SPECIES_SNEASEL_HISUI",
+    "national_dex": 215,
+    "types": [
+      "FIGHTING",
+      "POISON"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "0",
+        "species": "SPECIES_SNEASLER"
+      },
+      {
+        "method": "ITEM",
+        "param": "ITEM_RAZOR_CLAW",
+        "species": "SPECIES_SNEASLER"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 0,
+        "species": "SPECIES_SNEASLER"
+      }
+    ],
+    "family_root_types": [
+      "FIGHTING",
+      "POISON"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_SNEASEL",
+    "regional_form": true,
+    "allowed_biomes": [
+      "mountain",
+      "cave",
+      "snow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_BRAVIARY_HISUI": {
+    "species": "SPECIES_BRAVIARY_HISUI",
+    "national_dex": 628,
+    "types": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_RUFFLET",
+    "regional_form": true,
+    "allowed_biomes": [
+      "mountain",
+      "cave",
+      "snow"
+    ],
+    "wild_min_level": 54
+  },
+  "SPECIES_AVALUGG_HISUI": {
+    "species": "SPECIES_AVALUGG_HISUI",
+    "national_dex": 713,
+    "types": [
+      "ICE",
+      "ROCK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ICE",
+      "ICE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_BERGMITE",
+    "regional_form": true,
+    "allowed_biomes": [
+      "mountain",
+      "cave",
+      "snow"
+    ],
+    "wild_min_level": 37
+  },
+  "SPECIES_VOLTORB_HISUI": {
+    "species": "SPECIES_VOLTORB_HISUI",
+    "national_dex": 100,
+    "types": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "ITEM",
+        "param": "ITEM_LEAF_STONE",
+        "species": "SPECIES_ELECTRODE_HISUI"
+      }
+    ],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_VOLTORB",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_ELECTRODE_HISUI": {
+    "species": "SPECIES_ELECTRODE_HISUI",
+    "national_dex": 101,
+    "types": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_VOLTORB",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_LILLIGANT_HISUI": {
+    "species": "SPECIES_LILLIGANT_HISUI",
+    "national_dex": 549,
+    "types": [
+      "GRASS",
+      "FIGHTING"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GRASS",
+      "GRASS"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_PETILIL",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 20
+  },
+  "SPECIES_DECIDUEYE_HISUI": {
+    "species": "SPECIES_DECIDUEYE_HISUI",
+    "national_dex": 724,
+    "types": [
+      "GRASS",
+      "FIGHTING"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "GRASS",
+      "FLYING"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_ROWLET",
+    "regional_form": true,
+    "allowed_biomes": [
+      "forest",
+      "meadow"
+    ],
+    "wild_min_level": 36
+  },
+  "SPECIES_TYPHLOSION_HISUI": {
+    "species": "SPECIES_TYPHLOSION_HISUI",
+    "national_dex": 157,
+    "types": [
+      "FIRE",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIRE",
+      "FIRE"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_CYNDAQUIL",
+    "regional_form": true,
+    "allowed_biomes": [
+      "haunted",
+      "forest"
+    ],
+    "wild_min_level": 36
+  },
+  "SPECIES_ZORUA_HISUI": {
+    "species": "SPECIES_ZORUA_HISUI",
+    "national_dex": 570,
+    "types": [
+      "NORMAL",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "30",
+        "species": "SPECIES_ZOROARK_HISUI"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 30,
+        "species": "SPECIES_ZOROARK_HISUI"
+      }
+    ],
+    "family_root_types": [
+      "NORMAL",
+      "GHOST"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_ZORUA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "haunted",
+      "forest"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_ZOROARK_HISUI": {
+    "species": "SPECIES_ZOROARK_HISUI",
+    "national_dex": 571,
+    "types": [
+      "NORMAL",
+      "GHOST"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "NORMAL",
+      "GHOST"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_ZORUA",
+    "regional_form": true,
+    "allowed_biomes": [
+      "haunted",
+      "forest"
+    ],
+    "wild_min_level": 30
+  },
+  "SPECIES_QWILFISH_HISUI": {
+    "species": "SPECIES_QWILFISH_HISUI",
+    "national_dex": 211,
+    "types": [
+      "DARK",
+      "POISON"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "0",
+        "species": "SPECIES_OVERQWIL"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 0,
+        "species": "SPECIES_OVERQWIL"
+      }
+    ],
+    "family_root_types": [
+      "DARK",
+      "POISON"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_QWILFISH",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "marsh"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_SAMUROTT_HISUI": {
+    "species": "SPECIES_SAMUROTT_HISUI",
+    "national_dex": 503,
+    "types": [
+      "WATER",
+      "DARK"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "WATER",
+      "WATER"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_OSHAWOTT",
+    "regional_form": true,
+    "allowed_biomes": [
+      "coast",
+      "marsh"
+    ],
+    "wild_min_level": 36
+  },
+  "SPECIES_SLIGGOO_HISUI": {
+    "species": "SPECIES_SLIGGOO_HISUI",
+    "national_dex": 705,
+    "types": [
+      "DRAGON",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "50",
+        "species": "SPECIES_GOODRA_HISUI"
+      },
+      {
+        "method": "LEVEL",
+        "param": "50",
+        "species": "SPECIES_GOODRA_HISUI"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 50,
+        "species": "SPECIES_GOODRA_HISUI"
+      },
+      {
+        "level": 50,
+        "species": "SPECIES_GOODRA_HISUI"
+      }
+    ],
+    "family_root_types": [
+      "DRAGON",
+      "DRAGON"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_GOOMY",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "mountain"
+    ],
+    "wild_min_level": 40
+  },
+  "SPECIES_GOODRA_HISUI": {
+    "species": "SPECIES_GOODRA_HISUI",
+    "national_dex": 706,
+    "types": [
+      "DRAGON",
+      "STEEL"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "DRAGON",
+      "DRAGON"
+    ],
+    "native_regions": [
+      "REGION_SINNOH"
+    ],
+    "family_root": "SPECIES_GOOMY",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "mountain"
+    ],
+    "wild_min_level": 50
+  },
+  "SPECIES_TAUROS_PALDEA_COMBAT": {
+    "species": "SPECIES_TAUROS_PALDEA_COMBAT",
+    "national_dex": 128,
+    "types": [
+      "FIGHTING",
+      "FIGHTING"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIGHTING",
+      "FIGHTING"
+    ],
+    "native_regions": [
+      "REGION_KANTO"
+    ],
+    "family_root": "SPECIES_TAUROS",
+    "regional_form": true,
+    "allowed_biomes": [
+      "meadow"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_TAUROS_PALDEA_BLAZE": {
+    "species": "SPECIES_TAUROS_PALDEA_BLAZE",
+    "national_dex": 128,
+    "types": [
+      "FIGHTING",
+      "FIRE"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIGHTING",
+      "FIRE"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_TAUROS",
+    "regional_form": true,
+    "allowed_biomes": [
+      "volcanic",
+      "desert"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_TAUROS_PALDEA_AQUA": {
+    "species": "SPECIES_TAUROS_PALDEA_AQUA",
+    "national_dex": 128,
+    "types": [
+      "FIGHTING",
+      "WATER"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [],
+    "level_evolutions": [],
+    "family_root_types": [
+      "FIGHTING",
+      "WATER"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_TAUROS",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "coast"
+    ],
+    "wild_min_level": 1
+  },
+  "SPECIES_WOOPER_PALDEA": {
+    "species": "SPECIES_WOOPER_PALDEA",
+    "national_dex": 194,
+    "types": [
+      "POISON",
+      "GROUND"
+    ],
+    "excluded": false,
+    "exclusion_flags": [],
+    "evolution_targets": [
+      {
+        "method": "LEVEL",
+        "param": "20",
+        "species": "SPECIES_CLODSIRE"
+      }
+    ],
+    "level_evolutions": [
+      {
+        "level": 20,
+        "species": "SPECIES_CLODSIRE"
+      }
+    ],
+    "family_root_types": [
+      "POISON",
+      "GROUND"
+    ],
+    "native_regions": [
+      "REGION_HOENN"
+    ],
+    "family_root": "SPECIES_WOOPER",
+    "regional_form": true,
+    "allowed_biomes": [
+      "marsh",
+      "coast"
+    ],
+    "wild_min_level": 1
+  }
+}

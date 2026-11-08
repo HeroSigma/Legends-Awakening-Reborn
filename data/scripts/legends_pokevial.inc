@@ -31,7 +31,9 @@ LegendsPokevial_GiveReward:
     setspeaker SP_NAME_DEVON_RESEARCHER
     msgbox LegendsPokevial_Text_Reward, MSGBOX_DEFAULT
     setspeaker SP_NAME_NONE
-    giveitem ITEM_POKEVIAL
+    setvar VAR_0x8004, 3
+	setvar VAR_0x8000, ITEM_POKEVIAL
+	call LegendsQuest_StoryReward
     goto_if_eq VAR_RESULT, FALSE, LegendsPokevial_NoRoom
     special LegendsPokevialGrant
     setspeaker SP_NAME_DEVON_RESEARCHER

@@ -21,6 +21,14 @@ const u8 gQuestionMarksItemName[] = _("????????");
 
 const struct ItemInfo gItemsInfo[] =
 {
+    [ITEM_RIFT_TRACKER] = {
+        .name = ITEM_NAME("Rift Tracker"),
+        .price = 0,
+        .description = COMPOUND_STRING("Tracks rift signals.\nRecords research\nand passage permits."),
+        .importance = 1, .pocket = POCKET_KEY_ITEMS, .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_RiftTracker,
+        .iconPic = gItemIcon_Scanner, .iconPalette = gItemIconPalette_Scanner,
+    },
     [ITEM_POKEVIAL] =
     {
         .name = ITEM_NAME("Pokévial"),

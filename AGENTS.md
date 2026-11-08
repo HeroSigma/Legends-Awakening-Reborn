@@ -21,3 +21,39 @@ Named rivals and professors use the central custom speaker palette; see docs/sto
 ## Story polish workflow
 
 Polish the completed story rather than bulk-editing untouched or future scenes. When adding a new scene, review its dialogue, line fit, speaker colors, staging and progression as part of that scene's work. Keep Aren/Aria speaking naturally and retain established character voices.
+
+## Villain alliance canon
+
+Giovanni has united the villain factions. Their operations support a coordinated
+plan; distinct ambitions and disagreements do not make them independent enemies.
+The completed Hoenn scenes must reflect shared research, equipment and orders.
+Do not write Aqua, Magma, Galactic or the Shadow Triad as unrelated competing
+investigations unless an explicitly authored deception explains it.
+
+The first Woods scene uses anonymous, faction-colored speaker aliases.
+Giovanni's name is first explicitly heard during the Kanto Power Plant shutdown
+interruption (FLAG_LA_HEARD_GIOVANNI). The subsequent Paradigm call connects that
+name to Norman's description, without revealing every allied leader.
+Only use the player's acquired knowledge in later dialogue. Existing saves that
+already finished the rescue must not replay it or claim to remember the new radio.
+
+
+## Saved raid research decision (2026-11-07)
+
+User requested retaining the raid review for future implementation. Prefer a native
+pokeemerald-expansion implementation: PR #10319 for newer battle hooks and compact
+state, PR #2869 for intro/partner UI, 2v1 presentation and capture-flow references.
+CFRU is a behavioral reference, not a FireRed engine transplant. Both Expansion
+PRs were closed/unmerged WIP at review; do not treat their feature lists as tested
+working code. First prove one isolated Max Raid before adding world dens.
+Read docs/features/raids/expansion-pr-review.md and cfru-feasibility.md before work.
+Measure runtime battle heap separately from static EWRAM headroom. Preserve story
+capture restrictions, ordinary gimmick selection, storage and quest/rift gates.
+This is saved research, not authorization to start implementing raids now.
+
+## Test ROM policy
+
+User instruction (2026-11-08): keep ONE reusable test ROM beside the permanent main ROM:
+C:/Users/aadair/Downloads/Legends-Awakening-Reborn/Legend Test.gba
+(WSL: /mnt/c/Users/aadair/Downloads/Legends-Awakening-Reborn/Legend Test.gba).
+For future test builds, replace this test ROM in place; do not create version-named test ROMs or new release folders. Keep the main release ROM unchanged for test-only work. Preserve Legend Test.sav and the main release save; never overwrite, delete or reset either during packaging.

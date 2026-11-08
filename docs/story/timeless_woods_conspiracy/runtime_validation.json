@@ -17,6 +17,10 @@
       "passed": true
     },
     {
+      "test": "giovanni_name_hidden_0",
+      "passed": true
+    },
+    {
       "test": "camera_at_meeting_0",
       "passed": true
     },
@@ -30,6 +34,10 @@
     },
     {
       "test": "ball_between_them_0",
+      "passed": true
+    },
+    {
+      "test": "cyrus_name_hidden_0",
       "passed": true
     },
     {
@@ -97,6 +105,10 @@
       "passed": true
     },
     {
+      "test": "giovanni_name_hidden_1",
+      "passed": true
+    },
+    {
       "test": "camera_at_meeting_1",
       "passed": true
     },
@@ -110,6 +122,10 @@
     },
     {
       "test": "ball_between_them_1",
+      "passed": true
+    },
+    {
+      "test": "cyrus_name_hidden_1",
       "passed": true
     },
     {
@@ -163,5 +179,5 @@
   ],
   "all_passed": true,
   "user_save_loaded": false,
-  "rom_sha256": "23ed115c6b1354ccbff05d02d28bcb394318efe194a5aab7eba75cf95ce354bd"
+  "rom_sha256": "61c8f5baecd5d76ca92f8731b13c08cfb02f1e9ea10fd87236888bdf0dcc035f"
 }

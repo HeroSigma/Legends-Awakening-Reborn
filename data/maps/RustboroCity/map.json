@@ -257,6 +257,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LegendsRustboro_SilverInteract",
       "flag": "FLAG_LA_HIDE_RUSTBORO_SILVER"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 29,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsQuest_FieldResearcher",
+      "flag": "0"
     }
   ],
   "warp_events": [

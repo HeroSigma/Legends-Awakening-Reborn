@@ -24,3 +24,18 @@ Rhythm ROM text describes raid pillars, partners, rewards, post-victory catching
 Our project already has ordinary Dynamax/Max Moves, wild-double support (random chance currently zero), mass-outbreak infrastructure and daily weather cycling. These foundations do not mean the deferred features are complete. Detailed local inspection: .la_work/rhythm-inspection/report.md and accompanying extracted-text reports.
 
 Creator release reference: https://www.reddit.com/r/PokemonROMhacks/comments/1xearcg/pok%C3%A9mon_rhythm_official_release_v100/
+
+
+## Saved raid approach — 2026-11-07
+
+User requested saving the completed reference review. Prefer native Expansion
+integration using PR 10319 for newer battle hooks and PR 2869 for presentation,
+partner selection and post-win capture references. Both are closed, unmerged WIP;
+neither is ready for wholesale merging. CFRU remains a mechanics reference.
+Start with an isolated player-plus-NPC versus single-boss Max Raid and validate
+combat, shields, partner replacement, capture/rewards and cleanup before den
+placement. This remains a future feature; saving research does not enable raids.
+
+Review: [Expansion PR comparison](raids/expansion-pr-review.md) and
+[CFRU feasibility](raids/cfru-feasibility.md). Free static EWRAM and free runtime
+heap are different budgets and must be measured separately.

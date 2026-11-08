@@ -375,3 +375,6 @@
 #define VAR_LA_RIFT_SURVEYED VAR_GIFT_UNUSED_2 // registry bitmask
 #define VAR_LA_OAK_STARTER VAR_GIFT_UNUSED_3 // 0 unknown; 1 offered; 2-4 gift choice; +8 met Blue
 #define VAR_LA_RIFT_RESOLVED VAR_LA_OAK_STARTER // legacy reserved alias; never written by rift gates
+
+#define VAR_LA_ASHES_STATE VAR_GIFT_UNUSED_4
+#define VAR_LA_SILPH_OPPONENT VAR_GIFT_UNUSED_5
