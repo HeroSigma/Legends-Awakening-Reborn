@@ -411,36 +411,23 @@ const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary
 
 // BEGIN LEGENDS AWAKENING IMPORTED TILESETS
 
-const u16 gMetatiles_LA_UnovaGeneral[] =
-    INCBIN_U16("data/tilesets/primary/la_unova_general/metatiles.bin");
 
-const u16 gMetatileAttributes_LA_UnovaGeneral[] =
-    INCBIN_U16("data/tilesets/primary/la_unova_general/metatile_attributes.bin");
 
-const u16 gMetatiles_LA_NuvemaTown[] =
-    INCBIN_U16("data/tilesets/secondary/la_nuvema_town/metatiles.bin");
 
-const u16 gMetatileAttributes_LA_NuvemaTown[] =
-    INCBIN_U16("data/tilesets/secondary/la_nuvema_town/metatile_attributes.bin");
+
+
+
+
 
 // END LEGENDS AWAKENING IMPORTED TILESETS
 
 
 
 
-const u16 gMetatiles_AMap_Primary_BWA_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_bwa_082d4a94/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Primary_BWA_082D4A94[] = INCBIN_U16("data/tilesets/primary/amap_primary_bwa_082d4a94/metatile_attributes.bin");
 
-const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4aac/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AAC[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4aac/metatile_attributes.bin");
 
-#if !LA_FREE_SPACE
 
-#endif // unused original Galar bank
 
-#if !LA_FREE_SPACE
-
-#endif // unused original Galar bank
 
 
 #if !LA_FREE_SPACE
@@ -452,17 +439,26 @@ const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AAC[] = INCBIN_U
 #endif // unused original Galar bank
 
 
-const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d504c/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D504C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d504c/metatile_attributes.bin");
+#if !LA_FREE_SPACE
 
-const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4af4/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AF4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4af4/metatile_attributes.bin");
+#endif // unused original Galar bank
 
-const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4DC4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4dc4/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4DC4[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4dc4/metatile_attributes.bin");
+#if !LA_FREE_SPACE
 
-const u16 gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatiles.bin");
-const u16 gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C[] = INCBIN_U16("data/tilesets/secondary/amap_secondary_bwa_p082d4a94s082d4b0c/metatile_attributes.bin");
+#endif // unused original Galar bank
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #if !LA_FREE_SPACE
 
@@ -1109,55 +1105,55 @@ const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_96_Distortion_World_Por
 
 const u16 gMetatiles_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_120_Ancient_Retreat/portal_metatiles.bin");
 const u16 gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals[] = INCBIN_U16("data/hyper_assets/sinnoh_layouts/HyperHoenn_37_120_Ancient_Retreat/portal_attributes.bin");
-const u16 gTileset_BWABatch_primary_f2e_BWA_082D4A94_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/primary_f2e_BWA_082D4A94/metatiles.bin");
+
 const u16 gTileset_BWABatch_primary_f2e_BWA_082D4A94_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/primary_f2e_BWA_082D4A94/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/primary_f2e_BWA_082D4BB4/metatiles.bin");
-const u16 gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/primary_f2e_BWA_082D4BB4/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4AC4/metatiles.bin");
+
+
+
 const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4AC4/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B24/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B24/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B3C/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B3C/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B54/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B54/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B6C/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B6C/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B9C/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4B9C/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4BCC/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4BCC/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4DDC/metatiles.bin");
+
+
+
+
+
+
+
+
+
+
+
+
+
 const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S082D4DDC/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S0873D7FC/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4A94S0873D7FC/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4C74/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4C74/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4C8C/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4C8C/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4D04/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4D04/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4E84/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4E84/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4F5C/metatiles.bin");
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S082D4F5C/metatile_attributes.bin");
 
-const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Metatiles[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S0873D82C/metatiles.bin");
+
+
+
+
+
+
+
+
+
+
+
+
+
 const u16 gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Attributes[] = INCBIN_U16("data/bwa_assets/tilesets/secondary_f2e_BWA_P082D4BB4S0873D82C/metatile_attributes.bin");
 
 const u16 gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94_Metatiles[] = INCBIN_U16("data/gs_johto_assets/tilesets/primary_f2e_GS_CHRONICLES_276_082D4A94/metatiles.bin");
@@ -1488,44 +1484,44 @@ const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S08
 const u16 gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Attributes[] = INCBIN_U16("data/kanto_ar_assets/tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC/metatile_attributes.bin");
 
 // BEGIN WESLEY_UNOVA_METATILES
-const u16 gMetatiles_UnovaGeneral_Primary[] = INCBIN_U16("data/tilesets/primary/unova_general/metatiles.bin");
-const u16 gMetatileAttributes_UnovaGeneral_Primary[] = INCBIN_U16("data/tilesets/primary/unova_general/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvema_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvema_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema/metatile_attributes.bin");
+
+
+
+
 // END WESLEY_UNOVA_METATILES
 
 // BEGIN NUVEMA_COMPLETE_ORIGINALS
-const u16 gMetatiles_UnovaNuvemaOriginal1_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal1_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original1/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvemaOriginal1_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal1_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original1/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvemaOriginal2_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal2_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original2/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvemaOriginal2_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal2_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original2/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvemaOriginal3_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal3_Primary[] = INCBIN_U16("data/tilesets/primary/unova_nuvema_original3/metatile_attributes.bin");
 
-const u16 gMetatiles_UnovaNuvemaOriginal3_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/metatiles.bin");
-const u16 gMetatileAttributes_UnovaNuvemaOriginal3_Secondary[] = INCBIN_U16("data/tilesets/secondary/unova_nuvema_original3/metatile_attributes.bin");
+
+
+
+
+
+
+
+
+
+
+
+
 // END NUVEMA_COMPLETE_ORIGINALS
 
-const u16 gMetatiles_AccumulaFullSheetTest_Primary[] = INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/metatiles.bin");
-const u16 gMetatileAttributes_AccumulaFullSheetTest_Primary[] = INCBIN_U16("data/tilesets/primary/accumula_fullsheet_test/metatile_attributes.bin");
 
-const u16 gMetatiles_AccumulaFullSheetTest_Secondary[] = INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/metatiles.bin");
-const u16 gMetatileAttributes_AccumulaFullSheetTest_Secondary[] = INCBIN_U16("data/tilesets/secondary/accumula_fullsheet_test/metatile_attributes.bin");
 
-const u16 gMetatiles_NuvemaFullSheetTest_Primary[] = INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/metatiles.bin");
-const u16 gMetatileAttributes_NuvemaFullSheetTest_Primary[] = INCBIN_U16("data/tilesets/primary/nuvema_fullsheet_test/metatile_attributes.bin");
 
-const u16 gMetatiles_NuvemaFullSheetTest_Secondary[] = INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/metatiles.bin");
-const u16 gMetatileAttributes_NuvemaFullSheetTest_Secondary[] = INCBIN_U16("data/tilesets/secondary/nuvema_fullsheet_test/metatile_attributes.bin");
+
+
+
+
+
+
+
+
 
 // BEGIN MERCURY_JOHTO_METATILES
 const u16 gMercury_Metatiles_511644c45d47fc61a94d[] = INCBIN_U16("data/mercury_johto_assets/shared/gMercury_Metatiles_511644c45d47fc61a94d.bin");
@@ -2436,13 +2432,13 @@ const u16 gProjectStairsAttrs_3f9cd9a4a83ff2511bff[] = INCBIN_U16("data/project_
 const u16 gProjectStairsAttrs_4ba0f49123d845f8ce3f[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_4ba0f49123d845f8ce3f.bin");
 const u16 gProjectStairsAttrs_51684d280a27d43dc3da[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_51684d280a27d43dc3da.bin");
 const u16 gProjectStairsAttrs_51805d9bdd2d19a22632[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_51805d9bdd2d19a22632.bin");
-const u16 gProjectStairsAttrs_55ee78ee43b7d2779aa6[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_55ee78ee43b7d2779aa6.bin");
+
 const u16 gProjectStairsAttrs_5ccce144bf27f02305db[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_5ccce144bf27f02305db.bin");
 const u16 gProjectStairsAttrs_77a1727e912592a5132d[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_77a1727e912592a5132d.bin");
-const u16 gProjectStairsAttrs_7bdde46e75a153a9582d[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_7bdde46e75a153a9582d.bin");
-const u16 gProjectStairsAttrs_80a693747903d06760a1[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_80a693747903d06760a1.bin");
+
+
 const u16 gProjectStairsAttrs_85b8f544ca2086d8e0ae[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_85b8f544ca2086d8e0ae.bin");
-const u16 gProjectStairsAttrs_871a725807a9a992a011[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_871a725807a9a992a011.bin");
+
 const u16 gProjectStairsAttrs_8d872a8d9caf4046d488[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_8d872a8d9caf4046d488.bin");
 const u16 gProjectStairsAttrs_a621dbf214c42b3476d4[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_a621dbf214c42b3476d4.bin");
 const u16 gProjectStairsAttrs_a8c0bca320c7c343a084[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsAttrs_a8c0bca320c7c343a084.bin");

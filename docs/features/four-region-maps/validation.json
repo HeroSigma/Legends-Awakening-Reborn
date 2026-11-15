@@ -1,0 +1,15 @@
+{
+  "retired_maps": 33,
+  "retained_maps_unchanged": 2657,
+  "retained_layouts_checked": 2619,
+  "retained_graphics_byte_exact": 1234,
+  "all_map_and_layout_ids_stable": true,
+  "retired_graphics_absent": true,
+  "used_rom_bytes": 32746452,
+  "free_rom_bytes": 807980,
+  "recovered_rom_bytes": 797740,
+  "migration_group_classification_checked": 256,
+  "offscreen_mgba_smoke_seconds": 6,
+  "interactive_map_and_old_save_testing": "not performed",
+  "static_ewram_bytes": 257460
+}

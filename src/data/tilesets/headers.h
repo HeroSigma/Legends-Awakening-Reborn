@@ -1544,54 +1544,18 @@ const struct Tileset gTileset_HallOfFame =
 
 // BEGIN LEGENDS AWAKENING IMPORTED TILESETS
 
-const struct Tileset gTileset_LA_UnovaGeneral =
-{
-    .isCompressed = FALSE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_LA_UnovaGeneral,
-    .palettes = gTilesetPalettes_LA_UnovaGeneral,
-    .metatiles = gMetatiles_LA_UnovaGeneral,
-    .metatileAttributes = gMetatileAttributes_LA_UnovaGeneral,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_LA_NuvemaTown =
-{
-    .isCompressed = FALSE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_LA_NuvemaTown,
-    .palettes = gTilesetPalettes_LA_NuvemaTown,
-    .metatiles = gMetatiles_LA_NuvemaTown,
-    .metatileAttributes = gMetatileAttributes_LA_NuvemaTown,
-    .callback = NULL,
-};
+
+
 
 // END LEGENDS AWAKENING IMPORTED TILESETS
 
 
 
 
-const struct Tileset gTileset_AMap_Primary_BWA_082D4A94 =
-{
-    .isCompressed = TRUE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_AMap_Primary_BWA_082D4A94,
-    .palettes = gTilesetPalettes_AMap_Primary_BWA_082D4A94,
-    .metatiles = gMetatiles_AMap_Primary_BWA_082D4A94,
-    .metatileAttributes = gMetatileAttributes_AMap_Primary_BWA_082D4A94,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4AAC =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4AAC,
-    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4AAC,
-    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AAC,
-    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AAC,
-    .callback = NULL,
-};
+
+
 
 #if !LA_FREE_SPACE
 
@@ -1603,49 +1567,13 @@ const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4AAC =
 #endif // unused original Galar bank
 
 
-const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D504C =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D504C,
-    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D504C,
-    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D504C,
-    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D504C,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4AF4 =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4AF4,
-    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4AF4,
-    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4AF4,
-    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4AF4,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4DC4 =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4DC4,
-    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4DC4,
-    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4DC4,
-    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4DC4,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_AMap_Secondary_BWA_P082D4A94S082D4B0C =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AMap_Secondary_BWA_P082D4A94S082D4B0C,
-    .palettes = gTilesetPalettes_AMap_Secondary_BWA_P082D4A94S082D4B0C,
-    .metatiles = gMetatiles_AMap_Secondary_BWA_P082D4A94S082D4B0C,
-    .metatileAttributes = gMetatileAttributes_AMap_Secondary_BWA_P082D4A94S082D4B0C,
-    .callback = NULL,
-};
+
+
+
+
 
 #if !LA_FREE_SPACE
 
@@ -4016,175 +3944,39 @@ const struct Tileset gTileset_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Por
     .metatileAttributes = gMetatileAttributes_Hyper_sinnoh_HyperHoenn_37_120_Ancient_Retreat_Portals,
     .callback = NULL,
 };
-const struct Tileset gTileset_BWABatch_primary_f2e_BWA_082D4A94 = {
- .isCompressed = TRUE,
- .isSecondary = FALSE,
- .tiles = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Tiles,
- .palettes = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Palettes,
- .metatiles = gTileset_BWABatch_primary_f2e_BWA_082D4A94_Metatiles,
- .metatileAttributes = gProjectStairsAttrs_7bdde46e75a153a9582d,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_primary_f2e_BWA_082D4BB4 = {
- .isCompressed = TRUE,
- .isSecondary = FALSE,
- .tiles = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Tiles,
- .palettes = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Palettes,
- .metatiles = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Metatiles,
- .metatileAttributes = gTileset_BWABatch_primary_f2e_BWA_082D4BB4_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4AC4_Metatiles,
- .metatileAttributes = gProjectStairsAttrs_871a725807a9a992a011,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B24_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B3C_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B54_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B6C_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4B9C_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4BCC_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S082D4DDC_Metatiles,
- .metatileAttributes = gProjectStairsAttrs_80a693747903d06760a1,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4A94S0873D7FC_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C74_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4C8C_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4D04_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84 = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4E84_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Metatiles,
- .metatileAttributes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S082D4F5C_Attributes,
- .callback = NULL,
-};
 
-const struct Tileset gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C = {
- .isCompressed = TRUE,
- .isSecondary = TRUE,
- .tiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Tiles,
- .palettes = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Palettes,
- .metatiles = gTileset_BWABatch_secondary_f2e_BWA_P082D4BB4S0873D82C_Metatiles,
- .metatileAttributes = gProjectStairsAttrs_55ee78ee43b7d2779aa6,
- .callback = NULL,
-};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const struct Tileset gTileset_GSJohto_primary_f2e_GS_CHRONICLES_276_082D4A94 = {.isCompressed=TRUE ,
  .isSecondary=FALSE ,
@@ -4872,82 +4664,32 @@ const struct Tileset gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P
 const struct Tileset gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Tiles, .palettes=gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Palettes, .metatiles=gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Metatiles, .metatileAttributes=gTileset_KantoAR_secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D50DC_Attributes, .callback=NULL };
 
 // BEGIN WESLEY_UNOVA_HEADERS
-const struct Tileset gTileset_UnovaGeneral_Primary =
-{
-    .isCompressed = TRUE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_UnovaGeneral_Primary,
-    .palettes = gTilesetPalettes_UnovaGeneral_Primary,
-    .metatiles = gMetatiles_UnovaGeneral_Primary,
-    .metatileAttributes = gMetatileAttributes_UnovaGeneral_Primary,
-    .callback = InitTilesetAnim_UnovaGeneral,
-};
 
-const struct Tileset gTileset_UnovaNuvema_Secondary =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_UnovaNuvema_Secondary,
-    .palettes = gTilesetPalettes_UnovaNuvema_Secondary,
-    .metatiles = gMetatiles_UnovaNuvema_Secondary,
-    .metatileAttributes = gMetatileAttributes_UnovaNuvema_Secondary,
-    .callback = NULL,
-};
+
+
 // END WESLEY_UNOVA_HEADERS
 
 // BEGIN NUVEMA_COMPLETE_ORIGINALS
-const struct Tileset gTileset_UnovaNuvemaOriginal1_Primary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnovaNuvemaOriginal1_Primary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal1_Primary, .metatiles=gMetatiles_UnovaNuvemaOriginal1_Primary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal1_Primary, .callback=NULL };
 
-const struct Tileset gTileset_UnovaNuvemaOriginal1_Secondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnovaNuvemaOriginal1_Secondary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal1_Secondary, .metatiles=gMetatiles_UnovaNuvemaOriginal1_Secondary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal1_Secondary, .callback=NULL };
 
-const struct Tileset gTileset_UnovaNuvemaOriginal2_Primary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnovaNuvemaOriginal2_Primary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal2_Primary, .metatiles=gMetatiles_UnovaNuvemaOriginal2_Primary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal2_Primary, .callback=NULL };
 
-const struct Tileset gTileset_UnovaNuvemaOriginal2_Secondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnovaNuvemaOriginal2_Secondary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal2_Secondary, .metatiles=gMetatiles_UnovaNuvemaOriginal2_Secondary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal2_Secondary, .callback=NULL };
 
-const struct Tileset gTileset_UnovaNuvemaOriginal3_Primary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnovaNuvemaOriginal3_Primary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal3_Primary, .metatiles=gMetatiles_UnovaNuvemaOriginal3_Primary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal3_Primary, .callback=NULL };
 
-const struct Tileset gTileset_UnovaNuvemaOriginal3_Secondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnovaNuvemaOriginal3_Secondary, .palettes=gTilesetPalettes_UnovaNuvemaOriginal3_Secondary, .metatiles=gMetatiles_UnovaNuvemaOriginal3_Secondary, .metatileAttributes=gMetatileAttributes_UnovaNuvemaOriginal3_Secondary, .callback=NULL };
+
+
+
+
+
+
 // END NUVEMA_COMPLETE_ORIGINALS
 
-const struct Tileset gTileset_AccumulaFullSheetTest_Primary = {
-    .isCompressed = TRUE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_AccumulaFullSheetTest_Primary,
-    .palettes = gTilesetPalettes_AccumulaFullSheetTest_Primary,
-    .metatiles = gMetatiles_AccumulaFullSheetTest_Primary,
-    .metatileAttributes = gMetatileAttributes_AccumulaFullSheetTest_Primary,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_AccumulaFullSheetTest_Secondary = {
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_AccumulaFullSheetTest_Secondary,
-    .palettes = gTilesetPalettes_AccumulaFullSheetTest_Secondary,
-    .metatiles = gMetatiles_AccumulaFullSheetTest_Secondary,
-    .metatileAttributes = gMetatileAttributes_AccumulaFullSheetTest_Secondary,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_NuvemaFullSheetTest_Primary = {
-    .isCompressed = TRUE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_NuvemaFullSheetTest_Primary,
-    .palettes = gTilesetPalettes_NuvemaFullSheetTest_Primary,
-    .metatiles = gMetatiles_NuvemaFullSheetTest_Primary,
-    .metatileAttributes = gMetatileAttributes_NuvemaFullSheetTest_Primary,
-    .callback = NULL,
-};
 
-const struct Tileset gTileset_NuvemaFullSheetTest_Secondary = {
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_NuvemaFullSheetTest_Secondary,
-    .palettes = gTilesetPalettes_NuvemaFullSheetTest_Secondary,
-    .metatiles = gMetatiles_NuvemaFullSheetTest_Secondary,
-    .metatileAttributes = gMetatileAttributes_NuvemaFullSheetTest_Secondary,
-    .callback = NULL,
-};
+
+
+
+
 
 // BEGIN MERCURY_JOHTO_HEADERS
 const struct Tileset gTileset_Mercury_primary_f2e_MERCURY_082D4A94 = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gMercury_Tiles_8dec85fd64d41a309191, .palettes=gMercury_Palettes_1f46eae24510bcb3d93a, .metatiles=gMercury_Metatiles_511644c45d47fc61a94d, .metatileAttributes=gProjectStairsAttrs_a621dbf214c42b3476d4, .callback=NULL };

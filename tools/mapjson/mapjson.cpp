@@ -800,6 +800,12 @@ string generate_layout_headers_text(Json layouts_data) {
         if ((version == "emerald" && layout_version != "emerald" && !isLaFrlg)
          || (version == "firered" && layout_version != "frlg"))
             continue;
+        string alias = json_to_string(layout, "alias_of", true);
+        if (!alias.empty()) {
+            text << "\t.global " << json_to_string(layout, "name") << "\n"
+                 << "\t.set " << json_to_string(layout, "name") << ", " << alias << "\n\n";
+            continue;
+        }
         string layoutName = json_to_string(layout, "name");
         string border_label = layoutName + "_Border";
         string blockdata_label = layoutName + "_Blockdata";

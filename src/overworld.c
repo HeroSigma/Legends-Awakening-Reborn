@@ -620,8 +620,27 @@ const struct MapLayout *GetMapLayout(u16 mapLayoutId)
     return gMapLayouts[mapLayoutId - 1];
 }
 
+static bool8 IsRetiredRegionMap(s8 mapGroup)
+{
+    // Keep the old groups allocated so every retained map/save ID stays stable.
+    switch (mapGroup)
+    {
+    case MAP_GROUP(MAP_AMAP_3_0_NUVEMA_TOWN):
+    case MAP_GROUP(MAP_BWA_3_19_ROUTE_1):
+    case MAP_GROUP(MAP_AMAP_1_95_PINHWEEL_FOREST):
+    case MAP_GROUP(MAP_BWA_4_0):
+    case MAP_GROUP(MAP_BWA_5_4):
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 void ApplyCurrentWarp(void)
 {
+    // Old escape/heal/dynamic destinations can still reference retired maps.
+    if (IsRetiredRegionMap(sWarpDestination.mapGroup))
+        SetWarpDestination(MAP_GROUP(MAP_LITTLEROOT_TOWN), MAP_NUM(MAP_LITTLEROOT_TOWN), WARP_ID_NONE, 10, 10);
     gLastUsedWarp = gSaveBlock1Ptr->location;
     gSaveBlock1Ptr->location = sWarpDestination;
     if (gLastUsedWarp.mapGroup != gSaveBlock1Ptr->location.mapGroup
@@ -2154,6 +2173,21 @@ void CB2_ContinueSavedGame(void)
     ResetSafariZoneFlag_();
     if (gSaveFileStatus == SAVE_STATUS_ERROR)
         ResetWinStreaks();
+
+    // A battery save made in a removed region must not load its obsolete
+    // object templates, coordinates or layout ID into the retained world.
+    if (IsRetiredRegionMap(gSaveBlock1Ptr->location.mapGroup))
+    {
+        ClearContinueGameWarpStatus();
+        SetWarpDestination(MAP_GROUP(MAP_LITTLEROOT_TOWN), MAP_NUM(MAP_LITTLEROOT_TOWN), WARP_ID_NONE, 10, 10);
+        WarpIntoMap();
+        PlayTimeCounter_Start();
+        ScriptContext_Init();
+        UnlockPlayerFieldControls();
+        gFieldCallback = FieldCB_FadeTryShowMapPopup;
+        SetMainCallback2(CB2_LoadMap);
+        return;
+    }
 
     LoadSaveblockMapHeader();
     ClearDiveAndHoleWarps();

@@ -5,36 +5,17 @@
 @ Presents a list of destinations (menu defined in src/data/script_menu.h,
 @ slot MULTI_UNUSED_19) and warps the player to the chosen one.
 @
-@ Galar retired; destinations are Unova, Johto and Kanto.
+@ Extra regions retired; destinations are Johto and Kanto.
 
 LA_TeleportScientist::
 	lock
 	faceplayer
 	msgbox LA_Text_TeleportScientistIntro, MSGBOX_DEFAULT
 	multichoice 4, 0, MULTI_UNUSED_19, FALSE
-	goto_if_eq VAR_RESULT, 0, LA_TeleportScientist_WarpNuvema
-	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpStriaton
-	goto_if_eq VAR_RESULT, 2, LA_TeleportScientist_WarpBWABatch
-	goto_if_eq VAR_RESULT, 3, LA_TeleportScientist_WarpJohto
-	goto_if_eq VAR_RESULT, 4, LA_TeleportScientist_WarpKantoAR
-	@ 5 = CANCEL (or B button): just end the conversation.
+	goto_if_eq VAR_RESULT, 0, LA_TeleportScientist_WarpJohto
+	goto_if_eq VAR_RESULT, 1, LA_TeleportScientist_WarpKantoAR
+	@ 2 = CANCEL (or B button): just end the conversation.
 	goto LA_TeleportScientist_Cancel
-
-LA_TeleportScientist_WarpNuvema::
-	closemessage
-	warp MAP_AMAP_3_0_NUVEMA_TOWN, 16, 22
-	waitstate
-	release
-	end
-
-
-LA_TeleportScientist_WarpStriaton::
-	closemessage
-	warp MAP_AMAP_3_2_STRIATON_CITY, 52, 25
-	waitstate
-	release
-	end
-
 
 LA_TeleportScientist_Cancel::
 	closemessage
@@ -47,13 +28,6 @@ LA_Text_TeleportScientistIntro:
 	.string "I can send you to a region my\n"
 	.string "equipment imported from another world.\p"
 	.string "Where shall I send you?$"
-
-LA_TeleportScientist_WarpBWABatch::
-	closemessage
-	warp MAP_BWA_1_30, 45, 19
-	waitstate
-	release
-	end
 
 LA_TeleportScientist_WarpJohto::
 	closemessage

@@ -97,9 +97,6 @@ static const struct MenuAction MultichoiceList_YesNoInfo2[] =
 
 static const struct MenuAction MultichoiceList_LATeleportDestinations[] =
 {
-    {COMPOUND_STRING("NUVEMA TOWN")},
-    {COMPOUND_STRING("STRIATON CITY")},
-    {COMPOUND_STRING("BWA MAP TEST")},
     {COMPOUND_STRING("JOHTO")},
     {COMPOUND_STRING("KANTO")},
     {gText_Cancel},
