@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_ashes.h"
 #include "battle_setup.h"
 #include "event_data.h"
 #include "event_object_movement.h"
@@ -483,7 +484,7 @@ bool8 CheckForTrainersWantingBattle(void)
             return TRUE;
         }
 
-        if (numTrainers == 2)
+        if (numTrainers == 2 || (numTrainers != 0 && LegendsAshes_IsSilph()))
             break;
 
         if (numTrainers == 0)
@@ -532,8 +533,15 @@ static u8 CheckTrainer(u8 objectEventId)
     else
     {
         trainerBattlePtr = GetObjectEventScriptPointerByObjectEventId(objectEventId);
+        if (LegendsAshes_GruntAlreadyDefeated(trainerBattlePtr))
+            return 0;
+        const u8 *silphBattle = LegendsAshes_PrepareGruntApproach(trainerBattlePtr);
         struct ScriptContext ctx;
-        if (RunScriptImmediatelyUntilEffect(SCREFF_V1 | SCREFF_SAVE | SCREFF_HARDWARE | SCREFF_TRAINERBATTLE, trainerBattlePtr, &ctx))
+        if (silphBattle)
+        {
+            trainerBattlePtr = silphBattle;
+        }
+        else if (RunScriptImmediatelyUntilEffect(SCREFF_V1 | SCREFF_SAVE | SCREFF_HARDWARE | SCREFF_TRAINERBATTLE, trainerBattlePtr, &ctx))
         {
             if (*ctx.scriptPtr == SCR_OP_TRAINERBATTLE)
                 trainerBattlePtr = ctx.scriptPtr;

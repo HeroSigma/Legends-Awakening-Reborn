@@ -75,3 +75,5 @@ Reserve 0x26D–0x280 for the twenty independent past-Silph door flags, and 0x2A
 ## Past Saffron occupation
 
 The FireRed-based past Silph cast uses independent defeat flags 0x281–0x28F and 0x298–0x29E in addition to the original 0x290–0x297. These are reserved, despite their legacy UNUSED aliases. Keep profile slot 11 for Cozmo's Magma grunt; restored Silph opponents use slots 12–33. Preserve Wally, the ninth-floor elevator Card Key and the custom two-Giovanni finale; never import vanilla FR story flags or clear the tower on an ordinary grunt victory.
+
+Only the nineteen ordinary past-Silph Rocket grunts use automatic sight and approach. Scientists, Dalton and civilians stay interaction-only; Petrel and Ariana keep their scripted interactions. Preserve each grunt's private saved defeat flag and native single-battle flow.

@@ -196,13 +196,12 @@ LegendsAshes_Grunt_0::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x290, LegendsAshes_Grunt_0_After
-    msgbox LegendsAshes_Grunt_0_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 1
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_0_Defeat
-    setflag 0x290
+LegendsAshes_Grunt_0_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_0_Intro, LegendsAshes_Grunt_0_Defeat, LegendsAshes_Grunt_0_Victory
 LegendsAshes_Grunt_0_After:
+    setflag 0x290
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_0_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -246,13 +245,12 @@ LegendsPastSilph_F2_NPC2::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x282, LegendsPastSilph_F2_NPC2_After
-    msgbox LegendsPastSilph_F2_NPC2_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 13
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F2_NPC2_Defeat
-    setflag 0x282
+LegendsPastSilph_F2_NPC2_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F2_NPC2_Intro, LegendsPastSilph_F2_NPC2_Defeat, LegendsPastSilph_F2_NPC2_Victory
 LegendsPastSilph_F2_NPC2_After:
+    setflag 0x282
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F2_NPC2_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -317,13 +315,12 @@ LegendsAshes_Grunt_1::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x291, LegendsAshes_Grunt_1_After
-    msgbox LegendsAshes_Grunt_1_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 2
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_1_Defeat
-    setflag 0x291
+LegendsAshes_Grunt_1_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_1_Intro, LegendsAshes_Grunt_1_Defeat, LegendsAshes_Grunt_1_Victory
 LegendsAshes_Grunt_1_After:
+    setflag 0x291
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_1_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -388,13 +385,12 @@ LegendsAshes_Grunt_2::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x292, LegendsAshes_Grunt_2_After
-    msgbox LegendsAshes_Grunt_2_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 3
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_2_Defeat
-    setflag 0x292
+LegendsAshes_Grunt_2_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_2_Intro, LegendsAshes_Grunt_2_Defeat, LegendsAshes_Grunt_2_Victory
 LegendsAshes_Grunt_2_After:
+    setflag 0x292
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_2_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -413,13 +409,12 @@ LegendsPastSilph_F4_NPC1::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x285, LegendsPastSilph_F4_NPC1_After
-    msgbox LegendsPastSilph_F4_NPC1_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 16
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F4_NPC1_Defeat
-    setflag 0x285
+LegendsPastSilph_F4_NPC1_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F4_NPC1_Intro, LegendsPastSilph_F4_NPC1_Defeat, LegendsPastSilph_F4_NPC1_Victory
 LegendsPastSilph_F4_NPC1_After:
+    setflag 0x285
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F4_NPC1_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -484,13 +479,12 @@ LegendsAshes_Grunt_3::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x293, LegendsAshes_Grunt_3_After
-    msgbox LegendsAshes_Grunt_3_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 4
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_3_Defeat
-    setflag 0x293
+LegendsAshes_Grunt_3_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_3_Intro, LegendsAshes_Grunt_3_Defeat, LegendsAshes_Grunt_3_Victory
 LegendsAshes_Grunt_3_After:
+    setflag 0x293
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_3_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -570,13 +564,12 @@ LegendsPastSilph_F5_NPC4::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x289, LegendsPastSilph_F5_NPC4_After
-    msgbox LegendsPastSilph_F5_NPC4_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 20
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F5_NPC4_Defeat
-    setflag 0x289
+LegendsPastSilph_F5_NPC4_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F5_NPC4_Intro, LegendsPastSilph_F5_NPC4_Defeat, LegendsPastSilph_F5_NPC4_Victory
 LegendsPastSilph_F5_NPC4_After:
+    setflag 0x289
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F5_NPC4_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -616,13 +609,12 @@ LegendsAshes_Grunt_4::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x294, LegendsAshes_Grunt_4_After
-    msgbox LegendsAshes_Grunt_4_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 5
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_4_Defeat
-    setflag 0x294
+LegendsAshes_Grunt_4_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_4_Intro, LegendsAshes_Grunt_4_Defeat, LegendsAshes_Grunt_4_Victory
 LegendsAshes_Grunt_4_After:
+    setflag 0x294
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_4_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -721,13 +713,12 @@ LegendsPastSilph_F6_NPC9::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x28B, LegendsPastSilph_F6_NPC9_After
-    msgbox LegendsPastSilph_F6_NPC9_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 22
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F6_NPC9_Defeat
-    setflag 0x28B
+LegendsPastSilph_F6_NPC9_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F6_NPC9_Intro, LegendsPastSilph_F6_NPC9_Defeat, LegendsPastSilph_F6_NPC9_Victory
 LegendsPastSilph_F6_NPC9_After:
+    setflag 0x28B
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F6_NPC9_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -767,13 +758,12 @@ LegendsAshes_Grunt_5::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x295, LegendsAshes_Grunt_5_After
-    msgbox LegendsAshes_Grunt_5_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 6
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_5_Defeat
-    setflag 0x295
+LegendsAshes_Grunt_5_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_5_Intro, LegendsAshes_Grunt_5_Defeat, LegendsAshes_Grunt_5_Victory
 LegendsAshes_Grunt_5_After:
+    setflag 0x295
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_5_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -792,13 +782,12 @@ LegendsPastSilph_F7_NPC3::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x28C, LegendsPastSilph_F7_NPC3_After
-    msgbox LegendsPastSilph_F7_NPC3_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 23
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F7_NPC3_Defeat
-    setflag 0x28C
+LegendsPastSilph_F7_NPC3_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F7_NPC3_Intro, LegendsPastSilph_F7_NPC3_Defeat, LegendsPastSilph_F7_NPC3_Victory
 LegendsPastSilph_F7_NPC3_After:
+    setflag 0x28C
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F7_NPC3_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -817,13 +806,12 @@ LegendsPastSilph_F7_NPC4::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x28D, LegendsPastSilph_F7_NPC4_After
-    msgbox LegendsPastSilph_F7_NPC4_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 24
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F7_NPC4_Defeat
-    setflag 0x28D
+LegendsPastSilph_F7_NPC4_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F7_NPC4_Intro, LegendsPastSilph_F7_NPC4_Defeat, LegendsPastSilph_F7_NPC4_Victory
 LegendsPastSilph_F7_NPC4_After:
+    setflag 0x28D
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F7_NPC4_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -910,13 +898,12 @@ LegendsAshes_Grunt_6::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x296, LegendsAshes_Grunt_6_After
-    msgbox LegendsAshes_Grunt_6_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 7
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_6_Defeat
-    setflag 0x296
+LegendsAshes_Grunt_6_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_6_Intro, LegendsAshes_Grunt_6_Defeat, LegendsAshes_Grunt_6_Victory
 LegendsAshes_Grunt_6_After:
+    setflag 0x296
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_6_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -935,13 +922,12 @@ LegendsPastSilph_F8_NPC1::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x28F, LegendsPastSilph_F8_NPC1_After
-    msgbox LegendsPastSilph_F8_NPC1_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 26
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F8_NPC1_Defeat
-    setflag 0x28F
+LegendsPastSilph_F8_NPC1_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F8_NPC1_Intro, LegendsPastSilph_F8_NPC1_Defeat, LegendsPastSilph_F8_NPC1_Victory
 LegendsPastSilph_F8_NPC1_After:
+    setflag 0x28F
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F8_NPC1_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1042,13 +1028,12 @@ LegendsAshes_Grunt_7::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x297, LegendsAshes_Grunt_7_After
-    msgbox LegendsAshes_Grunt_7_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 8
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_7_Defeat
-    setflag 0x297
+LegendsAshes_Grunt_7_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsAshes_Grunt_7_Intro, LegendsAshes_Grunt_7_Defeat, LegendsAshes_Grunt_7_Victory
 LegendsAshes_Grunt_7_After:
+    setflag 0x297
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsAshes_Grunt_7_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1078,13 +1063,12 @@ LegendsPastSilph_F9_NPC3::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x29A, LegendsPastSilph_F9_NPC3_After
-    msgbox LegendsPastSilph_F9_NPC3_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 29
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F9_NPC3_Defeat
-    setflag 0x29A
+LegendsPastSilph_F9_NPC3_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F9_NPC3_Intro, LegendsPastSilph_F9_NPC3_Defeat, LegendsPastSilph_F9_NPC3_Victory
 LegendsPastSilph_F9_NPC3_After:
+    setflag 0x29A
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F9_NPC3_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1149,13 +1133,12 @@ LegendsPastSilph_F10_NPC2::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x29C, LegendsPastSilph_F10_NPC2_After
-    msgbox LegendsPastSilph_F10_NPC2_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 31
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F10_NPC2_Defeat
-    setflag 0x29C
+LegendsPastSilph_F10_NPC2_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F10_NPC2_Intro, LegendsPastSilph_F10_NPC2_Defeat, LegendsPastSilph_F10_NPC2_Victory
 LegendsPastSilph_F10_NPC2_After:
+    setflag 0x29C
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F10_NPC2_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1184,13 +1167,12 @@ LegendsPastSilph_F11_NPC3::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x29D, LegendsPastSilph_F11_NPC3_After
-    msgbox LegendsPastSilph_F11_NPC3_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 32
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F11_NPC3_Defeat
-    setflag 0x29D
+LegendsPastSilph_F11_NPC3_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F11_NPC3_Intro, LegendsPastSilph_F11_NPC3_Defeat, LegendsPastSilph_F11_NPC3_Victory
 LegendsPastSilph_F11_NPC3_After:
+    setflag 0x29D
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F11_NPC3_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1209,13 +1191,12 @@ LegendsPastSilph_F11_NPC5::
     faceplayer
     setspeaker SP_NAME_TEAM_ROCKET
     goto_if_set 0x29E, LegendsPastSilph_F11_NPC5_After
-    msgbox LegendsPastSilph_F11_NPC5_Intro, MSGBOX_DEFAULT
-    closemessage
     setvar VAR_LA_SILPH_OPPONENT, 33
     cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, LegendsPastSilph_F11_NPC5_Defeat
-    setflag 0x29E
+LegendsPastSilph_F11_NPC5_Battle::
+    trainerbattle_single TRAINER_GRUNT_UNUSED, LegendsPastSilph_F11_NPC5_Intro, LegendsPastSilph_F11_NPC5_Defeat, LegendsPastSilph_F11_NPC5_Victory
 LegendsPastSilph_F11_NPC5_After:
+    setflag 0x29E
     setspeaker SP_NAME_TEAM_ROCKET
     msgbox LegendsPastSilph_F11_NPC5_Post, MSGBOX_DEFAULT
     goto LegendsAshes_End
@@ -1253,3 +1234,79 @@ LegendsPastSilph_StaffSafe::
     goto LegendsAshes_End
 LegendsPastSilph_StaffSafe_Text:
     .string "The Rockets have gone…\nWe can finally leave these rooms.\pThank you for helping us.\nPlease take care of your friends.$"
+
+LegendsAshes_Grunt_0_Victory::
+    setflag 0x290
+    goto LegendsAshes_End
+
+LegendsPastSilph_F2_NPC2_Victory::
+    setflag 0x282
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_1_Victory::
+    setflag 0x291
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_2_Victory::
+    setflag 0x292
+    goto LegendsAshes_End
+
+LegendsPastSilph_F4_NPC1_Victory::
+    setflag 0x285
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_3_Victory::
+    setflag 0x293
+    goto LegendsAshes_End
+
+LegendsPastSilph_F5_NPC4_Victory::
+    setflag 0x289
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_4_Victory::
+    setflag 0x294
+    goto LegendsAshes_End
+
+LegendsPastSilph_F6_NPC9_Victory::
+    setflag 0x28B
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_5_Victory::
+    setflag 0x295
+    goto LegendsAshes_End
+
+LegendsPastSilph_F7_NPC3_Victory::
+    setflag 0x28C
+    goto LegendsAshes_End
+
+LegendsPastSilph_F7_NPC4_Victory::
+    setflag 0x28D
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_6_Victory::
+    setflag 0x296
+    goto LegendsAshes_End
+
+LegendsPastSilph_F8_NPC1_Victory::
+    setflag 0x28F
+    goto LegendsAshes_End
+
+LegendsAshes_Grunt_7_Victory::
+    setflag 0x297
+    goto LegendsAshes_End
+
+LegendsPastSilph_F9_NPC3_Victory::
+    setflag 0x29A
+    goto LegendsAshes_End
+
+LegendsPastSilph_F10_NPC2_Victory::
+    setflag 0x29C
+    goto LegendsAshes_End
+
+LegendsPastSilph_F11_NPC3_Victory::
+    setflag 0x29D
+    goto LegendsAshes_End
+
+LegendsPastSilph_F11_NPC5_Victory::
+    setflag 0x29E
+    goto LegendsAshes_End

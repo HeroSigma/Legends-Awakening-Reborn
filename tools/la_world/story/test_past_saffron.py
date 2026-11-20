@@ -6,7 +6,8 @@ import json,hashlib
 manifest=json.loads((R/'docs/story/past-saffron/source-manifest.json').read_text())
 setup(6)
 invoke('VarSet',c['VAR_LA_ASHES_STATE'],4)
-for i in range(8):invoke('FlagSet',0x290+i)
+for enemy in manifest['objects']:
+ if enemy['kind']=='trainer' and 'Grunt' in enemy['source']:invoke('FlagSet',enemy['flag'])
 teams=[]
 # Existing completed grunts retain their defeat state after relocation.
 for o in manifest['objects']:
@@ -36,9 +37,9 @@ for n in sorted(symbols):
 # Exercise ordinary Rocket and scientist battles, then their post-battle branch.
 for o in [next(x for x in manifest['objects'] if x.get('profile')==1),next(x for x in manifest['objects'] if x.get('profile')==12)]:
  invoke('FlagClear',o['flag']);floor=int(o['map'].split('_')[-1][:-1]);warp(97,7+floor,o['x'],o['y']+1);frames(90)
- run(o['script']);waitfor(ready,'battle_'+o['script']);check('actual_six_'+o['script'],rd(symbols['gPartiesCount']+1,1)==6)
+ tap(64);tap(1);waitfor(ready,'battle_'+o['script']);check('actual_six_'+o['script'],rd(symbols['gPartiesCount']+1,1)==6)
  win();finish('win_'+o['script']);check('defeat_saved_'+o['script'],invoke('FlagGet',o['flag']))
- run(o['script']);finish('repeat_'+o['script'])
+ tap(1);finish('repeat_'+o['script'])
 # Hostage healing and Kirlia's interaction lead into Wally's real rescue conversation.
 warp(97,16,3,16);frames(90)
 run('LegendsPastSilph_F9_NPC2');finish('nurse')

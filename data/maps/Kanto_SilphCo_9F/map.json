@@ -64,8 +64,8 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
       "script": "LegendsAshes_Grunt_7",
       "flag": "FLAG_LA_WALLY_RESCUED",
       "local_id": "LOCALID_ASHES_SILPH_GRUNT_9"
@@ -92,8 +92,8 @@
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "LegendsPastSilph_F9_NPC3",
       "flag": "FLAG_LA_WALLY_RESCUED",
       "local_id": "LOCALID_LA_PAST_SILPH_F9_3"
