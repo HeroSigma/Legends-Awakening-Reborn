@@ -523,11 +523,11 @@ Ashes_Text_Calibration:
 Ashes_Text_MayPursue:
     .string "I'll follow their trail.\nTell Blue what happened here.\pWe need someone watching the approach\nwhile we deal with the relay.$"
 Ashes_Text_MaxieExpansion:
-    .string "Our partners have supplied the data.\nThe meteorite will provide the energy.\pWhy accept the boundaries of one\nworld when we could reach beyond it?$"
+    .string "Hold the resonance at that mark.\nOur partners want a repeatable result.\pOne stable crossing. Then we choose\nwhere the next one opens.$"
 Ashes_Text_SummitFlicker:
-    .string "Something moved inside that light!\nThere was another place beyond it…$"
+    .string "That wasn't a reflection.\nI saw somewhere on the other side!$"
 Ashes_Text_MaxieResponse:
-    .string "A response. Exactly as predicted.\pOr almost. Stand aside, Trainer.$"
+    .string "The coordinates are drifting…\nAn external influence?\pStep away from the apparatus.\nI will not lose this work.$"
 Ashes_Text_WallyFragment:
     .string "The radio picked up a voice during\nthe surge. Wally's voice!\pI kept the remaining crew off the\nrelay while you stopped Maxie.$"
 Ashes_Text_WeReachedHim:

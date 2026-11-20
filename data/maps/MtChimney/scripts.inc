@@ -49,6 +49,10 @@ MtChimney_EventScript_Maxie::
 	applymovement LOCALID_MT_CHIMNEY_MAXIE, Common_Movement_Delay48
 	waitmovement 0
 	msgbox MtChimney_Text_MaxieIntro, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox ChimneyVillains_Text_PlayerDemand, MSGBOX_DEFAULT
+	setspeaker SP_NAME_MAXIE
+	msgbox ChimneyVillains_Text_MaxieChallenge, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_MAXIE_MT_CHIMNEY, MtChimney_Text_MaxieDefeat
 	msgbox MtChimney_Text_MaxieYouHaventSeenLastOfMagma, MSGBOX_DEFAULT
 	closemessage
@@ -69,6 +73,10 @@ MtChimney_EventScript_Maxie::
 	waitmovement 0
 	setspeaker SP_NAME_ARCHIE
 	msgbox MtChimney_Text_ArchieThankYou, MSGBOX_DEFAULT
+	setspeaker SP_NAME_PLAYER
+	msgbox ChimneyVillains_Text_PlayerMissing, MSGBOX_DEFAULT
+	setspeaker SP_NAME_ARCHIE
+	msgbox ChimneyVillains_Text_ArchieWithdrawal, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_EAST, MtChimney_EventScript_ArchieExitEast
 	call_if_eq VAR_FACING, DIR_NORTH, MtChimney_EventScript_ArchieExitNorth
@@ -79,6 +87,7 @@ MtChimney_EventScript_Maxie::
 	setflag FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO
 	clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
 	call LegendsAshes_ChimneyAftermath
+	setspeaker SP_NAME_NONE
 	releaseall
 	end
 
@@ -575,83 +584,88 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "Steady. The meteorite is resonating.\nThe destination trace is forming.$"
+    .string "Increase the heat. Carefully.\nThe sample must survive the test.$"
 
 MtChimney_Text_MaxieIntro:
-	.string "Rifts could give humanity new land,\nnew resources, entire new frontiers.\pWe are learning to control them.\nYour interference ends here.$"
+    .string "You've made a habit of meddling\nin work you cannot understand.\pBeyond these rifts lie resources\nno nation has ever claimed.\pWith control, we could remake this\nworld. Stand aside, or be removed.$"
 
 MtChimney_Text_MaxieDefeat:
-	.string "What?!\p"
-	.string "I, MAXIE, was caught off guard?!$"
+    .string "A miscalculation…\nIn my choice of opponent.$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "The reaction occurred, but not as\nour model predicted.\pNo. Something responded.\nAnd the readings were transmitted.$"
+    .string "Shut off the feed! Preserve the notes!\pThe transmission is complete.\nOur partners have the response.\pWhen we repeat this experiment,\nI shall account for your interference.$"
 
 MtChimney_Text_TabithaIntro:
-	.string "You followed us from Meteor Falls.\nPersistent, aren't you?\pAqua has secured the approaches.\nMaxie is calibrating the relay.\pAnd you aren't taking another step!$"
+    .string "{SPEAKER}"
+    .byte SP_NAME_MAGMA_TABITHA
+    .string "You again. I should have stopped\nyou at Cozmo's.\pThe shipment made it up the mountain.\nThis time, you're the delay.$"
 
 MtChimney_Text_TabithaDefeat:
-	.string "The relay is already charging!$"
+    .string "You were supposed to stay downstairs!$"
 
 MtChimney_Text_TabithaPostBattle:
-	.string "Maxie only needs a little longer.\nThe readings must reach our allies.$"
+    .string "Go on, then. You've already given\nMaxie the time he asked for.$"
 
 MtChimney_Text_Grunt2Intro:
-	.string "This is a joint operation!\nMagma runs the summit equipment.\pAqua brought the coastal readings.\nMy job is keeping you out!$"
+    .string "{SPEAKER}"
+    .byte SP_NAME_TEAM_MAGMA
+    .string "No one climbs any higher.\nThose are the commander's orders.\pAnd I'm not explaining to Tabitha\nhow another kid got through!$"
 
 MtChimney_Text_Grunt2Defeat:
-	.string "I couldn't hold the checkpoint!$"
+    .string "Oh, the commander is going to love this…$"
 
 MtChimney_Text_Grunt2PostBattle:
-	.string "Those readings came from rifts\nall over Hoenn.\pOne lost battle won't erase them.$"
+    .string "Once the machine gets a response,\nour receivers record it automatically.\pYou can smash the equipment.\nThe record will still exist.$"
 
 MtChimney_Text_Grunt1Intro:
-	.string "Aqua has the lower trail covered.\nI'm guarding the relay approach.\pYou're not getting near that machine!$"
+    .string "{SPEAKER}"
+    .byte SP_NAME_TEAM_MAGMA
+    .string "Past this line? Not a chance.\nThe summit team is still working.$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "The checkpoint's been breached!$"
+    .string "I was supposed to hold this position!$"
 
 MtChimney_Text_Grunt1PostBattle:
-	.string "We were told to expect interference.\nI should have taken that seriously.$"
+    .string "They warned us you'd be coming.\nI should have listened.$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
-	.string "Aqua is holding the lower perimeter.\nWe're keeping the relay stable.$"
+    .string "Aqua says the lower trail is secure.\nKeep that feed steady!$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "The meteorite amplifies the signal.\nMagma's equipment controls the heat.$"
+    .string "That's twice the needle has jumped.\nMaxie told us not to turn it down.$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
-	.string "Stay behind the safety line.\nWe're matching two sets of readings.$"
+    .string "Route's clear? Then leave the cases.\nThe summit crew will collect them.$"
 
 MtChimney_Text_AquasNameSimilar:
-	.string "Different uniforms. Same orders.\nAqua watches the water; we watch this.$"
+    .string "Aqua brought insulated cases.\nDidn't know they had gear like that.$"
 
 MtChimney_Text_DouseThemInFire:
-	.string "Hold your position!\nDon't let anyone reach the relay!$"
+    .string "Hold the line!\nNo one gets past this point!$"
 
 MtChimney_Text_KeepMakingMoreLand:
-	.string "Maxie wants a stable route through\nthe rifts. We're testing the signal.$"
+    .string "Another surge! Brace the housing!\nWe lose that sample, we answer for it.$"
 
 MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "Our people are securing the relay.\nStay out of the summit machinery.$"
+    .string "That's far enough, kid.\nMy crew's working this trail.\pLeave the equipment alone\nand keep your hands where I can see.$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "Magma handles the heat. We supplied\nthe coastal readings. Keep moving.$"
+    .string "This trail stays open for our people.\nYou'd better clear it.$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "You shut down our relay.\nGiovanni will hear about this.\pWe still have the data. This wasn't\nour only operation. Remember that.$"
+    .string "Right. The summit team is pulling out.\nAqua's crew leaves with them.\pYou can keep the broken machine.\nOur partners have the transmission.$"
 
 MtChimney_Text_MagmaOutnumbersUs:
-	.string "Magma has more people at the summit.\nOur crew is securing the lower trail.$"
+    .string "Cooling line's holding!\nTell the summit team to try again.$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-	.string "Our coastal readings complete\nMagma's measurements from the summit.\pThat's why we're here together.$"
+    .string "That blond kid won't back down.\nCommander, how do we shake him?$"
 
 MtChimney_Text_MagmasNameSimilar:
-	.string "Magma handles the heat up there.\nWe keep this approach clear.\pNow turn around. This trail is closed.$"
+    .string "This job sounded better at sea.\nUp here, even the air burns.$"
 
 MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
@@ -796,3 +810,15 @@ MtChimney_Text_SawyerRematchDefeat:
 MtChimney_Text_SawyerPostRematch:
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
+
+ChimneyVillains_Text_PlayerDemand:
+    .string "People are being taken through them.\nYou knew that, and kept testing?\pShut it down. Now.$"
+
+ChimneyVillains_Text_MaxieChallenge:
+    .string "Spare me the lecture.\nShow me what you can do.$"
+
+ChimneyVillains_Text_PlayerMissing:
+    .string "And the people your crossings take?\nDo their lives appear in your reports?$"
+
+ChimneyVillains_Text_ArchieWithdrawal:
+    .string "You've got nerve, kid. Keep it when\nthe next crossing opens.\pAqua! Back to the trail!$"

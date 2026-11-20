@@ -1,0 +1,411 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MeteoriteWillActivateVolcano_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MeteoriteWillActivateVolcano_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_4",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieIntro_5",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieDefeat_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieYouHaventSeenLastOfMagma_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieYouHaventSeenLastOfMagma_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieYouHaventSeenLastOfMagma_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieYouHaventSeenLastOfMagma_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MaxieYouHaventSeenLastOfMagma_4",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaIntro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaIntro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaIntro_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaIntro_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaPostBattle_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TabithaPostBattle_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2Intro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2Intro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2Intro_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2Intro_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2PostBattle_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2PostBattle_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2PostBattle_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt2PostBattle_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt1Intro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt1Intro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt1Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt1PostBattle_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_Grunt1PostBattle_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TeamAquaAlwaysMessingWithPlans_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_TeamAquaAlwaysMessingWithPlans_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MeteoritesPackAmazingPower_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MeteoritesPackAmazingPower_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_YouBetterNotMessWithUs_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_YouBetterNotMessWithUs_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_AquasNameSimilar_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_AquasNameSimilar_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_DouseThemInFire_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_DouseThemInFire_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_KeepMakingMoreLand_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_KeepMakingMoreLand_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieGoStopTeamMagma_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieGoStopTeamMagma_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieGoStopTeamMagma_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieGoStopTeamMagma_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieIHaveMyHandsFull_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieIHaveMyHandsFull_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieThankYou_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieThankYou_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieThankYou_2",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_ArchieThankYou_3",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MagmaOutnumbersUs_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MagmaOutnumbersUs_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_LessHabitatForWaterPokemon_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_LessHabitatForWaterPokemon_1",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MagmasNameSimilar_0",
+      "passed": true
+    },
+    {
+      "test": "fit_MtChimney_Text_MagmasNameSimilar_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_PlayerDemand_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_PlayerDemand_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_PlayerDemand_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_MaxieChallenge_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_MaxieChallenge_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_PlayerMissing_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_PlayerMissing_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_ArchieWithdrawal_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_ArchieWithdrawal_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyVillains_Text_ArchieWithdrawal_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieExpansion_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieExpansion_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieExpansion_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieExpansion_3",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_SummitFlicker_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_SummitFlicker_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieResponse_0",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieResponse_1",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieResponse_2",
+      "passed": true
+    },
+    {
+      "test": "fit_Ashes_Text_MaxieResponse_3",
+      "passed": true
+    },
+    {
+      "test": "inline_speaker_MtChimney_Text_TabithaIntro",
+      "passed": true
+    },
+    {
+      "test": "speaker_resolves_MtChimney_Text_TabithaIntro",
+      "passed": true
+    },
+    {
+      "test": "inline_speaker_MtChimney_Text_Grunt1Intro",
+      "passed": true
+    },
+    {
+      "test": "speaker_resolves_MtChimney_Text_Grunt1Intro",
+      "passed": true
+    },
+    {
+      "test": "inline_speaker_MtChimney_Text_Grunt2Intro",
+      "passed": true
+    },
+    {
+      "test": "speaker_resolves_MtChimney_Text_Grunt2Intro",
+      "passed": true
+    },
+    {
+      "test": "active_speaker_ChimneyVillains_Text_PlayerDemand",
+      "passed": true
+    },
+    {
+      "test": "active_speaker_ChimneyVillains_Text_MaxieChallenge",
+      "passed": true
+    },
+    {
+      "test": "active_speaker_MtChimney_Text_ArchieThankYou",
+      "passed": true
+    },
+    {
+      "test": "active_speaker_ChimneyVillains_Text_PlayerMissing",
+      "passed": true
+    },
+    {
+      "test": "active_speaker_ChimneyVillains_Text_ArchieWithdrawal",
+      "passed": true
+    },
+    {
+      "test": "summit_still_completed",
+      "passed": true
+    },
+    {
+      "test": "hoopa_lead_still_available",
+      "passed": true
+    },
+    {
+      "test": "speaking_protagonist_returns_control",
+      "passed": true
+    },
+    {
+      "test": "speaker_cleared_after_scene",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "cdd852c824e48f525c5bce1d039e90d7982917d1e22e53e7aa67417ecf9ade92"
+}
