@@ -214,7 +214,47 @@
       "passed": true
     },
     {
+      "test": "initial_cell_0_5_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_0_6_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_0_5_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_0_6_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_0_6_10",
+      "passed": true
+    },
+    {
       "test": "door_initial_1",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_1_5_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_1_6_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_1_5_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_1_6_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_1_6_17",
       "passed": true
     },
     {
@@ -222,7 +262,55 @@
       "passed": true
     },
     {
+      "test": "initial_cell_2_9_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_2_10_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_2_9_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_2_10_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_2_9_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_2_10_13",
+      "passed": true
+    },
+    {
       "test": "door_initial_3",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_20_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_21_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_20_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_21_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_20_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_3_21_13",
       "passed": true
     },
     {
@@ -230,7 +318,47 @@
       "passed": true
     },
     {
+      "test": "initial_cell_4_3_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_4_4_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_4_3_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_4_4_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_4_4_18",
+      "passed": true
+    },
+    {
       "test": "door_initial_5",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_5_14_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_5_15_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_5_14_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_5_15_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_5_15_13",
       "passed": true
     },
     {
@@ -238,7 +366,55 @@
       "passed": true
     },
     {
+      "test": "initial_cell_6_7_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_6_8_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_6_7_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_6_8_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_6_7_10",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_6_8_10",
+      "passed": true
+    },
+    {
       "test": "door_initial_7",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_7_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_8_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_7_18",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_8_18",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_7_19",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_7_8_19",
       "passed": true
     },
     {
@@ -246,7 +422,55 @@
       "passed": true
     },
     {
+      "test": "initial_cell_8_18_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_8_19_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_8_18_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_8_19_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_8_18_14",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_8_19_14",
+      "passed": true
+    },
+    {
       "test": "door_initial_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_5_14",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_6_14",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_5_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_6_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_5_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_9_6_16",
       "passed": true
     },
     {
@@ -254,7 +478,47 @@
       "passed": true
     },
     {
+      "test": "initial_cell_10_11_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_10_12_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_10_11_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_10_12_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_10_12_10",
+      "passed": true
+    },
+    {
       "test": "door_initial_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_11_24_7",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_11_25_7",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_11_24_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_11_25_8",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_11_25_9",
       "passed": true
     },
     {
@@ -262,7 +526,51 @@
       "passed": true
     },
     {
+      "test": "initial_cell_12_25_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_12_26_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_12_25_14",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_12_26_14",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_12_26_15",
+      "passed": true
+    },
+    {
       "test": "door_initial_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_5_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_6_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_5_10",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_6_10",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_5_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_13_6_11",
       "passed": true
     },
     {
@@ -270,7 +578,55 @@
       "passed": true
     },
     {
+      "test": "initial_cell_14_2_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_14_3_9",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_14_2_10",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_14_3_10",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_14_2_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_14_3_11",
+      "passed": true
+    },
+    {
       "test": "door_initial_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_12_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_13_15",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_12_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_13_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_12_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_15_13_17",
       "passed": true
     },
     {
@@ -278,7 +634,47 @@
       "passed": true
     },
     {
+      "test": "initial_cell_16_21_6",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_16_22_6",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_16_21_7",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_16_22_7",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_16_22_8",
+      "passed": true
+    },
+    {
       "test": "door_initial_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_17_21_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_17_22_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_17_21_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_17_22_13",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_17_22_14",
       "passed": true
     },
     {
@@ -286,7 +682,47 @@
       "passed": true
     },
     {
+      "test": "initial_cell_18_12_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_18_13_11",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_18_12_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_18_13_12",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_18_13_13",
+      "passed": true
+    },
+    {
       "test": "door_initial_19",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_19_5_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_19_6_16",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_19_5_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_19_6_17",
+      "passed": true
+    },
+    {
+      "test": "initial_cell_19_6_18",
       "passed": true
     },
     {
@@ -318,11 +754,51 @@
       "passed": true
     },
     {
+      "test": "open_cell_0_5_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_0_6_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_0_5_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_0_6_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_0_6_10",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_1",
       "passed": true
     },
     {
       "test": "door_stays_open_1",
+      "passed": true
+    },
+    {
+      "test": "open_cell_1_5_15",
+      "passed": true
+    },
+    {
+      "test": "open_cell_1_6_15",
+      "passed": true
+    },
+    {
+      "test": "open_cell_1_5_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_1_6_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_1_6_17",
       "passed": true
     },
     {
@@ -334,11 +810,59 @@
       "passed": true
     },
     {
+      "test": "open_cell_2_9_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_2_10_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_2_9_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_2_10_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_2_9_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_2_10_13",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_3",
       "passed": true
     },
     {
       "test": "door_stays_open_3",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_20_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_21_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_20_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_21_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_20_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_3_21_13",
       "passed": true
     },
     {
@@ -350,11 +874,51 @@
       "passed": true
     },
     {
+      "test": "open_cell_4_3_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_4_4_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_4_3_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_4_4_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_4_4_18",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_5",
       "passed": true
     },
     {
       "test": "door_stays_open_5",
+      "passed": true
+    },
+    {
+      "test": "open_cell_5_14_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_5_15_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_5_14_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_5_15_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_5_15_13",
       "passed": true
     },
     {
@@ -366,11 +930,59 @@
       "passed": true
     },
     {
+      "test": "open_cell_6_7_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_6_8_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_6_7_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_6_8_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_6_7_10",
+      "passed": true
+    },
+    {
+      "test": "open_cell_6_8_10",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_7",
       "passed": true
     },
     {
       "test": "door_stays_open_7",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_7_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_8_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_7_18",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_8_18",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_7_19",
+      "passed": true
+    },
+    {
+      "test": "open_cell_7_8_19",
       "passed": true
     },
     {
@@ -382,11 +994,59 @@
       "passed": true
     },
     {
+      "test": "open_cell_8_18_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_8_19_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_8_18_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_8_19_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_8_18_14",
+      "passed": true
+    },
+    {
+      "test": "open_cell_8_19_14",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_9",
       "passed": true
     },
     {
       "test": "door_stays_open_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_5_14",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_6_14",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_5_15",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_6_15",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_5_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_9_6_16",
       "passed": true
     },
     {
@@ -398,11 +1058,51 @@
       "passed": true
     },
     {
+      "test": "open_cell_10_11_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_10_12_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_10_11_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_10_12_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_10_12_10",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_11",
       "passed": true
     },
     {
       "test": "door_stays_open_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_11_24_7",
+      "passed": true
+    },
+    {
+      "test": "open_cell_11_25_7",
+      "passed": true
+    },
+    {
+      "test": "open_cell_11_24_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_11_25_8",
+      "passed": true
+    },
+    {
+      "test": "open_cell_11_25_9",
       "passed": true
     },
     {
@@ -414,11 +1114,55 @@
       "passed": true
     },
     {
+      "test": "open_cell_12_25_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_12_26_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_12_25_14",
+      "passed": true
+    },
+    {
+      "test": "open_cell_12_26_14",
+      "passed": true
+    },
+    {
+      "test": "open_cell_12_26_15",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_13",
       "passed": true
     },
     {
       "test": "door_stays_open_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_5_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_6_9",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_5_10",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_6_10",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_5_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_13_6_11",
       "passed": true
     },
     {
@@ -430,11 +1174,51 @@
       "passed": true
     },
     {
+      "test": "open_cell_16_21_6",
+      "passed": true
+    },
+    {
+      "test": "open_cell_16_22_6",
+      "passed": true
+    },
+    {
+      "test": "open_cell_16_21_7",
+      "passed": true
+    },
+    {
+      "test": "open_cell_16_22_7",
+      "passed": true
+    },
+    {
+      "test": "open_cell_16_22_8",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_17",
       "passed": true
     },
     {
       "test": "door_stays_open_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_17_21_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_17_22_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_17_21_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_17_22_13",
+      "passed": true
+    },
+    {
+      "test": "open_cell_17_22_14",
       "passed": true
     },
     {
@@ -446,11 +1230,51 @@
       "passed": true
     },
     {
+      "test": "open_cell_18_12_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_18_13_11",
+      "passed": true
+    },
+    {
+      "test": "open_cell_18_12_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_18_13_12",
+      "passed": true
+    },
+    {
+      "test": "open_cell_18_13_13",
+      "passed": true
+    },
+    {
       "test": "key_unlocks_door_19",
       "passed": true
     },
     {
       "test": "door_stays_open_19",
+      "passed": true
+    },
+    {
+      "test": "open_cell_19_5_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_19_6_16",
+      "passed": true
+    },
+    {
+      "test": "open_cell_19_5_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_19_6_17",
+      "passed": true
+    },
+    {
+      "test": "open_cell_19_6_18",
       "passed": true
     },
     {
@@ -507,5 +1331,5 @@
     }
   ],
   "user_save_loaded": false,
-  "rom_sha256": "998165ff7cff8d95f3ce7a8c778d5a4c03890792743779ae6cd62da208bcf675"
+  "rom_sha256": "f328187e670cedd700f652d24a863d42188ef9e3541b72c1fbcb6e092a4c9ddc"
 }

@@ -47,6 +47,9 @@ for i,m in enumerate(re.finditer(r'EventScript_Close(\d+)FDoor(\d*)::',source)):
  passage=next((int(x),int(y)) for x,y,coll in re.findall(r'setmetatile (\d+), (\d+), \w+, ([01])',opened) if coll=='0' and (int(x),int(y)) in closed)
  at(floor)
  check('door_initial_'+str(i),(invoke('MapGridGetCollisionAt',passage[0]+7,passage[1]+7)==0)==(floor==9 and suffix in ['1','2']))
+ expected=opened if floor==9 and suffix in ['1','2'] else close
+ for x,y,coll in re.findall(r'setmetatile (\d+), (\d+), \w+, ([01])',expected):
+  check('initial_cell_'+str(i)+'_'+x+'_'+y,bool(invoke('MapGridGetCollisionAt',int(x)+7,int(y)+7))==bool(int(coll)))
  doors.append((floor,suffix,key,i,passage))
 at(3,8,12);run('LegendsSilph_Door_2');finish('locked')
 check('no_key_keeps_door_locked',not invoke('FlagGet',c['FLAG_LA_SILPH_DOOR_BASE']+2))
@@ -76,6 +79,9 @@ for floor,suffix,key,i,passage in doors:
  check('key_unlocks_door_'+str(i),invoke('FlagGet',c['FLAG_LA_SILPH_DOOR_BASE']+i)==1 and invoke('MapGridGetCollisionAt',passage[0]+7,passage[1]+7)==0)
  at(floor)
  check('door_stays_open_'+str(i),invoke('MapGridGetCollisionAt',passage[0]+7,passage[1]+7)==0)
+ opened=source.split('EventScript_Open'+key+'::',1)[1].split('return',1)[0]
+ for x,y,coll in re.findall(r'setmetatile (\d+), (\d+), \w+, ([01])',opened):
+  check('open_cell_'+str(i)+'_'+x+'_'+y,bool(invoke('MapGridGetCollisionAt',int(x)+7,int(y)+7))==bool(int(coll)))
 # Each reward goes to the bag, and its world object is consumed only on success.
 for i,(floor,item) in enumerate([(3,'ITEM_ALAKAZITE'),(4,'ITEM_MANECTITE'),(6,'ITEM_SCIZORITE'),(5,'ITEM_NORMALIUM_Z'),(7,'ITEM_ELECTRIUM_Z'),(10,'ITEM_PSYCHIUM_Z')]):
  at(floor);run('LegendsSilph_Loot_'+str(i));finish('loot_'+str(i))

@@ -50,7 +50,19 @@
   "raw_frlg_attributes": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/source_frlg_metatile_attributes.bin",
   "sha256": {
     "tiles_4bpp": "0c9c4dd4a6d8780c8a594f21a716d00f3f183dd4118126e184a5042b69a0d467",
-    "metatiles_bvd": "92e847c71fe7e33655576567933a339f3684e66d08d578706ef45508a06ce8b7",
+    "metatiles_bvd": "e9838ea7acd2617df3e984eb3f20fa71ea8a314d405b08cadd6666d22bc4ddad",
     "raw_frlg_attributes": "f7292fd9e4427047eb5758167d7480f73b8ec91a6f0de12823dfc31e6902986d"
+  },
+  "project_overrides": {
+    "silph_card_doors": {
+      "metatile_ids": [
+        "0x3B0",
+        "0x3B1",
+        "0x3C4",
+        "0x3C5"
+      ],
+      "reason": "Fill missing closed-gate sections with existing metal panels and use normal two-layer gate attributes.",
+      "new_graphics_or_palette": false
+    }
   }
 }

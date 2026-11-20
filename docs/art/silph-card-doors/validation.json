@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "rom_sha256": "f328187e670cedd700f652d24a863d42188ef9e3541b72c1fbcb6e092a4c9ddc",
+  "checks": {
+    "card-door": 332,
+    "grunt-approach": 87,
+    "ashes": 306
+  },
+  "total": 725,
+  "door_states_visually_audited": 40,
+  "changed_metatiles": {
+    "metatiles.bin": [
+      "0x3b0",
+      "0x3b1",
+      "0x3c4",
+      "0x3c5"
+    ],
+    "metatile_attributes.bin": [
+      "0x3b0",
+      "0x3b1",
+      "0x3c4",
+      "0x3c5"
+    ]
+  },
+  "user_save_loaded": false
+}
