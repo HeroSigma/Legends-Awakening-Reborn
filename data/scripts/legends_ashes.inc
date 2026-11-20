@@ -545,7 +545,7 @@ Ashes_Text_MayStay:
 Ashes_Text_FollowHoopa:
     .string "Follow Hoopa through the golden ring?\nYour team will be healed first.$"
 Ashes_Text_Saffron:
-    .string "Saffron City… The Silph sign!\nThis must be where Wally called from.\pThe streets are so quiet.$"
+    .string "Saffron City… The Silph sign!\nThis must be where Wally called from.\pRockets on every street.\nEveryone else must be hiding.$"
 Ashes_Text_LockdownShout:
     .string "All personnel remain indoors!\nSilph is under Rocket control!$"
 Ashes_Text_InsideSilph:
@@ -618,126 +618,6 @@ Ashes_Text_FamilySafe:
     .string "Wally and Kirlia are home!\pThank you for bringing them back.\nWe thought we'd never see them again.$"
 Ashes_Text_WallyHome:
     .string "Kirlia finally slept without waking\nto every strange sound.\pThank you, {PLAYER}. We're home.\nI won't forget what you did.$"
-
-LegendsAshes_Grunt_0::
-    lockall
-    faceplayer
-    goto_if_set 0x290, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_0, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 1
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x290
-    applymovement LOCALID_ASHES_SILPH_GRUNT_2, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_1::
-    lockall
-    faceplayer
-    goto_if_set 0x291, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_1, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 2
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x291
-    applymovement LOCALID_ASHES_SILPH_GRUNT_3, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_2::
-    lockall
-    faceplayer
-    goto_if_set 0x292, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_2, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 3
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x292
-    applymovement LOCALID_ASHES_SILPH_GRUNT_4, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_3::
-    lockall
-    faceplayer
-    goto_if_set 0x293, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_3, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 4
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x293
-    applymovement LOCALID_ASHES_SILPH_GRUNT_5, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_4::
-    lockall
-    faceplayer
-    goto_if_set 0x294, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_4, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 5
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x294
-    applymovement LOCALID_ASHES_SILPH_GRUNT_6, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_5::
-    lockall
-    faceplayer
-    goto_if_set 0x295, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_5, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 6
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x295
-    applymovement LOCALID_ASHES_SILPH_GRUNT_7, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_6::
-    lockall
-    faceplayer
-    goto_if_set 0x296, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_6, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 7
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x296
-    applymovement LOCALID_ASHES_SILPH_GRUNT_8, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
-
-LegendsAshes_Grunt_7::
-    lockall
-    faceplayer
-    goto_if_set 0x297, LegendsAshes_GruntDone
-    setspeaker SP_NAME_TEAM_ROCKET
-    msgbox SilphSecurity_Text_Guard_7, MSGBOX_DEFAULT
-    closemessage
-    setvar VAR_LA_SILPH_OPPONENT, 8
-    cleartrainerflag TRAINER_GRUNT_UNUSED
-    trainerbattle_no_intro TRAINER_GRUNT_UNUSED, Ashes_Text_RocketDefeat
-    setflag 0x297
-    applymovement LOCALID_ASHES_SILPH_GRUNT_9, Ashes_GruntStepAside
-    waitmovement 0
-    goto LegendsAshes_End
 
 LegendsAshes_GruntDone:
     msgbox Ashes_Text_RocketDone, MSGBOX_DEFAULT

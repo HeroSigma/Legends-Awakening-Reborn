@@ -2712,6 +2712,7 @@ Text_LegacyFeatureDisabled:
 	.include "data/scripts/legends_ashes.inc"
 	.include "data/scripts/legends_blue_chimney.inc"
 	.include "data/scripts/legends_silph_security.inc"
+	.include "data/scripts/legends_past_saffron.inc"
 
 	.include "data/maps/Kanto_SaffronCity/scripts.inc"
 

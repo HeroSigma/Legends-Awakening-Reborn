@@ -71,3 +71,7 @@ The current regional atlas work is tracked on feature/world-map-hub.
 ## Silph chapter reserved state
 
 Reserve 0x26D–0x280 for the twenty independent past-Silph door flags, and 0x2AD–0x2B8 for Blue/Flannery/key/Porygon/loot state. Native FireRed door flags overlap Hoenn events and must not be used. See docs/story/silph-security/README.md for key and reward placement.
+
+## Past Saffron occupation
+
+The FireRed-based past Silph cast uses independent defeat flags 0x281–0x28F and 0x298–0x29E in addition to the original 0x290–0x297. These are reserved, despite their legacy UNUSED aliases. Keep profile slot 11 for Cozmo's Magma grunt; restored Silph opponents use slots 12–33. Preserve Wally, the ninth-floor elevator Card Key and the custom two-Giovanni finale; never import vanilla FR story flags or clear the tower on an ordinary grunt victory.

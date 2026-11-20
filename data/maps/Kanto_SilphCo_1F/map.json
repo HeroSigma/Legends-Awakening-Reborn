@@ -2,7 +2,7 @@
   "id": "MAP_KANTOAR_1_47_SILPHCO_1F",
   "name": "Kanto_SilphCo_1F",
   "layout": "LAYOUT_KANTOAR_1_47_SILPHCO_1F",
-  "music": "MUS_ROUTE104",
+  "music": "MUS_RG_SILPH",
   "region_map_section": "MAPSEC_KANTO_AR",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,22 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WORKER_F",
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegendsPastSilph_F1_NPC0",
+      "flag": "0",
+      "local_id": "LOCALID_LA_PAST_SILPH_F1_0"
+    }
+  ],
   "warp_events": [
     {
       "x": 7,
@@ -45,7 +60,16 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 30,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LegendsPastSilph_FloorSign_1"
+    }
+  ],
   "region": "REGION_KANTO",
   "la_imported": true,
   "la_retired_for_hns": true

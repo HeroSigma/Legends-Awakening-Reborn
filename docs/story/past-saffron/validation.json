@@ -1,0 +1,2115 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_0_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_0",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F2_NPC1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC1_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F2_NPC1",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F2_NPC2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F2_NPC2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F2_NPC3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F2_NPC3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F2_NPC3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_1_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_1",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F3_NPC2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F3_NPC2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F3_NPC2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F4_NPC1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC1_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F4_NPC1",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F4_NPC2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F4_NPC2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F4_NPC2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F5_NPC1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC1_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F5_NPC1",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F5_NPC3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F5_NPC3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F5_NPC4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F5_NPC4_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F5_NPC4",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_4_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_4",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F6_NPC6",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC6_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F6_NPC6",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F6_NPC9",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F6_NPC9_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F6_NPC9",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_5",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_5_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_5",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F7_NPC3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F7_NPC3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F7_NPC4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC4_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F7_NPC4",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F7_NPC8",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F7_NPC8_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F7_NPC8",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_6",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_6_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_6",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F8_NPC1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC1_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F8_NPC1",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F8_NPC2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F8_NPC2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F8_NPC2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F9_NPC0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC0_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F9_NPC0",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsAshes_Grunt_7",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsAshes_Grunt_7_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsAshes_Grunt_7",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F9_NPC3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F9_NPC3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F9_NPC3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F10_NPC0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC0_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F10_NPC0",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F10_NPC2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F10_NPC2_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F10_NPC2",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F11_NPC3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC3_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F11_NPC3",
+      "passed": true
+    },
+    {
+      "test": "floor_tile_LegendsPastSilph_F11_NPC5",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_0",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_1",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_2",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_3",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_4",
+      "passed": true
+    },
+    {
+      "test": "legal_LegendsPastSilph_F11_NPC5_5",
+      "passed": true
+    },
+    {
+      "test": "two_healing_items_LegendsPastSilph_F11_NPC5",
+      "passed": true
+    },
+    {
+      "test": "all_thirty_teams_distinct",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_0_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_0_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_0_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_0_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_0_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_1_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_1_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_1_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_1_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_3_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_4_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_4_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_4_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_4_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_4_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_5_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_6_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_6_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_6_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_6_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_7_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_7_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_7_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_7_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsAshes_Grunt_7_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_0_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_0_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_4_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_4_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_6_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_6_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_6_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_7_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Guard_7_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_0_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_0_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_3_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_3_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_3_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_3_Text_4",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_4_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_4",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_5_Text_5",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_6_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_6_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_6_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_7_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_8_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_8_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSaffron_Sign_8_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC0_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC0_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC0_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC0_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC2_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F10_NPC2_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC5_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC5_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC5_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC5_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F11_NPC5_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F1_NPC0_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F1_NPC0_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F1_NPC0_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F1_NPC0_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC1_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC1_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC1_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC1_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC1_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Post_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC2_Post_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC4_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC4_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC4_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F2_NPC4_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F3_NPC2_Post_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC1_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC1_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC1_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC1_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC1_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC2_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC2_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F4_NPC3_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Intro_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC1_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC2_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC4_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC4_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC4_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC4_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC4_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC8_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC8_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC8_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC8_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F5_NPC8_Text_4",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC3_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC4_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC4_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Intro_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Intro_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Intro_4",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC6_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC9_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC9_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC9_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F6_NPC9_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC1_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC1_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC4_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC4_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC4_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC4_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC4_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC5_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC5_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC6_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC6_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC7_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC7_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC8_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC8_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC8_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC8_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F7_NPC8_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC1_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC1_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC1_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC1_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC1_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC2_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC2_Defeat_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC2_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC2_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC2_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC5_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F8_NPC5_Text_3",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC0_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC0_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC0_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC0_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC0_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC3_Defeat_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC3_Intro_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC3_Intro_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC3_Post_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_F9_NPC3_Post_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_10_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_10_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_11_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_11_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_1_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_1_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_2_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_2_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_3_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_3_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_4_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_4_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_5_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_5_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_6_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_6_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_7_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_7_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_8_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_8_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_9_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_FloorSign_9_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_StaffSafe_Text_0",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_StaffSafe_Text_1",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_StaffSafe_Text_2",
+      "passed": true
+    },
+    {
+      "test": "text_fit_LegendsPastSilph_StaffSafe_Text_3",
+      "passed": true
+    },
+    {
+      "test": "actual_six_LegendsAshes_Grunt_0",
+      "passed": true
+    },
+    {
+      "test": "defeat_saved_LegendsAshes_Grunt_0",
+      "passed": true
+    },
+    {
+      "test": "actual_six_LegendsPastSilph_F2_NPC1",
+      "passed": true
+    },
+    {
+      "test": "defeat_saved_LegendsPastSilph_F2_NPC1",
+      "passed": true
+    },
+    {
+      "test": "kirlia_leads_to_wally",
+      "passed": true
+    },
+    {
+      "test": "cleared_cast_LOCALID_ASHES_SILPH_GRUNT_2",
+      "passed": true
+    },
+    {
+      "test": "cleared_cast_LOCALID_LA_PAST_SILPH_F2_1",
+      "passed": true
+    },
+    {
+      "test": "cleared_cast_LOCALID_LA_PAST_SILPH_F2_2",
+      "passed": true
+    },
+    {
+      "test": "cleared_cast_LOCALID_LA_PAST_SILPH_F2_3",
+      "passed": true
+    },
+    {
+      "test": "cleared_cast_LOCALID_LA_PAST_SILPH_F2_4",
+      "passed": true
+    },
+    {
+      "test": "save_occupation",
+      "passed": true
+    },
+    {
+      "test": "reload_occupation",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "de2db70c986812edecdafb3b05839ca7e921dede8bd05044541941602356cd45"
+}

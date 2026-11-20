@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rom_sha256": "de2db70c986812edecdafb3b05839ca7e921dede8bd05044541941602356cd45",
+  "checks": {
+    "past-saffron": 527,
+    "silph-security": 126,
+    "ashes": 306
+  },
+  "total": 959,
+  "player_save_loaded": false
+}
