@@ -1,4 +1,5 @@
 MtChimney_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, ChimneyAlliance_Frame
 	map_script MAP_SCRIPT_ON_RESUME, MtChimney_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, MtChimney_OnTransition
 	.byte 0
@@ -6,6 +7,7 @@ MtChimney_MapScripts::
 MtChimney_OnTransition:
 	call LegendsAshes_ChimneyTransition
 	call LegendsBlue_SummitTransition
+	call ChimneyAlliance_Transition
 	setvar VAR_JAGGED_PASS_ASH_WEATHER, 1
 	end
 
@@ -36,6 +38,9 @@ MtChimney_EventScript_ArchieBusyFighting::
 	return
 
 MtChimney_EventScript_Maxie::
+	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, MtChimney_MaxieStart
+	goto_if_lt VAR_LA_CHIMNEY_GAUNTLET, 5, ChimneyAlliance_NeedBackup
+MtChimney_MaxieStart:
 	lockall
 	setspeaker SP_NAME_MAXIE
 	call LegendsAshes_ReactorPreview
@@ -64,6 +69,7 @@ MtChimney_EventScript_Maxie::
 	removeobject LOCALID_MT_CHIMNEY_MAGMA_GRUNT_2
 	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA
 	call LegendsBlue_SummitReposition
+	call ChimneyAlliance_SupportToSummit
 	fadescreenswapbuffers FADE_FROM_BLACK
 	setobjectxyperm LOCALID_MT_CHIMNEY_ARCHIE, 10, 12
 	addobject LOCALID_MT_CHIMNEY_ARCHIE

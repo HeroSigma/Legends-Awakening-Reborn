@@ -378,3 +378,6 @@
 
 #define VAR_LA_ASHES_STATE VAR_GIFT_UNUSED_4
 #define VAR_LA_SILPH_OPPONENT VAR_GIFT_UNUSED_5
+
+// Mt. Chimney alliance encounter: 0 unseen, 1 backup called, 2/3 victories, 4 three wins, 5 backup arrived.
+#define VAR_LA_CHIMNEY_GAUNTLET VAR_GIFT_UNUSED_6

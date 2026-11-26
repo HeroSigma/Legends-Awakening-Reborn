@@ -1,0 +1,475 @@
+{
+  "policy": {
+    "overworld_shiny": true,
+    "evolution_progression_only": [
+      "wally",
+      "brendan",
+      "may"
+    ],
+    "player_battle_level_caps_and_legality_preserved": true,
+    "references_are_planning_notes": true,
+    "red_pikachu_always_together": true
+  },
+  "characters": {
+    "red": {
+      "name": "Red",
+      "ace": "PIKACHU",
+      "field_species": "PIKACHU",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "green": {
+      "name": "Green",
+      "ace": "BLASTOISE",
+      "field_species": "BLASTOISE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "chase": {
+      "name": "Chase",
+      "ace": "PIKACHU",
+      "field_species": "PIKACHU",
+      "shiny": true,
+      "version_reference": "Partner Pikachu",
+      "field_progression": "fully assigned ace",
+      "battle_variant": "PIKACHU_PARTNER"
+    },
+    "elaine": {
+      "name": "Elaine",
+      "ace": "EEVEE",
+      "field_species": "EEVEE",
+      "shiny": true,
+      "version_reference": "Partner Eevee",
+      "field_progression": "fully assigned ace",
+      "battle_variant": "partner Eevee"
+    },
+    "ethan": {
+      "name": "Ethan",
+      "ace": "TYPHLOSION",
+      "field_species": "TYPHLOSION",
+      "shiny": true,
+      "version_reference": "Gold",
+      "field_progression": "fully assigned ace"
+    },
+    "kris": {
+      "name": "Kris",
+      "ace": "FERALIGATR",
+      "field_species": "FERALIGATR",
+      "shiny": true,
+      "version_reference": "Crystal",
+      "field_progression": "fully assigned ace"
+    },
+    "lyra": {
+      "name": "Lyra",
+      "ace": "MEGANIUM",
+      "field_species": "MEGANIUM",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "brendan": {
+      "name": "Brendan",
+      "ace": "SWAMPERT",
+      "field_species": "SWAMPERT",
+      "shiny": true,
+      "version_reference": "Ruby",
+      "field_progression": "story evolution line",
+      "evolution_line": [
+        "MUDKIP",
+        "MARSHTOMP",
+        "SWAMPERT"
+      ]
+    },
+    "may": {
+      "name": "May",
+      "ace": "BLAZIKEN",
+      "field_species": "BLAZIKEN",
+      "shiny": true,
+      "version_reference": "Sapphire",
+      "field_progression": "story evolution line",
+      "evolution_line": [
+        "TORCHIC",
+        "COMBUSKEN",
+        "BLAZIKEN"
+      ]
+    },
+    "lucas": {
+      "name": "Lucas",
+      "ace": "TORTERRA",
+      "field_species": "TORTERRA",
+      "shiny": true,
+      "version_reference": "Diamond",
+      "field_progression": "fully assigned ace"
+    },
+    "dawn": {
+      "name": "Dawn",
+      "ace": "EMPOLEON",
+      "field_species": "EMPOLEON",
+      "shiny": true,
+      "version_reference": "Platinum",
+      "field_progression": "fully assigned ace"
+    },
+    "hilbert": {
+      "name": "Hilbert",
+      "ace": "EMBOAR",
+      "field_species": "EMBOAR",
+      "shiny": true,
+      "version_reference": "Black",
+      "field_progression": "fully assigned ace"
+    },
+    "hilda": {
+      "name": "Hilda",
+      "ace": "SERPERIOR",
+      "field_species": "SERPERIOR",
+      "shiny": true,
+      "version_reference": "White",
+      "field_progression": "fully assigned ace"
+    },
+    "nate": {
+      "name": "Nate",
+      "ace": "SAMUROTT",
+      "field_species": "SAMUROTT",
+      "shiny": true,
+      "version_reference": "Blake",
+      "field_progression": "fully assigned ace"
+    },
+    "rosa": {
+      "name": "Rosa",
+      "ace": "FOONGUS",
+      "field_species": "FOONGUS",
+      "shiny": true,
+      "version_reference": "Whitley",
+      "field_progression": "fully assigned ace",
+      "later_story_ace": "DELPHOX"
+    },
+    "calem": {
+      "name": "Calem",
+      "ace": "KANGASKHAN",
+      "field_species": "KANGASKHAN",
+      "shiny": true,
+      "version_reference": "X",
+      "field_progression": "fully assigned ace"
+    },
+    "serena": {
+      "name": "Serena",
+      "ace": "GRENINJA",
+      "field_species": "GRENINJA",
+      "shiny": true,
+      "version_reference": "Y",
+      "field_progression": "fully assigned ace"
+    },
+    "elio": {
+      "name": "Elio",
+      "ace": "INCINEROAR",
+      "field_species": "INCINEROAR",
+      "shiny": true,
+      "version_reference": "Sun",
+      "field_progression": "fully assigned ace"
+    },
+    "selene": {
+      "name": "Selene",
+      "ace": "DECIDUEYE",
+      "field_species": "DECIDUEYE",
+      "shiny": true,
+      "version_reference": "Moon",
+      "field_progression": "fully assigned ace"
+    },
+    "victor": {
+      "name": "Victor",
+      "ace": "RILLABOOM",
+      "field_species": "RILLABOOM",
+      "shiny": true,
+      "version_reference": "Heavy Sword",
+      "field_progression": "fully assigned ace"
+    },
+    "gloria": {
+      "name": "Gloria",
+      "ace": "CINDERACE",
+      "field_species": "CINDERACE",
+      "shiny": true,
+      "version_reference": "Casey Shield",
+      "field_progression": "fully assigned ace"
+    },
+    "rei": {
+      "name": "Rei",
+      "ace": "DECIDUEYE_HISUI",
+      "field_species": "DECIDUEYE_HISUI",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "akari": {
+      "name": "Akari",
+      "ace": "SAMUROTT_HISUI",
+      "field_species": "SAMUROTT_HISUI",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "blue": {
+      "name": "Blue",
+      "ace": "CHARIZARD",
+      "field_species": "CHARIZARD",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "silver": {
+      "name": "Silver",
+      "ace": "FERALIGATR",
+      "field_species": "FERALIGATR",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "wally": {
+      "name": "Wally",
+      "ace": "GALLADE",
+      "field_species": "GALLADE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "story evolution line",
+      "evolution_line": [
+        "RALTS",
+        "KIRLIA",
+        "GALLADE"
+      ],
+      "after_hoenn": "FLYGON"
+    },
+    "barry": {
+      "name": "Barry",
+      "ace": "INFERNAPE",
+      "field_species": "INFERNAPE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "cheren": {
+      "name": "Cheren",
+      "ace": "STOUTLAND",
+      "field_species": "STOUTLAND",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "bianca": {
+      "name": "Bianca",
+      "ace": "MUSHARNA",
+      "field_species": "MUSHARNA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "n": {
+      "name": "N",
+      "ace": "ZOROARK",
+      "field_species": "ZOROARK",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "hugh": {
+      "name": "Hugh",
+      "ace": "BOUFFALANT",
+      "field_species": "BOUFFALANT",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "hau": {
+      "name": "Hau",
+      "ace": "RAICHU_ALOLA",
+      "field_species": "RAICHU_ALOLA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "gladion": {
+      "name": "Gladion",
+      "ace": "SILVALLY",
+      "field_species": "SILVALLY",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "hop": {
+      "name": "Hop",
+      "ace": "DUBWOOL",
+      "field_species": "DUBWOOL",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "marnie": {
+      "name": "Marnie",
+      "ace": "MORPEKO_FULL_BELLY",
+      "field_species": "MORPEKO_FULL_BELLY",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "bede": {
+      "name": "Bede",
+      "ace": "HATTERENE",
+      "field_species": "HATTERENE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "giovanni_past": {
+      "name": "Past Giovanni",
+      "ace": "PERSIAN",
+      "field_species": "PERSIAN",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "giovanni_present": {
+      "name": "Giovanni",
+      "ace": "MEWTWO",
+      "field_species": "MEWTWO",
+      "shiny": true,
+      "version_reference": "Rainbow Rocket",
+      "field_progression": "fully assigned ace"
+    },
+    "archer": {
+      "name": "Archer",
+      "ace": "HOUNDOOM",
+      "field_species": "HOUNDOOM",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "maxie": {
+      "name": "Maxie",
+      "ace": "CAMERUPT",
+      "field_species": "CAMERUPT_MEGA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "archie": {
+      "name": "Archie",
+      "ace": "SHARPEDO",
+      "field_species": "SHARPEDO_MEGA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "cyrus": {
+      "name": "Cyrus",
+      "ace": "WEAVILE",
+      "field_species": "WEAVILE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace",
+      "later_story_ace": "PROBOPASS"
+    },
+    "ghetsis": {
+      "name": "Ghetsis",
+      "ace": "HYDREIGON",
+      "field_species": "HYDREIGON",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "colress": {
+      "name": "Colress",
+      "ace": "KLINKLANG",
+      "field_species": "KLINKLANG",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "lysandre": {
+      "name": "Lysandre",
+      "ace": "GYARADOS",
+      "field_species": "GYARADOS_MEGA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "lusamine": {
+      "name": "Lusamine",
+      "ace": "NIHILEGO",
+      "field_species": "NIHILEGO",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "lance": {
+      "name": "Lance",
+      "ace": "DRAGONITE",
+      "field_species": "DRAGONITE",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "steven": {
+      "name": "Steven",
+      "ace": "METAGROSS",
+      "field_species": "METAGROSS",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "wallace": {
+      "name": "Wallace",
+      "ace": "MILOTIC",
+      "field_species": "MILOTIC",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "cynthia": {
+      "name": "Cynthia",
+      "ace": "GARCHOMP",
+      "field_species": "GARCHOMP",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "alder": {
+      "name": "Alder",
+      "ace": "VOLCARONA",
+      "field_species": "VOLCARONA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "iris": {
+      "name": "Iris",
+      "ace": "HAXORUS",
+      "field_species": "HAXORUS",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "diantha": {
+      "name": "Diantha",
+      "ace": "GARDEVOIR",
+      "field_species": "GARDEVOIR",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "leon": {
+      "name": "Leon",
+      "ace": "CHARIZARD",
+      "field_species": "CHARIZARD",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    },
+    "geeta": {
+      "name": "Geeta",
+      "ace": "GLIMMORA",
+      "field_species": "GLIMMORA",
+      "shiny": true,
+      "version_reference": "",
+      "field_progression": "fully assigned ace"
+    }
+  }
+}

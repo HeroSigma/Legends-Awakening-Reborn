@@ -77,3 +77,15 @@ Reserve 0x26D–0x280 for the twenty independent past-Silph door flags, and 0x2A
 The FireRed-based past Silph cast uses independent defeat flags 0x281–0x28F and 0x298–0x29E in addition to the original 0x290–0x297. These are reserved, despite their legacy UNUSED aliases. Keep profile slot 11 for Cozmo's Magma grunt; restored Silph opponents use slots 12–33. Preserve Wally, the ninth-floor elevator Card Key and the custom two-Giovanni finale; never import vanilla FR story flags or clear the tower on an ordinary grunt victory.
 
 Only the nineteen ordinary past-Silph Rocket grunts use automatic sight and approach. Scientists, Dalton and civilians stay interaction-only; Petrel and Ariana keep their scripted interactions. Preserve each grunt's private saved defeat flag and native single-battle flow.
+
+## Major-character partners and Mt Chimney state
+
+All named major-character overworld aces are shiny to match their battle aces.
+Only Wally, Brendan and May progress through evolution stages; other characters
+show their assigned ace form. Red and Pikachu always travel together. Wally uses
+Ralts/Kirlia/Gallade before the Hoenn League, then Flygon. Keep player battles
+legal for their cap, even when an NPC displays a fully evolved partner.
+The roster in data/legends_character_aces.json records future appearances as well
+as existing characters; version labels are planning references, not display names.
+Reserve flags 0x2B9–0x2BB for the Chimney Magma/Aqua/Rocket guards and variable
+0x40E3 (VAR_LA_CHIMNEY_GAUNTLET) for saved progress through their three battles.

@@ -1,0 +1,15 @@
+{
+  "new_scene_checks": 112,
+  "blue_chapter_checks": 106,
+  "villain_dialogue_checks": 101,
+  "ace_checks": 2260,
+  "ace_profiles": 31,
+  "silph_security_checks": 332,
+  "additional_legacy_silph_run": {
+    "completed_checks": 308,
+    "clean_log": false,
+    "observation": "Existing synthetic chapter test logs a malloc magic assertion between Saffron arrival and the ninth-floor Wally interaction. Its assertions still complete, but this run is not counted as a clean regression pass. New Chimney and isolated Silph security runs contain no engine assertion."
+  },
+  "user_save_loaded": false,
+  "rom_sha256": "748fdcd53dc479ea8d82032ffd65b4aea5f9cb18398511a9766a2ca10cf94a90"
+}

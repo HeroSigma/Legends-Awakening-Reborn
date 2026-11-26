@@ -1,0 +1,454 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_AquaDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_AquaIntro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_AquaIntro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_ArchieBlue_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_ArchieBlue_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueAfter_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueAfter_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueChallenge_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueHolding_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueHolding_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_BlueSend_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_CallBackup_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_CallBackup_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_CallBackup_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_CallBackup_3",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Guard_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Guard_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MagmaDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MagmaIntro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MagmaIntro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayArrives_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayCall_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayCall_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayHeal_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayHeal_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayReady_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayReady_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayRecording_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayRecording_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MayRecording_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MeetStairs_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_MeetStairs_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_NeedBackup_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_NeedBackup_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_NeedBackup_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerArrival_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerArrival_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerCall_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerCall_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerCall_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerCall_3",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerReport_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_PlayerReport_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Receiver_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Receiver_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedAssignment_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedAssignment_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedCall_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedCall_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedOffscreen_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedOffscreen_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedPlan_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedPlan_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedPlan_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReady_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReady_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReport_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReport_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReport_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RedReport_3",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Reserve_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Reserve_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Reserve_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_ReserveReady_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketDefeat_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketIntro_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketIntro_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketIntro_2",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketIntro_3",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketReady_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketReady_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketRecognition_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_RocketRecognition_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Supply_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_Supply_1",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_ThreeTeams_0",
+      "passed": true
+    },
+    {
+      "test": "fit_ChimneyAlliance_Text_ThreeTeams_1",
+      "passed": true
+    },
+    {
+      "test": "phone_call_saved",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_BLUE_CHIMNEY",
+      "passed": true
+    },
+    {
+      "test": "standoff_LOCALID_LA_BLUE_CHIMNEY",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_CHARIZARD",
+      "passed": true
+    },
+    {
+      "test": "standoff_LOCALID_LA_CHIMNEY_CHARIZARD",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_SHARPEDO",
+      "passed": true
+    },
+    {
+      "test": "standoff_LOCALID_LA_CHIMNEY_SHARPEDO",
+      "passed": true
+    },
+    {
+      "test": "profile_34",
+      "passed": true
+    },
+    {
+      "test": "profile_35",
+      "passed": true
+    },
+    {
+      "test": "profile_36",
+      "passed": true
+    },
+    {
+      "test": "gauntlet_completed",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_RED",
+      "passed": true
+    },
+    {
+      "test": "arrival_LOCALID_LA_CHIMNEY_RED",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_PIKACHU",
+      "passed": true
+    },
+    {
+      "test": "arrival_LOCALID_LA_CHIMNEY_PIKACHU",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_ASHES_CHIMNEY_MAY",
+      "passed": true
+    },
+    {
+      "test": "arrival_LOCALID_ASHES_CHIMNEY_MAY",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_MAY_PARTNER",
+      "passed": true
+    },
+    {
+      "test": "arrival_LOCALID_LA_CHIMNEY_MAY_PARTNER",
+      "passed": true
+    },
+    {
+      "test": "no_replayed_gauntlet",
+      "passed": true
+    },
+    {
+      "test": "native_completion",
+      "passed": true
+    },
+    {
+      "test": "hoopa_continuity",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_RED",
+      "passed": true
+    },
+    {
+      "test": "summit_LOCALID_LA_CHIMNEY_RED",
+      "passed": true
+    },
+    {
+      "test": "present_LOCALID_LA_CHIMNEY_PIKACHU",
+      "passed": true
+    },
+    {
+      "test": "summit_LOCALID_LA_CHIMNEY_PIKACHU",
+      "passed": true
+    },
+    {
+      "test": "west_entry_calls_backup",
+      "passed": true
+    },
+    {
+      "test": "west_stairs_resumes_aqua",
+      "passed": true
+    },
+    {
+      "test": "loss_keeps_prior_win",
+      "passed": true
+    },
+    {
+      "test": "loss_does_not_defeat_aqua",
+      "passed": true
+    },
+    {
+      "test": "save_progress",
+      "passed": true
+    },
+    {
+      "test": "reload_progress",
+      "passed": true
+    },
+    {
+      "test": "saved_first_win_retained",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

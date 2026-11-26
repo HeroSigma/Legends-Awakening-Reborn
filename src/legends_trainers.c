@@ -77,6 +77,9 @@ static const struct LegendsTeamProfile sSilphProfiles[] = {
     {{SPECIES_RATICATE,SPECIES_MAGNEMITE,SPECIES_ARBOK,SPECIES_KOFFING,SPECIES_HYPNO,SPECIES_DITTO}, 31, THEME_BALANCE, 0, 0},
     {{SPECIES_GOLBAT,SPECIES_GRIMER,SPECIES_DROWZEE,SPECIES_MAGNEMITE,SPECIES_KOFFING,SPECIES_VOLTORB}, 31, THEME_BALANCE, 0, 0},
     {{SPECIES_GOLBAT,SPECIES_GRIMER,SPECIES_DROWZEE,SPECIES_KOFFING,SPECIES_HYPNO,SPECIES_GROWLITHE}, 31, THEME_BALANCE, 0, 0},
+    {{SPECIES_NUMEL,SPECIES_SLUGMA,SPECIES_VULPIX,SPECIES_GOLBAT,SPECIES_MIGHTYENA,SPECIES_BALTOY}, 28, THEME_SUN, 0, 0},
+    {{SPECIES_CARVANHA,SPECIES_MIGHTYENA,SPECIES_GOLBAT,SPECIES_LOMBRE,SPECIES_MARSHTOMP,SPECIES_PELIPPER}, 29, THEME_RAIN, 0, 0},
+    {{SPECIES_PERSIAN,SPECIES_HYPNO,SPECIES_GOLBAT,SPECIES_ARBOK,SPECIES_GRIMER,SPECIES_KOFFING}, 30, THEME_BALANCE, 0, 0},
 };
 static const struct Trainer sSilphBases[] = {
     {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
@@ -112,14 +115,19 @@ static const struct Trainer sSilphBases[] = {
     {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
     {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
     {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_MAGMA, .trainerPic = TRAINER_PIC_DONOR_MAGMA_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_AQUA, .trainerPic = TRAINER_PIC_DONOR_AQUA_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
+    {.trainerName = _("GRUNT"), .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG, .trainerPic = TRAINER_PIC_DONOR_ROCKET_GRUNT_MALE, .gender = TRAINER_GENDER_MALE, .battleType = TRAINER_BATTLE_TYPE_SINGLES},
 };
 static s32 SilphProfileIndex(u32 id)
 {
     if (id != TRAINER_GRUNT_UNUSED) return -1;
     u32 n = VarGet(VAR_LA_SILPH_OPPONENT);
-    if (LegendsAshes_IsSilph() && n >= 1 && n <= ARRAY_COUNT(sSilphProfiles) && n != 11) return n - 1;
+    if (LegendsAshes_IsSilph() && n >= 1 && n <= 33 && n != 11) return n - 1;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FALLARBOR_TOWN_COZMOS_HOUSE)
         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FALLARBOR_TOWN_COZMOS_HOUSE) && n == 11) return 10;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_MT_CHIMNEY)
+        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_MT_CHIMNEY) && n >= 34 && n <= 36) return n - 1;
     return -1;
 }
 static EWRAM_DATA u16 sCachedIds[4] = {0};
@@ -478,8 +486,10 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
     u32 playerLevel=GetWildBadgeStage();
     bool32 doubles=LegendsTrainer_IsFormatChoice(trainerId)?(sFormatTrainer==trainerId && sDoubleFormat):base->battleType==TRAINER_BATTLE_TYPE_DOUBLES;
     u32 gimmick = LegendsTrainer_Gimmick(trainerId);
+    bool32 wallyRematch = (trainerId == TRAINER_WALLY_VR_1 || trainerId == TRAINER_WALLY_VR_2 || trainerId == TRAINER_WALLY_VR_3 || trainerId == TRAINER_WALLY_VR_4 || trainerId == TRAINER_WALLY_VR_5);
+    enum Species wallyAce = FlagGet(FLAG_SYS_GAME_CLEAR) ? SPECIES_FLYGON : SPECIES_GALLADE;
     for (u32 i=0;i<4;i++)
-        if (sCachedGimmicks[i]==gimmick && sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base) return &sTrainers[i];
+        if (sCachedGimmicks[i]==gimmick && sCachedIds[i]==trainerId && sCachedCaps[i]==cap && sCachedPlayerLevels[i]==playerLevel && sCachedFormats[i]==doubles && sCachedBases[i]==base && (!wallyRematch || sMembers[i][5].species == wallyAce)) return &sTrainers[i];
     u32 index=sNextCache++%4;
     struct Trainer *trainer=&sTrainers[index];
     *trainer=*base;
@@ -499,7 +509,7 @@ const struct Trainer *LegendsTrainer_Get(u16 trainerId,const struct Trainer *bas
         level = LegendsTrainer_ScaledLevel(routeBase);
     }
     for (u32 i=0;i<PARTY_SIZE;i++)
-        BuildMember(&team[i],profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
+        BuildMember(&team[i],wallyRematch && i==5 ? wallyAce : profile->species[i],level>(i%3)?level-(i==5?0:i%3):1,profile->theme,i,doubles,profile->shinyAce && i==5);
     ApplyGimmick(gimmick,team);
     for (u32 i=0;i<PARTY_SIZE;i++)
         if (!LegendsTrainer_MemberLegal(&team[i])) return base;

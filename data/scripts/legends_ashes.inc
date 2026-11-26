@@ -169,13 +169,19 @@ LegendsAshes_ReactorPreview::
 
 LegendsAshes_ChimneyAftermath::
     call LegendsBlue_SummitReport
+    call ChimneyAlliance_RedReport
     special LegendsAshes_SetGraphics
     setflag FLAG_LA_CHIMNEY_RESONANCE
     setvar VAR_LA_ASHES_STATE, 3
     clearflag FLAG_TEMP_6
     addobject LOCALID_ASHES_CHIMNEY_MAY
     setspeaker SP_NAME_MAY
+    goto_if_lt VAR_LA_CHIMNEY_GAUNTLET, 5, LegendsAshes_LegacyMayRadio
+    msgbox ChimneyAlliance_Text_MayRecording, MSGBOX_DEFAULT
+    goto LegendsAshes_MayRadioDone
+LegendsAshes_LegacyMayRadio:
     msgbox Ashes_Text_WallyFragment, MSGBOX_DEFAULT
+LegendsAshes_MayRadioDone:
     setspeaker SP_NAME_PLAYER
     msgbox Ashes_Text_WeReachedHim, MSGBOX_DEFAULT
     setspeaker SP_NAME_MAY
@@ -200,6 +206,7 @@ LegendsAshes_ChimneyAftermath::
     setspeaker SP_NAME_MAY
     msgbox Ashes_Text_MayStay, MSGBOX_DEFAULT
     call LegendsBlue_StayWithMay
+    call ChimneyAlliance_RedPlan
     return
 
 LegendsAshes_EnterPast::

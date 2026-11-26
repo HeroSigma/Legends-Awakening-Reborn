@@ -36,7 +36,7 @@ bool32 LegendsAshes_IsSilph(void)
 void LegendsAshes_SetGraphics(void)
 {
     VarSet(VAR_OBJ_GFX_ID_D, GetGraphicsIdForMon(SPECIES_HOOPA, FALSE, FALSE));
-    VarSet(VAR_OBJ_GFX_ID_E, GetGraphicsIdForMon(SPECIES_MEWTWO, FALSE, FALSE));
+    VarSet(VAR_OBJ_GFX_ID_E, GetGraphicsIdForMon(SPECIES_MEWTWO, TRUE, FALSE));
     VarSet(VAR_OBJ_GFX_ID_F, GetGraphicsIdForMon(SPECIES_KIRLIA, TRUE, FALSE));
 }
 void LegendsAshes_HoopaPrepare(void)
@@ -189,4 +189,12 @@ const u8 *LegendsAshes_PrepareGruntApproach(const u8 *script)
             return sPastSilphGrunts[i].battle;
         }
     return NULL;
+}
+
+void LegendsChimney_SetGraphics(void)
+{
+    VarSet(VAR_OBJ_GFX_ID_C, GetGraphicsIdForMon(SPECIES_PIKACHU, TRUE, FALSE));
+    u32 cap = GetCurrentLevelCap();
+    enum Species mayPartner = cap >= 36 ? SPECIES_BLAZIKEN : cap >= 16 ? SPECIES_COMBUSKEN : SPECIES_TORCHIC;
+    VarSet(VAR_OBJ_GFX_ID_B, GetGraphicsIdForMon(mayPartner, TRUE, FALSE));
 }

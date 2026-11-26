@@ -2711,6 +2711,7 @@ Text_LegacyFeatureDisabled:
 
 	.include "data/scripts/legends_ashes.inc"
 	.include "data/scripts/legends_blue_chimney.inc"
+	.include "data/scripts/legends_chimney_alliance.inc"
 	.include "data/scripts/legends_silph_security.inc"
 	.include "data/scripts/legends_past_saffron.inc"
 

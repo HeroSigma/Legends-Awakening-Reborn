@@ -3,7 +3,7 @@ from pathlib import Path
 R=Path.cwd()
 exec(compile((R/'tools/la_world/storage/test_pc_integration.py').read_text().split('start(0)')[0],'helpers','exec'))
 import tempfile,struct,re,json,hashlib
-names=['FLAG_LA_RED_DEX_GIFTS','FLAG_BADGE01_GET','FLAG_LA_BLUE_CHIMNEY_BRIEFED','FLAG_LA_BLUE_CABLE_MET','FLAG_LA_BLUE_CHIMNEY_BOARDED','FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY','FLAG_LA_CHIMNEY_RESONANCE','FLAG_LA_COZMO_BRIEFED','FLAG_LA_HEARD_GIOVANNI','FLAG_HIDE_ROUTE_112_TEAM_MAGMA','VAR_LA_OAK_STARTER','VAR_LA_ASHES_STATE','MAP_FALLARBOR_TOWN','MAP_ROUTE112_CABLE_CAR_STATION','MAP_MT_CHIMNEY_CABLE_CAR_STATION','MAP_MT_CHIMNEY','LOCALID_LA_FALLARBOR_BLUE','LOCALID_LA_BLUE_CHIMNEY','LOCALID_ROUTE112_CABLE_CAR_ATTENDANT','DIR_NORTH']
+names=['VAR_LA_CHIMNEY_GAUNTLET','FLAG_LA_RED_DEX_GIFTS','FLAG_BADGE01_GET','FLAG_LA_BLUE_CHIMNEY_BRIEFED','FLAG_LA_BLUE_CABLE_MET','FLAG_LA_BLUE_CHIMNEY_BOARDED','FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY','FLAG_LA_CHIMNEY_RESONANCE','FLAG_LA_COZMO_BRIEFED','FLAG_LA_HEARD_GIOVANNI','FLAG_HIDE_ROUTE_112_TEAM_MAGMA','VAR_LA_OAK_STARTER','VAR_LA_ASHES_STATE','MAP_FALLARBOR_TOWN','MAP_ROUTE112_CABLE_CAR_STATION','MAP_MT_CHIMNEY_CABLE_CAR_STATION','MAP_MT_CHIMNEY','LOCALID_LA_FALLARBOR_BLUE','LOCALID_LA_BLUE_CHIMNEY','LOCALID_ROUTE112_CABLE_CAR_ATTENDANT','DIR_NORTH']
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "constants/flags.h"\n#include "constants/vars.h"\n#include "constants/maps.h"\n#include "constants/map_event_ids.h"\n#include "constants/event_object_movement.h"\nconst unsigned v[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'c.c'),'-o',str(td/'c.o')],check=True)
@@ -62,6 +62,16 @@ upper=c['MAP_MT_CHIMNEY_CABLE_CAR_STATION']
 waitfor(lambda:location()==(upper>>8,upper&255),'native_cable_ride')
 finish('cable_exit')
 check('blue_boarded_same_cable_car',flag('FLAG_LA_BLUE_CHIMNEY_BOARDED'))
+# Enter the new staircase blockade through the real trigger before Maxie.
+at('MAP_MT_CHIMNEY',25,22);frames(36,128);finish('summit_backup_call')
+check('summit_backup_called',invoke('VarGet',c['VAR_LA_CHIMNEY_GAUNTLET'])==1)
+frames(40,64)
+for slot in range(3):
+ waitfor(lambda:rd(symbols['gMain']+4)==symbols['BattleMainCB2']|1 and rd(symbols['gBattleMainFunc'])==symbols['HandleTurnActionSelectionState']|1,'guard_'+str(slot))
+ wr(symbols['gBattleOutcome'],1,1);wr(symbols['gBattleMainFunc'],symbols['HandleEndTurn_BattleWon']|1)
+ if slot<2:frames(180)
+finish('backup_arrived')
+check('backup_arrived_before_maxie',invoke('VarGet',c['VAR_LA_CHIMNEY_GAUNTLET'])==5)
 # Native Maxie battle and original postbattle/Hoopa scene still complete.
 at('MAP_MT_CHIMNEY',13,7);tap(64);tap(1)
 waitfor(lambda:rd(symbols['gMain']+4)==symbols['BattleMainCB2']|1 and rd(symbols['gBattleMainFunc'])==symbols['HandleTurnActionSelectionState']|1,'maxie_battle')

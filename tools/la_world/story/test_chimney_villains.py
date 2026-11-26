@@ -2,7 +2,7 @@
 from pathlib import Path
 R=Path.cwd()
 h=(R/'tools/la_world/story/test_blue_chimney.py').read_text().split('start(0);')[0]
-h=h.replace("names=[","names=['SP_NAME_PLAYER','SP_NAME_MAXIE','SP_NAME_ARCHIE','SP_NAME_MAGMA_TABITHA','SP_NAME_TEAM_MAGMA',",1)
+h=h.replace("names=[","names=['VAR_LA_CHIMNEY_GAUNTLET','SP_NAME_PLAYER','SP_NAME_MAXIE','SP_NAME_ARCHIE','SP_NAME_MAGMA_TABITHA','SP_NAME_TEAM_MAGMA',",1)
 h=h.replace(r'#include "global.h"\n',r'#include "global.h"\n#include "constants/speaker_names.h"\n',1)
 exec(compile(h,'summit_helpers','exec'))
 revised_labels=json.loads((R/'docs/story/chimney-villain-dialogue/revised-labels.json').read_text())
@@ -13,6 +13,7 @@ for i in range(3):invoke('FlagSet',c['FLAG_BADGE01_GET']+i)
 for sp in [1,4,7,25,133,155]:invoke('ScriptGiveMon',sp,30,0)
 for n in ['FLAG_LA_BLUE_CHIMNEY_BRIEFED','FLAG_LA_BLUE_CABLE_MET','FLAG_LA_BLUE_CHIMNEY_BOARDED','FLAG_LA_COZMO_BRIEFED']:invoke('FlagSet',c[n])
 invoke('VarSet',c['VAR_LA_ASHES_STATE'],2)
+invoke('VarSet',c['VAR_LA_CHIMNEY_GAUNTLET'],5)
 for n in revised_labels:
  data=bytearray()
  for j in range(2400):

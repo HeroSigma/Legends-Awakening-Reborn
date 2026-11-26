@@ -2,6 +2,7 @@
 Run after editing this source to regenerate the reviewed profile header and manifest.
 Runtime resolves evolutions and legal role moves at the encounter's capped level.
 """
+from character_aces import align_ace
 from pathlib import Path
 import re,json
 from collections import defaultdict
@@ -297,6 +298,8 @@ for i in range(1,len(P),2):
  if key=='TRAINER_SILVER_RUSTBORO':
   team='ZUBAT GASTLY MAGNEMITE ABRA SNEASEL TOTODILE'.split()
   weather='balance';level=20;major=True;choice=False
+ team=align_ace(key,team)
+ ace=team[-1]
  signature=frozenset(team)
  identity=(cls,name)
  if signature in used_rosters and used_rosters[signature]!=identity:

@@ -199,6 +199,7 @@ BlueChimney_Text_PlayerReport:
     .string "Maxie said they transmitted readings.\nStopping the machine wasn't enough.$"
 
 LegendsBlue_StayWithMay::
+    turnobject LOCALID_PLAYER, DIR_WEST
     goto_if_unset FLAG_LA_BLUE_CHIMNEY_BOARDED, LegendsBlue_Return
     setspeaker SP_NAME_BLUE
     msgbox BlueChimney_Text_StayWithMay, MSGBOX_DEFAULT
