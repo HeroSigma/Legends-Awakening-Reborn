@@ -50,18 +50,18 @@
   "raw_frlg_attributes": "tilesets/secondary_f2e_AESTHETICRED_DS_NORMAL_V12_P082D4BB4S082D4ECC/source_frlg_metatile_attributes.bin",
   "sha256": {
     "tiles_4bpp": "0c9c4dd4a6d8780c8a594f21a716d00f3f183dd4118126e184a5042b69a0d467",
-    "metatiles_bvd": "e9838ea7acd2617df3e984eb3f20fa71ea8a314d405b08cadd6666d22bc4ddad",
+    "metatiles_bvd": "f0a72e54a285bc5baab368c61a5fa055c507eb7202881f0608f964f41d624f0e",
     "raw_frlg_attributes": "f7292fd9e4427047eb5758167d7480f73b8ec91a6f0de12823dfc31e6902986d"
   },
   "project_overrides": {
     "silph_card_doors": {
       "metatile_ids": [
-        "0x3B0",
-        "0x3B1",
-        "0x3C4",
-        "0x3C5"
+        "0x3AB",
+        "0x3AC",
+        "0x3B2",
+        "0x3B3"
       ],
-      "reason": "Fill missing closed-gate sections with existing metal panels and use normal two-layer gate attributes.",
+      "reason": "Dedicated unused gate definitions preserve complete door artwork without replacing donor stair tiles or stair warp attributes.",
       "new_graphics_or_palette": false
     }
   }

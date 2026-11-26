@@ -32,3 +32,5 @@ The return to Lavaridge includes Birch's report, a named and colored Flannery co
 - 0x2B3–0x2B8: six item pickups.
 
 Validation uses disposable saves: `test_silph_security.py` checks door state, actual key search, rewards, persistence and unchanged Hoenn flags; `test_ashes_silph.py` checks the chapter, admin teams, office entry, escape, Hoopa and Flannery's return. No player save is loaded by these tests.
+
+Stairs use their original donor definitions, separate from the dedicated repaired card-door tiles. `test_silph_stairs.py` verifies every floor in both directions and after save/load.

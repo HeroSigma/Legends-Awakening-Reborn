@@ -1,0 +1,347 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_2",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_2",
+      "passed": true
+    },
+    {
+      "test": "walk_down_2",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_2",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_3",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_3",
+      "passed": true
+    },
+    {
+      "test": "walk_down_3",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_3",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_4",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_4",
+      "passed": true
+    },
+    {
+      "test": "walk_down_4",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_4",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_5",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_5",
+      "passed": true
+    },
+    {
+      "test": "walk_down_5",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_5",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_6",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_6",
+      "passed": true
+    },
+    {
+      "test": "walk_down_6",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_6",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_7",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_7",
+      "passed": true
+    },
+    {
+      "test": "walk_down_7",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_7",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_8",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_8",
+      "passed": true
+    },
+    {
+      "test": "walk_down_8",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_8",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_9",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_9",
+      "passed": true
+    },
+    {
+      "test": "walk_down_9",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_9",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_10",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_10",
+      "passed": true
+    },
+    {
+      "test": "walk_down_10",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_10",
+      "passed": true
+    },
+    {
+      "test": "walkable_down_11",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_down_11",
+      "passed": true
+    },
+    {
+      "test": "walk_down_11",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_down_11",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_1",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_1",
+      "passed": true
+    },
+    {
+      "test": "walk_up_1",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_1",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_2",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_2",
+      "passed": true
+    },
+    {
+      "test": "walk_up_2",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_2",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_3",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_3",
+      "passed": true
+    },
+    {
+      "test": "walk_up_3",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_3",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_4",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_4",
+      "passed": true
+    },
+    {
+      "test": "walk_up_4",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_4",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_5",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_5",
+      "passed": true
+    },
+    {
+      "test": "walk_up_5",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_5",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_6",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_6",
+      "passed": true
+    },
+    {
+      "test": "walk_up_6",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_6",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_7",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_7",
+      "passed": true
+    },
+    {
+      "test": "walk_up_7",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_7",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_8",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_8",
+      "passed": true
+    },
+    {
+      "test": "walk_up_8",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_8",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_9",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_9",
+      "passed": true
+    },
+    {
+      "test": "walk_up_9",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_9",
+      "passed": true
+    },
+    {
+      "test": "walkable_up_10",
+      "passed": true
+    },
+    {
+      "test": "stair_behavior_up_10",
+      "passed": true
+    },
+    {
+      "test": "walk_up_10",
+      "passed": true
+    },
+    {
+      "test": "arrival_can_leave_up_10",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "reload",
+      "passed": true
+    },
+    {
+      "test": "saved_game_down_stairs",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "588fbfd100171d0b8384b315785d2016e24a837fd5e89762e60459a461487351"
+}

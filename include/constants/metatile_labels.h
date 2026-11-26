@@ -1354,3 +1354,9 @@
 #define METATILE_UnovaWesley_Path_EF 0x032
 #define METATILE_UnovaWesley_Path_FF 0x033
 // END WESLEY_UNOVA_LABELS
+
+// Dedicated gate tiles: donor 0x3B0/3B1/3C4/3C5 also form staircases.
+#define METATILE_LA_SilphCo_HorizontalBarrier_TopLeft 0x3AB
+#define METATILE_LA_SilphCo_HorizontalBarrier_TopRight 0x3AC
+#define METATILE_LA_SilphCo_VerticalBarrier_BottomLeft 0x3B2
+#define METATILE_LA_SilphCo_VerticalBarrier_BottomRight 0x3B3
