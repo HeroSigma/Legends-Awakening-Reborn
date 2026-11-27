@@ -60,20 +60,36 @@ static const u16 sColors[][2] = {
     {RGB(29,30,31),RGB(20,23,26)},// white
     {RGB(11,13,17),RGB(5,7,10)},  // charcoal
     {RGB(31,15,24),RGB(23,7,15)}, // pink
+    {RGB(7,12,23),RGB(3,6,14)},   // navy
+    {RGB(31,29,23),RGB(23,20,14)},// cream
+    {RGB(22,5,9),RGB(12,2,5)},   // crimson
+    {RGB(10,23,12),RGB(4,13,7)}, // forest
+    {RGB(31,17,5),RGB(23,9,2)},  // orange
+    {RGB(4,24,22),RGB(2,14,14)}, // teal
+    {RGB(19,12,7),RGB(10,6,4)},  // brown
+    {RGB(25,21,31),RGB(16,12,23)},// lilac
 };
 static const u8 *const sSkinNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Light"),COMPOUND_STRING("Tan"),COMPOUND_STRING("Deep")};
-static const u8 *const sColorNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Blue"),COMPOUND_STRING("Red"),COMPOUND_STRING("Violet"),COMPOUND_STRING("Gold"),COMPOUND_STRING("White"),COMPOUND_STRING("Charcoal"),COMPOUND_STRING("Pink")};
+static const u8 *const sColorNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Blue"),COMPOUND_STRING("Red"),COMPOUND_STRING("Violet"),COMPOUND_STRING("Gold"),COMPOUND_STRING("White"),COMPOUND_STRING("Charcoal"),COMPOUND_STRING("Pink"),COMPOUND_STRING("Navy"),COMPOUND_STRING("Cream"),COMPOUND_STRING("Crimson"),COMPOUND_STRING("Forest"),COMPOUND_STRING("Orange"),COMPOUND_STRING("Teal"),COMPOUND_STRING("Brown"),COMPOUND_STRING("Lilac")};
 static const u8 *const sLabels[] = {COMPOUND_STRING("Skin tone"),COMPOUND_STRING("Clothes"),COMPOUND_STRING("Accent"),COMPOUND_STRING("Style")};
 
-static const u8 *const sOutfitNames[] = {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph")};
+static const u8 *const sOutfitNames[] = {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph"), COMPOUND_STRING("Red style"), COMPOUND_STRING("Gold style"), COMPOUND_STRING("Blue style"), COMPOUND_STRING("Silver")};
+// Inspired colorways on the complete RS clothing cut. Palette choices override
+// either default independently; no imported rival head or face is substituted.
+static const u8 sStyleColors[PLAYER_OUTFIT_STYLE_COUNT][2] = {
+    {0,0}, {0,0}, {2,5}, {4,6}, {8,9}, {6,10},
+};
 u32 __attribute__((noinline, noclone)) PlayerOutfit_Get(void)
 {
-    return sInIntro ? sIntroOutfit : VarGet(VAR_LA_PLAYER_OUTFIT) == 0xC101;
+    if (sInIntro) return sIntroOutfit;
+    u32 saved = VarGet(VAR_LA_PLAYER_OUTFIT);
+    return saved > 0xC100 && saved < 0xC100 + PLAYER_OUTFIT_STYLE_COUNT ? saved - 0xC100 : 0;
 }
 void PlayerOutfit_Set(u32 outfit)
 {
-    if (sInIntro) sIntroOutfit = outfit == 1;
-    else VarSet(VAR_LA_PLAYER_OUTFIT, outfit == 1 ? 0xC101 : 0);
+    if (outfit >= PLAYER_OUTFIT_STYLE_COUNT) outfit = 0;
+    if (sInIntro) sIntroOutfit = outfit;
+    else VarSet(VAR_LA_PLAYER_OUTFIT, outfit ? 0xC100 + outfit : 0);
 }
 u32 PlayerOutfit_TrainerPic(u32 pic)
 {
@@ -118,9 +134,12 @@ void DynamicPal_CommitIntro(void)
 static const u16 *Build(const u16 *base, const u8 *skin, const u8 *outfit, const u8 *accent, u32 skinCount)
 {
     u16 choice = DynamicPal_GetSelection();
-    if (!choice) return base;
-    CpuCopy16(base, sPalette, PLTT_SIZE_4BPP);
     u32 tone = choice & 15, clothes = (choice >> 4) & 15, trim = (choice >> 8) & 15;
+    u32 style = PlayerOutfit_Get();
+    if (!clothes) clothes = sStyleColors[style][0];
+    if (!trim) trim = sStyleColors[style][1];
+    if (!tone && !clothes && !trim) return base;
+    CpuCopy16(base, sPalette, PLTT_SIZE_4BPP);
     if (tone) for (u32 i=0;i<skinCount;i++) sPalette[skin[i]] = sSkin[tone][i];
     if (clothes) for (u32 i=0;i<2;i++) sPalette[outfit[i]] = sColors[clothes][i];
     if (trim) for (u32 i=0;i<2;i++) sPalette[accent[i]] = sColors[trim][i];
@@ -236,7 +255,7 @@ static void Task_DynamicPalMenu(u8 taskId)
     {
         if (sMenu->cursor == 3)
         {
-            PlayerOutfit_Set(!PlayerOutfit_Get());
+            PlayerOutfit_Set((PlayerOutfit_Get() + (JOY_NEW(DPAD_RIGHT) ? 1 : PLAYER_OUTFIT_STYLE_COUNT - 1)) % PLAYER_OUTFIT_STYLE_COUNT);
             PlaySE(SE_SELECT);DrawMenu();return;
         }
         u32 shift=sMenu->cursor*4;
