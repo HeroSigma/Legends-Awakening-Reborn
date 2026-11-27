@@ -102,3 +102,11 @@ variants as new outfit styles or swap full donor-character identities into playe
 The Johto-inspired wardrobe slot (0xC202) is Gold jacket for Aren and Lyra overalls for Aria. Keep real garment choices gender-specific and preserve original player heads/faces; never replace this with a palette-only style.
 
 The Silver/Kris wardrobe slot (0xC203) is Silver jacket for Aren and Kris cropped jacket/cycling shorts for Aria. Keep earlier garments available and colors independent.
+
+## Release inputs across worktrees
+
+Before packaging from a secondary worktree, inspect the user's canonical checkout
+for saved map edits. When those edits are authorized for the release, copy them
+into the build inputs before rebuilding and verify the resulting map data. Merely
+preserving edits in another checkout does not include them in the playable ROM.
+Keep unrelated research files intact and verify user map bytes when integrating.
