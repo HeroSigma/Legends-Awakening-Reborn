@@ -26,3 +26,8 @@ for gender in ['brendan','may']:
 rear=Image.open(R/'graphics/player_outfits/classic/brendan/walking.png').crop((16,0,32,32))
 assert sum(rear.getpixel((x,y)) in [10,11] for y in range(22,26) for x in range(5,11))>=10, 'Red vest back must be red'
 print(f'PASS {checks+1} outfit color-mask regressions')
+
+for theme in ['classic','johto','crystal']:
+ im=Image.open(R/f'graphics/player_outfits/{theme}/brendan/front.png')
+ assert not any(im.getpixel((x,y))==15 for y in range(28,37) for x in range(25,35)), theme+' inherited interior strap'
+print('PASS 3 jacket interior linework regressions')

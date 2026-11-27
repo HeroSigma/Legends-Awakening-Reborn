@@ -90,3 +90,7 @@ Mudskip, outfit system/layout: https://github.com/mudskipper13/pokeemerald/tree/
 Background art/tilemap: `graphics/outfit_menu/main.png` and `main.bin` from that branch; indexed palette adapted to Legends Awakening. The menu code uses the native Expansion APIs and our existing save variables instead of importing the donor SaveBlock2 fields or older trainer-picture tables.
 
 Native tests: `tools/la_world/storage/test_outfit_box.py` plays both Mom gift paths, Bag and registered access, previews, apply/cancel, riding restrictions, repeated exits, Start-menu reopening, save/load and old-count packed-bag import. Existing colorway, intro and brown-outline regression suites are also retained. No user battery save is loaded for tests. Screenshots and validation are under `outfit-box/`.
+
+## Jacket linework polish
+
+Removed the inherited internal shirt/backpack outline from the added male vest and jacket fronts. Brown fabric shadows now use nearby garment/neutral shadow colors instead of solid black; outer contours, exposed skin and original source art are preserved. The shared correction regenerates all added outfit pairs, including field and battle poses. Native captures in `linework/` cover Red, Gold and blue Silver in the new-game palette selector. Asset regressions check all three jacket interiors; the Outfit Box and compiled walking/battle rendering suites also pass.

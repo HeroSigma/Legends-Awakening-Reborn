@@ -60,7 +60,11 @@ def clean_shadows(src,out,female,start):
    near=[(xx,yy) for yy in range(max(0,y-1),min(out.height,y+2)) for xx in range(max(0,x-1),min(out.width,x+2)) if (xx,yy)!=(x,y)]
    skin=any(before.getpixel(p) in [1,2,3] for p in near)
    hair=female and any(src.getpixel(p) in [7,8] for p in near)
-   if not skin and not hair:out.putpixel((x,y),15)
+   if not skin and not hair:
+    # An inherited brown fabric shadow is not a new black silhouette edge.
+    colors=[before.getpixel(p) for p in near]
+    shade=11 if any(n in [10,11] for n in colors) else 13 if any(n in [12,13] for n in colors) else 6
+    out.putpixel((x,y),shade)
  return out
 
 def finish_field_frame(src,out,female):
@@ -70,5 +74,13 @@ def finish_portrait(src,out,female,back):
  # Work per native 64x64 frame, keeping every original head pixel intact.
  for y in range(0,src.height,64):
   frame=clean_shadows(src.crop((0,y,src.width,y+64)),out.crop((0,y,out.width,y+64)),female,43 if back else 25)
+  if not female and not back:
+   # The old diagonal shirt/backpack strap crosses the interior of the new
+   # vest/jackets. Preserve the silhouette and exposed skin; remove only its
+   # inherited interior outline, not seams deliberately authored by an outfit.
+   for yy in range(28,37):
+    for xx in range(25,35):
+     if frame.getpixel((xx,yy))==15 and src.getpixel((xx,yy))==15:
+      frame.putpixel((xx,yy),10 if xx<33 else 11)
   out.paste(frame,(0,y))
  return out
