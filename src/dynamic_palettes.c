@@ -73,27 +73,35 @@ static const u8 *const sSkinNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRI
 static const u8 *const sColorNames[] = {COMPOUND_STRING("Original"),COMPOUND_STRING("Blue"),COMPOUND_STRING("Red"),COMPOUND_STRING("Violet"),COMPOUND_STRING("Gold"),COMPOUND_STRING("White"),COMPOUND_STRING("Charcoal"),COMPOUND_STRING("Pink"),COMPOUND_STRING("Navy"),COMPOUND_STRING("Cream"),COMPOUND_STRING("Crimson"),COMPOUND_STRING("Forest"),COMPOUND_STRING("Orange"),COMPOUND_STRING("Teal"),COMPOUND_STRING("Brown"),COMPOUND_STRING("Lilac")};
 static const u8 *const sLabels[] = {COMPOUND_STRING("Skin tone"),COMPOUND_STRING("Clothes"),COMPOUND_STRING("Accent"),COMPOUND_STRING("Style")};
 
-static const u8 *const sOutfitNames[] = {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph"), COMPOUND_STRING("Red style"), COMPOUND_STRING("Gold style"), COMPOUND_STRING("Blue style"), COMPOUND_STRING("Silver")};
-// Inspired colorways on the complete RS clothing cut. Palette choices override
-// either default independently; no imported rival head or face is substituted.
-static const u8 sStyleColors[PLAYER_OUTFIT_STYLE_COUNT][2] = {
-    {0,0}, {0,0}, {2,5}, {4,6}, {8,9}, {6,10},
+static const u8 *const sOutfitNames[2][PLAYER_OUTFIT_STYLE_COUNT] = {
+    {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph"), COMPOUND_STRING("Red vest")},
+    {COMPOUND_STRING("Emerald"), COMPOUND_STRING("Ruby/Sapph"), COMPOUND_STRING("Leaf")},
 };
+extern const u16 gOutfitClassicPal_Brendan[], gOutfitClassicPal_May[];
 u32 __attribute__((noinline, noclone)) PlayerOutfit_Get(void)
 {
     if (sInIntro) return sIntroOutfit;
     u32 saved = VarGet(VAR_LA_PLAYER_OUTFIT);
-    return saved > 0xC100 && saved < 0xC100 + PLAYER_OUTFIT_STYLE_COUNT ? saved - 0xC100 : 0;
+    if (saved == 0xC201) return 2;
+    // Retired color presets retain their RS base until a garment is chosen.
+    return saved >= 0xC101 && saved <= 0xC105 ? 1 : 0;
 }
 void PlayerOutfit_Set(u32 outfit)
 {
     if (outfit >= PLAYER_OUTFIT_STYLE_COUNT) outfit = 0;
     if (sInIntro) sIntroOutfit = outfit;
-    else VarSet(VAR_LA_PLAYER_OUTFIT, outfit ? 0xC100 + outfit : 0);
+    else VarSet(VAR_LA_PLAYER_OUTFIT, outfit == 2 ? 0xC201 : outfit == 1 ? 0xC101 : 0);
 }
 u32 PlayerOutfit_TrainerPic(u32 pic)
 {
-    if (!PlayerOutfit_Get()) return pic;
+    u32 style = PlayerOutfit_Get();
+    if (!style) return pic;
+    if (style == 2)
+    {
+        if (pic == TRAINER_PIC_BRENDAN || pic == TRAINER_PIC_RS_BRENDAN) return TRAINER_PIC_LA_AREN_RED_VEST;
+        if (pic == TRAINER_PIC_MAY || pic == TRAINER_PIC_RS_MAY) return TRAINER_PIC_LA_ARIA_LEAF;
+        return pic;
+    }
     if (pic == TRAINER_PIC_BRENDAN) return TRAINER_PIC_RS_BRENDAN;
     if (pic == TRAINER_PIC_MAY) return TRAINER_PIC_RS_MAY;
     return pic;
@@ -135,9 +143,6 @@ static const u16 *Build(const u16 *base, const u8 *skin, const u8 *outfit, const
 {
     u16 choice = DynamicPal_GetSelection();
     u32 tone = choice & 15, clothes = (choice >> 4) & 15, trim = (choice >> 8) & 15;
-    u32 style = PlayerOutfit_Get();
-    if (!clothes) clothes = sStyleColors[style][0];
-    if (!trim) trim = sStyleColors[style][1];
     if (!tone && !clothes && !trim) return base;
     CpuCopy16(base, sPalette, PLTT_SIZE_4BPP);
     if (tone) for (u32 i=0;i<skinCount;i++) sPalette[skin[i]] = sSkin[tone][i];
@@ -154,10 +159,10 @@ const u16 *DynamicPal_ObjectPalette(u16 tag, const u16 *base)
 {
     if (PlayerOutfit_Get())
     {
-        if (tag == OBJ_EVENT_PAL_TAG_AREN) base = gObjectEventPal_RubySapphireBrendan;
-        if (tag == OBJ_EVENT_PAL_TAG_ARIA) base = gObjectEventPal_RubySapphireMay;
+        if (tag == OBJ_EVENT_PAL_TAG_AREN) base = PlayerOutfit_Get() == 2 ? gOutfitClassicPal_Brendan : gObjectEventPal_RubySapphireBrendan;
+        if (tag == OBJ_EVENT_PAL_TAG_ARIA) base = PlayerOutfit_Get() == 2 ? gOutfitClassicPal_May : gObjectEventPal_RubySapphireMay;
         if (tag == OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER)
-            base = gSaveBlock2Ptr->playerGender == FEMALE ? gObjectEventPal_RubySapphireMay : gObjectEventPal_RubySapphireBrendan;
+            base = PlayerOutfit_Get() == 2 ? (gSaveBlock2Ptr->playerGender == FEMALE ? gOutfitClassicPal_May : gOutfitClassicPal_Brendan) : (gSaveBlock2Ptr->playerGender == FEMALE ? gObjectEventPal_RubySapphireMay : gObjectEventPal_RubySapphireBrendan);
     }
     if (tag == OBJ_EVENT_PAL_TAG_AREN || tag == OBJ_EVENT_PAL_TAG_ARIA || tag == OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER)
         return Standard(base);
@@ -166,8 +171,9 @@ const u16 *DynamicPal_ObjectPalette(u16 tag, const u16 *base)
 const u16 *DynamicPal_TrainerPalette(u32 pic, bool32 front)
 {
     bool32 player = pic == TRAINER_PIC_BRENDAN || pic == TRAINER_PIC_MAY
-        || pic == TRAINER_PIC_RS_BRENDAN || pic == TRAINER_PIC_RS_MAY;
-    u32 gender = pic == TRAINER_PIC_MAY || pic == TRAINER_PIC_RS_MAY;
+        || pic == TRAINER_PIC_RS_BRENDAN || pic == TRAINER_PIC_RS_MAY
+        || pic == TRAINER_PIC_LA_AREN_RED_VEST || pic == TRAINER_PIC_LA_ARIA_LEAF;
+    u32 gender = pic == TRAINER_PIC_MAY || pic == TRAINER_PIC_RS_MAY || pic == TRAINER_PIC_LA_ARIA_LEAF;
     if (player && (sInIntro || gender == gSaveBlock2Ptr->playerGender))
     {
         pic = PlayerOutfit_TrainerPic(pic);
@@ -222,7 +228,7 @@ static void DrawMenu(void)
     {
         u32 value = (choice >> (i*4)) & 15;
         AddTextPrinterParameterized4(win,FONT_SMALL,10,i*24,0,0,colors,TEXT_SKIP_DRAW,sLabels[i]);
-        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*24+12,0,0,colors,TEXT_SKIP_DRAW,i==3?sOutfitNames[PlayerOutfit_Get()]:i?sColorNames[value]:sSkinNames[value]);
+        AddTextPrinterParameterized4(win,FONT_NORMAL,16,i*24+12,0,0,colors,TEXT_SKIP_DRAW,i==3?sOutfitNames[gSaveBlock2Ptr->playerGender == FEMALE][PlayerOutfit_Get()]:i?sColorNames[value]:sSkinNames[value]);
         if (sMenu->cursor==i) AddTextPrinterParameterized4(win,FONT_NORMAL,0,i*24+12,0,0,colors,TEXT_SKIP_DRAW,COMPOUND_STRING(">"));
     }
     CopyWindowToVram(win,COPYWIN_FULL);

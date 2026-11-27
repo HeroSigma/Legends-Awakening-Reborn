@@ -362,6 +362,7 @@ const struct ObjectEventGraphicsInfo gOutfitRsInfo_MayRiding = {
 static const struct ObjectEventGraphicsInfo *GetPlayerOutfitGraphics(u16 graphicsId)
 {
     if (!PlayerOutfit_Get()) return NULL;
+    if (PlayerOutfit_Get() == 2) return GetClassicPlayerGraphics(graphicsId);
     switch (graphicsId)
     {
     case OBJ_EVENT_GFX_BRENDAN_NORMAL: return &gOutfitRsInfo_BrendanNormal;

@@ -1,3 +1,9 @@
+const u32 gTrainerFrontPic_ArenRedVest[] = INCGFX_U32("graphics/player_outfits/classic/brendan/front.png", ".4bpp.smol");
+const u8 gTrainerBackPic_ArenRedVest[] = INCGFX_U8("graphics/player_outfits/classic/brendan/back.png", ".4bpp");
+const u16 gTrainerPalette_ArenRedVest[] = INCGFX_U16("graphics/player_outfits/classic/brendan/front.png", ".gbapal");
+const u32 gTrainerFrontPic_AriaLeaf[] = INCGFX_U32("graphics/player_outfits/classic/may/front.png", ".4bpp.smol");
+const u8 gTrainerBackPic_AriaLeaf[] = INCGFX_U8("graphics/player_outfits/classic/may/back.png", ".4bpp");
+const u16 gTrainerPalette_AriaLeaf[] = INCGFX_U16("graphics/player_outfits/classic/may/front.png", ".gbapal");
 const u32 gTrainerFrontPic_LaPetrel[] = INCGFX_U32("graphics/trainers/front_pics/la_petrel.png", ".4bpp.smol");
 const u16 gTrainerPalette_LaPetrel[] = INCGFX_U16("graphics/trainers/palettes/la_petrel.pal", ".gbapal");
 const u32 gTrainerFrontPic_LaAriana[] = INCGFX_U32("graphics/trainers/front_pics/la_ariana.png", ".4bpp.smol");
@@ -848,6 +854,16 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     [TRAINER_PIC_HIKER] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_HyperClass0, gTrainerPalette_HyperClass0),
+    },
+    [TRAINER_PIC_LA_AREN_RED_VEST] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_ArenRedVest, gTrainerPalette_ArenRedVest),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_ArenRedVest, gTrainerPalette_ArenRedVest, sBackAnims_Hoenn),
+    },
+    [TRAINER_PIC_LA_ARIA_LEAF] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_AriaLeaf, gTrainerPalette_AriaLeaf),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_AriaLeaf, gTrainerPalette_AriaLeaf, sBackAnims_Hoenn),
     },
     [TRAINER_PIC_HYPER_RIVAL_BRENDAN] =
     {

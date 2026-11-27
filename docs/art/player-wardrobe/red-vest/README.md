@@ -18,3 +18,5 @@ save values and NPC rival palettes.
 Generated with the built-in image tool from a reference sheet containing original
 Aren/Aria fronts and Red's front as a clothing-only reference. No native art was
 replaced. Prompt is saved alongside this file.
+
+Later wardrobe decision: only Aren receives the Red vest. The Aria panel in this concept is superseded by a female-only Leaf outfit; see docs/features/player-outfits/classic for the native implementation.

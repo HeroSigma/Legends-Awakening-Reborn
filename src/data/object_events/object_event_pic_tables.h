@@ -4585,3 +4585,4 @@ static const struct SpriteFrameImage sPicTable_MayRiding[] = {
 };
 
 #include "player_outfit_frames.h"
+#include "player_classic_frames.h"

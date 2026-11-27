@@ -22,24 +22,21 @@ Three isolated native mGBA suites record the final ROM hash:
 
 The real user's save is never opened by these tests. Native renders were reviewed after correcting the sprite packing.
 
-## Character-inspired colorways
+## Actual gender-specific garments
 
-The Style row additionally offers Red style, Gold style, Blue style and Silver.
-These use the complete Ruby/Sapphire outfit cut with themed clothing/trim defaults;
-they are colorway presets, not newly drawn jackets or imported character sprites.
-Aren/Aria keep their own head, hair, face, and animation set. Colors default to
-red/white, gold/charcoal, navy/cream and charcoal/crimson respectively. Set Clothes
-and Accent to Original to see the theme defaults; explicit color choices override
-each independently. Cancel restores style and colors together.
+Style changes garment artwork. Aren's choices are Emerald, Ruby/Sapph and Red vest;
+Aria's choices are Emerald, Ruby/Sapph and Leaf. The classic style has dedicated
+front/back portraits and complete overworld sheets, built on original protagonist
+heads and poses. Red's open vest has separate panels and a white shirt center;
+Leaf's sleeveless top and skirt include a new flared hem silhouette. See classic/.
+The earlier Red/Gold/Blue/Silver color-only style entries are retired. Their signed
+save values 0xC102?0xC105 safely retain the RS base; the real gender-specific classic
+garment uses 0xC201. Existing Emerald and 0xC101 RS selections remain unchanged.
 
-Added palette choices: Navy, Cream, Crimson, Forest, Orange, Teal, Brown and Lilac.
-The existing 4-bit color fields accommodate all 16 values without expanding saves.
-Signed outfit values 0xC101?0xC105 select the five non-Emerald styles; invalid values
-still fall back to Emerald. Existing Ruby/Sapphire saves retain their selection.
+## Independent color choices
 
-Native validation: 222 colorway checks across both protagonists (all avatar state
-lookups, preserved identity palette entries, every color value, independent overrides,
-UI cycling in both directions, cancel, save/load and intro commitment), plus the
-existing 60 outfit checks and 16 introduction checks. Screenshots are under colorways/.
-Distinct Red/Gold jacket shapes and additional rival wardrobes still require new
-complete compatible sprite artwork and are not claimed as implemented by these presets.
+Clothes and Accent remain separate palette controls for any garment. Navy, Cream,
+Crimson, Forest, Orange, Teal, Brown and Lilac remain available alongside the
+original colors. All 16 values fit the original 4-bit fields without expanding saves.
+Original now means the chosen garment's own palette. Changing style preserves
+manual colors; cancellation restores both the previous garment and colors.

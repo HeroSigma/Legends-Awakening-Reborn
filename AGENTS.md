@@ -89,3 +89,12 @@ The roster in data/legends_character_aces.json records future appearances as wel
 as existing characters; version labels are planning references, not display names.
 Reserve flags 0x2B9–0x2BB for the Chimney Magma/Aqua/Rocket guards and variable
 0x40E3 (VAR_LA_CHIMNEY_GAUNTLET) for saved progress through their three battles.
+
+## Player wardrobes
+
+Style changes actual garments, not color presets. Keep separate male/female
+wardrobes: Aren has male-inspired outfits; Aria has female-inspired outfits.
+Preserve their own head, hair and face art. The first classic garment (0xC201 in
+VAR_LA_PLAYER_OUTFIT) is Red's vest for Aren and Leaf's top/skirt for Aria.
+Clothes and Accent remain independent color controls. Do not label palette-only
+variants as new outfit styles or swap full donor-character identities into players.

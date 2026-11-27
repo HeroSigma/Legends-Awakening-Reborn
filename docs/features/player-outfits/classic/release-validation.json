@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "classic_garment_checks": 60,
+  "packed_frame_and_battle_checks": 42,
+  "palette_and_migration_checks": 88,
+  "intro_checks": 16,
+  "legacy_rs_checks": 60,
+  "original_front_head_geometry_preserved": true,
+  "garment_topology_differs_from_original": true,
+  "user_save_loaded_by_tests": false,
+  "rom_sha256": "bea6e4329eccafc5df1d1ea64bb9f62adeae733bb3d37de1d0ab365598172b75"
+}

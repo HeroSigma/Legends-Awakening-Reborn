@@ -934,3 +934,4 @@ const u32 gObjectEventPic_BrendanRiding[] = INCBIN_U32("graphics/object_events/p
 const u32 gObjectEventPic_MayRiding[] = INCBIN_U32("graphics/object_events/pics/people/may/riding.4bpp");
 
 #include "player_outfit_graphics.h"
+#include "player_classic_graphics.h"
