@@ -100,3 +100,5 @@ Clothes and Accent remain independent color controls. Do not label palette-only
 variants as new outfit styles or swap full donor-character identities into players.
 
 The Johto-inspired wardrobe slot (0xC202) is Gold jacket for Aren and Lyra overalls for Aria. Keep real garment choices gender-specific and preserve original player heads/faces; never replace this with a palette-only style.
+
+The Silver/Kris wardrobe slot (0xC203) is Silver jacket for Aren and Kris cropped jacket/cycling shorts for Aria. Keep earlier garments available and colors independent.

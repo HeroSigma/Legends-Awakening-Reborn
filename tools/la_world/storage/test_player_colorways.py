@@ -14,7 +14,7 @@ for gender in [0,1]:
  invoke('DynamicPal_SetSelection',0xAB0)
  tag=c['OBJ_EVENT_PAL_TAG_ARIA' if gender else 'OBJ_EVENT_PAL_TAG_AREN'];base=symbols['gObjectEventPal_May' if gender else 'gObjectEventPal_Brendan']
  actual=pal(invoke('DynamicPal_ObjectPalette',tag,base))
- for style,saved in [(0,0),(1,0xC101),(2,0xC201),(3,0xC202)]:
+ for style,saved in [(0,0),(1,0xC101),(2,0xC201),(3,0xC202),(4,0xC203)]:
   invoke('VarSet',c['VAR_LA_PLAYER_OUTFIT'],saved)
   now=pal(invoke('DynamicPal_ObjectPalette',tag,base))
   check('independent_overrides_'+str((gender,style)),all(now[i]==actual[i] for i in [10,11,12,13]))

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "new_garment_checks": 60,
+  "new_packed_frames_and_battle_checks": 42,
+  "palette_and_migration_checks": 92,
+  "gold_lyra_regression_checks": 60,
+  "red_leaf_regression_checks": 60,
+  "intro_checks": 16,
+  "both_new_intro_choices_commit": true,
+  "original_front_and_all_eight_back_head_geometries_preserved": true,
+  "garment_topology_and_covered_sleeve_thigh_pixels_verified": true,
+  "real_user_save_loaded_by_tests": false,
+  "rom_sha256": "00dc42bce2c49002e2ac3b2baca0c2c95cb82f4d564a1b916993b6729b961724"
+}

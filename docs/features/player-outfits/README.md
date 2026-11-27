@@ -24,8 +24,8 @@ The real user's save is never opened by these tests. Native renders were reviewe
 
 ## Actual gender-specific garments
 
-Style changes garment artwork. Aren's choices are Emerald, Ruby/Sapph, Red vest and Gold;
-Aria's choices are Emerald, Ruby/Sapph, Leaf and Lyra. The classic style has dedicated
+Style changes garment artwork. Aren's choices are Emerald, Ruby/Sapph, Red vest, Gold and Silver;
+Aria's choices are Emerald, Ruby/Sapph, Leaf, Lyra and Kris. The classic style has dedicated
 front/back portraits and complete overworld sheets, built on original protagonist
 heads and poses. Red's open vest has separate panels and a white shirt center;
 Leaf's sleeveless top and skirt include a new flared hem silhouette. See classic/.
@@ -49,3 +49,11 @@ Aria. Both have separate native art in every player state and front/back battle
 portraits, preserving original heads and faces. Style index 3 uses saved value
 0xC202; the existing classic pair remains 0xC201. No color preset is relabeled as
 a garment. See johto/ for native renders and validation.
+
+## Silver / Kris garments
+
+Silver gives Aren a fitted dark jacket with a raised collar, closed front, red
+piping and ribbed waist trim. Kris gives Aria a cropped white jacket with puffed
+sleeves over a pink top and blue cycling shorts. This is a distinct garment slot,
+index 4 / saved value 0xC203, with full animation and front/back portrait sets.
+It does not replace Gold/Lyra or the earlier outfits. See crystal/ for validation.

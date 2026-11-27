@@ -936,3 +936,4 @@ const u32 gObjectEventPic_MayRiding[] = INCBIN_U32("graphics/object_events/pics/
 #include "player_outfit_graphics.h"
 #include "player_classic_graphics.h"
 #include "player_johto_graphics.h"
+#include "player_crystal_graphics.h"

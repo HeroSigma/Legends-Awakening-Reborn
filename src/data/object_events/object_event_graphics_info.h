@@ -10402,4 +10402,5 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayRiding = {
 
 #include "player_classic_info.h"
 #include "player_johto_info.h"
+#include "player_crystal_info.h"
 #include "player_outfit_info.h"
