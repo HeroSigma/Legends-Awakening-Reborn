@@ -17,4 +17,6 @@ const u16 *DynamicPal_ObjectPalette(u16 tag, const u16 *base);
 const u16 *DynamicPal_TrainerPalette(u32 trainerPic, bool32 front);
 const u16 *DynamicPal_MugshotPalette(const u16 *base, u32 gender);
 void DynamicPal_ShowMenu(u8 taskId, TaskFunc done, TaskFunc cancel, u8 previewSprite, bool32 field);
+const u8 *PlayerOutfit_Name(u32 gender, u32 style);
+const u8 *DynamicPal_ColorName(u32 value, bool32 skin);
 #endif

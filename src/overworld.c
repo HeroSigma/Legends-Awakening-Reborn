@@ -1,4 +1,5 @@
 #include "global.h"
+#include "outfit_box.h"
 #include "full_sheet_stream.h"
 #include "legends_ashes.h"
 #include "overworld.h"
@@ -2167,6 +2168,8 @@ static void FieldCB_FadeTryShowMapPopup(void)
 void CB2_ContinueSavedGame(void)
 {
     u8 trainerHillMapId;
+
+    OutfitBox_EnsureOwned();
 
     FieldClearVBlankHBlankCallbacks();
     StopMapMusic();

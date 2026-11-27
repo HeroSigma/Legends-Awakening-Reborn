@@ -1,6 +1,8 @@
 #include "global.h"
 #include "dexnav.h"
 #include "item_use.h"
+#include "outfit_box.h"
+#include "pokeride.h"
 #include "battle.h"
 #include "battle_util.h"
 #include "battle_anim.h"
@@ -1620,6 +1622,24 @@ void ItemUseOutOfBattle_RiftTracker(u8 taskId)
     else
     {
         sItemUseOnFieldCB = Task_UseRiftTracker;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+}
+
+static void Task_OpenOutfitBox(u8 taskId)
+{
+    if (gPaletteFade.active) return;
+    DestroyTask(taskId);
+    OutfitBox_Open();
+}
+void ItemUseOutOfBattle_OutfitBox(u8 taskId)
+{
+    if (MenuHelpers_IsLinkActive() || PokeRide_IsActive()
+        || (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_BIKE | PLAYER_AVATAR_FLAG_SURFING | PLAYER_AVATAR_FLAG_UNDERWATER)))
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].data[3]);
+    else
+    {
+        sItemUseOnFieldCB = Task_OpenOutfitBox;
         SetUpItemUseOnFieldCallback(taskId);
     }
 }

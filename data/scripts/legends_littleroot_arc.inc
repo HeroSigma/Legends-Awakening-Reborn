@@ -270,6 +270,7 @@ LegendsArc_ElaraShoes::
     message LittlerootTown_Text_SwitchShoesWithRunningShoes
     waitfanfare
     setflag FLAG_RECEIVED_RUNNING_SHOES
+    call LegendsArc_GiveOutfitBox
     msgbox LegendsArc_Text_ElaraTakeCare, MSGBOX_DEFAULT
     setflag FLAG_LA_ELARA_CAELUM_FAREWELL
     setvar VAR_LA_LITTLEROOT_ARC, 5
@@ -612,3 +613,29 @@ LegendsArc_Text_MayUnconventional:
     .string "{COLOR RED}Dad let you choose {STR_VAR_1}?\pThat's different! I want to see\nwhat you two can do together.$"
 LegendsArc_Text_PlayerUnconventional:
     .string "{COLOR LIGHT_BLUE}Maybe it's not the usual choice.\pBut we chose each other.\nThat's a good place to start.$"
+
+LegendsArc_GiveOutfitBox::
+    checkitem ITEM_OUTFIT_BOX
+    goto_if_eq VAR_RESULT, TRUE, LegendsArc_OutfitBoxDone
+    setspeaker SP_NAME_MOM
+    msgbox LegendsArc_Text_OutfitBox, MSGBOX_DEFAULT
+    setspeaker SP_NAME_NONE
+    giveitem ITEM_OUTFIT_BOX
+    setspeaker SP_NAME_PLAYER
+    msgbox LegendsArc_Text_PlayerOutfitBox, MSGBOX_DEFAULT
+    setspeaker SP_NAME_MOM
+    msgbox LegendsArc_Text_OutfitBoxReply, MSGBOX_DEFAULT
+LegendsArc_OutfitBoxDone:
+    return
+
+LegendsArc_Text_OutfitBox:
+    .string "And take this OUTFIT BOX. I packed\n"
+    .string "a few changes of clothes for you.\p"
+    .string "Open it from your BAG whenever\n"
+    .string "you want to change your look.$"
+LegendsArc_Text_PlayerOutfitBox:
+    .string "You fit all of that in here?\n"
+    .string "Thanks, Mom. I'll look after it.$"
+LegendsArc_Text_OutfitBoxReply:
+    .string "Just try to come home with something\n"
+    .string "that isn't covered in mud!$"

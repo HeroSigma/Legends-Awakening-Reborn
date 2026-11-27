@@ -318,3 +318,12 @@ void DynamicPal_ShowMenu(u8 taskId, TaskFunc done, TaskFunc cancel, u8 previewSp
     DrawMenu();
     gTasks[taskId].func=Task_DynamicPalMenu;
 }
+
+const u8 *PlayerOutfit_Name(u32 gender, u32 style)
+{
+    return sOutfitNames[gender == FEMALE][style < PLAYER_OUTFIT_STYLE_COUNT ? style : 0];
+}
+const u8 *DynamicPal_ColorName(u32 value, bool32 skin)
+{
+    return skin ? sSkinNames[value % DYNAMIC_PAL_SKIN_COUNT] : sColorNames[value % DYNAMIC_PAL_COLOR_COUNT];
+}

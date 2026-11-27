@@ -21,6 +21,15 @@ const u8 gQuestionMarksItemName[] = _("????????");
 
 const struct ItemInfo gItemsInfo[] =
 {
+    [ITEM_OUTFIT_BOX] = {
+        .name = ITEM_NAME("Outfit Box"),
+        .price = 0,
+        .description = COMPOUND_STRING("A portable wardrobe.\nChange your outfit\nand personal colors."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS, .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_OutfitBox,
+        .iconPic = gItemIcon_TMCase, .iconPalette = gItemIconPalette_TMCase,
+    },
     [ITEM_RIFT_TRACKER] = {
         .name = ITEM_NAME("Rift Tracker"),
         .price = 0,

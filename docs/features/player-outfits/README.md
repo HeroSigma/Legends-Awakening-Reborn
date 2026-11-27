@@ -69,3 +69,24 @@ The original field art shares palette index 4 between skin outlines and brown ga
 Reference: https://github.com/mudskipper13/pokeemerald/tree/feature/outfits-system-rhh
 
 Its outfit registry, unlock rules, animated field previews and front/back trainer previews are useful candidates for a later wardrobe-menu upgrade. The sample defines Emerald and Ruby/Sapphire outfits and aliases several missing RS actions to Emerald. It expects authored graphics; it does not repair garment masks or supply the new character-inspired costumes. A port must adapt its SaveBlock2 outfit state and older trainer-picture APIs to our existing saved variables, dynamic colors and unified trainer pictures. This correction does not transplant that framework.
+
+## Portable Outfit Box
+
+Mom gives the reusable Outfit Box with the Running Shoes in both the current Elara farewell and the original fallback gift path. It is a Key Item, supports registered-item access, and can be used on foot. The PC appearance option remains a convenience; it is no longer required. Continuing a save that already received the shoes adds the box if missing, without replaying scenes. No saved item IDs or player-outfit values were renumbered. The existing expanded-bag loader accepts the previous packed item count and zero-fills the new item.
+
+The full-screen menu adapts Mudskip's outfit layout and preview design, re-themed in teal, using our existing gender-specific wardrobe and dynamic palettes. Front/back trainer pictures and four visible overworld previews show the selected colors. The selected overworld avatar walks; moving beyond the fourth entry scrolls the strip.
+
+- Up/Down: browse outfits.
+- L/R: switch between outfits and color controls.
+- In colors, Up/Down selects Skin, Clothes or Accent; Left/Right changes it.
+- A/Start: wear and save the previewed combination.
+- B: leave colors, then cancel and return without applying.
+
+Changing clothes is unavailable while cycling, surfing, diving, riding or linked. Both Bag and registered access return through the normal field rebuild, restoring player sprites, palettes and controls.
+
+### Credits and validation
+
+Mudskip, outfit system/layout: https://github.com/mudskipper13/pokeemerald/tree/feature/outfits-system-rhh
+Background art/tilemap: `graphics/outfit_menu/main.png` and `main.bin` from that branch; indexed palette adapted to Legends Awakening. The menu code uses the native Expansion APIs and our existing save variables instead of importing the donor SaveBlock2 fields or older trainer-picture tables.
+
+Native tests: `tools/la_world/storage/test_outfit_box.py` plays both Mom gift paths, Bag and registered access, previews, apply/cancel, riding restrictions, repeated exits, Start-menu reopening, save/load and old-count packed-bag import. Existing colorway, intro and brown-outline regression suites are also retained. No user battery save is loaded for tests. Screenshots and validation are under `outfit-box/`.

@@ -69,6 +69,7 @@ enum ItemTMHMOrEvolutionStone
     ITEM_IS_EVOLUTION_STONE,
 };
 
+void ItemUseOutOfBattle_OutfitBox(u8 taskId);
 void ItemUseOutOfBattle_Pokevial(u8 taskId);
 
 void ItemUseOutOfBattle_RiftTracker(u8 taskId);

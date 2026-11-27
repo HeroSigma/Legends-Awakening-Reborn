@@ -1,0 +1,342 @@
+{
+  "rom_sha256": "c4ab0e9ac19c6a7458c7b85f8cfc57af498f09fe898d60260d83171047737bdf",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_not_before_shoes",
+      "passed": true
+    },
+    {
+      "test": "g0_migration_gated",
+      "passed": true
+    },
+    {
+      "test": "g0_mom_gives_shoes",
+      "passed": true
+    },
+    {
+      "test": "g0_mom_gives_box",
+      "passed": true
+    },
+    {
+      "test": "g0_key_pocket",
+      "passed": true
+    },
+    {
+      "test": "g0_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "g0_legacy_recovery",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_browse1_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g0_browse2_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g0_browse3_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g0_browse4_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g0_colors_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g0_cancel_style",
+      "passed": true
+    },
+    {
+      "test": "g0_cancel_colors",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_apply_style",
+      "passed": true
+    },
+    {
+      "test": "g0_apply_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_bag_exit_style",
+      "passed": true
+    },
+    {
+      "test": "g0_field_unlocked",
+      "passed": true
+    },
+    {
+      "test": "g0_start_no_restart",
+      "passed": true
+    },
+    {
+      "test": "g0_start_exit_unlocked",
+      "passed": true
+    },
+    {
+      "test": "g0_blocked_PLAYER_AVATAR_FLAG_MACH_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g0_blocked_PLAYER_AVATAR_FLAG_SURFING",
+      "passed": true
+    },
+    {
+      "test": "g0_blocked_PLAYER_AVATAR_FLAG_UNDERWATER",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_reopen0",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_reopen1",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_reopen2",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g0_reopen3",
+      "passed": true
+    },
+    {
+      "test": "g0_save",
+      "passed": true
+    },
+    {
+      "test": "g0_load",
+      "passed": true
+    },
+    {
+      "test": "g0_saved_style",
+      "passed": true
+    },
+    {
+      "test": "g0_saved_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_legacy_inventory",
+      "passed": true
+    },
+    {
+      "test": "g0_legacy_new_item_zero",
+      "passed": true
+    },
+    {
+      "test": "g0_legacy_box_granted",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_not_before_shoes",
+      "passed": true
+    },
+    {
+      "test": "g1_migration_gated",
+      "passed": true
+    },
+    {
+      "test": "g1_mom_gives_shoes",
+      "passed": true
+    },
+    {
+      "test": "g1_mom_gives_box",
+      "passed": true
+    },
+    {
+      "test": "g1_key_pocket",
+      "passed": true
+    },
+    {
+      "test": "g1_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "g1_legacy_recovery",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_browse1_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g1_browse2_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g1_browse3_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g1_browse4_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g1_colors_uncommitted",
+      "passed": true
+    },
+    {
+      "test": "g1_cancel_style",
+      "passed": true
+    },
+    {
+      "test": "g1_cancel_colors",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_apply_style",
+      "passed": true
+    },
+    {
+      "test": "g1_apply_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_bag_exit_style",
+      "passed": true
+    },
+    {
+      "test": "g1_field_unlocked",
+      "passed": true
+    },
+    {
+      "test": "g1_start_no_restart",
+      "passed": true
+    },
+    {
+      "test": "g1_start_exit_unlocked",
+      "passed": true
+    },
+    {
+      "test": "g1_blocked_PLAYER_AVATAR_FLAG_MACH_BIKE",
+      "passed": true
+    },
+    {
+      "test": "g1_blocked_PLAYER_AVATAR_FLAG_SURFING",
+      "passed": true
+    },
+    {
+      "test": "g1_blocked_PLAYER_AVATAR_FLAG_UNDERWATER",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_reopen0",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_reopen1",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_reopen2",
+      "passed": true
+    },
+    {
+      "test": "registered_item_opens",
+      "passed": true
+    },
+    {
+      "test": "g1_reopen3",
+      "passed": true
+    },
+    {
+      "test": "g1_save",
+      "passed": true
+    },
+    {
+      "test": "g1_load",
+      "passed": true
+    },
+    {
+      "test": "g1_saved_style",
+      "passed": true
+    },
+    {
+      "test": "g1_saved_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_legacy_inventory",
+      "passed": true
+    },
+    {
+      "test": "g1_legacy_new_item_zero",
+      "passed": true
+    },
+    {
+      "test": "g1_legacy_box_granted",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}
