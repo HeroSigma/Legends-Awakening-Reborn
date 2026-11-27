@@ -9758,7 +9758,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterBrendan = 
  .affineAnims = gDummySpriteAffineAnimTable,
 };
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaRosterMay = {
- .tileTag = TAG_NONE, .paletteTag = 0xDB40,
+ .tileTag = TAG_NONE, .paletteTag = 0xDB80,
  .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
  .size = 256, .width = 16, .height = 32,
  .paletteSlot = 5, .shadowSize = 1, .inanimate = FALSE,

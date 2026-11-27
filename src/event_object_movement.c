@@ -606,6 +606,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 #include "data/object_events/hyper_palettes.inc"
 /* LA_NPC_ROSTER_PALETTES_BEGIN */
     {gObjectEventPal_LaRoster00, 0xDB40},
+    {gObjectEventPal_SapphireMay, 0xDB80},
     {gObjectEventPal_LaRoster01, 0xDB41},
     {gObjectEventPal_LaRoster02, 0xDB42},
     {gObjectEventPal_LaRoster03, 0xDB43},

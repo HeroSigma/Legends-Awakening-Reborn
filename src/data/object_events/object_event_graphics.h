@@ -846,6 +846,7 @@ const u32 gObjectEventPic_LaRosterBlue[] = INCGFX_U32("graphics/object_events/pi
 const u16 gObjectEventPal_LaRoster02[] = INCBIN_U16("graphics/object_events/palettes/la_roster_02.gbapal");
 const u32 gObjectEventPic_LaRosterGreen[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/green.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u32 gObjectEventPic_LaRosterBrendan[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/brendan.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gObjectEventPal_SapphireMay[] = INCGFX_U16("graphics/object_events/pics/people/la_roster/may.png", ".gbapal");
 const u32 gObjectEventPic_LaRosterMay[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/may.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u16 gObjectEventPal_LaRoster03[] = INCBIN_U16("graphics/object_events/palettes/la_roster_03.gbapal");
 const u32 gObjectEventPic_LaRosterBirch[] = INCGFX_U32("graphics/object_events/pics/people/la_roster/birch.png", ".4bpp", "-mwidth 2 -mheight 4");
