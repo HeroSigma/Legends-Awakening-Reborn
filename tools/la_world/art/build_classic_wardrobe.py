@@ -13,30 +13,10 @@ def palette(im, female):
  im.putpalette(p)
  return im
 
-def skin_face(im):
- todo={(x,y) for y in range(im.height) for x in range(im.width) if im.getpixel((x,y)) in [1,2,3,4]};groups=[]
- while todo:
-  seed=todo.pop();group={seed};stack=[seed]
-  while stack:
-   x,y=stack.pop()
-   for n in [(x-1,y),(x+1,y),(x,y-1),(x,y+1)]:
-    if n in todo:todo.remove(n);group.add(n);stack.append(n)
-  xs=[x for x,y in group];ys=[y for x,y in group]
-  if max(xs)-min(xs)>=2 and max(ys)-min(ys)>=2:groups.append(group)
- return max(groups,key=len) if groups else None
+from wardrobe_pixels import skin_face, garment_pose, finish_field_frame, finish_portrait
 
 def field_frame(im, female, swimming=False):
- src=im.copy();face=skin_face(src)
- occupied=[(x,y) for y in range(im.height) for x in range(im.width) if src.getpixel((x,y))]
- if not occupied:return im
- if face:
-  cx=round(sum(x for x,y in face)/len(face));chest=max(y for x,y in face)+1
-  face_width=max(x for x,y in face)-min(x for x,y in face)+1
- else:
-  cx=round((min(x for x,y in occupied)+max(x for x,y in occupied))/2);chest=max(y for x,y in occupied)-7;face_width=0
- chest=min(chest,im.height-5)
- cloth_x=[x for y in range(max(0,chest),min(im.height,chest+3)) for x in range(max(0,cx-5),min(im.width,cx+6)) if src.getpixel((x,y)) in [10,11,12,13]]
- if cloth_x:cx=round((min(cloth_x)+max(cloth_x))/2)
+ src=im.copy();cx,chest,face_width=garment_pose(src)
  # Garment panels replace the original chest pattern, including its diagonal sash.
  for y in range(max(0,chest),min(im.height,chest+4)):
   for x in range(max(0,cx-3),min(im.width,cx+4)):
@@ -54,7 +34,7 @@ def field_frame(im, female, swimming=False):
    for x in range(max(0,cx-half),min(im.width,cx+half+1)):
     if src.getpixel((x,y)) in [7,8] and y<chest+4:continue
     im.putpixel((x,y),15 if abs(x-cx)==half or row==5 else (12 if x<cx+2 else 13))
- return im
+ return finish_field_frame(src,im,female)
 
 def field_sheet(src, female, width=32, swimming=False):
  out=src.copy()
@@ -104,7 +84,7 @@ def portrait(src,female,back=False):
    # Pockets and stitch lines are garment pixels, not a global recolor.
    for x in [24,25,32,33]:
     if src.getpixel((x,34)) not in [0,1,2,3,4,15]:out.putpixel((x,34),11)
- return palette(out,female)
+ return palette(finish_portrait(src,out,female,back),female)
 
 for name,female in [('brendan',False),('may',True)]:
  dest=OUT/name;dest.mkdir(parents=True,exist_ok=True)

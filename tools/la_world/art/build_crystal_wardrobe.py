@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw
 R=Path(__file__).resolve().parents[3]
 ns={"__file__":str(R/"tools/la_world/art/build_classic_wardrobe.py")};exec(compile((R/'tools/la_world/art/build_classic_wardrobe.py').read_text().split("\nfor name,female in")[0],'garment_helpers','exec'),ns)
 skin_face=ns['skin_face']
+garment_pose=ns['garment_pose'];finish_field_frame=ns['finish_field_frame'];finish_portrait=ns['finish_portrait']
 OUT=R/'graphics/player_outfits/crystal'
 def palette(im,female):
  p=im.getpalette();colors=[(246,246,255),(172,180,205),(213,82,148),(82,106,189)] if female else [(49,49,66),(16,24,41),(197,49,74),(115,24,49)]
@@ -11,13 +12,7 @@ def palette(im,female):
  im.putpalette(p);return im
 
 def frame(src,female):
- out=src.copy();face=skin_face(src);occupied=[(x,y) for y in range(32) for x in range(src.width) if src.getpixel((x,y))]
- if not occupied:return out
- if face:cx=round(sum(x for x,y in face)/len(face));chest=max(y for x,y in face)+1;fw=max(x for x,y in face)-min(x for x,y in face)+1
- else:cx=round((min(x for x,y in occupied)+max(x for x,y in occupied))/2);chest=max(y for x,y in occupied)-7;fw=0
- chest=min(chest,27)
- cloth=[x for y in range(max(0,chest),min(32,chest+3)) for x in range(max(0,cx-5),min(src.width,cx+6)) if src.getpixel((x,y)) in [10,11,12,13]]
- if cloth:cx=round((min(cloth)+max(cloth))/2)
+ out=src.copy();cx,chest,fw=garment_pose(src)
  for y in range(max(0,chest),min(32,chest+5)):
   for x in range(max(0,cx-4),min(src.width,cx+5)):
    n=src.getpixel((x,y))
@@ -37,7 +32,7 @@ def frame(src,female):
     if src.getpixel((x,y)) in [1,2,3,4,5,6]:out.putpixel((x,y),13 if x<=cx else 6)
  elif fw>=6 and chest+3<32 and 0<=cx+2<src.width:
   if src.getpixel((cx+2,chest+3)) not in [0,15]:out.putpixel((cx+2,chest+3),14)
- return out
+ return finish_field_frame(src,out,female)
 
 def sheet(src,female,width):
  out=src.copy()
@@ -101,7 +96,7 @@ def portrait(src,female,back):
      if sleeves.getpixel((x,y)) and n in [1,2,3,4,5,6,7,8,10,11,12,13]:out.putpixel((x,y),10 if x%3 else 11)
    for x in [32,34]:
     if src.getpixel((x,36)) not in [0,1,2,3,4,15]:out.putpixel((x,36),14)
- return palette(out,female)
+ return palette(finish_portrait(src,out,female,back),female)
 
 for name,female in [('brendan',False),('may',True)]:
  dest=OUT/name;dest.mkdir(parents=True,exist_ok=True);source=R/f'graphics/object_events/pics/people/{name}'

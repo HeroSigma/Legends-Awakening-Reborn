@@ -57,3 +57,15 @@ piping and ribbed waist trim. Kris gives Aria a cropped white jacket with puffed
 sleeves over a pink top and blue cycling shorts. This is a distinct garment slot,
 index 4 / saved value 0xC203, with full animation and front/back portrait sets.
 It does not replace Gold/Lyra or the earlier outfits. See crystal/ for validation.
+
+## New-outfit brown-outline correction
+
+The original field art shares palette index 4 between skin outlines and brown garment/boot outlines. New costume masks now separate exposed skin from those clothing outlines. Back-facing arms no longer act as face anchors, and narrow avatar torsos keep their native center. All three added outfit pairs are regenerated across field poses and trainer pictures; original Emerald and Ruby/Sapphire source art is untouched.
+
+`test_wardrobe_color_masks.py` checks rear-facing anchors, isolated brown outlines and the Red vest back panel. Native wardrobe and rendering tests cover the compiled assets and palette selection.
+
+### Mudskip framework assessment
+
+Reference: https://github.com/mudskipper13/pokeemerald/tree/feature/outfits-system-rhh
+
+Its outfit registry, unlock rules, animated field previews and front/back trainer previews are useful candidates for a later wardrobe-menu upgrade. The sample defines Emerald and Ruby/Sapphire outfits and aliases several missing RS actions to Emerald. It expects authored graphics; it does not repair garment masks or supply the new character-inspired costumes. A port must adapt its SaveBlock2 outfit state and older trainer-picture APIs to our existing saved variables, dynamic colors and unified trainer pictures. This correction does not transplant that framework.
