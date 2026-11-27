@@ -670,6 +670,9 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
             u32 pic = PlayerOutfit_TrainerPic(gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_PIC_MAY : TRAINER_PIC_BRENDAN);
             struct CompressedSpriteSheet sheet = {GetTrainerFrontPicData(pic), 0x800, TAG_MUGSHOT};
             FreeSpriteTilesByTag(TAG_MUGSHOT);
+            // An already-registered tag returns its slot without loading new
+            // colors. Replace the original portrait palette with the outfit's.
+            FreeSpritePaletteByTag(TAG_MUGSHOT);
             LoadCompressedSpriteSheet(&sheet);
             LoadSpritePaletteWithTag(DynamicPal_TrainerPalette(pic, TRUE), TAG_MUGSHOT);
         }

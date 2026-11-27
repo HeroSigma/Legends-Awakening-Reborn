@@ -1,0 +1,502 @@
+{
+  "rom_sha256": "031c84c0eb29191f6e4ba5771d953053ebc0574460093b029c663fd09ebc7d22",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style0_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style1_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style2_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style3_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g0_style4_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style0_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style1_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style2_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style3_colors121_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors000_continue_to_field",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_saved",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_loaded_style",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_loaded_colors",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_palette_slot",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_exact_outfit_palette",
+      "passed": true
+    },
+    {
+      "test": "g1_style4_colors121_continue_to_field",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}

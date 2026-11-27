@@ -94,3 +94,9 @@ Native tests: `tools/la_world/storage/test_outfit_box.py` plays both Mom gift pa
 ## Jacket linework polish
 
 Removed the inherited internal shirt/backpack outline from the added male vest and jacket fronts. Brown fabric shadows now use nearby garment/neutral shadow colors instead of solid black; outer contours, exposed skin and original source art are preserved. The shared correction regenerates all added outfit pairs, including field and battle poses. Native captures in `linework/` cover Red, Gold and blue Silver in the new-game palette selector. Asset regressions check all three jacket interiors; the Outfit Box and compiled walking/battle rendering suites also pass.
+
+## Continue portrait palette correction
+
+The Continue screen previously registered the original mugshot palette before replacing its tiles with the saved outfit. Loading the same palette tag again returned the old slot without replacing its colors. The outfit path now frees that tag before loading the matching trainer palette. Original Emerald mugshots retain their existing palette path.
+
+`test_continue_outfits.py` checks all five styles for both genders with original/custom colors, using actual saves, soft resets, exact loaded OBJ palette comparisons and normal Continue-to-field transitions. Native screenshots and validation are under `continue/`. User saves are never loaded by these tests.
