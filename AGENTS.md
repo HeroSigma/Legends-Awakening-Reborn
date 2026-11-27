@@ -98,3 +98,5 @@ Preserve their own head, hair and face art. The first classic garment (0xC201 in
 VAR_LA_PLAYER_OUTFIT) is Red's vest for Aren and Leaf's top/skirt for Aria.
 Clothes and Accent remain independent color controls. Do not label palette-only
 variants as new outfit styles or swap full donor-character identities into players.
+
+The Johto-inspired wardrobe slot (0xC202) is Gold jacket for Aren and Lyra overalls for Aria. Keep real garment choices gender-specific and preserve original player heads/faces; never replace this with a palette-only style.

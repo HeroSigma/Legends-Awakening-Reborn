@@ -363,6 +363,7 @@ static const struct ObjectEventGraphicsInfo *GetPlayerOutfitGraphics(u16 graphic
 {
     if (!PlayerOutfit_Get()) return NULL;
     if (PlayerOutfit_Get() == 2) return GetClassicPlayerGraphics(graphicsId);
+    if (PlayerOutfit_Get() == 3) return GetJohtoPlayerGraphics(graphicsId);
     switch (graphicsId)
     {
     case OBJ_EVENT_GFX_BRENDAN_NORMAL: return &gOutfitRsInfo_BrendanNormal;

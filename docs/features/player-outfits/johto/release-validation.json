@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_garment_checks": 60,
+  "new_packed_frames_and_battle_checks": 42,
+  "palette_and_migration_checks": 90,
+  "red_leaf_regression_checks": 60,
+  "intro_checks": 16,
+  "new_intro_garment_commit_both_genders": true,
+  "original_front_head_geometry_preserved": true,
+  "actual_garment_topology_verified": true,
+  "real_user_save_loaded_by_tests": false,
+  "rom_sha256": "ac175eaafd76932642879e9e57bdd5cdf456126ab265b46b543595ac7e82d504"
+}

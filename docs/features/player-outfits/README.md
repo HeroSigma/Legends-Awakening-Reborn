@@ -24,8 +24,8 @@ The real user's save is never opened by these tests. Native renders were reviewe
 
 ## Actual gender-specific garments
 
-Style changes garment artwork. Aren's choices are Emerald, Ruby/Sapph and Red vest;
-Aria's choices are Emerald, Ruby/Sapph and Leaf. The classic style has dedicated
+Style changes garment artwork. Aren's choices are Emerald, Ruby/Sapph, Red vest and Gold;
+Aria's choices are Emerald, Ruby/Sapph, Leaf and Lyra. The classic style has dedicated
 front/back portraits and complete overworld sheets, built on original protagonist
 heads and poses. Red's open vest has separate panels and a white shirt center;
 Leaf's sleeveless top and skirt include a new flared hem silhouette. See classic/.
@@ -40,3 +40,12 @@ Crimson, Forest, Orange, Teal, Brown and Lilac remain available alongside the
 original colors. All 16 values fit the original 4-bit fields without expanding saves.
 Original now means the chosen garment's own palette. Changing style preserves
 manual colors; cancellation restores both the previous garment and colors.
+
+## Johto-inspired garments
+
+Gold adds a long-sleeved jacket with a dark inset and zipper for Aren. Lyra adds
+shoulder straps, buttons, a bib and divided overall shorts over a red blouse for
+Aria. Both have separate native art in every player state and front/back battle
+portraits, preserving original heads and faces. Style index 3 uses saved value
+0xC202; the existing classic pair remains 0xC201. No color preset is relabeled as
+a garment. See johto/ for native renders and validation.

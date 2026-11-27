@@ -1,3 +1,9 @@
+const u32 gTrainerFrontPic_ArenGold[] = INCGFX_U32("graphics/player_outfits/johto/brendan/front.png", ".4bpp.smol");
+const u8 gTrainerBackPic_ArenGold[] = INCGFX_U8("graphics/player_outfits/johto/brendan/back.png", ".4bpp");
+const u16 gTrainerPalette_ArenGold[] = INCGFX_U16("graphics/player_outfits/johto/brendan/front.png", ".gbapal");
+const u32 gTrainerFrontPic_AriaLyra[] = INCGFX_U32("graphics/player_outfits/johto/may/front.png", ".4bpp.smol");
+const u8 gTrainerBackPic_AriaLyra[] = INCGFX_U8("graphics/player_outfits/johto/may/back.png", ".4bpp");
+const u16 gTrainerPalette_AriaLyra[] = INCGFX_U16("graphics/player_outfits/johto/may/front.png", ".gbapal");
 const u32 gTrainerFrontPic_ArenRedVest[] = INCGFX_U32("graphics/player_outfits/classic/brendan/front.png", ".4bpp.smol");
 const u8 gTrainerBackPic_ArenRedVest[] = INCGFX_U8("graphics/player_outfits/classic/brendan/back.png", ".4bpp");
 const u16 gTrainerPalette_ArenRedVest[] = INCGFX_U16("graphics/player_outfits/classic/brendan/front.png", ".gbapal");
@@ -864,6 +870,16 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_AriaLeaf, gTrainerPalette_AriaLeaf),
         .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_AriaLeaf, gTrainerPalette_AriaLeaf, sBackAnims_Hoenn),
+    },
+    [TRAINER_PIC_LA_AREN_GOLD] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_ArenGold, gTrainerPalette_ArenGold),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_ArenGold, gTrainerPalette_ArenGold, sBackAnims_Hoenn),
+    },
+    [TRAINER_PIC_LA_ARIA_LYRA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_AriaLyra, gTrainerPalette_AriaLyra),
+        .backPic = TRAINER_BACK_PIC(4, gTrainerBackPic_AriaLyra, gTrainerPalette_AriaLyra, sBackAnims_Hoenn),
     },
     [TRAINER_PIC_HYPER_RIVAL_BRENDAN] =
     {
