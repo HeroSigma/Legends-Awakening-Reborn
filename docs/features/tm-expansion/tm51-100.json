@@ -1,0 +1,502 @@
+[
+  {
+    "tm": 51,
+    "move": "ROOST",
+    "base_price": 9000,
+    "description": [
+      "Restores half HP.",
+      "Temporarily removes",
+      "the Flying type."
+    ]
+  },
+  {
+    "tm": 52,
+    "move": "FOCUS_BLAST",
+    "base_price": 10000,
+    "description": [
+      "A powerful blast",
+      "that may lower the",
+      "foe's Sp. Def."
+    ]
+  },
+  {
+    "tm": 53,
+    "move": "ENERGY_BALL",
+    "base_price": 8000,
+    "description": [
+      "A ball of nature's",
+      "power. May lower",
+      "the foe's Sp. Def."
+    ]
+  },
+  {
+    "tm": 54,
+    "move": "FALSE_SWIPE",
+    "base_price": 4000,
+    "description": [
+      "An attack that",
+      "always leaves the",
+      "foe with at least 1 HP."
+    ]
+  },
+  {
+    "tm": 55,
+    "move": "SCALD",
+    "base_price": 10000,
+    "description": [
+      "Scalding water that",
+      "may leave the foe",
+      "with a burn."
+    ]
+  },
+  {
+    "tm": 56,
+    "move": "KNOCK_OFF",
+    "base_price": 15000,
+    "description": [
+      "Knocks away the",
+      "foe's held item for",
+      "extra damage."
+    ]
+  },
+  {
+    "tm": 57,
+    "move": "CHARGE_BEAM",
+    "base_price": 6000,
+    "description": [
+      "An electric beam",
+      "that may raise",
+      "the user's Sp. Atk."
+    ]
+  },
+  {
+    "tm": 58,
+    "move": "ENDURE",
+    "base_price": 4000,
+    "description": [
+      "Endures an attack",
+      "with at least 1 HP",
+      "left that turn."
+    ]
+  },
+  {
+    "tm": 59,
+    "move": "DRAGON_PULSE",
+    "base_price": 9000,
+    "description": [
+      "An aura shock wave",
+      "that strikes the",
+      "foe with dragon power."
+    ]
+  },
+  {
+    "tm": 60,
+    "move": "DRAIN_PUNCH",
+    "base_price": 10000,
+    "description": [
+      "A draining punch.",
+      "Restores HP equal to",
+      "half the damage dealt."
+    ]
+  },
+  {
+    "tm": 61,
+    "move": "WILL_O_WISP",
+    "base_price": 8000,
+    "description": [
+      "A sinister flame",
+      "that inflicts a burn",
+      "on the foe."
+    ]
+  },
+  {
+    "tm": 62,
+    "move": "BUG_BUZZ",
+    "base_price": 9000,
+    "description": [
+      "A damaging buzz",
+      "that may lower",
+      "the foe's Sp. Def."
+    ]
+  },
+  {
+    "tm": 63,
+    "move": "NASTY_PLOT",
+    "base_price": 12000,
+    "description": [
+      "Plots a nasty scheme",
+      "to sharply raise",
+      "the user's Sp. Atk."
+    ]
+  },
+  {
+    "tm": 64,
+    "move": "EXPLOSION",
+    "base_price": 10000,
+    "description": [
+      "A massive explosion.",
+      "The user faints and",
+      "hits nearby Pok?mon."
+    ]
+  },
+  {
+    "tm": 65,
+    "move": "SHADOW_CLAW",
+    "base_price": 8000,
+    "description": [
+      "A shadowy slash",
+      "with a high",
+      "critical-hit ratio."
+    ]
+  },
+  {
+    "tm": 66,
+    "move": "FOUL_PLAY",
+    "base_price": 10000,
+    "description": [
+      "Turns the foe's",
+      "own Attack stat",
+      "against it."
+    ]
+  },
+  {
+    "tm": 67,
+    "move": "IRON_HEAD",
+    "base_price": 9000,
+    "description": [
+      "A steel-hard head",
+      "strike that may make",
+      "the foe flinch."
+    ]
+  },
+  {
+    "tm": 68,
+    "move": "BODY_PRESS",
+    "base_price": 10000,
+    "description": [
+      "A powerful slam",
+      "that uses Defense",
+      "instead of Attack."
+    ]
+  },
+  {
+    "tm": 69,
+    "move": "DRAGON_DANCE",
+    "base_price": 15000,
+    "description": [
+      "A mystical dance",
+      "that raises the user's",
+      "Attack and Speed."
+    ]
+  },
+  {
+    "tm": 70,
+    "move": "FLASH_CANNON",
+    "base_price": 9000,
+    "description": [
+      "A flash of steel",
+      "energy that may lower",
+      "the foe's Sp. Def."
+    ]
+  },
+  {
+    "tm": 71,
+    "move": "STONE_EDGE",
+    "base_price": 12000,
+    "description": [
+      "Stabs with sharp",
+      "stones. Has a high",
+      "critical-hit ratio."
+    ]
+  },
+  {
+    "tm": 72,
+    "move": "VOLT_SWITCH",
+    "base_price": 10000,
+    "description": [
+      "An electric attack.",
+      "The user then switches",
+      "with a party member."
+    ]
+  },
+  {
+    "tm": 73,
+    "move": "THUNDER_WAVE",
+    "base_price": 6000,
+    "description": [
+      "A weak electric",
+      "shock that paralyzes",
+      "the foe."
+    ]
+  },
+  {
+    "tm": 74,
+    "move": "GYRO_BALL",
+    "base_price": 8000,
+    "description": [
+      "A spinning strike.",
+      "Stronger when the",
+      "user is slower."
+    ]
+  },
+  {
+    "tm": 75,
+    "move": "SWORDS_DANCE",
+    "base_price": 12000,
+    "description": [
+      "A fighting dance",
+      "that sharply raises",
+      "the user's Attack."
+    ]
+  },
+  {
+    "tm": 76,
+    "move": "STEALTH_ROCK",
+    "base_price": 12000,
+    "description": [
+      "Sets floating rocks",
+      "that hurt foes",
+      "switching into battle."
+    ]
+  },
+  {
+    "tm": 77,
+    "move": "PSYCHIC_FANGS",
+    "base_price": 9000,
+    "description": [
+      "Psychic-powered",
+      "fangs that break",
+      "the foe's screens."
+    ]
+  },
+  {
+    "tm": 78,
+    "move": "BULLDOZE",
+    "base_price": 6000,
+    "description": [
+      "Stomps the ground,",
+      "damaging others and",
+      "lowering their Speed."
+    ]
+  },
+  {
+    "tm": 79,
+    "move": "DARK_PULSE",
+    "base_price": 9000,
+    "description": [
+      "A dark aura attack",
+      "that may make",
+      "the foe flinch."
+    ]
+  },
+  {
+    "tm": 80,
+    "move": "ROCK_SLIDE",
+    "base_price": 8000,
+    "description": [
+      "Drops large rocks",
+      "on foes. May make",
+      "them flinch."
+    ]
+  },
+  {
+    "tm": 81,
+    "move": "X_SCISSOR",
+    "base_price": 8000,
+    "description": [
+      "Slashes the foe",
+      "with crossed claws",
+      "or blades."
+    ]
+  },
+  {
+    "tm": 82,
+    "move": "SLEEP_TALK",
+    "base_price": 6000,
+    "description": [
+      "Uses another move",
+      "at random while",
+      "the user is asleep."
+    ]
+  },
+  {
+    "tm": 83,
+    "move": "U_TURN",
+    "base_price": 10000,
+    "description": [
+      "An attack that lets",
+      "the user switch with",
+      "a party member."
+    ]
+  },
+  {
+    "tm": 84,
+    "move": "POISON_JAB",
+    "base_price": 8000,
+    "description": [
+      "A toxic stab that",
+      "may leave the foe",
+      "poisoned."
+    ]
+  },
+  {
+    "tm": 85,
+    "move": "PSYSHOCK",
+    "base_price": 9000,
+    "description": [
+      "A psychic attack",
+      "that strikes the",
+      "foe's Defense."
+    ]
+  },
+  {
+    "tm": 86,
+    "move": "GRASS_KNOT",
+    "base_price": 8000,
+    "description": [
+      "Trips the foe with",
+      "grass. Heavier foes",
+      "take more damage."
+    ]
+  },
+  {
+    "tm": 87,
+    "move": "ACROBATICS",
+    "base_price": 8000,
+    "description": [
+      "An agile attack.",
+      "Stronger if the user",
+      "holds no item."
+    ]
+  },
+  {
+    "tm": 88,
+    "move": "HURRICANE",
+    "base_price": 12000,
+    "description": [
+      "A fierce windstorm",
+      "that may leave",
+      "the foe confused."
+    ]
+  },
+  {
+    "tm": 89,
+    "move": "TRICK_ROOM",
+    "base_price": 12000,
+    "description": [
+      "Creates a space",
+      "where slower Pok?mon",
+      "move first for 5 turns."
+    ]
+  },
+  {
+    "tm": 90,
+    "move": "SUBSTITUTE",
+    "base_price": 10000,
+    "description": [
+      "Uses some HP to",
+      "create a decoy that",
+      "takes hits for the user."
+    ]
+  },
+  {
+    "tm": 91,
+    "move": "DAZZLING_GLEAM",
+    "base_price": 8000,
+    "description": [
+      "A dazzling light",
+      "that damages",
+      "opposing Pok?mon."
+    ]
+  },
+  {
+    "tm": 92,
+    "move": "PLAY_ROUGH",
+    "base_price": 10000,
+    "description": [
+      "Plays rough with",
+      "the foe. May lower",
+      "the foe's Attack."
+    ]
+  },
+  {
+    "tm": 93,
+    "move": "EARTH_POWER",
+    "base_price": 10000,
+    "description": [
+      "An eruption beneath",
+      "the foe that may lower",
+      "its Sp. Def."
+    ]
+  },
+  {
+    "tm": 94,
+    "move": "ICE_SPINNER",
+    "base_price": 10000,
+    "description": [
+      "A spinning ice",
+      "attack that removes",
+      "terrain from the field."
+    ]
+  },
+  {
+    "tm": 95,
+    "move": "LIQUIDATION",
+    "base_price": 10000,
+    "description": [
+      "Slams the foe with",
+      "water. May lower",
+      "the foe's Defense."
+    ]
+  },
+  {
+    "tm": 96,
+    "move": "MOONBLAST",
+    "base_price": 12000,
+    "description": [
+      "Borrows moonlight",
+      "to attack. May lower",
+      "the foe's Sp. Atk."
+    ]
+  },
+  {
+    "tm": 97,
+    "move": "AURORA_VEIL",
+    "base_price": 12000,
+    "description": [
+      "In hail or snow,",
+      "reduces damage from",
+      "attacks for 5 turns."
+    ]
+  },
+  {
+    "tm": 98,
+    "move": "TAILWIND",
+    "base_price": 10000,
+    "description": [
+      "A strong wind",
+      "doubles the party's",
+      "Speed for 4 turns."
+    ]
+  },
+  {
+    "tm": 99,
+    "move": "DEFOG",
+    "base_price": 8000,
+    "description": [
+      "Blows away hazards",
+      "and barriers. Lowers",
+      "the foe's evasiveness."
+    ]
+  },
+  {
+    "tm": 100,
+    "move": "TERA_BLAST",
+    "base_price": 10000,
+    "description": [
+      "Changes type when",
+      "Terastallized. Uses",
+      "the stronger offense."
+    ]
+  }
+]

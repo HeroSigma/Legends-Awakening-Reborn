@@ -1,0 +1,2282 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "100_TMs",
+      "passed": true
+    },
+    {
+      "test": "8_HMs",
+      "passed": true
+    },
+    {
+      "test": "stable_item_IDs",
+      "passed": true
+    },
+    {
+      "test": "TM51_move",
+      "passed": true
+    },
+    {
+      "test": "TM51_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM51_description",
+      "passed": true
+    },
+    {
+      "test": "TM51_price",
+      "passed": true
+    },
+    {
+      "test": "TM51_icon",
+      "passed": true
+    },
+    {
+      "test": "TM51_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM51_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM51_store",
+      "passed": true
+    },
+    {
+      "test": "TM51_sale",
+      "passed": true
+    },
+    {
+      "test": "TM51_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM51_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM52_move",
+      "passed": true
+    },
+    {
+      "test": "TM52_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM52_description",
+      "passed": true
+    },
+    {
+      "test": "TM52_price",
+      "passed": true
+    },
+    {
+      "test": "TM52_icon",
+      "passed": true
+    },
+    {
+      "test": "TM52_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM52_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM52_store",
+      "passed": true
+    },
+    {
+      "test": "TM52_sale",
+      "passed": true
+    },
+    {
+      "test": "TM52_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM52_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM53_move",
+      "passed": true
+    },
+    {
+      "test": "TM53_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM53_description",
+      "passed": true
+    },
+    {
+      "test": "TM53_price",
+      "passed": true
+    },
+    {
+      "test": "TM53_icon",
+      "passed": true
+    },
+    {
+      "test": "TM53_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM53_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM53_store",
+      "passed": true
+    },
+    {
+      "test": "TM53_sale",
+      "passed": true
+    },
+    {
+      "test": "TM53_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM53_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM54_move",
+      "passed": true
+    },
+    {
+      "test": "TM54_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM54_description",
+      "passed": true
+    },
+    {
+      "test": "TM54_price",
+      "passed": true
+    },
+    {
+      "test": "TM54_icon",
+      "passed": true
+    },
+    {
+      "test": "TM54_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM54_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM54_store",
+      "passed": true
+    },
+    {
+      "test": "TM54_sale",
+      "passed": true
+    },
+    {
+      "test": "TM54_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM54_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM55_move",
+      "passed": true
+    },
+    {
+      "test": "TM55_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM55_description",
+      "passed": true
+    },
+    {
+      "test": "TM55_price",
+      "passed": true
+    },
+    {
+      "test": "TM55_icon",
+      "passed": true
+    },
+    {
+      "test": "TM55_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM55_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM55_store",
+      "passed": true
+    },
+    {
+      "test": "TM55_sale",
+      "passed": true
+    },
+    {
+      "test": "TM55_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM55_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM56_move",
+      "passed": true
+    },
+    {
+      "test": "TM56_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM56_description",
+      "passed": true
+    },
+    {
+      "test": "TM56_price",
+      "passed": true
+    },
+    {
+      "test": "TM56_icon",
+      "passed": true
+    },
+    {
+      "test": "TM56_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM56_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM56_store",
+      "passed": true
+    },
+    {
+      "test": "TM56_sale",
+      "passed": true
+    },
+    {
+      "test": "TM56_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM56_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM57_move",
+      "passed": true
+    },
+    {
+      "test": "TM57_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM57_description",
+      "passed": true
+    },
+    {
+      "test": "TM57_price",
+      "passed": true
+    },
+    {
+      "test": "TM57_icon",
+      "passed": true
+    },
+    {
+      "test": "TM57_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM57_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM57_store",
+      "passed": true
+    },
+    {
+      "test": "TM57_sale",
+      "passed": true
+    },
+    {
+      "test": "TM57_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM57_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM58_move",
+      "passed": true
+    },
+    {
+      "test": "TM58_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM58_description",
+      "passed": true
+    },
+    {
+      "test": "TM58_price",
+      "passed": true
+    },
+    {
+      "test": "TM58_icon",
+      "passed": true
+    },
+    {
+      "test": "TM58_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM58_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM58_store",
+      "passed": true
+    },
+    {
+      "test": "TM58_sale",
+      "passed": true
+    },
+    {
+      "test": "TM58_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM58_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM59_move",
+      "passed": true
+    },
+    {
+      "test": "TM59_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM59_description",
+      "passed": true
+    },
+    {
+      "test": "TM59_price",
+      "passed": true
+    },
+    {
+      "test": "TM59_icon",
+      "passed": true
+    },
+    {
+      "test": "TM59_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM59_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM59_store",
+      "passed": true
+    },
+    {
+      "test": "TM59_sale",
+      "passed": true
+    },
+    {
+      "test": "TM59_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM59_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM60_move",
+      "passed": true
+    },
+    {
+      "test": "TM60_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM60_description",
+      "passed": true
+    },
+    {
+      "test": "TM60_price",
+      "passed": true
+    },
+    {
+      "test": "TM60_icon",
+      "passed": true
+    },
+    {
+      "test": "TM60_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM60_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM60_store",
+      "passed": true
+    },
+    {
+      "test": "TM60_sale",
+      "passed": true
+    },
+    {
+      "test": "TM60_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM60_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM61_move",
+      "passed": true
+    },
+    {
+      "test": "TM61_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM61_description",
+      "passed": true
+    },
+    {
+      "test": "TM61_price",
+      "passed": true
+    },
+    {
+      "test": "TM61_icon",
+      "passed": true
+    },
+    {
+      "test": "TM61_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM61_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM61_store",
+      "passed": true
+    },
+    {
+      "test": "TM61_sale",
+      "passed": true
+    },
+    {
+      "test": "TM61_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM61_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM62_move",
+      "passed": true
+    },
+    {
+      "test": "TM62_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM62_description",
+      "passed": true
+    },
+    {
+      "test": "TM62_price",
+      "passed": true
+    },
+    {
+      "test": "TM62_icon",
+      "passed": true
+    },
+    {
+      "test": "TM62_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM62_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM62_store",
+      "passed": true
+    },
+    {
+      "test": "TM62_sale",
+      "passed": true
+    },
+    {
+      "test": "TM62_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM62_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM63_move",
+      "passed": true
+    },
+    {
+      "test": "TM63_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM63_description",
+      "passed": true
+    },
+    {
+      "test": "TM63_price",
+      "passed": true
+    },
+    {
+      "test": "TM63_icon",
+      "passed": true
+    },
+    {
+      "test": "TM63_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM63_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM63_store",
+      "passed": true
+    },
+    {
+      "test": "TM63_sale",
+      "passed": true
+    },
+    {
+      "test": "TM63_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM63_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM64_move",
+      "passed": true
+    },
+    {
+      "test": "TM64_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM64_description",
+      "passed": true
+    },
+    {
+      "test": "TM64_price",
+      "passed": true
+    },
+    {
+      "test": "TM64_icon",
+      "passed": true
+    },
+    {
+      "test": "TM64_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM64_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM64_store",
+      "passed": true
+    },
+    {
+      "test": "TM64_sale",
+      "passed": true
+    },
+    {
+      "test": "TM64_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM64_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM65_move",
+      "passed": true
+    },
+    {
+      "test": "TM65_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM65_description",
+      "passed": true
+    },
+    {
+      "test": "TM65_price",
+      "passed": true
+    },
+    {
+      "test": "TM65_icon",
+      "passed": true
+    },
+    {
+      "test": "TM65_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM65_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM65_store",
+      "passed": true
+    },
+    {
+      "test": "TM65_sale",
+      "passed": true
+    },
+    {
+      "test": "TM65_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM65_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM66_move",
+      "passed": true
+    },
+    {
+      "test": "TM66_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM66_description",
+      "passed": true
+    },
+    {
+      "test": "TM66_price",
+      "passed": true
+    },
+    {
+      "test": "TM66_icon",
+      "passed": true
+    },
+    {
+      "test": "TM66_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM66_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM66_store",
+      "passed": true
+    },
+    {
+      "test": "TM66_sale",
+      "passed": true
+    },
+    {
+      "test": "TM66_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM66_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM67_move",
+      "passed": true
+    },
+    {
+      "test": "TM67_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM67_description",
+      "passed": true
+    },
+    {
+      "test": "TM67_price",
+      "passed": true
+    },
+    {
+      "test": "TM67_icon",
+      "passed": true
+    },
+    {
+      "test": "TM67_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM67_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM67_store",
+      "passed": true
+    },
+    {
+      "test": "TM67_sale",
+      "passed": true
+    },
+    {
+      "test": "TM67_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM67_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM68_move",
+      "passed": true
+    },
+    {
+      "test": "TM68_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM68_description",
+      "passed": true
+    },
+    {
+      "test": "TM68_price",
+      "passed": true
+    },
+    {
+      "test": "TM68_icon",
+      "passed": true
+    },
+    {
+      "test": "TM68_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM68_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM68_store",
+      "passed": true
+    },
+    {
+      "test": "TM68_sale",
+      "passed": true
+    },
+    {
+      "test": "TM68_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM68_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM69_move",
+      "passed": true
+    },
+    {
+      "test": "TM69_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM69_description",
+      "passed": true
+    },
+    {
+      "test": "TM69_price",
+      "passed": true
+    },
+    {
+      "test": "TM69_icon",
+      "passed": true
+    },
+    {
+      "test": "TM69_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM69_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM69_store",
+      "passed": true
+    },
+    {
+      "test": "TM69_sale",
+      "passed": true
+    },
+    {
+      "test": "TM69_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM69_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM70_move",
+      "passed": true
+    },
+    {
+      "test": "TM70_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM70_description",
+      "passed": true
+    },
+    {
+      "test": "TM70_price",
+      "passed": true
+    },
+    {
+      "test": "TM70_icon",
+      "passed": true
+    },
+    {
+      "test": "TM70_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM70_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM70_store",
+      "passed": true
+    },
+    {
+      "test": "TM70_sale",
+      "passed": true
+    },
+    {
+      "test": "TM70_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM70_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM71_move",
+      "passed": true
+    },
+    {
+      "test": "TM71_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM71_description",
+      "passed": true
+    },
+    {
+      "test": "TM71_price",
+      "passed": true
+    },
+    {
+      "test": "TM71_icon",
+      "passed": true
+    },
+    {
+      "test": "TM71_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM71_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM71_store",
+      "passed": true
+    },
+    {
+      "test": "TM71_sale",
+      "passed": true
+    },
+    {
+      "test": "TM71_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM71_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM72_move",
+      "passed": true
+    },
+    {
+      "test": "TM72_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM72_description",
+      "passed": true
+    },
+    {
+      "test": "TM72_price",
+      "passed": true
+    },
+    {
+      "test": "TM72_icon",
+      "passed": true
+    },
+    {
+      "test": "TM72_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM72_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM72_store",
+      "passed": true
+    },
+    {
+      "test": "TM72_sale",
+      "passed": true
+    },
+    {
+      "test": "TM72_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM72_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM73_move",
+      "passed": true
+    },
+    {
+      "test": "TM73_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM73_description",
+      "passed": true
+    },
+    {
+      "test": "TM73_price",
+      "passed": true
+    },
+    {
+      "test": "TM73_icon",
+      "passed": true
+    },
+    {
+      "test": "TM73_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM73_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM73_store",
+      "passed": true
+    },
+    {
+      "test": "TM73_sale",
+      "passed": true
+    },
+    {
+      "test": "TM73_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM73_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM74_move",
+      "passed": true
+    },
+    {
+      "test": "TM74_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM74_description",
+      "passed": true
+    },
+    {
+      "test": "TM74_price",
+      "passed": true
+    },
+    {
+      "test": "TM74_icon",
+      "passed": true
+    },
+    {
+      "test": "TM74_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM74_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM74_store",
+      "passed": true
+    },
+    {
+      "test": "TM74_sale",
+      "passed": true
+    },
+    {
+      "test": "TM74_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM74_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM75_move",
+      "passed": true
+    },
+    {
+      "test": "TM75_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM75_description",
+      "passed": true
+    },
+    {
+      "test": "TM75_price",
+      "passed": true
+    },
+    {
+      "test": "TM75_icon",
+      "passed": true
+    },
+    {
+      "test": "TM75_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM75_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM75_store",
+      "passed": true
+    },
+    {
+      "test": "TM75_sale",
+      "passed": true
+    },
+    {
+      "test": "TM75_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM75_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM76_move",
+      "passed": true
+    },
+    {
+      "test": "TM76_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM76_description",
+      "passed": true
+    },
+    {
+      "test": "TM76_price",
+      "passed": true
+    },
+    {
+      "test": "TM76_icon",
+      "passed": true
+    },
+    {
+      "test": "TM76_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM76_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM76_store",
+      "passed": true
+    },
+    {
+      "test": "TM76_sale",
+      "passed": true
+    },
+    {
+      "test": "TM76_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM76_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM77_move",
+      "passed": true
+    },
+    {
+      "test": "TM77_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM77_description",
+      "passed": true
+    },
+    {
+      "test": "TM77_price",
+      "passed": true
+    },
+    {
+      "test": "TM77_icon",
+      "passed": true
+    },
+    {
+      "test": "TM77_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM77_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM77_store",
+      "passed": true
+    },
+    {
+      "test": "TM77_sale",
+      "passed": true
+    },
+    {
+      "test": "TM77_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM77_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM78_move",
+      "passed": true
+    },
+    {
+      "test": "TM78_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM78_description",
+      "passed": true
+    },
+    {
+      "test": "TM78_price",
+      "passed": true
+    },
+    {
+      "test": "TM78_icon",
+      "passed": true
+    },
+    {
+      "test": "TM78_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM78_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM78_store",
+      "passed": true
+    },
+    {
+      "test": "TM78_sale",
+      "passed": true
+    },
+    {
+      "test": "TM78_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM78_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM79_move",
+      "passed": true
+    },
+    {
+      "test": "TM79_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM79_description",
+      "passed": true
+    },
+    {
+      "test": "TM79_price",
+      "passed": true
+    },
+    {
+      "test": "TM79_icon",
+      "passed": true
+    },
+    {
+      "test": "TM79_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM79_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM79_store",
+      "passed": true
+    },
+    {
+      "test": "TM79_sale",
+      "passed": true
+    },
+    {
+      "test": "TM79_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM79_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM80_move",
+      "passed": true
+    },
+    {
+      "test": "TM80_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM80_description",
+      "passed": true
+    },
+    {
+      "test": "TM80_price",
+      "passed": true
+    },
+    {
+      "test": "TM80_icon",
+      "passed": true
+    },
+    {
+      "test": "TM80_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM80_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM80_store",
+      "passed": true
+    },
+    {
+      "test": "TM80_sale",
+      "passed": true
+    },
+    {
+      "test": "TM80_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM80_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM81_move",
+      "passed": true
+    },
+    {
+      "test": "TM81_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM81_description",
+      "passed": true
+    },
+    {
+      "test": "TM81_price",
+      "passed": true
+    },
+    {
+      "test": "TM81_icon",
+      "passed": true
+    },
+    {
+      "test": "TM81_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM81_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM81_store",
+      "passed": true
+    },
+    {
+      "test": "TM81_sale",
+      "passed": true
+    },
+    {
+      "test": "TM81_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM81_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM82_move",
+      "passed": true
+    },
+    {
+      "test": "TM82_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM82_description",
+      "passed": true
+    },
+    {
+      "test": "TM82_price",
+      "passed": true
+    },
+    {
+      "test": "TM82_icon",
+      "passed": true
+    },
+    {
+      "test": "TM82_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM82_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM82_store",
+      "passed": true
+    },
+    {
+      "test": "TM82_sale",
+      "passed": true
+    },
+    {
+      "test": "TM82_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM82_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM83_move",
+      "passed": true
+    },
+    {
+      "test": "TM83_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM83_description",
+      "passed": true
+    },
+    {
+      "test": "TM83_price",
+      "passed": true
+    },
+    {
+      "test": "TM83_icon",
+      "passed": true
+    },
+    {
+      "test": "TM83_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM83_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM83_store",
+      "passed": true
+    },
+    {
+      "test": "TM83_sale",
+      "passed": true
+    },
+    {
+      "test": "TM83_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM83_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM84_move",
+      "passed": true
+    },
+    {
+      "test": "TM84_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM84_description",
+      "passed": true
+    },
+    {
+      "test": "TM84_price",
+      "passed": true
+    },
+    {
+      "test": "TM84_icon",
+      "passed": true
+    },
+    {
+      "test": "TM84_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM84_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM84_store",
+      "passed": true
+    },
+    {
+      "test": "TM84_sale",
+      "passed": true
+    },
+    {
+      "test": "TM84_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM84_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM85_move",
+      "passed": true
+    },
+    {
+      "test": "TM85_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM85_description",
+      "passed": true
+    },
+    {
+      "test": "TM85_price",
+      "passed": true
+    },
+    {
+      "test": "TM85_icon",
+      "passed": true
+    },
+    {
+      "test": "TM85_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM85_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM85_store",
+      "passed": true
+    },
+    {
+      "test": "TM85_sale",
+      "passed": true
+    },
+    {
+      "test": "TM85_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM85_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM86_move",
+      "passed": true
+    },
+    {
+      "test": "TM86_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM86_description",
+      "passed": true
+    },
+    {
+      "test": "TM86_price",
+      "passed": true
+    },
+    {
+      "test": "TM86_icon",
+      "passed": true
+    },
+    {
+      "test": "TM86_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM86_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM86_store",
+      "passed": true
+    },
+    {
+      "test": "TM86_sale",
+      "passed": true
+    },
+    {
+      "test": "TM86_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM86_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM87_move",
+      "passed": true
+    },
+    {
+      "test": "TM87_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM87_description",
+      "passed": true
+    },
+    {
+      "test": "TM87_price",
+      "passed": true
+    },
+    {
+      "test": "TM87_icon",
+      "passed": true
+    },
+    {
+      "test": "TM87_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM87_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM87_store",
+      "passed": true
+    },
+    {
+      "test": "TM87_sale",
+      "passed": true
+    },
+    {
+      "test": "TM87_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM87_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM88_move",
+      "passed": true
+    },
+    {
+      "test": "TM88_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM88_description",
+      "passed": true
+    },
+    {
+      "test": "TM88_price",
+      "passed": true
+    },
+    {
+      "test": "TM88_icon",
+      "passed": true
+    },
+    {
+      "test": "TM88_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM88_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM88_store",
+      "passed": true
+    },
+    {
+      "test": "TM88_sale",
+      "passed": true
+    },
+    {
+      "test": "TM88_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM88_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM89_move",
+      "passed": true
+    },
+    {
+      "test": "TM89_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM89_description",
+      "passed": true
+    },
+    {
+      "test": "TM89_price",
+      "passed": true
+    },
+    {
+      "test": "TM89_icon",
+      "passed": true
+    },
+    {
+      "test": "TM89_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM89_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM89_store",
+      "passed": true
+    },
+    {
+      "test": "TM89_sale",
+      "passed": true
+    },
+    {
+      "test": "TM89_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM89_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM90_move",
+      "passed": true
+    },
+    {
+      "test": "TM90_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM90_description",
+      "passed": true
+    },
+    {
+      "test": "TM90_price",
+      "passed": true
+    },
+    {
+      "test": "TM90_icon",
+      "passed": true
+    },
+    {
+      "test": "TM90_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM90_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM90_store",
+      "passed": true
+    },
+    {
+      "test": "TM90_sale",
+      "passed": true
+    },
+    {
+      "test": "TM90_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM90_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM91_move",
+      "passed": true
+    },
+    {
+      "test": "TM91_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM91_description",
+      "passed": true
+    },
+    {
+      "test": "TM91_price",
+      "passed": true
+    },
+    {
+      "test": "TM91_icon",
+      "passed": true
+    },
+    {
+      "test": "TM91_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM91_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM91_store",
+      "passed": true
+    },
+    {
+      "test": "TM91_sale",
+      "passed": true
+    },
+    {
+      "test": "TM91_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM91_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM92_move",
+      "passed": true
+    },
+    {
+      "test": "TM92_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM92_description",
+      "passed": true
+    },
+    {
+      "test": "TM92_price",
+      "passed": true
+    },
+    {
+      "test": "TM92_icon",
+      "passed": true
+    },
+    {
+      "test": "TM92_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM92_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM92_store",
+      "passed": true
+    },
+    {
+      "test": "TM92_sale",
+      "passed": true
+    },
+    {
+      "test": "TM92_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM92_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM93_move",
+      "passed": true
+    },
+    {
+      "test": "TM93_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM93_description",
+      "passed": true
+    },
+    {
+      "test": "TM93_price",
+      "passed": true
+    },
+    {
+      "test": "TM93_icon",
+      "passed": true
+    },
+    {
+      "test": "TM93_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM93_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM93_store",
+      "passed": true
+    },
+    {
+      "test": "TM93_sale",
+      "passed": true
+    },
+    {
+      "test": "TM93_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM93_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM94_move",
+      "passed": true
+    },
+    {
+      "test": "TM94_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM94_description",
+      "passed": true
+    },
+    {
+      "test": "TM94_price",
+      "passed": true
+    },
+    {
+      "test": "TM94_icon",
+      "passed": true
+    },
+    {
+      "test": "TM94_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM94_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM94_store",
+      "passed": true
+    },
+    {
+      "test": "TM94_sale",
+      "passed": true
+    },
+    {
+      "test": "TM94_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM94_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM95_move",
+      "passed": true
+    },
+    {
+      "test": "TM95_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM95_description",
+      "passed": true
+    },
+    {
+      "test": "TM95_price",
+      "passed": true
+    },
+    {
+      "test": "TM95_icon",
+      "passed": true
+    },
+    {
+      "test": "TM95_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM95_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM95_store",
+      "passed": true
+    },
+    {
+      "test": "TM95_sale",
+      "passed": true
+    },
+    {
+      "test": "TM95_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM95_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM96_move",
+      "passed": true
+    },
+    {
+      "test": "TM96_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM96_description",
+      "passed": true
+    },
+    {
+      "test": "TM96_price",
+      "passed": true
+    },
+    {
+      "test": "TM96_icon",
+      "passed": true
+    },
+    {
+      "test": "TM96_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM96_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM96_store",
+      "passed": true
+    },
+    {
+      "test": "TM96_sale",
+      "passed": true
+    },
+    {
+      "test": "TM96_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM96_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM97_move",
+      "passed": true
+    },
+    {
+      "test": "TM97_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM97_description",
+      "passed": true
+    },
+    {
+      "test": "TM97_price",
+      "passed": true
+    },
+    {
+      "test": "TM97_icon",
+      "passed": true
+    },
+    {
+      "test": "TM97_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM97_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM97_store",
+      "passed": true
+    },
+    {
+      "test": "TM97_sale",
+      "passed": true
+    },
+    {
+      "test": "TM97_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM97_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM98_move",
+      "passed": true
+    },
+    {
+      "test": "TM98_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM98_description",
+      "passed": true
+    },
+    {
+      "test": "TM98_price",
+      "passed": true
+    },
+    {
+      "test": "TM98_icon",
+      "passed": true
+    },
+    {
+      "test": "TM98_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM98_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM98_store",
+      "passed": true
+    },
+    {
+      "test": "TM98_sale",
+      "passed": true
+    },
+    {
+      "test": "TM98_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM98_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM99_move",
+      "passed": true
+    },
+    {
+      "test": "TM99_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM99_description",
+      "passed": true
+    },
+    {
+      "test": "TM99_price",
+      "passed": true
+    },
+    {
+      "test": "TM99_icon",
+      "passed": true
+    },
+    {
+      "test": "TM99_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM99_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM99_store",
+      "passed": true
+    },
+    {
+      "test": "TM99_sale",
+      "passed": true
+    },
+    {
+      "test": "TM99_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM99_sold_out",
+      "passed": true
+    },
+    {
+      "test": "TM100_move",
+      "passed": true
+    },
+    {
+      "test": "TM100_learnable",
+      "passed": true
+    },
+    {
+      "test": "TM100_description",
+      "passed": true
+    },
+    {
+      "test": "TM100_price",
+      "passed": true
+    },
+    {
+      "test": "TM100_icon",
+      "passed": true
+    },
+    {
+      "test": "TM100_reusable",
+      "passed": true
+    },
+    {
+      "test": "TM100_machine_pocket",
+      "passed": true
+    },
+    {
+      "test": "TM100_store",
+      "passed": true
+    },
+    {
+      "test": "TM100_sale",
+      "passed": true
+    },
+    {
+      "test": "TM100_purchase",
+      "passed": true
+    },
+    {
+      "test": "TM100_sold_out",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_682",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_683",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_684",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_685",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_686",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_687",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_688",
+      "passed": true
+    },
+    {
+      "test": "HM_excluded_689",
+      "passed": true
+    },
+    {
+      "test": "no_blank_TM_moves",
+      "passed": true
+    },
+    {
+      "test": "Magikarp_not_Roost",
+      "passed": true
+    },
+    {
+      "test": "Magikarp_not_Moonblast",
+      "passed": true
+    },
+    {
+      "test": "empty_move_slot_ready",
+      "passed": true
+    },
+    {
+      "test": "actual_Bag_teaches_Roost",
+      "passed": true
+    },
+    {
+      "test": "TM_retained_after_teaching",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "766768546b7907c0bdd9a0516055d9539842bfcbba2ad39d524f3926d056a74a"
+}

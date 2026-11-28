@@ -51,7 +51,57 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+    F(ROOST) \
+    F(FOCUS_BLAST) \
+    F(ENERGY_BALL) \
+    F(FALSE_SWIPE) \
+    F(SCALD) \
+    F(KNOCK_OFF) \
+    F(CHARGE_BEAM) \
+    F(ENDURE) \
+    F(DRAGON_PULSE) \
+    F(DRAIN_PUNCH) \
+    F(WILL_O_WISP) \
+    F(BUG_BUZZ) \
+    F(NASTY_PLOT) \
+    F(EXPLOSION) \
+    F(SHADOW_CLAW) \
+    F(FOUL_PLAY) \
+    F(IRON_HEAD) \
+    F(BODY_PRESS) \
+    F(DRAGON_DANCE) \
+    F(FLASH_CANNON) \
+    F(STONE_EDGE) \
+    F(VOLT_SWITCH) \
+    F(THUNDER_WAVE) \
+    F(GYRO_BALL) \
+    F(SWORDS_DANCE) \
+    F(STEALTH_ROCK) \
+    F(PSYCHIC_FANGS) \
+    F(BULLDOZE) \
+    F(DARK_PULSE) \
+    F(ROCK_SLIDE) \
+    F(X_SCISSOR) \
+    F(SLEEP_TALK) \
+    F(U_TURN) \
+    F(POISON_JAB) \
+    F(PSYSHOCK) \
+    F(GRASS_KNOT) \
+    F(ACROBATICS) \
+    F(HURRICANE) \
+    F(TRICK_ROOM) \
+    F(SUBSTITUTE) \
+    F(DAZZLING_GLEAM) \
+    F(PLAY_ROUGH) \
+    F(EARTH_POWER) \
+    F(ICE_SPINNER) \
+    F(LIQUIDATION) \
+    F(MOONBLAST) \
+    F(AURORA_VEIL) \
+    F(TAILWIND) \
+    F(DEFOG) \
+    F(TERA_BLAST)
 
 #define FOREACH_HM(F) \
     F(CUT) \
