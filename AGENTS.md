@@ -143,3 +143,16 @@ explicit dedicated acquisition path after Type: Null; do not weaken the ordinary
 shop rule or treat possession as a story/quest unlock. Decorative shops are
 outside this item policy. Generic battle Orbs, Mints, fossils and treasures remain
 ordinary stock; do not classify items by fragments of their names.
+
+## Galar recovery and Unova retirement
+
+The reviewed Galar subset has 56 map records in bank 119, with 92 validated door
+entries and 36 connections. It is a map/travel foundation; donor scripts, NPCs,
+wild tables and a public story portal are not imported. Do not claim the full
+Galar campaign is present. Remaining donor candidates require review and space.
+Keep the Unova tombstone map/layout slots stable; original wrappers/layout rows
+are archived under archives/unova-retired-20261128, and source map binaries are
+retained. The retired-bank redirect must keep naming the replacement constants.
+Galar metatiles use three layers and compact IDs. Do not rerun older two-layer
+import/repair tools on them. See docs/la_world/galar_recovery/README.md and the
+packing receipt; full pre-packed definitions are archived for future editing.

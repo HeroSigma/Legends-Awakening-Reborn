@@ -1,0 +1,46 @@
+{
+  "id": "MAP_GALAR_8_6_ROUTE_5",
+  "name": "Galar_8_6_Route_5",
+  "layout": "LAYOUT_GALAR_8_6_ROUTE_5",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": true,
+  "map_type": "MAP_TYPE_ROUTE",
+  "warp_events": [
+    {
+      "x": -1,
+      "y": -1,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "connections": [
+    {
+      "map": "MAP_GALAR_8_26_HULBURY",
+      "offset": 6,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_GALAR_7_11_TURFFIELD",
+      "offset": -20,
+      "direction": "left"
+    }
+  ]
+}

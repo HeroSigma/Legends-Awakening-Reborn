@@ -1,0 +1,3420 @@
+{
+  "checks": [
+    {
+      "test": "56_reviewed_maps",
+      "passed": true
+    },
+    {
+      "test": "Unova_removed_from_active_map_groups",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_TownsAndRoutes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorLittleroot",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorOldale",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorDewford",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorLavaridge",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorFallarbor",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorVerdanturf",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorPacifidlog",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorPetalburg",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorSlateport",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorMauville",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRustboro",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorFortree",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorLilycove",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorMossdeep",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorSootopolis",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorEverGrande",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute104",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute111",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute112",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute114",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute116",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute117",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute121",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_Dungeons",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorDynamic",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_SpecialArea",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute104Prototype",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute109",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute110",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute113",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute123",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute119",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_IndoorRoute124",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_System_Link",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Dungeons",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_SpecialArea",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_TownsAndRoutes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorPallet",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorViridian",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorPewter",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorCerulean",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorLavender",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorVermilion",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorCeladon",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorFuchsia",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorCinnabar",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorIndigoPlateau",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorSaffron",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute2",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute4",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute5",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute6",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute7",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute8",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute10",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute11",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute12",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute15",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute16",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute18",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute22",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorRoute25",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorSevenIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorOneIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorTwoIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorThreeIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorFourIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorFiveIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorSixIsland",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorThreeIslandRoute",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorFiveIslandRoute",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorTwoIslandRoute",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorSixIslandRoute",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_IndoorSevenIslandRoute",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_TownsAndCities",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_Routes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_Caves",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_Forests",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_Interiors",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Hoenn_SpecialAreas",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_TownsAndCities",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Routes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Caves",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Forests",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Interiors_01",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Interiors_02",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_SpecialAreas",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_TownsAndCities",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Routes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Caves",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Forests",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_PokemonCenters",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Shops",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Gyms",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_Interiors",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_SpecialAreas_01",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Kanto_SpecialAreas_02",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_TownsAndCities",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_Routes",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_Caves",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_Forests",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_Interiors",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Sinnoh_SpecialAreas",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_System_Reserved",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_Johto_Interiors_03",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Canary",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Johto_World",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Kanto_World",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Johto_Interiors",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Kanto_Interiors",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_Dungeons",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_SpecialAreas",
+      "passed": true
+    },
+    {
+      "test": "stable_gMapGroup_HnS_References",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(6, 26)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(7, 26)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(8, 26)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(45, 58)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(45, 59)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(45, 58)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_warp_(45, 59)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_warp_(9, 2)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_warp_(27, 39)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_warp_(12, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_warp_(11, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_warp_(13, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_warp_(13, 36)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_warp_(70, 21)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_warp_(18, 18)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_warp_(4, 29)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_warp_(5, 29)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_warp_(4, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_warp_(4, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_warp_(58, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_warp_(17, 13)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_warp_(17, 14)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_warp_(16, 27)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_warp_(15, 27)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_warp_(17, 27)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_warp_(39, 48)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_warp_(51, 48)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_warp_(48, 58)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_warp_(48, 58)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_warp_(9, 9)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_warp_(4, 7)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_warp_(4, 7)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_warp_(48, 19)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_warp_(48, 17)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_warp_(11, 10)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_warp_(48, 18)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_warp_(7, 65)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_warp_(33, 25)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_warp_(38, 25)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_warp_(8, 23)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_warp_(8, 24)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_warp_(8, 25)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_warp_(6, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_warp_(6, 13)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_warp_(6, 14)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_warp_(48, 21)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_warp_(48, 20)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_warp_(27, 37)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_warp_(7, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_warp_(34, 26)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_warp_(52, 33)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_warp_(9, 27)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_warp_(14, 27)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_warp_(4, 7)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_warp_(7, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_warp_(13, 34)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_warp_(25, 66)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_warp_(16, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_warp_(31, 64)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(61, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(61, 39)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 19)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 20)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 21)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(91, 24)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 22)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 23)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_warp_(7, 24)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_warp_(11, 16)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_warp_(7, 20)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_warp_(7, 21)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_warp_(7, 22)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_warp_(66, 57)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_warp_(66, 58)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_warp_(66, 59)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_warp_(17, 29)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_warp_(13, 16)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_warp_(28, 9)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_warp_(13, 16)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_warp_(7, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_warp_(11, 19)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_warp_(13, 15)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_warp_(4, 9)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_warp_(23, 11)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_warp_(27, 4)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_warp_(21, 2)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_warp_(47, 23)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_warp_(10, 31)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_warp_(8, 4)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_warp_(25, 10)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_warp_(29, 8)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_registered",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_layout_size",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_no_donor_actors_or_scripts",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_warp_(39, 7)_valid_target",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_9_Wyndon_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_19_Route_1_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_28_Route_10_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_0_Wedgehurst_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_5_12_Route_2_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_6_Route_5_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_26_Hulbury_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_11_5_Ballonlea_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_8_Route_8_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_9_Route_8_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_7_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_14_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_location",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_field_loop",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_spawn_position",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_walkable_floor",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_name",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_0_Slumbering_area_native_warp_floor_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_3_Galar_Mine_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_99_Dynamax_Adventure_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_1_101_Dynamax_Adventure_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_2_57_Dynamax_Adventure_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_floor_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_3_0_Postwick_native_warp_floor_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_0_Postwick_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_2_Postwick_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_10_Postwick_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_4_11_Postwick_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_floor_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_12",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_floor_12",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_13",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_10_Motostoke_native_warp_floor_13",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_17_Route_3_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_19_Motostoke_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_23_Motostoke_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_27_Map_06_27_native_warp_floor_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_28_Galar_Mine_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_29_Map_06_29_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_30_Wild_Area_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_31_Wild_Area_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_6_32_Motostoke_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_3_Turffield_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_warp_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_11_Turffield_native_warp_floor_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_17_Route_4_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_7_19_Turffield_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_0_Hulbury_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_warp_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_warp_floor_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_warp_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_7_Hulbury_native_warp_floor_6",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_8_20_Galar_Mine_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_4",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_5",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_13",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_13",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_16",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_16",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_17",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_17",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_18",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_10_Hammerlocke_native_warp_floor_18",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_11_Hammerlocke_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_9_13_Route_7_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_20_Route_6_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_21_Stow_On_Side_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_10_22_Stow_On_Side_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_10_Circhester_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_12_11_Circhester_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_6_Spikemuth_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_native_warp_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_14_10_Spikemuth_native_warp_floor_3",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_8",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_floor_8",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_10",
+      "passed": true
+    },
+    {
+      "test": "Galar_34_4_Dynamax_Adventure_native_warp_floor_10",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_2_Map_42_02_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_4_Wild_Area_native_warp_floor_2",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_6_Wild_Area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_12_Wild_Area_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_native_warp_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_13_Wild_Area_native_warp_floor_1",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_native_warp_0",
+      "passed": true
+    },
+    {
+      "test": "Galar_42_15_Wild_Area_native_warp_floor_0",
+      "passed": true
+    },
+    {
+      "test": "Postwick_to_Route1_walk",
+      "passed": true
+    },
+    {
+      "test": "Route1_to_Postwick_walk",
+      "passed": true
+    },
+    {
+      "test": "retired_bank_104_redirects",
+      "passed": true
+    },
+    {
+      "test": "retired_bank_105_redirects",
+      "passed": true
+    },
+    {
+      "test": "retired_bank_106_redirects",
+      "passed": true
+    },
+    {
+      "test": "retired_bank_107_redirects",
+      "passed": true
+    },
+    {
+      "test": "retired_bank_108_redirects",
+      "passed": true
+    },
+    {
+      "test": "save_Galar",
+      "passed": true
+    },
+    {
+      "test": "reload_Galar",
+      "passed": true
+    },
+    {
+      "test": "Galar_location_persists",
+      "passed": true
+    },
+    {
+      "test": "party_persists",
+      "passed": true
+    }
+  ],
+  "maps_tested": 56,
+  "warp_destinations_tested": 92,
+  "user_save_loaded": false,
+  "rom_sha256": "802faa9218e77abcd53c3bef2147a62fc58579b87325f9cecdc41c0d2ecb718a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "MAP_GALAR_1_99_DYNAMAX_ADVENTURE",
+  "name": "Galar_1_99_Dynamax_Adventure",
+  "layout": "LAYOUT_GALAR_1_99_DYNAMAX_ADVENTURE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": true,
+  "map_type": "MAP_TYPE_UNDERWATER",
+  "warp_events": [
+    {
+      "x": 27,
+      "y": 39,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_34_4_DYNAMAX_ADVENTURE",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "connections": null
+}

@@ -2456,3 +2456,75 @@ const u16 gProjectStairsAttrs_f8093e65795e469f62a3[] = INCBIN_U16("data/project_
 const u16 gProjectStairsVisualAttrs_33c6da98237c9f794e7a[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_33c6da98237c9f794e7a.bin");
 const u16 gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_4a4f89fcf2957601f1ab.bin");
 const u16 gProjectStairsVisualAttrs_aeb5f086e042e8f36902[] = INCBIN_U16("data/project_stairs/attributes/gProjectStairsVisualAttrs_aeb5f086e042e8f36902.bin");
+
+const u16 gTileset_Galar_primary_f2e_SWSH_082D4A94_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/primary_f2e_SWSH_082D4A94/metatiles.bin");
+const u16 gTileset_Galar_primary_f2e_SWSH_082D4A94_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/primary_f2e_SWSH_082D4A94/metatile_attributes.bin");
+
+const u16 gTileset_Galar_primary_f2e_SWSH_082D4BB4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/primary_f2e_SWSH_082D4BB4/metatiles.bin");
+const u16 gTileset_Galar_primary_f2e_SWSH_082D4BB4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/primary_f2e_SWSH_082D4BB4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4AAC_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4AAC/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4AAC_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4AAC/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4ADC_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4ADC/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4ADC_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4ADC/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4AF4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4AF4/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4AF4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4AF4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B0C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B0C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B0C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B0C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B24_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B24/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B24_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B24/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B3C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B3C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B3C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B3C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B84_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B84/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B84_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B84/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B9C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B9C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4B9C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4B9C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4BFC_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4BFC/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4BFC_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4BFC/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DC4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DC4/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DC4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DC4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DDC_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DDC/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DDC_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DDC/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DF4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DF4/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4DF4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4DF4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4E54_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4E54/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4E54_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4E54/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4FA4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4FA4/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4FA4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4FA4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4FEC_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4FEC/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D4FEC_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D4FEC/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D501C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D501C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D501C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D501C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D504C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D504C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D504C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D504C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D5064_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D5064/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D5064_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D5064/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D507C_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D507C/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4A94S082D507C_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4A94S082D507C/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4BE4_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4BE4/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4BE4_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4BE4/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4C74_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4C74/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4C74_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4C74/metatile_attributes.bin");
+
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4E84_Metatiles[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4E84/metatiles.bin");
+const u16 gTileset_Galar_secondary_f2e_SWSH_P082D4BB4S082D4E84_Attributes[] = INCBIN_U16("data/galar_assets/tilesets/secondary_f2e_SWSH_P082D4BB4S082D4E84/metatile_attributes.bin");

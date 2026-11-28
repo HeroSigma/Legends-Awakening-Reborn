@@ -1,0 +1,48 @@
+{
+  "id": "MAP_GALAR_42_4_WILD_AREA",
+  "name": "Galar_42_4_Wild_Area",
+  "layout": "LAYOUT_GALAR_42_4_WILD_AREA",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": true,
+  "map_type": "MAP_TYPE_ROUTE",
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_42_2_MAP_42_02",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 47,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_42_6_WILD_AREA",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 31,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_1_3_GALAR_MINE",
+      "dest_warp_id": "2"
+    }
+  ],
+  "connections": [
+    {
+      "map": "MAP_GALAR_42_14_WILD_AREA",
+      "offset": 0,
+      "direction": "down"
+    }
+  ]
+}

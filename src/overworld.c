@@ -627,11 +627,11 @@ static bool8 IsRetiredRegionMap(s8 mapGroup)
     // Keep the old groups allocated so every retained map/save ID stays stable.
     switch (mapGroup)
     {
-    case MAP_GROUP(MAP_AMAP_3_0_NUVEMA_TOWN):
-    case MAP_GROUP(MAP_BWA_3_19_ROUTE_1):
-    case MAP_GROUP(MAP_AMAP_1_95_PINHWEEL_FOREST):
-    case MAP_GROUP(MAP_BWA_4_0):
-    case MAP_GROUP(MAP_BWA_5_4):
+    case MAP_GROUP(MAP_RETIREDREGIONSLOT_104_0):
+    case MAP_GROUP(MAP_RETIREDREGIONSLOT_105_0):
+    case MAP_GROUP(MAP_RETIREDREGIONSLOT_106_0):
+    case MAP_GROUP(MAP_RETIREDREGIONSLOT_107_0):
+    case MAP_GROUP(MAP_RETIREDREGIONSLOT_108_0):
         return TRUE;
     default:
         return FALSE;

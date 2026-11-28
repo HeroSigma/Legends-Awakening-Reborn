@@ -1,0 +1,31 @@
+{
+  "id": "MAP_GALAR_8_26_HULBURY",
+  "name": "Galar_8_26_Hulbury",
+  "layout": "LAYOUT_GALAR_8_26_HULBURY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": true,
+  "map_type": "MAP_TYPE_ROUTE",
+  "warp_events": [],
+  "connections": [
+    {
+      "map": "MAP_GALAR_8_7_HULBURY",
+      "offset": -27,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_GALAR_8_6_ROUTE_5",
+      "offset": -6,
+      "direction": "left"
+    }
+  ]
+}

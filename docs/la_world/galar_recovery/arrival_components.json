@@ -1,0 +1,338 @@
+[
+  {
+    "map": "1.0",
+    "component_tiles": 903,
+    "door_access": 5,
+    "inspection": true
+  },
+  {
+    "map": "1.3",
+    "component_tiles": 618,
+    "door_access": 1,
+    "inspection": false
+  },
+  {
+    "map": "1.99",
+    "component_tiles": 43,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "1.101",
+    "component_tiles": 90,
+    "door_access": 3,
+    "inspection": false
+  },
+  {
+    "map": "2.57",
+    "component_tiles": 178,
+    "door_access": 1,
+    "inspection": false
+  },
+  {
+    "map": "3.0",
+    "component_tiles": 455,
+    "door_access": 4,
+    "inspection": true
+  },
+  {
+    "map": "3.9",
+    "component_tiles": 3176,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "3.19",
+    "component_tiles": 1139,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "3.28",
+    "component_tiles": 1519,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "4.0",
+    "component_tiles": 75,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "4.2",
+    "component_tiles": 84,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "4.10",
+    "component_tiles": 1746,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "4.11",
+    "component_tiles": 95,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "5.0",
+    "component_tiles": 60,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "5.12",
+    "component_tiles": 873,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "6.10",
+    "component_tiles": 786,
+    "door_access": 2,
+    "inspection": true
+  },
+  {
+    "map": "6.17",
+    "component_tiles": 2651,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "6.19",
+    "component_tiles": 58,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "6.23",
+    "component_tiles": 59,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "6.27",
+    "component_tiles": 878,
+    "door_access": 4,
+    "inspection": true
+  },
+  {
+    "map": "6.28",
+    "component_tiles": 1022,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "6.29",
+    "component_tiles": 906,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "6.30",
+    "component_tiles": 776,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "6.31",
+    "component_tiles": 1009,
+    "door_access": 2,
+    "inspection": true
+  },
+  {
+    "map": "6.32",
+    "component_tiles": 333,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "7.3",
+    "component_tiles": 80,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "7.11",
+    "component_tiles": 808,
+    "door_access": 2,
+    "inspection": true
+  },
+  {
+    "map": "7.17",
+    "component_tiles": 403,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "7.19",
+    "component_tiles": 59,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "8.0",
+    "component_tiles": 80,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "8.6",
+    "component_tiles": 768,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "8.7",
+    "component_tiles": 853,
+    "door_access": 2,
+    "inspection": true
+  },
+  {
+    "map": "8.20",
+    "component_tiles": 494,
+    "door_access": 2,
+    "inspection": true
+  },
+  {
+    "map": "8.26",
+    "component_tiles": 180,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "9.10",
+    "component_tiles": 958,
+    "door_access": 9,
+    "inspection": true
+  },
+  {
+    "map": "9.11",
+    "component_tiles": 120,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "9.13",
+    "component_tiles": 397,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "10.20",
+    "component_tiles": 1150,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "10.21",
+    "component_tiles": 467,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "10.22",
+    "component_tiles": 182,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "11.5",
+    "component_tiles": 81,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "12.8",
+    "component_tiles": 1087,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "12.9",
+    "component_tiles": 294,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "12.10",
+    "component_tiles": 3198,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "12.11",
+    "component_tiles": 182,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "14.6",
+    "component_tiles": 80,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "14.10",
+    "component_tiles": 526,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "34.4",
+    "component_tiles": 735,
+    "door_access": 3,
+    "inspection": false
+  },
+  {
+    "map": "42.2",
+    "component_tiles": 1010,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "42.4",
+    "component_tiles": 1042,
+    "door_access": 3,
+    "inspection": true
+  },
+  {
+    "map": "42.6",
+    "component_tiles": 292,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "42.7",
+    "component_tiles": 460,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "42.12",
+    "component_tiles": 1309,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "42.13",
+    "component_tiles": 260,
+    "door_access": 1,
+    "inspection": true
+  },
+  {
+    "map": "42.14",
+    "component_tiles": 398,
+    "door_access": 0,
+    "inspection": true
+  },
+  {
+    "map": "42.15",
+    "component_tiles": 1220,
+    "door_access": 1,
+    "inspection": true
+  }
+]

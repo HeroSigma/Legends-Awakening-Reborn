@@ -1,0 +1,35 @@
+{
+  "id": "MAP_GALAR_8_20_GALAR_MINE",
+  "name": "Galar_8_20_Galar_Mine",
+  "layout": "LAYOUT_GALAR_8_20_GALAR_MINE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": false,
+  "map_type": "MAP_TYPE_UNDERWATER",
+  "warp_events": [
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_8_7_HULBURY",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 31,
+      "y": 64,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_6_32_MOTOSTOKE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "connections": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": "MAP_GALAR_10_22_STOW_ON_SIDE",
+  "name": "Galar_10_22_Stow_On_Side",
+  "layout": "LAYOUT_GALAR_10_22_STOW_ON_SIDE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": false,
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_10_21_STOW_ON_SIDE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "connections": null
+}

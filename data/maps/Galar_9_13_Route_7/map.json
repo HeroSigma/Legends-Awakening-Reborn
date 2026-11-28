@@ -1,0 +1,48 @@
+{
+  "id": "MAP_GALAR_9_13_ROUTE_7",
+  "name": "Galar_9_13_Route_7",
+  "layout": "LAYOUT_GALAR_9_13_ROUTE_7",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": false,
+  "map_type": "MAP_TYPE_ROUTE",
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_9_10_HAMMERLOCKE",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_9_10_HAMMERLOCKE",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_9_10_HAMMERLOCKE",
+      "dest_warp_id": "13"
+    }
+  ],
+  "connections": [
+    {
+      "map": "MAP_GALAR_12_8_ROUTE_8",
+      "offset": 8,
+      "direction": "up"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "actual_tile_warps": 92,
+  "inspection_maps": 52,
+  "postwick_arrival": [
+    18,
+    24
+  ],
+  "reciprocal_repairs": [
+    {
+      "map": "6.30",
+      "warp": 0,
+      "old_target": "6.27",
+      "old_index": 1,
+      "target": "6.27",
+      "index": 0
+    }
+  ],
+  "disabled_warps": 153,
+  "runtime_verified": false
+}

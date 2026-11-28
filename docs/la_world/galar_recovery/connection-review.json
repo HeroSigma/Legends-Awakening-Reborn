@@ -1,0 +1,9 @@
+{
+  "Postwick_Route1_offset": {
+    "before": 0,
+    "after": 1,
+    "reason": "Match the selected Route 1 down-connection offset -1; restores reciprocal alignment after replacing alternate donor Postwick."
+  },
+  "other_connection_pairs_have_inverse_offsets": true,
+  "connections": 36
+}

@@ -1069,7 +1069,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION",
+      "name": "POK\u00e9MON MANSION",
       "x": 4,
       "y": 14,
       "width": 1,
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE",
+      "name": "POK\u00e9MON LEAGUE",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER",
+      "name": "POK\u00e9MON TOWER",
       "x": 18,
       "y": 6,
       "width": 1,
@@ -1885,7 +1885,7 @@
     },
     {
       "id": "MAPSEC_HYPER_STEVEN_S_ISLAND",
-      "name": "Steven’s Island",
+      "name": "Steven\u2019s Island",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1918,6 +1918,14 @@
     {
       "id": "MAPSEC_UNOVA",
       "name": "Unova",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_GALAR_ASSETS",
+      "name": "Galar",
       "x": 0,
       "y": 0,
       "width": 1,

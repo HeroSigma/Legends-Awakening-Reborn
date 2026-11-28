@@ -1,0 +1,17 @@
+{
+  "donor": "Sword & Shield Ultimate+ v1.2.1.2",
+  "rom_sha256": "f6d2e7092831b983318b685132a19567ff5e6428665255738c4e5a63371bcce3",
+  "profile": "swsh_ultimate_plus",
+  "source_export": ".la_work/amap/swsh_full_v11",
+  "selected_dispositions": [
+    "SELECTED_ASSET",
+    "PRESERVE_CANARY"
+  ],
+  "reviewed_maps": 56,
+  "other_candidate_maps_not_restored": 428,
+  "legacy_maps_excluded": 197,
+  "superseded_maps_excluded": 20,
+  "donor_scripts_imported": false,
+  "normalization": "frlg_640_384_to_rse_512_512_global_ids_preserved",
+  "notes": "Existing exact-build extraction reused; selected source blockdata hashes checked against review manifest. No donor ROM is committed."
+}

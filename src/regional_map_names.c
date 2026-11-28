@@ -4,7 +4,36 @@
 
 // Presentation metadata does not change saved met-location IDs.
 
-static const u8 sUnovaRoute1Name[] = _("Route 1");
+
+
+// Exact-build Galar map labels; generic donor room names fall back to Galar.
+static const u8 sGalarLocationName0[] = _("Ballonlea");
+static const u8 sGalarLocationName1[] = _("Circhester");
+static const u8 sGalarLocationName2[] = _("Dynamax Adventure");
+static const u8 sGalarLocationName3[] = _("Galar Mine");
+static const u8 sGalarLocationName4[] = _("Hammerlocke");
+static const u8 sGalarLocationName5[] = _("Hulbury");
+static const u8 sGalarLocationName6[] = _("Galar");
+static const u8 sGalarLocationName7[] = _("Galar");
+static const u8 sGalarLocationName8[] = _("Galar");
+static const u8 sGalarLocationName9[] = _("Motostoke");
+static const u8 sGalarLocationName10[] = _("Postwick");
+static const u8 sGalarLocationName11[] = _("Route 1");
+static const u8 sGalarLocationName12[] = _("Route 10");
+static const u8 sGalarLocationName13[] = _("Route 2");
+static const u8 sGalarLocationName14[] = _("Route 3");
+static const u8 sGalarLocationName15[] = _("Route 4");
+static const u8 sGalarLocationName16[] = _("Route 5");
+static const u8 sGalarLocationName17[] = _("Route 6");
+static const u8 sGalarLocationName18[] = _("Route 7");
+static const u8 sGalarLocationName19[] = _("Route 8");
+static const u8 sGalarLocationName20[] = _("Slumbering area");
+static const u8 sGalarLocationName21[] = _("Spikemuth");
+static const u8 sGalarLocationName22[] = _("Stow On Side");
+static const u8 sGalarLocationName23[] = _("Turffield");
+static const u8 sGalarLocationName24[] = _("Wedgehurst");
+static const u8 sGalarLocationName25[] = _("Wild Area");
+static const u8 sGalarLocationName26[] = _("Wyndon");
 
 static const u8 sLocationName0[] = _("Accumula Town");
 static const u8 sLocationName1[] = _("Acuity Lakefront");
@@ -224,32 +253,6 @@ static const u8 sLocationName214[] = _("Water Path");
 static const u8 sLocationName215[] = _("Whirl Islands");
 static const u8 sUnovaRoute3Name[] = _("Route 3");
 static const struct { u16 layout; const u8 *name; } sRegionalMapNames[] = {
-    {LAYOUT_AMAP_3_22_ROUTE_3_LAYOUT, sUnovaRoute3Name},
-    {LAYOUT_AMAP_3_21_ROUTE_3_LAYOUT, sUnovaRoute3Name},
-    {LAYOUT_AMAP_1_114_PINHWEEL_FOREST_LAYOUT, sLocationName82},
-    {LAYOUT_AMAP_1_95_PINHWEEL_FOREST_LAYOUT, sLocationName82},
-    {LAYOUT_AMAP_3_0_NUVEMA_TOWN_LAYOUT, sLocationName71},
-    {LAYOUT_AMAP_3_2_STRIATON_CITY_LAYOUT, sLocationName191},
-    {LAYOUT_AMAP_3_3_NACRENE_CITY_LAYOUT, sLocationName67},
-    {LAYOUT_BWA_1_30, sLocationName13},
-    {LAYOUT_BWA_39_0, sLocationName29},
-    {LAYOUT_BWA_3_20, sLocationName95},
-    {LAYOUT_BWA_3_23, sLocationName132},
-    {LAYOUT_BWA_3_24, sLocationName142},
-    {LAYOUT_BWA_3_4, sLocationName13},
-    {LAYOUT_BWA_3_45, sLocationName14},
-    {LAYOUT_BWA_3_46, sLocationName15},
-    {LAYOUT_BWA_3_6, sLocationName30},
-    {LAYOUT_BWA_42_0, sLocationName71},
-    {LAYOUT_BWA_4_0, sLocationName71},
-    {LAYOUT_BWA_4_1, sLocationName71},
-    {LAYOUT_BWA_4_2, sLocationName71},
-    {LAYOUT_BWA_4_5, sLocationName71},
-    {LAYOUT_BWA_5_4, sLocationName0},
-    {LAYOUT_BWA_6_2, sLocationName191},
-    {LAYOUT_BWA_6_4, sLocationName191},
-    {LAYOUT_BWA_6_5, sLocationName191},
-    {LAYOUT_BWA_8_0, sLocationName13},
     {LAYOUT_GSJOHTO_10_0_GOLDENROD_CITY, sLocationName39},
     {LAYOUT_GSJOHTO_10_10_ECRUTEAK_CITY, sLocationName31},
     {LAYOUT_GSJOHTO_10_11_ECRUTEAK_CITY, sLocationName31},
@@ -1153,7 +1156,63 @@ static const struct { u16 layout; const u8 *name; } sRegionalMapNames[] = {
     {LAYOUT_KANTOAR_9_5_VERMILIONCITY_MART, sLocationName208},
     {LAYOUT_KANTOAR_9_6_VERMILIONCITY_GYM, sLocationName208},
     {LAYOUT_KANTOAR_9_7_VERMILIONCITY_HOUSE3, sLocationName208},
-    {LAYOUT_BWA_3_19_ROUTE_1, sUnovaRoute1Name},
+    {LAYOUT_GALAR_1_0_SLUMBERING_AREA, sGalarLocationName20},
+    {LAYOUT_GALAR_1_3_GALAR_MINE, sGalarLocationName3},
+    {LAYOUT_GALAR_1_99_DYNAMAX_ADVENTURE, sGalarLocationName2},
+    {LAYOUT_GALAR_1_101_DYNAMAX_ADVENTURE, sGalarLocationName2},
+    {LAYOUT_GALAR_2_57_DYNAMAX_ADVENTURE, sGalarLocationName2},
+    {LAYOUT_GALAR_3_0_POSTWICK, sGalarLocationName10},
+    {LAYOUT_GALAR_3_9_WYNDON, sGalarLocationName26},
+    {LAYOUT_GALAR_3_19_ROUTE_1, sGalarLocationName11},
+    {LAYOUT_GALAR_3_28_ROUTE_10, sGalarLocationName12},
+    {LAYOUT_GALAR_4_0_POSTWICK, sGalarLocationName10},
+    {LAYOUT_GALAR_4_2_POSTWICK, sGalarLocationName10},
+    {LAYOUT_GALAR_4_10_POSTWICK, sGalarLocationName10},
+    {LAYOUT_GALAR_4_11_POSTWICK, sGalarLocationName10},
+    {LAYOUT_GALAR_5_0_WEDGEHURST, sGalarLocationName24},
+    {LAYOUT_GALAR_5_12_ROUTE_2, sGalarLocationName13},
+    {LAYOUT_GALAR_6_10_MOTOSTOKE, sGalarLocationName9},
+    {LAYOUT_GALAR_6_17_ROUTE_3, sGalarLocationName14},
+    {LAYOUT_GALAR_6_19_MOTOSTOKE, sGalarLocationName9},
+    {LAYOUT_GALAR_6_23_MOTOSTOKE, sGalarLocationName9},
+    {LAYOUT_GALAR_6_27_MAP_06_27, sGalarLocationName6},
+    {LAYOUT_GALAR_6_28_GALAR_MINE, sGalarLocationName3},
+    {LAYOUT_GALAR_6_29_MAP_06_29, sGalarLocationName7},
+    {LAYOUT_GALAR_6_30_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_6_31_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_6_32_MOTOSTOKE, sGalarLocationName9},
+    {LAYOUT_GALAR_7_3_TURFFIELD, sGalarLocationName23},
+    {LAYOUT_GALAR_7_11_TURFFIELD, sGalarLocationName23},
+    {LAYOUT_GALAR_7_17_ROUTE_4, sGalarLocationName15},
+    {LAYOUT_GALAR_7_19_TURFFIELD, sGalarLocationName23},
+    {LAYOUT_GALAR_8_0_HULBURY, sGalarLocationName5},
+    {LAYOUT_GALAR_8_6_ROUTE_5, sGalarLocationName16},
+    {LAYOUT_GALAR_8_7_HULBURY, sGalarLocationName5},
+    {LAYOUT_GALAR_8_20_GALAR_MINE, sGalarLocationName3},
+    {LAYOUT_GALAR_8_26_HULBURY, sGalarLocationName5},
+    {LAYOUT_GALAR_9_10_HAMMERLOCKE, sGalarLocationName4},
+    {LAYOUT_GALAR_9_11_HAMMERLOCKE, sGalarLocationName4},
+    {LAYOUT_GALAR_9_13_ROUTE_7, sGalarLocationName18},
+    {LAYOUT_GALAR_10_20_ROUTE_6, sGalarLocationName17},
+    {LAYOUT_GALAR_10_21_STOW_ON_SIDE, sGalarLocationName22},
+    {LAYOUT_GALAR_10_22_STOW_ON_SIDE, sGalarLocationName22},
+    {LAYOUT_GALAR_11_5_BALLONLEA, sGalarLocationName0},
+    {LAYOUT_GALAR_12_8_ROUTE_8, sGalarLocationName19},
+    {LAYOUT_GALAR_12_9_ROUTE_8, sGalarLocationName19},
+    {LAYOUT_GALAR_12_10_CIRCHESTER, sGalarLocationName1},
+    {LAYOUT_GALAR_12_11_CIRCHESTER, sGalarLocationName1},
+    {LAYOUT_GALAR_14_6_SPIKEMUTH, sGalarLocationName21},
+    {LAYOUT_GALAR_14_10_SPIKEMUTH, sGalarLocationName21},
+    {LAYOUT_GALAR_34_4_DYNAMAX_ADVENTURE, sGalarLocationName2},
+    {LAYOUT_GALAR_42_2_MAP_42_02, sGalarLocationName8},
+    {LAYOUT_GALAR_42_4_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_6_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_7_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_12_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_13_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_14_WILD_AREA, sGalarLocationName25},
+    {LAYOUT_GALAR_42_15_WILD_AREA, sGalarLocationName25},
+
 };
 
 #include "mercury_johto_names.inc"

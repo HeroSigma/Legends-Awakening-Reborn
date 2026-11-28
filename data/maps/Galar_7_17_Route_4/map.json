@@ -1,0 +1,41 @@
+{
+  "id": "MAP_GALAR_7_17_ROUTE_4",
+  "name": "Galar_7_17_Route_4",
+  "layout": "LAYOUT_GALAR_7_17_ROUTE_4",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "allow_escaping": false,
+  "allow_running": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "object_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region_map_section": "MAPSEC_GALAR_ASSETS",
+  "music": "MUS_ROUTE104",
+  "show_map_name": true,
+  "allow_cycling": true,
+  "map_type": "MAP_TYPE_ROUTE",
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 27,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_6_28_GALAR_MINE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "elevation": 3,
+      "dest_map": "MAP_GALAR_6_28_GALAR_MINE",
+      "dest_warp_id": "2"
+    }
+  ],
+  "connections": [
+    {
+      "map": "MAP_GALAR_7_11_TURFFIELD",
+      "offset": -27,
+      "direction": "up"
+    }
+  ]
+}
