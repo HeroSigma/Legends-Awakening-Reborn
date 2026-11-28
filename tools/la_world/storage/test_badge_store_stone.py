@@ -7,7 +7,7 @@ D=R/'docs/features/badge-store-stone';D.mkdir(parents=True,exist_ok=True)
 checks=[]
 def check(n,v):
  checks.append(dict(test=n,passed=bool(v)));assert v,n
-items={'EXP_CANDY_XS':0,'HEALTH_FEATHER':0,'EXP_CANDY_S':1,'HP_UP':1,'PROTEIN':1,'HEALTH_MOCHI':1,'MACHO_BRACE':1,'EXP_CANDY_M':2,'ABILITY_CAPSULE':2,'FRESH_START_MOCHI':2,'TIMID_MINT':2,'ADAMANT_MINT':2,'POWER_WEIGHT':2,'POWER_ANKLET':2,'RARE_CANDY':4,'EXP_CANDY_L':4,'DYNAMAX_CANDY':4,'ABILITY_PATCH':4,'EXP_CANDY_XL':6,'BOTTLE_CAP':6,'GOLD_BOTTLE_CAP':8}
+items={'EXP_CANDY_XS':0,'HEALTH_FEATHER':0,'EXP_CANDY_S':1,'HP_UP':1,'PROTEIN':1,'HEALTH_MOCHI':1,'MACHO_BRACE':1,'EXP_CANDY_M':2,'ABILITY_CAPSULE':2,'FRESH_START_MOCHI':2,'TIMID_MINT':2,'ADAMANT_MINT':2,'POWER_WEIGHT':2,'POWER_ANKLET':2,'RARE_CANDY':4,'EXP_CANDY_L':4,'DYNAMAX_CANDY':4,'ABILITY_PATCH':4,'EXP_CANDY_XL':6,'BOTTLE_CAP':2,'GOLD_BOTTLE_CAP':4}
 names=['SCR_OP_CALL','SCR_OP_END','FLAG_BADGE01_GET','FLAG_SYS_GAME_CLEAR','FLAG_LA_STONE_SHINY_CHARM','FLAG_DELIVERED_STEVEN_LETTER','FLAG_RECEIVED_EXP_SHARE','ITEM_SHINY_CHARM','ITEM_EXP_SHARE','ITEM_STRANGE_BALL','ITEM_MASTER_BALL','VAR_DEVON_CORP_3F_STATE','VAR_0x8004','offsetof(struct SaveBlock1,money)']+['ITEM_'+x for x in items]
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'c.c').write_text('#include "global.h"\n#include "item.h"\n#include "constants/flags.h"\n#include "constants/vars.h"\n#include "constants/script_commands.h"\n#include <stddef.h>\nconst unsigned v[]={'+','.join(names)+'};')

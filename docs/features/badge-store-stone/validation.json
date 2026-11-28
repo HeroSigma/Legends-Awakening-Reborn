@@ -577,14 +577,6 @@
       "passed": true
     },
     {
-      "test": "2_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "2_BOTTLE_CAP_no_charge",
-      "passed": true
-    },
-    {
       "test": "2_GOLD_BOTTLE_CAP_availability",
       "passed": true
     },
@@ -725,14 +717,6 @@
       "passed": true
     },
     {
-      "test": "3_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "3_BOTTLE_CAP_no_charge",
-      "passed": true
-    },
-    {
       "test": "3_GOLD_BOTTLE_CAP_availability",
       "passed": true
     },
@@ -841,23 +825,7 @@
       "passed": true
     },
     {
-      "test": "4_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "4_BOTTLE_CAP_no_charge",
-      "passed": true
-    },
-    {
       "test": "4_GOLD_BOTTLE_CAP_availability",
-      "passed": true
-    },
-    {
-      "test": "4_GOLD_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "4_GOLD_BOTTLE_CAP_no_charge",
       "passed": true
     },
     {
@@ -957,23 +925,7 @@
       "passed": true
     },
     {
-      "test": "5_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "5_BOTTLE_CAP_no_charge",
-      "passed": true
-    },
-    {
       "test": "5_GOLD_BOTTLE_CAP_availability",
-      "passed": true
-    },
-    {
-      "test": "5_GOLD_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "5_GOLD_BOTTLE_CAP_no_charge",
       "passed": true
     },
     {
@@ -1069,14 +1021,6 @@
       "passed": true
     },
     {
-      "test": "6_GOLD_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "6_GOLD_BOTTLE_CAP_no_charge",
-      "passed": true
-    },
-    {
       "test": "6_Strange_excluded",
       "passed": true
     },
@@ -1166,14 +1110,6 @@
     },
     {
       "test": "7_GOLD_BOTTLE_CAP_availability",
-      "passed": true
-    },
-    {
-      "test": "7_GOLD_BOTTLE_CAP_locked_purchase",
-      "passed": true
-    },
-    {
-      "test": "7_GOLD_BOTTLE_CAP_no_charge",
       "passed": true
     },
     {
@@ -1378,5 +1314,5 @@
     }
   ],
   "user_save_loaded": false,
-  "rom_sha256": "aec0ec69134b2d2f557f627298481b7bbae88a7470e0cc8e2500f5ec3cb2a967"
+  "rom_sha256": "6874cd34af1eea42ebaf15acf5c6c021ddebd55de30e74c70a46d48776804075"
 }

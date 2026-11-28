@@ -60,9 +60,9 @@ u32 LegendsStore_RequiredBadgeTier(enum Item item)
     case ITEM_EXP_CANDY_L:
     case ITEM_DYNAMAX_CANDY:
     case ITEM_ABILITY_PATCH: return 4;
-    case ITEM_EXP_CANDY_XL:
-    case ITEM_BOTTLE_CAP: return 6;
-    case ITEM_GOLD_BOTTLE_CAP: return 8;
+    case ITEM_EXP_CANDY_XL: return 6;
+    case ITEM_BOTTLE_CAP: return 2;
+    case ITEM_GOLD_BOTTLE_CAP: return 4;
     case ITEM_MACHO_BRACE: return 1;
     default: break;
     }

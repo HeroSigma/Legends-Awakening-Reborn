@@ -29,7 +29,7 @@ u32 __attribute__((noinline)) GetItemBagCategory(enum Item item)
     u32 pocket = GetItemPocket(item);
     if (pocket != POCKET_ITEMS)
         return pocket;
-    if (item == ITEM_ABILITY_PATCH || item == ITEM_ABILITY_CAPSULE)
+    if (item == ITEM_ABILITY_PATCH || item == ITEM_ABILITY_CAPSULE || item == ITEM_BOTTLE_CAP || item == ITEM_GOLD_BOTTLE_CAP)
         return BAG_TRAINING;
     switch (gItemsInfo[item].sortType)
     {

@@ -1,4 +1,6 @@
 #include "global.h"
+#include "item.h"
+#include "text_window.h"
 #include "battle.h"
 #include "battle_factory.h"
 #include "battle_tent.h"
@@ -36,6 +38,12 @@
 //==========DEFINES==========//
 struct StatEditorResources
 {
+    struct Pokemon original, draft;
+    bool8 draftReady;
+    bool8 reviewActive;
+    bool8 ownsMonGfx;
+    u8 targetBox, reviewWindow, reviewCursor, reviewAction;
+    bool8 reviewInvisible[7];
     MainCallback savedCallback;     // determines callback to run when we exit. e.g. where do we want to go after closing the menu
     u8 gfxLoadState;
     u8 mode;
@@ -156,6 +164,10 @@ static void RunMonAnimTimer(void);
 static void PrintMonStats(void);
 static bool32 IsEditingBoxMon(void);
 static struct BoxPokemon *GetCurrentBoxMon(void);
+static void RequestTrainingReview(u8 taskId, u8 action);
+static void Task_ChangeStatEditorPokemon(u8 taskId, s32 delta);
+static void Task_TrainingReview(u8 taskId);
+static void HideTrainingReviewSprites(void);
 static void UpdateMoveRelearnerState(void);
 static void SetMonPosVars(void);
 static u32 StatEditor_HP(bool32 maximum);
@@ -889,6 +901,7 @@ void StatEditor_Init(MainCallback callback)
         return;
     }
 
+    sStatEditorDataPtr->reviewWindow          = WINDOW_NONE;
     sStatEditorDataPtr->gfxLoadState          = 0;
     sStatEditorDataPtr->savedCallback         = callback;
     sStatEditorDataPtr->leftSelectorSpriteId  = 0xFF;
@@ -923,6 +936,8 @@ static void StatEditor_MainCB(void)
 {
     RunTasks();
     AnimateSprites();
+    if (sStatEditorDataPtr->reviewActive)
+        HideTrainingReviewSprites();
     BuildOamBuffer();
     DoScheduledBgTilemapCopiesToVram();
     UpdatePaletteFade();
@@ -1035,7 +1050,8 @@ static void StatEditor_FreeResources(void)
     DestroySelectors();
     DestroyNatureArrows();
     DestroyMonSprite();
-    DestroyMonSpritesGfxManager(MON_SPR_GFX_MANAGER_A);
+    if (sStatEditorDataPtr->ownsMonGfx)
+        DestroyMonSpritesGfxManager(MON_SPR_GFX_MANAGER_A);
     if (sStatEditorDataPtr->typeSpriteId < MAX_SPRITES) DestroySprite(&gSprites[sStatEditorDataPtr->typeSpriteId]);
     FreeSpritePaletteByTag(TAG_MISC);
     FreeSpriteTilesByTag(TAG_MOVE_TYPES);
@@ -1190,40 +1206,93 @@ static bool32 IsEditingBoxMon(void)
     return gSpecialVar_0x8004 == PC_MON_CHOSEN;
 }
 
-static struct BoxPokemon *GetCurrentBoxMon(void)
+static void LoadTrainingDraft(void)
 {
     if (IsEditingBoxMon())
-        return GetBoxedMonPtr(gSpecialVar_MonBoxId, sStatEditorDataPtr->monIndex);
-    return &gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex].box;
+    {
+        sStatEditorDataPtr->targetBox=gSpecialVar_MonBoxId;
+        BoxMonToMon(GetBoxedMonPtr(sStatEditorDataPtr->targetBox,sStatEditorDataPtr->monIndex),&sStatEditorDataPtr->original);
+    }
+    else
+        sStatEditorDataPtr->original=gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex];
+    sStatEditorDataPtr->draft=sStatEditorDataPtr->original;
+    sStatEditorDataPtr->draftReady=TRUE;
 }
-
-// Preserve current party HP, status, identity and effective nature while
-// applying stat changes. Boxed mons use the compact-storage writeback APIs.
+static struct BoxPokemon *GetCurrentBoxMon(void)
+{
+    if (!sStatEditorDataPtr->draftReady) LoadTrainingDraft();
+    return &sStatEditorDataPtr->draft.box;
+}
 static u32 StatEditor_HP(bool32 maximum)
 {
     if (IsEditingBoxMon()) return 0;
-    return GetMonData(&gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex], maximum ? MON_DATA_MAX_HP : MON_DATA_HP);
+    return GetMonData(&sStatEditorDataPtr->draft,maximum ? MON_DATA_MAX_HP : MON_DATA_HP);
 }
 static void StatEditor_SetHP(u32 hp)
 {
-    if (!IsEditingBoxMon()) SetMonData(&gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex],MON_DATA_HP,&hp);
+    if (!IsEditingBoxMon()) SetMonData(&sStatEditorDataPtr->draft,MON_DATA_HP,&hp);
 }
 static void StatEditor_Recalculate(struct BoxPokemon *boxMon)
 {
+    struct Pokemon *mon=&sStatEditorDataPtr->draft;
+    u32 hp=GetMonData(mon,MON_DATA_HP),max=GetMonData(mon,MON_DATA_MAX_HP);
+    CalculateMonStats(mon);
+    s32 next=hp==0 ? 0 : (s32)hp+GetMonData(mon,MON_DATA_MAX_HP)-(s32)max;
+    if (hp && next<1) next=1;
+    SetMonData(mon,MON_DATA_HP,&next);
+}
+static bool32 TrainingDraftChanged(void)
+{
+    return memcmp(&sStatEditorDataPtr->original.box,GetCurrentBoxMon(),sizeof(struct BoxPokemon))!=0;
+}
+static u32 TrainingFee(bool32 ivs)
+{
+    static const u8 evs[]={MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
+    static const u8 ivFields[]={MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
+    for (u32 i=0;i<6;i++)
+        if (GetBoxMonData(&sStatEditorDataPtr->original.box,ivs?ivFields[i]:evs[i])!=GetBoxMonData(GetCurrentBoxMon(),ivs?ivFields[i]:evs[i])) return 1;
+    return 0;
+}
+// 0 success, 1 missing Caps, 2 invalid/changed target. All writes are synchronous.
+static u32 CommitTrainingDraft(void)
+{
+    u32 gold=TrainingFee(TRUE),regular=TrainingFee(FALSE),total=0;
+    static const u8 evs[]={MON_DATA_HP_EV,MON_DATA_ATK_EV,MON_DATA_DEF_EV,MON_DATA_SPATK_EV,MON_DATA_SPDEF_EV,MON_DATA_SPEED_EV};
+    static const u8 ivs[]={MON_DATA_HP_IV,MON_DATA_ATK_IV,MON_DATA_DEF_IV,MON_DATA_SPATK_IV,MON_DATA_SPDEF_IV,MON_DATA_SPEED_IV};
+    if (!StatEditor_IsUnlocked()) return 2;
+    for (u32 i=0;i<6;i++)
+    {
+        u32 ev=GetBoxMonData(GetCurrentBoxMon(),evs[i]);
+        if (ev>MAX_PER_STAT_EVS || GetBoxMonData(GetCurrentBoxMon(),ivs[i])>MAX_PER_STAT_IVS) return 2;
+        total+=ev;
+    }
+    if (total>MAX_TOTAL_EVS) return 2;
     if (IsEditingBoxMon())
     {
-        // Flush this edited cache entry before another slot is decoded.
-        StorageWriteMon(gSpecialVar_MonBoxId,sStatEditorDataPtr->monIndex,boxMon);
+        struct BoxPokemon *live=GetBoxedMonPtr(sStatEditorDataPtr->targetBox,sStatEditorDataPtr->monIndex);
+        if (!live || memcmp(live,&sStatEditorDataPtr->original.box,sizeof(*live))) return 2;
     }
-    else
+    else if (sStatEditorDataPtr->monIndex>=gPartiesCount[B_TRAINER_PLAYER]
+        || memcmp(&gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex],&sStatEditorDataPtr->original,sizeof(struct Pokemon))) return 2;
+    if ((gold && !CheckBagHasItem(ITEM_GOLD_BOTTLE_CAP,1)) || (regular && !CheckBagHasItem(ITEM_BOTTLE_CAP,1))) return 1;
+    if (gold && !RemoveBagItem(ITEM_GOLD_BOTTLE_CAP,1)) return 1;
+    if (regular && !RemoveBagItem(ITEM_BOTTLE_CAP,1))
     {
-        struct Pokemon *mon=&gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex];
-        u32 hp=GetMonData(mon,MON_DATA_HP), max=GetMonData(mon,MON_DATA_MAX_HP);
-        CalculateMonStats(mon);
-        u32 next=hp==0?0:hp+GetMonData(mon,MON_DATA_MAX_HP)-max;
-        if (hp && (s32)next<1) next=1;
-        SetMonData(mon,MON_DATA_HP,&next);
+        if (gold) AddBagItem(ITEM_GOLD_BOTTLE_CAP,1);
+        return 1;
     }
+    if (IsEditingBoxMon())
+    {
+        if (!StorageWriteMon(sStatEditorDataPtr->targetBox,sStatEditorDataPtr->monIndex,GetCurrentBoxMon()))
+        {
+            if (gold) AddBagItem(ITEM_GOLD_BOTTLE_CAP,1);
+            if (regular) AddBagItem(ITEM_BOTTLE_CAP,1);
+            return 2;
+        }
+    }
+    else gParties[B_TRAINER_PLAYER][sStatEditorDataPtr->monIndex]=sStatEditorDataPtr->draft;
+    sStatEditorDataPtr->original=sStatEditorDataPtr->draft;
+    return 0;
 }
 
 static bool32 CanCycleBoxOrParty(void)
@@ -1519,8 +1588,11 @@ static void CreateMonSprite(enum Species species)
     u32 pid = GetBoxMonData(boxMon, MON_DATA_PERSONALITY);
     bool8 isShiny = GetBoxMonData(boxMon, MON_DATA_IS_SHINY);
 
-    if (gMonSpritesGfxPtr == NULL)
+    if (gMonSpritesGfxPtr == NULL && !sStatEditorDataPtr->ownsMonGfx)
+    {
         CreateMonSpritesGfxManager(MON_SPR_GFX_MANAGER_A, MON_SPR_GFX_MODE_NORMAL);
+        sStatEditorDataPtr->ownsMonGfx = TRUE;
+    }
 
     HandleLoadSpecialPokePic(TRUE,
                               MonSpritesGfxManager_GetSpritePtr(MON_SPR_GFX_MANAGER_A, B_POSITION_OPPONENT_LEFT),
@@ -1656,22 +1728,9 @@ static void DestroyNatureArrows(void)
 static void PrintTitleToWindowMainState(void)
 {
     FillWindowPixelBuffer(WINDOW_MAIN_HEADER, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-
-    if (CanCycleBoxOrParty())
-    {
-        BlitBitmapToWindow(WINDOW_MAIN_HEADER, sLR_ButtonGfx, 0, BUTTON_Y, 16, 8);
-        if (IsEditingBoxMon())
-            PrintTextOnWindowWithFont(WINDOW_MAIN_HEADER, sText_MenuLRButtonBox, 19, 0, 0, FONT_WHITE, FONT_NARROW);
-        else
-            PrintTextOnWindowWithFont(WINDOW_MAIN_HEADER, sText_MenuLRButtonParty, 19, 0, 0, FONT_WHITE, FONT_NARROW);
-    }
-
-    {
-        BlitBitmapToWindow(WINDOW_MAIN_HEADER, sStart_ButtonGfx, 65, BUTTON_Y, 24, 8);
-        PrintTextOnWindowWithFont(WINDOW_MAIN_HEADER, sText_MenuStartButtonMoves, 93, 0, 0, FONT_WHITE, FONT_NARROW);
-    }
+    PrintTextOnWindow(WINDOW_MAIN_HEADER, COMPOUND_STRING("SELECT: Review changes"), 0, 0, 0, FONT_WHITE);
     PutWindowTilemap(WINDOW_MAIN_HEADER);
-    CopyWindowToVram(WINDOW_MAIN_HEADER, COPYWIN_FULL);
+    CopyWindowToVram(WINDOW_MAIN_HEADER,COPYWIN_FULL);
 }
 
 void GetDPadText(void)
@@ -2380,6 +2439,7 @@ static void Task_ChangeStatEditorPokemon(u8 taskId, s32 delta)
         }
         if (newPos != -1)
         {
+            sStatEditorDataPtr->draftReady = FALSE;
             sStatEditorDataPtr->monIndex = newPos;
             PlaySE(SE_SELECT);
             ReloadNewPokemon(taskId);
@@ -2391,16 +2451,111 @@ static void Task_ChangeStatEditorPokemon(u8 taskId, s32 delta)
     }
 }
 
+static void ReviewSpriteVisibility(bool32 hide)
+{
+    u8 ids[]={sStatEditorDataPtr->monSpriteId,sStatEditorDataPtr->monShadowSpriteId,sStatEditorDataPtr->typeSpriteId,sStatEditorDataPtr->natureUpSpriteId,sStatEditorDataPtr->natureDownSpriteId,sStatEditorDataPtr->leftSelectorSpriteId,sStatEditorDataPtr->rightSelectorSpriteId};
+    for (u32 i=0;i<ARRAY_COUNT(ids);i++) if (ids[i]<MAX_SPRITES)
+    {
+        if (hide) {sStatEditorDataPtr->reviewInvisible[i]=gSprites[ids[i]].invisible;gSprites[ids[i]].invisible=TRUE;}
+        else gSprites[ids[i]].invisible=sStatEditorDataPtr->reviewInvisible[i];
+    }
+}
+// Sprite callbacks may restore their own visibility during AnimateSprites.
+static void HideTrainingReviewSprites(void)
+{
+    u8 ids[]={sStatEditorDataPtr->monSpriteId,sStatEditorDataPtr->monShadowSpriteId,sStatEditorDataPtr->typeSpriteId,sStatEditorDataPtr->natureUpSpriteId,sStatEditorDataPtr->natureDownSpriteId,sStatEditorDataPtr->leftSelectorSpriteId,sStatEditorDataPtr->rightSelectorSpriteId};
+    for (u32 i=0;i<ARRAY_COUNT(ids);i++)
+        if (ids[i]<MAX_SPRITES) gSprites[ids[i]].invisible=TRUE;
+}
+static void ReviewPrint(const u8 *text,u32 x,u32 y)
+{
+    static const u8 colors[]={1,2,3};
+    AddTextPrinterParameterized4(sStatEditorDataPtr->reviewWindow,FONT_SMALL,x,y,0,0,colors,TEXT_SKIP_DRAW,text);
+}
+static void DrawTrainingReview(const u8 *error)
+{
+    u8 text[80], number[12];
+    u32 gold=TrainingFee(TRUE), regular=TrainingFee(FALSE);
+    FillWindowPixelBuffer(sStatEditorDataPtr->reviewWindow,PIXEL_FILL(1));
+    GetBoxMonNickname(GetCurrentBoxMon(),text);ReviewPrint(text,0,0);
+    ReviewPrint(gold?COMPOUND_STRING("IVs: 1 Gold Cap"):COMPOUND_STRING("IVs: no charge"),0,14);
+    ReviewPrint(regular?COMPOUND_STRING("EVs: 1 Bottle Cap"):COMPOUND_STRING("EVs: no charge"),0,26);
+    StringCopy(text,COMPOUND_STRING("Owned: "));
+    ConvertIntToDecimalStringN(number,CountTotalItemQuantityInBag(ITEM_GOLD_BOTTLE_CAP),STR_CONV_MODE_LEFT_ALIGN,4);
+    StringAppend(text,number);StringAppend(text,COMPOUND_STRING(" Gold / "));
+    ConvertIntToDecimalStringN(number,CountTotalItemQuantityInBag(ITEM_BOTTLE_CAP),STR_CONV_MODE_LEFT_ALIGN,4);
+    StringAppend(text,number);StringAppend(text,COMPOUND_STRING(" Cap"));ReviewPrint(text,0,38);
+    if (error) ReviewPrint(error,0,50);
+    ReviewPrint(COMPOUND_STRING("Apply changes"),12,68);
+    ReviewPrint(COMPOUND_STRING("Discard changes"),12,80);
+    ReviewPrint(COMPOUND_STRING("Keep editing"),12,92);
+    ReviewPrint(COMPOUND_STRING(">"),0,68+sStatEditorDataPtr->reviewCursor*12);
+    PutWindowTilemap(sStatEditorDataPtr->reviewWindow);
+    CopyWindowToVram(sStatEditorDataPtr->reviewWindow,COPYWIN_FULL);
+}
+static void CloseTrainingReview(void)
+{
+    ClearStdWindowAndFrameToTransparent(sStatEditorDataPtr->reviewWindow,TRUE);
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_TILEMAP_LEFT,sMenuWindowTemplates[WINDOW_STATS_PANEL].tilemapLeft);
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_TILEMAP_TOP,sMenuWindowTemplates[WINDOW_STATS_PANEL].tilemapTop);
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_PALETTE_NUM,sMenuWindowTemplates[WINDOW_STATS_PANEL].paletteNum);
+    sStatEditorDataPtr->reviewActive=FALSE;
+    sStatEditorDataPtr->reviewWindow=WINDOW_NONE;
+    for (u32 i=0;i<6;i++) {PutWindowTilemap(i);CopyWindowToVram(i,COPYWIN_MAP);}
+    ShowBg(2);ReviewSpriteVisibility(FALSE);PrintMonStats();PrintTitleToWindowMainState();
+}
+static void FinishTrainingAction(u8 taskId,u32 action)
+{
+    gTasks[taskId].func=Task_StatEditorMain;
+    if (action==1)
+    {
+        gLastViewedMonIndex=sStatEditorDataPtr->monIndex;
+        BeginNormalPaletteFade(PALETTES_ALL,0,0,16,RGB_BLACK);
+        gTasks[taskId].func=Task_StatEditorTurnOff;
+    }
+    else if (action==2 || action==3) Task_ChangeStatEditorPokemon(taskId,action==2?-1:1);
+}
+static void RequestTrainingReview(u8 taskId,u8 action)
+{
+    if (!TrainingDraftChanged()) {FinishTrainingAction(taskId,action);return;}
+    // Reuse the stats window's pixel buffer: a second large allocation can
+    // fragment the small GBA heap when switching animated party sprites.
+    for (u32 i=0;i<6;i++) ClearWindowTilemap(i);
+    sStatEditorDataPtr->reviewWindow=WINDOW_STATS_PANEL;
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_TILEMAP_LEFT,7);
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_TILEMAP_TOP,3);
+    SetWindowAttribute(WINDOW_STATS_PANEL,WINDOW_PALETTE_NUM,15);
+    sStatEditorDataPtr->reviewActive=TRUE;
+    sStatEditorDataPtr->reviewCursor=0;sStatEditorDataPtr->reviewAction=action;
+    LoadPalette(gStandardMenuPalette,BG_PLTT_ID(15),PLTT_SIZE_4BPP);
+    LoadStdWindowGfx(sStatEditorDataPtr->reviewWindow,0x3D0,BG_PLTT_ID(15));
+    DrawStdFrameWithCustomTileAndPalette(sStatEditorDataPtr->reviewWindow,FALSE,0x3D0,15);
+    HideBg(2);ReviewSpriteVisibility(TRUE);DrawTrainingReview(NULL);gTasks[taskId].func=Task_TrainingReview;
+}
+static void Task_TrainingReview(u8 taskId)
+{
+    if (JOY_NEW(B_BUTTON)) {CloseTrainingReview();gTasks[taskId].func=Task_StatEditorMain;return;}
+    if (JOY_NEW(DPAD_UP | DPAD_DOWN))
+    {
+        sStatEditorDataPtr->reviewCursor=(sStatEditorDataPtr->reviewCursor+(JOY_NEW(DPAD_UP)?2:1))%3;
+        PlaySE(SE_SELECT);DrawTrainingReview(NULL);return;
+    }
+    if (!JOY_NEW(A_BUTTON)) return;
+    u32 choice=sStatEditorDataPtr->reviewCursor,action=sStatEditorDataPtr->reviewAction;
+    if (choice==0)
+    {
+        u32 result=CommitTrainingDraft();
+        if (result) {PlaySE(SE_FAILURE);DrawTrainingReview(result==1?COMPOUND_STRING("Not enough Caps."):COMPOUND_STRING("Target changed!"));return;}
+    }
+    else if (choice==1) sStatEditorDataPtr->draft=sStatEditorDataPtr->original;
+    CloseTrainingReview();PlaySE(SE_SELECT);
+    FinishTrainingAction(taskId,choice==2?0:action);
+}
+
 static void Task_StatEditorMain(u8 taskId)
 {
-    if (JOY_NEW(B_BUTTON))
-    {
-        PlaySE(SE_PC_OFF);
-        gLastViewedMonIndex = sStatEditorDataPtr->monIndex;
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        gTasks[taskId].func = Task_StatEditorTurnOff;
-        return;
-    }
+    if (JOY_NEW(B_BUTTON)) {RequestTrainingReview(taskId,1);return;}
+    if (JOY_NEW(SELECT_BUTTON)) {RequestTrainingReview(taskId,0);return;}
 
     if (JOY_NEW(START_BUTTON))
     {
@@ -2416,13 +2571,13 @@ static void Task_StatEditorMain(u8 taskId)
     {
         if (JOY_NEW(L_BUTTON))
         {
-            Task_ChangeStatEditorPokemon(taskId, -1);
+            RequestTrainingReview(taskId,2);
             return;
         }
 
         if (JOY_NEW(R_BUTTON))
         {
-            Task_ChangeStatEditorPokemon(taskId, 1);
+            RequestTrainingReview(taskId,3);
             return;
         }
     }

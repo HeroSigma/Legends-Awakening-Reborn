@@ -117,3 +117,10 @@ Reserve FLAG_UNUSED_0x905 as FLAG_LA_STONE_SHINY_CHARM. Mr. Stone's
 letter-delivery reward is independent of FLAG_RECEIVED_EXP_SHARE, since the
 player now starts with EXP Share. Older saves that delivered the letter may
 claim the Shiny Charm once. Preserve this separation when editing the scene.
+
+## Cap training transaction state
+
+Reserve FLAG_UNUSED_0x906 as FLAG_LA_TRAINING_CAP_KIT for the optional
+post-Brawly starter kit. Stat-editor previews must remain drafts until an
+explicit Apply; charge at most one Gold Cap for IVs and one regular Cap for EVs
+per confirmed Pokémon batch. Do not reintroduce live writes on slider input.

@@ -1,5 +1,5 @@
 {
-  "rom_sha256": "85498fab284bd1496f3f69469b24b49b368445f026b1a20c5ca839c94b2cb1c5",
+  "rom_sha256": "6874cd34af1eea42ebaf15acf5c6c021ddebd55de30e74c70a46d48776804075",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -10,11 +10,23 @@
       "passed": true
     },
     {
+      "test": "0_preview_not_live",
+      "passed": true
+    },
+    {
+      "test": "0_iv_batch_cost",
+      "passed": true
+    },
+    {
       "test": "0_31_all",
       "passed": true
     },
     {
       "test": "0_damage_preserved",
+      "passed": true
+    },
+    {
+      "test": "0_ev_batch_cost",
       "passed": true
     },
     {
@@ -46,6 +58,10 @@
       "passed": true
     },
     {
+      "test": "0_box_preview_not_live",
+      "passed": true
+    },
+    {
       "test": "0_last_box_edited",
       "passed": true
     },
@@ -74,11 +90,23 @@
       "passed": true
     },
     {
+      "test": "1_preview_not_live",
+      "passed": true
+    },
+    {
+      "test": "1_iv_batch_cost",
+      "passed": true
+    },
+    {
       "test": "1_31_all",
       "passed": true
     },
     {
       "test": "1_damage_preserved",
+      "passed": true
+    },
+    {
+      "test": "1_ev_batch_cost",
       "passed": true
     },
     {
@@ -107,6 +135,10 @@
     },
     {
       "test": "1_return_index",
+      "passed": true
+    },
+    {
+      "test": "1_box_preview_not_live",
       "passed": true
     },
     {

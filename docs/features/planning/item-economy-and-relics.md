@@ -2,13 +2,24 @@
 
 Date: 2026-11-28
 
-Status: Planning only. No gameplay, item placement, shop, stat-editor or ROM changes are authorized by this document. Implementation awaits approval.
+Status: Implementation approved in parts. Part one implements Cap-funded IV/EV drafts and introductory Cap access. Parts two onward remain pending; their locations, quests and relic restrictions are still proposals.
+
+## Part one delivered
+
+- After Brawly, open the Stats page of the summary and press START. All adjustments stay in a draft; SELECT opens a payment review. B or L/R with a draft offers Apply / Discard / Keep editing. START still previews 31 All; use L/R in the main editor to change party members.
+- One Gold Bottle Cap pays for any changed IV configuration on one Pokemon, including deliberate zero IVs. One regular Bottle Cap pays for any EV changes on that Pokemon. A combined batch costs one of each. Reverted values, previews and discards cost nothing. Missing Caps or a changed target cannot partially apply or charge.
+- The scientist offers a one-time optional kit of one Gold and one regular Cap after Brawly. Declining retains eligibility. Both items must fit and be granted before the claim flag is saved (`FLAG_LA_TRAINING_CAP_KIT`, reserved 0x906).
+- Regular Caps enter Legends Store after Brawly (base 5,000; normal 6,250; sale 5,000). Gold Caps enter after Flannery (base 12,000; normal 15,000; sale 12,000). Both are in the Bag's Training category. XL EXP Candy still unlocks after Winona.
+- Nature and ability changes are staged with the same draft, but retain their existing free pricing in this part. Mint/Ability item charges, treasure exchanges, relic exclusions, Plate placements and the Devon Memory vendor are not implemented here.
+- The review reuses the existing stats window buffer, and party sprite graphics are allocated once per editor visit. This avoids the GBA heap exhaustion exposed by repeated party switching.
+
+The design below records the full plan; only the delivered scope above is current gameplay.
 
 ## 1. Requested direction
 
 1. Replace the proposed cash fees for IV/EV editing with Bottle Cap costs.
-2. Spend one Gold Bottle Cap to change a Pok?mon's IVs, with 31 as the maximum.
-3. Spend one regular Bottle Cap for changes to a Pok?mon's EVs.
+2. Spend one Gold Bottle Cap to change a Pokémon's IVs, with 31 as the maximum.
+3. Spend one regular Bottle Cap for changes to a Pokémon's EVs.
 4. Give otherwise underused treasures meaningful research, quest and encounter roles.
 5. Remove Legendary/Mythical-associated items from ordinary shops, including Legends Store. Explicitly include the Red/Blue Orbs and the Adamant, Lustrous and Griseous item families.
 6. Scatter Arceus's Plates across different areas.
@@ -21,7 +32,7 @@ The original money example is superseded by the Bottle Cap proposal. Do not char
 
 ### Recommended exact charging rules
 
-| Confirmed change to one Pok?mon | Cost |
+| Confirmed change to one Pokémon | Cost |
 |---|---|
 | Any number of IV fields, including 31 All | 1 Gold Bottle Cap |
 | Any number of EV fields | 1 Bottle Cap |
@@ -29,11 +40,11 @@ The original money example is superseded by the Bottle Cap proposal. Do not char
 | Preview, cancel, or return every value to its original value | Nothing |
 | Insufficient required Caps | No charge and no changes |
 
-Editing HP, Attack and Speed EVs is **one EV batch**, not three payments. Editing both the IVs and EVs of those stats costs one of each Cap. Each Pok?mon has its own transaction; cycling through a whole party must not share one payment.
+Editing HP, Attack and Speed EVs is **one EV batch**, not three payments. Editing both the IVs and EVs of those stats costs one of each Cap. Each Pokémon has its own transaction; cycling through a whole party must not share one payment.
 
 Recommended interpretation of ?change IVs (max 31)?: keep the existing 0?31 range, including deliberate 0 Attack/Speed builds. A Gold Cap pays for the entire confirmed IV configuration; it is not restricted to raising every stat to 31. Hidden Power's IV-pattern tool must use the same charge. This is a proposed game-specific training service, not a claim about the items' original-game behavior.
 
-Keep the existing maximums: 252 per EV stat and 510 total; 252/252/6 remains valid. Resetting EVs to zero counts as an EV change. Preserve Pok?mon identity, ability/nature unless explicitly edited, Tera type, HP damage, status, fainted state and storage position.
+Keep the existing maximums: 252 per EV stat and 510 total; 252/252/6 remains valid. Resetting EVs to zero counts as an EV change. Preserve Pokémon identity, ability/nature unless explicitly edited, Tera type, HP damage, status, fainted state and storage position.
 
 ### Important implementation finding
 
@@ -41,12 +52,12 @@ The current editor writes edits immediately through `ApplyRightPanelStatChange`,
 
 Implementation should therefore:
 
-1. Copy the selected Pok?mon's original data into a stable editing buffer. Keep a separate draft for preview/stat calculations; do not retain a pointer to the compact-PC decode scratch buffer across slot changes.
+1. Copy the selected Pokémon's original data into a stable editing buffer. Keep a separate draft for preview/stat calculations; do not retain a pointer to the compact-PC decode scratch buffer across slot changes.
 2. Route all mutation paths through the draft, including individual edits, 31 All, EV reset, Hidden Power patterns and shortcuts.
 3. Compare original and final IV/EV values to calculate the two charges. Selecting a value and then reverting it must produce no charge.
-4. Add an explicit **Apply changes** confirmation showing the Pok?mon, changed fields, required Caps and available quantities.
-5. On Pok?mon/box cycling or closing with an edited draft, offer Apply / Discard / Keep editing. Never silently write changes when cycling.
-6. Before committing, revalidate the target and its unlock, IV/EV limits and all required items. Commit inventory and Pok?mon data together; a failed operation must restore both. Use the existing party/compact-storage APIs and retain ordinary manual saving.
+4. Add an explicit **Apply changes** confirmation showing the Pokémon, changed fields, required Caps and available quantities.
+5. On Pokémon/box cycling or closing with an edited draft, offer Apply / Discard / Keep editing. Never silently write changes when cycling.
+6. Before committing, revalidate the target and its unlock, IV/EV limits and all required items. Commit inventory and Pokémon data together; a failed operation must restore both. Use the existing party/compact-storage APIs and retain ordinary manual saving.
 7. Apply nothing when a required Cap is missing. Do not consume a Gold Cap first and leave a half-finished transaction when the regular Cap is unavailable.
 8. Recalculate stats while preserving existing HP/status behavior, then refresh the summary and Bag counts.
 
@@ -96,7 +107,7 @@ The policy should classify items as ordinary stock, training stock, unique relic
 | Arceus items | All 17 existing Plates | Exploration/research placement; never ordinary sales |
 | Type: Null/Silvally items | All 17 Memories | Devon basement vendor only, after the permanent Type: Null unlock |
 
-This is a concrete starting manifest, not a claim that auditing future item/form additions is unnecessary. The implementation audit should reconcile every Legendary/Mythical form-change item, held-item association and species-specific Z-Crystal against the policy. Generic items used by many Pok?mon, such as ordinary type boosters, are not excluded just because a Legendary can hold them.
+This is a concrete starting manifest, not a claim that auditing future item/form additions is unnecessary. The implementation audit should reconcile every Legendary/Mythical form-change item, held-item association and species-specific Z-Crystal against the policy. Generic items used by many Pokémon, such as ordinary type boosters, are not excluded just because a Legendary can hold them.
 
 Do not delete items or reset flags in existing saves. Previously owned relics can remain; encounter access still follows story, League and quest requirements. Decide case by case whether an early-owned relic satisfies a quest's item requirement; possession alone must not bypass a required investigation.
 
@@ -114,13 +125,13 @@ The following are proposed destinations/themes, not implemented or walkability-v
 | Meadow | Timeless Woods | A woodland shrine on the accessible mainland, separate from the natural wormhole |
 | Icicle | Shoal Cave | An ice/tide puzzle |
 | Fist | Granite Cave | A Dewford-era training/research side quest |
-| Toxic | Kanto Pok?mon Mansion | A contamination investigation once the area is actually opened by the story |
+| Toxic | Kanto Pokémon Mansion | A contamination investigation once the area is actually opened by the story |
 | Earth | Hoenn desert ruins | A buried chamber reached through an archaeology quest |
 | Sky | Sky Pillar | An optional ledge/shrine once legitimate story access exists |
 | Mind | Johto Ruins of Alph | An inscription puzzle and Unown research |
 | Insect | Petalburg Woods | An ecosystem investigation on a later return visit |
 | Stone | Rusturf Tunnel | A geological side chamber, clear of the existing rescue cutscene |
-| Spooky | Kanto Pok?mon Tower | A memorial/research quest |
+| Spooky | Kanto Pokémon Tower | A memorial/research quest |
 | Draco | Meteor Falls | A deeper dragon shrine behind the intended traversal/story gate |
 | Dread | Johto Dark Cave | A shadowed chamber with a local investigation |
 | Iron | Devon basement | An earned research reward from a metallurgy experiment; never vendor stock |
@@ -167,7 +178,7 @@ First audit existing uses. Fossils, Honey, Heart Scales, colored shards and Shoa
 
 - Common materials can be consumed by repeatable exchanges, with confirmation. Unique relics should normally be inspected/registered and retained.
 - If a treasure becomes a unique Legendary quest artifact, remove it from ordinary sales too, or require separate earned research evidence. Buying a generic sample cannot replace the story investigation.
-- Protect unique relics/Plates from accidental selling or tossing, or provide a documented recovery route. A recorded discovery does not disappear when the item is held by a Pok?mon or moved to storage.
+- Protect unique relics/Plates from accidental selling or tossing, or provide a documented recovery route. A recorded discovery does not disappear when the item is held by a Pokémon or moved to storage.
 - Provide recovery for mandatory items sold before this feature existed; do not require a new game.
 - Avoid requiring a rare one-time treasure to unlock several mutually exclusive quest lines. Loan/registration can cover multiple investigations without repeatedly consuming it.
 - Item possession is one prerequisite, not an automatic Legendary/Mythical encounter. Preserve League, quest, location and existing story-capture gates.
@@ -186,9 +197,9 @@ Normal gameplay restrictions and developer debug tools should be distinguished e
 
 ## 8. Verification checklist for the future implementation
 
-- One Pok?mon with three changed EV stats costs exactly one regular Cap; combined IV+EV edits cost exactly one of each.
+- One Pokémon with three changed EV stats costs exactly one regular Cap; combined IV+EV edits cost exactly one of each.
 - No charge for a no-op, reverting to original values, cancellation, missing resources or failed target validation.
-- Confirming repeatedly without a new change cannot consume another Cap. Cycling Pok?mon cannot share one payment across the team.
+- Confirming repeatedly without a new change cannot consume another Cap. Cycling Pokémon cannot share one payment across the team.
 - Cover every editing path, including 31 All and Hidden Power patterns, and preserve 252/252/6 and other legal spreads.
 - Party and ordinary/expanded PC editing preserve identity, HP damage, fainted state, status and normal save/load behavior.
 - Before the appropriate badge, editing remains locked. Cap sources become available when the approved economy says they should.

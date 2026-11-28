@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_kit_before_Brawly",
+      "passed": true
+    },
+    {
+      "test": "offered_after_Brawly",
+      "passed": true
+    },
+    {
+      "test": "decline_no_claim",
+      "passed": true
+    },
+    {
+      "test": "declined_can_retry",
+      "passed": true
+    },
+    {
+      "test": "one_of_each",
+      "passed": true
+    },
+    {
+      "test": "claim_flag",
+      "passed": true
+    },
+    {
+      "test": "no_repeat_offer",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "reload",
+      "passed": true
+    },
+    {
+      "test": "saved_claim_and_caps",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "6874cd34af1eea42ebaf15acf5c6c021ddebd55de30e74c70a46d48776804075"
+}

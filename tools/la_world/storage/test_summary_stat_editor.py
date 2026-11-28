@@ -7,7 +7,7 @@ D=R/'docs/features/summary-stat-editor';D.mkdir(parents=True,exist_ok=True)
 checks=[]
 def check(n,v):
  checks.append(dict(test=n,passed=bool(v)));assert v,n
-names=['FLAG_BADGE01_GET','FLAG_BADGE02_GET','MON_DATA_FRIENDSHIP','SUMMARY_MODE_NORMAL','PC_MON_CHOSEN','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_PERSONALITY','MON_DATA_TERA_TYPE','MON_DATA_HIDDEN_NATURE','MON_DATA_ABILITY_NUM','MON_DATA_IS_EGG','MON_DATA_SANITY_IS_BAD_EGG','MON_DATA_SPECIES','MON_DATA_LEVEL']+[f'MON_DATA_{s}_{t}' for t in ['IV','EV'] for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED']]
+names=['ITEM_BOTTLE_CAP','ITEM_GOLD_BOTTLE_CAP','FLAG_BADGE01_GET','FLAG_BADGE02_GET','MON_DATA_FRIENDSHIP','SUMMARY_MODE_NORMAL','PC_MON_CHOSEN','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_PERSONALITY','MON_DATA_TERA_TYPE','MON_DATA_HIDDEN_NATURE','MON_DATA_ABILITY_NUM','MON_DATA_IS_EGG','MON_DATA_SANITY_IS_BAD_EGG','MON_DATA_SPECIES','MON_DATA_LEVEL']+[f'MON_DATA_{s}_{t}' for t in ['IV','EV'] for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED']]
 with tempfile.TemporaryDirectory() as td:
  td=Path(td);(td/'a.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "pokemon_summary_screen.h"\n#include "pokemon_storage_system.h"\n#include "constants/party_menu.h"\n#include "constants/flags.h"\nconst unsigned values[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'a.c'),'-o',str(td/'a.o')],cwd=R,check=True)
@@ -25,23 +25,32 @@ for mode in [0,1]:
  print('CASE',mode,flush=True)
  start(mode);invoke('FlagSet',c['FLAG_BADGE02_GET']);invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0);invoke('ScriptGiveMon',7,16,0)
  m=symbols['gParties'];m2=m+100
- put(m,'HP',1);put(m2,'HP',0);put(m,'HIDDEN_NATURE',0);put(m,'ABILITY_NUM',0)
+ invoke('AddBagItem',c['ITEM_BOTTLE_CAP'],5);invoke('AddBagItem',c['ITEM_GOLD_BOTTLE_CAP'],5)
+ put(m,'HP_IV',0);put(m2,'HP_IV',0);put(m,'HP',1);put(m2,'HP',0);put(m,'HIDDEN_NATURE',0);put(m,'ABILITY_NUM',0)
  oldhp=field(m,'MAX_HP')-1;pid=field(m,'PERSONALITY');tera=field(m,'TERA_TYPE')
  skills();capture(f'{mode}_skills_entry');editor();capture(f'{mode}_editor')
  tap(8);frames(30)
+ check(f'{mode}_preview_not_live',field(m,'HP_IV')!=31)
+ tap(4);wait('Task_TrainingReview');capture(f'{mode}_review_ivs');tap(1);frames(20)
+ check(f'{mode}_iv_batch_cost',invoke('CountTotalItemQuantityInBag',c['ITEM_GOLD_BOTTLE_CAP'])==4)
  check(f'{mode}_31_all',all(field(m,s+'_IV')==31 for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED']))
  check(f'{mode}_damage_preserved',field(m,'MAX_HP')-field(m,'HP')==oldhp)
  tap(16)
  for i in range(3):
   tap(1);tap(256);tap(2)
   if i<2:tap(128)
+ tap(4);wait('Task_TrainingReview');capture(f'{mode}_review_evs');tap(1);frames(20)
+ check(f'{mode}_ev_batch_cost',invoke('CountTotalItemQuantityInBag',c['ITEM_BOTTLE_CAP'])==4)
  check(f'{mode}_ev_budget',tuple(field(m,s+'_EV') for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED'])==(252,252,6,0,0,0))
  tap(32);tap(128);tap(1);tap(16);tap(2)
+ tap(4);tap(1);frames(20)
  check(f'{mode}_legal_ability',field(m,'ABILITY_NUM')==2)
  tap(128);tap(1);tap(16);tap(2)
+ tap(4);tap(1);frames(20)
  check(f'{mode}_nature_effects',field(m,'HIDDEN_NATURE')==1)
  check(f'{mode}_identity_and_tera_preserved',field(m,'PERSONALITY')==pid and field(m,'TERA_TYPE')==tera)
  tap(256);wait('Task_StatEditorMain',500);tap(8)
+ tap(4);tap(1);frames(20)
  check(f'{mode}_cycles_to_second_mon',field(m2,'HP_IV')==31)
  check(f'{mode}_fainted_stays_fainted',field(m2,'HP')==0)
  tap(2);wait('Task_HandleInput',1800);frames(30);capture(f'{mode}_back_to_summary')
@@ -55,6 +64,8 @@ for mode in [0,1]:
  invoke('ShowPokemonSummaryScreen_SwSh',0,0,c['PC_MON_CHOSEN'],29,symbols['CB2_ReturnToField']|1)
  wr(symbols['gMain']+4,symbols['CB2_InitSummaryScreen']|1);wait('Task_HandleInput',1800);frames(40);tap(16);frames(60);editor()
  tap(8);frames(25)
+ check(f'{mode}_box_preview_not_live',invoke('GetBoxMonDataAt',box,slot,c['MON_DATA_HP_IV'])==0)
+ tap(4);wait('Task_TrainingReview');capture(f'{mode}_box_review');tap(1);frames(20)
  check(f'{mode}_last_box_edited',invoke('GetBoxMonDataAt',box,slot,c['MON_DATA_HP_IV'])==31)
  tap(2);wait('Task_HandleInput',1800);tap(2);frames(160)
  check(f'{mode}_save',invoke('TrySavingData',0)==1)

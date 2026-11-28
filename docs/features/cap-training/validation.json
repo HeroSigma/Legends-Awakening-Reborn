@@ -1,0 +1,190 @@
+{
+  "rom_sha256": "6874cd34af1eea42ebaf15acf5c6c021ddebd55de30e74c70a46d48776804075",
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_reverted_IVs_free",
+      "passed": true
+    },
+    {
+      "test": "0_draft_keeps_live_bytes",
+      "passed": true
+    },
+    {
+      "test": "0_missing_EV_cap_stays_review",
+      "passed": true
+    },
+    {
+      "test": "0_missing_cap_no_partial_payment",
+      "passed": true
+    },
+    {
+      "test": "0_missing_cap_no_write",
+      "passed": true
+    },
+    {
+      "test": "0_missing_Gold_no_partial_payment",
+      "passed": true
+    },
+    {
+      "test": "0_back_keeps_editing",
+      "passed": true
+    },
+    {
+      "test": "0_discard_free",
+      "passed": true
+    },
+    {
+      "test": "0_combined_one_each",
+      "passed": true
+    },
+    {
+      "test": "0_all_IVs_31",
+      "passed": true
+    },
+    {
+      "test": "0_EV_510",
+      "passed": true
+    },
+    {
+      "test": "0_repeat_apply_free",
+      "passed": true
+    },
+    {
+      "test": "0_dirty_cycle_prompts",
+      "passed": true
+    },
+    {
+      "test": "0_cycle_discard_keeps_second",
+      "passed": true
+    },
+    {
+      "test": "0_second_mon_own_fee",
+      "passed": true
+    },
+    {
+      "test": "0_stale_target_rejected",
+      "passed": true
+    },
+    {
+      "test": "0_stale_target_no_payment",
+      "passed": true
+    },
+    {
+      "test": "0_save",
+      "passed": true
+    },
+    {
+      "test": "0_load",
+      "passed": true
+    },
+    {
+      "test": "0_caps_persist",
+      "passed": true
+    },
+    {
+      "test": "0_training_persists",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_1",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_1",
+      "passed": true
+    },
+    {
+      "test": "1_reverted_IVs_free",
+      "passed": true
+    },
+    {
+      "test": "1_draft_keeps_live_bytes",
+      "passed": true
+    },
+    {
+      "test": "1_missing_EV_cap_stays_review",
+      "passed": true
+    },
+    {
+      "test": "1_missing_cap_no_partial_payment",
+      "passed": true
+    },
+    {
+      "test": "1_missing_cap_no_write",
+      "passed": true
+    },
+    {
+      "test": "1_missing_Gold_no_partial_payment",
+      "passed": true
+    },
+    {
+      "test": "1_back_keeps_editing",
+      "passed": true
+    },
+    {
+      "test": "1_discard_free",
+      "passed": true
+    },
+    {
+      "test": "1_combined_one_each",
+      "passed": true
+    },
+    {
+      "test": "1_all_IVs_31",
+      "passed": true
+    },
+    {
+      "test": "1_EV_510",
+      "passed": true
+    },
+    {
+      "test": "1_repeat_apply_free",
+      "passed": true
+    },
+    {
+      "test": "1_dirty_cycle_prompts",
+      "passed": true
+    },
+    {
+      "test": "1_cycle_discard_keeps_second",
+      "passed": true
+    },
+    {
+      "test": "1_second_mon_own_fee",
+      "passed": true
+    },
+    {
+      "test": "1_stale_target_rejected",
+      "passed": true
+    },
+    {
+      "test": "1_stale_target_no_payment",
+      "passed": true
+    },
+    {
+      "test": "1_save",
+      "passed": true
+    },
+    {
+      "test": "1_load",
+      "passed": true
+    },
+    {
+      "test": "1_caps_persist",
+      "passed": true
+    },
+    {
+      "test": "1_training_persists",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false
+}
