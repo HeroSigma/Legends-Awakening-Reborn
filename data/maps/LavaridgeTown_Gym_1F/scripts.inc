@@ -62,6 +62,7 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setflag FLAG_WHITEOUT_TO_LAVARIDGE
 	setflag FLAG_DEFEATED_LAVARIDGE_GYM
 	setflag FLAG_BADGE04_GET
+	call ProgressionUnlocks_Heat
 	setvar VAR_0x8004, 13
 	call LegendsQuest_GymReward
 	addvar VAR_PETALBURG_GYM_STATE, 1

@@ -19,6 +19,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
 	setflag FLAG_BADGE01_GET
+	call ProgressionUnlocks_Stone
 	setvar VAR_0x8004, 10
 	call LegendsQuest_GymReward
 	setvar VAR_RUSTBORO_CITY_STATE, 1

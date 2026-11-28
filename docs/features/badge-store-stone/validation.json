@@ -1,0 +1,1382 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "0_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_S_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_S_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "0_HP_UP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_HP_UP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "0_PROTEIN_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_PROTEIN_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "0_HEALTH_MOCHI_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_HEALTH_MOCHI_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "0_MACHO_BRACE_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_MACHO_BRACE_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_M_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_M_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_CAPSULE_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_CAPSULE_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "0_FRESH_START_MOCHI_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_FRESH_START_MOCHI_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "0_TIMID_MINT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_TIMID_MINT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "0_ADAMANT_MINT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_ADAMANT_MINT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_WEIGHT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_WEIGHT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_ANKLET_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_POWER_ANKLET_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "0_RARE_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_RARE_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_L_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_L_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "0_DYNAMAX_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_DYNAMAX_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_PATCH_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_ABILITY_PATCH_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "0_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "0_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "0_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "0_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "0_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "1_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "1_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "1_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "1_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "1_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_M_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_M_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_CAPSULE_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_CAPSULE_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "1_FRESH_START_MOCHI_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_FRESH_START_MOCHI_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "1_TIMID_MINT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_TIMID_MINT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "1_ADAMANT_MINT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_ADAMANT_MINT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_WEIGHT_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_WEIGHT_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_ANKLET_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_POWER_ANKLET_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "1_RARE_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_RARE_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_L_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_L_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "1_DYNAMAX_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_DYNAMAX_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_PATCH_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_ABILITY_PATCH_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "1_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "1_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "1_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "1_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "1_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "2_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "2_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "2_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "2_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "2_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "2_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "2_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "2_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "2_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "2_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "2_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "2_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "2_RARE_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_RARE_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_L_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_L_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "2_DYNAMAX_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_DYNAMAX_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "2_ABILITY_PATCH_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_ABILITY_PATCH_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "2_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "2_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "2_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "2_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "2_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "3_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "3_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "3_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "3_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "3_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "3_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "3_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "3_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "3_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "3_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "3_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "3_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "3_RARE_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_RARE_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_L_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_L_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "3_DYNAMAX_CANDY_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_DYNAMAX_CANDY_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "3_ABILITY_PATCH_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_ABILITY_PATCH_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "3_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "3_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "3_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "3_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "3_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "4_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "4_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "4_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "4_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "4_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "4_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "4_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "4_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "4_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "4_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "4_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "4_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "4_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "4_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "4_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "4_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "4_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "4_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "4_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "4_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "4_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "4_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "4_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "5_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "5_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "5_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "5_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "5_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "5_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "5_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "5_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "5_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "5_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "5_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "5_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "5_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "5_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_XL_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "5_EXP_CANDY_XL_no_charge",
+      "passed": true
+    },
+    {
+      "test": "5_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "5_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "5_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "5_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "5_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "5_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "5_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "5_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "6_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "6_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "6_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "6_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "6_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "6_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "6_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "6_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "6_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "6_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "6_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "6_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "6_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "6_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "6_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "6_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "6_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "6_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "6_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "6_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "6_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "6_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "6_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "6_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "6_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "7_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "7_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "7_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "7_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "7_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "7_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "7_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "7_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "7_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "7_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "7_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "7_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "7_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "7_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "7_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "7_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "7_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "7_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "7_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "7_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "7_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "7_GOLD_BOTTLE_CAP_locked_purchase",
+      "passed": true
+    },
+    {
+      "test": "7_GOLD_BOTTLE_CAP_no_charge",
+      "passed": true
+    },
+    {
+      "test": "7_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "7_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "8_EXP_CANDY_XS_availability",
+      "passed": true
+    },
+    {
+      "test": "8_HEALTH_FEATHER_availability",
+      "passed": true
+    },
+    {
+      "test": "8_EXP_CANDY_S_availability",
+      "passed": true
+    },
+    {
+      "test": "8_HP_UP_availability",
+      "passed": true
+    },
+    {
+      "test": "8_PROTEIN_availability",
+      "passed": true
+    },
+    {
+      "test": "8_HEALTH_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "8_MACHO_BRACE_availability",
+      "passed": true
+    },
+    {
+      "test": "8_EXP_CANDY_M_availability",
+      "passed": true
+    },
+    {
+      "test": "8_ABILITY_CAPSULE_availability",
+      "passed": true
+    },
+    {
+      "test": "8_FRESH_START_MOCHI_availability",
+      "passed": true
+    },
+    {
+      "test": "8_TIMID_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "8_ADAMANT_MINT_availability",
+      "passed": true
+    },
+    {
+      "test": "8_POWER_WEIGHT_availability",
+      "passed": true
+    },
+    {
+      "test": "8_POWER_ANKLET_availability",
+      "passed": true
+    },
+    {
+      "test": "8_RARE_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "8_EXP_CANDY_L_availability",
+      "passed": true
+    },
+    {
+      "test": "8_DYNAMAX_CANDY_availability",
+      "passed": true
+    },
+    {
+      "test": "8_ABILITY_PATCH_availability",
+      "passed": true
+    },
+    {
+      "test": "8_EXP_CANDY_XL_availability",
+      "passed": true
+    },
+    {
+      "test": "8_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "8_GOLD_BOTTLE_CAP_availability",
+      "passed": true
+    },
+    {
+      "test": "8_Strange_excluded",
+      "passed": true
+    },
+    {
+      "test": "8_Master_still_League_locked",
+      "passed": true
+    },
+    {
+      "test": "Flannery_named_milestone",
+      "passed": true
+    },
+    {
+      "test": "Champion_Master",
+      "passed": true
+    },
+    {
+      "test": "Champion_all_training",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "starts_with_EXPShare_flag",
+      "passed": true
+    },
+    {
+      "test": "no_charm_before_letter",
+      "passed": true
+    },
+    {
+      "test": "letter_rewards_ShinyCharm",
+      "passed": true
+    },
+    {
+      "test": "independent_claim_flag",
+      "passed": true
+    },
+    {
+      "test": "EXPShare_unchanged",
+      "passed": true
+    },
+    {
+      "test": "repeat_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "already_owned_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "load",
+      "passed": true
+    },
+    {
+      "test": "reward_persists",
+      "passed": true
+    },
+    {
+      "test": "Stone_actual_notice",
+      "passed": true
+    },
+    {
+      "test": "Knuckle_actual_notice",
+      "passed": true
+    },
+    {
+      "test": "Heat_actual_notice",
+      "passed": true
+    },
+    {
+      "test": "Feather_actual_notice",
+      "passed": true
+    },
+    {
+      "test": "Rain_actual_notice",
+      "passed": true
+    },
+    {
+      "test": "badge_1_notice_hook",
+      "passed": true
+    },
+    {
+      "test": "badge_2_notice_hook",
+      "passed": true
+    },
+    {
+      "test": "badge_4_notice_hook",
+      "passed": true
+    },
+    {
+      "test": "badge_6_notice_hook",
+      "passed": true
+    },
+    {
+      "test": "badge_8_notice_hook",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "aec0ec69134b2d2f557f627298481b7bbae88a7470e0cc8e2500f5ec3cb2a967"
+}

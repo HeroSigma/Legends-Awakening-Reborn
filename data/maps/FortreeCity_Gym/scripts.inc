@@ -35,6 +35,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	msgbox FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_FORTREE_GYM
 	setflag FLAG_BADGE06_GET
+	call ProgressionUnlocks_Feather
 	setvar VAR_0x8004, 15
 	call LegendsQuest_GymReward
 	setvar VAR_0x8008, 6

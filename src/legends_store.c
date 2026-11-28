@@ -1,4 +1,6 @@
 #include "global.h"
+#include "event_data.h"
+#include "constants/flags.h"
 #include "progression_qol.h"
 #include "legends_store.h"
 #include "bag_categories.h"
@@ -37,9 +39,48 @@ static const struct WindowTemplate sWindow = {
     .paletteNum=15, .baseBlock=1,
 };
 
+static u32 StoreProgressionTier(void)
+{
+    if (FlagGet(FLAG_SYS_GAME_CLEAR)) return NUM_BADGES;
+    // Stock follows the named Gym milestones announced on victory.
+    for (u32 tier=NUM_BADGES;tier>0;tier--)
+        if (FlagGet(FLAG_BADGE01_GET+tier-1)) return tier;
+    return 0;
+}
+u32 LegendsStore_RequiredBadgeTier(enum Item item)
+{
+    if (item<=ITEM_NONE || item>=ITEMS_COUNT) return 0;
+    switch (item)
+    {
+    case ITEM_EXP_CANDY_S: return 1;
+    case ITEM_EXP_CANDY_M:
+    case ITEM_ABILITY_CAPSULE:
+    case ITEM_FRESH_START_MOCHI: return 2;
+    case ITEM_RARE_CANDY:
+    case ITEM_EXP_CANDY_L:
+    case ITEM_DYNAMAX_CANDY:
+    case ITEM_ABILITY_PATCH: return 4;
+    case ITEM_EXP_CANDY_XL:
+    case ITEM_BOTTLE_CAP: return 6;
+    case ITEM_GOLD_BOTTLE_CAP: return 8;
+    case ITEM_MACHO_BRACE: return 1;
+    default: break;
+    }
+    switch (gItemsInfo[item].sortType)
+    {
+    case ITEM_TYPE_STAT_BOOST_DRINK:
+    case ITEM_TYPE_STAT_BOOST_MOCHI: return 1;
+    case ITEM_TYPE_NATURE_MINT:
+    case ITEM_TYPE_EV_BOOST_HELD_ITEM: return 2;
+    default: return 0;
+    }
+}
+
 bool32 __attribute__((noinline)) LegendsStore_ItemAllowed(enum Item item)
 {
-    return item != ITEM_STRANGE_BALL
+    if (item<=ITEM_NONE || item>=ITEMS_COUNT) return FALSE;
+    return StoreProgressionTier() >= LegendsStore_RequiredBadgeTier(item)
+        && item != ITEM_STRANGE_BALL
         && (item != ITEM_MASTER_BALL || MasterBall_IsUnlocked())
         && item > ITEM_NONE && item < ITEMS_COUNT
         && GetItemTMHMIndex(item) <= NUM_TECHNICAL_MACHINES

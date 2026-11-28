@@ -136,3 +136,38 @@ LegendsTraining_Text_StatEditorLocked:
     .string "Earn Brawly's Knuckle Badge to\nunlock individual stat training.$"
 LegendsTraining_Text_StatEditorReady:
     .string "For individual stats, press START\non the summary's Stats page.$"
+
+ProgressionUnlocks_Stone::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Stone, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Stone:
+    .string "TRAINING UNLOCKED!\nThe Pok?mon Center scientist now\poffers level and friendship training.\nHe also teaches Egg Moves.\pNew Store stock: EV supplies,\nMacho Brace and small EXP Candy.$"
+
+ProgressionUnlocks_Knuckle::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Knuckle, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Knuckle:
+    .string "STAT EDITOR UNLOCKED!\nPress START on the summary's\pStats page to train individual stats.\nNew Store stock: mints, Power\pitems, Ability Capsules and\nmedium EXP Candy.$"
+
+ProgressionUnlocks_Heat::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Heat, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Heat:
+    .string "NEW LEGENDS STORE STOCK!\nRare Candies, large EXP Candy,\pDynamax Candy and Ability Patches\nare now available.$"
+
+ProgressionUnlocks_Feather::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Feather, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Feather:
+    .string "NEW LEGENDS STORE STOCK!\nXL EXP Candy and Bottle Caps\pare now available.$"
+
+ProgressionUnlocks_Rain::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Rain, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Rain:
+    .string "NEW LEGENDS STORE STOCK!\nGold Bottle Caps are now available.\pAll badge-gated training stock\nhas been unlocked.$"

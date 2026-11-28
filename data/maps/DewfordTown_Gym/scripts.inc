@@ -151,6 +151,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	msgbox DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
 	setflag FLAG_BADGE02_GET
+	call ProgressionUnlocks_Knuckle
 	setvar VAR_0x8004, 11
 	call LegendsQuest_GymReward
 	addvar VAR_PETALBURG_GYM_STATE, 1

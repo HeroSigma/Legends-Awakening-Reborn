@@ -110,3 +110,10 @@ for saved map edits. When those edits are authorized for the release, copy them
 into the build inputs before rebuilding and verify the resulting map data. Merely
 preserving edits in another checkout does not include them in the playable ROM.
 Keep unrelated research files intact and verify user map bytes when integrating.
+
+## Devon letter reward state
+
+Reserve FLAG_UNUSED_0x905 as FLAG_LA_STONE_SHINY_CHARM. Mr. Stone's
+letter-delivery reward is independent of FLAG_RECEIVED_EXP_SHARE, since the
+player now starts with EXP Share. Older saves that delivered the letter may
+claim the Shiny Charm once. Preserve this separation when editing the scene.

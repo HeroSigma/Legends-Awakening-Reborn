@@ -98,6 +98,7 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	msgbox SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
 	setflag FLAG_BADGE08_GET
+	call ProgressionUnlocks_Rain
 	setvar VAR_0x8004, 17
 	call LegendsQuest_GymReward
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS

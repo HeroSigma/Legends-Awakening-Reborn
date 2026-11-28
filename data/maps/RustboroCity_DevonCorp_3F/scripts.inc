@@ -184,36 +184,49 @@ RustboroCity_DevonCorp_3F_Movement_PlayerApproachDesk:
 	step_end
 
 RustboroCity_DevonCorp_3F_EventScript_MrStone::
-	lock
-	faceplayer
-	goto_if_set FLAG_RECEIVED_EXP_SHARE, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
-	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveExpShare
-	msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
+    lock
+    faceplayer
+    setspeaker SP_NAME_STONE
+    goto_if_set FLAG_LA_STONE_SHINY_CHARM, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
+    goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveShinyCharm
+    msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
+    goto RustboroCity_DevonCorp_3F_EventScript_StoneEnd
 
-RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
-	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
-	giveitem ITEM_EXP_SHARE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_EXP_SHARE
-	msgbox RustboroCity_DevonCorp_3F_Text_ExplainExpShare, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
+RustboroCity_DevonCorp_3F_EventScript_GiveShinyCharm::
+    msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
+    checkitem ITEM_SHINY_CHARM
+    goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_3F_EventScript_AlreadyHasCharm
+    setspeaker SP_NAME_NONE
+    giveitem ITEM_SHINY_CHARM
+    goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+    setflag FLAG_LA_STONE_SHINY_CHARM
+    setspeaker SP_NAME_PLAYER
+    msgbox RustboroCity_DevonCorp_3F_Text_PlayerCharmQuestion, MSGBOX_DEFAULT
+    setspeaker SP_NAME_STONE
+    msgbox RustboroCity_DevonCorp_3F_Text_ExplainShinyCharm, MSGBOX_DEFAULT
+    setspeaker SP_NAME_PLAYER
+    msgbox RustboroCity_DevonCorp_3F_Text_PlayerCharmPromise, MSGBOX_DEFAULT
+    setspeaker SP_NAME_STONE
+    msgbox RustboroCity_DevonCorp_3F_Text_StoneCharmReply, MSGBOX_DEFAULT
+    goto RustboroCity_DevonCorp_3F_EventScript_StoneEnd
+
+RustboroCity_DevonCorp_3F_EventScript_AlreadyHasCharm:
+    setflag FLAG_LA_STONE_SHINY_CHARM
+    setspeaker SP_NAME_PLAYER
+    msgbox RustboroCity_DevonCorp_3F_Text_PlayerHasCharm, MSGBOX_DEFAULT
+    setspeaker SP_NAME_STONE
+    msgbox RustboroCity_DevonCorp_3F_Text_ExplainShinyCharm, MSGBOX_DEFAULT
+    goto RustboroCity_DevonCorp_3F_EventScript_StoneEnd
 
 RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor::
-	msgbox RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
+    msgbox RustboroCity_DevonCorp_3F_Text_StoneAfterCharm, MSGBOX_DEFAULT
+RustboroCity_DevonCorp_3F_EventScript_StoneEnd:
+    closemessage
+    applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+    waitmovement 0
+    setspeaker SP_NAME_NONE
+    release
+    end
 
 RustboroCity_DevonCorp_3F_EventScript_Employee::
 	lock
@@ -251,27 +264,19 @@ RustboroCity_DevonCorp_3F_Text_CountingOnYou:
 	.string "I'm counting on you. Travel safely!$"
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
-	.string "MR. STONE: You delivered my LETTER?\n"
-	.string "Thank you kindly!\p"
-	.string "This is my way of thanking you.\n"
-	.string "It should help you, a TRAINER.$"
-
-RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
-	.string "MR. STONE: A POKéMON holding that\n"
-	.string "EXP. SHARE will be given some of the\l"
-	.string "EXP Points from battle.\p"
-	.string "It will get EXP Points even if it didn't\n"
-	.string "actually battle.\p"
-	.string "I would say EXP. SHARE is quite useful\n"
-	.string "for raising weak POKéMON.$"
-
-RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
-	.string "MR. STONE: Since my youth, I've immersed\n"
-	.string "myself in work.\p"
-	.string "Consequently, I'm not familiar with\n"
-	.string "trends and that sort of thing.\p"
-	.string "But do young people all want to be\n"
-	.string "TRAINERS in the POKéMON LEAGUE?$"
+    .string "Steven received my letter? Splendid!\nThank you, {PLAYER}.\pOur researchers found this while\nstudying a special stone.\pI'd like you to have it.$"
+RustboroCity_DevonCorp_3F_Text_PlayerCharmQuestion:
+    .string "A charm? Was it part of the stone?$"
+RustboroCity_DevonCorp_3F_Text_ExplainShinyCharm:
+    .string "It was lying beside it. We still\ndon't understand the connection.\pThe researchers carrying it kept\nspotting unusually colored Pok?mon.\pPerhaps you'll have better luck\nstudying it out in the field!$"
+RustboroCity_DevonCorp_3F_Text_PlayerCharmPromise:
+    .string "I'll keep it with me. If it leads\nto anything, I'll let you know.$"
+RustboroCity_DevonCorp_3F_Text_StoneCharmReply:
+    .string "That's the spirit! A discovery\nis only the beginning.$"
+RustboroCity_DevonCorp_3F_Text_PlayerHasCharm:
+    .string "I already have one like that.\nDo you know what it does?$"
+RustboroCity_DevonCorp_3F_Text_StoneAfterCharm:
+    .string "How is that charm treating you?\nKeep your eyes open, {PLAYER}.\pIf you notice anything unusual,\nDevon would love to hear about it.$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "This is our president's office.\nPlease wait here a moment.\pOur Silph colleague is checking the\nreadings we managed to keep.\pThe stolen parcel is meant for\nCaptain Stern in Slateport.\pWe still need it delivered safely.\nI'll ask the president what to do.$"
