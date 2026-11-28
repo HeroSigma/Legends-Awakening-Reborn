@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "False_actual_battle_Mega_configuration",
+      "passed": true
+    },
+    {
+      "test": "False_ace_has_Manectite",
+      "passed": true
+    },
+    {
+      "test": "False_native_Mega_eligible",
+      "passed": true
+    },
+    {
+      "test": "False_engine_assigns_Mega",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "True_actual_battle_Mega_configuration",
+      "passed": true
+    },
+    {
+      "test": "True_ace_has_Manectite",
+      "passed": true
+    },
+    {
+      "test": "True_native_Mega_eligible",
+      "passed": true
+    },
+    {
+      "test": "True_engine_assigns_Mega",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "2d4eff46053dd9c5b55b29d06bc1d05a5e053c0fbc869ca890741ff358cdda14"
+}

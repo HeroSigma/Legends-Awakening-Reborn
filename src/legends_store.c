@@ -68,6 +68,8 @@ u32 LegendsStore_RequiredBadgeTier(enum Item item)
     }
     switch (gItemsInfo[item].sortType)
     {
+    case ITEM_TYPE_MEGA_STONE: return 3;
+    case ITEM_TYPE_Z_CRYSTAL: return 2;
     case ITEM_TYPE_STAT_BOOST_DRINK:
     case ITEM_TYPE_STAT_BOOST_MOCHI: return 1;
     case ITEM_TYPE_NATURE_MINT:
@@ -76,10 +78,39 @@ u32 LegendsStore_RequiredBadgeTier(enum Item item)
     }
 }
 
+// Species-specific relics stay available to scripts and owned saves, but are
+// reserved for quests rather than sold with ordinary battle gimmick supplies.
+static bool32 IsLegendaryGimmickRelic(enum Item item)
+{
+    switch (item)
+    {
+    case ITEM_MEWTWONITE_X:
+    case ITEM_MEWTWONITE_Y:
+    case ITEM_LATIASITE:
+    case ITEM_LATIOSITE:
+    case ITEM_DIANCITE:
+    case ITEM_ZYGARDITE:
+    case ITEM_HEATRANITE:
+    case ITEM_DARKRANITE:
+    case ITEM_ZERAORITE:
+    case ITEM_MAGEARNITE:
+    case ITEM_MEWNIUM_Z:
+    case ITEM_TAPUNIUM_Z:
+    case ITEM_SOLGANIUM_Z:
+    case ITEM_LUNALIUM_Z:
+    case ITEM_MARSHADIUM_Z:
+    case ITEM_ULTRANECROZIUM_Z:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 bool32 __attribute__((noinline)) LegendsStore_ItemAllowed(enum Item item)
 {
     if (item<=ITEM_NONE || item>=ITEMS_COUNT) return FALSE;
     return StoreProgressionTier() >= LegendsStore_RequiredBadgeTier(item)
+        && !IsLegendaryGimmickRelic(item)
         && item != ITEM_STRANGE_BALL
         && (item != ITEM_MASTER_BALL || MasterBall_IsUnlocked())
         && item > ITEM_NONE && item < ITEMS_COUNT

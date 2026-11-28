@@ -189,6 +189,11 @@ static s32 Profile(u32 id)
 
 u32 LegendsTrainer_Gimmick(u32 trainerId)
 {
+    // The Dynamo Badge's story battle introduces Mega Evolution. A loss does
+    // not consume the demonstration; post-victory rematches reroll normally.
+    if (trainerId == TRAINER_WATTSON_1 && !FlagGet(FLAG_BADGE03_GET))
+        return TEAM_GIMMICK_MEGA;
+
     if (trainerId != TRAINER_NONE && trainerId == sGymGimmickTrainer)
         return sGymGimmick;
 

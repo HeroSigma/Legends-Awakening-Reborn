@@ -100,6 +100,7 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
+	call ProgressionUnlocks_Dynamo
 	setvar VAR_0x8004, 12
 	call LegendsQuest_GymReward
 	addvar VAR_PETALBURG_GYM_STATE, 1
@@ -347,7 +348,7 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
 	.string "forehead. It makes me happy!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-	.string "Show me what you and your partners\ncan do, {PLAYER}!$"
+    .string "Wahahah! Manectric and I have\none more spark to show you!\pIt's called Mega Evolution!\nOur bond brings out its power.\pShow me what you and your partners\ncan do, {PLAYER}!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Wahahahah!\n"

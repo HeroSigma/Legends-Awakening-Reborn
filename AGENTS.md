@@ -124,3 +124,11 @@ Reserve FLAG_UNUSED_0x906 as FLAG_LA_TRAINING_CAP_KIT for the optional
 post-Brawly starter kit. Stat-editor previews must remain drafts until an
 explicit Apply; charge at most one Gold Cap for IVs and one regular Cap for EVs
 per confirmed Pokémon batch. Do not reintroduce live writes on slider input.
+
+## Gimmick shop milestones
+
+Ordinary Z-Crystals unlock in Legends Store after Brawly (tier 2), and ordinary
+Mega Stones after Wattson (tier 3). Legendary/Mythical-specific stones/crystals
+are excluded from Store display and purchases; preserve already owned copies.
+Wattson's pre-Dynamo story battle always selects Mega Manectric, including
+retries after losses. Once the Dynamo Badge is earned, retain rotating rematches.

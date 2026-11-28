@@ -15,6 +15,24 @@ Status: Implementation approved in parts. Part one implements Cap-funded IV/EV d
 
 The design below records the full plan; only the delivered scope above is current gameplay.
 
+## Gimmick stock milestones delivered
+
+User refinement: keep ordinary Mega Stones and Z-Crystals in the Legends Store.
+Ordinary Z-Crystals (including non-Legendary signature crystals) unlock after
+Brawly's Knuckle Badge. Ordinary Mega Stones unlock after Wattson's Dynamo Badge.
+The existing story devices and exploration/quest rewards retain their own gates.
+
+The Store excludes ten Legendary/Mythical Mega Stones and six corresponding
+Z-Crystals, including Tapunium Z. Previously owned items remain usable. Both
+catalog visibility and direct purchase validation use the same exclusion.
+
+Wattson's initial badge battle uses Mega Manectric. Before the Dynamo Badge,
+losses/retries keep the Mega introduction; after the badge, Gym gimmicks rotate
+as before. This does not force an early Mega introduction onto other leaders.
+
+Other relic exclusions, Arceus Plate placements, the Devon Memory shop and
+new treasure quests remain pending as separate parts.
+
 ## 1. Requested direction
 
 1. Replace the proposed cash fees for IV/EV editing with Bottle Cap costs.

@@ -150,7 +150,14 @@ ProgressionUnlocks_Knuckle::
     msgbox ProgressionUnlocks_Text_Knuckle, MSGBOX_DEFAULT
     return
 ProgressionUnlocks_Text_Knuckle:
-    .string "STAT EDITOR UNLOCKED!\nPress START on the summary's\pStats page to preview training.\nSELECT reviews your changes.\pAsk the scientist for a Cap kit.\nRegular Caps are now in the Store.\pMints, Power items, Ability Capsules\nand medium EXP Candy are available.$"
+    .string "STAT EDITOR UNLOCKED!\nPress START on the summary's\pStats page to preview training.\nSELECT reviews your changes.\pAsk the scientist for a Cap kit.\nRegular Caps and Z-Crystals are\nnow in the Store.\pMints, Power items, Ability Capsules\nand medium EXP Candy are available.$"
+
+ProgressionUnlocks_Dynamo::
+    setspeaker SP_NAME_NONE
+    msgbox ProgressionUnlocks_Text_Dynamo, MSGBOX_DEFAULT
+    return
+ProgressionUnlocks_Text_Dynamo:
+    .string "MEGA STONES UNLOCKED!\nOrdinary Mega Stones are now\pavailable in the Legends Store.$"
 
 ProgressionUnlocks_Heat::
     setspeaker SP_NAME_NONE

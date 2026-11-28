@@ -1,0 +1,4990 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_VENUSAURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHARIZARDITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHARIZARDITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLASTOISINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BEEDRILLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIDGEOTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALAKAZITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SLOWBRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GENGARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_KANGASKHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PINSIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GYARADOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AERODACTYLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AMPHAROSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEELIXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCIZORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HERACRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HOUNDOOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TYRANITARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCEPTILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLAZIKENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SWAMPERTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARDEVOIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SABLENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAWILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AGGRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEDICHAMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MANECTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHARPEDONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CAMERUPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALTARIANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BANETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABSOLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GLALITITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SALAMENCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METAGROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LOPUNNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARCHOMPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUCARIONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABOMASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GALLADITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AUDINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CLEFABLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_VICTREEBELITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STARMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGONINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEGANIUMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FERALIGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKARMORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FROSLASSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EMBOARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EXCADRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCOLIPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCRAFTINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EELEKTROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHANDELURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHESNAUGHTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DELPHOXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRENINJITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PYROARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLOETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MALAMARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BARBARACITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGALGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HAWLUCHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAMPANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FALINKSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RAICHUNITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RAICHUNITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHIMECHITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ABSOLITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STARAPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GARCHOMPITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUCARIONITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GOLURKITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEOWSTICITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CRABOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GOLISOPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCOVILLAINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BAXCALIBRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TATSUGIRINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GLIMMORANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_NORMALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATERIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASSIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUNDIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUGINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCKIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOSTIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEELIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIKANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EEVIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SNORLIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DECIDIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INCINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRIMARIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LYCANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIMIKIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_KOMMONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ALORAICHIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIKASHUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_VENUSAURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHARIZARDITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHARIZARDITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BLASTOISINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BEEDRILLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIDGEOTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALAKAZITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SLOWBRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GENGARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_KANGASKHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PINSIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GYARADOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AERODACTYLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AMPHAROSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STEELIXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCIZORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HERACRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HOUNDOOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TYRANITARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCEPTILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BLAZIKENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SWAMPERTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARDEVOIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SABLENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MAWILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AGGRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEDICHAMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MANECTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SHARPEDONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CAMERUPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALTARIANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BANETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABSOLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GLALITITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SALAMENCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_METAGROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LOPUNNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARCHOMPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUCARIONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABOMASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GALLADITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_AUDINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CLEFABLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_VICTREEBELITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STARMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGONINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEGANIUMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FERALIGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SKARMORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FROSLASSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EMBOARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EXCADRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCOLIPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCRAFTINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EELEKTROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHANDELURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHESNAUGHTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DELPHOXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GRENINJITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PYROARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FLOETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MALAMARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BARBARACITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGALGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HAWLUCHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAMPANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FALINKSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_RAICHUNITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_RAICHUNITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CHIMECHITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ABSOLITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STARAPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GARCHOMPITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUCARIONITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GOLURKITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEOWSTICITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_CRABOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GOLISOPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SCOVILLAINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BAXCALIBRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TATSUGIRINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GLIMMORANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_NORMALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FIRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_WATERIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ELECTRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GRASSIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ICIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FIGHTINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_POISONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GROUNDIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FLYINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PSYCHIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_BUGINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ROCKIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_GHOSTIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DRAGONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DARKINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_STEELIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_FAIRIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIKANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_EEVIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SNORLIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_DECIDIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_INCINIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PRIMARIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LYCANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MIMIKIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_KOMMONIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ALORAICHIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_PIKASHUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "1_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_VENUSAURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHARIZARDITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHARIZARDITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BLASTOISINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BEEDRILLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PIDGEOTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ALAKAZITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SLOWBRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GENGARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_KANGASKHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PINSIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GYARADOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AERODACTYLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AMPHAROSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STEELIXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCIZORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HERACRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HOUNDOOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TYRANITARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCEPTILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BLAZIKENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SWAMPERTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARDEVOIRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SABLENITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MAWILITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AGGRONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEDICHAMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MANECTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SHARPEDONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CAMERUPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ALTARIANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BANETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABSOLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GLALITITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SALAMENCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_METAGROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LOPUNNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARCHOMPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUCARIONITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABOMASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GALLADITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_AUDINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CLEFABLITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_VICTREEBELITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STARMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAGONINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEGANIUMITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FERALIGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SKARMORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FROSLASSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EMBOARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EXCADRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCOLIPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCRAFTINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EELEKTROSSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHANDELURITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHESNAUGHTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DELPHOXITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GRENINJITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PYROARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FLOETTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MALAMARITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BARBARACITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAGALGITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HAWLUCHANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAMPANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FALINKSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_RAICHUNITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_RAICHUNITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CHIMECHITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ABSOLITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STARAPTITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GARCHOMPITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUCARIONITE_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GOLURKITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEOWSTICITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_CRABOMINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GOLISOPITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SCOVILLAINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BAXCALIBRITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TATSUGIRINITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GLIMMORANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "2_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "3_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "4_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_VENUSAURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHARIZARDITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHARIZARDITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLASTOISINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BEEDRILLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIDGEOTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ALAKAZITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SLOWBRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GENGARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_KANGASKHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PINSIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GYARADOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AERODACTYLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AMPHAROSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEELIXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCIZORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HERACRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HOUNDOOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TYRANITARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCEPTILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLAZIKENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SWAMPERTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GARDEVOIRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SABLENITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAWILITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AGGRONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEDICHAMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MANECTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SHARPEDONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CAMERUPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ALTARIANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BANETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ABSOLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GLALITITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SALAMENCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_METAGROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LOPUNNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GARCHOMPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUCARIONITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ABOMASITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GALLADITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AUDINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CLEFABLITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_VICTREEBELITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STARMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGONINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEGANIUMITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FERALIGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SKARMORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FROSLASSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EMBOARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EXCADRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCOLIPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCRAFTINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EELEKTROSSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHANDELURITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHESNAUGHTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DELPHOXITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRENINJITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PYROARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLOETTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MALAMARITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BARBARACITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGALGITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HAWLUCHANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAMPANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FALINKSITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RAICHUNITE_X_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RAICHUNITE_Y_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHIMECHITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ABSOLITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STARAPTITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GARCHOMPITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUCARIONITE_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GOLURKITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEOWSTICITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CRABOMINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GOLISOPITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCOVILLAINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BAXCALIBRITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TATSUGIRINITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GLIMMORANITE_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_NORMALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WATERIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ELECTRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRASSIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIGHTINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_POISONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GROUNDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLYINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PSYCHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BUGINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ROCKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GHOSTIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEELIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FAIRIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIKANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EEVIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SNORLIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DECIDIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_INCINIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PRIMARIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LYCANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MIMIKIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_KOMMONIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ALORAICHIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIKASHUNIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_catalog",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "Champion_relics_stay_reserved",
+      "passed": true
+    },
+    {
+      "test": "owned_relic_retained",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_0_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_0_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_0_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_1_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_1_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_1_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_2_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_2_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_2_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_3_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_3_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_3_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_4_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_4_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_4_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_5_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_5_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_5_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_6_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_6_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_6_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_7_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_7_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_7_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_8_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_8_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_8_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_9_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_9_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_9_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_10_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_10_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_10_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_11_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_11_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_11_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_12_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_12_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_12_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_13_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_13_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_13_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_14_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_14_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_14_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_15_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_15_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_15_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_16_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_16_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_16_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_17_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_17_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_17_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_18_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_18_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_18_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_19_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_19_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_19_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_20_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_20_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_20_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_21_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_21_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_21_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_22_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_22_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_22_legal_team",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_23_Mega",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_23_Manectric_stone",
+      "passed": true
+    },
+    {
+      "test": "first_attempt_23_legal_team",
+      "passed": true
+    },
+    {
+      "test": "post_badge_rotates_all_four",
+      "passed": true
+    }
+  ],
+  "ordinary_mega_stones": 82,
+  "ordinary_Z_crystals": 29,
+  "reserved": [
+    "ITEM_MEWTWONITE_X",
+    "ITEM_MEWTWONITE_Y",
+    "ITEM_LATIASITE",
+    "ITEM_LATIOSITE",
+    "ITEM_DIANCITE",
+    "ITEM_ZYGARDITE",
+    "ITEM_HEATRANITE",
+    "ITEM_DARKRANITE",
+    "ITEM_ZERAORITE",
+    "ITEM_MAGEARNITE",
+    "ITEM_MEWNIUM_Z",
+    "ITEM_TAPUNIUM_Z",
+    "ITEM_SOLGANIUM_Z",
+    "ITEM_LUNALIUM_Z",
+    "ITEM_MARSHADIUM_Z",
+    "ITEM_ULTRANECROZIUM_Z"
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "2d4eff46053dd9c5b55b29d06bc1d05a5e053c0fbc869ca890741ff358cdda14"
+}
