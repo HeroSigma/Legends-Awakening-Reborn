@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_sos.h"
 #include "dynamic_move_info.h"
 #include "caps.h"
 #include "battle.h"
@@ -11279,8 +11280,8 @@ void SetValuesOnFaint(enum BattlerId battler)
 
 bool32 IsStoryBattleCaptureBlocked(void)
 {
-    return (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
-        && (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) || FlagGet(FLAG_LA_MIRAIDON_BATTLE));
+    return LegendsSOS_IsActive() || ((gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+        && (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) || FlagGet(FLAG_LA_MIRAIDON_BATTLE)));
 }
 
 bool32 IsVictoryCatch(void)

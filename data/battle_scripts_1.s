@@ -6457,3 +6457,17 @@ BattleScript_BelchFails::
 	printstring STRINGID_BELCHCANTSELECT
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
+
+@ Scripted Plate guardian reinforcement; return to the pending end-turn command.
+BattleScript_LegendsSOSArrival::
+    printstring STRINGID_LEGENDSSOSCALL
+    waitmessage B_WAIT_TIME_LONG
+    getswitchedmondata BS_TARGET
+    switchindataupdate BS_TARGET
+    switchinanim BS_TARGET, FALSE, FALSE
+    waitstate
+    printstring STRINGID_LEGENDSSOSARRIVED
+    waitmessage B_WAIT_TIME_LONG
+    switchineffects BS_TARGET
+    switchinevents
+    return

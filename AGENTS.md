@@ -159,4 +159,8 @@ packing receipt; full pre-packed definitions are archived for future editing.
 
 ## Plate quest foundation
 
-Work only in the canonical Legends-Awakening-Reborn directory; the retired Saffron worktree is removed. Blank/Legend Plate IDs 877/878 remain alongside ordinary Plates, not Mega Stones. Reserve flags 0x8E5?0x8F5 and 0x907?0x919 for Plate research/guardian receipts. Quest IDs 46?63 use this dedicated state; never extend the old quest ledger into Gym flags. Physical Plate ownership is not guardian completion. Preserve retryable reward delivery and Birch-only final awakening. Guardian placement, SOS and adaptive Judgment are subsequent work, not completed by this foundation.
+Work only in the canonical Legends-Awakening-Reborn directory; the retired Saffron worktree is removed. Blank/Legend Plate IDs 877/878 remain alongside ordinary Plates, not Mega Stones. Reserve flags 0x8E5?0x8F5 and 0x907?0x919 for Plate research/guardian receipts. Quest IDs 46?63 use this dedicated state; never extend the old quest ledger into Gym flags. Physical Plate ownership is not guardian completion. Preserve retryable reward delivery and Birch-only final awakening. The Meadow guardian now has a Birch lead and SOS encounter in Petalburg Woods. The remaining sixteen placements and adaptive Judgment are subsequent work.
+
+## Plate guardian SOS
+
+The first playable guardian is Meadow/Breloom in Petalburg Woods at (17,19), local ID 17. TEMP_13 is reserved for its map-load visibility. Birch activates its lead after Blank Plate research, including an older-save catch-up. Other guardian quests remain locked until authored leads are added. Use the dedicated SOS battle return to record victory; normal wild/trainer battles must not create receipts. SOS uses native doubles, two battle-ready player Pok?mon, at most two sequential reinforcements, and no capture in guardian battles. Preserve retry and pending reward behavior. See docs/features/plate-guardian-sos/README.md.

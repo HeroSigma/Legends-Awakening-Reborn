@@ -6,7 +6,7 @@ The seventeen guardian quests require explicit story activation and a recorded v
 
 ## Current scope
 
-This is the quest and item foundation. Guardian actors, locations, Totem/SOS battles and the Legend Plate's adaptive Arceus/Judgment battle behavior are not implemented yet. The Legend Plate currently serves as a protected research relic. The next SOS work belongs on its own feature branch in the same main project.
+This is the quest and item foundation. The first Meadow guardian in Petalburg Woods now has a Birch lead, gated actor and Totem/SOS battle; see ../plate-guardian-sos/README.md. The other sixteen guardian locations and the Legend Plate's adaptive Arceus/Judgment battle behavior are not implemented yet. The Legend Plate currently serves as a protected research relic. SOS work is developed on feature/plate-guardian-sos in the same main project.
 
 Quest IDs 46?63 use dedicated state flags rather than extending the older two-bit ledger into Gym flags. Active guardian flags occupy 0x8E5?0x8F5; research receipt is 0x907, victory flags 0x908?0x918, awakening is 0x919. Item IDs 877 and 878 are appended; older 877-item Bag saves are migrated with empty new slots.
 

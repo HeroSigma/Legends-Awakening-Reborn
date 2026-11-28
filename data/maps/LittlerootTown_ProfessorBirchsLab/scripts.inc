@@ -473,6 +473,7 @@ RiftResearch_BirchNormal::
 	special LegendsPlates_PrepareBirch
 	goto_if_eq VAR_RESULT, 1, LegendsPlates_BirchOffer
 	goto_if_eq VAR_RESULT, 2, LegendsPlates_BirchAwakening
+    goto_if_eq VAR_RESULT, 3, LegendsPlates_BirchMeadowLead
 	goto_if_eq VAR_LA_LITTLEROOT_ARC, 3, LegendsArc_ResumeDex
 	lock
 	faceplayer

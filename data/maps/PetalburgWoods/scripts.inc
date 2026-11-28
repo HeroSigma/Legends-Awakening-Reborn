@@ -3,6 +3,7 @@ PetalburgWoods_MapScripts::
 	.byte 0
 
 LegendsWoods_OnLoad:
+	special LegendsSOS_PrepareMeadow
 	setflag FLAG_HIDE_LA_WOODS_TRIAD_BACKUP
 	goto_if_ge VAR_PETALBURG_WOODS_STATE, 1, LegendsWoods_HideFinished
 	end

@@ -49,10 +49,10 @@ static const struct LegendsQuest sPlateQuests[LEGENDS_PLATE_COUNT + 1] = {
      COMPOUND_STRING("Await a story resonance lead"), COMPOUND_STRING("Zap Plate resonance"),
      COMPOUND_STRING("Follow the awakened resonance.\nOvercome its guardian."),
      OBJ_EVENT_GFX_ITEM_BALL, 0, 0, ITEM_ZAP_PLATE},
-    {COMPOUND_STRING("Meadow Resonance"), COMPOUND_STRING("Blank Plate"),
-     COMPOUND_STRING("Await a story resonance lead"), COMPOUND_STRING("Meadow Plate resonance"),
+    {COMPOUND_STRING("Meadow Resonance"), COMPOUND_STRING("Breloom"),
+     COMPOUND_STRING("Petalburg Woods / western clearing"), COMPOUND_STRING("Meadow Plate resonance"),
      COMPOUND_STRING("Follow the awakened resonance.\nOvercome its guardian."),
-     OBJ_EVENT_GFX_ITEM_BALL, 0, 0, ITEM_MEADOW_PLATE},
+     OBJ_EVENT_GFX_SPECIES(BRELOOM), MAP_PETALBURG_WOODS, 0, ITEM_MEADOW_PLATE},
     {COMPOUND_STRING("Icicle Resonance"), COMPOUND_STRING("Blank Plate"),
      COMPOUND_STRING("Await a story resonance lead"), COMPOUND_STRING("Icicle Plate resonance"),
      COMPOUND_STRING("Follow the awakened resonance.\nOvercome its guardian."),
@@ -140,7 +140,7 @@ bool32 LegendsPlates_Activate(u32 index)
     FlagSet(ACTIVE(index));
     return TRUE;
 }
-// Called only by a future scripted guardian's battle-return handler. Ordinary
+// Called only by a scripted guardian's battle-return handler. Ordinary
 // wild/trainer battles do not invoke this, and capture/flee/loss cannot complete it.
 bool32 LegendsPlates_GuardianWon(u32 index)
 {
@@ -188,6 +188,7 @@ void LegendsPlates_PrepareBirch(void)
     gSpecialVar_Result = 0;
     if (!RiftTracker_IsActive()) return;
     if (!FlagGet(FLAG_LA_BLANK_PLATE_RECEIVED)) gSpecialVar_Result = 1;
+    else if (LegendsPlates_QuestState(LA_QUEST_PLATE_FIRST + 3) == QUEST_LOCKED) gSpecialVar_Result = 3;
     else if (!FlagGet(FLAG_LA_LEGEND_PLATE_AWAKENED)
         && LegendsPlates_CountCompleted() == LEGENDS_PLATE_COUNT) gSpecialVar_Result = 2;
 }

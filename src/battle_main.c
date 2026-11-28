@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_sos.h"
 #include "legends_tera.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -3610,6 +3611,9 @@ bool32 EndTurnEvents(void) // Called from Battle Script
     TurnValuesCleanUp(TRUE);
 
     if (DoEndTurnEffects())
+        return TRUE;
+
+    if (LegendsSOS_TryCall())
         return TRUE;
 
     gBattleStruct->eventState.faintedAction = 0;

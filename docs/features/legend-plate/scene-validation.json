@@ -25,6 +25,10 @@
       "passed": true
     },
     {
+      "test": "Birch_activates_Meadow_lead",
+      "passed": true
+    },
+    {
       "test": "research_not_offered_again",
       "passed": true
     },
@@ -47,8 +51,36 @@
     {
       "test": "control_restored",
       "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "older_research_has_no_Meadow_lead",
+      "passed": true
+    },
+    {
+      "test": "older_save_lead_needs_no_second_item_offer",
+      "passed": true
+    },
+    {
+      "test": "older_save_Birch_activates_Meadow",
+      "passed": true
+    },
+    {
+      "test": "older_save_keeps_one_Blank_Plate",
+      "passed": true
+    },
+    {
+      "test": "older_save_lead_does_not_repeat",
+      "passed": true
     }
   ],
   "user_save_loaded": false,
-  "rom_sha256": "9ba404980d89667748b17032c778fe2e3c5be24b8e516f58d0100ff3b982d195"
+  "rom_sha256": "ce7eac6261f09c546ee6f261a2a83cebd13793a325c67da5912cc2d93c5d73b3"
 }

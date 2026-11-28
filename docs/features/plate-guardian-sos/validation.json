@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "unactivated_guardian_refused",
+      "passed": true
+    },
+    {
+      "test": "activate_meadow",
+      "passed": true
+    },
+    {
+      "test": "two_ready_Pokemon_required",
+      "passed": true
+    },
+    {
+      "test": "invalid_level_refused",
+      "passed": true
+    },
+    {
+      "test": "guardian_started",
+      "passed": true
+    },
+    {
+      "test": "double_battle_starts_with_guardian_alone",
+      "passed": true
+    },
+    {
+      "test": "guardian_species",
+      "passed": true
+    },
+    {
+      "test": "totem_defenses_boosted",
+      "passed": true
+    },
+    {
+      "test": "guardian_capture_blocked",
+      "passed": true
+    },
+    {
+      "test": "ally_arrives_during_battle",
+      "passed": true
+    },
+    {
+      "test": "first_ally_uses_fresh_party_slot",
+      "passed": true
+    },
+    {
+      "test": "occupied_slot_prevents_call",
+      "passed": true
+    },
+    {
+      "test": "replacement_call_uses_second_fresh_slot",
+      "passed": true
+    },
+    {
+      "test": "no_third_reinforcement",
+      "passed": true
+    },
+    {
+      "test": "actual_victory_records_pending_resonance",
+      "passed": true
+    },
+    {
+      "test": "victory_does_not_auto_deliver_Plate",
+      "passed": true
+    },
+    {
+      "test": "victory_clears_capture_restriction",
+      "passed": true
+    },
+    {
+      "test": "claim_after_battle_once",
+      "passed": true
+    },
+    {
+      "test": "ordinary_wild_battle_keeps_single_format",
+      "passed": true
+    },
+    {
+      "test": "ordinary_battle_does_not_call_for_help",
+      "passed": true
+    },
+    {
+      "test": "ordinary_battle_capture_allowed",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "run_start",
+      "passed": true
+    },
+    {
+      "test": "native_escape_resolves",
+      "passed": true
+    },
+    {
+      "test": "run_quest_remains_active",
+      "passed": true
+    },
+    {
+      "test": "run_no_reward",
+      "passed": true
+    },
+    {
+      "test": "run_clears_SOS",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "loss_start",
+      "passed": true
+    },
+    {
+      "test": "loss_quest_remains_active",
+      "passed": true
+    },
+    {
+      "test": "loss_no_reward",
+      "passed": true
+    },
+    {
+      "test": "loss_clears_SOS",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "ce7eac6261f09c546ee6f261a2a83cebd13793a325c67da5912cc2d93c5d73b3"
+}

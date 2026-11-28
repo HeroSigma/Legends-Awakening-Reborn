@@ -1,4 +1,5 @@
 #include "global.h"
+#include "legends_sos.h"
 #include "daycare.h"
 #include "dexnav.h"
 #include "legends_trainers.h"
@@ -761,6 +762,7 @@ static void CB2_EndWildBattle(void)
 
 static void CB2_EndScriptedWildBattle(void)
 {
+    LegendsSOS_Finish();
     CpuFill16(0, (void *)(BG_PLTT), BG_PLTT_SIZE);
     ResetOamRange(0, 128);
 

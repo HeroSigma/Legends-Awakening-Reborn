@@ -679,3 +679,8 @@ gSpecials::
     def_special LegendsPlates_ActivateQuest
     def_special LegendsPlates_RecordGuardianResult
     def_special LegendsPlates_CollectResonance
+
+	def_special LegendsSOS_StartGuardian
+
+	def_special LegendsSOS_PrepareMeadow
+	def_special LegendsSOS_CheckMeadow

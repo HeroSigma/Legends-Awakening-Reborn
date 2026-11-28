@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "guardian_hidden_without_research",
+      "passed": true
+    },
+    {
+      "test": "Blank_Plate_alone_does_not_spawn_guardian",
+      "passed": true
+    },
+    {
+      "test": "activated_quest_spawns_Breloom",
+      "passed": true
+    },
+    {
+      "test": "guardian_and_approach_are_walkable",
+      "passed": true
+    },
+    {
+      "test": "decline_does_not_start_battle",
+      "passed": true
+    },
+    {
+      "test": "missing_party_leaves_guardian_available",
+      "passed": true
+    },
+    {
+      "test": "field_script_starts_real_guardian_battle",
+      "passed": true
+    },
+    {
+      "test": "field_reward_delivered",
+      "passed": true
+    },
+    {
+      "test": "field_quest_claimed",
+      "passed": true
+    },
+    {
+      "test": "guardian_removed_after_success",
+      "passed": true
+    },
+    {
+      "test": "guardian_stays_hidden_on_return",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "ce7eac6261f09c546ee6f261a2a83cebd13793a325c67da5912cc2d93c5d73b3"
+}
