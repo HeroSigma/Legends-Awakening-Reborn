@@ -11280,7 +11280,7 @@ void SetValuesOnFaint(enum BattlerId battler)
 
 bool32 IsStoryBattleCaptureBlocked(void)
 {
-    return LegendsSOS_IsActive() || ((gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+    return LegendsSOS_IsGuardian() || ((gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
         && (FlagGet(FLAG_LA_BIRCH_RESCUE_BATTLE) || FlagGet(FLAG_LA_MIRAIDON_BATTLE)));
 }
 

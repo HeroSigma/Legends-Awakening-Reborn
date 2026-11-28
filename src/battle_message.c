@@ -195,7 +195,7 @@ static const u8 sText_TerrainReturnedToNormal[] = _("The terrain returned to nor
 
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
 {
-    [STRINGID_LEGENDSSOSCALL] = COMPOUND_STRING("The guardian called for help!"),
+    [STRINGID_LEGENDSSOSCALL] = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} called for help!"),
     [STRINGID_LEGENDSSOSARRIVED] = COMPOUND_STRING("A wild {B_DEF_NAME} answered the call!"),
     [STRINGID_TRAINER1LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER1_LOSE_TEXT}"),
     [STRINGID_PKMNGAINEDEXP]                        = COMPOUND_STRING("{B_BUFF1} gained{B_BUFF2} {B_BUFF3} Exp. Points!\p"),

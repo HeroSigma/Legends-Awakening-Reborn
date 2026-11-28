@@ -12,7 +12,7 @@ The remaining sixteen guardian species/ally pairs are defined for future scripts
 
 The SOS session occupies eight bytes of temporary EWRAM and is cleared on scripted battle return. It does not change save structure or consume additional persistent flags. Existing Plate flags are used for receipts; Petalburg Woods uses TEMP_13 for per-load guardian visibility. This temporary flag must not be reused by another actor in that map.
 
-SOS is opt-in through LegendsSOS_StartGuardian (8004 = activated quest index, 8005 = level). It refuses invalid levels, inactive/completed/pending quests, another active session or insufficient battle-ready party members before changing enemies. Normal wild and trainer battles do not activate SOS.
+SOS is opt-in through LegendsSOS_StartGuardian (8004 = activated quest index, 8005 = level). It refuses invalid levels, inactive/completed/pending quests, another active session or insufficient battle-ready party members before changing enemies. Ordinary wild SOS is now separately enabled by the standard encounter hook; see ../random-wild-sos/README.md. Trainer and scripted story battles do not opt into random SOS.
 
 Reinforcements enter through the native controller/switch-in script, including hazards and abilities. Fresh party slots prevent repeated EXP receipts and stale party-state reuse. The arrival hook runs after ordinary end-turn effects and checks both guardian and ally state. Existing story capture blocks remain intact.
 

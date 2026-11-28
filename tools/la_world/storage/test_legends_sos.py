@@ -71,7 +71,7 @@ check('victory_does_not_auto_deliver_Plate',invoke('LegendsPlates_CountCompleted
 check('victory_clears_capture_restriction',invoke('IsStoryBattleCaptureBlocked')==0)
 check('claim_after_battle_once',special('LegendsPlates_CollectResonance')==1 and special('LegendsPlates_CollectResonance')==0)
 # A fresh ordinary scripted wild battle cannot inherit reinforcement state.
-invoke('CreateRandomMon',symbols['gParties']+600,c['SPECIES_SHROOMISH'],5)
+invoke('CreateRandomMon',symbols['gParties']+600,c['SPECIES_LUGIA'],5)
 invoke('BattleSetup_StartScriptedWildBattle')
 until(lambda:rd(symbols['gBattlersCount'],1)==2,press=True)
 check('ordinary_wild_battle_keeps_single_format',rd(symbols['gBattlersCount'],1)==2)
@@ -96,7 +96,7 @@ for outcome in ['run','loss']:
  frames(180)
  check(outcome+'_quest_remains_active',invoke('LegendsPlates_QuestState',50)==1)
  check(outcome+'_no_reward',invoke('LegendsPlates_CountCompleted')==0)
- check(outcome+'_clears_SOS',invoke('LegendsSOS_IsActive')==0)
+ check(outcome+'_clears_SOS',rd(symbols['sSOS'],1)==0)
  lib.shutdown()
 print('PASS',len(checks),'SOS battle checks',flush=True)
 (D/'validation.json').write_text(json.dumps(dict(checks=checks,user_save_loaded=False,rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest()),indent=2)+'\n')

@@ -9,11 +9,13 @@
 #include "battle_scripts.h"
 #include "pokemon.h"
 #include "event_data.h"
+#include "random.h"
+#include "dexnav.h"
 #include "constants/species.h"
 #include "constants/flags.h"
 
 struct GuardianSpecies {u16 guardian, ally;};
-// Plate order is the same as legends_plates.c. No normal encounter invokes SOS.
+// Plate order is the same as legends_plates.c. Index 17 marks ordinary wild SOS.
 static const struct GuardianSpecies sGuardians[LEGENDS_PLATE_COUNT] = {
     {SPECIES_NINETALES, SPECIES_VULPIX},
     {SPECIES_MILOTIC, SPECIES_MARILL},
@@ -39,10 +41,45 @@ static EWRAM_DATA struct {
     u8 level;
     u8 calls;
     u16 lastCallTurn;
+    u16 species;
 } sSOS = {0};
 extern const u8 BattleScript_LegendsSOSArrival[];
 
 bool32 LegendsSOS_IsActive(void) {return sSOS.active;}
+bool32 LegendsSOS_IsGuardian(void) {return sSOS.active && sSOS.index < LEGENDS_PLATE_COUNT;}
+
+bool32 LegendsSOS_TryPrepareWild(void)
+{
+    struct Pokemon *lead = &gParties[B_TRAINER_OPPONENT_A][0];
+    u32 species = GetMonData(lead, MON_DATA_SPECIES), ready = 0;
+    if (sSOS.active || gBattleTypeFlags || species == SPECIES_NONE || species >= NUM_SPECIES
+        || gSpeciesInfo[species].isRestrictedLegendary || gSpeciesInfo[species].isSubLegendary
+        || gSpeciesInfo[species].isMythical || gSpeciesInfo[species].isUltraBeast
+        || gSpeciesInfo[species].isParadox || gSpeciesInfo[species].isTotem)
+        return FALSE;
+    for (u32 i = 0; i < PARTY_SIZE; i++)
+        if (IsValidForBattle(&gParties[B_TRAINER_PLAYER][i])) ready++;
+    if (ready < 2 || Random() % 8 != 0) return FALSE;
+    memset(&sSOS, 0, sizeof(sSOS));
+    sSOS.active = TRUE;
+    sSOS.index = LEGENDS_PLATE_COUNT;
+    sSOS.species = species;
+    sSOS.level = GetMonData(lead, MON_DATA_LEVEL);
+    // Reserve the helper slots without changing the generated caller.
+    for (u32 i = 1; i < PARTY_SIZE; i++)
+        ZeroMonData(&gParties[B_TRAINER_OPPONENT_A][i]);
+    return TRUE;
+}
+
+u32 LegendsSOS_GetCallChance(void)
+{
+    enum BattlerId caller = GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT);
+    if (!sSOS.active) return 0;
+    if (LegendsSOS_IsGuardian()) return 100;
+    if (gBattleMons[caller].hp * 4 <= gBattleMons[caller].maxHP) return 75;
+    if (gBattleMons[caller].hp * 2 <= gBattleMons[caller].maxHP) return 50;
+    return 25;
+}
 
 // Script inputs: activated Plate index in 8004, guardian level in 8005.
 // Refuse invalid/pending/completed quests before touching either party.
@@ -81,12 +118,25 @@ bool32 LegendsSOS_TryCall(void)
     enum BattlerId ally = GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT);
     if (!sSOS.active || gBattleOutcome || sSOS.calls >= 2 || !gBattleTurnCounter
         || !IsBattlerAlive(guardian) || IsBattlerAlive(ally)
-        || (sSOS.calls && gBattleTurnCounter - sSOS.lastCallTurn < 2))
+        || (sSOS.calls && gBattleTurnCounter - sSOS.lastCallTurn < 2)
+        || sSOS.lastCallTurn == gBattleTurnCounter)
+        return FALSE;
+    sSOS.lastCallTurn = gBattleTurnCounter;
+    if (!LegendsSOS_IsGuardian() && Random() % 100 >= LegendsSOS_GetCallChance())
         return FALSE;
     u32 slot = ++sSOS.calls;
-    sSOS.lastCallTurn = gBattleTurnCounter;
-    CreateRandomMonWithIVs(&gParties[B_TRAINER_OPPONENT_A][slot], sGuardians[sSOS.index].ally,
-        sSOS.level > 5 ? sSOS.level - 5 : sSOS.level, 20);
+    struct Pokemon *helper = &gParties[B_TRAINER_OPPONENT_A][slot];
+    if (LegendsSOS_IsGuardian())
+        CreateRandomMonWithIVs(helper, sGuardians[sSOS.index].ally,
+            sSOS.level > 5 ? sSOS.level - 5 : sSOS.level, 20);
+    else
+    {
+        CreateRandomMon(helper, sSOS.species, sSOS.level > 2 ? sSOS.level - 2 : sSOS.level);
+        bool8 shiny = ComputeRegularWildShinyOdds(GetMonData(helper, MON_DATA_PERSONALITY),
+            GetMonData(helper, MON_DATA_OT_ID));
+        SetMonData(helper, MON_DATA_IS_SHINY, &shiny);
+        BattleSetup_TryGiveShinyWildEggMove(helper);
+    }
     gBattleStruct->monToSwitchIntoId[ally] = slot;
     gAbsentBattlerFlags &= ~(1u << ally);
     gBattlerAttacker = guardian;
@@ -99,7 +149,7 @@ bool32 LegendsSOS_TryCall(void)
 void LegendsSOS_Finish(void)
 {
     if (!sSOS.active) return;
-    if (gBattleOutcome == B_OUTCOME_WON)
+    if (LegendsSOS_IsGuardian() && gBattleOutcome == B_OUTCOME_WON)
         LegendsPlates_GuardianWon(sSOS.index);
     memset(&sSOS, 0, sizeof(sSOS));
 }

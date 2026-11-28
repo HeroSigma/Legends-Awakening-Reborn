@@ -396,7 +396,7 @@ void BattleSetup_StartBattlePikeWildBattle(void)
     DoBattlePikeWildBattle();
 }
 
-static void TryGiveShinyWildEggMove(struct Pokemon *mon)
+void BattleSetup_TryGiveShinyWildEggMove(struct Pokemon *mon)
 {
     if (!IsMonShiny(mon) || Random() % 100 >= 25)
         return;
@@ -432,9 +432,9 @@ static void TryGiveShinyWildEggMove(struct Pokemon *mon)
 
 static void DoStandardWildBattle(bool32 isDouble)
 {
-    TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
+    BattleSetup_TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
     if (isDouble)
-        TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][1]);
+        BattleSetup_TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][1]);
     LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
@@ -451,6 +451,8 @@ static void DoStandardWildBattle(bool32 isDouble)
         VarSet(VAR_TEMP_E, 0);
         gBattleTypeFlags |= BATTLE_TYPE_PYRAMID;
     }
+    if (!isDouble && LegendsSOS_TryPrepareWild())
+        gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
     CreateBattleStartTask(GetWildBattleTransition(), 0);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
@@ -574,7 +576,7 @@ void StartOldManTutorialBattle(void)
 void BattleSetup_StartScriptedWildBattle(void)
 {
     if (gDexNavSpecies != SPECIES_NONE)
-        TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
+        BattleSetup_TryGiveShinyWildEggMove(&gParties[B_TRAINER_OPPONENT_A][0]);
 
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
@@ -584,6 +586,15 @@ void BattleSetup_StartScriptedWildBattle(void)
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
     IncrementDailyWildBattles();
     TryUpdateGymLeaderRematchFromWild();
+}
+
+// DexNav has its own scripted entry, so ordinary story encounters never opt in.
+void BattleSetup_StartDexNavBattle(void)
+{
+    Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
+    BattleSetup_StartScriptedWildBattle();
+    if (gDexNavSpecies != SPECIES_NONE && LegendsSOS_TryPrepareWild())
+        gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
 }
 
 void BattleSetup_StartScriptedDoubleWildBattle(void)
@@ -736,6 +747,7 @@ static void DowngradeBadPoison(void)
 
 static void CB2_EndWildBattle(void)
 {
+    LegendsSOS_Finish();
     CpuFill16(0, (void *)(BG_PLTT), BG_PLTT_SIZE);
     ResetOamRange(0, 128);
 

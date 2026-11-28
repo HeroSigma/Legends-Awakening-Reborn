@@ -1,0 +1,852 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "no_party_no_SOS",
+      "passed": true
+    },
+    {
+      "test": "one_ready_partner_keeps_normal_battle",
+      "passed": true
+    },
+    {
+      "test": "BATTLE_TYPE_TRAINER_excluded",
+      "passed": true
+    },
+    {
+      "test": "BATTLE_TYPE_DOUBLE_excluded",
+      "passed": true
+    },
+    {
+      "test": "BATTLE_TYPE_SAFARI_excluded",
+      "passed": true
+    },
+    {
+      "test": "SPECIES_MEWTWO_never_calls",
+      "passed": true
+    },
+    {
+      "test": "SPECIES_LUGIA_never_calls",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_0",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_12",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_14",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_17",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_25",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_44",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_55",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_63",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_79",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_86",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_95",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_116",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_131",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_137",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_152",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_169",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_175",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_183",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_186",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_191",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_192",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_194",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_198",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_203",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_214",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_223",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_232",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_241",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_244",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_261",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_269",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_276",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_289",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_296",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_306",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_323",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_329",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_330",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_334",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_341",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_343",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_347",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_353",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_363",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_367",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_370",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_371",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_376",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_380",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_384",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_387",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_393",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_399",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_402",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_405",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_408",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_411",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_412",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_419",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_435",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_441",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_449",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_458",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_483",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_484",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_485",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_486",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_489",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_503",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_509",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_512",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_513",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_517",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_519",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_522",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_527",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_535",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_536",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_546",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_553",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_558",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_565",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_568",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_571",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_572",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_581",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_585",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_587",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_588",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_590",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_592",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_596",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_602",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_603",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_605",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_614",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_615",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_616",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_617",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_621",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_624",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_625",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_652",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_675",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_676",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_687",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_718",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_726",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_728",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_739",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_786",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_788",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_797",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_810",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_815",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_816",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_820",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_828",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_833",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_836",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_837",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_838",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_840",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_843",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_847",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_850",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_851",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_859",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_872",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_880",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_884",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_907",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_909",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_921",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_923",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_931",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_938",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_943",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_946",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_948",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_949",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_958",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_959",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_965",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_970",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_971",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_976",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_977",
+      "passed": true
+    },
+    {
+      "test": "wild_not_guardian_988",
+      "passed": true
+    },
+    {
+      "test": "eligibility_is_occasional",
+      "passed": true
+    },
+    {
+      "test": "caller_data_preserved",
+      "passed": true
+    },
+    {
+      "test": "random_SOS_never_grants_Plate_receipts",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "production_hook_starts_double_with_caller_alone",
+      "passed": true
+    },
+    {
+      "test": "wild_capture_not_story_blocked",
+      "passed": true
+    },
+    {
+      "test": "full_HP_call_chance_25_percent",
+      "passed": true
+    },
+    {
+      "test": "half_HP_call_chance_50_percent",
+      "passed": true
+    },
+    {
+      "test": "quarter_HP_call_chance_75_percent",
+      "passed": true
+    },
+    {
+      "test": "DexNav_search_species_unchanged_during_SOS",
+      "passed": true
+    },
+    {
+      "test": "helper_matches_caller_species",
+      "passed": true
+    },
+    {
+      "test": "helper_level_matches_local_caller",
+      "passed": true
+    },
+    {
+      "test": "wild_SOS_remains_catchable",
+      "passed": true
+    },
+    {
+      "test": "native_escape_works",
+      "passed": true
+    },
+    {
+      "test": "wild_exit_clears_session",
+      "passed": true
+    },
+    {
+      "test": "wild_exit_no_Plate_credit",
+      "passed": true
+    },
+    {
+      "test": "scripted_story_entry_never_enables_SOS",
+      "passed": true
+    },
+    {
+      "test": "scripted_story_entry_keeps_single_format",
+      "passed": true
+    }
+  ],
+  "eligible_trials": 1000,
+  "eligible": 149,
+  "user_save_loaded": false,
+  "rom_sha256": "588a08bad7c770f2887aaf073c3d68a69ce4a9c206dd497c04582617a4e3d929"
+}

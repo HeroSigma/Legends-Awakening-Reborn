@@ -164,3 +164,7 @@ Work only in the canonical Legends-Awakening-Reborn directory; the retired Saffr
 ## Plate guardian SOS
 
 The first playable guardian is Meadow/Breloom in Petalburg Woods at (17,19), local ID 17. TEMP_13 is reserved for its map-load visibility. Birch activates its lead after Blank Plate research, including an older-save catch-up. Other guardian quests remain locked until authored leads are added. Use the dedicated SOS battle return to record victory; normal wild/trainer battles must not create receipts. SOS uses native doubles, two battle-ready player Pok?mon, at most two sequential reinforcements, and no capture in guardian battles. Preserve retry and pending reward behavior. See docs/features/plate-guardian-sos/README.md.
+
+## Random wild SOS
+
+Ordinary wild encounters and the dedicated DexNav battle script can enable SOS at a 1-in-8 rate with two ready player Pok?mon. Preserve the current player-controlled doubles format and same-species/form helpers. Calls are 25/50/75 percent by remaining HP, with one helper at a time and two arrivals maximum. Ordinary SOS remains catchable with one foe left and must never award Plate receipts. Keep trainer/story/Legendary/Mythical encounters excluded; the dedicated DexNav entry must not broaden random SOS to generic scripted battles. See docs/features/random-wild-sos/README.md.

@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "two_opponents_block_Ball_aim",
+      "passed": true
+    },
+    {
+      "test": "one_remaining_helper_allows_Ball",
+      "passed": true
+    },
+    {
+      "test": "catch_target_is_remaining_helper",
+      "passed": true
+    },
+    {
+      "test": "caught_helper_added_to_party",
+      "passed": true
+    },
+    {
+      "test": "capture_clears_SOS",
+      "passed": true
+    },
+    {
+      "test": "capture_no_Plate_progress",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "588a08bad7c770f2887aaf073c3d68a69ce4a9c206dd497c04582617a4e3d929"
+}

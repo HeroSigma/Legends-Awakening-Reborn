@@ -7,6 +7,9 @@
 #include "script.h"
 #include "trainer_see.h"
 
+struct Pokemon;
+void BattleSetup_TryGiveShinyWildEggMove(struct Pokemon *mon);
+
 #define REMATCHES_COUNT 5
 
 #define TRAINERBATTLE_OPCODE_OFFSET 1  // 1 byte trainerbattle opcode

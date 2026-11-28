@@ -684,3 +684,5 @@ gSpecials::
 
 	def_special LegendsSOS_PrepareMeadow
 	def_special LegendsSOS_CheckMeadow
+
+	def_special BattleSetup_StartDexNavBattle
