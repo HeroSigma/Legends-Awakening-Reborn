@@ -879,8 +879,10 @@ void Task_OpenStatEditorFromStartMenu(u8 taskId)
     }
 }
 
+bool32 StatEditor_IsUnlocked(void) {return FlagGet(FLAG_BADGE02_GET);}
 void StatEditor_Init(MainCallback callback)
 {
+    if (!StatEditor_IsUnlocked()) {SetMainCallback2(callback);return;}
     if ((sStatEditorDataPtr = AllocZeroed(sizeof(struct StatEditorResources))) == NULL)
     {
         SetMainCallback2(callback);

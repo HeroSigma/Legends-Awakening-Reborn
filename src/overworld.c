@@ -1,4 +1,5 @@
 #include "global.h"
+#include "progression_qol.h"
 #include "outfit_box.h"
 #include "full_sheet_stream.h"
 #include "legends_ashes.h"
@@ -2170,6 +2171,7 @@ void CB2_ContinueSavedGame(void)
     u8 trainerHillMapId;
 
     OutfitBox_EnsureOwned();
+    ProgressionQol_EnsureExpShare();
 
     FieldClearVBlankHBlankCallbacks();
     StopMapMusic();

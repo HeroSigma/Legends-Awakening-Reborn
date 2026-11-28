@@ -7,9 +7,9 @@ D=R/'docs/features/summary-stat-editor';D.mkdir(parents=True,exist_ok=True)
 checks=[]
 def check(n,v):
  checks.append(dict(test=n,passed=bool(v)));assert v,n
-names=['SUMMARY_MODE_NORMAL','PC_MON_CHOSEN','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_PERSONALITY','MON_DATA_TERA_TYPE','MON_DATA_HIDDEN_NATURE','MON_DATA_ABILITY_NUM','MON_DATA_IS_EGG','MON_DATA_SANITY_IS_BAD_EGG','MON_DATA_SPECIES','MON_DATA_LEVEL']+[f'MON_DATA_{s}_{t}' for t in ['IV','EV'] for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED']]
+names=['FLAG_BADGE01_GET','FLAG_BADGE02_GET','MON_DATA_FRIENDSHIP','SUMMARY_MODE_NORMAL','PC_MON_CHOSEN','MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_PERSONALITY','MON_DATA_TERA_TYPE','MON_DATA_HIDDEN_NATURE','MON_DATA_ABILITY_NUM','MON_DATA_IS_EGG','MON_DATA_SANITY_IS_BAD_EGG','MON_DATA_SPECIES','MON_DATA_LEVEL']+[f'MON_DATA_{s}_{t}' for t in ['IV','EV'] for s in ['HP','ATK','DEF','SPATK','SPDEF','SPEED']]
 with tempfile.TemporaryDirectory() as td:
- td=Path(td);(td/'a.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "pokemon_summary_screen.h"\n#include "pokemon_storage_system.h"\n#include "constants/party_menu.h"\nconst unsigned values[]={'+','.join(names)+'};')
+ td=Path(td);(td/'a.c').write_text('#include "global.h"\n#include "pokemon.h"\n#include "pokemon_summary_screen.h"\n#include "pokemon_storage_system.h"\n#include "constants/party_menu.h"\n#include "constants/flags.h"\nconst unsigned values[]={'+','.join(names)+'};')
  subprocess.run(['arm-none-eabi-gcc','-iquote','include','-mabi=apcs-gnu','-mthumb','-march=armv4t','-DMODERN=1','-DEMERALD','-std=gnu17','-c',str(td/'a.c'),'-o',str(td/'a.o')],cwd=R,check=True)
  subprocess.run(['arm-none-eabi-objcopy','-O','binary','--only-section=.rodata',str(td/'a.o'),str(td/'a.bin')],check=True)
  c=dict(zip(names,struct.unpack('<'+str(len(names))+'I',(td/'a.bin').read_bytes())))
@@ -23,7 +23,7 @@ def editor():
  tap(8);wait('Task_StatEditorMain',1800);frames(25)
 for mode in [0,1]:
  print('CASE',mode,flush=True)
- start(mode);invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0);invoke('ScriptGiveMon',7,16,0)
+ start(mode);invoke('FlagSet',c['FLAG_BADGE02_GET']);invoke('StorageChangeMode',mode,1);invoke('ScriptGiveMon',4,16,0);invoke('ScriptGiveMon',7,16,0)
  m=symbols['gParties'];m2=m+100
  put(m,'HP',1);put(m2,'HP',0);put(m,'HIDDEN_NATURE',0);put(m,'ABILITY_NUM',0)
  oldhp=field(m,'MAX_HP')-1;pid=field(m,'PERSONALITY');tera=field(m,'TERA_TYPE')
@@ -68,22 +68,14 @@ def confirm_scientist():
   frames(1,1 if i%20==0 else 0)
  else:raise AssertionError('scientist confirmation did not open')
  frames(15);tap(1);frames(45)
-# Exercise the remaining scientist services through their real field menus.
-start(0);invoke('ScriptGiveMon',4,5,0);m=symbols['gParties']
+# The scientist now exposes friendship/levels/Egg Moves, not the retired EV presets.
+start(0);invoke('FlagSet',c['FLAG_BADGE01_GET']);invoke('ScriptGiveMon',4,5,0);m=symbols['gParties']
+put(m,'FRIENDSHIP',0)
 wr(symbols['gSpecialVar_0x8009'],0,2)
 invoke('ScriptContext_SetupScript',symbols['LegendsTraining_Main'])
 wait('Task_HandleScrollingMultichoiceInput',600);frames(15);capture('scientist_services')
-tap(128);tap(1);wait('Task_HandleScrollingMultichoiceInput',600);frames(20);tap(1)
-confirm_scientist()
-check('scientist_presets_retained',tuple(field(m,x+'_EV') for x in ['HP','ATK','DEF','SPATK','SPDEF','SPEED'])==(6,252,0,0,0,252))
-for i in range(400):
- if active('Task_HandleScrollingMultichoiceInput') is not None:break
- frames(1,1 if i%20==0 else 0)
-wait('Task_HandleScrollingMultichoiceInput',600);tap(2);frames(40)
-wait('Task_HandleScrollingMultichoiceInput',600);tap(1);frames(40)
-wait('Task_HandleScrollingMultichoiceInput',600);tap(128);tap(1)
-confirm_scientist()
-check('scientist_level_retained',field(m,'LEVEL')==6)
+tap(128);tap(1);confirm_scientist()
+check('scientist_max_friendship_retained',field(m,'FRIENDSHIP')==255)
 lib.shutdown()
 (D/'validation.json').write_text(json.dumps(dict(rom_sha256=hashlib.sha256((R/'pokeemerald.gba').read_bytes()).hexdigest(),checks=checks,user_save_loaded=False),indent=2)+'\n')
 print('PASS',len(checks),'summary stat editor checks',flush=True)

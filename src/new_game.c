@@ -1,4 +1,5 @@
 #include "global.h"
+#include "progression_qol.h"
 #include "dynamic_palettes.h"
 #include "clock.h"
 #include "new_game.h"
@@ -254,6 +255,7 @@ void NewGameInitData(void)
     SetCurrentDifficultyLevel(DIFFICULTY_NORMAL);
     ResetItemFlags();
     ResetDexNav();
+    ProgressionQol_EnsureExpShare();
     ClearFollowerNPCData();
 #if MERCURY_JOHTO_EXPLORATION_START || HNS_CANARY_EXPLORATION_START
     // Native test supplies only: no donor progression or save logic.

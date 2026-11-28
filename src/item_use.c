@@ -1,4 +1,5 @@
 #include "global.h"
+#include "progression_qol.h"
 #include "dexnav.h"
 #include "item_use.h"
 #include "outfit_box.h"
@@ -1265,6 +1266,12 @@ bool32 CannotUseItemsInBattle(enum Item itemId, struct Pokemon *mon)
             cannotUse = TRUE;
         break;
     case EFFECT_ITEM_THROW_BALL:
+        if (itemId == ITEM_MASTER_BALL && !MasterBall_IsUnlocked())
+        {
+            cannotUse = TRUE;
+            failStr = COMPOUND_STRING("Beat the Hoenn League before\nusing a MASTER BALL.");
+            break;
+        }
         switch (GetBallThrowableState())
         {
         case BALL_THROW_UNABLE_TWO_MONS:

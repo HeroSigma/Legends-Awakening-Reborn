@@ -2,9 +2,15 @@
 LegendsTraining_Scientist::
     lock
     faceplayer
+    goto_if_unset FLAG_BADGE01_GET, LegendsTraining_Locked
     getpartysize
     goto_if_eq VAR_RESULT, 0, LegendsTraining_NoParty
     msgbox LegendsTraining_Text_Welcome, MSGBOX_DEFAULT
+    goto_if_unset FLAG_BADGE02_GET, LegendsTraining_StatEditorLocked
+    msgbox LegendsTraining_Text_StatEditorReady, MSGBOX_DEFAULT
+    goto LegendsTraining_ChooseMon
+LegendsTraining_StatEditorLocked:
+    msgbox LegendsTraining_Text_StatEditorLocked, MSGBOX_DEFAULT
 LegendsTraining_ChooseMon:
     closemessage
     special ChoosePartyMon
@@ -96,7 +102,7 @@ LegendsTraining_End:
     release
     end
 LegendsTraining_Text_Welcome:
-    .string "I offer free level catch-up and\nfriendship training.\pI also teach Egg Moves for\n¥2,000 each.\pFor individual stats, press START\non the summary's Stats page.\pChoose a POKéMON to train.$"
+    .string "I offer free level catch-up and\nfriendship training.\pI also teach Egg Moves for\n¥2,000 each.\pChoose a POKéMON to train.$"
 LegendsTraining_Text_Done:
     .string "Your partner's training is complete!$"
 LegendsTraining_Text_Level:
@@ -119,3 +125,14 @@ LegendsTraining_Text_NoEggMoves:
     .string "I have no new Egg Moves to teach\nthis POKéMON.$"
 LegendsTraining_Text_NoMoney:
     .string "You need ¥2,000 to learn that move.$"
+
+LegendsTraining_Locked:
+    msgbox LegendsTraining_Text_Locked, MSGBOX_DEFAULT
+    release
+    end
+LegendsTraining_Text_Locked:
+    .string "Earn Roxanne's Stone Badge first.\nThen I can help train your team.$"
+LegendsTraining_Text_StatEditorLocked:
+    .string "Earn Brawly's Knuckle Badge to\nunlock individual stat training.$"
+LegendsTraining_Text_StatEditorReady:
+    .string "For individual stats, press START\non the summary's Stats page.$"

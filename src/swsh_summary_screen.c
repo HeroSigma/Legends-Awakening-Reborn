@@ -511,7 +511,7 @@ static EWRAM_DATA struct StatEditorReturnContext *sStatEditorReturn;
 
 static bool32 CanOpenStatEditor(void)
 {
-    return !gMain.inBattle && !gReceivedRemoteLinkPlayers
+    return StatEditor_IsUnlocked() && !gMain.inBattle && !gReceivedRemoteLinkPlayers
         && !sMonSummaryScreen->lockMovesFlag
         && !sMonSummaryScreen->summary.isEgg
         && !GetBoxMonData(GetCurrentBoxmon(), MON_DATA_SANITY_IS_BAD_EGG)

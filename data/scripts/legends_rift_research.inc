@@ -53,6 +53,12 @@ RiftResearch_Briefing::
 	waitfanfare
 	setvar VAR_LA_RIFT_TRACKER, 2
 	call LegendsQuest_EnsureTracker
+    setspeaker SP_NAME_BIRCH
+    msgbox RiftResearch_Text_StrangeBall, MSGBOX_DEFAULT
+    setspeaker SP_NAME_NONE
+    giveitem ITEM_STRANGE_BALL
+    setspeaker SP_NAME_PLAYER
+    msgbox RiftResearch_Text_StrangeBallReply, MSGBOX_DEFAULT
 	setspeaker SP_NAME_PLAYER
 	msgbox RiftResearch_Text_Resolve, MSGBOX_DEFAULT
 	setspeaker SP_NAME_BIRCH
@@ -532,3 +538,8 @@ RiftResearch_PermitReady::
     goto RiftResearch_End
 RiftResearch_Text_PermitReady:
     .string "The passage is stable.\nYour permit matches this wormhole.\pStep into it when you are ready.$"
+
+RiftResearch_Text_StrangeBall:
+    .string "One more thing. This old Ball was\nfound near a rift disturbance.\pIt isn't like any model I know.\nKeep it with you for now.$"
+RiftResearch_Text_StrangeBallReply:
+    .string "It looks ordinary enough...\nI'll keep an eye on it.$"

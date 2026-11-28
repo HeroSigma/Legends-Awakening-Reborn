@@ -1,0 +1,266 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "start_has_ExpShare",
+      "passed": true
+    },
+    {
+      "test": "start_ExpShare_ON",
+      "passed": true
+    },
+    {
+      "test": "existing_OFF_preserved",
+      "passed": true
+    },
+    {
+      "test": "no_duplicate_ExpShare",
+      "passed": true
+    },
+    {
+      "test": "older_save_gets_ExpShare",
+      "passed": true
+    },
+    {
+      "test": "StrangeBall_not_sold",
+      "passed": true
+    },
+    {
+      "test": "Master_before_League",
+      "passed": true
+    },
+    {
+      "test": "Master_purchase_blocked",
+      "passed": true
+    },
+    {
+      "test": "Master_after_League",
+      "passed": true
+    },
+    {
+      "test": "Master_purchase_unlocked",
+      "passed": true
+    },
+    {
+      "test": "summary_locked_no_badges",
+      "passed": true
+    },
+    {
+      "test": "summary_locked_after_Roxanne",
+      "passed": true
+    },
+    {
+      "test": "summary_unlocked_after_Brawly",
+      "passed": true
+    },
+    {
+      "test": "scientist_locked_script",
+      "passed": true
+    },
+    {
+      "test": "scientist_did_not_open_party",
+      "passed": true
+    },
+    {
+      "test": "summary_actual_no_badge_block",
+      "passed": true
+    },
+    {
+      "test": "summary_actual_one_badge_block",
+      "passed": true
+    },
+    {
+      "test": "summary_actual_two_badge_open",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "scientist_actual_after_Roxanne",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "POOCHYENA_classification",
+      "passed": true
+    },
+    {
+      "test": "POOCHYENA_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "DITTO_classification",
+      "passed": true
+    },
+    {
+      "test": "DITTO_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "MEWTWO_classification",
+      "passed": true
+    },
+    {
+      "test": "Master_ball_use_locked",
+      "passed": true
+    },
+    {
+      "test": "Master_ball_use_unlocked",
+      "passed": true
+    },
+    {
+      "test": "MEWTWO_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "MEW_classification",
+      "passed": true
+    },
+    {
+      "test": "MEW_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "ARTICUNO_classification",
+      "passed": true
+    },
+    {
+      "test": "ARTICUNO_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "NIHILEGO_classification",
+      "passed": true
+    },
+    {
+      "test": "NIHILEGO_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "IRON_VALIANT_classification",
+      "passed": true
+    },
+    {
+      "test": "IRON_VALIANT_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "MIRAIDON_classification",
+      "passed": true
+    },
+    {
+      "test": "MIRAIDON_throw_result",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "MIRAIDON_story_lock",
+      "passed": true
+    },
+    {
+      "test": "MIRAIDON_StrangeBall_blocked",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "IRON_VALIANT_story_lock",
+      "passed": true
+    },
+    {
+      "test": "IRON_VALIANT_StrangeBall_blocked",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "85498fab284bd1496f3f69469b24b49b368445f026b1a20c5ca839c94b2cb1c5"
+}

@@ -1,5 +1,5 @@
 {
-  "rom_sha256": "0afdfb17a0401e4a1014e93bc950da003185b2df45fc41dde3611fbb5a0efb12",
+  "rom_sha256": "85498fab284bd1496f3f69469b24b49b368445f026b1a20c5ca839c94b2cb1c5",
   "checks": [
     {
       "test": "bedroom_spawn_0",
@@ -138,11 +138,7 @@
       "passed": true
     },
     {
-      "test": "scientist_presets_retained",
-      "passed": true
-    },
-    {
-      "test": "scientist_level_retained",
+      "test": "scientist_max_friendship_retained",
       "passed": true
     }
   ],

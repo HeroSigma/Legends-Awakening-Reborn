@@ -1,4 +1,5 @@
 #include "global.h"
+#include "progression_qol.h"
 #include "legends_store.h"
 #include "bag_categories.h"
 #include "event_object_lock.h"
@@ -38,7 +39,9 @@ static const struct WindowTemplate sWindow = {
 
 bool32 __attribute__((noinline)) LegendsStore_ItemAllowed(enum Item item)
 {
-    return item > ITEM_NONE && item < ITEMS_COUNT
+    return item != ITEM_STRANGE_BALL
+        && (item != ITEM_MASTER_BALL || MasterBall_IsUnlocked())
+        && item > ITEM_NONE && item < ITEMS_COUNT
         && GetItemTMHMIndex(item) <= NUM_TECHNICAL_MACHINES
         && gItemsInfo[item].name != NULL
         && gItemsInfo[item].name != gQuestionMarksItemName

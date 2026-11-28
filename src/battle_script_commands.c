@@ -1,4 +1,5 @@
 #include "global.h"
+#include "progression_qol.h"
 #include "legends_tera.h"
 #include "battle.h"
 #include "battle_hold_effects.h"
@@ -8072,6 +8073,11 @@ static u32 GetBattleMonCatchRate(struct BattlePokemon *battleMon)
 
 static u32 ComputeCaptureOdds(u32 wildMonBattler, u32 playerBattler)
 {
+    // Use the actual wild specimen: Transform must not turn Ditto into a
+    // legendary capture target. Story/trainer restrictions run before this.
+    if (gLastUsedItem == ITEM_STRANGE_BALL)
+        return StrangeBall_CanCatch(GetMonData(GetBattlerMon(wildMonBattler), MON_DATA_SPECIES)) ? CAPTURE_GUARANTEED : 0;
+    if (gLastUsedItem == ITEM_MASTER_BALL && !MasterBall_IsUnlocked()) return 0;
     struct BallData ball;
     ComputeBallData(wildMonBattler, playerBattler, &ball);
 
@@ -8188,15 +8194,17 @@ static void SetBallThrowShakes(void)
     gBattleSpritesDataPtr->animationData->isCriticalCapture = FALSE;
     gBattleSpritesDataPtr->animationData->criticalCaptureSuccess = FALSE;
 
+    u32 shakes = 0;
+    u32 maxShakes;
+    // Zero must never reach the shake division or victory-catch guarantee.
+    if (odds == 0) goto failedCapture;
+
     // Master Ball check occurs before critical capture check
     if (odds == CAPTURE_GUARANTEED || IsVictoryCatchGuaranteed())
     {
         FinalizeCapture();
         return;
     }
-
-    u32 shakes;
-    u32 maxShakes;
 
     if (CriticalCapture(odds))
     {
@@ -8228,6 +8236,7 @@ static void SetBallThrowShakes(void)
         return;
     }
 
+failedCapture:
     if (!gHasFetchedBall)
         gLastUsedBall = gLastUsedItem;
 

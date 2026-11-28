@@ -5,6 +5,7 @@
 #include "config/stat_editor.h"
 
 void Task_OpenStatEditorFromStartMenu(u8 taskId);
+bool32 StatEditor_IsUnlocked(void);
 void StatEditor_Init(MainCallback callback);
 void StatEditor_ReturnToSummary(void);
 
