@@ -1,5 +1,6 @@
 #include "global.h"
 #include "item.h"
+#include "item_acquisition.h"
 #include "script.h"
 #include "event_data.h"
 #include "malloc.h"
@@ -23,7 +24,7 @@ void TryBuildDynamicShopItemList(const u16 **ogItemList, u16 *resultingTotal)
     {
         enum Item item = sDynamicShopItemListRef[idx];
 
-        if (IsItemShopCriteriaFulfilled(item))
+        if (!Item_IsQuestRelic(item) && IsItemShopCriteriaFulfilled(item))
         {
             list[overallIdx] = item;
             overallIdx++;

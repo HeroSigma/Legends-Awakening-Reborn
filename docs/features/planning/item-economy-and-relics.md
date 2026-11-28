@@ -30,8 +30,17 @@ Wattson's initial badge battle uses Mega Manectric. Before the Dynamo Badge,
 losses/retries keep the Mega introduction; after the badge, Gym gimmicks rotate
 as before. This does not force an early Mega introduction onto other leaders.
 
-Other relic exclusions, Arceus Plate placements, the Devon Memory shop and
-new treasure quests remain pending as separate parts.
+The remaining ordinary-shop relic exclusions are now implemented through the
+shared `Item_IsQuestRelic` policy. It covers the primal Orbs, six Sinnoh dragon
+relics, Soul Dew, Rusted weapons, Ogerpon Masks, Urshifu Scrolls, Legendary form
+keys/tickets (including Meteorite), all four Drives, all 17 Plates and all 17
+Memories, as well as the previously excluded Legendary Mega/Z items.
+
+Ordinary Marts filter their catalogs and revalidate purchases; Legends Store
+uses the same policy for visibility, prices and direct purchases. Existing
+ownership, scripted gifts, item use and story/encounter flags remain independent.
+Arceus Plate placements, the dedicated Devon Memory shop and new treasure quests
+remain pending as separate parts.
 
 ## 1. Requested direction
 

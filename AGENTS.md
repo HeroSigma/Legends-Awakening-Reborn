@@ -132,3 +132,14 @@ Mega Stones after Wattson (tier 3). Legendary/Mythical-specific stones/crystals
 are excluded from Store display and purchases; preserve already owned copies.
 Wattson's pre-Dynamo story battle always selects Mega Manectric, including
 retries after losses. Once the Dynamo Badge is earned, retain rotating rematches.
+
+## Quest relic acquisition policy
+
+`Item_IsQuestRelic` in src/item_acquisition.c reserves Legendary-specific relics,
+Plates, Memories and Drives from ordinary shop catalogs and payment paths.
+Legends Store and normal Poke Marts must share this rule. Do not clear owned
+copies or block scripted awards/use. A future Devon Memory vendor requires an
+explicit dedicated acquisition path after Type: Null; do not weaken the ordinary
+shop rule or treat possession as a story/quest unlock. Decorative shops are
+outside this item policy. Generic battle Orbs, Mints, fossils and treasures remain
+ordinary stock; do not classify items by fragments of their names.

@@ -1,0 +1,4948 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "17_Plates",
+      "passed": true
+    },
+    {
+      "test": "17_Memories",
+      "passed": true
+    },
+    {
+      "test": "4_Drives",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RED_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RED_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RED_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RED_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLUE_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLUE_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLUE_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLUE_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOUL_DEW_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOUL_DEW_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOUL_DEW_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOUL_DEW_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_CRYSTAL_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_CRYSTAL_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_CRYSTAL_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ADAMANT_CRYSTAL_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_GLOBE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_GLOBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_GLOBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUSTROUS_GLOBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_CORE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_CORE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_CORE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRISEOUS_CORE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SWORD_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SWORD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SWORD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SWORD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SHIELD_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SHIELD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SHIELD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_RUSTED_SHIELD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WELLSPRING_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WELLSPRING_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WELLSPRING_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WELLSPRING_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEARTHFLAME_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEARTHFLAME_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEARTHFLAME_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEARTHFLAME_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CORNERSTONE_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CORNERSTONE_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CORNERSTONE_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CORNERSTONE_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_DARKNESS_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_DARKNESS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_DARKNESS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_DARKNESS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_WATERS_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_WATERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_WATERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SCROLL_OF_WATERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METEORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METEORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METEORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_METEORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRACIDEA_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRACIDEA_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRACIDEA_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRACIDEA_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REVEAL_GLASS_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REVEAL_GLASS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REVEAL_GLASS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REVEAL_GLASS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DNA_SPLICERS_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DNA_SPLICERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DNA_SPLICERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DNA_SPLICERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDE_CUBE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDE_CUBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDE_CUBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDE_CUBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRISON_BOTTLE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRISON_BOTTLE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRISON_BOTTLE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PRISON_BOTTLE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_SOLARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_SOLARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_SOLARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_SOLARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_LUNARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_LUNARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_LUNARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_N_LUNARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REINS_OF_UNITY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REINS_OF_UNITY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REINS_OF_UNITY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_REINS_OF_UNITY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EON_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EON_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EON_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EON_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MYSTIC_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MYSTIC_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MYSTIC_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MYSTIC_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AURORA_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AURORA_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AURORA_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_AURORA_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_OLD_SEA_MAP_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_OLD_SEA_MAP_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_OLD_SEA_MAP_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_OLD_SEA_MAP_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_X_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWTWONITE_Y_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIASITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LATIOSITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DIANCITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZYGARDITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_HEATRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARKRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZERAORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MAGEARNITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEWNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TAPUNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SOLGANIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LUNALIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MARSHADIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ULTRANECROZIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLAME_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLAME_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLAME_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLAME_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPLASH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPLASH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPLASH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPLASH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZAP_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZAP_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZAP_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ZAP_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEADOW_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEADOW_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEADOW_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MEADOW_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICICLE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICICLE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICICLE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICICLE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIST_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIST_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIST_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIST_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TOXIC_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TOXIC_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TOXIC_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_TOXIC_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EARTH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EARTH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EARTH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_EARTH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_MIND_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INSECT_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INSECT_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INSECT_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_INSECT_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STONE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STONE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STONE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STONE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPOOKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPOOKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPOOKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SPOOKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRACO_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRACO_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRACO_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRACO_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DREAD_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DREAD_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DREAD_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DREAD_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_IRON_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_IRON_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_IRON_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_IRON_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIXIE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIXIE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIXIE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PIXIE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIRE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATER_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATER_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATER_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_WATER_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ELECTRIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASS_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASS_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASS_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GRASS_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ICE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FIGHTING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_POISON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUND_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUND_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUND_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GROUND_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FLYING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_PSYCHIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUG_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUG_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUG_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BUG_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_ROCK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOST_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOST_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOST_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_GHOST_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DRAGON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DARK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEEL_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEEL_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEEL_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_STEEL_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRY_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRY_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRY_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_FAIRY_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DOUSE_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DOUSE_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DOUSE_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_DOUSE_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHOCK_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHOCK_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHOCK_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_SHOCK_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BURN_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BURN_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BURN_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BURN_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHILL_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHILL_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHILL_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_CHILL_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RED_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RED_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RED_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RED_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLUE_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLUE_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLUE_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLUE_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOUL_DEW_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOUL_DEW_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOUL_DEW_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOUL_DEW_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_CRYSTAL_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_CRYSTAL_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_CRYSTAL_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ADAMANT_CRYSTAL_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_GLOBE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_GLOBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_GLOBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUSTROUS_GLOBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_CORE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_CORE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_CORE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRISEOUS_CORE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SWORD_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SWORD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SWORD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SWORD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SHIELD_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SHIELD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SHIELD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_RUSTED_SHIELD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WELLSPRING_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WELLSPRING_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WELLSPRING_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WELLSPRING_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEARTHFLAME_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEARTHFLAME_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEARTHFLAME_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEARTHFLAME_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CORNERSTONE_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CORNERSTONE_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CORNERSTONE_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CORNERSTONE_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_DARKNESS_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_DARKNESS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_DARKNESS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_DARKNESS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_WATERS_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_WATERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_WATERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SCROLL_OF_WATERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_METEORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_METEORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_METEORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_METEORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRACIDEA_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRACIDEA_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRACIDEA_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRACIDEA_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REVEAL_GLASS_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REVEAL_GLASS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REVEAL_GLASS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REVEAL_GLASS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DNA_SPLICERS_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DNA_SPLICERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DNA_SPLICERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DNA_SPLICERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDE_CUBE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDE_CUBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDE_CUBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDE_CUBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PRISON_BOTTLE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PRISON_BOTTLE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PRISON_BOTTLE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PRISON_BOTTLE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_SOLARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_SOLARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_SOLARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_SOLARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_LUNARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_LUNARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_LUNARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_N_LUNARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REINS_OF_UNITY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REINS_OF_UNITY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REINS_OF_UNITY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_REINS_OF_UNITY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EON_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EON_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EON_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EON_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MYSTIC_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MYSTIC_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MYSTIC_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MYSTIC_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AURORA_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AURORA_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AURORA_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_AURORA_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_OLD_SEA_MAP_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_OLD_SEA_MAP_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_OLD_SEA_MAP_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_OLD_SEA_MAP_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_X_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWTWONITE_Y_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIASITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LATIOSITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DIANCITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZYGARDITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_HEATRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARKRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZERAORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MAGEARNITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEWNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TAPUNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SOLGANIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LUNALIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MARSHADIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ULTRANECROZIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLAME_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLAME_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLAME_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLAME_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPLASH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPLASH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPLASH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPLASH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZAP_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZAP_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZAP_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ZAP_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEADOW_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEADOW_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEADOW_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MEADOW_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICICLE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICICLE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICICLE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICICLE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIST_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIST_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIST_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIST_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TOXIC_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TOXIC_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TOXIC_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_TOXIC_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EARTH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EARTH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EARTH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_EARTH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MIND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MIND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MIND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_MIND_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_INSECT_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_INSECT_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_INSECT_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_INSECT_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STONE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STONE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STONE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STONE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPOOKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPOOKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPOOKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SPOOKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRACO_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRACO_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRACO_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRACO_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DREAD_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DREAD_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DREAD_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DREAD_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_IRON_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_IRON_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_IRON_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_IRON_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIXIE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIXIE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIXIE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PIXIE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIRE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIRE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIRE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIRE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WATER_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WATER_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WATER_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_WATER_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ELECTRIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ELECTRIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ELECTRIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ELECTRIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRASS_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRASS_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRASS_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GRASS_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ICE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIGHTING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIGHTING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIGHTING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FIGHTING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_POISON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_POISON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_POISON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_POISON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GROUND_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GROUND_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GROUND_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GROUND_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLYING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLYING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLYING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FLYING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PSYCHIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PSYCHIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PSYCHIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_PSYCHIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BUG_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BUG_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BUG_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BUG_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ROCK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ROCK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ROCK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_ROCK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GHOST_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GHOST_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GHOST_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_GHOST_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DRAGON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DARK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEEL_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEEL_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEEL_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_STEEL_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FAIRY_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FAIRY_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FAIRY_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_FAIRY_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DOUSE_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DOUSE_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DOUSE_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_DOUSE_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SHOCK_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SHOCK_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SHOCK_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_SHOCK_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BURN_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BURN_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BURN_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BURN_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHILL_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHILL_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHILL_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_CHILL_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RED_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RED_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RED_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RED_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLUE_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLUE_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLUE_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLUE_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOUL_DEW_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOUL_DEW_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOUL_DEW_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOUL_DEW_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_ORB_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_ORB_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_ORB_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_ORB_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_CRYSTAL_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_CRYSTAL_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_CRYSTAL_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ADAMANT_CRYSTAL_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_GLOBE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_GLOBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_GLOBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUSTROUS_GLOBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_CORE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_CORE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_CORE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRISEOUS_CORE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SWORD_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SWORD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SWORD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SWORD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SHIELD_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SHIELD_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SHIELD_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_RUSTED_SHIELD_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WELLSPRING_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WELLSPRING_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WELLSPRING_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WELLSPRING_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEARTHFLAME_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEARTHFLAME_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEARTHFLAME_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEARTHFLAME_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CORNERSTONE_MASK_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CORNERSTONE_MASK_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CORNERSTONE_MASK_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CORNERSTONE_MASK_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_DARKNESS_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_DARKNESS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_DARKNESS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_DARKNESS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_WATERS_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_WATERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_WATERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SCROLL_OF_WATERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_METEORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_METEORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_METEORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_METEORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRACIDEA_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRACIDEA_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRACIDEA_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRACIDEA_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REVEAL_GLASS_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REVEAL_GLASS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REVEAL_GLASS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REVEAL_GLASS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DNA_SPLICERS_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DNA_SPLICERS_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DNA_SPLICERS_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DNA_SPLICERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDE_CUBE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDE_CUBE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDE_CUBE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDE_CUBE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PRISON_BOTTLE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PRISON_BOTTLE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PRISON_BOTTLE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PRISON_BOTTLE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_SOLARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_SOLARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_SOLARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_SOLARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_LUNARIZER_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_LUNARIZER_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_LUNARIZER_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_N_LUNARIZER_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REINS_OF_UNITY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REINS_OF_UNITY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REINS_OF_UNITY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_REINS_OF_UNITY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EON_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EON_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EON_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EON_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MYSTIC_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MYSTIC_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MYSTIC_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MYSTIC_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_AURORA_TICKET_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_AURORA_TICKET_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_AURORA_TICKET_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_AURORA_TICKET_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_OLD_SEA_MAP_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_OLD_SEA_MAP_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_OLD_SEA_MAP_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_OLD_SEA_MAP_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_X_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_X_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_X_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_X_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_Y_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_Y_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_Y_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWTWONITE_Y_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIASITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIASITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIASITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIASITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIOSITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIOSITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIOSITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LATIOSITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DIANCITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DIANCITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DIANCITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DIANCITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZYGARDITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEATRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEATRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEATRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_HEATRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARKRANITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARKRANITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARKRANITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARKRANITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZERAORITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZERAORITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZERAORITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZERAORITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MAGEARNITE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MAGEARNITE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MAGEARNITE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MAGEARNITE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEWNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TAPUNIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TAPUNIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TAPUNIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TAPUNIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOLGANIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOLGANIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOLGANIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SOLGANIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUNALIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUNALIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUNALIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LUNALIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MARSHADIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MARSHADIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MARSHADIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MARSHADIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ULTRANECROZIUM_Z_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ULTRANECROZIUM_Z_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ULTRANECROZIUM_Z_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ULTRANECROZIUM_Z_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLAME_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLAME_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLAME_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLAME_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPLASH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPLASH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPLASH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPLASH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZAP_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZAP_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZAP_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ZAP_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEADOW_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEADOW_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEADOW_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MEADOW_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICICLE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICICLE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICICLE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICICLE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIST_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIST_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIST_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIST_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TOXIC_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TOXIC_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TOXIC_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_TOXIC_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EARTH_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EARTH_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EARTH_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_EARTH_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MIND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MIND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MIND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_MIND_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_INSECT_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_INSECT_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_INSECT_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_INSECT_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STONE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STONE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STONE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STONE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPOOKY_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPOOKY_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPOOKY_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SPOOKY_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRACO_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRACO_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRACO_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRACO_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DREAD_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DREAD_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DREAD_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DREAD_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_IRON_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_IRON_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_IRON_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_IRON_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PIXIE_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PIXIE_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PIXIE_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PIXIE_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIRE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIRE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIRE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIRE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WATER_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WATER_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WATER_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_WATER_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ELECTRIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ELECTRIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ELECTRIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ELECTRIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRASS_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRASS_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRASS_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GRASS_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICE_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICE_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICE_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ICE_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIGHTING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIGHTING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIGHTING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FIGHTING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_POISON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_POISON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_POISON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_POISON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GROUND_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GROUND_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GROUND_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GROUND_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLYING_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLYING_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLYING_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FLYING_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PSYCHIC_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PSYCHIC_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PSYCHIC_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_PSYCHIC_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BUG_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BUG_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BUG_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BUG_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ROCK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ROCK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ROCK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_ROCK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GHOST_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GHOST_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GHOST_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_GHOST_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRAGON_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRAGON_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRAGON_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DRAGON_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARK_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARK_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARK_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DARK_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STEEL_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STEEL_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STEEL_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_STEEL_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FAIRY_MEMORY_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FAIRY_MEMORY_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FAIRY_MEMORY_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_FAIRY_MEMORY_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DOUSE_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DOUSE_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DOUSE_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_DOUSE_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SHOCK_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SHOCK_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SHOCK_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_SHOCK_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BURN_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BURN_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BURN_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BURN_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CHILL_DRIVE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CHILL_DRIVE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CHILL_DRIVE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_CHILL_DRIVE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POTION_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POTION_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POKE_BALL_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POKE_BALL_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LIFE_ORB_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LIFE_ORB_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLAME_ORB_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLAME_ORB_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TOXIC_ORB_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TOXIC_ORB_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADRENALINE_ORB_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADRENALINE_ORB_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_MINT_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_MINT_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MANECTITE_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MANECTITE_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ELECTRIUM_Z_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ELECTRIUM_Z_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_BAND_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_BAND_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_SPECS_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_SPECS_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_SCARF_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHOICE_SCARF_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHARCOAL_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHARCOAL_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MYSTIC_WATER_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MYSTIC_WATER_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RELIC_COPPER_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RELIC_COPPER_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DOME_FOSSIL_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DOME_FOSSIL_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BOTTLE_CAP_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BOTTLE_CAP_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GOLD_BOTTLE_CAP_ordinary_classification",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GOLD_BOTTLE_CAP_Champion_still_sold",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RED_ORB_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BLUE_ORB_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SOUL_DEW_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_ORB_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUSTROUS_ORB_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRISEOUS_ORB_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_CRYSTAL_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUSTROUS_GLOBE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRISEOUS_CORE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RUSTED_SWORD_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RUSTED_SHIELD_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_WELLSPRING_MASK_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_HEARTHFLAME_MASK_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CORNERSTONE_MASK_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SCROLL_OF_DARKNESS_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SCROLL_OF_WATERS_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_METEORITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRACIDEA_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_REVEAL_GLASS_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DNA_SPLICERS_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZYGARDE_CUBE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PRISON_BOTTLE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_N_SOLARIZER_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_N_LUNARIZER_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_REINS_OF_UNITY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_EON_TICKET_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MYSTIC_TICKET_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_AURORA_TICKET_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_OLD_SEA_MAP_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWTWONITE_X_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWTWONITE_Y_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LATIASITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LATIOSITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DIANCITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZYGARDITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_HEATRANITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DARKRANITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZERAORITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MAGEARNITE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWNIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TAPUNIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SOLGANIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUNALIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MARSHADIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ULTRANECROZIUM_Z_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLAME_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SPLASH_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZAP_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEADOW_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ICICLE_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIST_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TOXIC_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_EARTH_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SKY_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MIND_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_INSECT_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_STONE_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SPOOKY_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DRACO_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DREAD_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_IRON_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PIXIE_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIRE_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_WATER_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ELECTRIC_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRASS_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ICE_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIGHTING_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POISON_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GROUND_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLYING_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PSYCHIC_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BUG_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ROCK_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GHOST_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DRAGON_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DARK_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_STEEL_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FAIRY_MEMORY_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DOUSE_DRIVE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SHOCK_DRIVE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BURN_DRIVE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHILL_DRIVE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "save",
+      "passed": true
+    },
+    {
+      "test": "reload",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RED_ORB_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BLUE_ORB_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SOUL_DEW_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_ORB_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUSTROUS_ORB_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRISEOUS_ORB_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ADAMANT_CRYSTAL_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUSTROUS_GLOBE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRISEOUS_CORE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RUSTED_SWORD_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_RUSTED_SHIELD_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_WELLSPRING_MASK_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_HEARTHFLAME_MASK_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CORNERSTONE_MASK_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SCROLL_OF_DARKNESS_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SCROLL_OF_WATERS_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_METEORITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRACIDEA_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_REVEAL_GLASS_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DNA_SPLICERS_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZYGARDE_CUBE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PRISON_BOTTLE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_N_SOLARIZER_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_N_LUNARIZER_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_REINS_OF_UNITY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_EON_TICKET_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MYSTIC_TICKET_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_AURORA_TICKET_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_OLD_SEA_MAP_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWTWONITE_X_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWTWONITE_Y_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LATIASITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LATIOSITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DIANCITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZYGARDITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_HEATRANITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DARKRANITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZERAORITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MAGEARNITE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEWNIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TAPUNIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SOLGANIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LUNALIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MARSHADIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ULTRANECROZIUM_Z_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLAME_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SPLASH_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ZAP_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MEADOW_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ICICLE_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIST_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_TOXIC_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_EARTH_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SKY_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_MIND_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_INSECT_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_STONE_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SPOOKY_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DRACO_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DREAD_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_IRON_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PIXIE_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIRE_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_WATER_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ELECTRIC_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GRASS_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ICE_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FIGHTING_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_POISON_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GROUND_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FLYING_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_PSYCHIC_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BUG_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_ROCK_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_GHOST_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DRAGON_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DARK_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_STEEL_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_FAIRY_MEMORY_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_DOUSE_DRIVE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_SHOCK_DRIVE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_BURN_DRIVE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_CHILL_DRIVE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "mixed_native_Mart_catalog",
+      "passed": true
+    },
+    {
+      "test": "mixed_original_catalog_restored",
+      "passed": true
+    },
+    {
+      "test": "empty_native_Mart_catalog",
+      "passed": true
+    },
+    {
+      "test": "empty_original_catalog_restored",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "live_Mart_hides_RedOrb",
+      "passed": true
+    },
+    {
+      "test": "live_Mart_injected_relic_refused",
+      "passed": true
+    }
+  ],
+  "reserved_items": [
+    "ITEM_RED_ORB",
+    "ITEM_BLUE_ORB",
+    "ITEM_SOUL_DEW",
+    "ITEM_ADAMANT_ORB",
+    "ITEM_LUSTROUS_ORB",
+    "ITEM_GRISEOUS_ORB",
+    "ITEM_ADAMANT_CRYSTAL",
+    "ITEM_LUSTROUS_GLOBE",
+    "ITEM_GRISEOUS_CORE",
+    "ITEM_RUSTED_SWORD",
+    "ITEM_RUSTED_SHIELD",
+    "ITEM_WELLSPRING_MASK",
+    "ITEM_HEARTHFLAME_MASK",
+    "ITEM_CORNERSTONE_MASK",
+    "ITEM_SCROLL_OF_DARKNESS",
+    "ITEM_SCROLL_OF_WATERS",
+    "ITEM_METEORITE",
+    "ITEM_GRACIDEA",
+    "ITEM_REVEAL_GLASS",
+    "ITEM_DNA_SPLICERS",
+    "ITEM_ZYGARDE_CUBE",
+    "ITEM_PRISON_BOTTLE",
+    "ITEM_N_SOLARIZER",
+    "ITEM_N_LUNARIZER",
+    "ITEM_REINS_OF_UNITY",
+    "ITEM_EON_TICKET",
+    "ITEM_MYSTIC_TICKET",
+    "ITEM_AURORA_TICKET",
+    "ITEM_OLD_SEA_MAP",
+    "ITEM_MEWTWONITE_X",
+    "ITEM_MEWTWONITE_Y",
+    "ITEM_LATIASITE",
+    "ITEM_LATIOSITE",
+    "ITEM_DIANCITE",
+    "ITEM_ZYGARDITE",
+    "ITEM_HEATRANITE",
+    "ITEM_DARKRANITE",
+    "ITEM_ZERAORITE",
+    "ITEM_MAGEARNITE",
+    "ITEM_MEWNIUM_Z",
+    "ITEM_TAPUNIUM_Z",
+    "ITEM_SOLGANIUM_Z",
+    "ITEM_LUNALIUM_Z",
+    "ITEM_MARSHADIUM_Z",
+    "ITEM_ULTRANECROZIUM_Z",
+    "ITEM_FLAME_PLATE",
+    "ITEM_SPLASH_PLATE",
+    "ITEM_ZAP_PLATE",
+    "ITEM_MEADOW_PLATE",
+    "ITEM_ICICLE_PLATE",
+    "ITEM_FIST_PLATE",
+    "ITEM_TOXIC_PLATE",
+    "ITEM_EARTH_PLATE",
+    "ITEM_SKY_PLATE",
+    "ITEM_MIND_PLATE",
+    "ITEM_INSECT_PLATE",
+    "ITEM_STONE_PLATE",
+    "ITEM_SPOOKY_PLATE",
+    "ITEM_DRACO_PLATE",
+    "ITEM_DREAD_PLATE",
+    "ITEM_IRON_PLATE",
+    "ITEM_PIXIE_PLATE",
+    "ITEM_FIRE_MEMORY",
+    "ITEM_WATER_MEMORY",
+    "ITEM_ELECTRIC_MEMORY",
+    "ITEM_GRASS_MEMORY",
+    "ITEM_ICE_MEMORY",
+    "ITEM_FIGHTING_MEMORY",
+    "ITEM_POISON_MEMORY",
+    "ITEM_GROUND_MEMORY",
+    "ITEM_FLYING_MEMORY",
+    "ITEM_PSYCHIC_MEMORY",
+    "ITEM_BUG_MEMORY",
+    "ITEM_ROCK_MEMORY",
+    "ITEM_GHOST_MEMORY",
+    "ITEM_DRAGON_MEMORY",
+    "ITEM_DARK_MEMORY",
+    "ITEM_STEEL_MEMORY",
+    "ITEM_FAIRY_MEMORY",
+    "ITEM_DOUSE_DRIVE",
+    "ITEM_SHOCK_DRIVE",
+    "ITEM_BURN_DRIVE",
+    "ITEM_CHILL_DRIVE"
+  ],
+  "class_counts": {
+    "PLATE": 17,
+    "MEMORY": 17,
+    "DRIVE": 4
+  },
+  "user_save_loaded": false,
+  "rom_sha256": "fe23df071f5164cd3f9e9bc938976907c3fb07f924a1fd12b2bedfa051dc9e43"
+}

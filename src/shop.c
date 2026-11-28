@@ -13,6 +13,7 @@
 #include "graphics.h"
 #include "international_string_util.h"
 #include "item.h"
+#include "item_acquisition.h"
 #include "item_icon.h"
 #include "item_menu.h"
 #include "list_menu.h"
@@ -1170,6 +1171,13 @@ static void BuyMenuTryMakePurchase(u8 taskId)
 
     if (sMartInfo.martType == MART_TYPE_NORMAL)
     {
+        // Revalidate at payment too: a stale or injected selection must not
+        // bypass the catalog filter. No inventory or money changes on refusal.
+        if (Item_IsQuestRelic(tItemId))
+        {
+            BuyMenuDisplayMessage(taskId, COMPOUND_STRING("That item isn't for sale here."), BuyMenuReturnToItemList);
+            return;
+        }
         if (AddBagItem(tItemId, tItemCount) == TRUE)
         {
             GetSetItemObtained(tItemId, FLAG_SET_ITEM_OBTAINED);
