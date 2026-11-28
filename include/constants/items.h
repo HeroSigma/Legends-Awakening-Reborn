@@ -1056,6 +1056,8 @@ enum __attribute__((packed)) Item
 
     ITEM_RIFT_TRACKER,
     ITEM_OUTFIT_BOX,
+    ITEM_BLANK_PLATE,
+    ITEM_LEGEND_PLATE,
     ITEMS_COUNT,
     ITEM_FIELD_ARROW = ITEMS_COUNT,
 };

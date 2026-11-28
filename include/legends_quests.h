@@ -1,9 +1,15 @@
 #ifndef GUARD_LEGENDS_QUESTS_H
 #define GUARD_LEGENDS_QUESTS_H
+struct LegendsQuest {
+    const u8 *title, *giver, *location, *reward, *objectives;
+    u16 graphics, map, completionFlag, item;
+};
 enum { QUEST_LOCKED, QUEST_ACTIVE, QUEST_REWARD_READY, QUEST_CLAIMED };
 #define LA_QUEST_GYM_FIRST 10
 #define LA_QUEST_RIFT_FIRST 20
-#define LA_QUEST_COUNT 46
+#define LA_QUEST_PLATES 46
+#define LA_QUEST_PLATE_FIRST 47
+#define LA_QUEST_COUNT 64
 void LegendsQuests_Open(void);
 u32 LegendsQuest_State(u32 id);
 bool32 LegendsQuest_RiftAllowed(u32 site);

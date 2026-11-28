@@ -4,6 +4,7 @@
 #include "palette.h"
 #include "gpu_regs.h"
 #include "legends_quests.h"
+#include "legends_plates.h"
 #include "legends_pokevial.h"
 #include "rift_tracker.h"
 #include "event_data.h"
@@ -29,10 +30,6 @@
 #include "constants/vars.h"
 #include "constants/event_objects.h"
 
-struct LegendsQuest {
-    const u8 *title, *giver, *location, *reward, *objectives;
-    u16 graphics, map, completionFlag, item;
-};
 #include "data/legends_quests.h"
 #define ACCEPTED(id) (FLAG_LA_QUEST_BASE + (id) * 2)
 #define CLAIMED(id) (FLAG_LA_QUEST_BASE + (id) * 2 + 1)
@@ -51,6 +48,7 @@ static bool32 MainComplete(u32 id)
 u32 LegendsQuest_State(u32 id)
 {
     if (id >= LA_QUEST_COUNT) return QUEST_LOCKED;
+    if (id >= LA_QUEST_PLATES) return LegendsPlates_QuestState(id);
     if (id == 44) return FlagGet(FLAG_LA_CHIMNEY_RESONANCE) ? QUEST_CLAIMED : FlagGet(FLAG_LA_ASHES_WOODS_DEPARTURE) ? QUEST_ACTIVE : QUEST_LOCKED;
     if (id == 45) return FlagGet(FLAG_LA_WALLY_RESCUED) ? QUEST_CLAIMED : FlagGet(FLAG_LA_CHIMNEY_RESONANCE) ? QUEST_ACTIVE : QUEST_LOCKED;
     if (FlagGet(CLAIMED(id))) return QUEST_CLAIMED;
@@ -101,6 +99,9 @@ void LegendsQuest_Claim(void)
     u16 map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
     gSpecialVar_Result = 0;
     if (id >= LA_QUEST_COUNT || LegendsQuest_State(id) != QUEST_REWARD_READY) return;
+    // Plate rewards are collected at their scripted discovery; awakening is a
+    // Birch scene. Never route new IDs through the original two-bit ledger.
+    if (id >= LA_QUEST_PLATES) {gSpecialVar_Result = 4; return;}
     if (id >= LA_QUEST_RIFT_FIRST) {
         gSpecialVar_Result = 4;
         if (map != MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB) return;
@@ -179,6 +180,11 @@ static bool32 ObjectiveDone(u32 id, u32 part)
         {FLAG_RETURNED_DEVON_GOODS, FLAG_LA_TERA_RESEARCH_INTRO},
         {FLAG_LA_DEWFORD_HOOPA_SEEN, FLAG_LA_HIDE_DEWFORD_DYNAMAX_BAND},
     };
+    if (id >= LA_QUEST_PLATES) {
+        if (id == LA_QUEST_PLATES) return part ? FlagGet(FLAG_LA_LEGEND_PLATE_AWAKENED) : LegendsPlates_CountCompleted() == LEGENDS_PLATE_COUNT;
+        u32 state = LegendsPlates_QuestState(id);
+        return part ? state == QUEST_CLAIMED : state != QUEST_LOCKED;
+    }
     if (id == 44) return FlagGet(part ? FLAG_LA_CHIMNEY_RESONANCE : FLAG_LA_COZMO_BRIEFED);
     if (id == 45) return FlagGet(part ? FLAG_LA_WALLY_RESCUED : FLAG_LA_SILPH_WALLY_FOUND);
     if (id < 6) return FlagGet(flags[id][part]);
@@ -209,6 +215,7 @@ static const struct LegendsQuest sChapterQuests[] = {
 };
 static const struct LegendsQuest *QuestMetadata(u32 id)
 {
+    if (id >= LA_QUEST_PLATES) return LegendsPlates_QuestMetadata(id);
     return id < 20 ? &sQuests[id] : id >= 44 && id < 46 ? &sChapterQuests[id - 44] : NULL;
 }
 static const u8 *QuestTitle(u32 id)

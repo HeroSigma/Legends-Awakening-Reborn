@@ -277,6 +277,38 @@
       "passed": true
     },
     {
+      "test": "0_ITEM_BLANK_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLANK_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLANK_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_BLANK_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LEGEND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LEGEND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LEGEND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "0_ITEM_LEGEND_PLATE_buy_refused",
+      "passed": true
+    },
+    {
       "test": "0_ITEM_METEORITE_classified",
       "passed": true
     },
@@ -1602,6 +1634,38 @@
     },
     {
       "test": "8_ITEM_SCROLL_OF_WATERS_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLANK_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLANK_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLANK_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_BLANK_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LEGEND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LEGEND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LEGEND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "8_ITEM_LEGEND_PLATE_buy_refused",
       "passed": true
     },
     {
@@ -2933,6 +2997,38 @@
       "passed": true
     },
     {
+      "test": "9_ITEM_BLANK_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLANK_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLANK_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_BLANK_PLATE_buy_refused",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LEGEND_PLATE_classified",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LEGEND_PLATE_not_listed",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LEGEND_PLATE_no_quoted_price",
+      "passed": true
+    },
+    {
+      "test": "9_ITEM_LEGEND_PLATE_buy_refused",
+      "passed": true
+    },
+    {
       "test": "9_ITEM_METEORITE_classified",
       "passed": true
     },
@@ -4213,6 +4309,14 @@
       "passed": true
     },
     {
+      "test": "ITEM_BLANK_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LEGEND_PLATE_can_be_awarded",
+      "passed": true
+    },
+    {
       "test": "ITEM_METEORITE_can_be_awarded",
       "passed": true
     },
@@ -4553,6 +4657,14 @@
       "passed": true
     },
     {
+      "test": "ITEM_BLANK_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
+      "test": "ITEM_LEGEND_PLATE_ownership_persists",
+      "passed": true
+    },
+    {
       "test": "ITEM_METEORITE_ownership_persists",
       "passed": true
     },
@@ -4870,6 +4982,8 @@
     "ITEM_CORNERSTONE_MASK",
     "ITEM_SCROLL_OF_DARKNESS",
     "ITEM_SCROLL_OF_WATERS",
+    "ITEM_BLANK_PLATE",
+    "ITEM_LEGEND_PLATE",
     "ITEM_METEORITE",
     "ITEM_GRACIDEA",
     "ITEM_REVEAL_GLASS",
@@ -4944,5 +5058,5 @@
     "DRIVE": 4
   },
   "user_save_loaded": false,
-  "rom_sha256": "fe23df071f5164cd3f9e9bc938976907c3fb07f924a1fd12b2bedfa051dc9e43"
+  "rom_sha256": "9ba404980d89667748b17032c778fe2e3c5be24b8e516f58d0100ff3b982d195"
 }

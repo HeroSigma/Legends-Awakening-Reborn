@@ -3448,3 +3448,7 @@ extern const u32 gItemIcon_Pokevial9[];
 extern const u16 gItemIconPalette_Pokevial[];
 
 #endif //GUARD_GRAPHICS_H
+
+extern const u16 gItemIconPalette_LegendPlate[];
+
+extern const u32 gItemIcon_LegendPlate[];

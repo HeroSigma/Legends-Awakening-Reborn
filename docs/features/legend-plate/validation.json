@@ -1,0 +1,1174 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "0_no_research_before_tracker",
+      "passed": true
+    },
+    {
+      "test": "0_no_guardian_before_research",
+      "passed": true
+    },
+    {
+      "test": "0_research_grants_blank",
+      "passed": true
+    },
+    {
+      "test": "0_no_duplicate_blank",
+      "passed": true
+    },
+    {
+      "test": "blank_Bag_returns_cleanly",
+      "passed": true
+    },
+    {
+      "test": "0_same_category_as_Plates",
+      "passed": true
+    },
+    {
+      "test": "0_relics_protected",
+      "passed": true
+    },
+    {
+      "test": "0_not_in_store",
+      "passed": true
+    },
+    {
+      "test": "0_ownership_never_bypasses_guardians",
+      "passed": true
+    },
+    {
+      "test": "0_invalid_guardian_rejected",
+      "passed": true
+    },
+    {
+      "test": "0_0_activate",
+      "passed": true
+    },
+    {
+      "test": "0_0_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_0_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_0_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_0_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_guardian_menu_cannot_alias_Gym_flags",
+      "passed": true
+    },
+    {
+      "test": "0_full_Bag_keeps_victory_pending",
+      "passed": true
+    },
+    {
+      "test": "0_0_claim",
+      "passed": true
+    },
+    {
+      "test": "0_0_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_1_activate",
+      "passed": true
+    },
+    {
+      "test": "0_1_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_1_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_1_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_1_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_1_claim",
+      "passed": true
+    },
+    {
+      "test": "0_1_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_2_activate",
+      "passed": true
+    },
+    {
+      "test": "0_2_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_2_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_2_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_2_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_2_claim",
+      "passed": true
+    },
+    {
+      "test": "0_2_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_3_activate",
+      "passed": true
+    },
+    {
+      "test": "0_3_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_3_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_3_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_3_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_3_claim",
+      "passed": true
+    },
+    {
+      "test": "0_3_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_4_activate",
+      "passed": true
+    },
+    {
+      "test": "0_4_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_4_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_4_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_4_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_4_claim",
+      "passed": true
+    },
+    {
+      "test": "0_4_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_5_activate",
+      "passed": true
+    },
+    {
+      "test": "0_5_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_5_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_5_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_5_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_5_claim",
+      "passed": true
+    },
+    {
+      "test": "0_5_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_6_activate",
+      "passed": true
+    },
+    {
+      "test": "0_6_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_6_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_6_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_6_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_6_claim",
+      "passed": true
+    },
+    {
+      "test": "0_6_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_7_activate",
+      "passed": true
+    },
+    {
+      "test": "0_7_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_7_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_7_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_7_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_7_claim",
+      "passed": true
+    },
+    {
+      "test": "0_7_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_8_activate",
+      "passed": true
+    },
+    {
+      "test": "0_8_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_8_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_8_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_8_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_8_claim",
+      "passed": true
+    },
+    {
+      "test": "0_8_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_9_activate",
+      "passed": true
+    },
+    {
+      "test": "0_9_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_9_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_9_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_9_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_9_claim",
+      "passed": true
+    },
+    {
+      "test": "0_9_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_10_activate",
+      "passed": true
+    },
+    {
+      "test": "0_10_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_10_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_10_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_10_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_10_claim",
+      "passed": true
+    },
+    {
+      "test": "0_10_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_11_activate",
+      "passed": true
+    },
+    {
+      "test": "0_11_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_11_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_11_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_11_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_11_claim",
+      "passed": true
+    },
+    {
+      "test": "0_11_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_12_activate",
+      "passed": true
+    },
+    {
+      "test": "0_12_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_12_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_12_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_12_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_12_claim",
+      "passed": true
+    },
+    {
+      "test": "0_12_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_13_activate",
+      "passed": true
+    },
+    {
+      "test": "0_13_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_13_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_13_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_13_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_13_claim",
+      "passed": true
+    },
+    {
+      "test": "0_13_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_14_activate",
+      "passed": true
+    },
+    {
+      "test": "0_14_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_14_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_14_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_14_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_14_claim",
+      "passed": true
+    },
+    {
+      "test": "0_14_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_15_activate",
+      "passed": true
+    },
+    {
+      "test": "0_15_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_15_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_15_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_15_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_15_claim",
+      "passed": true
+    },
+    {
+      "test": "0_15_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_16_activate",
+      "passed": true
+    },
+    {
+      "test": "0_16_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_16_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_16_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "0_16_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "0_uncollected_last_reward_not_complete",
+      "passed": true
+    },
+    {
+      "test": "0_16_claim",
+      "passed": true
+    },
+    {
+      "test": "0_16_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "0_not_awakened_outside_lab",
+      "passed": true
+    },
+    {
+      "test": "0_ready_quest",
+      "passed": true
+    },
+    {
+      "test": "0_gym_flags_untouched",
+      "passed": true
+    },
+    {
+      "test": "0_menu_directs_to_scene",
+      "passed": true
+    },
+    {
+      "test": "0_awaken",
+      "passed": true
+    },
+    {
+      "test": "0_normal_Plates_retained",
+      "passed": true
+    },
+    {
+      "test": "0_awakening_idempotent",
+      "passed": true
+    },
+    {
+      "test": "legend_Bag_returns_cleanly",
+      "passed": true
+    },
+    {
+      "test": "0_save",
+      "passed": true
+    },
+    {
+      "test": "0_reload",
+      "passed": true
+    },
+    {
+      "test": "0_persistent_research",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "1_no_research_before_tracker",
+      "passed": true
+    },
+    {
+      "test": "1_no_guardian_before_research",
+      "passed": true
+    },
+    {
+      "test": "1_research_grants_blank",
+      "passed": true
+    },
+    {
+      "test": "1_no_duplicate_blank",
+      "passed": true
+    },
+    {
+      "test": "1_same_category_as_Plates",
+      "passed": true
+    },
+    {
+      "test": "1_relics_protected",
+      "passed": true
+    },
+    {
+      "test": "1_not_in_store",
+      "passed": true
+    },
+    {
+      "test": "1_ownership_never_bypasses_guardians",
+      "passed": true
+    },
+    {
+      "test": "1_invalid_guardian_rejected",
+      "passed": true
+    },
+    {
+      "test": "1_0_activate",
+      "passed": true
+    },
+    {
+      "test": "1_0_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_0_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_0_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_0_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_guardian_menu_cannot_alias_Gym_flags",
+      "passed": true
+    },
+    {
+      "test": "1_full_Bag_keeps_victory_pending",
+      "passed": true
+    },
+    {
+      "test": "1_0_claim",
+      "passed": true
+    },
+    {
+      "test": "1_0_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_1_activate",
+      "passed": true
+    },
+    {
+      "test": "1_1_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_1_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_1_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_1_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_1_claim",
+      "passed": true
+    },
+    {
+      "test": "1_1_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_2_activate",
+      "passed": true
+    },
+    {
+      "test": "1_2_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_2_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_2_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_2_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_2_claim",
+      "passed": true
+    },
+    {
+      "test": "1_2_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_3_activate",
+      "passed": true
+    },
+    {
+      "test": "1_3_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_3_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_3_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_3_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_3_claim",
+      "passed": true
+    },
+    {
+      "test": "1_3_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_4_activate",
+      "passed": true
+    },
+    {
+      "test": "1_4_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_4_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_4_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_4_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_4_claim",
+      "passed": true
+    },
+    {
+      "test": "1_4_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_5_activate",
+      "passed": true
+    },
+    {
+      "test": "1_5_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_5_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_5_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_5_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_5_claim",
+      "passed": true
+    },
+    {
+      "test": "1_5_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_6_activate",
+      "passed": true
+    },
+    {
+      "test": "1_6_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_6_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_6_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_6_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_6_claim",
+      "passed": true
+    },
+    {
+      "test": "1_6_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_7_activate",
+      "passed": true
+    },
+    {
+      "test": "1_7_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_7_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_7_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_7_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_7_claim",
+      "passed": true
+    },
+    {
+      "test": "1_7_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_8_activate",
+      "passed": true
+    },
+    {
+      "test": "1_8_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_8_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_8_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_8_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_8_claim",
+      "passed": true
+    },
+    {
+      "test": "1_8_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_9_activate",
+      "passed": true
+    },
+    {
+      "test": "1_9_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_9_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_9_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_9_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_9_claim",
+      "passed": true
+    },
+    {
+      "test": "1_9_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_10_activate",
+      "passed": true
+    },
+    {
+      "test": "1_10_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_10_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_10_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_10_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_10_claim",
+      "passed": true
+    },
+    {
+      "test": "1_10_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_11_activate",
+      "passed": true
+    },
+    {
+      "test": "1_11_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_11_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_11_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_11_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_11_claim",
+      "passed": true
+    },
+    {
+      "test": "1_11_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_12_activate",
+      "passed": true
+    },
+    {
+      "test": "1_12_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_12_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_12_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_12_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_12_claim",
+      "passed": true
+    },
+    {
+      "test": "1_12_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_13_activate",
+      "passed": true
+    },
+    {
+      "test": "1_13_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_13_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_13_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_13_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_13_claim",
+      "passed": true
+    },
+    {
+      "test": "1_13_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_14_activate",
+      "passed": true
+    },
+    {
+      "test": "1_14_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_14_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_14_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_14_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_14_claim",
+      "passed": true
+    },
+    {
+      "test": "1_14_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_15_activate",
+      "passed": true
+    },
+    {
+      "test": "1_15_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_15_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_15_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_15_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_15_claim",
+      "passed": true
+    },
+    {
+      "test": "1_15_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_16_activate",
+      "passed": true
+    },
+    {
+      "test": "1_16_LOST_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_16_RAN_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_16_CAUGHT_not_completed",
+      "passed": true
+    },
+    {
+      "test": "1_16_victory_ready",
+      "passed": true
+    },
+    {
+      "test": "1_uncollected_last_reward_not_complete",
+      "passed": true
+    },
+    {
+      "test": "1_16_claim",
+      "passed": true
+    },
+    {
+      "test": "1_16_no_duplicate",
+      "passed": true
+    },
+    {
+      "test": "1_not_awakened_outside_lab",
+      "passed": true
+    },
+    {
+      "test": "1_ready_quest",
+      "passed": true
+    },
+    {
+      "test": "1_gym_flags_untouched",
+      "passed": true
+    },
+    {
+      "test": "1_menu_directs_to_scene",
+      "passed": true
+    },
+    {
+      "test": "1_awaken",
+      "passed": true
+    },
+    {
+      "test": "1_normal_Plates_retained",
+      "passed": true
+    },
+    {
+      "test": "1_awakening_idempotent",
+      "passed": true
+    },
+    {
+      "test": "1_save",
+      "passed": true
+    },
+    {
+      "test": "1_reload",
+      "passed": true
+    },
+    {
+      "test": "1_persistent_research",
+      "passed": true
+    },
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "legacy_Bag_items_retained",
+      "passed": true
+    },
+    {
+      "test": "legacy_Bag_new_slots_empty",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "9ba404980d89667748b17032c778fe2e3c5be24b8e516f58d0100ff3b982d195"
+}

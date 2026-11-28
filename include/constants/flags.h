@@ -2530,3 +2530,10 @@
 #define FLAG_LA_CHIMNEY_MAGMA_BEATEN 0x2B9
 #define FLAG_LA_CHIMNEY_AQUA_BEATEN 0x2BA
 #define FLAG_LA_CHIMNEY_ROCKET_BEATEN 0x2BB
+
+// Arceus research: active+won bits form a durable four-state guardian ledger.
+// 00 locked, 10 active, 11 won/reward pending, 01 reward collected.
+#define FLAG_LA_PLATE_ACTIVE_BASE FLAG_UNUSED_0x8E5 // 17 bits through 0x8F5
+#define FLAG_LA_BLANK_PLATE_RECEIVED FLAG_UNUSED_0x907
+#define FLAG_LA_PLATE_WON_BASE FLAG_UNUSED_0x908 // 17 bits through 0x918
+#define FLAG_LA_LEGEND_PLATE_AWAKENED FLAG_UNUSED_0x919

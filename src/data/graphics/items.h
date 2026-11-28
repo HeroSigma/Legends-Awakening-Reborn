@@ -2118,3 +2118,7 @@ const u32 gItemIcon_Pokevial3[] = INCGFX_U32("graphics/items/icons/pokevial3.png
 const u32 gItemIcon_Pokevial6[] = INCGFX_U32("graphics/items/icons/pokevial6.png", ".4bpp.smol");
 const u32 gItemIcon_Pokevial9[] = INCGFX_U32("graphics/items/icons/pokevial9.png", ".4bpp.smol");
 const u16 gItemIconPalette_Pokevial[] = INCBIN_U16("graphics/items/icon_palettes/pokevial.gbapal");
+
+const u16 gItemIconPalette_LegendPlate[] = INCGFX_U16("graphics/items/icon_palettes/legend_plate.pal", ".gbapal");
+
+const u32 gItemIcon_LegendPlate[] = INCGFX_U32("graphics/items/icons/legend_plate.png", ".4bpp.smol");

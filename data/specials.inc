@@ -671,3 +671,11 @@ gSpecials::
     def_special LegendsAshes_SetGraphics
     def_special LegendsAshes_HoopaPrepare
     def_special LegendsAshes_HoopaGranted
+
+    def_special LegendsPlates_PrepareBirch
+    def_special LegendsPlates_BeginResearch
+    def_special LegendsPlates_Awaken
+
+    def_special LegendsPlates_ActivateQuest
+    def_special LegendsPlates_RecordGuardianResult
+    def_special LegendsPlates_CollectResonance

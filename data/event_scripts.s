@@ -2795,3 +2795,5 @@ Text_LegacyFeatureDisabled:
 .include "data/maps/Galar_42_13_Wild_Area/scripts.inc"
 .include "data/maps/Galar_42_14_Wild_Area/scripts.inc"
 .include "data/maps/Galar_42_15_Wild_Area/scripts.inc"
+
+.include "data/scripts/legends_plates.inc"

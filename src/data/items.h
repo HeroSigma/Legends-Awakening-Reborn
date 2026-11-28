@@ -16122,6 +16122,21 @@ const struct ItemInfo gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+    [ITEM_BLANK_PLATE] = {
+        .name = ITEM_NAME("Blank Plate"), .price = 0, .importance = 1,
+        .description = COMPOUND_STRING("A silent relic. Use it\nto check the guardian\nresonances awakened."),
+        .pocket = POCKET_ITEMS, .sortType = ITEM_TYPE_PLATE,
+        .type = ITEM_USE_BAG_MENU, .fieldUseFunc = ItemUseOutOfBattle_LegendsPlate,
+        .iconPic = gItemIcon_Plate, .iconPalette = gItemIconPalette_IronPlate,
+    },
+    [ITEM_LEGEND_PLATE] = {
+        .name = ITEM_NAME("Legend Plate"), .price = 0, .importance = 1,
+        .description = COMPOUND_STRING("An awakened relic.\nSeventeen resonances\nanswer your presence."),
+        .pocket = POCKET_ITEMS, .sortType = ITEM_TYPE_PLATE,
+        .type = ITEM_USE_BAG_MENU, .fieldUseFunc = ItemUseOutOfBattle_LegendsPlate,
+        .iconPic = gItemIcon_LegendPlate, .iconPalette = gItemIconPalette_LegendPlate,
+    },
+
 };
 
 #undef ITEM_NAME

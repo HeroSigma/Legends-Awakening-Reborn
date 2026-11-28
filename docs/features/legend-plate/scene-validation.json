@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "test": "bedroom_spawn_0",
+      "passed": true
+    },
+    {
+      "test": "wake_and_no_exploration_supplies_0",
+      "passed": true
+    },
+    {
+      "test": "actual_Birch_offer_can_decline",
+      "passed": true
+    },
+    {
+      "test": "decline_grants_nothing",
+      "passed": true
+    },
+    {
+      "test": "actual_Birch_retry_can_accept",
+      "passed": true
+    },
+    {
+      "test": "accept_grants_one_blank",
+      "passed": true
+    },
+    {
+      "test": "research_not_offered_again",
+      "passed": true
+    },
+    {
+      "test": "actual_Birch_awakening_has_no_second_offer",
+      "passed": true
+    },
+    {
+      "test": "scene_upgrades_in_place",
+      "passed": true
+    },
+    {
+      "test": "scene_marks_awakened",
+      "passed": true
+    },
+    {
+      "test": "awakening_not_replayed",
+      "passed": true
+    },
+    {
+      "test": "control_restored",
+      "passed": true
+    }
+  ],
+  "user_save_loaded": false,
+  "rom_sha256": "9ba404980d89667748b17032c778fe2e3c5be24b8e516f58d0100ff3b982d195"
+}

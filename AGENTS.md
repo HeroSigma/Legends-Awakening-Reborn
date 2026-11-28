@@ -156,3 +156,7 @@ retained. The retired-bank redirect must keep naming the replacement constants.
 Galar metatiles use three layers and compact IDs. Do not rerun older two-layer
 import/repair tools on them. See docs/la_world/galar_recovery/README.md and the
 packing receipt; full pre-packed definitions are archived for future editing.
+
+## Plate quest foundation
+
+Work only in the canonical Legends-Awakening-Reborn directory; the retired Saffron worktree is removed. Blank/Legend Plate IDs 877/878 remain alongside ordinary Plates, not Mega Stones. Reserve flags 0x8E5?0x8F5 and 0x907?0x919 for Plate research/guardian receipts. Quest IDs 46?63 use this dedicated state; never extend the old quest ledger into Gym flags. Physical Plate ownership is not guardian completion. Preserve retryable reward delivery and Birch-only final awakening. Guardian placement, SOS and adaptive Judgment are subsequent work, not completed by this foundation.
