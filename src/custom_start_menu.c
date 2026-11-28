@@ -24,7 +24,6 @@ static const u16 sPalettes[][16] = {
     INCGFX_U16("graphics/legends_start_menu/bg2.pal", ".gbapal"),
     INCGFX_U16("graphics/legends_start_menu/bg3.pal", ".gbapal"),
 };
-static const struct CompressedSpriteSheet sSheet={sIcons,11264,ICON_TAG};
 static const struct SpritePalette sPal={sIconPalette,ICON_TAG};
 static const struct OamData sOam={.shape=SPRITE_SHAPE(32x32),.size=SPRITE_SIZE(32x32),.priority=0};
 #define ANIM(i) static const union AnimCmd sAnim##i[]={ANIMCMD_FRAME((i)*16,0),ANIMCMD_END};
@@ -32,7 +31,7 @@ ANIM(0) ANIM(1) ANIM(2) ANIM(3) ANIM(4) ANIM(5) ANIM(6) ANIM(7)
 ANIM(8) ANIM(9) ANIM(10) ANIM(11) ANIM(12) ANIM(13) ANIM(14) ANIM(15) ANIM(16) ANIM(17) ANIM(18) ANIM(19) ANIM(20) ANIM(21)
 static const union AnimCmd *const sAnims[]={sAnim0,sAnim1,sAnim2,sAnim3,sAnim4,sAnim5,sAnim6,sAnim7,sAnim8,sAnim9,sAnim10,sAnim11,sAnim12,sAnim13,sAnim14,sAnim15,sAnim16,sAnim17,sAnim18,sAnim19,sAnim20,sAnim21};
 static const struct SpriteTemplate sTemplate={.tileTag=ICON_TAG,.paletteTag=ICON_TAG,.oam=&sOam,.anims=sAnims,.images=NULL,.affineAnims=gDummySpriteAffineAnimTable,.callback=SpriteCallbackDummy};
-static EWRAM_DATA struct {u8 sprites[8],icons[8],count,clock,label;u16 backdrops[2][36];} *sCustomMenu=NULL;
+static EWRAM_DATA struct {u8 sprites[8],icons[8],count,clock,label;u16 backdrops[2][36];u8 *iconGfx;} *sCustomMenu=NULL;
 static const struct WindowTemplate sClockWin={.bg=0,.tilemapLeft=2,.tilemapTop=17,.width=12,.height=2,.paletteNum=14,.baseBlock=0x30};
 static const struct WindowTemplate sLabelWin={.bg=0,.tilemapLeft=16,.tilemapTop=17,.width=10,.height=2,.paletteNum=14,.baseBlock=0x48};
 bool32 CustomStartMenu_IsActive(void){return sCustomMenu!=NULL;}
@@ -68,7 +67,12 @@ void CustomStartMenu_Select(u8 cursor,const u8 *label)
     if(!sCustomMenu)return;
     for(i=0;i<sCustomMenu->count;i++)
         if(sCustomMenu->sprites[i]!=MAX_SPRITES)
-            StartSpriteAnim(&gSprites[sCustomMenu->sprites[i]],sCustomMenu->icons[i]+(i==cursor?0:sCustomMenu->icons[i]>=14?1:7));
+        {
+            u32 frame=sCustomMenu->icons[i]+(i==cursor?0:sCustomMenu->icons[i]>=14?1:7);
+            u16 tile=GetSpriteTileStartByTag(ICON_TAG+i);
+            if (tile!=0xFFFF)
+                CpuCopy16(sCustomMenu->iconGfx+frame*512,(void *)(OBJ_VRAM0+tile*TILE_SIZE_4BPP),512);
+        }
     // Keep the long store name inside Vol's original seven-tile panel.
     if(!StringCompare(label,COMPOUND_STRING("LEGENDS STORE")))label=COMPOUND_STRING("STORE");
     RestoreFooter(sCustomMenu->label,1);
@@ -90,16 +94,23 @@ bool32 CustomStartMenu_Open(const u8 *icons,u8 count,u8 cursor,const u8 *label,u
     for(i=0;i<20;i++)sCustomMenu->backdrops[1][i]=((u16 *)GetBgTilemapBuffer(0))[(17+i/10)*32+16+i%10];
     LoadPalette(sPalettes[CustomStartMenu_GetTheme()],BG_PLTT_ID(14),PLTT_SIZE_4BPP);
     LoadPalette(gStandardMenuPalette,BG_PLTT_ID(15),PLTT_SIZE_4BPP);
-    LoadCompressedSpriteSheet(&sSheet);LoadSpritePalette(&sPal);
-    // Keep the custom panels and selection label if the field runs out of sprite resources.
-    if (GetSpriteTileStartByTag(ICON_TAG) != 0xFFFF && IndexOfSpritePaletteTag(ICON_TAG) != 0xFF)
+    // Only one 32x32 frame per visible row belongs in OBJ VRAM. Loading the
+    // entire 22-frame sheet needs an 11KB contiguous allocation, which can fail
+    // after field encounters/Store visits fragment sprite tiles.
+    sCustomMenu->iconGfx=malloc_and_decompress(sIcons,NULL);
+    LoadSpritePalette(&sPal);
+    if (sCustomMenu->iconGfx && IndexOfSpritePaletteTag(ICON_TAG)!=0xFF)
     {
-        for (i = 0; i < sCustomMenu->count; i++)
+        for (i=0;i<sCustomMenu->count;i++)
         {
-            sCustomMenu->icons[i] = icons[i];
-            sCustomMenu->sprites[i] = CreateSprite(&sTemplate, 224, 12 + i * 17, 0);
-            if (sCustomMenu->sprites[i] == MAX_SPRITES)
-                break;
+            struct SpriteSheet sheet={sCustomMenu->iconGfx,512,ICON_TAG+i};
+            struct SpriteTemplate template=sTemplate;
+            sCustomMenu->icons[i]=icons[i];
+            LoadSpriteSheet(&sheet);
+            if (GetSpriteTileStartByTag(ICON_TAG+i)==0xFFFF) break;
+            template.tileTag=ICON_TAG+i;
+            sCustomMenu->sprites[i]=CreateSprite(&template,224,12+i*17,0);
+            if (sCustomMenu->sprites[i]==MAX_SPRITES) break;
         }
     }
     RtcCalcLocalTime();p=ConvertIntToDecimalStringN(time,gLocalTime.hours,STR_CONV_MODE_LEADING_ZEROS,2);*p++=CHAR_COLON;ConvertIntToDecimalStringN(p,gLocalTime.minutes,STR_CONV_MODE_LEADING_ZEROS,2);
@@ -113,7 +124,9 @@ void CustomStartMenu_Close(void)
 {
     u32 i;if(!sCustomMenu)return;
     for(i=0;i<sCustomMenu->count;i++)if(sCustomMenu->sprites[i]!=MAX_SPRITES)DestroySprite(&gSprites[sCustomMenu->sprites[i]]);
-    FreeSpriteTilesByTag(ICON_TAG);FreeSpritePaletteByTag(ICON_TAG);
+    for(i=0;i<8;i++)FreeSpriteTilesByTag(ICON_TAG+i);
+    FreeSpritePaletteByTag(ICON_TAG);
+    if(sCustomMenu->iconGfx)Free(sCustomMenu->iconGfx);
     if(sCustomMenu->clock!=WINDOW_NONE)RemoveWindow(sCustomMenu->clock);
     if(sCustomMenu->label!=WINDOW_NONE)RemoveWindow(sCustomMenu->label);
     FREE_AND_SET_NULL(sCustomMenu);

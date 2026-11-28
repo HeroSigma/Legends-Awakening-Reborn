@@ -110,11 +110,11 @@
       "passed": true
     },
     {
-      "test": "Journal opens",
+      "test": "Quests opens",
       "passed": true
     },
     {
-      "test": "Journal returns control",
+      "test": "Quests returns control",
       "passed": true
     },
     {
@@ -326,11 +326,11 @@
       "passed": true
     },
     {
-      "test": "Journal opens",
+      "test": "Quests opens",
       "passed": true
     },
     {
-      "test": "Journal returns control",
+      "test": "Quests returns control",
       "passed": true
     },
     {
@@ -434,5 +434,5 @@
       "passed": true
     }
   ],
-  "rom_sha256": "65051c6f75043f6b27160627a369bd68587db4a8294201d0136c1c007c21d792"
+  "rom_sha256": "6ffa928c67d0a37e7d390cf1333d6a0e7c62dc1f27dd75a205fdc938349a997d"
 }

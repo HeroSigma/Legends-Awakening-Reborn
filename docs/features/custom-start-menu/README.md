@@ -21,3 +21,11 @@ Rotom Phone was evaluated but is not installed. Quest icons, new quests and the 
 ## Footer correction
 
 Restores Vol's original background tilemap, with only palette-bank references adapted to this engine. The original shaped footer and two bordered inset panels remain intact. Text windows copy the artwork beneath them rather than replacing it with opaque white rectangles. Clock and L/R hint fit the left panel; app labels fit the original right panel (Legends Store displays STORE). Theme switching and both action pages remain available. All 554 checks pass on this build.
+
+## Store return: fragmented sprite tiles
+
+Menu icons now allocate one 512-byte sprite sheet per visible row instead of the complete 11,264-byte icon atlas. Selecting a row copies its selected/unselected frame into that row's existing tiles, so moving the cursor allocates no additional sprite memory. Closing the menu frees every row tag and the decompressed RAM atlas. Sheet-load success is checked through the registered tile tag because this engine returns zero on allocation failure.
+
+`test_store_menu_icons.py` exercises real Start-menu Store entry/exit, quantity cancellation, B/Start exits, repeated visits, cursor changes and both pages for both characters. It compares every visible icon's actual VRAM pixels against the indexed source image. Under forced 512-byte fragmentation, the former whole-sheet allocation fails while all visible row allocations pass. The general custom-menu suite also covers themes, Options returns, save cancellation, Quests and repeated closing. Updated its old Journal-row assertion to the current Quests row. No user save is loaded.
+
+Native screenshots and the Store-specific validation are in `store-return/`.

@@ -41,11 +41,11 @@ for mode in [0,1]:
  shutil.copy2(shot('custom_save'),D/'save.png')
  frames(120);tap(2);frames(100);check('cancel save rebuilds icons',rd(symbols['sCustomMenu'])!=0)
  tap(2);frames(30)
- # Opening the Journal uses the native field overlay and clears menu resources.
+ # Opening Quests uses the native field overlay and clears menu resources.
  openmenu(1);tap(128);tap(1);frames(40)
- check('Journal opens',active('Task_AdventureJournal') is not None and rd(symbols['sCustomMenu'])==0)
+ check('Quests opens',active('Task_Quests') is not None and rd(symbols['sCustomMenu'])==0)
  tap(2);frames(30)
- check('Journal returns control',invoke('ArePlayerFieldControlsLocked')==0)
+ check('Quests returns control',invoke('ArePlayerFieldControlsLocked')==0)
  for i in range(12):
   openmenu(i%2);tap(2);frames(5);check('repeat clean '+str((mode,i)),rd(symbols['sCustomMenu'])==0)
  invoke('CustomStartMenu_SetTheme',999);check('invalid theme clamped',invoke('CustomStartMenu_GetTheme')==0)
